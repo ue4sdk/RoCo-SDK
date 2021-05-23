@@ -21,7 +21,7 @@ namespace SDK
 
 bool UWBP_CustomizeBorder_C::OnSortRarityDescNameAsc(class UWidget* LHS, class UWidget* RHS)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnSortRarityDescNameAsc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnSortRarityDescNameAsc"));
 
 	struct
 	{
@@ -48,7 +48,7 @@ bool UWBP_CustomizeBorder_C::OnSortRarityDescNameAsc(class UWidget* LHS, class U
 
 struct FEventReply UWBP_CustomizeBorder_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnKeyDown"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ struct FEventReply UWBP_CustomizeBorder_C::OnKeyDown(const struct FGeometry& MyG
 
 bool UWBP_CustomizeBorder_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.NavigateBack"));
 
 	struct
 	{
@@ -92,7 +92,7 @@ bool UWBP_CustomizeBorder_C::NavigateBack()
 
 void UWBP_CustomizeBorder_C::AddEmptySlots()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.AddEmptySlots");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.AddEmptySlots"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_CustomizeBorder_C::AddEmptySlots()
 
 void UWBP_CustomizeBorder_C::SetActiveStates(class UWBP_CosmeticItem_Border_C* ActiveWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.SetActiveStates");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.SetActiveStates"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_CustomizeBorder_C::SetActiveStates(class UWBP_CosmeticItem_Border_C* A
 
 void UWBP_CustomizeBorder_C::RegisterNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.RegisterNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.RegisterNavigation"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_CustomizeBorder_C::RegisterNavigation()
 
 void UWBP_CustomizeBorder_C::IsBorderItemEquipped(class UKSItem* KSItem, bool* IsEquipped)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.IsBorderItemEquipped");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.IsBorderItemEquipped"));
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_CustomizeBorder_C::IsBorderItemEquipped(class UKSItem* KSItem, bool* I
 
 void UWBP_CustomizeBorder_C::ResetBorderSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.ResetBorderSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.ResetBorderSelection"));
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UWBP_CustomizeBorder_C::ResetBorderSelection()
 
 void UWBP_CustomizeBorder_C::SetContextBar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.SetContextBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.SetContextBar"));
 
 	struct
 	{
@@ -201,7 +201,7 @@ void UWBP_CustomizeBorder_C::SetContextBar()
 
 void UWBP_CustomizeBorder_C::SetBorderSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.SetBorderSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.SetBorderSelection"));
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWBP_CustomizeBorder_C::SetBorderSelection()
 
 void UWBP_CustomizeBorder_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.InitializeWidget"));
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_CustomizeBorder_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CustomizeBorder_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UWBP_CustomizeBorder_C::InitializeWidgetNavigation()
 
 void UWBP_CustomizeBorder_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnShown"));
 
 	struct
 	{
@@ -269,7 +269,7 @@ void UWBP_CustomizeBorder_C::OnShown()
 
 void UWBP_CustomizeBorder_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnHide"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_CustomizeBorder_C::OnHide()
 
 void UWBP_CustomizeBorder_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBackPrompt"));
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_CustomizeBorder_C::OnBackPrompt()
 
 void UWBP_CustomizeBorder_C::OnBorderHover(class UPlatformInventoryItem* PlatformItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBorderHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBorderHover"));
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UWBP_CustomizeBorder_C::OnBorderHover(class UPlatformInventoryItem* Platfor
 
 void UWBP_CustomizeBorder_C::OnBorderUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBorderUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBorderUnhover"));
 
 	struct
 	{
@@ -340,7 +340,7 @@ void UWBP_CustomizeBorder_C::OnBorderUnhover()
 
 void UWBP_CustomizeBorder_C::OnBorderSelected(class UPlatformInventoryItem* PlatformItem, class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBorderSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBorderSelected"));
 
 	struct
 	{
@@ -363,7 +363,7 @@ void UWBP_CustomizeBorder_C::OnBorderSelected(class UPlatformInventoryItem* Plat
 
 void UWBP_CustomizeBorder_C::OnBorderGamepadHover(class UPUMG_Widget* Widget, bool bHovered)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBorderGamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.OnBorderGamepadHover"));
 
 	struct
 	{
@@ -385,7 +385,7 @@ void UWBP_CustomizeBorder_C::OnBorderGamepadHover(class UPUMG_Widget* Widget, bo
 
 void UWBP_CustomizeBorder_C::ExecuteUbergraph_WBP_CustomizeBorder(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.ExecuteUbergraph_WBP_CustomizeBorder");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBorder.WBP_CustomizeBorder_C.ExecuteUbergraph_WBP_CustomizeBorder"));
 
 	struct
 	{

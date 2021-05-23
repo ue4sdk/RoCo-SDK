@@ -20,7 +20,7 @@ namespace SDK
 
 void UContextualPingMarker_C::MovePing(EPingType PingType, EPingMessage PingMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.MovePing");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.MovePing"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UContextualPingMarker_C::MovePing(EPingType PingType, EPingMessage PingMess
 
 void UContextualPingMarker_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.Construct"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UContextualPingMarker_C::Construct()
 
 void UContextualPingMarker_C::HandlePingRemoved()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.HandlePingRemoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.HandlePingRemoved"));
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UContextualPingMarker_C::HandlePingRemoved()
 
 void UContextualPingMarker_C::SetScreenRegion(EIconMarkerScreenRegion ScreenRegion)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.SetScreenRegion");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.SetScreenRegion"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UContextualPingMarker_C::SetScreenRegion(EIconMarkerScreenRegion ScreenRegi
 
 void UContextualPingMarker_C::SetArrowAngle(float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.SetArrowAngle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.SetArrowAngle"));
 
 	struct
 	{
@@ -112,7 +112,7 @@ void UContextualPingMarker_C::SetArrowAngle(float Angle)
 
 void UContextualPingMarker_C::SetupPingOnReady()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.SetupPingOnReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.SetupPingOnReady"));
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UContextualPingMarker_C::SetupPingOnReady()
 
 void UContextualPingMarker_C::PlayActivationAnim(bool bPlayActiveAnim)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.PlayActivationAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.PlayActivationAnim"));
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UContextualPingMarker_C::PlayActivationAnim(bool bPlayActiveAnim)
 
 void UContextualPingMarker_C::PlayActiveStateAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.PlayActiveStateAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.PlayActiveStateAnim"));
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UContextualPingMarker_C::PlayActiveStateAnim()
 
 void UContextualPingMarker_C::UpdateMetersAway(int Meters)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.UpdateMetersAway");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.UpdateMetersAway"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UContextualPingMarker_C::UpdateMetersAway(int Meters)
 
 void UContextualPingMarker_C::HandlePingChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.HandlePingChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.HandlePingChanged"));
 
 	struct
 	{
@@ -202,7 +202,7 @@ void UContextualPingMarker_C::HandlePingChanged()
 
 void UContextualPingMarker_C::ExecuteUbergraph_ContextualPingMarker(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ContextualPingMarker.ContextualPingMarker_C.ExecuteUbergraph_ContextualPingMarker");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ContextualPingMarker.ContextualPingMarker_C.ExecuteUbergraph_ContextualPingMarker"));
 
 	struct
 	{

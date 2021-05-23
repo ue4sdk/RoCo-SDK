@@ -19,7 +19,7 @@ namespace SDK
 
 void UBuyMenuItemWidgetInterface_C::RefreshData(class AKSPlayerShop* Player_Shop)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BuyMenuItemWidgetInterface.BuyMenuItemWidgetInterface_C.RefreshData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BuyMenuItemWidgetInterface.BuyMenuItemWidgetInterface_C.RefreshData"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UBuyMenuItemWidgetInterface_C::RefreshData(class AKSPlayerShop* Player_Shop
 
 void UBuyMenuItemWidgetInterface_C::PurchaseAcknowledge()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BuyMenuItemWidgetInterface.BuyMenuItemWidgetInterface_C.PurchaseAcknowledge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BuyMenuItemWidgetInterface.BuyMenuItemWidgetInterface_C.PurchaseAcknowledge"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UBuyMenuItemWidgetInterface_C::PurchaseAcknowledge()
 
 void UBuyMenuItemWidgetInterface_C::Get_Shop_Item_Type(EShopItemType* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BuyMenuItemWidgetInterface.BuyMenuItemWidgetInterface_C.Get Shop Item Type");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BuyMenuItemWidgetInterface.BuyMenuItemWidgetInterface_C.Get Shop Item Type"));
 
 	struct
 	{

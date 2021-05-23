@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_YellowButton_C::GetGamepadPromptKey(bool* HasValidKeyPrompt, struct FKey* GamepadKey)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.GetGamepadPromptKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.GetGamepadPromptKey"));
 
 	struct
 	{
@@ -45,7 +45,7 @@ void UWBP_YellowButton_C::GetGamepadPromptKey(bool* HasValidKeyPrompt, struct FK
 
 void UWBP_YellowButton_C::SetKeyPrompt(const struct FKey& GamepadButton)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.SetKeyPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.SetKeyPrompt"));
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UWBP_YellowButton_C::SetKeyPrompt(const struct FKey& GamepadButton)
 
 void UWBP_YellowButton_C::SetDefaultDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.SetDefaultDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.SetDefaultDisplay"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_YellowButton_C::SetDefaultDisplay()
 
 void UWBP_YellowButton_C::SetButtonText(const struct FText& ButtonText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.SetButtonText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.SetButtonText"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_YellowButton_C::SetButtonText(const struct FText& ButtonText)
 
 bool UWBP_YellowButton_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.NavigateConfirm"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ bool UWBP_YellowButton_C::NavigateConfirm()
 
 void UWBP_YellowButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.PreConstruct"));
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_YellowButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_YellowButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.Construct"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_YellowButton_C::Construct()
 
 void UWBP_YellowButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_YellowButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnB
 
 void UWBP_YellowButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_YellowButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnB
 
 void UWBP_YellowButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_YellowButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnB
 
 void UWBP_YellowButton_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.GamepadHover"));
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_YellowButton_C::GamepadHover()
 
 void UWBP_YellowButton_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.GamepadUnhover"));
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_YellowButton_C::GamepadUnhover()
 
 void UWBP_YellowButton_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.GamepadConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.GamepadConfirm"));
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_YellowButton_C::GamepadConfirm()
 
 void UWBP_YellowButton_C::Do_Hover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.Do Hover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.Do Hover"));
 
 	struct
 	{
@@ -268,7 +268,7 @@ void UWBP_YellowButton_C::Do_Hover()
 
 void UWBP_YellowButton_C::Do_Unhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.Do Unhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.Do Unhover"));
 
 	struct
 	{
@@ -286,7 +286,7 @@ void UWBP_YellowButton_C::Do_Unhover()
 
 void UWBP_YellowButton_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.InitializeWidget"));
 
 	struct
 	{
@@ -306,7 +306,7 @@ void UWBP_YellowButton_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_YellowButton_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.HandleInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.HandleInputStateChanged"));
 
 	struct
 	{
@@ -324,7 +324,7 @@ void UWBP_YellowButton_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE
 
 void UWBP_YellowButton_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.OnInitialized");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.OnInitialized"));
 
 	struct
 	{
@@ -342,7 +342,7 @@ void UWBP_YellowButton_C::OnInitialized()
 
 void UWBP_YellowButton_C::ExecuteUbergraph_WBP_YellowButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.ExecuteUbergraph_WBP_YellowButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.ExecuteUbergraph_WBP_YellowButton"));
 
 	struct
 	{
@@ -362,7 +362,7 @@ void UWBP_YellowButton_C::ExecuteUbergraph_WBP_YellowButton(int EntryPoint)
 
 void UWBP_YellowButton_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.OnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.OnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -382,7 +382,7 @@ void UWBP_YellowButton_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 
 void UWBP_YellowButton_C::OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.OnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.OnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -402,7 +402,7 @@ void UWBP_YellowButton_C::OnHovered__DelegateSignature(class UWidget* Widget)
 
 void UWBP_YellowButton_C::OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_YellowButton.WBP_YellowButton_C.OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_YellowButton.WBP_YellowButton_C.OnClicked__DelegateSignature"));
 
 	struct
 	{

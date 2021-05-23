@@ -65,7 +65,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C"));
 		return ptr;
 	}
 

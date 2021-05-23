@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ChallengeEntry_Card_C::GetCurrentChallengeId(int* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.GetCurrentChallengeId");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.GetCurrentChallengeId"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_ChallengeEntry_Card_C::GetCurrentChallengeId(int* Return_Value)
 
 bool UWBP_ChallengeEntry_Card_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.NavigateConfirm"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ bool UWBP_ChallengeEntry_Card_C::NavigateConfirm()
 
 void UWBP_ChallengeEntry_Card_C::SetChallengeData(class UKSActivityInstance* ChallengeActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.SetChallengeData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.SetChallengeData"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWBP_ChallengeEntry_Card_C::SetChallengeData(class UKSActivityInstance* Cha
 
 void UWBP_ChallengeEntry_Card_C::SetVisualState(TEnumAsByte<EChallengeEntry_Card_State> State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.SetVisualState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.SetVisualState"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWBP_ChallengeEntry_Card_C::SetVisualState(TEnumAsByte<EChallengeEntry_Card
 
 void UWBP_ChallengeEntry_Card_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.PreConstruct"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UWBP_ChallengeEntry_Card_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ChallengeEntry_Card_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UWBP_ChallengeEntry_Card_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent
 
 void UWBP_ChallengeEntry_Card_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_ChallengeEntry_Card_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent
 
 void UWBP_ChallengeEntry_Card_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UWBP_ChallengeEntry_Card_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_
 
 void UWBP_ChallengeEntry_Card_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UWBP_ChallengeEntry_Card_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_
 
 void UWBP_ChallengeEntry_Card_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.GamepadHover"));
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_ChallengeEntry_Card_C::GamepadHover()
 
 void UWBP_ChallengeEntry_Card_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.GamepadUnhover"));
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_ChallengeEntry_Card_C::GamepadUnhover()
 
 void UWBP_ChallengeEntry_Card_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.InitializeWidget"));
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UWBP_ChallengeEntry_Card_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_ChallengeEntry_Card_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.Handle Input State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.Handle Input State Changed"));
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UWBP_ChallengeEntry_Card_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_I
 
 void UWBP_ChallengeEntry_Card_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_ChallengeEntry_Card_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent
 
 void UWBP_ChallengeEntry_Card_C::TryReroll()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.TryReroll");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.TryReroll"));
 
 	struct
 	{
@@ -288,7 +288,7 @@ void UWBP_ChallengeEntry_Card_C::TryReroll()
 
 void UWBP_ChallengeEntry_Card_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -304,7 +304,7 @@ void UWBP_ChallengeEntry_Card_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_
 
 void UWBP_ChallengeEntry_Card_C::Play_Reroll_Anim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.Play Reroll Anim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.Play Reroll Anim"));
 
 	struct
 	{
@@ -322,7 +322,7 @@ void UWBP_ChallengeEntry_Card_C::Play_Reroll_Anim()
 
 void UWBP_ChallengeEntry_Card_C::ExecuteUbergraph_WBP_ChallengeEntry_Card(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.ExecuteUbergraph_WBP_ChallengeEntry_Card");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Card.WBP_ChallengeEntry_Card_C.ExecuteUbergraph_WBP_ChallengeEntry_Card"));
 
 	struct
 	{

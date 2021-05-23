@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C"));
 		return ptr;
 	}
 

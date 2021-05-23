@@ -19,7 +19,7 @@ namespace SDK
 
 float UExtractionRewards_C::GetRewardXpPerMin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ExtractionRewards.ExtractionRewards_C.GetRewardXpPerMin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExtractionRewards.ExtractionRewards_C.GetRewardXpPerMin"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ float UExtractionRewards_C::GetRewardXpPerMin()
 
 float UExtractionRewards_C::GetWinBonusMultiplier()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ExtractionRewards.ExtractionRewards_C.GetWinBonusMultiplier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExtractionRewards.ExtractionRewards_C.GetWinBonusMultiplier"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ float UExtractionRewards_C::GetWinBonusMultiplier()
 
 void UExtractionRewards_C::GetStatsOrdering(TArray<EPlayerStatType>* StatsOrdering)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ExtractionRewards.ExtractionRewards_C.GetStatsOrdering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExtractionRewards.ExtractionRewards_C.GetStatsOrdering"));
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UExtractionRewards_C::GetStatsOrdering(TArray<EPlayerStatType>* StatsOrderi
 
 bool UExtractionRewards_C::GetRewardsFromStat(const struct FPlayerMatchStatInfo& PlayerStatInfo, float* OutExpRewardValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ExtractionRewards.ExtractionRewards_C.GetRewardsFromStat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExtractionRewards.ExtractionRewards_C.GetRewardsFromStat"));
 
 	struct
 	{
@@ -112,7 +112,7 @@ bool UExtractionRewards_C::GetRewardsFromStat(const struct FPlayerMatchStatInfo&
 
 float UExtractionRewards_C::GetBaseExpValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ExtractionRewards.ExtractionRewards_C.GetBaseExpValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExtractionRewards.ExtractionRewards_C.GetBaseExpValue"));
 
 	struct
 	{

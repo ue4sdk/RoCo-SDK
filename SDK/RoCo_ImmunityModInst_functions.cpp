@@ -17,7 +17,7 @@ namespace SDK
 
 void UImmunityModInst_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ImmunityModInst.ImmunityModInst_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ImmunityModInst.ImmunityModInst_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UImmunityModInst_C::ReceiveBeginPlay()
 
 void UImmunityModInst_C::ReceiveTick(float DeltaSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ImmunityModInst.ImmunityModInst_C.ReceiveTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ImmunityModInst.ImmunityModInst_C.ReceiveTick"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UImmunityModInst_C::ReceiveTick(float DeltaSeconds)
 
 void UImmunityModInst_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ImmunityModInst.ImmunityModInst_C.ReceiveEndPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ImmunityModInst.ImmunityModInst_C.ReceiveEndPlay"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UImmunityModInst_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReaso
 
 void UImmunityModInst_C::OnNewCharacter()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ImmunityModInst.ImmunityModInst_C.OnNewCharacter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ImmunityModInst.ImmunityModInst_C.OnNewCharacter"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UImmunityModInst_C::OnNewCharacter()
 
 void UImmunityModInst_C::ExecuteUbergraph_ImmunityModInst(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ImmunityModInst.ImmunityModInst_C.ExecuteUbergraph_ImmunityModInst");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ImmunityModInst.ImmunityModInst_C.ExecuteUbergraph_ImmunityModInst"));
 
 	struct
 	{

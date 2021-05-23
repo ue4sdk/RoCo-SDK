@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_QuickPlay_C::OpenRankedOverview()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OpenRankedOverview");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OpenRankedOverview"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_QuickPlay_C::OpenRankedOverview()
 
 void UWBP_QuickPlay_C::PopulateRankedScreenData(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.PopulateRankedScreenData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.PopulateRankedScreenData"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_QuickPlay_C::PopulateRankedScreenData(int QueueId)
 
 void UWBP_QuickPlay_C::SetMapList(TArray<struct FMapDetail>* MapList)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.SetMapList");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.SetMapList"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_QuickPlay_C::SetMapList(TArray<struct FMapDetail>* MapList)
 
 struct FEventReply UWBP_QuickPlay_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OnKeyDown"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ struct FEventReply UWBP_QuickPlay_C::OnKeyDown(const struct FGeometry& MyGeometr
 
 struct FEventReply UWBP_QuickPlay_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OnKeyUp"));
 
 	struct
 	{
@@ -131,7 +131,7 @@ struct FEventReply UWBP_QuickPlay_C::OnKeyUp(const struct FGeometry& MyGeometry,
 
 void UWBP_QuickPlay_C::UpdateWarning(const struct FClientQueueInfo& ClientQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.UpdateWarning");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.UpdateWarning"));
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_QuickPlay_C::UpdateWarning(const struct FClientQueueInfo& ClientQueueI
 
 void UWBP_QuickPlay_C::SetMapRotation(TArray<struct FUIMapInfo>* MapRotations)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.SetMapRotation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.SetMapRotation"));
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UWBP_QuickPlay_C::SetMapRotation(TArray<struct FUIMapInfo>* MapRotations)
 
 void UWBP_QuickPlay_C::SetTouchActiveState(const struct FClientQueueInfo& QueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.SetTouchActiveState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.SetTouchActiveState"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_QuickPlay_C::SetTouchActiveState(const struct FClientQueueInfo& QueueI
 
 void UWBP_QuickPlay_C::SetQueueButtonNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.SetQueueButtonNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.SetQueueButtonNavigation"));
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UWBP_QuickPlay_C::SetQueueButtonNavigation()
 
 void UWBP_QuickPlay_C::GoToQueueScreen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.GoToQueueScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.GoToQueueScreen"));
 
 	struct
 	{
@@ -223,7 +223,7 @@ void UWBP_QuickPlay_C::GoToQueueScreen()
 
 void UWBP_QuickPlay_C::ResetDetails()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.ResetDetails");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.ResetDetails"));
 
 	struct
 	{
@@ -241,7 +241,7 @@ void UWBP_QuickPlay_C::ResetDetails()
 
 void UWBP_QuickPlay_C::UpdateDetails(const struct FClientQueueInfo& QueueButton)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.UpdateDetails");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.UpdateDetails"));
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UWBP_QuickPlay_C::UpdateDetails(const struct FClientQueueInfo& QueueButton)
 
 void UWBP_QuickPlay_C::ReconcileGameModeButtonEnabling()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.ReconcileGameModeButtonEnabling");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.ReconcileGameModeButtonEnabling"));
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UWBP_QuickPlay_C::ReconcileGameModeButtonEnabling()
 
 bool UWBP_QuickPlay_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.NavigateBack"));
 
 	struct
 	{
@@ -298,7 +298,7 @@ bool UWBP_QuickPlay_C::NavigateBack()
 
 void UWBP_QuickPlay_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleInputModeChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleInputModeChanged"));
 
 	struct
 	{
@@ -316,7 +316,7 @@ void UWBP_QuickPlay_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> In
 
 void UWBP_QuickPlay_C::SetDefaultFocusForQueues()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.SetDefaultFocusForQueues");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.SetDefaultFocusForQueues"));
 
 	struct
 	{
@@ -332,7 +332,7 @@ void UWBP_QuickPlay_C::SetDefaultFocusForQueues()
 
 void UWBP_QuickPlay_C::ResetQueueSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.ResetQueueSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.ResetQueueSelection"));
 
 	struct
 	{
@@ -348,7 +348,7 @@ void UWBP_QuickPlay_C::ResetQueueSelection()
 
 void UWBP_QuickPlay_C::SetupQueueButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.SetupQueueButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.SetupQueueButtons"));
 
 	struct
 	{
@@ -364,7 +364,7 @@ void UWBP_QuickPlay_C::SetupQueueButtons()
 
 void UWBP_QuickPlay_C::StartHideAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.StartHideAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.StartHideAnim"));
 
 	struct
 	{
@@ -380,7 +380,7 @@ void UWBP_QuickPlay_C::StartHideAnim()
 
 void UWBP_QuickPlay_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.InitializeTickAnimations");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.InitializeTickAnimations"));
 
 	struct
 	{
@@ -396,7 +396,7 @@ void UWBP_QuickPlay_C::InitializeTickAnimations()
 
 void UWBP_QuickPlay_C::InitHideAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.InitHideAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.InitHideAnimation"));
 
 	struct
 	{
@@ -412,7 +412,7 @@ void UWBP_QuickPlay_C::InitHideAnimation()
 
 void UWBP_QuickPlay_C::ShowQueueTitleFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.ShowQueueTitleFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.ShowQueueTitleFinished"));
 
 	struct
 	{
@@ -431,7 +431,7 @@ void UWBP_QuickPlay_C::ShowQueueTitleFinished()
 
 void UWBP_QuickPlay_C::ShowQueueTitleAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.ShowQueueTitleAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.ShowQueueTitleAnim"));
 
 	struct
 	{
@@ -451,7 +451,7 @@ void UWBP_QuickPlay_C::ShowQueueTitleAnim(float ElapsedTime, float ElapsedAlpha)
 
 void UWBP_QuickPlay_C::HideQueueTitleFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HideQueueTitleFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HideQueueTitleFinished"));
 
 	struct
 	{
@@ -470,7 +470,7 @@ void UWBP_QuickPlay_C::HideQueueTitleFinished()
 
 void UWBP_QuickPlay_C::HideQueueTitleAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HideQueueTitleAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HideQueueTitleAnim"));
 
 	struct
 	{
@@ -490,7 +490,7 @@ void UWBP_QuickPlay_C::HideQueueTitleAnim(float ElapsedTime, float ElapsedAlpha)
 
 void UWBP_QuickPlay_C::ShowQueueSelectionFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.ShowQueueSelectionFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.ShowQueueSelectionFinished"));
 
 	struct
 	{
@@ -509,7 +509,7 @@ void UWBP_QuickPlay_C::ShowQueueSelectionFinished()
 
 void UWBP_QuickPlay_C::ShowQueueSelectionAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.ShowQueueSelectionAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.ShowQueueSelectionAnim"));
 
 	struct
 	{
@@ -529,7 +529,7 @@ void UWBP_QuickPlay_C::ShowQueueSelectionAnim(float ElapsedTime, float ElapsedAl
 
 void UWBP_QuickPlay_C::HideQueueSelectionFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HideQueueSelectionFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HideQueueSelectionFinished"));
 
 	struct
 	{
@@ -548,7 +548,7 @@ void UWBP_QuickPlay_C::HideQueueSelectionFinished()
 
 void UWBP_QuickPlay_C::HideQueueSelectionAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HideQueueSelectionAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HideQueueSelectionAnim"));
 
 	struct
 	{
@@ -570,7 +570,7 @@ void UWBP_QuickPlay_C::HideQueueSelectionAnim(float ElapsedTime, float ElapsedAl
 
 void UWBP_QuickPlay_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.InitializeWidget"));
 
 	struct
 	{
@@ -590,7 +590,7 @@ void UWBP_QuickPlay_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_QuickPlay_C::HandleGameModeSelected(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleGameModeSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleGameModeSelected"));
 
 	struct
 	{
@@ -610,7 +610,7 @@ void UWBP_QuickPlay_C::HandleGameModeSelected(int QueueId)
 
 void UWBP_QuickPlay_C::HandleGameModeHovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleGameModeHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleGameModeHovered"));
 
 	struct
 	{
@@ -630,7 +630,7 @@ void UWBP_QuickPlay_C::HandleGameModeHovered(class UWidget* Widget)
 
 void UWBP_QuickPlay_C::HandleGameModeUnhovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleGameModeUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleGameModeUnhovered"));
 
 	struct
 	{
@@ -648,7 +648,7 @@ void UWBP_QuickPlay_C::HandleGameModeUnhovered(class UWidget* Widget)
 
 void UWBP_QuickPlay_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -664,7 +664,7 @@ void UWBP_QuickPlay_C::InitializeWidgetNavigation()
 
 void UWBP_QuickPlay_C::GoToLastScreen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.GoToLastScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.GoToLastScreen"));
 
 	struct
 	{
@@ -683,7 +683,7 @@ void UWBP_QuickPlay_C::GoToLastScreen()
 
 void UWBP_QuickPlay_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.StartShowSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.StartShowSequence"));
 
 	struct
 	{
@@ -706,7 +706,7 @@ void UWBP_QuickPlay_C::StartShowSequence(const struct FName& FromRoute, const st
 
 void UWBP_QuickPlay_C::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.StartHideSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.StartHideSequence"));
 
 	struct
 	{
@@ -728,7 +728,7 @@ void UWBP_QuickPlay_C::StartHideSequence(const struct FName& FromRoute, const st
 
 void UWBP_QuickPlay_C::OnControlQueuePermissionChanged(bool CanControl)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OnControlQueuePermissionChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OnControlQueuePermissionChanged"));
 
 	struct
 	{
@@ -748,7 +748,7 @@ void UWBP_QuickPlay_C::OnControlQueuePermissionChanged(bool CanControl)
 
 void UWBP_QuickPlay_C::OnQueuePermissionChanged(bool CanQueue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OnQueuePermissionChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OnQueuePermissionChanged"));
 
 	struct
 	{
@@ -766,7 +766,7 @@ void UWBP_QuickPlay_C::OnQueuePermissionChanged(bool CanQueue)
 
 void UWBP_QuickPlay_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_0_BackButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_0_BackButtonClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_0_BackButtonClicked__DelegateSignature"));
 
 	struct
 	{
@@ -782,7 +782,7 @@ void UWBP_QuickPlay_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_0_BackButto
 
 void UWBP_QuickPlay_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OnShown"));
 
 	struct
 	{
@@ -798,7 +798,7 @@ void UWBP_QuickPlay_C::OnShown()
 
 void UWBP_QuickPlay_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OnHide"));
 
 	struct
 	{
@@ -814,7 +814,7 @@ void UWBP_QuickPlay_C::OnHide()
 
 void UWBP_QuickPlay_C::StartShowAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.StartShowAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.StartShowAnim"));
 
 	struct
 	{
@@ -830,7 +830,7 @@ void UWBP_QuickPlay_C::StartShowAnim()
 
 void UWBP_QuickPlay_C::OnBackButtonClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OnBackButtonClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OnBackButtonClicked"));
 
 	struct
 	{
@@ -846,7 +846,7 @@ void UWBP_QuickPlay_C::OnBackButtonClicked()
 
 void UWBP_QuickPlay_C::HandleRegionSelectRequested()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleRegionSelectRequested");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleRegionSelectRequested"));
 
 	struct
 	{
@@ -862,7 +862,7 @@ void UWBP_QuickPlay_C::HandleRegionSelectRequested()
 
 void UWBP_QuickPlay_C::OnRegionSelected()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OnRegionSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OnRegionSelected"));
 
 	struct
 	{
@@ -878,7 +878,7 @@ void UWBP_QuickPlay_C::OnRegionSelected()
 
 void UWBP_QuickPlay_C::OnRegionSelectEntriesCreated()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.OnRegionSelectEntriesCreated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.OnRegionSelectEntriesCreated"));
 
 	struct
 	{
@@ -896,7 +896,7 @@ void UWBP_QuickPlay_C::OnRegionSelectEntriesCreated()
 
 void UWBP_QuickPlay_C::SwitchFocusGroupToScreen(class UWidget* ScreenToSwitch)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.SwitchFocusGroupToScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.SwitchFocusGroupToScreen"));
 
 	struct
 	{
@@ -916,7 +916,7 @@ void UWBP_QuickPlay_C::SwitchFocusGroupToScreen(class UWidget* ScreenToSwitch)
 
 void UWBP_QuickPlay_C::HandleOnQueueSectionPopulated(TArray<class UWBP_QuickPlay_QueueButton_C*> QueueButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleOnQueueSectionPopulated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleOnQueueSectionPopulated"));
 
 	struct
 	{
@@ -934,7 +934,7 @@ void UWBP_QuickPlay_C::HandleOnQueueSectionPopulated(TArray<class UWBP_QuickPlay
 
 void UWBP_QuickPlay_C::BndEvt__MobileSelectQueueBtn_K2Node_ComponentBoundEvent_1_OnGraphicBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.BndEvt__MobileSelectQueueBtn_K2Node_ComponentBoundEvent_1_OnGraphicBtnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.BndEvt__MobileSelectQueueBtn_K2Node_ComponentBoundEvent_1_OnGraphicBtnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -952,7 +952,7 @@ void UWBP_QuickPlay_C::BndEvt__MobileSelectQueueBtn_K2Node_ComponentBoundEvent_1
 
 void UWBP_QuickPlay_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.PreConstruct"));
 
 	struct
 	{
@@ -970,7 +970,7 @@ void UWBP_QuickPlay_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_QuickPlay_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.Construct"));
 
 	struct
 	{
@@ -986,7 +986,7 @@ void UWBP_QuickPlay_C::Construct()
 
 void UWBP_QuickPlay_C::HandleQueueErrorStateChange()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleQueueErrorStateChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleQueueErrorStateChange"));
 
 	struct
 	{
@@ -1002,7 +1002,7 @@ void UWBP_QuickPlay_C::HandleQueueErrorStateChange()
 
 void UWBP_QuickPlay_C::CreateCustomMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.CreateCustomMatch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.CreateCustomMatch"));
 
 	struct
 	{
@@ -1020,7 +1020,7 @@ void UWBP_QuickPlay_C::CreateCustomMatch()
 
 void UWBP_QuickPlay_C::HandleOnCustomSectionPopulated(TArray<class UKSWidget*> Buttons)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleOnCustomSectionPopulated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleOnCustomSectionPopulated"));
 
 	struct
 	{
@@ -1038,7 +1038,7 @@ void UWBP_QuickPlay_C::HandleOnCustomSectionPopulated(TArray<class UKSWidget*> B
 
 void UWBP_QuickPlay_C::HandleMapScrollChange()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleMapScrollChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.HandleMapScrollChange"));
 
 	struct
 	{
@@ -1057,7 +1057,7 @@ void UWBP_QuickPlay_C::HandleMapScrollChange()
 
 void UWBP_QuickPlay_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.Tick"));
 
 	struct
 	{
@@ -1079,7 +1079,7 @@ void UWBP_QuickPlay_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTim
 
 void UWBP_QuickPlay_C::BndEvt__RankedInfoButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.BndEvt__RankedInfoButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.BndEvt__RankedInfoButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -1099,7 +1099,7 @@ void UWBP_QuickPlay_C::BndEvt__RankedInfoButton_K2Node_ComponentBoundEvent_2_OnC
 
 void UWBP_QuickPlay_C::ExecuteUbergraph_WBP_QuickPlay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay.WBP_QuickPlay_C.ExecuteUbergraph_WBP_QuickPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay.WBP_QuickPlay_C.ExecuteUbergraph_WBP_QuickPlay"));
 
 	struct
 	{

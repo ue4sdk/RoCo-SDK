@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_ItemInfoPanel_C::SetInfoFieldData(class UPlatformInventoryItem* CosmeticItem, EPlayerAccountSlot ItemSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoPanel.WBP_ItemInfoPanel_C.SetInfoFieldData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoPanel.WBP_ItemInfoPanel_C.SetInfoFieldData"));
 
 	struct
 	{

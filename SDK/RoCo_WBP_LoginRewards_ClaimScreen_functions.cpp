@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_LoginRewards_ClaimScreen_C::PlayClaimedRewardAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.PlayClaimedRewardAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.PlayClaimedRewardAnim"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_LoginRewards_ClaimScreen_C::PlayClaimedRewardAnim()
 
 void UWBP_LoginRewards_ClaimScreen_C::HandleRewardsReady(TArray<struct FLoginRewardItem>* RewardItems)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.HandleRewardsReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.HandleRewardsReady"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_LoginRewards_ClaimScreen_C::HandleRewardsReady(TArray<struct FLoginRew
 
 void UWBP_LoginRewards_ClaimScreen_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.Construct"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_LoginRewards_ClaimScreen_C::Construct()
 
 void UWBP_LoginRewards_ClaimScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.InitializeWidget"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_LoginRewards_ClaimScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_LoginRewards_ClaimScreen_C::BndEvt__WBP_StandardButtonLarge_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.BndEvt__WBP_StandardButtonLarge_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.BndEvt__WBP_StandardButtonLarge_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_LoginRewards_ClaimScreen_C::BndEvt__WBP_StandardButtonLarge_K2Node_Com
 
 void UWBP_LoginRewards_ClaimScreen_C::CloseLoginClaimScreen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.CloseLoginClaimScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.CloseLoginClaimScreen"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_LoginRewards_ClaimScreen_C::CloseLoginClaimScreen()
 
 void UWBP_LoginRewards_ClaimScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.OnShown"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWBP_LoginRewards_ClaimScreen_C::OnShown()
 
 void UWBP_LoginRewards_ClaimScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_LoginRewards_ClaimScreen_C::InitializeWidgetNavigation()
 
 void UWBP_LoginRewards_ClaimScreen_C::ExecuteUbergraph_WBP_LoginRewards_ClaimScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.ExecuteUbergraph_WBP_LoginRewards_ClaimScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewards_ClaimScreen.WBP_LoginRewards_ClaimScreen_C.ExecuteUbergraph_WBP_LoginRewards_ClaimScreen"));
 
 	struct
 	{

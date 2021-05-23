@@ -17,7 +17,7 @@ namespace SDK
 
 void UKSSpawnRule_PlayerSpawnEventProximity_C::BindToEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSSpawnRule_PlayerSpawnEventProximity.KSSpawnRule_PlayerSpawnEventProximity_C.BindToEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSSpawnRule_PlayerSpawnEventProximity.KSSpawnRule_PlayerSpawnEventProximity_C.BindToEvent"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UKSSpawnRule_PlayerSpawnEventProximity_C::BindToEvent()
 
 void UKSSpawnRule_PlayerSpawnEventProximity_C::On_Player_Spawn(class AKSCharacterBase* NewCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSSpawnRule_PlayerSpawnEventProximity.KSSpawnRule_PlayerSpawnEventProximity_C.On Player Spawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSSpawnRule_PlayerSpawnEventProximity.KSSpawnRule_PlayerSpawnEventProximity_C.On Player Spawn"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UKSSpawnRule_PlayerSpawnEventProximity_C::On_Player_Spawn(class AKSCharacte
 
 void UKSSpawnRule_PlayerSpawnEventProximity_C::ExecuteUbergraph_KSSpawnRule_PlayerSpawnEventProximity(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSSpawnRule_PlayerSpawnEventProximity.KSSpawnRule_PlayerSpawnEventProximity_C.ExecuteUbergraph_KSSpawnRule_PlayerSpawnEventProximity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSSpawnRule_PlayerSpawnEventProximity.KSSpawnRule_PlayerSpawnEventProximity_C.ExecuteUbergraph_KSSpawnRule_PlayerSpawnEventProximity"));
 
 	struct
 	{

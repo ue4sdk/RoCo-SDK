@@ -19,7 +19,7 @@ namespace SDK
 
 bool AMagicLeapSharedWorldGameMode::SendSharedWorldDataToClients()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.SendSharedWorldDataToClients");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.SendSharedWorldDataToClients"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool AMagicLeapSharedWorldGameMode::SendSharedWorldDataToClients()
 
 void AMagicLeapSharedWorldGameMode::SelectChosenOne()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.SelectChosenOne");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.SelectChosenOne"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ void AMagicLeapSharedWorldGameMode::SelectChosenOne()
 
 void AMagicLeapSharedWorldGameMode::MagicLeapOnNewLocalDataFromClients__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.MagicLeapOnNewLocalDataFromClients__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.MagicLeapOnNewLocalDataFromClients__DelegateSignature"));
 
 	struct
 	{
@@ -72,7 +72,7 @@ void AMagicLeapSharedWorldGameMode::MagicLeapOnNewLocalDataFromClients__Delegate
 
 void AMagicLeapSharedWorldGameMode::DetermineSharedWorldData(struct FMagicLeapSharedWorldSharedData* NewSharedWorldData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.DetermineSharedWorldData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameMode.DetermineSharedWorldData"));
 
 	struct
 	{
@@ -92,7 +92,7 @@ void AMagicLeapSharedWorldGameMode::DetermineSharedWorldData(struct FMagicLeapSh
 
 void AMagicLeapSharedWorldGameState::OnReplicate_SharedWorldData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameState.OnReplicate_SharedWorldData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameState.OnReplicate_SharedWorldData"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void AMagicLeapSharedWorldGameState::OnReplicate_SharedWorldData()
 
 void AMagicLeapSharedWorldGameState::OnReplicate_AlignmentTransforms()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameState.OnReplicate_AlignmentTransforms");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameState.OnReplicate_AlignmentTransforms"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ void AMagicLeapSharedWorldGameState::OnReplicate_AlignmentTransforms()
 
 void AMagicLeapSharedWorldGameState::MagicLeapSharedWorldEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction MagicLeapSharedWorld.MagicLeapSharedWorldGameState.MagicLeapSharedWorldEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction MagicLeapSharedWorld.MagicLeapSharedWorldGameState.MagicLeapSharedWorldEvent__DelegateSignature"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void AMagicLeapSharedWorldGameState::MagicLeapSharedWorldEvent__DelegateSignatur
 
 struct FTransform AMagicLeapSharedWorldGameState::CalculateXRCameraRootTransform()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameState.CalculateXRCameraRootTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldGameState.CalculateXRCameraRootTransform"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ struct FTransform AMagicLeapSharedWorldGameState::CalculateXRCameraRootTransform
 
 void AMagicLeapSharedWorldPlayerController::ServerSetLocalWorldData(const struct FMagicLeapSharedWorldLocalData& LocalWorldReplicationData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ServerSetLocalWorldData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ServerSetLocalWorldData"));
 
 	struct
 	{
@@ -183,7 +183,7 @@ void AMagicLeapSharedWorldPlayerController::ServerSetLocalWorldData(const struct
 
 void AMagicLeapSharedWorldPlayerController::ServerSetAlignmentTransforms(const struct FMagicLeapSharedWorldAlignmentTransforms& InAlignmentTransforms)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ServerSetAlignmentTransforms");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ServerSetAlignmentTransforms"));
 
 	struct
 	{
@@ -203,7 +203,7 @@ void AMagicLeapSharedWorldPlayerController::ServerSetAlignmentTransforms(const s
 
 bool AMagicLeapSharedWorldPlayerController::IsChosenOne()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.IsChosenOne");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.IsChosenOne"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ bool AMagicLeapSharedWorldPlayerController::IsChosenOne()
 
 void AMagicLeapSharedWorldPlayerController::ClientSetChosenOne(bool bChosenOne)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ClientSetChosenOne");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ClientSetChosenOne"));
 
 	struct
 	{
@@ -242,7 +242,7 @@ void AMagicLeapSharedWorldPlayerController::ClientSetChosenOne(bool bChosenOne)
 
 void AMagicLeapSharedWorldPlayerController::ClientMarkReadyForSendingLocalData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ClientMarkReadyForSendingLocalData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.ClientMarkReadyForSendingLocalData"));
 
 	struct
 	{
@@ -260,7 +260,7 @@ void AMagicLeapSharedWorldPlayerController::ClientMarkReadyForSendingLocalData()
 
 bool AMagicLeapSharedWorldPlayerController::CanSendLocalDataToServer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.CanSendLocalDataToServer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController.CanSendLocalDataToServer"));
 
 	struct
 	{

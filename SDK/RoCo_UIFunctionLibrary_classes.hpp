@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass UIFunctionLibrary.UIFunctionLibrary_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass UIFunctionLibrary.UIFunctionLibrary_C"));
 		return ptr;
 	}
 

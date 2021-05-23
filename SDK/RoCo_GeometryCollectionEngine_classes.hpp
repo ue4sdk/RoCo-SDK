@@ -32,7 +32,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.ChaosDestructionListener");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.ChaosDestructionListener"));
 		return ptr;
 	}
 
@@ -64,7 +64,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.GeometryCollectionActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.GeometryCollectionActor"));
 		return ptr;
 	}
 
@@ -84,7 +84,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.GeometryCollectionCache");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.GeometryCollectionCache"));
 		return ptr;
 	}
 
@@ -139,7 +139,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.GeometryCollectionComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.GeometryCollectionComponent"));
 		return ptr;
 	}
 
@@ -226,7 +226,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.GeometryCollectionDebugDrawActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.GeometryCollectionDebugDrawActor"));
 		return ptr;
 	}
 
@@ -244,7 +244,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.GeometryCollectionDebugDrawComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.GeometryCollectionDebugDrawComponent"));
 		return ptr;
 	}
 
@@ -284,7 +284,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.GeometryCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.GeometryCollection"));
 		return ptr;
 	}
 
@@ -306,7 +306,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.GeometryCollectionRenderLevelSetActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.GeometryCollectionRenderLevelSetActor"));
 		return ptr;
 	}
 
@@ -346,7 +346,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.SkeletalMeshSimulationComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.SkeletalMeshSimulationComponent"));
 		return ptr;
 	}
 
@@ -386,7 +386,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCollectionEngine.StaticMeshSimulationComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCollectionEngine.StaticMeshSimulationComponent"));
 		return ptr;
 	}
 

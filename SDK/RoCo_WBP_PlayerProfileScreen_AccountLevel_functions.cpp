@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PlayerProfileScreen_AccountLevel_C::UpdateProgressBar(float Perc)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountLevel.WBP_PlayerProfileScreen_AccountLevel_C.UpdateProgressBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountLevel.WBP_PlayerProfileScreen_AccountLevel_C.UpdateProgressBar"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_PlayerProfileScreen_AccountLevel_C::UpdateProgressBar(float Perc)
 
 void UWBP_PlayerProfileScreen_AccountLevel_C::RefreshStats()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountLevel.WBP_PlayerProfileScreen_AccountLevel_C.RefreshStats");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountLevel.WBP_PlayerProfileScreen_AccountLevel_C.RefreshStats"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_PlayerProfileScreen_AccountLevel_C::RefreshStats()
 
 void UWBP_PlayerProfileScreen_AccountLevel_C::OnActivityInstanceChanged__DelegateSignature(bool IsLoaded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountLevel.WBP_PlayerProfileScreen_AccountLevel_C.OnActivityInstanceChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountLevel.WBP_PlayerProfileScreen_AccountLevel_C.OnActivityInstanceChanged__DelegateSignature"));
 
 	struct
 	{

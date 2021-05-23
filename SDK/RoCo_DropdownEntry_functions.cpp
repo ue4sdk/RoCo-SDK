@@ -19,7 +19,7 @@ namespace SDK
 
 bool UDropdownEntry_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.NavigateConfirm"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UDropdownEntry_C::NavigateConfirm()
 
 void UDropdownEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.Construct"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UDropdownEntry_C::Construct()
 
 void UDropdownEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UDropdownEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonCl
 
 void UDropdownEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UDropdownEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_6_OnButtonHo
 
 void UDropdownEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UDropdownEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_7_OnButtonHo
 
 void UDropdownEntry_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.GamepadHover"));
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UDropdownEntry_C::GamepadHover()
 
 void UDropdownEntry_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.GamepadUnhover"));
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UDropdownEntry_C::GamepadUnhover()
 
 void UDropdownEntry_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.GamepadConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.GamepadConfirm"));
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UDropdownEntry_C::GamepadConfirm()
 
 void UDropdownEntry_C::ChangeSelectionState(bool Selected)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.ChangeSelectionState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.ChangeSelectionState"));
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UDropdownEntry_C::ChangeSelectionState(bool Selected)
 
 void UDropdownEntry_C::ExecuteUbergraph_DropdownEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.ExecuteUbergraph_DropdownEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.ExecuteUbergraph_DropdownEntry"));
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UDropdownEntry_C::ExecuteUbergraph_DropdownEntry(int EntryPoint)
 
 void UDropdownEntry_C::OnOptionHovered__DelegateSignature(class UWidget* Widget, int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.OnOptionHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.OnOptionHovered__DelegateSignature"));
 
 	struct
 	{
@@ -216,7 +216,7 @@ void UDropdownEntry_C::OnOptionHovered__DelegateSignature(class UWidget* Widget,
 
 void UDropdownEntry_C::OnOptionSelected__DelegateSignature(int Index, const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownEntry.DropdownEntry_C.OnOptionSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DropdownEntry.DropdownEntry_C.OnOptionSelected__DelegateSignature"));
 
 	struct
 	{

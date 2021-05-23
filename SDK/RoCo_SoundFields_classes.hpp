@@ -24,7 +24,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SoundFields.AmbisonicsEncodingSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SoundFields.AmbisonicsEncodingSettings"));
 		return ptr;
 	}
 

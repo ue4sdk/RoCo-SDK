@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_PipProgressEntry_C::SetPipColors(const struct FLinearColor& BaseColor, const struct FLinearColor& FillColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PipProgressEntry.WBP_PipProgressEntry_C.SetPipColors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PipProgressEntry.WBP_PipProgressEntry_C.SetPipColors"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_PipProgressEntry_C::SetPipColors(const struct FLinearColor& BaseColor,
 
 void UWBP_PipProgressEntry_C::SetPip(bool IsOn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PipProgressEntry.WBP_PipProgressEntry_C.SetPip");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PipProgressEntry.WBP_PipProgressEntry_C.SetPip"));
 
 	struct
 	{

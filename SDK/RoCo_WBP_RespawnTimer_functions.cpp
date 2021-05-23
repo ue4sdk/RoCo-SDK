@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_RespawnTimer_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RespawnTimer.WBP_RespawnTimer_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RespawnTimer.WBP_RespawnTimer_C.Tick"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_RespawnTimer_C::Tick(const struct FGeometry& MyGeometry, float InDelta
 
 void UWBP_RespawnTimer_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RespawnTimer.WBP_RespawnTimer_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RespawnTimer.WBP_RespawnTimer_C.InitializeWidget"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_RespawnTimer_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RespawnTimer_C::On_Respawn_Timer_Tick(float Seconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RespawnTimer.WBP_RespawnTimer_C.On Respawn Timer Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RespawnTimer.WBP_RespawnTimer_C.On Respawn Timer Tick"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWBP_RespawnTimer_C::On_Respawn_Timer_Tick(float Seconds)
 
 void UWBP_RespawnTimer_C::On_Respawn_Timer_Active(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RespawnTimer.WBP_RespawnTimer_C.On Respawn Timer Active");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RespawnTimer.WBP_RespawnTimer_C.On Respawn Timer Active"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UWBP_RespawnTimer_C::On_Respawn_Timer_Active(bool bActive)
 
 void UWBP_RespawnTimer_C::OnRespawnTimerComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RespawnTimer.WBP_RespawnTimer_C.OnRespawnTimerComplete");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RespawnTimer.WBP_RespawnTimer_C.OnRespawnTimerComplete"));
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UWBP_RespawnTimer_C::OnRespawnTimerComplete()
 
 void UWBP_RespawnTimer_C::ExecuteUbergraph_WBP_RespawnTimer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RespawnTimer.WBP_RespawnTimer_C.ExecuteUbergraph_WBP_RespawnTimer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RespawnTimer.WBP_RespawnTimer_C.ExecuteUbergraph_WBP_RespawnTimer"));
 
 	struct
 	{

@@ -21,7 +21,7 @@ namespace SDK
 
 bool UHandCrawlingNotify_C::Received_Notify(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HandCrawlingNotify.HandCrawlingNotify_C.Received_Notify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HandCrawlingNotify.HandCrawlingNotify_C.Received_Notify"));
 
 	struct
 	{
@@ -46,7 +46,7 @@ bool UHandCrawlingNotify_C::Received_Notify(class USkeletalMeshComponent* MeshCo
 
 struct FString UHandCrawlingNotify_C::GetNotifyName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HandCrawlingNotify.HandCrawlingNotify_C.GetNotifyName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HandCrawlingNotify.HandCrawlingNotify_C.GetNotifyName"));
 
 	struct
 	{

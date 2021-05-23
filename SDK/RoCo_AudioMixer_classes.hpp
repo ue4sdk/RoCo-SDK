@@ -44,7 +44,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioMixer.SynthComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioMixer.SynthComponent"));
 		return ptr;
 	}
 
@@ -66,7 +66,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioMixer.AudioGenerator");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioMixer.AudioGenerator"));
 		return ptr;
 	}
 
@@ -81,7 +81,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioMixer.AudioMixerBlueprintLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioMixer.AudioMixerBlueprintLibrary"));
 		return ptr;
 	}
 
@@ -122,7 +122,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioMixer.SubmixEffectDynamicsProcessorPreset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioMixer.SubmixEffectDynamicsProcessorPreset"));
 		return ptr;
 	}
 
@@ -142,7 +142,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioMixer.SubmixEffectSubmixEQPreset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioMixer.SubmixEffectSubmixEQPreset"));
 		return ptr;
 	}
 
@@ -161,7 +161,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioMixer.SubmixEffectReverbPreset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioMixer.SubmixEffectReverbPreset"));
 		return ptr;
 	}
 
@@ -181,7 +181,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioMixer.SubmixEffectReverbFastPreset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioMixer.SubmixEffectReverbFastPreset"));
 		return ptr;
 	}
 
@@ -201,7 +201,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioMixer.SynthSound");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioMixer.SynthSound"));
 		return ptr;
 	}
 

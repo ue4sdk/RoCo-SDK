@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass BloodEffectCurveComponent.BloodEffectCurveComponent_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass BloodEffectCurveComponent.BloodEffectCurveComponent_C"));
 		return ptr;
 	}
 

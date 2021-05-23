@@ -20,7 +20,7 @@ namespace SDK
 
 void USelectiveAkGameplayStatics::PostSelectiveEventStopToAkComponent(class USelectiveAkAudioEvent* SelectiveEvent, class UAkComponent* AkComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.PostSelectiveEventStopToAkComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.PostSelectiveEventStopToAkComponent"));
 
 	struct
 	{
@@ -45,7 +45,7 @@ void USelectiveAkGameplayStatics::PostSelectiveEventStopToAkComponent(class USel
 
 void USelectiveAkGameplayStatics::PostSelectiveEventStop(class USelectiveAkAudioEvent* SelectiveEvent, class AActor* Actor, bool bStopWhenAttachedToDestroyed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.PostSelectiveEventStop");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.PostSelectiveEventStop"));
 
 	struct
 	{
@@ -72,7 +72,7 @@ void USelectiveAkGameplayStatics::PostSelectiveEventStop(class USelectiveAkAudio
 
 int USelectiveAkGameplayStatics::PostSelectiveEventPlayToAkComponent(class USelectiveAkAudioEvent* SelectiveEvent, class UAkComponent* AkComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.PostSelectiveEventPlayToAkComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.PostSelectiveEventPlayToAkComponent"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ int USelectiveAkGameplayStatics::PostSelectiveEventPlayToAkComponent(class USele
 
 int USelectiveAkGameplayStatics::PostSelectiveEventPlay(class USelectiveAkAudioEvent* SelectiveEvent, class AActor* Actor, bool bStopWhenAttachedToDestroyed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.PostSelectiveEventPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.PostSelectiveEventPlay"));
 
 	struct
 	{
@@ -131,7 +131,7 @@ int USelectiveAkGameplayStatics::PostSelectiveEventPlay(class USelectiveAkAudioE
 
 void USelectiveAkGameplayStatics::GetStopEventsFromSelectiveEventForAkComponent(class USelectiveAkAudioEvent* SelectiveEvent, class UAkComponent* AkComponent, TArray<struct FSelectiveEventStopPair>* OutStopEvents)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.GetStopEventsFromSelectiveEventForAkComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.GetStopEventsFromSelectiveEventForAkComponent"));
 
 	struct
 	{
@@ -160,7 +160,7 @@ void USelectiveAkGameplayStatics::GetStopEventsFromSelectiveEventForAkComponent(
 
 void USelectiveAkGameplayStatics::GetStopEventsFromSelectiveEvent(class USelectiveAkAudioEvent* SelectiveEvent, class AActor* Actor, TArray<struct FSelectiveEventStopPair>* OutStopEvents)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.GetStopEventsFromSelectiveEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.GetStopEventsFromSelectiveEvent"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ void USelectiveAkGameplayStatics::GetStopEventsFromSelectiveEvent(class USelecti
 
 class UAkAudioEvent* USelectiveAkGameplayStatics::GetPlayEventFromSelectiveEventForAkComponent(class USelectiveAkAudioEvent* SelectiveEvent, class UAkComponent* AkComponent, struct FString* OutEventName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.GetPlayEventFromSelectiveEventForAkComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.GetPlayEventFromSelectiveEventForAkComponent"));
 
 	struct
 	{
@@ -223,7 +223,7 @@ class UAkAudioEvent* USelectiveAkGameplayStatics::GetPlayEventFromSelectiveEvent
 
 class UAkAudioEvent* USelectiveAkGameplayStatics::GetPlayEventFromSelectiveEvent(class USelectiveAkAudioEvent* SelectiveEvent, class AActor* Actor, struct FString* OutEventName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.GetPlayEventFromSelectiveEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics.GetPlayEventFromSelectiveEvent"));
 
 	struct
 	{

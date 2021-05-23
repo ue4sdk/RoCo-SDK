@@ -60,7 +60,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_VoteWidget.WBP_VoteWidget_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_VoteWidget.WBP_VoteWidget_C"));
 		return ptr;
 	}
 

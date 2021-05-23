@@ -27,7 +27,7 @@ namespace SDK
 
 class UKSMapIconWidgetBase* UFullMap_C::CreateNewIconWidget(class UClass* WidgetClass, int UniqueId, class AKSPlayerState* CreatingPlayer, EDisplayType ParentMapDisplayType, class AActor* AssociatedActor, class UObject* AssociatedObject, const struct FVector& DefaultLocation, float Lifespan)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.CreateNewIconWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.CreateNewIconWidget"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ class UKSMapIconWidgetBase* UFullMap_C::CreateNewIconWidget(class UClass* Widget
 
 bool UFullMap_C::IsOnMap(const struct FVector2D& MapCoords)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.IsOnMap");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.IsOnMap"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ bool UFullMap_C::IsOnMap(const struct FVector2D& MapCoords)
 
 float UFullMap_C::ToIconRenderAngle(float PlayerAngle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.ToIconRenderAngle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.ToIconRenderAngle"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ float UFullMap_C::ToIconRenderAngle(float PlayerAngle)
 
 struct FVector2D UFullMap_C::ToIconRenderCoords(const struct FVector2D& MapCoords)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.ToIconRenderCoords");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.ToIconRenderCoords"));
 
 	struct
 	{
@@ -136,7 +136,7 @@ struct FVector2D UFullMap_C::ToIconRenderCoords(const struct FVector2D& MapCoord
 
 bool UFullMap_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.NavigateBack"));
 
 	struct
 	{
@@ -157,7 +157,7 @@ bool UFullMap_C::NavigateBack()
 
 void UFullMap_C::ApplyZoom(float ZoomInput)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.ApplyZoom");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.ApplyZoom"));
 
 	struct
 	{
@@ -178,7 +178,7 @@ void UFullMap_C::ApplyZoom(float ZoomInput)
 
 void UFullMap_C::ConstrainMapScreenPosition(const struct FVector2D& ProposedPosition, struct FVector2D* ConstrainedPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.ConstrainMapScreenPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.ConstrainMapScreenPosition"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UFullMap_C::ConstrainMapScreenPosition(const struct FVector2D& ProposedPosi
 
 struct FEventReply UFullMap_C::OnMouseMove(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.OnMouseMove");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.OnMouseMove"));
 
 	struct
 	{
@@ -231,7 +231,7 @@ struct FEventReply UFullMap_C::OnMouseMove(const struct FGeometry& MyGeometry, c
 
 struct FEventReply UFullMap_C::OnMouseButtonUp(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.OnMouseButtonUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.OnMouseButtonUp"));
 
 	struct
 	{
@@ -258,7 +258,7 @@ struct FEventReply UFullMap_C::OnMouseButtonUp(const struct FGeometry& MyGeometr
 
 struct FEventReply UFullMap_C::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.OnMouseButtonDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.OnMouseButtonDown"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ struct FEventReply UFullMap_C::OnMouseButtonDown(const struct FGeometry& MyGeome
 
 struct FEventReply UFullMap_C::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.OnMouseWheel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.OnMouseWheel"));
 
 	struct
 	{
@@ -308,7 +308,7 @@ struct FEventReply UFullMap_C::OnMouseWheel(const struct FGeometry& MyGeometry, 
 
 void UFullMap_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.Construct"));
 
 	struct
 	{
@@ -324,7 +324,7 @@ void UFullMap_C::Construct()
 
 void UFullMap_C::FindMinimapRenderer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.FindMinimapRenderer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.FindMinimapRenderer"));
 
 	struct
 	{
@@ -340,7 +340,7 @@ void UFullMap_C::FindMinimapRenderer()
 
 void UFullMap_C::GetMapTexture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.GetMapTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.GetMapTexture"));
 
 	struct
 	{
@@ -356,7 +356,7 @@ void UFullMap_C::GetMapTexture()
 
 void UFullMap_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.OnShown"));
 
 	struct
 	{
@@ -374,7 +374,7 @@ void UFullMap_C::OnShown()
 
 void UFullMap_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.InitializeWidget"));
 
 	struct
 	{
@@ -392,7 +392,7 @@ void UFullMap_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UFullMap_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -408,7 +408,7 @@ void UFullMap_C::InitializeWidgetNavigation()
 
 void UFullMap_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.InitializeWidgetButtonListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.InitializeWidgetButtonListeners"));
 
 	struct
 	{
@@ -424,7 +424,7 @@ void UFullMap_C::InitializeWidgetButtonListeners()
 
 void UFullMap_C::MapButtonClose()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.MapButtonClose");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.MapButtonClose"));
 
 	struct
 	{
@@ -443,7 +443,7 @@ void UFullMap_C::MapButtonClose()
 
 void UFullMap_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.Tick"));
 
 	struct
 	{
@@ -465,7 +465,7 @@ void UFullMap_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 void UFullMap_C::Handle_Zone_Wait(float TimeUntilShrink)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.Handle Zone Wait");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.Handle Zone Wait"));
 
 	struct
 	{
@@ -485,7 +485,7 @@ void UFullMap_C::Handle_Zone_Wait(float TimeUntilShrink)
 
 void UFullMap_C::OnScrambleStateChanged(bool Scrambled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.OnScrambleStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.OnScrambleStateChanged"));
 
 	struct
 	{
@@ -503,7 +503,7 @@ void UFullMap_C::OnScrambleStateChanged(bool Scrambled)
 
 void UFullMap_C::RemoveSelf()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.RemoveSelf");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.RemoveSelf"));
 
 	struct
 	{
@@ -521,7 +521,7 @@ void UFullMap_C::RemoveSelf()
 
 void UFullMap_C::DisplayToMapWidget(class UKSMapIconWidgetBase* MapIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.DisplayToMapWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.DisplayToMapWidget"));
 
 	struct
 	{
@@ -541,7 +541,7 @@ void UFullMap_C::DisplayToMapWidget(class UKSMapIconWidgetBase* MapIcon)
 
 void UFullMap_C::ExecuteUbergraph_FullMap(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.ExecuteUbergraph_FullMap");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FullMap.FullMap_C.ExecuteUbergraph_FullMap"));
 
 	struct
 	{

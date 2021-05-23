@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_SlotHeading_C::SetText(const struct FText& newText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SlotHeading.WBP_SlotHeading_C.SetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SlotHeading.WBP_SlotHeading_C.SetText"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_SlotHeading_C::SetText(const struct FText& newText)
 
 void UWBP_SlotHeading_C::SetUnderlineColor(const struct FLinearColor& NewColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SlotHeading.WBP_SlotHeading_C.SetUnderlineColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SlotHeading.WBP_SlotHeading_C.SetUnderlineColor"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_SlotHeading_C::SetUnderlineColor(const struct FLinearColor& NewColor)
 
 void UWBP_SlotHeading_C::SetTextColor(const struct FSlateColor& NewColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SlotHeading.WBP_SlotHeading_C.SetTextColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SlotHeading.WBP_SlotHeading_C.SetTextColor"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_SlotHeading_C::SetTextColor(const struct FSlateColor& NewColor)
 
 void UWBP_SlotHeading_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SlotHeading.WBP_SlotHeading_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SlotHeading.WBP_SlotHeading_C.PreConstruct"));
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_SlotHeading_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_SlotHeading_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SlotHeading.WBP_SlotHeading_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SlotHeading.WBP_SlotHeading_C.Construct"));
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_SlotHeading_C::Construct()
 
 void UWBP_SlotHeading_C::SetSlotHeading(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SlotHeading.WBP_SlotHeading_C.SetSlotHeading");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SlotHeading.WBP_SlotHeading_C.SetSlotHeading"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_SlotHeading_C::SetSlotHeading(const struct FText& Text)
 
 void UWBP_SlotHeading_C::ExecuteUbergraph_WBP_SlotHeading(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SlotHeading.WBP_SlotHeading_C.ExecuteUbergraph_WBP_SlotHeading");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SlotHeading.WBP_SlotHeading_C.ExecuteUbergraph_WBP_SlotHeading"));
 
 	struct
 	{

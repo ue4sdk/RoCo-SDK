@@ -19,7 +19,7 @@ namespace SDK
 
 void ULocalPlayerHealth_C::CheckMods(class AKSPlayerState* ViewedPawnPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.CheckMods");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.CheckMods"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void ULocalPlayerHealth_C::CheckMods(class AKSPlayerState* ViewedPawnPlayerState
 
 void ULocalPlayerHealth_C::ResetVisbility()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.ResetVisbility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.ResetVisbility"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void ULocalPlayerHealth_C::ResetVisbility()
 
 void ULocalPlayerHealth_C::TriggerFadeAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.TriggerFadeAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.TriggerFadeAnim"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void ULocalPlayerHealth_C::TriggerFadeAnim()
 
 void ULocalPlayerHealth_C::OnOverhealChanged(float OldOverheal, float NewOverheal, bool bAnimatedChange)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.OnOverhealChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.OnOverhealChanged"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void ULocalPlayerHealth_C::OnOverhealChanged(float OldOverheal, float NewOverhea
 
 void ULocalPlayerHealth_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.Construct"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void ULocalPlayerHealth_C::Construct()
 
 void ULocalPlayerHealth_C::View_OnDeathStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.View_OnDeathStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.View_OnDeathStateChanged"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void ULocalPlayerHealth_C::View_OnDeathStateChanged()
 
 void ULocalPlayerHealth_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.InitializeWidget"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void ULocalPlayerHealth_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void ULocalPlayerHealth_C::OnHealthMeterStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.OnHealthMeterStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.OnHealthMeterStateChanged"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void ULocalPlayerHealth_C::OnHealthMeterStateChanged()
 
 void ULocalPlayerHealth_C::SetHealthText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.SetHealthText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.SetHealthText"));
 
 	struct
 	{
@@ -181,7 +181,7 @@ void ULocalPlayerHealth_C::SetHealthText()
 
 void ULocalPlayerHealth_C::OnJobChanged(class UKSJobItem* Job)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.OnJobChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.OnJobChanged"));
 
 	struct
 	{
@@ -199,7 +199,7 @@ void ULocalPlayerHealth_C::OnJobChanged(class UKSJobItem* Job)
 
 void ULocalPlayerHealth_C::OnHealthDecreased()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.OnHealthDecreased");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.OnHealthDecreased"));
 
 	struct
 	{
@@ -215,7 +215,7 @@ void ULocalPlayerHealth_C::OnHealthDecreased()
 
 void ULocalPlayerHealth_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.PostSetPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.PostSetPawn"));
 
 	struct
 	{
@@ -234,7 +234,7 @@ void ULocalPlayerHealth_C::PostSetPawn()
 
 void ULocalPlayerHealth_C::OnModAdded(class UKSPlayerMod* Mod, class UKSPlayerModInstance* ModInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.OnModAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.OnModAdded"));
 
 	struct
 	{
@@ -257,7 +257,7 @@ void ULocalPlayerHealth_C::OnModAdded(class UKSPlayerMod* Mod, class UKSPlayerMo
 
 void ULocalPlayerHealth_C::OnModRemoved(class UKSPlayerMod* Mod, class UKSPlayerModInstance* ModInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.OnModRemoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.OnModRemoved"));
 
 	struct
 	{
@@ -277,7 +277,7 @@ void ULocalPlayerHealth_C::OnModRemoved(class UKSPlayerMod* Mod, class UKSPlayer
 
 void ULocalPlayerHealth_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.PreClearPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.PreClearPawn"));
 
 	struct
 	{
@@ -293,7 +293,7 @@ void ULocalPlayerHealth_C::PreClearPawn()
 
 void ULocalPlayerHealth_C::PostSetPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.PostSetPlayerState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.PostSetPlayerState"));
 
 	struct
 	{
@@ -309,7 +309,7 @@ void ULocalPlayerHealth_C::PostSetPlayerState()
 
 void ULocalPlayerHealth_C::PreClearPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.PreClearPlayerState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.PreClearPlayerState"));
 
 	struct
 	{
@@ -327,7 +327,7 @@ void ULocalPlayerHealth_C::PreClearPlayerState()
 
 void ULocalPlayerHealth_C::ExecuteUbergraph_LocalPlayerHealth(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LocalPlayerHealth.LocalPlayerHealth_C.ExecuteUbergraph_LocalPlayerHealth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LocalPlayerHealth.LocalPlayerHealth_C.ExecuteUbergraph_LocalPlayerHealth"));
 
 	struct
 	{

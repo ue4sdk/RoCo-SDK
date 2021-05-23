@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_BattlePassOffersScreen_C::Handle_on_Offer_Panel_Clicked(class UPUMG_StoreItem* BattlePassOffer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.Handle on Offer Panel Clicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.Handle on Offer Panel Clicked"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_BattlePassOffersScreen_C::Handle_on_Offer_Panel_Clicked(class UPUMG_St
 
 void UWBP_BattlePassOffersScreen_C::GetNavigationWidgets(TArray<class UWBP_BattlePassOfferPanel_C*>* Widgets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.GetNavigationWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.GetNavigationWidgets"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_BattlePassOffersScreen_C::GetNavigationWidgets(TArray<class UWBP_Battl
 
 bool UWBP_BattlePassOffersScreen_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.NavigateBack"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ bool UWBP_BattlePassOffersScreen_C::NavigateBack()
 
 void UWBP_BattlePassOffersScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.OnShown"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_BattlePassOffersScreen_C::OnShown()
 
 void UWBP_BattlePassOffersScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.InitializeWidget"));
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UWBP_BattlePassOffersScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlePassOffersScreen_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.OnBackPrompt"));
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_BattlePassOffersScreen_C::OnBackPrompt()
 
 void UWBP_BattlePassOffersScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UWBP_BattlePassOffersScreen_C::InitializeWidgetNavigation()
 
 void UWBP_BattlePassOffersScreen_C::ExecuteUbergraph_WBP_BattlePassOffersScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.ExecuteUbergraph_WBP_BattlePassOffersScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOffersScreen.WBP_BattlePassOffersScreen_C.ExecuteUbergraph_WBP_BattlePassOffersScreen"));
 
 	struct
 	{

@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass SettingsInfo_SensitivityGyroLookScope.SettingsInfo_SensitivityGyroLookScope_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass SettingsInfo_SensitivityGyroLookScope.SettingsInfo_SensitivityGyroLookScope_C"));
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 float UTrendedKick_C::GetMaximumHorizontalKick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TrendedKick.TrendedKick_C.GetMaximumHorizontalKick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TrendedKick.TrendedKick_C.GetMaximumHorizontalKick"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ float UTrendedKick_C::GetMaximumHorizontalKick()
 
 float UTrendedKick_C::GetMaximumVerticalKick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TrendedKick.TrendedKick_C.GetMaximumVerticalKick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TrendedKick.TrendedKick_C.GetMaximumVerticalKick"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ float UTrendedKick_C::GetMaximumVerticalKick()
 
 void UTrendedKick_C::GetCurrentTrendProfile(int ShotIndex, struct FKickTrendProfile* TrendProfile)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TrendedKick.TrendedKick_C.GetCurrentTrendProfile");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TrendedKick.TrendedKick_C.GetCurrentTrendProfile"));
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UTrendedKick_C::GetCurrentTrendProfile(int ShotIndex, struct FKickTrendProf
 
 struct FInterpCurveVector2D UTrendedKick_C::MakeKickbackInstance(int ShotIndex, float AbsoluteMaxDuration)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TrendedKick.TrendedKick_C.MakeKickbackInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TrendedKick.TrendedKick_C.MakeKickbackInstance"));
 
 	struct
 	{

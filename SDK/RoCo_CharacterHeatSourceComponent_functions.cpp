@@ -19,7 +19,7 @@ namespace SDK
 
 void UCharacterHeatSourceComponent_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> bpp__EndPlayReason__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.ReceiveEndPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.ReceiveEndPlay"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UCharacterHeatSourceComponent_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason>
 
 void UCharacterHeatSourceComponent_C::OnThermalVisionStateChanged(EModViewModeState bpp__NewState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.OnThermalVisionStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.OnThermalVisionStateChanged"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UCharacterHeatSourceComponent_C::OnThermalVisionStateChanged(EModViewModeSt
 
 void UCharacterHeatSourceComponent_C::OnTemperatureChanged_Event_1(class UKSHeatSourceComponent* bpp__HeatSource__pf__const, float bpp__NewTemperature__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.OnTemperatureChanged_Event_1");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.OnTemperatureChanged_Event_1"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UCharacterHeatSourceComponent_C::OnTemperatureChanged_Event_1(class UKSHeat
 
 void UCharacterHeatSourceComponent_C::OnOwnerInfoUpdateNotify()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.OnOwnerInfoUpdateNotify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.OnOwnerInfoUpdateNotify"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UCharacterHeatSourceComponent_C::OnOwnerInfoUpdateNotify()
 
 void UCharacterHeatSourceComponent_C::ExecuteUbergraph_CharacterHeatSourceComponent_2(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.ExecuteUbergraph_CharacterHeatSourceComponent_2");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.ExecuteUbergraph_CharacterHeatSourceComponent_2"));
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UCharacterHeatSourceComponent_C::ExecuteUbergraph_CharacterHeatSourceCompon
 
 void UCharacterHeatSourceComponent_C::Apply_Temperature(float bpp__AppliedxTemp__pfT)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.Apply Temperature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.Apply Temperature"));
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UCharacterHeatSourceComponent_C::Apply_Temperature(float bpp__AppliedxTemp_
 
 void UCharacterHeatSourceComponent_C::OnTempChanged__DelegateSignature(class UKSHeatSourceComponent* bpp__HeatSource__pf, float bpp__NewTemperature__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.OnTempChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.OnTempChanged__DelegateSignature"));
 
 	struct
 	{

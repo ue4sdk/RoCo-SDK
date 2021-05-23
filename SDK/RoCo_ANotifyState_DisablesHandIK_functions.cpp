@@ -21,7 +21,7 @@ namespace SDK
 
 bool UANotifyState_DisablesHandIK_C::Received_NotifyEnd(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ANotifyState_DisablesHandIK.ANotifyState_DisablesHandIK_C.Received_NotifyEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ANotifyState_DisablesHandIK.ANotifyState_DisablesHandIK_C.Received_NotifyEnd"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ bool UANotifyState_DisablesHandIK_C::Received_NotifyEnd(class USkeletalMeshCompo
 
 bool UANotifyState_DisablesHandIK_C::Received_NotifyBegin(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation, float TotalDuration)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ANotifyState_DisablesHandIK.ANotifyState_DisablesHandIK_C.Received_NotifyBegin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ANotifyState_DisablesHandIK.ANotifyState_DisablesHandIK_C.Received_NotifyBegin"));
 
 	struct
 	{

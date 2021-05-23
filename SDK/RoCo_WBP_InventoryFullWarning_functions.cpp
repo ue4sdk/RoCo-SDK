@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_InventoryFullWarning_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InventoryFullWarning.WBP_InventoryFullWarning_C.PostSetPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InventoryFullWarning.WBP_InventoryFullWarning_C.PostSetPawn"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_InventoryFullWarning_C::PostSetPawn()
 
 void UWBP_InventoryFullWarning_C::Handle_Inventory_Full(class AKSWeaponAssetDrop* WeaponAssetDrop)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InventoryFullWarning.WBP_InventoryFullWarning_C.Handle Inventory Full");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InventoryFullWarning.WBP_InventoryFullWarning_C.Handle Inventory Full"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_InventoryFullWarning_C::Handle_Inventory_Full(class AKSWeaponAssetDrop
 
 void UWBP_InventoryFullWarning_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InventoryFullWarning.WBP_InventoryFullWarning_C.PreClearPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InventoryFullWarning.WBP_InventoryFullWarning_C.PreClearPawn"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_InventoryFullWarning_C::PreClearPawn()
 
 void UWBP_InventoryFullWarning_C::ExecuteUbergraph_WBP_InventoryFullWarning(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InventoryFullWarning.WBP_InventoryFullWarning_C.ExecuteUbergraph_WBP_InventoryFullWarning");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InventoryFullWarning.WBP_InventoryFullWarning_C.ExecuteUbergraph_WBP_InventoryFullWarning"));
 
 	struct
 	{

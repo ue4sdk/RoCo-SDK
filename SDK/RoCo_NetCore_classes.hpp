@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class NetCore.NetAnalyticsAggregatorConfig");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class NetCore.NetAnalyticsAggregatorConfig"));
 		return ptr;
 	}
 

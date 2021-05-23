@@ -20,7 +20,7 @@ namespace SDK
 
 void UMainCharacterVOComponent_C::EnemyBehind(class AActor* EnemyActor, bool* Behind)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.EnemyBehind");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.EnemyBehind"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UMainCharacterVOComponent_C::EnemyBehind(class AActor* EnemyActor, bool* Be
 
 void UMainCharacterVOComponent_C::BindToGameStateEvents(class AKSGameState* GameState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToGameStateEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToGameStateEvents"));
 
 	struct
 	{
@@ -64,7 +64,7 @@ void UMainCharacterVOComponent_C::BindToGameStateEvents(class AKSGameState* Game
 
 void UMainCharacterVOComponent_C::OnLastManStanding(class AKSPlayerState* LastPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnLastManStanding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnLastManStanding"));
 
 	struct
 	{
@@ -84,7 +84,7 @@ void UMainCharacterVOComponent_C::OnLastManStanding(class AKSPlayerState* LastPl
 
 void UMainCharacterVOComponent_C::OnWinnerSet(int TeamNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnWinnerSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnWinnerSet"));
 
 	struct
 	{
@@ -104,7 +104,7 @@ void UMainCharacterVOComponent_C::OnWinnerSet(int TeamNumber)
 
 void UMainCharacterVOComponent_C::OnRoundSetup(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnRoundSetup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnRoundSetup"));
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UMainCharacterVOComponent_C::OnRoundSetup(const struct FRoundInitState& Rou
 
 void UMainCharacterVOComponent_C::OnPhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnPhaseChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnPhaseChange"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UMainCharacterVOComponent_C::OnPhaseChange(const struct FName& NewPhaseName
 
 void UMainCharacterVOComponent_C::BindToPingManagerEvents(class UKSPingManager* PingManager)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToPingManagerEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToPingManagerEvents"));
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UMainCharacterVOComponent_C::BindToPingManagerEvents(class UKSPingManager* 
 
 void UMainCharacterVOComponent_C::PingAdded(const struct FPingInfo& PingInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.PingAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.PingAdded"));
 
 	struct
 	{
@@ -189,7 +189,7 @@ void UMainCharacterVOComponent_C::PingAdded(const struct FPingInfo& PingInfo)
 
 void UMainCharacterVOComponent_C::PingAcknowledged(int PingId, class AKSPlayerState* PingingPlayer, class AKSPlayerState* AcknowledgingPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.PingAcknowledged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.PingAcknowledged"));
 
 	struct
 	{
@@ -214,7 +214,7 @@ void UMainCharacterVOComponent_C::PingAcknowledged(int PingId, class AKSPlayerSt
 
 void UMainCharacterVOComponent_C::SentVoiceLineOnly(EPingMessage PingMessage, class AKSPlayerState* SendingPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.SentVoiceLineOnly");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.SentVoiceLineOnly"));
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UMainCharacterVOComponent_C::SentVoiceLineOnly(EPingMessage PingMessage, cl
 
 void UMainCharacterVOComponent_C::OnTakeDamage(class AActor* DamagedActor, float Damage, class UDamageType* DamageType, class AController* InstigatedBy, class AActor* DamageCauser)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnTakeDamage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnTakeDamage"));
 
 	struct
 	{
@@ -270,7 +270,7 @@ void UMainCharacterVOComponent_C::OnTakeDamage(class AActor* DamagedActor, float
 
 void UMainCharacterVOComponent_C::OnItemPickedUp(class AKSCharacter* Character, class AKSItemDrop* ItemDrop, class UKSItem* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnItemPickedUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnItemPickedUp"));
 
 	struct
 	{
@@ -295,7 +295,7 @@ void UMainCharacterVOComponent_C::OnItemPickedUp(class AKSCharacter* Character, 
 
 void UMainCharacterVOComponent_C::OnReviveCompleted(class AKSCharacter* Reviver, class AKSCharacter* Revivee)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnReviveCompleted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnReviveCompleted"));
 
 	struct
 	{
@@ -317,7 +317,7 @@ void UMainCharacterVOComponent_C::OnReviveCompleted(class AKSCharacter* Reviver,
 
 void UMainCharacterVOComponent_C::BindToCharacterEvents(class AKSCharacter* Character)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToCharacterEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToCharacterEvents"));
 
 	struct
 	{
@@ -338,7 +338,7 @@ void UMainCharacterVOComponent_C::BindToCharacterEvents(class AKSCharacter* Char
 
 void UMainCharacterVOComponent_C::OnInteractStart(class AActor* Target, float Duration)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnInteractStart");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnInteractStart"));
 
 	struct
 	{
@@ -360,7 +360,7 @@ void UMainCharacterVOComponent_C::OnInteractStart(class AActor* Target, float Du
 
 void UMainCharacterVOComponent_C::OnLanded(const struct FVector& Velocity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnLanded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnLanded"));
 
 	struct
 	{
@@ -380,7 +380,7 @@ void UMainCharacterVOComponent_C::OnLanded(const struct FVector& Velocity)
 
 void UMainCharacterVOComponent_C::OnMantleChanged(bool IsMantling)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnMantleChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnMantleChanged"));
 
 	struct
 	{
@@ -400,7 +400,7 @@ void UMainCharacterVOComponent_C::OnMantleChanged(bool IsMantling)
 
 void UMainCharacterVOComponent_C::OnDOdgeRollChanged(bool IsDodgeRolling)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnDOdgeRollChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnDOdgeRollChanged"));
 
 	struct
 	{
@@ -418,7 +418,7 @@ void UMainCharacterVOComponent_C::OnDOdgeRollChanged(bool IsDodgeRolling)
 
 void UMainCharacterVOComponent_C::OnJumped()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnJumped");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnJumped"));
 
 	struct
 	{
@@ -434,7 +434,7 @@ void UMainCharacterVOComponent_C::OnJumped()
 
 void UMainCharacterVOComponent_C::OnCharacterFreeFallStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnCharacterFreeFallStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnCharacterFreeFallStarted"));
 
 	struct
 	{
@@ -450,7 +450,7 @@ void UMainCharacterVOComponent_C::OnCharacterFreeFallStarted()
 
 void UMainCharacterVOComponent_C::OnWeaponInventoryChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnWeaponInventoryChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnWeaponInventoryChanged"));
 
 	struct
 	{
@@ -470,7 +470,7 @@ void UMainCharacterVOComponent_C::OnWeaponInventoryChanged()
 
 void UMainCharacterVOComponent_C::BuildWeaponStateChanged(class AKSWeapon* Weapon, EWeaponStateNew OldState, EWeaponStateNew NewState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BuildWeaponStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BuildWeaponStateChanged"));
 
 	struct
 	{
@@ -496,7 +496,7 @@ void UMainCharacterVOComponent_C::BuildWeaponStateChanged(class AKSWeapon* Weapo
 
 void UMainCharacterVOComponent_C::GadgetWeaponStateChanged(class AKSWeapon* Weapon, EWeaponStateNew OldState, EWeaponStateNew NewState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.GadgetWeaponStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.GadgetWeaponStateChanged"));
 
 	struct
 	{
@@ -518,7 +518,7 @@ void UMainCharacterVOComponent_C::GadgetWeaponStateChanged(class AKSWeapon* Weap
 
 void UMainCharacterVOComponent_C::ResetObjectiveVO()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ResetObjectiveVO");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ResetObjectiveVO"));
 
 	struct
 	{
@@ -539,7 +539,7 @@ void UMainCharacterVOComponent_C::ResetObjectiveVO()
 
 void UMainCharacterVOComponent_C::OnStartReviveOther(class AKSCharacter* Reviver, class AKSCharacter* Revivee, float ReviveTime, bool bRemote)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnStartReviveOther");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnStartReviveOther"));
 
 	struct
 	{
@@ -565,7 +565,7 @@ void UMainCharacterVOComponent_C::OnStartReviveOther(class AKSCharacter* Reviver
 
 void UMainCharacterVOComponent_C::AnnounceBombSpotted(bool Armed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.AnnounceBombSpotted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.AnnounceBombSpotted"));
 
 	struct
 	{
@@ -583,7 +583,7 @@ void UMainCharacterVOComponent_C::AnnounceBombSpotted(bool Armed)
 
 void UMainCharacterVOComponent_C::OnDeathStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnDeathStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnDeathStateChanged"));
 
 	struct
 	{
@@ -601,7 +601,7 @@ void UMainCharacterVOComponent_C::OnDeathStateChanged()
 
 void UMainCharacterVOComponent_C::OnSprintChanged(bool IsSprinting)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnSprintChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnSprintChanged"));
 
 	struct
 	{
@@ -619,7 +619,7 @@ void UMainCharacterVOComponent_C::OnSprintChanged(bool IsSprinting)
 
 void UMainCharacterVOComponent_C::FinalExhaleTimerSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.FinalExhaleTimerSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.FinalExhaleTimerSet"));
 
 	struct
 	{
@@ -635,7 +635,7 @@ void UMainCharacterVOComponent_C::FinalExhaleTimerSet()
 
 void UMainCharacterVOComponent_C::DoOnceResetDefusing()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.DoOnceResetDefusing");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.DoOnceResetDefusing"));
 
 	struct
 	{
@@ -651,7 +651,7 @@ void UMainCharacterVOComponent_C::DoOnceResetDefusing()
 
 void UMainCharacterVOComponent_C::DoOnceResetInteractObj()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.DoOnceResetInteractObj");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.DoOnceResetInteractObj"));
 
 	struct
 	{
@@ -667,7 +667,7 @@ void UMainCharacterVOComponent_C::DoOnceResetInteractObj()
 
 void UMainCharacterVOComponent_C::DoOnceResetPlanting()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.DoOnceResetPlanting");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.DoOnceResetPlanting"));
 
 	struct
 	{
@@ -686,7 +686,7 @@ void UMainCharacterVOComponent_C::DoOnceResetPlanting()
 
 void UMainCharacterVOComponent_C::ModFailedToActivate(class UKSModInst_Activated* AttemptedMod, EKSAbilityUsageFailureType AbilityFailureType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ModFailedToActivate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ModFailedToActivate"));
 
 	struct
 	{
@@ -708,7 +708,7 @@ void UMainCharacterVOComponent_C::ModFailedToActivate(class UKSModInst_Activated
 
 void UMainCharacterVOComponent_C::BindToPlayerStateEvents(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToPlayerStateEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToPlayerStateEvents"));
 
 	struct
 	{
@@ -728,7 +728,7 @@ void UMainCharacterVOComponent_C::BindToPlayerStateEvents(class AKSPlayerState* 
 
 void UMainCharacterVOComponent_C::BindToActivatableModEvents(class UKSModInst_Activated* ActivatableMod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToActivatableModEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToActivatableModEvents"));
 
 	struct
 	{
@@ -746,7 +746,7 @@ void UMainCharacterVOComponent_C::BindToActivatableModEvents(class UKSModInst_Ac
 
 void UMainCharacterVOComponent_C::BindToEvents()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToEvents"));
 
 	struct
 	{
@@ -764,7 +764,7 @@ void UMainCharacterVOComponent_C::BindToEvents()
 
 void UMainCharacterVOComponent_C::BindToTeamStateEvents(class AKSTeamState* TeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToTeamStateEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToTeamStateEvents"));
 
 	struct
 	{
@@ -784,7 +784,7 @@ void UMainCharacterVOComponent_C::BindToTeamStateEvents(class AKSTeamState* Team
 
 void UMainCharacterVOComponent_C::BindToPlayerControllerEvents(class AKSPlayerController* PlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToPlayerControllerEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.BindToPlayerControllerEvents"));
 
 	struct
 	{
@@ -802,7 +802,7 @@ void UMainCharacterVOComponent_C::BindToPlayerControllerEvents(class AKSPlayerCo
 
 void UMainCharacterVOComponent_C::OnJobChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnJobChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnJobChanged"));
 
 	struct
 	{
@@ -820,7 +820,7 @@ void UMainCharacterVOComponent_C::OnJobChanged()
 
 void UMainCharacterVOComponent_C::ShopItemChanged(const struct FShopItem& ShopItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ShopItemChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ShopItemChanged"));
 
 	struct
 	{
@@ -840,7 +840,7 @@ void UMainCharacterVOComponent_C::ShopItemChanged(const struct FShopItem& ShopIt
 
 void UMainCharacterVOComponent_C::OnPlayerDownedChanged(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnPlayerDownedChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnPlayerDownedChanged"));
 
 	struct
 	{
@@ -858,7 +858,7 @@ void UMainCharacterVOComponent_C::OnPlayerDownedChanged(class AKSPlayerState* Pl
 
 void UMainCharacterVOComponent_C::ModTriggered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ModTriggered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ModTriggered"));
 
 	struct
 	{
@@ -874,7 +874,7 @@ void UMainCharacterVOComponent_C::ModTriggered()
 
 void UMainCharacterVOComponent_C::ModSetup()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ModSetup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ModSetup"));
 
 	struct
 	{
@@ -892,7 +892,7 @@ void UMainCharacterVOComponent_C::ModSetup()
 
 void UMainCharacterVOComponent_C::ModActivated(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ModActivated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ModActivated"));
 
 	struct
 	{
@@ -912,7 +912,7 @@ void UMainCharacterVOComponent_C::ModActivated(bool bActive)
 
 void UMainCharacterVOComponent_C::ExecuteUbergraph_MainCharacterVOComponent(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ExecuteUbergraph_MainCharacterVOComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterVOComponent.MainCharacterVOComponent_C.ExecuteUbergraph_MainCharacterVOComponent"));
 
 	struct
 	{

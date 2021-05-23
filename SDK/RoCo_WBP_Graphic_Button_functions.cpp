@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Graphic_Button_C::OnHoveredLogic(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnHoveredLogic");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnHoveredLogic"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_Graphic_Button_C::OnHoveredLogic(bool IsGamepad)
 
 bool UWBP_Graphic_Button_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.NavigateConfirm"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ bool UWBP_Graphic_Button_C::NavigateConfirm()
 
 void UWBP_Graphic_Button_C::SetImage()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.SetImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.SetImage"));
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_Graphic_Button_C::SetImage()
 
 void UWBP_Graphic_Button_C::SetImageTint()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.SetImageTint");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.SetImageTint"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_Graphic_Button_C::SetImageTint()
 
 void UWBP_Graphic_Button_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnClickSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnClickSound"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_Graphic_Button_C::OnClickSound()
 
 void UWBP_Graphic_Button_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnHoverSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnHoverSound"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_Graphic_Button_C::OnHoverSound()
 
 void UWBP_Graphic_Button_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.Construct"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_Graphic_Button_C::Construct()
 
 void UWBP_Graphic_Button_C::OnGamepadConfirmed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnGamepadConfirmed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnGamepadConfirmed"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_Graphic_Button_C::OnGamepadConfirmed()
 
 void UWBP_Graphic_Button_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_Graphic_Button_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnBut
 
 void UWBP_Graphic_Button_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_Graphic_Button_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnBut
 
 void UWBP_Graphic_Button_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -202,7 +202,7 @@ void UWBP_Graphic_Button_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnBut
 
 void UWBP_Graphic_Button_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.GamepadHover"));
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_Graphic_Button_C::GamepadHover()
 
 void UWBP_Graphic_Button_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.GamepadUnhover"));
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_Graphic_Button_C::GamepadUnhover()
 
 void UWBP_Graphic_Button_C::DisableButton(bool bShouldDisable)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.DisableButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.DisableButton"));
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UWBP_Graphic_Button_C::DisableButton(bool bShouldDisable)
 
 void UWBP_Graphic_Button_C::CallButtonHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.CallButtonHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.CallButtonHover"));
 
 	struct
 	{
@@ -270,7 +270,7 @@ void UWBP_Graphic_Button_C::CallButtonHover()
 
 void UWBP_Graphic_Button_C::CallButtonUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.CallButtonUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.CallButtonUnhover"));
 
 	struct
 	{
@@ -288,7 +288,7 @@ void UWBP_Graphic_Button_C::CallButtonUnhover()
 
 void UWBP_Graphic_Button_C::SetIsActiveState(bool bIsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.SetIsActiveState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.SetIsActiveState"));
 
 	struct
 	{
@@ -308,7 +308,7 @@ void UWBP_Graphic_Button_C::SetIsActiveState(bool bIsActive)
 
 void UWBP_Graphic_Button_C::ExecuteUbergraph_WBP_Graphic_Button(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.ExecuteUbergraph_WBP_Graphic_Button");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.ExecuteUbergraph_WBP_Graphic_Button"));
 
 	struct
 	{
@@ -326,7 +326,7 @@ void UWBP_Graphic_Button_C::ExecuteUbergraph_WBP_Graphic_Button(int EntryPoint)
 
 void UWBP_Graphic_Button_C::OnGraphicBtnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnGraphicBtnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnGraphicBtnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -344,7 +344,7 @@ void UWBP_Graphic_Button_C::OnGraphicBtnUnhovered__DelegateSignature()
 
 void UWBP_Graphic_Button_C::OnGraphicBtnHovered__DelegateSignature(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnGraphicBtnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnGraphicBtnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -362,7 +362,7 @@ void UWBP_Graphic_Button_C::OnGraphicBtnHovered__DelegateSignature(bool IsGamepa
 
 void UWBP_Graphic_Button_C::OnGraphicBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnGraphicBtnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Graphic_Button.WBP_Graphic_Button_C.OnGraphicBtnClicked__DelegateSignature"));
 
 	struct
 	{

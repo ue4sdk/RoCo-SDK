@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueMasteryRewardIcon_C::SetRewardItem(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryRewardIcon.WBP_RogueMasteryRewardIcon_C.SetRewardItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryRewardIcon.WBP_RogueMasteryRewardIcon_C.SetRewardItem"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_BattlePassOfferPanel_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.NavigateConfirm"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_BattlePassOfferPanel_C::NavigateConfirm()
 
 void UWBP_BattlePassOfferPanel_C::Display_Battle_Pass_Bundle(class UPUMG_StoreItem* Bundle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.Display Battle Pass Bundle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.Display Battle Pass Bundle"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_BattlePassOfferPanel_C::Display_Battle_Pass_Bundle(class UPUMG_StoreIt
 
 void UWBP_BattlePassOfferPanel_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_BattlePassOfferPanel_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentB
 
 void UWBP_BattlePassOfferPanel_C::OnGamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.OnGamepadConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.OnGamepadConfirm"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_BattlePassOfferPanel_C::OnGamepadConfirm()
 
 void UWBP_BattlePassOfferPanel_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.GamepadHover"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_BattlePassOfferPanel_C::GamepadHover()
 
 void UWBP_BattlePassOfferPanel_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.GamepadUnhover"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UWBP_BattlePassOfferPanel_C::GamepadUnhover()
 
 void UWBP_BattlePassOfferPanel_C::ExecuteUbergraph_WBP_BattlePassOfferPanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.ExecuteUbergraph_WBP_BattlePassOfferPanel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.ExecuteUbergraph_WBP_BattlePassOfferPanel"));
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UWBP_BattlePassOfferPanel_C::ExecuteUbergraph_WBP_BattlePassOfferPanel(int 
 
 void UWBP_BattlePassOfferPanel_C::OnOfferPanelClicked__DelegateSignature(class UPUMG_StoreItem* BattlePassOffer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.OnOfferPanelClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassOfferPanel.WBP_BattlePassOfferPanel_C.OnOfferPanelClicked__DelegateSignature"));
 
 	struct
 	{

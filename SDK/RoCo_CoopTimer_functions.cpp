@@ -17,7 +17,7 @@ namespace SDK
 
 void UCoopTimer_C::UpdateMatchPointDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.UpdateMatchPointDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.UpdateMatchPointDisplay"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UCoopTimer_C::UpdateMatchPointDisplay()
 
 void UCoopTimer_C::UpdateTeamCountDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.UpdateTeamCountDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.UpdateTeamCountDisplay"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UCoopTimer_C::UpdateTeamCountDisplay()
 
 void UCoopTimer_C::SetRoundTimerSize(int NewSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.SetRoundTimerSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.SetRoundTimerSize"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UCoopTimer_C::SetRoundTimerSize(int NewSize)
 
 void UCoopTimer_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.Construct"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UCoopTimer_C::Construct()
 
 void UCoopTimer_C::HackInProgress(class AKSExtractionComputer* Computer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.HackInProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.HackInProgress"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UCoopTimer_C::HackInProgress(class AKSExtractionComputer* Computer)
 
 void UCoopTimer_C::RoundEnd(class AKSGameState* GameState, const struct FRoundResult& RoundResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.RoundEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.RoundEnd"));
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UCoopTimer_C::RoundEnd(class AKSGameState* GameState, const struct FRoundRe
 
 void UCoopTimer_C::RoundWarmup(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.RoundWarmup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.RoundWarmup"));
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UCoopTimer_C::RoundWarmup(const struct FRoundInitState& RoundInitState)
 
 void UCoopTimer_C::RoundStart(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.RoundStart");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.RoundStart"));
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UCoopTimer_C::RoundStart(const struct FRoundInitState& RoundInitState)
 
 void UCoopTimer_C::ComputersUnlock()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.ComputersUnlock");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.ComputersUnlock"));
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UCoopTimer_C::ComputersUnlock()
 
 void UCoopTimer_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.Tick"));
 
 	struct
 	{
@@ -209,7 +209,7 @@ void UCoopTimer_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 void UCoopTimer_C::Player_Eliminated(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.Player Eliminated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.Player Eliminated"));
 
 	struct
 	{
@@ -227,7 +227,7 @@ void UCoopTimer_C::Player_Eliminated(class AKSPlayerState* PlayerState)
 
 void UCoopTimer_C::OpenRetryGameStateBind()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.OpenRetryGameStateBind");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.OpenRetryGameStateBind"));
 
 	struct
 	{
@@ -243,7 +243,7 @@ void UCoopTimer_C::OpenRetryGameStateBind()
 
 void UCoopTimer_C::CloseRetryGameStateBind()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.CloseRetryGameStateBind");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.CloseRetryGameStateBind"));
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UCoopTimer_C::CloseRetryGameStateBind()
 
 void UCoopTimer_C::RetryGameStateBind()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.RetryGameStateBind");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.RetryGameStateBind"));
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UCoopTimer_C::RetryGameStateBind()
 
 void UCoopTimer_C::OnUIRelevantPlayerStateChanged(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.OnUIRelevantPlayerStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.OnUIRelevantPlayerStateChanged"));
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UCoopTimer_C::OnUIRelevantPlayerStateChanged(class AKSPlayerState* PlayerSt
 
 void UCoopTimer_C::OnGameTimerUpdate(float NewTruncatedSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.OnGameTimerUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.OnGameTimerUpdate"));
 
 	struct
 	{
@@ -315,7 +315,7 @@ void UCoopTimer_C::OnGameTimerUpdate(float NewTruncatedSeconds)
 
 void UCoopTimer_C::InitializeTimer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.InitializeTimer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.InitializeTimer"));
 
 	struct
 	{
@@ -333,7 +333,7 @@ void UCoopTimer_C::InitializeTimer()
 
 void UCoopTimer_C::HandleKillCamEnabled(bool bEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.HandleKillCamEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.HandleKillCamEnabled"));
 
 	struct
 	{
@@ -351,7 +351,7 @@ void UCoopTimer_C::HandleKillCamEnabled(bool bEnabled)
 
 void UCoopTimer_C::Unbind_OnGameTimerUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.Unbind OnGameTimerUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.Unbind OnGameTimerUpdate"));
 
 	struct
 	{
@@ -369,7 +369,7 @@ void UCoopTimer_C::Unbind_OnGameTimerUpdate()
 
 void UCoopTimer_C::HandleKillCamViewPawn(class APawn* ViewedPawn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.HandleKillCamViewPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.HandleKillCamViewPawn"));
 
 	struct
 	{
@@ -389,7 +389,7 @@ void UCoopTimer_C::HandleKillCamViewPawn(class APawn* ViewedPawn)
 
 void UCoopTimer_C::Handle_Alarm_State_Changed(bool bAlarmState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.Handle Alarm State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.Handle Alarm State Changed"));
 
 	struct
 	{
@@ -409,7 +409,7 @@ void UCoopTimer_C::Handle_Alarm_State_Changed(bool bAlarmState)
 
 void UCoopTimer_C::ExecuteUbergraph_CoopTimer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CoopTimer.CoopTimer_C.ExecuteUbergraph_CoopTimer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopTimer.CoopTimer_C.ExecuteUbergraph_CoopTimer"));
 
 	struct
 	{

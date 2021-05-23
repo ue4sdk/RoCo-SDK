@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_MatchSummary_C::PopulatePlayerStats(const struct FPlayerEntryStats& PlayerEntryStats)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchSummary.WBP_MatchSummary_C.PopulatePlayerStats");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchSummary.WBP_MatchSummary_C.PopulatePlayerStats"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UWBP_MatchSummary_C::PopulatePlayerStats(const struct FPlayerEntryStats& Pl
 
 void UWBP_MatchSummary_C::PopulateMatchSummary(const struct FPlayerRewardsSummary& PlayerRewards, const struct FScoreboardStats& ScoreboardStats)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchSummary.WBP_MatchSummary_C.PopulateMatchSummary");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchSummary.WBP_MatchSummary_C.PopulateMatchSummary"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_MatchSummary_C::PopulateMatchSummary(const struct FPlayerRewardsSummar
 
 void UWBP_MatchSummary_C::PopulateBestStats(TArray<struct FPlayerMatchStatInfo>* BestStats)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchSummary.WBP_MatchSummary_C.PopulateBestStats");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchSummary.WBP_MatchSummary_C.PopulateBestStats"));
 
 	struct
 	{
@@ -84,7 +84,7 @@ void UWBP_MatchSummary_C::PopulateBestStats(TArray<struct FPlayerMatchStatInfo>*
 
 void UWBP_MatchSummary_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchSummary.WBP_MatchSummary_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchSummary.WBP_MatchSummary_C.InitializeWidget"));
 
 	struct
 	{
@@ -104,7 +104,7 @@ void UWBP_MatchSummary_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_MatchSummary_C::ExecuteUbergraph_WBP_MatchSummary(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchSummary.WBP_MatchSummary_C.ExecuteUbergraph_WBP_MatchSummary");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchSummary.WBP_MatchSummary_C.ExecuteUbergraph_WBP_MatchSummary"));
 
 	struct
 	{

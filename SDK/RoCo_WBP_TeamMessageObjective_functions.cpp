@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_TeamMessageObjective_C::WrapUpHideAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.WrapUpHideAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.WrapUpHideAnim"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_TeamMessageObjective_C::WrapUpHideAnim()
 
 void UWBP_TeamMessageObjective_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.Construct"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_TeamMessageObjective_C::Construct()
 
 void UWBP_TeamMessageObjective_C::HandleShowAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.HandleShowAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.HandleShowAnimFinished"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_TeamMessageObjective_C::HandleShowAnimFinished()
 
 void UWBP_TeamMessageObjective_C::HandleHideAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.HandleHideAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.HandleHideAnimFinished"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_TeamMessageObjective_C::HandleHideAnimFinished()
 
 void UWBP_TeamMessageObjective_C::HandlePulseAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.HandlePulseAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.HandlePulseAnimFinished"));
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_TeamMessageObjective_C::HandlePulseAnimFinished()
 
 void UWBP_TeamMessageObjective_C::WrapItUp()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.WrapItUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.WrapItUp"));
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_TeamMessageObjective_C::WrapItUp()
 
 void UWBP_TeamMessageObjective_C::ExecuteUbergraph_WBP_TeamMessageObjective(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.ExecuteUbergraph_WBP_TeamMessageObjective");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessageObjective.WBP_TeamMessageObjective_C.ExecuteUbergraph_WBP_TeamMessageObjective"));
 
 	struct
 	{

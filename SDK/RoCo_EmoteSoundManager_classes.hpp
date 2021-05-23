@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass EmoteSoundManager.EmoteSoundManager_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass EmoteSoundManager.EmoteSoundManager_C"));
 		return ptr;
 	}
 

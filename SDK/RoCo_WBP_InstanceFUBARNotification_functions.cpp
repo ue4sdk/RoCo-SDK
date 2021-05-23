@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_InstanceFUBARNotification_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.NavigateConfirm"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_InstanceFUBARNotification_C::NavigateConfirm()
 
 void UWBP_InstanceFUBARNotification_C::UpdateButtonCountdown(int SecondsRemaining)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.UpdateButtonCountdown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.UpdateButtonCountdown"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_InstanceFUBARNotification_C::UpdateButtonCountdown(int SecondsRemainin
 
 void UWBP_InstanceFUBARNotification_C::SetUpMessaging(const struct FText& Header, const struct FText& Description, bool ShowIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.SetUpMessaging");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.SetUpMessaging"));
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UWBP_InstanceFUBARNotification_C::SetUpMessaging(const struct FText& Header
 
 void UWBP_InstanceFUBARNotification_C::DisplayFubar(EFubarDisplayReason Reason)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.DisplayFubar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.DisplayFubar"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_InstanceFUBARNotification_C::DisplayFubar(EFubarDisplayReason Reason)
 
 void UWBP_InstanceFUBARNotification_C::BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UWBP_InstanceFUBARNotification_C::BndEvt__WBP_StandardButtonMedium_K2Node_C
 
 void UWBP_InstanceFUBARNotification_C::TickCountdown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.TickCountdown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.TickCountdown"));
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_InstanceFUBARNotification_C::TickCountdown()
 
 void UWBP_InstanceFUBARNotification_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.OnHide"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_InstanceFUBARNotification_C::OnHide()
 
 void UWBP_InstanceFUBARNotification_C::Confirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.Confirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.Confirm"));
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_InstanceFUBARNotification_C::Confirm()
 
 void UWBP_InstanceFUBARNotification_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.Construct"));
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_InstanceFUBARNotification_C::Construct()
 
 void UWBP_InstanceFUBARNotification_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_InstanceFUBARNotification_C::InitializeWidgetNavigation()
 
 void UWBP_InstanceFUBARNotification_C::ExecuteUbergraph_WBP_InstanceFUBARNotification(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.ExecuteUbergraph_WBP_InstanceFUBARNotification");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InstanceFUBARNotification.WBP_InstanceFUBARNotification_C.ExecuteUbergraph_WBP_InstanceFUBARNotification"));
 
 	struct
 	{

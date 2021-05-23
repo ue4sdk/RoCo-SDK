@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_BulletedListEntry_C::SetText(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BulletedListEntry.WBP_BulletedListEntry_C.SetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BulletedListEntry.WBP_BulletedListEntry_C.SetText"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_BulletedListEntry_C::SetText(const struct FText& Text)
 
 void UWBP_BulletedListEntry_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BulletedListEntry.WBP_BulletedListEntry_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BulletedListEntry.WBP_BulletedListEntry_C.PreConstruct"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_BulletedListEntry_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_BulletedListEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BulletedListEntry.WBP_BulletedListEntry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BulletedListEntry.WBP_BulletedListEntry_C.Construct"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_BulletedListEntry_C::Construct()
 
 void UWBP_BulletedListEntry_C::ExecuteUbergraph_WBP_BulletedListEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BulletedListEntry.WBP_BulletedListEntry_C.ExecuteUbergraph_WBP_BulletedListEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BulletedListEntry.WBP_BulletedListEntry_C.ExecuteUbergraph_WBP_BulletedListEntry"));
 
 	struct
 	{

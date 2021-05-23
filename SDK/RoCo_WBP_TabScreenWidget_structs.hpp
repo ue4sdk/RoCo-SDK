@@ -7,9 +7,9 @@
 #endif
 
 #include "RoCo_Basic.hpp"
+#include "RoCo_InGameTabStruct_classes.hpp"
 #include "RoCo_KillstreakUINew_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
-#include "RoCo_InGameTabStruct_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
 #include "RoCo_PlatformGameFramework_classes.hpp"

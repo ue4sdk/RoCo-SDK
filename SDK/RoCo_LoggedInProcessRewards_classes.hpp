@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass LoggedInProcessRewards.LoggedInProcessRewards_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass LoggedInProcessRewards.LoggedInProcessRewards_C"));
 		return ptr;
 	}
 

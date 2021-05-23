@@ -19,7 +19,7 @@ namespace SDK
 
 void UBrightLobbyHeader_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyHeader.BrightLobbyHeader_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyHeader.BrightLobbyHeader_C.InitializeWidget"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UBrightLobbyHeader_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UBrightLobbyHeader_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyHeader.BrightLobbyHeader_C.StartShowSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyHeader.BrightLobbyHeader_C.StartShowSequence"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UBrightLobbyHeader_C::StartShowSequence(const struct FName& FromRoute, cons
 
 void UBrightLobbyHeader_C::HandleLobbyStartMenuInputAction()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyHeader.BrightLobbyHeader_C.HandleLobbyStartMenuInputAction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyHeader.BrightLobbyHeader_C.HandleLobbyStartMenuInputAction"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UBrightLobbyHeader_C::HandleLobbyStartMenuInputAction()
 
 void UBrightLobbyHeader_C::HandleLoginStateChange(EPUMG_LoginState LoginState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyHeader.BrightLobbyHeader_C.HandleLoginStateChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyHeader.BrightLobbyHeader_C.HandleLoginStateChange"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UBrightLobbyHeader_C::HandleLoginStateChange(EPUMG_LoginState LoginState)
 
 void UBrightLobbyHeader_C::ExecuteUbergraph_BrightLobbyHeader(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyHeader.BrightLobbyHeader_C.ExecuteUbergraph_BrightLobbyHeader");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyHeader.BrightLobbyHeader_C.ExecuteUbergraph_BrightLobbyHeader"));
 
 	struct
 	{

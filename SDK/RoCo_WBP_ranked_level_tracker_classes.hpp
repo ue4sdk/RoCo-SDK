@@ -36,7 +36,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_ranked_level_tracker.WBP_ranked_level_tracker_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_ranked_level_tracker.WBP_ranked_level_tracker_C"));
 		return ptr;
 	}
 

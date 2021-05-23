@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_TouchButtonGeneric_C::TriggerInputAction(TEnumAsByte<EInputEvent> InInputEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.TriggerInputAction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.TriggerInputAction"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_TouchButtonGeneric_C::TriggerInputAction(TEnumAsByte<EInputEvent> InIn
 
 void UWBP_TouchButtonGeneric_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.PreConstruct"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_TouchButtonGeneric_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_TouchButtonGeneric_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.Construct"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_TouchButtonGeneric_C::Construct()
 
 void UWBP_TouchButtonGeneric_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_TouchButtonGeneric_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_O
 
 void UWBP_TouchButtonGeneric_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_TouchButtonGeneric_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_O
 
 void UWBP_TouchButtonGeneric_C::ExecuteUbergraph_WBP_TouchButtonGeneric(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.ExecuteUbergraph_WBP_TouchButtonGeneric");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.ExecuteUbergraph_WBP_TouchButtonGeneric"));
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UWBP_TouchButtonGeneric_C::ExecuteUbergraph_WBP_TouchButtonGeneric(int Entr
 
 void UWBP_TouchButtonGeneric_C::OnButtonPressed__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.OnButtonPressed__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.OnButtonPressed__DelegateSignature"));
 
 	struct
 	{

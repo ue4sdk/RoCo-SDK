@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PlayerIdentity_Full_C::Populate_Lobby_Player(class UKSPlayerInfo* KS_Player_Info)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Populate Lobby Player");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Populate Lobby Player"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_PlayerIdentity_Full_C::Populate_Lobby_Player(class UKSPlayerInfo* KS_P
 
 void UWBP_PlayerIdentity_Full_C::Update_Title(bool Use_Game_State_Data)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Title");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Title"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_PlayerIdentity_Full_C::Update_Title(bool Use_Game_State_Data)
 
 void UWBP_PlayerIdentity_Full_C::Set_From_Player_Info(class UKSPlayerInfo* KS_Player_Info, bool Use_Game_State_Data)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Set From Player Info");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Set From Player Info"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWBP_PlayerIdentity_Full_C::Set_From_Player_Info(class UKSPlayerInfo* KS_Pl
 
 void UWBP_PlayerIdentity_Full_C::Update_Border(bool Use_Game_State_Data)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Border");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Border"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWBP_PlayerIdentity_Full_C::Update_Border(bool Use_Game_State_Data)
 
 void UWBP_PlayerIdentity_Full_C::Update_Banner(bool Use_Game_State_Data)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Banner");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Banner"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_PlayerIdentity_Full_C::Update_Banner(bool Use_Game_State_Data)
 
 void UWBP_PlayerIdentity_Full_C::Update_Avatar(bool Use_Game_State_Data)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Avatar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Avatar"));
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_PlayerIdentity_Full_C::Update_Avatar(bool Use_Game_State_Data)
 
 void UWBP_PlayerIdentity_Full_C::Update_Level()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Level");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Level"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_PlayerIdentity_Full_C::Update_Level()
 
 void UWBP_PlayerIdentity_Full_C::Update_Current_Name()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Current Name");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Update Current Name"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_PlayerIdentity_Full_C::Update_Current_Name()
 
 void UWBP_PlayerIdentity_Full_C::Populate_Game_Player(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Populate Game Player");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Populate Game Player"));
 
 	struct
 	{
@@ -194,7 +194,7 @@ void UWBP_PlayerIdentity_Full_C::Populate_Game_Player(class AKSPlayerState* KSPl
 
 void UWBP_PlayerIdentity_Full_C::Apply_Layout_Type(TEnumAsByte<EPlayerIdentityLayoutType> Layout_Type)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Apply Layout Type");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Apply Layout Type"));
 
 	struct
 	{
@@ -212,7 +212,7 @@ void UWBP_PlayerIdentity_Full_C::Apply_Layout_Type(TEnumAsByte<EPlayerIdentityLa
 
 void UWBP_PlayerIdentity_Full_C::SetInitialView()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.SetInitialView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.SetInitialView"));
 
 	struct
 	{
@@ -230,7 +230,7 @@ void UWBP_PlayerIdentity_Full_C::SetInitialView()
 
 void UWBP_PlayerIdentity_Full_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.PreConstruct"));
 
 	struct
 	{
@@ -248,7 +248,7 @@ void UWBP_PlayerIdentity_Full_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PlayerIdentity_Full_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.Construct"));
 
 	struct
 	{
@@ -266,7 +266,7 @@ void UWBP_PlayerIdentity_Full_C::Construct()
 
 void UWBP_PlayerIdentity_Full_C::ExecuteUbergraph_WBP_PlayerIdentity_Full(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.ExecuteUbergraph_WBP_PlayerIdentity_Full");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Full.WBP_PlayerIdentity_Full_C.ExecuteUbergraph_WBP_PlayerIdentity_Full"));
 
 	struct
 	{

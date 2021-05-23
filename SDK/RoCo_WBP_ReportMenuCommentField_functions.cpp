@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_ReportMenuCommentField_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.NavigateConfirm"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_ReportMenuCommentField_C::NavigateConfirm()
 
 void UWBP_ReportMenuCommentField_C::ClearText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.ClearText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.ClearText"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_ReportMenuCommentField_C::ClearText()
 
 void UWBP_ReportMenuCommentField_C::GetText(struct FText* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.GetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.GetText"));
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_ReportMenuCommentField_C::GetText(struct FText* Return_Value)
 
 void UWBP_ReportMenuCommentField_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.GamepadHover"));
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UWBP_ReportMenuCommentField_C::GamepadHover()
 
 void UWBP_ReportMenuCommentField_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.GamepadUnhover"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_ReportMenuCommentField_C::GamepadUnhover()
 
 void UWBP_ReportMenuCommentField_C::ExecuteUbergraph_WBP_ReportMenuCommentField(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.ExecuteUbergraph_WBP_ReportMenuCommentField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReportMenuCommentField.WBP_ReportMenuCommentField_C.ExecuteUbergraph_WBP_ReportMenuCommentField"));
 
 	struct
 	{

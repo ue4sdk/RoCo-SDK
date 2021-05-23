@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_AppliedEvents_C::PopulateActiveEvents()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AppliedEvents.WBP_AppliedEvents_C.PopulateActiveEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AppliedEvents.WBP_AppliedEvents_C.PopulateActiveEvents"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_AppliedEvents_C::PopulateActiveEvents()
 
 void UWBP_AppliedEvents_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AppliedEvents.WBP_AppliedEvents_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AppliedEvents.WBP_AppliedEvents_C.PreConstruct"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_AppliedEvents_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_AppliedEvents_C::ExecuteUbergraph_WBP_AppliedEvents(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AppliedEvents.WBP_AppliedEvents_C.ExecuteUbergraph_WBP_AppliedEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AppliedEvents.WBP_AppliedEvents_C.ExecuteUbergraph_WBP_AppliedEvents"));
 
 	struct
 	{

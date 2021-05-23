@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_NewsRotatorWidget_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.NavigateConfirm"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ bool UWBP_NewsRotatorWidget_C::NavigateConfirm()
 
 void UWBP_NewsRotatorWidget_C::UpdatePrompts(unsigned char InputState, bool HasFocus)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.UpdatePrompts");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.UpdatePrompts"));
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UWBP_NewsRotatorWidget_C::UpdatePrompts(unsigned char InputState, bool HasF
 
 void UWBP_NewsRotatorWidget_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* Widgets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.GetNavigationWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.GetNavigationWidgets"));
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_NewsRotatorWidget_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>*
 
 void UWBP_NewsRotatorWidget_C::ShowPanel(int NewPanelIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.ShowPanel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.ShowPanel"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWBP_NewsRotatorWidget_C::ShowPanel(int NewPanelIndex)
 
 void UWBP_NewsRotatorWidget_C::UpdateRotatorButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.UpdateRotatorButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.UpdateRotatorButtons"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWBP_NewsRotatorWidget_C::UpdateRotatorButtons()
 
 void UWBP_NewsRotatorWidget_C::ShowPrevPanel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.ShowPrevPanel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.ShowPrevPanel"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_NewsRotatorWidget_C::ShowPrevPanel()
 
 void UWBP_NewsRotatorWidget_C::ShowNextPanel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.ShowNextPanel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.ShowNextPanel"));
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_NewsRotatorWidget_C::ShowNextPanel()
 
 void UWBP_NewsRotatorWidget_C::PopulateData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.PopulateData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.PopulateData"));
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_NewsRotatorWidget_C::PopulateData()
 
 void UWBP_NewsRotatorWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.InitializeWidget"));
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UWBP_NewsRotatorWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_NewsRotatorWidget_C::OnJsonChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnJsonChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnJsonChanged"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void UWBP_NewsRotatorWidget_C::OnJsonChanged()
 
 void UWBP_NewsRotatorWidget_C::OnAnimationFinished(class UWidgetAnimation* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnAnimationFinished"));
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UWBP_NewsRotatorWidget_C::OnAnimationFinished(class UWidgetAnimation* Anima
 
 void UWBP_NewsRotatorWidget_C::OnItemClicked(int ButtonIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnItemClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnItemClicked"));
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UWBP_NewsRotatorWidget_C::OnItemClicked(int ButtonIndex)
 
 void UWBP_NewsRotatorWidget_C::OnActionClicked(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnActionClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnActionClicked"));
 
 	struct
 	{
@@ -266,7 +266,7 @@ void UWBP_NewsRotatorWidget_C::OnActionClicked(class UWidget* Widget)
 
 void UWBP_NewsRotatorWidget_C::OnActionButtonHovered(class UPUMG_Widget* Widget, bool bHovered)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnActionButtonHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnActionButtonHovered"));
 
 	struct
 	{
@@ -288,7 +288,7 @@ void UWBP_NewsRotatorWidget_C::OnActionButtonHovered(class UPUMG_Widget* Widget,
 
 void UWBP_NewsRotatorWidget_C::OnInputModeChange(unsigned char CurrentState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnInputModeChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.OnInputModeChange"));
 
 	struct
 	{
@@ -309,7 +309,7 @@ void UWBP_NewsRotatorWidget_C::OnInputModeChange(unsigned char CurrentState)
 
 void UWBP_NewsRotatorWidget_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.Tick"));
 
 	struct
 	{
@@ -329,7 +329,7 @@ void UWBP_NewsRotatorWidget_C::Tick(const struct FGeometry& MyGeometry, float In
 
 void UWBP_NewsRotatorWidget_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -345,7 +345,7 @@ void UWBP_NewsRotatorWidget_C::InitializeWidgetNavigation()
 
 void UWBP_NewsRotatorWidget_C::BindInputActions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.BindInputActions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.BindInputActions"));
 
 	struct
 	{
@@ -361,7 +361,7 @@ void UWBP_NewsRotatorWidget_C::BindInputActions()
 
 void UWBP_NewsRotatorWidget_C::UnbindInputActions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.UnbindInputActions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.UnbindInputActions"));
 
 	struct
 	{
@@ -380,7 +380,7 @@ void UWBP_NewsRotatorWidget_C::UnbindInputActions()
 
 void UWBP_NewsRotatorWidget_C::HandleGamepadHovered(class UPUMG_Widget* Widget, bool bHovered)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.HandleGamepadHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.HandleGamepadHovered"));
 
 	struct
 	{
@@ -400,7 +400,7 @@ void UWBP_NewsRotatorWidget_C::HandleGamepadHovered(class UPUMG_Widget* Widget, 
 
 void UWBP_NewsRotatorWidget_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.GamepadHover"));
 
 	struct
 	{
@@ -416,7 +416,7 @@ void UWBP_NewsRotatorWidget_C::GamepadHover()
 
 void UWBP_NewsRotatorWidget_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.GamepadUnhover"));
 
 	struct
 	{
@@ -434,7 +434,7 @@ void UWBP_NewsRotatorWidget_C::GamepadUnhover()
 
 void UWBP_NewsRotatorWidget_C::ExecuteUbergraph_WBP_NewsRotatorWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.ExecuteUbergraph_WBP_NewsRotatorWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.ExecuteUbergraph_WBP_NewsRotatorWidget"));
 
 	struct
 	{
@@ -454,7 +454,7 @@ void UWBP_NewsRotatorWidget_C::ExecuteUbergraph_WBP_NewsRotatorWidget(int EntryP
 
 void UWBP_NewsRotatorWidget_C::NewsVisibilityUpdated__DelegateSignature(bool Visibility)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.NewsVisibilityUpdated__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorWidget.WBP_NewsRotatorWidget_C.NewsVisibilityUpdated__DelegateSignature"));
 
 	struct
 	{

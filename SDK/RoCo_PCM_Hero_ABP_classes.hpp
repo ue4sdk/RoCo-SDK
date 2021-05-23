@@ -1418,7 +1418,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("DynamicClass PCM_Hero_ABP.PCM_Hero_ABP_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass PCM_Hero_ABP.PCM_Hero_ABP_C"));
 		return ptr;
 	}
 

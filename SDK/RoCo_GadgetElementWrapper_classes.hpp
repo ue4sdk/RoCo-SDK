@@ -29,7 +29,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass GadgetElementWrapper.GadgetElementWrapper_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass GadgetElementWrapper.GadgetElementWrapper_C"));
 		return ptr;
 	}
 

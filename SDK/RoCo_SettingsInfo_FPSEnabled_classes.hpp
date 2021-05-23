@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass SettingsInfo_FPSEnabled.SettingsInfo_FPSEnabled_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass SettingsInfo_FPSEnabled.SettingsInfo_FPSEnabled_C"));
 		return ptr;
 	}
 

@@ -20,7 +20,7 @@ namespace SDK
 
 void ULoginEula_C::ShowArrows(float Value, float MaxValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.ShowArrows");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.ShowArrows"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void ULoginEula_C::ShowArrows(float Value, float MaxValue)
 
 void ULoginEula_C::ChangeFontSizeText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.ChangeFontSizeText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.ChangeFontSizeText"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void ULoginEula_C::ChangeFontSizeText()
 
 void ULoginEula_C::HandleCalloutSwitcher()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.HandleCalloutSwitcher");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.HandleCalloutSwitcher"));
 
 	struct
 	{
@@ -72,7 +72,7 @@ void ULoginEula_C::HandleCalloutSwitcher()
 
 void ULoginEula_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.Construct"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void ULoginEula_C::Construct()
 
 void ULoginEula_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.Tick"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ void ULoginEula_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 void ULoginEula_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.InitializeWidget"));
 
 	struct
 	{
@@ -131,7 +131,7 @@ void ULoginEula_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void ULoginEula_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void ULoginEula_C::InitializeWidgetNavigation()
 
 void ULoginEula_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.InitializeWidgetButtonListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.InitializeWidgetButtonListeners"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void ULoginEula_C::InitializeWidgetButtonListeners()
 
 void ULoginEula_C::ScrollUpPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.ScrollUpPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.ScrollUpPressed"));
 
 	struct
 	{
@@ -179,7 +179,7 @@ void ULoginEula_C::ScrollUpPressed()
 
 void ULoginEula_C::ScrollDownPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.ScrollDownPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.ScrollDownPressed"));
 
 	struct
 	{
@@ -195,7 +195,7 @@ void ULoginEula_C::ScrollDownPressed()
 
 void ULoginEula_C::ScrollUpReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.ScrollUpReleased");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.ScrollUpReleased"));
 
 	struct
 	{
@@ -211,7 +211,7 @@ void ULoginEula_C::ScrollUpReleased()
 
 void ULoginEula_C::ScrollDownReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.ScrollDownReleased");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.ScrollDownReleased"));
 
 	struct
 	{
@@ -229,7 +229,7 @@ void ULoginEula_C::ScrollDownReleased()
 
 void ULoginEula_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.Handle Input State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.Handle Input State Changed"));
 
 	struct
 	{
@@ -247,7 +247,7 @@ void ULoginEula_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> In
 
 void ULoginEula_C::SetActiveScrollCallout()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.SetActiveScrollCallout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.SetActiveScrollCallout"));
 
 	struct
 	{
@@ -265,7 +265,7 @@ void ULoginEula_C::SetActiveScrollCallout()
 
 void ULoginEula_C::BndEvt__FormBackButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.BndEvt__FormBackButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.BndEvt__FormBackButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void ULoginEula_C::BndEvt__FormBackButton_K2Node_ComponentBoundEvent_1_OnClicked
 
 void ULoginEula_C::BndEvt__FormNextButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.BndEvt__FormNextButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.BndEvt__FormNextButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -305,7 +305,7 @@ void ULoginEula_C::BndEvt__FormNextButton_K2Node_ComponentBoundEvent_2_OnClicked
 
 void ULoginEula_C::BndEvt__Checkbox_K2Node_ComponentBoundEvent_0_OnCheckChanged__DelegateSignature(bool Checked)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.BndEvt__Checkbox_K2Node_ComponentBoundEvent_0_OnCheckChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.BndEvt__Checkbox_K2Node_ComponentBoundEvent_0_OnCheckChanged__DelegateSignature"));
 
 	struct
 	{
@@ -323,7 +323,7 @@ void ULoginEula_C::BndEvt__Checkbox_K2Node_ComponentBoundEvent_0_OnCheckChanged_
 
 void ULoginEula_C::Destruct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.Destruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.Destruct"));
 
 	struct
 	{
@@ -339,7 +339,7 @@ void ULoginEula_C::Destruct()
 
 void ULoginEula_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.OnHide"));
 
 	struct
 	{
@@ -355,7 +355,7 @@ void ULoginEula_C::OnHide()
 
 void ULoginEula_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.OnShown"));
 
 	struct
 	{
@@ -373,7 +373,7 @@ void ULoginEula_C::OnShown()
 
 void ULoginEula_C::ExecuteUbergraph_LoginEula(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginEula.LoginEula_C.ExecuteUbergraph_LoginEula");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginEula.LoginEula_C.ExecuteUbergraph_LoginEula"));
 
 	struct
 	{

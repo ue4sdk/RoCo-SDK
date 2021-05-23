@@ -21,7 +21,7 @@ namespace SDK
 
 struct FEventReply UBrightLobbyWidget_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.OnKeyUp"));
 
 	struct
 	{
@@ -48,7 +48,7 @@ struct FEventReply UBrightLobbyWidget_C::OnKeyUp(const struct FGeometry& MyGeome
 
 struct FEventReply UBrightLobbyWidget_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.OnKeyDown"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ struct FEventReply UBrightLobbyWidget_C::OnKeyDown(const struct FGeometry& MyGeo
 
 void UBrightLobbyWidget_C::SetErrorMessageDT()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.SetErrorMessageDT");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.SetErrorMessageDT"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UBrightLobbyWidget_C::SetErrorMessageDT()
 
 void UBrightLobbyWidget_C::UninitializeSubWidgets(class UPanelWidget* Container)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.UninitializeSubWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.UninitializeSubWidgets"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UBrightLobbyWidget_C::UninitializeSubWidgets(class UPanelWidget* Container)
 
 void UBrightLobbyWidget_C::InitializeSubWidgets(class UPanelWidget* Container)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.InitializeSubWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.InitializeSubWidgets"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UBrightLobbyWidget_C::InitializeSubWidgets(class UPanelWidget* Container)
 
 void UBrightLobbyWidget_C::HidePersistentWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.HidePersistentWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.HidePersistentWidgets"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UBrightLobbyWidget_C::HidePersistentWidgets()
 
 void UBrightLobbyWidget_C::HandleMainLobbyCameraSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleMainLobbyCameraSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleMainLobbyCameraSet"));
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UBrightLobbyWidget_C::HandleMainLobbyCameraSet()
 
 void UBrightLobbyWidget_C::HandlePreMatchAnimStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.HandlePreMatchAnimStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.HandlePreMatchAnimStarted"));
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UBrightLobbyWidget_C::HandlePreMatchAnimStarted()
 
 void UBrightLobbyWidget_C::UnbindLobbyAnimationHandling()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.UnbindLobbyAnimationHandling");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.UnbindLobbyAnimationHandling"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UBrightLobbyWidget_C::UnbindLobbyAnimationHandling()
 
 void UBrightLobbyWidget_C::BindLobbyAnimationHandling()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.BindLobbyAnimationHandling");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.BindLobbyAnimationHandling"));
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UBrightLobbyWidget_C::BindLobbyAnimationHandling()
 
 void UBrightLobbyWidget_C::UninitializeKSWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.UninitializeKSWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.UninitializeKSWidgets"));
 
 	struct
 	{
@@ -223,7 +223,7 @@ void UBrightLobbyWidget_C::UninitializeKSWidgets()
 
 void UBrightLobbyWidget_C::InitializeKSWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.InitializeKSWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.InitializeKSWidgets"));
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UBrightLobbyWidget_C::InitializeKSWidgets()
 
 void UBrightLobbyWidget_C::CreateStickyWidgetData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.CreateStickyWidgetData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.CreateStickyWidgetData"));
 
 	struct
 	{
@@ -257,7 +257,7 @@ void UBrightLobbyWidget_C::CreateStickyWidgetData()
 
 void UBrightLobbyWidget_C::Set_Safe_Frame(float Scale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.Set Safe Frame");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.Set Safe Frame"));
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UBrightLobbyWidget_C::Set_Safe_Frame(float Scale)
 
 void UBrightLobbyWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.InitializeWidget"));
 
 	struct
 	{
@@ -295,7 +295,7 @@ void UBrightLobbyWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UBrightLobbyWidget_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.UninitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.UninitializeWidget"));
 
 	struct
 	{
@@ -311,7 +311,7 @@ void UBrightLobbyWidget_C::UninitializeWidget()
 
 void UBrightLobbyWidget_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.OnShown"));
 
 	struct
 	{
@@ -331,7 +331,7 @@ void UBrightLobbyWidget_C::OnShown()
 
 void UBrightLobbyWidget_C::HandleSpecialRouteCases(const struct FName& CurrentRoute, const struct FName& LastRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleSpecialRouteCases");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleSpecialRouteCases"));
 
 	struct
 	{
@@ -356,7 +356,7 @@ void UBrightLobbyWidget_C::HandleSpecialRouteCases(const struct FName& CurrentRo
 
 void UBrightLobbyWidget_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.Tick"));
 
 	struct
 	{
@@ -378,7 +378,7 @@ void UBrightLobbyWidget_C::Tick(const struct FGeometry& MyGeometry, float InDelt
 
 void UBrightLobbyWidget_C::Handle_Viewport_Size_Changed(const struct FIntPoint& ViewportSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.Handle Viewport Size Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.Handle Viewport Size Changed"));
 
 	struct
 	{
@@ -398,7 +398,7 @@ void UBrightLobbyWidget_C::Handle_Viewport_Size_Changed(const struct FIntPoint& 
 
 void UBrightLobbyWidget_C::HandleOpenTextChat(bool BeginChatCommand)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleOpenTextChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleOpenTextChat"));
 
 	struct
 	{
@@ -416,7 +416,7 @@ void UBrightLobbyWidget_C::HandleOpenTextChat(bool BeginChatCommand)
 
 void UBrightLobbyWidget_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.InitializeWidgetButtonListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.InitializeWidgetButtonListeners"));
 
 	struct
 	{
@@ -432,7 +432,7 @@ void UBrightLobbyWidget_C::InitializeWidgetButtonListeners()
 
 void UBrightLobbyWidget_C::HandleOpenTextChatForCommand()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleOpenTextChatForCommand");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleOpenTextChatForCommand"));
 
 	struct
 	{
@@ -448,7 +448,7 @@ void UBrightLobbyWidget_C::HandleOpenTextChatForCommand()
 
 void UBrightLobbyWidget_C::HandleOpenTextChatForChat()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleOpenTextChatForChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleOpenTextChatForChat"));
 
 	struct
 	{
@@ -466,7 +466,7 @@ void UBrightLobbyWidget_C::HandleOpenTextChatForChat()
 
 void UBrightLobbyWidget_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.OpenTextChatToPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.OpenTextChatToPlayer"));
 
 	struct
 	{
@@ -488,7 +488,7 @@ void UBrightLobbyWidget_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 
 void UBrightLobbyWidget_C::HandleViewStateChangeStarted(const struct FName& CurrentRoute, const struct FName& NextRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleViewStateChangeStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.HandleViewStateChangeStarted"));
 
 	struct
 	{
@@ -510,7 +510,7 @@ void UBrightLobbyWidget_C::HandleViewStateChangeStarted(const struct FName& Curr
 
 void UBrightLobbyWidget_C::DebugOnePress()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.DebugOnePress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.DebugOnePress"));
 
 	struct
 	{
@@ -526,7 +526,7 @@ void UBrightLobbyWidget_C::DebugOnePress()
 
 void UBrightLobbyWidget_C::DebugOneRelease()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.DebugOneRelease");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.DebugOneRelease"));
 
 	struct
 	{
@@ -542,7 +542,7 @@ void UBrightLobbyWidget_C::DebugOneRelease()
 
 void UBrightLobbyWidget_C::DebugTwoPress()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.DebugTwoPress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.DebugTwoPress"));
 
 	struct
 	{
@@ -558,7 +558,7 @@ void UBrightLobbyWidget_C::DebugTwoPress()
 
 void UBrightLobbyWidget_C::DebugTwoRelease()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.DebugTwoRelease");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.DebugTwoRelease"));
 
 	struct
 	{
@@ -576,7 +576,7 @@ void UBrightLobbyWidget_C::DebugTwoRelease()
 
 void UBrightLobbyWidget_C::ExecuteUbergraph_BrightLobbyWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.ExecuteUbergraph_BrightLobbyWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.ExecuteUbergraph_BrightLobbyWidget"));
 
 	struct
 	{
@@ -594,7 +594,7 @@ void UBrightLobbyWidget_C::ExecuteUbergraph_BrightLobbyWidget(int EntryPoint)
 
 void UBrightLobbyWidget_C::BackButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BrightLobbyWidget.BrightLobbyWidget_C.BackButtonClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BrightLobbyWidget.BrightLobbyWidget_C.BackButtonClicked__DelegateSignature"));
 
 	struct
 	{

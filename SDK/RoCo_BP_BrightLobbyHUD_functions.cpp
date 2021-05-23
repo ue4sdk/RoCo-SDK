@@ -17,7 +17,7 @@ namespace SDK
 
 void ABP_BrightLobbyHUD_C::Show_Lobby_Radial_Select()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Show Lobby Radial Select");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Show Lobby Radial Select"));
 
 	struct
 	{
@@ -36,7 +36,7 @@ void ABP_BrightLobbyHUD_C::Show_Lobby_Radial_Select()
 
 class UKSItem* ABP_BrightLobbyHUD_C::GetDefaultPlayerAccountItem(EPlayerAccountSlot ItemSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetDefaultPlayerAccountItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetDefaultPlayerAccountItem"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ class UKSItem* ABP_BrightLobbyHUD_C::GetDefaultPlayerAccountItem(EPlayerAccountS
 
 void ABP_BrightLobbyHUD_C::SetupQueueEvents()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.SetupQueueEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.SetupQueueEvents"));
 
 	struct
 	{
@@ -76,7 +76,7 @@ void ABP_BrightLobbyHUD_C::SetupQueueEvents()
 
 void ABP_BrightLobbyHUD_C::CallRemoveTopViewRoute(bool ForceTransition, bool* ViewChanged)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.CallRemoveTopViewRoute");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.CallRemoveTopViewRoute"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void ABP_BrightLobbyHUD_C::CallRemoveTopViewRoute(bool ForceTransition, bool* Vi
 
 void ABP_BrightLobbyHUD_C::CallAddViewRoute(const struct FName& RouteName, bool ClearRouteStack, bool ForceTransition, bool* ViewChanged)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.CallAddViewRoute");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.CallAddViewRoute"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void ABP_BrightLobbyHUD_C::CallAddViewRoute(const struct FName& RouteName, bool 
 
 void ABP_BrightLobbyHUD_C::SafeFrameSettingApplied()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.SafeFrameSettingApplied");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.SafeFrameSettingApplied"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void ABP_BrightLobbyHUD_C::SafeFrameSettingApplied()
 
 void ABP_BrightLobbyHUD_C::BindSettingCallbacks()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.BindSettingCallbacks");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.BindSettingCallbacks"));
 
 	struct
 	{
@@ -167,7 +167,7 @@ void ABP_BrightLobbyHUD_C::BindSettingCallbacks()
 
 void ABP_BrightLobbyHUD_C::InternalAddViewRoute(const struct FName& RouteName, bool ClearRouteStack, bool ForceTransition, class UObject* Data, bool* ViewChanged)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.InternalAddViewRoute");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.InternalAddViewRoute"));
 
 	struct
 	{
@@ -197,7 +197,7 @@ void ABP_BrightLobbyHUD_C::InternalAddViewRoute(const struct FName& RouteName, b
 
 void ABP_BrightLobbyHUD_C::OnAcquisition(class UKSAcquisition* Acquisition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.OnAcquisition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.OnAcquisition"));
 
 	struct
 	{
@@ -217,7 +217,7 @@ void ABP_BrightLobbyHUD_C::OnAcquisition(class UKSAcquisition* Acquisition)
 
 class UKSContextBarWidget* ABP_BrightLobbyHUD_C::GetContextBarWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetContextBarWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetContextBarWidget"));
 
 	struct
 	{
@@ -240,7 +240,7 @@ class UKSContextBarWidget* ABP_BrightLobbyHUD_C::GetContextBarWidget()
 
 void ABP_BrightLobbyHUD_C::SwapViewRoute(const struct FName& RouteName, const struct FName& SwapTargetRoute, bool ForceTransition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.SwapViewRoute");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.SwapViewRoute"));
 
 	struct
 	{
@@ -265,7 +265,7 @@ void ABP_BrightLobbyHUD_C::SwapViewRoute(const struct FName& RouteName, const st
 
 void ABP_BrightLobbyHUD_C::Remove_Top_View_Route(bool ForceTransition, bool* ViewChanged)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Remove Top View Route");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Remove Top View Route"));
 
 	struct
 	{
@@ -292,7 +292,7 @@ void ABP_BrightLobbyHUD_C::Remove_Top_View_Route(bool ForceTransition, bool* Vie
 
 void ABP_BrightLobbyHUD_C::Add_View_Route(const struct FName& RouteName, bool ClearRouteStack, bool ForceTransition, bool* ViewChanged)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Add View Route");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Add View Route"));
 
 	struct
 	{
@@ -320,7 +320,7 @@ void ABP_BrightLobbyHUD_C::Add_View_Route(const struct FName& RouteName, bool Cl
 
 void ABP_BrightLobbyHUD_C::HandeEOMResults(bool ForceTransition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandeEOMResults");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandeEOMResults"));
 
 	struct
 	{
@@ -340,7 +340,7 @@ void ABP_BrightLobbyHUD_C::HandeEOMResults(bool ForceTransition)
 
 void ABP_BrightLobbyHUD_C::GetCurrentTransitionRoute(struct FName* Current_Route)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetCurrentTransitionRoute");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetCurrentTransitionRoute"));
 
 	struct
 	{
@@ -362,7 +362,7 @@ void ABP_BrightLobbyHUD_C::GetCurrentTransitionRoute(struct FName* Current_Route
 
 class UKSLobbyWidget* ABP_BrightLobbyHUD_C::GetLobbyWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetLobbyWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetLobbyWidget"));
 
 	struct
 	{
@@ -381,7 +381,7 @@ class UKSLobbyWidget* ABP_BrightLobbyHUD_C::GetLobbyWidget()
 
 void ABP_BrightLobbyHUD_C::Focus_Home_Screen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Focus Home Screen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Focus Home Screen"));
 
 	struct
 	{
@@ -399,7 +399,7 @@ void ABP_BrightLobbyHUD_C::Focus_Home_Screen()
 
 void ABP_BrightLobbyHUD_C::Get_Current_View_Route(struct FName* Current_Route)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Get Current View Route");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Get Current View Route"));
 
 	struct
 	{
@@ -419,7 +419,7 @@ void ABP_BrightLobbyHUD_C::Get_Current_View_Route(struct FName* Current_Route)
 
 void ABP_BrightLobbyHUD_C::Focus_Sticky_Loadout_Panel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Focus Sticky Loadout Panel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Focus Sticky Loadout Panel"));
 
 	struct
 	{
@@ -437,7 +437,7 @@ void ABP_BrightLobbyHUD_C::Focus_Sticky_Loadout_Panel()
 
 void ABP_BrightLobbyHUD_C::Get_Current_Loadout_Slot(unsigned char* Current_Loadout_Slot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Get Current Loadout Slot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Get Current Loadout Slot"));
 
 	struct
 	{
@@ -459,7 +459,7 @@ void ABP_BrightLobbyHUD_C::Get_Current_Loadout_Slot(unsigned char* Current_Loado
 
 void ABP_BrightLobbyHUD_C::Cache_Current_Loadout_Slot(unsigned char Loadout_Slot_Edit)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Cache Current Loadout Slot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Cache Current Loadout Slot"));
 
 	struct
 	{
@@ -477,7 +477,7 @@ void ABP_BrightLobbyHUD_C::Cache_Current_Loadout_Slot(unsigned char Loadout_Slot
 
 void ABP_BrightLobbyHUD_C::InitialLobbyAnimStatesBinding()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.InitialLobbyAnimStatesBinding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.InitialLobbyAnimStatesBinding"));
 
 	struct
 	{
@@ -493,7 +493,7 @@ void ABP_BrightLobbyHUD_C::InitialLobbyAnimStatesBinding()
 
 void ABP_BrightLobbyHUD_C::TempBootstrapFunctionality()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.TempBootstrapFunctionality");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.TempBootstrapFunctionality"));
 
 	struct
 	{
@@ -509,7 +509,7 @@ void ABP_BrightLobbyHUD_C::TempBootstrapFunctionality()
 
 void ABP_BrightLobbyHUD_C::FallbackLogoutCleanup()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.FallbackLogoutCleanup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.FallbackLogoutCleanup"));
 
 	struct
 	{
@@ -527,7 +527,7 @@ void ABP_BrightLobbyHUD_C::FallbackLogoutCleanup()
 
 TArray<class UPanelWidget*> ABP_BrightLobbyHUD_C::GetFocusableWidgetContainers()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetFocusableWidgetContainers");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetFocusableWidgetContainers"));
 
 	struct
 	{
@@ -548,7 +548,7 @@ TArray<class UPanelWidget*> ABP_BrightLobbyHUD_C::GetFocusableWidgetContainers()
 
 void ABP_BrightLobbyHUD_C::Handle_Login_State_Change(EPUMG_LoginState Login_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Handle Login State Change");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Handle Login State Change"));
 
 	struct
 	{
@@ -568,7 +568,7 @@ void ABP_BrightLobbyHUD_C::Handle_Login_State_Change(EPUMG_LoginState Login_Stat
 
 class UPUMG_PopupManager* ABP_BrightLobbyHUD_C::GetPopupManager()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetPopupManager");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.GetPopupManager"));
 
 	struct
 	{
@@ -587,7 +587,7 @@ class UPUMG_PopupManager* ABP_BrightLobbyHUD_C::GetPopupManager()
 
 void ABP_BrightLobbyHUD_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -603,7 +603,7 @@ void ABP_BrightLobbyHUD_C::ReceiveBeginPlay()
 
 void ABP_BrightLobbyHUD_C::HandleEndPlayingPreMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleEndPlayingPreMatch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleEndPlayingPreMatch"));
 
 	struct
 	{
@@ -619,7 +619,7 @@ void ABP_BrightLobbyHUD_C::HandleEndPlayingPreMatch()
 
 void ABP_BrightLobbyHUD_C::HandleBeginPlayingPreMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleBeginPlayingPreMatch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleBeginPlayingPreMatch"));
 
 	struct
 	{
@@ -635,7 +635,7 @@ void ABP_BrightLobbyHUD_C::HandleBeginPlayingPreMatch()
 
 void ABP_BrightLobbyHUD_C::HandleEndPlayingPostMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleEndPlayingPostMatch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleEndPlayingPostMatch"));
 
 	struct
 	{
@@ -651,7 +651,7 @@ void ABP_BrightLobbyHUD_C::HandleEndPlayingPostMatch()
 
 void ABP_BrightLobbyHUD_C::HandleLoginCameraSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleLoginCameraSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleLoginCameraSet"));
 
 	struct
 	{
@@ -667,7 +667,7 @@ void ABP_BrightLobbyHUD_C::HandleLoginCameraSet()
 
 void ABP_BrightLobbyHUD_C::HandleMainLobbyCameraSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleMainLobbyCameraSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleMainLobbyCameraSet"));
 
 	struct
 	{
@@ -685,7 +685,7 @@ void ABP_BrightLobbyHUD_C::HandleMainLobbyCameraSet()
 
 void ABP_BrightLobbyHUD_C::Handle_Party_Invite_Received(class UPUMG_PlayerInfo* Inviter)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Handle Party Invite Received");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Handle Party Invite Received"));
 
 	struct
 	{
@@ -703,7 +703,7 @@ void ABP_BrightLobbyHUD_C::Handle_Party_Invite_Received(class UPUMG_PlayerInfo* 
 
 void ABP_BrightLobbyHUD_C::HandleSettingsKeybind()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleSettingsKeybind");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleSettingsKeybind"));
 
 	struct
 	{
@@ -719,7 +719,7 @@ void ABP_BrightLobbyHUD_C::HandleSettingsKeybind()
 
 void ABP_BrightLobbyHUD_C::SetUIFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.SetUIFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.SetUIFocus"));
 
 	struct
 	{
@@ -737,7 +737,7 @@ void ABP_BrightLobbyHUD_C::SetUIFocus()
 
 void ABP_BrightLobbyHUD_C::HandleOpenTextChat(bool BeginChatCommand)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleOpenTextChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleOpenTextChat"));
 
 	struct
 	{
@@ -757,7 +757,7 @@ void ABP_BrightLobbyHUD_C::HandleOpenTextChat(bool BeginChatCommand)
 
 void ABP_BrightLobbyHUD_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.OpenTextChatToPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.OpenTextChatToPlayer"));
 
 	struct
 	{
@@ -777,7 +777,7 @@ void ABP_BrightLobbyHUD_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 
 void ABP_BrightLobbyHUD_C::ApplySafeFrameScale(float SafeFrameScale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.ApplySafeFrameScale");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.ApplySafeFrameScale"));
 
 	struct
 	{
@@ -795,7 +795,7 @@ void ABP_BrightLobbyHUD_C::ApplySafeFrameScale(float SafeFrameScale)
 
 void ABP_BrightLobbyHUD_C::OnCustomQueueJoin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.OnCustomQueueJoin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.OnCustomQueueJoin"));
 
 	struct
 	{
@@ -811,7 +811,7 @@ void ABP_BrightLobbyHUD_C::OnCustomQueueJoin()
 
 void ABP_BrightLobbyHUD_C::EvaluateFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.EvaluateFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.EvaluateFocus"));
 
 	struct
 	{
@@ -830,7 +830,7 @@ void ABP_BrightLobbyHUD_C::EvaluateFocus()
 
 void ABP_BrightLobbyHUD_C::HandleRewardsReceived(const struct FPlayerRewardsSummary& PlayerRewardsSummary, const struct FScoreboardStats& ScoreboardStats)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleRewardsReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.HandleRewardsReceived"));
 
 	struct
 	{
@@ -852,7 +852,7 @@ void ABP_BrightLobbyHUD_C::HandleRewardsReceived(const struct FPlayerRewardsSumm
 
 void ABP_BrightLobbyHUD_C::ExecuteUbergraph_BP_BrightLobbyHUD(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.ExecuteUbergraph_BP_BrightLobbyHUD");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.ExecuteUbergraph_BP_BrightLobbyHUD"));
 
 	struct
 	{
@@ -872,7 +872,7 @@ void ABP_BrightLobbyHUD_C::ExecuteUbergraph_BP_BrightLobbyHUD(int EntryPoint)
 
 void ABP_BrightLobbyHUD_C::Loadout_Slot_Change__DelegateSignature(unsigned char Loadout_Slot_Edit)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Loadout Slot Change__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUD.BP_BrightLobbyHUD_C.Loadout Slot Change__DelegateSignature"));
 
 	struct
 	{

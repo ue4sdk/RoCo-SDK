@@ -17,7 +17,7 @@ namespace SDK
 
 void UMedDroneMenu_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenu.MedDroneMenu_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenu.MedDroneMenu_C.Construct"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UMedDroneMenu_C::Construct()
 
 void UMedDroneMenu_C::OptionSelected(class AKSPlayerState* Selected_Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenu.MedDroneMenu_C.OptionSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenu.MedDroneMenu_C.OptionSelected"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UMedDroneMenu_C::OptionSelected(class AKSPlayerState* Selected_Target)
 
 void UMedDroneMenu_C::BndEvt__OutButton_K2Node_ComponentBoundEvent_40_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenu.MedDroneMenu_C.BndEvt__OutButton_K2Node_ComponentBoundEvent_40_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenu.MedDroneMenu_C.BndEvt__OutButton_K2Node_ComponentBoundEvent_40_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UMedDroneMenu_C::BndEvt__OutButton_K2Node_ComponentBoundEvent_40_OnButtonCl
 
 void UMedDroneMenu_C::Close(bool Should_Cancel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenu.MedDroneMenu_C.Close");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenu.MedDroneMenu_C.Close"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UMedDroneMenu_C::Close(bool Should_Cancel)
 
 void UMedDroneMenu_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenu.MedDroneMenu_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenu.MedDroneMenu_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UMedDroneMenu_C::InitializeWidgetNavigation()
 
 void UMedDroneMenu_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenu.MedDroneMenu_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenu.MedDroneMenu_C.InitializeWidget"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UMedDroneMenu_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UMedDroneMenu_C::Handle_Input_State_Change(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenu.MedDroneMenu_C.Handle Input State Change");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenu.MedDroneMenu_C.Handle Input State Change"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UMedDroneMenu_C::Handle_Input_State_Change(TEnumAsByte<EPGAME_INPUT_STATE> 
 
 void UMedDroneMenu_C::ExecuteUbergraph_MedDroneMenu(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenu.MedDroneMenu_C.ExecuteUbergraph_MedDroneMenu");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenu.MedDroneMenu_C.ExecuteUbergraph_MedDroneMenu"));
 
 	struct
 	{

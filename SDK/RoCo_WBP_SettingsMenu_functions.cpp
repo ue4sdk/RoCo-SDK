@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_SettingsMenu_C::ResetPreviewWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ResetPreviewWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ResetPreviewWidgets"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_SettingsMenu_C::ResetPreviewWidgets()
 
 void UWBP_SettingsMenu_C::HandlePreviewHovered(class UKSWidget* PreviewWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.HandlePreviewHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.HandlePreviewHovered"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_SettingsMenu_C::HandlePreviewHovered(class UKSWidget* PreviewWidget)
 
 void UWBP_SettingsMenu_C::AddPreviewToSettingMenu(class UKSWidget* PreviewWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.AddPreviewToSettingMenu");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.AddPreviewToSettingMenu"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_SettingsMenu_C::AddPreviewToSettingMenu(class UKSWidget* PreviewWidget
 
 void UWBP_SettingsMenu_C::SetupPreviewWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SetupPreviewWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SetupPreviewWidgets"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_SettingsMenu_C::SetupPreviewWidgets()
 
 void UWBP_SettingsMenu_C::On_Tab_Clicked(class UKSNavTabWidget* Tab_Selected)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Tab Clicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Tab Clicked"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_SettingsMenu_C::On_Tab_Clicked(class UKSNavTabWidget* Tab_Selected)
 
 void UWBP_SettingsMenu_C::ResetPageState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ResetPageState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ResetPageState"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_SettingsMenu_C::ResetPageState()
 
 void UWBP_SettingsMenu_C::GetContainerWidgetForPUMGWidgetOnPage(class UKSSettingsPage* Page, class UPUMG_Widget* PUMG_Widget, class UKSSettingsContainer** KSSettingsContainerWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GetContainerWidgetForPUMGWidgetOnPage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GetContainerWidgetForPUMGWidgetOnPage"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_SettingsMenu_C::GetContainerWidgetForPUMGWidgetOnPage(class UKSSetting
 
 void UWBP_SettingsMenu_C::On_Widget_Mouse_Entered(class UPUMG_Widget* PUMG_Widget, bool bEntered)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Widget Mouse Entered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Widget Mouse Entered"));
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_SettingsMenu_C::On_Widget_Mouse_Entered(class UPUMG_Widget* PUMG_Widge
 
 void UWBP_SettingsMenu_C::Setup_Hover_Handling()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Setup Hover Handling");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Setup Hover Handling"));
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UWBP_SettingsMenu_C::Setup_Hover_Handling()
 
 void UWBP_SettingsMenu_C::GetSettingsContainersForPage(class UKSSettingsPage* SettingsPage, TArray<class UKSSettingsContainer*>* SettingsContainers, TArray<class UPUMG_Widget*>* SettingsContainersAsPUMG)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GetSettingsContainersForPage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GetSettingsContainersForPage"));
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UWBP_SettingsMenu_C::GetSettingsContainersForPage(class UKSSettingsPage* Se
 
 void UWBP_SettingsMenu_C::GetSettingsWidgetForPUMGWidgetOnPage(class UKSSettingsPage* Page, class UPUMG_Widget* PUMG_Widget, class UKSSettingsWidget** KSSettingsWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GetSettingsWidgetForPUMGWidgetOnPage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GetSettingsWidgetForPUMGWidgetOnPage"));
 
 	struct
 	{
@@ -251,7 +251,7 @@ void UWBP_SettingsMenu_C::GetSettingsWidgetForPUMGWidgetOnPage(class UKSSettings
 
 void UWBP_SettingsMenu_C::Get_Current_Page(class UKSSettingsPage** KSSettingsPage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Get Current Page");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Get Current Page"));
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UWBP_SettingsMenu_C::Get_Current_Page(class UKSSettingsPage** KSSettingsPag
 
 void UWBP_SettingsMenu_C::On_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> Input_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Input State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Input State Changed"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UWBP_SettingsMenu_C::On_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE>
 
 void UWBP_SettingsMenu_C::Setup_Input_State_Handling()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Setup Input State Handling");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Setup Input State Handling"));
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UWBP_SettingsMenu_C::Setup_Input_State_Handling()
 
 void UWBP_SettingsMenu_C::Setup_Login_Handling()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Setup Login Handling");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Setup Login Handling"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void UWBP_SettingsMenu_C::Setup_Login_Handling()
 
 void UWBP_SettingsMenu_C::Handle_Login_State(EPUMG_LoginState Login_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Handle Login State");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Handle Login State"));
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UWBP_SettingsMenu_C::Handle_Login_State(EPUMG_LoginState Login_State)
 
 void UWBP_SettingsMenu_C::Tab_Right()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Tab Right");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Tab Right"));
 
 	struct
 	{
@@ -359,7 +359,7 @@ void UWBP_SettingsMenu_C::Tab_Right()
 
 void UWBP_SettingsMenu_C::Tab_Left()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Tab Left");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Tab Left"));
 
 	struct
 	{
@@ -377,7 +377,7 @@ void UWBP_SettingsMenu_C::Tab_Left()
 
 void UWBP_SettingsMenu_C::Go_To_Active_Tab(bool bInstantSwitch)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Go To Active Tab");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Go To Active Tab"));
 
 	struct
 	{
@@ -398,7 +398,7 @@ void UWBP_SettingsMenu_C::Go_To_Active_Tab(bool bInstantSwitch)
 
 void UWBP_SettingsMenu_C::Recover_From_Navigate_Failure(class UPUMG_Widget* PUMG_Widget, int Index_Offset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Recover From Navigate Failure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Recover From Navigate Failure"));
 
 	struct
 	{
@@ -421,7 +421,7 @@ void UWBP_SettingsMenu_C::Recover_From_Navigate_Failure(class UPUMG_Widget* PUMG
 
 void UWBP_SettingsMenu_C::Widget_Navigate_Down_Failure(int Focus_Group, class UPUMG_Widget* PUMG_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Widget Navigate Down Failure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Widget Navigate Down Failure"));
 
 	struct
 	{
@@ -444,7 +444,7 @@ void UWBP_SettingsMenu_C::Widget_Navigate_Down_Failure(int Focus_Group, class UP
 
 void UWBP_SettingsMenu_C::Widget_Navigate_Up_Failure(int Focus_Group, class UPUMG_Widget* PUMG_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Widget Navigate Up Failure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Widget Navigate Up Failure"));
 
 	struct
 	{
@@ -467,7 +467,7 @@ void UWBP_SettingsMenu_C::Widget_Navigate_Up_Failure(int Focus_Group, class UPUM
 
 void UWBP_SettingsMenu_C::On_Widget_Gamepad_Hovered(class UPUMG_Widget* PUMG_Widget, bool bHovered)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Widget Gamepad Hovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Widget Gamepad Hovered"));
 
 	struct
 	{
@@ -489,7 +489,7 @@ void UWBP_SettingsMenu_C::On_Widget_Gamepad_Hovered(class UPUMG_Widget* PUMG_Wid
 
 void UWBP_SettingsMenu_C::Scroll_Widget_Into_View(class UPUMG_Widget* PUMG_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Scroll Widget Into View");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Scroll Widget Into View"));
 
 	struct
 	{
@@ -507,7 +507,7 @@ void UWBP_SettingsMenu_C::Scroll_Widget_Into_View(class UPUMG_Widget* PUMG_Widge
 
 void UWBP_SettingsMenu_C::Scroll_To_Start()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Scroll To Start");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Scroll To Start"));
 
 	struct
 	{
@@ -523,7 +523,7 @@ void UWBP_SettingsMenu_C::Scroll_To_Start()
 
 void UWBP_SettingsMenu_C::Scroll_To_End()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Scroll To End");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Scroll To End"));
 
 	struct
 	{
@@ -539,7 +539,7 @@ void UWBP_SettingsMenu_C::Scroll_To_End()
 
 void UWBP_SettingsMenu_C::GoBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GoBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GoBack"));
 
 	struct
 	{
@@ -555,7 +555,7 @@ void UWBP_SettingsMenu_C::GoBack()
 
 void UWBP_SettingsMenu_C::Revert_Settings()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Revert Settings");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Revert Settings"));
 
 	struct
 	{
@@ -573,7 +573,7 @@ void UWBP_SettingsMenu_C::Revert_Settings()
 
 void UWBP_SettingsMenu_C::ConfirmExit(bool ShouldSaveSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ConfirmExit");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ConfirmExit"));
 
 	struct
 	{
@@ -591,7 +591,7 @@ void UWBP_SettingsMenu_C::ConfirmExit(bool ShouldSaveSettings)
 
 void UWBP_SettingsMenu_C::Restore_Settings()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Restore Settings");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Restore Settings"));
 
 	struct
 	{
@@ -607,7 +607,7 @@ void UWBP_SettingsMenu_C::Restore_Settings()
 
 void UWBP_SettingsMenu_C::ExitSettingsPage()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ExitSettingsPage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ExitSettingsPage"));
 
 	struct
 	{
@@ -625,7 +625,7 @@ void UWBP_SettingsMenu_C::ExitSettingsPage()
 
 void UWBP_SettingsMenu_C::HasAnyUnsavedSetting(bool* AnyUnsaved)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.HasAnyUnsavedSetting");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.HasAnyUnsavedSetting"));
 
 	struct
 	{
@@ -645,7 +645,7 @@ void UWBP_SettingsMenu_C::HasAnyUnsavedSetting(bool* AnyUnsaved)
 
 void UWBP_SettingsMenu_C::Save_Settings()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Save Settings");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Save Settings"));
 
 	struct
 	{
@@ -663,7 +663,7 @@ void UWBP_SettingsMenu_C::Save_Settings()
 
 bool UWBP_SettingsMenu_C::NavigateBackPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.NavigateBackPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.NavigateBackPressed"));
 
 	struct
 	{
@@ -684,7 +684,7 @@ bool UWBP_SettingsMenu_C::NavigateBackPressed()
 
 bool UWBP_SettingsMenu_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.NavigateBack"));
 
 	struct
 	{
@@ -707,7 +707,7 @@ bool UWBP_SettingsMenu_C::NavigateBack()
 
 void UWBP_SettingsMenu_C::GetSettingsWidgetsForPage(class UKSSettingsPage* SettingsPage, TArray<class UKSSettingsWidget*>* SettingsWidgets, TArray<class UPUMG_Widget*>* SettingsWidgetsAsPUMG)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GetSettingsWidgetsForPage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GetSettingsWidgetsForPage"));
 
 	struct
 	{
@@ -735,7 +735,7 @@ void UWBP_SettingsMenu_C::GetSettingsWidgetsForPage(class UKSSettingsPage* Setti
 
 void UWBP_SettingsMenu_C::SetupNavigationForPage(class UKSSettingsPage* Page, int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SetupNavigationForPage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SetupNavigationForPage"));
 
 	struct
 	{
@@ -758,7 +758,7 @@ void UWBP_SettingsMenu_C::SetupNavigationForPage(class UKSSettingsPage* Page, in
 
 void UWBP_SettingsMenu_C::On_Tab_Selected(class UKSNavTabWidget* Tab_Selected, bool bInstantSwitch)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Tab Selected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.On Tab Selected"));
 
 	struct
 	{
@@ -780,7 +780,7 @@ void UWBP_SettingsMenu_C::On_Tab_Selected(class UKSNavTabWidget* Tab_Selected, b
 
 void UWBP_SettingsMenu_C::Add_Tab_For_Settings_Page(class UKSSettingsPage* Settings_Page_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Add Tab For Settings Page");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Add Tab For Settings Page"));
 
 	struct
 	{
@@ -800,7 +800,7 @@ void UWBP_SettingsMenu_C::Add_Tab_For_Settings_Page(class UKSSettingsPage* Setti
 
 void UWBP_SettingsMenu_C::Add_Settings_Page_Widget(class UKSSettingsPage* Settings_Page)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Add Settings Page Widget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Add Settings Page Widget"));
 
 	struct
 	{
@@ -818,7 +818,7 @@ void UWBP_SettingsMenu_C::Add_Settings_Page_Widget(class UKSSettingsPage* Settin
 
 void UWBP_SettingsMenu_C::SettingsMenuApplyClickSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SettingsMenuApplyClickSFX");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SettingsMenuApplyClickSFX"));
 
 	struct
 	{
@@ -834,7 +834,7 @@ void UWBP_SettingsMenu_C::SettingsMenuApplyClickSFX()
 
 void UWBP_SettingsMenu_C::SettingsMenuBackClickSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SettingsMenuBackClickSFX");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SettingsMenuBackClickSFX"));
 
 	struct
 	{
@@ -850,7 +850,7 @@ void UWBP_SettingsMenu_C::SettingsMenuBackClickSFX()
 
 void UWBP_SettingsMenu_C::SettingsMenuRevertButtonClickSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SettingsMenuRevertButtonClickSFX");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.SettingsMenuRevertButtonClickSFX"));
 
 	struct
 	{
@@ -868,7 +868,7 @@ void UWBP_SettingsMenu_C::SettingsMenuRevertButtonClickSFX()
 
 void UWBP_SettingsMenu_C::AddSettingsPageWidget(class UKSSettingsPage* SettingsPage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.AddSettingsPageWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.AddSettingsPageWidget"));
 
 	struct
 	{
@@ -886,7 +886,7 @@ void UWBP_SettingsMenu_C::AddSettingsPageWidget(class UKSSettingsPage* SettingsP
 
 void UWBP_SettingsMenu_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnShown"));
 
 	struct
 	{
@@ -902,7 +902,7 @@ void UWBP_SettingsMenu_C::OnShown()
 
 void UWBP_SettingsMenu_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnHide"));
 
 	struct
 	{
@@ -918,7 +918,7 @@ void UWBP_SettingsMenu_C::OnHide()
 
 void UWBP_SettingsMenu_C::OnMenuConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnMenuConfigSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnMenuConfigSet"));
 
 	struct
 	{
@@ -936,7 +936,7 @@ void UWBP_SettingsMenu_C::OnMenuConfigSet()
 
 void UWBP_SettingsMenu_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.InitializeWidget"));
 
 	struct
 	{
@@ -954,7 +954,7 @@ void UWBP_SettingsMenu_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_SettingsMenu_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -970,7 +970,7 @@ void UWBP_SettingsMenu_C::InitializeWidgetNavigation()
 
 void UWBP_SettingsMenu_C::RebuildNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.RebuildNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.RebuildNavigation"));
 
 	struct
 	{
@@ -986,7 +986,7 @@ void UWBP_SettingsMenu_C::RebuildNavigation()
 
 void UWBP_SettingsMenu_C::OnBackButton()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnBackButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnBackButton"));
 
 	struct
 	{
@@ -1002,7 +1002,7 @@ void UWBP_SettingsMenu_C::OnBackButton()
 
 void UWBP_SettingsMenu_C::OnApplyButton()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnApplyButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnApplyButton"));
 
 	struct
 	{
@@ -1018,7 +1018,7 @@ void UWBP_SettingsMenu_C::OnApplyButton()
 
 void UWBP_SettingsMenu_C::OnRevertButton()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnRevertButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnRevertButton"));
 
 	struct
 	{
@@ -1036,7 +1036,7 @@ void UWBP_SettingsMenu_C::OnRevertButton()
 
 void UWBP_SettingsMenu_C::OnConfirmExit(bool ShouldSaveSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnConfirmExit");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.OnConfirmExit"));
 
 	struct
 	{
@@ -1056,7 +1056,7 @@ void UWBP_SettingsMenu_C::OnConfirmExit(bool ShouldSaveSettings)
 
 void UWBP_SettingsMenu_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.PreConstruct"));
 
 	struct
 	{
@@ -1076,7 +1076,7 @@ void UWBP_SettingsMenu_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_SettingsMenu_C::ExecuteUbergraph_WBP_SettingsMenu(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ExecuteUbergraph_WBP_SettingsMenu");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsMenu.WBP_SettingsMenu_C.ExecuteUbergraph_WBP_SettingsMenu"));
 
 	struct
 	{

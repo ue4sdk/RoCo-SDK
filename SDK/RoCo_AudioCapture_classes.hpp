@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioCapture.AudioCapture");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioCapture.AudioCapture"));
 		return ptr;
 	}
 
@@ -43,7 +43,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioCapture.AudioCaptureFunctionLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioCapture.AudioCaptureFunctionLibrary"));
 		return ptr;
 	}
 
@@ -62,7 +62,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AudioCapture.AudioCaptureComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioCapture.AudioCaptureComponent"));
 		return ptr;
 	}
 

@@ -26,7 +26,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.Chatroom");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.Chatroom"));
 		return ptr;
 	}
 
@@ -45,7 +45,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialManager"));
 		return ptr;
 	}
 
@@ -73,7 +73,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialParty");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialParty"));
 		return ptr;
 	}
 
@@ -91,7 +91,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.PartyMember");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.PartyMember"));
 		return ptr;
 	}
 
@@ -113,7 +113,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialToolkit");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialToolkit"));
 		return ptr;
 	}
 
@@ -136,7 +136,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialChatManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialChatManager"));
 		return ptr;
 	}
 
@@ -152,7 +152,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialChatChannel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialChatChannel"));
 		return ptr;
 	}
 
@@ -168,7 +168,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialChatRoom");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialChatRoom"));
 		return ptr;
 	}
 
@@ -184,7 +184,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialDebugTools");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialDebugTools"));
 		return ptr;
 	}
 
@@ -204,7 +204,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialGroupChannel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialGroupChannel"));
 		return ptr;
 	}
 
@@ -219,7 +219,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialPartyChatRoom");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialPartyChatRoom"));
 		return ptr;
 	}
 
@@ -235,7 +235,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialPrivateMessageChannel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialPrivateMessageChannel"));
 		return ptr;
 	}
 
@@ -250,7 +250,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialReadOnlyChatChannel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialReadOnlyChatChannel"));
 		return ptr;
 	}
 
@@ -275,7 +275,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialSettings"));
 		return ptr;
 	}
 
@@ -291,7 +291,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Party.SocialUser");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Party.SocialUser"));
 		return ptr;
 	}
 

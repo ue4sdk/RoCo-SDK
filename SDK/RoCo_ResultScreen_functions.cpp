@@ -17,7 +17,7 @@ namespace SDK
 
 void UResultScreen_C::ResetAndHandleEndOfMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ResetAndHandleEndOfMatch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ResetAndHandleEndOfMatch"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UResultScreen_C::ResetAndHandleEndOfMatch()
 
 void UResultScreen_C::SetColors(const struct FRoundResultAnnoucement& RoundResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.SetColors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.SetColors"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UResultScreen_C::SetColors(const struct FRoundResultAnnoucement& RoundResul
 
 void UResultScreen_C::ResetAnims()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ResetAnims");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ResetAnims"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UResultScreen_C::ResetAnims()
 
 void UResultScreen_C::OnRoundCycle(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.OnRoundCycle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.OnRoundCycle"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UResultScreen_C::OnRoundCycle(const struct FRoundInitState& RoundInitState)
 
 void UResultScreen_C::ShowScreen(float DelayAmount)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ShowScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ShowScreen"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UResultScreen_C::ShowScreen(float DelayAmount)
 
 void UResultScreen_C::Auto_Return_To_Lobby()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.Auto Return To Lobby");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.Auto Return To Lobby"));
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UResultScreen_C::Auto_Return_To_Lobby()
 
 void UResultScreen_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.Construct"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UResultScreen_C::Construct()
 
 void UResultScreen_C::ShowKillCamHUD(bool bEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ShowKillCamHUD");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ShowKillCamHUD"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UResultScreen_C::ShowKillCamHUD(bool bEnabled)
 
 void UResultScreen_C::ShowScoreAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ShowScoreAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ShowScoreAnim"));
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UResultScreen_C::ShowScoreAnim()
 
 void UResultScreen_C::FailSafeReturnToLobby()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.FailSafeReturnToLobby");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.FailSafeReturnToLobby"));
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UResultScreen_C::FailSafeReturnToLobby()
 
 void UResultScreen_C::OnInitRoundSetup()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.OnInitRoundSetup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.OnInitRoundSetup"));
 
 	struct
 	{
@@ -212,7 +212,7 @@ void UResultScreen_C::OnInitRoundSetup()
 
 void UResultScreen_C::HandlePhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandlePhaseChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.HandlePhaseChanged"));
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UResultScreen_C::HandlePhaseChanged(const struct FName& NewPhaseName, const
 
 void UResultScreen_C::HandleRoundInfoChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandleRoundInfoChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.HandleRoundInfoChanged"));
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UResultScreen_C::HandleRoundInfoChanged()
 
 void UResultScreen_C::HandleResultReceived(const struct FRoundResultAnnoucement& ResultAnnoucement)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandleResultReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.HandleResultReceived"));
 
 	struct
 	{
@@ -268,7 +268,7 @@ void UResultScreen_C::HandleResultReceived(const struct FRoundResultAnnoucement&
 
 void UResultScreen_C::ShowSurrenderUI()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ShowSurrenderUI");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ShowSurrenderUI"));
 
 	struct
 	{
@@ -286,7 +286,7 @@ void UResultScreen_C::ShowSurrenderUI()
 
 void UResultScreen_C::ExecuteUbergraph_ResultScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ExecuteUbergraph_ResultScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ExecuteUbergraph_ResultScreen"));
 
 	struct
 	{
@@ -306,7 +306,7 @@ void UResultScreen_C::ExecuteUbergraph_ResultScreen(int EntryPoint)
 
 void UResultScreen_C::ToggleTopBar__DelegateSignature(bool ShouldShow)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ToggleTopBar__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ToggleTopBar__DelegateSignature"));
 
 	struct
 	{
@@ -324,7 +324,7 @@ void UResultScreen_C::ToggleTopBar__DelegateSignature(bool ShouldShow)
 
 void UResultScreen_C::HideHUD__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HideHUD__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.HideHUD__DelegateSignature"));
 
 	struct
 	{
@@ -340,7 +340,7 @@ void UResultScreen_C::HideHUD__DelegateSignature()
 
 void UResultScreen_C::ShowHUD__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ShowHUD__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ShowHUD__DelegateSignature"));
 
 	struct
 	{
@@ -356,7 +356,7 @@ void UResultScreen_C::ShowHUD__DelegateSignature()
 
 void UResultScreen_C::ReturnToHome__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ReturnToHome__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ResultScreen.ResultScreen_C.ReturnToHome__DelegateSignature"));
 
 	struct
 	{

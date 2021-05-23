@@ -35,7 +35,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C"));
 		return ptr;
 	}
 

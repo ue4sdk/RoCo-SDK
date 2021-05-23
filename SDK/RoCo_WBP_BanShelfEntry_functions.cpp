@@ -21,7 +21,7 @@ namespace SDK
 
 void UWBP_BanShelfEntry_C::SetBanDisplay(bool IsFriendly, TSoftObjectPtr<class UTexture2D> JobPortrait, bool BanSkipped)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BanShelfEntry.WBP_BanShelfEntry_C.SetBanDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BanShelfEntry.WBP_BanShelfEntry_C.SetBanDisplay"));
 
 	struct
 	{

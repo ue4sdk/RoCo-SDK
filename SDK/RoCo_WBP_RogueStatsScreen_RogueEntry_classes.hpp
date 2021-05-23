@@ -41,7 +41,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C"));
 		return ptr;
 	}
 

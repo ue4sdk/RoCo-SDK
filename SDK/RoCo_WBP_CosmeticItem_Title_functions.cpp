@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_CosmeticItem_Title_C::SetTitleItemSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.SetTitleItemSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.SetTitleItemSlot"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_CosmeticItem_Title_C::SetTitleItemSlot()
 
 bool UWBP_CosmeticItem_Title_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.NavigateConfirm"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ bool UWBP_CosmeticItem_Title_C::NavigateConfirm()
 
 void UWBP_CosmeticItem_Title_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnHoverSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnHoverSound"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_CosmeticItem_Title_C::OnHoverSound()
 
 void UWBP_CosmeticItem_Title_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnClickSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnClickSound"));
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UWBP_CosmeticItem_Title_C::OnClickSound()
 
 void UWBP_CosmeticItem_Title_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.Construct"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWBP_CosmeticItem_Title_C::Construct()
 
 void UWBP_CosmeticItem_Title_C::PopulateSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.PopulateSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.PopulateSlot"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UWBP_CosmeticItem_Title_C::PopulateSlot()
 
 void UWBP_CosmeticItem_Title_C::OnTitleHover(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnTitleHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnTitleHover"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_CosmeticItem_Title_C::OnTitleHover(bool IsGamepad)
 
 void UWBP_CosmeticItem_Title_C::OnTitleUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnTitleUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnTitleUnhover"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_CosmeticItem_Title_C::OnTitleUnhover()
 
 void UWBP_CosmeticItem_Title_C::OnTitleClick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnTitleClick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnTitleClick"));
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_CosmeticItem_Title_C::OnTitleClick()
 
 void UWBP_CosmeticItem_Title_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.GamepadHover"));
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_CosmeticItem_Title_C::GamepadHover()
 
 void UWBP_CosmeticItem_Title_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.GamepadUnhover"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_CosmeticItem_Title_C::GamepadUnhover()
 
 void UWBP_CosmeticItem_Title_C::SetTitleActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.SetTitleActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.SetTitleActive"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_CosmeticItem_Title_C::SetTitleActive(bool IsActive)
 
 void UWBP_CosmeticItem_Title_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.InitializeWidget"));
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UWBP_CosmeticItem_Title_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CosmeticItem_Title_C::ExecuteUbergraph_WBP_CosmeticItem_Title(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.ExecuteUbergraph_WBP_CosmeticItem_Title");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.ExecuteUbergraph_WBP_CosmeticItem_Title"));
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_CosmeticItem_Title_C::ExecuteUbergraph_WBP_CosmeticItem_Title(int Entr
 
 void UWBP_CosmeticItem_Title_C::OnItemClicked__DelegateSignature(class UPlatformInventoryItem* PlatformItem, class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnItemClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnItemClicked__DelegateSignature"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_CosmeticItem_Title_C::OnItemClicked__DelegateSignature(class UPlatform
 
 void UWBP_CosmeticItem_Title_C::OnItemUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnItemUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnItemUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_CosmeticItem_Title_C::OnItemUnhovered__DelegateSignature()
 
 void UWBP_CosmeticItem_Title_C::OnItemHovered__DelegateSignature(class UPlatformInventoryItem* PlatformItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnItemHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Title.WBP_CosmeticItem_Title_C.OnItemHovered__DelegateSignature"));
 
 	struct
 	{

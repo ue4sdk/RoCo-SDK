@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InputBehavior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InputBehavior"));
 		return ptr;
 	}
 
@@ -39,7 +39,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.AnyButtonInputBehavior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.AnyButtonInputBehavior"));
 		return ptr;
 	}
 
@@ -54,7 +54,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InteractiveGizmoBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InteractiveGizmoBuilder"));
 		return ptr;
 	}
 
@@ -69,7 +69,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.AxisAngleGizmoBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.AxisAngleGizmoBuilder"));
 		return ptr;
 	}
 
@@ -86,7 +86,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InteractiveGizmo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InteractiveGizmo"));
 		return ptr;
 	}
 
@@ -117,7 +117,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.AxisAngleGizmo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.AxisAngleGizmo"));
 		return ptr;
 	}
 
@@ -132,7 +132,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.AxisPositionGizmoBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.AxisPositionGizmoBuilder"));
 		return ptr;
 	}
 
@@ -163,7 +163,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.AxisPositionGizmo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.AxisPositionGizmo"));
 		return ptr;
 	}
 
@@ -181,7 +181,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoConstantAxisSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoConstantAxisSource"));
 		return ptr;
 	}
 
@@ -201,7 +201,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoConstantFrameAxisSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoConstantFrameAxisSource"));
 		return ptr;
 	}
 
@@ -219,7 +219,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoWorldAxisSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoWorldAxisSource"));
 		return ptr;
 	}
 
@@ -239,7 +239,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoComponentAxisSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoComponentAxisSource"));
 		return ptr;
 	}
 
@@ -258,7 +258,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InteractiveToolPropertySet");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InteractiveToolPropertySet"));
 		return ptr;
 	}
 
@@ -282,7 +282,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.BrushBaseProperties");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.BrushBaseProperties"));
 		return ptr;
 	}
 
@@ -301,7 +301,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InteractiveTool");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InteractiveTool"));
 		return ptr;
 	}
 
@@ -317,7 +317,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.SingleSelectionTool");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.SingleSelectionTool"));
 		return ptr;
 	}
 
@@ -333,7 +333,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.MeshSurfacePointTool");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.MeshSurfacePointTool"));
 		return ptr;
 	}
 
@@ -355,7 +355,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.BaseBrushTool");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.BaseBrushTool"));
 		return ptr;
 	}
 
@@ -370,7 +370,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.BrushStampIndicatorBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.BrushStampIndicatorBuilder"));
 		return ptr;
 	}
 
@@ -404,7 +404,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.BrushStampIndicator");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.BrushStampIndicator"));
 		return ptr;
 	}
 
@@ -422,7 +422,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.ClickDragInputBehavior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.ClickDragInputBehavior"));
 		return ptr;
 	}
 
@@ -438,7 +438,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.LocalClickDragInputBehavior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.LocalClickDragInputBehavior"));
 		return ptr;
 	}
 
@@ -453,7 +453,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InteractiveToolBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InteractiveToolBuilder"));
 		return ptr;
 	}
 
@@ -468,7 +468,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.ClickDragToolBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.ClickDragToolBuilder"));
 		return ptr;
 	}
 
@@ -484,7 +484,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.ClickDragTool");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.ClickDragTool"));
 		return ptr;
 	}
 
@@ -499,7 +499,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InternalToolFrameworkActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InternalToolFrameworkActor"));
 		return ptr;
 	}
 
@@ -514,7 +514,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoActor"));
 		return ptr;
 	}
 
@@ -533,7 +533,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoBaseComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoBaseComponent"));
 		return ptr;
 	}
 
@@ -556,7 +556,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoArrowComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoArrowComponent"));
 		return ptr;
 	}
 
@@ -579,7 +579,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoBoxComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoBoxComponent"));
 		return ptr;
 	}
 
@@ -601,7 +601,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoCircleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoCircleComponent"));
 		return ptr;
 	}
 
@@ -616,7 +616,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoTransformSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoTransformSource"));
 		return ptr;
 	}
 
@@ -634,7 +634,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoAxisSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoAxisSource"));
 		return ptr;
 	}
 
@@ -654,7 +654,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoClickTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoClickTarget"));
 		return ptr;
 	}
 
@@ -671,7 +671,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoStateTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoStateTarget"));
 		return ptr;
 	}
 
@@ -689,7 +689,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoFloatParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoFloatParameterSource"));
 		return ptr;
 	}
 
@@ -709,7 +709,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoVec2ParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoVec2ParameterSource"));
 		return ptr;
 	}
 
@@ -736,7 +736,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoLineHandleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoLineHandleComponent"));
 		return ptr;
 	}
 
@@ -760,7 +760,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoRectangleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoRectangleComponent"));
 		return ptr;
 	}
 
@@ -776,7 +776,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoLambdaHitTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoLambdaHitTarget"));
 		return ptr;
 	}
 
@@ -794,7 +794,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoComponentHitTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoComponentHitTarget"));
 		return ptr;
 	}
 
@@ -810,7 +810,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InputBehaviorSet");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InputBehaviorSet"));
 		return ptr;
 	}
 
@@ -825,7 +825,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InputBehaviorSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InputBehaviorSource"));
 		return ptr;
 	}
 
@@ -845,7 +845,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InputRouter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InputRouter"));
 		return ptr;
 	}
 
@@ -861,7 +861,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InteractionMechanic");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InteractionMechanic"));
 		return ptr;
 	}
 
@@ -881,7 +881,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InteractiveGizmoManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InteractiveGizmoManager"));
 		return ptr;
 	}
 
@@ -896,7 +896,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.ToolContextTransactionProvider");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.ToolContextTransactionProvider"));
 		return ptr;
 	}
 
@@ -917,7 +917,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InteractiveToolManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InteractiveToolManager"));
 		return ptr;
 	}
 
@@ -932,7 +932,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.ToolFrameworkComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.ToolFrameworkComponent"));
 		return ptr;
 	}
 
@@ -952,7 +952,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.InteractiveToolsContext");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.InteractiveToolsContext"));
 		return ptr;
 	}
 
@@ -970,7 +970,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.IntervalGizmoActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.IntervalGizmoActor"));
 		return ptr;
 	}
 
@@ -986,7 +986,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.IntervalGizmoBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.IntervalGizmoBuilder"));
 		return ptr;
 	}
 
@@ -1010,7 +1010,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.IntervalGizmo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.IntervalGizmo"));
 		return ptr;
 	}
 
@@ -1026,7 +1026,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoBaseFloatParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoBaseFloatParameterSource"));
 		return ptr;
 	}
 
@@ -1044,7 +1044,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoAxisIntervalParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoAxisIntervalParameterSource"));
 		return ptr;
 	}
 
@@ -1060,7 +1060,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.KeyAsModifierInputBehavior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.KeyAsModifierInputBehavior"));
 		return ptr;
 	}
 
@@ -1076,7 +1076,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.MeshSurfacePointToolBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.MeshSurfacePointToolBuilder"));
 		return ptr;
 	}
 
@@ -1092,7 +1092,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.MouseHoverBehavior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.MouseHoverBehavior"));
 		return ptr;
 	}
 
@@ -1108,7 +1108,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.MultiClickSequenceInputBehavior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.MultiClickSequenceInputBehavior"));
 		return ptr;
 	}
 
@@ -1124,7 +1124,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.MultiSelectionTool");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.MultiSelectionTool"));
 		return ptr;
 	}
 
@@ -1142,7 +1142,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoLocalFloatParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoLocalFloatParameterSource"));
 		return ptr;
 	}
 
@@ -1158,7 +1158,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoBaseVec2ParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoBaseVec2ParameterSource"));
 		return ptr;
 	}
 
@@ -1175,7 +1175,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoLocalVec2ParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoLocalVec2ParameterSource"));
 		return ptr;
 	}
 
@@ -1199,7 +1199,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoAxisTranslationParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoAxisTranslationParameterSource"));
 		return ptr;
 	}
 
@@ -1225,7 +1225,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoPlaneTranslationParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoPlaneTranslationParameterSource"));
 		return ptr;
 	}
 
@@ -1248,7 +1248,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoAxisRotationParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoAxisRotationParameterSource"));
 		return ptr;
 	}
 
@@ -1274,7 +1274,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoUniformScaleParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoUniformScaleParameterSource"));
 		return ptr;
 	}
 
@@ -1297,7 +1297,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoAxisScaleParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoAxisScaleParameterSource"));
 		return ptr;
 	}
 
@@ -1324,7 +1324,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoPlaneScaleParameterSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoPlaneScaleParameterSource"));
 		return ptr;
 	}
 
@@ -1339,7 +1339,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.PlanePositionGizmoBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.PlanePositionGizmoBuilder"));
 		return ptr;
 	}
 
@@ -1373,7 +1373,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.PlanePositionGizmo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.PlanePositionGizmo"));
 		return ptr;
 	}
 
@@ -1389,7 +1389,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.SelectionSet");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.SelectionSet"));
 		return ptr;
 	}
 
@@ -1408,7 +1408,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.MeshSelectionSet");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.MeshSelectionSet"));
 		return ptr;
 	}
 
@@ -1426,7 +1426,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.SingleClickInputBehavior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.SingleClickInputBehavior"));
 		return ptr;
 	}
 
@@ -1441,7 +1441,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.SingleClickToolBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.SingleClickToolBuilder"));
 		return ptr;
 	}
 
@@ -1457,7 +1457,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.SingleClickTool");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.SingleClickTool"));
 		return ptr;
 	}
 
@@ -1473,7 +1473,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoNilStateTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoNilStateTarget"));
 		return ptr;
 	}
 
@@ -1489,7 +1489,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoLambdaStateTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoLambdaStateTarget"));
 		return ptr;
 	}
 
@@ -1505,7 +1505,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoObjectModifyStateTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoObjectModifyStateTarget"));
 		return ptr;
 	}
 
@@ -1523,7 +1523,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoTransformChangeStateTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoTransformChangeStateTarget"));
 		return ptr;
 	}
 
@@ -1554,7 +1554,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.TransformGizmoActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.TransformGizmoActor"));
 		return ptr;
 	}
 
@@ -1570,7 +1570,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.TransformGizmoBuilder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.TransformGizmoBuilder"));
 		return ptr;
 	}
 
@@ -1607,7 +1607,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.TransformGizmo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.TransformGizmo"));
 		return ptr;
 	}
 
@@ -1628,7 +1628,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.TransformProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.TransformProxy"));
 		return ptr;
 	}
 
@@ -1644,7 +1644,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoBaseTransformSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoBaseTransformSource"));
 		return ptr;
 	}
 
@@ -1662,7 +1662,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoComponentWorldTransformSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoComponentWorldTransformSource"));
 		return ptr;
 	}
 
@@ -1679,7 +1679,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoScaledTransformSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoScaledTransformSource"));
 		return ptr;
 	}
 
@@ -1695,7 +1695,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class InteractiveToolsFramework.GizmoTransformProxyTransformSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class InteractiveToolsFramework.GizmoTransformProxyTransformSource"));
 		return ptr;
 	}
 

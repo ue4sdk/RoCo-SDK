@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass Reviver_InteractionType.Reviver_InteractionType_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass Reviver_InteractionType.Reviver_InteractionType_C"));
 		return ptr;
 	}
 

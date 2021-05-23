@@ -17,7 +17,7 @@ namespace SDK
 
 void UScoreboardTeamSection_C::UnhoverPlayerEntries()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.UnhoverPlayerEntries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.UnhoverPlayerEntries"));
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UScoreboardTeamSection_C::UnhoverPlayerEntries()
 
 void UScoreboardTeamSection_C::Get_Player_Widget_byPlayerState(class AKSPlayerState* Player_State, class UScoreboardPlayerEntry_C** Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.Get Player Widget byPlayerState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.Get Player Widget byPlayerState"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UScoreboardTeamSection_C::Get_Player_Widget_byPlayerState(class AKSPlayerSt
 
 void UScoreboardTeamSection_C::EndUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.EndUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.EndUpdate"));
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UScoreboardTeamSection_C::EndUpdate()
 
 void UScoreboardTeamSection_C::BeginUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.BeginUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.BeginUpdate"));
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UScoreboardTeamSection_C::BeginUpdate()
 
 void UScoreboardTeamSection_C::UpdatePlayer(class UKSPersistentPlayerData* PlayerData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.UpdatePlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.UpdatePlayer"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UScoreboardTeamSection_C::UpdatePlayer(class UKSPersistentPlayerData* Playe
 
 void UScoreboardTeamSection_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.Construct"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UScoreboardTeamSection_C::Construct()
 
 void UScoreboardTeamSection_C::UpdateHeaderColors()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.UpdateHeaderColors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.UpdateHeaderColors"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UScoreboardTeamSection_C::UpdateHeaderColors()
 
 void UScoreboardTeamSection_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.OnShown"));
 
 	struct
 	{
@@ -160,7 +160,7 @@ void UScoreboardTeamSection_C::OnShown()
 
 void UScoreboardTeamSection_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.InitializeWidget"));
 
 	struct
 	{
@@ -178,7 +178,7 @@ void UScoreboardTeamSection_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UScoreboardTeamSection_C::Handle_Display_Cash_Changed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.Handle Display Cash Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.Handle Display Cash Changed"));
 
 	struct
 	{
@@ -194,7 +194,7 @@ void UScoreboardTeamSection_C::Handle_Display_Cash_Changed()
 
 void UScoreboardTeamSection_C::Owner_UI_Relevance_Changed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.Owner UI Relevance Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.Owner UI Relevance Changed"));
 
 	struct
 	{
@@ -212,7 +212,7 @@ void UScoreboardTeamSection_C::Owner_UI_Relevance_Changed()
 
 void UScoreboardTeamSection_C::ExecuteUbergraph_ScoreboardTeamSection(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.ExecuteUbergraph_ScoreboardTeamSection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.ExecuteUbergraph_ScoreboardTeamSection"));
 
 	struct
 	{
@@ -230,7 +230,7 @@ void UScoreboardTeamSection_C::ExecuteUbergraph_ScoreboardTeamSection(int EntryP
 
 void UScoreboardTeamSection_C::OnPlayerAdded__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection.ScoreboardTeamSection_C.OnPlayerAdded__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection.ScoreboardTeamSection_C.OnPlayerAdded__DelegateSignature"));
 
 	struct
 	{

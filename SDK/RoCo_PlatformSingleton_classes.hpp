@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformSingleton.PlatformGameSingleton");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformSingleton.PlatformGameSingleton"));
 		return ptr;
 	}
 

@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ActiveWeaponComponent_C::SetAmmoInClipDisplaySize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.SetAmmoInClipDisplaySize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.SetAmmoInClipDisplaySize"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ActiveWeaponComponent_C::SetAmmoInClipDisplaySize()
 
 void UWBP_ActiveWeaponComponent_C::SetClipCount()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.SetClipCount");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.SetClipCount"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_ActiveWeaponComponent_C::SetClipCount()
 
 void UWBP_ActiveWeaponComponent_C::DetermineLowAmmo()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.DetermineLowAmmo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.DetermineLowAmmo"));
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UWBP_ActiveWeaponComponent_C::DetermineLowAmmo()
 
 void UWBP_ActiveWeaponComponent_C::OnAmmoChange(class UKSWeaponComponent* WeaponComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.OnAmmoChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.OnAmmoChange"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWBP_ActiveWeaponComponent_C::OnAmmoChange(class UKSWeaponComponent* Weapon
 
 void UWBP_ActiveWeaponComponent_C::SetReserveAmmo(int ReserveAmmo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.SetReserveAmmo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.SetReserveAmmo"));
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UWBP_ActiveWeaponComponent_C::SetReserveAmmo(int ReserveAmmo)
 
 void UWBP_ActiveWeaponComponent_C::PostSetActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.PostSetActiveWeaponComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.PostSetActiveWeaponComponent"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_ActiveWeaponComponent_C::PostSetActiveWeaponComponent()
 
 void UWBP_ActiveWeaponComponent_C::PreClearActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.PreClearActiveWeaponComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.PreClearActiveWeaponComponent"));
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UWBP_ActiveWeaponComponent_C::PreClearActiveWeaponComponent()
 
 void UWBP_ActiveWeaponComponent_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.Construct"));
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UWBP_ActiveWeaponComponent_C::Construct()
 
 void UWBP_ActiveWeaponComponent_C::ExecuteUbergraph_WBP_ActiveWeaponComponent(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.ExecuteUbergraph_WBP_ActiveWeaponComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveWeaponComponent.WBP_ActiveWeaponComponent_C.ExecuteUbergraph_WBP_ActiveWeaponComponent"));
 
 	struct
 	{

@@ -40,7 +40,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass MarkerDisplay.MarkerDisplay_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass MarkerDisplay.MarkerDisplay_C"));
 		return ptr;
 	}
 

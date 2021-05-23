@@ -21,7 +21,7 @@ namespace SDK
 
 bool UWBP_CustomizeTitle_C::OnSortRarityDescTextAsc(class UWidget* LHS, class UWidget* RHS)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnSortRarityDescTextAsc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnSortRarityDescTextAsc"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ bool UWBP_CustomizeTitle_C::OnSortRarityDescTextAsc(class UWidget* LHS, class UW
 
 void UWBP_CustomizeTitle_C::AddEmptySlots()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.AddEmptySlots");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.AddEmptySlots"));
 
 	struct
 	{
@@ -64,7 +64,7 @@ void UWBP_CustomizeTitle_C::AddEmptySlots()
 
 struct FEventReply UWBP_CustomizeTitle_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnKeyDown"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ struct FEventReply UWBP_CustomizeTitle_C::OnKeyDown(const struct FGeometry& MyGe
 
 void UWBP_CustomizeTitle_C::SetActiveStates(class UWBP_CosmeticItem_Title_C* ActiveWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.SetActiveStates");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.SetActiveStates"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_CustomizeTitle_C::SetActiveStates(class UWBP_CosmeticItem_Title_C* Act
 
 void UWBP_CustomizeTitle_C::RegisterNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.RegisterNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.RegisterNavigation"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_CustomizeTitle_C::RegisterNavigation()
 
 void UWBP_CustomizeTitle_C::IsTitleItemEquipped(class UKSItem* KSItem, bool* IsEquipped)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.IsTitleItemEquipped");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.IsTitleItemEquipped"));
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UWBP_CustomizeTitle_C::IsTitleItemEquipped(class UKSItem* KSItem, bool* IsE
 
 void UWBP_CustomizeTitle_C::ResetTitleSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.ResetTitleSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.ResetTitleSelection"));
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_CustomizeTitle_C::ResetTitleSelection()
 
 void UWBP_CustomizeTitle_C::SetContextBar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.SetContextBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.SetContextBar"));
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UWBP_CustomizeTitle_C::SetContextBar()
 
 bool UWBP_CustomizeTitle_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.NavigateBack"));
 
 	struct
 	{
@@ -201,7 +201,7 @@ bool UWBP_CustomizeTitle_C::NavigateBack()
 
 void UWBP_CustomizeTitle_C::SetTitleSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.SetTitleSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.SetTitleSelection"));
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWBP_CustomizeTitle_C::SetTitleSelection()
 
 void UWBP_CustomizeTitle_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.InitializeWidget"));
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_CustomizeTitle_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CustomizeTitle_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UWBP_CustomizeTitle_C::InitializeWidgetNavigation()
 
 void UWBP_CustomizeTitle_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnShown"));
 
 	struct
 	{
@@ -269,7 +269,7 @@ void UWBP_CustomizeTitle_C::OnShown()
 
 void UWBP_CustomizeTitle_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnHide"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_CustomizeTitle_C::OnHide()
 
 void UWBP_CustomizeTitle_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnBackPrompt"));
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_CustomizeTitle_C::OnBackPrompt()
 
 void UWBP_CustomizeTitle_C::OnTitleHover(class UPlatformInventoryItem* PlatformItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnTitleHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnTitleHover"));
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UWBP_CustomizeTitle_C::OnTitleHover(class UPlatformInventoryItem* PlatformI
 
 void UWBP_CustomizeTitle_C::OnTitleUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnTitleUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnTitleUnhover"));
 
 	struct
 	{
@@ -340,7 +340,7 @@ void UWBP_CustomizeTitle_C::OnTitleUnhover()
 
 void UWBP_CustomizeTitle_C::OnTitleSelected(class UPlatformInventoryItem* PlatformItem, class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnTitleSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnTitleSelected"));
 
 	struct
 	{
@@ -363,7 +363,7 @@ void UWBP_CustomizeTitle_C::OnTitleSelected(class UPlatformInventoryItem* Platfo
 
 void UWBP_CustomizeTitle_C::OnTitleGamepadHover(class UPUMG_Widget* Widget, bool Hovered)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnTitleGamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.OnTitleGamepadHover"));
 
 	struct
 	{
@@ -385,7 +385,7 @@ void UWBP_CustomizeTitle_C::OnTitleGamepadHover(class UPUMG_Widget* Widget, bool
 
 void UWBP_CustomizeTitle_C::ExecuteUbergraph_WBP_CustomizeTitle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.ExecuteUbergraph_WBP_CustomizeTitle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeTitle.WBP_CustomizeTitle_C.ExecuteUbergraph_WBP_CustomizeTitle"));
 
 	struct
 	{

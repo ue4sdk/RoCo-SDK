@@ -21,7 +21,7 @@ namespace SDK
 
 struct FEventReply UWBP_BoosterInventoryScreen_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.OnKeyUp"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ struct FEventReply UWBP_BoosterInventoryScreen_C::OnKeyUp(const struct FGeometry
 
 void UWBP_BoosterInventoryScreen_C::PopulateActiveBoosts()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.PopulateActiveBoosts");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.PopulateActiveBoosts"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_BoosterInventoryScreen_C::PopulateActiveBoosts()
 
 void UWBP_BoosterInventoryScreen_C::PopulateInactiveBoostInventory()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.PopulateInactiveBoostInventory");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.PopulateInactiveBoostInventory"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_BoosterInventoryScreen_C::PopulateInactiveBoostInventory()
 
 bool UWBP_BoosterInventoryScreen_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.NavigateBack"));
 
 	struct
 	{
@@ -97,7 +97,7 @@ bool UWBP_BoosterInventoryScreen_C::NavigateBack()
 
 void UWBP_BoosterInventoryScreen_C::BndEvt__Blocker_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.BndEvt__Blocker_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.BndEvt__Blocker_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UWBP_BoosterInventoryScreen_C::BndEvt__Blocker_K2Node_ComponentBoundEvent_0
 
 void UWBP_BoosterInventoryScreen_C::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.StartHideSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.StartHideSequence"));
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_BoosterInventoryScreen_C::StartHideSequence(const struct FName& FromRo
 
 void UWBP_BoosterInventoryScreen_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.StartShowSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.StartShowSequence"));
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UWBP_BoosterInventoryScreen_C::StartShowSequence(const struct FName& FromRo
 
 void UWBP_BoosterInventoryScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.OnShown"));
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_BoosterInventoryScreen_C::OnShown()
 
 void UWBP_BoosterInventoryScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UWBP_BoosterInventoryScreen_C::InitializeWidgetNavigation()
 
 void UWBP_BoosterInventoryScreen_C::OnViewStateChange(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.OnViewStateChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.OnViewStateChange"));
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWBP_BoosterInventoryScreen_C::OnViewStateChange(const struct FName& Curren
 
 void UWBP_BoosterInventoryScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.InitializeWidget"));
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UWBP_BoosterInventoryScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BoosterInventoryScreen_C::OnAcquisition(class UKSAcquisition* Acquisition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.OnAcquisition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.OnAcquisition"));
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UWBP_BoosterInventoryScreen_C::OnAcquisition(class UKSAcquisition* Acquisit
 
 void UWBP_BoosterInventoryScreen_C::ExecuteUbergraph_WBP_BoosterInventoryScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.ExecuteUbergraph_WBP_BoosterInventoryScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryScreen.WBP_BoosterInventoryScreen_C.ExecuteUbergraph_WBP_BoosterInventoryScreen"));
 
 	struct
 	{

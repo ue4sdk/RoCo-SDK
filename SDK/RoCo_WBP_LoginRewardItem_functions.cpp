@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_LoginRewardItem_C::SetRarity(const struct FGameplayTagContainer& GameplayTag)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetRarity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetRarity"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UWBP_LoginRewardItem_C::SetRarity(const struct FGameplayTagContainer& Gamep
 
 void UWBP_LoginRewardItem_C::SetColor(const struct FLinearColor& RarityColor, const struct FLinearColor& RarityColorLight)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetColor"));
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UWBP_LoginRewardItem_C::SetColor(const struct FLinearColor& RarityColor, co
 
 void UWBP_LoginRewardItem_C::SetCustomRarity(class UDataTable* DataTable, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetCustomRarity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetCustomRarity"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWBP_LoginRewardItem_C::SetCustomRarity(class UDataTable* DataTable, class 
 
 void UWBP_LoginRewardItem_C::GetCustomRarity(class UPUMG_StoreItem* StoreItem, bool* UseCustomRarity, class UDataTable** DataTable)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.GetCustomRarity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.GetCustomRarity"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_LoginRewardItem_C::GetCustomRarity(class UPUMG_StoreItem* StoreItem, b
 
 void UWBP_LoginRewardItem_C::SetRewardItemVisualState(ERewardState RewardState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetRewardItemVisualState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetRewardItemVisualState"));
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UWBP_LoginRewardItem_C::SetRewardItemVisualState(ERewardState RewardState)
 
 void UWBP_LoginRewardItem_C::PopulateRewardItem(const struct FLoginRewardItem& RewardItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.PopulateRewardItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.PopulateRewardItem"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_LoginRewardItem_C::PopulateRewardItem(const struct FLoginRewardItem& R
 
 void UWBP_LoginRewardItem_C::SetRarityColorByInventoryItem(class UPlatformInventoryItem* InventoryItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetRarityColorByInventoryItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.SetRarityColorByInventoryItem"));
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_LoginRewardItem_C::SetRarityColorByInventoryItem(class UPlatformInvent
 
 void UWBP_LoginRewardItem_C::PlayClaimAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.PlayClaimAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.PlayClaimAnimation"));
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_LoginRewardItem_C::PlayClaimAnimation()
 
 void UWBP_LoginRewardItem_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.Construct"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_LoginRewardItem_C::Construct()
 
 void UWBP_LoginRewardItem_C::HandleClaimAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.HandleClaimAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.HandleClaimAnimFinished"));
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_LoginRewardItem_C::HandleClaimAnimFinished()
 
 void UWBP_LoginRewardItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_LoginRewardItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnBu
 
 void UWBP_LoginRewardItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_LoginRewardItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnBu
 
 void UWBP_LoginRewardItem_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.GamepadHover"));
 
 	struct
 	{
@@ -268,7 +268,7 @@ void UWBP_LoginRewardItem_C::GamepadHover()
 
 void UWBP_LoginRewardItem_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.GamepadUnhover"));
 
 	struct
 	{
@@ -284,7 +284,7 @@ void UWBP_LoginRewardItem_C::GamepadUnhover()
 
 void UWBP_LoginRewardItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -302,7 +302,7 @@ void UWBP_LoginRewardItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnBu
 
 void UWBP_LoginRewardItem_C::ExecuteUbergraph_WBP_LoginRewardItem(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.ExecuteUbergraph_WBP_LoginRewardItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.ExecuteUbergraph_WBP_LoginRewardItem"));
 
 	struct
 	{
@@ -322,7 +322,7 @@ void UWBP_LoginRewardItem_C::ExecuteUbergraph_WBP_LoginRewardItem(int EntryPoint
 
 void UWBP_LoginRewardItem_C::OnRewardClicked__DelegateSignature(const struct FLoginRewardItem& RewardItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.OnRewardClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.OnRewardClicked__DelegateSignature"));
 
 	struct
 	{
@@ -340,7 +340,7 @@ void UWBP_LoginRewardItem_C::OnRewardClicked__DelegateSignature(const struct FLo
 
 void UWBP_LoginRewardItem_C::OnRewardUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.OnRewardUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.OnRewardUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -358,7 +358,7 @@ void UWBP_LoginRewardItem_C::OnRewardUnhovered__DelegateSignature()
 
 void UWBP_LoginRewardItem_C::OnRewardHovered__DelegateSignature(class UWBP_LoginRewardItem_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.OnRewardHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.OnRewardHovered__DelegateSignature"));
 
 	struct
 	{
@@ -376,7 +376,7 @@ void UWBP_LoginRewardItem_C::OnRewardHovered__DelegateSignature(class UWBP_Login
 
 void UWBP_LoginRewardItem_C::ClaimAnimationComplete__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.ClaimAnimationComplete__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardItem.WBP_LoginRewardItem_C.ClaimAnimationComplete__DelegateSignature"));
 
 	struct
 	{

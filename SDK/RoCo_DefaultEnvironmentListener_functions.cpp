@@ -19,7 +19,7 @@ namespace SDK
 
 void UDefaultEnvironmentListener_C::OnEnvironmentChanged(const struct FName& OldEnvironmentTag)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DefaultEnvironmentListener.DefaultEnvironmentListener_C.OnEnvironmentChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DefaultEnvironmentListener.DefaultEnvironmentListener_C.OnEnvironmentChanged"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UDefaultEnvironmentListener_C::OnEnvironmentChanged(const struct FName& Old
 
 void UDefaultEnvironmentListener_C::Print_State(bool Print_to_Screen, bool Print_to_Log, const struct FLinearColor& Text_Color, float Duration)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DefaultEnvironmentListener.DefaultEnvironmentListener_C.Print State");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DefaultEnvironmentListener.DefaultEnvironmentListener_C.Print State"));
 
 	struct
 	{
@@ -66,7 +66,7 @@ void UDefaultEnvironmentListener_C::Print_State(bool Print_to_Screen, bool Print
 
 void UDefaultEnvironmentListener_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DefaultEnvironmentListener.DefaultEnvironmentListener_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DefaultEnvironmentListener.DefaultEnvironmentListener_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -84,7 +84,7 @@ void UDefaultEnvironmentListener_C::ReceiveBeginPlay()
 
 void UDefaultEnvironmentListener_C::ExecuteUbergraph_DefaultEnvironmentListener(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DefaultEnvironmentListener.DefaultEnvironmentListener_C.ExecuteUbergraph_DefaultEnvironmentListener");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DefaultEnvironmentListener.DefaultEnvironmentListener_C.ExecuteUbergraph_DefaultEnvironmentListener"));
 
 	struct
 	{

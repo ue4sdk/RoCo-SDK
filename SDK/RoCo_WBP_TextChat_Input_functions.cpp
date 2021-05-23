@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_TextChat_Input_C::SetPromptActionActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.SetPromptActionActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.SetPromptActionActive"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_TextChat_Input_C::SetPromptActionActive(bool IsActive)
 
 void UWBP_TextChat_Input_C::UpdateGamepadFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.UpdateGamepadFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.UpdateGamepadFocus"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_TextChat_Input_C::UpdateGamepadFocus()
 
 void UWBP_TextChat_Input_C::HandleInputStateChange(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.HandleInputStateChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.HandleInputStateChange"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_TextChat_Input_C::HandleInputStateChange(TEnumAsByte<EPGAME_INPUT_STAT
 
 void UWBP_TextChat_Input_C::SetEngaged(bool Engaged)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.SetEngaged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.SetEngaged"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_TextChat_Input_C::SetEngaged(bool Engaged)
 
 void UWBP_TextChat_Input_C::UpdateHintText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.UpdateHintText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.UpdateHintText"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_TextChat_Input_C::UpdateHintText()
 
 struct FText UWBP_TextChat_Input_C::GetHintText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.GetHintText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.GetHintText"));
 
 	struct
 	{
@@ -133,7 +133,7 @@ struct FText UWBP_TextChat_Input_C::GetHintText()
 
 void UWBP_TextChat_Input_C::SetCurrentChannel(EPUMG_ChatChannel Channel, class UPUMG_PlayerInfo* PersonalChannelPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.SetCurrentChannel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.SetCurrentChannel"));
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWBP_TextChat_Input_C::SetCurrentChannel(EPUMG_ChatChannel Channel, class U
 
 struct FEventReply UWBP_TextChat_Input_C::On_Input_KeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.On_Input_KeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.On_Input_KeyDown"));
 
 	struct
 	{
@@ -182,7 +182,7 @@ struct FEventReply UWBP_TextChat_Input_C::On_Input_KeyDown(const struct FGeometr
 
 void UWBP_TextChat_Input_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.PreConstruct"));
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_TextChat_Input_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_TextChat_Input_C::BndEvt__Button_66_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.BndEvt__Button_66_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.BndEvt__Button_66_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_TextChat_Input_C::BndEvt__Button_66_K2Node_ComponentBoundEvent_0_OnBut
 
 void UWBP_TextChat_Input_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.InitializeWidget"));
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UWBP_TextChat_Input_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_TextChat_Input_C::OnViewStateChanged(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnViewStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnViewStateChanged"));
 
 	struct
 	{
@@ -264,7 +264,7 @@ void UWBP_TextChat_Input_C::OnViewStateChanged(const struct FName& CurrentRoute,
 
 void UWBP_TextChat_Input_C::BndEvt__Input_K2Node_ComponentBoundEvent_1_OnEditableTextBoxChangedEvent__DelegateSignature(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.BndEvt__Input_K2Node_ComponentBoundEvent_1_OnEditableTextBoxChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.BndEvt__Input_K2Node_ComponentBoundEvent_1_OnEditableTextBoxChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_TextChat_Input_C::BndEvt__Input_K2Node_ComponentBoundEvent_1_OnEditabl
 
 void UWBP_TextChat_Input_C::BndEvt__Input_K2Node_ComponentBoundEvent_2_OnEditableTextBoxCommittedEvent__DelegateSignature(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.BndEvt__Input_K2Node_ComponentBoundEvent_2_OnEditableTextBoxCommittedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.BndEvt__Input_K2Node_ComponentBoundEvent_2_OnEditableTextBoxCommittedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UWBP_TextChat_Input_C::BndEvt__Input_K2Node_ComponentBoundEvent_2_OnEditabl
 
 void UWBP_TextChat_Input_C::ExecuteUbergraph_WBP_TextChat_Input(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.ExecuteUbergraph_WBP_TextChat_Input");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.ExecuteUbergraph_WBP_TextChat_Input"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void UWBP_TextChat_Input_C::ExecuteUbergraph_WBP_TextChat_Input(int EntryPoint)
 
 void UWBP_TextChat_Input_C::OnDownPressed__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnDownPressed__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnDownPressed__DelegateSignature"));
 
 	struct
 	{
@@ -341,7 +341,7 @@ void UWBP_TextChat_Input_C::OnDownPressed__DelegateSignature()
 
 void UWBP_TextChat_Input_C::OnUpPressed__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnUpPressed__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnUpPressed__DelegateSignature"));
 
 	struct
 	{
@@ -357,7 +357,7 @@ void UWBP_TextChat_Input_C::OnUpPressed__DelegateSignature()
 
 void UWBP_TextChat_Input_C::OnRightPressed__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnRightPressed__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnRightPressed__DelegateSignature"));
 
 	struct
 	{
@@ -373,7 +373,7 @@ void UWBP_TextChat_Input_C::OnRightPressed__DelegateSignature()
 
 void UWBP_TextChat_Input_C::OnLeftPressed__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnLeftPressed__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnLeftPressed__DelegateSignature"));
 
 	struct
 	{
@@ -391,7 +391,7 @@ void UWBP_TextChat_Input_C::OnLeftPressed__DelegateSignature()
 
 void UWBP_TextChat_Input_C::OnCancelPressed__DelegateSignature(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnCancelPressed__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnCancelPressed__DelegateSignature"));
 
 	struct
 	{
@@ -409,7 +409,7 @@ void UWBP_TextChat_Input_C::OnCancelPressed__DelegateSignature(const struct FKey
 
 void UWBP_TextChat_Input_C::OnTabPressed__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnTabPressed__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_Input.WBP_TextChat_Input_C.OnTabPressed__DelegateSignature"));
 
 	struct
 	{

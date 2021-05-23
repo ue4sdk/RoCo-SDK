@@ -19,7 +19,7 @@ namespace SDK
 
 bool UGrenadeMarker_C::ShouldUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.ShouldUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GrenadeMarker.GrenadeMarker_C.ShouldUpdate"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UGrenadeMarker_C::ShouldUpdate()
 
 class UKSWeaponAsset* UGrenadeMarker_C::Get_Weapon_Asset_or_Secondary()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.Get Weapon Asset or Secondary");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GrenadeMarker.GrenadeMarker_C.Get Weapon Asset or Secondary"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ class UKSWeaponAsset* UGrenadeMarker_C::Get_Weapon_Asset_or_Secondary()
 
 ESlateVisibility UGrenadeMarker_C::Update()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.Update");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GrenadeMarker.GrenadeMarker_C.Update"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ ESlateVisibility UGrenadeMarker_C::Update()
 
 void UGrenadeMarker_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GrenadeMarker.GrenadeMarker_C.Tick"));
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UGrenadeMarker_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTim
 
 void UGrenadeMarker_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GrenadeMarker.GrenadeMarker_C.PreConstruct"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UGrenadeMarker_C::PreConstruct(bool IsDesignTime)
 
 void UGrenadeMarker_C::OnWeaponAssetSet(class AKSProjectile* Projectile, class UKSWeaponAsset* WeaponAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.OnWeaponAssetSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GrenadeMarker.GrenadeMarker_C.OnWeaponAssetSet"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UGrenadeMarker_C::OnWeaponAssetSet(class AKSProjectile* Projectile, class U
 
 void UGrenadeMarker_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GrenadeMarker.GrenadeMarker_C.Construct"));
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UGrenadeMarker_C::Construct()
 
 void UGrenadeMarker_C::ExecuteUbergraph_GrenadeMarker(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.ExecuteUbergraph_GrenadeMarker");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GrenadeMarker.GrenadeMarker_C.ExecuteUbergraph_GrenadeMarker"));
 
 	struct
 	{

@@ -21,7 +21,7 @@ namespace SDK
 
 void UWBP_KillstreakMeter_C::SetActionNames(const struct FName& KeyBoardAction, const struct FName& GamepadAction, const struct FName& MobileAction)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.SetActionNames");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.SetActionNames"));
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UWBP_KillstreakMeter_C::SetActionNames(const struct FName& KeyBoardAction, 
 
 void UWBP_KillstreakMeter_C::HandleOnTargetRevived()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetRevived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetRevived"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_KillstreakMeter_C::HandleOnTargetRevived()
 
 void UWBP_KillstreakMeter_C::HandleOnDroneAborted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnDroneAborted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnDroneAborted"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_KillstreakMeter_C::HandleOnDroneAborted()
 
 void UWBP_KillstreakMeter_C::Get_Current_Cannot_Fire_Now(bool* CurrentCannotFireNow)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Get Current Cannot Fire Now");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Get Current Cannot Fire Now"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UWBP_KillstreakMeter_C::Get_Current_Cannot_Fire_Now(bool* CurrentCannotFire
 
 void UWBP_KillstreakMeter_C::HandleOnTargetAcquired(const TScriptInterface<class UKSTargeter>& Targeter, class AActor* Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetAcquired");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetAcquired"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UWBP_KillstreakMeter_C::HandleOnTargetAcquired(const TScriptInterface<class
 
 void UWBP_KillstreakMeter_C::PlayActivationEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.PlayActivationEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.PlayActivationEvent"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_KillstreakMeter_C::PlayActivationEvent()
 
 void UWBP_KillstreakMeter_C::Set_Jammed(bool IsJammed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Set Jammed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Set Jammed"));
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_KillstreakMeter_C::Set_Jammed(bool IsJammed)
 
 void UWBP_KillstreakMeter_C::UpdateLockTimer(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateLockTimer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateLockTimer"));
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_KillstreakMeter_C::UpdateLockTimer(float DeltaTime)
 
 void UWBP_KillstreakMeter_C::HandleOnReviveTrigger()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveTrigger");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveTrigger"));
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_KillstreakMeter_C::HandleOnReviveTrigger()
 
 void UWBP_KillstreakMeter_C::HandleOnReviveComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveComplete");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveComplete"));
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_KillstreakMeter_C::HandleOnReviveComplete()
 
 void UWBP_KillstreakMeter_C::HandleOnReviveBegin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveBegin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveBegin"));
 
 	struct
 	{
@@ -226,7 +226,7 @@ void UWBP_KillstreakMeter_C::HandleOnReviveBegin()
 
 void UWBP_KillstreakMeter_C::UpdateReviveProgressDisplay(float InProgress)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateReviveProgressDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateReviveProgressDisplay"));
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UWBP_KillstreakMeter_C::UpdateReviveProgressDisplay(float InProgress)
 
 void UWBP_KillstreakMeter_C::HandleOnTargetDeath()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetDeath");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetDeath"));
 
 	struct
 	{
@@ -260,7 +260,7 @@ void UWBP_KillstreakMeter_C::HandleOnTargetDeath()
 
 void UWBP_KillstreakMeter_C::HandleOnDroneDestroyed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnDroneDestroyed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnDroneDestroyed"));
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UWBP_KillstreakMeter_C::HandleOnDroneDestroyed()
 
 void UWBP_KillstreakMeter_C::IsReadyToActivate(bool* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.IsReadyToActivate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.IsReadyToActivate"));
 
 	struct
 	{
@@ -298,7 +298,7 @@ void UWBP_KillstreakMeter_C::IsReadyToActivate(bool* Return_Value)
 
 void UWBP_KillstreakMeter_C::Stop_Ready_Animations()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Stop Ready Animations");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Stop Ready Animations"));
 
 	struct
 	{
@@ -314,7 +314,7 @@ void UWBP_KillstreakMeter_C::Stop_Ready_Animations()
 
 void UWBP_KillstreakMeter_C::Start_Ready_Animations()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Start Ready Animations");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Start Ready Animations"));
 
 	struct
 	{
@@ -330,7 +330,7 @@ void UWBP_KillstreakMeter_C::Start_Ready_Animations()
 
 void UWBP_KillstreakMeter_C::GetDynamicMats()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.GetDynamicMats");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.GetDynamicMats"));
 
 	struct
 	{
@@ -346,7 +346,7 @@ void UWBP_KillstreakMeter_C::GetDynamicMats()
 
 void UWBP_KillstreakMeter_C::UpdateFillMeterDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateFillMeterDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateFillMeterDisplay"));
 
 	struct
 	{
@@ -364,7 +364,7 @@ void UWBP_KillstreakMeter_C::UpdateFillMeterDisplay()
 
 void UWBP_KillstreakMeter_C::SetFillValue(float FillValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.SetFillValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.SetFillValue"));
 
 	struct
 	{
@@ -382,7 +382,7 @@ void UWBP_KillstreakMeter_C::SetFillValue(float FillValue)
 
 void UWBP_KillstreakMeter_C::UnbindChanges()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UnbindChanges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UnbindChanges"));
 
 	struct
 	{
@@ -398,7 +398,7 @@ void UWBP_KillstreakMeter_C::UnbindChanges()
 
 void UWBP_KillstreakMeter_C::CheckForFullCharge()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.CheckForFullCharge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.CheckForFullCharge"));
 
 	struct
 	{
@@ -414,7 +414,7 @@ void UWBP_KillstreakMeter_C::CheckForFullCharge()
 
 void UWBP_KillstreakMeter_C::UpdateCharge()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateCharge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateCharge"));
 
 	struct
 	{
@@ -430,7 +430,7 @@ void UWBP_KillstreakMeter_C::UpdateCharge()
 
 void UWBP_KillstreakMeter_C::BindToChanges()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.BindToChanges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.BindToChanges"));
 
 	struct
 	{
@@ -446,7 +446,7 @@ void UWBP_KillstreakMeter_C::BindToChanges()
 
 void UWBP_KillstreakMeter_C::SetupBasicDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.SetupBasicDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.SetupBasicDisplay"));
 
 	struct
 	{
@@ -462,7 +462,7 @@ void UWBP_KillstreakMeter_C::SetupBasicDisplay()
 
 void UWBP_KillstreakMeter_C::Play_Ability_Ready_Sound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Play Ability Ready Sound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Play Ability Ready Sound"));
 
 	struct
 	{
@@ -478,7 +478,7 @@ void UWBP_KillstreakMeter_C::Play_Ability_Ready_Sound()
 
 void UWBP_KillstreakMeter_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Construct"));
 
 	struct
 	{
@@ -496,7 +496,7 @@ void UWBP_KillstreakMeter_C::Construct()
 
 void UWBP_KillstreakMeter_C::HandleModChargeChange(class UKSModInst_Activated* KSModInstActivated)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleModChargeChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleModChargeChange"));
 
 	struct
 	{
@@ -516,7 +516,7 @@ void UWBP_KillstreakMeter_C::HandleModChargeChange(class UKSModInst_Activated* K
 
 void UWBP_KillstreakMeter_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.InitializeWidget"));
 
 	struct
 	{
@@ -534,7 +534,7 @@ void UWBP_KillstreakMeter_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_KillstreakMeter_C::OpenAnimateMeterGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OpenAnimateMeterGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OpenAnimateMeterGate"));
 
 	struct
 	{
@@ -550,7 +550,7 @@ void UWBP_KillstreakMeter_C::OpenAnimateMeterGate()
 
 void UWBP_KillstreakMeter_C::CloseAnimateMeterGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.CloseAnimateMeterGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.CloseAnimateMeterGate"));
 
 	struct
 	{
@@ -569,7 +569,7 @@ void UWBP_KillstreakMeter_C::CloseAnimateMeterGate()
 
 void UWBP_KillstreakMeter_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Tick"));
 
 	struct
 	{
@@ -591,7 +591,7 @@ void UWBP_KillstreakMeter_C::Tick(const struct FGeometry& MyGeometry, float InDe
 
 void UWBP_KillstreakMeter_C::HandlePlayerModCharge(class UKSPlayerMod_Activated* KSPlayerModActivated)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandlePlayerModCharge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandlePlayerModCharge"));
 
 	struct
 	{
@@ -609,7 +609,7 @@ void UWBP_KillstreakMeter_C::HandlePlayerModCharge(class UKSPlayerMod_Activated*
 
 void UWBP_KillstreakMeter_C::HandleIntroAnimFinish()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleIntroAnimFinish");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleIntroAnimFinish"));
 
 	struct
 	{
@@ -625,7 +625,7 @@ void UWBP_KillstreakMeter_C::HandleIntroAnimFinish()
 
 void UWBP_KillstreakMeter_C::HandlePulseAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandlePulseAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandlePulseAnimFinished"));
 
 	struct
 	{
@@ -643,7 +643,7 @@ void UWBP_KillstreakMeter_C::HandlePulseAnimFinished()
 
 void UWBP_KillstreakMeter_C::Update_Player_Downed(bool IsDowned)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Update Player Downed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Update Player Downed"));
 
 	struct
 	{
@@ -661,7 +661,7 @@ void UWBP_KillstreakMeter_C::Update_Player_Downed(bool IsDowned)
 
 void UWBP_KillstreakMeter_C::OpenRetryBasicDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OpenRetryBasicDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OpenRetryBasicDisplay"));
 
 	struct
 	{
@@ -677,7 +677,7 @@ void UWBP_KillstreakMeter_C::OpenRetryBasicDisplay()
 
 void UWBP_KillstreakMeter_C::CloseRetryBasicDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.CloseRetryBasicDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.CloseRetryBasicDisplay"));
 
 	struct
 	{
@@ -693,7 +693,7 @@ void UWBP_KillstreakMeter_C::CloseRetryBasicDisplay()
 
 void UWBP_KillstreakMeter_C::RetryBasicDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.RetryBasicDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.RetryBasicDisplay"));
 
 	struct
 	{
@@ -709,7 +709,7 @@ void UWBP_KillstreakMeter_C::RetryBasicDisplay()
 
 void UWBP_KillstreakMeter_C::ReevaluateButtonPrompts()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.ReevaluateButtonPrompts");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.ReevaluateButtonPrompts"));
 
 	struct
 	{
@@ -727,7 +727,7 @@ void UWBP_KillstreakMeter_C::ReevaluateButtonPrompts()
 
 void UWBP_KillstreakMeter_C::HandleModActivated(bool InBool)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleModActivated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleModActivated"));
 
 	struct
 	{
@@ -745,7 +745,7 @@ void UWBP_KillstreakMeter_C::HandleModActivated(bool InBool)
 
 void UWBP_KillstreakMeter_C::OpenReviveProgress()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OpenReviveProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OpenReviveProgress"));
 
 	struct
 	{
@@ -761,7 +761,7 @@ void UWBP_KillstreakMeter_C::OpenReviveProgress()
 
 void UWBP_KillstreakMeter_C::EnterReviveProgress()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.EnterReviveProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.EnterReviveProgress"));
 
 	struct
 	{
@@ -777,7 +777,7 @@ void UWBP_KillstreakMeter_C::EnterReviveProgress()
 
 void UWBP_KillstreakMeter_C::DelayedCloseReviveProgress()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedCloseReviveProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedCloseReviveProgress"));
 
 	struct
 	{
@@ -793,7 +793,7 @@ void UWBP_KillstreakMeter_C::DelayedCloseReviveProgress()
 
 void UWBP_KillstreakMeter_C::DelayedClearOfDroneMessaging()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedClearOfDroneMessaging");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedClearOfDroneMessaging"));
 
 	struct
 	{
@@ -809,7 +809,7 @@ void UWBP_KillstreakMeter_C::DelayedClearOfDroneMessaging()
 
 void UWBP_KillstreakMeter_C::DelayedRefundDroneMessaging()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedRefundDroneMessaging");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedRefundDroneMessaging"));
 
 	struct
 	{
@@ -827,7 +827,7 @@ void UWBP_KillstreakMeter_C::DelayedRefundDroneMessaging()
 
 void UWBP_KillstreakMeter_C::OnSetCannotFireNow(bool CannotFire)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OnSetCannotFireNow");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OnSetCannotFireNow"));
 
 	struct
 	{
@@ -845,7 +845,7 @@ void UWBP_KillstreakMeter_C::OnSetCannotFireNow(bool CannotFire)
 
 void UWBP_KillstreakMeter_C::ImmediateCloseReviveProgress()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.ImmediateCloseReviveProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.ImmediateCloseReviveProgress"));
 
 	struct
 	{
@@ -863,7 +863,7 @@ void UWBP_KillstreakMeter_C::ImmediateCloseReviveProgress()
 
 void UWBP_KillstreakMeter_C::ExecuteUbergraph_WBP_KillstreakMeter(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.ExecuteUbergraph_WBP_KillstreakMeter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.ExecuteUbergraph_WBP_KillstreakMeter"));
 
 	struct
 	{

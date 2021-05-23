@@ -19,7 +19,7 @@ namespace SDK
 
 EGooglePADErrorCode UGooglePADFunctionLibrary::ShowCellularDataConfirmation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.ShowCellularDataConfirmation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.ShowCellularDataConfirmation"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ EGooglePADErrorCode UGooglePADFunctionLibrary::ShowCellularDataConfirmation()
 
 EGooglePADErrorCode UGooglePADFunctionLibrary::RequestRemoval(const struct FString& Name)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.RequestRemoval");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.RequestRemoval"));
 
 	struct
 	{
@@ -67,7 +67,7 @@ EGooglePADErrorCode UGooglePADFunctionLibrary::RequestRemoval(const struct FStri
 
 EGooglePADErrorCode UGooglePADFunctionLibrary::RequestInfo(TArray<struct FString> AssetPacks)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.RequestInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.RequestInfo"));
 
 	struct
 	{
@@ -92,7 +92,7 @@ EGooglePADErrorCode UGooglePADFunctionLibrary::RequestInfo(TArray<struct FString
 
 EGooglePADErrorCode UGooglePADFunctionLibrary::RequestDownload(TArray<struct FString> AssetPacks)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.RequestDownload");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.RequestDownload"));
 
 	struct
 	{
@@ -116,7 +116,7 @@ EGooglePADErrorCode UGooglePADFunctionLibrary::RequestDownload(TArray<struct FSt
 
 void UGooglePADFunctionLibrary::ReleaseDownloadState(int State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.ReleaseDownloadState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.ReleaseDownloadState"));
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UGooglePADFunctionLibrary::ReleaseDownloadState(int State)
 
 void UGooglePADFunctionLibrary::ReleaseAssetPackLocation(int Location)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.ReleaseAssetPackLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.ReleaseAssetPackLocation"));
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UGooglePADFunctionLibrary::ReleaseAssetPackLocation(int Location)
 
 int UGooglePADFunctionLibrary::GetTotalBytesToDownload(int State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.GetTotalBytesToDownload");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.GetTotalBytesToDownload"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ int UGooglePADFunctionLibrary::GetTotalBytesToDownload(int State)
 
 EGooglePADStorageMethod UGooglePADFunctionLibrary::GetStorageMethod(int Location)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.GetStorageMethod");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.GetStorageMethod"));
 
 	struct
 	{
@@ -209,7 +209,7 @@ EGooglePADStorageMethod UGooglePADFunctionLibrary::GetStorageMethod(int Location
 
 EGooglePADErrorCode UGooglePADFunctionLibrary::GetShowCellularDataConfirmationStatus(EGooglePADCellularDataConfirmStatus* Status)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.GetShowCellularDataConfirmationStatus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.GetShowCellularDataConfirmationStatus"));
 
 	struct
 	{
@@ -236,7 +236,7 @@ EGooglePADErrorCode UGooglePADFunctionLibrary::GetShowCellularDataConfirmationSt
 
 EGooglePADDownloadStatus UGooglePADFunctionLibrary::GetDownloadStatus(int State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.GetDownloadStatus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.GetDownloadStatus"));
 
 	struct
 	{
@@ -262,7 +262,7 @@ EGooglePADDownloadStatus UGooglePADFunctionLibrary::GetDownloadStatus(int State)
 
 EGooglePADErrorCode UGooglePADFunctionLibrary::GetDownloadState(const struct FString& Name, int* State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.GetDownloadState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.GetDownloadState"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ EGooglePADErrorCode UGooglePADFunctionLibrary::GetDownloadState(const struct FSt
 
 int UGooglePADFunctionLibrary::GetBytesDownloaded(int State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.GetBytesDownloaded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.GetBytesDownloaded"));
 
 	struct
 	{
@@ -316,7 +316,7 @@ int UGooglePADFunctionLibrary::GetBytesDownloaded(int State)
 
 struct FString UGooglePADFunctionLibrary::GetAssetsPath(int Location)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.GetAssetsPath");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.GetAssetsPath"));
 
 	struct
 	{
@@ -342,7 +342,7 @@ struct FString UGooglePADFunctionLibrary::GetAssetsPath(int Location)
 
 EGooglePADErrorCode UGooglePADFunctionLibrary::GetAssetPackLocation(const struct FString& Name, int* Location)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.GetAssetPackLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.GetAssetPackLocation"));
 
 	struct
 	{
@@ -371,7 +371,7 @@ EGooglePADErrorCode UGooglePADFunctionLibrary::GetAssetPackLocation(const struct
 
 EGooglePADErrorCode UGooglePADFunctionLibrary::CancelDownload(TArray<struct FString> AssetPacks)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GooglePAD.GooglePADFunctionLibrary.CancelDownload");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GooglePAD.GooglePADFunctionLibrary.CancelDownload"));
 
 	struct
 	{

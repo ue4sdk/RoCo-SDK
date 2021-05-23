@@ -19,7 +19,7 @@ namespace SDK
 
 bool UMovieSceneCaptureProtocolBase::IsCapturing()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCaptureProtocolBase.IsCapturing");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCaptureProtocolBase.IsCapturing"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UMovieSceneCaptureProtocolBase::IsCapturing()
 
 EMovieSceneCaptureProtocolState UMovieSceneCaptureProtocolBase::GetState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCaptureProtocolBase.GetState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCaptureProtocolBase.GetState"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ EMovieSceneCaptureProtocolState UMovieSceneCaptureProtocolBase::GetState()
 
 void UMovieSceneCapture::SetImageCaptureProtocolType(class UClass* ProtocolType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCapture.SetImageCaptureProtocolType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCapture.SetImageCaptureProtocolType"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UMovieSceneCapture::SetImageCaptureProtocolType(class UClass* ProtocolType)
 
 void UMovieSceneCapture::SetAudioCaptureProtocolType(class UClass* ProtocolType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCapture.SetAudioCaptureProtocolType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCapture.SetAudioCaptureProtocolType"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UMovieSceneCapture::SetAudioCaptureProtocolType(class UClass* ProtocolType)
 
 class UMovieSceneCaptureProtocolBase* UMovieSceneCapture::GetImageCaptureProtocol()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCapture.GetImageCaptureProtocol");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCapture.GetImageCaptureProtocol"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ class UMovieSceneCaptureProtocolBase* UMovieSceneCapture::GetImageCaptureProtoco
 
 class UMovieSceneCaptureProtocolBase* UMovieSceneCapture::GetAudioCaptureProtocol()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCapture.GetAudioCaptureProtocol");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCapture.GetAudioCaptureProtocol"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ class UMovieSceneCaptureProtocolBase* UMovieSceneCapture::GetAudioCaptureProtoco
 
 bool UMovieSceneCaptureEnvironment::IsCaptureInProgress()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCaptureEnvironment.IsCaptureInProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCaptureEnvironment.IsCaptureInProgress"));
 
 	struct
 	{
@@ -165,7 +165,7 @@ bool UMovieSceneCaptureEnvironment::IsCaptureInProgress()
 
 int UMovieSceneCaptureEnvironment::GetCaptureFrameNumber()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCaptureEnvironment.GetCaptureFrameNumber");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCaptureEnvironment.GetCaptureFrameNumber"));
 
 	struct
 	{
@@ -187,7 +187,7 @@ int UMovieSceneCaptureEnvironment::GetCaptureFrameNumber()
 
 float UMovieSceneCaptureEnvironment::GetCaptureElapsedTime()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCaptureEnvironment.GetCaptureElapsedTime");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCaptureEnvironment.GetCaptureElapsedTime"));
 
 	struct
 	{
@@ -209,7 +209,7 @@ float UMovieSceneCaptureEnvironment::GetCaptureElapsedTime()
 
 class UMovieSceneImageCaptureProtocolBase* UMovieSceneCaptureEnvironment::FindImageCaptureProtocol()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCaptureEnvironment.FindImageCaptureProtocol");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCaptureEnvironment.FindImageCaptureProtocol"));
 
 	struct
 	{
@@ -231,7 +231,7 @@ class UMovieSceneImageCaptureProtocolBase* UMovieSceneCaptureEnvironment::FindIm
 
 class UMovieSceneAudioCaptureProtocolBase* UMovieSceneCaptureEnvironment::FindAudioCaptureProtocol()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.MovieSceneCaptureEnvironment.FindAudioCaptureProtocol");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.MovieSceneCaptureEnvironment.FindAudioCaptureProtocol"));
 
 	struct
 	{
@@ -251,7 +251,7 @@ class UMovieSceneAudioCaptureProtocolBase* UMovieSceneCaptureEnvironment::FindAu
 
 void UUserDefinedCaptureProtocol::StopCapturingFinalPixels()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.StopCapturingFinalPixels");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.StopCapturingFinalPixels"));
 
 	struct
 	{
@@ -269,7 +269,7 @@ void UUserDefinedCaptureProtocol::StopCapturingFinalPixels()
 
 void UUserDefinedCaptureProtocol::StartCapturingFinalPixels(const struct FCapturedPixelsID& StreamID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.StartCapturingFinalPixels");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.StartCapturingFinalPixels"));
 
 	struct
 	{
@@ -290,7 +290,7 @@ void UUserDefinedCaptureProtocol::StartCapturingFinalPixels(const struct FCaptur
 
 void UUserDefinedCaptureProtocol::ResolveBuffer(class UTexture* Buffer, const struct FCapturedPixelsID& BufferID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.ResolveBuffer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.ResolveBuffer"));
 
 	struct
 	{
@@ -310,7 +310,7 @@ void UUserDefinedCaptureProtocol::ResolveBuffer(class UTexture* Buffer, const st
 
 void UUserDefinedCaptureProtocol::OnWarmUp()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnWarmUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnWarmUp"));
 
 	struct
 	{
@@ -326,7 +326,7 @@ void UUserDefinedCaptureProtocol::OnWarmUp()
 
 void UUserDefinedCaptureProtocol::OnTick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnTick"));
 
 	struct
 	{
@@ -342,7 +342,7 @@ void UUserDefinedCaptureProtocol::OnTick()
 
 void UUserDefinedCaptureProtocol::OnStartCapture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnStartCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnStartCapture"));
 
 	struct
 	{
@@ -360,7 +360,7 @@ void UUserDefinedCaptureProtocol::OnStartCapture()
 
 bool UUserDefinedCaptureProtocol::OnSetup()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnSetup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnSetup"));
 
 	struct
 	{
@@ -379,7 +379,7 @@ bool UUserDefinedCaptureProtocol::OnSetup()
 
 void UUserDefinedCaptureProtocol::OnPreTick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnPreTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnPreTick"));
 
 	struct
 	{
@@ -399,7 +399,7 @@ void UUserDefinedCaptureProtocol::OnPreTick()
 
 void UUserDefinedCaptureProtocol::OnPixelsReceived(const struct FCapturedPixels& Pixels, const struct FCapturedPixelsID& ID, const struct FFrameMetrics& FrameMetrics)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnPixelsReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnPixelsReceived"));
 
 	struct
 	{
@@ -421,7 +421,7 @@ void UUserDefinedCaptureProtocol::OnPixelsReceived(const struct FCapturedPixels&
 
 void UUserDefinedCaptureProtocol::OnPauseCapture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnPauseCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnPauseCapture"));
 
 	struct
 	{
@@ -437,7 +437,7 @@ void UUserDefinedCaptureProtocol::OnPauseCapture()
 
 void UUserDefinedCaptureProtocol::OnFinalize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnFinalize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnFinalize"));
 
 	struct
 	{
@@ -453,7 +453,7 @@ void UUserDefinedCaptureProtocol::OnFinalize()
 
 void UUserDefinedCaptureProtocol::OnCaptureFrame()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnCaptureFrame");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnCaptureFrame"));
 
 	struct
 	{
@@ -471,7 +471,7 @@ void UUserDefinedCaptureProtocol::OnCaptureFrame()
 
 bool UUserDefinedCaptureProtocol::OnCanFinalize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnCanFinalize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnCanFinalize"));
 
 	struct
 	{
@@ -490,7 +490,7 @@ bool UUserDefinedCaptureProtocol::OnCanFinalize()
 
 void UUserDefinedCaptureProtocol::OnBeginFinalize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnBeginFinalize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.OnBeginFinalize"));
 
 	struct
 	{
@@ -508,7 +508,7 @@ void UUserDefinedCaptureProtocol::OnBeginFinalize()
 
 struct FFrameMetrics UUserDefinedCaptureProtocol::GetCurrentFrameMetrics()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.GetCurrentFrameMetrics");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.GetCurrentFrameMetrics"));
 
 	struct
 	{
@@ -530,7 +530,7 @@ struct FFrameMetrics UUserDefinedCaptureProtocol::GetCurrentFrameMetrics()
 
 struct FString UUserDefinedCaptureProtocol::GenerateFilename(const struct FFrameMetrics& InFrameMetrics)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedCaptureProtocol.GenerateFilename");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedCaptureProtocol.GenerateFilename"));
 
 	struct
 	{
@@ -556,7 +556,7 @@ struct FString UUserDefinedCaptureProtocol::GenerateFilename(const struct FFrame
 
 void UUserDefinedImageCaptureProtocol::WriteImageToDisk(const struct FCapturedPixels& PixelData, const struct FCapturedPixelsID& StreamID, const struct FFrameMetrics& FrameMetrics, bool bCopyImageData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedImageCaptureProtocol.WriteImageToDisk");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedImageCaptureProtocol.WriteImageToDisk"));
 
 	struct
 	{
@@ -582,7 +582,7 @@ void UUserDefinedImageCaptureProtocol::WriteImageToDisk(const struct FCapturedPi
 
 struct FString UUserDefinedImageCaptureProtocol::GenerateFilenameForCurrentFrame()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedImageCaptureProtocol.GenerateFilenameForCurrentFrame");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedImageCaptureProtocol.GenerateFilenameForCurrentFrame"));
 
 	struct
 	{
@@ -605,7 +605,7 @@ struct FString UUserDefinedImageCaptureProtocol::GenerateFilenameForCurrentFrame
 
 struct FString UUserDefinedImageCaptureProtocol::GenerateFilenameForBuffer(class UTexture* Buffer, const struct FCapturedPixelsID& StreamID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneCapture.UserDefinedImageCaptureProtocol.GenerateFilenameForBuffer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneCapture.UserDefinedImageCaptureProtocol.GenerateFilenameForBuffer"));
 
 	struct
 	{

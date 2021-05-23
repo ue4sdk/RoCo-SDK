@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_InGameJobSelect_RoguePanel_C::SetInitialViewState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.SetInitialViewState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.SetInitialViewState"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::SetInitialViewState()
 
 void UWBP_InGameJobSelect_RoguePanel_C::SetPrimaryButtonDisabled(bool IsDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.SetPrimaryButtonDisabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.SetPrimaryButtonDisabled"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::SetPrimaryButtonDisabled(bool IsDisabled
 
 void UWBP_InGameJobSelect_RoguePanel_C::UpdateJobSelectionAvailability(class AKSPlayerState* ContextPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.UpdateJobSelectionAvailability");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.UpdateJobSelectionAvailability"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::UpdateJobSelectionAvailability(class AKS
 
 void UWBP_InGameJobSelect_RoguePanel_C::NotifyLockedIn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.NotifyLockedIn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.NotifyLockedIn"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::NotifyLockedIn()
 
 void UWBP_InGameJobSelect_RoguePanel_C::NotifySelectionActivityState(ESelectionActivityState State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.NotifySelectionActivityState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.NotifySelectionActivityState"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::NotifySelectionActivityState(ESelectionA
 
 void UWBP_InGameJobSelect_RoguePanel_C::UpdateJobItem(class UJobSelectionEntryDetails* NewJobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.UpdateJobItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.UpdateJobItem"));
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::UpdateJobItem(class UJobSelectionEntryDe
 
 void UWBP_InGameJobSelect_RoguePanel_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.PreConstruct"));
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_InGameJobSelect_RoguePanel_C::PlayBanAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.PlayBanAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.PlayBanAnimation"));
 
 	struct
 	{
@@ -165,7 +165,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::PlayBanAnimation()
 
 void UWBP_InGameJobSelect_RoguePanel_C::Reset_State()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.Reset State");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.Reset State"));
 
 	struct
 	{
@@ -183,7 +183,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::Reset_State()
 
 void UWBP_InGameJobSelect_RoguePanel_C::CustomEvent(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.CustomEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.CustomEvent"));
 
 	struct
 	{
@@ -201,7 +201,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::CustomEvent(class APUMG_HUD* HUD)
 
 void UWBP_InGameJobSelect_RoguePanel_C::BanAnimComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.BanAnimComplete");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.BanAnimComplete"));
 
 	struct
 	{
@@ -217,7 +217,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::BanAnimComplete()
 
 void UWBP_InGameJobSelect_RoguePanel_C::AssureVisibleForSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.AssureVisibleForSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.AssureVisibleForSelection"));
 
 	struct
 	{
@@ -235,7 +235,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::AssureVisibleForSelection()
 
 void UWBP_InGameJobSelect_RoguePanel_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.InitializeWidget"));
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_InGameJobSelect_RoguePanel_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_InGameJobSelect_RoguePanel_C::ExecuteUbergraph_WBP_InGameJobSelect_RoguePanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.ExecuteUbergraph_WBP_InGameJobSelect_RoguePanel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C.ExecuteUbergraph_WBP_InGameJobSelect_RoguePanel"));
 
 	struct
 	{

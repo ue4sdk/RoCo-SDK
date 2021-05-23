@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ObjectiveMilestoneMessageQueue_C::WrapUpCurrentMessages()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.WrapUpCurrentMessages");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.WrapUpCurrentMessages"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ObjectiveMilestoneMessageQueue_C::WrapUpCurrentMessages()
 
 void UWBP_ObjectiveMilestoneMessageQueue_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.Construct"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_ObjectiveMilestoneMessageQueue_C::Construct()
 
 void UWBP_ObjectiveMilestoneMessageQueue_C::OnAnnouncementReady()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.OnAnnouncementReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.OnAnnouncementReady"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_ObjectiveMilestoneMessageQueue_C::OnAnnouncementReady()
 
 void UWBP_ObjectiveMilestoneMessageQueue_C::SetToNotBusy()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.SetToNotBusy");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.SetToNotBusy"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_ObjectiveMilestoneMessageQueue_C::SetToNotBusy()
 
 void UWBP_ObjectiveMilestoneMessageQueue_C::OnKillCamEnabled(bool bEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.OnKillCamEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.OnKillCamEnabled"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWBP_ObjectiveMilestoneMessageQueue_C::OnKillCamEnabled(bool bEnabled)
 
 void UWBP_ObjectiveMilestoneMessageQueue_C::HandleRoundSetup(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.HandleRoundSetup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.HandleRoundSetup"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UWBP_ObjectiveMilestoneMessageQueue_C::HandleRoundSetup(const struct FRound
 
 void UWBP_ObjectiveMilestoneMessageQueue_C::OnRoundOverDel_Event_1(class AKSGameState* GameState, const struct FRoundResult& RoundResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.OnRoundOverDel_Event_1");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.OnRoundOverDel_Event_1"));
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UWBP_ObjectiveMilestoneMessageQueue_C::OnRoundOverDel_Event_1(class AKSGame
 
 void UWBP_ObjectiveMilestoneMessageQueue_C::ResetDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.ResetDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.ResetDisplay"));
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWBP_ObjectiveMilestoneMessageQueue_C::ResetDisplay()
 
 void UWBP_ObjectiveMilestoneMessageQueue_C::ExecuteUbergraph_WBP_ObjectiveMilestoneMessageQueue(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.ExecuteUbergraph_WBP_ObjectiveMilestoneMessageQueue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.ExecuteUbergraph_WBP_ObjectiveMilestoneMessageQueue"));
 
 	struct
 	{

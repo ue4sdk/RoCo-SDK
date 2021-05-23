@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ChevronProgressBar_C::SetColors()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.SetColors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.SetColors"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_ChevronProgressBar_C::SetColors()
 
 void UWBP_ChevronProgressBar_C::SetProgress(float Progress)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.SetProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.SetProgress"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_ChevronProgressBar_C::SetProgress(float Progress)
 
 void UWBP_ChevronProgressBar_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.PreConstruct"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_ChevronProgressBar_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ChevronProgressBar_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.Construct"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_ChevronProgressBar_C::Construct()
 
 void UWBP_ChevronProgressBar_C::ExecuteUbergraph_WBP_ChevronProgressBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.ExecuteUbergraph_WBP_ChevronProgressBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChevronProgressBar.WBP_ChevronProgressBar_C.ExecuteUbergraph_WBP_ChevronProgressBar"));
 
 	struct
 	{

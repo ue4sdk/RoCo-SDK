@@ -19,7 +19,7 @@ namespace SDK
 
 void UEasyAntiCheatNetComponent::ServerMessage(TArray<unsigned char> Message)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EasyAntiCheatCommon.EasyAntiCheatNetComponent.ServerMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EasyAntiCheatCommon.EasyAntiCheatNetComponent.ServerMessage"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UEasyAntiCheatNetComponent::ServerMessage(TArray<unsigned char> Message)
 
 void UEasyAntiCheatNetComponent::ClientMessage(TArray<unsigned char> Message)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EasyAntiCheatCommon.EasyAntiCheatNetComponent.ClientMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EasyAntiCheatCommon.EasyAntiCheatNetComponent.ClientMessage"));
 
 	struct
 	{

@@ -32,7 +32,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass StandardButtonNoBorder.StandardButtonNoBorder_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass StandardButtonNoBorder.StandardButtonNoBorder_C"));
 		return ptr;
 	}
 

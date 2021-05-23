@@ -19,7 +19,7 @@ namespace SDK
 
 void UGameTimerBarPlayer_C::CheckPlayerViewState(TEnumAsByte<EGameTimerBarPlayerState>* CurrentState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.CheckPlayerViewState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.CheckPlayerViewState"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UGameTimerBarPlayer_C::CheckPlayerViewState(TEnumAsByte<EGameTimerBarPlayer
 
 void UGameTimerBarPlayer_C::OnRespawnConfigChanged(class AKSTeamState* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnRespawnConfigChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnRespawnConfigChanged"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UGameTimerBarPlayer_C::OnRespawnConfigChanged(class AKSTeamState* Team)
 
 void UGameTimerBarPlayer_C::GetTeamRespawnType(EKSRespawnMode* RespawnMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.GetTeamRespawnType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.GetTeamRespawnType"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UGameTimerBarPlayer_C::GetTeamRespawnType(EKSRespawnMode* RespawnMode)
 
 void UGameTimerBarPlayer_C::HandleRespawnTimerComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleRespawnTimerComplete");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleRespawnTimerComplete"));
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UGameTimerBarPlayer_C::HandleRespawnTimerComplete()
 
 void UGameTimerBarPlayer_C::HandleRespawnTimerActive(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleRespawnTimerActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleRespawnTimerActive"));
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UGameTimerBarPlayer_C::HandleRespawnTimerActive(bool bActive)
 
 void UGameTimerBarPlayer_C::InitGradientBackgroundColor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.InitGradientBackgroundColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.InitGradientBackgroundColor"));
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UGameTimerBarPlayer_C::InitGradientBackgroundColor()
 
 void UGameTimerBarPlayer_C::InitSelectionFrameColor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.InitSelectionFrameColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.InitSelectionFrameColor"));
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UGameTimerBarPlayer_C::InitSelectionFrameColor()
 
 void UGameTimerBarPlayer_C::OnModActivationChange(class UKSPlayerMod_Activated* ActivatedMod, bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnModActivationChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnModActivationChange"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UGameTimerBarPlayer_C::OnModActivationChange(class UKSPlayerMod_Activated* 
 
 void UGameTimerBarPlayer_C::OnRespawnQueueChanged(class AKSTeamState* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnRespawnQueueChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnRespawnQueueChanged"));
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UGameTimerBarPlayer_C::OnRespawnQueueChanged(class AKSTeamState* Team)
 
 void UGameTimerBarPlayer_C::Unbind_Player_State_Delegates()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Unbind Player State Delegates");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Unbind Player State Delegates"));
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UGameTimerBarPlayer_C::Unbind_Player_State_Delegates()
 
 void UGameTimerBarPlayer_C::Try_Update_Is_Ally(bool* ValueHasChanged)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Try Update Is Ally");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Try Update Is Ally"));
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UGameTimerBarPlayer_C::Try_Update_Is_Ally(bool* ValueHasChanged)
 
 void UGameTimerBarPlayer_C::OnRespawnsChanged(class AKSTeamState* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnRespawnsChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnRespawnsChanged"));
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UGameTimerBarPlayer_C::OnRespawnsChanged(class AKSTeamState* Team)
 
 void UGameTimerBarPlayer_C::On_Player_Respawns_Changed(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.On Player Respawns Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.On Player Respawns Changed"));
 
 	struct
 	{
@@ -270,7 +270,7 @@ void UGameTimerBarPlayer_C::On_Player_Respawns_Changed(class AKSPlayerState* KSP
 
 void UGameTimerBarPlayer_C::HandleBindingsForPlayerStateChanges()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleBindingsForPlayerStateChanges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleBindingsForPlayerStateChanges"));
 
 	struct
 	{
@@ -286,7 +286,7 @@ void UGameTimerBarPlayer_C::HandleBindingsForPlayerStateChanges()
 
 void UGameTimerBarPlayer_C::Set_Merc_Icon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Set Merc Icon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Set Merc Icon"));
 
 	struct
 	{
@@ -302,7 +302,7 @@ void UGameTimerBarPlayer_C::Set_Merc_Icon()
 
 void UGameTimerBarPlayer_C::SetLocalIdentifier()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.SetLocalIdentifier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.SetLocalIdentifier"));
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UGameTimerBarPlayer_C::SetLocalIdentifier()
 
 void UGameTimerBarPlayer_C::Set_View_State(TEnumAsByte<EGameTimerBarPlayerState> State, bool Force)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Set View State");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Set View State"));
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UGameTimerBarPlayer_C::Set_View_State(TEnumAsByte<EGameTimerBarPlayerState>
 
 void UGameTimerBarPlayer_C::Set_Player_State(class AKSPlayerState* In_Player_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Set Player State");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Set Player State"));
 
 	struct
 	{
@@ -363,7 +363,7 @@ void UGameTimerBarPlayer_C::Set_Player_State(class AKSPlayerState* In_Player_Sta
 
 void UGameTimerBarPlayer_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.PreConstruct"));
 
 	struct
 	{
@@ -383,7 +383,7 @@ void UGameTimerBarPlayer_C::PreConstruct(bool IsDesignTime)
 
 void UGameTimerBarPlayer_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.InitializeWidget"));
 
 	struct
 	{
@@ -403,7 +403,7 @@ void UGameTimerBarPlayer_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UGameTimerBarPlayer_C::On_Player_State_Downed_Changed(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.On Player State Downed Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.On Player State Downed Changed"));
 
 	struct
 	{
@@ -424,7 +424,7 @@ void UGameTimerBarPlayer_C::On_Player_State_Downed_Changed(class AKSPlayerState*
 
 void UGameTimerBarPlayer_C::Handle_Player_Mods_Changed(class UKSPlayerMod* Mod, class UKSPlayerModInstance* ModInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Player Mods Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Player Mods Changed"));
 
 	struct
 	{
@@ -446,7 +446,7 @@ void UGameTimerBarPlayer_C::Handle_Player_Mods_Changed(class UKSPlayerMod* Mod, 
 
 void UGameTimerBarPlayer_C::Handle_Icon_Showing_Changed(const TScriptInterface<class UKSTopBarStatusIconInterface>& StatusIconInterface)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Icon Showing Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Icon Showing Changed"));
 
 	struct
 	{
@@ -464,7 +464,7 @@ void UGameTimerBarPlayer_C::Handle_Icon_Showing_Changed(const TScriptInterface<c
 
 void UGameTimerBarPlayer_C::Handle_Bound_Icon_Mod_Removed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Bound Icon Mod Removed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Bound Icon Mod Removed"));
 
 	struct
 	{
@@ -482,7 +482,7 @@ void UGameTimerBarPlayer_C::Handle_Bound_Icon_Mod_Removed()
 
 void UGameTimerBarPlayer_C::On_Character_Is_Locally_Viewed_Changed(bool Is_Character_Locally_Viewed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.On Character Is Locally Viewed Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.On Character Is Locally Viewed Changed"));
 
 	struct
 	{
@@ -500,7 +500,7 @@ void UGameTimerBarPlayer_C::On_Character_Is_Locally_Viewed_Changed(bool Is_Chara
 
 void UGameTimerBarPlayer_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Construct"));
 
 	struct
 	{
@@ -518,7 +518,7 @@ void UGameTimerBarPlayer_C::Construct()
 
 void UGameTimerBarPlayer_C::Handle_Bomb_State_Changed(const struct FKSNeutralBombState& BombState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Bomb State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Bomb State Changed"));
 
 	struct
 	{
@@ -538,7 +538,7 @@ void UGameTimerBarPlayer_C::Handle_Bomb_State_Changed(const struct FKSNeutralBom
 
 void UGameTimerBarPlayer_C::HandleOnObjectiveStateChanged(const TScriptInterface<class UKSObjective>& GameObjective)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleOnObjectiveStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleOnObjectiveStateChanged"));
 
 	struct
 	{
@@ -559,7 +559,7 @@ void UGameTimerBarPlayer_C::HandleOnObjectiveStateChanged(const TScriptInterface
 
 void UGameTimerBarPlayer_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Tick"));
 
 	struct
 	{
@@ -582,7 +582,7 @@ void UGameTimerBarPlayer_C::Tick(const struct FGeometry& MyGeometry, float InDel
 
 void UGameTimerBarPlayer_C::OnCharacterOwnerChanged(class AKSPlayerState* PlayerState, class AKSCharacterBase* Character)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnCharacterOwnerChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.OnCharacterOwnerChanged"));
 
 	struct
 	{
@@ -604,7 +604,7 @@ void UGameTimerBarPlayer_C::OnCharacterOwnerChanged(class AKSPlayerState* Player
 
 void UGameTimerBarPlayer_C::ExecuteUbergraph_GameTimerBarPlayer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.ExecuteUbergraph_GameTimerBarPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPlayer.GameTimerBarPlayer_C.ExecuteUbergraph_GameTimerBarPlayer"));
 
 	struct
 	{

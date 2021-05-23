@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass CircleDeadZone_LeftStick.CircleDeadZone_LeftStick_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass CircleDeadZone_LeftStick.CircleDeadZone_LeftStick_C"));
 		return ptr;
 	}
 

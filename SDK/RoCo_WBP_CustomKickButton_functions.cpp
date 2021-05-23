@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_CustomKickButton_C::BndEvt__KickButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomKickButton.WBP_CustomKickButton_C.BndEvt__KickButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomKickButton.WBP_CustomKickButton_C.BndEvt__KickButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_CustomKickButton_C::BndEvt__KickButton_K2Node_ComponentBoundEvent_0_On
 
 void UWBP_CustomKickButton_C::BndEvt__KickButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomKickButton.WBP_CustomKickButton_C.BndEvt__KickButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomKickButton.WBP_CustomKickButton_C.BndEvt__KickButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_CustomKickButton_C::BndEvt__KickButton_K2Node_ComponentBoundEvent_1_On
 
 void UWBP_CustomKickButton_C::BndEvt__KickButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomKickButton.WBP_CustomKickButton_C.BndEvt__KickButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomKickButton.WBP_CustomKickButton_C.BndEvt__KickButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_CustomKickButton_C::BndEvt__KickButton_K2Node_ComponentBoundEvent_2_On
 
 void UWBP_CustomKickButton_C::ForceClick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomKickButton.WBP_CustomKickButton_C.ForceClick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomKickButton.WBP_CustomKickButton_C.ForceClick"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_CustomKickButton_C::ForceClick()
 
 void UWBP_CustomKickButton_C::ExecuteUbergraph_WBP_CustomKickButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomKickButton.WBP_CustomKickButton_C.ExecuteUbergraph_WBP_CustomKickButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomKickButton.WBP_CustomKickButton_C.ExecuteUbergraph_WBP_CustomKickButton"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_CustomKickButton_C::ExecuteUbergraph_WBP_CustomKickButton(int EntryPoi
 
 void UWBP_CustomKickButton_C::OnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomKickButton.WBP_CustomKickButton_C.OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomKickButton.WBP_CustomKickButton_C.OnClicked__DelegateSignature"));
 
 	struct
 	{

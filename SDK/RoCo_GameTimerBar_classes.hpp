@@ -110,7 +110,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass GameTimerBar.GameTimerBar_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass GameTimerBar.GameTimerBar_C"));
 		return ptr;
 	}
 

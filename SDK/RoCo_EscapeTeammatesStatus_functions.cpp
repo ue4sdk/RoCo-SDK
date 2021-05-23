@@ -17,7 +17,7 @@ namespace SDK
 
 void UEscapeTeammatesStatus_C::Refresh()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Refresh");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Refresh"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UEscapeTeammatesStatus_C::Refresh()
 
 void UEscapeTeammatesStatus_C::Handle_Player_Downed_Changed(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Handle Player Downed Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Handle Player Downed Changed"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UEscapeTeammatesStatus_C::Handle_Player_Downed_Changed(class AKSPlayerState
 
 void UEscapeTeammatesStatus_C::Handle_Player_Death(const struct FCombatEventInfo& EventInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Handle Player Death");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Handle Player Death"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UEscapeTeammatesStatus_C::Handle_Player_Death(const struct FCombatEventInfo
 
 void UEscapeTeammatesStatus_C::Handle_Escape_Point_Changed(TArray<class AKSPlayerState*> ContainedPlayers)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Handle Escape Point Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Handle Escape Point Changed"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UEscapeTeammatesStatus_C::Handle_Escape_Point_Changed(TArray<class AKSPlaye
 
 void UEscapeTeammatesStatus_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.InitializeWidget"));
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UEscapeTeammatesStatus_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UEscapeTeammatesStatus_C::Handle_Round_Start(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Handle Round Start");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.Handle Round Start"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UEscapeTeammatesStatus_C::Handle_Round_Start(const struct FRoundInitState& 
 
 void UEscapeTeammatesStatus_C::ExecuteUbergraph_EscapeTeammatesStatus(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.ExecuteUbergraph_EscapeTeammatesStatus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscapeTeammatesStatus.EscapeTeammatesStatus_C.ExecuteUbergraph_EscapeTeammatesStatus"));
 
 	struct
 	{

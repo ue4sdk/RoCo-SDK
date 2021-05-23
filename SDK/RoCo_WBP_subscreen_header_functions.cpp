@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_subscreen_header_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_header.WBP_subscreen_header_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_header.WBP_subscreen_header_C.PreConstruct"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_subscreen_header_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_subscreen_header_C::ExecuteUbergraph_WBP_subscreen_header(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_header.WBP_subscreen_header_C.ExecuteUbergraph_WBP_subscreen_header");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_header.WBP_subscreen_header_C.ExecuteUbergraph_WBP_subscreen_header"));
 
 	struct
 	{

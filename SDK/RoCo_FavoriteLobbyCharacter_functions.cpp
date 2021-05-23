@@ -19,7 +19,7 @@ namespace SDK
 
 void AFavoriteLobbyCharacter_C::SetLobbyNameplate(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.SetLobbyNameplate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.SetLobbyNameplate"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void AFavoriteLobbyCharacter_C::SetLobbyNameplate(class UKSPlayerInfo* playerinf
 
 void AFavoriteLobbyCharacter_C::HideLobbyNameplate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.HideLobbyNameplate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.HideLobbyNameplate"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void AFavoriteLobbyCharacter_C::HideLobbyNameplate()
 
 void AFavoriteLobbyCharacter_C::ShowLobbyNameplate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.ShowLobbyNameplate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.ShowLobbyNameplate"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void AFavoriteLobbyCharacter_C::ShowLobbyNameplate()
 
 void AFavoriteLobbyCharacter_C::ReceiveTick(float DeltaSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.ReceiveTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.ReceiveTick"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void AFavoriteLobbyCharacter_C::ReceiveTick(float DeltaSeconds)
 
 void AFavoriteLobbyCharacter_C::ExecuteUbergraph_FavoriteLobbyCharacter(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.ExecuteUbergraph_FavoriteLobbyCharacter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FavoriteLobbyCharacter.FavoriteLobbyCharacter_C.ExecuteUbergraph_FavoriteLobbyCharacter"));
 
 	struct
 	{

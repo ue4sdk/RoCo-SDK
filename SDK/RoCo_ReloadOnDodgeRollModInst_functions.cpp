@@ -19,7 +19,7 @@ namespace SDK
 
 void UReloadOnDodgeRollModInst_C::MagDropForDodgeReload(class UKSWeaponComponent* Master_Weapon_Ref)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.MagDropForDodgeReload");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.MagDropForDodgeReload"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UReloadOnDodgeRollModInst_C::MagDropForDodgeReload(class UKSWeaponComponent
 
 bool UReloadOnDodgeRollModInst_C::StopAnimationFromEvent(const struct FName& AnimEventName, class UKSCharacterAnimInst* CharAnimInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.StopAnimationFromEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.StopAnimationFromEvent"));
 
 	struct
 	{
@@ -68,7 +68,7 @@ bool UReloadOnDodgeRollModInst_C::StopAnimationFromEvent(const struct FName& Ani
 
 bool UReloadOnDodgeRollModInst_C::ReactsToAnimationEvent(const struct FName& AnimEventName, int* Priority)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.ReactsToAnimationEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.ReactsToAnimationEvent"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ bool UReloadOnDodgeRollModInst_C::ReactsToAnimationEvent(const struct FName& Ani
 
 void UReloadOnDodgeRollModInst_C::OnDodgeRoll(float RollDuration)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.OnDodgeRoll");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.OnDodgeRoll"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UReloadOnDodgeRollModInst_C::OnDodgeRoll(float RollDuration)
 
 void UReloadOnDodgeRollModInst_C::RemotePlayerAudio()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.RemotePlayerAudio");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.RemotePlayerAudio"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UReloadOnDodgeRollModInst_C::RemotePlayerAudio()
 
 void UReloadOnDodgeRollModInst_C::Dodge_Reload_Mod_Notified()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.Dodge Reload Mod Notified");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.Dodge Reload Mod Notified"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UReloadOnDodgeRollModInst_C::Dodge_Reload_Mod_Notified()
 
 void UReloadOnDodgeRollModInst_C::ExecuteUbergraph_ReloadOnDodgeRollModInst(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.ExecuteUbergraph_ReloadOnDodgeRollModInst");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadOnDodgeRollModInst.ReloadOnDodgeRollModInst_C.ExecuteUbergraph_ReloadOnDodgeRollModInst"));
 
 	struct
 	{

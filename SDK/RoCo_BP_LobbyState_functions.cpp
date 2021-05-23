@@ -19,7 +19,7 @@ namespace SDK
 
 class AKSEmoteMusicManager* ABP_LobbyState_C::GetEmoteMusicManager()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_LobbyState.BP_LobbyState_C.GetEmoteMusicManager");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_LobbyState.BP_LobbyState_C.GetEmoteMusicManager"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ class AKSEmoteMusicManager* ABP_LobbyState_C::GetEmoteMusicManager()
 
 void ABP_LobbyState_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_LobbyState.BP_LobbyState_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_LobbyState.BP_LobbyState_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void ABP_LobbyState_C::ReceiveBeginPlay()
 
 void ABP_LobbyState_C::ExecuteUbergraph_BP_LobbyState(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_LobbyState.BP_LobbyState_C.ExecuteUbergraph_BP_LobbyState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_LobbyState.BP_LobbyState_C.ExecuteUbergraph_BP_LobbyState"));
 
 	struct
 	{

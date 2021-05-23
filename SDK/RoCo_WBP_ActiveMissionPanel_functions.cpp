@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ActiveMissionPanel_C::RefreshDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.RefreshDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.RefreshDisplay"));
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UWBP_ActiveMissionPanel_C::RefreshDisplay()
 
 void UWBP_ActiveMissionPanel_C::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.OnMouseEnter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.OnMouseEnter"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_ActiveMissionPanel_C::OnMouseEnter(const struct FGeometry& MyGeometry,
 
 void UWBP_ActiveMissionPanel_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -72,7 +72,7 @@ void UWBP_ActiveMissionPanel_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_O
 
 void UWBP_ActiveMissionPanel_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UWBP_ActiveMissionPanel_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_O
 
 void UWBP_ActiveMissionPanel_C::BndEvt__MissionPanel_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.BndEvt__MissionPanel_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.BndEvt__MissionPanel_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_ActiveMissionPanel_C::BndEvt__MissionPanel_K2Node_ComponentBoundEvent_
 
 void UWBP_ActiveMissionPanel_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.Handle Input State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.Handle Input State Changed"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_ActiveMissionPanel_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_IN
 
 void UWBP_ActiveMissionPanel_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.InitializeWidget"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_ActiveMissionPanel_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_ActiveMissionPanel_C::ExecuteUbergraph_WBP_ActiveMissionPanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.ExecuteUbergraph_WBP_ActiveMissionPanel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.ExecuteUbergraph_WBP_ActiveMissionPanel"));
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_ActiveMissionPanel_C::ExecuteUbergraph_WBP_ActiveMissionPanel(int Entr
 
 void UWBP_ActiveMissionPanel_C::OnPanelClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.OnPanelClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveMissionPanel.WBP_ActiveMissionPanel_C.OnPanelClicked__DelegateSignature"));
 
 	struct
 	{

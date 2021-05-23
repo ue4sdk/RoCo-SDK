@@ -392,7 +392,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("DynamicClass Master_WeaponComponent.Master_WeaponComponent_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass Master_WeaponComponent.Master_WeaponComponent_C"));
 		return ptr;
 	}
 

@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass JobSelectionComponent.JobSelectionComponent_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass JobSelectionComponent.JobSelectionComponent_C"));
 		return ptr;
 	}
 

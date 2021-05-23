@@ -49,7 +49,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("DynamicClass PlayerHealthMeter.PlayerHealthMeter_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass PlayerHealthMeter.PlayerHealthMeter_C"));
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_CustomGameLobby_C::ToggleContextBar(bool bShouldShow)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.ToggleContextBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.ToggleContextBar"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_CustomGameLobby_C::ToggleContextBar(bool bShouldShow)
 
 void UWBP_CustomGameLobby_C::UpdateSpectateState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.UpdateSpectateState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.UpdateSpectateState"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_CustomGameLobby_C::UpdateSpectateState()
 
 void UWBP_CustomGameLobby_C::SetupSpectateButtonNavigation(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupSpectateButtonNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupSpectateButtonNavigation"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_CustomGameLobby_C::SetupSpectateButtonNavigation(int FocusGroup)
 
 void UWBP_CustomGameLobby_C::SetupStartButtonNavigation(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupStartButtonNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupStartButtonNavigation"));
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_CustomGameLobby_C::SetupStartButtonNavigation(int FocusGroup)
 
 struct FEventReply UWBP_CustomGameLobby_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnKeyUp"));
 
 	struct
 	{
@@ -123,7 +123,7 @@ struct FEventReply UWBP_CustomGameLobby_C::OnKeyUp(const struct FGeometry& MyGeo
 
 void UWBP_CustomGameLobby_C::TogglePlayerCardFor(class UKSPlayerInfo* playerinfo, class UWBP_CustomLobbyPlayer_C* PlayerWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.TogglePlayerCardFor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.TogglePlayerCardFor"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_CustomGameLobby_C::TogglePlayerCardFor(class UKSPlayerInfo* playerinfo
 
 void UWBP_CustomGameLobby_C::HandleVoiceMemberUpdate(const struct FString& AccountId, bool bIsTalking, bool bIsMuted)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleVoiceMemberUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleVoiceMemberUpdate"));
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UWBP_CustomGameLobby_C::HandleVoiceMemberUpdate(const struct FString& Accou
 
 void UWBP_CustomGameLobby_C::HandleVoiceMemberRemoved(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleVoiceMemberRemoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleVoiceMemberRemoved"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_CustomGameLobby_C::HandleVoiceMemberRemoved(const struct FString& Acco
 
 void UWBP_CustomGameLobby_C::HandleVoiceMemberAdded(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleVoiceMemberAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleVoiceMemberAdded"));
 
 	struct
 	{
@@ -212,7 +212,7 @@ void UWBP_CustomGameLobby_C::HandleVoiceMemberAdded(const struct FString& Accoun
 
 void UWBP_CustomGameLobby_C::GetMemberWidgetForVoice(const struct FString& VoiceId, class UWBP_CustomLobbyPlayer_C** Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.GetMemberWidgetForVoice");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.GetMemberWidgetForVoice"));
 
 	struct
 	{
@@ -234,7 +234,7 @@ void UWBP_CustomGameLobby_C::GetMemberWidgetForVoice(const struct FString& Voice
 
 void UWBP_CustomGameLobby_C::SetupExistingPlayers()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupExistingPlayers");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupExistingPlayers"));
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UWBP_CustomGameLobby_C::SetupExistingPlayers()
 
 void UWBP_CustomGameLobby_C::SetupQueueFactoryEvents()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupQueueFactoryEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupQueueFactoryEvents"));
 
 	struct
 	{
@@ -268,7 +268,7 @@ void UWBP_CustomGameLobby_C::SetupQueueFactoryEvents()
 
 void UWBP_CustomGameLobby_C::OnQueueStateUpdated(EPUMG_MatchStatus MatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnQueueStateUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnQueueStateUpdated"));
 
 	struct
 	{
@@ -288,7 +288,7 @@ void UWBP_CustomGameLobby_C::OnQueueStateUpdated(EPUMG_MatchStatus MatchStatus)
 
 void UWBP_CustomGameLobby_C::GetTeamButtons(TArray<class UKSWidget*>* TeamButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.GetTeamButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.GetTeamButtons"));
 
 	struct
 	{
@@ -308,7 +308,7 @@ void UWBP_CustomGameLobby_C::GetTeamButtons(TArray<class UKSWidget*>* TeamButton
 
 void UWBP_CustomGameLobby_C::MassInvite_Close()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.MassInvite_Close");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.MassInvite_Close"));
 
 	struct
 	{
@@ -327,7 +327,7 @@ void UWBP_CustomGameLobby_C::MassInvite_Close()
 
 EKSInviteSelectResult UWBP_CustomGameLobby_C::MassInvite_Select(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.MassInvite_Select");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.MassInvite_Select"));
 
 	struct
 	{
@@ -351,7 +351,7 @@ EKSInviteSelectResult UWBP_CustomGameLobby_C::MassInvite_Select(class UKSPlayerI
 
 bool UWBP_CustomGameLobby_C::MassInvite_IsSelected(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.MassInvite_IsSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.MassInvite_IsSelected"));
 
 	struct
 	{
@@ -375,7 +375,7 @@ bool UWBP_CustomGameLobby_C::MassInvite_IsSelected(class UKSPlayerInfo* playerin
 
 bool UWBP_CustomGameLobby_C::MassInvite_ShouldShowPlayer(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.MassInvite_ShouldShowPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.MassInvite_ShouldShowPlayer"));
 
 	struct
 	{
@@ -396,7 +396,7 @@ bool UWBP_CustomGameLobby_C::MassInvite_ShouldShowPlayer(class UKSPlayerInfo* pl
 
 void UWBP_CustomGameLobby_C::OnReceiveHostName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnReceiveHostName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnReceiveHostName"));
 
 	struct
 	{
@@ -412,7 +412,7 @@ void UWBP_CustomGameLobby_C::OnReceiveHostName()
 
 void UWBP_CustomGameLobby_C::UpdateQueueState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.UpdateQueueState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.UpdateQueueState"));
 
 	struct
 	{
@@ -431,7 +431,7 @@ void UWBP_CustomGameLobby_C::UpdateQueueState()
 
 void UWBP_CustomGameLobby_C::FinalizeLog(const struct FText& Text, class UPUMG_PlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.FinalizeLog");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.FinalizeLog"));
 
 	struct
 	{
@@ -455,7 +455,7 @@ void UWBP_CustomGameLobby_C::FinalizeLog(const struct FText& Text, class UPUMG_P
 
 void UWBP_CustomGameLobby_C::LogPermissionChange(class UPUMG_PlayerInfo* playerinfo, EPUMG_CustomMatchPermission NewPermissions, EPUMG_CustomMatchPermission OldPermissions)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.LogPermissionChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.LogPermissionChange"));
 
 	struct
 	{
@@ -477,7 +477,7 @@ void UWBP_CustomGameLobby_C::LogPermissionChange(class UPUMG_PlayerInfo* playeri
 
 void UWBP_CustomGameLobby_C::HandleReceivePlayerName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleReceivePlayerName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleReceivePlayerName"));
 
 	struct
 	{
@@ -496,7 +496,7 @@ void UWBP_CustomGameLobby_C::HandleReceivePlayerName()
 
 struct FText UWBP_CustomGameLobby_C::GetTeamName(const struct FPUMG_CustomMatchMember& PUMG_CustomMatchMember)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.GetTeamName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.GetTeamName"));
 
 	struct
 	{
@@ -520,7 +520,7 @@ struct FText UWBP_CustomGameLobby_C::GetTeamName(const struct FPUMG_CustomMatchM
 
 void UWBP_CustomGameLobby_C::AddLog(const struct FText& Text, class UPUMG_PlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.AddLog");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.AddLog"));
 
 	struct
 	{
@@ -543,7 +543,7 @@ void UWBP_CustomGameLobby_C::AddLog(const struct FText& Text, class UPUMG_Player
 
 void UWBP_CustomGameLobby_C::RemoveMember(struct FPUMG_CustomMatchMember* FormerMember, bool* Removed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.RemoveMember");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.RemoveMember"));
 
 	struct
 	{
@@ -569,7 +569,7 @@ void UWBP_CustomGameLobby_C::RemoveMember(struct FPUMG_CustomMatchMember* Former
 
 void UWBP_CustomGameLobby_C::AddMember(const struct FPUMG_CustomMatchMember& MatchMember, bool* Added)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.AddMember");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.AddMember"));
 
 	struct
 	{
@@ -593,7 +593,7 @@ void UWBP_CustomGameLobby_C::AddMember(const struct FPUMG_CustomMatchMember& Mat
 
 bool UWBP_CustomGameLobby_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.NavigateBack"));
 
 	struct
 	{
@@ -612,7 +612,7 @@ bool UWBP_CustomGameLobby_C::NavigateBack()
 
 void UWBP_CustomGameLobby_C::TEST_InviteNextAvailablePlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.TEST_InviteNextAvailablePlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.TEST_InviteNextAvailablePlayer"));
 
 	struct
 	{
@@ -630,7 +630,7 @@ void UWBP_CustomGameLobby_C::TEST_InviteNextAvailablePlayer()
 
 void UWBP_CustomGameLobby_C::SetupTeamNavigation(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupTeamNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupTeamNavigation"));
 
 	struct
 	{
@@ -650,7 +650,7 @@ void UWBP_CustomGameLobby_C::SetupTeamNavigation(int FocusGroup)
 
 void UWBP_CustomGameLobby_C::UpdateWidgetsWithData(struct FFBP_CustomMatchTeam* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.UpdateWidgetsWithData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.UpdateWidgetsWithData"));
 
 	struct
 	{
@@ -673,7 +673,7 @@ void UWBP_CustomGameLobby_C::UpdateWidgetsWithData(struct FFBP_CustomMatchTeam* 
 
 void UWBP_CustomGameLobby_C::OnMemberUpdate(const struct FPUMG_CustomMatchMember& MatchMember, const struct FPUMG_CustomMatchMember& PreviousData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnMemberUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnMemberUpdate"));
 
 	struct
 	{
@@ -695,7 +695,7 @@ void UWBP_CustomGameLobby_C::OnMemberUpdate(const struct FPUMG_CustomMatchMember
 
 void UWBP_CustomGameLobby_C::OnMemberRemoved(const struct FPUMG_CustomMatchMember& FormerMember)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnMemberRemoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnMemberRemoved"));
 
 	struct
 	{
@@ -715,7 +715,7 @@ void UWBP_CustomGameLobby_C::OnMemberRemoved(const struct FPUMG_CustomMatchMembe
 
 void UWBP_CustomGameLobby_C::OnMemberAdded(const struct FPUMG_CustomMatchMember& MatchMember)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnMemberAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnMemberAdded"));
 
 	struct
 	{
@@ -733,7 +733,7 @@ void UWBP_CustomGameLobby_C::OnMemberAdded(const struct FPUMG_CustomMatchMember&
 
 void UWBP_CustomGameLobby_C::OnQueueUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnQueueUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnQueueUpdate"));
 
 	struct
 	{
@@ -751,7 +751,7 @@ void UWBP_CustomGameLobby_C::OnQueueUpdate()
 
 void UWBP_CustomGameLobby_C::GetQueueDataFactory(class UKSQueueDataFactory** DataFactory)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.GetQueueDataFactory");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.GetQueueDataFactory"));
 
 	struct
 	{
@@ -776,7 +776,7 @@ void UWBP_CustomGameLobby_C::GetQueueDataFactory(class UKSQueueDataFactory** Dat
 
 void UWBP_CustomGameLobby_C::PopulateTeamRenderers(class UPanelWidget* TeamPanel, int TeamId, TEnumAsByte<ELaterality> ControlsSide, int NumPlayers)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.PopulateTeamRenderers");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.PopulateTeamRenderers"));
 
 	struct
 	{
@@ -800,7 +800,7 @@ void UWBP_CustomGameLobby_C::PopulateTeamRenderers(class UPanelWidget* TeamPanel
 
 void UWBP_CustomGameLobby_C::SetupRenderers()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupRenderers");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupRenderers"));
 
 	struct
 	{
@@ -816,7 +816,7 @@ void UWBP_CustomGameLobby_C::SetupRenderers()
 
 void UWBP_CustomGameLobby_C::SetupDisplayElements()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupDisplayElements");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.SetupDisplayElements"));
 
 	struct
 	{
@@ -834,7 +834,7 @@ void UWBP_CustomGameLobby_C::SetupDisplayElements()
 
 void UWBP_CustomGameLobby_C::UpdateQueueInfo(const struct FClientQueueInfo& QueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.UpdateQueueInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.UpdateQueueInfo"));
 
 	struct
 	{
@@ -852,7 +852,7 @@ void UWBP_CustomGameLobby_C::UpdateQueueInfo(const struct FClientQueueInfo& Queu
 
 void UWBP_CustomGameLobby_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.Construct"));
 
 	struct
 	{
@@ -868,7 +868,7 @@ void UWBP_CustomGameLobby_C::Construct()
 
 void UWBP_CustomGameLobby_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnInitialized");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnInitialized"));
 
 	struct
 	{
@@ -884,7 +884,7 @@ void UWBP_CustomGameLobby_C::OnInitialized()
 
 void UWBP_CustomGameLobby_C::HandleDataChange()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleDataChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleDataChange"));
 
 	struct
 	{
@@ -900,7 +900,7 @@ void UWBP_CustomGameLobby_C::HandleDataChange()
 
 void UWBP_CustomGameLobby_C::InvalidateData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.InvalidateData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.InvalidateData"));
 
 	struct
 	{
@@ -916,7 +916,7 @@ void UWBP_CustomGameLobby_C::InvalidateData()
 
 void UWBP_CustomGameLobby_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -935,7 +935,7 @@ void UWBP_CustomGameLobby_C::InitializeWidgetNavigation()
 
 void UWBP_CustomGameLobby_C::HandlePlayerClicked(class UKSPlayerInfo* playerinfo, class UKSWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandlePlayerClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandlePlayerClicked"));
 
 	struct
 	{
@@ -957,7 +957,7 @@ void UWBP_CustomGameLobby_C::HandlePlayerClicked(class UKSPlayerInfo* playerinfo
 
 void UWBP_CustomGameLobby_C::HandleEmptyClicked(class UKSWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleEmptyClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandleEmptyClicked"));
 
 	struct
 	{
@@ -978,7 +978,7 @@ void UWBP_CustomGameLobby_C::HandleEmptyClicked(class UKSWidget* Widget)
 
 void UWBP_CustomGameLobby_C::HandlePlayerKick(class UKSPlayerInfo* playerinfo, class UKSWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandlePlayerKick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandlePlayerKick"));
 
 	struct
 	{
@@ -1001,7 +1001,7 @@ void UWBP_CustomGameLobby_C::HandlePlayerKick(class UKSPlayerInfo* playerinfo, c
 
 void UWBP_CustomGameLobby_C::HandlePlayerSwap(class UKSPlayerInfo* playerinfo, class UKSWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandlePlayerSwap");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.HandlePlayerSwap"));
 
 	struct
 	{
@@ -1021,7 +1021,7 @@ void UWBP_CustomGameLobby_C::HandlePlayerSwap(class UKSPlayerInfo* playerinfo, c
 
 void UWBP_CustomGameLobby_C::OnClickBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnClickBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnClickBack"));
 
 	struct
 	{
@@ -1037,7 +1037,7 @@ void UWBP_CustomGameLobby_C::OnClickBack()
 
 void UWBP_CustomGameLobby_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnShown"));
 
 	struct
 	{
@@ -1055,7 +1055,7 @@ void UWBP_CustomGameLobby_C::OnShown()
 
 void UWBP_CustomGameLobby_C::BndEvt__WBP_StandardButtonLarge_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__WBP_StandardButtonLarge_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__WBP_StandardButtonLarge_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -1075,7 +1075,7 @@ void UWBP_CustomGameLobby_C::BndEvt__WBP_StandardButtonLarge_K2Node_ComponentBou
 
 void UWBP_CustomGameLobby_C::OnPlayerHovered(class UWBP_CustomLobbyPlayer_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnPlayerHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnPlayerHovered"));
 
 	struct
 	{
@@ -1095,7 +1095,7 @@ void UWBP_CustomGameLobby_C::OnPlayerHovered(class UWBP_CustomLobbyPlayer_C* Wid
 
 void UWBP_CustomGameLobby_C::OnPlayerUnhovered(class UWBP_CustomLobbyPlayer_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnPlayerUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnPlayerUnhovered"));
 
 	struct
 	{
@@ -1113,7 +1113,7 @@ void UWBP_CustomGameLobby_C::OnPlayerUnhovered(class UWBP_CustomLobbyPlayer_C* W
 
 void UWBP_CustomGameLobby_C::OnQueueLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnQueueLeft");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.OnQueueLeft"));
 
 	struct
 	{
@@ -1129,7 +1129,7 @@ void UWBP_CustomGameLobby_C::OnQueueLeft()
 
 void UWBP_CustomGameLobby_C::BndEvt__Blocker_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__Blocker_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__Blocker_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -1147,7 +1147,7 @@ void UWBP_CustomGameLobby_C::BndEvt__Blocker_K2Node_ComponentBoundEvent_1_OnButt
 
 void UWBP_CustomGameLobby_C::BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_2_OnVoiceParticipantAdded__DelegateSignature(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_2_OnVoiceParticipantAdded__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_2_OnVoiceParticipantAdded__DelegateSignature"));
 
 	struct
 	{
@@ -1167,7 +1167,7 @@ void UWBP_CustomGameLobby_C::BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_2_
 
 void UWBP_CustomGameLobby_C::BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_3_OnVoiceParticipantRemoved__DelegateSignature(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_3_OnVoiceParticipantRemoved__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_3_OnVoiceParticipantRemoved__DelegateSignature"));
 
 	struct
 	{
@@ -1189,7 +1189,7 @@ void UWBP_CustomGameLobby_C::BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_3_
 
 void UWBP_CustomGameLobby_C::BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_4_OnVoiceParticipantUpdated__DelegateSignature(const struct FString& AccountId, bool bIsTalking, bool bIsMuted)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_4_OnVoiceParticipantUpdated__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_4_OnVoiceParticipantUpdated__DelegateSignature"));
 
 	struct
 	{
@@ -1213,7 +1213,7 @@ void UWBP_CustomGameLobby_C::BndEvt__VoiceActivity_K2Node_ComponentBoundEvent_4_
 
 void UWBP_CustomGameLobby_C::BndEvt__SpectateButton_K2Node_ComponentBoundEvent_8_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__SpectateButton_K2Node_ComponentBoundEvent_8_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__SpectateButton_K2Node_ComponentBoundEvent_8_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -1233,7 +1233,7 @@ void UWBP_CustomGameLobby_C::BndEvt__SpectateButton_K2Node_ComponentBoundEvent_8
 
 void UWBP_CustomGameLobby_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.PreConstruct"));
 
 	struct
 	{
@@ -1253,7 +1253,7 @@ void UWBP_CustomGameLobby_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_CustomGameLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_9_OnMenuStart__DelegateSignature(class UWidget* FocusWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_9_OnMenuStart__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_9_OnMenuStart__DelegateSignature"));
 
 	struct
 	{
@@ -1274,7 +1274,7 @@ void UWBP_CustomGameLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_9_On
 
 void UWBP_CustomGameLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_10_OnReadyForNavigation__DelegateSignature(class UWidget* Default_Widget, TArray<class UWidget*>* NavWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_10_OnReadyForNavigation__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_10_OnReadyForNavigation__DelegateSignature"));
 
 	struct
 	{
@@ -1296,7 +1296,7 @@ void UWBP_CustomGameLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_10_O
 
 void UWBP_CustomGameLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_11_OnMenuHidden__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_11_OnMenuHidden__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_11_OnMenuHidden__DelegateSignature"));
 
 	struct
 	{
@@ -1314,7 +1314,7 @@ void UWBP_CustomGameLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_11_O
 
 void UWBP_CustomGameLobby_C::ExecuteUbergraph_WBP_CustomGameLobby(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.ExecuteUbergraph_WBP_CustomGameLobby");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameLobby.WBP_CustomGameLobby_C.ExecuteUbergraph_WBP_CustomGameLobby"));
 
 	struct
 	{

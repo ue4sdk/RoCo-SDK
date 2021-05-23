@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ItemPreviewStack_C::SetPreviewJob(class UKSJobItem* Job_Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.SetPreviewJob");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.SetPreviewJob"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ItemPreviewStack_C::SetPreviewJob(class UKSJobItem* Job_Item)
 
 void UWBP_ItemPreviewStack_C::SetTitle(class UKSItem* KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.SetTitle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.SetTitle"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_ItemPreviewStack_C::SetTitle(class UKSItem* KSItem)
 
 void UWBP_ItemPreviewStack_C::Set2DPreviewImage(class UKSItem* KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.Set2DPreviewImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.Set2DPreviewImage"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_ItemPreviewStack_C::Set2DPreviewImage(class UKSItem* KSItem)
 
 void UWBP_ItemPreviewStack_C::Set_Emote(class UKSItem* EmoteItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.Set Emote");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.Set Emote"));
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_ItemPreviewStack_C::Set_Emote(class UKSItem* EmoteItem)
 
 void UWBP_ItemPreviewStack_C::SetSkinOrRogueModel(class UKSSkinBundle* SkinBundle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.SetSkinOrRogueModel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.SetSkinOrRogueModel"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWBP_ItemPreviewStack_C::SetSkinOrRogueModel(class UKSSkinBundle* SkinBundl
 
 void UWBP_ItemPreviewStack_C::DisplayItem(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.DisplayItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.DisplayItem"));
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UWBP_ItemPreviewStack_C::DisplayItem(class UPUMG_StoreItem* StoreItem)
 
 void UWBP_ItemPreviewStack_C::ClearDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.ClearDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.ClearDisplay"));
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UWBP_ItemPreviewStack_C::ClearDisplay()
 
 void UWBP_ItemPreviewStack_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.InitializeWidget"));
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UWBP_ItemPreviewStack_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_ItemPreviewStack_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.Construct"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_ItemPreviewStack_C::Construct()
 
 void UWBP_ItemPreviewStack_C::ExecuteUbergraph_WBP_ItemPreviewStack(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.ExecuteUbergraph_WBP_ItemPreviewStack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPreviewStack.WBP_ItemPreviewStack_C.ExecuteUbergraph_WBP_ItemPreviewStack"));
 
 	struct
 	{

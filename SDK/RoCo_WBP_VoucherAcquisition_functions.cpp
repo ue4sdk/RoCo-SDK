@@ -21,7 +21,7 @@ namespace SDK
 
 struct FEventReply UWBP_VoucherAcquisition_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.OnKeyDown"));
 
 	struct
 	{
@@ -48,7 +48,7 @@ struct FEventReply UWBP_VoucherAcquisition_C::OnKeyDown(const struct FGeometry& 
 
 struct FEventReply UWBP_VoucherAcquisition_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.OnKeyUp"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ struct FEventReply UWBP_VoucherAcquisition_C::OnKeyUp(const struct FGeometry& My
 
 void UWBP_VoucherAcquisition_C::DisplayVoucherAcquisitions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.DisplayVoucherAcquisitions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.DisplayVoucherAcquisitions"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_VoucherAcquisition_C::DisplayVoucherAcquisitions()
 
 bool UWBP_VoucherAcquisition_C::AttemptGetAcquisition()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.AttemptGetAcquisition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.AttemptGetAcquisition"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ bool UWBP_VoucherAcquisition_C::AttemptGetAcquisition()
 
 void UWBP_VoucherAcquisition_C::OnRedeemDLC(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.OnRedeemDLC");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.OnRedeemDLC"));
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_VoucherAcquisition_C::OnRedeemDLC(class UWidget* Widget)
 
 bool UWBP_VoucherAcquisition_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.NavigateBack"));
 
 	struct
 	{
@@ -152,7 +152,7 @@ bool UWBP_VoucherAcquisition_C::NavigateBack()
 
 void UWBP_VoucherAcquisition_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.Tick"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_VoucherAcquisition_C::Tick(const struct FGeometry& MyGeometry, float I
 
 void UWBP_VoucherAcquisition_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.InitializeWidget"));
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_VoucherAcquisition_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_VoucherAcquisition_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_VoucherAcquisition_C::InitializeWidgetNavigation()
 
 void UWBP_VoucherAcquisition_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.OnShown"));
 
 	struct
 	{
@@ -226,7 +226,7 @@ void UWBP_VoucherAcquisition_C::OnShown()
 
 void UWBP_VoucherAcquisition_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.PreConstruct"));
 
 	struct
 	{
@@ -246,7 +246,7 @@ void UWBP_VoucherAcquisition_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_VoucherAcquisition_C::ExecuteUbergraph_WBP_VoucherAcquisition(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.ExecuteUbergraph_WBP_VoucherAcquisition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherAcquisition.WBP_VoucherAcquisition_C.ExecuteUbergraph_WBP_VoucherAcquisition"));
 
 	struct
 	{

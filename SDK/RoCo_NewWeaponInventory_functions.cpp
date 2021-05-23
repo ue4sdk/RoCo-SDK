@@ -17,7 +17,7 @@ namespace SDK
 
 void UNewWeaponInventory_C::HandleDeathStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.HandleDeathStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.HandleDeathStateChanged"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UNewWeaponInventory_C::HandleDeathStateChanged()
 
 void UNewWeaponInventory_C::UnbindKSCharacter()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.UnbindKSCharacter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.UnbindKSCharacter"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UNewWeaponInventory_C::UnbindKSCharacter()
 
 void UNewWeaponInventory_C::BindKSCharacter()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.BindKSCharacter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.BindKSCharacter"));
 
 	struct
 	{
@@ -68,7 +68,7 @@ void UNewWeaponInventory_C::BindKSCharacter()
 
 void UNewWeaponInventory_C::AddGameRuleWidget(class UUserWidget* Game_Rule_Widget, const struct FString& Parent_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.AddGameRuleWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.AddGameRuleWidget"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UNewWeaponInventory_C::AddGameRuleWidget(class UUserWidget* Game_Rule_Widge
 
 void UNewWeaponInventory_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.OnInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.OnInputStateChanged"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UNewWeaponInventory_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> 
 
 void UNewWeaponInventory_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.Construct"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UNewWeaponInventory_C::Construct()
 
 void UNewWeaponInventory_C::EquipmentAdded(class UKSWeaponComponent* AddedEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.EquipmentAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.EquipmentAdded"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UNewWeaponInventory_C::EquipmentAdded(class UKSWeaponComponent* AddedEquipm
 
 void UNewWeaponInventory_C::EquipmentRemoved(class UKSWeaponComponent* RemovedEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.EquipmentRemoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.EquipmentRemoved"));
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UNewWeaponInventory_C::EquipmentRemoved(class UKSWeaponComponent* RemovedEq
 
 void UNewWeaponInventory_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.InitializeWidget"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UNewWeaponInventory_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UNewWeaponInventory_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.PostSetPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.PostSetPawn"));
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UNewWeaponInventory_C::PostSetPawn()
 
 void UNewWeaponInventory_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.PreClearPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.PreClearPawn"));
 
 	struct
 	{
@@ -216,7 +216,7 @@ void UNewWeaponInventory_C::PreClearPawn()
 
 void UNewWeaponInventory_C::Handle_Swap_Gamepad_Pressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.Handle Swap Gamepad Pressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.Handle Swap Gamepad Pressed"));
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UNewWeaponInventory_C::Handle_Swap_Gamepad_Pressed()
 
 void UNewWeaponInventory_C::Handle_Swap_Gamepad_Released()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.Handle Swap Gamepad Released");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.Handle Swap Gamepad Released"));
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UNewWeaponInventory_C::Handle_Swap_Gamepad_Released()
 
 void UNewWeaponInventory_C::SetKillCamWeapon(class APawn* ViewPawn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.SetKillCamWeapon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.SetKillCamWeapon"));
 
 	struct
 	{
@@ -270,7 +270,7 @@ void UNewWeaponInventory_C::SetKillCamWeapon(class APawn* ViewPawn)
 
 void UNewWeaponInventory_C::ExecuteUbergraph_NewWeaponInventory(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWeaponInventory.NewWeaponInventory_C.ExecuteUbergraph_NewWeaponInventory");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWeaponInventory.NewWeaponInventory_C.ExecuteUbergraph_NewWeaponInventory"));
 
 	struct
 	{

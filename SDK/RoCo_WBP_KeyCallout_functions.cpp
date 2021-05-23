@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_KeyCallout_C::SetKeybind(const struct FName& KeyBind)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KeyCallout.WBP_KeyCallout_C.SetKeybind");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KeyCallout.WBP_KeyCallout_C.SetKeybind"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_KeyCallout_C::SetKeybind(const struct FName& KeyBind)
 
 void UWBP_KeyCallout_C::UpdateKeyDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KeyCallout.WBP_KeyCallout_C.UpdateKeyDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KeyCallout.WBP_KeyCallout_C.UpdateKeyDisplay"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_KeyCallout_C::UpdateKeyDisplay()
 
 void UWBP_KeyCallout_C::SetKey(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KeyCallout.WBP_KeyCallout_C.SetKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KeyCallout.WBP_KeyCallout_C.SetKey"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_KeyCallout_C::SetKey(const struct FKey& Key)
 
 void UWBP_KeyCallout_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KeyCallout.WBP_KeyCallout_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KeyCallout.WBP_KeyCallout_C.PreConstruct"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_KeyCallout_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_KeyCallout_C::ExecuteUbergraph_WBP_KeyCallout(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KeyCallout.WBP_KeyCallout_C.ExecuteUbergraph_WBP_KeyCallout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KeyCallout.WBP_KeyCallout_C.ExecuteUbergraph_WBP_KeyCallout"));
 
 	struct
 	{

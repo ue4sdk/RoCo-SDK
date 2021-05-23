@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_LoadoutButton_C::PopulateLoadoutButton()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.PopulateLoadoutButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.PopulateLoadoutButton"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_LoadoutButton_C::PopulateLoadoutButton()
 
 void UWBP_LoadoutButton_C::SetLoadoutItem(TSoftObjectPtr<class UKSItem> LoadoutItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.SetLoadoutItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.SetLoadoutItem"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_LoadoutButton_C::SetLoadoutItem(TSoftObjectPtr<class UKSItem> LoadoutI
 
 void UWBP_LoadoutButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.PreConstruct"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_LoadoutButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_LoadoutButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.Construct"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_LoadoutButton_C::Construct()
 
 void UWBP_LoadoutButton_C::OnClick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.OnClick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.OnClick"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_LoadoutButton_C::OnClick()
 
 void UWBP_LoadoutButton_C::OnHover(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.OnHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.OnHover"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_LoadoutButton_C::OnHover(bool IsGamepad)
 
 void UWBP_LoadoutButton_C::SetIsActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.SetIsActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.SetIsActive"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_LoadoutButton_C::SetIsActive(bool IsActive)
 
 void UWBP_LoadoutButton_C::ExecuteUbergraph_WBP_LoadoutButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.ExecuteUbergraph_WBP_LoadoutButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.ExecuteUbergraph_WBP_LoadoutButton"));
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UWBP_LoadoutButton_C::ExecuteUbergraph_WBP_LoadoutButton(int EntryPoint)
 
 void UWBP_LoadoutButton_C::OnClicked__DelegateSignature(class UKSItem* LoadoutItem, class UWBP_LoadoutButton_C* LoadoutButton)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_LoadoutButton_C::OnClicked__DelegateSignature(class UKSItem* LoadoutIt
 
 void UWBP_LoadoutButton_C::OnHovered__DelegateSignature(class UKSItem* LoadoutItem, bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutButton.WBP_LoadoutButton_C.OnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutButton.WBP_LoadoutButton_C.OnHovered__DelegateSignature"));
 
 	struct
 	{

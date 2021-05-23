@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.IpConnection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.IpConnection"));
 		return ptr;
 	}
 
@@ -40,7 +40,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.AchievementBlueprintLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.AchievementBlueprintLibrary"));
 		return ptr;
 	}
 
@@ -61,7 +61,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.AchievementQueryCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.AchievementQueryCallbackProxy"));
 		return ptr;
 	}
 
@@ -82,7 +82,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.AchievementWriteCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.AchievementWriteCallbackProxy"));
 		return ptr;
 	}
 
@@ -102,7 +102,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.ConnectionCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.ConnectionCallbackProxy"));
 		return ptr;
 	}
 
@@ -122,7 +122,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.CreateSessionCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.CreateSessionCallbackProxy"));
 		return ptr;
 	}
 
@@ -142,7 +142,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.DestroySessionCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.DestroySessionCallbackProxy"));
 		return ptr;
 	}
 
@@ -162,7 +162,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.EndMatchCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.EndMatchCallbackProxy"));
 		return ptr;
 	}
 
@@ -182,7 +182,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.EndTurnCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.EndTurnCallbackProxy"));
 		return ptr;
 	}
 
@@ -202,7 +202,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.FindSessionsCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.FindSessionsCallbackProxy"));
 		return ptr;
 	}
 
@@ -226,7 +226,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.FindTurnBasedMatchCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.FindTurnBasedMatchCallbackProxy"));
 		return ptr;
 	}
 
@@ -246,7 +246,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.InAppPurchaseCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.InAppPurchaseCallbackProxy"));
 		return ptr;
 	}
 
@@ -266,7 +266,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.InAppPurchaseCallbackProxy2");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.InAppPurchaseCallbackProxy2"));
 		return ptr;
 	}
 
@@ -288,7 +288,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.InAppPurchaseQueryCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.InAppPurchaseQueryCallbackProxy"));
 		return ptr;
 	}
 
@@ -308,7 +308,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.InAppPurchaseQueryCallbackProxy2");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.InAppPurchaseQueryCallbackProxy2"));
 		return ptr;
 	}
 
@@ -328,7 +328,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.InAppPurchaseRestoreCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.InAppPurchaseRestoreCallbackProxy"));
 		return ptr;
 	}
 
@@ -348,7 +348,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.InAppPurchaseRestoreCallbackProxy2");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.InAppPurchaseRestoreCallbackProxy2"));
 		return ptr;
 	}
 
@@ -379,7 +379,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.IpNetDriver");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.IpNetDriver"));
 		return ptr;
 	}
 
@@ -397,7 +397,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.JoinSessionCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.JoinSessionCallbackProxy"));
 		return ptr;
 	}
 
@@ -414,7 +414,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.LeaderboardBlueprintLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.LeaderboardBlueprintLibrary"));
 		return ptr;
 	}
 
@@ -434,7 +434,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.LeaderboardFlushCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.LeaderboardFlushCallbackProxy"));
 		return ptr;
 	}
 
@@ -454,7 +454,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.LeaderboardQueryCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.LeaderboardQueryCallbackProxy"));
 		return ptr;
 	}
 
@@ -474,7 +474,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.LogoutCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.LogoutCallbackProxy"));
 		return ptr;
 	}
 
@@ -496,7 +496,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.OnlineBeacon");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.OnlineBeacon"));
 		return ptr;
 	}
 
@@ -515,7 +515,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.OnlineBeaconClient");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.OnlineBeaconClient"));
 		return ptr;
 	}
 
@@ -536,7 +536,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.OnlineBeaconHost");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.OnlineBeaconHost"));
 		return ptr;
 	}
 
@@ -554,7 +554,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.OnlineBeaconHostObject");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.OnlineBeaconHostObject"));
 		return ptr;
 	}
 
@@ -571,7 +571,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.OnlineEngineInterfaceImpl");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.OnlineEngineInterfaceImpl"));
 		return ptr;
 	}
 
@@ -589,7 +589,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.OnlinePIESettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.OnlinePIESettings"));
 		return ptr;
 	}
 
@@ -608,7 +608,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.OnlineSessionClient");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.OnlineSessionClient"));
 		return ptr;
 	}
 
@@ -630,7 +630,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.PartyBeaconClient");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.PartyBeaconClient"));
 		return ptr;
 	}
 
@@ -661,7 +661,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.PartyBeaconHost");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.PartyBeaconHost"));
 		return ptr;
 	}
 
@@ -689,7 +689,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.PartyBeaconState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.PartyBeaconState"));
 		return ptr;
 	}
 
@@ -707,7 +707,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.QuitMatchCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.QuitMatchCallbackProxy"));
 		return ptr;
 	}
 
@@ -727,7 +727,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.ShowLoginUICallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.ShowLoginUICallbackProxy"));
 		return ptr;
 	}
 
@@ -751,7 +751,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.SpectatorBeaconClient");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.SpectatorBeaconClient"));
 		return ptr;
 	}
 
@@ -780,7 +780,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.SpectatorBeaconHost");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.SpectatorBeaconHost"));
 		return ptr;
 	}
 
@@ -802,7 +802,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.SpectatorBeaconState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.SpectatorBeaconState"));
 		return ptr;
 	}
 
@@ -817,7 +817,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.TestBeaconClient");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.TestBeaconClient"));
 		return ptr;
 	}
 
@@ -835,7 +835,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.TestBeaconHost");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.TestBeaconHost"));
 		return ptr;
 	}
 
@@ -850,7 +850,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.TurnBasedBlueprintLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.TurnBasedBlueprintLibrary"));
 		return ptr;
 	}
 
@@ -871,7 +871,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemUtils.VoipListenerSynthComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemUtils.VoipListenerSynthComponent"));
 		return ptr;
 	}
 

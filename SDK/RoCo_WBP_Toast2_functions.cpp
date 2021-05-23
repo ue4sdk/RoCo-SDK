@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_Toast2_C::DisplayEventMissionToast()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.DisplayEventMissionToast");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.DisplayEventMissionToast"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_Toast2_C::DisplayEventMissionToast()
 
 void UWBP_Toast2_C::DisplayPlayerLevelUp()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.DisplayPlayerLevelUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.DisplayPlayerLevelUp"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_Toast2_C::DisplayPlayerLevelUp()
 
 void UWBP_Toast2_C::DisplayBoostActivation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.DisplayBoostActivation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.DisplayBoostActivation"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_Toast2_C::DisplayBoostActivation()
 
 void UWBP_Toast2_C::DisplayBattlePassUnlock()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.DisplayBattlePassUnlock");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.DisplayBattlePassUnlock"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_Toast2_C::DisplayBattlePassUnlock()
 
 void UWBP_Toast2_C::DisplayAwardUnlock()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.DisplayAwardUnlock");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.DisplayAwardUnlock"));
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_Toast2_C::DisplayAwardUnlock()
 
 void UWBP_Toast2_C::DisplayItemUnlock()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.DisplayItemUnlock");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.DisplayItemUnlock"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_Toast2_C::DisplayItemUnlock()
 
 void UWBP_Toast2_C::DisplayMercMasteryLevelUp()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.DisplayMercMasteryLevelUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.DisplayMercMasteryLevelUp"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_Toast2_C::DisplayMercMasteryLevelUp()
 
 void UWBP_Toast2_C::DisplayChallengeAchievement()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.DisplayChallengeAchievement");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.DisplayChallengeAchievement"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_Toast2_C::DisplayChallengeAchievement()
 
 void UWBP_Toast2_C::OnOutroFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.OnOutroFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.OnOutroFinished"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_Toast2_C::OnOutroFinished()
 
 void UWBP_Toast2_C::OnWaitingFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.OnWaitingFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.OnWaitingFinished"));
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UWBP_Toast2_C::OnWaitingFinished()
 
 void UWBP_Toast2_C::OnIntroFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.OnIntroFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.OnIntroFinished"));
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UWBP_Toast2_C::OnIntroFinished()
 
 void UWBP_Toast2_C::SetRarityTint(const struct FLinearColor& RarityBase, const struct FLinearColor& RarityHighlight)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.SetRarityTint");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.SetRarityTint"));
 
 	struct
 	{
@@ -216,7 +216,7 @@ void UWBP_Toast2_C::SetRarityTint(const struct FLinearColor& RarityBase, const s
 
 void UWBP_Toast2_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.Construct"));
 
 	struct
 	{
@@ -234,7 +234,7 @@ void UWBP_Toast2_C::Construct()
 
 void UWBP_Toast2_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.PreConstruct"));
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UWBP_Toast2_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Toast2_C::ExecuteUbergraph_WBP_Toast2(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.ExecuteUbergraph_WBP_Toast2");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.ExecuteUbergraph_WBP_Toast2"));
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_Toast2_C::ExecuteUbergraph_WBP_Toast2(int EntryPoint)
 
 void UWBP_Toast2_C::FinishedOutroAnimation__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.FinishedOutroAnimation__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.FinishedOutroAnimation__DelegateSignature"));
 
 	struct
 	{
@@ -290,7 +290,7 @@ void UWBP_Toast2_C::FinishedOutroAnimation__DelegateSignature()
 
 void UWBP_Toast2_C::OnRemoveToastNotification__DelegateSignature(class UKSWidget* ToastWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Toast2.WBP_Toast2_C.OnRemoveToastNotification__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Toast2.WBP_Toast2_C.OnRemoveToastNotification__DelegateSignature"));
 
 	struct
 	{

@@ -7,8 +7,8 @@
 #endif
 
 #include "RoCo_Basic.hpp"
-#include "RoCo_EChallengeEntry_Card_State_classes.hpp"
 #include "RoCo_PlatformUMG_classes.hpp"
+#include "RoCo_EChallengeEntry_Card_State_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_Killstreak_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"

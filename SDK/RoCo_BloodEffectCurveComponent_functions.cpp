@@ -20,7 +20,7 @@ namespace SDK
 
 void UBloodEffectCurveComponent_C::UpdateScalarTrack(const struct FName& TrackName, float TrackValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BloodEffectCurveComponent.BloodEffectCurveComponent_C.UpdateScalarTrack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BloodEffectCurveComponent.BloodEffectCurveComponent_C.UpdateScalarTrack"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UBloodEffectCurveComponent_C::UpdateScalarTrack(const struct FName& TrackNa
 
 void UBloodEffectCurveComponent_C::ExecuteUbergraph_BloodEffectCurveComponent(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BloodEffectCurveComponent.BloodEffectCurveComponent_C.ExecuteUbergraph_BloodEffectCurveComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BloodEffectCurveComponent.BloodEffectCurveComponent_C.ExecuteUbergraph_BloodEffectCurveComponent"));
 
 	struct
 	{

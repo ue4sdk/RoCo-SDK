@@ -20,7 +20,7 @@ namespace SDK
 
 void UMeshDescriptionBase::SetVertexPosition(const struct FVertexID& VertexID, const struct FVector& Position)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.SetVertexPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.SetVertexPosition"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UMeshDescriptionBase::SetVertexPosition(const struct FVertexID& VertexID, c
 
 void UMeshDescriptionBase::SetPolygonVertexInstance(const struct FPolygonID& PolygonID, int PerimeterIndex, const struct FVertexInstanceID& VertexInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.SetPolygonVertexInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.SetPolygonVertexInstance"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UMeshDescriptionBase::SetPolygonVertexInstance(const struct FPolygonID& Pol
 
 void UMeshDescriptionBase::SetPolygonPolygonGroup(const struct FPolygonID& PolygonID, const struct FPolygonGroupID& PolygonGroupID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.SetPolygonPolygonGroup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.SetPolygonPolygonGroup"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UMeshDescriptionBase::SetPolygonPolygonGroup(const struct FPolygonID& Polyg
 
 void UMeshDescriptionBase::ReversePolygonFacing(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.ReversePolygonFacing");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.ReversePolygonFacing"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UMeshDescriptionBase::ReversePolygonFacing(const struct FPolygonID& Polygon
 
 void UMeshDescriptionBase::ReserveNewVertices(int NumberOfNewVertices)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.ReserveNewVertices");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.ReserveNewVertices"));
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UMeshDescriptionBase::ReserveNewVertices(int NumberOfNewVertices)
 
 void UMeshDescriptionBase::ReserveNewVertexInstances(int NumberOfNewVertexInstances)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.ReserveNewVertexInstances");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.ReserveNewVertexInstances"));
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UMeshDescriptionBase::ReserveNewVertexInstances(int NumberOfNewVertexInstan
 
 void UMeshDescriptionBase::ReserveNewTriangles(int NumberOfNewTriangles)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.ReserveNewTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.ReserveNewTriangles"));
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UMeshDescriptionBase::ReserveNewTriangles(int NumberOfNewTriangles)
 
 void UMeshDescriptionBase::ReserveNewPolygons(int NumberOfNewPolygons)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.ReserveNewPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.ReserveNewPolygons"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UMeshDescriptionBase::ReserveNewPolygons(int NumberOfNewPolygons)
 
 void UMeshDescriptionBase::ReserveNewPolygonGroups(int NumberOfNewPolygonGroups)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.ReserveNewPolygonGroups");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.ReserveNewPolygonGroups"));
 
 	struct
 	{
@@ -211,7 +211,7 @@ void UMeshDescriptionBase::ReserveNewPolygonGroups(int NumberOfNewPolygonGroups)
 
 void UMeshDescriptionBase::ReserveNewEdges(int NumberOfNewEdges)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.ReserveNewEdges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.ReserveNewEdges"));
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UMeshDescriptionBase::ReserveNewEdges(int NumberOfNewEdges)
 
 bool UMeshDescriptionBase::IsVertexValid(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsVertexValid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsVertexValid"));
 
 	struct
 	{
@@ -256,7 +256,7 @@ bool UMeshDescriptionBase::IsVertexValid(const struct FVertexID& VertexID)
 
 bool UMeshDescriptionBase::IsVertexOrphaned(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsVertexOrphaned");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsVertexOrphaned"));
 
 	struct
 	{
@@ -280,7 +280,7 @@ bool UMeshDescriptionBase::IsVertexOrphaned(const struct FVertexID& VertexID)
 
 bool UMeshDescriptionBase::IsVertexInstanceValid(const struct FVertexInstanceID& VertexInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsVertexInstanceValid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsVertexInstanceValid"));
 
 	struct
 	{
@@ -304,7 +304,7 @@ bool UMeshDescriptionBase::IsVertexInstanceValid(const struct FVertexInstanceID&
 
 bool UMeshDescriptionBase::IsTriangleValid(const struct FTriangleID& TriangleID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsTriangleValid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsTriangleValid"));
 
 	struct
 	{
@@ -328,7 +328,7 @@ bool UMeshDescriptionBase::IsTriangleValid(const struct FTriangleID& TriangleID)
 
 bool UMeshDescriptionBase::IsTrianglePartOfNgon(const struct FTriangleID& TriangleID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsTrianglePartOfNgon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsTrianglePartOfNgon"));
 
 	struct
 	{
@@ -352,7 +352,7 @@ bool UMeshDescriptionBase::IsTrianglePartOfNgon(const struct FTriangleID& Triang
 
 bool UMeshDescriptionBase::IsPolygonValid(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsPolygonValid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsPolygonValid"));
 
 	struct
 	{
@@ -376,7 +376,7 @@ bool UMeshDescriptionBase::IsPolygonValid(const struct FPolygonID& PolygonID)
 
 bool UMeshDescriptionBase::IsPolygonGroupValid(const struct FPolygonGroupID& PolygonGroupID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsPolygonGroupValid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsPolygonGroupValid"));
 
 	struct
 	{
@@ -399,7 +399,7 @@ bool UMeshDescriptionBase::IsPolygonGroupValid(const struct FPolygonGroupID& Pol
 
 bool UMeshDescriptionBase::IsEmpty()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsEmpty");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsEmpty"));
 
 	struct
 	{
@@ -421,7 +421,7 @@ bool UMeshDescriptionBase::IsEmpty()
 
 bool UMeshDescriptionBase::IsEdgeValid(const struct FEdgeID& EdgeID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsEdgeValid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsEdgeValid"));
 
 	struct
 	{
@@ -446,7 +446,7 @@ bool UMeshDescriptionBase::IsEdgeValid(const struct FEdgeID& EdgeID)
 
 bool UMeshDescriptionBase::IsEdgeInternalToPolygon(const struct FEdgeID& EdgeID, const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsEdgeInternalToPolygon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsEdgeInternalToPolygon"));
 
 	struct
 	{
@@ -472,7 +472,7 @@ bool UMeshDescriptionBase::IsEdgeInternalToPolygon(const struct FEdgeID& EdgeID,
 
 bool UMeshDescriptionBase::IsEdgeInternal(const struct FEdgeID& EdgeID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.IsEdgeInternal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.IsEdgeInternal"));
 
 	struct
 	{
@@ -496,7 +496,7 @@ bool UMeshDescriptionBase::IsEdgeInternal(const struct FEdgeID& EdgeID)
 
 void UMeshDescriptionBase::GetVertexVertexInstances(const struct FVertexID& VertexID, TArray<struct FVertexInstanceID>* OutVertexInstanceIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexVertexInstances");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexVertexInstances"));
 
 	struct
 	{
@@ -521,7 +521,7 @@ void UMeshDescriptionBase::GetVertexVertexInstances(const struct FVertexID& Vert
 
 struct FVector UMeshDescriptionBase::GetVertexPosition(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexPosition"));
 
 	struct
 	{
@@ -546,7 +546,7 @@ struct FVector UMeshDescriptionBase::GetVertexPosition(const struct FVertexID& V
 
 struct FEdgeID UMeshDescriptionBase::GetVertexPairEdge(const struct FVertexID& VertexID0, const struct FVertexID& VertexID1)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexPairEdge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexPairEdge"));
 
 	struct
 	{
@@ -572,7 +572,7 @@ struct FEdgeID UMeshDescriptionBase::GetVertexPairEdge(const struct FVertexID& V
 
 struct FVertexID UMeshDescriptionBase::GetVertexInstanceVertex(const struct FVertexInstanceID& VertexInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceVertex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceVertex"));
 
 	struct
 	{
@@ -597,7 +597,7 @@ struct FVertexID UMeshDescriptionBase::GetVertexInstanceVertex(const struct FVer
 
 struct FEdgeID UMeshDescriptionBase::GetVertexInstancePairEdge(const struct FVertexInstanceID& VertexInstanceID0, const struct FVertexInstanceID& VertexInstanceID1)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexInstancePairEdge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexInstancePairEdge"));
 
 	struct
 	{
@@ -624,7 +624,7 @@ struct FEdgeID UMeshDescriptionBase::GetVertexInstancePairEdge(const struct FVer
 
 struct FVertexInstanceID UMeshDescriptionBase::GetVertexInstanceForTriangleVertex(const struct FTriangleID& TriangleID, const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceForTriangleVertex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceForTriangleVertex"));
 
 	struct
 	{
@@ -651,7 +651,7 @@ struct FVertexInstanceID UMeshDescriptionBase::GetVertexInstanceForTriangleVerte
 
 struct FVertexInstanceID UMeshDescriptionBase::GetVertexInstanceForPolygonVertex(const struct FPolygonID& PolygonID, const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceForPolygonVertex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceForPolygonVertex"));
 
 	struct
 	{
@@ -677,7 +677,7 @@ struct FVertexInstanceID UMeshDescriptionBase::GetVertexInstanceForPolygonVertex
 
 void UMeshDescriptionBase::GetVertexInstanceConnectedTriangles(const struct FVertexInstanceID& VertexInstanceID, TArray<struct FTriangleID>* OutConnectedTriangleIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceConnectedTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceConnectedTriangles"));
 
 	struct
 	{
@@ -702,7 +702,7 @@ void UMeshDescriptionBase::GetVertexInstanceConnectedTriangles(const struct FVer
 
 void UMeshDescriptionBase::GetVertexInstanceConnectedPolygons(const struct FVertexInstanceID& VertexInstanceID, TArray<struct FPolygonID>* OutConnectedPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceConnectedPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexInstanceConnectedPolygons"));
 
 	struct
 	{
@@ -727,7 +727,7 @@ void UMeshDescriptionBase::GetVertexInstanceConnectedPolygons(const struct FVert
 
 void UMeshDescriptionBase::GetVertexConnectedTriangles(const struct FVertexID& VertexID, TArray<struct FTriangleID>* OutConnectedTriangleIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexConnectedTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexConnectedTriangles"));
 
 	struct
 	{
@@ -752,7 +752,7 @@ void UMeshDescriptionBase::GetVertexConnectedTriangles(const struct FVertexID& V
 
 void UMeshDescriptionBase::GetVertexConnectedPolygons(const struct FVertexID& VertexID, TArray<struct FPolygonID>* OutConnectedPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexConnectedPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexConnectedPolygons"));
 
 	struct
 	{
@@ -777,7 +777,7 @@ void UMeshDescriptionBase::GetVertexConnectedPolygons(const struct FVertexID& Ve
 
 void UMeshDescriptionBase::GetVertexConnectedEdges(const struct FVertexID& VertexID, TArray<struct FEdgeID>* OutEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexConnectedEdges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexConnectedEdges"));
 
 	struct
 	{
@@ -802,7 +802,7 @@ void UMeshDescriptionBase::GetVertexConnectedEdges(const struct FVertexID& Verte
 
 void UMeshDescriptionBase::GetVertexAdjacentVertices(const struct FVertexID& VertexID, TArray<struct FVertexID>* OutAdjacentVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetVertexAdjacentVertices");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetVertexAdjacentVertices"));
 
 	struct
 	{
@@ -827,7 +827,7 @@ void UMeshDescriptionBase::GetVertexAdjacentVertices(const struct FVertexID& Ver
 
 void UMeshDescriptionBase::GetTriangleVertices(const struct FTriangleID& TriangleID, TArray<struct FVertexID>* OutVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetTriangleVertices");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetTriangleVertices"));
 
 	struct
 	{
@@ -852,7 +852,7 @@ void UMeshDescriptionBase::GetTriangleVertices(const struct FTriangleID& Triangl
 
 void UMeshDescriptionBase::GetTriangleVertexInstances(const struct FTriangleID& TriangleID, TArray<struct FVertexInstanceID>* OutVertexInstanceIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetTriangleVertexInstances");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetTriangleVertexInstances"));
 
 	struct
 	{
@@ -878,7 +878,7 @@ void UMeshDescriptionBase::GetTriangleVertexInstances(const struct FTriangleID& 
 
 struct FVertexInstanceID UMeshDescriptionBase::GetTriangleVertexInstance(const struct FTriangleID& TriangleID, int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetTriangleVertexInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetTriangleVertexInstance"));
 
 	struct
 	{
@@ -904,7 +904,7 @@ struct FVertexInstanceID UMeshDescriptionBase::GetTriangleVertexInstance(const s
 
 struct FPolygonGroupID UMeshDescriptionBase::GetTrianglePolygonGroup(const struct FTriangleID& TriangleID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetTrianglePolygonGroup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetTrianglePolygonGroup"));
 
 	struct
 	{
@@ -928,7 +928,7 @@ struct FPolygonGroupID UMeshDescriptionBase::GetTrianglePolygonGroup(const struc
 
 struct FPolygonID UMeshDescriptionBase::GetTrianglePolygon(const struct FTriangleID& TriangleID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetTrianglePolygon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetTrianglePolygon"));
 
 	struct
 	{
@@ -952,7 +952,7 @@ struct FPolygonID UMeshDescriptionBase::GetTrianglePolygon(const struct FTriangl
 
 void UMeshDescriptionBase::GetTriangleEdges(const struct FTriangleID& TriangleID, TArray<struct FEdgeID>* OutEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetTriangleEdges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetTriangleEdges"));
 
 	struct
 	{
@@ -977,7 +977,7 @@ void UMeshDescriptionBase::GetTriangleEdges(const struct FTriangleID& TriangleID
 
 void UMeshDescriptionBase::GetTriangleAdjacentTriangles(const struct FTriangleID& TriangleID, TArray<struct FTriangleID>* OutTriangleIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetTriangleAdjacentTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetTriangleAdjacentTriangles"));
 
 	struct
 	{
@@ -1002,7 +1002,7 @@ void UMeshDescriptionBase::GetTriangleAdjacentTriangles(const struct FTriangleID
 
 void UMeshDescriptionBase::GetPolygonVertices(const struct FPolygonID& PolygonID, TArray<struct FVertexID>* OutVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetPolygonVertices");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetPolygonVertices"));
 
 	struct
 	{
@@ -1027,7 +1027,7 @@ void UMeshDescriptionBase::GetPolygonVertices(const struct FPolygonID& PolygonID
 
 void UMeshDescriptionBase::GetPolygonVertexInstances(const struct FPolygonID& PolygonID, TArray<struct FVertexInstanceID>* OutVertexInstanceIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetPolygonVertexInstances");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetPolygonVertexInstances"));
 
 	struct
 	{
@@ -1052,7 +1052,7 @@ void UMeshDescriptionBase::GetPolygonVertexInstances(const struct FPolygonID& Po
 
 void UMeshDescriptionBase::GetPolygonTriangles(const struct FPolygonID& PolygonID, TArray<struct FTriangleID>* OutTriangleIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetPolygonTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetPolygonTriangles"));
 
 	struct
 	{
@@ -1077,7 +1077,7 @@ void UMeshDescriptionBase::GetPolygonTriangles(const struct FPolygonID& PolygonI
 
 struct FPolygonGroupID UMeshDescriptionBase::GetPolygonPolygonGroup(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetPolygonPolygonGroup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetPolygonPolygonGroup"));
 
 	struct
 	{
@@ -1101,7 +1101,7 @@ struct FPolygonGroupID UMeshDescriptionBase::GetPolygonPolygonGroup(const struct
 
 void UMeshDescriptionBase::GetPolygonPerimeterEdges(const struct FPolygonID& PolygonID, TArray<struct FEdgeID>* OutEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetPolygonPerimeterEdges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetPolygonPerimeterEdges"));
 
 	struct
 	{
@@ -1126,7 +1126,7 @@ void UMeshDescriptionBase::GetPolygonPerimeterEdges(const struct FPolygonID& Pol
 
 void UMeshDescriptionBase::GetPolygonInternalEdges(const struct FPolygonID& PolygonID, TArray<struct FEdgeID>* OutEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetPolygonInternalEdges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetPolygonInternalEdges"));
 
 	struct
 	{
@@ -1151,7 +1151,7 @@ void UMeshDescriptionBase::GetPolygonInternalEdges(const struct FPolygonID& Poly
 
 void UMeshDescriptionBase::GetPolygonGroupPolygons(const struct FPolygonGroupID& PolygonGroupID, TArray<struct FPolygonID>* OutPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetPolygonGroupPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetPolygonGroupPolygons"));
 
 	struct
 	{
@@ -1176,7 +1176,7 @@ void UMeshDescriptionBase::GetPolygonGroupPolygons(const struct FPolygonGroupID&
 
 void UMeshDescriptionBase::GetPolygonAdjacentPolygons(const struct FPolygonID& PolygonID, TArray<struct FPolygonID>* OutPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetPolygonAdjacentPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetPolygonAdjacentPolygons"));
 
 	struct
 	{
@@ -1201,7 +1201,7 @@ void UMeshDescriptionBase::GetPolygonAdjacentPolygons(const struct FPolygonID& P
 
 int UMeshDescriptionBase::GetNumVertexVertexInstances(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumVertexVertexInstances");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumVertexVertexInstances"));
 
 	struct
 	{
@@ -1225,7 +1225,7 @@ int UMeshDescriptionBase::GetNumVertexVertexInstances(const struct FVertexID& Ve
 
 int UMeshDescriptionBase::GetNumVertexInstanceConnectedTriangles(const struct FVertexInstanceID& VertexInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumVertexInstanceConnectedTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumVertexInstanceConnectedTriangles"));
 
 	struct
 	{
@@ -1249,7 +1249,7 @@ int UMeshDescriptionBase::GetNumVertexInstanceConnectedTriangles(const struct FV
 
 int UMeshDescriptionBase::GetNumVertexInstanceConnectedPolygons(const struct FVertexInstanceID& VertexInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumVertexInstanceConnectedPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumVertexInstanceConnectedPolygons"));
 
 	struct
 	{
@@ -1273,7 +1273,7 @@ int UMeshDescriptionBase::GetNumVertexInstanceConnectedPolygons(const struct FVe
 
 int UMeshDescriptionBase::GetNumVertexConnectedTriangles(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedTriangles"));
 
 	struct
 	{
@@ -1297,7 +1297,7 @@ int UMeshDescriptionBase::GetNumVertexConnectedTriangles(const struct FVertexID&
 
 int UMeshDescriptionBase::GetNumVertexConnectedPolygons(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedPolygons"));
 
 	struct
 	{
@@ -1321,7 +1321,7 @@ int UMeshDescriptionBase::GetNumVertexConnectedPolygons(const struct FVertexID& 
 
 int UMeshDescriptionBase::GetNumVertexConnectedEdges(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedEdges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumVertexConnectedEdges"));
 
 	struct
 	{
@@ -1345,7 +1345,7 @@ int UMeshDescriptionBase::GetNumVertexConnectedEdges(const struct FVertexID& Ver
 
 int UMeshDescriptionBase::GetNumPolygonVertices(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumPolygonVertices");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumPolygonVertices"));
 
 	struct
 	{
@@ -1369,7 +1369,7 @@ int UMeshDescriptionBase::GetNumPolygonVertices(const struct FPolygonID& Polygon
 
 int UMeshDescriptionBase::GetNumPolygonTriangles(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumPolygonTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumPolygonTriangles"));
 
 	struct
 	{
@@ -1393,7 +1393,7 @@ int UMeshDescriptionBase::GetNumPolygonTriangles(const struct FPolygonID& Polygo
 
 int UMeshDescriptionBase::GetNumPolygonInternalEdges(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumPolygonInternalEdges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumPolygonInternalEdges"));
 
 	struct
 	{
@@ -1417,7 +1417,7 @@ int UMeshDescriptionBase::GetNumPolygonInternalEdges(const struct FPolygonID& Po
 
 int UMeshDescriptionBase::GetNumPolygonGroupPolygons(const struct FPolygonGroupID& PolygonGroupID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumPolygonGroupPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumPolygonGroupPolygons"));
 
 	struct
 	{
@@ -1441,7 +1441,7 @@ int UMeshDescriptionBase::GetNumPolygonGroupPolygons(const struct FPolygonGroupI
 
 int UMeshDescriptionBase::GetNumEdgeConnectedTriangles(const struct FEdgeID& EdgeID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumEdgeConnectedTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumEdgeConnectedTriangles"));
 
 	struct
 	{
@@ -1465,7 +1465,7 @@ int UMeshDescriptionBase::GetNumEdgeConnectedTriangles(const struct FEdgeID& Edg
 
 int UMeshDescriptionBase::GetNumEdgeConnectedPolygons(const struct FEdgeID& EdgeID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetNumEdgeConnectedPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetNumEdgeConnectedPolygons"));
 
 	struct
 	{
@@ -1489,7 +1489,7 @@ int UMeshDescriptionBase::GetNumEdgeConnectedPolygons(const struct FEdgeID& Edge
 
 void UMeshDescriptionBase::GetEdgeVertices(const struct FEdgeID& EdgeID, TArray<struct FVertexID>* OutVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetEdgeVertices");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetEdgeVertices"));
 
 	struct
 	{
@@ -1515,7 +1515,7 @@ void UMeshDescriptionBase::GetEdgeVertices(const struct FEdgeID& EdgeID, TArray<
 
 struct FVertexID UMeshDescriptionBase::GetEdgeVertex(const struct FEdgeID& EdgeID, int VertexNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetEdgeVertex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetEdgeVertex"));
 
 	struct
 	{
@@ -1541,7 +1541,7 @@ struct FVertexID UMeshDescriptionBase::GetEdgeVertex(const struct FEdgeID& EdgeI
 
 void UMeshDescriptionBase::GetEdgeConnectedTriangles(const struct FEdgeID& EdgeID, TArray<struct FTriangleID>* OutConnectedTriangleIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetEdgeConnectedTriangles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetEdgeConnectedTriangles"));
 
 	struct
 	{
@@ -1566,7 +1566,7 @@ void UMeshDescriptionBase::GetEdgeConnectedTriangles(const struct FEdgeID& EdgeI
 
 void UMeshDescriptionBase::GetEdgeConnectedPolygons(const struct FEdgeID& EdgeID, TArray<struct FPolygonID>* OutConnectedPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.GetEdgeConnectedPolygons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.GetEdgeConnectedPolygons"));
 
 	struct
 	{
@@ -1588,7 +1588,7 @@ void UMeshDescriptionBase::GetEdgeConnectedPolygons(const struct FEdgeID& EdgeID
 
 void UMeshDescriptionBase::Empty()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.Empty");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.Empty"));
 
 	struct
 	{
@@ -1607,7 +1607,7 @@ void UMeshDescriptionBase::Empty()
 
 void UMeshDescriptionBase::DeleteVertexInstance(const struct FVertexInstanceID& VertexInstanceID, TArray<struct FVertexID>* OrphanedVertices)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.DeleteVertexInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.DeleteVertexInstance"));
 
 	struct
 	{
@@ -1631,7 +1631,7 @@ void UMeshDescriptionBase::DeleteVertexInstance(const struct FVertexInstanceID& 
 
 void UMeshDescriptionBase::DeleteVertex(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.DeleteVertex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.DeleteVertex"));
 
 	struct
 	{
@@ -1654,7 +1654,7 @@ void UMeshDescriptionBase::DeleteVertex(const struct FVertexID& VertexID)
 
 void UMeshDescriptionBase::DeleteTriangle(const struct FTriangleID& TriangleID, TArray<struct FEdgeID>* OrphanedEdges, TArray<struct FVertexInstanceID>* OrphanedVertexInstances, TArray<struct FPolygonGroupID>* OrphanedPolygonGroupsPtr)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.DeleteTriangle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.DeleteTriangle"));
 
 	struct
 	{
@@ -1684,7 +1684,7 @@ void UMeshDescriptionBase::DeleteTriangle(const struct FTriangleID& TriangleID, 
 
 void UMeshDescriptionBase::DeletePolygonGroup(const struct FPolygonGroupID& PolygonGroupID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.DeletePolygonGroup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.DeletePolygonGroup"));
 
 	struct
 	{
@@ -1707,7 +1707,7 @@ void UMeshDescriptionBase::DeletePolygonGroup(const struct FPolygonGroupID& Poly
 
 void UMeshDescriptionBase::DeletePolygon(const struct FPolygonID& PolygonID, TArray<struct FEdgeID>* OrphanedEdges, TArray<struct FVertexInstanceID>* OrphanedVertexInstances, TArray<struct FPolygonGroupID>* OrphanedPolygonGroups)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.DeletePolygon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.DeletePolygon"));
 
 	struct
 	{
@@ -1738,7 +1738,7 @@ void UMeshDescriptionBase::DeletePolygon(const struct FPolygonID& PolygonID, TAr
 
 void UMeshDescriptionBase::DeleteEdge(const struct FEdgeID& EdgeID, TArray<struct FVertexID>* OrphanedVertices)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.DeleteEdge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.DeleteEdge"));
 
 	struct
 	{
@@ -1762,7 +1762,7 @@ void UMeshDescriptionBase::DeleteEdge(const struct FEdgeID& EdgeID, TArray<struc
 
 void UMeshDescriptionBase::CreateVertexWithID(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreateVertexWithID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreateVertexWithID"));
 
 	struct
 	{
@@ -1783,7 +1783,7 @@ void UMeshDescriptionBase::CreateVertexWithID(const struct FVertexID& VertexID)
 
 void UMeshDescriptionBase::CreateVertexInstanceWithID(const struct FVertexInstanceID& VertexInstanceID, const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreateVertexInstanceWithID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreateVertexInstanceWithID"));
 
 	struct
 	{
@@ -1806,7 +1806,7 @@ void UMeshDescriptionBase::CreateVertexInstanceWithID(const struct FVertexInstan
 
 struct FVertexInstanceID UMeshDescriptionBase::CreateVertexInstance(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreateVertexInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreateVertexInstance"));
 
 	struct
 	{
@@ -1829,7 +1829,7 @@ struct FVertexInstanceID UMeshDescriptionBase::CreateVertexInstance(const struct
 
 struct FVertexID UMeshDescriptionBase::CreateVertex()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreateVertex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreateVertex"));
 
 	struct
 	{
@@ -1853,7 +1853,7 @@ struct FVertexID UMeshDescriptionBase::CreateVertex()
 
 void UMeshDescriptionBase::CreateTriangleWithID(const struct FTriangleID& TriangleID, const struct FPolygonGroupID& PolygonGroupID, TArray<struct FVertexInstanceID> VertexInstanceIDs, TArray<struct FEdgeID>* NewEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreateTriangleWithID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreateTriangleWithID"));
 
 	struct
 	{
@@ -1884,7 +1884,7 @@ void UMeshDescriptionBase::CreateTriangleWithID(const struct FTriangleID& Triang
 
 struct FTriangleID UMeshDescriptionBase::CreateTriangle(const struct FPolygonGroupID& PolygonGroupID, TArray<struct FVertexInstanceID> VertexInstanceIDs, TArray<struct FEdgeID>* NewEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreateTriangle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreateTriangle"));
 
 	struct
 	{
@@ -1916,7 +1916,7 @@ struct FTriangleID UMeshDescriptionBase::CreateTriangle(const struct FPolygonGro
 
 void UMeshDescriptionBase::CreatePolygonWithID(const struct FPolygonID& PolygonID, const struct FPolygonGroupID& PolygonGroupID, TArray<struct FVertexInstanceID>* VertexInstanceIDs, TArray<struct FEdgeID>* NewEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreatePolygonWithID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreatePolygonWithID"));
 
 	struct
 	{
@@ -1945,7 +1945,7 @@ void UMeshDescriptionBase::CreatePolygonWithID(const struct FPolygonID& PolygonI
 
 void UMeshDescriptionBase::CreatePolygonGroupWithID(const struct FPolygonGroupID& PolygonGroupID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreatePolygonGroupWithID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreatePolygonGroupWithID"));
 
 	struct
 	{
@@ -1965,7 +1965,7 @@ void UMeshDescriptionBase::CreatePolygonGroupWithID(const struct FPolygonGroupID
 
 struct FPolygonGroupID UMeshDescriptionBase::CreatePolygonGroup()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreatePolygonGroup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreatePolygonGroup"));
 
 	struct
 	{
@@ -1989,7 +1989,7 @@ struct FPolygonGroupID UMeshDescriptionBase::CreatePolygonGroup()
 
 struct FPolygonID UMeshDescriptionBase::CreatePolygon(const struct FPolygonGroupID& PolygonGroupID, TArray<struct FVertexInstanceID>* VertexInstanceIDs, TArray<struct FEdgeID>* NewEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreatePolygon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreatePolygon"));
 
 	struct
 	{
@@ -2021,7 +2021,7 @@ struct FPolygonID UMeshDescriptionBase::CreatePolygon(const struct FPolygonGroup
 
 void UMeshDescriptionBase::CreateEdgeWithID(const struct FEdgeID& EdgeID, const struct FVertexID& VertexID0, const struct FVertexID& VertexID1)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreateEdgeWithID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreateEdgeWithID"));
 
 	struct
 	{
@@ -2047,7 +2047,7 @@ void UMeshDescriptionBase::CreateEdgeWithID(const struct FEdgeID& EdgeID, const 
 
 struct FEdgeID UMeshDescriptionBase::CreateEdge(const struct FVertexID& VertexID0, const struct FVertexID& VertexID1)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.CreateEdge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.CreateEdge"));
 
 	struct
 	{
@@ -2072,7 +2072,7 @@ struct FEdgeID UMeshDescriptionBase::CreateEdge(const struct FVertexID& VertexID
 
 void UMeshDescriptionBase::ComputePolygonTriangulation(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MeshDescription.MeshDescriptionBase.ComputePolygonTriangulation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MeshDescription.MeshDescriptionBase.ComputePolygonTriangulation"));
 
 	struct
 	{

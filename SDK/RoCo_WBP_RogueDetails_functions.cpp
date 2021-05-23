@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueDetails_C::SetJobCharacter(class UKSJobItem* KSJobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.SetJobCharacter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.SetJobCharacter"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_RogueDetails_C::SetJobCharacter(class UKSJobItem* KSJobItem)
 
 void UWBP_RogueDetails_C::OnPurchaseRogue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.OnPurchaseRogue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.OnPurchaseRogue"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_RogueDetails_C::OnPurchaseRogue()
 
 void UWBP_RogueDetails_C::SetContextBar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.SetContextBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.SetContextBar"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_RogueDetails_C::SetContextBar()
 
 void UWBP_RogueDetails_C::InitializeOverViewButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.InitializeOverViewButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.InitializeOverViewButtons"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWBP_RogueDetails_C::InitializeOverViewButtons()
 
 bool UWBP_RogueDetails_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.NavigateBack"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ bool UWBP_RogueDetails_C::NavigateBack()
 
 void UWBP_RogueDetails_C::BindOverViewButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.BindOverViewButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.BindOverViewButtons"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UWBP_RogueDetails_C::BindOverViewButtons()
 
 void UWBP_RogueDetails_C::PopulatedJobOverview(class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.PopulatedJobOverview");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.PopulatedJobOverview"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_RogueDetails_C::PopulatedJobOverview(class UKSJobItem* JobItem)
 
 void UWBP_RogueDetails_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.Construct"));
 
 	struct
 	{
@@ -160,7 +160,7 @@ void UWBP_RogueDetails_C::Construct()
 
 void UWBP_RogueDetails_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.InitializeWidget"));
 
 	struct
 	{
@@ -178,7 +178,7 @@ void UWBP_RogueDetails_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RogueDetails_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.OnShown"));
 
 	struct
 	{
@@ -194,7 +194,7 @@ void UWBP_RogueDetails_C::OnShown()
 
 void UWBP_RogueDetails_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UWBP_RogueDetails_C::InitializeWidgetNavigation()
 
 void UWBP_RogueDetails_C::OnCombatLoadout()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.OnCombatLoadout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.OnCombatLoadout"));
 
 	struct
 	{
@@ -226,7 +226,7 @@ void UWBP_RogueDetails_C::OnCombatLoadout()
 
 void UWBP_RogueDetails_C::OnCustomizeLoadout()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.OnCustomizeLoadout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.OnCustomizeLoadout"));
 
 	struct
 	{
@@ -242,7 +242,7 @@ void UWBP_RogueDetails_C::OnCustomizeLoadout()
 
 void UWBP_RogueDetails_C::OnRogueMastery()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.OnRogueMastery");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.OnRogueMastery"));
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UWBP_RogueDetails_C::OnRogueMastery()
 
 void UWBP_RogueDetails_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.OnBackPrompt"));
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_RogueDetails_C::OnBackPrompt()
 
 void UWBP_RogueDetails_C::SetDisableButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.SetDisableButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.SetDisableButtons"));
 
 	struct
 	{
@@ -290,7 +290,7 @@ void UWBP_RogueDetails_C::SetDisableButtons()
 
 void UWBP_RogueDetails_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.OnHide"));
 
 	struct
 	{
@@ -308,7 +308,7 @@ void UWBP_RogueDetails_C::OnHide()
 
 void UWBP_RogueDetails_C::ExecuteUbergraph_WBP_RogueDetails(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueDetails.WBP_RogueDetails_C.ExecuteUbergraph_WBP_RogueDetails");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueDetails.WBP_RogueDetails_C.ExecuteUbergraph_WBP_RogueDetails"));
 
 	struct
 	{

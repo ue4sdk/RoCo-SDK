@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_MatchInvitation_C::BndEvt__Confirm_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchInvitation.WBP_MatchInvitation_C.BndEvt__Confirm_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchInvitation.WBP_MatchInvitation_C.BndEvt__Confirm_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_MatchInvitation_C::BndEvt__Confirm_K2Node_ComponentBoundEvent_0_OnClic
 
 void UWBP_MatchInvitation_C::BndEvt__Decline_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchInvitation.WBP_MatchInvitation_C.BndEvt__Decline_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchInvitation.WBP_MatchInvitation_C.BndEvt__Decline_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_MatchInvitation_C::BndEvt__Decline_K2Node_ComponentBoundEvent_1_OnClic
 
 void UWBP_MatchInvitation_C::ShowInvitation(class UKSPlayerInfo* playerinfo, const struct FClientQueueInfo& QueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchInvitation.WBP_MatchInvitation_C.ShowInvitation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchInvitation.WBP_MatchInvitation_C.ShowInvitation"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWBP_MatchInvitation_C::ShowInvitation(class UKSPlayerInfo* playerinfo, con
 
 void UWBP_MatchInvitation_C::ShowError(const struct FText& ErrorMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchInvitation.WBP_MatchInvitation_C.ShowError");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchInvitation.WBP_MatchInvitation_C.ShowError"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWBP_MatchInvitation_C::ShowError(const struct FText& ErrorMessage)
 
 void UWBP_MatchInvitation_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchInvitation.WBP_MatchInvitation_C.StartShowSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchInvitation.WBP_MatchInvitation_C.StartShowSequence"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_MatchInvitation_C::StartShowSequence(const struct FName& FromRoute, co
 
 void UWBP_MatchInvitation_C::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchInvitation.WBP_MatchInvitation_C.StartHideSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchInvitation.WBP_MatchInvitation_C.StartHideSequence"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_MatchInvitation_C::StartHideSequence(const struct FName& FromRoute, co
 
 void UWBP_MatchInvitation_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchInvitation.WBP_MatchInvitation_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchInvitation.WBP_MatchInvitation_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWBP_MatchInvitation_C::InitializeWidgetNavigation()
 
 void UWBP_MatchInvitation_C::OnHideAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchInvitation.WBP_MatchInvitation_C.OnHideAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchInvitation.WBP_MatchInvitation_C.OnHideAnimFinished"));
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWBP_MatchInvitation_C::OnHideAnimFinished()
 
 void UWBP_MatchInvitation_C::ExecuteUbergraph_WBP_MatchInvitation(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchInvitation.WBP_MatchInvitation_C.ExecuteUbergraph_WBP_MatchInvitation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchInvitation.WBP_MatchInvitation_C.ExecuteUbergraph_WBP_MatchInvitation"));
 
 	struct
 	{

@@ -17,7 +17,7 @@ namespace SDK
 
 void URedeemCodeScreen_C::UpdateSubmitButtonState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.UpdateSubmitButtonState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.UpdateSubmitButtonState"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void URedeemCodeScreen_C::UpdateSubmitButtonState()
 
 void URedeemCodeScreen_C::SetErrorMessage(const struct FText& ErrorMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.SetErrorMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.SetErrorMessage"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void URedeemCodeScreen_C::SetErrorMessage(const struct FText& ErrorMessage)
 
 void URedeemCodeScreen_C::OnSpamPreventTimeout()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.OnSpamPreventTimeout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.OnSpamPreventTimeout"));
 
 	struct
 	{
@@ -72,7 +72,7 @@ void URedeemCodeScreen_C::OnSpamPreventTimeout()
 
 void URedeemCodeScreen_C::GetPaletteColor(const struct FName& Color_Name, struct FSlateColor* Color)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.GetPaletteColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.GetPaletteColor"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ void URedeemCodeScreen_C::GetPaletteColor(const struct FName& Color_Name, struct
 
 void URedeemCodeScreen_C::ShowPending()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.ShowPending");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.ShowPending"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void URedeemCodeScreen_C::ShowPending()
 
 void URedeemCodeScreen_C::EndPending()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.EndPending");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.EndPending"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ void URedeemCodeScreen_C::EndPending()
 
 bool URedeemCodeScreen_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.NavigateBack"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ bool URedeemCodeScreen_C::NavigateBack()
 
 void URedeemCodeScreen_C::StartShowAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.StartShowAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.StartShowAnim"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void URedeemCodeScreen_C::StartShowAnim()
 
 void URedeemCodeScreen_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.InitializeTickAnimations");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.InitializeTickAnimations"));
 
 	struct
 	{
@@ -179,7 +179,7 @@ void URedeemCodeScreen_C::InitializeTickAnimations()
 
 void URedeemCodeScreen_C::ShowCodeRedeemFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.ShowCodeRedeemFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.ShowCodeRedeemFinished"));
 
 	struct
 	{
@@ -198,7 +198,7 @@ void URedeemCodeScreen_C::ShowCodeRedeemFinished()
 
 void URedeemCodeScreen_C::ShowCodeRedeemAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.ShowCodeRedeemAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.ShowCodeRedeemAnim"));
 
 	struct
 	{
@@ -218,7 +218,7 @@ void URedeemCodeScreen_C::ShowCodeRedeemAnim(float ElapsedTime, float ElapsedAlp
 
 void URedeemCodeScreen_C::InitHideAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.InitHideAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.InitHideAnimation"));
 
 	struct
 	{
@@ -234,7 +234,7 @@ void URedeemCodeScreen_C::InitHideAnimation()
 
 void URedeemCodeScreen_C::HideCodeRedeemFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.HideCodeRedeemFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.HideCodeRedeemFinished"));
 
 	struct
 	{
@@ -253,7 +253,7 @@ void URedeemCodeScreen_C::HideCodeRedeemFinished()
 
 void URedeemCodeScreen_C::HideCodeRedeemAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.HideCodeRedeemAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.HideCodeRedeemAnim"));
 
 	struct
 	{
@@ -273,7 +273,7 @@ void URedeemCodeScreen_C::HideCodeRedeemAnim(float ElapsedTime, float ElapsedAlp
 
 void URedeemCodeScreen_C::StartHideAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.StartHideAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.StartHideAnim"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ void URedeemCodeScreen_C::StartHideAnim()
 
 void URedeemCodeScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.InitializeWidget"));
 
 	struct
 	{
@@ -309,7 +309,7 @@ void URedeemCodeScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void URedeemCodeScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void URedeemCodeScreen_C::InitializeWidgetNavigation()
 
 void URedeemCodeScreen_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.Construct"));
 
 	struct
 	{
@@ -341,7 +341,7 @@ void URedeemCodeScreen_C::Construct()
 
 void URedeemCodeScreen_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.InitializeWidgetButtonListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.InitializeWidgetButtonListeners"));
 
 	struct
 	{
@@ -357,7 +357,7 @@ void URedeemCodeScreen_C::InitializeWidgetButtonListeners()
 
 void URedeemCodeScreen_C::SubmitCode()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.SubmitCode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.SubmitCode"));
 
 	struct
 	{
@@ -376,7 +376,7 @@ void URedeemCodeScreen_C::SubmitCode()
 
 void URedeemCodeScreen_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.StartShowSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.StartShowSequence"));
 
 	struct
 	{
@@ -399,7 +399,7 @@ void URedeemCodeScreen_C::StartShowSequence(const struct FName& FromRoute, const
 
 void URedeemCodeScreen_C::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.StartHideSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.StartHideSequence"));
 
 	struct
 	{
@@ -419,7 +419,7 @@ void URedeemCodeScreen_C::StartHideSequence(const struct FName& FromRoute, const
 
 void URedeemCodeScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.OnShown"));
 
 	struct
 	{
@@ -435,7 +435,7 @@ void URedeemCodeScreen_C::OnShown()
 
 void URedeemCodeScreen_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.OnHide"));
 
 	struct
 	{
@@ -451,7 +451,7 @@ void URedeemCodeScreen_C::OnHide()
 
 void URedeemCodeScreen_C::OnCloseButtonClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.OnCloseButtonClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.OnCloseButtonClicked"));
 
 	struct
 	{
@@ -469,7 +469,7 @@ void URedeemCodeScreen_C::OnCloseButtonClicked()
 
 void URedeemCodeScreen_C::BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -487,7 +487,7 @@ void URedeemCodeScreen_C::BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBound
 
 void URedeemCodeScreen_C::OnRedeemCodeSubmit()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.OnRedeemCodeSubmit");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.OnRedeemCodeSubmit"));
 
 	struct
 	{
@@ -506,7 +506,7 @@ void URedeemCodeScreen_C::OnRedeemCodeSubmit()
 
 void URedeemCodeScreen_C::OnRedeemCodeResult(bool Success, const struct FText& Error)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.OnRedeemCodeResult");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.OnRedeemCodeResult"));
 
 	struct
 	{
@@ -528,7 +528,7 @@ void URedeemCodeScreen_C::OnRedeemCodeResult(bool Success, const struct FText& E
 
 void URedeemCodeScreen_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.HandleInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.HandleInputStateChanged"));
 
 	struct
 	{
@@ -548,7 +548,7 @@ void URedeemCodeScreen_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE
 
 void URedeemCodeScreen_C::OnCodeTextChanged(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.OnCodeTextChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.OnCodeTextChanged"));
 
 	struct
 	{
@@ -569,7 +569,7 @@ void URedeemCodeScreen_C::OnCodeTextChanged(const struct FText& Text)
 
 void URedeemCodeScreen_C::OnCodeTextCommit(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.OnCodeTextCommit");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.OnCodeTextCommit"));
 
 	struct
 	{
@@ -591,7 +591,7 @@ void URedeemCodeScreen_C::OnCodeTextCommit(const struct FText& Text, TEnumAsByte
 
 void URedeemCodeScreen_C::ExecuteUbergraph_RedeemCodeScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function RedeemCodeScreen.RedeemCodeScreen_C.ExecuteUbergraph_RedeemCodeScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RedeemCodeScreen.RedeemCodeScreen_C.ExecuteUbergraph_RedeemCodeScreen"));
 
 	struct
 	{

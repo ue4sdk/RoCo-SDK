@@ -35,7 +35,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass RedeemCodeScreen.RedeemCodeScreen_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass RedeemCodeScreen.RedeemCodeScreen_C"));
 		return ptr;
 	}
 

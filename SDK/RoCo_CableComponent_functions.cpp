@@ -20,7 +20,7 @@ namespace SDK
 
 void UCableComponent::SetAttachEndToComponent(class USceneComponent* Component, const struct FName& SocketName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CableComponent.CableComponent.SetAttachEndToComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CableComponent.CableComponent.SetAttachEndToComponent"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UCableComponent::SetAttachEndToComponent(class USceneComponent* Component, 
 
 void UCableComponent::SetAttachEndTo(class AActor* Actor, const struct FName& ComponentProperty, const struct FName& SocketName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CableComponent.CableComponent.SetAttachEndTo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CableComponent.CableComponent.SetAttachEndTo"));
 
 	struct
 	{
@@ -68,7 +68,7 @@ void UCableComponent::SetAttachEndTo(class AActor* Actor, const struct FName& Co
 
 void UCableComponent::GetCableParticleLocations(TArray<struct FVector>* Locations)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CableComponent.CableComponent.GetCableParticleLocations");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CableComponent.CableComponent.GetCableParticleLocations"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UCableComponent::GetCableParticleLocations(TArray<struct FVector>* Location
 
 class USceneComponent* UCableComponent::GetAttachedComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CableComponent.CableComponent.GetAttachedComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CableComponent.CableComponent.GetAttachedComponent"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ class USceneComponent* UCableComponent::GetAttachedComponent()
 
 class AActor* UCableComponent::GetAttachedActor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CableComponent.CableComponent.GetAttachedActor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CableComponent.CableComponent.GetAttachedActor"));
 
 	struct
 	{

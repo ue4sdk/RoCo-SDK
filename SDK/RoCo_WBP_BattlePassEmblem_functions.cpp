@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_BattlePassEmblem_C::SetPremiumUpsellState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.SetPremiumUpsellState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.SetPremiumUpsellState"));
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UWBP_BattlePassEmblem_C::SetPremiumUpsellState()
 
 void UWBP_BattlePassEmblem_C::SetBattlePassInfoExplicit(bool HasPremium, int Tier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.SetBattlePassInfoExplicit");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.SetBattlePassInfoExplicit"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_BattlePassEmblem_C::SetBattlePassInfoExplicit(bool HasPremium, int Tie
 
 void UWBP_BattlePassEmblem_C::SetBattlePassInfoFromStoreItem(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.SetBattlePassInfoFromStoreItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.SetBattlePassInfoFromStoreItem"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_BattlePassEmblem_C::SetBattlePassInfoFromStoreItem(class UPUMG_StoreIt
 
 void UWBP_BattlePassEmblem_C::SetBattlePassInfoFromActivityInstance(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.SetBattlePassInfoFromActivityInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.SetBattlePassInfoFromActivityInstance"));
 
 	struct
 	{
@@ -96,7 +96,7 @@ void UWBP_BattlePassEmblem_C::SetBattlePassInfoFromActivityInstance(class UKSAct
 
 void UWBP_BattlePassEmblem_C::InitializeBadgeTextures()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.InitializeBadgeTextures");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.InitializeBadgeTextures"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_BattlePassEmblem_C::InitializeBadgeTextures()
 
 void UWBP_BattlePassEmblem_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.InitializeWidget"));
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UWBP_BattlePassEmblem_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlePassEmblem_C::ExecuteUbergraph_WBP_BattlePassEmblem(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.ExecuteUbergraph_WBP_BattlePassEmblem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassEmblem.WBP_BattlePassEmblem_C.ExecuteUbergraph_WBP_BattlePassEmblem"));
 
 	struct
 	{

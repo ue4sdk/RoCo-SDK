@@ -12,8 +12,8 @@
 #include "RoCo_InputCore_classes.hpp"
 #include "RoCo_UMG_classes.hpp"
 #include "RoCo_PlatformGameFramework_classes.hpp"
-#include "RoCo_FBP_CustomQueueImages_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"
+#include "RoCo_FBP_CustomQueueImages_classes.hpp"
 #include "RoCo_NavButtonData_classes.hpp"
 #include "RoCo_PlatformUMG_classes.hpp"
 

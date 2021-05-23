@@ -19,7 +19,7 @@ namespace SDK
 
 struct FLinearColor UWBP_RewardsTrackMeterSegment_C::GetStandardBackgroundColor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.GetStandardBackgroundColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.GetStandardBackgroundColor"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ struct FLinearColor UWBP_RewardsTrackMeterSegment_C::GetStandardBackgroundColor(
 
 struct FLinearColor UWBP_RewardsTrackMeterSegment_C::GetPremiumBackgroundColor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.GetPremiumBackgroundColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.GetPremiumBackgroundColor"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ struct FLinearColor UWBP_RewardsTrackMeterSegment_C::GetPremiumBackgroundColor()
 
 struct FLinearColor UWBP_RewardsTrackMeterSegment_C::GetBattlePassPremiumColor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.GetBattlePassPremiumColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.GetBattlePassPremiumColor"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ struct FLinearColor UWBP_RewardsTrackMeterSegment_C::GetBattlePassPremiumColor()
 
 struct FLinearColor UWBP_RewardsTrackMeterSegment_C::GetBattlePassFreeColor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.GetBattlePassFreeColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.GetBattlePassFreeColor"));
 
 	struct
 	{
@@ -104,7 +104,7 @@ struct FLinearColor UWBP_RewardsTrackMeterSegment_C::GetBattlePassFreeColor()
 
 void UWBP_RewardsTrackMeterSegment_C::ApplyMeterPercentages(float BasePercent, float DeltaPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ApplyMeterPercentages");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ApplyMeterPercentages"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_RewardsTrackMeterSegment_C::ApplyMeterPercentages(float BasePercent, f
 
 void UWBP_RewardsTrackMeterSegment_C::ApplySegmentBackgroundColor(const struct FLinearColor& BackgroundColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ApplySegmentBackgroundColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ApplySegmentBackgroundColor"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_RewardsTrackMeterSegment_C::ApplySegmentBackgroundColor(const struct F
 
 void UWBP_RewardsTrackMeterSegment_C::ApplySegmentLabel(const struct FText& LabelText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ApplySegmentLabel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ApplySegmentLabel"));
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UWBP_RewardsTrackMeterSegment_C::ApplySegmentLabel(const struct FText& Labe
 
 void UWBP_RewardsTrackMeterSegment_C::ApplySegmentMeterColor(const struct FLinearColor& MeterColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ApplySegmentMeterColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ApplySegmentMeterColor"));
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_RewardsTrackMeterSegment_C::ApplySegmentMeterColor(const struct FLinea
 
 void UWBP_RewardsTrackMeterSegment_C::ExecuteUbergraph_WBP_RewardsTrackMeterSegment(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ExecuteUbergraph_WBP_RewardsTrackMeterSegment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeterSegment.WBP_RewardsTrackMeterSegment_C.ExecuteUbergraph_WBP_RewardsTrackMeterSegment"));
 
 	struct
 	{

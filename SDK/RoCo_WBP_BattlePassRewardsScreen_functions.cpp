@@ -21,7 +21,7 @@ namespace SDK
 
 struct FEventReply UWBP_BattlePassRewardsScreen_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnKeyUp"));
 
 	struct
 	{
@@ -46,7 +46,7 @@ struct FEventReply UWBP_BattlePassRewardsScreen_C::OnKeyUp(const struct FGeometr
 
 void UWBP_BattlePassRewardsScreen_C::GetRewardEntryFromPendingRouteData(class UWBP_RewardListEntry_C** RewardEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.GetRewardEntryFromPendingRouteData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.GetRewardEntryFromPendingRouteData"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_BattlePassRewardsScreen_C::GetRewardEntryFromPendingRouteData(class UW
 
 struct FEventReply UWBP_BattlePassRewardsScreen_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnKeyDown"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ struct FEventReply UWBP_BattlePassRewardsScreen_C::OnKeyDown(const struct FGeome
 
 void UWBP_BattlePassRewardsScreen_C::HandleOnLevelPurchase()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.HandleOnLevelPurchase");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.HandleOnLevelPurchase"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_BattlePassRewardsScreen_C::HandleOnLevelPurchase()
 
 void UWBP_BattlePassRewardsScreen_C::HandleOnBattlePassOffers()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.HandleOnBattlePassOffers");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.HandleOnBattlePassOffers"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_BattlePassRewardsScreen_C::HandleOnBattlePassOffers()
 
 void UWBP_BattlePassRewardsScreen_C::HandleOnPageNavigated(int Direction)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.HandleOnPageNavigated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.HandleOnPageNavigated"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_BattlePassRewardsScreen_C::HandleOnPageNavigated(int Direction)
 
 void UWBP_BattlePassRewardsScreen_C::Select_Initial_Item()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.Select Initial Item");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.Select Initial Item"));
 
 	struct
 	{
@@ -165,7 +165,7 @@ void UWBP_BattlePassRewardsScreen_C::Select_Initial_Item()
 
 void UWBP_BattlePassRewardsScreen_C::OnRewardButtonClicked(class UWBP_RewardListEntry_C* Widget, const struct FCosmeticSlotDetails& RewardSlotDetails, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnRewardButtonClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnRewardButtonClicked"));
 
 	struct
 	{
@@ -189,7 +189,7 @@ void UWBP_BattlePassRewardsScreen_C::OnRewardButtonClicked(class UWBP_RewardList
 
 bool UWBP_BattlePassRewardsScreen_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.NavigateBack"));
 
 	struct
 	{
@@ -208,7 +208,7 @@ bool UWBP_BattlePassRewardsScreen_C::NavigateBack()
 
 void UWBP_BattlePassRewardsScreen_C::PerformInitialSetup()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.PerformInitialSetup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.PerformInitialSetup"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_BattlePassRewardsScreen_C::PerformInitialSetup()
 
 void UWBP_BattlePassRewardsScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnShown"));
 
 	struct
 	{
@@ -242,7 +242,7 @@ void UWBP_BattlePassRewardsScreen_C::OnShown()
 
 void UWBP_BattlePassRewardsScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.InitializeWidget"));
 
 	struct
 	{
@@ -260,7 +260,7 @@ void UWBP_BattlePassRewardsScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlePassRewardsScreen_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnBackPrompt"));
 
 	struct
 	{
@@ -276,7 +276,7 @@ void UWBP_BattlePassRewardsScreen_C::OnBackPrompt()
 
 void UWBP_BattlePassRewardsScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -294,7 +294,7 @@ void UWBP_BattlePassRewardsScreen_C::InitializeWidgetNavigation()
 
 void UWBP_BattlePassRewardsScreen_C::FocusGroupNavigateRightFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.FocusGroupNavigateRightFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.FocusGroupNavigateRightFailure"));
 
 	struct
 	{
@@ -314,7 +314,7 @@ void UWBP_BattlePassRewardsScreen_C::FocusGroupNavigateRightFailure(int FocusGro
 
 void UWBP_BattlePassRewardsScreen_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.FocusGroupNavigateLeftFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.FocusGroupNavigateLeftFailure"));
 
 	struct
 	{
@@ -332,7 +332,7 @@ void UWBP_BattlePassRewardsScreen_C::FocusGroupNavigateLeftFailure(int FocusGrou
 
 void UWBP_BattlePassRewardsScreen_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.InitializeWidgetButtonListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.InitializeWidgetButtonListeners"));
 
 	struct
 	{
@@ -348,7 +348,7 @@ void UWBP_BattlePassRewardsScreen_C::InitializeWidgetButtonListeners()
 
 void UWBP_BattlePassRewardsScreen_C::OnTriggerPageLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnTriggerPageLeft");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnTriggerPageLeft"));
 
 	struct
 	{
@@ -364,7 +364,7 @@ void UWBP_BattlePassRewardsScreen_C::OnTriggerPageLeft()
 
 void UWBP_BattlePassRewardsScreen_C::OnTriggerPageRight()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnTriggerPageRight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnTriggerPageRight"));
 
 	struct
 	{
@@ -380,7 +380,7 @@ void UWBP_BattlePassRewardsScreen_C::OnTriggerPageRight()
 
 void UWBP_BattlePassRewardsScreen_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.OnHide"));
 
 	struct
 	{
@@ -398,7 +398,7 @@ void UWBP_BattlePassRewardsScreen_C::OnHide()
 
 void UWBP_BattlePassRewardsScreen_C::ExecuteUbergraph_WBP_BattlePassRewardsScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.ExecuteUbergraph_WBP_BattlePassRewardsScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassRewardsScreen.WBP_BattlePassRewardsScreen_C.ExecuteUbergraph_WBP_BattlePassRewardsScreen"));
 
 	struct
 	{

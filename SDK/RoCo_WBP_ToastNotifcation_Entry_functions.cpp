@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ToastNotifcation_Entry_C::SetViewStyle(EToastCategory ToastCategory)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.SetViewStyle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.SetViewStyle"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_ToastNotifcation_Entry_C::SetViewStyle(EToastCategory ToastCategory)
 
 void UWBP_ToastNotifcation_Entry_C::PlayOutroAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.PlayOutroAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.PlayOutroAnimation"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_ToastNotifcation_Entry_C::PlayOutroAnimation()
 
 void UWBP_ToastNotifcation_Entry_C::HandleOutroAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.HandleOutroAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.HandleOutroAnimFinished"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_ToastNotifcation_Entry_C::HandleOutroAnimFinished()
 
 void UWBP_ToastNotifcation_Entry_C::PlayWaitAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.PlayWaitAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.PlayWaitAnimation"));
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_ToastNotifcation_Entry_C::PlayWaitAnimation()
 
 void UWBP_ToastNotifcation_Entry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.Construct"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWBP_ToastNotifcation_Entry_C::Construct()
 
 void UWBP_ToastNotifcation_Entry_C::ExecuteUbergraph_WBP_ToastNotifcation_Entry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.ExecuteUbergraph_WBP_ToastNotifcation_Entry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.ExecuteUbergraph_WBP_ToastNotifcation_Entry"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_ToastNotifcation_Entry_C::ExecuteUbergraph_WBP_ToastNotifcation_Entry(
 
 void UWBP_ToastNotifcation_Entry_C::FinishedIntroAnimation__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.FinishedIntroAnimation__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.FinishedIntroAnimation__DelegateSignature"));
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_ToastNotifcation_Entry_C::FinishedIntroAnimation__DelegateSignature()
 
 void UWBP_ToastNotifcation_Entry_C::OnRemoveToastNotification__DelegateSignature(class UKSWidget* ToastWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.OnRemoveToastNotification__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotifcation_Entry.WBP_ToastNotifcation_Entry_C.OnRemoveToastNotification__DelegateSignature"));
 
 	struct
 	{

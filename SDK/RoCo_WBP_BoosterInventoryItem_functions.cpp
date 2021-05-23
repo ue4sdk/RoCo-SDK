@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_BoosterInventoryItem_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.NavigateConfirm"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_BoosterInventoryItem_C::NavigateConfirm()
 
 void UWBP_BoosterInventoryItem_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.Construct"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWBP_BoosterInventoryItem_C::Construct()
 
 void UWBP_BoosterInventoryItem_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.GamepadHover"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_BoosterInventoryItem_C::GamepadHover()
 
 void UWBP_BoosterInventoryItem_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.GamepadUnhover"));
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UWBP_BoosterInventoryItem_C::GamepadUnhover()
 
 void UWBP_BoosterInventoryItem_C::BndEvt__WBP_ButtonSlot_Cosmetic_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.BndEvt__WBP_ButtonSlot_Cosmetic_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.BndEvt__WBP_ButtonSlot_Cosmetic_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -104,7 +104,7 @@ void UWBP_BoosterInventoryItem_C::BndEvt__WBP_ButtonSlot_Cosmetic_K2Node_Compone
 
 void UWBP_BoosterInventoryItem_C::View_SetFromItem(const struct FAccountConsumableDetails& ItemDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.View_SetFromItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.View_SetFromItem"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_BoosterInventoryItem_C::View_SetFromItem(const struct FAccountConsumab
 
 void UWBP_BoosterInventoryItem_C::PlayBoostConfirmationSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.PlayBoostConfirmationSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.PlayBoostConfirmationSound"));
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_BoosterInventoryItem_C::PlayBoostConfirmationSound()
 
 void UWBP_BoosterInventoryItem_C::ExecuteUbergraph_WBP_BoosterInventoryItem(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.ExecuteUbergraph_WBP_BoosterInventoryItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoosterInventoryItem.WBP_BoosterInventoryItem_C.ExecuteUbergraph_WBP_BoosterInventoryItem"));
 
 	struct
 	{

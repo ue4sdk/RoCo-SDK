@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass OutOfBoundsManager_Extraction.OutOfBoundsManager_Extraction_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass OutOfBoundsManager_Extraction.OutOfBoundsManager_Extraction_C"));
 		return ptr;
 	}
 

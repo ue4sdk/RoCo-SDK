@@ -19,7 +19,7 @@ namespace SDK
 
 void UGizmoBaseComponent::UpdateWorldLocalState(bool bWorldIn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoBaseComponent.UpdateWorldLocalState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoBaseComponent.UpdateWorldLocalState"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UGizmoBaseComponent::UpdateWorldLocalState(bool bWorldIn)
 
 void UGizmoBaseComponent::UpdateHoverState(bool bHoveringIn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoBaseComponent.UpdateHoverState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoBaseComponent.UpdateHoverState"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UGizmoBaseComponent::UpdateHoverState(bool bHoveringIn)
 
 void UGizmoTransformSource::SetTransform(const struct FTransform& NewTransform)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoTransformSource.SetTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoTransformSource.SetTransform"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UGizmoTransformSource::SetTransform(const struct FTransform& NewTransform)
 
 struct FTransform UGizmoTransformSource::GetTransform()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoTransformSource.GetTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoTransformSource.GetTransform"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ struct FTransform UGizmoTransformSource::GetTransform()
 
 bool UGizmoAxisSource::HasTangentVectors()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoAxisSource.HasTangentVectors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoAxisSource.HasTangentVectors"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ bool UGizmoAxisSource::HasTangentVectors()
 
 void UGizmoAxisSource::GetTangentVectors(struct FVector* TangentXOut, struct FVector* TangentYOut)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoAxisSource.GetTangentVectors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoAxisSource.GetTangentVectors"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UGizmoAxisSource::GetTangentVectors(struct FVector* TangentXOut, struct FVe
 
 struct FVector UGizmoAxisSource::GetOrigin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoAxisSource.GetOrigin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoAxisSource.GetOrigin"));
 
 	struct
 	{
@@ -168,7 +168,7 @@ struct FVector UGizmoAxisSource::GetOrigin()
 
 struct FVector UGizmoAxisSource::GetDirection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoAxisSource.GetDirection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoAxisSource.GetDirection"));
 
 	struct
 	{
@@ -189,7 +189,7 @@ struct FVector UGizmoAxisSource::GetDirection()
 
 void UGizmoClickTarget::UpdateHoverState(bool bHovering)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoClickTarget.UpdateHoverState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoClickTarget.UpdateHoverState"));
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UGizmoClickTarget::UpdateHoverState(bool bHovering)
 
 void UGizmoStateTarget::EndUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoStateTarget.EndUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoStateTarget.EndUpdate"));
 
 	struct
 	{
@@ -223,7 +223,7 @@ void UGizmoStateTarget::EndUpdate()
 
 void UGizmoStateTarget::BeginUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoStateTarget.BeginUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoStateTarget.BeginUpdate"));
 
 	struct
 	{
@@ -241,7 +241,7 @@ void UGizmoStateTarget::BeginUpdate()
 
 void UGizmoFloatParameterSource::SetParameter(float NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoFloatParameterSource.SetParameter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoFloatParameterSource.SetParameter"));
 
 	struct
 	{
@@ -261,7 +261,7 @@ void UGizmoFloatParameterSource::SetParameter(float NewValue)
 
 float UGizmoFloatParameterSource::GetParameter()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoFloatParameterSource.GetParameter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoFloatParameterSource.GetParameter"));
 
 	struct
 	{
@@ -280,7 +280,7 @@ float UGizmoFloatParameterSource::GetParameter()
 
 void UGizmoFloatParameterSource::EndModify()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoFloatParameterSource.EndModify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoFloatParameterSource.EndModify"));
 
 	struct
 	{
@@ -296,7 +296,7 @@ void UGizmoFloatParameterSource::EndModify()
 
 void UGizmoFloatParameterSource::BeginModify()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoFloatParameterSource.BeginModify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoFloatParameterSource.BeginModify"));
 
 	struct
 	{
@@ -314,7 +314,7 @@ void UGizmoFloatParameterSource::BeginModify()
 
 void UGizmoVec2ParameterSource::SetParameter(const struct FVector2D& NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoVec2ParameterSource.SetParameter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoVec2ParameterSource.SetParameter"));
 
 	struct
 	{
@@ -334,7 +334,7 @@ void UGizmoVec2ParameterSource::SetParameter(const struct FVector2D& NewValue)
 
 struct FVector2D UGizmoVec2ParameterSource::GetParameter()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoVec2ParameterSource.GetParameter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoVec2ParameterSource.GetParameter"));
 
 	struct
 	{
@@ -353,7 +353,7 @@ struct FVector2D UGizmoVec2ParameterSource::GetParameter()
 
 void UGizmoVec2ParameterSource::EndModify()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoVec2ParameterSource.EndModify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoVec2ParameterSource.EndModify"));
 
 	struct
 	{
@@ -369,7 +369,7 @@ void UGizmoVec2ParameterSource::EndModify()
 
 void UGizmoVec2ParameterSource::BeginModify()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function InteractiveToolsFramework.GizmoVec2ParameterSource.BeginModify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function InteractiveToolsFramework.GizmoVec2ParameterSource.BeginModify"));
 
 	struct
 	{

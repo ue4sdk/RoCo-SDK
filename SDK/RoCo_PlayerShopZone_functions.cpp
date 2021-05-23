@@ -24,7 +24,7 @@ namespace SDK
 
 void APlayerShopZone_C::BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int OtherBodyIndex, bool bFromSweep, const struct FHitResult& SweepResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerShopZone.PlayerShopZone_C.BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerShopZone.PlayerShopZone_C.BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void APlayerShopZone_C::BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginO
 
 void APlayerShopZone_C::BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int OtherBodyIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerShopZone.PlayerShopZone_C.BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerShopZone.PlayerShopZone_C.BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ void APlayerShopZone_C::BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOve
 
 void APlayerShopZone_C::OnCharacterPossessed(class AController* NewController)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerShopZone.PlayerShopZone_C.OnCharacterPossessed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerShopZone.PlayerShopZone_C.OnCharacterPossessed"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void APlayerShopZone_C::OnCharacterPossessed(class AController* NewController)
 
 void APlayerShopZone_C::ExecuteUbergraph_PlayerShopZone(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerShopZone.PlayerShopZone_C.ExecuteUbergraph_PlayerShopZone");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerShopZone.PlayerShopZone_C.ExecuteUbergraph_PlayerShopZone"));
 
 	struct
 	{

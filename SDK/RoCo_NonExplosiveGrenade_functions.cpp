@@ -17,7 +17,7 @@ namespace SDK
 
 void ANonExplosiveGrenade_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NonExplosiveGrenade.NonExplosiveGrenade_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NonExplosiveGrenade.NonExplosiveGrenade_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -36,7 +36,7 @@ void ANonExplosiveGrenade_C::ReceiveBeginPlay()
 
 void ANonExplosiveGrenade_C::BndEvt__ProjectileMovementComponent_K2Node_ComponentBoundEvent_0_OnProjectileBounceDelegate__DelegateSignature(const struct FHitResult& ImpactResult, const struct FVector& ImpactVelocity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NonExplosiveGrenade.NonExplosiveGrenade_C.BndEvt__ProjectileMovementComponent_K2Node_ComponentBoundEvent_0_OnProjectileBounceDelegate__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NonExplosiveGrenade.NonExplosiveGrenade_C.BndEvt__ProjectileMovementComponent_K2Node_ComponentBoundEvent_0_OnProjectileBounceDelegate__DelegateSignature"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void ANonExplosiveGrenade_C::BndEvt__ProjectileMovementComponent_K2Node_Componen
 
 void ANonExplosiveGrenade_C::BndEvt__AkProjectileSound_K2Node_ComponentBoundEvent_0_ActorComponentActivatedSignature__DelegateSignature(class UActorComponent* Component, bool bReset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NonExplosiveGrenade.NonExplosiveGrenade_C.BndEvt__AkProjectileSound_K2Node_ComponentBoundEvent_0_ActorComponentActivatedSignature__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NonExplosiveGrenade.NonExplosiveGrenade_C.BndEvt__AkProjectileSound_K2Node_ComponentBoundEvent_0_ActorComponentActivatedSignature__DelegateSignature"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void ANonExplosiveGrenade_C::BndEvt__AkProjectileSound_K2Node_ComponentBoundEven
 
 void ANonExplosiveGrenade_C::InitializeRealActor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NonExplosiveGrenade.NonExplosiveGrenade_C.InitializeRealActor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NonExplosiveGrenade.NonExplosiveGrenade_C.InitializeRealActor"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void ANonExplosiveGrenade_C::InitializeRealActor()
 
 void ANonExplosiveGrenade_C::OnTakeOverAsRealActor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NonExplosiveGrenade.NonExplosiveGrenade_C.OnTakeOverAsRealActor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NonExplosiveGrenade.NonExplosiveGrenade_C.OnTakeOverAsRealActor"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ void ANonExplosiveGrenade_C::OnTakeOverAsRealActor()
 
 void ANonExplosiveGrenade_C::ExecuteUbergraph_NonExplosiveGrenade(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NonExplosiveGrenade.NonExplosiveGrenade_C.ExecuteUbergraph_NonExplosiveGrenade");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NonExplosiveGrenade.NonExplosiveGrenade_C.ExecuteUbergraph_NonExplosiveGrenade"));
 
 	struct
 	{

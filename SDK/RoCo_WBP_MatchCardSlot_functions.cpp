@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_MatchCardSlot_C::PopulateWithPlayerStats()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.PopulateWithPlayerStats");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.PopulateWithPlayerStats"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_MatchCardSlot_C::PopulateWithPlayerStats()
 
 void UWBP_MatchCardSlot_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.Construct"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_MatchCardSlot_C::Construct()
 
 void UWBP_MatchCardSlot_C::AnimateIn(float Delay)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.AnimateIn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.AnimateIn"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_MatchCardSlot_C::AnimateIn(float Delay)
 
 void UWBP_MatchCardSlot_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.PreConstruct"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_MatchCardSlot_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_MatchCardSlot_C::ExecuteUbergraph_WBP_MatchCardSlot(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.ExecuteUbergraph_WBP_MatchCardSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.ExecuteUbergraph_WBP_MatchCardSlot"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_MatchCardSlot_C::ExecuteUbergraph_WBP_MatchCardSlot(int EntryPoint)
 
 void UWBP_MatchCardSlot_C::StartAnimation__DelegateSignature(int CurrencyEarned)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.StartAnimation__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchCardSlot.WBP_MatchCardSlot_C.StartAnimation__DelegateSignature"));
 
 	struct
 	{

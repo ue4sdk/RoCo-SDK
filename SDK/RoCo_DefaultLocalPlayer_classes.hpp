@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass DefaultLocalPlayer.DefaultLocalPlayer_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass DefaultLocalPlayer.DefaultLocalPlayer_C"));
 		return ptr;
 	}
 

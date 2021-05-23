@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass DefaultGamepadLookManager.DefaultGamepadLookManager_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass DefaultGamepadLookManager.DefaultGamepadLookManager_C"));
 		return ptr;
 	}
 

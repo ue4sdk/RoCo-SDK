@@ -20,7 +20,7 @@ namespace SDK
 
 void UBreathMeter_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BreathMeter.BreathMeter_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BreathMeter.BreathMeter_C.Tick"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UBreathMeter_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 void UBreathMeter_C::OpenGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BreathMeter.BreathMeter_C.OpenGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BreathMeter.BreathMeter_C.OpenGate"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UBreathMeter_C::OpenGate()
 
 void UBreathMeter_C::CloseGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BreathMeter.BreathMeter_C.CloseGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BreathMeter.BreathMeter_C.CloseGate"));
 
 	struct
 	{
@@ -72,7 +72,7 @@ void UBreathMeter_C::CloseGate()
 
 void UBreathMeter_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BreathMeter.BreathMeter_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BreathMeter.BreathMeter_C.Construct"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UBreathMeter_C::Construct()
 
 void UBreathMeter_C::UpdateCharacter(class AKSCharacter* NewCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BreathMeter.BreathMeter_C.UpdateCharacter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BreathMeter.BreathMeter_C.UpdateCharacter"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UBreathMeter_C::UpdateCharacter(class AKSCharacter* NewCharacter)
 
 void UBreathMeter_C::UnbindCharacter()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BreathMeter.BreathMeter_C.UnbindCharacter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BreathMeter.BreathMeter_C.UnbindCharacter"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UBreathMeter_C::UnbindCharacter()
 
 void UBreathMeter_C::UpdateBreath(float NewBreath)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BreathMeter.BreathMeter_C.UpdateBreath");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BreathMeter.BreathMeter_C.UpdateBreath"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UBreathMeter_C::UpdateBreath(float NewBreath)
 
 void UBreathMeter_C::ExecuteUbergraph_BreathMeter(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BreathMeter.BreathMeter_C.ExecuteUbergraph_BreathMeter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BreathMeter.BreathMeter_C.ExecuteUbergraph_BreathMeter"));
 
 	struct
 	{

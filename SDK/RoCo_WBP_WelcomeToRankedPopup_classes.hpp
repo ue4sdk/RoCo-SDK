@@ -44,7 +44,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_WelcomeToRankedPopup.WBP_WelcomeToRankedPopup_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_WelcomeToRankedPopup.WBP_WelcomeToRankedPopup_C"));
 		return ptr;
 	}
 

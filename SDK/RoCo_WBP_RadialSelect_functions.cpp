@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_RadialSelect_C::IsItemUsable(class UKSItem* KSItem, bool* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.IsItemUsable");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.IsItemUsable"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UWBP_RadialSelect_C::IsItemUsable(class UKSItem* KSItem, bool* Return_Value
 
 void UWBP_RadialSelect_C::SetHoverForAllEntries(class UWBP_RadialMenuEntry_C* New_Hovered_Entry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.SetHoverForAllEntries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.SetHoverForAllEntries"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_RadialSelect_C::SetHoverForAllEntries(class UWBP_RadialMenuEntry_C* Ne
 
 void UWBP_RadialSelect_C::GetRadialEntryByIndex(int Index, class UWBP_RadialMenuEntry_C** Entry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.GetRadialEntryByIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.GetRadialEntryByIndex"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_RadialSelect_C::GetRadialEntryByIndex(int Index, class UWBP_RadialMenu
 
 struct FEventReply UWBP_RadialSelect_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.OnKeyDown"));
 
 	struct
 	{
@@ -118,7 +118,7 @@ struct FEventReply UWBP_RadialSelect_C::OnKeyDown(const struct FGeometry& MyGeom
 
 struct FEventReply UWBP_RadialSelect_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.OnKeyUp"));
 
 	struct
 	{
@@ -144,7 +144,7 @@ struct FEventReply UWBP_RadialSelect_C::OnKeyUp(const struct FGeometry& MyGeomet
 
 void UWBP_RadialSelect_C::GetRadialItemData(int Item_Index, class UKSItem** KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.GetRadialItemData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.GetRadialItemData"));
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UWBP_RadialSelect_C::GetRadialItemData(int Item_Index, class UKSItem** KSIt
 
 bool UWBP_RadialSelect_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.NavigateConfirm"));
 
 	struct
 	{
@@ -189,7 +189,7 @@ bool UWBP_RadialSelect_C::NavigateConfirm()
 
 bool UWBP_RadialSelect_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.NavigateBack"));
 
 	struct
 	{
@@ -212,7 +212,7 @@ bool UWBP_RadialSelect_C::NavigateBack()
 
 struct FEventReply UWBP_RadialSelect_C::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.OnMouseButtonDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.OnMouseButtonDown"));
 
 	struct
 	{
@@ -237,7 +237,7 @@ struct FEventReply UWBP_RadialSelect_C::OnMouseButtonDown(const struct FGeometry
 
 void UWBP_RadialSelect_C::SetRadialItemName(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.SetRadialItemName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.SetRadialItemName"));
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UWBP_RadialSelect_C::SetRadialItemName(int Index)
 
 void UWBP_RadialSelect_C::SetupInputCallout(class UWBP_InputCallout_C* InputCallout, class APUMG_HUD* HUD, TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.SetupInputCallout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.SetupInputCallout"));
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UWBP_RadialSelect_C::SetupInputCallout(class UWBP_InputCallout_C* InputCall
 
 bool UWBP_RadialSelect_C::IsSelectorVisible()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.IsSelectorVisible");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.IsSelectorVisible"));
 
 	struct
 	{
@@ -304,7 +304,7 @@ bool UWBP_RadialSelect_C::IsSelectorVisible()
 
 void UWBP_RadialSelect_C::ShowRadialMenuCycle(bool Show)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.ShowRadialMenuCycle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.ShowRadialMenuCycle"));
 
 	struct
 	{
@@ -326,7 +326,7 @@ void UWBP_RadialSelect_C::ShowRadialMenuCycle(bool Show)
 
 void UWBP_RadialSelect_C::Get_Radial_Item_Name_from_Player_Controller(int Index, class AKSPlayerController* KSPlayerController, struct FText* RadialItemName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.Get Radial Item Name from Player Controller");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.Get Radial Item Name from Player Controller"));
 
 	struct
 	{
@@ -353,7 +353,7 @@ void UWBP_RadialSelect_C::Get_Radial_Item_Name_from_Player_Controller(int Index,
 
 void UWBP_RadialSelect_C::GetTextForCosmeticSlot(EMercCosmeticSlot CosmeticSlot, struct FText* Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.GetTextForCosmeticSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.GetTextForCosmeticSlot"));
 
 	struct
 	{
@@ -375,7 +375,7 @@ void UWBP_RadialSelect_C::GetTextForCosmeticSlot(EMercCosmeticSlot CosmeticSlot,
 
 void UWBP_RadialSelect_C::SetRadialMenuNames()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.SetRadialMenuNames");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.SetRadialMenuNames"));
 
 	struct
 	{
@@ -393,7 +393,7 @@ void UWBP_RadialSelect_C::SetRadialMenuNames()
 
 float UWBP_RadialSelect_C::GetDeadZone()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.GetDeadZone");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.GetDeadZone"));
 
 	struct
 	{
@@ -412,7 +412,7 @@ float UWBP_RadialSelect_C::GetDeadZone()
 
 void UWBP_RadialSelect_C::RefreshOptions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.RefreshOptions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.RefreshOptions"));
 
 	struct
 	{
@@ -430,7 +430,7 @@ void UWBP_RadialSelect_C::RefreshOptions()
 
 int UWBP_RadialSelect_C::GetOptionsCount()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.GetOptionsCount");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.GetOptionsCount"));
 
 	struct
 	{
@@ -451,7 +451,7 @@ int UWBP_RadialSelect_C::GetOptionsCount()
 
 float UWBP_RadialSelect_C::GetWheelSize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.GetWheelSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.GetWheelSize"));
 
 	struct
 	{
@@ -472,7 +472,7 @@ float UWBP_RadialSelect_C::GetWheelSize()
 
 void UWBP_RadialSelect_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.PreConstruct"));
 
 	struct
 	{
@@ -490,7 +490,7 @@ void UWBP_RadialSelect_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RadialSelect_C::HideSelector()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.HideSelector");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.HideSelector"));
 
 	struct
 	{
@@ -506,7 +506,7 @@ void UWBP_RadialSelect_C::HideSelector()
 
 void UWBP_RadialSelect_C::ShowSelector()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.ShowSelector");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.ShowSelector"));
 
 	struct
 	{
@@ -524,7 +524,7 @@ void UWBP_RadialSelect_C::ShowSelector()
 
 void UWBP_RadialSelect_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.InitializeWidget"));
 
 	struct
 	{
@@ -542,7 +542,7 @@ void UWBP_RadialSelect_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RadialSelect_C::RadialOptionUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.RadialOptionUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.RadialOptionUnhover"));
 
 	struct
 	{
@@ -560,7 +560,7 @@ void UWBP_RadialSelect_C::RadialOptionUnhover()
 
 void UWBP_RadialSelect_C::RadialOptionSelected(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.RadialOptionSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.RadialOptionSelected"));
 
 	struct
 	{
@@ -580,7 +580,7 @@ void UWBP_RadialSelect_C::RadialOptionSelected(int Index)
 
 void UWBP_RadialSelect_C::RadialOptionHovered(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.RadialOptionHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.RadialOptionHovered"));
 
 	struct
 	{
@@ -601,7 +601,7 @@ void UWBP_RadialSelect_C::RadialOptionHovered(int Index)
 
 void UWBP_RadialSelect_C::TraceSelectionCursor(float Radius, float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.TraceSelectionCursor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.TraceSelectionCursor"));
 
 	struct
 	{
@@ -623,7 +623,7 @@ void UWBP_RadialSelect_C::TraceSelectionCursor(float Radius, float Angle)
 
 void UWBP_RadialSelect_C::Handle_Equipment_Change(class AKSEquipment* AddedEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.Handle Equipment Change");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.Handle Equipment Change"));
 
 	struct
 	{
@@ -641,7 +641,7 @@ void UWBP_RadialSelect_C::Handle_Equipment_Change(class AKSEquipment* AddedEquip
 
 void UWBP_RadialSelect_C::ChangeToNewRadialMenu()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.ChangeToNewRadialMenu");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.ChangeToNewRadialMenu"));
 
 	struct
 	{
@@ -659,7 +659,7 @@ void UWBP_RadialSelect_C::ChangeToNewRadialMenu()
 
 void UWBP_RadialSelect_C::OnCycledMenus(bool bCycledRight)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.OnCycledMenus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.OnCycledMenus"));
 
 	struct
 	{
@@ -679,7 +679,7 @@ void UWBP_RadialSelect_C::OnCycledMenus(bool bCycledRight)
 
 void UWBP_RadialSelect_C::SetupForRadialWheelMode(ERadialWheelMode NewRadialWheelMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.SetupForRadialWheelMode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.SetupForRadialWheelMode"));
 
 	struct
 	{
@@ -697,7 +697,7 @@ void UWBP_RadialSelect_C::SetupForRadialWheelMode(ERadialWheelMode NewRadialWhee
 
 void UWBP_RadialSelect_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -717,7 +717,7 @@ void UWBP_RadialSelect_C::InitializeWidgetNavigation()
 
 void UWBP_RadialSelect_C::Handle_View_State_Changed(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.Handle View State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.Handle View State Changed"));
 
 	struct
 	{
@@ -741,7 +741,7 @@ void UWBP_RadialSelect_C::Handle_View_State_Changed(const struct FName& CurrentR
 
 void UWBP_RadialSelect_C::ExecuteUbergraph_WBP_RadialSelect(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.ExecuteUbergraph_WBP_RadialSelect");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialSelect.WBP_RadialSelect_C.ExecuteUbergraph_WBP_RadialSelect"));
 
 	struct
 	{

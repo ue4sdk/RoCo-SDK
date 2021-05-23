@@ -19,7 +19,7 @@ namespace SDK
 
 void UBaseSpawnSelectorComponent_C::Create_Alignment_Spawn_Rule(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Alignment Spawn Rule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Alignment Spawn Rule"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UBaseSpawnSelectorComponent_C::Create_Alignment_Spawn_Rule(struct FKSSpawnS
 
 void UBaseSpawnSelectorComponent_C::Create_Enemy_Player_Spawn_Rule(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Enemy Player Spawn Rule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Enemy Player Spawn Rule"));
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UBaseSpawnSelectorComponent_C::Create_Enemy_Player_Spawn_Rule(struct FKSSpa
 
 void UBaseSpawnSelectorComponent_C::Create_Enemy_Player_Proximity_Rule(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Enemy Player Proximity Rule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Enemy Player Proximity Rule"));
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UBaseSpawnSelectorComponent_C::Create_Enemy_Player_Proximity_Rule(struct FK
 
 void UBaseSpawnSelectorComponent_C::Create_Friendly_Player_Death_Rule(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Friendly Player Death Rule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Friendly Player Death Rule"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UBaseSpawnSelectorComponent_C::Create_Friendly_Player_Death_Rule(struct FKS
 
 void UBaseSpawnSelectorComponent_C::Create_Self_Player_Death_Rule(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Self Player Death Rule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Self Player Death Rule"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UBaseSpawnSelectorComponent_C::Create_Self_Player_Death_Rule(struct FKSSpaw
 
 void UBaseSpawnSelectorComponent_C::Create_Objective_Proximity_Rule(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Objective Proximity Rule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Objective Proximity Rule"));
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UBaseSpawnSelectorComponent_C::Create_Objective_Proximity_Rule(struct FKSSp
 
 void UBaseSpawnSelectorComponent_C::Create_Friendly_Player_Spawn_Rule(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Friendly Player Spawn Rule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Friendly Player Spawn Rule"));
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UBaseSpawnSelectorComponent_C::Create_Friendly_Player_Spawn_Rule(struct FKS
 
 void UBaseSpawnSelectorComponent_C::Create_Friendly_Player_Proximity_Rule(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Friendly Player Proximity Rule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.Create Friendly Player Proximity Rule"));
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UBaseSpawnSelectorComponent_C::Create_Friendly_Player_Proximity_Rule(struct
 
 void UBaseSpawnSelectorComponent_C::On_Create_Game_Spawn_Selector_Tier(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Game Spawn Selector Tier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Game Spawn Selector Tier"));
 
 	struct
 	{
@@ -217,7 +217,7 @@ void UBaseSpawnSelectorComponent_C::On_Create_Game_Spawn_Selector_Tier(struct FK
 
 void UBaseSpawnSelectorComponent_C::On_Create_Vacant_Spawn_Selector_Tier(const struct FKSSpawnSelectorTier& SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Vacant Spawn Selector Tier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Vacant Spawn Selector Tier"));
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UBaseSpawnSelectorComponent_C::On_Create_Vacant_Spawn_Selector_Tier(const s
 
 void UBaseSpawnSelectorComponent_C::On_Create_Bot_Spawn_Selector_Tier(const struct FKSSpawnSelectorTier& SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Bot Spawn Selector Tier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Bot Spawn Selector Tier"));
 
 	struct
 	{
@@ -257,7 +257,7 @@ void UBaseSpawnSelectorComponent_C::On_Create_Bot_Spawn_Selector_Tier(const stru
 
 void UBaseSpawnSelectorComponent_C::On_Create_Side_Spawn_Selector_Tier(const struct FKSSpawnSelectorTier& SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Side Spawn Selector Tier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Side Spawn Selector Tier"));
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UBaseSpawnSelectorComponent_C::On_Create_Side_Spawn_Selector_Tier(const str
 
 void UBaseSpawnSelectorComponent_C::On_Create_Respawn_Spawn_Selector_Tier(struct FKSSpawnSelectorTier* SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Respawn Spawn Selector Tier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create Respawn Spawn Selector Tier"));
 
 	struct
 	{
@@ -299,7 +299,7 @@ void UBaseSpawnSelectorComponent_C::On_Create_Respawn_Spawn_Selector_Tier(struct
 
 void UBaseSpawnSelectorComponent_C::On_Create_PIE_Spawn_Selector_Tier(const struct FKSSpawnSelectorTier& SpawnSelectorTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create PIE Spawn Selector Tier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.On Create PIE Spawn Selector Tier"));
 
 	struct
 	{
@@ -317,7 +317,7 @@ void UBaseSpawnSelectorComponent_C::On_Create_PIE_Spawn_Selector_Tier(const stru
 
 void UBaseSpawnSelectorComponent_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -335,7 +335,7 @@ void UBaseSpawnSelectorComponent_C::ReceiveBeginPlay()
 
 void UBaseSpawnSelectorComponent_C::ExecuteUbergraph_BaseSpawnSelectorComponent(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.ExecuteUbergraph_BaseSpawnSelectorComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C.ExecuteUbergraph_BaseSpawnSelectorComponent"));
 
 	struct
 	{

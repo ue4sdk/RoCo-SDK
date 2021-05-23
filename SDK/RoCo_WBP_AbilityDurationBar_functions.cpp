@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_AbilityDurationBar_C::SetDurationBar(float Duration, class UKSItem* KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.SetDurationBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.SetDurationBar"));
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UWBP_AbilityDurationBar_C::SetDurationBar(float Duration, class UKSItem* KS
 
 void UWBP_AbilityDurationBar_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.Tick"));
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UWBP_AbilityDurationBar_C::Tick(const struct FGeometry& MyGeometry, float I
 
 void UWBP_AbilityDurationBar_C::OpenUpdateGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.OpenUpdateGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.OpenUpdateGate"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_AbilityDurationBar_C::OpenUpdateGate()
 
 void UWBP_AbilityDurationBar_C::CloseUpdateGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.CloseUpdateGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.CloseUpdateGate"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_AbilityDurationBar_C::CloseUpdateGate()
 
 void UWBP_AbilityDurationBar_C::UpdateDurationDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.UpdateDurationDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.UpdateDurationDisplay"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_AbilityDurationBar_C::UpdateDurationDisplay()
 
 void UWBP_AbilityDurationBar_C::HideDurationBar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.HideDurationBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.HideDurationBar"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_AbilityDurationBar_C::HideDurationBar()
 
 void UWBP_AbilityDurationBar_C::HandleModActivated(bool Activated)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.HandleModActivated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.HandleModActivated"));
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UWBP_AbilityDurationBar_C::HandleModActivated(bool Activated)
 
 void UWBP_AbilityDurationBar_C::SetupDurationBar(class UKSModInst_Activated* ModInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.SetupDurationBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.SetupDurationBar"));
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_AbilityDurationBar_C::SetupDurationBar(class UKSModInst_Activated* Mod
 
 void UWBP_AbilityDurationBar_C::ExecuteUbergraph_WBP_AbilityDurationBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.ExecuteUbergraph_WBP_AbilityDurationBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.ExecuteUbergraph_WBP_AbilityDurationBar"));
 
 	struct
 	{

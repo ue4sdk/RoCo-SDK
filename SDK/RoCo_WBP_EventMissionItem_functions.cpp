@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_EventMissionItem_C::SetIsSelectedVisualState(bool IsSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.SetIsSelectedVisualState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.SetIsSelectedVisualState"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_EventMissionItem_C::SetIsSelectedVisualState(bool IsSelected)
 
 void UWBP_EventMissionItem_C::Populate_Slot(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.Populate Slot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.Populate Slot"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_EventMissionItem_C::Populate_Slot(class UKSActivityInstance* ActivityI
 
 void UWBP_EventMissionItem_C::FormatMissionText(const struct FText& BaseText, struct FText* FormattedText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.FormatMissionText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.FormatMissionText"));
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UWBP_EventMissionItem_C::FormatMissionText(const struct FText& BaseText, st
 
 void UWBP_EventMissionItem_C::SetVisualState(TEnumAsByte<EChallengeEntry_Card_State> CurrentState, bool IsPremium, bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.SetVisualState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.SetVisualState"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_EventMissionItem_C::SetVisualState(TEnumAsByte<EChallengeEntry_Card_St
 
 void UWBP_EventMissionItem_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.PreConstruct"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_EventMissionItem_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_EventMissionItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UWBP_EventMissionItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnB
 
 void UWBP_EventMissionItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -160,7 +160,7 @@ void UWBP_EventMissionItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnB
 
 void UWBP_EventMissionItem_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.GamepadHover"));
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_EventMissionItem_C::GamepadHover()
 
 void UWBP_EventMissionItem_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.GamepadUnhover"));
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_EventMissionItem_C::GamepadUnhover()
 
 void UWBP_EventMissionItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UWBP_EventMissionItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnB
 
 void UWBP_EventMissionItem_C::ExecuteUbergraph_WBP_EventMissionItem(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.ExecuteUbergraph_WBP_EventMissionItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.ExecuteUbergraph_WBP_EventMissionItem"));
 
 	struct
 	{
@@ -231,7 +231,7 @@ void UWBP_EventMissionItem_C::ExecuteUbergraph_WBP_EventMissionItem(int EntryPoi
 
 void UWBP_EventMissionItem_C::OnButtonFocused__DelegateSignature(class UKSActivityInstance* ActivityInstance, class UWBP_EventMissionItem_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionItem.WBP_EventMissionItem_C.OnButtonFocused__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionItem.WBP_EventMissionItem_C.OnButtonFocused__DelegateSignature"));
 
 	struct
 	{

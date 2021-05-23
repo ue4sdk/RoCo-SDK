@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("DynamicClass Int_InWorld_Reticle.Int_InWorld_Reticle_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass Int_InWorld_Reticle.Int_InWorld_Reticle_C"));
 		return ptr;
 	}
 

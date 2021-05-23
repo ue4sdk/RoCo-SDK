@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PlayerIdentity_Title_C::SetTitle(class UKSTitle* Title)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Title.WBP_PlayerIdentity_Title_C.SetTitle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Title.WBP_PlayerIdentity_Title_C.SetTitle"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_PlayerIdentity_Title_C::SetTitle(class UKSTitle* Title)
 
 void UWBP_PlayerIdentity_Title_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Title.WBP_PlayerIdentity_Title_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Title.WBP_PlayerIdentity_Title_C.Construct"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_PlayerIdentity_Title_C::Construct()
 
 void UWBP_PlayerIdentity_Title_C::ExecuteUbergraph_WBP_PlayerIdentity_Title(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Title.WBP_PlayerIdentity_Title_C.ExecuteUbergraph_WBP_PlayerIdentity_Title");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Title.WBP_PlayerIdentity_Title_C.ExecuteUbergraph_WBP_PlayerIdentity_Title"));
 
 	struct
 	{

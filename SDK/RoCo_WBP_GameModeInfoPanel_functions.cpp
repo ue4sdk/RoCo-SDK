@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_GameModeInfoPanel_C::GetQueueImageById(int QueueId, class UTexture2D** QueueImage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_GameModeInfoPanel.WBP_GameModeInfoPanel_C.GetQueueImageById");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_GameModeInfoPanel.WBP_GameModeInfoPanel_C.GetQueueImageById"));
 
 	struct
 	{
@@ -48,7 +48,7 @@ void UWBP_GameModeInfoPanel_C::GetQueueImageById(int QueueId, class UTexture2D**
 
 void UWBP_GameModeInfoPanel_C::SetDisplayInfo(const struct FText& Title, const struct FText& Description, TSoftObjectPtr<class UTexture2D> Icon, bool UseMapImage, const struct FUIMapInfo& MapInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_GameModeInfoPanel.WBP_GameModeInfoPanel_C.SetDisplayInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_GameModeInfoPanel.WBP_GameModeInfoPanel_C.SetDisplayInfo"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_GameModeInfoPanel_C::SetDisplayInfo(const struct FText& Title, const s
 
 void UWBP_GameModeInfoPanel_C::SetQueueInfo(const struct FClientQueueInfo& QueueInfo, bool UseMapImage, const struct FUIMapInfo& MapInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_GameModeInfoPanel.WBP_GameModeInfoPanel_C.SetQueueInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_GameModeInfoPanel.WBP_GameModeInfoPanel_C.SetQueueInfo"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWBP_GameModeInfoPanel_C::SetQueueInfo(const struct FClientQueueInfo& Queue
 
 void UWBP_GameModeInfoPanel_C::ExecuteUbergraph_WBP_GameModeInfoPanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_GameModeInfoPanel.WBP_GameModeInfoPanel_C.ExecuteUbergraph_WBP_GameModeInfoPanel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_GameModeInfoPanel.WBP_GameModeInfoPanel_C.ExecuteUbergraph_WBP_GameModeInfoPanel"));
 
 	struct
 	{

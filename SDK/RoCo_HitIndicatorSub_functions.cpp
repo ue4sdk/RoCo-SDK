@@ -19,7 +19,7 @@ namespace SDK
 
 void UHitIndicatorSub_C::PlayerIsBlinded(bool* IsBlinded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HitIndicatorSub.HitIndicatorSub_C.PlayerIsBlinded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndicatorSub.HitIndicatorSub_C.PlayerIsBlinded"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UHitIndicatorSub_C::PlayerIsBlinded(bool* IsBlinded)
 
 void UHitIndicatorSub_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HitIndicatorSub.HitIndicatorSub_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndicatorSub.HitIndicatorSub_C.Tick"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UHitIndicatorSub_C::Tick(const struct FGeometry& MyGeometry, float InDeltaT
 
 void UHitIndicatorSub_C::WidgetAnimationEvt_Fade_K2Node_WidgetAnimationEvent_1()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HitIndicatorSub.HitIndicatorSub_C.WidgetAnimationEvt_Fade_K2Node_WidgetAnimationEvent_1");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndicatorSub.HitIndicatorSub_C.WidgetAnimationEvt_Fade_K2Node_WidgetAnimationEvent_1"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UHitIndicatorSub_C::WidgetAnimationEvt_Fade_K2Node_WidgetAnimationEvent_1()
 
 void UHitIndicatorSub_C::StartDamageAnim(const struct FVector& InHitLocation, bool bInIsArmorHit)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HitIndicatorSub.HitIndicatorSub_C.StartDamageAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndicatorSub.HitIndicatorSub_C.StartDamageAnim"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UHitIndicatorSub_C::StartDamageAnim(const struct FVector& InHitLocation, bo
 
 void UHitIndicatorSub_C::ExecuteUbergraph_HitIndicatorSub(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HitIndicatorSub.HitIndicatorSub_C.ExecuteUbergraph_HitIndicatorSub");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndicatorSub.HitIndicatorSub_C.ExecuteUbergraph_HitIndicatorSub"));
 
 	struct
 	{

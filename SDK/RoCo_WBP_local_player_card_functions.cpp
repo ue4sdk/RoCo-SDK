@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_local_player_card_C::UpdatePendingPurchaseWarning()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_local_player_card.WBP_local_player_card_C.UpdatePendingPurchaseWarning");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_local_player_card.WBP_local_player_card_C.UpdatePendingPurchaseWarning"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_local_player_card_C::UpdatePendingPurchaseWarning()
 
 void UWBP_local_player_card_C::SetPlayerAvatar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_local_player_card.WBP_local_player_card_C.SetPlayerAvatar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_local_player_card.WBP_local_player_card_C.SetPlayerAvatar"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_local_player_card_C::SetPlayerAvatar()
 
 void UWBP_local_player_card_C::SetPlayerCurrency()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_local_player_card.WBP_local_player_card_C.SetPlayerCurrency");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_local_player_card.WBP_local_player_card_C.SetPlayerCurrency"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_local_player_card_C::SetPlayerCurrency()
 
 void UWBP_local_player_card_C::SetPlayerLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_local_player_card.WBP_local_player_card_C.SetPlayerLevel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_local_player_card.WBP_local_player_card_C.SetPlayerLevel"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_local_player_card_C::SetPlayerLevel()
 
 void UWBP_local_player_card_C::SetPlayerInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_local_player_card.WBP_local_player_card_C.SetPlayerInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_local_player_card.WBP_local_player_card_C.SetPlayerInfo"));
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_local_player_card_C::SetPlayerInfo()
 
 void UWBP_local_player_card_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_local_player_card.WBP_local_player_card_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_local_player_card.WBP_local_player_card_C.InitializeWidget"));
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_local_player_card_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_local_player_card_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_local_player_card.WBP_local_player_card_C.UninitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_local_player_card.WBP_local_player_card_C.UninitializeWidget"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_local_player_card_C::UninitializeWidget()
 
 void UWBP_local_player_card_C::ExecuteUbergraph_WBP_local_player_card(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_local_player_card.WBP_local_player_card_C.ExecuteUbergraph_WBP_local_player_card");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_local_player_card.WBP_local_player_card_C.ExecuteUbergraph_WBP_local_player_card"));
 
 	struct
 	{

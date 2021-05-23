@@ -31,7 +31,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass GamepadPrompt_Bright.GamepadPrompt_Bright_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass GamepadPrompt_Bright.GamepadPrompt_Bright_C"));
 		return ptr;
 	}
 

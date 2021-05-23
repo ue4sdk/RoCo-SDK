@@ -17,7 +17,7 @@ namespace SDK
 
 void UOutBound_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.Construct"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UOutBound_C::Construct()
 
 void UOutBound_C::HandleOutBoundsStart()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.HandleOutBoundsStart");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.HandleOutBoundsStart"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UOutBound_C::HandleOutBoundsStart()
 
 void UOutBound_C::HandleOutBoundsWarningEnd(class AKSCharacter* Character)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.HandleOutBoundsWarningEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.HandleOutBoundsWarningEnd"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UOutBound_C::HandleOutBoundsWarningEnd(class AKSCharacter* Character)
 
 void UOutBound_C::HandleOutBoundsEnd()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.HandleOutBoundsEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.HandleOutBoundsEnd"));
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UOutBound_C::HandleOutBoundsEnd()
 
 void UOutBound_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.Tick"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UOutBound_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 void UOutBound_C::OpenGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.OpenGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.OpenGate"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UOutBound_C::OpenGate()
 
 void UOutBound_C::CloseGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.CloseGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.CloseGate"));
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UOutBound_C::CloseGate()
 
 void UOutBound_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.PostSetPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.PostSetPawn"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UOutBound_C::PostSetPawn()
 
 void UOutBound_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.PreClearPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.PreClearPawn"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UOutBound_C::PreClearPawn()
 
 void UOutBound_C::ExecuteUbergraph_OutBound(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function OutBound.OutBound_C.ExecuteUbergraph_OutBound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function OutBound.OutBound_C.ExecuteUbergraph_OutBound"));
 
 	struct
 	{

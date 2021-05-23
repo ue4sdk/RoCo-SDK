@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ItemInfoContainer_Centered_C::Refresh_Rarity_Text()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.Refresh Rarity Text");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.Refresh Rarity Text"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_ItemInfoContainer_Centered_C::Refresh_Rarity_Text()
 
 void UWBP_ItemInfoContainer_Centered_C::SetItemRarityInfo(const struct FGameplayTagContainer& RarityTag)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.SetItemRarityInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.SetItemRarityInfo"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_ItemInfoContainer_Centered_C::SetItemRarityInfo(const struct FGameplay
 
 void UWBP_ItemInfoContainer_Centered_C::SetInfoFieldData(class UPUMG_StoreItem* StoreItem, int Quantity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.SetInfoFieldData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.SetInfoFieldData"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_ItemInfoContainer_Centered_C::SetInfoFieldData(class UPUMG_StoreItem* 
 
 void UWBP_ItemInfoContainer_Centered_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.PreConstruct"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_ItemInfoContainer_Centered_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ItemInfoContainer_Centered_C::ExecuteUbergraph_WBP_ItemInfoContainer_Centered(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.ExecuteUbergraph_WBP_ItemInfoContainer_Centered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer_Centered.WBP_ItemInfoContainer_Centered_C.ExecuteUbergraph_WBP_ItemInfoContainer_Centered"));
 
 	struct
 	{

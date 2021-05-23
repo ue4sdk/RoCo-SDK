@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_KSCosmeticItemDisplay_C::SetRarity(const struct FGameplayTagContainer& GameplayTag)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetRarity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetRarity"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetRarity(const struct FGameplayTagContainer&
 
 void UWBP_KSCosmeticItemDisplay_C::SetHeaderSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetHeaderSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetHeaderSlot"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetHeaderSlot()
 
 void UWBP_KSCosmeticItemDisplay_C::SetupPriceData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetupPriceData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetupPriceData"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetupPriceData()
 
 void UWBP_KSCosmeticItemDisplay_C::SetIsOwned(bool IsOwned)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetIsOwned");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetIsOwned"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetIsOwned(bool IsOwned)
 
 void UWBP_KSCosmeticItemDisplay_C::SetQuantityText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetQuantityText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetQuantityText"));
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetQuantityText()
 
 void UWBP_KSCosmeticItemDisplay_C::SetFreeLabel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetFreeLabel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetFreeLabel"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetFreeLabel()
 
 void UWBP_KSCosmeticItemDisplay_C::ReverseBackgroundHoverNoZoom()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.ReverseBackgroundHoverNoZoom");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.ReverseBackgroundHoverNoZoom"));
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UWBP_KSCosmeticItemDisplay_C::ReverseBackgroundHoverNoZoom()
 
 void UWBP_KSCosmeticItemDisplay_C::BackgroundHoverNoZoom()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.BackgroundHoverNoZoom");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.BackgroundHoverNoZoom"));
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UWBP_KSCosmeticItemDisplay_C::BackgroundHoverNoZoom()
 
 void UWBP_KSCosmeticItemDisplay_C::SetItemOwned(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetItemOwned");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetItemOwned"));
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetItemOwned(class UPUMG_StoreItem* StoreItem
 
 bool UWBP_KSCosmeticItemDisplay_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.NavigateConfirm"));
 
 	struct
 	{
@@ -194,7 +194,7 @@ bool UWBP_KSCosmeticItemDisplay_C::NavigateConfirm()
 
 void UWBP_KSCosmeticItemDisplay_C::ResetSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.ResetSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.ResetSlot"));
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UWBP_KSCosmeticItemDisplay_C::ResetSlot()
 
 void UWBP_KSCosmeticItemDisplay_C::SetWeaponSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetWeaponSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetWeaponSlot"));
 
 	struct
 	{
@@ -229,7 +229,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetWeaponSlot()
 
 void UWBP_KSCosmeticItemDisplay_C::SetCornerIcon(bool bShowIcon, struct FSoftObjectPath* Soft_Image_Path)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetCornerIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetCornerIcon"));
 
 	struct
 	{
@@ -251,7 +251,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetCornerIcon(bool bShowIcon, struct FSoftObj
 
 void UWBP_KSCosmeticItemDisplay_C::SetCosmeticSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetCosmeticSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetCosmeticSlot"));
 
 	struct
 	{
@@ -267,7 +267,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetCosmeticSlot()
 
 void UWBP_KSCosmeticItemDisplay_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnClickSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnClickSound"));
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UWBP_KSCosmeticItemDisplay_C::OnClickSound()
 
 void UWBP_KSCosmeticItemDisplay_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnHoverSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnHoverSound"));
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_KSCosmeticItemDisplay_C::OnHoverSound()
 
 void UWBP_KSCosmeticItemDisplay_C::PopulateSlot(class UPlatformInventoryItem* PlatformItem, class UKSJobItem* AssiocatedJobItem, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.PopulateSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.PopulateSlot"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void UWBP_KSCosmeticItemDisplay_C::PopulateSlot(class UPlatformInventoryItem* Pl
 
 void UWBP_KSCosmeticItemDisplay_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.Construct"));
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UWBP_KSCosmeticItemDisplay_C::Construct()
 
 void UWBP_KSCosmeticItemDisplay_C::OnHovered(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnHovered"));
 
 	struct
 	{
@@ -361,7 +361,7 @@ void UWBP_KSCosmeticItemDisplay_C::OnHovered(bool IsGamepad)
 
 void UWBP_KSCosmeticItemDisplay_C::OnButtonUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnButtonUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnButtonUnhovered"));
 
 	struct
 	{
@@ -379,7 +379,7 @@ void UWBP_KSCosmeticItemDisplay_C::OnButtonUnhovered()
 
 void UWBP_KSCosmeticItemDisplay_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.InitializeWidget"));
 
 	struct
 	{
@@ -399,7 +399,7 @@ void UWBP_KSCosmeticItemDisplay_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_KSCosmeticItemDisplay_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.PreConstruct"));
 
 	struct
 	{
@@ -417,7 +417,7 @@ void UWBP_KSCosmeticItemDisplay_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_KSCosmeticItemDisplay_C::OnButtonClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnButtonClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnButtonClicked"));
 
 	struct
 	{
@@ -433,7 +433,7 @@ void UWBP_KSCosmeticItemDisplay_C::OnButtonClicked()
 
 void UWBP_KSCosmeticItemDisplay_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.GamepadHover"));
 
 	struct
 	{
@@ -449,7 +449,7 @@ void UWBP_KSCosmeticItemDisplay_C::GamepadHover()
 
 void UWBP_KSCosmeticItemDisplay_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.GamepadUnhover"));
 
 	struct
 	{
@@ -465,7 +465,7 @@ void UWBP_KSCosmeticItemDisplay_C::GamepadUnhover()
 
 void UWBP_KSCosmeticItemDisplay_C::CallHovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.CallHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.CallHovered"));
 
 	struct
 	{
@@ -481,7 +481,7 @@ void UWBP_KSCosmeticItemDisplay_C::CallHovered()
 
 void UWBP_KSCosmeticItemDisplay_C::CallUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.CallUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.CallUnhovered"));
 
 	struct
 	{
@@ -499,7 +499,7 @@ void UWBP_KSCosmeticItemDisplay_C::CallUnhovered()
 
 void UWBP_KSCosmeticItemDisplay_C::SetSlotActive(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetSlotActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.SetSlotActive"));
 
 	struct
 	{
@@ -519,7 +519,7 @@ void UWBP_KSCosmeticItemDisplay_C::SetSlotActive(bool Active)
 
 void UWBP_KSCosmeticItemDisplay_C::ExecuteUbergraph_WBP_KSCosmeticItemDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.ExecuteUbergraph_WBP_KSCosmeticItemDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.ExecuteUbergraph_WBP_KSCosmeticItemDisplay"));
 
 	struct
 	{
@@ -540,7 +540,7 @@ void UWBP_KSCosmeticItemDisplay_C::ExecuteUbergraph_WBP_KSCosmeticItemDisplay(in
 
 void UWBP_KSCosmeticItemDisplay_C::OnCosmeticClicked__DelegateSignature(class UWBP_KSCosmeticItemDisplay_C* Widget, const struct FCosmeticSlotDetails& CosmeticSlotDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnCosmeticClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnCosmeticClicked__DelegateSignature"));
 
 	struct
 	{
@@ -560,7 +560,7 @@ void UWBP_KSCosmeticItemDisplay_C::OnCosmeticClicked__DelegateSignature(class UW
 
 void UWBP_KSCosmeticItemDisplay_C::OnUnhover__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnUnhover__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnUnhover__DelegateSignature"));
 
 	struct
 	{
@@ -580,7 +580,7 @@ void UWBP_KSCosmeticItemDisplay_C::OnUnhover__DelegateSignature()
 
 void UWBP_KSCosmeticItemDisplay_C::OnHover__DelegateSignature(const struct FCosmeticSlotDetails& CosmeticSlotDetails, bool IsGamepad, class UWBP_KSCosmeticItemDisplay_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnHover__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemDisplay.WBP_KSCosmeticItemDisplay_C.OnHover__DelegateSignature"));
 
 	struct
 	{

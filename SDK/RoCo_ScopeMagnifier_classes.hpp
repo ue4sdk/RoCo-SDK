@@ -32,7 +32,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass ScopeMagnifier.ScopeMagnifier_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass ScopeMagnifier.ScopeMagnifier_C"));
 		return ptr;
 	}
 

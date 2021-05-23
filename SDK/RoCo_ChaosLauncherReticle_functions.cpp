@@ -20,7 +20,7 @@ namespace SDK
 
 void UChaosLauncherReticle_C::GetAmmoState(class UKSWeaponComponent* NewParam, EAmmoState* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosLauncherReticle.ChaosLauncherReticle_C.GetAmmoState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosLauncherReticle.ChaosLauncherReticle_C.GetAmmoState"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UChaosLauncherReticle_C::GetAmmoState(class UKSWeaponComponent* NewParam, E
 
 void UChaosLauncherReticle_C::HitConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosLauncherReticle.ChaosLauncherReticle_C.HitConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosLauncherReticle.ChaosLauncherReticle_C.HitConfirm"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UChaosLauncherReticle_C::HitConfirm()
 
 void UChaosLauncherReticle_C::ForceADS(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosLauncherReticle.ChaosLauncherReticle_C.ForceADS");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosLauncherReticle.ChaosLauncherReticle_C.ForceADS"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UChaosLauncherReticle_C::ForceADS(bool Active)
 
 void UChaosLauncherReticle_C::GrenadeCook(bool Active, float TickPeriod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosLauncherReticle.ChaosLauncherReticle_C.GrenadeCook");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosLauncherReticle.ChaosLauncherReticle_C.GrenadeCook"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UChaosLauncherReticle_C::GrenadeCook(bool Active, float TickPeriod)
 
 void UChaosLauncherReticle_C::ChangeADS(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosLauncherReticle.ChaosLauncherReticle_C.ChangeADS");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosLauncherReticle.ChaosLauncherReticle_C.ChangeADS"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UChaosLauncherReticle_C::ChangeADS(bool Active)
 
 void UChaosLauncherReticle_C::KillConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosLauncherReticle.ChaosLauncherReticle_C.KillConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosLauncherReticle.ChaosLauncherReticle_C.KillConfirm"));
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UChaosLauncherReticle_C::KillConfirm()
 
 void UChaosLauncherReticle_C::Headshot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosLauncherReticle.ChaosLauncherReticle_C.Headshot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosLauncherReticle.ChaosLauncherReticle_C.Headshot"));
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UChaosLauncherReticle_C::Headshot()
 
 void UChaosLauncherReticle_C::UpdateOffset(float Offset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosLauncherReticle.ChaosLauncherReticle_C.UpdateOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosLauncherReticle.ChaosLauncherReticle_C.UpdateOffset"));
 
 	struct
 	{

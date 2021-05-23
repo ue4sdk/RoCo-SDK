@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class HiRezAnimationCommon.HiRezAnimationStatics");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class HiRezAnimationCommon.HiRezAnimationStatics"));
 		return ptr;
 	}
 
@@ -45,7 +45,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class HiRezAnimationCommon.HRA_AnimNotify_PlayCameraAnim");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class HiRezAnimationCommon.HRA_AnimNotify_PlayCameraAnim"));
 		return ptr;
 	}
 

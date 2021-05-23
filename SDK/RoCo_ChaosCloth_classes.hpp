@@ -50,7 +50,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ChaosCloth.ChaosClothConfig");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosCloth.ChaosClothConfig"));
 		return ptr;
 	}
 
@@ -79,7 +79,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ChaosCloth.ChaosClothSharedSimConfig");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosCloth.ChaosClothSharedSimConfig"));
 		return ptr;
 	}
 
@@ -94,7 +94,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ChaosCloth.ChaosClothingSimulationFactory");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosCloth.ChaosClothingSimulationFactory"));
 		return ptr;
 	}
 
@@ -110,7 +110,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ChaosCloth.ChaosClothingSimulationInteractor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosCloth.ChaosClothingSimulationInteractor"));
 		return ptr;
 	}
 

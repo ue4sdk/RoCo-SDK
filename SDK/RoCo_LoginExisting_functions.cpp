@@ -17,7 +17,7 @@ namespace SDK
 
 void ULoginExisting_C::SetCacheErrorMsg()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.SetCacheErrorMsg");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.SetCacheErrorMsg"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void ULoginExisting_C::SetCacheErrorMsg()
 
 void ULoginExisting_C::UpdatePlayerName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.UpdatePlayerName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.UpdatePlayerName"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void ULoginExisting_C::UpdatePlayerName()
 
 bool ULoginExisting_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.NavigateBack"));
 
 	struct
 	{
@@ -72,7 +72,7 @@ bool ULoginExisting_C::NavigateBack()
 
 bool ULoginExisting_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.NavigateConfirm"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ bool ULoginExisting_C::NavigateConfirm()
 
 void ULoginExisting_C::SetPlatformSpecificInterface()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.SetPlatformSpecificInterface");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.SetPlatformSpecificInterface"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void ULoginExisting_C::SetPlatformSpecificInterface()
 
 void ULoginExisting_C::HandleLoginError(const struct FText& ErrorMsg)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.HandleLoginError");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.HandleLoginError"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void ULoginExisting_C::HandleLoginError(const struct FText& ErrorMsg)
 
 void ULoginExisting_C::BndEvt__PopupButton_C_233_K2Node_ComponentBoundEvent_38_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.BndEvt__PopupButton_C_233_K2Node_ComponentBoundEvent_38_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.BndEvt__PopupButton_C_233_K2Node_ComponentBoundEvent_38_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void ULoginExisting_C::BndEvt__PopupButton_C_233_K2Node_ComponentBoundEvent_38_O
 
 void ULoginExisting_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void ULoginExisting_C::InitializeWidgetNavigation()
 
 void ULoginExisting_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.OnShown"));
 
 	struct
 	{
@@ -182,7 +182,7 @@ void ULoginExisting_C::OnShown()
 
 void ULoginExisting_C::BndEvt__PasswordField_K2Node_ComponentBoundEvent_25_OnEditableTextBoxCommittedEvent__DelegateSignature(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.BndEvt__PasswordField_K2Node_ComponentBoundEvent_25_OnEditableTextBoxCommittedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.BndEvt__PasswordField_K2Node_ComponentBoundEvent_25_OnEditableTextBoxCommittedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void ULoginExisting_C::BndEvt__PasswordField_K2Node_ComponentBoundEvent_25_OnEdi
 
 void ULoginExisting_C::BndEvt__UsernameField_K2Node_ComponentBoundEvent_36_OnEditableTextBoxCommittedEvent__DelegateSignature(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.BndEvt__UsernameField_K2Node_ComponentBoundEvent_36_OnEditableTextBoxCommittedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.BndEvt__UsernameField_K2Node_ComponentBoundEvent_36_OnEditableTextBoxCommittedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -227,7 +227,7 @@ void ULoginExisting_C::BndEvt__UsernameField_K2Node_ComponentBoundEvent_36_OnEdi
 
 void ULoginExisting_C::BndEvt__UsernameField_K2Node_ComponentBoundEvent_60_OnEditableTextBoxChangedEvent__DelegateSignature(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.BndEvt__UsernameField_K2Node_ComponentBoundEvent_60_OnEditableTextBoxChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.BndEvt__UsernameField_K2Node_ComponentBoundEvent_60_OnEditableTextBoxChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -247,7 +247,7 @@ void ULoginExisting_C::BndEvt__UsernameField_K2Node_ComponentBoundEvent_60_OnEdi
 
 void ULoginExisting_C::BndEvt__PasswordField_K2Node_ComponentBoundEvent_63_OnEditableTextBoxChangedEvent__DelegateSignature(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.BndEvt__PasswordField_K2Node_ComponentBoundEvent_63_OnEditableTextBoxChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.BndEvt__PasswordField_K2Node_ComponentBoundEvent_63_OnEditableTextBoxChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -267,7 +267,7 @@ void ULoginExisting_C::BndEvt__PasswordField_K2Node_ComponentBoundEvent_63_OnEdi
 
 void ULoginExisting_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.Handle Input State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.Handle Input State Changed"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void ULoginExisting_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE
 
 void ULoginExisting_C::ConfirmClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.ConfirmClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.ConfirmClicked"));
 
 	struct
 	{
@@ -301,7 +301,7 @@ void ULoginExisting_C::ConfirmClicked()
 
 void ULoginExisting_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.OnHide"));
 
 	struct
 	{
@@ -319,7 +319,7 @@ void ULoginExisting_C::OnHide()
 
 void ULoginExisting_C::BndEvt__PCCreateButton_K2Node_ComponentBoundEvent_57_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.BndEvt__PCCreateButton_K2Node_ComponentBoundEvent_57_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.BndEvt__PCCreateButton_K2Node_ComponentBoundEvent_57_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -339,7 +339,7 @@ void ULoginExisting_C::BndEvt__PCCreateButton_K2Node_ComponentBoundEvent_57_OnCl
 
 void ULoginExisting_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.InitializeWidget"));
 
 	struct
 	{
@@ -357,7 +357,7 @@ void ULoginExisting_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void ULoginExisting_C::BndEvt__AnonLoginButton_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.BndEvt__AnonLoginButton_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.BndEvt__AnonLoginButton_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -373,7 +373,7 @@ void ULoginExisting_C::BndEvt__AnonLoginButton_K2Node_ComponentBoundEvent_10_OnB
 
 void ULoginExisting_C::BndEvt__XboxCalloutWrapper_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.BndEvt__XboxCalloutWrapper_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.BndEvt__XboxCalloutWrapper_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -391,7 +391,7 @@ void ULoginExisting_C::BndEvt__XboxCalloutWrapper_K2Node_ComponentBoundEvent_0_O
 
 void ULoginExisting_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.PreConstruct"));
 
 	struct
 	{
@@ -409,7 +409,7 @@ void ULoginExisting_C::PreConstruct(bool IsDesignTime)
 
 void ULoginExisting_C::OnProfileChangeRequested()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.OnProfileChangeRequested");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.OnProfileChangeRequested"));
 
 	struct
 	{
@@ -425,7 +425,7 @@ void ULoginExisting_C::OnProfileChangeRequested()
 
 void ULoginExisting_C::Gamepad_Select_Username()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.Gamepad Select Username");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.Gamepad Select Username"));
 
 	struct
 	{
@@ -441,7 +441,7 @@ void ULoginExisting_C::Gamepad_Select_Username()
 
 void ULoginExisting_C::Gamepad_Select_Password()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.Gamepad Select Password");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.Gamepad Select Password"));
 
 	struct
 	{
@@ -459,7 +459,7 @@ void ULoginExisting_C::Gamepad_Select_Password()
 
 void ULoginExisting_C::ExecuteUbergraph_LoginExisting(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginExisting.LoginExisting_C.ExecuteUbergraph_LoginExisting");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginExisting.LoginExisting_C.ExecuteUbergraph_LoginExisting"));
 
 	struct
 	{

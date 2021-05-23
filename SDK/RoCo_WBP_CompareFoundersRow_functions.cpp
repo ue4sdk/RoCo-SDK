@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_CompareFoundersRow_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersRow.WBP_CompareFoundersRow_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersRow.WBP_CompareFoundersRow_C.PreConstruct"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_CompareFoundersRow_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_CompareFoundersRow_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersRow.WBP_CompareFoundersRow_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersRow.WBP_CompareFoundersRow_C.Construct"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_CompareFoundersRow_C::Construct()
 
 void UWBP_CompareFoundersRow_C::ExecuteUbergraph_WBP_CompareFoundersRow(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersRow.WBP_CompareFoundersRow_C.ExecuteUbergraph_WBP_CompareFoundersRow");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersRow.WBP_CompareFoundersRow_C.ExecuteUbergraph_WBP_CompareFoundersRow"));
 
 	struct
 	{

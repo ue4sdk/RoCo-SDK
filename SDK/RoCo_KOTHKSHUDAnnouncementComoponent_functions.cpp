@@ -20,7 +20,7 @@ namespace SDK
 
 void UKOTHKSHUDAnnouncementComoponent_C::GetTicketCountsToMessage(class AKSTeamState* ForTeam, TMap<int, struct FText>* NewParam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.GetTicketCountsToMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.GetTicketCountsToMessage"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::GetTicketCountsToMessage(class AKSTeamS
 
 void UKOTHKSHUDAnnouncementComoponent_C::OnTeamRevivesChanged(class AKSTeamState* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.OnTeamRevivesChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.OnTeamRevivesChanged"));
 
 	struct
 	{
@@ -64,7 +64,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::OnTeamRevivesChanged(class AKSTeamState
 
 void UKOTHKSHUDAnnouncementComoponent_C::OnTeamAdded(class AKSTeamState* AddedTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.OnTeamAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.OnTeamAdded"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::OnTeamAdded(class AKSTeamState* AddedTe
 
 void UKOTHKSHUDAnnouncementComoponent_C::BindTeamEvents()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.BindTeamEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.BindTeamEvents"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::BindTeamEvents()
 
 void UKOTHKSHUDAnnouncementComoponent_C::GetTeamsFlippedMessage(struct FText* OutMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.GetTeamsFlippedMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.GetTeamsFlippedMessage"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::GetTeamsFlippedMessage(struct FText* Ou
 
 void UKOTHKSHUDAnnouncementComoponent_C::Try_To_Trigger_Current_Rounds_State()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Try To Trigger Current Rounds State");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Try To Trigger Current Rounds State"));
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::Try_To_Trigger_Current_Rounds_State()
 
 void UKOTHKSHUDAnnouncementComoponent_C::Update_Unlock_Announcements()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Update Unlock Announcements");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Update Unlock Announcements"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::Update_Unlock_Announcements()
 
 void UKOTHKSHUDAnnouncementComoponent_C::ObjectiveTaken(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ObjectiveTaken");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ObjectiveTaken"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::ObjectiveTaken(class AKSControlPoint* C
 
 void UKOTHKSHUDAnnouncementComoponent_C::ObjectiveStartCapture(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ObjectiveStartCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ObjectiveStartCapture"));
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::ObjectiveStartCapture(class AKSControlP
 
 void UKOTHKSHUDAnnouncementComoponent_C::ObjectiveUnlocked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ObjectiveUnlocked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ObjectiveUnlocked"));
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::ObjectiveUnlocked()
 
 void UKOTHKSHUDAnnouncementComoponent_C::OnObjectiveUpdate(class AKSObjectiveBase* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.OnObjectiveUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.OnObjectiveUpdate"));
 
 	struct
 	{
@@ -231,7 +231,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::OnObjectiveUpdate(class AKSObjectiveBas
 
 void UKOTHKSHUDAnnouncementComoponent_C::Round_Over(class AKSGameState* Game_State, const struct FRoundResult& Round_Results)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Round Over");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Round Over"));
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::Round_Over(class AKSGameState* Game_Sta
 
 void UKOTHKSHUDAnnouncementComoponent_C::Round_Setup(const struct FRoundInitState& Round_Init_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Round Setup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Round Setup"));
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::Round_Setup(const struct FRoundInitStat
 
 void UKOTHKSHUDAnnouncementComoponent_C::Round_Start(const struct FRoundInitState& Round_Init_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Round Start");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.Round Start"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::Round_Start(const struct FRoundInitStat
 
 void UKOTHKSHUDAnnouncementComoponent_C::TeamSidesFlipped()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.TeamSidesFlipped");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.TeamSidesFlipped"));
 
 	struct
 	{
@@ -310,7 +310,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::TeamSidesFlipped()
 
 void UKOTHKSHUDAnnouncementComoponent_C::OnPhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.OnPhaseChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.OnPhaseChanged"));
 
 	struct
 	{
@@ -330,7 +330,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::OnPhaseChanged(const struct FName& NewP
 
 void UKOTHKSHUDAnnouncementComoponent_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -348,7 +348,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::ReceiveBeginPlay()
 
 void UKOTHKSHUDAnnouncementComoponent_C::ReceiveTick(float DeltaSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ReceiveTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ReceiveTick"));
 
 	struct
 	{
@@ -368,7 +368,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::ReceiveTick(float DeltaSeconds)
 
 void UKOTHKSHUDAnnouncementComoponent_C::End_Match(int Winning_Team_Number)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.End Match");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.End Match"));
 
 	struct
 	{
@@ -388,7 +388,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::End_Match(int Winning_Team_Number)
 
 void UKOTHKSHUDAnnouncementComoponent_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ReceiveEndPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ReceiveEndPlay"));
 
 	struct
 	{
@@ -408,7 +408,7 @@ void UKOTHKSHUDAnnouncementComoponent_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReas
 
 void UKOTHKSHUDAnnouncementComoponent_C::ExecuteUbergraph_KOTHKSHUDAnnouncementComoponent(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ExecuteUbergraph_KOTHKSHUDAnnouncementComoponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C.ExecuteUbergraph_KOTHKSHUDAnnouncementComoponent"));
 
 	struct
 	{

@@ -21,7 +21,7 @@ namespace SDK
 
 void UWBP_SettingsBinding_C::Set_Desired_Gamepad_Combo(const struct FKey& Gamepad_Key, const struct FKey& Combo_Key, bool* Dirtied)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Set Desired Gamepad Combo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Set Desired Gamepad Combo"));
 
 	struct
 	{
@@ -48,7 +48,7 @@ void UWBP_SettingsBinding_C::Set_Desired_Gamepad_Combo(const struct FKey& Gamepa
 
 void UWBP_SettingsBinding_C::Get_Dirty_Combo_Key(struct FKey* Key, EKSInputActionType* Type)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Get Dirty Combo Key");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Get Dirty Combo Key"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_SettingsBinding_C::Get_Dirty_Combo_Key(struct FKey* Key, EKSInputActio
 
 void UWBP_SettingsBinding_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> Input_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.OnInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.OnInputStateChanged"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_SettingsBinding_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE>
 
 bool UWBP_SettingsBinding_C::CanGamepadNavigate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.CanGamepadNavigate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.CanGamepadNavigate"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ bool UWBP_SettingsBinding_C::CanGamepadNavigate()
 
 void UWBP_SettingsBinding_C::DisableUnbindableKeybinds(class UKSSettingsInfo_Binding* Binding_Settings_Info)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.DisableUnbindableKeybinds");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.DisableUnbindableKeybinds"));
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UWBP_SettingsBinding_C::DisableUnbindableKeybinds(class UKSSettingsInfo_Bin
 
 bool UWBP_SettingsBinding_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.NavigateBack"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ bool UWBP_SettingsBinding_C::NavigateBack()
 
 void UWBP_SettingsBinding_C::Set_Desired_Gamepad_Key(const struct FKey& Key, bool* Dirtied)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Set Desired Gamepad Key");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Set Desired Gamepad Key"));
 
 	struct
 	{
@@ -181,7 +181,7 @@ void UWBP_SettingsBinding_C::Set_Desired_Gamepad_Key(const struct FKey& Key, boo
 
 void UWBP_SettingsBinding_C::Set_Desired_Secondary_Key(const struct FKey& Key, bool* Dirtied)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Set Desired Secondary Key");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Set Desired Secondary Key"));
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_SettingsBinding_C::Set_Desired_Secondary_Key(const struct FKey& Key, b
 
 void UWBP_SettingsBinding_C::Set_Desired_Primary_Key(const struct FKey& Key, bool* Dirtied)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Set Desired Primary Key");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Set Desired Primary Key"));
 
 	struct
 	{
@@ -231,7 +231,7 @@ void UWBP_SettingsBinding_C::Set_Desired_Primary_Key(const struct FKey& Key, boo
 
 void UWBP_SettingsBinding_C::Get_Dirty_Gamepad_Key(struct FKey* Key, EKSInputActionType* Type)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Get Dirty Gamepad Key");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Get Dirty Gamepad Key"));
 
 	struct
 	{
@@ -257,7 +257,7 @@ void UWBP_SettingsBinding_C::Get_Dirty_Gamepad_Key(struct FKey* Key, EKSInputAct
 
 void UWBP_SettingsBinding_C::Get_Dirty_Secondary_Key(struct FKey* Key, EKSInputActionType* Type)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Get Dirty Secondary Key");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Get Dirty Secondary Key"));
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UWBP_SettingsBinding_C::Get_Dirty_Secondary_Key(struct FKey* Key, EKSInputA
 
 void UWBP_SettingsBinding_C::Get_Dirty_Primary_Key(struct FKey* Key, EKSInputActionType* Type)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Get Dirty Primary Key");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Get Dirty Primary Key"));
 
 	struct
 	{
@@ -306,7 +306,7 @@ void UWBP_SettingsBinding_C::Get_Dirty_Primary_Key(struct FKey* Key, EKSInputAct
 
 void UWBP_SettingsBinding_C::SetKeysForBindingDisplays()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.SetKeysForBindingDisplays");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.SetKeysForBindingDisplays"));
 
 	struct
 	{
@@ -322,7 +322,7 @@ void UWBP_SettingsBinding_C::SetKeysForBindingDisplays()
 
 void UWBP_SettingsBinding_C::SetKeyForGamepadBindingDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.SetKeyForGamepadBindingDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.SetKeyForGamepadBindingDisplay"));
 
 	struct
 	{
@@ -338,7 +338,7 @@ void UWBP_SettingsBinding_C::SetKeyForGamepadBindingDisplay()
 
 void UWBP_SettingsBinding_C::SetKeyForSecondaryBindingDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.SetKeyForSecondaryBindingDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.SetKeyForSecondaryBindingDisplay"));
 
 	struct
 	{
@@ -354,7 +354,7 @@ void UWBP_SettingsBinding_C::SetKeyForSecondaryBindingDisplay()
 
 void UWBP_SettingsBinding_C::SetKeyForPrimaryBindingDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.SetKeyForPrimaryBindingDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.SetKeyForPrimaryBindingDisplay"));
 
 	struct
 	{
@@ -370,7 +370,7 @@ void UWBP_SettingsBinding_C::SetKeyForPrimaryBindingDisplay()
 
 void UWBP_SettingsBinding_C::OnWidgetSettingsInfoSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.OnWidgetSettingsInfoSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.OnWidgetSettingsInfoSet"));
 
 	struct
 	{
@@ -386,7 +386,7 @@ void UWBP_SettingsBinding_C::OnWidgetSettingsInfoSet()
 
 void UWBP_SettingsBinding_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.GamepadHover"));
 
 	struct
 	{
@@ -402,7 +402,7 @@ void UWBP_SettingsBinding_C::GamepadHover()
 
 void UWBP_SettingsBinding_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.GamepadUnhover"));
 
 	struct
 	{
@@ -418,7 +418,7 @@ void UWBP_SettingsBinding_C::GamepadUnhover()
 
 void UWBP_SettingsBinding_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -436,7 +436,7 @@ void UWBP_SettingsBinding_C::InitializeWidgetNavigation()
 
 void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_K2Node_ComponentBoundEvent_6_OnKeySelected__DelegateSignature(const struct FInputChord& Selected_Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_K2Node_ComponentBoundEvent_6_OnKeySelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_K2Node_ComponentBoundEvent_6_OnKeySelected__DelegateSignature"));
 
 	struct
 	{
@@ -454,7 +454,7 @@ void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_K2Node_ComponentBoundE
 
 void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_K2Node_ComponentBoundEvent_7_OnIsSelectingKeyChanged__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_K2Node_ComponentBoundEvent_7_OnIsSelectingKeyChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_K2Node_ComponentBoundEvent_7_OnIsSelectingKeyChanged__DelegateSignature"));
 
 	struct
 	{
@@ -472,7 +472,7 @@ void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_K2Node_ComponentBoundE
 
 void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_Secondary_K2Node_ComponentBoundEvent_8_OnKeySelected__DelegateSignature(const struct FInputChord& Selected_Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_Secondary_K2Node_ComponentBoundEvent_8_OnKeySelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_Secondary_K2Node_ComponentBoundEvent_8_OnKeySelected__DelegateSignature"));
 
 	struct
 	{
@@ -490,7 +490,7 @@ void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_Secondary_K2Node_Compo
 
 void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_Secondary_K2Node_ComponentBoundEvent_9_OnIsSelectingKeyChanged__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_Secondary_K2Node_ComponentBoundEvent_9_OnIsSelectingKeyChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_Secondary_K2Node_ComponentBoundEvent_9_OnIsSelectingKeyChanged__DelegateSignature"));
 
 	struct
 	{
@@ -508,7 +508,7 @@ void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_Secondary_K2Node_Compo
 
 void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_Gamepad_K2Node_ComponentBoundEvent_10_OnKeySelected__DelegateSignature(const struct FInputChord& Selected_Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_Gamepad_K2Node_ComponentBoundEvent_10_OnKeySelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_Gamepad_K2Node_ComponentBoundEvent_10_OnKeySelected__DelegateSignature"));
 
 	struct
 	{
@@ -526,7 +526,7 @@ void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_Gamepad_K2Node_Compone
 
 void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_Gamepad_K2Node_ComponentBoundEvent_11_OnIsSelectingKeyChanged__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_Gamepad_K2Node_ComponentBoundEvent_11_OnIsSelectingKeyChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.BndEvt__WBP_InputKeySelector_Gamepad_K2Node_ComponentBoundEvent_11_OnIsSelectingKeyChanged__DelegateSignature"));
 
 	struct
 	{
@@ -544,7 +544,7 @@ void UWBP_SettingsBinding_C::BndEvt__WBP_InputKeySelector_Gamepad_K2Node_Compone
 
 void UWBP_SettingsBinding_C::FocusGroupNavigateDownFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.FocusGroupNavigateDownFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.FocusGroupNavigateDownFailure"));
 
 	struct
 	{
@@ -564,7 +564,7 @@ void UWBP_SettingsBinding_C::FocusGroupNavigateDownFailure(int FocusGroup)
 
 void UWBP_SettingsBinding_C::FocusGroupNavigateUpFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.FocusGroupNavigateUpFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.FocusGroupNavigateUpFailure"));
 
 	struct
 	{
@@ -584,7 +584,7 @@ void UWBP_SettingsBinding_C::FocusGroupNavigateUpFailure(int FocusGroup)
 
 void UWBP_SettingsBinding_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.InitializeWidget"));
 
 	struct
 	{
@@ -602,7 +602,7 @@ void UWBP_SettingsBinding_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_SettingsBinding_C::StopCapturingCombo()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.StopCapturingCombo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.StopCapturingCombo"));
 
 	struct
 	{
@@ -618,7 +618,7 @@ void UWBP_SettingsBinding_C::StopCapturingCombo()
 
 void UWBP_SettingsBinding_C::StartCapturingCombo()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.StartCapturingCombo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.StartCapturingCombo"));
 
 	struct
 	{
@@ -636,7 +636,7 @@ void UWBP_SettingsBinding_C::StartCapturingCombo()
 
 void UWBP_SettingsBinding_C::Combo_Succeed(const struct FInputChord& Combo_Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Combo Succeed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Combo Succeed"));
 
 	struct
 	{
@@ -654,7 +654,7 @@ void UWBP_SettingsBinding_C::Combo_Succeed(const struct FInputChord& Combo_Key)
 
 void UWBP_SettingsBinding_C::Combo_Failed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Combo Failed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.Combo Failed"));
 
 	struct
 	{
@@ -673,7 +673,7 @@ void UWBP_SettingsBinding_C::Combo_Failed()
 
 void UWBP_SettingsBinding_C::OnInputAttached(bool bGamepadAttached, bool bMouseAttached)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.OnInputAttached");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.OnInputAttached"));
 
 	struct
 	{
@@ -695,7 +695,7 @@ void UWBP_SettingsBinding_C::OnInputAttached(bool bGamepadAttached, bool bMouseA
 
 void UWBP_SettingsBinding_C::OnSettingsInfoValueChanged(bool bChangedExternally)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.OnSettingsInfoValueChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.OnSettingsInfoValueChanged"));
 
 	struct
 	{
@@ -715,7 +715,7 @@ void UWBP_SettingsBinding_C::OnSettingsInfoValueChanged(bool bChangedExternally)
 
 void UWBP_SettingsBinding_C::ExecuteUbergraph_WBP_SettingsBinding(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsBinding.WBP_SettingsBinding_C.ExecuteUbergraph_WBP_SettingsBinding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsBinding.WBP_SettingsBinding_C.ExecuteUbergraph_WBP_SettingsBinding"));
 
 	struct
 	{

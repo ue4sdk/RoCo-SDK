@@ -19,7 +19,7 @@ namespace SDK
 
 void UARBlueprintLibrary::UnpinComponent(class USceneComponent* ComponentToUnpin)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.UnpinComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.UnpinComponent"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ void UARBlueprintLibrary::UnpinComponent(class USceneComponent* ComponentToUnpin
 
 void UARBlueprintLibrary::StopARSession()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.StopARSession");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.StopARSession"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UARBlueprintLibrary::StopARSession()
 
 void UARBlueprintLibrary::StartARSession(class UARSessionConfig* SessionConfig)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.StartARSession");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.StartARSession"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UARBlueprintLibrary::StartARSession(class UARSessionConfig* SessionConfig)
 
 void UARBlueprintLibrary::SetAlignmentTransform(const struct FTransform& InAlignmentTransform)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.SetAlignmentTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.SetAlignmentTransform"));
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UARBlueprintLibrary::SetAlignmentTransform(const struct FTransform& InAlign
 
 void UARBlueprintLibrary::RemovePin(class UARPin* PinToRemove)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.RemovePin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.RemovePin"));
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UARBlueprintLibrary::RemovePin(class UARPin* PinToRemove)
 
 class UARPin* UARBlueprintLibrary::PinComponentToTraceResult(class USceneComponent* ComponentToPin, const struct FARTraceResult& TraceResult, const struct FName& DebugName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.PinComponentToTraceResult");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.PinComponentToTraceResult"));
 
 	struct
 	{
@@ -155,7 +155,7 @@ class UARPin* UARBlueprintLibrary::PinComponentToTraceResult(class USceneCompone
 
 class UARPin* UARBlueprintLibrary::PinComponent(class USceneComponent* ComponentToPin, const struct FTransform& PinToWorldTransform, class UARTrackedGeometry* TrackedGeometry, const struct FName& DebugName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.PinComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.PinComponent"));
 
 	struct
 	{
@@ -183,7 +183,7 @@ class UARPin* UARBlueprintLibrary::PinComponent(class USceneComponent* Component
 
 void UARBlueprintLibrary::PauseARSession()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.PauseARSession");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.PauseARSession"));
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UARBlueprintLibrary::PauseARSession()
 
 TArray<struct FARTraceResult> UARBlueprintLibrary::LineTraceTrackedObjects3D(const struct FVector& start, const struct FVector& end, bool bTestFeaturePoints, bool bTestGroundPlane, bool bTestPlaneExtents, bool bTestPlaneBoundaryPolygon)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.LineTraceTrackedObjects3D");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.LineTraceTrackedObjects3D"));
 
 	struct
 	{
@@ -247,7 +247,7 @@ TArray<struct FARTraceResult> UARBlueprintLibrary::LineTraceTrackedObjects3D(con
 
 TArray<struct FARTraceResult> UARBlueprintLibrary::LineTraceTrackedObjects(const struct FVector2D& ScreenCoord, bool bTestFeaturePoints, bool bTestGroundPlane, bool bTestPlaneExtents, bool bTestPlaneBoundaryPolygon)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.LineTraceTrackedObjects");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.LineTraceTrackedObjects"));
 
 	struct
 	{
@@ -280,7 +280,7 @@ TArray<struct FARTraceResult> UARBlueprintLibrary::LineTraceTrackedObjects(const
 
 bool UARBlueprintLibrary::IsSessionTypeSupported(EARSessionType SessionType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.IsSessionTypeSupported");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.IsSessionTypeSupported"));
 
 	struct
 	{
@@ -306,7 +306,7 @@ bool UARBlueprintLibrary::IsSessionTypeSupported(EARSessionType SessionType)
 
 bool UARBlueprintLibrary::IsSessionTrackingFeatureSupported(EARSessionType SessionType, EARSessionTrackingFeature SessionTrackingFeature)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.IsSessionTrackingFeatureSupported");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.IsSessionTrackingFeatureSupported"));
 
 	struct
 	{
@@ -332,7 +332,7 @@ bool UARBlueprintLibrary::IsSessionTrackingFeatureSupported(EARSessionType Sessi
 
 bool UARBlueprintLibrary::IsARSupported()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.IsARSupported");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.IsARSupported"));
 
 	struct
 	{
@@ -354,7 +354,7 @@ bool UARBlueprintLibrary::IsARSupported()
 
 EARWorldMappingState UARBlueprintLibrary::GetWorldMappingStatus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetWorldMappingStatus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetWorldMappingStatus"));
 
 	struct
 	{
@@ -376,7 +376,7 @@ EARWorldMappingState UARBlueprintLibrary::GetWorldMappingStatus()
 
 EARTrackingQualityReason UARBlueprintLibrary::GetTrackingQualityReason()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetTrackingQualityReason");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetTrackingQualityReason"));
 
 	struct
 	{
@@ -398,7 +398,7 @@ EARTrackingQualityReason UARBlueprintLibrary::GetTrackingQualityReason()
 
 EARTrackingQuality UARBlueprintLibrary::GetTrackingQuality()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetTrackingQuality");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetTrackingQuality"));
 
 	struct
 	{
@@ -421,7 +421,7 @@ EARTrackingQuality UARBlueprintLibrary::GetTrackingQuality()
 
 TArray<struct FARVideoFormat> UARBlueprintLibrary::GetSupportedVideoFormats(EARSessionType SessionType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetSupportedVideoFormats");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetSupportedVideoFormats"));
 
 	struct
 	{
@@ -445,7 +445,7 @@ TArray<struct FARVideoFormat> UARBlueprintLibrary::GetSupportedVideoFormats(EARS
 
 class UARSessionConfig* UARBlueprintLibrary::GetSessionConfig()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetSessionConfig");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetSessionConfig"));
 
 	struct
 	{
@@ -467,7 +467,7 @@ class UARSessionConfig* UARBlueprintLibrary::GetSessionConfig()
 
 TArray<struct FVector> UARBlueprintLibrary::GetPointCloud()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetPointCloud");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetPointCloud"));
 
 	struct
 	{
@@ -489,7 +489,7 @@ TArray<struct FVector> UARBlueprintLibrary::GetPointCloud()
 
 class UARTextureCameraImage* UARBlueprintLibrary::GetPersonSegmentationImage()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetPersonSegmentationImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetPersonSegmentationImage"));
 
 	struct
 	{
@@ -511,7 +511,7 @@ class UARTextureCameraImage* UARBlueprintLibrary::GetPersonSegmentationImage()
 
 class UARTextureCameraImage* UARBlueprintLibrary::GetPersonSegmentationDepthImage()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetPersonSegmentationDepthImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetPersonSegmentationDepthImage"));
 
 	struct
 	{
@@ -533,7 +533,7 @@ class UARTextureCameraImage* UARBlueprintLibrary::GetPersonSegmentationDepthImag
 
 class UARLightEstimate* UARBlueprintLibrary::GetCurrentLightEstimate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetCurrentLightEstimate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetCurrentLightEstimate"));
 
 	struct
 	{
@@ -555,7 +555,7 @@ class UARLightEstimate* UARBlueprintLibrary::GetCurrentLightEstimate()
 
 class UARTextureCameraImage* UARBlueprintLibrary::GetCameraImage()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetCameraImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetCameraImage"));
 
 	struct
 	{
@@ -577,7 +577,7 @@ class UARTextureCameraImage* UARBlueprintLibrary::GetCameraImage()
 
 class UARTextureCameraDepth* UARBlueprintLibrary::GetCameraDepth()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetCameraDepth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetCameraDepth"));
 
 	struct
 	{
@@ -599,7 +599,7 @@ class UARTextureCameraDepth* UARBlueprintLibrary::GetCameraDepth()
 
 struct FARSessionStatus UARBlueprintLibrary::GetARSessionStatus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetARSessionStatus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetARSessionStatus"));
 
 	struct
 	{
@@ -621,7 +621,7 @@ struct FARSessionStatus UARBlueprintLibrary::GetARSessionStatus()
 
 TArray<class UARTrackedPose*> UARBlueprintLibrary::GetAllTrackedPoses()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedPoses");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedPoses"));
 
 	struct
 	{
@@ -643,7 +643,7 @@ TArray<class UARTrackedPose*> UARBlueprintLibrary::GetAllTrackedPoses()
 
 TArray<class UARTrackedPoint*> UARBlueprintLibrary::GetAllTrackedPoints()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedPoints");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedPoints"));
 
 	struct
 	{
@@ -665,7 +665,7 @@ TArray<class UARTrackedPoint*> UARBlueprintLibrary::GetAllTrackedPoints()
 
 TArray<class UARPlaneGeometry*> UARBlueprintLibrary::GetAllTrackedPlanes()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedPlanes");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedPlanes"));
 
 	struct
 	{
@@ -687,7 +687,7 @@ TArray<class UARPlaneGeometry*> UARBlueprintLibrary::GetAllTrackedPlanes()
 
 TArray<class UARTrackedImage*> UARBlueprintLibrary::GetAllTrackedImages()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedImages");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedImages"));
 
 	struct
 	{
@@ -709,7 +709,7 @@ TArray<class UARTrackedImage*> UARBlueprintLibrary::GetAllTrackedImages()
 
 TArray<class UAREnvironmentCaptureProbe*> UARBlueprintLibrary::GetAllTrackedEnvironmentCaptureProbes()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedEnvironmentCaptureProbes");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetAllTrackedEnvironmentCaptureProbes"));
 
 	struct
 	{
@@ -731,7 +731,7 @@ TArray<class UAREnvironmentCaptureProbe*> UARBlueprintLibrary::GetAllTrackedEnvi
 
 TArray<struct FARPose2D> UARBlueprintLibrary::GetAllTracked2DPoses()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetAllTracked2DPoses");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetAllTracked2DPoses"));
 
 	struct
 	{
@@ -753,7 +753,7 @@ TArray<struct FARPose2D> UARBlueprintLibrary::GetAllTracked2DPoses()
 
 TArray<class UARPin*> UARBlueprintLibrary::GetAllPins()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetAllPins");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetAllPins"));
 
 	struct
 	{
@@ -775,7 +775,7 @@ TArray<class UARPin*> UARBlueprintLibrary::GetAllPins()
 
 TArray<class UARTrackedGeometry*> UARBlueprintLibrary::GetAllGeometries()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.GetAllGeometries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.GetAllGeometries"));
 
 	struct
 	{
@@ -801,7 +801,7 @@ TArray<class UARTrackedGeometry*> UARBlueprintLibrary::GetAllGeometries()
 
 void UARBlueprintLibrary::DebugDrawTrackedGeometry(class UARTrackedGeometry* TrackedGeometry, class UObject* WorldContextObject, const struct FLinearColor& Color, float OutlineThickness, float PersistForSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.DebugDrawTrackedGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.DebugDrawTrackedGeometry"));
 
 	struct
 	{
@@ -834,7 +834,7 @@ void UARBlueprintLibrary::DebugDrawTrackedGeometry(class UARTrackedGeometry* Tra
 
 void UARBlueprintLibrary::DebugDrawPin(class UARPin* ARPin, class UObject* WorldContextObject, const struct FLinearColor& Color, float Scale, float PersistForSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.DebugDrawPin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.DebugDrawPin"));
 
 	struct
 	{
@@ -867,7 +867,7 @@ void UARBlueprintLibrary::DebugDrawPin(class UARPin* ARPin, class UObject* World
 
 class UARCandidateImage* UARBlueprintLibrary::AddRuntimeCandidateImage(class UARSessionConfig* SessionConfig, class UTexture2D* CandidateTexture, const struct FString& FriendlyName, float PhysicalWidth)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.AddRuntimeCandidateImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.AddRuntimeCandidateImage"));
 
 	struct
 	{
@@ -899,7 +899,7 @@ class UARCandidateImage* UARBlueprintLibrary::AddRuntimeCandidateImage(class UAR
 
 bool UARBlueprintLibrary::AddManualEnvironmentCaptureProbe(const struct FVector& Location, const struct FVector& Extent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBlueprintLibrary.AddManualEnvironmentCaptureProbe");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBlueprintLibrary.AddManualEnvironmentCaptureProbe"));
 
 	struct
 	{
@@ -926,7 +926,7 @@ bool UARBlueprintLibrary::AddManualEnvironmentCaptureProbe(const struct FVector&
 
 class UARTrackedGeometry* UARTraceResultLibrary::GetTrackedGeometry(const struct FARTraceResult& TraceResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTraceResultLibrary.GetTrackedGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTraceResultLibrary.GetTrackedGeometry"));
 
 	struct
 	{
@@ -951,7 +951,7 @@ class UARTrackedGeometry* UARTraceResultLibrary::GetTrackedGeometry(const struct
 
 EARLineTraceChannels UARTraceResultLibrary::GetTraceChannel(const struct FARTraceResult& TraceResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTraceResultLibrary.GetTraceChannel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTraceResultLibrary.GetTraceChannel"));
 
 	struct
 	{
@@ -976,7 +976,7 @@ EARLineTraceChannels UARTraceResultLibrary::GetTraceChannel(const struct FARTrac
 
 struct FTransform UARTraceResultLibrary::GetLocalToWorldTransform(const struct FARTraceResult& TraceResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTraceResultLibrary.GetLocalToWorldTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTraceResultLibrary.GetLocalToWorldTransform"));
 
 	struct
 	{
@@ -1001,7 +1001,7 @@ struct FTransform UARTraceResultLibrary::GetLocalToWorldTransform(const struct F
 
 struct FTransform UARTraceResultLibrary::GetLocalToTrackingTransform(const struct FARTraceResult& TraceResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTraceResultLibrary.GetLocalToTrackingTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTraceResultLibrary.GetLocalToTrackingTransform"));
 
 	struct
 	{
@@ -1026,7 +1026,7 @@ struct FTransform UARTraceResultLibrary::GetLocalToTrackingTransform(const struc
 
 float UARTraceResultLibrary::GetDistanceFromCamera(const struct FARTraceResult& TraceResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTraceResultLibrary.GetDistanceFromCamera");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTraceResultLibrary.GetDistanceFromCamera"));
 
 	struct
 	{
@@ -1051,7 +1051,7 @@ float UARTraceResultLibrary::GetDistanceFromCamera(const struct FARTraceResult& 
 
 class UARSaveWorldAsyncTaskBlueprintProxy* UARSaveWorldAsyncTaskBlueprintProxy::ARSaveWorld(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSaveWorldAsyncTaskBlueprintProxy.ARSaveWorld");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSaveWorldAsyncTaskBlueprintProxy.ARSaveWorld"));
 
 	struct
 	{
@@ -1078,7 +1078,7 @@ class UARSaveWorldAsyncTaskBlueprintProxy* UARSaveWorldAsyncTaskBlueprintProxy::
 
 class UARGetCandidateObjectAsyncTaskBlueprintProxy* UARGetCandidateObjectAsyncTaskBlueprintProxy::ARGetCandidateObject(class UObject* WorldContextObject, const struct FVector& Location, const struct FVector& Extent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARGetCandidateObjectAsyncTaskBlueprintProxy.ARGetCandidateObject");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARGetCandidateObjectAsyncTaskBlueprintProxy.ARGetCandidateObject"));
 
 	struct
 	{
@@ -1106,7 +1106,7 @@ class UARGetCandidateObjectAsyncTaskBlueprintProxy* UARGetCandidateObjectAsyncTa
 
 float UARBasicLightEstimate::GetAmbientIntensityLumens()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBasicLightEstimate.GetAmbientIntensityLumens");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBasicLightEstimate.GetAmbientIntensityLumens"));
 
 	struct
 	{
@@ -1127,7 +1127,7 @@ float UARBasicLightEstimate::GetAmbientIntensityLumens()
 
 float UARBasicLightEstimate::GetAmbientColorTemperatureKelvin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBasicLightEstimate.GetAmbientColorTemperatureKelvin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBasicLightEstimate.GetAmbientColorTemperatureKelvin"));
 
 	struct
 	{
@@ -1148,7 +1148,7 @@ float UARBasicLightEstimate::GetAmbientColorTemperatureKelvin()
 
 struct FLinearColor UARBasicLightEstimate::GetAmbientColor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARBasicLightEstimate.GetAmbientColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARBasicLightEstimate.GetAmbientColor"));
 
 	struct
 	{
@@ -1169,7 +1169,7 @@ struct FLinearColor UARBasicLightEstimate::GetAmbientColor()
 
 EARTrackingState UARPin::GetTrackingState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPin.GetTrackingState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPin.GetTrackingState"));
 
 	struct
 	{
@@ -1190,7 +1190,7 @@ EARTrackingState UARPin::GetTrackingState()
 
 class UARTrackedGeometry* UARPin::GetTrackedGeometry()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPin.GetTrackedGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPin.GetTrackedGeometry"));
 
 	struct
 	{
@@ -1211,7 +1211,7 @@ class UARTrackedGeometry* UARPin::GetTrackedGeometry()
 
 class USceneComponent* UARPin::GetPinnedComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPin.GetPinnedComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPin.GetPinnedComponent"));
 
 	struct
 	{
@@ -1232,7 +1232,7 @@ class USceneComponent* UARPin::GetPinnedComponent()
 
 struct FTransform UARPin::GetLocalToWorldTransform()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPin.GetLocalToWorldTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPin.GetLocalToWorldTransform"));
 
 	struct
 	{
@@ -1253,7 +1253,7 @@ struct FTransform UARPin::GetLocalToWorldTransform()
 
 struct FTransform UARPin::GetLocalToTrackingTransform()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPin.GetLocalToTrackingTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPin.GetLocalToTrackingTransform"));
 
 	struct
 	{
@@ -1274,7 +1274,7 @@ struct FTransform UARPin::GetLocalToTrackingTransform()
 
 struct FName UARPin::GetDebugName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPin.GetDebugName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPin.GetDebugName"));
 
 	struct
 	{
@@ -1298,7 +1298,7 @@ struct FName UARPin::GetDebugName()
 
 void UARPin::DebugDraw(class UWorld* World, const struct FLinearColor& Color, float Scale, float PersistForSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPin.DebugDraw");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPin.DebugDraw"));
 
 	struct
 	{
@@ -1324,7 +1324,7 @@ void UARPin::DebugDraw(class UWorld* World, const struct FLinearColor& Color, fl
 
 bool UARSessionConfig::ShouldResetTrackedObjects()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.ShouldResetTrackedObjects");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.ShouldResetTrackedObjects"));
 
 	struct
 	{
@@ -1345,7 +1345,7 @@ bool UARSessionConfig::ShouldResetTrackedObjects()
 
 bool UARSessionConfig::ShouldResetCameraTracking()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.ShouldResetCameraTracking");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.ShouldResetCameraTracking"));
 
 	struct
 	{
@@ -1366,7 +1366,7 @@ bool UARSessionConfig::ShouldResetCameraTracking()
 
 bool UARSessionConfig::ShouldRenderCameraOverlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.ShouldRenderCameraOverlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.ShouldRenderCameraOverlay"));
 
 	struct
 	{
@@ -1387,7 +1387,7 @@ bool UARSessionConfig::ShouldRenderCameraOverlay()
 
 bool UARSessionConfig::ShouldEnableCameraTracking()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.ShouldEnableCameraTracking");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.ShouldEnableCameraTracking"));
 
 	struct
 	{
@@ -1408,7 +1408,7 @@ bool UARSessionConfig::ShouldEnableCameraTracking()
 
 bool UARSessionConfig::ShouldEnableAutoFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.ShouldEnableAutoFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.ShouldEnableAutoFocus"));
 
 	struct
 	{
@@ -1429,7 +1429,7 @@ bool UARSessionConfig::ShouldEnableAutoFocus()
 
 void UARSessionConfig::SetWorldMapData(TArray<unsigned char> WorldMapData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.SetWorldMapData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.SetWorldMapData"));
 
 	struct
 	{
@@ -1449,7 +1449,7 @@ void UARSessionConfig::SetWorldMapData(TArray<unsigned char> WorldMapData)
 
 void UARSessionConfig::SetSessionTrackingFeatureToEnable(EARSessionTrackingFeature InSessionTrackingFeature)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.SetSessionTrackingFeatureToEnable");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.SetSessionTrackingFeatureToEnable"));
 
 	struct
 	{
@@ -1469,7 +1469,7 @@ void UARSessionConfig::SetSessionTrackingFeatureToEnable(EARSessionTrackingFeatu
 
 void UARSessionConfig::SetResetTrackedObjects(bool bNewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.SetResetTrackedObjects");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.SetResetTrackedObjects"));
 
 	struct
 	{
@@ -1489,7 +1489,7 @@ void UARSessionConfig::SetResetTrackedObjects(bool bNewValue)
 
 void UARSessionConfig::SetResetCameraTracking(bool bNewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.SetResetCameraTracking");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.SetResetCameraTracking"));
 
 	struct
 	{
@@ -1509,7 +1509,7 @@ void UARSessionConfig::SetResetCameraTracking(bool bNewValue)
 
 void UARSessionConfig::SetFaceTrackingUpdate(EARFaceTrackingUpdate InUpdate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.SetFaceTrackingUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.SetFaceTrackingUpdate"));
 
 	struct
 	{
@@ -1529,7 +1529,7 @@ void UARSessionConfig::SetFaceTrackingUpdate(EARFaceTrackingUpdate InUpdate)
 
 void UARSessionConfig::SetFaceTrackingDirection(EARFaceTrackingDirection InDirection)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.SetFaceTrackingDirection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.SetFaceTrackingDirection"));
 
 	struct
 	{
@@ -1549,7 +1549,7 @@ void UARSessionConfig::SetFaceTrackingDirection(EARFaceTrackingDirection InDirec
 
 void UARSessionConfig::SetEnableAutoFocus(bool bNewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.SetEnableAutoFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.SetEnableAutoFocus"));
 
 	struct
 	{
@@ -1569,7 +1569,7 @@ void UARSessionConfig::SetEnableAutoFocus(bool bNewValue)
 
 void UARSessionConfig::SetDesiredVideoFormat(const struct FARVideoFormat& NewFormat)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.SetDesiredVideoFormat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.SetDesiredVideoFormat"));
 
 	struct
 	{
@@ -1589,7 +1589,7 @@ void UARSessionConfig::SetDesiredVideoFormat(const struct FARVideoFormat& NewFor
 
 void UARSessionConfig::SetCandidateObjectList(TArray<class UARCandidateObject*> InCandidateObjects)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.SetCandidateObjectList");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.SetCandidateObjectList"));
 
 	struct
 	{
@@ -1609,7 +1609,7 @@ void UARSessionConfig::SetCandidateObjectList(TArray<class UARCandidateObject*> 
 
 TArray<unsigned char> UARSessionConfig::GetWorldMapData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetWorldMapData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetWorldMapData"));
 
 	struct
 	{
@@ -1630,7 +1630,7 @@ TArray<unsigned char> UARSessionConfig::GetWorldMapData()
 
 EARWorldAlignment UARSessionConfig::GetWorldAlignment()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetWorldAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetWorldAlignment"));
 
 	struct
 	{
@@ -1651,7 +1651,7 @@ EARWorldAlignment UARSessionConfig::GetWorldAlignment()
 
 EARSessionType UARSessionConfig::GetSessionType()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetSessionType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetSessionType"));
 
 	struct
 	{
@@ -1672,7 +1672,7 @@ EARSessionType UARSessionConfig::GetSessionType()
 
 EARPlaneDetectionMode UARSessionConfig::GetPlaneDetectionMode()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetPlaneDetectionMode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetPlaneDetectionMode"));
 
 	struct
 	{
@@ -1693,7 +1693,7 @@ EARPlaneDetectionMode UARSessionConfig::GetPlaneDetectionMode()
 
 int UARSessionConfig::GetMaxNumSimultaneousImagesTracked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetMaxNumSimultaneousImagesTracked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetMaxNumSimultaneousImagesTracked"));
 
 	struct
 	{
@@ -1714,7 +1714,7 @@ int UARSessionConfig::GetMaxNumSimultaneousImagesTracked()
 
 EARLightEstimationMode UARSessionConfig::GetLightEstimationMode()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetLightEstimationMode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetLightEstimationMode"));
 
 	struct
 	{
@@ -1735,7 +1735,7 @@ EARLightEstimationMode UARSessionConfig::GetLightEstimationMode()
 
 EARFrameSyncMode UARSessionConfig::GetFrameSyncMode()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetFrameSyncMode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetFrameSyncMode"));
 
 	struct
 	{
@@ -1756,7 +1756,7 @@ EARFrameSyncMode UARSessionConfig::GetFrameSyncMode()
 
 EARFaceTrackingUpdate UARSessionConfig::GetFaceTrackingUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetFaceTrackingUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetFaceTrackingUpdate"));
 
 	struct
 	{
@@ -1777,7 +1777,7 @@ EARFaceTrackingUpdate UARSessionConfig::GetFaceTrackingUpdate()
 
 EARFaceTrackingDirection UARSessionConfig::GetFaceTrackingDirection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetFaceTrackingDirection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetFaceTrackingDirection"));
 
 	struct
 	{
@@ -1798,7 +1798,7 @@ EARFaceTrackingDirection UARSessionConfig::GetFaceTrackingDirection()
 
 EAREnvironmentCaptureProbeType UARSessionConfig::GetEnvironmentCaptureProbeType()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetEnvironmentCaptureProbeType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetEnvironmentCaptureProbeType"));
 
 	struct
 	{
@@ -1819,7 +1819,7 @@ EAREnvironmentCaptureProbeType UARSessionConfig::GetEnvironmentCaptureProbeType(
 
 EARSessionTrackingFeature UARSessionConfig::GetEnabledSessionTrackingFeature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetEnabledSessionTrackingFeature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetEnabledSessionTrackingFeature"));
 
 	struct
 	{
@@ -1840,7 +1840,7 @@ EARSessionTrackingFeature UARSessionConfig::GetEnabledSessionTrackingFeature()
 
 struct FARVideoFormat UARSessionConfig::GetDesiredVideoFormat()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetDesiredVideoFormat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetDesiredVideoFormat"));
 
 	struct
 	{
@@ -1861,7 +1861,7 @@ struct FARVideoFormat UARSessionConfig::GetDesiredVideoFormat()
 
 TArray<class UARCandidateObject*> UARSessionConfig::GetCandidateObjectList()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetCandidateObjectList");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetCandidateObjectList"));
 
 	struct
 	{
@@ -1882,7 +1882,7 @@ TArray<class UARCandidateObject*> UARSessionConfig::GetCandidateObjectList()
 
 TArray<class UARCandidateImage*> UARSessionConfig::GetCandidateImageList()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.GetCandidateImageList");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.GetCandidateImageList"));
 
 	struct
 	{
@@ -1903,7 +1903,7 @@ TArray<class UARCandidateImage*> UARSessionConfig::GetCandidateImageList()
 
 void UARSessionConfig::AddCandidateObject(class UARCandidateObject* CandidateObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.AddCandidateObject");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.AddCandidateObject"));
 
 	struct
 	{
@@ -1923,7 +1923,7 @@ void UARSessionConfig::AddCandidateObject(class UARCandidateObject* CandidateObj
 
 void UARSessionConfig::AddCandidateImage(class UARCandidateImage* NewCandidateImage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSessionConfig.AddCandidateImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSessionConfig.AddCandidateImage"));
 
 	struct
 	{
@@ -1943,7 +1943,7 @@ void UARSessionConfig::AddCandidateImage(class UARCandidateImage* NewCandidateIm
 
 void AARSharedWorldGameMode::SetPreviewImageData(TArray<unsigned char> ImageData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSharedWorldGameMode.SetPreviewImageData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSharedWorldGameMode.SetPreviewImageData"));
 
 	struct
 	{
@@ -1961,7 +1961,7 @@ void AARSharedWorldGameMode::SetPreviewImageData(TArray<unsigned char> ImageData
 
 void AARSharedWorldGameMode::SetARWorldSharingIsReady()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSharedWorldGameMode.SetARWorldSharingIsReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSharedWorldGameMode.SetARWorldSharingIsReady"));
 
 	struct
 	{
@@ -1979,7 +1979,7 @@ void AARSharedWorldGameMode::SetARWorldSharingIsReady()
 
 void AARSharedWorldGameMode::SetARSharedWorldData(TArray<unsigned char> ARWorldData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSharedWorldGameMode.SetARSharedWorldData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSharedWorldGameMode.SetARSharedWorldData"));
 
 	struct
 	{
@@ -1999,7 +1999,7 @@ void AARSharedWorldGameMode::SetARSharedWorldData(TArray<unsigned char> ARWorldD
 
 class AARSharedWorldGameState* AARSharedWorldGameMode::GetARSharedWorldGameState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSharedWorldGameMode.GetARSharedWorldGameState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSharedWorldGameMode.GetARSharedWorldGameState"));
 
 	struct
 	{
@@ -2018,7 +2018,7 @@ class AARSharedWorldGameState* AARSharedWorldGameMode::GetARSharedWorldGameState
 
 void AARSharedWorldGameState::K2_OnARWorldMapIsReady()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSharedWorldGameState.K2_OnARWorldMapIsReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSharedWorldGameState.K2_OnARWorldMapIsReady"));
 
 	struct
 	{
@@ -2034,7 +2034,7 @@ void AARSharedWorldGameState::K2_OnARWorldMapIsReady()
 
 void AARSharedWorldPlayerController::ServerMarkReadyForReceiving()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSharedWorldPlayerController.ServerMarkReadyForReceiving");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSharedWorldPlayerController.ServerMarkReadyForReceiving"));
 
 	struct
 	{
@@ -2053,7 +2053,7 @@ void AARSharedWorldPlayerController::ServerMarkReadyForReceiving()
 
 void AARSharedWorldPlayerController::ClientUpdatePreviewImageData(int Offset, TArray<unsigned char> Buffer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSharedWorldPlayerController.ClientUpdatePreviewImageData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSharedWorldPlayerController.ClientUpdatePreviewImageData"));
 
 	struct
 	{
@@ -2076,7 +2076,7 @@ void AARSharedWorldPlayerController::ClientUpdatePreviewImageData(int Offset, TA
 
 void AARSharedWorldPlayerController::ClientUpdateARWorldData(int Offset, TArray<unsigned char> Buffer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSharedWorldPlayerController.ClientUpdateARWorldData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSharedWorldPlayerController.ClientUpdateARWorldData"));
 
 	struct
 	{
@@ -2099,7 +2099,7 @@ void AARSharedWorldPlayerController::ClientUpdateARWorldData(int Offset, TArray<
 
 void AARSharedWorldPlayerController::ClientInitSharedWorld(int PreviewImageSize, int ARWorldDataSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSharedWorldPlayerController.ClientInitSharedWorld");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSharedWorldPlayerController.ClientInitSharedWorld"));
 
 	struct
 	{
@@ -2121,7 +2121,7 @@ void AARSharedWorldPlayerController::ClientInitSharedWorld(int PreviewImageSize,
 
 void AARSkyLight::SetEnvironmentCaptureProbe(class UAREnvironmentCaptureProbe* InCaptureProbe)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARSkyLight.SetEnvironmentCaptureProbe");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARSkyLight.SetEnvironmentCaptureProbe"));
 
 	struct
 	{
@@ -2141,7 +2141,7 @@ void AARSkyLight::SetEnvironmentCaptureProbe(class UAREnvironmentCaptureProbe* I
 
 bool UARTrackedGeometry::IsTracked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedGeometry.IsTracked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedGeometry.IsTracked"));
 
 	struct
 	{
@@ -2162,7 +2162,7 @@ bool UARTrackedGeometry::IsTracked()
 
 class UMRMeshComponent* UARTrackedGeometry::GetUnderlyingMesh()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedGeometry.GetUnderlyingMesh");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedGeometry.GetUnderlyingMesh"));
 
 	struct
 	{
@@ -2183,7 +2183,7 @@ class UMRMeshComponent* UARTrackedGeometry::GetUnderlyingMesh()
 
 EARTrackingState UARTrackedGeometry::GetTrackingState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedGeometry.GetTrackingState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedGeometry.GetTrackingState"));
 
 	struct
 	{
@@ -2204,7 +2204,7 @@ EARTrackingState UARTrackedGeometry::GetTrackingState()
 
 EARObjectClassification UARTrackedGeometry::GetObjectClassification()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedGeometry.GetObjectClassification");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedGeometry.GetObjectClassification"));
 
 	struct
 	{
@@ -2225,7 +2225,7 @@ EARObjectClassification UARTrackedGeometry::GetObjectClassification()
 
 struct FTransform UARTrackedGeometry::GetLocalToWorldTransform()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedGeometry.GetLocalToWorldTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedGeometry.GetLocalToWorldTransform"));
 
 	struct
 	{
@@ -2246,7 +2246,7 @@ struct FTransform UARTrackedGeometry::GetLocalToWorldTransform()
 
 struct FTransform UARTrackedGeometry::GetLocalToTrackingTransform()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedGeometry.GetLocalToTrackingTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedGeometry.GetLocalToTrackingTransform"));
 
 	struct
 	{
@@ -2267,7 +2267,7 @@ struct FTransform UARTrackedGeometry::GetLocalToTrackingTransform()
 
 float UARTrackedGeometry::GetLastUpdateTimestamp()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedGeometry.GetLastUpdateTimestamp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedGeometry.GetLastUpdateTimestamp"));
 
 	struct
 	{
@@ -2288,7 +2288,7 @@ float UARTrackedGeometry::GetLastUpdateTimestamp()
 
 int UARTrackedGeometry::GetLastUpdateFrameNumber()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedGeometry.GetLastUpdateFrameNumber");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedGeometry.GetLastUpdateFrameNumber"));
 
 	struct
 	{
@@ -2309,7 +2309,7 @@ int UARTrackedGeometry::GetLastUpdateFrameNumber()
 
 struct FName UARTrackedGeometry::GetDebugName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedGeometry.GetDebugName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedGeometry.GetDebugName"));
 
 	struct
 	{
@@ -2330,7 +2330,7 @@ struct FName UARTrackedGeometry::GetDebugName()
 
 class UARPlaneGeometry* UARPlaneGeometry::GetSubsumedBy()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPlaneGeometry.GetSubsumedBy");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPlaneGeometry.GetSubsumedBy"));
 
 	struct
 	{
@@ -2351,7 +2351,7 @@ class UARPlaneGeometry* UARPlaneGeometry::GetSubsumedBy()
 
 EARPlaneOrientation UARPlaneGeometry::GetOrientation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPlaneGeometry.GetOrientation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPlaneGeometry.GetOrientation"));
 
 	struct
 	{
@@ -2372,7 +2372,7 @@ EARPlaneOrientation UARPlaneGeometry::GetOrientation()
 
 struct FVector UARPlaneGeometry::GetExtent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPlaneGeometry.GetExtent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPlaneGeometry.GetExtent"));
 
 	struct
 	{
@@ -2393,7 +2393,7 @@ struct FVector UARPlaneGeometry::GetExtent()
 
 struct FVector UARPlaneGeometry::GetCenter()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPlaneGeometry.GetCenter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPlaneGeometry.GetCenter"));
 
 	struct
 	{
@@ -2414,7 +2414,7 @@ struct FVector UARPlaneGeometry::GetCenter()
 
 TArray<struct FVector> UARPlaneGeometry::GetBoundaryPolygonInLocalSpace()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARPlaneGeometry.GetBoundaryPolygonInLocalSpace");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARPlaneGeometry.GetBoundaryPolygonInLocalSpace"));
 
 	struct
 	{
@@ -2435,7 +2435,7 @@ TArray<struct FVector> UARPlaneGeometry::GetBoundaryPolygonInLocalSpace()
 
 struct FVector2D UARTrackedImage::GetEstimateSize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedImage.GetEstimateSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedImage.GetEstimateSize"));
 
 	struct
 	{
@@ -2456,7 +2456,7 @@ struct FVector2D UARTrackedImage::GetEstimateSize()
 
 class UARCandidateImage* UARTrackedImage::GetDetectedImage()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedImage.GetDetectedImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedImage.GetDetectedImage"));
 
 	struct
 	{
@@ -2478,7 +2478,7 @@ class UARCandidateImage* UARTrackedImage::GetDetectedImage()
 
 struct FTransform UARFaceGeometry::GetWorldSpaceEyeTransform(EAREye Eye)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARFaceGeometry.GetWorldSpaceEyeTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARFaceGeometry.GetWorldSpaceEyeTransform"));
 
 	struct
 	{
@@ -2502,7 +2502,7 @@ struct FTransform UARFaceGeometry::GetWorldSpaceEyeTransform(EAREye Eye)
 
 struct FTransform UARFaceGeometry::GetLocalSpaceEyeTransform(EAREye Eye)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARFaceGeometry.GetLocalSpaceEyeTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARFaceGeometry.GetLocalSpaceEyeTransform"));
 
 	struct
 	{
@@ -2526,7 +2526,7 @@ struct FTransform UARFaceGeometry::GetLocalSpaceEyeTransform(EAREye Eye)
 
 float UARFaceGeometry::GetBlendShapeValue(EARFaceBlendShape BlendShape)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARFaceGeometry.GetBlendShapeValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARFaceGeometry.GetBlendShapeValue"));
 
 	struct
 	{
@@ -2549,7 +2549,7 @@ float UARFaceGeometry::GetBlendShapeValue(EARFaceBlendShape BlendShape)
 
 TMap<EARFaceBlendShape, float> UARFaceGeometry::GetBlendShapes()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARFaceGeometry.GetBlendShapes");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARFaceGeometry.GetBlendShapes"));
 
 	struct
 	{
@@ -2570,7 +2570,7 @@ TMap<EARFaceBlendShape, float> UARFaceGeometry::GetBlendShapes()
 
 struct FVector UAREnvironmentCaptureProbe::GetExtent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.AREnvironmentCaptureProbe.GetExtent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.AREnvironmentCaptureProbe.GetExtent"));
 
 	struct
 	{
@@ -2591,7 +2591,7 @@ struct FVector UAREnvironmentCaptureProbe::GetExtent()
 
 class UAREnvironmentCaptureProbeTexture* UAREnvironmentCaptureProbe::GetEnvironmentCaptureTexture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.AREnvironmentCaptureProbe.GetEnvironmentCaptureTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.AREnvironmentCaptureProbe.GetEnvironmentCaptureTexture"));
 
 	struct
 	{
@@ -2612,7 +2612,7 @@ class UAREnvironmentCaptureProbeTexture* UAREnvironmentCaptureProbe::GetEnvironm
 
 class UARCandidateObject* UARTrackedObject::GetDetectedObject()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedObject.GetDetectedObject");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedObject.GetDetectedObject"));
 
 	struct
 	{
@@ -2633,7 +2633,7 @@ class UARCandidateObject* UARTrackedObject::GetDetectedObject()
 
 struct FARPose3D UARTrackedPose::GetTrackedPoseData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARTrackedPose.GetTrackedPoseData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARTrackedPose.GetTrackedPoseData"));
 
 	struct
 	{
@@ -2654,7 +2654,7 @@ struct FARPose3D UARTrackedPose::GetTrackedPoseData()
 
 float UARCandidateImage::GetPhysicalWidth()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateImage.GetPhysicalWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateImage.GetPhysicalWidth"));
 
 	struct
 	{
@@ -2675,7 +2675,7 @@ float UARCandidateImage::GetPhysicalWidth()
 
 float UARCandidateImage::GetPhysicalHeight()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateImage.GetPhysicalHeight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateImage.GetPhysicalHeight"));
 
 	struct
 	{
@@ -2696,7 +2696,7 @@ float UARCandidateImage::GetPhysicalHeight()
 
 EARCandidateImageOrientation UARCandidateImage::GetOrientation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateImage.GetOrientation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateImage.GetOrientation"));
 
 	struct
 	{
@@ -2717,7 +2717,7 @@ EARCandidateImageOrientation UARCandidateImage::GetOrientation()
 
 struct FString UARCandidateImage::GetFriendlyName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateImage.GetFriendlyName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateImage.GetFriendlyName"));
 
 	struct
 	{
@@ -2738,7 +2738,7 @@ struct FString UARCandidateImage::GetFriendlyName()
 
 class UTexture2D* UARCandidateImage::GetCandidateTexture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateImage.GetCandidateTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateImage.GetCandidateTexture"));
 
 	struct
 	{
@@ -2759,7 +2759,7 @@ class UTexture2D* UARCandidateImage::GetCandidateTexture()
 
 void UARCandidateObject::SetFriendlyName(const struct FString& NewName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateObject.SetFriendlyName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateObject.SetFriendlyName"));
 
 	struct
 	{
@@ -2779,7 +2779,7 @@ void UARCandidateObject::SetFriendlyName(const struct FString& NewName)
 
 void UARCandidateObject::SetCandidateObjectData(TArray<unsigned char> InCandidateObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateObject.SetCandidateObjectData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateObject.SetCandidateObjectData"));
 
 	struct
 	{
@@ -2799,7 +2799,7 @@ void UARCandidateObject::SetCandidateObjectData(TArray<unsigned char> InCandidat
 
 void UARCandidateObject::SetBoundingBox(const struct FBox& InBoundingBox)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateObject.SetBoundingBox");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateObject.SetBoundingBox"));
 
 	struct
 	{
@@ -2819,7 +2819,7 @@ void UARCandidateObject::SetBoundingBox(const struct FBox& InBoundingBox)
 
 struct FString UARCandidateObject::GetFriendlyName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateObject.GetFriendlyName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateObject.GetFriendlyName"));
 
 	struct
 	{
@@ -2840,7 +2840,7 @@ struct FString UARCandidateObject::GetFriendlyName()
 
 TArray<unsigned char> UARCandidateObject::GetCandidateObjectData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateObject.GetCandidateObjectData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateObject.GetCandidateObjectData"));
 
 	struct
 	{
@@ -2861,7 +2861,7 @@ TArray<unsigned char> UARCandidateObject::GetCandidateObjectData()
 
 struct FBox UARCandidateObject::GetBoundingBox()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AugmentedReality.ARCandidateObject.GetBoundingBox");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AugmentedReality.ARCandidateObject.GetBoundingBox"));
 
 	struct
 	{

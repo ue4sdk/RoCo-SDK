@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_PlayerIdentity_PlayerLevel_C::SetThrobber()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_PlayerLevel.WBP_PlayerIdentity_PlayerLevel_C.SetThrobber");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_PlayerLevel.WBP_PlayerIdentity_PlayerLevel_C.SetThrobber"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_PlayerIdentity_PlayerLevel_C::SetThrobber()
 
 void UWBP_PlayerIdentity_PlayerLevel_C::SetPlayerLevelExplicit(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_PlayerLevel.WBP_PlayerIdentity_PlayerLevel_C.SetPlayerLevelExplicit");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_PlayerLevel.WBP_PlayerIdentity_PlayerLevel_C.SetPlayerLevelExplicit"));
 
 	struct
 	{

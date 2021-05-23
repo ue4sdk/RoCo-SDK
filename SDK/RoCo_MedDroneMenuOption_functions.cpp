@@ -19,7 +19,7 @@ namespace SDK
 
 bool UMedDroneMenuOption_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.NavigateBack"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UMedDroneMenuOption_C::NavigateBack()
 
 bool UMedDroneMenuOption_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.NavigateConfirm"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ bool UMedDroneMenuOption_C::NavigateConfirm()
 
 void UMedDroneMenuOption_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.Construct"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UMedDroneMenuOption_C::Construct()
 
 void UMedDroneMenuOption_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UMedDroneMenuOption_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_20_OnBut
 
 void UMedDroneMenuOption_C::Target_Player_Check_Validity(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.Target Player Check Validity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.Target Player Check Validity"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UMedDroneMenuOption_C::Target_Player_Check_Validity(class AKSPlayerState* P
 
 void UMedDroneMenuOption_C::TargetSelected()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.TargetSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.TargetSelected"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UMedDroneMenuOption_C::TargetSelected()
 
 void UMedDroneMenuOption_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_11_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UMedDroneMenuOption_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_11_OnBut
 
 void UMedDroneMenuOption_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.GamepadHover"));
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UMedDroneMenuOption_C::GamepadHover()
 
 void UMedDroneMenuOption_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UMedDroneMenuOption_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButt
 
 void UMedDroneMenuOption_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.GamepadUnhover"));
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UMedDroneMenuOption_C::GamepadUnhover()
 
 void UMedDroneMenuOption_C::ExecuteUbergraph_MedDroneMenuOption(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.ExecuteUbergraph_MedDroneMenuOption");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.ExecuteUbergraph_MedDroneMenuOption"));
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UMedDroneMenuOption_C::ExecuteUbergraph_MedDroneMenuOption(int EntryPoint)
 
 void UMedDroneMenuOption_C::Selected__DelegateSignature(class AKSPlayerState* Selected_Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MedDroneMenuOption.MedDroneMenuOption_C.Selected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MedDroneMenuOption.MedDroneMenuOption_C.Selected__DelegateSignature"));
 
 	struct
 	{

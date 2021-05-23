@@ -19,7 +19,7 @@ namespace SDK
 
 struct FText UWBP_PlayerProfileScreen_AwardEntry_C::GetName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetName"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ struct FText UWBP_PlayerProfileScreen_AwardEntry_C::GetName()
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::GetCompletionTime(struct FText* CompletionTimer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetCompletionTime");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetCompletionTime"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::GetCompletionTime(struct FText* Comp
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateTitle()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateTitle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateTitle"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateTitle()
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::GetProgressPercentage(float* Percentage, bool* ShowBar)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetProgressPercentage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetProgressPercentage"));
 
 	struct
 	{
@@ -104,7 +104,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::GetProgressPercentage(float* Percent
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::GetProgressDisplayText(struct FText* Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetProgressDisplayText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetProgressDisplayText"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::GetProgressDisplayText(struct FText*
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::IsFinished(bool* IsFinished)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.IsFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.IsFinished"));
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::IsFinished(bool* IsFinished)
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::GetActiveTier(struct FActivityTierStructure* ActivityTier, bool* IsValid)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetActiveTier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetActiveTier"));
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::GetActiveTier(struct FActivityTierSt
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateDescription()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateDescription");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateDescription"));
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateDescription()
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::GetRewardInfo(bool* HasReward, struct FText* ItemName, struct FText* ItemDescription, class UKSItem** CosmeticItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetRewardInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.GetRewardInfo"));
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::GetRewardInfo(bool* HasReward, struc
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateBar(float BarPerc, bool Visible)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateBar"));
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateBar(float BarPerc, bool Visibl
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::ResetState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.ResetState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.ResetState"));
 
 	struct
 	{
@@ -261,7 +261,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::ResetState()
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::PlayShowAnimInternal()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.PlayShowAnimInternal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.PlayShowAnimInternal"));
 
 	struct
 	{
@@ -279,7 +279,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::PlayShowAnimInternal()
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::PlayShowAnim(float Delay)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.PlayShowAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.PlayShowAnim"));
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::PlayShowAnim(float Delay)
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateValue"));
 
 	struct
 	{
@@ -313,7 +313,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateValue()
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.UpdateIcon"));
 
 	struct
 	{
@@ -331,7 +331,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::UpdateIcon()
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::SetActivityInstance(const struct FPlayerAwardsPanelData& Instance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.SetActivityInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.SetActivityInstance"));
 
 	struct
 	{
@@ -349,7 +349,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::SetActivityInstance(const struct FPl
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.Construct"));
 
 	struct
 	{
@@ -368,7 +368,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::Construct()
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.Tick"));
 
 	struct
 	{
@@ -390,7 +390,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::Tick(const struct FGeometry& MyGeome
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.PreConstruct"));
 
 	struct
 	{
@@ -408,7 +408,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -424,7 +424,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::BndEvt__HitTarget_K2Node_ComponentBo
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -442,7 +442,7 @@ void UWBP_PlayerProfileScreen_AwardEntry_C::BndEvt__HitTarget_K2Node_ComponentBo
 
 void UWBP_PlayerProfileScreen_AwardEntry_C::ExecuteUbergraph_WBP_PlayerProfileScreen_AwardEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.ExecuteUbergraph_WBP_PlayerProfileScreen_AwardEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardEntry.WBP_PlayerProfileScreen_AwardEntry_C.ExecuteUbergraph_WBP_PlayerProfileScreen_AwardEntry"));
 
 	struct
 	{

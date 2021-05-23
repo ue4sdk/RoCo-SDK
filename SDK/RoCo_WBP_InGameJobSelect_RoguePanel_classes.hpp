@@ -45,7 +45,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_InGameJobSelect_RoguePanel.WBP_InGameJobSelect_RoguePanel_C"));
 		return ptr;
 	}
 

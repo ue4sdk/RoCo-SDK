@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SceneComponentPools.BasePoolComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SceneComponentPools.BasePoolComponent"));
 		return ptr;
 	}
 
@@ -47,7 +47,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SceneComponentPools.DecalPoolComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SceneComponentPools.DecalPoolComponent"));
 		return ptr;
 	}
 
@@ -62,7 +62,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SceneComponentPools.GunshotDecalPoolComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SceneComponentPools.GunshotDecalPoolComponent"));
 		return ptr;
 	}
 
@@ -84,7 +84,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SceneComponentPools.ParticleSystemPoolComponentBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SceneComponentPools.ParticleSystemPoolComponentBase"));
 		return ptr;
 	}
 
@@ -101,7 +101,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SceneComponentPools.ParticleSystemPoolComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SceneComponentPools.ParticleSystemPoolComponent"));
 		return ptr;
 	}
 
@@ -120,7 +120,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SceneComponentPools.PoolableDecalComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SceneComponentPools.PoolableDecalComponent"));
 		return ptr;
 	}
 
@@ -137,7 +137,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SceneComponentPools.SceneComponentPoolStatics");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SceneComponentPools.SceneComponentPoolStatics"));
 		return ptr;
 	}
 
@@ -172,7 +172,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SceneComponentPools.SkeletalMeshPoolComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SceneComponentPools.SkeletalMeshPoolComponent"));
 		return ptr;
 	}
 
@@ -192,7 +192,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SceneComponentPools.StaticMeshPoolComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SceneComponentPools.StaticMeshPoolComponent"));
 		return ptr;
 	}
 

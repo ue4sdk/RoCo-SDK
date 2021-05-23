@@ -17,7 +17,7 @@ namespace SDK
 
 void UGamepadPrompt_Bright_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GamepadPrompt_Bright.GamepadPrompt_Bright_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamepadPrompt_Bright.GamepadPrompt_Bright_C.Construct"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UGamepadPrompt_Bright_C::Construct()
 
 void UGamepadPrompt_Bright_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GamepadPrompt_Bright.GamepadPrompt_Bright_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamepadPrompt_Bright.GamepadPrompt_Bright_C.PreConstruct"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UGamepadPrompt_Bright_C::PreConstruct(bool IsDesignTime)
 
 void UGamepadPrompt_Bright_C::ExecuteUbergraph_GamepadPrompt_Bright(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GamepadPrompt_Bright.GamepadPrompt_Bright_C.ExecuteUbergraph_GamepadPrompt_Bright");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamepadPrompt_Bright.GamepadPrompt_Bright_C.ExecuteUbergraph_GamepadPrompt_Bright"));
 
 	struct
 	{

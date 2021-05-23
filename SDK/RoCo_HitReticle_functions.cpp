@@ -17,7 +17,7 @@ namespace SDK
 
 void UHitReticle_C::OnHitAnimationFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HitReticle.HitReticle_C.OnHitAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitReticle.HitReticle_C.OnHitAnimationFinished"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ void UHitReticle_C::OnHitAnimationFinished()
 
 void UHitReticle_C::ResetHitReticle(bool Headshot, bool Lethal, bool Down, bool Shielded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HitReticle.HitReticle_C.ResetHitReticle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitReticle.HitReticle_C.ResetHitReticle"));
 
 	struct
 	{
@@ -64,7 +64,7 @@ void UHitReticle_C::ResetHitReticle(bool Headshot, bool Lethal, bool Down, bool 
 
 void UHitReticle_C::ExecuteUbergraph_HitReticle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function HitReticle.HitReticle_C.ExecuteUbergraph_HitReticle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitReticle.HitReticle_C.ExecuteUbergraph_HitReticle"));
 
 	struct
 	{

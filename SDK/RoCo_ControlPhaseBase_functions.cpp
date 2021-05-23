@@ -19,7 +19,7 @@ namespace SDK
 
 void UControlPhaseBase_C::OnAcquiredControlPointScore(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.OnAcquiredControlPointScore");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.OnAcquiredControlPointScore"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UControlPhaseBase_C::OnAcquiredControlPointScore(class AKSControlPoint* Con
 
 void UControlPhaseBase_C::EnterCaptureState(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.EnterCaptureState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.EnterCaptureState"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UControlPhaseBase_C::EnterCaptureState(class AKSControlPoint* ControlPoint)
 
 void UControlPhaseBase_C::UnlockControlPoints()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.UnlockControlPoints");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.UnlockControlPoints"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UControlPhaseBase_C::UnlockControlPoints()
 
 void UControlPhaseBase_C::SetupControlPoints()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.SetupControlPoints");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.SetupControlPoints"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UControlPhaseBase_C::SetupControlPoints()
 
 void UControlPhaseBase_C::EnterSudden_Death(class AKSTeamState* Controlling_Team)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.EnterSudden Death");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.EnterSudden Death"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UControlPhaseBase_C::EnterSudden_Death(class AKSTeamState* Controlling_Team
 
 void UControlPhaseBase_C::TryToEnterSuddenDeath()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.TryToEnterSuddenDeath");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.TryToEnterSuddenDeath"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UControlPhaseBase_C::TryToEnterSuddenDeath()
 
 void UControlPhaseBase_C::BreakTie(TArray<class AKSTeamState*>* Tied_Teams, class AKSTeamState** Tie_Winner)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.BreakTie");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.BreakTie"));
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UControlPhaseBase_C::BreakTie(TArray<class AKSTeamState*>* Tied_Teams, clas
 
 void UControlPhaseBase_C::CheckTied(bool* IsTied)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.CheckTied");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.CheckTied"));
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UControlPhaseBase_C::CheckTied(bool* IsTied)
 
 void UControlPhaseBase_C::On_Point_Score_Period_Elapsed(class AKSControlPoint* Control_Point)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.On Point Score Period Elapsed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.On Point Score Period Elapsed"));
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UControlPhaseBase_C::On_Point_Score_Period_Elapsed(class AKSControlPoint* C
 
 void UControlPhaseBase_C::On_Point_Captured(class AKSControlPoint* Control_Point)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.On Point Captured");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.On Point Captured"));
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UControlPhaseBase_C::On_Point_Captured(class AKSControlPoint* Control_Point
 
 void UControlPhaseBase_C::Cleanup()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.Cleanup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.Cleanup"));
 
 	struct
 	{
@@ -231,7 +231,7 @@ void UControlPhaseBase_C::Cleanup()
 
 void UControlPhaseBase_C::PhaseTimerExpired(const struct FName& PhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.PhaseTimerExpired");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.PhaseTimerExpired"));
 
 	struct
 	{
@@ -249,7 +249,7 @@ void UControlPhaseBase_C::PhaseTimerExpired(const struct FName& PhaseName)
 
 void UControlPhaseBase_C::HandlePhaseInterrupted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.HandlePhaseInterrupted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.HandlePhaseInterrupted"));
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UControlPhaseBase_C::HandlePhaseInterrupted()
 
 void UControlPhaseBase_C::HandlePhaseStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.HandlePhaseStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.HandlePhaseStarted"));
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UControlPhaseBase_C::HandlePhaseStarted()
 
 void UControlPhaseBase_C::On_Point_Contested(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.On Point Contested");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.On Point Contested"));
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UControlPhaseBase_C::On_Point_Contested(class AKSControlPoint* ControlPoint
 
 void UControlPhaseBase_C::On_Point_Uncontested(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.On Point Uncontested");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.On Point Uncontested"));
 
 	struct
 	{
@@ -323,7 +323,7 @@ void UControlPhaseBase_C::On_Point_Uncontested(class AKSControlPoint* ControlPoi
 
 void UControlPhaseBase_C::On_Point_Uncaptured(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.On Point Uncaptured");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.On Point Uncaptured"));
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UControlPhaseBase_C::On_Point_Uncaptured(class AKSControlPoint* ControlPoin
 
 void UControlPhaseBase_C::ExecuteUbergraph_ControlPhaseBase(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ControlPhaseBase.ControlPhaseBase_C.ExecuteUbergraph_ControlPhaseBase");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ControlPhaseBase.ControlPhaseBase_C.ExecuteUbergraph_ControlPhaseBase"));
 
 	struct
 	{

@@ -13,8 +13,8 @@
 #include "RoCo_PlatformGameFramework_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
 #include "RoCo_UMG_classes.hpp"
-#include "RoCo_CosmeticSlotDetails_classes.hpp"
 #include "RoCo_Killstreak_classes.hpp"
+#include "RoCo_CosmeticSlotDetails_classes.hpp"
 
 namespace SDK
 {

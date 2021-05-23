@@ -20,7 +20,7 @@ namespace SDK
 
 void UCINE_Walkin_Widget_C::SetPlayerData(class UKSPersistentPlayerData* PlayerData, bool* IsValid)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerData"));
 
 	struct
 	{
@@ -47,7 +47,7 @@ void UCINE_Walkin_Widget_C::SetPlayerData(class UKSPersistentPlayerData* PlayerD
 
 void UCINE_Walkin_Widget_C::Set_Player_Blueprint_References(class AKSJobSelectPreviewActor* Player01, class AKSJobSelectPreviewActor* Player02, class AKSJobSelectPreviewActor* Player03, class AKSJobSelectPreviewActor* Player04)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Set Player Blueprint References");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Set Player Blueprint References"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UCINE_Walkin_Widget_C::Set_Player_Blueprint_References(class AKSJobSelectPr
 
 void UCINE_Walkin_Widget_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Construct"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UCINE_Walkin_Widget_C::Construct()
 
 void UCINE_Walkin_Widget_C::Anim_Player01()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player01");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player01"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UCINE_Walkin_Widget_C::Anim_Player01()
 
 void UCINE_Walkin_Widget_C::Anim_Player02()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player02");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player02"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UCINE_Walkin_Widget_C::Anim_Player02()
 
 void UCINE_Walkin_Widget_C::Anim_Player03()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player03");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player03"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UCINE_Walkin_Widget_C::Anim_Player03()
 
 void UCINE_Walkin_Widget_C::Anim_Player04()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player04");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player04"));
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UCINE_Walkin_Widget_C::Anim_Player04()
 
 void UCINE_Walkin_Widget_C::ExecuteUbergraph_CINE_Walkin_Widget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.ExecuteUbergraph_CINE_Walkin_Widget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.ExecuteUbergraph_CINE_Walkin_Widget"));
 
 	struct
 	{

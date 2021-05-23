@@ -17,7 +17,7 @@ namespace SDK
 
 void UReticuleMoving_C::ResetADS()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.ResetADS");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.ResetADS"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UReticuleMoving_C::ResetADS()
 
 void UReticuleMoving_C::UpdateBlockedShotDisplay(bool IsVisible, const struct FVector2D& Translation, const struct FVector2D& IconScale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.UpdateBlockedShotDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.UpdateBlockedShotDisplay"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UReticuleMoving_C::UpdateBlockedShotDisplay(bool IsVisible, const struct FV
 
 void UReticuleMoving_C::UpdateVisibility()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.UpdateVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.UpdateVisibility"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UReticuleMoving_C::UpdateVisibility()
 
 void UReticuleMoving_C::UnBindReticleAmmoGauge()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.UnBindReticleAmmoGauge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.UnBindReticleAmmoGauge"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UReticuleMoving_C::UnBindReticleAmmoGauge()
 
 void UReticuleMoving_C::HandleShotgunElimination()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleShotgunElimination");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleShotgunElimination"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UReticuleMoving_C::HandleShotgunElimination()
 
 void UReticuleMoving_C::ProcessShotgunHitDisplay(const struct FShotgunHitData& InShotgunHitData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.ProcessShotgunHitDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.ProcessShotgunHitDisplay"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UReticuleMoving_C::ProcessShotgunHitDisplay(const struct FShotgunHitData& I
 
 void UReticuleMoving_C::UnbindShotgunNotify()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.UnbindShotgunNotify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.UnbindShotgunNotify"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UReticuleMoving_C::UnbindShotgunNotify()
 
 void UReticuleMoving_C::BindToShotgunNotify()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.BindToShotgunNotify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.BindToShotgunNotify"));
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UReticuleMoving_C::BindToShotgunNotify()
 
 void UReticuleMoving_C::IsShotgunReticleType(bool* Return, class UReticleBase_C** Reticle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.IsShotgunReticleType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.IsShotgunReticleType"));
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UReticuleMoving_C::IsShotgunReticleType(bool* Return, class UReticleBase_C*
 
 void UReticuleMoving_C::BindReticleAmmoGauge()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.BindReticleAmmoGauge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.BindReticleAmmoGauge"));
 
 	struct
 	{
@@ -203,7 +203,7 @@ void UReticuleMoving_C::BindReticleAmmoGauge()
 
 void UReticuleMoving_C::CheckShotgunReload(bool* IsShotgunReload)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.CheckShotgunReload");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.CheckShotgunReload"));
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UReticuleMoving_C::CheckShotgunReload(bool* IsShotgunReload)
 
 void UReticuleMoving_C::GetActiveReticle(class UReticleBase_C** Reticle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.GetActiveReticle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.GetActiveReticle"));
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UReticuleMoving_C::GetActiveReticle(class UReticleBase_C** Reticle)
 
 void UReticuleMoving_C::SetActiveReticle()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.SetActiveReticle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.SetActiveReticle"));
 
 	struct
 	{
@@ -261,7 +261,7 @@ void UReticuleMoving_C::SetActiveReticle()
 
 void UReticuleMoving_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.InitializeTickAnimations");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.InitializeTickAnimations"));
 
 	struct
 	{
@@ -280,7 +280,7 @@ void UReticuleMoving_C::InitializeTickAnimations()
 
 void UReticuleMoving_C::HandleBlockedShotLerpUpdate(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleBlockedShotLerpUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleBlockedShotLerpUpdate"));
 
 	struct
 	{
@@ -300,7 +300,7 @@ void UReticuleMoving_C::HandleBlockedShotLerpUpdate(float ElapsedTime, float Ela
 
 void UReticuleMoving_C::HandleBlockedShotLerpFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleBlockedShotLerpFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleBlockedShotLerpFinished"));
 
 	struct
 	{
@@ -316,7 +316,7 @@ void UReticuleMoving_C::HandleBlockedShotLerpFinished()
 
 void UReticuleMoving_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.Construct"));
 
 	struct
 	{
@@ -334,7 +334,7 @@ void UReticuleMoving_C::Construct()
 
 void UReticuleMoving_C::AimStateChange(EKSCharacterAimMode NewAimMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.AimStateChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.AimStateChange"));
 
 	struct
 	{
@@ -354,7 +354,7 @@ void UReticuleMoving_C::AimStateChange(EKSCharacterAimMode NewAimMode)
 
 void UReticuleMoving_C::Kill(const struct FCombatEventInfo& Victim)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.Kill");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.Kill"));
 
 	struct
 	{
@@ -382,7 +382,7 @@ void UReticuleMoving_C::Kill(const struct FCombatEventInfo& Victim)
 
 void UReticuleMoving_C::OnInstigatedDamage(float DamageAmount, bool IsHeadshot, bool IsDown, bool isLethal, bool isShielded, class UClass* DamageTypeClass, class AActor* Target, class AActor* DamageCauser, bool Damage_Resisted)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.OnInstigatedDamage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.OnInstigatedDamage"));
 
 	struct
 	{
@@ -418,7 +418,7 @@ void UReticuleMoving_C::OnInstigatedDamage(float DamageAmount, bool IsHeadshot, 
 
 void UReticuleMoving_C::UpdateReticleOffset(float OffsetFromCenterScreen)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.UpdateReticleOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.UpdateReticleOffset"));
 
 	struct
 	{
@@ -440,7 +440,7 @@ void UReticuleMoving_C::UpdateReticleOffset(float OffsetFromCenterScreen)
 
 void UReticuleMoving_C::UpdateBlockedShotIcon(bool IconVisible, const struct FVector2D& Translation, const struct FVector2D& IconScale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.UpdateBlockedShotIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.UpdateBlockedShotIcon"));
 
 	struct
 	{
@@ -462,7 +462,7 @@ void UReticuleMoving_C::UpdateBlockedShotIcon(bool IconVisible, const struct FVe
 
 void UReticuleMoving_C::PostSetActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.PostSetActiveWeaponComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.PostSetActiveWeaponComponent"));
 
 	struct
 	{
@@ -478,7 +478,7 @@ void UReticuleMoving_C::PostSetActiveWeaponComponent()
 
 void UReticuleMoving_C::PreClearActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.PreClearActiveWeaponComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.PreClearActiveWeaponComponent"));
 
 	struct
 	{
@@ -496,7 +496,7 @@ void UReticuleMoving_C::PreClearActiveWeaponComponent()
 
 void UReticuleMoving_C::HandleOnKillCamViewProjectile(class AKSProjectile* ViewProjectile)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleOnKillCamViewProjectile");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleOnKillCamViewProjectile"));
 
 	struct
 	{
@@ -516,7 +516,7 @@ void UReticuleMoving_C::HandleOnKillCamViewProjectile(class AKSProjectile* ViewP
 
 void UReticuleMoving_C::HandleKillCamEnabled(bool bEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleKillCamEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleKillCamEnabled"));
 
 	struct
 	{
@@ -534,7 +534,7 @@ void UReticuleMoving_C::HandleKillCamEnabled(bool bEnabled)
 
 void UReticuleMoving_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.PreClearPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.PreClearPawn"));
 
 	struct
 	{
@@ -552,7 +552,7 @@ void UReticuleMoving_C::PreClearPawn()
 
 void UReticuleMoving_C::ViewedPawnInstigatedDamageNotify(const struct FCombatEventInfo& DamageInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.ViewedPawnInstigatedDamageNotify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.ViewedPawnInstigatedDamageNotify"));
 
 	struct
 	{
@@ -573,7 +573,7 @@ void UReticuleMoving_C::ViewedPawnInstigatedDamageNotify(const struct FCombatEve
 
 void UReticuleMoving_C::OnPlayerKilled(class AKSCharacterBase* KillerCharacter, class AKSCharacterBase* KilledCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.OnPlayerKilled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.OnPlayerKilled"));
 
 	struct
 	{
@@ -597,7 +597,7 @@ void UReticuleMoving_C::OnPlayerKilled(class AKSCharacterBase* KillerCharacter, 
 
 void UReticuleMoving_C::HandleReload__New_(class UKSWeaponComponent* WeaponComponent, EWeaponStateNew OldState, EWeaponStateNew NewState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleReload (New)");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleReload (New)"));
 
 	struct
 	{
@@ -623,7 +623,7 @@ void UReticuleMoving_C::HandleReload__New_(class UKSWeaponComponent* WeaponCompo
 
 void UReticuleMoving_C::GrenadeStateChange__New_(class UKSWeaponComponent* Weapon, EWeaponStateNew Old_State, EWeaponStateNew New_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.GrenadeStateChange (New)");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.GrenadeStateChange (New)"));
 
 	struct
 	{
@@ -648,7 +648,7 @@ void UReticuleMoving_C::GrenadeStateChange__New_(class UKSWeaponComponent* Weapo
 
 void UReticuleMoving_C::HandleShotgunNotify(class AKSCharacter* KSCharacter, const struct FShotgunHitData& InShotgunHitData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleShotgunNotify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleShotgunNotify"));
 
 	struct
 	{
@@ -668,7 +668,7 @@ void UReticuleMoving_C::HandleShotgunNotify(class AKSCharacter* KSCharacter, con
 
 void UReticuleMoving_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.PostSetPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.PostSetPawn"));
 
 	struct
 	{
@@ -684,7 +684,7 @@ void UReticuleMoving_C::PostSetPawn()
 
 void UReticuleMoving_C::PostSetPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.PostSetPlayerState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.PostSetPlayerState"));
 
 	struct
 	{
@@ -700,7 +700,7 @@ void UReticuleMoving_C::PostSetPlayerState()
 
 void UReticuleMoving_C::PreClearPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.PreClearPlayerState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.PreClearPlayerState"));
 
 	struct
 	{
@@ -716,7 +716,7 @@ void UReticuleMoving_C::PreClearPlayerState()
 
 void UReticuleMoving_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.OnInitialized");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.OnInitialized"));
 
 	struct
 	{
@@ -734,7 +734,7 @@ void UReticuleMoving_C::OnInitialized()
 
 void UReticuleMoving_C::SetReticleColor(int SettingValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.SetReticleColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.SetReticleColor"));
 
 	struct
 	{
@@ -752,7 +752,7 @@ void UReticuleMoving_C::SetReticleColor(int SettingValue)
 
 void UReticuleMoving_C::HideResistIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HideResistIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HideResistIcon"));
 
 	struct
 	{
@@ -768,7 +768,7 @@ void UReticuleMoving_C::HideResistIcon()
 
 void UReticuleMoving_C::HideDamagedGadgetIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HideDamagedGadgetIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HideDamagedGadgetIcon"));
 
 	struct
 	{
@@ -784,7 +784,7 @@ void UReticuleMoving_C::HideDamagedGadgetIcon()
 
 void UReticuleMoving_C::HideBrokenGadgetIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HideBrokenGadgetIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HideBrokenGadgetIcon"));
 
 	struct
 	{
@@ -800,7 +800,7 @@ void UReticuleMoving_C::HideBrokenGadgetIcon()
 
 void UReticuleMoving_C::HideFlashbangIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HideFlashbangIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HideFlashbangIcon"));
 
 	struct
 	{
@@ -818,7 +818,7 @@ void UReticuleMoving_C::HideFlashbangIcon()
 
 void UReticuleMoving_C::Handle_Player_Down_or_Elim_Changed(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.Handle Player Down or Elim Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.Handle Player Down or Elim Changed"));
 
 	struct
 	{
@@ -838,7 +838,7 @@ void UReticuleMoving_C::Handle_Player_Down_or_Elim_Changed(class AKSPlayerState*
 
 void UReticuleMoving_C::HandleLightBombHitCount(int HitCount)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleLightBombHitCount");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleLightBombHitCount"));
 
 	struct
 	{
@@ -856,7 +856,7 @@ void UReticuleMoving_C::HandleLightBombHitCount(int HitCount)
 
 void UReticuleMoving_C::HandleEmoteStoppedPlaying()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleEmoteStoppedPlaying");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleEmoteStoppedPlaying"));
 
 	struct
 	{
@@ -872,7 +872,7 @@ void UReticuleMoving_C::HandleEmoteStoppedPlaying()
 
 void UReticuleMoving_C::HandleOnEmoteStartedPlaying()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleOnEmoteStartedPlaying");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleOnEmoteStartedPlaying"));
 
 	struct
 	{
@@ -888,7 +888,7 @@ void UReticuleMoving_C::HandleOnEmoteStartedPlaying()
 
 void UReticuleMoving_C::HandleDeathStateChange()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleDeathStateChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleDeathStateChange"));
 
 	struct
 	{
@@ -907,7 +907,7 @@ void UReticuleMoving_C::HandleDeathStateChange()
 
 void UReticuleMoving_C::HandleCrosshairHidden(class AKSCharacter* Character, bool Hidden)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.HandleCrosshairHidden");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.HandleCrosshairHidden"));
 
 	struct
 	{
@@ -927,7 +927,7 @@ void UReticuleMoving_C::HandleCrosshairHidden(class AKSCharacter* Character, boo
 
 void UReticuleMoving_C::Handle_Out_Of_Bounds_End()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.Handle Out Of Bounds End");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.Handle Out Of Bounds End"));
 
 	struct
 	{
@@ -943,7 +943,7 @@ void UReticuleMoving_C::Handle_Out_Of_Bounds_End()
 
 void UReticuleMoving_C::Handle_Out_Of_Bounds_Begin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.Handle Out Of Bounds Begin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.Handle Out Of Bounds Begin"));
 
 	struct
 	{
@@ -961,7 +961,7 @@ void UReticuleMoving_C::Handle_Out_Of_Bounds_Begin()
 
 void UReticuleMoving_C::ExecuteUbergraph_ReticuleMoving(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.ExecuteUbergraph_ReticuleMoving");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticuleMoving.ReticuleMoving_C.ExecuteUbergraph_ReticuleMoving"));
 
 	struct
 	{

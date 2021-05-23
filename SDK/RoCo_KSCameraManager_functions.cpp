@@ -19,7 +19,7 @@ namespace SDK
 
 void AKSCameraManager_C::GetMantleHeightFromKSChar(bool* NoMantleCamera)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.GetMantleHeightFromKSChar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.GetMantleHeightFromKSChar"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void AKSCameraManager_C::GetMantleHeightFromKSChar(bool* NoMantleCamera)
 
 void AKSCameraManager_C::NotifyCamModFinished(class UClass* Modifier_Class)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.NotifyCamModFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.NotifyCamModFinished"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ void AKSCameraManager_C::NotifyCamModFinished(class UClass* Modifier_Class)
 
 void AKSCameraManager_C::UpdateCamModValues(class UClass* Modifier_Class, const struct FVector& In_Location, const struct FVector& In_Rotation, float In_FOV, bool* Success)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.UpdateCamModValues");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.UpdateCamModValues"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ void AKSCameraManager_C::UpdateCamModValues(class UClass* Modifier_Class, const 
 
 void AKSCameraManager_C::JumpStart__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.JumpStart__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.JumpStart__FinishedFunc"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void AKSCameraManager_C::JumpStart__FinishedFunc()
 
 void AKSCameraManager_C::JumpStart__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.JumpStart__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.JumpStart__UpdateFunc"));
 
 	struct
 	{
@@ -125,7 +125,7 @@ void AKSCameraManager_C::JumpStart__UpdateFunc()
 
 void AKSCameraManager_C::JumpLanding__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.JumpLanding__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.JumpLanding__FinishedFunc"));
 
 	struct
 	{
@@ -141,7 +141,7 @@ void AKSCameraManager_C::JumpLanding__FinishedFunc()
 
 void AKSCameraManager_C::JumpLanding__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.JumpLanding__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.JumpLanding__UpdateFunc"));
 
 	struct
 	{
@@ -157,7 +157,7 @@ void AKSCameraManager_C::JumpLanding__UpdateFunc()
 
 void AKSCameraManager_C::Mantle_Tall__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Mantle_Tall__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Mantle_Tall__FinishedFunc"));
 
 	struct
 	{
@@ -173,7 +173,7 @@ void AKSCameraManager_C::Mantle_Tall__FinishedFunc()
 
 void AKSCameraManager_C::Mantle_Tall__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Mantle_Tall__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Mantle_Tall__UpdateFunc"));
 
 	struct
 	{
@@ -189,7 +189,7 @@ void AKSCameraManager_C::Mantle_Tall__UpdateFunc()
 
 void AKSCameraManager_C::Mantle_Medium__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Mantle_Medium__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Mantle_Medium__FinishedFunc"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void AKSCameraManager_C::Mantle_Medium__FinishedFunc()
 
 void AKSCameraManager_C::Mantle_Medium__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Mantle_Medium__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Mantle_Medium__UpdateFunc"));
 
 	struct
 	{
@@ -221,7 +221,7 @@ void AKSCameraManager_C::Mantle_Medium__UpdateFunc()
 
 void AKSCameraManager_C::Mantle_Short__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Mantle_Short__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Mantle_Short__FinishedFunc"));
 
 	struct
 	{
@@ -237,7 +237,7 @@ void AKSCameraManager_C::Mantle_Short__FinishedFunc()
 
 void AKSCameraManager_C::Mantle_Short__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Mantle_Short__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Mantle_Short__UpdateFunc"));
 
 	struct
 	{
@@ -253,7 +253,7 @@ void AKSCameraManager_C::Mantle_Short__UpdateFunc()
 
 void AKSCameraManager_C::Vault_Tall__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Vault_Tall__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Vault_Tall__FinishedFunc"));
 
 	struct
 	{
@@ -269,7 +269,7 @@ void AKSCameraManager_C::Vault_Tall__FinishedFunc()
 
 void AKSCameraManager_C::Vault_Tall__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Vault_Tall__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Vault_Tall__UpdateFunc"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void AKSCameraManager_C::Vault_Tall__UpdateFunc()
 
 void AKSCameraManager_C::Vault_Medium__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Vault_Medium__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Vault_Medium__FinishedFunc"));
 
 	struct
 	{
@@ -301,7 +301,7 @@ void AKSCameraManager_C::Vault_Medium__FinishedFunc()
 
 void AKSCameraManager_C::Vault_Medium__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Vault_Medium__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Vault_Medium__UpdateFunc"));
 
 	struct
 	{
@@ -317,7 +317,7 @@ void AKSCameraManager_C::Vault_Medium__UpdateFunc()
 
 void AKSCameraManager_C::Vault_Short__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Vault_Short__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Vault_Short__FinishedFunc"));
 
 	struct
 	{
@@ -333,7 +333,7 @@ void AKSCameraManager_C::Vault_Short__FinishedFunc()
 
 void AKSCameraManager_C::Vault_Short__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Vault_Short__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Vault_Short__UpdateFunc"));
 
 	struct
 	{
@@ -349,7 +349,7 @@ void AKSCameraManager_C::Vault_Short__UpdateFunc()
 
 void AKSCameraManager_C::Vault_Medium_Running__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Vault_Medium_Running__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Vault_Medium_Running__FinishedFunc"));
 
 	struct
 	{
@@ -365,7 +365,7 @@ void AKSCameraManager_C::Vault_Medium_Running__FinishedFunc()
 
 void AKSCameraManager_C::Vault_Medium_Running__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Vault_Medium_Running__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Vault_Medium_Running__UpdateFunc"));
 
 	struct
 	{
@@ -381,7 +381,7 @@ void AKSCameraManager_C::Vault_Medium_Running__UpdateFunc()
 
 void AKSCameraManager_C::Play_Jump_Start()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Play Jump Start");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Play Jump Start"));
 
 	struct
 	{
@@ -397,7 +397,7 @@ void AKSCameraManager_C::Play_Jump_Start()
 
 void AKSCameraManager_C::PlayJumpLanding()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.PlayJumpLanding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.PlayJumpLanding"));
 
 	struct
 	{
@@ -415,7 +415,7 @@ void AKSCameraManager_C::PlayJumpLanding()
 
 void AKSCameraManager_C::Play_Mantle(int Mantle_Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.Play Mantle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.Play Mantle"));
 
 	struct
 	{
@@ -435,7 +435,7 @@ void AKSCameraManager_C::Play_Mantle(int Mantle_Index)
 
 void AKSCameraManager_C::ExecuteUbergraph_KSCameraManager(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSCameraManager.KSCameraManager_C.ExecuteUbergraph_KSCameraManager");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSCameraManager.KSCameraManager_C.ExecuteUbergraph_KSCameraManager"));
 
 	struct
 	{

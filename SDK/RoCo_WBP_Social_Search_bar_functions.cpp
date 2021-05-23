@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_Social_Search_bar_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.NavigateConfirm"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_Social_Search_bar_C::NavigateConfirm()
 
 void UWBP_Social_Search_bar_C::ShowVirtualKeyboard()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.ShowVirtualKeyboard");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.ShowVirtualKeyboard"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWBP_Social_Search_bar_C::ShowVirtualKeyboard()
 
 void UWBP_Social_Search_bar_C::Clear()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.Clear");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.Clear"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_Social_Search_bar_C::Clear()
 
 void UWBP_Social_Search_bar_C::DoSearch()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.DoSearch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.DoSearch"));
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UWBP_Social_Search_bar_C::DoSearch()
 
 void UWBP_Social_Search_bar_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.InitializeWidget"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_Social_Search_bar_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Social_Search_bar_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.UninitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.UninitializeWidget"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UWBP_Social_Search_bar_C::UninitializeWidget()
 
 void UWBP_Social_Search_bar_C::OnSearchTextChange(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.OnSearchTextChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.OnSearchTextChange"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_Social_Search_bar_C::OnSearchTextChange(const struct FText& Text)
 
 void UWBP_Social_Search_bar_C::BndEvt__InputText_K2Node_ComponentBoundEvent_0_OnEditableTextBoxCommittedEvent__DelegateSignature(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.BndEvt__InputText_K2Node_ComponentBoundEvent_0_OnEditableTextBoxCommittedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.BndEvt__InputText_K2Node_ComponentBoundEvent_0_OnEditableTextBoxCommittedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UWBP_Social_Search_bar_C::BndEvt__InputText_K2Node_ComponentBoundEvent_0_On
 
 void UWBP_Social_Search_bar_C::BndEvt__InputText_K2Node_ComponentBoundEvent_1_OnEditableTextBoxChangedEvent__DelegateSignature(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.BndEvt__InputText_K2Node_ComponentBoundEvent_1_OnEditableTextBoxChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.BndEvt__InputText_K2Node_ComponentBoundEvent_1_OnEditableTextBoxChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UWBP_Social_Search_bar_C::BndEvt__InputText_K2Node_ComponentBoundEvent_1_On
 
 void UWBP_Social_Search_bar_C::BndEvt__SubmitButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.BndEvt__SubmitButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.BndEvt__SubmitButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void UWBP_Social_Search_bar_C::BndEvt__SubmitButton_K2Node_ComponentBoundEvent_2
 
 void UWBP_Social_Search_bar_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.GamepadHover"));
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UWBP_Social_Search_bar_C::GamepadHover()
 
 void UWBP_Social_Search_bar_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.GamepadUnhover"));
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UWBP_Social_Search_bar_C::GamepadUnhover()
 
 void UWBP_Social_Search_bar_C::ExecuteUbergraph_WBP_Social_Search_bar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.ExecuteUbergraph_WBP_Social_Search_bar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.ExecuteUbergraph_WBP_Social_Search_bar"));
 
 	struct
 	{
@@ -257,7 +257,7 @@ void UWBP_Social_Search_bar_C::ExecuteUbergraph_WBP_Social_Search_bar(int EntryP
 
 void UWBP_Social_Search_bar_C::OnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.OnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.OnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UWBP_Social_Search_bar_C::OnUnhovered__DelegateSignature()
 
 void UWBP_Social_Search_bar_C::OnHovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.OnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.OnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UWBP_Social_Search_bar_C::OnHovered__DelegateSignature()
 
 void UWBP_Social_Search_bar_C::OnSearchTermChange__DelegateSignature(const struct FText& SearchTerm)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.OnSearchTermChange__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Search_bar.WBP_Social_Search_bar_C.OnSearchTermChange__DelegateSignature"));
 
 	struct
 	{

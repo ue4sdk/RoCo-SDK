@@ -9,8 +9,8 @@
 #include "RoCo_Basic.hpp"
 #include "RoCo_KillstreakUINew_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
-#include "RoCo_Killstreak_classes.hpp"
 #include "RoCo_NavButtonData_classes.hpp"
+#include "RoCo_Killstreak_classes.hpp"
 
 namespace SDK
 {

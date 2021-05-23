@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_LocalPlayerModBarElement_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LocalPlayerModBarElement.WBP_LocalPlayerModBarElement_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LocalPlayerModBarElement.WBP_LocalPlayerModBarElement_C.Construct"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_LocalPlayerModBarElement_C::Construct()
 
 void UWBP_LocalPlayerModBarElement_C::ExecuteUbergraph_WBP_LocalPlayerModBarElement(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LocalPlayerModBarElement.WBP_LocalPlayerModBarElement_C.ExecuteUbergraph_WBP_LocalPlayerModBarElement");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LocalPlayerModBarElement.WBP_LocalPlayerModBarElement_C.ExecuteUbergraph_WBP_LocalPlayerModBarElement"));
 
 	struct
 	{

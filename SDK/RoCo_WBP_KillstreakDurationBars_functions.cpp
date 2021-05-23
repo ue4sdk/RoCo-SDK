@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_KillstreakDurationBars_C::OnAimStateChanged(EKSCharacterAimMode AimMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.OnAimStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.OnAimStateChanged"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_KillstreakDurationBars_C::OnAimStateChanged(EKSCharacterAimMode AimMod
 
 void UWBP_KillstreakDurationBars_C::DestroyUnusedDurationBars(TArray<class UKSPlayerModInstance*>* PlayerMods)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.DestroyUnusedDurationBars");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.DestroyUnusedDurationBars"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_KillstreakDurationBars_C::DestroyUnusedDurationBars(TArray<class UKSPl
 
 void UWBP_KillstreakDurationBars_C::GetDurationBarForModInstance(class UKSPlayerModInstance* ModInstance, class UWBP_DurationBar_C** Duration_Bar)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.GetDurationBarForModInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.GetDurationBarForModInstance"));
 
 	struct
 	{
@@ -84,7 +84,7 @@ void UWBP_KillstreakDurationBars_C::GetDurationBarForModInstance(class UKSPlayer
 
 void UWBP_KillstreakDurationBars_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.PostSetPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.PostSetPawn"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UWBP_KillstreakDurationBars_C::PostSetPawn()
 
 void UWBP_KillstreakDurationBars_C::CloseGate_PawnRetry()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.CloseGate_PawnRetry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.CloseGate_PawnRetry"));
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UWBP_KillstreakDurationBars_C::CloseGate_PawnRetry()
 
 void UWBP_KillstreakDurationBars_C::HandleModsUpdated(class AKSCharacter* KSCharacterRef)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.HandleModsUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.HandleModsUpdated"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_KillstreakDurationBars_C::HandleModsUpdated(class AKSCharacter* KSChar
 
 void UWBP_KillstreakDurationBars_C::HandlePlayerDownedOrEliminated(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.HandlePlayerDownedOrEliminated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.HandlePlayerDownedOrEliminated"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_KillstreakDurationBars_C::HandlePlayerDownedOrEliminated(class AKSPlay
 
 void UWBP_KillstreakDurationBars_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.PreClearPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.PreClearPawn"));
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_KillstreakDurationBars_C::PreClearPawn()
 
 void UWBP_KillstreakDurationBars_C::OnKilled(class AKSCharacterBase* KillerCharacter, class AKSCharacterBase* KilledCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.OnKilled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.OnKilled"));
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UWBP_KillstreakDurationBars_C::OnKilled(class AKSCharacterBase* KillerChara
 
 void UWBP_KillstreakDurationBars_C::HandleOnViewedPawnChanged(class AKSPlayerController* Controller, class AActor* OldViewTarget, class AActor* NewViewTarget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.HandleOnViewedPawnChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.HandleOnViewedPawnChanged"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_KillstreakDurationBars_C::HandleOnViewedPawnChanged(class AKSPlayerCon
 
 void UWBP_KillstreakDurationBars_C::HandleProjectileFired(float DurationTime, class UKSWeaponAsset* WeaponAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.HandleProjectileFired");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.HandleProjectileFired"));
 
 	struct
 	{
@@ -246,7 +246,7 @@ void UWBP_KillstreakDurationBars_C::HandleProjectileFired(float DurationTime, cl
 
 void UWBP_KillstreakDurationBars_C::CustomEvent_1(class AActor* DestroyedActor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.CustomEvent_1");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.CustomEvent_1"));
 
 	struct
 	{
@@ -264,7 +264,7 @@ void UWBP_KillstreakDurationBars_C::CustomEvent_1(class AActor* DestroyedActor)
 
 void UWBP_KillstreakDurationBars_C::ResetDurationBars()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.ResetDurationBars");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.ResetDurationBars"));
 
 	struct
 	{
@@ -282,7 +282,7 @@ void UWBP_KillstreakDurationBars_C::ResetDurationBars()
 
 void UWBP_KillstreakDurationBars_C::ExecuteUbergraph_WBP_KillstreakDurationBars(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.ExecuteUbergraph_WBP_KillstreakDurationBars");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakDurationBars.WBP_KillstreakDurationBars_C.ExecuteUbergraph_WBP_KillstreakDurationBars"));
 
 	struct
 	{

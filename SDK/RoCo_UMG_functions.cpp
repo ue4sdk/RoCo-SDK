@@ -19,7 +19,7 @@ namespace SDK
 
 void UWidget::SetVisibility(ESlateVisibility InVisibility)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetVisibility"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWidget::SetVisibility(ESlateVisibility InVisibility)
 
 void UWidget::SetUserFocus(class APlayerController* PlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetUserFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetUserFocus"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWidget::SetUserFocus(class APlayerController* PlayerController)
 
 void UWidget::SetToolTipText(const struct FText& InToolTipText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetToolTipText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetToolTipText"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWidget::SetToolTipText(const struct FText& InToolTipText)
 
 void UWidget::SetToolTip(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetToolTip");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetToolTip"));
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWidget::SetToolTip(class UWidget* Widget)
 
 void UWidget::SetRenderTranslation(const struct FVector2D& Translation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetRenderTranslation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetRenderTranslation"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWidget::SetRenderTranslation(const struct FVector2D& Translation)
 
 void UWidget::SetRenderTransformPivot(const struct FVector2D& Pivot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetRenderTransformPivot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetRenderTransformPivot"));
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWidget::SetRenderTransformPivot(const struct FVector2D& Pivot)
 
 void UWidget::SetRenderTransformAngle(float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetRenderTransformAngle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetRenderTransformAngle"));
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UWidget::SetRenderTransformAngle(float Angle)
 
 void UWidget::SetRenderTransform(const struct FWidgetTransform& InTransform)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetRenderTransform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetRenderTransform"));
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UWidget::SetRenderTransform(const struct FWidgetTransform& InTransform)
 
 void UWidget::SetRenderShear(const struct FVector2D& Shear)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetRenderShear");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetRenderShear"));
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UWidget::SetRenderShear(const struct FVector2D& Shear)
 
 void UWidget::SetRenderScale(const struct FVector2D& Scale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetRenderScale");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetRenderScale"));
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWidget::SetRenderScale(const struct FVector2D& Scale)
 
 void UWidget::SetRenderOpacity(float InOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetRenderOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetRenderOpacity"));
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UWidget::SetRenderOpacity(float InOpacity)
 
 void UWidget::SetNavigationRuleExplicit(EUINavigation Direction, class UWidget* InWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetNavigationRuleExplicit");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetNavigationRuleExplicit"));
 
 	struct
 	{
@@ -263,7 +263,7 @@ void UWidget::SetNavigationRuleExplicit(EUINavigation Direction, class UWidget* 
 
 void UWidget::SetNavigationRuleCustomBoundary(EUINavigation Direction, const struct FScriptDelegate& InCustomDelegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetNavigationRuleCustomBoundary");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetNavigationRuleCustomBoundary"));
 
 	struct
 	{
@@ -286,7 +286,7 @@ void UWidget::SetNavigationRuleCustomBoundary(EUINavigation Direction, const str
 
 void UWidget::SetNavigationRuleCustom(EUINavigation Direction, const struct FScriptDelegate& InCustomDelegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetNavigationRuleCustom");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetNavigationRuleCustom"));
 
 	struct
 	{
@@ -309,7 +309,7 @@ void UWidget::SetNavigationRuleCustom(EUINavigation Direction, const struct FScr
 
 void UWidget::SetNavigationRuleBase(EUINavigation Direction, EUINavigationRule Rule)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetNavigationRuleBase");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetNavigationRuleBase"));
 
 	struct
 	{
@@ -333,7 +333,7 @@ void UWidget::SetNavigationRuleBase(EUINavigation Direction, EUINavigationRule R
 
 void UWidget::SetNavigationRule(EUINavigation Direction, EUINavigationRule Rule, const struct FName& WidgetToFocus)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetNavigationRule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetNavigationRule"));
 
 	struct
 	{
@@ -355,7 +355,7 @@ void UWidget::SetNavigationRule(EUINavigation Direction, EUINavigationRule Rule,
 
 void UWidget::SetKeyboardFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetKeyboardFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetKeyboardFocus"));
 
 	struct
 	{
@@ -373,7 +373,7 @@ void UWidget::SetKeyboardFocus()
 
 void UWidget::SetIsEnabled(bool bInIsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetIsEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetIsEnabled"));
 
 	struct
 	{
@@ -391,7 +391,7 @@ void UWidget::SetIsEnabled(bool bInIsEnabled)
 
 void UWidget::SetFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetFocus"));
 
 	struct
 	{
@@ -409,7 +409,7 @@ void UWidget::SetFocus()
 
 void UWidget::SetCursor(TEnumAsByte<EMouseCursor> InCursor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetCursor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetCursor"));
 
 	struct
 	{
@@ -429,7 +429,7 @@ void UWidget::SetCursor(TEnumAsByte<EMouseCursor> InCursor)
 
 void UWidget::SetClipping(EWidgetClipping InClipping)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetClipping");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetClipping"));
 
 	struct
 	{
@@ -449,7 +449,7 @@ void UWidget::SetClipping(EWidgetClipping InClipping)
 
 void UWidget::SetAllowRenderInterpolation(bool bInAllowInterpolation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetAllowRenderInterpolation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetAllowRenderInterpolation"));
 
 	struct
 	{
@@ -470,7 +470,7 @@ void UWidget::SetAllowRenderInterpolation(bool bInAllowInterpolation)
 
 void UWidget::SetAllNavigationRules(EUINavigationRule Rule, const struct FName& WidgetToFocus)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.SetAllNavigationRules");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.SetAllNavigationRules"));
 
 	struct
 	{
@@ -490,7 +490,7 @@ void UWidget::SetAllNavigationRules(EUINavigationRule Rule, const struct FName& 
 
 void UWidget::ResetCursor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.ResetCursor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.ResetCursor"));
 
 	struct
 	{
@@ -506,7 +506,7 @@ void UWidget::ResetCursor()
 
 void UWidget::RemoveFromParent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.RemoveFromParent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.RemoveFromParent"));
 
 	struct
 	{
@@ -524,7 +524,7 @@ void UWidget::RemoveFromParent()
 
 struct FEventReply UWidget::OnReply__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.OnReply__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.OnReply__DelegateSignature"));
 
 	struct
 	{
@@ -547,7 +547,7 @@ struct FEventReply UWidget::OnReply__DelegateSignature()
 
 struct FEventReply UWidget::OnPointerEvent__DelegateSignature(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.OnPointerEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.OnPointerEvent__DelegateSignature"));
 
 	struct
 	{
@@ -572,7 +572,7 @@ struct FEventReply UWidget::OnPointerEvent__DelegateSignature(const struct FGeom
 
 bool UWidget::IsVisible()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.IsVisible");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.IsVisible"));
 
 	struct
 	{
@@ -593,7 +593,7 @@ bool UWidget::IsVisible()
 
 bool UWidget::IsHovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.IsHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.IsHovered"));
 
 	struct
 	{
@@ -612,7 +612,7 @@ bool UWidget::IsHovered()
 
 void UWidget::InvalidateLayoutAndVolatility()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.InvalidateLayoutAndVolatility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.InvalidateLayoutAndVolatility"));
 
 	struct
 	{
@@ -631,7 +631,7 @@ void UWidget::InvalidateLayoutAndVolatility()
 
 bool UWidget::HasUserFocusedDescendants(class APlayerController* PlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.HasUserFocusedDescendants");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.HasUserFocusedDescendants"));
 
 	struct
 	{
@@ -655,7 +655,7 @@ bool UWidget::HasUserFocusedDescendants(class APlayerController* PlayerControlle
 
 bool UWidget::HasUserFocus(class APlayerController* PlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.HasUserFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.HasUserFocus"));
 
 	struct
 	{
@@ -680,7 +680,7 @@ bool UWidget::HasUserFocus(class APlayerController* PlayerController)
 
 bool UWidget::HasMouseCaptureByUser(int UserIndex, int PointerIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.HasMouseCaptureByUser");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.HasMouseCaptureByUser"));
 
 	struct
 	{
@@ -705,7 +705,7 @@ bool UWidget::HasMouseCaptureByUser(int UserIndex, int PointerIndex)
 
 bool UWidget::HasMouseCapture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.HasMouseCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.HasMouseCapture"));
 
 	struct
 	{
@@ -726,7 +726,7 @@ bool UWidget::HasMouseCapture()
 
 bool UWidget::HasKeyboardFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.HasKeyboardFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.HasKeyboardFocus"));
 
 	struct
 	{
@@ -747,7 +747,7 @@ bool UWidget::HasKeyboardFocus()
 
 bool UWidget::HasFocusedDescendants()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.HasFocusedDescendants");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.HasFocusedDescendants"));
 
 	struct
 	{
@@ -768,7 +768,7 @@ bool UWidget::HasFocusedDescendants()
 
 bool UWidget::HasAnyUserFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.HasAnyUserFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.HasAnyUserFocus"));
 
 	struct
 	{
@@ -789,7 +789,7 @@ bool UWidget::HasAnyUserFocus()
 
 class UWidget* UWidget::GetWidget__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetWidget__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetWidget__DelegateSignature"));
 
 	struct
 	{
@@ -810,7 +810,7 @@ class UWidget* UWidget::GetWidget__DelegateSignature()
 
 ESlateVisibility UWidget::GetVisibility()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetVisibility"));
 
 	struct
 	{
@@ -831,7 +831,7 @@ ESlateVisibility UWidget::GetVisibility()
 
 struct FGeometry UWidget::GetTickSpaceGeometry()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetTickSpaceGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetTickSpaceGeometry"));
 
 	struct
 	{
@@ -852,7 +852,7 @@ struct FGeometry UWidget::GetTickSpaceGeometry()
 
 struct FText UWidget::GetText__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetText__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetText__DelegateSignature"));
 
 	struct
 	{
@@ -873,7 +873,7 @@ struct FText UWidget::GetText__DelegateSignature()
 
 ESlateVisibility UWidget::GetSlateVisibility__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetSlateVisibility__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetSlateVisibility__DelegateSignature"));
 
 	struct
 	{
@@ -894,7 +894,7 @@ ESlateVisibility UWidget::GetSlateVisibility__DelegateSignature()
 
 struct FSlateColor UWidget::GetSlateColor__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetSlateColor__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetSlateColor__DelegateSignature"));
 
 	struct
 	{
@@ -915,7 +915,7 @@ struct FSlateColor UWidget::GetSlateColor__DelegateSignature()
 
 struct FSlateBrush UWidget::GetSlateBrush__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetSlateBrush__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetSlateBrush__DelegateSignature"));
 
 	struct
 	{
@@ -936,7 +936,7 @@ struct FSlateBrush UWidget::GetSlateBrush__DelegateSignature()
 
 float UWidget::GetRenderTransformAngle()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetRenderTransformAngle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetRenderTransformAngle"));
 
 	struct
 	{
@@ -957,7 +957,7 @@ float UWidget::GetRenderTransformAngle()
 
 float UWidget::GetRenderOpacity()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetRenderOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetRenderOpacity"));
 
 	struct
 	{
@@ -978,7 +978,7 @@ float UWidget::GetRenderOpacity()
 
 class UPanelWidget* UWidget::GetParent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetParent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetParent"));
 
 	struct
 	{
@@ -999,7 +999,7 @@ class UPanelWidget* UWidget::GetParent()
 
 struct FGeometry UWidget::GetPaintSpaceGeometry()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetPaintSpaceGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetPaintSpaceGeometry"));
 
 	struct
 	{
@@ -1020,7 +1020,7 @@ struct FGeometry UWidget::GetPaintSpaceGeometry()
 
 class APlayerController* UWidget::GetOwningPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetOwningPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetOwningPlayer"));
 
 	struct
 	{
@@ -1041,7 +1041,7 @@ class APlayerController* UWidget::GetOwningPlayer()
 
 class ULocalPlayer* UWidget::GetOwningLocalPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetOwningLocalPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetOwningLocalPlayer"));
 
 	struct
 	{
@@ -1062,7 +1062,7 @@ class ULocalPlayer* UWidget::GetOwningLocalPlayer()
 
 TEnumAsByte<EMouseCursor> UWidget::GetMouseCursor__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetMouseCursor__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetMouseCursor__DelegateSignature"));
 
 	struct
 	{
@@ -1083,7 +1083,7 @@ TEnumAsByte<EMouseCursor> UWidget::GetMouseCursor__DelegateSignature()
 
 struct FLinearColor UWidget::GetLinearColor__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetLinearColor__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetLinearColor__DelegateSignature"));
 
 	struct
 	{
@@ -1104,7 +1104,7 @@ struct FLinearColor UWidget::GetLinearColor__DelegateSignature()
 
 bool UWidget::GetIsEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetIsEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetIsEnabled"));
 
 	struct
 	{
@@ -1125,7 +1125,7 @@ bool UWidget::GetIsEnabled()
 
 int UWidget::GetInt32__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetInt32__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetInt32__DelegateSignature"));
 
 	struct
 	{
@@ -1146,7 +1146,7 @@ int UWidget::GetInt32__DelegateSignature()
 
 class UGameInstance* UWidget::GetGameInstance()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetGameInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetGameInstance"));
 
 	struct
 	{
@@ -1167,7 +1167,7 @@ class UGameInstance* UWidget::GetGameInstance()
 
 float UWidget::GetFloat__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetFloat__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetFloat__DelegateSignature"));
 
 	struct
 	{
@@ -1188,7 +1188,7 @@ float UWidget::GetFloat__DelegateSignature()
 
 struct FVector2D UWidget::GetDesiredSize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetDesiredSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetDesiredSize"));
 
 	struct
 	{
@@ -1209,7 +1209,7 @@ struct FVector2D UWidget::GetDesiredSize()
 
 EWidgetClipping UWidget::GetClipping()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetClipping");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetClipping"));
 
 	struct
 	{
@@ -1230,7 +1230,7 @@ EWidgetClipping UWidget::GetClipping()
 
 ECheckBoxState UWidget::GetCheckBoxState__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetCheckBoxState__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetCheckBoxState__DelegateSignature"));
 
 	struct
 	{
@@ -1251,7 +1251,7 @@ ECheckBoxState UWidget::GetCheckBoxState__DelegateSignature()
 
 struct FGeometry UWidget::GetCachedGeometry()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.GetCachedGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.GetCachedGeometry"));
 
 	struct
 	{
@@ -1272,7 +1272,7 @@ struct FGeometry UWidget::GetCachedGeometry()
 
 bool UWidget::GetBool__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GetBool__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GetBool__DelegateSignature"));
 
 	struct
 	{
@@ -1294,7 +1294,7 @@ bool UWidget::GetBool__DelegateSignature()
 
 class UWidget* UWidget::GenerateWidgetForString__DelegateSignature(const struct FString& Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GenerateWidgetForString__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GenerateWidgetForString__DelegateSignature"));
 
 	struct
 	{
@@ -1318,7 +1318,7 @@ class UWidget* UWidget::GenerateWidgetForString__DelegateSignature(const struct 
 
 class UWidget* UWidget::GenerateWidgetForObject__DelegateSignature(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.Widget.GenerateWidgetForObject__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.Widget.GenerateWidgetForObject__DelegateSignature"));
 
 	struct
 	{
@@ -1341,7 +1341,7 @@ class UWidget* UWidget::GenerateWidgetForObject__DelegateSignature(class UObject
 
 void UWidget::ForceVolatile(bool bForce)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.ForceVolatile");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.ForceVolatile"));
 
 	struct
 	{
@@ -1359,7 +1359,7 @@ void UWidget::ForceVolatile(bool bForce)
 
 void UWidget::ForceLayoutPrepass()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Widget.ForceLayoutPrepass");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Widget.ForceLayoutPrepass"));
 
 	struct
 	{
@@ -1377,7 +1377,7 @@ void UWidget::ForceLayoutPrepass()
 
 void UImage::SetOpacity(float InOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetOpacity"));
 
 	struct
 	{
@@ -1397,7 +1397,7 @@ void UImage::SetOpacity(float InOpacity)
 
 void UImage::SetColorAndOpacity(const struct FLinearColor& InColorAndOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetColorAndOpacity"));
 
 	struct
 	{
@@ -1417,7 +1417,7 @@ void UImage::SetColorAndOpacity(const struct FLinearColor& InColorAndOpacity)
 
 void UImage::SetBrushTintColor(const struct FSlateColor& TintColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushTintColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushTintColor"));
 
 	struct
 	{
@@ -1437,7 +1437,7 @@ void UImage::SetBrushTintColor(const struct FSlateColor& TintColor)
 
 void UImage::SetBrushSize(const struct FVector2D& DesiredSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushSize"));
 
 	struct
 	{
@@ -1457,7 +1457,7 @@ void UImage::SetBrushSize(const struct FVector2D& DesiredSize)
 
 void UImage::SetBrushResourceObject(class UObject* ResourceObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushResourceObject");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushResourceObject"));
 
 	struct
 	{
@@ -1478,7 +1478,7 @@ void UImage::SetBrushResourceObject(class UObject* ResourceObject)
 
 void UImage::SetBrushFromTextureDynamic(class UTexture2DDynamic* Texture, bool bMatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushFromTextureDynamic");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushFromTextureDynamic"));
 
 	struct
 	{
@@ -1501,7 +1501,7 @@ void UImage::SetBrushFromTextureDynamic(class UTexture2DDynamic* Texture, bool b
 
 void UImage::SetBrushFromTexture(class UTexture2D* Texture, bool bMatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushFromTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushFromTexture"));
 
 	struct
 	{
@@ -1524,7 +1524,7 @@ void UImage::SetBrushFromTexture(class UTexture2D* Texture, bool bMatchSize)
 
 void UImage::SetBrushFromSoftTexture(TSoftObjectPtr<class UTexture2D> SoftTexture, bool bMatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushFromSoftTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushFromSoftTexture"));
 
 	struct
 	{
@@ -1547,7 +1547,7 @@ void UImage::SetBrushFromSoftTexture(TSoftObjectPtr<class UTexture2D> SoftTextur
 
 void UImage::SetBrushFromSoftPath(const struct FSoftObjectPath& SoftPath, bool bMatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushFromSoftPath");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushFromSoftPath"));
 
 	struct
 	{
@@ -1569,7 +1569,7 @@ void UImage::SetBrushFromSoftPath(const struct FSoftObjectPath& SoftPath, bool b
 
 void UImage::SetBrushFromSoftMaterial(TSoftObjectPtr<class UMaterialInterface> SoftMaterial)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushFromSoftMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushFromSoftMaterial"));
 
 	struct
 	{
@@ -1589,7 +1589,7 @@ void UImage::SetBrushFromSoftMaterial(TSoftObjectPtr<class UMaterialInterface> S
 
 void UImage::SetBrushFromMaterial(class UMaterialInterface* Material)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushFromMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushFromMaterial"));
 
 	struct
 	{
@@ -1610,7 +1610,7 @@ void UImage::SetBrushFromMaterial(class UMaterialInterface* Material)
 
 void UImage::SetBrushFromAtlasInterface(const TScriptInterface<class USlateTextureAtlasInterface>& AtlasRegion, bool bMatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushFromAtlasInterface");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushFromAtlasInterface"));
 
 	struct
 	{
@@ -1632,7 +1632,7 @@ void UImage::SetBrushFromAtlasInterface(const TScriptInterface<class USlateTextu
 
 void UImage::SetBrushFromAsset(class USlateBrushAsset* Asset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrushFromAsset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrushFromAsset"));
 
 	struct
 	{
@@ -1652,7 +1652,7 @@ void UImage::SetBrushFromAsset(class USlateBrushAsset* Asset)
 
 void UImage::SetBrush(const struct FSlateBrush& InBrush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.SetBrush");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.SetBrush"));
 
 	struct
 	{
@@ -1672,7 +1672,7 @@ void UImage::SetBrush(const struct FSlateBrush& InBrush)
 
 class UMaterialInstanceDynamic* UImage::GetDynamicMaterial()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Image.GetDynamicMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Image.GetDynamicMaterial"));
 
 	struct
 	{
@@ -1694,7 +1694,7 @@ class UMaterialInstanceDynamic* UImage::GetDynamicMaterial()
 
 bool UPanelWidget::RemoveChildAt(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.RemoveChildAt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.RemoveChildAt"));
 
 	struct
 	{
@@ -1718,7 +1718,7 @@ bool UPanelWidget::RemoveChildAt(int Index)
 
 bool UPanelWidget::RemoveChild(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.RemoveChild");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.RemoveChild"));
 
 	struct
 	{
@@ -1742,7 +1742,7 @@ bool UPanelWidget::RemoveChild(class UWidget* Content)
 
 bool UPanelWidget::HasChild(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.HasChild");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.HasChild"));
 
 	struct
 	{
@@ -1765,7 +1765,7 @@ bool UPanelWidget::HasChild(class UWidget* Content)
 
 bool UPanelWidget::HasAnyChildren()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.HasAnyChildren");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.HasAnyChildren"));
 
 	struct
 	{
@@ -1786,7 +1786,7 @@ bool UPanelWidget::HasAnyChildren()
 
 int UPanelWidget::GetChildrenCount()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.GetChildrenCount");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.GetChildrenCount"));
 
 	struct
 	{
@@ -1808,7 +1808,7 @@ int UPanelWidget::GetChildrenCount()
 
 int UPanelWidget::GetChildIndex(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.GetChildIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.GetChildIndex"));
 
 	struct
 	{
@@ -1832,7 +1832,7 @@ int UPanelWidget::GetChildIndex(class UWidget* Content)
 
 class UWidget* UPanelWidget::GetChildAt(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.GetChildAt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.GetChildAt"));
 
 	struct
 	{
@@ -1855,7 +1855,7 @@ class UWidget* UPanelWidget::GetChildAt(int Index)
 
 TArray<class UWidget*> UPanelWidget::GetAllChildren()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.GetAllChildren");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.GetAllChildren"));
 
 	struct
 	{
@@ -1874,7 +1874,7 @@ TArray<class UWidget*> UPanelWidget::GetAllChildren()
 
 void UPanelWidget::ClearChildren()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.ClearChildren");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.ClearChildren"));
 
 	struct
 	{
@@ -1893,7 +1893,7 @@ void UPanelWidget::ClearChildren()
 
 class UPanelSlot* UPanelWidget::AddChild(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.PanelWidget.AddChild");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.PanelWidget.AddChild"));
 
 	struct
 	{
@@ -1917,7 +1917,7 @@ class UPanelSlot* UPanelWidget::AddChild(class UWidget* Content)
 
 class UCanvasPanelSlot* UCanvasPanel::AddChildToCanvas(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanel.AddChildToCanvas");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanel.AddChildToCanvas"));
 
 	struct
 	{
@@ -1938,7 +1938,7 @@ class UCanvasPanelSlot* UCanvasPanel::AddChildToCanvas(class UWidget* Content)
 
 void UUserWidget::UnregisterInputComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.UnregisterInputComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.UnregisterInputComponent"));
 
 	struct
 	{
@@ -1957,7 +1957,7 @@ void UUserWidget::UnregisterInputComponent()
 
 void UUserWidget::UnbindFromAnimationStarted(class UWidgetAnimation* Animation, const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.UnbindFromAnimationStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.UnbindFromAnimationStarted"));
 
 	struct
 	{
@@ -1980,7 +1980,7 @@ void UUserWidget::UnbindFromAnimationStarted(class UWidgetAnimation* Animation, 
 
 void UUserWidget::UnbindFromAnimationFinished(class UWidgetAnimation* Animation, const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.UnbindFromAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.UnbindFromAnimationFinished"));
 
 	struct
 	{
@@ -2002,7 +2002,7 @@ void UUserWidget::UnbindFromAnimationFinished(class UWidgetAnimation* Animation,
 
 void UUserWidget::UnbindAllFromAnimationStarted(class UWidgetAnimation* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.UnbindAllFromAnimationStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.UnbindAllFromAnimationStarted"));
 
 	struct
 	{
@@ -2022,7 +2022,7 @@ void UUserWidget::UnbindAllFromAnimationStarted(class UWidgetAnimation* Animatio
 
 void UUserWidget::UnbindAllFromAnimationFinished(class UWidgetAnimation* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.UnbindAllFromAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.UnbindAllFromAnimationFinished"));
 
 	struct
 	{
@@ -2043,7 +2043,7 @@ void UUserWidget::UnbindAllFromAnimationFinished(class UWidgetAnimation* Animati
 
 void UUserWidget::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.Tick"));
 
 	struct
 	{
@@ -2066,7 +2066,7 @@ void UUserWidget::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 void UUserWidget::StopListeningForInputAction(const struct FName& ActionName, TEnumAsByte<EInputEvent> EventType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.StopListeningForInputAction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.StopListeningForInputAction"));
 
 	struct
 	{
@@ -2086,7 +2086,7 @@ void UUserWidget::StopListeningForInputAction(const struct FName& ActionName, TE
 
 void UUserWidget::StopListeningForAllInputActions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.StopListeningForAllInputActions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.StopListeningForAllInputActions"));
 
 	struct
 	{
@@ -2102,7 +2102,7 @@ void UUserWidget::StopListeningForAllInputActions()
 
 void UUserWidget::StopAnimationsAndLatentActions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.StopAnimationsAndLatentActions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.StopAnimationsAndLatentActions"));
 
 	struct
 	{
@@ -2120,7 +2120,7 @@ void UUserWidget::StopAnimationsAndLatentActions()
 
 void UUserWidget::StopAnimation(class UWidgetAnimation* InAnimation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.StopAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.StopAnimation"));
 
 	struct
 	{
@@ -2138,7 +2138,7 @@ void UUserWidget::StopAnimation(class UWidgetAnimation* InAnimation)
 
 void UUserWidget::StopAllAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.StopAllAnimations");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.StopAllAnimations"));
 
 	struct
 	{
@@ -2156,7 +2156,7 @@ void UUserWidget::StopAllAnimations()
 
 void UUserWidget::SetZOrderInViewport(int ZOrder)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetZOrderInViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetZOrderInViewport"));
 
 	struct
 	{
@@ -2177,7 +2177,7 @@ void UUserWidget::SetZOrderInViewport(int ZOrder)
 
 void UUserWidget::SetPositionInViewport(const struct FVector2D& Position, bool bRemoveDPIScale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetPositionInViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetPositionInViewport"));
 
 	struct
 	{
@@ -2200,7 +2200,7 @@ void UUserWidget::SetPositionInViewport(const struct FVector2D& Position, bool b
 
 void UUserWidget::SetPlaybackSpeed(class UWidgetAnimation* InAnimation, float PlaybackSpeed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetPlaybackSpeed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetPlaybackSpeed"));
 
 	struct
 	{
@@ -2222,7 +2222,7 @@ void UUserWidget::SetPlaybackSpeed(class UWidgetAnimation* InAnimation, float Pl
 
 void UUserWidget::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetPadding"));
 
 	struct
 	{
@@ -2242,7 +2242,7 @@ void UUserWidget::SetPadding(const struct FMargin& InPadding)
 
 void UUserWidget::SetOwningPlayer(class APlayerController* LocalPlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetOwningPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetOwningPlayer"));
 
 	struct
 	{
@@ -2263,7 +2263,7 @@ void UUserWidget::SetOwningPlayer(class APlayerController* LocalPlayerController
 
 void UUserWidget::SetNumLoopsToPlay(class UWidgetAnimation* InAnimation, int NumLoopsToPlay)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetNumLoopsToPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetNumLoopsToPlay"));
 
 	struct
 	{
@@ -2285,7 +2285,7 @@ void UUserWidget::SetNumLoopsToPlay(class UWidgetAnimation* InAnimation, int Num
 
 void UUserWidget::SetInputActionPriority(int NewPriority)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetInputActionPriority");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetInputActionPriority"));
 
 	struct
 	{
@@ -2305,7 +2305,7 @@ void UUserWidget::SetInputActionPriority(int NewPriority)
 
 void UUserWidget::SetInputActionBlocking(bool bShouldBlock)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetInputActionBlocking");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetInputActionBlocking"));
 
 	struct
 	{
@@ -2325,7 +2325,7 @@ void UUserWidget::SetInputActionBlocking(bool bShouldBlock)
 
 void UUserWidget::SetForegroundColor(const struct FSlateColor& InForegroundColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetForegroundColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetForegroundColor"));
 
 	struct
 	{
@@ -2345,7 +2345,7 @@ void UUserWidget::SetForegroundColor(const struct FSlateColor& InForegroundColor
 
 void UUserWidget::SetDesiredSizeInViewport(const struct FVector2D& Size)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetDesiredSizeInViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetDesiredSizeInViewport"));
 
 	struct
 	{
@@ -2365,7 +2365,7 @@ void UUserWidget::SetDesiredSizeInViewport(const struct FVector2D& Size)
 
 void UUserWidget::SetColorAndOpacity(const struct FLinearColor& InColorAndOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetColorAndOpacity"));
 
 	struct
 	{
@@ -2385,7 +2385,7 @@ void UUserWidget::SetColorAndOpacity(const struct FLinearColor& InColorAndOpacit
 
 void UUserWidget::SetAnchorsInViewport(const struct FAnchors& Anchors)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetAnchorsInViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetAnchorsInViewport"));
 
 	struct
 	{
@@ -2405,7 +2405,7 @@ void UUserWidget::SetAnchorsInViewport(const struct FAnchors& Anchors)
 
 void UUserWidget::SetAlignmentInViewport(const struct FVector2D& Alignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.SetAlignmentInViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.SetAlignmentInViewport"));
 
 	struct
 	{
@@ -2425,7 +2425,7 @@ void UUserWidget::SetAlignmentInViewport(const struct FVector2D& Alignment)
 
 void UUserWidget::ReverseAnimation(class UWidgetAnimation* InAnimation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.ReverseAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.ReverseAnimation"));
 
 	struct
 	{
@@ -2443,7 +2443,7 @@ void UUserWidget::ReverseAnimation(class UWidgetAnimation* InAnimation)
 
 void UUserWidget::RemoveFromViewport()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.RemoveFromViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.RemoveFromViewport"));
 
 	struct
 	{
@@ -2459,7 +2459,7 @@ void UUserWidget::RemoveFromViewport()
 
 void UUserWidget::RegisterInputComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.RegisterInputComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.RegisterInputComponent"));
 
 	struct
 	{
@@ -2477,7 +2477,7 @@ void UUserWidget::RegisterInputComponent()
 
 void UUserWidget::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.PreConstruct"));
 
 	struct
 	{
@@ -2497,7 +2497,7 @@ void UUserWidget::PreConstruct(bool IsDesignTime)
 
 void UUserWidget::PlaySound(class USoundBase* SoundToPlay)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.PlaySound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.PlaySound"));
 
 	struct
 	{
@@ -2524,7 +2524,7 @@ void UUserWidget::PlaySound(class USoundBase* SoundToPlay)
 
 class UUMGSequencePlayer* UUserWidget::PlayAnimationTimeRange(class UWidgetAnimation* InAnimation, float StartAtTime, float EndAtTime, int NumLoopsToPlay, TEnumAsByte<EUMGSequencePlayMode> PlayMode, float PlaybackSpeed, bool bRestoreState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.PlayAnimationTimeRange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.PlayAnimationTimeRange"));
 
 	struct
 	{
@@ -2562,7 +2562,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimationTimeRange(class UWidgetAnima
 
 class UUMGSequencePlayer* UUserWidget::PlayAnimationReverse(class UWidgetAnimation* InAnimation, float PlaybackSpeed, bool bRestoreState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.PlayAnimationReverse");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.PlayAnimationReverse"));
 
 	struct
 	{
@@ -2592,7 +2592,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimationReverse(class UWidgetAnimati
 
 class UUMGSequencePlayer* UUserWidget::PlayAnimationForward(class UWidgetAnimation* InAnimation, float PlaybackSpeed, bool bRestoreState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.PlayAnimationForward");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.PlayAnimationForward"));
 
 	struct
 	{
@@ -2625,7 +2625,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimationForward(class UWidgetAnimati
 
 class UUMGSequencePlayer* UUserWidget::PlayAnimation(class UWidgetAnimation* InAnimation, float StartAtTime, int NumLoopsToPlay, TEnumAsByte<EUMGSequencePlayMode> PlayMode, float PlaybackSpeed, bool bRestoreState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.PlayAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.PlayAnimation"));
 
 	struct
 	{
@@ -2659,7 +2659,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimation(class UWidgetAnimation* InA
 
 float UUserWidget::PauseAnimation(class UWidgetAnimation* InAnimation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.PauseAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.PauseAnimation"));
 
 	struct
 	{
@@ -2684,7 +2684,7 @@ float UUserWidget::PauseAnimation(class UWidgetAnimation* InAnimation)
 
 struct FEventReply UUserWidget::OnTouchStarted(const struct FGeometry& MyGeometry, const struct FPointerEvent& InTouchEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnTouchStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnTouchStarted"));
 
 	struct
 	{
@@ -2711,7 +2711,7 @@ struct FEventReply UUserWidget::OnTouchStarted(const struct FGeometry& MyGeometr
 
 struct FEventReply UUserWidget::OnTouchMoved(const struct FGeometry& MyGeometry, const struct FPointerEvent& InTouchEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnTouchMoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnTouchMoved"));
 
 	struct
 	{
@@ -2738,7 +2738,7 @@ struct FEventReply UUserWidget::OnTouchMoved(const struct FGeometry& MyGeometry,
 
 struct FEventReply UUserWidget::OnTouchGesture(const struct FGeometry& MyGeometry, const struct FPointerEvent& GestureEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnTouchGesture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnTouchGesture"));
 
 	struct
 	{
@@ -2765,7 +2765,7 @@ struct FEventReply UUserWidget::OnTouchGesture(const struct FGeometry& MyGeometr
 
 struct FEventReply UUserWidget::OnTouchForceChanged(const struct FGeometry& MyGeometry, const struct FPointerEvent& InTouchEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnTouchForceChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnTouchForceChanged"));
 
 	struct
 	{
@@ -2792,7 +2792,7 @@ struct FEventReply UUserWidget::OnTouchForceChanged(const struct FGeometry& MyGe
 
 struct FEventReply UUserWidget::OnTouchEnded(const struct FGeometry& MyGeometry, const struct FPointerEvent& InTouchEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnTouchEnded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnTouchEnded"));
 
 	struct
 	{
@@ -2817,7 +2817,7 @@ struct FEventReply UUserWidget::OnTouchEnded(const struct FGeometry& MyGeometry,
 
 void UUserWidget::OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnRemovedFromFocusPath");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnRemovedFromFocusPath"));
 
 	struct
 	{
@@ -2839,7 +2839,7 @@ void UUserWidget::OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent)
 
 struct FEventReply UUserWidget::OnPreviewMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnPreviewMouseButtonDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnPreviewMouseButtonDown"));
 
 	struct
 	{
@@ -2866,7 +2866,7 @@ struct FEventReply UUserWidget::OnPreviewMouseButtonDown(const struct FGeometry&
 
 struct FEventReply UUserWidget::OnPreviewKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnPreviewKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnPreviewKeyDown"));
 
 	struct
 	{
@@ -2891,7 +2891,7 @@ struct FEventReply UUserWidget::OnPreviewKeyDown(const struct FGeometry& MyGeome
 
 void UUserWidget::OnPaint(struct FPaintContext* Context)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnPaint");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnPaint"));
 
 	struct
 	{
@@ -2915,7 +2915,7 @@ void UUserWidget::OnPaint(struct FPaintContext* Context)
 
 struct FEventReply UUserWidget::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnMouseWheel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnMouseWheel"));
 
 	struct
 	{
@@ -2942,7 +2942,7 @@ struct FEventReply UUserWidget::OnMouseWheel(const struct FGeometry& MyGeometry,
 
 struct FEventReply UUserWidget::OnMouseMove(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnMouseMove");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnMouseMove"));
 
 	struct
 	{
@@ -2967,7 +2967,7 @@ struct FEventReply UUserWidget::OnMouseMove(const struct FGeometry& MyGeometry, 
 
 void UUserWidget::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnMouseLeave");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnMouseLeave"));
 
 	struct
 	{
@@ -2988,7 +2988,7 @@ void UUserWidget::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 
 void UUserWidget::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnMouseEnter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnMouseEnter"));
 
 	struct
 	{
@@ -3008,7 +3008,7 @@ void UUserWidget::OnMouseEnter(const struct FGeometry& MyGeometry, const struct 
 
 void UUserWidget::OnMouseCaptureLost()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnMouseCaptureLost");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnMouseCaptureLost"));
 
 	struct
 	{
@@ -3028,7 +3028,7 @@ void UUserWidget::OnMouseCaptureLost()
 
 struct FEventReply UUserWidget::OnMouseButtonUp(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnMouseButtonUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnMouseButtonUp"));
 
 	struct
 	{
@@ -3055,7 +3055,7 @@ struct FEventReply UUserWidget::OnMouseButtonUp(const struct FGeometry& MyGeomet
 
 struct FEventReply UUserWidget::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnMouseButtonDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnMouseButtonDown"));
 
 	struct
 	{
@@ -3082,7 +3082,7 @@ struct FEventReply UUserWidget::OnMouseButtonDown(const struct FGeometry& MyGeom
 
 struct FEventReply UUserWidget::OnMouseButtonDoubleClick(const struct FGeometry& InMyGeometry, const struct FPointerEvent& InMouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnMouseButtonDoubleClick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnMouseButtonDoubleClick"));
 
 	struct
 	{
@@ -3109,7 +3109,7 @@ struct FEventReply UUserWidget::OnMouseButtonDoubleClick(const struct FGeometry&
 
 struct FEventReply UUserWidget::OnMotionDetected(const struct FGeometry& MyGeometry, const struct FMotionEvent& InMotionEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnMotionDetected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnMotionDetected"));
 
 	struct
 	{
@@ -3136,7 +3136,7 @@ struct FEventReply UUserWidget::OnMotionDetected(const struct FGeometry& MyGeome
 
 struct FEventReply UUserWidget::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnKeyUp"));
 
 	struct
 	{
@@ -3163,7 +3163,7 @@ struct FEventReply UUserWidget::OnKeyUp(const struct FGeometry& MyGeometry, cons
 
 struct FEventReply UUserWidget::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnKeyDown"));
 
 	struct
 	{
@@ -3190,7 +3190,7 @@ struct FEventReply UUserWidget::OnKeyDown(const struct FGeometry& MyGeometry, co
 
 struct FEventReply UUserWidget::OnKeyChar(const struct FGeometry& MyGeometry, const struct FCharacterEvent& InCharacterEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnKeyChar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnKeyChar"));
 
 	struct
 	{
@@ -3213,7 +3213,7 @@ struct FEventReply UUserWidget::OnKeyChar(const struct FGeometry& MyGeometry, co
 
 void UUserWidget::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnInitialized");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnInitialized"));
 
 	struct
 	{
@@ -3233,7 +3233,7 @@ void UUserWidget::OnInitialized()
 
 struct FEventReply UUserWidget::OnFocusReceived(const struct FGeometry& MyGeometry, const struct FFocusEvent& InFocusEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnFocusReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnFocusReceived"));
 
 	struct
 	{
@@ -3258,7 +3258,7 @@ struct FEventReply UUserWidget::OnFocusReceived(const struct FGeometry& MyGeomet
 
 void UUserWidget::OnFocusLost(const struct FFocusEvent& InFocusEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnFocusLost");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnFocusLost"));
 
 	struct
 	{
@@ -3281,7 +3281,7 @@ void UUserWidget::OnFocusLost(const struct FFocusEvent& InFocusEvent)
 
 bool UUserWidget::OnDrop(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnDrop");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnDrop"));
 
 	struct
 	{
@@ -3311,7 +3311,7 @@ bool UUserWidget::OnDrop(const struct FGeometry& MyGeometry, const struct FPoint
 
 bool UUserWidget::OnDragOver(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnDragOver");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnDragOver"));
 
 	struct
 	{
@@ -3339,7 +3339,7 @@ bool UUserWidget::OnDragOver(const struct FGeometry& MyGeometry, const struct FP
 
 void UUserWidget::OnDragLeave(const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnDragLeave");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnDragLeave"));
 
 	struct
 	{
@@ -3363,7 +3363,7 @@ void UUserWidget::OnDragLeave(const struct FPointerEvent& PointerEvent, class UD
 
 void UUserWidget::OnDragEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnDragEnter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnDragEnter"));
 
 	struct
 	{
@@ -3389,7 +3389,7 @@ void UUserWidget::OnDragEnter(const struct FGeometry& MyGeometry, const struct F
 
 void UUserWidget::OnDragDetected(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation** Operation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnDragDetected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnDragDetected"));
 
 	struct
 	{
@@ -3416,7 +3416,7 @@ void UUserWidget::OnDragDetected(const struct FGeometry& MyGeometry, const struc
 
 void UUserWidget::OnDragCancelled(const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnDragCancelled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnDragCancelled"));
 
 	struct
 	{
@@ -3438,7 +3438,7 @@ void UUserWidget::OnDragCancelled(const struct FPointerEvent& PointerEvent, clas
 
 void UUserWidget::OnAnimationStarted(class UWidgetAnimation* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnAnimationStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnAnimationStarted"));
 
 	struct
 	{
@@ -3458,7 +3458,7 @@ void UUserWidget::OnAnimationStarted(class UWidgetAnimation* Animation)
 
 void UUserWidget::OnAnimationFinished(class UWidgetAnimation* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnAnimationFinished"));
 
 	struct
 	{
@@ -3480,7 +3480,7 @@ void UUserWidget::OnAnimationFinished(class UWidgetAnimation* Animation)
 
 struct FEventReply UUserWidget::OnAnalogValueChanged(const struct FGeometry& MyGeometry, const struct FAnalogInputEvent& InAnalogInputEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnAnalogValueChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnAnalogValueChanged"));
 
 	struct
 	{
@@ -3505,7 +3505,7 @@ struct FEventReply UUserWidget::OnAnalogValueChanged(const struct FGeometry& MyG
 
 void UUserWidget::OnAddedToFocusPath(const struct FFocusEvent& InFocusEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.OnAddedToFocusPath");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.OnAddedToFocusPath"));
 
 	struct
 	{
@@ -3528,7 +3528,7 @@ void UUserWidget::OnAddedToFocusPath(const struct FFocusEvent& InFocusEvent)
 
 void UUserWidget::ListenForInputAction(const struct FName& ActionName, TEnumAsByte<EInputEvent> EventType, bool bConsume, const struct FScriptDelegate& Callback)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.ListenForInputAction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.ListenForInputAction"));
 
 	struct
 	{
@@ -3554,7 +3554,7 @@ void UUserWidget::ListenForInputAction(const struct FName& ActionName, TEnumAsBy
 
 bool UUserWidget::IsPlayingAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.IsPlayingAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.IsPlayingAnimation"));
 
 	struct
 	{
@@ -3576,7 +3576,7 @@ bool UUserWidget::IsPlayingAnimation()
 
 bool UUserWidget::IsListeningForInputAction(const struct FName& ActionName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.IsListeningForInputAction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.IsListeningForInputAction"));
 
 	struct
 	{
@@ -3599,7 +3599,7 @@ bool UUserWidget::IsListeningForInputAction(const struct FName& ActionName)
 
 bool UUserWidget::IsInViewport()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.IsInViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.IsInViewport"));
 
 	struct
 	{
@@ -3620,7 +3620,7 @@ bool UUserWidget::IsInViewport()
 
 bool UUserWidget::IsInteractable()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.IsInteractable");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.IsInteractable"));
 
 	struct
 	{
@@ -3641,7 +3641,7 @@ bool UUserWidget::IsInteractable()
 
 bool UUserWidget::IsAnyAnimationPlaying()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.IsAnyAnimationPlaying");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.IsAnyAnimationPlaying"));
 
 	struct
 	{
@@ -3663,7 +3663,7 @@ bool UUserWidget::IsAnyAnimationPlaying()
 
 bool UUserWidget::IsAnimationPlayingForward(class UWidgetAnimation* InAnimation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.IsAnimationPlayingForward");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.IsAnimationPlayingForward"));
 
 	struct
 	{
@@ -3687,7 +3687,7 @@ bool UUserWidget::IsAnimationPlayingForward(class UWidgetAnimation* InAnimation)
 
 bool UUserWidget::IsAnimationPlaying(class UWidgetAnimation* InAnimation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.IsAnimationPlaying");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.IsAnimationPlaying"));
 
 	struct
 	{
@@ -3710,7 +3710,7 @@ bool UUserWidget::IsAnimationPlaying(class UWidgetAnimation* InAnimation)
 
 class APawn* UUserWidget::GetOwningPlayerPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.GetOwningPlayerPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.GetOwningPlayerPawn"));
 
 	struct
 	{
@@ -3731,7 +3731,7 @@ class APawn* UUserWidget::GetOwningPlayerPawn()
 
 bool UUserWidget::GetIsVisible()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.GetIsVisible");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.GetIsVisible"));
 
 	struct
 	{
@@ -3753,7 +3753,7 @@ bool UUserWidget::GetIsVisible()
 
 float UUserWidget::GetAnimationCurrentTime(class UWidgetAnimation* InAnimation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.GetAnimationCurrentTime");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.GetAnimationCurrentTime"));
 
 	struct
 	{
@@ -3776,7 +3776,7 @@ float UUserWidget::GetAnimationCurrentTime(class UWidgetAnimation* InAnimation)
 
 struct FAnchors UUserWidget::GetAnchorsInViewport()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.GetAnchorsInViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.GetAnchorsInViewport"));
 
 	struct
 	{
@@ -3797,7 +3797,7 @@ struct FAnchors UUserWidget::GetAnchorsInViewport()
 
 struct FVector2D UUserWidget::GetAlignmentInViewport()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.GetAlignmentInViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.GetAlignmentInViewport"));
 
 	struct
 	{
@@ -3816,7 +3816,7 @@ struct FVector2D UUserWidget::GetAlignmentInViewport()
 
 void UUserWidget::Destruct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.Destruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.Destruct"));
 
 	struct
 	{
@@ -3832,7 +3832,7 @@ void UUserWidget::Destruct()
 
 void UUserWidget::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.Construct"));
 
 	struct
 	{
@@ -3848,7 +3848,7 @@ void UUserWidget::Construct()
 
 void UUserWidget::CancelLatentActions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.CancelLatentActions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.CancelLatentActions"));
 
 	struct
 	{
@@ -3867,7 +3867,7 @@ void UUserWidget::CancelLatentActions()
 
 void UUserWidget::BindToAnimationStarted(class UWidgetAnimation* Animation, const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.BindToAnimationStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.BindToAnimationStarted"));
 
 	struct
 	{
@@ -3890,7 +3890,7 @@ void UUserWidget::BindToAnimationStarted(class UWidgetAnimation* Animation, cons
 
 void UUserWidget::BindToAnimationFinished(class UWidgetAnimation* Animation, const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.BindToAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.BindToAnimationFinished"));
 
 	struct
 	{
@@ -3915,7 +3915,7 @@ void UUserWidget::BindToAnimationFinished(class UWidgetAnimation* Animation, con
 
 void UUserWidget::BindToAnimationEvent(class UWidgetAnimation* Animation, const struct FScriptDelegate& Delegate, EWidgetAnimationEvent AnimationEvent, const struct FName& UserTag)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.BindToAnimationEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.BindToAnimationEvent"));
 
 	struct
 	{
@@ -3941,7 +3941,7 @@ void UUserWidget::BindToAnimationEvent(class UWidgetAnimation* Animation, const 
 
 void UUserWidget::AddToViewport(int ZOrder)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.AddToViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.AddToViewport"));
 
 	struct
 	{
@@ -3962,7 +3962,7 @@ void UUserWidget::AddToViewport(int ZOrder)
 
 bool UUserWidget::AddToPlayerScreen(int ZOrder)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.AddToPlayerScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserWidget.AddToPlayerScreen"));
 
 	struct
 	{
@@ -3986,7 +3986,7 @@ bool UUserWidget::AddToPlayerScreen(int ZOrder)
 
 class UPanelSlot* UContentWidget::SetContent(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ContentWidget.SetContent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ContentWidget.SetContent"));
 
 	struct
 	{
@@ -4009,7 +4009,7 @@ class UPanelSlot* UContentWidget::SetContent(class UWidget* Content)
 
 class UPanelSlot* UContentWidget::GetContentSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ContentWidget.GetContentSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ContentWidget.GetContentSlot"));
 
 	struct
 	{
@@ -4030,7 +4030,7 @@ class UPanelSlot* UContentWidget::GetContentSlot()
 
 class UWidget* UContentWidget::GetContent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ContentWidget.GetContent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ContentWidget.GetContent"));
 
 	struct
 	{
@@ -4051,7 +4051,7 @@ class UWidget* UContentWidget::GetContent()
 
 void UEditableTextBox::SetText(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableTextBox.SetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableTextBox.SetText"));
 
 	struct
 	{
@@ -4071,7 +4071,7 @@ void UEditableTextBox::SetText(const struct FText& InText)
 
 void UEditableTextBox::SetJustification(TEnumAsByte<ETextJustify> InJustification)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableTextBox.SetJustification");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableTextBox.SetJustification"));
 
 	struct
 	{
@@ -4091,7 +4091,7 @@ void UEditableTextBox::SetJustification(TEnumAsByte<ETextJustify> InJustificatio
 
 void UEditableTextBox::SetIsReadOnly(bool bReadOnly)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableTextBox.SetIsReadOnly");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableTextBox.SetIsReadOnly"));
 
 	struct
 	{
@@ -4111,7 +4111,7 @@ void UEditableTextBox::SetIsReadOnly(bool bReadOnly)
 
 void UEditableTextBox::SetIsPassword(bool bIsPassword)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableTextBox.SetIsPassword");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableTextBox.SetIsPassword"));
 
 	struct
 	{
@@ -4131,7 +4131,7 @@ void UEditableTextBox::SetIsPassword(bool bIsPassword)
 
 void UEditableTextBox::SetHintText(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableTextBox.SetHintText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableTextBox.SetHintText"));
 
 	struct
 	{
@@ -4151,7 +4151,7 @@ void UEditableTextBox::SetHintText(const struct FText& InText)
 
 void UEditableTextBox::SetError(const struct FText& InError)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableTextBox.SetError");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableTextBox.SetError"));
 
 	struct
 	{
@@ -4172,7 +4172,7 @@ void UEditableTextBox::SetError(const struct FText& InError)
 
 void UEditableTextBox::OnEditableTextBoxCommittedEvent__DelegateSignature(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.EditableTextBox.OnEditableTextBoxCommittedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.EditableTextBox.OnEditableTextBoxCommittedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -4194,7 +4194,7 @@ void UEditableTextBox::OnEditableTextBoxCommittedEvent__DelegateSignature(const 
 
 void UEditableTextBox::OnEditableTextBoxChangedEvent__DelegateSignature(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.EditableTextBox.OnEditableTextBoxChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.EditableTextBox.OnEditableTextBoxChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -4214,7 +4214,7 @@ void UEditableTextBox::OnEditableTextBoxChangedEvent__DelegateSignature(const st
 
 bool UEditableTextBox::HasError()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableTextBox.HasError");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableTextBox.HasError"));
 
 	struct
 	{
@@ -4235,7 +4235,7 @@ bool UEditableTextBox::HasError()
 
 struct FText UEditableTextBox::GetText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableTextBox.GetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableTextBox.GetText"));
 
 	struct
 	{
@@ -4254,7 +4254,7 @@ struct FText UEditableTextBox::GetText()
 
 void UEditableTextBox::ClearError()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableTextBox.ClearError");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableTextBox.ClearError"));
 
 	struct
 	{
@@ -4272,7 +4272,7 @@ void UEditableTextBox::ClearError()
 
 void UScrollBox::SetWheelScrollMultiplier(float NewWheelScrollMultiplier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetWheelScrollMultiplier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetWheelScrollMultiplier"));
 
 	struct
 	{
@@ -4292,7 +4292,7 @@ void UScrollBox::SetWheelScrollMultiplier(float NewWheelScrollMultiplier)
 
 void UScrollBox::SetScrollOffset(float NewScrollOffset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetScrollOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetScrollOffset"));
 
 	struct
 	{
@@ -4312,7 +4312,7 @@ void UScrollBox::SetScrollOffset(float NewScrollOffset)
 
 void UScrollBox::SetScrollBarVisibility(ESlateVisibility NewScrollBarVisibility)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetScrollBarVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetScrollBarVisibility"));
 
 	struct
 	{
@@ -4332,7 +4332,7 @@ void UScrollBox::SetScrollBarVisibility(ESlateVisibility NewScrollBarVisibility)
 
 void UScrollBox::SetScrollbarThickness(const struct FVector2D& NewScrollbarThickness)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetScrollbarThickness");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetScrollbarThickness"));
 
 	struct
 	{
@@ -4352,7 +4352,7 @@ void UScrollBox::SetScrollbarThickness(const struct FVector2D& NewScrollbarThick
 
 void UScrollBox::SetScrollbarPadding(const struct FMargin& NewScrollbarPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetScrollbarPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetScrollbarPadding"));
 
 	struct
 	{
@@ -4372,7 +4372,7 @@ void UScrollBox::SetScrollbarPadding(const struct FMargin& NewScrollbarPadding)
 
 void UScrollBox::SetOrientation(TEnumAsByte<EOrientation> NewOrientation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetOrientation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetOrientation"));
 
 	struct
 	{
@@ -4392,7 +4392,7 @@ void UScrollBox::SetOrientation(TEnumAsByte<EOrientation> NewOrientation)
 
 void UScrollBox::SetConsumeMouseWheel(EConsumeMouseWheel NewConsumeMouseWheel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetConsumeMouseWheel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetConsumeMouseWheel"));
 
 	struct
 	{
@@ -4412,7 +4412,7 @@ void UScrollBox::SetConsumeMouseWheel(EConsumeMouseWheel NewConsumeMouseWheel)
 
 void UScrollBox::SetAnimateWheelScrolling(bool bShouldAnimateWheelScrolling)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetAnimateWheelScrolling");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetAnimateWheelScrolling"));
 
 	struct
 	{
@@ -4432,7 +4432,7 @@ void UScrollBox::SetAnimateWheelScrolling(bool bShouldAnimateWheelScrolling)
 
 void UScrollBox::SetAlwaysShowScrollbar(bool NewAlwaysShowScrollbar)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetAlwaysShowScrollbar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetAlwaysShowScrollbar"));
 
 	struct
 	{
@@ -4452,7 +4452,7 @@ void UScrollBox::SetAlwaysShowScrollbar(bool NewAlwaysShowScrollbar)
 
 void UScrollBox::SetAllowOverscroll(bool NewAllowOverscroll)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.SetAllowOverscroll");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.SetAllowOverscroll"));
 
 	struct
 	{
@@ -4475,7 +4475,7 @@ void UScrollBox::SetAllowOverscroll(bool NewAllowOverscroll)
 
 void UScrollBox::ScrollWidgetIntoView(class UWidget* WidgetToFind, bool AnimateScroll, EDescendantScrollDestination ScrollDestination, float Padding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.ScrollWidgetIntoView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.ScrollWidgetIntoView"));
 
 	struct
 	{
@@ -4499,7 +4499,7 @@ void UScrollBox::ScrollWidgetIntoView(class UWidget* WidgetToFind, bool AnimateS
 
 void UScrollBox::ScrollToStart()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.ScrollToStart");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.ScrollToStart"));
 
 	struct
 	{
@@ -4515,7 +4515,7 @@ void UScrollBox::ScrollToStart()
 
 void UScrollBox::ScrollToEnd()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.ScrollToEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.ScrollToEnd"));
 
 	struct
 	{
@@ -4533,7 +4533,7 @@ void UScrollBox::ScrollToEnd()
 
 float UScrollBox::GetViewOffsetFraction()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.GetViewOffsetFraction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.GetViewOffsetFraction"));
 
 	struct
 	{
@@ -4554,7 +4554,7 @@ float UScrollBox::GetViewOffsetFraction()
 
 float UScrollBox::GetScrollOffsetOfEnd()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.GetScrollOffsetOfEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.GetScrollOffsetOfEnd"));
 
 	struct
 	{
@@ -4575,7 +4575,7 @@ float UScrollBox::GetScrollOffsetOfEnd()
 
 float UScrollBox::GetScrollOffset()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.GetScrollOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.GetScrollOffset"));
 
 	struct
 	{
@@ -4594,7 +4594,7 @@ float UScrollBox::GetScrollOffset()
 
 void UScrollBox::EndInertialScrolling()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBox.EndInertialScrolling");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBox.EndInertialScrolling"));
 
 	struct
 	{
@@ -4613,7 +4613,7 @@ void UScrollBox::EndInertialScrolling()
 
 void UGridPanel::SetRowFill(int ColumnIndex, float Coefficient)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridPanel.SetRowFill");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridPanel.SetRowFill"));
 
 	struct
 	{
@@ -4636,7 +4636,7 @@ void UGridPanel::SetRowFill(int ColumnIndex, float Coefficient)
 
 void UGridPanel::SetColumnFill(int ColumnIndex, float Coefficient)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridPanel.SetColumnFill");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridPanel.SetColumnFill"));
 
 	struct
 	{
@@ -4661,7 +4661,7 @@ void UGridPanel::SetColumnFill(int ColumnIndex, float Coefficient)
 
 class UGridSlot* UGridPanel::AddChildToGrid(class UWidget* Content, int InRow, int InColumn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridPanel.AddChildToGrid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridPanel.AddChildToGrid"));
 
 	struct
 	{
@@ -4689,7 +4689,7 @@ class UGridSlot* UGridPanel::AddChildToGrid(class UWidget* Content, int InRow, i
 
 class UVerticalBoxSlot* UVerticalBox::AddChildToVerticalBox(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.VerticalBox.AddChildToVerticalBox");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.VerticalBox.AddChildToVerticalBox"));
 
 	struct
 	{
@@ -4712,7 +4712,7 @@ class UVerticalBoxSlot* UVerticalBox::AddChildToVerticalBox(class UWidget* Conte
 
 void UListViewBase::SetWheelScrollMultiplier(float NewWheelScrollMultiplier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListViewBase.SetWheelScrollMultiplier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListViewBase.SetWheelScrollMultiplier"));
 
 	struct
 	{
@@ -4732,7 +4732,7 @@ void UListViewBase::SetWheelScrollMultiplier(float NewWheelScrollMultiplier)
 
 void UListViewBase::SetScrollOffset(float InScrollOffset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListViewBase.SetScrollOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListViewBase.SetScrollOffset"));
 
 	struct
 	{
@@ -4752,7 +4752,7 @@ void UListViewBase::SetScrollOffset(float InScrollOffset)
 
 void UListViewBase::SetScrollBarVisibility(ESlateVisibility InVisibility)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListViewBase.SetScrollBarVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListViewBase.SetScrollBarVisibility"));
 
 	struct
 	{
@@ -4770,7 +4770,7 @@ void UListViewBase::SetScrollBarVisibility(ESlateVisibility InVisibility)
 
 void UListViewBase::ScrollToTop()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListViewBase.ScrollToTop");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListViewBase.ScrollToTop"));
 
 	struct
 	{
@@ -4786,7 +4786,7 @@ void UListViewBase::ScrollToTop()
 
 void UListViewBase::ScrollToBottom()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListViewBase.ScrollToBottom");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListViewBase.ScrollToBottom"));
 
 	struct
 	{
@@ -4802,7 +4802,7 @@ void UListViewBase::ScrollToBottom()
 
 void UListViewBase::RequestRefresh()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListViewBase.RequestRefresh");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListViewBase.RequestRefresh"));
 
 	struct
 	{
@@ -4818,7 +4818,7 @@ void UListViewBase::RequestRefresh()
 
 void UListViewBase::RegenerateAllEntries()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListViewBase.RegenerateAllEntries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListViewBase.RegenerateAllEntries"));
 
 	struct
 	{
@@ -4836,7 +4836,7 @@ void UListViewBase::RegenerateAllEntries()
 
 TArray<class UUserWidget*> UListViewBase::GetDisplayedEntryWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListViewBase.GetDisplayedEntryWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListViewBase.GetDisplayedEntryWidgets"));
 
 	struct
 	{
@@ -4857,7 +4857,7 @@ TArray<class UUserWidget*> UListViewBase::GetDisplayedEntryWidgets()
 
 void UListView::SetSelectionMode(TEnumAsByte<ESelectionMode> SelectionMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.SetSelectionMode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.SetSelectionMode"));
 
 	struct
 	{
@@ -4877,7 +4877,7 @@ void UListView::SetSelectionMode(TEnumAsByte<ESelectionMode> SelectionMode)
 
 void UListView::SetSelectedIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.SetSelectedIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.SetSelectedIndex"));
 
 	struct
 	{
@@ -4897,7 +4897,7 @@ void UListView::SetSelectedIndex(int Index)
 
 void UListView::ScrollIndexIntoView(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.ScrollIndexIntoView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.ScrollIndexIntoView"));
 
 	struct
 	{
@@ -4917,7 +4917,7 @@ void UListView::ScrollIndexIntoView(int Index)
 
 void UListView::RemoveItem(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.RemoveItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.RemoveItem"));
 
 	struct
 	{
@@ -4937,7 +4937,7 @@ void UListView::RemoveItem(class UObject* Item)
 
 void UListView::NavigateToIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.NavigateToIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.NavigateToIndex"));
 
 	struct
 	{
@@ -4957,7 +4957,7 @@ void UListView::NavigateToIndex(int Index)
 
 bool UListView::IsRefreshPending()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.IsRefreshPending");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.IsRefreshPending"));
 
 	struct
 	{
@@ -4978,7 +4978,7 @@ bool UListView::IsRefreshPending()
 
 int UListView::GetNumItems()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.GetNumItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.GetNumItems"));
 
 	struct
 	{
@@ -4999,7 +4999,7 @@ int UListView::GetNumItems()
 
 TArray<class UObject*> UListView::GetListItems()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.GetListItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.GetListItems"));
 
 	struct
 	{
@@ -5021,7 +5021,7 @@ TArray<class UObject*> UListView::GetListItems()
 
 class UObject* UListView::GetItemAt(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.GetItemAt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.GetItemAt"));
 
 	struct
 	{
@@ -5045,7 +5045,7 @@ class UObject* UListView::GetItemAt(int Index)
 
 int UListView::GetIndexForItem(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.GetIndexForItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.GetIndexForItem"));
 
 	struct
 	{
@@ -5066,7 +5066,7 @@ int UListView::GetIndexForItem(class UObject* Item)
 
 void UListView::ClearListItems()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.ClearListItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.ClearListItems"));
 
 	struct
 	{
@@ -5084,7 +5084,7 @@ void UListView::ClearListItems()
 
 void UListView::BP_SetSelectedItem(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_SetSelectedItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_SetSelectedItem"));
 
 	struct
 	{
@@ -5104,7 +5104,7 @@ void UListView::BP_SetSelectedItem(class UObject* Item)
 
 void UListView::BP_SetListItems(TArray<class UObject*> InListItems)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_SetListItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_SetListItems"));
 
 	struct
 	{
@@ -5125,7 +5125,7 @@ void UListView::BP_SetListItems(TArray<class UObject*> InListItems)
 
 void UListView::BP_SetItemSelection(class UObject* Item, bool bSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_SetItemSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_SetItemSelection"));
 
 	struct
 	{
@@ -5147,7 +5147,7 @@ void UListView::BP_SetItemSelection(class UObject* Item, bool bSelected)
 
 void UListView::BP_ScrollItemIntoView(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_ScrollItemIntoView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_ScrollItemIntoView"));
 
 	struct
 	{
@@ -5167,7 +5167,7 @@ void UListView::BP_ScrollItemIntoView(class UObject* Item)
 
 void UListView::BP_NavigateToItem(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_NavigateToItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_NavigateToItem"));
 
 	struct
 	{
@@ -5188,7 +5188,7 @@ void UListView::BP_NavigateToItem(class UObject* Item)
 
 bool UListView::BP_IsItemVisible(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_IsItemVisible");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_IsItemVisible"));
 
 	struct
 	{
@@ -5212,7 +5212,7 @@ bool UListView::BP_IsItemVisible(class UObject* Item)
 
 bool UListView::BP_GetSelectedItems(TArray<class UObject*>* Items)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_GetSelectedItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_GetSelectedItems"));
 
 	struct
 	{
@@ -5237,7 +5237,7 @@ bool UListView::BP_GetSelectedItems(TArray<class UObject*>* Items)
 
 class UObject* UListView::BP_GetSelectedItem()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_GetSelectedItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_GetSelectedItem"));
 
 	struct
 	{
@@ -5258,7 +5258,7 @@ class UObject* UListView::BP_GetSelectedItem()
 
 int UListView::BP_GetNumItemsSelected()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_GetNumItemsSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_GetNumItemsSelected"));
 
 	struct
 	{
@@ -5277,7 +5277,7 @@ int UListView::BP_GetNumItemsSelected()
 
 void UListView::BP_ClearSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_ClearSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_ClearSelection"));
 
 	struct
 	{
@@ -5293,7 +5293,7 @@ void UListView::BP_ClearSelection()
 
 void UListView::BP_CancelScrollIntoView()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.BP_CancelScrollIntoView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.BP_CancelScrollIntoView"));
 
 	struct
 	{
@@ -5311,7 +5311,7 @@ void UListView::BP_CancelScrollIntoView()
 
 void UListView::AddItem(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ListView.AddItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ListView.AddItem"));
 
 	struct
 	{
@@ -5332,7 +5332,7 @@ void UListView::AddItem(class UObject* Item)
 
 void UTreeView::SetItemExpansion(class UObject* Item, bool bExpandItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TreeView.SetItemExpansion");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TreeView.SetItemExpansion"));
 
 	struct
 	{
@@ -5352,7 +5352,7 @@ void UTreeView::SetItemExpansion(class UObject* Item, bool bExpandItem)
 
 void UTreeView::ExpandAll()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TreeView.ExpandAll");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TreeView.ExpandAll"));
 
 	struct
 	{
@@ -5368,7 +5368,7 @@ void UTreeView::ExpandAll()
 
 void UTreeView::CollapseAll()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TreeView.CollapseAll");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TreeView.CollapseAll"));
 
 	struct
 	{
@@ -5387,7 +5387,7 @@ void UTreeView::CollapseAll()
 
 class UAsyncTaskDownloadImage* UAsyncTaskDownloadImage::DownloadImage(const struct FString& URL)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.AsyncTaskDownloadImage.DownloadImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.AsyncTaskDownloadImage.DownloadImage"));
 
 	struct
 	{
@@ -5411,7 +5411,7 @@ class UAsyncTaskDownloadImage* UAsyncTaskDownloadImage::DownloadImage(const stru
 
 void UBackgroundBlur::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlur.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlur.SetVerticalAlignment"));
 
 	struct
 	{
@@ -5431,7 +5431,7 @@ void UBackgroundBlur::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVer
 
 void UBackgroundBlur::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlur.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlur.SetPadding"));
 
 	struct
 	{
@@ -5451,7 +5451,7 @@ void UBackgroundBlur::SetPadding(const struct FMargin& InPadding)
 
 void UBackgroundBlur::SetLowQualityFallbackBrush(const struct FSlateBrush& InBrush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlur.SetLowQualityFallbackBrush");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlur.SetLowQualityFallbackBrush"));
 
 	struct
 	{
@@ -5471,7 +5471,7 @@ void UBackgroundBlur::SetLowQualityFallbackBrush(const struct FSlateBrush& InBru
 
 void UBackgroundBlur::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlur.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlur.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -5491,7 +5491,7 @@ void UBackgroundBlur::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> I
 
 void UBackgroundBlur::SetBlurStrength(float InStrength)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlur.SetBlurStrength");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlur.SetBlurStrength"));
 
 	struct
 	{
@@ -5511,7 +5511,7 @@ void UBackgroundBlur::SetBlurStrength(float InStrength)
 
 void UBackgroundBlur::SetBlurRadius(int InBlurRadius)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlur.SetBlurRadius");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlur.SetBlurRadius"));
 
 	struct
 	{
@@ -5531,7 +5531,7 @@ void UBackgroundBlur::SetBlurRadius(int InBlurRadius)
 
 void UBackgroundBlur::SetApplyAlphaToBlur(bool bInApplyAlphaToBlur)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlur.SetApplyAlphaToBlur");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlur.SetApplyAlphaToBlur"));
 
 	struct
 	{
@@ -5551,7 +5551,7 @@ void UBackgroundBlur::SetApplyAlphaToBlur(bool bInApplyAlphaToBlur)
 
 void UBackgroundBlurSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlurSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlurSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -5571,7 +5571,7 @@ void UBackgroundBlurSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> I
 
 void UBackgroundBlurSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlurSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlurSlot.SetPadding"));
 
 	struct
 	{
@@ -5591,7 +5591,7 @@ void UBackgroundBlurSlot::SetPadding(const struct FMargin& InPadding)
 
 void UBackgroundBlurSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BackgroundBlurSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BackgroundBlurSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -5611,7 +5611,7 @@ void UBackgroundBlurSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignmen
 
 bool UBoolBinding::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BoolBinding.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BoolBinding.GetValue"));
 
 	struct
 	{
@@ -5632,7 +5632,7 @@ bool UBoolBinding::GetValue()
 
 void UBorder::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetVerticalAlignment"));
 
 	struct
 	{
@@ -5652,7 +5652,7 @@ void UBorder::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAli
 
 void UBorder::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetPadding"));
 
 	struct
 	{
@@ -5672,7 +5672,7 @@ void UBorder::SetPadding(const struct FMargin& InPadding)
 
 void UBorder::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -5692,7 +5692,7 @@ void UBorder::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizon
 
 void UBorder::SetDesiredSizeScale(const struct FVector2D& InScale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetDesiredSizeScale");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetDesiredSizeScale"));
 
 	struct
 	{
@@ -5712,7 +5712,7 @@ void UBorder::SetDesiredSizeScale(const struct FVector2D& InScale)
 
 void UBorder::SetContentColorAndOpacity(const struct FLinearColor& InContentColorAndOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetContentColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetContentColorAndOpacity"));
 
 	struct
 	{
@@ -5732,7 +5732,7 @@ void UBorder::SetContentColorAndOpacity(const struct FLinearColor& InContentColo
 
 void UBorder::SetBrushFromTexture(class UTexture2D* Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushFromTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetBrushFromTexture"));
 
 	struct
 	{
@@ -5752,7 +5752,7 @@ void UBorder::SetBrushFromTexture(class UTexture2D* Texture)
 
 void UBorder::SetBrushFromMaterial(class UMaterialInterface* Material)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushFromMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetBrushFromMaterial"));
 
 	struct
 	{
@@ -5772,7 +5772,7 @@ void UBorder::SetBrushFromMaterial(class UMaterialInterface* Material)
 
 void UBorder::SetBrushFromAsset(class USlateBrushAsset* Asset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushFromAsset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetBrushFromAsset"));
 
 	struct
 	{
@@ -5792,7 +5792,7 @@ void UBorder::SetBrushFromAsset(class USlateBrushAsset* Asset)
 
 void UBorder::SetBrushColor(const struct FLinearColor& InBrushColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetBrushColor"));
 
 	struct
 	{
@@ -5812,7 +5812,7 @@ void UBorder::SetBrushColor(const struct FLinearColor& InBrushColor)
 
 void UBorder::SetBrush(const struct FSlateBrush& InBrush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrush");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.SetBrush"));
 
 	struct
 	{
@@ -5832,7 +5832,7 @@ void UBorder::SetBrush(const struct FSlateBrush& InBrush)
 
 class UMaterialInstanceDynamic* UBorder::GetDynamicMaterial()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.GetDynamicMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Border.GetDynamicMaterial"));
 
 	struct
 	{
@@ -5853,7 +5853,7 @@ class UMaterialInstanceDynamic* UBorder::GetDynamicMaterial()
 
 void UBorderSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BorderSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BorderSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -5873,7 +5873,7 @@ void UBorderSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVertica
 
 void UBorderSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BorderSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BorderSlot.SetPadding"));
 
 	struct
 	{
@@ -5893,7 +5893,7 @@ void UBorderSlot::SetPadding(const struct FMargin& InPadding)
 
 void UBorderSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BorderSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BorderSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -5913,7 +5913,7 @@ void UBorderSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHor
 
 struct FSlateBrush UBrushBinding::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.BrushBinding.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.BrushBinding.GetValue"));
 
 	struct
 	{
@@ -5934,7 +5934,7 @@ struct FSlateBrush UBrushBinding::GetValue()
 
 void UButton::SetTouchMethod(TEnumAsByte<EButtonTouchMethod> InTouchMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Button.SetTouchMethod");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Button.SetTouchMethod"));
 
 	struct
 	{
@@ -5954,7 +5954,7 @@ void UButton::SetTouchMethod(TEnumAsByte<EButtonTouchMethod> InTouchMethod)
 
 void UButton::SetStyle(const struct FButtonStyle& InStyle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Button.SetStyle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Button.SetStyle"));
 
 	struct
 	{
@@ -5974,7 +5974,7 @@ void UButton::SetStyle(const struct FButtonStyle& InStyle)
 
 void UButton::SetPressMethod(TEnumAsByte<EButtonPressMethod> InPressMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Button.SetPressMethod");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Button.SetPressMethod"));
 
 	struct
 	{
@@ -5994,7 +5994,7 @@ void UButton::SetPressMethod(TEnumAsByte<EButtonPressMethod> InPressMethod)
 
 void UButton::SetColorAndOpacity(const struct FLinearColor& InColorAndOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Button.SetColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Button.SetColorAndOpacity"));
 
 	struct
 	{
@@ -6014,7 +6014,7 @@ void UButton::SetColorAndOpacity(const struct FLinearColor& InColorAndOpacity)
 
 void UButton::SetClickMethod(TEnumAsByte<EButtonClickMethod> InClickMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Button.SetClickMethod");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Button.SetClickMethod"));
 
 	struct
 	{
@@ -6034,7 +6034,7 @@ void UButton::SetClickMethod(TEnumAsByte<EButtonClickMethod> InClickMethod)
 
 void UButton::SetBackgroundColor(const struct FLinearColor& InBackgroundColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Button.SetBackgroundColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Button.SetBackgroundColor"));
 
 	struct
 	{
@@ -6054,7 +6054,7 @@ void UButton::SetBackgroundColor(const struct FLinearColor& InBackgroundColor)
 
 bool UButton::IsPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Button.IsPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Button.IsPressed"));
 
 	struct
 	{
@@ -6075,7 +6075,7 @@ bool UButton::IsPressed()
 
 void UButtonSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ButtonSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ButtonSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -6095,7 +6095,7 @@ void UButtonSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVertica
 
 void UButtonSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ButtonSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ButtonSlot.SetPadding"));
 
 	struct
 	{
@@ -6115,7 +6115,7 @@ void UButtonSlot::SetPadding(const struct FMargin& InPadding)
 
 void UButtonSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ButtonSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ButtonSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -6135,7 +6135,7 @@ void UButtonSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHor
 
 void UCanvasPanelSlot::SetZOrder(int InZOrder)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetZOrder");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetZOrder"));
 
 	struct
 	{
@@ -6155,7 +6155,7 @@ void UCanvasPanelSlot::SetZOrder(int InZOrder)
 
 void UCanvasPanelSlot::SetSize(const struct FVector2D& InSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetSize"));
 
 	struct
 	{
@@ -6175,7 +6175,7 @@ void UCanvasPanelSlot::SetSize(const struct FVector2D& InSize)
 
 void UCanvasPanelSlot::SetPosition(const struct FVector2D& InPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetPosition"));
 
 	struct
 	{
@@ -6195,7 +6195,7 @@ void UCanvasPanelSlot::SetPosition(const struct FVector2D& InPosition)
 
 void UCanvasPanelSlot::SetOffsets(const struct FMargin& InOffset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetOffsets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetOffsets"));
 
 	struct
 	{
@@ -6215,7 +6215,7 @@ void UCanvasPanelSlot::SetOffsets(const struct FMargin& InOffset)
 
 void UCanvasPanelSlot::SetMinimum(const struct FVector2D& InMinimumAnchors)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetMinimum");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetMinimum"));
 
 	struct
 	{
@@ -6235,7 +6235,7 @@ void UCanvasPanelSlot::SetMinimum(const struct FVector2D& InMinimumAnchors)
 
 void UCanvasPanelSlot::SetMaximum(const struct FVector2D& InMaximumAnchors)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetMaximum");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetMaximum"));
 
 	struct
 	{
@@ -6255,7 +6255,7 @@ void UCanvasPanelSlot::SetMaximum(const struct FVector2D& InMaximumAnchors)
 
 void UCanvasPanelSlot::SetLayout(const struct FAnchorData& InLayoutData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetLayout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetLayout"));
 
 	struct
 	{
@@ -6275,7 +6275,7 @@ void UCanvasPanelSlot::SetLayout(const struct FAnchorData& InLayoutData)
 
 void UCanvasPanelSlot::SetAutoSize(bool InbAutoSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetAutoSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetAutoSize"));
 
 	struct
 	{
@@ -6295,7 +6295,7 @@ void UCanvasPanelSlot::SetAutoSize(bool InbAutoSize)
 
 void UCanvasPanelSlot::SetAnchors(const struct FAnchors& InAnchors)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetAnchors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetAnchors"));
 
 	struct
 	{
@@ -6315,7 +6315,7 @@ void UCanvasPanelSlot::SetAnchors(const struct FAnchors& InAnchors)
 
 void UCanvasPanelSlot::SetAlignment(const struct FVector2D& InAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.SetAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.SetAlignment"));
 
 	struct
 	{
@@ -6335,7 +6335,7 @@ void UCanvasPanelSlot::SetAlignment(const struct FVector2D& InAlignment)
 
 int UCanvasPanelSlot::GetZOrder()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.GetZOrder");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.GetZOrder"));
 
 	struct
 	{
@@ -6356,7 +6356,7 @@ int UCanvasPanelSlot::GetZOrder()
 
 struct FVector2D UCanvasPanelSlot::GetSize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.GetSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.GetSize"));
 
 	struct
 	{
@@ -6377,7 +6377,7 @@ struct FVector2D UCanvasPanelSlot::GetSize()
 
 struct FVector2D UCanvasPanelSlot::GetPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.GetPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.GetPosition"));
 
 	struct
 	{
@@ -6398,7 +6398,7 @@ struct FVector2D UCanvasPanelSlot::GetPosition()
 
 struct FMargin UCanvasPanelSlot::GetOffsets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.GetOffsets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.GetOffsets"));
 
 	struct
 	{
@@ -6419,7 +6419,7 @@ struct FMargin UCanvasPanelSlot::GetOffsets()
 
 struct FAnchorData UCanvasPanelSlot::GetLayout()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.GetLayout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.GetLayout"));
 
 	struct
 	{
@@ -6440,7 +6440,7 @@ struct FAnchorData UCanvasPanelSlot::GetLayout()
 
 bool UCanvasPanelSlot::GetAutoSize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.GetAutoSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.GetAutoSize"));
 
 	struct
 	{
@@ -6461,7 +6461,7 @@ bool UCanvasPanelSlot::GetAutoSize()
 
 struct FAnchors UCanvasPanelSlot::GetAnchors()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.GetAnchors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.GetAnchors"));
 
 	struct
 	{
@@ -6482,7 +6482,7 @@ struct FAnchors UCanvasPanelSlot::GetAnchors()
 
 struct FVector2D UCanvasPanelSlot::GetAlignment()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CanvasPanelSlot.GetAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CanvasPanelSlot.GetAlignment"));
 
 	struct
 	{
@@ -6503,7 +6503,7 @@ struct FVector2D UCanvasPanelSlot::GetAlignment()
 
 void UCheckBox::SetIsChecked(bool InIsChecked)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CheckBox.SetIsChecked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CheckBox.SetIsChecked"));
 
 	struct
 	{
@@ -6523,7 +6523,7 @@ void UCheckBox::SetIsChecked(bool InIsChecked)
 
 void UCheckBox::SetCheckedState(ECheckBoxState InCheckedState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CheckBox.SetCheckedState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CheckBox.SetCheckedState"));
 
 	struct
 	{
@@ -6543,7 +6543,7 @@ void UCheckBox::SetCheckedState(ECheckBoxState InCheckedState)
 
 bool UCheckBox::IsPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CheckBox.IsPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CheckBox.IsPressed"));
 
 	struct
 	{
@@ -6564,7 +6564,7 @@ bool UCheckBox::IsPressed()
 
 bool UCheckBox::IsChecked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CheckBox.IsChecked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CheckBox.IsChecked"));
 
 	struct
 	{
@@ -6585,7 +6585,7 @@ bool UCheckBox::IsChecked()
 
 ECheckBoxState UCheckBox::GetCheckedState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CheckBox.GetCheckedState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CheckBox.GetCheckedState"));
 
 	struct
 	{
@@ -6606,7 +6606,7 @@ ECheckBoxState UCheckBox::GetCheckedState()
 
 ECheckBoxState UCheckedStateBinding::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CheckedStateBinding.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CheckedStateBinding.GetValue"));
 
 	struct
 	{
@@ -6627,7 +6627,7 @@ ECheckBoxState UCheckedStateBinding::GetValue()
 
 void UCircularThrobber::SetRadius(float InRadius)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CircularThrobber.SetRadius");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CircularThrobber.SetRadius"));
 
 	struct
 	{
@@ -6647,7 +6647,7 @@ void UCircularThrobber::SetRadius(float InRadius)
 
 void UCircularThrobber::SetPeriod(float InPeriod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CircularThrobber.SetPeriod");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CircularThrobber.SetPeriod"));
 
 	struct
 	{
@@ -6667,7 +6667,7 @@ void UCircularThrobber::SetPeriod(float InPeriod)
 
 void UCircularThrobber::SetNumberOfPieces(int InNumberOfPieces)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.CircularThrobber.SetNumberOfPieces");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.CircularThrobber.SetNumberOfPieces"));
 
 	struct
 	{
@@ -6687,7 +6687,7 @@ void UCircularThrobber::SetNumberOfPieces(int InNumberOfPieces)
 
 struct FSlateColor UColorBinding::GetSlateValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ColorBinding.GetSlateValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ColorBinding.GetSlateValue"));
 
 	struct
 	{
@@ -6708,7 +6708,7 @@ struct FSlateColor UColorBinding::GetSlateValue()
 
 struct FLinearColor UColorBinding::GetLinearValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ColorBinding.GetLinearValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ColorBinding.GetLinearValue"));
 
 	struct
 	{
@@ -6729,7 +6729,7 @@ struct FLinearColor UColorBinding::GetLinearValue()
 
 void UComboBoxString::SetSelectedOption(const struct FString& Option)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.SetSelectedOption");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.SetSelectedOption"));
 
 	struct
 	{
@@ -6749,7 +6749,7 @@ void UComboBoxString::SetSelectedOption(const struct FString& Option)
 
 void UComboBoxString::SetSelectedIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.SetSelectedIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.SetSelectedIndex"));
 
 	struct
 	{
@@ -6770,7 +6770,7 @@ void UComboBoxString::SetSelectedIndex(int Index)
 
 bool UComboBoxString::RemoveOption(const struct FString& Option)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.RemoveOption");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.RemoveOption"));
 
 	struct
 	{
@@ -6791,7 +6791,7 @@ bool UComboBoxString::RemoveOption(const struct FString& Option)
 
 void UComboBoxString::RefreshOptions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.RefreshOptions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.RefreshOptions"));
 
 	struct
 	{
@@ -6810,7 +6810,7 @@ void UComboBoxString::RefreshOptions()
 
 void UComboBoxString::OnSelectionChangedEvent__DelegateSignature(const struct FString& SelectedItem, TEnumAsByte<ESelectInfo> SelectionType)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.ComboBoxString.OnSelectionChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.ComboBoxString.OnSelectionChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -6830,7 +6830,7 @@ void UComboBoxString::OnSelectionChangedEvent__DelegateSignature(const struct FS
 
 void UComboBoxString::OnOpeningEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.ComboBoxString.OnOpeningEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.ComboBoxString.OnOpeningEvent__DelegateSignature"));
 
 	struct
 	{
@@ -6846,7 +6846,7 @@ void UComboBoxString::OnOpeningEvent__DelegateSignature()
 
 void UComboBoxString::OnClosingEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.ComboBoxString.OnClosingEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.ComboBoxString.OnClosingEvent__DelegateSignature"));
 
 	struct
 	{
@@ -6864,7 +6864,7 @@ void UComboBoxString::OnClosingEvent__DelegateSignature()
 
 bool UComboBoxString::IsOpen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.IsOpen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.IsOpen"));
 
 	struct
 	{
@@ -6885,7 +6885,7 @@ bool UComboBoxString::IsOpen()
 
 struct FString UComboBoxString::GetSelectedOption()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.GetSelectedOption");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.GetSelectedOption"));
 
 	struct
 	{
@@ -6906,7 +6906,7 @@ struct FString UComboBoxString::GetSelectedOption()
 
 int UComboBoxString::GetSelectedIndex()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.GetSelectedIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.GetSelectedIndex"));
 
 	struct
 	{
@@ -6927,7 +6927,7 @@ int UComboBoxString::GetSelectedIndex()
 
 int UComboBoxString::GetOptionCount()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.GetOptionCount");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.GetOptionCount"));
 
 	struct
 	{
@@ -6949,7 +6949,7 @@ int UComboBoxString::GetOptionCount()
 
 struct FString UComboBoxString::GetOptionAtIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.GetOptionAtIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.GetOptionAtIndex"));
 
 	struct
 	{
@@ -6973,7 +6973,7 @@ struct FString UComboBoxString::GetOptionAtIndex(int Index)
 
 int UComboBoxString::FindOptionIndex(const struct FString& Option)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.FindOptionIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.FindOptionIndex"));
 
 	struct
 	{
@@ -6994,7 +6994,7 @@ int UComboBoxString::FindOptionIndex(const struct FString& Option)
 
 void UComboBoxString::ClearSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.ClearSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.ClearSelection"));
 
 	struct
 	{
@@ -7010,7 +7010,7 @@ void UComboBoxString::ClearSelection()
 
 void UComboBoxString::ClearOptions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.ClearOptions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.ClearOptions"));
 
 	struct
 	{
@@ -7028,7 +7028,7 @@ void UComboBoxString::ClearOptions()
 
 void UComboBoxString::AddOption(const struct FString& Option)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ComboBoxString.AddOption");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ComboBoxString.AddOption"));
 
 	struct
 	{
@@ -7048,7 +7048,7 @@ void UComboBoxString::AddOption(const struct FString& Option)
 
 void UDragDropOperation::Drop(const struct FPointerEvent& PointerEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DragDropOperation.Drop");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DragDropOperation.Drop"));
 
 	struct
 	{
@@ -7068,7 +7068,7 @@ void UDragDropOperation::Drop(const struct FPointerEvent& PointerEvent)
 
 void UDragDropOperation::Dragged(const struct FPointerEvent& PointerEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DragDropOperation.Dragged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DragDropOperation.Dragged"));
 
 	struct
 	{
@@ -7088,7 +7088,7 @@ void UDragDropOperation::Dragged(const struct FPointerEvent& PointerEvent)
 
 void UDragDropOperation::DragCancelled(const struct FPointerEvent& PointerEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DragDropOperation.DragCancelled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DragDropOperation.DragCancelled"));
 
 	struct
 	{
@@ -7108,7 +7108,7 @@ void UDragDropOperation::DragCancelled(const struct FPointerEvent& PointerEvent)
 
 void UDynamicEntryBoxBase::SetEntrySpacing(const struct FVector2D& InEntrySpacing)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DynamicEntryBoxBase.SetEntrySpacing");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DynamicEntryBoxBase.SetEntrySpacing"));
 
 	struct
 	{
@@ -7128,7 +7128,7 @@ void UDynamicEntryBoxBase::SetEntrySpacing(const struct FVector2D& InEntrySpacin
 
 int UDynamicEntryBoxBase::GetNumEntries()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DynamicEntryBoxBase.GetNumEntries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DynamicEntryBoxBase.GetNumEntries"));
 
 	struct
 	{
@@ -7149,7 +7149,7 @@ int UDynamicEntryBoxBase::GetNumEntries()
 
 TArray<class UUserWidget*> UDynamicEntryBoxBase::GetAllEntries()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DynamicEntryBoxBase.GetAllEntries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DynamicEntryBoxBase.GetAllEntries"));
 
 	struct
 	{
@@ -7170,7 +7170,7 @@ TArray<class UUserWidget*> UDynamicEntryBoxBase::GetAllEntries()
 
 void UDynamicEntryBox::Reset(bool bDeleteWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DynamicEntryBox.Reset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DynamicEntryBox.Reset"));
 
 	struct
 	{
@@ -7190,7 +7190,7 @@ void UDynamicEntryBox::Reset(bool bDeleteWidgets)
 
 void UDynamicEntryBox::RemoveEntry(class UUserWidget* EntryWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DynamicEntryBox.RemoveEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DynamicEntryBox.RemoveEntry"));
 
 	struct
 	{
@@ -7211,7 +7211,7 @@ void UDynamicEntryBox::RemoveEntry(class UUserWidget* EntryWidget)
 
 class UUserWidget* UDynamicEntryBox::BP_CreateEntryOfClass(class UClass* EntryClass)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DynamicEntryBox.BP_CreateEntryOfClass");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DynamicEntryBox.BP_CreateEntryOfClass"));
 
 	struct
 	{
@@ -7234,7 +7234,7 @@ class UUserWidget* UDynamicEntryBox::BP_CreateEntryOfClass(class UClass* EntryCl
 
 class UUserWidget* UDynamicEntryBox::BP_CreateEntry()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.DynamicEntryBox.BP_CreateEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.DynamicEntryBox.BP_CreateEntry"));
 
 	struct
 	{
@@ -7255,7 +7255,7 @@ class UUserWidget* UDynamicEntryBox::BP_CreateEntry()
 
 void UEditableText::SetText(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableText.SetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableText.SetText"));
 
 	struct
 	{
@@ -7275,7 +7275,7 @@ void UEditableText::SetText(const struct FText& InText)
 
 void UEditableText::SetJustification(TEnumAsByte<ETextJustify> InJustification)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableText.SetJustification");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableText.SetJustification"));
 
 	struct
 	{
@@ -7295,7 +7295,7 @@ void UEditableText::SetJustification(TEnumAsByte<ETextJustify> InJustification)
 
 void UEditableText::SetIsReadOnly(bool InbIsReadyOnly)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableText.SetIsReadOnly");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableText.SetIsReadOnly"));
 
 	struct
 	{
@@ -7315,7 +7315,7 @@ void UEditableText::SetIsReadOnly(bool InbIsReadyOnly)
 
 void UEditableText::SetIsPassword(bool InbIsPassword)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableText.SetIsPassword");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableText.SetIsPassword"));
 
 	struct
 	{
@@ -7335,7 +7335,7 @@ void UEditableText::SetIsPassword(bool InbIsPassword)
 
 void UEditableText::SetHintText(const struct FText& InHintText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableText.SetHintText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableText.SetHintText"));
 
 	struct
 	{
@@ -7356,7 +7356,7 @@ void UEditableText::SetHintText(const struct FText& InHintText)
 
 void UEditableText::OnEditableTextCommittedEvent__DelegateSignature(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.EditableText.OnEditableTextCommittedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.EditableText.OnEditableTextCommittedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -7378,7 +7378,7 @@ void UEditableText::OnEditableTextCommittedEvent__DelegateSignature(const struct
 
 void UEditableText::OnEditableTextChangedEvent__DelegateSignature(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.EditableText.OnEditableTextChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.EditableText.OnEditableTextChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -7398,7 +7398,7 @@ void UEditableText::OnEditableTextChangedEvent__DelegateSignature(const struct F
 
 struct FText UEditableText::GetText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.EditableText.GetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.EditableText.GetText"));
 
 	struct
 	{
@@ -7419,7 +7419,7 @@ struct FText UEditableText::GetText()
 
 void UExpandableArea::SetIsExpanded_Animated(bool IsExpanded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ExpandableArea.SetIsExpanded_Animated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ExpandableArea.SetIsExpanded_Animated"));
 
 	struct
 	{
@@ -7439,7 +7439,7 @@ void UExpandableArea::SetIsExpanded_Animated(bool IsExpanded)
 
 void UExpandableArea::SetIsExpanded(bool IsExpanded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ExpandableArea.SetIsExpanded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ExpandableArea.SetIsExpanded"));
 
 	struct
 	{
@@ -7459,7 +7459,7 @@ void UExpandableArea::SetIsExpanded(bool IsExpanded)
 
 bool UExpandableArea::GetIsExpanded()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ExpandableArea.GetIsExpanded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ExpandableArea.GetIsExpanded"));
 
 	struct
 	{
@@ -7480,7 +7480,7 @@ bool UExpandableArea::GetIsExpanded()
 
 float UFloatBinding::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.FloatBinding.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.FloatBinding.GetValue"));
 
 	struct
 	{
@@ -7501,7 +7501,7 @@ float UFloatBinding::GetValue()
 
 void UGridSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -7521,7 +7521,7 @@ void UGridSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalA
 
 void UGridSlot::SetRowSpan(int InRowSpan)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridSlot.SetRowSpan");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridSlot.SetRowSpan"));
 
 	struct
 	{
@@ -7541,7 +7541,7 @@ void UGridSlot::SetRowSpan(int InRowSpan)
 
 void UGridSlot::SetRow(int InRow)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridSlot.SetRow");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridSlot.SetRow"));
 
 	struct
 	{
@@ -7561,7 +7561,7 @@ void UGridSlot::SetRow(int InRow)
 
 void UGridSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridSlot.SetPadding"));
 
 	struct
 	{
@@ -7581,7 +7581,7 @@ void UGridSlot::SetPadding(const struct FMargin& InPadding)
 
 void UGridSlot::SetNudge(const struct FVector2D& InNudge)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridSlot.SetNudge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridSlot.SetNudge"));
 
 	struct
 	{
@@ -7601,7 +7601,7 @@ void UGridSlot::SetNudge(const struct FVector2D& InNudge)
 
 void UGridSlot::SetLayer(int InLayer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridSlot.SetLayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridSlot.SetLayer"));
 
 	struct
 	{
@@ -7621,7 +7621,7 @@ void UGridSlot::SetLayer(int InLayer)
 
 void UGridSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -7641,7 +7641,7 @@ void UGridSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHoriz
 
 void UGridSlot::SetColumnSpan(int InColumnSpan)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridSlot.SetColumnSpan");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridSlot.SetColumnSpan"));
 
 	struct
 	{
@@ -7661,7 +7661,7 @@ void UGridSlot::SetColumnSpan(int InColumnSpan)
 
 void UGridSlot::SetColumn(int InColumn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.GridSlot.SetColumn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.GridSlot.SetColumn"));
 
 	struct
 	{
@@ -7682,7 +7682,7 @@ void UGridSlot::SetColumn(int InColumn)
 
 class UHorizontalBoxSlot* UHorizontalBox::AddChildToHorizontalBox(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.HorizontalBox.AddChildToHorizontalBox");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.HorizontalBox.AddChildToHorizontalBox"));
 
 	struct
 	{
@@ -7705,7 +7705,7 @@ class UHorizontalBoxSlot* UHorizontalBox::AddChildToHorizontalBox(class UWidget*
 
 void UHorizontalBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.HorizontalBoxSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.HorizontalBoxSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -7725,7 +7725,7 @@ void UHorizontalBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> In
 
 void UHorizontalBoxSlot::SetSize(const struct FSlateChildSize& InSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.HorizontalBoxSlot.SetSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.HorizontalBoxSlot.SetSize"));
 
 	struct
 	{
@@ -7745,7 +7745,7 @@ void UHorizontalBoxSlot::SetSize(const struct FSlateChildSize& InSize)
 
 void UHorizontalBoxSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.HorizontalBoxSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.HorizontalBoxSlot.SetPadding"));
 
 	struct
 	{
@@ -7765,7 +7765,7 @@ void UHorizontalBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 void UHorizontalBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.HorizontalBoxSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.HorizontalBoxSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -7785,7 +7785,7 @@ void UHorizontalBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment
 
 void UInputKeySelector::SetTextBlockVisibility(ESlateVisibility InVisibility)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InputKeySelector.SetTextBlockVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InputKeySelector.SetTextBlockVisibility"));
 
 	struct
 	{
@@ -7805,7 +7805,7 @@ void UInputKeySelector::SetTextBlockVisibility(ESlateVisibility InVisibility)
 
 void UInputKeySelector::SetSelectedKey(const struct FInputChord& InSelectedKey)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InputKeySelector.SetSelectedKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InputKeySelector.SetSelectedKey"));
 
 	struct
 	{
@@ -7825,7 +7825,7 @@ void UInputKeySelector::SetSelectedKey(const struct FInputChord& InSelectedKey)
 
 void UInputKeySelector::SetNoKeySpecifiedText(const struct FText& InNoKeySpecifiedText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InputKeySelector.SetNoKeySpecifiedText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InputKeySelector.SetNoKeySpecifiedText"));
 
 	struct
 	{
@@ -7845,7 +7845,7 @@ void UInputKeySelector::SetNoKeySpecifiedText(const struct FText& InNoKeySpecifi
 
 void UInputKeySelector::SetKeySelectionText(const struct FText& InKeySelectionText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InputKeySelector.SetKeySelectionText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InputKeySelector.SetKeySelectionText"));
 
 	struct
 	{
@@ -7865,7 +7865,7 @@ void UInputKeySelector::SetKeySelectionText(const struct FText& InKeySelectionTe
 
 void UInputKeySelector::SetEscapeKeys(TArray<struct FKey> InKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InputKeySelector.SetEscapeKeys");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InputKeySelector.SetEscapeKeys"));
 
 	struct
 	{
@@ -7885,7 +7885,7 @@ void UInputKeySelector::SetEscapeKeys(TArray<struct FKey> InKeys)
 
 void UInputKeySelector::SetAllowModifierKeys(bool bInAllowModifierKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InputKeySelector.SetAllowModifierKeys");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InputKeySelector.SetAllowModifierKeys"));
 
 	struct
 	{
@@ -7905,7 +7905,7 @@ void UInputKeySelector::SetAllowModifierKeys(bool bInAllowModifierKeys)
 
 void UInputKeySelector::SetAllowGamepadKeys(bool bInAllowGamepadKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InputKeySelector.SetAllowGamepadKeys");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InputKeySelector.SetAllowGamepadKeys"));
 
 	struct
 	{
@@ -7925,7 +7925,7 @@ void UInputKeySelector::SetAllowGamepadKeys(bool bInAllowGamepadKeys)
 
 void UInputKeySelector::OnKeySelected__DelegateSignature(const struct FInputChord& SelectedKey)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.InputKeySelector.OnKeySelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.InputKeySelector.OnKeySelected__DelegateSignature"));
 
 	struct
 	{
@@ -7943,7 +7943,7 @@ void UInputKeySelector::OnKeySelected__DelegateSignature(const struct FInputChor
 
 void UInputKeySelector::OnIsSelectingKeyChanged__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.InputKeySelector.OnIsSelectingKeyChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.InputKeySelector.OnIsSelectingKeyChanged__DelegateSignature"));
 
 	struct
 	{
@@ -7961,7 +7961,7 @@ void UInputKeySelector::OnIsSelectingKeyChanged__DelegateSignature()
 
 bool UInputKeySelector::GetIsSelectingKey()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InputKeySelector.GetIsSelectingKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InputKeySelector.GetIsSelectingKey"));
 
 	struct
 	{
@@ -7982,7 +7982,7 @@ bool UInputKeySelector::GetIsSelectingKey()
 
 int UInt32Binding::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Int32Binding.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Int32Binding.GetValue"));
 
 	struct
 	{
@@ -8003,7 +8003,7 @@ int UInt32Binding::GetValue()
 
 void UInvalidationBox::SetCanCache(bool CanCache)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InvalidationBox.SetCanCache");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InvalidationBox.SetCanCache"));
 
 	struct
 	{
@@ -8021,7 +8021,7 @@ void UInvalidationBox::SetCanCache(bool CanCache)
 
 void UInvalidationBox::InvalidateCache()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InvalidationBox.InvalidateCache");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InvalidationBox.InvalidateCache"));
 
 	struct
 	{
@@ -8039,7 +8039,7 @@ void UInvalidationBox::InvalidateCache()
 
 bool UInvalidationBox::GetCanCache()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.InvalidationBox.GetCanCache");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.InvalidationBox.GetCanCache"));
 
 	struct
 	{
@@ -8060,7 +8060,7 @@ bool UInvalidationBox::GetCanCache()
 
 void UUserListEntry::BP_OnItemSelectionChanged(bool bIsSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserListEntry.BP_OnItemSelectionChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserListEntry.BP_OnItemSelectionChanged"));
 
 	struct
 	{
@@ -8080,7 +8080,7 @@ void UUserListEntry::BP_OnItemSelectionChanged(bool bIsSelected)
 
 void UUserListEntry::BP_OnItemExpansionChanged(bool bIsExpanded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserListEntry.BP_OnItemExpansionChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserListEntry.BP_OnItemExpansionChanged"));
 
 	struct
 	{
@@ -8098,7 +8098,7 @@ void UUserListEntry::BP_OnItemExpansionChanged(bool bIsExpanded)
 
 void UUserListEntry::BP_OnEntryReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserListEntry.BP_OnEntryReleased");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserListEntry.BP_OnEntryReleased"));
 
 	struct
 	{
@@ -8117,7 +8117,7 @@ void UUserListEntry::BP_OnEntryReleased()
 
 bool UUserListEntryLibrary::IsListItemSelected(const TScriptInterface<class UUserListEntry>& UserListEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserListEntryLibrary.IsListItemSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserListEntryLibrary.IsListItemSelected"));
 
 	struct
 	{
@@ -8142,7 +8142,7 @@ bool UUserListEntryLibrary::IsListItemSelected(const TScriptInterface<class UUse
 
 bool UUserListEntryLibrary::IsListItemExpanded(const TScriptInterface<class UUserListEntry>& UserListEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserListEntryLibrary.IsListItemExpanded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserListEntryLibrary.IsListItemExpanded"));
 
 	struct
 	{
@@ -8167,7 +8167,7 @@ bool UUserListEntryLibrary::IsListItemExpanded(const TScriptInterface<class UUse
 
 class UListViewBase* UUserListEntryLibrary::GetOwningListView(const TScriptInterface<class UUserListEntry>& UserListEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserListEntryLibrary.GetOwningListView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserListEntryLibrary.GetOwningListView"));
 
 	struct
 	{
@@ -8191,7 +8191,7 @@ class UListViewBase* UUserListEntryLibrary::GetOwningListView(const TScriptInter
 
 void UUserObjectListEntry::OnListItemObjectSet(class UObject* ListItemObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserObjectListEntry.OnListItemObjectSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserObjectListEntry.OnListItemObjectSet"));
 
 	struct
 	{
@@ -8212,7 +8212,7 @@ void UUserObjectListEntry::OnListItemObjectSet(class UObject* ListItemObject)
 
 class UObject* UUserObjectListEntryLibrary::GetListItemObject(const TScriptInterface<class UUserObjectListEntry>& UserObjectListEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserObjectListEntryLibrary.GetListItemObject");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UserObjectListEntryLibrary.GetListItemObject"));
 
 	struct
 	{
@@ -8236,7 +8236,7 @@ class UObject* UUserObjectListEntryLibrary::GetListItemObject(const TScriptInter
 
 void UMenuAnchor::ToggleOpen(bool bFocusOnOpen)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MenuAnchor.ToggleOpen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MenuAnchor.ToggleOpen"));
 
 	struct
 	{
@@ -8256,7 +8256,7 @@ void UMenuAnchor::ToggleOpen(bool bFocusOnOpen)
 
 bool UMenuAnchor::ShouldOpenDueToClick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MenuAnchor.ShouldOpenDueToClick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MenuAnchor.ShouldOpenDueToClick"));
 
 	struct
 	{
@@ -8277,7 +8277,7 @@ bool UMenuAnchor::ShouldOpenDueToClick()
 
 void UMenuAnchor::SetPlacement(TEnumAsByte<EMenuPlacement> InPlacement)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MenuAnchor.SetPlacement");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MenuAnchor.SetPlacement"));
 
 	struct
 	{
@@ -8297,7 +8297,7 @@ void UMenuAnchor::SetPlacement(TEnumAsByte<EMenuPlacement> InPlacement)
 
 void UMenuAnchor::Open(bool bFocusMenu)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MenuAnchor.Open");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MenuAnchor.Open"));
 
 	struct
 	{
@@ -8317,7 +8317,7 @@ void UMenuAnchor::Open(bool bFocusMenu)
 
 bool UMenuAnchor::IsOpen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MenuAnchor.IsOpen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MenuAnchor.IsOpen"));
 
 	struct
 	{
@@ -8338,7 +8338,7 @@ bool UMenuAnchor::IsOpen()
 
 bool UMenuAnchor::HasOpenSubMenus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MenuAnchor.HasOpenSubMenus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MenuAnchor.HasOpenSubMenus"));
 
 	struct
 	{
@@ -8359,7 +8359,7 @@ bool UMenuAnchor::HasOpenSubMenus()
 
 struct FVector2D UMenuAnchor::GetMenuPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MenuAnchor.GetMenuPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MenuAnchor.GetMenuPosition"));
 
 	struct
 	{
@@ -8380,7 +8380,7 @@ struct FVector2D UMenuAnchor::GetMenuPosition()
 
 void UMenuAnchor::FitInWindow(bool bFit)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MenuAnchor.FitInWindow");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MenuAnchor.FitInWindow"));
 
 	struct
 	{
@@ -8398,7 +8398,7 @@ void UMenuAnchor::FitInWindow(bool bFit)
 
 void UMenuAnchor::Close()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MenuAnchor.Close");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MenuAnchor.Close"));
 
 	struct
 	{
@@ -8416,7 +8416,7 @@ void UMenuAnchor::Close()
 
 TEnumAsByte<EMouseCursor> UMouseCursorBinding::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MouseCursorBinding.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MouseCursorBinding.GetValue"));
 
 	struct
 	{
@@ -8437,7 +8437,7 @@ TEnumAsByte<EMouseCursor> UMouseCursorBinding::GetValue()
 
 void UTextLayoutWidget::SetJustification(TEnumAsByte<ETextJustify> InJustification)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextLayoutWidget.SetJustification");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextLayoutWidget.SetJustification"));
 
 	struct
 	{
@@ -8457,7 +8457,7 @@ void UTextLayoutWidget::SetJustification(TEnumAsByte<ETextJustify> InJustificati
 
 void UMultiLineEditableText::SetWidgetStyle(const struct FTextBlockStyle& InWidgetStyle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableText.SetWidgetStyle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableText.SetWidgetStyle"));
 
 	struct
 	{
@@ -8477,7 +8477,7 @@ void UMultiLineEditableText::SetWidgetStyle(const struct FTextBlockStyle& InWidg
 
 void UMultiLineEditableText::SetText(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableText.SetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableText.SetText"));
 
 	struct
 	{
@@ -8497,7 +8497,7 @@ void UMultiLineEditableText::SetText(const struct FText& InText)
 
 void UMultiLineEditableText::SetIsReadOnly(bool bReadOnly)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableText.SetIsReadOnly");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableText.SetIsReadOnly"));
 
 	struct
 	{
@@ -8517,7 +8517,7 @@ void UMultiLineEditableText::SetIsReadOnly(bool bReadOnly)
 
 void UMultiLineEditableText::SetHintText(const struct FText& InHintText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableText.SetHintText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableText.SetHintText"));
 
 	struct
 	{
@@ -8538,7 +8538,7 @@ void UMultiLineEditableText::SetHintText(const struct FText& InHintText)
 
 void UMultiLineEditableText::OnMultiLineEditableTextCommittedEvent__DelegateSignature(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.MultiLineEditableText.OnMultiLineEditableTextCommittedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.MultiLineEditableText.OnMultiLineEditableTextCommittedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -8560,7 +8560,7 @@ void UMultiLineEditableText::OnMultiLineEditableTextCommittedEvent__DelegateSign
 
 void UMultiLineEditableText::OnMultiLineEditableTextChangedEvent__DelegateSignature(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.MultiLineEditableText.OnMultiLineEditableTextChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.MultiLineEditableText.OnMultiLineEditableTextChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -8580,7 +8580,7 @@ void UMultiLineEditableText::OnMultiLineEditableTextChangedEvent__DelegateSignat
 
 struct FText UMultiLineEditableText::GetText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableText.GetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableText.GetText"));
 
 	struct
 	{
@@ -8601,7 +8601,7 @@ struct FText UMultiLineEditableText::GetText()
 
 struct FText UMultiLineEditableText::GetHintText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableText.GetHintText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableText.GetHintText"));
 
 	struct
 	{
@@ -8622,7 +8622,7 @@ struct FText UMultiLineEditableText::GetHintText()
 
 void UMultiLineEditableTextBox::SetTextStyle(const struct FTextBlockStyle& InTextStyle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableTextBox.SetTextStyle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableTextBox.SetTextStyle"));
 
 	struct
 	{
@@ -8642,7 +8642,7 @@ void UMultiLineEditableTextBox::SetTextStyle(const struct FTextBlockStyle& InTex
 
 void UMultiLineEditableTextBox::SetText(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableTextBox.SetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableTextBox.SetText"));
 
 	struct
 	{
@@ -8662,7 +8662,7 @@ void UMultiLineEditableTextBox::SetText(const struct FText& InText)
 
 void UMultiLineEditableTextBox::SetIsReadOnly(bool bReadOnly)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableTextBox.SetIsReadOnly");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableTextBox.SetIsReadOnly"));
 
 	struct
 	{
@@ -8682,7 +8682,7 @@ void UMultiLineEditableTextBox::SetIsReadOnly(bool bReadOnly)
 
 void UMultiLineEditableTextBox::SetHintText(const struct FText& InHintText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableTextBox.SetHintText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableTextBox.SetHintText"));
 
 	struct
 	{
@@ -8702,7 +8702,7 @@ void UMultiLineEditableTextBox::SetHintText(const struct FText& InHintText)
 
 void UMultiLineEditableTextBox::SetError(const struct FText& InError)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableTextBox.SetError");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableTextBox.SetError"));
 
 	struct
 	{
@@ -8723,7 +8723,7 @@ void UMultiLineEditableTextBox::SetError(const struct FText& InError)
 
 void UMultiLineEditableTextBox::OnMultiLineEditableTextBoxCommittedEvent__DelegateSignature(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.MultiLineEditableTextBox.OnMultiLineEditableTextBoxCommittedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.MultiLineEditableTextBox.OnMultiLineEditableTextBoxCommittedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -8745,7 +8745,7 @@ void UMultiLineEditableTextBox::OnMultiLineEditableTextBoxCommittedEvent__Delega
 
 void UMultiLineEditableTextBox::OnMultiLineEditableTextBoxChangedEvent__DelegateSignature(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.MultiLineEditableTextBox.OnMultiLineEditableTextBoxChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.MultiLineEditableTextBox.OnMultiLineEditableTextBoxChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -8765,7 +8765,7 @@ void UMultiLineEditableTextBox::OnMultiLineEditableTextBoxChangedEvent__Delegate
 
 struct FText UMultiLineEditableTextBox::GetText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableTextBox.GetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableTextBox.GetText"));
 
 	struct
 	{
@@ -8786,7 +8786,7 @@ struct FText UMultiLineEditableTextBox::GetText()
 
 struct FText UMultiLineEditableTextBox::GetHintText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.MultiLineEditableTextBox.GetHintText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.MultiLineEditableTextBox.GetHintText"));
 
 	struct
 	{
@@ -8808,7 +8808,7 @@ struct FText UMultiLineEditableTextBox::GetHintText()
 
 class UOverlaySlot* UOverlay::AddChildToOverlay(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Overlay.AddChildToOverlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Overlay.AddChildToOverlay"));
 
 	struct
 	{
@@ -8831,7 +8831,7 @@ class UOverlaySlot* UOverlay::AddChildToOverlay(class UWidget* Content)
 
 void UOverlaySlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.OverlaySlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.OverlaySlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -8851,7 +8851,7 @@ void UOverlaySlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVertic
 
 void UOverlaySlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.OverlaySlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.OverlaySlot.SetPadding"));
 
 	struct
 	{
@@ -8871,7 +8871,7 @@ void UOverlaySlot::SetPadding(const struct FMargin& InPadding)
 
 void UOverlaySlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.OverlaySlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.OverlaySlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -8891,7 +8891,7 @@ void UOverlaySlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHo
 
 void UProgressBar::SetPercent(float InPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ProgressBar.SetPercent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ProgressBar.SetPercent"));
 
 	struct
 	{
@@ -8911,7 +8911,7 @@ void UProgressBar::SetPercent(float InPercent)
 
 void UProgressBar::SetIsMarquee(bool InbIsMarquee)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ProgressBar.SetIsMarquee");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ProgressBar.SetIsMarquee"));
 
 	struct
 	{
@@ -8931,7 +8931,7 @@ void UProgressBar::SetIsMarquee(bool InbIsMarquee)
 
 void UProgressBar::SetFillColorAndOpacity(const struct FLinearColor& InColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ProgressBar.SetFillColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ProgressBar.SetFillColorAndOpacity"));
 
 	struct
 	{
@@ -8951,7 +8951,7 @@ void UProgressBar::SetFillColorAndOpacity(const struct FLinearColor& InColor)
 
 void URetainerBox::SetTextureParameter(const struct FName& TextureParameter)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RetainerBox.SetTextureParameter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RetainerBox.SetTextureParameter"));
 
 	struct
 	{
@@ -8971,7 +8971,7 @@ void URetainerBox::SetTextureParameter(const struct FName& TextureParameter)
 
 void URetainerBox::SetRetainedRendering(bool bEnableRetainedRendering)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RetainerBox.SetRetainedRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RetainerBox.SetRetainedRendering"));
 
 	struct
 	{
@@ -8992,7 +8992,7 @@ void URetainerBox::SetRetainedRendering(bool bEnableRetainedRendering)
 
 void URetainerBox::SetRenderingPhase(int RenderPhase, int TotalPhases)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RetainerBox.SetRenderingPhase");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RetainerBox.SetRenderingPhase"));
 
 	struct
 	{
@@ -9014,7 +9014,7 @@ void URetainerBox::SetRenderingPhase(int RenderPhase, int TotalPhases)
 
 void URetainerBox::SetEffectMaterial(class UMaterialInterface* EffectMaterial)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RetainerBox.SetEffectMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RetainerBox.SetEffectMaterial"));
 
 	struct
 	{
@@ -9032,7 +9032,7 @@ void URetainerBox::SetEffectMaterial(class UMaterialInterface* EffectMaterial)
 
 void URetainerBox::RequestRender()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RetainerBox.RequestRender");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RetainerBox.RequestRender"));
 
 	struct
 	{
@@ -9050,7 +9050,7 @@ void URetainerBox::RequestRender()
 
 class UMaterialInstanceDynamic* URetainerBox::GetEffectMaterial()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RetainerBox.GetEffectMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RetainerBox.GetEffectMaterial"));
 
 	struct
 	{
@@ -9071,7 +9071,7 @@ class UMaterialInstanceDynamic* URetainerBox::GetEffectMaterial()
 
 void URichTextBlock::SetTextStyleSet(class UDataTable* NewTextStyleSet)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetTextStyleSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetTextStyleSet"));
 
 	struct
 	{
@@ -9091,7 +9091,7 @@ void URichTextBlock::SetTextStyleSet(class UDataTable* NewTextStyleSet)
 
 void URichTextBlock::SetText(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetText"));
 
 	struct
 	{
@@ -9111,7 +9111,7 @@ void URichTextBlock::SetText(const struct FText& InText)
 
 void URichTextBlock::SetMinDesiredWidth(float InMinDesiredWidth)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetMinDesiredWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetMinDesiredWidth"));
 
 	struct
 	{
@@ -9131,7 +9131,7 @@ void URichTextBlock::SetMinDesiredWidth(float InMinDesiredWidth)
 
 void URichTextBlock::SetDefaultTextStyle(const struct FTextBlockStyle& InDefaultTextStyle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetDefaultTextStyle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetDefaultTextStyle"));
 
 	struct
 	{
@@ -9151,7 +9151,7 @@ void URichTextBlock::SetDefaultTextStyle(const struct FTextBlockStyle& InDefault
 
 void URichTextBlock::SetDefaultStrikeBrush(struct FSlateBrush* InStrikeBrush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetDefaultStrikeBrush");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetDefaultStrikeBrush"));
 
 	struct
 	{
@@ -9173,7 +9173,7 @@ void URichTextBlock::SetDefaultStrikeBrush(struct FSlateBrush* InStrikeBrush)
 
 void URichTextBlock::SetDefaultShadowOffset(const struct FVector2D& InShadowOffset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetDefaultShadowOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetDefaultShadowOffset"));
 
 	struct
 	{
@@ -9193,7 +9193,7 @@ void URichTextBlock::SetDefaultShadowOffset(const struct FVector2D& InShadowOffs
 
 void URichTextBlock::SetDefaultShadowColorAndOpacity(const struct FLinearColor& InShadowColorAndOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetDefaultShadowColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetDefaultShadowColorAndOpacity"));
 
 	struct
 	{
@@ -9213,7 +9213,7 @@ void URichTextBlock::SetDefaultShadowColorAndOpacity(const struct FLinearColor& 
 
 void URichTextBlock::SetDefaultFont(const struct FSlateFontInfo& InFontInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetDefaultFont");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetDefaultFont"));
 
 	struct
 	{
@@ -9233,7 +9233,7 @@ void URichTextBlock::SetDefaultFont(const struct FSlateFontInfo& InFontInfo)
 
 void URichTextBlock::SetDefaultColorAndOpacity(const struct FSlateColor& InColorAndOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetDefaultColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetDefaultColorAndOpacity"));
 
 	struct
 	{
@@ -9253,7 +9253,7 @@ void URichTextBlock::SetDefaultColorAndOpacity(const struct FSlateColor& InColor
 
 void URichTextBlock::SetAutoWrapText(bool InAutoTextWrap)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.SetAutoWrapText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.SetAutoWrapText"));
 
 	struct
 	{
@@ -9273,7 +9273,7 @@ void URichTextBlock::SetAutoWrapText(bool InAutoTextWrap)
 
 struct FText URichTextBlock::GetText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.GetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.GetText"));
 
 	struct
 	{
@@ -9295,7 +9295,7 @@ struct FText URichTextBlock::GetText()
 
 class URichTextBlockDecorator* URichTextBlock::GetDecoratorByClass(class UClass* DecoratorClass)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.GetDecoratorByClass");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.GetDecoratorByClass"));
 
 	struct
 	{
@@ -9316,7 +9316,7 @@ class URichTextBlockDecorator* URichTextBlock::GetDecoratorByClass(class UClass*
 
 void URichTextBlock::ClearAllDefaultStyleOverrides()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.RichTextBlock.ClearAllDefaultStyleOverrides");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.RichTextBlock.ClearAllDefaultStyleOverrides"));
 
 	struct
 	{
@@ -9337,7 +9337,7 @@ void URichTextBlock::ClearAllDefaultStyleOverrides()
 
 void USafeZone::SetSidesToPad(bool InPadLeft, bool InPadRight, bool InPadTop, bool InPadBottom)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SafeZone.SetSidesToPad");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SafeZone.SetSidesToPad"));
 
 	struct
 	{
@@ -9363,7 +9363,7 @@ void USafeZone::SetSidesToPad(bool InPadLeft, bool InPadRight, bool InPadTop, bo
 
 void UScaleBox::SetUserSpecifiedScale(float InUserSpecifiedScale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScaleBox.SetUserSpecifiedScale");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScaleBox.SetUserSpecifiedScale"));
 
 	struct
 	{
@@ -9383,7 +9383,7 @@ void UScaleBox::SetUserSpecifiedScale(float InUserSpecifiedScale)
 
 void UScaleBox::SetStretchDirection(TEnumAsByte<EStretchDirection> InStretchDirection)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScaleBox.SetStretchDirection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScaleBox.SetStretchDirection"));
 
 	struct
 	{
@@ -9403,7 +9403,7 @@ void UScaleBox::SetStretchDirection(TEnumAsByte<EStretchDirection> InStretchDire
 
 void UScaleBox::SetStretch(TEnumAsByte<EStretch> InStretch)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScaleBox.SetStretch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScaleBox.SetStretch"));
 
 	struct
 	{
@@ -9423,7 +9423,7 @@ void UScaleBox::SetStretch(TEnumAsByte<EStretch> InStretch)
 
 void UScaleBox::SetIgnoreInheritedScale(bool bInIgnoreInheritedScale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScaleBox.SetIgnoreInheritedScale");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScaleBox.SetIgnoreInheritedScale"));
 
 	struct
 	{
@@ -9443,7 +9443,7 @@ void UScaleBox::SetIgnoreInheritedScale(bool bInIgnoreInheritedScale)
 
 void UScaleBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScaleBoxSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScaleBoxSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -9463,7 +9463,7 @@ void UScaleBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerti
 
 void UScaleBoxSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScaleBoxSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScaleBoxSlot.SetPadding"));
 
 	struct
 	{
@@ -9483,7 +9483,7 @@ void UScaleBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 void UScaleBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScaleBoxSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScaleBoxSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -9504,7 +9504,7 @@ void UScaleBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InH
 
 void UScrollBar::SetState(float InOffsetFraction, float InThumbSizeFraction)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBar.SetState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBar.SetState"));
 
 	struct
 	{
@@ -9526,7 +9526,7 @@ void UScrollBar::SetState(float InOffsetFraction, float InThumbSizeFraction)
 
 void UScrollBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBoxSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBoxSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -9546,7 +9546,7 @@ void UScrollBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVert
 
 void UScrollBoxSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBoxSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBoxSlot.SetPadding"));
 
 	struct
 	{
@@ -9566,7 +9566,7 @@ void UScrollBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 void UScrollBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.ScrollBoxSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.ScrollBoxSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -9586,7 +9586,7 @@ void UScrollBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> In
 
 void USizeBox::SetWidthOverride(float InWidthOverride)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.SetWidthOverride");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.SetWidthOverride"));
 
 	struct
 	{
@@ -9606,7 +9606,7 @@ void USizeBox::SetWidthOverride(float InWidthOverride)
 
 void USizeBox::SetMinDesiredWidth(float InMinDesiredWidth)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.SetMinDesiredWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.SetMinDesiredWidth"));
 
 	struct
 	{
@@ -9626,7 +9626,7 @@ void USizeBox::SetMinDesiredWidth(float InMinDesiredWidth)
 
 void USizeBox::SetMinDesiredHeight(float InMinDesiredHeight)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.SetMinDesiredHeight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.SetMinDesiredHeight"));
 
 	struct
 	{
@@ -9646,7 +9646,7 @@ void USizeBox::SetMinDesiredHeight(float InMinDesiredHeight)
 
 void USizeBox::SetMinAspectRatio(float InMinAspectRatio)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.SetMinAspectRatio");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.SetMinAspectRatio"));
 
 	struct
 	{
@@ -9666,7 +9666,7 @@ void USizeBox::SetMinAspectRatio(float InMinAspectRatio)
 
 void USizeBox::SetMaxDesiredWidth(float InMaxDesiredWidth)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.SetMaxDesiredWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.SetMaxDesiredWidth"));
 
 	struct
 	{
@@ -9686,7 +9686,7 @@ void USizeBox::SetMaxDesiredWidth(float InMaxDesiredWidth)
 
 void USizeBox::SetMaxDesiredHeight(float InMaxDesiredHeight)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.SetMaxDesiredHeight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.SetMaxDesiredHeight"));
 
 	struct
 	{
@@ -9706,7 +9706,7 @@ void USizeBox::SetMaxDesiredHeight(float InMaxDesiredHeight)
 
 void USizeBox::SetMaxAspectRatio(float InMaxAspectRatio)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.SetMaxAspectRatio");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.SetMaxAspectRatio"));
 
 	struct
 	{
@@ -9726,7 +9726,7 @@ void USizeBox::SetMaxAspectRatio(float InMaxAspectRatio)
 
 void USizeBox::SetHeightOverride(float InHeightOverride)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.SetHeightOverride");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.SetHeightOverride"));
 
 	struct
 	{
@@ -9744,7 +9744,7 @@ void USizeBox::SetHeightOverride(float InHeightOverride)
 
 void USizeBox::ClearWidthOverride()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.ClearWidthOverride");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.ClearWidthOverride"));
 
 	struct
 	{
@@ -9760,7 +9760,7 @@ void USizeBox::ClearWidthOverride()
 
 void USizeBox::ClearMinDesiredWidth()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.ClearMinDesiredWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.ClearMinDesiredWidth"));
 
 	struct
 	{
@@ -9776,7 +9776,7 @@ void USizeBox::ClearMinDesiredWidth()
 
 void USizeBox::ClearMinDesiredHeight()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.ClearMinDesiredHeight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.ClearMinDesiredHeight"));
 
 	struct
 	{
@@ -9792,7 +9792,7 @@ void USizeBox::ClearMinDesiredHeight()
 
 void USizeBox::ClearMinAspectRatio()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.ClearMinAspectRatio");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.ClearMinAspectRatio"));
 
 	struct
 	{
@@ -9808,7 +9808,7 @@ void USizeBox::ClearMinAspectRatio()
 
 void USizeBox::ClearMaxDesiredWidth()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.ClearMaxDesiredWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.ClearMaxDesiredWidth"));
 
 	struct
 	{
@@ -9824,7 +9824,7 @@ void USizeBox::ClearMaxDesiredWidth()
 
 void USizeBox::ClearMaxDesiredHeight()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.ClearMaxDesiredHeight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.ClearMaxDesiredHeight"));
 
 	struct
 	{
@@ -9840,7 +9840,7 @@ void USizeBox::ClearMaxDesiredHeight()
 
 void USizeBox::ClearMaxAspectRatio()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.ClearMaxAspectRatio");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.ClearMaxAspectRatio"));
 
 	struct
 	{
@@ -9856,7 +9856,7 @@ void USizeBox::ClearMaxAspectRatio()
 
 void USizeBox::ClearHeightOverride()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBox.ClearHeightOverride");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBox.ClearHeightOverride"));
 
 	struct
 	{
@@ -9874,7 +9874,7 @@ void USizeBox::ClearHeightOverride()
 
 void USizeBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBoxSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBoxSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -9894,7 +9894,7 @@ void USizeBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVertic
 
 void USizeBoxSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBoxSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBoxSlot.SetPadding"));
 
 	struct
 	{
@@ -9914,7 +9914,7 @@ void USizeBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 void USizeBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SizeBoxSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SizeBoxSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -9936,7 +9936,7 @@ void USizeBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHo
 
 struct FVector2D USlateBlueprintLibrary::TransformVectorLocalToAbsolute(const struct FGeometry& Geometry, const struct FVector2D& LocalVector)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.TransformVectorLocalToAbsolute");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.TransformVectorLocalToAbsolute"));
 
 	struct
 	{
@@ -9964,7 +9964,7 @@ struct FVector2D USlateBlueprintLibrary::TransformVectorLocalToAbsolute(const st
 
 struct FVector2D USlateBlueprintLibrary::TransformVectorAbsoluteToLocal(const struct FGeometry& Geometry, const struct FVector2D& AbsoluteVector)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.TransformVectorAbsoluteToLocal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.TransformVectorAbsoluteToLocal"));
 
 	struct
 	{
@@ -9992,7 +9992,7 @@ struct FVector2D USlateBlueprintLibrary::TransformVectorAbsoluteToLocal(const st
 
 float USlateBlueprintLibrary::TransformScalarLocalToAbsolute(const struct FGeometry& Geometry, float LocalScalar)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.TransformScalarLocalToAbsolute");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.TransformScalarLocalToAbsolute"));
 
 	struct
 	{
@@ -10020,7 +10020,7 @@ float USlateBlueprintLibrary::TransformScalarLocalToAbsolute(const struct FGeome
 
 float USlateBlueprintLibrary::TransformScalarAbsoluteToLocal(const struct FGeometry& Geometry, float AbsoluteScalar)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.TransformScalarAbsoluteToLocal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.TransformScalarAbsoluteToLocal"));
 
 	struct
 	{
@@ -10050,7 +10050,7 @@ float USlateBlueprintLibrary::TransformScalarAbsoluteToLocal(const struct FGeome
 
 void USlateBlueprintLibrary::ScreenToWidgetLocal(class UObject* WorldContextObject, const struct FGeometry& Geometry, const struct FVector2D& ScreenPosition, bool bIncludeWindowPosition, struct FVector2D* LocalCoordinate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.ScreenToWidgetLocal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.ScreenToWidgetLocal"));
 
 	struct
 	{
@@ -10084,7 +10084,7 @@ void USlateBlueprintLibrary::ScreenToWidgetLocal(class UObject* WorldContextObje
 
 void USlateBlueprintLibrary::ScreenToWidgetAbsolute(class UObject* WorldContextObject, const struct FVector2D& ScreenPosition, bool bIncludeWindowPosition, struct FVector2D* AbsoluteCoordinate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.ScreenToWidgetAbsolute");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.ScreenToWidgetAbsolute"));
 
 	struct
 	{
@@ -10115,7 +10115,7 @@ void USlateBlueprintLibrary::ScreenToWidgetAbsolute(class UObject* WorldContextO
 
 void USlateBlueprintLibrary::ScreenToViewport(class UObject* WorldContextObject, const struct FVector2D& ScreenPosition, struct FVector2D* ViewportPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.ScreenToViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.ScreenToViewport"));
 
 	struct
 	{
@@ -10146,7 +10146,7 @@ void USlateBlueprintLibrary::ScreenToViewport(class UObject* WorldContextObject,
 
 void USlateBlueprintLibrary::LocalToViewport(class UObject* WorldContextObject, const struct FGeometry& Geometry, const struct FVector2D& LocalCoordinate, struct FVector2D* PixelPosition, struct FVector2D* ViewportPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.LocalToViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.LocalToViewport"));
 
 	struct
 	{
@@ -10180,7 +10180,7 @@ void USlateBlueprintLibrary::LocalToViewport(class UObject* WorldContextObject, 
 
 struct FVector2D USlateBlueprintLibrary::LocalToAbsolute(const struct FGeometry& Geometry, const struct FVector2D& LocalCoordinate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.LocalToAbsolute");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.LocalToAbsolute"));
 
 	struct
 	{
@@ -10208,7 +10208,7 @@ struct FVector2D USlateBlueprintLibrary::LocalToAbsolute(const struct FGeometry&
 
 bool USlateBlueprintLibrary::IsUnderLocation(const struct FGeometry& Geometry, const struct FVector2D& AbsoluteCoordinate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.IsUnderLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.IsUnderLocation"));
 
 	struct
 	{
@@ -10235,7 +10235,7 @@ bool USlateBlueprintLibrary::IsUnderLocation(const struct FGeometry& Geometry, c
 
 struct FVector2D USlateBlueprintLibrary::GetLocalTopLeft(const struct FGeometry& Geometry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.GetLocalTopLeft");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.GetLocalTopLeft"));
 
 	struct
 	{
@@ -10260,7 +10260,7 @@ struct FVector2D USlateBlueprintLibrary::GetLocalTopLeft(const struct FGeometry&
 
 struct FVector2D USlateBlueprintLibrary::GetLocalSize(const struct FGeometry& Geometry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.GetLocalSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.GetLocalSize"));
 
 	struct
 	{
@@ -10285,7 +10285,7 @@ struct FVector2D USlateBlueprintLibrary::GetLocalSize(const struct FGeometry& Ge
 
 struct FVector2D USlateBlueprintLibrary::GetAbsoluteSize(const struct FGeometry& Geometry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.GetAbsoluteSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.GetAbsoluteSize"));
 
 	struct
 	{
@@ -10311,7 +10311,7 @@ struct FVector2D USlateBlueprintLibrary::GetAbsoluteSize(const struct FGeometry&
 
 bool USlateBlueprintLibrary::EqualEqual_SlateBrush(const struct FSlateBrush& A, const struct FSlateBrush& B)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.EqualEqual_SlateBrush");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.EqualEqual_SlateBrush"));
 
 	struct
 	{
@@ -10340,7 +10340,7 @@ bool USlateBlueprintLibrary::EqualEqual_SlateBrush(const struct FSlateBrush& A, 
 
 void USlateBlueprintLibrary::AbsoluteToViewport(class UObject* WorldContextObject, const struct FVector2D& AbsoluteDesktopCoordinate, struct FVector2D* PixelPosition, struct FVector2D* ViewportPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.AbsoluteToViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.AbsoluteToViewport"));
 
 	struct
 	{
@@ -10372,7 +10372,7 @@ void USlateBlueprintLibrary::AbsoluteToViewport(class UObject* WorldContextObjec
 
 struct FVector2D USlateBlueprintLibrary::AbsoluteToLocal(const struct FGeometry& Geometry, const struct FVector2D& AbsoluteCoordinate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SlateBlueprintLibrary.AbsoluteToLocal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SlateBlueprintLibrary.AbsoluteToLocal"));
 
 	struct
 	{
@@ -10398,7 +10398,7 @@ struct FVector2D USlateBlueprintLibrary::AbsoluteToLocal(const struct FGeometry&
 
 void USlider::SetValue(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.SetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.SetValue"));
 
 	struct
 	{
@@ -10418,7 +10418,7 @@ void USlider::SetValue(float InValue)
 
 void USlider::SetStepSize(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.SetStepSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.SetStepSize"));
 
 	struct
 	{
@@ -10438,7 +10438,7 @@ void USlider::SetStepSize(float InValue)
 
 void USlider::SetSliderHandleColor(const struct FLinearColor& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.SetSliderHandleColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.SetSliderHandleColor"));
 
 	struct
 	{
@@ -10458,7 +10458,7 @@ void USlider::SetSliderHandleColor(const struct FLinearColor& InValue)
 
 void USlider::SetSliderBarColor(const struct FLinearColor& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.SetSliderBarColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.SetSliderBarColor"));
 
 	struct
 	{
@@ -10478,7 +10478,7 @@ void USlider::SetSliderBarColor(const struct FLinearColor& InValue)
 
 void USlider::SetMinValue(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.SetMinValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.SetMinValue"));
 
 	struct
 	{
@@ -10498,7 +10498,7 @@ void USlider::SetMinValue(float InValue)
 
 void USlider::SetMaxValue(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.SetMaxValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.SetMaxValue"));
 
 	struct
 	{
@@ -10518,7 +10518,7 @@ void USlider::SetMaxValue(float InValue)
 
 void USlider::SetLocked(bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.SetLocked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.SetLocked"));
 
 	struct
 	{
@@ -10538,7 +10538,7 @@ void USlider::SetLocked(bool InValue)
 
 void USlider::SetIndentHandle(bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.SetIndentHandle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.SetIndentHandle"));
 
 	struct
 	{
@@ -10558,7 +10558,7 @@ void USlider::SetIndentHandle(bool InValue)
 
 float USlider::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.GetValue"));
 
 	struct
 	{
@@ -10579,7 +10579,7 @@ float USlider::GetValue()
 
 float USlider::GetNormalizedValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Slider.GetNormalizedValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Slider.GetNormalizedValue"));
 
 	struct
 	{
@@ -10600,7 +10600,7 @@ float USlider::GetNormalizedValue()
 
 void USpacer::SetSize(const struct FVector2D& InSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Spacer.SetSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Spacer.SetSize"));
 
 	struct
 	{
@@ -10620,7 +10620,7 @@ void USpacer::SetSize(const struct FVector2D& InSize)
 
 void USpinBox::SetValue(float NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetValue"));
 
 	struct
 	{
@@ -10640,7 +10640,7 @@ void USpinBox::SetValue(float NewValue)
 
 void USpinBox::SetMinValue(float NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetMinValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetMinValue"));
 
 	struct
 	{
@@ -10660,7 +10660,7 @@ void USpinBox::SetMinValue(float NewValue)
 
 void USpinBox::SetMinSliderValue(float NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetMinSliderValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetMinSliderValue"));
 
 	struct
 	{
@@ -10680,7 +10680,7 @@ void USpinBox::SetMinSliderValue(float NewValue)
 
 void USpinBox::SetMinFractionalDigits(int NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetMinFractionalDigits");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetMinFractionalDigits"));
 
 	struct
 	{
@@ -10700,7 +10700,7 @@ void USpinBox::SetMinFractionalDigits(int NewValue)
 
 void USpinBox::SetMaxValue(float NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetMaxValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetMaxValue"));
 
 	struct
 	{
@@ -10720,7 +10720,7 @@ void USpinBox::SetMaxValue(float NewValue)
 
 void USpinBox::SetMaxSliderValue(float NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetMaxSliderValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetMaxSliderValue"));
 
 	struct
 	{
@@ -10740,7 +10740,7 @@ void USpinBox::SetMaxSliderValue(float NewValue)
 
 void USpinBox::SetMaxFractionalDigits(int NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetMaxFractionalDigits");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetMaxFractionalDigits"));
 
 	struct
 	{
@@ -10760,7 +10760,7 @@ void USpinBox::SetMaxFractionalDigits(int NewValue)
 
 void USpinBox::SetForegroundColor(const struct FSlateColor& InForegroundColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetForegroundColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetForegroundColor"));
 
 	struct
 	{
@@ -10780,7 +10780,7 @@ void USpinBox::SetForegroundColor(const struct FSlateColor& InForegroundColor)
 
 void USpinBox::SetDelta(float NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetDelta");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetDelta"));
 
 	struct
 	{
@@ -10800,7 +10800,7 @@ void USpinBox::SetDelta(float NewValue)
 
 void USpinBox::SetAlwaysUsesDeltaSnap(bool bNewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.SetAlwaysUsesDeltaSnap");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.SetAlwaysUsesDeltaSnap"));
 
 	struct
 	{
@@ -10821,7 +10821,7 @@ void USpinBox::SetAlwaysUsesDeltaSnap(bool bNewValue)
 
 void USpinBox::OnSpinBoxValueCommittedEvent__DelegateSignature(float InValue, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.SpinBox.OnSpinBoxValueCommittedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.SpinBox.OnSpinBoxValueCommittedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -10843,7 +10843,7 @@ void USpinBox::OnSpinBoxValueCommittedEvent__DelegateSignature(float InValue, TE
 
 void USpinBox::OnSpinBoxValueChangedEvent__DelegateSignature(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.SpinBox.OnSpinBoxValueChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.SpinBox.OnSpinBoxValueChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -10861,7 +10861,7 @@ void USpinBox::OnSpinBoxValueChangedEvent__DelegateSignature(float InValue)
 
 void USpinBox::OnSpinBoxBeginSliderMovement__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.SpinBox.OnSpinBoxBeginSliderMovement__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.SpinBox.OnSpinBoxBeginSliderMovement__DelegateSignature"));
 
 	struct
 	{
@@ -10879,7 +10879,7 @@ void USpinBox::OnSpinBoxBeginSliderMovement__DelegateSignature()
 
 float USpinBox::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.GetValue"));
 
 	struct
 	{
@@ -10900,7 +10900,7 @@ float USpinBox::GetValue()
 
 float USpinBox::GetMinValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.GetMinValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.GetMinValue"));
 
 	struct
 	{
@@ -10921,7 +10921,7 @@ float USpinBox::GetMinValue()
 
 float USpinBox::GetMinSliderValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.GetMinSliderValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.GetMinSliderValue"));
 
 	struct
 	{
@@ -10942,7 +10942,7 @@ float USpinBox::GetMinSliderValue()
 
 int USpinBox::GetMinFractionalDigits()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.GetMinFractionalDigits");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.GetMinFractionalDigits"));
 
 	struct
 	{
@@ -10963,7 +10963,7 @@ int USpinBox::GetMinFractionalDigits()
 
 float USpinBox::GetMaxValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.GetMaxValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.GetMaxValue"));
 
 	struct
 	{
@@ -10984,7 +10984,7 @@ float USpinBox::GetMaxValue()
 
 float USpinBox::GetMaxSliderValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.GetMaxSliderValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.GetMaxSliderValue"));
 
 	struct
 	{
@@ -11005,7 +11005,7 @@ float USpinBox::GetMaxSliderValue()
 
 int USpinBox::GetMaxFractionalDigits()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.GetMaxFractionalDigits");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.GetMaxFractionalDigits"));
 
 	struct
 	{
@@ -11026,7 +11026,7 @@ int USpinBox::GetMaxFractionalDigits()
 
 float USpinBox::GetDelta()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.GetDelta");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.GetDelta"));
 
 	struct
 	{
@@ -11047,7 +11047,7 @@ float USpinBox::GetDelta()
 
 bool USpinBox::GetAlwaysUsesDeltaSnap()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.GetAlwaysUsesDeltaSnap");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.GetAlwaysUsesDeltaSnap"));
 
 	struct
 	{
@@ -11066,7 +11066,7 @@ bool USpinBox::GetAlwaysUsesDeltaSnap()
 
 void USpinBox::ClearMinValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.ClearMinValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.ClearMinValue"));
 
 	struct
 	{
@@ -11082,7 +11082,7 @@ void USpinBox::ClearMinValue()
 
 void USpinBox::ClearMinSliderValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.ClearMinSliderValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.ClearMinSliderValue"));
 
 	struct
 	{
@@ -11098,7 +11098,7 @@ void USpinBox::ClearMinSliderValue()
 
 void USpinBox::ClearMaxValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.ClearMaxValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.ClearMaxValue"));
 
 	struct
 	{
@@ -11114,7 +11114,7 @@ void USpinBox::ClearMaxValue()
 
 void USpinBox::ClearMaxSliderValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.SpinBox.ClearMaxSliderValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.SpinBox.ClearMaxSliderValue"));
 
 	struct
 	{
@@ -11132,7 +11132,7 @@ void USpinBox::ClearMaxSliderValue()
 
 struct FText UTextBinding::GetTextValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBinding.GetTextValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBinding.GetTextValue"));
 
 	struct
 	{
@@ -11153,7 +11153,7 @@ struct FText UTextBinding::GetTextValue()
 
 struct FString UTextBinding::GetStringValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBinding.GetStringValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBinding.GetStringValue"));
 
 	struct
 	{
@@ -11174,7 +11174,7 @@ struct FString UTextBinding::GetStringValue()
 
 void UTextBlock::SetText(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.SetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.SetText"));
 
 	struct
 	{
@@ -11194,7 +11194,7 @@ void UTextBlock::SetText(const struct FText& InText)
 
 void UTextBlock::SetStrikeBrush(const struct FSlateBrush& InStrikeBrush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.SetStrikeBrush");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.SetStrikeBrush"));
 
 	struct
 	{
@@ -11214,7 +11214,7 @@ void UTextBlock::SetStrikeBrush(const struct FSlateBrush& InStrikeBrush)
 
 void UTextBlock::SetShadowOffset(const struct FVector2D& InShadowOffset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.SetShadowOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.SetShadowOffset"));
 
 	struct
 	{
@@ -11234,7 +11234,7 @@ void UTextBlock::SetShadowOffset(const struct FVector2D& InShadowOffset)
 
 void UTextBlock::SetShadowColorAndOpacity(const struct FLinearColor& InShadowColorAndOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.SetShadowColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.SetShadowColorAndOpacity"));
 
 	struct
 	{
@@ -11254,7 +11254,7 @@ void UTextBlock::SetShadowColorAndOpacity(const struct FLinearColor& InShadowCol
 
 void UTextBlock::SetOpacity(float InOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.SetOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.SetOpacity"));
 
 	struct
 	{
@@ -11274,7 +11274,7 @@ void UTextBlock::SetOpacity(float InOpacity)
 
 void UTextBlock::SetMinDesiredWidth(float InMinDesiredWidth)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.SetMinDesiredWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.SetMinDesiredWidth"));
 
 	struct
 	{
@@ -11294,7 +11294,7 @@ void UTextBlock::SetMinDesiredWidth(float InMinDesiredWidth)
 
 void UTextBlock::SetFont(const struct FSlateFontInfo& InFontInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.SetFont");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.SetFont"));
 
 	struct
 	{
@@ -11314,7 +11314,7 @@ void UTextBlock::SetFont(const struct FSlateFontInfo& InFontInfo)
 
 void UTextBlock::SetColorAndOpacity(const struct FSlateColor& InColorAndOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.SetColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.SetColorAndOpacity"));
 
 	struct
 	{
@@ -11334,7 +11334,7 @@ void UTextBlock::SetColorAndOpacity(const struct FSlateColor& InColorAndOpacity)
 
 void UTextBlock::SetAutoWrapText(bool InAutoTextWrap)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.SetAutoWrapText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.SetAutoWrapText"));
 
 	struct
 	{
@@ -11354,7 +11354,7 @@ void UTextBlock::SetAutoWrapText(bool InAutoTextWrap)
 
 struct FText UTextBlock::GetText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.GetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.GetText"));
 
 	struct
 	{
@@ -11375,7 +11375,7 @@ struct FText UTextBlock::GetText()
 
 class UMaterialInstanceDynamic* UTextBlock::GetDynamicOutlineMaterial()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.GetDynamicOutlineMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.GetDynamicOutlineMaterial"));
 
 	struct
 	{
@@ -11396,7 +11396,7 @@ class UMaterialInstanceDynamic* UTextBlock::GetDynamicOutlineMaterial()
 
 class UMaterialInstanceDynamic* UTextBlock::GetDynamicFontMaterial()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TextBlock.GetDynamicFontMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TextBlock.GetDynamicFontMaterial"));
 
 	struct
 	{
@@ -11417,7 +11417,7 @@ class UMaterialInstanceDynamic* UTextBlock::GetDynamicFontMaterial()
 
 void UThrobber::SetNumberOfPieces(int InNumberOfPieces)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Throbber.SetNumberOfPieces");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Throbber.SetNumberOfPieces"));
 
 	struct
 	{
@@ -11437,7 +11437,7 @@ void UThrobber::SetNumberOfPieces(int InNumberOfPieces)
 
 void UThrobber::SetAnimateVertically(bool bInAnimateVertically)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Throbber.SetAnimateVertically");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Throbber.SetAnimateVertically"));
 
 	struct
 	{
@@ -11457,7 +11457,7 @@ void UThrobber::SetAnimateVertically(bool bInAnimateVertically)
 
 void UThrobber::SetAnimateOpacity(bool bInAnimateOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Throbber.SetAnimateOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Throbber.SetAnimateOpacity"));
 
 	struct
 	{
@@ -11477,7 +11477,7 @@ void UThrobber::SetAnimateOpacity(bool bInAnimateOpacity)
 
 void UThrobber::SetAnimateHorizontally(bool bInAnimateHorizontally)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Throbber.SetAnimateHorizontally");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Throbber.SetAnimateHorizontally"));
 
 	struct
 	{
@@ -11497,7 +11497,7 @@ void UThrobber::SetAnimateHorizontally(bool bInAnimateHorizontally)
 
 void UTileView::SetEntryWidth(float NewWidth)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TileView.SetEntryWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TileView.SetEntryWidth"));
 
 	struct
 	{
@@ -11517,7 +11517,7 @@ void UTileView::SetEntryWidth(float NewWidth)
 
 void UTileView::SetEntryHeight(float NewHeight)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.TileView.SetEntryHeight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.TileView.SetEntryHeight"));
 
 	struct
 	{
@@ -11537,7 +11537,7 @@ void UTileView::SetEntryHeight(float NewHeight)
 
 void UUMGSequencePlayer::SetUserTag(const struct FName& InUserTag)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UMGSequencePlayer.SetUserTag");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UMGSequencePlayer.SetUserTag"));
 
 	struct
 	{
@@ -11557,7 +11557,7 @@ void UUMGSequencePlayer::SetUserTag(const struct FName& InUserTag)
 
 struct FName UUMGSequencePlayer::GetUserTag()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UMGSequencePlayer.GetUserTag");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UMGSequencePlayer.GetUserTag"));
 
 	struct
 	{
@@ -11578,7 +11578,7 @@ struct FName UUMGSequencePlayer::GetUserTag()
 
 void UUniformGridPanel::SetSlotPadding(const struct FMargin& InSlotPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UniformGridPanel.SetSlotPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UniformGridPanel.SetSlotPadding"));
 
 	struct
 	{
@@ -11598,7 +11598,7 @@ void UUniformGridPanel::SetSlotPadding(const struct FMargin& InSlotPadding)
 
 void UUniformGridPanel::SetMinDesiredSlotWidth(float InMinDesiredSlotWidth)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UniformGridPanel.SetMinDesiredSlotWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UniformGridPanel.SetMinDesiredSlotWidth"));
 
 	struct
 	{
@@ -11618,7 +11618,7 @@ void UUniformGridPanel::SetMinDesiredSlotWidth(float InMinDesiredSlotWidth)
 
 void UUniformGridPanel::SetMinDesiredSlotHeight(float InMinDesiredSlotHeight)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UniformGridPanel.SetMinDesiredSlotHeight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UniformGridPanel.SetMinDesiredSlotHeight"));
 
 	struct
 	{
@@ -11641,7 +11641,7 @@ void UUniformGridPanel::SetMinDesiredSlotHeight(float InMinDesiredSlotHeight)
 
 class UUniformGridSlot* UUniformGridPanel::AddChildToUniformGrid(class UWidget* Content, int InRow, int InColumn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UniformGridPanel.AddChildToUniformGrid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UniformGridPanel.AddChildToUniformGrid"));
 
 	struct
 	{
@@ -11668,7 +11668,7 @@ class UUniformGridSlot* UUniformGridPanel::AddChildToUniformGrid(class UWidget* 
 
 void UUniformGridSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UniformGridSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UniformGridSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -11688,7 +11688,7 @@ void UUniformGridSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVe
 
 void UUniformGridSlot::SetRow(int InRow)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UniformGridSlot.SetRow");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UniformGridSlot.SetRow"));
 
 	struct
 	{
@@ -11708,7 +11708,7 @@ void UUniformGridSlot::SetRow(int InRow)
 
 void UUniformGridSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UniformGridSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UniformGridSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -11728,7 +11728,7 @@ void UUniformGridSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> 
 
 void UUniformGridSlot::SetColumn(int InColumn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.UniformGridSlot.SetColumn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.UniformGridSlot.SetColumn"));
 
 	struct
 	{
@@ -11748,7 +11748,7 @@ void UUniformGridSlot::SetColumn(int InColumn)
 
 void UVerticalBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.VerticalBoxSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.VerticalBoxSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -11768,7 +11768,7 @@ void UVerticalBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVe
 
 void UVerticalBoxSlot::SetSize(const struct FSlateChildSize& InSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.VerticalBoxSlot.SetSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.VerticalBoxSlot.SetSize"));
 
 	struct
 	{
@@ -11788,7 +11788,7 @@ void UVerticalBoxSlot::SetSize(const struct FSlateChildSize& InSize)
 
 void UVerticalBoxSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.VerticalBoxSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.VerticalBoxSlot.SetPadding"));
 
 	struct
 	{
@@ -11808,7 +11808,7 @@ void UVerticalBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 void UVerticalBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.VerticalBoxSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.VerticalBoxSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -11829,7 +11829,7 @@ void UVerticalBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> 
 
 class AActor* UViewport::Spawn(class UClass* ActorClass)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Viewport.Spawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Viewport.Spawn"));
 
 	struct
 	{
@@ -11852,7 +11852,7 @@ class AActor* UViewport::Spawn(class UClass* ActorClass)
 
 void UViewport::SetViewRotation(const struct FRotator& Rotation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Viewport.SetViewRotation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Viewport.SetViewRotation"));
 
 	struct
 	{
@@ -11872,7 +11872,7 @@ void UViewport::SetViewRotation(const struct FRotator& Rotation)
 
 void UViewport::SetViewLocation(const struct FVector& Location)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Viewport.SetViewLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Viewport.SetViewLocation"));
 
 	struct
 	{
@@ -11892,7 +11892,7 @@ void UViewport::SetViewLocation(const struct FVector& Location)
 
 struct FRotator UViewport::GetViewRotation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Viewport.GetViewRotation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Viewport.GetViewRotation"));
 
 	struct
 	{
@@ -11913,7 +11913,7 @@ struct FRotator UViewport::GetViewRotation()
 
 class UWorld* UViewport::GetViewportWorld()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Viewport.GetViewportWorld");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Viewport.GetViewportWorld"));
 
 	struct
 	{
@@ -11934,7 +11934,7 @@ class UWorld* UViewport::GetViewportWorld()
 
 struct FVector UViewport::GetViewLocation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Viewport.GetViewLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.Viewport.GetViewLocation"));
 
 	struct
 	{
@@ -11955,7 +11955,7 @@ struct FVector UViewport::GetViewLocation()
 
 ESlateVisibility UVisibilityBinding::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.VisibilityBinding.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.VisibilityBinding.GetValue"));
 
 	struct
 	{
@@ -11977,7 +11977,7 @@ ESlateVisibility UVisibilityBinding::GetValue()
 
 void UWidgetAnimation::UnbindFromAnimationStarted(class UUserWidget* Widget, const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimation.UnbindFromAnimationStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimation.UnbindFromAnimationStarted"));
 
 	struct
 	{
@@ -12000,7 +12000,7 @@ void UWidgetAnimation::UnbindFromAnimationStarted(class UUserWidget* Widget, con
 
 void UWidgetAnimation::UnbindFromAnimationFinished(class UUserWidget* Widget, const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimation.UnbindFromAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimation.UnbindFromAnimationFinished"));
 
 	struct
 	{
@@ -12022,7 +12022,7 @@ void UWidgetAnimation::UnbindFromAnimationFinished(class UUserWidget* Widget, co
 
 void UWidgetAnimation::UnbindAllFromAnimationStarted(class UUserWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimation.UnbindAllFromAnimationStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimation.UnbindAllFromAnimationStarted"));
 
 	struct
 	{
@@ -12042,7 +12042,7 @@ void UWidgetAnimation::UnbindAllFromAnimationStarted(class UUserWidget* Widget)
 
 void UWidgetAnimation::UnbindAllFromAnimationFinished(class UUserWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimation.UnbindAllFromAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimation.UnbindAllFromAnimationFinished"));
 
 	struct
 	{
@@ -12062,7 +12062,7 @@ void UWidgetAnimation::UnbindAllFromAnimationFinished(class UUserWidget* Widget)
 
 float UWidgetAnimation::GetStartTime()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimation.GetStartTime");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimation.GetStartTime"));
 
 	struct
 	{
@@ -12083,7 +12083,7 @@ float UWidgetAnimation::GetStartTime()
 
 float UWidgetAnimation::GetEndTime()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimation.GetEndTime");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimation.GetEndTime"));
 
 	struct
 	{
@@ -12105,7 +12105,7 @@ float UWidgetAnimation::GetEndTime()
 
 void UWidgetAnimation::BindToAnimationStarted(class UUserWidget* Widget, const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimation.BindToAnimationStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimation.BindToAnimationStarted"));
 
 	struct
 	{
@@ -12128,7 +12128,7 @@ void UWidgetAnimation::BindToAnimationStarted(class UUserWidget* Widget, const s
 
 void UWidgetAnimation::BindToAnimationFinished(class UUserWidget* Widget, const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimation.BindToAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimation.BindToAnimationFinished"));
 
 	struct
 	{
@@ -12158,7 +12158,7 @@ void UWidgetAnimation::BindToAnimationFinished(class UUserWidget* Widget, const 
 
 class UWidgetAnimationPlayCallbackProxy* UWidgetAnimationPlayCallbackProxy::CreatePlayAnimationTimeRangeProxyObject(class UUserWidget* Widget, class UWidgetAnimation* InAnimation, float StartAtTime, float EndAtTime, int NumLoopsToPlay, TEnumAsByte<EUMGSequencePlayMode> PlayMode, float PlaybackSpeed, class UUMGSequencePlayer** Result)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimationPlayCallbackProxy.CreatePlayAnimationTimeRangeProxyObject");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimationPlayCallbackProxy.CreatePlayAnimationTimeRangeProxyObject"));
 
 	struct
 	{
@@ -12205,7 +12205,7 @@ class UWidgetAnimationPlayCallbackProxy* UWidgetAnimationPlayCallbackProxy::Crea
 
 class UWidgetAnimationPlayCallbackProxy* UWidgetAnimationPlayCallbackProxy::CreatePlayAnimationProxyObject(class UUserWidget* Widget, class UWidgetAnimation* InAnimation, float StartAtTime, int NumLoopsToPlay, TEnumAsByte<EUMGSequencePlayMode> PlayMode, float PlaybackSpeed, class UUMGSequencePlayer** Result)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetAnimationPlayCallbackProxy.CreatePlayAnimationProxyObject");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetAnimationPlayCallbackProxy.CreatePlayAnimationProxyObject"));
 
 	struct
 	{
@@ -12243,7 +12243,7 @@ class UWidgetAnimationPlayCallbackProxy* UWidgetAnimationPlayCallbackProxy::Crea
 
 class UWidget* UWidgetBinding::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBinding.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBinding.GetValue"));
 
 	struct
 	{
@@ -12265,7 +12265,7 @@ class UWidget* UWidgetBinding::GetValue()
 
 struct FEventReply UWidgetBlueprintLibrary::UnlockMouse(struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.UnlockMouse");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.UnlockMouse"));
 
 	struct
 	{
@@ -12291,7 +12291,7 @@ struct FEventReply UWidgetBlueprintLibrary::UnlockMouse(struct FEventReply* Repl
 
 struct FEventReply UWidgetBlueprintLibrary::Unhandled()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.Unhandled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.Unhandled"));
 
 	struct
 	{
@@ -12317,7 +12317,7 @@ struct FEventReply UWidgetBlueprintLibrary::Unhandled()
 
 void UWidgetBlueprintLibrary::SetWindowTitleBarState(class UWidget* TitleBarContent, EWindowTitleBarMode Mode, bool bTitleBarDragEnabled, bool bWindowButtonsVisible, bool bTitleBarVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarState"));
 
 	struct
 	{
@@ -12346,7 +12346,7 @@ void UWidgetBlueprintLibrary::SetWindowTitleBarState(class UWidget* TitleBarCont
 
 void UWidgetBlueprintLibrary::SetWindowTitleBarOnCloseClickedDelegate(const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarOnCloseClickedDelegate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarOnCloseClickedDelegate"));
 
 	struct
 	{
@@ -12367,7 +12367,7 @@ void UWidgetBlueprintLibrary::SetWindowTitleBarOnCloseClickedDelegate(const stru
 
 void UWidgetBlueprintLibrary::SetWindowTitleBarCloseButtonActive(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarCloseButtonActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetWindowTitleBarCloseButtonActive"));
 
 	struct
 	{
@@ -12391,7 +12391,7 @@ void UWidgetBlueprintLibrary::SetWindowTitleBarCloseButtonActive(bool bActive)
 
 struct FEventReply UWidgetBlueprintLibrary::SetUserFocus(class UWidget* FocusWidget, bool bInAllUsers, struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetUserFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetUserFocus"));
 
 	struct
 	{
@@ -12423,7 +12423,7 @@ struct FEventReply UWidgetBlueprintLibrary::SetUserFocus(class UWidget* FocusWid
 
 struct FEventReply UWidgetBlueprintLibrary::SetMousePosition(const struct FVector2D& NewMousePosition, struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetMousePosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetMousePosition"));
 
 	struct
 	{
@@ -12453,7 +12453,7 @@ struct FEventReply UWidgetBlueprintLibrary::SetMousePosition(const struct FVecto
 
 void UWidgetBlueprintLibrary::SetInputMode_UIOnlyEx(class APlayerController* PlayerController, class UWidget* InWidgetToFocus, EMouseLockMode InMouseLockMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetInputMode_UIOnlyEx");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetInputMode_UIOnlyEx"));
 
 	struct
 	{
@@ -12480,7 +12480,7 @@ void UWidgetBlueprintLibrary::SetInputMode_UIOnlyEx(class APlayerController* Pla
 
 void UWidgetBlueprintLibrary::SetInputMode_UIOnly(class APlayerController* Target, class UWidget* InWidgetToFocus, bool bLockMouseToViewport)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetInputMode_UIOnly");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetInputMode_UIOnly"));
 
 	struct
 	{
@@ -12505,7 +12505,7 @@ void UWidgetBlueprintLibrary::SetInputMode_UIOnly(class APlayerController* Targe
 
 void UWidgetBlueprintLibrary::SetInputMode_GameOnly(class APlayerController* PlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetInputMode_GameOnly");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetInputMode_GameOnly"));
 
 	struct
 	{
@@ -12529,7 +12529,7 @@ void UWidgetBlueprintLibrary::SetInputMode_GameOnly(class APlayerController* Pla
 
 void UWidgetBlueprintLibrary::SetInputMode_GameAndUIEx(class APlayerController* PlayerController, class UWidget* InWidgetToFocus, EMouseLockMode InMouseLockMode, bool bHideCursorDuringCapture)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetInputMode_GameAndUIEx");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetInputMode_GameAndUIEx"));
 
 	struct
 	{
@@ -12559,7 +12559,7 @@ void UWidgetBlueprintLibrary::SetInputMode_GameAndUIEx(class APlayerController* 
 
 void UWidgetBlueprintLibrary::SetInputMode_GameAndUI(class APlayerController* Target, class UWidget* InWidgetToFocus, bool bLockMouseToViewport, bool bHideCursorDuringCapture)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetInputMode_GameAndUI");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetInputMode_GameAndUI"));
 
 	struct
 	{
@@ -12590,7 +12590,7 @@ void UWidgetBlueprintLibrary::SetInputMode_GameAndUI(class APlayerController* Ta
 
 bool UWidgetBlueprintLibrary::SetHardwareCursor(class UObject* WorldContextObject, TEnumAsByte<EMouseCursor> CursorShape, const struct FName& CursorName, const struct FVector2D& HotSpot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetHardwareCursor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetHardwareCursor"));
 
 	struct
 	{
@@ -12618,7 +12618,7 @@ bool UWidgetBlueprintLibrary::SetHardwareCursor(class UObject* WorldContextObjec
 
 void UWidgetBlueprintLibrary::SetFocusToGameViewport()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetFocusToGameViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetFocusToGameViewport"));
 
 	struct
 	{
@@ -12640,7 +12640,7 @@ void UWidgetBlueprintLibrary::SetFocusToGameViewport()
 
 void UWidgetBlueprintLibrary::SetColorVisionDeficiencyType(EColorVisionDeficiency Type, float Severity, bool CorrectDeficiency, bool ShowCorrectionWithDeficiency)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetColorVisionDeficiencyType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetColorVisionDeficiencyType"));
 
 	struct
 	{
@@ -12668,7 +12668,7 @@ void UWidgetBlueprintLibrary::SetColorVisionDeficiencyType(EColorVisionDeficienc
 
 void UWidgetBlueprintLibrary::SetBrushResourceToTexture(class UTexture2D* Texture, struct FSlateBrush* Brush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetBrushResourceToTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetBrushResourceToTexture"));
 
 	struct
 	{
@@ -12694,7 +12694,7 @@ void UWidgetBlueprintLibrary::SetBrushResourceToTexture(class UTexture2D* Textur
 
 void UWidgetBlueprintLibrary::SetBrushResourceToMaterial(class UMaterialInterface* Material, struct FSlateBrush* Brush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.SetBrushResourceToMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.SetBrushResourceToMaterial"));
 
 	struct
 	{
@@ -12717,7 +12717,7 @@ void UWidgetBlueprintLibrary::SetBrushResourceToMaterial(class UMaterialInterfac
 
 void UWidgetBlueprintLibrary::RestorePreviousWindowTitleBarState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.RestorePreviousWindowTitleBarState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.RestorePreviousWindowTitleBarState"));
 
 	struct
 	{
@@ -12737,7 +12737,7 @@ void UWidgetBlueprintLibrary::RestorePreviousWindowTitleBarState()
 
 struct FEventReply UWidgetBlueprintLibrary::ReleaseMouseCapture(struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.ReleaseMouseCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.ReleaseMouseCapture"));
 
 	struct
 	{
@@ -12765,7 +12765,7 @@ struct FEventReply UWidgetBlueprintLibrary::ReleaseMouseCapture(struct FEventRep
 
 struct FEventReply UWidgetBlueprintLibrary::ReleaseJoystickCapture(bool bInAllJoysticks, struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.ReleaseJoystickCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.ReleaseJoystickCapture"));
 
 	struct
 	{
@@ -12791,7 +12791,7 @@ struct FEventReply UWidgetBlueprintLibrary::ReleaseJoystickCapture(bool bInAllJo
 
 void UWidgetBlueprintLibrary::OnGameWindowCloseButtonClickedDelegate__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction UMG.WidgetBlueprintLibrary.OnGameWindowCloseButtonClickedDelegate__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction UMG.WidgetBlueprintLibrary.OnGameWindowCloseButtonClickedDelegate__DelegateSignature"));
 
 	struct
 	{
@@ -12809,7 +12809,7 @@ void UWidgetBlueprintLibrary::OnGameWindowCloseButtonClickedDelegate__DelegateSi
 
 struct FSlateBrush UWidgetBlueprintLibrary::NoResourceBrush()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.NoResourceBrush");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.NoResourceBrush"));
 
 	struct
 	{
@@ -12834,7 +12834,7 @@ struct FSlateBrush UWidgetBlueprintLibrary::NoResourceBrush()
 
 struct FSlateBrush UWidgetBlueprintLibrary::MakeBrushFromTexture(class UTexture2D* Texture, int Width, int Height)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.MakeBrushFromTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.MakeBrushFromTexture"));
 
 	struct
 	{
@@ -12865,7 +12865,7 @@ struct FSlateBrush UWidgetBlueprintLibrary::MakeBrushFromTexture(class UTexture2
 
 struct FSlateBrush UWidgetBlueprintLibrary::MakeBrushFromMaterial(class UMaterialInterface* Material, int Width, int Height)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.MakeBrushFromMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.MakeBrushFromMaterial"));
 
 	struct
 	{
@@ -12894,7 +12894,7 @@ struct FSlateBrush UWidgetBlueprintLibrary::MakeBrushFromMaterial(class UMateria
 
 struct FSlateBrush UWidgetBlueprintLibrary::MakeBrushFromAsset(class USlateBrushAsset* BrushAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.MakeBrushFromAsset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.MakeBrushFromAsset"));
 
 	struct
 	{
@@ -12920,7 +12920,7 @@ struct FSlateBrush UWidgetBlueprintLibrary::MakeBrushFromAsset(class USlateBrush
 
 struct FEventReply UWidgetBlueprintLibrary::LockMouse(class UWidget* CapturingWidget, struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.LockMouse");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.LockMouse"));
 
 	struct
 	{
@@ -12948,7 +12948,7 @@ struct FEventReply UWidgetBlueprintLibrary::LockMouse(class UWidget* CapturingWi
 
 bool UWidgetBlueprintLibrary::IsDragDropping()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.IsDragDropping");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.IsDragDropping"));
 
 	struct
 	{
@@ -12970,7 +12970,7 @@ bool UWidgetBlueprintLibrary::IsDragDropping()
 
 struct FEventReply UWidgetBlueprintLibrary::Handled()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.Handled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.Handled"));
 
 	struct
 	{
@@ -12995,7 +12995,7 @@ struct FEventReply UWidgetBlueprintLibrary::Handled()
 
 void UWidgetBlueprintLibrary::GetSafeZonePadding(class UObject* WorldContextObject, struct FVector4* SafePadding, struct FVector2D* SafePaddingScale, struct FVector4* SpillOverPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetSafeZonePadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetSafeZonePadding"));
 
 	struct
 	{
@@ -13027,7 +13027,7 @@ void UWidgetBlueprintLibrary::GetSafeZonePadding(class UObject* WorldContextObje
 
 struct FKeyEvent UWidgetBlueprintLibrary::GetKeyEventFromAnalogInputEvent(const struct FAnalogInputEvent& Event)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetKeyEventFromAnalogInputEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetKeyEventFromAnalogInputEvent"));
 
 	struct
 	{
@@ -13052,7 +13052,7 @@ struct FKeyEvent UWidgetBlueprintLibrary::GetKeyEventFromAnalogInputEvent(const 
 
 struct FInputEvent UWidgetBlueprintLibrary::GetInputEventFromPointerEvent(const struct FPointerEvent& Event)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetInputEventFromPointerEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetInputEventFromPointerEvent"));
 
 	struct
 	{
@@ -13077,7 +13077,7 @@ struct FInputEvent UWidgetBlueprintLibrary::GetInputEventFromPointerEvent(const 
 
 struct FInputEvent UWidgetBlueprintLibrary::GetInputEventFromNavigationEvent(const struct FNavigationEvent& Event)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetInputEventFromNavigationEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetInputEventFromNavigationEvent"));
 
 	struct
 	{
@@ -13102,7 +13102,7 @@ struct FInputEvent UWidgetBlueprintLibrary::GetInputEventFromNavigationEvent(con
 
 struct FInputEvent UWidgetBlueprintLibrary::GetInputEventFromKeyEvent(const struct FKeyEvent& Event)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetInputEventFromKeyEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetInputEventFromKeyEvent"));
 
 	struct
 	{
@@ -13127,7 +13127,7 @@ struct FInputEvent UWidgetBlueprintLibrary::GetInputEventFromKeyEvent(const stru
 
 struct FInputEvent UWidgetBlueprintLibrary::GetInputEventFromCharacterEvent(const struct FCharacterEvent& Event)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetInputEventFromCharacterEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetInputEventFromCharacterEvent"));
 
 	struct
 	{
@@ -13152,7 +13152,7 @@ struct FInputEvent UWidgetBlueprintLibrary::GetInputEventFromCharacterEvent(cons
 
 class UMaterialInstanceDynamic* UWidgetBlueprintLibrary::GetDynamicMaterial(struct FSlateBrush* Brush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetDynamicMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetDynamicMaterial"));
 
 	struct
 	{
@@ -13178,7 +13178,7 @@ class UMaterialInstanceDynamic* UWidgetBlueprintLibrary::GetDynamicMaterial(stru
 
 class UDragDropOperation* UWidgetBlueprintLibrary::GetDragDroppingContent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetDragDroppingContent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetDragDroppingContent"));
 
 	struct
 	{
@@ -13201,7 +13201,7 @@ class UDragDropOperation* UWidgetBlueprintLibrary::GetDragDroppingContent()
 
 class UTexture2D* UWidgetBlueprintLibrary::GetBrushResourceAsTexture2D(const struct FSlateBrush& Brush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetBrushResourceAsTexture2D");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetBrushResourceAsTexture2D"));
 
 	struct
 	{
@@ -13226,7 +13226,7 @@ class UTexture2D* UWidgetBlueprintLibrary::GetBrushResourceAsTexture2D(const str
 
 class UMaterialInterface* UWidgetBlueprintLibrary::GetBrushResourceAsMaterial(const struct FSlateBrush& Brush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetBrushResourceAsMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetBrushResourceAsMaterial"));
 
 	struct
 	{
@@ -13251,7 +13251,7 @@ class UMaterialInterface* UWidgetBlueprintLibrary::GetBrushResourceAsMaterial(co
 
 class UObject* UWidgetBlueprintLibrary::GetBrushResource(const struct FSlateBrush& Brush)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetBrushResource");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetBrushResource"));
 
 	struct
 	{
@@ -13278,7 +13278,7 @@ class UObject* UWidgetBlueprintLibrary::GetBrushResource(const struct FSlateBrus
 
 void UWidgetBlueprintLibrary::GetAllWidgetsWithInterface(class UObject* WorldContextObject, class UClass* Interface, bool TopLevelOnly, TArray<class UUserWidget*>* FoundWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetAllWidgetsWithInterface");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetAllWidgetsWithInterface"));
 
 	struct
 	{
@@ -13310,7 +13310,7 @@ void UWidgetBlueprintLibrary::GetAllWidgetsWithInterface(class UObject* WorldCon
 
 void UWidgetBlueprintLibrary::GetAllWidgetsOfClass(class UObject* WorldContextObject, class UClass* WidgetClass, bool TopLevelOnly, TArray<class UUserWidget*>* FoundWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.GetAllWidgetsOfClass");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.GetAllWidgetsOfClass"));
 
 	struct
 	{
@@ -13340,7 +13340,7 @@ void UWidgetBlueprintLibrary::GetAllWidgetsOfClass(class UObject* WorldContextOb
 
 struct FEventReply UWidgetBlueprintLibrary::EndDragDrop(struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.EndDragDrop");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.EndDragDrop"));
 
 	struct
 	{
@@ -13372,7 +13372,7 @@ struct FEventReply UWidgetBlueprintLibrary::EndDragDrop(struct FEventReply* Repl
 
 void UWidgetBlueprintLibrary::DrawTextFormatted(const struct FText& Text, const struct FVector2D& Position, class UFont* Font, int FontSize, const struct FName& FontTypeFace, const struct FLinearColor& Tint, struct FPaintContext* Context)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.DrawTextFormatted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.DrawTextFormatted"));
 
 	struct
 	{
@@ -13410,7 +13410,7 @@ void UWidgetBlueprintLibrary::DrawTextFormatted(const struct FText& Text, const 
 
 void UWidgetBlueprintLibrary::DrawText(const struct FString& inString, const struct FVector2D& Position, const struct FLinearColor& Tint, struct FPaintContext* Context)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.DrawText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.DrawText"));
 
 	struct
 	{
@@ -13443,7 +13443,7 @@ void UWidgetBlueprintLibrary::DrawText(const struct FString& inString, const str
 
 void UWidgetBlueprintLibrary::DrawLines(TArray<struct FVector2D> Points, const struct FLinearColor& Tint, bool bAntiAlias, float Thickness, struct FPaintContext* Context)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.DrawLines");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.DrawLines"));
 
 	struct
 	{
@@ -13479,7 +13479,7 @@ void UWidgetBlueprintLibrary::DrawLines(TArray<struct FVector2D> Points, const s
 
 void UWidgetBlueprintLibrary::DrawLine(const struct FVector2D& PositionA, const struct FVector2D& PositionB, const struct FLinearColor& Tint, bool bAntiAlias, float Thickness, struct FPaintContext* Context)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.DrawLine");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.DrawLine"));
 
 	struct
 	{
@@ -13516,7 +13516,7 @@ void UWidgetBlueprintLibrary::DrawLine(const struct FVector2D& PositionA, const 
 
 void UWidgetBlueprintLibrary::DrawBox(const struct FVector2D& Position, const struct FVector2D& Size, class USlateBrushAsset* Brush, const struct FLinearColor& Tint, struct FPaintContext* Context)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.DrawBox");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.DrawBox"));
 
 	struct
 	{
@@ -13545,7 +13545,7 @@ void UWidgetBlueprintLibrary::DrawBox(const struct FVector2D& Position, const st
 
 void UWidgetBlueprintLibrary::DismissAllMenus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.DismissAllMenus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.DismissAllMenus"));
 
 	struct
 	{
@@ -13567,7 +13567,7 @@ void UWidgetBlueprintLibrary::DismissAllMenus()
 
 struct FEventReply UWidgetBlueprintLibrary::DetectDragIfPressed(const struct FPointerEvent& PointerEvent, class UWidget* WidgetDetectingDrag, const struct FKey& DragKey)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.DetectDragIfPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.DetectDragIfPressed"));
 
 	struct
 	{
@@ -13598,7 +13598,7 @@ struct FEventReply UWidgetBlueprintLibrary::DetectDragIfPressed(const struct FPo
 
 struct FEventReply UWidgetBlueprintLibrary::DetectDrag(class UWidget* WidgetDetectingDrag, const struct FKey& DragKey, struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.DetectDrag");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.DetectDrag"));
 
 	struct
 	{
@@ -13629,7 +13629,7 @@ struct FEventReply UWidgetBlueprintLibrary::DetectDrag(class UWidget* WidgetDete
 
 class UDragDropOperation* UWidgetBlueprintLibrary::CreateDragDropOperation(class UClass* OperationClass)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.CreateDragDropOperation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.CreateDragDropOperation"));
 
 	struct
 	{
@@ -13656,7 +13656,7 @@ class UDragDropOperation* UWidgetBlueprintLibrary::CreateDragDropOperation(class
 
 class UUserWidget* UWidgetBlueprintLibrary::Create(class UObject* WorldContextObject, class UClass* WidgetType, class APlayerController* OwningPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.Create");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.Create"));
 
 	struct
 	{
@@ -13686,7 +13686,7 @@ class UUserWidget* UWidgetBlueprintLibrary::Create(class UObject* WorldContextOb
 
 struct FEventReply UWidgetBlueprintLibrary::ClearUserFocus(bool bInAllUsers, struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.ClearUserFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.ClearUserFocus"));
 
 	struct
 	{
@@ -13716,7 +13716,7 @@ struct FEventReply UWidgetBlueprintLibrary::ClearUserFocus(bool bInAllUsers, str
 
 struct FEventReply UWidgetBlueprintLibrary::CaptureMouse(class UWidget* CapturingWidget, struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.CaptureMouse");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.CaptureMouse"));
 
 	struct
 	{
@@ -13747,7 +13747,7 @@ struct FEventReply UWidgetBlueprintLibrary::CaptureMouse(class UWidget* Capturin
 
 struct FEventReply UWidgetBlueprintLibrary::CaptureJoystick(class UWidget* CapturingWidget, bool bInAllJoysticks, struct FEventReply* Reply)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.CaptureJoystick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.CaptureJoystick"));
 
 	struct
 	{
@@ -13775,7 +13775,7 @@ struct FEventReply UWidgetBlueprintLibrary::CaptureJoystick(class UWidget* Captu
 
 void UWidgetBlueprintLibrary::CancelDragDrop()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetBlueprintLibrary.CancelDragDrop");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetBlueprintLibrary.CancelDragDrop"));
 
 	struct
 	{
@@ -13794,7 +13794,7 @@ void UWidgetBlueprintLibrary::CancelDragDrop()
 
 void UWidgetComponent::SetWindowVisibility(EWindowVisibility InVisibility)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetWindowVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetWindowVisibility"));
 
 	struct
 	{
@@ -13814,7 +13814,7 @@ void UWidgetComponent::SetWindowVisibility(EWindowVisibility InVisibility)
 
 void UWidgetComponent::SetWindowFocusable(bool bInWindowFocusable)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetWindowFocusable");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetWindowFocusable"));
 
 	struct
 	{
@@ -13834,7 +13834,7 @@ void UWidgetComponent::SetWindowFocusable(bool bInWindowFocusable)
 
 void UWidgetComponent::SetWidgetSpace(EWidgetSpace NewSpace)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetWidgetSpace");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetWidgetSpace"));
 
 	struct
 	{
@@ -13854,7 +13854,7 @@ void UWidgetComponent::SetWidgetSpace(EWidgetSpace NewSpace)
 
 void UWidgetComponent::SetWidget(class UUserWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetWidget"));
 
 	struct
 	{
@@ -13874,7 +13874,7 @@ void UWidgetComponent::SetWidget(class UUserWidget* Widget)
 
 void UWidgetComponent::SetTwoSided(bool bWantTwoSided)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetTwoSided");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetTwoSided"));
 
 	struct
 	{
@@ -13894,7 +13894,7 @@ void UWidgetComponent::SetTwoSided(bool bWantTwoSided)
 
 void UWidgetComponent::SetTintColorAndOpacity(const struct FLinearColor& NewTintColorAndOpacity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetTintColorAndOpacity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetTintColorAndOpacity"));
 
 	struct
 	{
@@ -13914,7 +13914,7 @@ void UWidgetComponent::SetTintColorAndOpacity(const struct FLinearColor& NewTint
 
 void UWidgetComponent::SetTickWhenOffscreen(bool bWantTickWhenOffscreen)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetTickWhenOffscreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetTickWhenOffscreen"));
 
 	struct
 	{
@@ -13934,7 +13934,7 @@ void UWidgetComponent::SetTickWhenOffscreen(bool bWantTickWhenOffscreen)
 
 void UWidgetComponent::SetRedrawTime(float InRedrawTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetRedrawTime");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetRedrawTime"));
 
 	struct
 	{
@@ -13954,7 +13954,7 @@ void UWidgetComponent::SetRedrawTime(float InRedrawTime)
 
 void UWidgetComponent::SetPivot(const struct FVector2D& InPivot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetPivot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetPivot"));
 
 	struct
 	{
@@ -13974,7 +13974,7 @@ void UWidgetComponent::SetPivot(const struct FVector2D& InPivot)
 
 void UWidgetComponent::SetOwnerPlayer(class ULocalPlayer* LocalPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetOwnerPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetOwnerPlayer"));
 
 	struct
 	{
@@ -13994,7 +13994,7 @@ void UWidgetComponent::SetOwnerPlayer(class ULocalPlayer* LocalPlayer)
 
 void UWidgetComponent::SetManuallyRedraw(bool bUseManualRedraw)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetManuallyRedraw");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetManuallyRedraw"));
 
 	struct
 	{
@@ -14014,7 +14014,7 @@ void UWidgetComponent::SetManuallyRedraw(bool bUseManualRedraw)
 
 void UWidgetComponent::SetGeometryMode(EWidgetGeometryMode InGeometryMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetGeometryMode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetGeometryMode"));
 
 	struct
 	{
@@ -14034,7 +14034,7 @@ void UWidgetComponent::SetGeometryMode(EWidgetGeometryMode InGeometryMode)
 
 void UWidgetComponent::SetDrawSize(const struct FVector2D& Size)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetDrawSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetDrawSize"));
 
 	struct
 	{
@@ -14054,7 +14054,7 @@ void UWidgetComponent::SetDrawSize(const struct FVector2D& Size)
 
 void UWidgetComponent::SetDrawAtDesiredSize(bool bInDrawAtDesiredSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetDrawAtDesiredSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetDrawAtDesiredSize"));
 
 	struct
 	{
@@ -14074,7 +14074,7 @@ void UWidgetComponent::SetDrawAtDesiredSize(bool bInDrawAtDesiredSize)
 
 void UWidgetComponent::SetCylinderArcAngle(float InCylinderArcAngle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetCylinderArcAngle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetCylinderArcAngle"));
 
 	struct
 	{
@@ -14094,7 +14094,7 @@ void UWidgetComponent::SetCylinderArcAngle(float InCylinderArcAngle)
 
 void UWidgetComponent::SetBackgroundColor(const struct FLinearColor& NewBackgroundColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.SetBackgroundColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.SetBackgroundColor"));
 
 	struct
 	{
@@ -14112,7 +14112,7 @@ void UWidgetComponent::SetBackgroundColor(const struct FLinearColor& NewBackgrou
 
 void UWidgetComponent::RequestRedraw()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.RequestRedraw");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.RequestRedraw"));
 
 	struct
 	{
@@ -14130,7 +14130,7 @@ void UWidgetComponent::RequestRedraw()
 
 EWindowVisibility UWidgetComponent::GetWindowVisiblility()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetWindowVisiblility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetWindowVisiblility"));
 
 	struct
 	{
@@ -14151,7 +14151,7 @@ EWindowVisibility UWidgetComponent::GetWindowVisiblility()
 
 bool UWidgetComponent::GetWindowFocusable()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetWindowFocusable");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetWindowFocusable"));
 
 	struct
 	{
@@ -14172,7 +14172,7 @@ bool UWidgetComponent::GetWindowFocusable()
 
 EWidgetSpace UWidgetComponent::GetWidgetSpace()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetWidgetSpace");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetWidgetSpace"));
 
 	struct
 	{
@@ -14193,7 +14193,7 @@ EWidgetSpace UWidgetComponent::GetWidgetSpace()
 
 class UUserWidget* UWidgetComponent::GetUserWidgetObject()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetUserWidgetObject");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetUserWidgetObject"));
 
 	struct
 	{
@@ -14214,7 +14214,7 @@ class UUserWidget* UWidgetComponent::GetUserWidgetObject()
 
 bool UWidgetComponent::GetTwoSided()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetTwoSided");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetTwoSided"));
 
 	struct
 	{
@@ -14235,7 +14235,7 @@ bool UWidgetComponent::GetTwoSided()
 
 bool UWidgetComponent::GetTickWhenOffscreen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetTickWhenOffscreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetTickWhenOffscreen"));
 
 	struct
 	{
@@ -14256,7 +14256,7 @@ bool UWidgetComponent::GetTickWhenOffscreen()
 
 class UTextureRenderTarget2D* UWidgetComponent::GetRenderTarget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetRenderTarget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetRenderTarget"));
 
 	struct
 	{
@@ -14277,7 +14277,7 @@ class UTextureRenderTarget2D* UWidgetComponent::GetRenderTarget()
 
 float UWidgetComponent::GetRedrawTime()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetRedrawTime");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetRedrawTime"));
 
 	struct
 	{
@@ -14298,7 +14298,7 @@ float UWidgetComponent::GetRedrawTime()
 
 struct FVector2D UWidgetComponent::GetPivot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetPivot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetPivot"));
 
 	struct
 	{
@@ -14319,7 +14319,7 @@ struct FVector2D UWidgetComponent::GetPivot()
 
 class ULocalPlayer* UWidgetComponent::GetOwnerPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetOwnerPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetOwnerPlayer"));
 
 	struct
 	{
@@ -14340,7 +14340,7 @@ class ULocalPlayer* UWidgetComponent::GetOwnerPlayer()
 
 class UMaterialInstanceDynamic* UWidgetComponent::GetMaterialInstance()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetMaterialInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetMaterialInstance"));
 
 	struct
 	{
@@ -14361,7 +14361,7 @@ class UMaterialInstanceDynamic* UWidgetComponent::GetMaterialInstance()
 
 bool UWidgetComponent::GetManuallyRedraw()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetManuallyRedraw");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetManuallyRedraw"));
 
 	struct
 	{
@@ -14382,7 +14382,7 @@ bool UWidgetComponent::GetManuallyRedraw()
 
 EWidgetGeometryMode UWidgetComponent::GetGeometryMode()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetGeometryMode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetGeometryMode"));
 
 	struct
 	{
@@ -14403,7 +14403,7 @@ EWidgetGeometryMode UWidgetComponent::GetGeometryMode()
 
 struct FVector2D UWidgetComponent::GetDrawSize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetDrawSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetDrawSize"));
 
 	struct
 	{
@@ -14424,7 +14424,7 @@ struct FVector2D UWidgetComponent::GetDrawSize()
 
 bool UWidgetComponent::GetDrawAtDesiredSize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetDrawAtDesiredSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetDrawAtDesiredSize"));
 
 	struct
 	{
@@ -14445,7 +14445,7 @@ bool UWidgetComponent::GetDrawAtDesiredSize()
 
 float UWidgetComponent::GetCylinderArcAngle()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetCylinderArcAngle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetCylinderArcAngle"));
 
 	struct
 	{
@@ -14466,7 +14466,7 @@ float UWidgetComponent::GetCylinderArcAngle()
 
 struct FVector2D UWidgetComponent::GetCurrentDrawSize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetComponent.GetCurrentDrawSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetComponent.GetCurrentDrawSize"));
 
 	struct
 	{
@@ -14487,7 +14487,7 @@ struct FVector2D UWidgetComponent::GetCurrentDrawSize()
 
 void UWidgetInteractionComponent::SetFocus(class UWidget* FocusWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.SetFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.SetFocus"));
 
 	struct
 	{
@@ -14507,7 +14507,7 @@ void UWidgetInteractionComponent::SetFocus(class UWidget* FocusWidget)
 
 void UWidgetInteractionComponent::SetCustomHitResult(const struct FHitResult& HitResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.SetCustomHitResult");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.SetCustomHitResult"));
 
 	struct
 	{
@@ -14529,7 +14529,7 @@ void UWidgetInteractionComponent::SetCustomHitResult(const struct FHitResult& Hi
 
 bool UWidgetInteractionComponent::SendKeyChar(const struct FString& Characters, bool bRepeat)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.SendKeyChar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.SendKeyChar"));
 
 	struct
 	{
@@ -14554,7 +14554,7 @@ bool UWidgetInteractionComponent::SendKeyChar(const struct FString& Characters, 
 
 void UWidgetInteractionComponent::ScrollWheel(float ScrollDelta)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.ScrollWheel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.ScrollWheel"));
 
 	struct
 	{
@@ -14574,7 +14574,7 @@ void UWidgetInteractionComponent::ScrollWheel(float ScrollDelta)
 
 void UWidgetInteractionComponent::ReleasePointerKey(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.ReleasePointerKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.ReleasePointerKey"));
 
 	struct
 	{
@@ -14595,7 +14595,7 @@ void UWidgetInteractionComponent::ReleasePointerKey(const struct FKey& Key)
 
 bool UWidgetInteractionComponent::ReleaseKey(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.ReleaseKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.ReleaseKey"));
 
 	struct
 	{
@@ -14618,7 +14618,7 @@ bool UWidgetInteractionComponent::ReleaseKey(const struct FKey& Key)
 
 void UWidgetInteractionComponent::PressPointerKey(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.PressPointerKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.PressPointerKey"));
 
 	struct
 	{
@@ -14640,7 +14640,7 @@ void UWidgetInteractionComponent::PressPointerKey(const struct FKey& Key)
 
 bool UWidgetInteractionComponent::PressKey(const struct FKey& Key, bool bRepeat)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.PressKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.PressKey"));
 
 	struct
 	{
@@ -14666,7 +14666,7 @@ bool UWidgetInteractionComponent::PressKey(const struct FKey& Key, bool bRepeat)
 
 bool UWidgetInteractionComponent::PressAndReleaseKey(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.PressAndReleaseKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.PressAndReleaseKey"));
 
 	struct
 	{
@@ -14689,7 +14689,7 @@ bool UWidgetInteractionComponent::PressAndReleaseKey(const struct FKey& Key)
 
 bool UWidgetInteractionComponent::IsOverInteractableWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.IsOverInteractableWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.IsOverInteractableWidget"));
 
 	struct
 	{
@@ -14710,7 +14710,7 @@ bool UWidgetInteractionComponent::IsOverInteractableWidget()
 
 bool UWidgetInteractionComponent::IsOverHitTestVisibleWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.IsOverHitTestVisibleWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.IsOverHitTestVisibleWidget"));
 
 	struct
 	{
@@ -14731,7 +14731,7 @@ bool UWidgetInteractionComponent::IsOverHitTestVisibleWidget()
 
 bool UWidgetInteractionComponent::IsOverFocusableWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.IsOverFocusableWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.IsOverFocusableWidget"));
 
 	struct
 	{
@@ -14752,7 +14752,7 @@ bool UWidgetInteractionComponent::IsOverFocusableWidget()
 
 struct FHitResult UWidgetInteractionComponent::GetLastHitResult()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.GetLastHitResult");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.GetLastHitResult"));
 
 	struct
 	{
@@ -14773,7 +14773,7 @@ struct FHitResult UWidgetInteractionComponent::GetLastHitResult()
 
 class UWidgetComponent* UWidgetInteractionComponent::GetHoveredWidgetComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.GetHoveredWidgetComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.GetHoveredWidgetComponent"));
 
 	struct
 	{
@@ -14794,7 +14794,7 @@ class UWidgetComponent* UWidgetInteractionComponent::GetHoveredWidgetComponent()
 
 struct FVector2D UWidgetInteractionComponent::Get2DHitLocation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetInteractionComponent.Get2DHitLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetInteractionComponent.Get2DHitLocation"));
 
 	struct
 	{
@@ -14816,7 +14816,7 @@ struct FVector2D UWidgetInteractionComponent::Get2DHitLocation()
 
 class UWrapBoxSlot* UWidgetLayoutLibrary::SlotAsWrapBoxSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsWrapBoxSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsWrapBoxSlot"));
 
 	struct
 	{
@@ -14841,7 +14841,7 @@ class UWrapBoxSlot* UWidgetLayoutLibrary::SlotAsWrapBoxSlot(class UWidget* Widge
 
 class UWidgetSwitcherSlot* UWidgetLayoutLibrary::SlotAsWidgetSwitcherSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsWidgetSwitcherSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsWidgetSwitcherSlot"));
 
 	struct
 	{
@@ -14866,7 +14866,7 @@ class UWidgetSwitcherSlot* UWidgetLayoutLibrary::SlotAsWidgetSwitcherSlot(class 
 
 class UVerticalBoxSlot* UWidgetLayoutLibrary::SlotAsVerticalBoxSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsVerticalBoxSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsVerticalBoxSlot"));
 
 	struct
 	{
@@ -14891,7 +14891,7 @@ class UVerticalBoxSlot* UWidgetLayoutLibrary::SlotAsVerticalBoxSlot(class UWidge
 
 class UUniformGridSlot* UWidgetLayoutLibrary::SlotAsUniformGridSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsUniformGridSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsUniformGridSlot"));
 
 	struct
 	{
@@ -14916,7 +14916,7 @@ class UUniformGridSlot* UWidgetLayoutLibrary::SlotAsUniformGridSlot(class UWidge
 
 class USizeBoxSlot* UWidgetLayoutLibrary::SlotAsSizeBoxSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsSizeBoxSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsSizeBoxSlot"));
 
 	struct
 	{
@@ -14941,7 +14941,7 @@ class USizeBoxSlot* UWidgetLayoutLibrary::SlotAsSizeBoxSlot(class UWidget* Widge
 
 class UScrollBoxSlot* UWidgetLayoutLibrary::SlotAsScrollBoxSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsScrollBoxSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsScrollBoxSlot"));
 
 	struct
 	{
@@ -14966,7 +14966,7 @@ class UScrollBoxSlot* UWidgetLayoutLibrary::SlotAsScrollBoxSlot(class UWidget* W
 
 class UScaleBoxSlot* UWidgetLayoutLibrary::SlotAsScaleBoxSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsScaleBoxSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsScaleBoxSlot"));
 
 	struct
 	{
@@ -14991,7 +14991,7 @@ class UScaleBoxSlot* UWidgetLayoutLibrary::SlotAsScaleBoxSlot(class UWidget* Wid
 
 class USafeZoneSlot* UWidgetLayoutLibrary::SlotAsSafeBoxSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsSafeBoxSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsSafeBoxSlot"));
 
 	struct
 	{
@@ -15016,7 +15016,7 @@ class USafeZoneSlot* UWidgetLayoutLibrary::SlotAsSafeBoxSlot(class UWidget* Widg
 
 class UOverlaySlot* UWidgetLayoutLibrary::SlotAsOverlaySlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsOverlaySlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsOverlaySlot"));
 
 	struct
 	{
@@ -15041,7 +15041,7 @@ class UOverlaySlot* UWidgetLayoutLibrary::SlotAsOverlaySlot(class UWidget* Widge
 
 class UHorizontalBoxSlot* UWidgetLayoutLibrary::SlotAsHorizontalBoxSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsHorizontalBoxSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsHorizontalBoxSlot"));
 
 	struct
 	{
@@ -15066,7 +15066,7 @@ class UHorizontalBoxSlot* UWidgetLayoutLibrary::SlotAsHorizontalBoxSlot(class UW
 
 class UGridSlot* UWidgetLayoutLibrary::SlotAsGridSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsGridSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsGridSlot"));
 
 	struct
 	{
@@ -15091,7 +15091,7 @@ class UGridSlot* UWidgetLayoutLibrary::SlotAsGridSlot(class UWidget* Widget)
 
 class UCanvasPanelSlot* UWidgetLayoutLibrary::SlotAsCanvasSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsCanvasSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsCanvasSlot"));
 
 	struct
 	{
@@ -15116,7 +15116,7 @@ class UCanvasPanelSlot* UWidgetLayoutLibrary::SlotAsCanvasSlot(class UWidget* Wi
 
 class UBorderSlot* UWidgetLayoutLibrary::SlotAsBorderSlot(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.SlotAsBorderSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.SlotAsBorderSlot"));
 
 	struct
 	{
@@ -15140,7 +15140,7 @@ class UBorderSlot* UWidgetLayoutLibrary::SlotAsBorderSlot(class UWidget* Widget)
 
 void UWidgetLayoutLibrary::RemoveAllWidgets(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.RemoveAllWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.RemoveAllWidgets"));
 
 	struct
 	{
@@ -15165,7 +15165,7 @@ void UWidgetLayoutLibrary::RemoveAllWidgets(class UObject* WorldContextObject)
 
 bool UWidgetLayoutLibrary::ProjectWorldLocationToWidgetPosition(class APlayerController* PlayerController, const struct FVector& WorldLocation, bool bPlayerViewportRelative, struct FVector2D* ScreenPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.ProjectWorldLocationToWidgetPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.ProjectWorldLocationToWidgetPosition"));
 
 	struct
 	{
@@ -15198,7 +15198,7 @@ bool UWidgetLayoutLibrary::ProjectWorldLocationToWidgetPosition(class APlayerCon
 
 struct FGeometry UWidgetLayoutLibrary::GetViewportWidgetGeometry(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.GetViewportWidgetGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.GetViewportWidgetGeometry"));
 
 	struct
 	{
@@ -15223,7 +15223,7 @@ struct FGeometry UWidgetLayoutLibrary::GetViewportWidgetGeometry(class UObject* 
 
 struct FVector2D UWidgetLayoutLibrary::GetViewportSize(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.GetViewportSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.GetViewportSize"));
 
 	struct
 	{
@@ -15248,7 +15248,7 @@ struct FVector2D UWidgetLayoutLibrary::GetViewportSize(class UObject* WorldConte
 
 float UWidgetLayoutLibrary::GetViewportScale(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.GetViewportScale");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.GetViewportScale"));
 
 	struct
 	{
@@ -15273,7 +15273,7 @@ float UWidgetLayoutLibrary::GetViewportScale(class UObject* WorldContextObject)
 
 struct FGeometry UWidgetLayoutLibrary::GetPlayerScreenWidgetGeometry(class APlayerController* PlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.GetPlayerScreenWidgetGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.GetPlayerScreenWidgetGeometry"));
 
 	struct
 	{
@@ -15300,7 +15300,7 @@ struct FGeometry UWidgetLayoutLibrary::GetPlayerScreenWidgetGeometry(class APlay
 
 bool UWidgetLayoutLibrary::GetMousePositionScaledByDPI(class APlayerController* Player, float* LocationX, float* LocationY)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.GetMousePositionScaledByDPI");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.GetMousePositionScaledByDPI"));
 
 	struct
 	{
@@ -15332,7 +15332,7 @@ bool UWidgetLayoutLibrary::GetMousePositionScaledByDPI(class APlayerController* 
 
 struct FVector2D UWidgetLayoutLibrary::GetMousePositionOnViewport(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.GetMousePositionOnViewport");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.GetMousePositionOnViewport"));
 
 	struct
 	{
@@ -15356,7 +15356,7 @@ struct FVector2D UWidgetLayoutLibrary::GetMousePositionOnViewport(class UObject*
 
 struct FVector2D UWidgetLayoutLibrary::GetMousePositionOnPlatform()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetLayoutLibrary.GetMousePositionOnPlatform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetLayoutLibrary.GetMousePositionOnPlatform"));
 
 	struct
 	{
@@ -15378,7 +15378,7 @@ struct FVector2D UWidgetLayoutLibrary::GetMousePositionOnPlatform()
 
 void UWidgetSwitcher::SetActiveWidgetIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetSwitcher.SetActiveWidgetIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetSwitcher.SetActiveWidgetIndex"));
 
 	struct
 	{
@@ -15398,7 +15398,7 @@ void UWidgetSwitcher::SetActiveWidgetIndex(int Index)
 
 void UWidgetSwitcher::SetActiveWidget(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetSwitcher.SetActiveWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetSwitcher.SetActiveWidget"));
 
 	struct
 	{
@@ -15419,7 +15419,7 @@ void UWidgetSwitcher::SetActiveWidget(class UWidget* Widget)
 
 class UWidget* UWidgetSwitcher::GetWidgetAtIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetSwitcher.GetWidgetAtIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetSwitcher.GetWidgetAtIndex"));
 
 	struct
 	{
@@ -15442,7 +15442,7 @@ class UWidget* UWidgetSwitcher::GetWidgetAtIndex(int Index)
 
 int UWidgetSwitcher::GetNumWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetSwitcher.GetNumWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetSwitcher.GetNumWidgets"));
 
 	struct
 	{
@@ -15463,7 +15463,7 @@ int UWidgetSwitcher::GetNumWidgets()
 
 int UWidgetSwitcher::GetActiveWidgetIndex()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetSwitcher.GetActiveWidgetIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetSwitcher.GetActiveWidgetIndex"));
 
 	struct
 	{
@@ -15484,7 +15484,7 @@ int UWidgetSwitcher::GetActiveWidgetIndex()
 
 class UWidget* UWidgetSwitcher::GetActiveWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetSwitcher.GetActiveWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetSwitcher.GetActiveWidget"));
 
 	struct
 	{
@@ -15505,7 +15505,7 @@ class UWidget* UWidgetSwitcher::GetActiveWidget()
 
 void UWidgetSwitcherSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetSwitcherSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetSwitcherSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -15525,7 +15525,7 @@ void UWidgetSwitcherSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> I
 
 void UWidgetSwitcherSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetSwitcherSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetSwitcherSlot.SetPadding"));
 
 	struct
 	{
@@ -15545,7 +15545,7 @@ void UWidgetSwitcherSlot::SetPadding(const struct FMargin& InPadding)
 
 void UWidgetSwitcherSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WidgetSwitcherSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WidgetSwitcherSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -15565,7 +15565,7 @@ void UWidgetSwitcherSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignmen
 
 void UWindowTitleBarArea::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WindowTitleBarArea.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WindowTitleBarArea.SetVerticalAlignment"));
 
 	struct
 	{
@@ -15585,7 +15585,7 @@ void UWindowTitleBarArea::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> I
 
 void UWindowTitleBarArea::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WindowTitleBarArea.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WindowTitleBarArea.SetPadding"));
 
 	struct
 	{
@@ -15605,7 +15605,7 @@ void UWindowTitleBarArea::SetPadding(const struct FMargin& InPadding)
 
 void UWindowTitleBarArea::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WindowTitleBarArea.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WindowTitleBarArea.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -15625,7 +15625,7 @@ void UWindowTitleBarArea::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignmen
 
 void UWindowTitleBarAreaSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WindowTitleBarAreaSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WindowTitleBarAreaSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -15645,7 +15645,7 @@ void UWindowTitleBarAreaSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignmen
 
 void UWindowTitleBarAreaSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WindowTitleBarAreaSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WindowTitleBarAreaSlot.SetPadding"));
 
 	struct
 	{
@@ -15665,7 +15665,7 @@ void UWindowTitleBarAreaSlot::SetPadding(const struct FMargin& InPadding)
 
 void UWindowTitleBarAreaSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WindowTitleBarAreaSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WindowTitleBarAreaSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -15685,7 +15685,7 @@ void UWindowTitleBarAreaSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlig
 
 void UWrapBox::SetInnerSlotPadding(const struct FVector2D& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WrapBox.SetInnerSlotPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WrapBox.SetInnerSlotPadding"));
 
 	struct
 	{
@@ -15706,7 +15706,7 @@ void UWrapBox::SetInnerSlotPadding(const struct FVector2D& InPadding)
 
 class UWrapBoxSlot* UWrapBox::AddChildToWrapBox(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WrapBox.AddChildToWrapBox");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WrapBox.AddChildToWrapBox"));
 
 	struct
 	{
@@ -15729,7 +15729,7 @@ class UWrapBoxSlot* UWrapBox::AddChildToWrapBox(class UWidget* Content)
 
 void UWrapBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WrapBoxSlot.SetVerticalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WrapBoxSlot.SetVerticalAlignment"));
 
 	struct
 	{
@@ -15749,7 +15749,7 @@ void UWrapBoxSlot::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVertic
 
 void UWrapBoxSlot::SetPadding(const struct FMargin& InPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WrapBoxSlot.SetPadding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WrapBoxSlot.SetPadding"));
 
 	struct
 	{
@@ -15769,7 +15769,7 @@ void UWrapBoxSlot::SetPadding(const struct FMargin& InPadding)
 
 void UWrapBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WrapBoxSlot.SetHorizontalAlignment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WrapBoxSlot.SetHorizontalAlignment"));
 
 	struct
 	{
@@ -15789,7 +15789,7 @@ void UWrapBoxSlot::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHo
 
 void UWrapBoxSlot::SetFillSpanWhenLessThan(float InFillSpanWhenLessThan)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WrapBoxSlot.SetFillSpanWhenLessThan");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WrapBoxSlot.SetFillSpanWhenLessThan"));
 
 	struct
 	{
@@ -15809,7 +15809,7 @@ void UWrapBoxSlot::SetFillSpanWhenLessThan(float InFillSpanWhenLessThan)
 
 void UWrapBoxSlot::SetFillEmptySpace(bool InbFillEmptySpace)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.WrapBoxSlot.SetFillEmptySpace");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UMG.WrapBoxSlot.SetFillEmptySpace"));
 
 	struct
 	{

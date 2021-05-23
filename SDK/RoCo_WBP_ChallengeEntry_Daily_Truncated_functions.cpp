@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.PreConstruct"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::ApplyLayoutType(EChallengeEntryCardState CardState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ApplyLayoutType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ApplyLayoutType"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::ApplyLayoutType(EChallengeEntryCardS
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::ApplyChallengeDescription(const struct FText& DescText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ApplyChallengeDescription");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ApplyChallengeDescription"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::ApplyChallengeDescription(const stru
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::ApplyChallengeProgress(int Progress, int ProgressTotal)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ApplyChallengeProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ApplyChallengeProgress"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::ApplyChallengeProgress(int Progress,
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::ApplyRerollAvailable(bool CanReroll)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ApplyRerollAvailable");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ApplyRerollAvailable"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::ApplyRerollAvailable(bool CanReroll)
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::DisplayRewardItems(TArray<struct FTierRewardItemData> RewardItems)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.DisplayRewardItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.DisplayRewardItems"));
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::DisplayRewardItems(TArray<struct FTi
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::BndEvt__HitTarget_K2Node_ComponentBo
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::BndEvt__HitTarget_K2Node_ComponentBo
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::BndEvt__HitTarget_K2Node_ComponentBo
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::ExecuteUbergraph_WBP_ChallengeEntry_Daily_Truncated(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ExecuteUbergraph_WBP_ChallengeEntry_Daily_Truncated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.ExecuteUbergraph_WBP_ChallengeEntry_Daily_Truncated"));
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_ChallengeEntry_Daily_Truncated_C::ExecuteUbergraph_WBP_ChallengeEntry_
 
 void UWBP_ChallengeEntry_Daily_Truncated_C::OnClick__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.OnClick__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C.OnClick__DelegateSignature"));
 
 	struct
 	{

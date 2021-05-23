@@ -17,7 +17,7 @@ namespace SDK
 
 void AGameState_KOTH_Modular_C::OnRep_CurrentPointTime()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.OnRep_CurrentPointTime");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.OnRep_CurrentPointTime"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void AGameState_KOTH_Modular_C::OnRep_CurrentPointTime()
 
 void AGameState_KOTH_Modular_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void AGameState_KOTH_Modular_C::ReceiveBeginPlay()
 
 void AGameState_KOTH_Modular_C::ReceiveTick(float DeltaSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.ReceiveTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.ReceiveTick"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void AGameState_KOTH_Modular_C::ReceiveTick(float DeltaSeconds)
 
 void AGameState_KOTH_Modular_C::ApplyTimerForActive(const struct FTimerHandle& CurrentPointTimer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.ApplyTimerForActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.ApplyTimerForActive"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void AGameState_KOTH_Modular_C::ApplyTimerForActive(const struct FTimerHandle& C
 
 void AGameState_KOTH_Modular_C::ExecuteUbergraph_GameState_KOTH_Modular(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.ExecuteUbergraph_GameState_KOTH_Modular");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameState_KOTH_Modular.GameState_KOTH_Modular_C.ExecuteUbergraph_GameState_KOTH_Modular"));
 
 	struct
 	{

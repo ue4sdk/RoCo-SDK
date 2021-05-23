@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_CosmeticItem_Avatar_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.NavigateConfirm"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_CosmeticItem_Avatar_C::NavigateConfirm()
 
 void UWBP_CosmeticItem_Avatar_C::SetAvatarItemSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.SetAvatarItemSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.SetAvatarItemSlot"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWBP_CosmeticItem_Avatar_C::SetAvatarItemSlot()
 
 void UWBP_CosmeticItem_Avatar_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnHoverSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnHoverSound"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_CosmeticItem_Avatar_C::OnHoverSound()
 
 void UWBP_CosmeticItem_Avatar_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnClickSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnClickSound"));
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UWBP_CosmeticItem_Avatar_C::OnClickSound()
 
 void UWBP_CosmeticItem_Avatar_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.Construct"));
 
 	struct
 	{
@@ -104,7 +104,7 @@ void UWBP_CosmeticItem_Avatar_C::Construct()
 
 void UWBP_CosmeticItem_Avatar_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.InitializeWidget"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_CosmeticItem_Avatar_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CosmeticItem_Avatar_C::PopulateSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.PopulateSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.PopulateSlot"));
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_CosmeticItem_Avatar_C::PopulateSlot()
 
 void UWBP_CosmeticItem_Avatar_C::OnAvatarHover(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnAvatarHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnAvatarHover"));
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_CosmeticItem_Avatar_C::OnAvatarHover(bool IsGamepad)
 
 void UWBP_CosmeticItem_Avatar_C::OnAvatarUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnAvatarUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnAvatarUnhover"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_CosmeticItem_Avatar_C::OnAvatarUnhover()
 
 void UWBP_CosmeticItem_Avatar_C::OnAvatarClick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnAvatarClick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnAvatarClick"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_CosmeticItem_Avatar_C::OnAvatarClick()
 
 void UWBP_CosmeticItem_Avatar_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.GamepadHover"));
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_CosmeticItem_Avatar_C::GamepadHover()
 
 void UWBP_CosmeticItem_Avatar_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.GamepadUnhover"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_CosmeticItem_Avatar_C::GamepadUnhover()
 
 void UWBP_CosmeticItem_Avatar_C::SetAvatarActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.SetAvatarActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.SetAvatarActive"));
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UWBP_CosmeticItem_Avatar_C::SetAvatarActive(bool IsActive)
 
 void UWBP_CosmeticItem_Avatar_C::ExecuteUbergraph_WBP_CosmeticItem_Avatar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.ExecuteUbergraph_WBP_CosmeticItem_Avatar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.ExecuteUbergraph_WBP_CosmeticItem_Avatar"));
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_CosmeticItem_Avatar_C::ExecuteUbergraph_WBP_CosmeticItem_Avatar(int En
 
 void UWBP_CosmeticItem_Avatar_C::OnItemClicked__DelegateSignature(class UPlatformInventoryItem* PlatformItem, class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnItemClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnItemClicked__DelegateSignature"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_CosmeticItem_Avatar_C::OnItemClicked__DelegateSignature(class UPlatfor
 
 void UWBP_CosmeticItem_Avatar_C::OnItemUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnItemUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnItemUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_CosmeticItem_Avatar_C::OnItemUnhovered__DelegateSignature()
 
 void UWBP_CosmeticItem_Avatar_C::OnItemHovered__DelegateSignature(class UPlatformInventoryItem* PlatformItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnItemHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Avatar.WBP_CosmeticItem_Avatar_C.OnItemHovered__DelegateSignature"));
 
 	struct
 	{

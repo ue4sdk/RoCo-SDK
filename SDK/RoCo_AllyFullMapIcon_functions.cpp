@@ -19,7 +19,7 @@ namespace SDK
 
 struct FVector UAllyFullMapIcon_C::GetWorldPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyFullMapIcon.AllyFullMapIcon_C.GetWorldPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyFullMapIcon.AllyFullMapIcon_C.GetWorldPosition"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ struct FVector UAllyFullMapIcon_C::GetWorldPosition()
 
 float UAllyFullMapIcon_C::GetWorldYaw()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyFullMapIcon.AllyFullMapIcon_C.GetWorldYaw");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyFullMapIcon.AllyFullMapIcon_C.GetWorldYaw"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ float UAllyFullMapIcon_C::GetWorldYaw()
 
 bool UAllyFullMapIcon_C::ShouldUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyFullMapIcon.AllyFullMapIcon_C.ShouldUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyFullMapIcon.AllyFullMapIcon_C.ShouldUpdate"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ bool UAllyFullMapIcon_C::ShouldUpdate()
 
 void UAllyFullMapIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyFullMapIcon.AllyFullMapIcon_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyFullMapIcon.AllyFullMapIcon_C.Construct"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UAllyFullMapIcon_C::Construct()
 
 void UAllyFullMapIcon_C::Ally_State(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyFullMapIcon.AllyFullMapIcon_C.Ally State");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyFullMapIcon.AllyFullMapIcon_C.Ally State"));
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UAllyFullMapIcon_C::Ally_State(class AKSPlayerState* PlayerState)
 
 void UAllyFullMapIcon_C::HandleMapIconWidgetReady()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyFullMapIcon.AllyFullMapIcon_C.HandleMapIconWidgetReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyFullMapIcon.AllyFullMapIcon_C.HandleMapIconWidgetReady"));
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UAllyFullMapIcon_C::HandleMapIconWidgetReady()
 
 void UAllyFullMapIcon_C::ExecuteUbergraph_AllyFullMapIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyFullMapIcon.AllyFullMapIcon_C.ExecuteUbergraph_AllyFullMapIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyFullMapIcon.AllyFullMapIcon_C.ExecuteUbergraph_AllyFullMapIcon"));
 
 	struct
 	{

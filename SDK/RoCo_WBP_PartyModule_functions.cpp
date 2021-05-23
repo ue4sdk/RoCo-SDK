@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PartyModule_C::GetPrimaryFocus(class UWBP_Social_Snapshot_C** Primary_Focus)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.GetPrimaryFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.GetPrimaryFocus"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_PartyModule_C::GetPrimaryFocus(class UWBP_Social_Snapshot_C** Primary_
 
 void UWBP_PartyModule_C::FindPlayerCardByVoiceId(const struct FString& VoiceId, class UWBP_player_card_module_C** PlayerCard)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.FindPlayerCardByVoiceId");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.FindPlayerCardByVoiceId"));
 
 	struct
 	{
@@ -66,7 +66,7 @@ void UWBP_PartyModule_C::FindPlayerCardByVoiceId(const struct FString& VoiceId, 
 
 void UWBP_PartyModule_C::Get_Navigation_Widgets(TArray<class UPUMG_Widget*>* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.Get Navigation Widgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.Get Navigation Widgets"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_PartyModule_C::Get_Navigation_Widgets(TArray<class UPUMG_Widget*>* Ret
 
 void UWBP_PartyModule_C::Get_Other_Party_Members(TArray<struct FPUMG_PartyMemberData>* Party_Members, TArray<struct FPUMG_PartyMemberData>* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.Get Other Party Members");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.Get Other Party Members"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_PartyModule_C::Get_Other_Party_Members(TArray<struct FPUMG_PartyMember
 
 void UWBP_PartyModule_C::ApplyPartyData(TArray<struct FPUMG_PartyMemberData> PartyMembers)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.ApplyPartyData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.ApplyPartyData"));
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UWBP_PartyModule_C::ApplyPartyData(TArray<struct FPUMG_PartyMemberData> Par
 
 void UWBP_PartyModule_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.InitializeWidget"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_PartyModule_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_PartyModule_C::VoiceParticipantAdded(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.VoiceParticipantAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.VoiceParticipantAdded"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_PartyModule_C::VoiceParticipantAdded(const struct FString& AccountId)
 
 void UWBP_PartyModule_C::VoiceParticipantRemoved(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.VoiceParticipantRemoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.VoiceParticipantRemoved"));
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UWBP_PartyModule_C::VoiceParticipantRemoved(const struct FString& AccountId
 
 void UWBP_PartyModule_C::VoiceParticipantUpdated(const struct FString& AccountId, bool IsTalking, bool IsMuted)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.VoiceParticipantUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.VoiceParticipantUpdated"));
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_PartyModule_C::VoiceParticipantUpdated(const struct FString& AccountId
 
 void UWBP_PartyModule_C::VoiceStateChange(EKSVoiceActivityAudioState State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.VoiceStateChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.VoiceStateChange"));
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UWBP_PartyModule_C::VoiceStateChange(EKSVoiceActivityAudioState State)
 
 void UWBP_PartyModule_C::Handle_Player_Card_Clicked(class UWBP_player_card_module_C* Selected_Player_Card)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.Handle Player Card Clicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.Handle Player Card Clicked"));
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UWBP_PartyModule_C::Handle_Player_Card_Clicked(class UWBP_player_card_modul
 
 void UWBP_PartyModule_C::Handle_Player_Card_Back()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.Handle Player Card Back");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.Handle Player Card Back"));
 
 	struct
 	{
@@ -276,7 +276,7 @@ void UWBP_PartyModule_C::Handle_Player_Card_Back()
 
 void UWBP_PartyModule_C::HandlePartyLeaveVisibilityChange(bool Visible)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.HandlePartyLeaveVisibilityChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.HandlePartyLeaveVisibilityChange"));
 
 	struct
 	{
@@ -296,7 +296,7 @@ void UWBP_PartyModule_C::HandlePartyLeaveVisibilityChange(bool Visible)
 
 void UWBP_PartyModule_C::ExecuteUbergraph_WBP_PartyModule(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.ExecuteUbergraph_WBP_PartyModule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.ExecuteUbergraph_WBP_PartyModule"));
 
 	struct
 	{
@@ -316,7 +316,7 @@ void UWBP_PartyModule_C::ExecuteUbergraph_WBP_PartyModule(int EntryPoint)
 
 void UWBP_PartyModule_C::OnPartyLeaveVisibilityChange__DelegateSignature(bool Visible)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.OnPartyLeaveVisibilityChange__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.OnPartyLeaveVisibilityChange__DelegateSignature"));
 
 	struct
 	{
@@ -334,7 +334,7 @@ void UWBP_PartyModule_C::OnPartyLeaveVisibilityChange__DelegateSignature(bool Vi
 
 void UWBP_PartyModule_C::OnPlayerCardBackButton__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.OnPlayerCardBackButton__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.OnPlayerCardBackButton__DelegateSignature"));
 
 	struct
 	{
@@ -352,7 +352,7 @@ void UWBP_PartyModule_C::OnPlayerCardBackButton__DelegateSignature()
 
 void UWBP_PartyModule_C::OnPlayerCardSelected__DelegateSignature(class UWBP_player_card_module_C* Selected_Player_Card)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModule.WBP_PartyModule_C.OnPlayerCardSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModule.WBP_PartyModule_C.OnPlayerCardSelected__DelegateSignature"));
 
 	struct
 	{

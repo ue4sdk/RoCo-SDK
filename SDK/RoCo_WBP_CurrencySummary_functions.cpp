@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_CurrencySummary_C::GetCurrencyIconWidgets(TArray<class UWBP_AsyncIcon_C*>* IconWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CurrencySummary.WBP_CurrencySummary_C.GetCurrencyIconWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CurrencySummary.WBP_CurrencySummary_C.GetCurrencyIconWidgets"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_CurrencySummary_C::GetCurrencyIconWidgets(TArray<class UWBP_AsyncIcon_
 
 void UWBP_CurrencySummary_C::GetCurrencyTextWidgets(TArray<class UWidget*>* TextWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CurrencySummary.WBP_CurrencySummary_C.GetCurrencyTextWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CurrencySummary.WBP_CurrencySummary_C.GetCurrencyTextWidgets"));
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UWBP_CurrencySummary_C::GetCurrencyTextWidgets(TArray<class UWidget*>* Text
 
 void UWBP_CurrencySummary_C::SetDisplayedCurrencies(TArray<int>* CurrenciesToDisplay)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CurrencySummary.WBP_CurrencySummary_C.SetDisplayedCurrencies");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CurrencySummary.WBP_CurrencySummary_C.SetDisplayedCurrencies"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_CurrencySummary_C::SetDisplayedCurrencies(TArray<int>* CurrenciesToDis
 
 void UWBP_CurrencySummary_C::UpdateCurrencyDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CurrencySummary.WBP_CurrencySummary_C.UpdateCurrencyDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CurrencySummary.WBP_CurrencySummary_C.UpdateCurrencyDisplay"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_CurrencySummary_C::UpdateCurrencyDisplay()
 
 void UWBP_CurrencySummary_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CurrencySummary.WBP_CurrencySummary_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CurrencySummary.WBP_CurrencySummary_C.InitializeWidget"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_CurrencySummary_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CurrencySummary_C::ExecuteUbergraph_WBP_CurrencySummary(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CurrencySummary.WBP_CurrencySummary_C.ExecuteUbergraph_WBP_CurrencySummary");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CurrencySummary.WBP_CurrencySummary_C.ExecuteUbergraph_WBP_CurrencySummary"));
 
 	struct
 	{

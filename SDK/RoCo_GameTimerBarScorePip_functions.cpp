@@ -19,7 +19,7 @@ namespace SDK
 
 void UGameTimerBarScorePip_C::Set_Pip(bool On)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarScorePip.GameTimerBarScorePip_C.Set Pip");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarScorePip.GameTimerBarScorePip_C.Set Pip"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UGameTimerBarScorePip_C::Set_Pip(bool On)
 
 void UGameTimerBarScorePip_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarScorePip.GameTimerBarScorePip_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarScorePip.GameTimerBarScorePip_C.Construct"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UGameTimerBarScorePip_C::Construct()
 
 void UGameTimerBarScorePip_C::ExecuteUbergraph_GameTimerBarScorePip(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarScorePip.GameTimerBarScorePip_C.ExecuteUbergraph_GameTimerBarScorePip");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarScorePip.GameTimerBarScorePip_C.ExecuteUbergraph_GameTimerBarScorePip"));
 
 	struct
 	{

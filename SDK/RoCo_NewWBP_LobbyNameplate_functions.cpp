@@ -20,7 +20,7 @@ namespace SDK
 
 void UNewWBP_LobbyNameplate_C::UpdateRankedTotal(bool Index, int RequiredPlacementMatches)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdateRankedTotal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdateRankedTotal"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UNewWBP_LobbyNameplate_C::UpdateRankedTotal(bool Index, int RequiredPlaceme
 
 void UNewWBP_LobbyNameplate_C::UpdatePlayerName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdatePlayerName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdatePlayerName"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UNewWBP_LobbyNameplate_C::UpdatePlayerName()
 
 void UNewWBP_LobbyNameplate_C::UpdateRankedData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdateRankedData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdateRankedData"));
 
 	struct
 	{
@@ -72,7 +72,7 @@ void UNewWBP_LobbyNameplate_C::UpdateRankedData()
 
 void UNewWBP_LobbyNameplate_C::OnPartyUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnPartyUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnPartyUpdated"));
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UNewWBP_LobbyNameplate_C::OnPartyUpdated()
 
 void UNewWBP_LobbyNameplate_C::UpdateSelectedQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdateSelectedQueue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdateSelectedQueue"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UNewWBP_LobbyNameplate_C::UpdateSelectedQueue()
 
 void UNewWBP_LobbyNameplate_C::SetPlayerDisplayVisible(bool IsVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.SetPlayerDisplayVisible");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.SetPlayerDisplayVisible"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UNewWBP_LobbyNameplate_C::SetPlayerDisplayVisible(bool IsVisible)
 
 void UNewWBP_LobbyNameplate_C::UpdatePartyLeaderIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdatePartyLeaderIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.UpdatePartyLeaderIcon"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UNewWBP_LobbyNameplate_C::UpdatePartyLeaderIcon()
 
 void UNewWBP_LobbyNameplate_C::SetPlayerInfo(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.SetPlayerInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.SetPlayerInfo"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UNewWBP_LobbyNameplate_C::SetPlayerInfo(class UKSPlayerInfo* playerinfo)
 
 void UNewWBP_LobbyNameplate_C::OnPossession(class APlayerState* PlayerState, class AKSCharacter* Character)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnPossession");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnPossession"));
 
 	struct
 	{
@@ -183,7 +183,7 @@ void UNewWBP_LobbyNameplate_C::OnPossession(class APlayerState* PlayerState, cla
 
 void UNewWBP_LobbyNameplate_C::OnHovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnHovered"));
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UNewWBP_LobbyNameplate_C::OnHovered()
 
 void UNewWBP_LobbyNameplate_C::OnUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnUnhovered"));
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UNewWBP_LobbyNameplate_C::OnUnhovered()
 
 void UNewWBP_LobbyNameplate_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.Construct"));
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UNewWBP_LobbyNameplate_C::Construct()
 
 void UNewWBP_LobbyNameplate_C::SetName(const struct FText& InName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.SetName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.SetName"));
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UNewWBP_LobbyNameplate_C::SetName(const struct FText& InName)
 
 void UNewWBP_LobbyNameplate_C::SetAvatar(class UKSItem* AvatarItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.SetAvatar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.SetAvatar"));
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UNewWBP_LobbyNameplate_C::SetAvatar(class UKSItem* AvatarItem)
 
 void UNewWBP_LobbyNameplate_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.PreConstruct"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UNewWBP_LobbyNameplate_C::PreConstruct(bool IsDesignTime)
 
 void UNewWBP_LobbyNameplate_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnInitialized");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.OnInitialized"));
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UNewWBP_LobbyNameplate_C::OnInitialized()
 
 void UNewWBP_LobbyNameplate_C::RefreshRankedData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.RefreshRankedData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.RefreshRankedData"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void UNewWBP_LobbyNameplate_C::RefreshRankedData()
 
 void UNewWBP_LobbyNameplate_C::ExecuteUbergraph_NewWBP_LobbyNameplate(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.ExecuteUbergraph_NewWBP_LobbyNameplate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C.ExecuteUbergraph_NewWBP_LobbyNameplate"));
 
 	struct
 	{

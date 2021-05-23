@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_TabScreenWidget_C::HandleMuteOption(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleMuteOption");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleMuteOption"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UWBP_TabScreenWidget_C::HandleMuteOption(class AKSPlayerState* PlayerState)
 
 void UWBP_TabScreenWidget_C::IsOppositeTeam(class AKSPlayerState* PlayerState, bool* IsOppositeTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.IsOppositeTeam");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.IsOppositeTeam"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_TabScreenWidget_C::IsOppositeTeam(class AKSPlayerState* PlayerState, b
 
 void UWBP_TabScreenWidget_C::ClearVoteInput()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ClearVoteInput");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ClearVoteInput"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UWBP_TabScreenWidget_C::ClearVoteInput()
 
 void UWBP_TabScreenWidget_C::ChangeFocusable(bool Is_Focusable)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ChangeFocusable");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ChangeFocusable"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_TabScreenWidget_C::ChangeFocusable(bool Is_Focusable)
 
 void UWBP_TabScreenWidget_C::UpdateAfterTabChange()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.UpdateAfterTabChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.UpdateAfterTabChange"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_TabScreenWidget_C::UpdateAfterTabChange()
 
 void UWBP_TabScreenWidget_C::RegisterAllForFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.RegisterAllForFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.RegisterAllForFocus"));
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_TabScreenWidget_C::RegisterAllForFocus()
 
 void UWBP_TabScreenWidget_C::SetupContextPrompts(class AHUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetupContextPrompts");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetupContextPrompts"));
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UWBP_TabScreenWidget_C::SetupContextPrompts(class AHUD* HUD)
 
 void UWBP_TabScreenWidget_C::SetupReportButtonNav()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetupReportButtonNav");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetupReportButtonNav"));
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_TabScreenWidget_C::SetupReportButtonNav()
 
 void UWBP_TabScreenWidget_C::HandlePlayerReported(int64_t PlayerId, bool Success)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandlePlayerReported");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandlePlayerReported"));
 
 	struct
 	{
@@ -189,7 +189,7 @@ void UWBP_TabScreenWidget_C::HandlePlayerReported(int64_t PlayerId, bool Success
 
 void UWBP_TabScreenWidget_C::InitializeReportPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeReportPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeReportPlayer"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void UWBP_TabScreenWidget_C::InitializeReportPlayer()
 
 void UWBP_TabScreenWidget_C::ResetScoreboardNav()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ResetScoreboardNav");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ResetScoreboardNav"));
 
 	struct
 	{
@@ -223,7 +223,7 @@ void UWBP_TabScreenWidget_C::ResetScoreboardNav()
 
 void UWBP_TabScreenWidget_C::MoveFocusTo(const struct FName& ToGoScreen)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.MoveFocusTo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.MoveFocusTo"));
 
 	struct
 	{
@@ -241,7 +241,7 @@ void UWBP_TabScreenWidget_C::MoveFocusTo(const struct FName& ToGoScreen)
 
 void UWBP_TabScreenWidget_C::HandleOnActionBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleOnActionBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleOnActionBack"));
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UWBP_TabScreenWidget_C::HandleOnActionBack()
 
 void UWBP_TabScreenWidget_C::HandleOnPlayerReported(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleOnPlayerReported");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleOnPlayerReported"));
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UWBP_TabScreenWidget_C::HandleOnPlayerReported(class UKSPlayerInfo* playeri
 
 void UWBP_TabScreenWidget_C::InitializePlayerAction()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializePlayerAction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializePlayerAction"));
 
 	struct
 	{
@@ -293,7 +293,7 @@ void UWBP_TabScreenWidget_C::InitializePlayerAction()
 
 void UWBP_TabScreenWidget_C::InitializeScoreboard()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeScoreboard");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeScoreboard"));
 
 	struct
 	{
@@ -311,7 +311,7 @@ void UWBP_TabScreenWidget_C::InitializeScoreboard()
 
 void UWBP_TabScreenWidget_C::SetupPlayerActionNavigation(class UWidget* DefaultWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetupPlayerActionNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetupPlayerActionNavigation"));
 
 	struct
 	{
@@ -331,7 +331,7 @@ void UWBP_TabScreenWidget_C::SetupPlayerActionNavigation(class UWidget* DefaultW
 
 void UWBP_TabScreenWidget_C::ToggleHideCursor(bool ShouldHide)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ToggleHideCursor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ToggleHideCursor"));
 
 	struct
 	{
@@ -353,7 +353,7 @@ void UWBP_TabScreenWidget_C::ToggleHideCursor(bool ShouldHide)
 
 struct FEventReply UWBP_TabScreenWidget_C::OnMouseMove(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OnMouseMove");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OnMouseMove"));
 
 	struct
 	{
@@ -378,7 +378,7 @@ struct FEventReply UWBP_TabScreenWidget_C::OnMouseMove(const struct FGeometry& M
 
 bool UWBP_TabScreenWidget_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.NavigateBack"));
 
 	struct
 	{
@@ -401,7 +401,7 @@ bool UWBP_TabScreenWidget_C::NavigateBack()
 
 struct FEventReply UWBP_TabScreenWidget_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OnKeyUp"));
 
 	struct
 	{
@@ -424,7 +424,7 @@ struct FEventReply UWBP_TabScreenWidget_C::OnKeyUp(const struct FGeometry& MyGeo
 
 void UWBP_TabScreenWidget_C::SetupScoreboardNav()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetupScoreboardNav");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetupScoreboardNav"));
 
 	struct
 	{
@@ -442,7 +442,7 @@ void UWBP_TabScreenWidget_C::SetupScoreboardNav()
 
 void UWBP_TabScreenWidget_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleInputModeChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleInputModeChanged"));
 
 	struct
 	{
@@ -462,7 +462,7 @@ void UWBP_TabScreenWidget_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STA
 
 void UWBP_TabScreenWidget_C::HasTabs(bool* HasTabs)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HasTabs");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HasTabs"));
 
 	struct
 	{
@@ -484,7 +484,7 @@ void UWBP_TabScreenWidget_C::HasTabs(bool* HasTabs)
 
 void UWBP_TabScreenWidget_C::HandleNavButtonClicked(class UWidget* TargetWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleNavButtonClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.HandleNavButtonClicked"));
 
 	struct
 	{
@@ -504,7 +504,7 @@ void UWBP_TabScreenWidget_C::HandleNavButtonClicked(class UWidget* TargetWidget)
 
 void UWBP_TabScreenWidget_C::Cycle_Tabs(bool Reverse)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Cycle Tabs");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Cycle Tabs"));
 
 	struct
 	{
@@ -526,7 +526,7 @@ void UWBP_TabScreenWidget_C::Cycle_Tabs(bool Reverse)
 
 void UWBP_TabScreenWidget_C::IncrementTabWrapped(int In, bool Reverse, int* Out)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.IncrementTabWrapped");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.IncrementTabWrapped"));
 
 	struct
 	{
@@ -550,7 +550,7 @@ void UWBP_TabScreenWidget_C::IncrementTabWrapped(int In, bool Reverse, int* Out)
 
 void UWBP_TabScreenWidget_C::Refresh_Tabs()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Refresh Tabs");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Refresh Tabs"));
 
 	struct
 	{
@@ -566,7 +566,7 @@ void UWBP_TabScreenWidget_C::Refresh_Tabs()
 
 void UWBP_TabScreenWidget_C::SetGamepadCallouts()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetGamepadCallouts");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.SetGamepadCallouts"));
 
 	struct
 	{
@@ -584,7 +584,7 @@ void UWBP_TabScreenWidget_C::SetGamepadCallouts()
 
 void UWBP_TabScreenWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeWidget"));
 
 	struct
 	{
@@ -602,7 +602,7 @@ void UWBP_TabScreenWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_TabScreenWidget_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -618,7 +618,7 @@ void UWBP_TabScreenWidget_C::InitializeWidgetNavigation()
 
 void UWBP_TabScreenWidget_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OnShown"));
 
 	struct
 	{
@@ -634,7 +634,7 @@ void UWBP_TabScreenWidget_C::OnShown()
 
 void UWBP_TabScreenWidget_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OnHide"));
 
 	struct
 	{
@@ -650,7 +650,7 @@ void UWBP_TabScreenWidget_C::OnHide()
 
 void UWBP_TabScreenWidget_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeWidgetButtonListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.InitializeWidgetButtonListeners"));
 
 	struct
 	{
@@ -666,7 +666,7 @@ void UWBP_TabScreenWidget_C::InitializeWidgetButtonListeners()
 
 void UWBP_TabScreenWidget_C::NavLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.NavLeft");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.NavLeft"));
 
 	struct
 	{
@@ -682,7 +682,7 @@ void UWBP_TabScreenWidget_C::NavLeft()
 
 void UWBP_TabScreenWidget_C::NavRight()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.NavRight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.NavRight"));
 
 	struct
 	{
@@ -698,7 +698,7 @@ void UWBP_TabScreenWidget_C::NavRight()
 
 void UWBP_TabScreenWidget_C::OpenTimerGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OpenTimerGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.OpenTimerGate"));
 
 	struct
 	{
@@ -714,7 +714,7 @@ void UWBP_TabScreenWidget_C::OpenTimerGate()
 
 void UWBP_TabScreenWidget_C::CloseTimerGate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.CloseTimerGate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.CloseTimerGate"));
 
 	struct
 	{
@@ -733,7 +733,7 @@ void UWBP_TabScreenWidget_C::CloseTimerGate()
 
 void UWBP_TabScreenWidget_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Tick"));
 
 	struct
 	{
@@ -753,7 +753,7 @@ void UWBP_TabScreenWidget_C::Tick(const struct FGeometry& MyGeometry, float InDe
 
 void UWBP_TabScreenWidget_C::AttemptCloseTab()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.AttemptCloseTab");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.AttemptCloseTab"));
 
 	struct
 	{
@@ -769,7 +769,7 @@ void UWBP_TabScreenWidget_C::AttemptCloseTab()
 
 void UWBP_TabScreenWidget_C::FocusScoreboardPlayerEntries()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.FocusScoreboardPlayerEntries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.FocusScoreboardPlayerEntries"));
 
 	struct
 	{
@@ -785,7 +785,7 @@ void UWBP_TabScreenWidget_C::FocusScoreboardPlayerEntries()
 
 void UWBP_TabScreenWidget_C::ResetScoreboardFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ResetScoreboardFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ResetScoreboardFocus"));
 
 	struct
 	{
@@ -804,7 +804,7 @@ void UWBP_TabScreenWidget_C::ResetScoreboardFocus()
 
 void UWBP_TabScreenWidget_C::ShowPlayerOptions(class UKSPersistentPlayerData* NewPlayerState, class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ShowPlayerOptions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ShowPlayerOptions"));
 
 	struct
 	{
@@ -826,7 +826,7 @@ void UWBP_TabScreenWidget_C::ShowPlayerOptions(class UKSPersistentPlayerData* Ne
 
 void UWBP_TabScreenWidget_C::Handle_KillCamEnabled(bool bEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Handle KillCamEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Handle KillCamEnabled"));
 
 	struct
 	{
@@ -844,7 +844,7 @@ void UWBP_TabScreenWidget_C::Handle_KillCamEnabled(bool bEnabled)
 
 void UWBP_TabScreenWidget_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Construct"));
 
 	struct
 	{
@@ -860,7 +860,7 @@ void UWBP_TabScreenWidget_C::Construct()
 
 void UWBP_TabScreenWidget_C::Handle_Back_Button_Clicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Handle Back Button Clicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Handle Back Button Clicked"));
 
 	struct
 	{
@@ -876,7 +876,7 @@ void UWBP_TabScreenWidget_C::Handle_Back_Button_Clicked()
 
 void UWBP_TabScreenWidget_C::UnfocusScoreboardPlayers()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.UnfocusScoreboardPlayers");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.UnfocusScoreboardPlayers"));
 
 	struct
 	{
@@ -894,7 +894,7 @@ void UWBP_TabScreenWidget_C::UnfocusScoreboardPlayers()
 
 void UWBP_TabScreenWidget_C::AttemptCloseTabFromKeyUp(bool bKeyboardInput)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.AttemptCloseTabFromKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.AttemptCloseTabFromKeyUp"));
 
 	struct
 	{
@@ -912,7 +912,7 @@ void UWBP_TabScreenWidget_C::AttemptCloseTabFromKeyUp(bool bKeyboardInput)
 
 void UWBP_TabScreenWidget_C::BndEvt__ContextMenuBlocker_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.BndEvt__ContextMenuBlocker_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.BndEvt__ContextMenuBlocker_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -928,7 +928,7 @@ void UWBP_TabScreenWidget_C::BndEvt__ContextMenuBlocker_K2Node_ComponentBoundEve
 
 void UWBP_TabScreenWidget_C::ReturnToScoreboardPlayerEntries()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ReturnToScoreboardPlayerEntries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ReturnToScoreboardPlayerEntries"));
 
 	struct
 	{
@@ -944,7 +944,7 @@ void UWBP_TabScreenWidget_C::ReturnToScoreboardPlayerEntries()
 
 void UWBP_TabScreenWidget_C::Handle_Context_Options_Updated()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Handle Context Options Updated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.Handle Context Options Updated"));
 
 	struct
 	{
@@ -962,7 +962,7 @@ void UWBP_TabScreenWidget_C::Handle_Context_Options_Updated()
 
 void UWBP_TabScreenWidget_C::ExecuteUbergraph_WBP_TabScreenWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ExecuteUbergraph_WBP_TabScreenWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabScreenWidget.WBP_TabScreenWidget_C.ExecuteUbergraph_WBP_TabScreenWidget"));
 
 	struct
 	{

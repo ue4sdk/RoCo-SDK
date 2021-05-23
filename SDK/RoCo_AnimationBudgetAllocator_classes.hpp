@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AnimationBudgetAllocator.AnimationBudgetBlueprintLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimationBudgetAllocator.AnimationBudgetBlueprintLibrary"));
 		return ptr;
 	}
 
@@ -45,7 +45,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AnimationBudgetAllocator.SkeletalMeshComponentBudgeted");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimationBudgetAllocator.SkeletalMeshComponentBudgeted"));
 		return ptr;
 	}
 

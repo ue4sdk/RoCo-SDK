@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass ExtractionCoop_GameState.ExtractionCoop_GameState_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass ExtractionCoop_GameState.ExtractionCoop_GameState_C"));
 		return ptr;
 	}
 

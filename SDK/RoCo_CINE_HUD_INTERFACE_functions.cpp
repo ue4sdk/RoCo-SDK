@@ -22,7 +22,7 @@ namespace SDK
 
 void UCINE_HUD_INTERFACE_C::Init_WalkIn_Widget(class AKSJobSelectPreviewActor* In_Player_01, class AKSJobSelectPreviewActor* In_Player_02, class AKSJobSelectPreviewActor* In_Player_03, class AKSJobSelectPreviewActor* In_Player_04)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Init WalkIn Widget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Init WalkIn Widget"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UCINE_HUD_INTERFACE_C::Init_WalkIn_Widget(class AKSJobSelectPreviewActor* I
 
 void UCINE_HUD_INTERFACE_C::Set_Cinematic_Nameplate_Data(class UKSPersistentPlayerData* Player_Data, int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Set Cinematic Nameplate Data");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Set Cinematic Nameplate Data"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UCINE_HUD_INTERFACE_C::Set_Cinematic_Nameplate_Data(class UKSPersistentPlay
 
 void UCINE_HUD_INTERFACE_C::Play_Cinematic_Nameplate_Anim(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Play Cinematic Nameplate Anim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Play Cinematic Nameplate Anim"));
 
 	struct
 	{

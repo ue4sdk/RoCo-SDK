@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_CreateCustomGame_MapButton_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.NavigateConfirm"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ bool UWBP_CreateCustomGame_MapButton_C::NavigateConfirm()
 
 void UWBP_CreateCustomGame_MapButton_C::SetMap(int MapId, const struct FMapDetail& MapInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.SetMap");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.SetMap"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_CreateCustomGame_MapButton_C::SetMap(int MapId, const struct FMapDetai
 
 void UWBP_CreateCustomGame_MapButton_C::BndEvt__Button_195_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.BndEvt__Button_195_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.BndEvt__Button_195_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_CreateCustomGame_MapButton_C::BndEvt__Button_195_K2Node_ComponentBound
 
 void UWBP_CreateCustomGame_MapButton_C::BndEvt__Button_195_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.BndEvt__Button_195_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.BndEvt__Button_195_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_CreateCustomGame_MapButton_C::BndEvt__Button_195_K2Node_ComponentBound
 
 void UWBP_CreateCustomGame_MapButton_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.InitializeWidget"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_CreateCustomGame_MapButton_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CreateCustomGame_MapButton_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.GamepadHover"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_CreateCustomGame_MapButton_C::GamepadHover()
 
 void UWBP_CreateCustomGame_MapButton_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.GamepadUnhover"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_CreateCustomGame_MapButton_C::GamepadUnhover()
 
 void UWBP_CreateCustomGame_MapButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_CreateCustomGame_MapButton_C::BndEvt__HitTarget_K2Node_ComponentBoundE
 
 void UWBP_CreateCustomGame_MapButton_C::OnGamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.OnGamepadConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.OnGamepadConfirm"));
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UWBP_CreateCustomGame_MapButton_C::OnGamepadConfirm()
 
 void UWBP_CreateCustomGame_MapButton_C::ExecuteUbergraph_WBP_CreateCustomGame_MapButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.ExecuteUbergraph_WBP_CreateCustomGame_MapButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.ExecuteUbergraph_WBP_CreateCustomGame_MapButton"));
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UWBP_CreateCustomGame_MapButton_C::ExecuteUbergraph_WBP_CreateCustomGame_Ma
 
 void UWBP_CreateCustomGame_MapButton_C::OnMapSelected__DelegateSignature(int MapId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.OnMapSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame_MapButton.WBP_CreateCustomGame_MapButton_C.OnMapSelected__DelegateSignature"));
 
 	struct
 	{

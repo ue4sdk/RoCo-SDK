@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_BattlePassAcquisitionTitle_C::SetPremiumUpsellState(int PremiumItems)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassAcquisitionTitle.WBP_BattlePassAcquisitionTitle_C.SetPremiumUpsellState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassAcquisitionTitle.WBP_BattlePassAcquisitionTitle_C.SetPremiumUpsellState"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_BattlePassAcquisitionTitle_C::SetPremiumUpsellState(int PremiumItems)
 
 void UWBP_BattlePassAcquisitionTitle_C::InitializeWithAcquisition(class UKSAcquisition* Acquisition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassAcquisitionTitle.WBP_BattlePassAcquisitionTitle_C.InitializeWithAcquisition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassAcquisitionTitle.WBP_BattlePassAcquisitionTitle_C.InitializeWithAcquisition"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_BattlePassAcquisitionTitle_C::InitializeWithAcquisition(class UKSAcqui
 
 void UWBP_BattlePassAcquisitionTitle_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassAcquisitionTitle.WBP_BattlePassAcquisitionTitle_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassAcquisitionTitle.WBP_BattlePassAcquisitionTitle_C.InitializeWidget"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_BattlePassAcquisitionTitle_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlePassAcquisitionTitle_C::ExecuteUbergraph_WBP_BattlePassAcquisitionTitle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassAcquisitionTitle.WBP_BattlePassAcquisitionTitle_C.ExecuteUbergraph_WBP_BattlePassAcquisitionTitle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassAcquisitionTitle.WBP_BattlePassAcquisitionTitle_C.ExecuteUbergraph_WBP_BattlePassAcquisitionTitle"));
 
 	struct
 	{

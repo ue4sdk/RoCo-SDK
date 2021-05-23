@@ -19,7 +19,7 @@ namespace SDK
 
 void UAllyMinimapIcon_C::UIRelevantChanged(class AKSPlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMinimapIcon.AllyMinimapIcon_C.UIRelevantChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMinimapIcon.AllyMinimapIcon_C.UIRelevantChanged"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UAllyMinimapIcon_C::UIRelevantChanged(class AKSPlayerState* bpp__PlayerStat
 
 void UAllyMinimapIcon_C::Tick(const struct FGeometry& bpp__MyGeometry__pf, float bpp__InDeltaTime__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMinimapIcon.AllyMinimapIcon_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMinimapIcon.AllyMinimapIcon_C.Tick"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UAllyMinimapIcon_C::Tick(const struct FGeometry& bpp__MyGeometry__pf, float
 
 void UAllyMinimapIcon_C::OnSetupStart()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMinimapIcon.AllyMinimapIcon_C.OnSetupStart");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMinimapIcon.AllyMinimapIcon_C.OnSetupStart"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UAllyMinimapIcon_C::OnSetupStart()
 
 void UAllyMinimapIcon_C::OnPlayerRevived(class AKSPlayerState* bpp__Revivee__pf, class AKSPlayerState* bpp__Reviver__pf, int bpp__ExpBonus__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMinimapIcon.AllyMinimapIcon_C.OnPlayerRevived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMinimapIcon.AllyMinimapIcon_C.OnPlayerRevived"));
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UAllyMinimapIcon_C::OnPlayerRevived(class AKSPlayerState* bpp__Revivee__pf,
 
 void UAllyMinimapIcon_C::OnPlayerDown(const struct FCombatEventInfo& bpp__CombatEventInfo__pf, int bpp__ExpBonus__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMinimapIcon.AllyMinimapIcon_C.OnPlayerDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMinimapIcon.AllyMinimapIcon_C.OnPlayerDown"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UAllyMinimapIcon_C::OnPlayerDown(const struct FCombatEventInfo& bpp__Combat
 
 void UAllyMinimapIcon_C::Handle_Bomb_State_Changed(const struct FKSNeutralBombState& bpp__BombState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMinimapIcon.AllyMinimapIcon_C.Handle Bomb State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMinimapIcon.AllyMinimapIcon_C.Handle Bomb State Changed"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UAllyMinimapIcon_C::Handle_Bomb_State_Changed(const struct FKSNeutralBombSt
 
 void UAllyMinimapIcon_C::HandleMapIconWidgetReady()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMinimapIcon.AllyMinimapIcon_C.HandleMapIconWidgetReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMinimapIcon.AllyMinimapIcon_C.HandleMapIconWidgetReady"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UAllyMinimapIcon_C::HandleMapIconWidgetReady()
 
 void UAllyMinimapIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMinimapIcon.AllyMinimapIcon_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMinimapIcon.AllyMinimapIcon_C.Construct"));
 
 	struct
 	{
@@ -181,7 +181,7 @@ void UAllyMinimapIcon_C::Construct()
 
 void UAllyMinimapIcon_C::PlayerReviveDelegate__DelegateSignature(class AKSPlayerState* bpp__Revivee__pf, class AKSPlayerState* bpp__Reviver__pf, int bpp__ExpBonus__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.PlayerReviveDelegate__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.PlayerReviveDelegate__DelegateSignature"));
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UAllyMinimapIcon_C::PlayerReviveDelegate__DelegateSignature(class AKSPlayer
 
 void UAllyMinimapIcon_C::PlayerDownInfo__DelegateSignature(const struct FCombatEventInfo& bpp__EventInfo__pf, int bpp__ExpBonus__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.PlayerDownInfo__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.PlayerDownInfo__DelegateSignature"));
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UAllyMinimapIcon_C::PlayerDownInfo__DelegateSignature(const struct FCombatE
 
 void UAllyMinimapIcon_C::OnUIRelevantPlayerStateChanged__DelegateSignature(class AKSPlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnUIRelevantPlayerStateChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnUIRelevantPlayerStateChanged__DelegateSignature"));
 
 	struct
 	{
@@ -246,7 +246,7 @@ void UAllyMinimapIcon_C::OnUIRelevantPlayerStateChanged__DelegateSignature(class
 
 void UAllyMinimapIcon_C::OnSetupPhaseStart__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnSetupPhaseStart__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnSetupPhaseStart__DelegateSignature"));
 
 	struct
 	{
@@ -264,7 +264,7 @@ void UAllyMinimapIcon_C::OnSetupPhaseStart__DelegateSignature()
 
 void UAllyMinimapIcon_C::OnNeutralBombStateChanged__DelegateSignature(const struct FKSNeutralBombState& bpp__BombState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnNeutralBombStateChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnNeutralBombStateChanged__DelegateSignature"));
 
 	struct
 	{
@@ -282,7 +282,7 @@ void UAllyMinimapIcon_C::OnNeutralBombStateChanged__DelegateSignature(const stru
 
 void UAllyMinimapIcon_C::OnMapIconWidgetReady__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnMapIconWidgetReady__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnMapIconWidgetReady__DelegateSignature"));
 
 	struct
 	{

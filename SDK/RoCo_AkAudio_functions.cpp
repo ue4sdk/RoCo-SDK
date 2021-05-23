@@ -17,7 +17,7 @@ namespace SDK
 
 void AAkAcousticPortal::OpenPortal()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAcousticPortal.OpenPortal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAcousticPortal.OpenPortal"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void AAkAcousticPortal::OpenPortal()
 
 EAkAcousticPortalState AAkAcousticPortal::GetCurrentState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAcousticPortal.GetCurrentState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAcousticPortal.GetCurrentState"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ EAkAcousticPortalState AAkAcousticPortal::GetCurrentState()
 
 void AAkAcousticPortal::ClosePortal()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAcousticPortal.ClosePortal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAcousticPortal.ClosePortal"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void AAkAcousticPortal::ClosePortal()
 
 void AAkAmbientSound::StopAmbientSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAmbientSound.StopAmbientSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAmbientSound.StopAmbientSound"));
 
 	struct
 	{
@@ -86,7 +86,7 @@ void AAkAmbientSound::StopAmbientSound()
 
 void AAkAmbientSound::StartAmbientSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAmbientSound.StartAmbientSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAmbientSound.StartAmbientSound"));
 
 	struct
 	{
@@ -104,7 +104,7 @@ void AAkAmbientSound::StartAmbientSound()
 
 void UAkAndroidInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAndroidInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAndroidInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UAkAndroidInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 float UAkAudioEvent::MinimumDuration()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAudioEvent.MinimumDuration");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAudioEvent.MinimumDuration"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ float UAkAudioEvent::MinimumDuration()
 
 float UAkAudioEvent::MaximumDuration()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAudioEvent.MaximumDuration");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAudioEvent.MaximumDuration"));
 
 	struct
 	{
@@ -166,7 +166,7 @@ float UAkAudioEvent::MaximumDuration()
 
 float UAkAudioEvent::MaxAttenuationRadius()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAudioEvent.MaxAttenuationRadius");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAudioEvent.MaxAttenuationRadius"));
 
 	struct
 	{
@@ -187,7 +187,7 @@ float UAkAudioEvent::MaxAttenuationRadius()
 
 bool UAkAudioEvent::IsInfinite()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAudioEvent.IsInfinite");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAudioEvent.IsInfinite"));
 
 	struct
 	{
@@ -208,7 +208,7 @@ bool UAkAudioEvent::IsInfinite()
 
 float UAkAudioEvent::GetMaxAttenuationRadius()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAudioEvent.GetMaxAttenuationRadius");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAudioEvent.GetMaxAttenuationRadius"));
 
 	struct
 	{
@@ -227,7 +227,7 @@ float UAkAudioEvent::GetMaxAttenuationRadius()
 
 void UAkGameObject::Stop()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameObject.Stop");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameObject.Stop"));
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UAkGameObject::Stop()
 
 void UAkGameObject::PostAssociatedAkEventAsync(class UObject* WorldContextObject, int CallbackMask, const struct FScriptDelegate& PostEventCallback, TArray<struct FAkExternalSourceInfo> ExternalSources, const struct FLatentActionInfo& LatentInfo, int* PlayingID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameObject.PostAssociatedAkEventAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameObject.PostAssociatedAkEventAsync"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UAkGameObject::PostAssociatedAkEventAsync(class UObject* WorldContextObject
 
 int UAkGameObject::PostAssociatedAkEvent(int CallbackMask, const struct FScriptDelegate& PostEventCallback, TArray<struct FAkExternalSourceInfo> ExternalSources)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameObject.PostAssociatedAkEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameObject.PostAssociatedAkEvent"));
 
 	struct
 	{
@@ -318,7 +318,7 @@ int UAkGameObject::PostAssociatedAkEvent(int CallbackMask, const struct FScriptD
 
 void UAkGameObject::PostAkEventAsync(class UObject* WorldContextObject, class UAkAudioEvent* AkEvent, int CallbackMask, const struct FScriptDelegate& PostEventCallback, TArray<struct FAkExternalSourceInfo> ExternalSources, const struct FLatentActionInfo& LatentInfo, int* PlayingID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameObject.PostAkEventAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameObject.PostAkEventAsync"));
 
 	struct
 	{
@@ -357,7 +357,7 @@ void UAkGameObject::PostAkEventAsync(class UObject* WorldContextObject, class UA
 
 int UAkGameObject::PostAkEvent(class UAkAudioEvent* AkEvent, int CallbackMask, const struct FScriptDelegate& PostEventCallback, TArray<struct FAkExternalSourceInfo> ExternalSources, const struct FString& in_EventName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameObject.PostAkEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameObject.PostAkEvent"));
 
 	struct
 	{
@@ -388,7 +388,7 @@ int UAkGameObject::PostAkEvent(class UAkAudioEvent* AkEvent, int CallbackMask, c
 
 void UAkComponent::UseReverbVolumes(bool inUseReverbVolumes)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.UseReverbVolumes");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.UseReverbVolumes"));
 
 	struct
 	{
@@ -413,7 +413,7 @@ void UAkComponent::UseReverbVolumes(bool inUseReverbVolumes)
 
 void UAkComponent::UseEarlyReflections(class UAkAuxBus* AuxBus, int Order, float BusSendGain, float MaxPathLength, bool SpotReflectors, const struct FString& AuxBusName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.UseEarlyReflections");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.UseEarlyReflections"));
 
 	struct
 	{
@@ -445,7 +445,7 @@ void UAkComponent::UseEarlyReflections(class UAkAuxBus* AuxBus, int Order, float
 
 void UAkComponent::SetSwitch(class UAkSwitchValue* SwitchValue, const struct FString& SwitchGroup, const struct FString& SwitchState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.SetSwitch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.SetSwitch"));
 
 	struct
 	{
@@ -469,7 +469,7 @@ void UAkComponent::SetSwitch(class UAkSwitchValue* SwitchValue, const struct FSt
 
 void UAkComponent::SetStopWhenOwnerDestroyed(bool bStopWhenOwnerDestroyed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.SetStopWhenOwnerDestroyed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.SetStopWhenOwnerDestroyed"));
 
 	struct
 	{
@@ -492,7 +492,7 @@ void UAkComponent::SetStopWhenOwnerDestroyed(bool bStopWhenOwnerDestroyed)
 
 void UAkComponent::SetRTPCValue(class UAkRtpc* RTPCValue, float Value, int InterpolationTimeMs, const struct FString& RTPC)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.SetRTPCValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.SetRTPCValue"));
 
 	struct
 	{
@@ -518,7 +518,7 @@ void UAkComponent::SetRTPCValue(class UAkRtpc* RTPCValue, float Value, int Inter
 
 void UAkComponent::SetOutputBusVolume(float BusVolume)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.SetOutputBusVolume");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.SetOutputBusVolume"));
 
 	struct
 	{
@@ -538,7 +538,7 @@ void UAkComponent::SetOutputBusVolume(float BusVolume)
 
 void UAkComponent::SetListeners(TArray<class UAkComponent*> Listeners)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.SetListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.SetListeners"));
 
 	struct
 	{
@@ -558,7 +558,7 @@ void UAkComponent::SetListeners(TArray<class UAkComponent*> Listeners)
 
 void UAkComponent::SetEarlyReflectionsVolume(float SendVolume)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.SetEarlyReflectionsVolume");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.SetEarlyReflectionsVolume"));
 
 	struct
 	{
@@ -578,7 +578,7 @@ void UAkComponent::SetEarlyReflectionsVolume(float SendVolume)
 
 void UAkComponent::SetEarlyReflectionsAuxBus(const struct FString& AuxBusName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.SetEarlyReflectionsAuxBus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.SetEarlyReflectionsAuxBus"));
 
 	struct
 	{
@@ -598,7 +598,7 @@ void UAkComponent::SetEarlyReflectionsAuxBus(const struct FString& AuxBusName)
 
 void UAkComponent::SetAttenuationScalingFactor(float Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.SetAttenuationScalingFactor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.SetAttenuationScalingFactor"));
 
 	struct
 	{
@@ -619,7 +619,7 @@ void UAkComponent::SetAttenuationScalingFactor(float Value)
 
 void UAkComponent::PostTrigger(class UAkTrigger* TriggerValue, const struct FString& Trigger)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.PostTrigger");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.PostTrigger"));
 
 	struct
 	{
@@ -643,7 +643,7 @@ void UAkComponent::PostTrigger(class UAkTrigger* TriggerValue, const struct FStr
 
 void UAkComponent::PostAssociatedAkEventAndWaitForEndAsync(TArray<struct FAkExternalSourceInfo> ExternalSources, const struct FLatentActionInfo& LatentInfo, int* PlayingID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.PostAssociatedAkEventAndWaitForEndAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.PostAssociatedAkEventAndWaitForEndAsync"));
 
 	struct
 	{
@@ -671,7 +671,7 @@ void UAkComponent::PostAssociatedAkEventAndWaitForEndAsync(TArray<struct FAkExte
 
 int UAkComponent::PostAssociatedAkEventAndWaitForEnd(TArray<struct FAkExternalSourceInfo> ExternalSources, const struct FLatentActionInfo& LatentInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.PostAssociatedAkEventAndWaitForEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.PostAssociatedAkEventAndWaitForEnd"));
 
 	struct
 	{
@@ -697,7 +697,7 @@ int UAkComponent::PostAssociatedAkEventAndWaitForEnd(TArray<struct FAkExternalSo
 
 int UAkComponent::PostAkEventByName(const struct FString& in_EventName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.PostAkEventByName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.PostAkEventByName"));
 
 	struct
 	{
@@ -723,7 +723,7 @@ int UAkComponent::PostAkEventByName(const struct FString& in_EventName)
 
 void UAkComponent::PostAkEventAndWaitForEndAsync(class UAkAudioEvent* AkEvent, TArray<struct FAkExternalSourceInfo> ExternalSources, const struct FLatentActionInfo& LatentInfo, int* PlayingID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.PostAkEventAndWaitForEndAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.PostAkEventAndWaitForEndAsync"));
 
 	struct
 	{
@@ -755,7 +755,7 @@ void UAkComponent::PostAkEventAndWaitForEndAsync(class UAkAudioEvent* AkEvent, T
 
 int UAkComponent::PostAkEventAndWaitForEnd(class UAkAudioEvent* AkEvent, const struct FString& in_EventName, TArray<struct FAkExternalSourceInfo> ExternalSources, const struct FLatentActionInfo& LatentInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.PostAkEventAndWaitForEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.PostAkEventAndWaitForEnd"));
 
 	struct
 	{
@@ -789,7 +789,7 @@ int UAkComponent::PostAkEventAndWaitForEnd(class UAkAudioEvent* AkEvent, const s
 
 void UAkComponent::GetRTPCValue(class UAkRtpc* RTPCValue, ERTPCValueType InputValueType, const struct FString& RTPC, int PlayingID, float* Value, ERTPCValueType* OutputValueType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.GetRTPCValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.GetRTPCValue"));
 
 	struct
 	{
@@ -822,7 +822,7 @@ void UAkComponent::GetRTPCValue(class UAkRtpc* RTPCValue, ERTPCValueType InputVa
 
 float UAkComponent::GetAttenuationRadius()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkComponent.GetAttenuationRadius");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkComponent.GetAttenuationRadius"));
 
 	struct
 	{
@@ -843,7 +843,7 @@ float UAkComponent::GetAttenuationRadius()
 
 int UAkAudioInputComponent::PostAssociatedAudioInputEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkAudioInputComponent.PostAssociatedAudioInputEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkAudioInputComponent.PostAssociatedAudioInputEvent"));
 
 	struct
 	{
@@ -864,7 +864,7 @@ int UAkAudioInputComponent::PostAssociatedAudioInputEvent()
 
 void UAkCheckBox::SetIsChecked(bool InIsChecked)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkCheckBox.SetIsChecked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkCheckBox.SetIsChecked"));
 
 	struct
 	{
@@ -884,7 +884,7 @@ void UAkCheckBox::SetIsChecked(bool InIsChecked)
 
 void UAkCheckBox::SetCheckedState(ECheckBoxState InCheckedState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkCheckBox.SetCheckedState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkCheckBox.SetCheckedState"));
 
 	struct
 	{
@@ -904,7 +904,7 @@ void UAkCheckBox::SetCheckedState(ECheckBoxState InCheckedState)
 
 void UAkCheckBox::SetAkItemId(const struct FGuid& ItemId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkCheckBox.SetAkItemId");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkCheckBox.SetAkItemId"));
 
 	struct
 	{
@@ -924,7 +924,7 @@ void UAkCheckBox::SetAkItemId(const struct FGuid& ItemId)
 
 void UAkCheckBox::SetAkBoolProperty(const struct FString& ItemProperty)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkCheckBox.SetAkBoolProperty");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkCheckBox.SetAkBoolProperty"));
 
 	struct
 	{
@@ -944,7 +944,7 @@ void UAkCheckBox::SetAkBoolProperty(const struct FString& ItemProperty)
 
 bool UAkCheckBox::IsPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkCheckBox.IsPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkCheckBox.IsPressed"));
 
 	struct
 	{
@@ -965,7 +965,7 @@ bool UAkCheckBox::IsPressed()
 
 bool UAkCheckBox::IsChecked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkCheckBox.IsChecked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkCheckBox.IsChecked"));
 
 	struct
 	{
@@ -986,7 +986,7 @@ bool UAkCheckBox::IsChecked()
 
 ECheckBoxState UAkCheckBox::GetCheckedState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkCheckBox.GetCheckedState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkCheckBox.GetCheckedState"));
 
 	struct
 	{
@@ -1007,7 +1007,7 @@ ECheckBoxState UAkCheckBox::GetCheckedState()
 
 struct FString UAkCheckBox::GetAkProperty()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkCheckBox.GetAkProperty");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkCheckBox.GetAkProperty"));
 
 	struct
 	{
@@ -1028,7 +1028,7 @@ struct FString UAkCheckBox::GetAkProperty()
 
 struct FGuid UAkCheckBox::GetAkItemId()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkCheckBox.GetAkItemId");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkCheckBox.GetAkItemId"));
 
 	struct
 	{
@@ -1050,7 +1050,7 @@ struct FGuid UAkCheckBox::GetAkItemId()
 
 void UAkGameplayStatics::UseReverbVolumes(bool inUseReverbVolumes, class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.UseReverbVolumes");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.UseReverbVolumes"));
 
 	struct
 	{
@@ -1079,7 +1079,7 @@ void UAkGameplayStatics::UseReverbVolumes(bool inUseReverbVolumes, class AActor*
 
 void UAkGameplayStatics::UseEarlyReflections(class AActor* Actor, class UAkAuxBus* AuxBus, int Order, float BusSendGain, float MaxPathLength, bool SpotReflectors, const struct FString& AuxBusName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.UseEarlyReflections");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.UseEarlyReflections"));
 
 	struct
 	{
@@ -1112,7 +1112,7 @@ void UAkGameplayStatics::UseEarlyReflections(class AActor* Actor, class UAkAuxBu
 
 void UAkGameplayStatics::UnloadBankByName(const struct FString& BankName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.UnloadBankByName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.UnloadBankByName"));
 
 	struct
 	{
@@ -1134,7 +1134,7 @@ void UAkGameplayStatics::UnloadBankByName(const struct FString& BankName)
 
 void UAkGameplayStatics::UnloadBankAsync(class UAkAudioBank* Bank, const struct FScriptDelegate& BankUnloadedCallback)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.UnloadBankAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.UnloadBankAsync"));
 
 	struct
 	{
@@ -1160,7 +1160,7 @@ void UAkGameplayStatics::UnloadBankAsync(class UAkAudioBank* Bank, const struct 
 
 void UAkGameplayStatics::UnloadBank(class UAkAudioBank* Bank, const struct FString& BankName, const struct FLatentActionInfo& LatentInfo, class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.UnloadBank");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.UnloadBank"));
 
 	struct
 	{
@@ -1185,7 +1185,7 @@ void UAkGameplayStatics::UnloadBank(class UAkAudioBank* Bank, const struct FStri
 
 void UAkGameplayStatics::StopProfilerCapture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.StopProfilerCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.StopProfilerCapture"));
 
 	struct
 	{
@@ -1202,7 +1202,7 @@ void UAkGameplayStatics::StopProfilerCapture()
 
 void UAkGameplayStatics::StopOutputCapture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.StopOutputCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.StopOutputCapture"));
 
 	struct
 	{
@@ -1221,7 +1221,7 @@ void UAkGameplayStatics::StopOutputCapture()
 
 void UAkGameplayStatics::StopAllAmbientSounds(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.StopAllAmbientSounds");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.StopAllAmbientSounds"));
 
 	struct
 	{
@@ -1240,7 +1240,7 @@ void UAkGameplayStatics::StopAllAmbientSounds(class UObject* WorldContextObject)
 
 void UAkGameplayStatics::StopAll()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.StopAll");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.StopAll"));
 
 	struct
 	{
@@ -1259,7 +1259,7 @@ void UAkGameplayStatics::StopAll()
 
 void UAkGameplayStatics::StopActor(class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.StopActor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.StopActor"));
 
 	struct
 	{
@@ -1280,7 +1280,7 @@ void UAkGameplayStatics::StopActor(class AActor* Actor)
 
 void UAkGameplayStatics::StartProfilerCapture(const struct FString& Filename)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.StartProfilerCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.StartProfilerCapture"));
 
 	struct
 	{
@@ -1301,7 +1301,7 @@ void UAkGameplayStatics::StartProfilerCapture(const struct FString& Filename)
 
 void UAkGameplayStatics::StartOutputCapture(const struct FString& Filename)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.StartOutputCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.StartOutputCapture"));
 
 	struct
 	{
@@ -1322,7 +1322,7 @@ void UAkGameplayStatics::StartOutputCapture(const struct FString& Filename)
 
 void UAkGameplayStatics::StartAllAmbientSounds(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.StartAllAmbientSounds");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.StartAllAmbientSounds"));
 
 	struct
 	{
@@ -1350,7 +1350,7 @@ void UAkGameplayStatics::StartAllAmbientSounds(class UObject* WorldContextObject
 
 class UAkComponent* UAkGameplayStatics::SpawnAkComponentAtLocation(class UObject* WorldContextObject, class UAkAudioEvent* AkEvent, const struct FVector& Location, const struct FRotator& Orientation, bool AutoPost, const struct FString& EventName, bool AutoDestroy)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SpawnAkComponentAtLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SpawnAkComponentAtLocation"));
 
 	struct
 	{
@@ -1389,7 +1389,7 @@ class UAkComponent* UAkGameplayStatics::SpawnAkComponentAtLocation(class UObject
 
 void UAkGameplayStatics::SetSwitch(class UAkSwitchValue* SwitchValue, class AActor* Actor, const struct FName& SwitchGroup, const struct FName& SwitchState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetSwitch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetSwitch"));
 
 	struct
 	{
@@ -1418,7 +1418,7 @@ void UAkGameplayStatics::SetSwitch(class UAkSwitchValue* SwitchValue, class AAct
 
 void UAkGameplayStatics::SetState(class UAkStateValue* StateValue, const struct FName& StateGroup, const struct FName& State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetState"));
 
 	struct
 	{
@@ -1445,7 +1445,7 @@ void UAkGameplayStatics::SetState(class UAkStateValue* StateValue, const struct 
 
 void UAkGameplayStatics::SetSpeakerAngles(TArray<float> SpeakerAngles, float HeightAngle, const struct FString& DeviceShareset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetSpeakerAngles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetSpeakerAngles"));
 
 	struct
 	{
@@ -1473,7 +1473,7 @@ void UAkGameplayStatics::SetSpeakerAngles(TArray<float> SpeakerAngles, float Hei
 
 void UAkGameplayStatics::SetRTPCValueDirect(const struct FString& RTPC, float Value, int InterpolationTimeMs, class UAkComponent* AkComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetRTPCValueDirect");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetRTPCValueDirect"));
 
 	struct
 	{
@@ -1504,7 +1504,7 @@ void UAkGameplayStatics::SetRTPCValueDirect(const struct FString& RTPC, float Va
 
 void UAkGameplayStatics::SetRTPCValue(class UAkRtpc* RTPCValue, float Value, int InterpolationTimeMs, class AActor* Actor, const struct FName& RTPC)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetRTPCValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetRTPCValue"));
 
 	struct
 	{
@@ -1534,7 +1534,7 @@ void UAkGameplayStatics::SetRTPCValue(class UAkRtpc* RTPCValue, float Value, int
 
 void UAkGameplayStatics::SetReflectionsOrder(int Order, bool RefreshPaths)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetReflectionsOrder");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetReflectionsOrder"));
 
 	struct
 	{
@@ -1557,7 +1557,7 @@ void UAkGameplayStatics::SetReflectionsOrder(int Order, bool RefreshPaths)
 
 void UAkGameplayStatics::SetPanningRule(EPanningRule PanRule)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetPanningRule");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetPanningRule"));
 
 	struct
 	{
@@ -1579,7 +1579,7 @@ void UAkGameplayStatics::SetPanningRule(EPanningRule PanRule)
 
 void UAkGameplayStatics::SetOutputBusVolume(float BusVolume, class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetOutputBusVolume");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetOutputBusVolume"));
 
 	struct
 	{
@@ -1602,7 +1602,7 @@ void UAkGameplayStatics::SetOutputBusVolume(float BusVolume, class AActor* Actor
 
 void UAkGameplayStatics::SetOcclusionScalingFactor(float ScalingFactor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetOcclusionScalingFactor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetOcclusionScalingFactor"));
 
 	struct
 	{
@@ -1624,7 +1624,7 @@ void UAkGameplayStatics::SetOcclusionScalingFactor(float ScalingFactor)
 
 void UAkGameplayStatics::SetOcclusionRefreshInterval(float RefreshInterval, class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetOcclusionRefreshInterval");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetOcclusionRefreshInterval"));
 
 	struct
 	{
@@ -1649,7 +1649,7 @@ void UAkGameplayStatics::SetOcclusionRefreshInterval(float RefreshInterval, clas
 
 void UAkGameplayStatics::SetMultiplePositions(class UAkComponent* GameObjectAkComponent, TArray<struct FTransform> Positions, EAkMultiPositionType MultiPositionType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetMultiplePositions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetMultiplePositions"));
 
 	struct
 	{
@@ -1677,7 +1677,7 @@ void UAkGameplayStatics::SetMultiplePositions(class UAkComponent* GameObjectAkCo
 
 void UAkGameplayStatics::SetMultipleChannelMaskEmitterPositions(class UAkComponent* GameObjectAkComponent, TArray<struct FAkChannelMask> ChannelMasks, TArray<struct FTransform> Positions, EAkMultiPositionType MultiPositionType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetMultipleChannelMaskEmitterPositions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetMultipleChannelMaskEmitterPositions"));
 
 	struct
 	{
@@ -1707,7 +1707,7 @@ void UAkGameplayStatics::SetMultipleChannelMaskEmitterPositions(class UAkCompone
 
 void UAkGameplayStatics::SetMultipleChannelEmitterPositions(class UAkComponent* GameObjectAkComponent, TArray<EAkChannelConfiguration> ChannelMasks, TArray<struct FTransform> Positions, EAkMultiPositionType MultiPositionType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetMultipleChannelEmitterPositions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetMultipleChannelEmitterPositions"));
 
 	struct
 	{
@@ -1735,7 +1735,7 @@ void UAkGameplayStatics::SetMultipleChannelEmitterPositions(class UAkComponent* 
 
 void UAkGameplayStatics::SetCurrentAudioCultureAsync(const struct FString& AudioCulture, const struct FScriptDelegate& Completed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetCurrentAudioCultureAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetCurrentAudioCultureAsync"));
 
 	struct
 	{
@@ -1760,7 +1760,7 @@ void UAkGameplayStatics::SetCurrentAudioCultureAsync(const struct FString& Audio
 
 void UAkGameplayStatics::SetCurrentAudioCulture(const struct FString& AudioCulture, const struct FLatentActionInfo& LatentInfo, class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetCurrentAudioCulture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetCurrentAudioCulture"));
 
 	struct
 	{
@@ -1786,7 +1786,7 @@ void UAkGameplayStatics::SetCurrentAudioCulture(const struct FString& AudioCultu
 
 void UAkGameplayStatics::SetBusConfig(const struct FString& BusName, EAkChannelConfiguration ChannelConfiguration)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.SetBusConfig");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.SetBusConfig"));
 
 	struct
 	{
@@ -1811,7 +1811,7 @@ void UAkGameplayStatics::SetBusConfig(const struct FString& BusName, EAkChannelC
 
 void UAkGameplayStatics::PostTrigger(class UAkTrigger* TriggerValue, class AActor* Actor, const struct FName& Trigger)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.PostTrigger");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.PostTrigger"));
 
 	struct
 	{
@@ -1838,7 +1838,7 @@ void UAkGameplayStatics::PostTrigger(class UAkTrigger* TriggerValue, class AActo
 
 void UAkGameplayStatics::PostEventByName(const struct FString& EventName, class AActor* Actor, bool bStopWhenAttachedToDestroyed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.PostEventByName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.PostEventByName"));
 
 	struct
 	{
@@ -1868,7 +1868,7 @@ void UAkGameplayStatics::PostEventByName(const struct FString& EventName, class 
 
 int UAkGameplayStatics::PostEventAttached(class UAkAudioEvent* AkEvent, class AActor* Actor, const struct FName& AttachPointName, bool bStopWhenAttachedToDestroyed, const struct FString& EventName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.PostEventAttached");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.PostEventAttached"));
 
 	struct
 	{
@@ -1903,7 +1903,7 @@ int UAkGameplayStatics::PostEventAttached(class UAkAudioEvent* AkEvent, class AA
 
 void UAkGameplayStatics::PostEventAtLocationByName(const struct FString& EventName, const struct FVector& Location, const struct FRotator& Orientation, class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.PostEventAtLocationByName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.PostEventAtLocationByName"));
 
 	struct
 	{
@@ -1935,7 +1935,7 @@ void UAkGameplayStatics::PostEventAtLocationByName(const struct FString& EventNa
 
 int UAkGameplayStatics::PostEventAtLocation(class UAkAudioEvent* AkEvent, const struct FVector& Location, const struct FRotator& Orientation, const struct FString& EventName, class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.PostEventAtLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.PostEventAtLocation"));
 
 	struct
 	{
@@ -1974,7 +1974,7 @@ int UAkGameplayStatics::PostEventAtLocation(class UAkAudioEvent* AkEvent, const 
 
 int UAkGameplayStatics::PostEvent(class UAkAudioEvent* AkEvent, class AActor* Actor, int CallbackMask, const struct FScriptDelegate& PostEventCallback, TArray<struct FAkExternalSourceInfo> ExternalSources, bool bStopWhenAttachedToDestroyed, const struct FString& EventName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.PostEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.PostEvent"));
 
 	struct
 	{
@@ -2015,7 +2015,7 @@ int UAkGameplayStatics::PostEvent(class UAkAudioEvent* AkEvent, class AActor* Ac
 
 void UAkGameplayStatics::PostAndWaitForEndOfEventAsync(class UAkAudioEvent* AkEvent, class AActor* Actor, bool bStopWhenAttachedToDestroyed, TArray<struct FAkExternalSourceInfo> ExternalSources, const struct FLatentActionInfo& LatentInfo, int* PlayingID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.PostAndWaitForEndOfEventAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.PostAndWaitForEndOfEventAsync"));
 
 	struct
 	{
@@ -2054,7 +2054,7 @@ void UAkGameplayStatics::PostAndWaitForEndOfEventAsync(class UAkAudioEvent* AkEv
 
 int UAkGameplayStatics::PostAndWaitForEndOfEvent(class UAkAudioEvent* AkEvent, class AActor* Actor, bool bStopWhenAttachedToDestroyed, TArray<struct FAkExternalSourceInfo> ExternalSources, const struct FString& EventName, const struct FLatentActionInfo& LatentInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.PostAndWaitForEndOfEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.PostAndWaitForEndOfEvent"));
 
 	struct
 	{
@@ -2086,7 +2086,7 @@ int UAkGameplayStatics::PostAndWaitForEndOfEvent(class UAkAudioEvent* AkEvent, c
 
 void UAkGameplayStatics::LoadInitBank()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.LoadInitBank");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.LoadInitBank"));
 
 	struct
 	{
@@ -2106,7 +2106,7 @@ void UAkGameplayStatics::LoadInitBank()
 
 void UAkGameplayStatics::LoadBanks(TArray<class UAkAudioBank*> SoundBanks, bool SynchronizeSoundBanks)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.LoadBanks");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.LoadBanks"));
 
 	struct
 	{
@@ -2130,7 +2130,7 @@ void UAkGameplayStatics::LoadBanks(TArray<class UAkAudioBank*> SoundBanks, bool 
 
 bool UAkGameplayStatics::LoadBankByName(const struct FString& BankName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.LoadBankByName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.LoadBankByName"));
 
 	struct
 	{
@@ -2155,7 +2155,7 @@ bool UAkGameplayStatics::LoadBankByName(const struct FString& BankName)
 
 void UAkGameplayStatics::LoadBankAsync(class UAkAudioBank* Bank, const struct FScriptDelegate& BankLoadedCallback)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.LoadBankAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.LoadBankAsync"));
 
 	struct
 	{
@@ -2181,7 +2181,7 @@ void UAkGameplayStatics::LoadBankAsync(class UAkAudioBank* Bank, const struct FS
 
 void UAkGameplayStatics::LoadBank(class UAkAudioBank* Bank, const struct FString& BankName, const struct FLatentActionInfo& LatentInfo, class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.LoadBank");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.LoadBank"));
 
 	struct
 	{
@@ -2209,7 +2209,7 @@ void UAkGameplayStatics::LoadBank(class UAkAudioBank* Bank, const struct FString
 
 bool UAkGameplayStatics::IsGame(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.IsGame");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.IsGame"));
 
 	struct
 	{
@@ -2233,7 +2233,7 @@ bool UAkGameplayStatics::IsGame(class UObject* WorldContextObject)
 
 bool UAkGameplayStatics::IsEditor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.IsEditor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.IsEditor"));
 
 	struct
 	{
@@ -2257,7 +2257,7 @@ bool UAkGameplayStatics::IsEditor()
 
 void UAkGameplayStatics::GetSpeakerAngles(const struct FString& DeviceShareset, TArray<float>* SpeakerAngles, float* HeightAngle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.GetSpeakerAngles");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.GetSpeakerAngles"));
 
 	struct
 	{
@@ -2291,7 +2291,7 @@ void UAkGameplayStatics::GetSpeakerAngles(const struct FString& DeviceShareset, 
 
 void UAkGameplayStatics::GetRTPCValue(class UAkRtpc* RTPCValue, int PlayingID, ERTPCValueType InputValueType, class AActor* Actor, const struct FName& RTPC, float* Value, ERTPCValueType* OutputValueType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.GetRTPCValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.GetRTPCValue"));
 
 	struct
 	{
@@ -2327,7 +2327,7 @@ void UAkGameplayStatics::GetRTPCValue(class UAkRtpc* RTPCValue, int PlayingID, E
 
 float UAkGameplayStatics::GetOcclusionScalingFactor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.GetOcclusionScalingFactor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.GetOcclusionScalingFactor"));
 
 	struct
 	{
@@ -2349,7 +2349,7 @@ float UAkGameplayStatics::GetOcclusionScalingFactor()
 
 struct FString UAkGameplayStatics::GetCurrentAudioCulture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.GetCurrentAudioCulture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.GetCurrentAudioCulture"));
 
 	struct
 	{
@@ -2371,7 +2371,7 @@ struct FString UAkGameplayStatics::GetCurrentAudioCulture()
 
 TArray<struct FString> UAkGameplayStatics::GetAvailableAudioCultures()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.GetAvailableAudioCultures");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.GetAvailableAudioCultures"));
 
 	struct
 	{
@@ -2395,7 +2395,7 @@ TArray<struct FString> UAkGameplayStatics::GetAvailableAudioCultures()
 
 class UObject* UAkGameplayStatics::GetAkMediaAssetUserData(class UAkMediaAsset* Instance, class UClass* Type)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.GetAkMediaAssetUserData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.GetAkMediaAssetUserData"));
 
 	struct
 	{
@@ -2426,7 +2426,7 @@ class UObject* UAkGameplayStatics::GetAkMediaAssetUserData(class UAkMediaAsset* 
 
 class UAkComponent* UAkGameplayStatics::GetAkComponent(class USceneComponent* AttachToComponent, const struct FName& AttachPointName, const struct FVector& Location, TEnumAsByte<EAttachLocation> LocationType, bool* ComponentCreated)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.GetAkComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.GetAkComponent"));
 
 	struct
 	{
@@ -2462,7 +2462,7 @@ class UAkComponent* UAkGameplayStatics::GetAkComponent(class USceneComponent* At
 
 class UObject* UAkGameplayStatics::GetAkAudioTypeUserData(class UAkAudioType* Instance, class UClass* Type)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.GetAkAudioTypeUserData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.GetAkAudioTypeUserData"));
 
 	struct
 	{
@@ -2491,7 +2491,7 @@ class UObject* UAkGameplayStatics::GetAkAudioTypeUserData(class UAkAudioType* In
 
 void UAkGameplayStatics::ExecuteActionOnPlayingID(EAkActionOnEventType ActionType, int PlayingID, int TransitionDuration, EAkCurveInterpolation FadeCurve)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.ExecuteActionOnPlayingID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.ExecuteActionOnPlayingID"));
 
 	struct
 	{
@@ -2523,7 +2523,7 @@ void UAkGameplayStatics::ExecuteActionOnPlayingID(EAkActionOnEventType ActionTyp
 
 void UAkGameplayStatics::ExecuteActionOnEvent(class UAkAudioEvent* AkEvent, EAkActionOnEventType ActionType, class AActor* Actor, int TransitionDuration, EAkCurveInterpolation FadeCurve, int PlayingID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.ExecuteActionOnEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.ExecuteActionOnEvent"));
 
 	struct
 	{
@@ -2552,7 +2552,7 @@ void UAkGameplayStatics::ExecuteActionOnEvent(class UAkAudioEvent* AkEvent, EAkA
 
 void UAkGameplayStatics::ClearBanks()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.ClearBanks");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.ClearBanks"));
 
 	struct
 	{
@@ -2571,7 +2571,7 @@ void UAkGameplayStatics::ClearBanks()
 
 void UAkGameplayStatics::CancelEventCallback(const struct FScriptDelegate& PostEventCallback)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.CancelEventCallback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.CancelEventCallback"));
 
 	struct
 	{
@@ -2592,7 +2592,7 @@ void UAkGameplayStatics::CancelEventCallback(const struct FScriptDelegate& PostE
 
 void UAkGameplayStatics::AddOutputCaptureMarker(const struct FString& MarkerText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGameplayStatics.AddOutputCaptureMarker");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGameplayStatics.AddOutputCaptureMarker"));
 
 	struct
 	{
@@ -2613,7 +2613,7 @@ void UAkGameplayStatics::AddOutputCaptureMarker(const struct FString& MarkerText
 
 EAkMidiEventType UAkMIDIEventCallbackInfo::GetType()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetType"));
 
 	struct
 	{
@@ -2635,7 +2635,7 @@ EAkMidiEventType UAkMIDIEventCallbackInfo::GetType()
 
 bool UAkMIDIEventCallbackInfo::GetProgramChange(struct FAkMidiProgramChange* AsProgramChange)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetProgramChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetProgramChange"));
 
 	struct
 	{
@@ -2661,7 +2661,7 @@ bool UAkMIDIEventCallbackInfo::GetProgramChange(struct FAkMidiProgramChange* AsP
 
 bool UAkMIDIEventCallbackInfo::GetPitchBend(struct FAkMidiPitchBend* AsPitchBend)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetPitchBend");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetPitchBend"));
 
 	struct
 	{
@@ -2687,7 +2687,7 @@ bool UAkMIDIEventCallbackInfo::GetPitchBend(struct FAkMidiPitchBend* AsPitchBend
 
 bool UAkMIDIEventCallbackInfo::GetNoteOn(struct FAkMidiNoteOnOff* AsNoteOn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetNoteOn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetNoteOn"));
 
 	struct
 	{
@@ -2713,7 +2713,7 @@ bool UAkMIDIEventCallbackInfo::GetNoteOn(struct FAkMidiNoteOnOff* AsNoteOn)
 
 bool UAkMIDIEventCallbackInfo::GetNoteOff(struct FAkMidiNoteOnOff* AsNoteOff)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetNoteOff");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetNoteOff"));
 
 	struct
 	{
@@ -2739,7 +2739,7 @@ bool UAkMIDIEventCallbackInfo::GetNoteOff(struct FAkMidiNoteOnOff* AsNoteOff)
 
 bool UAkMIDIEventCallbackInfo::GetNoteAftertouch(struct FAkMidiNoteAftertouch* AsNoteAftertouch)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetNoteAftertouch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetNoteAftertouch"));
 
 	struct
 	{
@@ -2765,7 +2765,7 @@ bool UAkMIDIEventCallbackInfo::GetNoteAftertouch(struct FAkMidiNoteAftertouch* A
 
 bool UAkMIDIEventCallbackInfo::GetGeneric(struct FAkMidiGeneric* AsGeneric)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetGeneric");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetGeneric"));
 
 	struct
 	{
@@ -2791,7 +2791,7 @@ bool UAkMIDIEventCallbackInfo::GetGeneric(struct FAkMidiGeneric* AsGeneric)
 
 bool UAkMIDIEventCallbackInfo::GetChannelAftertouch(struct FAkMidiChannelAftertouch* AsChannelAftertouch)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetChannelAftertouch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetChannelAftertouch"));
 
 	struct
 	{
@@ -2816,7 +2816,7 @@ bool UAkMIDIEventCallbackInfo::GetChannelAftertouch(struct FAkMidiChannelAfterto
 
 unsigned char UAkMIDIEventCallbackInfo::GetChannel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetChannel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetChannel"));
 
 	struct
 	{
@@ -2838,7 +2838,7 @@ unsigned char UAkMIDIEventCallbackInfo::GetChannel()
 
 bool UAkMIDIEventCallbackInfo::GetCc(struct FAkMidiCc* AsCc)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMIDIEventCallbackInfo.GetCc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMIDIEventCallbackInfo.GetCc"));
 
 	struct
 	{
@@ -2861,7 +2861,7 @@ bool UAkMIDIEventCallbackInfo::GetCc(struct FAkMidiCc* AsCc)
 
 void UAkGeometryComponent::UpdateGeometry()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGeometryComponent.UpdateGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGeometryComponent.UpdateGeometry"));
 
 	struct
 	{
@@ -2877,7 +2877,7 @@ void UAkGeometryComponent::UpdateGeometry()
 
 void UAkGeometryComponent::RemoveGeometry()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGeometryComponent.RemoveGeometry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGeometryComponent.RemoveGeometry"));
 
 	struct
 	{
@@ -2893,7 +2893,7 @@ void UAkGeometryComponent::RemoveGeometry()
 
 void UAkGeometryComponent::ConvertMesh()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkGeometryComponent.ConvertMesh");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkGeometryComponent.ConvertMesh"));
 
 	struct
 	{
@@ -2911,7 +2911,7 @@ void UAkGeometryComponent::ConvertMesh()
 
 void UAkHololensInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkHololensInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkHololensInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -2932,7 +2932,7 @@ void UAkHololensInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 struct FText UAkItemBoolPropertiesConv::Conv_FAkBoolPropertyToControlToText(const struct FAkBoolPropertyToControl& INAkBoolPropertyToControl)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemBoolPropertiesConv.Conv_FAkBoolPropertyToControlToText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemBoolPropertiesConv.Conv_FAkBoolPropertyToControlToText"));
 
 	struct
 	{
@@ -2957,7 +2957,7 @@ struct FText UAkItemBoolPropertiesConv::Conv_FAkBoolPropertyToControlToText(cons
 
 struct FString UAkItemBoolPropertiesConv::Conv_FAkBoolPropertyToControlToString(const struct FAkBoolPropertyToControl& INAkBoolPropertyToControl)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemBoolPropertiesConv.Conv_FAkBoolPropertyToControlToString");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemBoolPropertiesConv.Conv_FAkBoolPropertyToControlToString"));
 
 	struct
 	{
@@ -2981,7 +2981,7 @@ struct FString UAkItemBoolPropertiesConv::Conv_FAkBoolPropertyToControlToString(
 
 void UAkItemBoolProperties::SetSearchText(const struct FString& newText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemBoolProperties.SetSearchText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemBoolProperties.SetSearchText"));
 
 	struct
 	{
@@ -3001,7 +3001,7 @@ void UAkItemBoolProperties::SetSearchText(const struct FString& newText)
 
 struct FString UAkItemBoolProperties::GetSelectedProperty()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemBoolProperties.GetSelectedProperty");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemBoolProperties.GetSelectedProperty"));
 
 	struct
 	{
@@ -3022,7 +3022,7 @@ struct FString UAkItemBoolProperties::GetSelectedProperty()
 
 struct FString UAkItemBoolProperties::GetSearchText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemBoolProperties.GetSearchText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemBoolProperties.GetSearchText"));
 
 	struct
 	{
@@ -3044,7 +3044,7 @@ struct FString UAkItemBoolProperties::GetSearchText()
 
 struct FText UAkItemPropertiesConv::Conv_FAkPropertyToControlToText(const struct FAkPropertyToControl& INAkPropertyToControl)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemPropertiesConv.Conv_FAkPropertyToControlToText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemPropertiesConv.Conv_FAkPropertyToControlToText"));
 
 	struct
 	{
@@ -3069,7 +3069,7 @@ struct FText UAkItemPropertiesConv::Conv_FAkPropertyToControlToText(const struct
 
 struct FString UAkItemPropertiesConv::Conv_FAkPropertyToControlToString(const struct FAkPropertyToControl& INAkPropertyToControl)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemPropertiesConv.Conv_FAkPropertyToControlToString");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemPropertiesConv.Conv_FAkPropertyToControlToString"));
 
 	struct
 	{
@@ -3093,7 +3093,7 @@ struct FString UAkItemPropertiesConv::Conv_FAkPropertyToControlToString(const st
 
 void UAkItemProperties::SetSearchText(const struct FString& newText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemProperties.SetSearchText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemProperties.SetSearchText"));
 
 	struct
 	{
@@ -3113,7 +3113,7 @@ void UAkItemProperties::SetSearchText(const struct FString& newText)
 
 struct FString UAkItemProperties::GetSelectedProperty()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemProperties.GetSelectedProperty");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemProperties.GetSelectedProperty"));
 
 	struct
 	{
@@ -3134,7 +3134,7 @@ struct FString UAkItemProperties::GetSelectedProperty()
 
 struct FString UAkItemProperties::GetSearchText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkItemProperties.GetSearchText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkItemProperties.GetSearchText"));
 
 	struct
 	{
@@ -3155,7 +3155,7 @@ struct FString UAkItemProperties::GetSearchText()
 
 void UAkLinuxInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkLinuxInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkLinuxInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -3175,7 +3175,7 @@ void UAkLinuxInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 void UAkLuminInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkLuminInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkLuminInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -3195,7 +3195,7 @@ void UAkLuminInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 void UAkMacInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkMacInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkMacInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -3215,7 +3215,7 @@ void UAkMacInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 void UAkPS4InitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkPS4InitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkPS4InitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -3235,7 +3235,7 @@ void UAkPS4InitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 void UAkSlider::SetValue(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.SetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.SetValue"));
 
 	struct
 	{
@@ -3255,7 +3255,7 @@ void UAkSlider::SetValue(float InValue)
 
 void UAkSlider::SetStepSize(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.SetStepSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.SetStepSize"));
 
 	struct
 	{
@@ -3275,7 +3275,7 @@ void UAkSlider::SetStepSize(float InValue)
 
 void UAkSlider::SetSliderHandleColor(const struct FLinearColor& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.SetSliderHandleColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.SetSliderHandleColor"));
 
 	struct
 	{
@@ -3295,7 +3295,7 @@ void UAkSlider::SetSliderHandleColor(const struct FLinearColor& InValue)
 
 void UAkSlider::SetSliderBarColor(const struct FLinearColor& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.SetSliderBarColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.SetSliderBarColor"));
 
 	struct
 	{
@@ -3315,7 +3315,7 @@ void UAkSlider::SetSliderBarColor(const struct FLinearColor& InValue)
 
 void UAkSlider::SetLocked(bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.SetLocked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.SetLocked"));
 
 	struct
 	{
@@ -3335,7 +3335,7 @@ void UAkSlider::SetLocked(bool InValue)
 
 void UAkSlider::SetIndentHandle(bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.SetIndentHandle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.SetIndentHandle"));
 
 	struct
 	{
@@ -3355,7 +3355,7 @@ void UAkSlider::SetIndentHandle(bool InValue)
 
 void UAkSlider::SetAkSliderItemProperty(const struct FString& ItemProperty)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.SetAkSliderItemProperty");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.SetAkSliderItemProperty"));
 
 	struct
 	{
@@ -3375,7 +3375,7 @@ void UAkSlider::SetAkSliderItemProperty(const struct FString& ItemProperty)
 
 void UAkSlider::SetAkSliderItemId(const struct FGuid& ItemId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.SetAkSliderItemId");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.SetAkSliderItemId"));
 
 	struct
 	{
@@ -3395,7 +3395,7 @@ void UAkSlider::SetAkSliderItemId(const struct FGuid& ItemId)
 
 float UAkSlider::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.GetValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.GetValue"));
 
 	struct
 	{
@@ -3416,7 +3416,7 @@ float UAkSlider::GetValue()
 
 struct FString UAkSlider::GetAkSliderItemProperty()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.GetAkSliderItemProperty");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.GetAkSliderItemProperty"));
 
 	struct
 	{
@@ -3437,7 +3437,7 @@ struct FString UAkSlider::GetAkSliderItemProperty()
 
 struct FGuid UAkSlider::GetAkSliderItemId()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSlider.GetAkSliderItemId");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSlider.GetAkSliderItemId"));
 
 	struct
 	{
@@ -3456,7 +3456,7 @@ struct FGuid UAkSlider::GetAkSliderItemId()
 
 void UAkSurfaceReflectorSetComponent::UpdateSurfaceReflectorSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSurfaceReflectorSetComponent.UpdateSurfaceReflectorSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSurfaceReflectorSetComponent.UpdateSurfaceReflectorSet"));
 
 	struct
 	{
@@ -3472,7 +3472,7 @@ void UAkSurfaceReflectorSetComponent::UpdateSurfaceReflectorSet()
 
 void UAkSurfaceReflectorSetComponent::SendSurfaceReflectorSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSurfaceReflectorSetComponent.SendSurfaceReflectorSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSurfaceReflectorSetComponent.SendSurfaceReflectorSet"));
 
 	struct
 	{
@@ -3488,7 +3488,7 @@ void UAkSurfaceReflectorSetComponent::SendSurfaceReflectorSet()
 
 void UAkSurfaceReflectorSetComponent::RemoveSurfaceReflectorSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSurfaceReflectorSetComponent.RemoveSurfaceReflectorSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSurfaceReflectorSetComponent.RemoveSurfaceReflectorSet"));
 
 	struct
 	{
@@ -3506,7 +3506,7 @@ void UAkSurfaceReflectorSetComponent::RemoveSurfaceReflectorSet()
 
 void UAkSwitchInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkSwitchInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkSwitchInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -3528,7 +3528,7 @@ void UAkSwitchInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 struct FAKWaapiJsonObject UAkWaapiCalls::Unsubscribe(const struct FAkWaapiSubscriptionId& SubscriptionId, bool* UnsubscriptionDone)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiCalls.Unsubscribe");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiCalls.Unsubscribe"));
 
 	struct
 	{
@@ -3561,7 +3561,7 @@ struct FAKWaapiJsonObject UAkWaapiCalls::Unsubscribe(const struct FAkWaapiSubscr
 
 struct FAKWaapiJsonObject UAkWaapiCalls::SubscribeToWaapi(const struct FAkWaapiUri& WaapiUri, const struct FAKWaapiJsonObject& WaapiOptions, const struct FScriptDelegate& Callback, struct FAkWaapiSubscriptionId* SubscriptionId, bool* SubscriptionDone)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiCalls.SubscribeToWaapi");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiCalls.SubscribeToWaapi"));
 
 	struct
 	{
@@ -3597,7 +3597,7 @@ struct FAKWaapiJsonObject UAkWaapiCalls::SubscribeToWaapi(const struct FAkWaapiU
 
 void UAkWaapiCalls::SetSubscriptionID(const struct FAkWaapiSubscriptionId& Subscription, int ID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiCalls.SetSubscriptionID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiCalls.SetSubscriptionID"));
 
 	struct
 	{
@@ -3621,7 +3621,7 @@ void UAkWaapiCalls::SetSubscriptionID(const struct FAkWaapiSubscriptionId& Subsc
 
 bool UAkWaapiCalls::RegisterWaapiProjectLoadedCallback(const struct FScriptDelegate& Callback)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiCalls.RegisterWaapiProjectLoadedCallback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiCalls.RegisterWaapiProjectLoadedCallback"));
 
 	struct
 	{
@@ -3646,7 +3646,7 @@ bool UAkWaapiCalls::RegisterWaapiProjectLoadedCallback(const struct FScriptDeleg
 
 bool UAkWaapiCalls::RegisterWaapiConnectionLostCallback(const struct FScriptDelegate& Callback)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiCalls.RegisterWaapiConnectionLostCallback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiCalls.RegisterWaapiConnectionLostCallback"));
 
 	struct
 	{
@@ -3671,7 +3671,7 @@ bool UAkWaapiCalls::RegisterWaapiConnectionLostCallback(const struct FScriptDele
 
 int UAkWaapiCalls::GetSubscriptionID(const struct FAkWaapiSubscriptionId& Subscription)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiCalls.GetSubscriptionID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiCalls.GetSubscriptionID"));
 
 	struct
 	{
@@ -3696,7 +3696,7 @@ int UAkWaapiCalls::GetSubscriptionID(const struct FAkWaapiSubscriptionId& Subscr
 
 struct FText UAkWaapiCalls::Conv_FAkWaapiSubscriptionIdToText(const struct FAkWaapiSubscriptionId& INAkWaapiSubscriptionId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiCalls.Conv_FAkWaapiSubscriptionIdToText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiCalls.Conv_FAkWaapiSubscriptionIdToText"));
 
 	struct
 	{
@@ -3721,7 +3721,7 @@ struct FText UAkWaapiCalls::Conv_FAkWaapiSubscriptionIdToText(const struct FAkWa
 
 struct FString UAkWaapiCalls::Conv_FAkWaapiSubscriptionIdToString(const struct FAkWaapiSubscriptionId& INAkWaapiSubscriptionId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiCalls.Conv_FAkWaapiSubscriptionIdToString");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiCalls.Conv_FAkWaapiSubscriptionIdToString"));
 
 	struct
 	{
@@ -3748,7 +3748,7 @@ struct FString UAkWaapiCalls::Conv_FAkWaapiSubscriptionIdToString(const struct F
 
 struct FAKWaapiJsonObject UAkWaapiCalls::CallWaapi(const struct FAkWaapiUri& WaapiUri, const struct FAKWaapiJsonObject& WaapiArgs, const struct FAKWaapiJsonObject& WaapiOptions)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiCalls.CallWaapi");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiCalls.CallWaapi"));
 
 	struct
 	{
@@ -3777,7 +3777,7 @@ struct FAKWaapiJsonObject UAkWaapiCalls::CallWaapi(const struct FAkWaapiUri& Waa
 
 struct FText USAkWaapiFieldNamesConv::Conv_FAkWaapiFieldNamesToText(const struct FAkWaapiFieldNames& INAkWaapiFieldNames)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.SAkWaapiFieldNamesConv.Conv_FAkWaapiFieldNamesToText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.SAkWaapiFieldNamesConv.Conv_FAkWaapiFieldNamesToText"));
 
 	struct
 	{
@@ -3802,7 +3802,7 @@ struct FText USAkWaapiFieldNamesConv::Conv_FAkWaapiFieldNamesToText(const struct
 
 struct FString USAkWaapiFieldNamesConv::Conv_FAkWaapiFieldNamesToString(const struct FAkWaapiFieldNames& INAkWaapiFieldNames)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.SAkWaapiFieldNamesConv.Conv_FAkWaapiFieldNamesToString");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.SAkWaapiFieldNamesConv.Conv_FAkWaapiFieldNamesToString"));
 
 	struct
 	{
@@ -3829,7 +3829,7 @@ struct FString USAkWaapiFieldNamesConv::Conv_FAkWaapiFieldNamesToString(const st
 
 struct FAKWaapiJsonObject UAkWaapiJsonManager::SetStringField(const struct FAkWaapiFieldNames& FieldName, const struct FString& FieldValue, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.SetStringField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.SetStringField"));
 
 	struct
 	{
@@ -3860,7 +3860,7 @@ struct FAKWaapiJsonObject UAkWaapiJsonManager::SetStringField(const struct FAkWa
 
 struct FAKWaapiJsonObject UAkWaapiJsonManager::SetObjectField(const struct FAkWaapiFieldNames& FieldName, const struct FAKWaapiJsonObject& FieldValue, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.SetObjectField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.SetObjectField"));
 
 	struct
 	{
@@ -3891,7 +3891,7 @@ struct FAKWaapiJsonObject UAkWaapiJsonManager::SetObjectField(const struct FAkWa
 
 struct FAKWaapiJsonObject UAkWaapiJsonManager::SetNumberField(const struct FAkWaapiFieldNames& FieldName, float FieldValue, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.SetNumberField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.SetNumberField"));
 
 	struct
 	{
@@ -3922,7 +3922,7 @@ struct FAKWaapiJsonObject UAkWaapiJsonManager::SetNumberField(const struct FAkWa
 
 struct FAKWaapiJsonObject UAkWaapiJsonManager::SetBoolField(const struct FAkWaapiFieldNames& FieldName, bool FieldValue, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.SetBoolField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.SetBoolField"));
 
 	struct
 	{
@@ -3953,7 +3953,7 @@ struct FAKWaapiJsonObject UAkWaapiJsonManager::SetBoolField(const struct FAkWaap
 
 struct FAKWaapiJsonObject UAkWaapiJsonManager::SetArrayStringFields(const struct FAkWaapiFieldNames& FieldName, TArray<struct FString> FieldStringValues, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.SetArrayStringFields");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.SetArrayStringFields"));
 
 	struct
 	{
@@ -3984,7 +3984,7 @@ struct FAKWaapiJsonObject UAkWaapiJsonManager::SetArrayStringFields(const struct
 
 struct FAKWaapiJsonObject UAkWaapiJsonManager::SetArrayObjectFields(const struct FAkWaapiFieldNames& FieldName, TArray<struct FAKWaapiJsonObject> FieldObjectValues, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.SetArrayObjectFields");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.SetArrayObjectFields"));
 
 	struct
 	{
@@ -4014,7 +4014,7 @@ struct FAKWaapiJsonObject UAkWaapiJsonManager::SetArrayObjectFields(const struct
 
 struct FString UAkWaapiJsonManager::GetStringField(const struct FAkWaapiFieldNames& FieldName, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.GetStringField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.GetStringField"));
 
 	struct
 	{
@@ -4042,7 +4042,7 @@ struct FString UAkWaapiJsonManager::GetStringField(const struct FAkWaapiFieldNam
 
 struct FAKWaapiJsonObject UAkWaapiJsonManager::GetObjectField(const struct FAkWaapiFieldNames& FieldName, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.GetObjectField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.GetObjectField"));
 
 	struct
 	{
@@ -4070,7 +4070,7 @@ struct FAKWaapiJsonObject UAkWaapiJsonManager::GetObjectField(const struct FAkWa
 
 float UAkWaapiJsonManager::GetNumberField(const struct FAkWaapiFieldNames& FieldName, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.GetNumberField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.GetNumberField"));
 
 	struct
 	{
@@ -4098,7 +4098,7 @@ float UAkWaapiJsonManager::GetNumberField(const struct FAkWaapiFieldNames& Field
 
 int UAkWaapiJsonManager::GetIntegerField(const struct FAkWaapiFieldNames& FieldName, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.GetIntegerField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.GetIntegerField"));
 
 	struct
 	{
@@ -4126,7 +4126,7 @@ int UAkWaapiJsonManager::GetIntegerField(const struct FAkWaapiFieldNames& FieldN
 
 bool UAkWaapiJsonManager::GetBoolField(const struct FAkWaapiFieldNames& FieldName, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.GetBoolField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.GetBoolField"));
 
 	struct
 	{
@@ -4154,7 +4154,7 @@ bool UAkWaapiJsonManager::GetBoolField(const struct FAkWaapiFieldNames& FieldNam
 
 TArray<struct FAKWaapiJsonObject> UAkWaapiJsonManager::GetArrayField(const struct FAkWaapiFieldNames& FieldName, const struct FAKWaapiJsonObject& Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.GetArrayField");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.GetArrayField"));
 
 	struct
 	{
@@ -4181,7 +4181,7 @@ TArray<struct FAKWaapiJsonObject> UAkWaapiJsonManager::GetArrayField(const struc
 
 struct FText UAkWaapiJsonManager::Conv_FAKWaapiJsonObjectToText(const struct FAKWaapiJsonObject& INAKWaapiJsonObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.Conv_FAKWaapiJsonObjectToText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.Conv_FAKWaapiJsonObjectToText"));
 
 	struct
 	{
@@ -4206,7 +4206,7 @@ struct FText UAkWaapiJsonManager::Conv_FAKWaapiJsonObjectToText(const struct FAK
 
 struct FString UAkWaapiJsonManager::Conv_FAKWaapiJsonObjectToString(const struct FAKWaapiJsonObject& INAKWaapiJsonObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiJsonManager.Conv_FAKWaapiJsonObjectToString");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiJsonManager.Conv_FAKWaapiJsonObjectToString"));
 
 	struct
 	{
@@ -4231,7 +4231,7 @@ struct FString UAkWaapiJsonManager::Conv_FAKWaapiJsonObjectToString(const struct
 
 struct FText UAkWaapiUriConv::Conv_FAkWaapiUriToText(const struct FAkWaapiUri& INAkWaapiUri)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiUriConv.Conv_FAkWaapiUriToText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiUriConv.Conv_FAkWaapiUriToText"));
 
 	struct
 	{
@@ -4256,7 +4256,7 @@ struct FText UAkWaapiUriConv::Conv_FAkWaapiUriToText(const struct FAkWaapiUri& I
 
 struct FString UAkWaapiUriConv::Conv_FAkWaapiUriToString(const struct FAkWaapiUri& INAkWaapiUri)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWaapiUriConv.Conv_FAkWaapiUriToString");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWaapiUriConv.Conv_FAkWaapiUriToString"));
 
 	struct
 	{
@@ -4280,7 +4280,7 @@ struct FString UAkWaapiUriConv::Conv_FAkWaapiUriToString(const struct FAkWaapiUr
 
 void UAkWindowsInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWindowsInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWindowsInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -4300,7 +4300,7 @@ void UAkWindowsInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 void UAkWinGDKInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWinGDKInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWinGDKInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -4320,7 +4320,7 @@ void UAkWinGDKInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 void UAkWwiseTree::SetSearchText(const struct FString& newText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWwiseTree.SetSearchText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWwiseTree.SetSearchText"));
 
 	struct
 	{
@@ -4340,7 +4340,7 @@ void UAkWwiseTree::SetSearchText(const struct FString& newText)
 
 struct FAkWwiseObjectDetails UAkWwiseTree::GetSelectedItem()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWwiseTree.GetSelectedItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWwiseTree.GetSelectedItem"));
 
 	struct
 	{
@@ -4361,7 +4361,7 @@ struct FAkWwiseObjectDetails UAkWwiseTree::GetSelectedItem()
 
 struct FString UAkWwiseTree::GetSearchText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkWwiseTree.GetSearchText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkWwiseTree.GetSearchText"));
 
 	struct
 	{
@@ -4382,7 +4382,7 @@ struct FString UAkWwiseTree::GetSearchText()
 
 void UAkXboxOneGDKInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkXboxOneGDKInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkXboxOneGDKInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -4402,7 +4402,7 @@ void UAkXboxOneGDKInitializationSettings::MigrateMultiCoreRendering(bool NewValu
 
 void UAkXboxOneInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkXboxOneInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkXboxOneInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -4422,7 +4422,7 @@ void UAkXboxOneInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 void UAkXSXInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.AkXSXInitializationSettings.MigrateMultiCoreRendering");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.AkXSXInitializationSettings.MigrateMultiCoreRendering"));
 
 	struct
 	{
@@ -4449,7 +4449,7 @@ void UAkXSXInitializationSettings::MigrateMultiCoreRendering(bool NewValue)
 
 class UPostEventAsync* UPostEventAsync::PostEventAsync(class UObject* WorldContextObject, class UAkAudioEvent* AkEvent, class AActor* Actor, int CallbackMask, const struct FScriptDelegate& PostEventCallback, TArray<struct FAkExternalSourceInfo> ExternalSources, bool bStopWhenAttachedToDestroyed)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.PostEventAsync.PostEventAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.PostEventAsync.PostEventAsync"));
 
 	struct
 	{
@@ -4483,7 +4483,7 @@ class UPostEventAsync* UPostEventAsync::PostEventAsync(class UObject* WorldConte
 
 void UPostEventAsync::PollPostEventFuture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.PostEventAsync.PollPostEventFuture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.PostEventAsync.PollPostEventFuture"));
 
 	struct
 	{
@@ -4505,7 +4505,7 @@ void UPostEventAsync::PollPostEventFuture()
 
 class UPostEventAtLocationAsync* UPostEventAtLocationAsync::PostEventAtLocationAsync(class UObject* WorldContextObject, class UAkAudioEvent* AkEvent, const struct FVector& Location, const struct FRotator& Orientation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.PostEventAtLocationAsync.PostEventAtLocationAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.PostEventAtLocationAsync.PostEventAtLocationAsync"));
 
 	struct
 	{
@@ -4533,7 +4533,7 @@ class UPostEventAtLocationAsync* UPostEventAtLocationAsync::PostEventAtLocationA
 
 void UPostEventAtLocationAsync::PollPostEventFuture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AkAudio.PostEventAtLocationAsync.PollPostEventFuture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AkAudio.PostEventAtLocationAsync.PollPostEventFuture"));
 
 	struct
 	{

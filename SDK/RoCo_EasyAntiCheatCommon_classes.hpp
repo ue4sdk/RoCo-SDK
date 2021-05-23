@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class EasyAntiCheatCommon.EasyAntiCheatNetComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class EasyAntiCheatCommon.EasyAntiCheatNetComponent"));
 		return ptr;
 	}
 

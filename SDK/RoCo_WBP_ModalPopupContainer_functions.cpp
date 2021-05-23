@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ModalPopupContainer_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ModalPopupContainer_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_
 
 void UWBP_ModalPopupContainer_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_ModalPopupContainer_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_
 
 void UWBP_ModalPopupContainer_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.PreConstruct"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_ModalPopupContainer_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ModalPopupContainer_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.InitializeWidget"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_ModalPopupContainer_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_ModalPopupContainer_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.Handle Input State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.Handle Input State Changed"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_ModalPopupContainer_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_I
 
 void UWBP_ModalPopupContainer_C::ExecuteUbergraph_WBP_ModalPopupContainer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.ExecuteUbergraph_WBP_ModalPopupContainer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.ExecuteUbergraph_WBP_ModalPopupContainer"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_ModalPopupContainer_C::ExecuteUbergraph_WBP_ModalPopupContainer(int En
 
 void UWBP_ModalPopupContainer_C::CloseButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.CloseButtonClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.CloseButtonClicked__DelegateSignature"));
 
 	struct
 	{

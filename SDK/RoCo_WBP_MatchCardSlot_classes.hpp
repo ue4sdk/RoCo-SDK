@@ -40,7 +40,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_MatchCardSlot.WBP_MatchCardSlot_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_MatchCardSlot.WBP_MatchCardSlot_C"));
 		return ptr;
 	}
 

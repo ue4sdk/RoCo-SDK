@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_EventProgress_C::InitializeWithActivityInstance(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventProgress.WBP_EventProgress_C.InitializeWithActivityInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventProgress.WBP_EventProgress_C.InitializeWithActivityInstance"));
 
 	struct
 	{

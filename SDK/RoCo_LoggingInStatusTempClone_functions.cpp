@@ -19,7 +19,7 @@ namespace SDK
 
 void ULoggingInStatusTempClone_C::SetWaitQueueMessage(const struct FLoginQueueInfo& LoginQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.SetWaitQueueMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.SetWaitQueueMessage"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void ULoggingInStatusTempClone_C::SetWaitQueueMessage(const struct FLoginQueueIn
 
 void ULoggingInStatusTempClone_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.InitializeWidget"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void ULoggingInStatusTempClone_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void ULoggingInStatusTempClone_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void ULoggingInStatusTempClone_C::InitializeWidgetNavigation()
 
 void ULoggingInStatusTempClone_C::BndEvt__LogOffBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.BndEvt__LogOffBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.BndEvt__LogOffBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void ULoggingInStatusTempClone_C::BndEvt__LogOffBtn_K2Node_ComponentBoundEvent_0
 
 void ULoggingInStatusTempClone_C::ExecuteUbergraph_LoggingInStatusTempClone(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.ExecuteUbergraph_LoggingInStatusTempClone");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggingInStatusTempClone.LoggingInStatusTempClone_C.ExecuteUbergraph_LoggingInStatusTempClone"));
 
 	struct
 	{

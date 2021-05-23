@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_Guided_Tutorial_Tips_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.NavigateBack"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_Guided_Tutorial_Tips_C::NavigateBack()
 
 void UWBP_Guided_Tutorial_Tips_C::GuidedTutorialShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.GuidedTutorialShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.GuidedTutorialShown"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_Guided_Tutorial_Tips_C::GuidedTutorialShown()
 
 void UWBP_Guided_Tutorial_Tips_C::SetTipMode(class UGuidedMenuCalloutData* CalloutData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.SetTipMode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.SetTipMode"));
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_Guided_Tutorial_Tips_C::SetTipMode(class UGuidedMenuCalloutData* Callo
 
 void UWBP_Guided_Tutorial_Tips_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.Construct"));
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UWBP_Guided_Tutorial_Tips_C::Construct()
 
 void UWBP_Guided_Tutorial_Tips_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.InitializeWidget"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_Guided_Tutorial_Tips_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Guided_Tutorial_Tips_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_Guided_Tutorial_Tips_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent
 
 void UWBP_Guided_Tutorial_Tips_C::HandleCloseHovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.HandleCloseHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.HandleCloseHovered"));
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UWBP_Guided_Tutorial_Tips_C::HandleCloseHovered(class UWidget* Widget)
 
 void UWBP_Guided_Tutorial_Tips_C::HandleCLoseUnhovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.HandleCLoseUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.HandleCLoseUnhovered"));
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UWBP_Guided_Tutorial_Tips_C::HandleCLoseUnhovered(class UWidget* Widget)
 
 void UWBP_Guided_Tutorial_Tips_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UWBP_Guided_Tutorial_Tips_C::InitializeWidgetNavigation()
 
 void UWBP_Guided_Tutorial_Tips_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.OnShown"));
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_Guided_Tutorial_Tips_C::OnShown()
 
 void UWBP_Guided_Tutorial_Tips_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.PreConstruct"));
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_Guided_Tutorial_Tips_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Guided_Tutorial_Tips_C::CloseScene()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.CloseScene");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.CloseScene"));
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_Guided_Tutorial_Tips_C::CloseScene()
 
 void UWBP_Guided_Tutorial_Tips_C::BndEvt__GotItButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.BndEvt__GotItButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.BndEvt__GotItButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UWBP_Guided_Tutorial_Tips_C::BndEvt__GotItButton_K2Node_ComponentBoundEvent
 
 void UWBP_Guided_Tutorial_Tips_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.OnBackPrompt"));
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_Guided_Tutorial_Tips_C::OnBackPrompt()
 
 void UWBP_Guided_Tutorial_Tips_C::ExecuteUbergraph_WBP_Guided_Tutorial_Tips(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.ExecuteUbergraph_WBP_Guided_Tutorial_Tips");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Tips.WBP_Guided_Tutorial_Tips_C.ExecuteUbergraph_WBP_Guided_Tutorial_Tips"));
 
 	struct
 	{

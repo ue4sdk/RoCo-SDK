@@ -31,7 +31,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass VehicleSpeedometer.VehicleSpeedometer_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass VehicleSpeedometer.VehicleSpeedometer_C"));
 		return ptr;
 	}
 

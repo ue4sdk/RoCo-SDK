@@ -17,7 +17,7 @@ namespace SDK
 
 void ULoggedInProcessRewards_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoggedInProcessRewards.LoggedInProcessRewards_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInProcessRewards.LoggedInProcessRewards_C.OnShown"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void ULoggedInProcessRewards_C::OnShown()
 
 void ULoggedInProcessRewards_C::ExecuteUbergraph_LoggedInProcessRewards(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoggedInProcessRewards.LoggedInProcessRewards_C.ExecuteUbergraph_LoggedInProcessRewards");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInProcessRewards.LoggedInProcessRewards_C.ExecuteUbergraph_LoggedInProcessRewards"));
 
 	struct
 	{

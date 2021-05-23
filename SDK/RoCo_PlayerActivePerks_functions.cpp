@@ -17,7 +17,7 @@ namespace SDK
 
 void UPlayerActivePerks_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.PostSetPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.PostSetPawn"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UPlayerActivePerks_C::PostSetPawn()
 
 void UPlayerActivePerks_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.PreClearPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.PreClearPawn"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UPlayerActivePerks_C::PreClearPawn()
 
 void UPlayerActivePerks_C::HandleModsUpdated(class AKSCharacter* KSCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.HandleModsUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.HandleModsUpdated"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UPlayerActivePerks_C::HandleModsUpdated(class AKSCharacter* KSCharacter)
 
 void UPlayerActivePerks_C::HandleDownedElim(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.HandleDownedElim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.HandleDownedElim"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UPlayerActivePerks_C::HandleDownedElim(class AKSPlayerState* KSPlayerState)
 
 void UPlayerActivePerks_C::Bind_Callbacks_to_Player_State(class AKSPlayerState* In_Player_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.Bind Callbacks to Player State");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.Bind Callbacks to Player State"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UPlayerActivePerks_C::Bind_Callbacks_to_Player_State(class AKSPlayerState* 
 
 void UPlayerActivePerks_C::Unbind_Callbacks_to_Player_State()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.Unbind Callbacks to Player State");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.Unbind Callbacks to Player State"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UPlayerActivePerks_C::Unbind_Callbacks_to_Player_State()
 
 void UPlayerActivePerks_C::Bind_Callbacks_to_Pawn(class AKSCharacter* In_Pawn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.Bind Callbacks to Pawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.Bind Callbacks to Pawn"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UPlayerActivePerks_C::Bind_Callbacks_to_Pawn(class AKSCharacter* In_Pawn)
 
 void UPlayerActivePerks_C::Unbind_Callbacks_to_Pawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.Unbind Callbacks to Pawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.Unbind Callbacks to Pawn"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UPlayerActivePerks_C::Unbind_Callbacks_to_Pawn()
 
 void UPlayerActivePerks_C::PreClearPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.PreClearPlayerState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.PreClearPlayerState"));
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UPlayerActivePerks_C::PreClearPlayerState()
 
 void UPlayerActivePerks_C::PostSetPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.PostSetPlayerState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.PostSetPlayerState"));
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UPlayerActivePerks_C::PostSetPlayerState()
 
 void UPlayerActivePerks_C::SetPlayerStateUIRelevanceChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.SetPlayerStateUIRelevanceChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.SetPlayerStateUIRelevanceChanged"));
 
 	struct
 	{
@@ -209,7 +209,7 @@ void UPlayerActivePerks_C::SetPlayerStateUIRelevanceChanged()
 
 void UPlayerActivePerks_C::Try_To_Show_On_UI_Relevant()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.Try To Show On UI Relevant");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.Try To Show On UI Relevant"));
 
 	struct
 	{
@@ -227,7 +227,7 @@ void UPlayerActivePerks_C::Try_To_Show_On_UI_Relevant()
 
 void UPlayerActivePerks_C::ExecuteUbergraph_PlayerActivePerks(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerActivePerks.PlayerActivePerks_C.ExecuteUbergraph_PlayerActivePerks");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerActivePerks.PlayerActivePerks_C.ExecuteUbergraph_PlayerActivePerks"));
 
 	struct
 	{

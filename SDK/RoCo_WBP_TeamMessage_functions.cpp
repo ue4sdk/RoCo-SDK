@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_TeamMessage_C::AbortCurrentAnnouncement()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.AbortCurrentAnnouncement");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.AbortCurrentAnnouncement"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_TeamMessage_C::AbortCurrentAnnouncement()
 
 void UWBP_TeamMessage_C::ShowAnnouncement(const struct FAnnouncementData& Announcement)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.ShowAnnouncement");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.ShowAnnouncement"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_TeamMessage_C::ShowAnnouncement(const struct FAnnouncementData& Announ
 
 void UWBP_TeamMessage_C::HandleOnAnnouncement(const struct FAnnouncementData& Announcement)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.HandleOnAnnouncement");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.HandleOnAnnouncement"));
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_TeamMessage_C::HandleOnAnnouncement(const struct FAnnouncementData& An
 
 void UWBP_TeamMessage_C::CheckShouldShow(const struct FAnnouncementData& AnnouncementData, bool* Return)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.CheckShouldShow");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.CheckShouldShow"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_TeamMessage_C::CheckShouldShow(const struct FAnnouncementData& Announc
 
 void UWBP_TeamMessage_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.Construct"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_TeamMessage_C::Construct()
 
 void UWBP_TeamMessage_C::OnAnnouncementFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.OnAnnouncementFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.OnAnnouncementFinished"));
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_TeamMessage_C::OnAnnouncementFinished()
 
 void UWBP_TeamMessage_C::OnKillCamEnabled(bool bEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.OnKillCamEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.OnKillCamEnabled"));
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_TeamMessage_C::OnKillCamEnabled(bool bEnabled)
 
 void UWBP_TeamMessage_C::HandleRoundSetup(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.HandleRoundSetup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.HandleRoundSetup"));
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_TeamMessage_C::HandleRoundSetup(const struct FRoundInitState& RoundIni
 
 void UWBP_TeamMessage_C::HandleQueuedAnnoucements()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.HandleQueuedAnnoucements");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.HandleQueuedAnnoucements"));
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_TeamMessage_C::HandleQueuedAnnoucements()
 
 void UWBP_TeamMessage_C::ExecuteUbergraph_WBP_TeamMessage(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TeamMessage.WBP_TeamMessage_C.ExecuteUbergraph_WBP_TeamMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TeamMessage.WBP_TeamMessage_C.ExecuteUbergraph_WBP_TeamMessage"));
 
 	struct
 	{

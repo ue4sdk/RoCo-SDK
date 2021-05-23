@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ProgressEarnedBar_C::GetProgressionFinalTier(int* Final_Tier_Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.GetProgressionFinalTier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.GetProgressionFinalTier"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_ProgressEarnedBar_C::GetProgressionFinalTier(int* Final_Tier_Index)
 
 void UWBP_ProgressEarnedBar_C::IsProgressionIncreasing(bool* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.IsProgressionIncreasing");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.IsProgressionIncreasing"));
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UWBP_ProgressEarnedBar_C::IsProgressionIncreasing(bool* Return_Value)
 
 void UWBP_ProgressEarnedBar_C::IsOnFirstTier(bool* FinalTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.IsOnFirstTier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.IsOnFirstTier"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_ProgressEarnedBar_C::IsOnFirstTier(bool* FinalTier)
 
 void UWBP_ProgressEarnedBar_C::OnLevelDownAnimCompleted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLevelDownAnimCompleted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLevelDownAnimCompleted"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_ProgressEarnedBar_C::OnLevelDownAnimCompleted()
 
 void UWBP_ProgressEarnedBar_C::IsOnFinalTier(bool* FinalTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.IsOnFinalTier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.IsOnFinalTier"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_ProgressEarnedBar_C::IsOnFinalTier(bool* FinalTier)
 
 void UWBP_ProgressEarnedBar_C::Set_Fill_Colors()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.Set Fill Colors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.Set Fill Colors"));
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UWBP_ProgressEarnedBar_C::Set_Fill_Colors()
 
 void UWBP_ProgressEarnedBar_C::OnLevelUpAnimCompleted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLevelUpAnimCompleted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLevelUpAnimCompleted"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_ProgressEarnedBar_C::OnLevelUpAnimCompleted()
 
 void UWBP_ProgressEarnedBar_C::InitializeAnimForTier(int Tier_Index, bool* IsValid)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.InitializeAnimForTier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.InitializeAnimForTier"));
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWBP_ProgressEarnedBar_C::InitializeAnimForTier(int Tier_Index, bool* IsVal
 
 void UWBP_ProgressEarnedBar_C::SetProgressionData(const struct FPlayerProgression& Progression)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.SetProgressionData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.SetProgressionData"));
 
 	struct
 	{
@@ -201,7 +201,7 @@ void UWBP_ProgressEarnedBar_C::SetProgressionData(const struct FPlayerProgressio
 
 void UWBP_ProgressEarnedBar_C::ApplyMeterPercentages(float BasePercent, float DeltaPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.ApplyMeterPercentages");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.ApplyMeterPercentages"));
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UWBP_ProgressEarnedBar_C::ApplyMeterPercentages(float BasePercent, float De
 
 void UWBP_ProgressEarnedBar_C::OnDeltaAnimationStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnDeltaAnimationStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnDeltaAnimationStarted"));
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_ProgressEarnedBar_C::OnDeltaAnimationStarted()
 
 void UWBP_ProgressEarnedBar_C::OnDeltaAnimationTicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnDeltaAnimationTicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnDeltaAnimationTicked"));
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_ProgressEarnedBar_C::OnDeltaAnimationTicked()
 
 void UWBP_ProgressEarnedBar_C::OnDeltaAnimationFinished(bool bLevelChange)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnDeltaAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnDeltaAnimationFinished"));
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UWBP_ProgressEarnedBar_C::OnDeltaAnimationFinished(bool bLevelChange)
 
 void UWBP_ProgressEarnedBar_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.Construct"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UWBP_ProgressEarnedBar_C::Construct()
 
 void UWBP_ProgressEarnedBar_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.PreConstruct"));
 
 	struct
 	{
@@ -311,7 +311,7 @@ void UWBP_ProgressEarnedBar_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ProgressEarnedBar_C::ExecuteUbergraph_WBP_ProgressEarnedBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.ExecuteUbergraph_WBP_ProgressEarnedBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.ExecuteUbergraph_WBP_ProgressEarnedBar"));
 
 	struct
 	{
@@ -331,7 +331,7 @@ void UWBP_ProgressEarnedBar_C::ExecuteUbergraph_WBP_ProgressEarnedBar(int EntryP
 
 void UWBP_ProgressEarnedBar_C::OnLerpUpdate__DelegateSignature(float CurrentLerpPercantage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLerpUpdate__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLerpUpdate__DelegateSignature"));
 
 	struct
 	{
@@ -351,7 +351,7 @@ void UWBP_ProgressEarnedBar_C::OnLerpUpdate__DelegateSignature(float CurrentLerp
 
 void UWBP_ProgressEarnedBar_C::OnLevelDownEvent__DelegateSignature(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLevelDownEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLevelDownEvent__DelegateSignature"));
 
 	struct
 	{
@@ -371,7 +371,7 @@ void UWBP_ProgressEarnedBar_C::OnLevelDownEvent__DelegateSignature(int NewLevel)
 
 void UWBP_ProgressEarnedBar_C::OnLevelUpEvent__DelegateSignature(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLevelUpEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressEarnedBar.WBP_ProgressEarnedBar_C.OnLevelUpEvent__DelegateSignature"));
 
 	struct
 	{

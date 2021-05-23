@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkFrameInterpolationProcessor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkFrameInterpolationProcessor"));
 		return ptr;
 	}
 
@@ -37,7 +37,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkFrameTranslator");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkFrameTranslator"));
 		return ptr;
 	}
 
@@ -57,7 +57,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkVirtualSubject");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkVirtualSubject"));
 		return ptr;
 	}
 
@@ -72,7 +72,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkFramePreProcessor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkFramePreProcessor"));
 		return ptr;
 	}
 
@@ -87,7 +87,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkSourceFactory");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkSourceFactory"));
 		return ptr;
 	}
 
@@ -107,7 +107,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkSourceSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkSourceSettings"));
 		return ptr;
 	}
 
@@ -122,7 +122,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkRole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkRole"));
 		return ptr;
 	}
 
@@ -137,7 +137,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkBasicRole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkBasicRole"));
 		return ptr;
 	}
 
@@ -152,7 +152,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkAnimationRole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkAnimationRole"));
 		return ptr;
 	}
 
@@ -167,7 +167,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkTransformRole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkTransformRole"));
 		return ptr;
 	}
 
@@ -182,7 +182,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkCameraRole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkCameraRole"));
 		return ptr;
 	}
 
@@ -197,7 +197,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkController");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkController"));
 		return ptr;
 	}
 
@@ -213,7 +213,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkCurveRemapSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkCurveRemapSettings"));
 		return ptr;
 	}
 
@@ -228,7 +228,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkLightRole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkLightRole"));
 		return ptr;
 	}
 
@@ -247,7 +247,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkInterface.LiveLinkSubjectSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkInterface.LiveLinkSubjectSettings"));
 		return ptr;
 	}
 

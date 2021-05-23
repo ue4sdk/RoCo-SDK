@@ -23,7 +23,7 @@ namespace SDK
 
 void UWBP_StandardButtonInner_C::SetDefaultValues(float Height, float Width, const struct FText& ButtonText, const struct FName& Action, bool ShowPromptOnFocus)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetDefaultValues");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetDefaultValues"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_StandardButtonInner_C::SetDefaultValues(float Height, float Width, con
 
 void UWBP_StandardButtonInner_C::SetHeight(float InHeight)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetHeight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetHeight"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_StandardButtonInner_C::SetHeight(float InHeight)
 
 void UWBP_StandardButtonInner_C::HasGamepadAction(bool* HasGamepadAction)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.HasGamepadAction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.HasGamepadAction"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_StandardButtonInner_C::HasGamepadAction(bool* HasGamepadAction)
 
 void UWBP_StandardButtonInner_C::SetGamepadPromptForAction(const struct FName& Action)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetGamepadPromptForAction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetGamepadPromptForAction"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_StandardButtonInner_C::SetGamepadPromptForAction(const struct FName& A
 
 void UWBP_StandardButtonInner_C::SetDefaultDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetDefaultDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetDefaultDisplay"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_StandardButtonInner_C::SetDefaultDisplay()
 
 void UWBP_StandardButtonInner_C::SetWidth(float InWidth)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetWidth"));
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UWBP_StandardButtonInner_C::SetWidth(float InWidth)
 
 void UWBP_StandardButtonInner_C::SetButtonText(const struct FText& ButtonText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetButtonText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.SetButtonText"));
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_StandardButtonInner_C::SetButtonText(const struct FText& ButtonText)
 
 bool UWBP_StandardButtonInner_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.NavigateConfirm"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ bool UWBP_StandardButtonInner_C::NavigateConfirm()
 
 void UWBP_StandardButtonInner_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.PreConstruct"));
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_StandardButtonInner_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_StandardButtonInner_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.Construct"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_StandardButtonInner_C::Construct()
 
 void UWBP_StandardButtonInner_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UWBP_StandardButtonInner_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEven
 
 void UWBP_StandardButtonInner_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UWBP_StandardButtonInner_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEven
 
 void UWBP_StandardButtonInner_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_StandardButtonInner_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEven
 
 void UWBP_StandardButtonInner_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.GamepadHover"));
 
 	struct
 	{
@@ -288,7 +288,7 @@ void UWBP_StandardButtonInner_C::GamepadHover()
 
 void UWBP_StandardButtonInner_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.GamepadUnhover"));
 
 	struct
 	{
@@ -304,7 +304,7 @@ void UWBP_StandardButtonInner_C::GamepadUnhover()
 
 void UWBP_StandardButtonInner_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.GamepadConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.GamepadConfirm"));
 
 	struct
 	{
@@ -320,7 +320,7 @@ void UWBP_StandardButtonInner_C::GamepadConfirm()
 
 void UWBP_StandardButtonInner_C::Do_Hover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.Do Hover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.Do Hover"));
 
 	struct
 	{
@@ -336,7 +336,7 @@ void UWBP_StandardButtonInner_C::Do_Hover()
 
 void UWBP_StandardButtonInner_C::Do_Unhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.Do Unhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.Do Unhover"));
 
 	struct
 	{
@@ -354,7 +354,7 @@ void UWBP_StandardButtonInner_C::Do_Unhover()
 
 void UWBP_StandardButtonInner_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.InitializeWidget"));
 
 	struct
 	{
@@ -374,7 +374,7 @@ void UWBP_StandardButtonInner_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_StandardButtonInner_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.HandleInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.HandleInputStateChanged"));
 
 	struct
 	{
@@ -394,7 +394,7 @@ void UWBP_StandardButtonInner_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPU
 
 void UWBP_StandardButtonInner_C::ExecuteUbergraph_WBP_StandardButtonInner(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.ExecuteUbergraph_WBP_StandardButtonInner");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.ExecuteUbergraph_WBP_StandardButtonInner"));
 
 	struct
 	{
@@ -414,7 +414,7 @@ void UWBP_StandardButtonInner_C::ExecuteUbergraph_WBP_StandardButtonInner(int En
 
 void UWBP_StandardButtonInner_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.OnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.OnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -434,7 +434,7 @@ void UWBP_StandardButtonInner_C::OnUnhovered__DelegateSignature(class UWidget* W
 
 void UWBP_StandardButtonInner_C::OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.OnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.OnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -454,7 +454,7 @@ void UWBP_StandardButtonInner_C::OnHovered__DelegateSignature(class UWidget* Wid
 
 void UWBP_StandardButtonInner_C::OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StandardButtonInner.WBP_StandardButtonInner_C.OnClicked__DelegateSignature"));
 
 	struct
 	{

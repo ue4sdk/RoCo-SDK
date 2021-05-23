@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWeaponMenuManager_C::IsFocusEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WeaponMenuManager.WeaponMenuManager_C.IsFocusEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponMenuManager.WeaponMenuManager_C.IsFocusEnabled"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWeaponMenuManager_C::IsFocusEnabled()
 
 void UWeaponMenuManager_C::Close_All()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WeaponMenuManager.WeaponMenuManager_C.Close All");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponMenuManager.WeaponMenuManager_C.Close All"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWeaponMenuManager_C::Close_All()
 
 void UWeaponMenuManager_C::PostSetWeapon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WeaponMenuManager.WeaponMenuManager_C.PostSetWeapon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponMenuManager.WeaponMenuManager_C.PostSetWeapon"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWeaponMenuManager_C::PostSetWeapon()
 
 void UWeaponMenuManager_C::OtherWeaponUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WeaponMenuManager.WeaponMenuManager_C.OtherWeaponUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponMenuManager.WeaponMenuManager_C.OtherWeaponUpdate"));
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UWeaponMenuManager_C::OtherWeaponUpdate()
 
 void UWeaponMenuManager_C::PreClearWeapon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WeaponMenuManager.WeaponMenuManager_C.PreClearWeapon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponMenuManager.WeaponMenuManager_C.PreClearWeapon"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWeaponMenuManager_C::PreClearWeapon()
 
 void UWeaponMenuManager_C::InventoryChange()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WeaponMenuManager.WeaponMenuManager_C.InventoryChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponMenuManager.WeaponMenuManager_C.InventoryChange"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWeaponMenuManager_C::InventoryChange()
 
 void UWeaponMenuManager_C::Display_Target_List(class AKSWeapon_Targeted* TargetingWeapon, TArray<class AActor*> PotentialTargets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WeaponMenuManager.WeaponMenuManager_C.Display Target List");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponMenuManager.WeaponMenuManager_C.Display Target List"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWeaponMenuManager_C::Display_Target_List(class AKSWeapon_Targeted* Targeti
 
 void UWeaponMenuManager_C::ExecuteUbergraph_WeaponMenuManager(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WeaponMenuManager.WeaponMenuManager_C.ExecuteUbergraph_WeaponMenuManager");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponMenuManager.WeaponMenuManager_C.ExecuteUbergraph_WeaponMenuManager"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueCutomizationSelector_C::GetSelectedStoreItem(class UPUMG_StoreItem** StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.GetSelectedStoreItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.GetSelectedStoreItem"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_RogueCutomizationSelector_C::GetSelectedStoreItem(class UPUMG_StoreIte
 
 void UWBP_RogueCutomizationSelector_C::GetPrimaryItem(class UKSItem** KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.GetPrimaryItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.GetPrimaryItem"));
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UWBP_RogueCutomizationSelector_C::GetPrimaryItem(class UKSItem** KSItem)
 
 bool UWBP_RogueCutomizationSelector_C::CanChangeTab()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.CanChangeTab");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.CanChangeTab"));
 
 	struct
 	{
@@ -85,7 +85,7 @@ bool UWBP_RogueCutomizationSelector_C::CanChangeTab()
 
 void UWBP_RogueCutomizationSelector_C::Create_Cosmetic_Item_Selector(class UKSItem* KSItem, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Create Cosmetic Item Selector");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Create Cosmetic Item Selector"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_RogueCutomizationSelector_C::Create_Cosmetic_Item_Selector(class UKSIt
 
 void UWBP_RogueCutomizationSelector_C::SoundPlayCosmeticEquip(EMercCosmeticSlot CosmeticType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SoundPlayCosmeticEquip");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SoundPlayCosmeticEquip"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_RogueCutomizationSelector_C::SoundPlayCosmeticEquip(EMercCosmeticSlot 
 
 void UWBP_RogueCutomizationSelector_C::GetActiveTabFocusGroup(int* ActiveTabFocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.GetActiveTabFocusGroup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.GetActiveTabFocusGroup"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_RogueCutomizationSelector_C::GetActiveTabFocusGroup(int* ActiveTabFocu
 
 void UWBP_RogueCutomizationSelector_C::ReevaluateGamepadTabImageVisibility()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ReevaluateGamepadTabImageVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ReevaluateGamepadTabImageVisibility"));
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UWBP_RogueCutomizationSelector_C::ReevaluateGamepadTabImageVisibility()
 
 void UWBP_RogueCutomizationSelector_C::GetAdjustedCosmeticSlot(class UPlatformInventoryItem* OriginalItem, EMercCosmeticSlot OriginalCosmeticSlot, EMercCosmeticSlot* AdjustedCosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.GetAdjustedCosmeticSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.GetAdjustedCosmeticSlot"));
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UWBP_RogueCutomizationSelector_C::GetAdjustedCosmeticSlot(class UPlatformIn
 
 void UWBP_RogueCutomizationSelector_C::AddActiveCosmeticSlot(EMercCosmeticSlot NewCosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.AddActiveCosmeticSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.AddActiveCosmeticSlot"));
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UWBP_RogueCutomizationSelector_C::AddActiveCosmeticSlot(EMercCosmeticSlot N
 
 void UWBP_RogueCutomizationSelector_C::ChangeCosmeticSlotTab(class UKSNavTabWidget* Tab)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ChangeCosmeticSlotTab");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ChangeCosmeticSlotTab"));
 
 	struct
 	{
@@ -231,7 +231,7 @@ void UWBP_RogueCutomizationSelector_C::ChangeCosmeticSlotTab(class UKSNavTabWidg
 
 void UWBP_RogueCutomizationSelector_C::SetupCosmeticSlots()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetupCosmeticSlots");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetupCosmeticSlots"));
 
 	struct
 	{
@@ -251,7 +251,7 @@ void UWBP_RogueCutomizationSelector_C::SetupCosmeticSlots()
 
 bool UWBP_RogueCutomizationSelector_C::OnSortRarityDescNameAsc(class UWidget* LHS, class UWidget* RHS)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnSortRarityDescNameAsc");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnSortRarityDescNameAsc"));
 
 	struct
 	{
@@ -277,7 +277,7 @@ bool UWBP_RogueCutomizationSelector_C::OnSortRarityDescNameAsc(class UWidget* LH
 
 void UWBP_RogueCutomizationSelector_C::IsEquipAllAllowed(class UKSItem* Item, bool* CanEquipAll)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.IsEquipAllAllowed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.IsEquipAllAllowed"));
 
 	struct
 	{
@@ -299,7 +299,7 @@ void UWBP_RogueCutomizationSelector_C::IsEquipAllAllowed(class UKSItem* Item, bo
 
 void UWBP_RogueCutomizationSelector_C::DisplayEquipAllPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.DisplayEquipAllPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.DisplayEquipAllPrompt"));
 
 	struct
 	{
@@ -315,7 +315,7 @@ void UWBP_RogueCutomizationSelector_C::DisplayEquipAllPrompt()
 
 void UWBP_RogueCutomizationSelector_C::OnEquipAll()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnEquipAll");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnEquipAll"));
 
 	struct
 	{
@@ -335,7 +335,7 @@ void UWBP_RogueCutomizationSelector_C::OnEquipAll()
 
 struct FEventReply UWBP_RogueCutomizationSelector_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnKeyUp"));
 
 	struct
 	{
@@ -360,7 +360,7 @@ struct FEventReply UWBP_RogueCutomizationSelector_C::OnKeyUp(const struct FGeome
 
 void UWBP_RogueCutomizationSelector_C::SetEmoteModel(class UKSItem* CosmeticItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetEmoteModel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetEmoteModel"));
 
 	struct
 	{
@@ -383,7 +383,7 @@ void UWBP_RogueCutomizationSelector_C::SetEmoteModel(class UKSItem* CosmeticItem
 
 void UWBP_RogueCutomizationSelector_C::SetEquippedItem(bool IsEquipped, class UWBP_KSCosmeticItemSelector_C* CosmeticItemSlot, class UKSItem* KSItem, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetEquippedItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetEquippedItem"));
 
 	struct
 	{
@@ -409,7 +409,7 @@ void UWBP_RogueCutomizationSelector_C::SetEquippedItem(bool IsEquipped, class UW
 
 void UWBP_RogueCutomizationSelector_C::SetOwnedItem(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetOwnedItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetOwnedItem"));
 
 	struct
 	{
@@ -429,7 +429,7 @@ void UWBP_RogueCutomizationSelector_C::SetOwnedItem(class UPUMG_StoreItem* Store
 
 void UWBP_RogueCutomizationSelector_C::OnPurchaseItem(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnPurchaseItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnPurchaseItem"));
 
 	struct
 	{
@@ -449,7 +449,7 @@ void UWBP_RogueCutomizationSelector_C::OnPurchaseItem(class UPUMG_StoreItem* Sto
 
 void UWBP_RogueCutomizationSelector_C::AddClearCosmeticSlot(class UKSSortableGridPanel* ItemContainer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.AddClearCosmeticSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.AddClearCosmeticSlot"));
 
 	struct
 	{
@@ -470,7 +470,7 @@ void UWBP_RogueCutomizationSelector_C::AddClearCosmeticSlot(class UKSSortableGri
 
 void UWBP_RogueCutomizationSelector_C::IsItemEquipped(class UKSItem* KSItem, bool* IsEquipped)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.IsItemEquipped");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.IsItemEquipped"));
 
 	struct
 	{
@@ -494,7 +494,7 @@ void UWBP_RogueCutomizationSelector_C::IsItemEquipped(class UKSItem* KSItem, boo
 
 void UWBP_RogueCutomizationSelector_C::Set_Active_States(class UWBP_KSCosmeticItemSelector_C* ActiveWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Set Active States");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Set Active States"));
 
 	struct
 	{
@@ -512,7 +512,7 @@ void UWBP_RogueCutomizationSelector_C::Set_Active_States(class UWBP_KSCosmeticIt
 
 void UWBP_RogueCutomizationSelector_C::SetEquipBtn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetEquipBtn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetEquipBtn"));
 
 	struct
 	{
@@ -530,7 +530,7 @@ void UWBP_RogueCutomizationSelector_C::SetEquipBtn()
 
 void UWBP_RogueCutomizationSelector_C::SetWingSuitModel(class UKSItem* CosmeticItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetWingSuitModel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetWingSuitModel"));
 
 	struct
 	{
@@ -548,7 +548,7 @@ void UWBP_RogueCutomizationSelector_C::SetWingSuitModel(class UKSItem* CosmeticI
 
 void UWBP_RogueCutomizationSelector_C::ResetSprayIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ResetSprayIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ResetSprayIcon"));
 
 	struct
 	{
@@ -566,7 +566,7 @@ void UWBP_RogueCutomizationSelector_C::ResetSprayIcon()
 
 void UWBP_RogueCutomizationSelector_C::ResetModels(bool Skip_Character)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ResetModels");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ResetModels"));
 
 	struct
 	{
@@ -586,7 +586,7 @@ void UWBP_RogueCutomizationSelector_C::ResetModels(bool Skip_Character)
 
 void UWBP_RogueCutomizationSelector_C::SetEmoteImage(class UKSItem* CosmeticItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetEmoteImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetEmoteImage"));
 
 	struct
 	{
@@ -604,7 +604,7 @@ void UWBP_RogueCutomizationSelector_C::SetEmoteImage(class UKSItem* CosmeticItem
 
 void UWBP_RogueCutomizationSelector_C::ResetCharacter()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ResetCharacter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ResetCharacter"));
 
 	struct
 	{
@@ -624,7 +624,7 @@ void UWBP_RogueCutomizationSelector_C::ResetCharacter()
 
 void UWBP_RogueCutomizationSelector_C::SetWeapon(class UKSItem* CosmeticItem, class UKSJobItem* JobItem, EWeaponSlot WeaponSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetWeapon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetWeapon"));
 
 	struct
 	{
@@ -649,7 +649,7 @@ void UWBP_RogueCutomizationSelector_C::SetWeapon(class UKSItem* CosmeticItem, cl
 
 void UWBP_RogueCutomizationSelector_C::Set_Model_Viewer(class UPlatformInventoryItem* CosmeticItem, const struct FCosmeticSlotDetails& CosmeticDetail)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Set Model Viewer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Set Model Viewer"));
 
 	struct
 	{
@@ -672,7 +672,7 @@ void UWBP_RogueCutomizationSelector_C::Set_Model_Viewer(class UPlatformInventory
 
 void UWBP_RogueCutomizationSelector_C::SetCharacterSkin(class UKSItem* CosmeticItem, class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetCharacterSkin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetCharacterSkin"));
 
 	struct
 	{
@@ -694,7 +694,7 @@ void UWBP_RogueCutomizationSelector_C::SetCharacterSkin(class UKSItem* CosmeticI
 
 bool UWBP_RogueCutomizationSelector_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.NavigateBack"));
 
 	struct
 	{
@@ -713,7 +713,7 @@ bool UWBP_RogueCutomizationSelector_C::NavigateBack()
 
 void UWBP_RogueCutomizationSelector_C::SetContextBar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetContextBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetContextBar"));
 
 	struct
 	{
@@ -729,7 +729,7 @@ void UWBP_RogueCutomizationSelector_C::SetContextBar()
 
 void UWBP_RogueCutomizationSelector_C::UpdateNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.UpdateNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.UpdateNavigation"));
 
 	struct
 	{
@@ -745,7 +745,7 @@ void UWBP_RogueCutomizationSelector_C::UpdateNavigation()
 
 void UWBP_RogueCutomizationSelector_C::RegisterNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.RegisterNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.RegisterNavigation"));
 
 	struct
 	{
@@ -761,7 +761,7 @@ void UWBP_RogueCutomizationSelector_C::RegisterNavigation()
 
 void UWBP_RogueCutomizationSelector_C::ResetCosmeticSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ResetCosmeticSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ResetCosmeticSelection"));
 
 	struct
 	{
@@ -779,7 +779,7 @@ void UWBP_RogueCutomizationSelector_C::ResetCosmeticSelection()
 
 void UWBP_RogueCutomizationSelector_C::SetCosmeticSelection(class UWBP_KSCosmeticItemDisplay_C* CosmeticDisplayBtn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetCosmeticSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.SetCosmeticSelection"));
 
 	struct
 	{
@@ -797,7 +797,7 @@ void UWBP_RogueCutomizationSelector_C::SetCosmeticSelection(class UWBP_KSCosmeti
 
 void UWBP_RogueCutomizationSelector_C::ClearDataOnInitialize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ClearDataOnInitialize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ClearDataOnInitialize"));
 
 	struct
 	{
@@ -815,7 +815,7 @@ void UWBP_RogueCutomizationSelector_C::ClearDataOnInitialize()
 
 void UWBP_RogueCutomizationSelector_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.InitializeWidget"));
 
 	struct
 	{
@@ -837,7 +837,7 @@ void UWBP_RogueCutomizationSelector_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RogueCutomizationSelector_C::OnHover(const struct FCosmeticSlotDetails& CosmeticDetails, class UPlatformInventoryItem* PlatformItem, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnHover"));
 
 	struct
 	{
@@ -859,7 +859,7 @@ void UWBP_RogueCutomizationSelector_C::OnHover(const struct FCosmeticSlotDetails
 
 void UWBP_RogueCutomizationSelector_C::OnUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnUnhover"));
 
 	struct
 	{
@@ -880,7 +880,7 @@ void UWBP_RogueCutomizationSelector_C::OnUnhover()
 
 void UWBP_RogueCutomizationSelector_C::OnSelectCosmetic(class UPlatformInventoryItem* PlatformItem, class UPUMG_StoreItem* StoreItem, class UWidget* Widget, const struct FCosmeticSlotDetails& CosmeticDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnSelectCosmetic");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnSelectCosmetic"));
 
 	struct
 	{
@@ -904,7 +904,7 @@ void UWBP_RogueCutomizationSelector_C::OnSelectCosmetic(class UPlatformInventory
 
 void UWBP_RogueCutomizationSelector_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnShown"));
 
 	struct
 	{
@@ -920,7 +920,7 @@ void UWBP_RogueCutomizationSelector_C::OnShown()
 
 void UWBP_RogueCutomizationSelector_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnBackPrompt"));
 
 	struct
 	{
@@ -936,7 +936,7 @@ void UWBP_RogueCutomizationSelector_C::OnBackPrompt()
 
 void UWBP_RogueCutomizationSelector_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -952,7 +952,7 @@ void UWBP_RogueCutomizationSelector_C::InitializeWidgetNavigation()
 
 void UWBP_RogueCutomizationSelector_C::EquipCosmetic()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.EquipCosmetic");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.EquipCosmetic"));
 
 	struct
 	{
@@ -968,7 +968,7 @@ void UWBP_RogueCutomizationSelector_C::EquipCosmetic()
 
 void UWBP_RogueCutomizationSelector_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnHide"));
 
 	struct
 	{
@@ -986,7 +986,7 @@ void UWBP_RogueCutomizationSelector_C::OnHide()
 
 void UWBP_RogueCutomizationSelector_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.HandleInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.HandleInputStateChanged"));
 
 	struct
 	{
@@ -1006,7 +1006,7 @@ void UWBP_RogueCutomizationSelector_C::HandleInputStateChanged(TEnumAsByte<EPGAM
 
 void UWBP_RogueCutomizationSelector_C::BndEvt__AcceptEquipAll_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.BndEvt__AcceptEquipAll_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.BndEvt__AcceptEquipAll_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -1026,7 +1026,7 @@ void UWBP_RogueCutomizationSelector_C::BndEvt__AcceptEquipAll_K2Node_ComponentBo
 
 void UWBP_RogueCutomizationSelector_C::BndEvt__CancelEquipAll_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.BndEvt__CancelEquipAll_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.BndEvt__CancelEquipAll_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -1044,7 +1044,7 @@ void UWBP_RogueCutomizationSelector_C::BndEvt__CancelEquipAll_K2Node_ComponentBo
 
 void UWBP_RogueCutomizationSelector_C::On_Close_Button_Clicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.On Close Button Clicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.On Close Button Clicked"));
 
 	struct
 	{
@@ -1063,7 +1063,7 @@ void UWBP_RogueCutomizationSelector_C::On_Close_Button_Clicked()
 
 void UWBP_RogueCutomizationSelector_C::OnItemGamepadHovered(class UPUMG_Widget* Widget, bool bHovered)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnItemGamepadHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnItemGamepadHovered"));
 
 	struct
 	{
@@ -1083,7 +1083,7 @@ void UWBP_RogueCutomizationSelector_C::OnItemGamepadHovered(class UPUMG_Widget* 
 
 void UWBP_RogueCutomizationSelector_C::Return_To_Job_Preview_Model()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Return To Job Preview Model");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Return To Job Preview Model"));
 
 	struct
 	{
@@ -1099,7 +1099,7 @@ void UWBP_RogueCutomizationSelector_C::Return_To_Job_Preview_Model()
 
 void UWBP_RogueCutomizationSelector_C::Hide_Preview_Character()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Hide Preview Character");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Hide Preview Character"));
 
 	struct
 	{
@@ -1115,7 +1115,7 @@ void UWBP_RogueCutomizationSelector_C::Hide_Preview_Character()
 
 void UWBP_RogueCutomizationSelector_C::Show_Preview_Character()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Show Preview Character");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.Show Preview Character"));
 
 	struct
 	{
@@ -1131,7 +1131,7 @@ void UWBP_RogueCutomizationSelector_C::Show_Preview_Character()
 
 void UWBP_RogueCutomizationSelector_C::ChangeToNewTab()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ChangeToNewTab");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ChangeToNewTab"));
 
 	struct
 	{
@@ -1149,7 +1149,7 @@ void UWBP_RogueCutomizationSelector_C::ChangeToNewTab()
 
 void UWBP_RogueCutomizationSelector_C::ExecuteUbergraph_WBP_RogueCutomizationSelector(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ExecuteUbergraph_WBP_RogueCutomizationSelector");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.ExecuteUbergraph_WBP_RogueCutomizationSelector"));
 
 	struct
 	{
@@ -1171,7 +1171,7 @@ void UWBP_RogueCutomizationSelector_C::ExecuteUbergraph_WBP_RogueCutomizationSel
 
 void UWBP_RogueCutomizationSelector_C::OnEquipCosmeticItem__DelegateSignature(EMercCosmeticSlot SlotType, int SlotIndex, class UKSItem* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnEquipCosmeticItem__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCutomizationSelector.WBP_RogueCutomizationSelector_C.OnEquipCosmeticItem__DelegateSignature"));
 
 	struct
 	{

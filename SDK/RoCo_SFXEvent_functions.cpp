@@ -19,7 +19,7 @@ namespace SDK
 
 struct FString USFXEvent_C::GetNotifyName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SFXEvent.SFXEvent_C.GetNotifyName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SFXEvent.SFXEvent_C.GetNotifyName"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ struct FString USFXEvent_C::GetNotifyName()
 
 bool USFXEvent_C::Received_Notify(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SFXEvent.SFXEvent_C.Received_Notify");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SFXEvent.SFXEvent_C.Received_Notify"));
 
 	struct
 	{

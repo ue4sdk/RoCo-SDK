@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_Challenge_Panel_v2_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.NavigateConfirm"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_Challenge_Panel_v2_C::NavigateConfirm()
 
 void UWBP_Challenge_Panel_v2_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.GetNavigationWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.GetNavigationWidgets"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_Challenge_Panel_v2_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>
 
 void UWBP_Challenge_Panel_v2_C::GetChallengeCards(TArray<class UWBP_ChallengeEntry_Daily_Truncated_C*>* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.GetChallengeCards");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.GetChallengeCards"));
 
 	struct
 	{
@@ -84,7 +84,7 @@ void UWBP_Challenge_Panel_v2_C::GetChallengeCards(TArray<class UWBP_ChallengeEnt
 
 void UWBP_Challenge_Panel_v2_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.PreConstruct"));
 
 	struct
 	{
@@ -104,7 +104,7 @@ void UWBP_Challenge_Panel_v2_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Challenge_Panel_v2_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.InitializeWidget"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_Challenge_Panel_v2_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Challenge_Panel_v2_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_Challenge_Panel_v2_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_O
 
 void UWBP_Challenge_Panel_v2_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_Challenge_Panel_v2_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_O
 
 void UWBP_Challenge_Panel_v2_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_Challenge_Panel_v2_C::InitializeWidgetNavigation()
 
 void UWBP_Challenge_Panel_v2_C::PopulateChallenges()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.PopulateChallenges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.PopulateChallenges"));
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_Challenge_Panel_v2_C::PopulateChallenges()
 
 void UWBP_Challenge_Panel_v2_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -202,7 +202,7 @@ void UWBP_Challenge_Panel_v2_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_O
 
 void UWBP_Challenge_Panel_v2_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.GamepadHover"));
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_Challenge_Panel_v2_C::GamepadHover()
 
 void UWBP_Challenge_Panel_v2_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.GamepadUnhover"));
 
 	struct
 	{
@@ -234,7 +234,7 @@ void UWBP_Challenge_Panel_v2_C::GamepadUnhover()
 
 void UWBP_Challenge_Panel_v2_C::Force_Click()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.Force Click");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.Force Click"));
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UWBP_Challenge_Panel_v2_C::Force_Click()
 
 void UWBP_Challenge_Panel_v2_C::Handle_View_State_Changed(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.Handle View State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.Handle View State Changed"));
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UWBP_Challenge_Panel_v2_C::Handle_View_State_Changed(const struct FName& Cu
 
 void UWBP_Challenge_Panel_v2_C::ExecuteUbergraph_WBP_Challenge_Panel_v2(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.ExecuteUbergraph_WBP_Challenge_Panel_v2");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel_v2.WBP_Challenge_Panel_v2_C.ExecuteUbergraph_WBP_Challenge_Panel_v2"));
 
 	struct
 	{

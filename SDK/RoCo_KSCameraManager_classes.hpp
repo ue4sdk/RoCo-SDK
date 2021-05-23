@@ -77,7 +77,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass KSCameraManager.KSCameraManager_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass KSCameraManager.KSCameraManager_C"));
 		return ptr;
 	}
 

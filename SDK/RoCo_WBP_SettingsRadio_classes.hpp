@@ -34,7 +34,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_SettingsRadio.WBP_SettingsRadio_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_SettingsRadio.WBP_SettingsRadio_C"));
 		return ptr;
 	}
 

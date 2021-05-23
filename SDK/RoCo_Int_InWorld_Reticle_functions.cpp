@@ -19,7 +19,7 @@ namespace SDK
 
 void UInt_InWorld_Reticle_C::OnWeaponSet(class UKSWeaponComponent* bpp__WeaponComponent__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Int_InWorld_Reticle.Int_InWorld_Reticle_C.OnWeaponSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Int_InWorld_Reticle.Int_InWorld_Reticle_C.OnWeaponSet"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UInt_InWorld_Reticle_C::OnWeaponSet(class UKSWeaponComponent* bpp__WeaponCo
 
 void UInt_InWorld_Reticle_C::OnPossession(class APlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Int_InWorld_Reticle.Int_InWorld_Reticle_C.OnPossession");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Int_InWorld_Reticle.Int_InWorld_Reticle_C.OnPossession"));
 
 	struct
 	{

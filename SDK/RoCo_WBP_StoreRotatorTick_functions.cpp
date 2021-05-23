@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_StoreRotatorTick_C::SetTickActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreRotatorTick.WBP_StoreRotatorTick_C.SetTickActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreRotatorTick.WBP_StoreRotatorTick_C.SetTickActive"));
 
 	struct
 	{

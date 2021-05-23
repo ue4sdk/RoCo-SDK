@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueCustomization_C::SetMeleeCustomizeNav(bool IsVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.SetMeleeCustomizeNav");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.SetMeleeCustomizeNav"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_RogueCustomization_C::SetMeleeCustomizeNav(bool IsVisible)
 
 void UWBP_RogueCustomization_C::RegisterGamepadNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.RegisterGamepadNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.RegisterGamepadNavigation"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_RogueCustomization_C::RegisterGamepadNavigation()
 
 bool UWBP_RogueCustomization_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.NavigateBack"));
 
 	struct
 	{
@@ -74,7 +74,7 @@ bool UWBP_RogueCustomization_C::NavigateBack()
 
 void UWBP_RogueCustomization_C::SetContextBar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.SetContextBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.SetContextBar"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_RogueCustomization_C::SetContextBar()
 
 void UWBP_RogueCustomization_C::BindSlots()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.BindSlots");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.BindSlots"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_RogueCustomization_C::BindSlots()
 
 void UWBP_RogueCustomization_C::SetSlots()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.SetSlots");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.SetSlots"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_RogueCustomization_C::SetSlots()
 
 void UWBP_RogueCustomization_C::InitializeButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.InitializeButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.InitializeButtons"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_RogueCustomization_C::InitializeButtons()
 
 void UWBP_RogueCustomization_C::UpdateEquippedItems()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.UpdateEquippedItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.UpdateEquippedItems"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_RogueCustomization_C::UpdateEquippedItems()
 
 void UWBP_RogueCustomization_C::SetActiveJob(class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.SetActiveJob");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.SetActiveJob"));
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_RogueCustomization_C::SetActiveJob(class UKSJobItem* JobItem)
 
 void UWBP_RogueCustomization_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.InitializeWidget"));
 
 	struct
 	{
@@ -198,7 +198,7 @@ void UWBP_RogueCustomization_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RogueCustomization_C::OnCosmeticHovered(const struct FCosmeticSlotDetails& CosmeticSlotDetail, bool IsGamepad, class UWBP_KSCosmeticItemDisplay_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnCosmeticHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnCosmeticHovered"));
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_RogueCustomization_C::OnCosmeticHovered(const struct FCosmeticSlotDeta
 
 void UWBP_RogueCustomization_C::OnCosmeticUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnCosmeticUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnCosmeticUnhovered"));
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UWBP_RogueCustomization_C::OnCosmeticUnhovered()
 
 void UWBP_RogueCustomization_C::OnCosmeticSelected(class UWBP_KSCosmeticItemDisplay_C* CosmeticSlot, const struct FCosmeticSlotDetails& CosmeticSlotDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnCosmeticSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnCosmeticSelected"));
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UWBP_RogueCustomization_C::OnCosmeticSelected(class UWBP_KSCosmeticItemDisp
 
 void UWBP_RogueCustomization_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnShown"));
 
 	struct
 	{
@@ -275,7 +275,7 @@ void UWBP_RogueCustomization_C::OnShown()
 
 void UWBP_RogueCustomization_C::ExternalOnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.ExternalOnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.ExternalOnShown"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UWBP_RogueCustomization_C::ExternalOnShown()
 
 void UWBP_RogueCustomization_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.OnBackPrompt"));
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UWBP_RogueCustomization_C::OnBackPrompt()
 
 void UWBP_RogueCustomization_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void UWBP_RogueCustomization_C::InitializeWidgetNavigation()
 
 void UWBP_RogueCustomization_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.PreConstruct"));
 
 	struct
 	{
@@ -345,7 +345,7 @@ void UWBP_RogueCustomization_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RogueCustomization_C::ExecuteUbergraph_WBP_RogueCustomization(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.ExecuteUbergraph_WBP_RogueCustomization");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.ExecuteUbergraph_WBP_RogueCustomization"));
 
 	struct
 	{
@@ -365,7 +365,7 @@ void UWBP_RogueCustomization_C::ExecuteUbergraph_WBP_RogueCustomization(int Entr
 
 void UWBP_RogueCustomization_C::GotoCustomizationScreen__DelegateSignature(class UWBP_KSCosmeticItemDisplay_C* CosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueCustomization.WBP_RogueCustomization_C.GotoCustomizationScreen__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueCustomization.WBP_RogueCustomization_C.GotoCustomizationScreen__DelegateSignature"));
 
 	struct
 	{

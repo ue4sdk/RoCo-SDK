@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_WeaponSlot_C::ToggleActiveState(bool bIsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlot.WBP_WeaponSlot_C.ToggleActiveState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlot.WBP_WeaponSlot_C.ToggleActiveState"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_WeaponSlot_C::ToggleActiveState(bool bIsActive)
 
 void UWBP_WeaponSlot_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlot.WBP_WeaponSlot_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlot.WBP_WeaponSlot_C.Construct"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_WeaponSlot_C::Construct()
 
 void UWBP_WeaponSlot_C::HandleSlotRemoved(class UKSWeaponAsset* WeaponAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlot.WBP_WeaponSlot_C.HandleSlotRemoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlot.WBP_WeaponSlot_C.HandleSlotRemoved"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_WeaponSlot_C::HandleSlotRemoved(class UKSWeaponAsset* WeaponAsset)
 
 void UWBP_WeaponSlot_C::UpdateSlotDisplay(class UKSWeaponAsset* WeaponAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlot.WBP_WeaponSlot_C.UpdateSlotDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlot.WBP_WeaponSlot_C.UpdateSlotDisplay"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_WeaponSlot_C::UpdateSlotDisplay(class UKSWeaponAsset* WeaponAsset)
 
 void UWBP_WeaponSlot_C::ResetSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlot.WBP_WeaponSlot_C.ResetSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlot.WBP_WeaponSlot_C.ResetSlot"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_WeaponSlot_C::ResetSlot()
 
 void UWBP_WeaponSlot_C::ExecuteUbergraph_WBP_WeaponSlot(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlot.WBP_WeaponSlot_C.ExecuteUbergraph_WBP_WeaponSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlot.WBP_WeaponSlot_C.ExecuteUbergraph_WBP_WeaponSlot"));
 
 	struct
 	{

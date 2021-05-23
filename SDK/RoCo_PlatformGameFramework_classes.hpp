@@ -26,7 +26,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.DistributionVectorUniformParameter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.DistributionVectorUniformParameter"));
 		return ptr;
 	}
 
@@ -41,7 +41,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_BlueprintFunctionLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_BlueprintFunctionLibrary"));
 		return ptr;
 	}
 
@@ -77,7 +77,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_Character");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_Character"));
 		return ptr;
 	}
 
@@ -101,7 +101,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_CharacterMovementComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_CharacterMovementComponent"));
 		return ptr;
 	}
 
@@ -123,7 +123,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_CheatComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_CheatComponent"));
 		return ptr;
 	}
 
@@ -151,7 +151,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_CombatLogVisualizer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_CombatLogVisualizer"));
 		return ptr;
 	}
 
@@ -174,7 +174,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_EffectManagerComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_EffectManagerComponent"));
 		return ptr;
 	}
 
@@ -198,7 +198,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_EffectAttachment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_EffectAttachment"));
 		return ptr;
 	}
 
@@ -217,7 +217,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_EffectGroup");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_EffectGroup"));
 		return ptr;
 	}
 
@@ -243,7 +243,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_EffectGroupPersistent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_EffectGroupPersistent"));
 		return ptr;
 	}
 
@@ -258,7 +258,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_EffectGroupInstant");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_EffectGroupInstant"));
 		return ptr;
 	}
 
@@ -276,7 +276,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_Effect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_Effect"));
 		return ptr;
 	}
 
@@ -291,7 +291,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_Effectable");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_Effectable"));
 		return ptr;
 	}
 
@@ -309,7 +309,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_EffectSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_EffectSource"));
 		return ptr;
 	}
 
@@ -329,7 +329,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_GameInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_GameInstance"));
 		return ptr;
 	}
 
@@ -354,7 +354,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_GameModeBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_GameModeBase"));
 		return ptr;
 	}
 
@@ -385,7 +385,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_GameMode");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_GameMode"));
 		return ptr;
 	}
 
@@ -406,7 +406,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_GameState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_GameState"));
 		return ptr;
 	}
 
@@ -429,7 +429,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_LandingPanelJSONHandler");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_LandingPanelJSONHandler"));
 		return ptr;
 	}
 
@@ -455,7 +455,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_PerformanceCaptureSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_PerformanceCaptureSettings"));
 		return ptr;
 	}
 
@@ -483,7 +483,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_PlayerController");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_PlayerController"));
 		return ptr;
 	}
 
@@ -506,7 +506,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_PlayerInputDefault");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_PlayerInputDefault"));
 		return ptr;
 	}
 
@@ -526,7 +526,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_PlayerInput");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_PlayerInput"));
 		return ptr;
 	}
 
@@ -542,7 +542,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_HierarchicalInputComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_HierarchicalInputComponent"));
 		return ptr;
 	}
 
@@ -557,7 +557,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_PlayerState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_PlayerState"));
 		return ptr;
 	}
 
@@ -578,7 +578,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_PositionHistoryComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_PositionHistoryComponent"));
 		return ptr;
 	}
 
@@ -596,7 +596,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_ShippingConsole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_ShippingConsole"));
 		return ptr;
 	}
 
@@ -614,7 +614,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGame_WorldSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGame_WorldSettings"));
 		return ptr;
 	}
 
@@ -629,7 +629,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGameBTComposite_ParallelSequence");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGameBTComposite_ParallelSequence"));
 		return ptr;
 	}
 
@@ -645,7 +645,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGameBTComposite_Random");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGameBTComposite_Random"));
 		return ptr;
 	}
 
@@ -660,7 +660,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGameBTComposite_Random_Selector");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGameBTComposite_Random_Selector"));
 		return ptr;
 	}
 
@@ -675,7 +675,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGameBTComposite_Random_Sequence");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGameBTComposite_Random_Sequence"));
 		return ptr;
 	}
 
@@ -692,7 +692,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGameBTTask_AlwaysReturn");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGameBTTask_AlwaysReturn"));
 		return ptr;
 	}
 
@@ -707,7 +707,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformGameFramework.PGameBTTask_ClearBlackboardKey");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformGameFramework.PGameBTTask_ClearBlackboardKey"));
 		return ptr;
 	}
 

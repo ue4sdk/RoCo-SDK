@@ -19,7 +19,7 @@ namespace SDK
 
 void UReportMenu_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.GetNavigationWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.GetNavigationWidgets"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UReportMenu_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* Return_Val
 
 void UReportMenu_C::SelectReason(EReportPlayerReason ReportReason)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.SelectReason");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.SelectReason"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UReportMenu_C::SelectReason(EReportPlayerReason ReportReason)
 
 void UReportMenu_C::ReportPlayer(EReportPlayerReason ReportReason)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.ReportPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.ReportPlayer"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UReportMenu_C::ReportPlayer(EReportPlayerReason ReportReason)
 
 void UReportMenu_C::OnOpenReportScreen(const struct FReportPlayerParams& Report)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.OnOpenReportScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.OnOpenReportScreen"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UReportMenu_C::OnOpenReportScreen(const struct FReportPlayerParams& Report)
 
 void UReportMenu_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.InitializeWidget"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UReportMenu_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UReportMenu_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.OnShown"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UReportMenu_C::OnShown()
 
 void UReportMenu_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.OnHide"));
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UReportMenu_C::OnHide()
 
 void UReportMenu_C::BndEvt__SubmitNew_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.BndEvt__SubmitNew_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.BndEvt__SubmitNew_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UReportMenu_C::BndEvt__SubmitNew_K2Node_ComponentBoundEvent_0_OnClicked__De
 
 void UReportMenu_C::BndEvt__HarassmentButton_K2Node_ComponentBoundEvent_1_OnBtnStackedClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.BndEvt__HarassmentButton_K2Node_ComponentBoundEvent_1_OnBtnStackedClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.BndEvt__HarassmentButton_K2Node_ComponentBoundEvent_1_OnBtnStackedClicked__DelegateSignature"));
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UReportMenu_C::BndEvt__HarassmentButton_K2Node_ComponentBoundEvent_1_OnBtnS
 
 void UReportMenu_C::BndEvt__CheatingButton_K2Node_ComponentBoundEvent_3_OnBtnStackedClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.BndEvt__CheatingButton_K2Node_ComponentBoundEvent_3_OnBtnStackedClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.BndEvt__CheatingButton_K2Node_ComponentBoundEvent_3_OnBtnStackedClicked__DelegateSignature"));
 
 	struct
 	{
@@ -203,7 +203,7 @@ void UReportMenu_C::BndEvt__CheatingButton_K2Node_ComponentBoundEvent_3_OnBtnSta
 
 void UReportMenu_C::BndEvt__IntentionalFeedingButton_K2Node_ComponentBoundEvent_5_OnBtnStackedClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.BndEvt__IntentionalFeedingButton_K2Node_ComponentBoundEvent_5_OnBtnStackedClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.BndEvt__IntentionalFeedingButton_K2Node_ComponentBoundEvent_5_OnBtnStackedClicked__DelegateSignature"));
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UReportMenu_C::BndEvt__IntentionalFeedingButton_K2Node_ComponentBoundEvent_
 
 void UReportMenu_C::BndEvt__StreamSnipingButton_K2Node_ComponentBoundEvent_8_OnBtnStackedClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.BndEvt__StreamSnipingButton_K2Node_ComponentBoundEvent_8_OnBtnStackedClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.BndEvt__StreamSnipingButton_K2Node_ComponentBoundEvent_8_OnBtnStackedClicked__DelegateSignature"));
 
 	struct
 	{
@@ -235,7 +235,7 @@ void UReportMenu_C::BndEvt__StreamSnipingButton_K2Node_ComponentBoundEvent_8_OnB
 
 void UReportMenu_C::BndEvt__LeavingButton_K2Node_ComponentBoundEvent_12_OnBtnStackedClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.BndEvt__LeavingButton_K2Node_ComponentBoundEvent_12_OnBtnStackedClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.BndEvt__LeavingButton_K2Node_ComponentBoundEvent_12_OnBtnStackedClicked__DelegateSignature"));
 
 	struct
 	{
@@ -251,7 +251,7 @@ void UReportMenu_C::BndEvt__LeavingButton_K2Node_ComponentBoundEvent_12_OnBtnSta
 
 void UReportMenu_C::BndEvt__OtherButton_K2Node_ComponentBoundEvent_16_OnBtnStackedClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.BndEvt__OtherButton_K2Node_ComponentBoundEvent_16_OnBtnStackedClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.BndEvt__OtherButton_K2Node_ComponentBoundEvent_16_OnBtnStackedClicked__DelegateSignature"));
 
 	struct
 	{
@@ -269,7 +269,7 @@ void UReportMenu_C::BndEvt__OtherButton_K2Node_ComponentBoundEvent_16_OnBtnStack
 
 void UReportMenu_C::ExecuteUbergraph_ReportMenu(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.ExecuteUbergraph_ReportMenu");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.ExecuteUbergraph_ReportMenu"));
 
 	struct
 	{
@@ -287,7 +287,7 @@ void UReportMenu_C::ExecuteUbergraph_ReportMenu(int EntryPoint)
 
 void UReportMenu_C::OnTabPressed__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.OnTabPressed__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.OnTabPressed__DelegateSignature"));
 
 	struct
 	{
@@ -306,7 +306,7 @@ void UReportMenu_C::OnTabPressed__DelegateSignature()
 
 void UReportMenu_C::OnPlayerReported__DelegateSignature(int64_t PlayerId, bool Success)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.OnPlayerReported__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.OnPlayerReported__DelegateSignature"));
 
 	struct
 	{
@@ -326,7 +326,7 @@ void UReportMenu_C::OnPlayerReported__DelegateSignature(int64_t PlayerId, bool S
 
 void UReportMenu_C::OnCloseTabScreen__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ReportMenu.ReportMenu_C.OnCloseTabScreen__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReportMenu.ReportMenu_C.OnCloseTabScreen__DelegateSignature"));
 
 	struct
 	{

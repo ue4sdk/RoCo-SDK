@@ -21,7 +21,7 @@ namespace SDK
 
 void UWBP_EliminationMessageOverlay_C::Show_Center_Card(class AKSPlayerState* Victim, bool IsElimination, bool IsAssist)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.Show Center Card");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.Show Center Card"));
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UWBP_EliminationMessageOverlay_C::Show_Center_Card(class AKSPlayerState* Vi
 
 void UWBP_EliminationMessageOverlay_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.Construct"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_EliminationMessageOverlay_C::Construct()
 
 void UWBP_EliminationMessageOverlay_C::OnRoundStart(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.OnRoundStart");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.OnRoundStart"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_EliminationMessageOverlay_C::OnRoundStart(const struct FRoundInitState
 
 void UWBP_EliminationMessageOverlay_C::ClearMessages()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ClearMessages");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ClearMessages"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_EliminationMessageOverlay_C::ClearMessages()
 
 void UWBP_EliminationMessageOverlay_C::ShowMessageForAssist(class AKSPlayerState* Victim, bool IsElimination)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ShowMessageForAssist");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ShowMessageForAssist"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_EliminationMessageOverlay_C::ShowMessageForAssist(class AKSPlayerState
 
 void UWBP_EliminationMessageOverlay_C::ShowMessageForTakedown(class AKSPlayerState* Victim, bool IsElimination)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ShowMessageForTakedown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ShowMessageForTakedown"));
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UWBP_EliminationMessageOverlay_C::ShowMessageForTakedown(class AKSPlayerSta
 
 void UWBP_EliminationMessageOverlay_C::ShowMessageForTakenDown(class AKSPlayerState* Instigator, bool IsElimination)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ShowMessageForTakenDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ShowMessageForTakenDown"));
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UWBP_EliminationMessageOverlay_C::ShowMessageForTakenDown(class AKSPlayerSt
 
 void UWBP_EliminationMessageOverlay_C::ExecuteUbergraph_WBP_EliminationMessageOverlay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ExecuteUbergraph_WBP_EliminationMessageOverlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EliminationMessageOverlay.WBP_EliminationMessageOverlay_C.ExecuteUbergraph_WBP_EliminationMessageOverlay"));
 
 	struct
 	{

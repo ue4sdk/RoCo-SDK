@@ -19,7 +19,7 @@ namespace SDK
 
 struct FVector UEnemyPingFullMapIcon_C::GetWorldPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.GetWorldPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.GetWorldPosition"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ struct FVector UEnemyPingFullMapIcon_C::GetWorldPosition()
 
 void UEnemyPingFullMapIcon_C::GetPingType(EKSPingType* NewParam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.GetPingType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.GetPingType"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UEnemyPingFullMapIcon_C::GetPingType(EKSPingType* NewParam)
 
 void UEnemyPingFullMapIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.Construct"));
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UEnemyPingFullMapIcon_C::Construct()
 
 void UEnemyPingFullMapIcon_C::Start_Ping()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.Start Ping");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.Start Ping"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UEnemyPingFullMapIcon_C::Start_Ping()
 
 void UEnemyPingFullMapIcon_C::Re_Ping(const struct FKSClientShotInfo& ShotInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.Re Ping");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.Re Ping"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UEnemyPingFullMapIcon_C::Re_Ping(const struct FKSClientShotInfo& ShotInfo)
 
 void UEnemyPingFullMapIcon_C::ExecuteUbergraph_EnemyPingFullMapIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.ExecuteUbergraph_EnemyPingFullMapIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.ExecuteUbergraph_EnemyPingFullMapIcon"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UEnemyPingFullMapIcon_C::ExecuteUbergraph_EnemyPingFullMapIcon(int EntryPoi
 
 void UEnemyPingFullMapIcon_C::PingExpired__DelegateSignature(unsigned char Icon_Type, int UniqueId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.PingExpired__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.PingExpired__DelegateSignature"));
 
 	struct
 	{

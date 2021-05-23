@@ -19,7 +19,7 @@ namespace SDK
 
 void UDropdown_C::IsSelecting(bool* IsSelecting)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.IsSelecting");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.IsSelecting"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UDropdown_C::IsSelecting(bool* IsSelecting)
 
 bool UDropdown_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.NavigateConfirm"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ bool UDropdown_C::NavigateConfirm()
 
 void UDropdown_C::AppendOptions(TArray<struct FText>* OptionsToAppend)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.AppendOptions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.AppendOptions"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UDropdown_C::AppendOptions(TArray<struct FText>* OptionsToAppend)
 
 void UDropdown_C::ForceClose()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.ForceClose");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.ForceClose"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UDropdown_C::ForceClose()
 
 void UDropdown_C::ForceToggle()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.ForceToggle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.ForceToggle"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UDropdown_C::ForceToggle()
 
 void UDropdown_C::ForceOpen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.ForceOpen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.ForceOpen"));
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UDropdown_C::ForceOpen()
 
 class UWidget* UDropdown_C::InitializeDropdownList()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.InitializeDropdownList");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.InitializeDropdownList"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ class UWidget* UDropdown_C::InitializeDropdownList()
 
 void UDropdown_C::SetSelectedOptionByIndex(int Index, bool* Success)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.SetSelectedOptionByIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.SetSelectedOptionByIndex"));
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UDropdown_C::SetSelectedOptionByIndex(int Index, bool* Success)
 
 void UDropdown_C::SetSelectedOptionByText(const struct FText& Text, bool* Success)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.SetSelectedOptionByText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.SetSelectedOptionByText"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UDropdown_C::SetSelectedOptionByText(const struct FText& Text, bool* Succes
 
 void UDropdown_C::RemoveOptionByIndex(int Index, bool* Success)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.RemoveOptionByIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.RemoveOptionByIndex"));
 
 	struct
 	{
@@ -229,7 +229,7 @@ void UDropdown_C::RemoveOptionByIndex(int Index, bool* Success)
 
 void UDropdown_C::RemoveOptionByText(const struct FText& Option, bool* Success)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.RemoveOptionByText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.RemoveOptionByText"));
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UDropdown_C::RemoveOptionByText(const struct FText& Option, bool* Success)
 
 void UDropdown_C::GetSelectedOption(struct FText* Selection, int* Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.GetSelectedOption");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.GetSelectedOption"));
 
 	struct
 	{
@@ -279,7 +279,7 @@ void UDropdown_C::GetSelectedOption(struct FText* Selection, int* Index)
 
 void UDropdown_C::GetOptionCount(int* Count)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.GetOptionCount");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.GetOptionCount"));
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UDropdown_C::GetOptionCount(int* Count)
 
 void UDropdown_C::FindIndexForOption(const struct FText& Option, bool* Success, int* Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.FindIndexForOption");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.FindIndexForOption"));
 
 	struct
 	{
@@ -332,7 +332,7 @@ void UDropdown_C::FindIndexForOption(const struct FText& Option, bool* Success, 
 
 void UDropdown_C::FindOptionByIndex(int Index, bool* Success, struct FText* Option)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.FindOptionByIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.FindOptionByIndex"));
 
 	struct
 	{
@@ -357,7 +357,7 @@ void UDropdown_C::FindOptionByIndex(int Index, bool* Success, struct FText* Opti
 
 void UDropdown_C::ClearSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.ClearSelection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.ClearSelection"));
 
 	struct
 	{
@@ -373,7 +373,7 @@ void UDropdown_C::ClearSelection()
 
 void UDropdown_C::ClearOptions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.ClearOptions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.ClearOptions"));
 
 	struct
 	{
@@ -391,7 +391,7 @@ void UDropdown_C::ClearOptions()
 
 void UDropdown_C::AddOption(const struct FText& OptionText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.AddOption");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.AddOption"));
 
 	struct
 	{
@@ -409,7 +409,7 @@ void UDropdown_C::AddOption(const struct FText& OptionText)
 
 void UDropdown_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -428,7 +428,7 @@ void UDropdown_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEv
 
 void UDropdown_C::SelectionMade(int Index, const struct FText& Selection)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.SelectionMade");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.SelectionMade"));
 
 	struct
 	{
@@ -448,7 +448,7 @@ void UDropdown_C::SelectionMade(int Index, const struct FText& Selection)
 
 void UDropdown_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_8_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -464,7 +464,7 @@ void UDropdown_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_8_OnButtonClicked
 
 void UDropdown_C::SelectionCancel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.SelectionCancel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.SelectionCancel"));
 
 	struct
 	{
@@ -482,7 +482,7 @@ void UDropdown_C::SelectionCancel()
 
 void UDropdown_C::BndEvt__DropdownAnchor_K2Node_ComponentBoundEvent_0_OnMenuOpenChangedEvent__DelegateSignature(bool bIsOpen)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.BndEvt__DropdownAnchor_K2Node_ComponentBoundEvent_0_OnMenuOpenChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.BndEvt__DropdownAnchor_K2Node_ComponentBoundEvent_0_OnMenuOpenChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -502,7 +502,7 @@ void UDropdown_C::BndEvt__DropdownAnchor_K2Node_ComponentBoundEvent_0_OnMenuOpen
 
 void UDropdown_C::HandleSetCurrentHoverIndex(int CurrentHoverIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.HandleSetCurrentHoverIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.HandleSetCurrentHoverIndex"));
 
 	struct
 	{
@@ -520,7 +520,7 @@ void UDropdown_C::HandleSetCurrentHoverIndex(int CurrentHoverIndex)
 
 void UDropdown_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -536,7 +536,7 @@ void UDropdown_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonHoverEv
 
 void UDropdown_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.GamepadHover"));
 
 	struct
 	{
@@ -552,7 +552,7 @@ void UDropdown_C::GamepadHover()
 
 void UDropdown_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.GamepadUnhover"));
 
 	struct
 	{
@@ -568,7 +568,7 @@ void UDropdown_C::GamepadUnhover()
 
 void UDropdown_C::On_Selected()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.On Selected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.On Selected"));
 
 	struct
 	{
@@ -584,7 +584,7 @@ void UDropdown_C::On_Selected()
 
 void UDropdown_C::Hover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.Hover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.Hover"));
 
 	struct
 	{
@@ -600,7 +600,7 @@ void UDropdown_C::Hover()
 
 void UDropdown_C::Unhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.Unhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.Unhover"));
 
 	struct
 	{
@@ -618,7 +618,7 @@ void UDropdown_C::Unhover()
 
 void UDropdown_C::HoverPreview(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.HoverPreview");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.HoverPreview"));
 
 	struct
 	{
@@ -638,7 +638,7 @@ void UDropdown_C::HoverPreview(int Index)
 
 void UDropdown_C::ExecuteUbergraph_Dropdown(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.ExecuteUbergraph_Dropdown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.ExecuteUbergraph_Dropdown"));
 
 	struct
 	{
@@ -656,7 +656,7 @@ void UDropdown_C::ExecuteUbergraph_Dropdown(int EntryPoint)
 
 void UDropdown_C::OnSelectionCanceled__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.OnSelectionCanceled__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.OnSelectionCanceled__DelegateSignature"));
 
 	struct
 	{
@@ -674,7 +674,7 @@ void UDropdown_C::OnSelectionCanceled__DelegateSignature()
 
 void UDropdown_C::OnHoverPreview__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.OnHoverPreview__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.OnHoverPreview__DelegateSignature"));
 
 	struct
 	{
@@ -695,7 +695,7 @@ void UDropdown_C::OnHoverPreview__DelegateSignature(int Index)
 
 void UDropdown_C::OnSelectionChanged__DelegateSignature(const struct FText& SelectionText, int SelectionIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropdown.Dropdown_C.OnSelectionChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropdown.Dropdown_C.OnSelectionChanged__DelegateSignature"));
 
 	struct
 	{

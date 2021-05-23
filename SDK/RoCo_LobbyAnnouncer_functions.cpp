@@ -17,7 +17,7 @@ namespace SDK
 
 void ALobbyAnnouncer_C::OnLoadingScreenEnded()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LobbyAnnouncer.LobbyAnnouncer_C.OnLoadingScreenEnded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LobbyAnnouncer.LobbyAnnouncer_C.OnLoadingScreenEnded"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void ALobbyAnnouncer_C::OnLoadingScreenEnded()
 
 void ALobbyAnnouncer_C::OnLobbyWidgetReady()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LobbyAnnouncer.LobbyAnnouncer_C.OnLobbyWidgetReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LobbyAnnouncer.LobbyAnnouncer_C.OnLobbyWidgetReady"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void ALobbyAnnouncer_C::OnLobbyWidgetReady()
 
 void ALobbyAnnouncer_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LobbyAnnouncer.LobbyAnnouncer_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LobbyAnnouncer.LobbyAnnouncer_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void ALobbyAnnouncer_C::ReceiveBeginPlay()
 
 void ALobbyAnnouncer_C::OnViewStateChangedStarted(const struct FName& CurrentRoute, const struct FName& NextRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LobbyAnnouncer.LobbyAnnouncer_C.OnViewStateChangedStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LobbyAnnouncer.LobbyAnnouncer_C.OnViewStateChangedStarted"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ void ALobbyAnnouncer_C::OnViewStateChangedStarted(const struct FName& CurrentRou
 
 void ALobbyAnnouncer_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LobbyAnnouncer.LobbyAnnouncer_C.ReceiveEndPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LobbyAnnouncer.LobbyAnnouncer_C.ReceiveEndPlay"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void ALobbyAnnouncer_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason
 
 void ALobbyAnnouncer_C::EventQueueInGame()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LobbyAnnouncer.LobbyAnnouncer_C.EventQueueInGame");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LobbyAnnouncer.LobbyAnnouncer_C.EventQueueInGame"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void ALobbyAnnouncer_C::EventQueueInGame()
 
 void ALobbyAnnouncer_C::ExecuteUbergraph_LobbyAnnouncer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LobbyAnnouncer.LobbyAnnouncer_C.ExecuteUbergraph_LobbyAnnouncer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LobbyAnnouncer.LobbyAnnouncer_C.ExecuteUbergraph_LobbyAnnouncer"));
 
 	struct
 	{

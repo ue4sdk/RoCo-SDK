@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Lightbomb_HitDisplay_C::SetHitCountVisible(bool IsLightbomb)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lightbomb_HitDisplay.WBP_Lightbomb_HitDisplay_C.SetHitCountVisible");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Lightbomb_HitDisplay.WBP_Lightbomb_HitDisplay_C.SetHitCountVisible"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_Lightbomb_HitDisplay_C::SetHitCountVisible(bool IsLightbomb)
 
 void UWBP_Lightbomb_HitDisplay_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lightbomb_HitDisplay.WBP_Lightbomb_HitDisplay_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Lightbomb_HitDisplay.WBP_Lightbomb_HitDisplay_C.Construct"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_Lightbomb_HitDisplay_C::Construct()
 
 void UWBP_Lightbomb_HitDisplay_C::ExecuteUbergraph_WBP_Lightbomb_HitDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lightbomb_HitDisplay.WBP_Lightbomb_HitDisplay_C.ExecuteUbergraph_WBP_Lightbomb_HitDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Lightbomb_HitDisplay.WBP_Lightbomb_HitDisplay_C.ExecuteUbergraph_WBP_Lightbomb_HitDisplay"));
 
 	struct
 	{

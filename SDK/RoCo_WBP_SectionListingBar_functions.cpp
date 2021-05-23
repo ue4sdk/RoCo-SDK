@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_SectionListingBar_C::SetActiveButton(int ActiveIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SectionListingBar.WBP_SectionListingBar_C.SetActiveButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SectionListingBar.WBP_SectionListingBar_C.SetActiveButton"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_SectionListingBar_C::SetActiveButton(int ActiveIndex)
 
 void UWBP_SectionListingBar_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SectionListingBar.WBP_SectionListingBar_C.OnInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SectionListingBar.WBP_SectionListingBar_C.OnInputStateChanged"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_SectionListingBar_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STAT
 
 void UWBP_SectionListingBar_C::OnSectionButton(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SectionListingBar.WBP_SectionListingBar_C.OnSectionButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SectionListingBar.WBP_SectionListingBar_C.OnSectionButton"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_SectionListingBar_C::OnSectionButton(int Index)
 
 void UWBP_SectionListingBar_C::SetSections(TArray<class UKSStoreSection*>* Sections)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SectionListingBar.WBP_SectionListingBar_C.SetSections");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SectionListingBar.WBP_SectionListingBar_C.SetSections"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_SectionListingBar_C::SetSections(TArray<class UKSStoreSection*>* Secti
 
 void UWBP_SectionListingBar_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SectionListingBar.WBP_SectionListingBar_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SectionListingBar.WBP_SectionListingBar_C.InitializeWidget"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_SectionListingBar_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_SectionListingBar_C::ExecuteUbergraph_WBP_SectionListingBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SectionListingBar.WBP_SectionListingBar_C.ExecuteUbergraph_WBP_SectionListingBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SectionListingBar.WBP_SectionListingBar_C.ExecuteUbergraph_WBP_SectionListingBar"));
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UWBP_SectionListingBar_C::ExecuteUbergraph_WBP_SectionListingBar(int EntryP
 
 void UWBP_SectionListingBar_C::OnSectionSelected__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SectionListingBar.WBP_SectionListingBar_C.OnSectionSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SectionListingBar.WBP_SectionListingBar_C.OnSectionSelected__DelegateSignature"));
 
 	struct
 	{

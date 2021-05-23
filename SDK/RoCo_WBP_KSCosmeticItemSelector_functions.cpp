@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_KSCosmeticItemSelector_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.NavigateConfirm"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_KSCosmeticItemSelector_C::NavigateConfirm()
 
 void UWBP_KSCosmeticItemSelector_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnClickSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnClickSound"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWBP_KSCosmeticItemSelector_C::OnClickSound()
 
 void UWBP_KSCosmeticItemSelector_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnHoverSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnHoverSound"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_KSCosmeticItemSelector_C::OnHoverSound()
 
 void UWBP_KSCosmeticItemSelector_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.Construct"));
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UWBP_KSCosmeticItemSelector_C::Construct()
 
 void UWBP_KSCosmeticItemSelector_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.InitializeWidget"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_KSCosmeticItemSelector_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_KSCosmeticItemSelector_C::OnCosmeticHover(const struct FCosmeticSlotDetails& CosmeticDetails, bool IsGamepad, class UWBP_KSCosmeticItemDisplay_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnCosmeticHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnCosmeticHover"));
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_KSCosmeticItemSelector_C::OnCosmeticHover(const struct FCosmeticSlotDe
 
 void UWBP_KSCosmeticItemSelector_C::OnCosmeticUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnCosmeticUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnCosmeticUnhover"));
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_KSCosmeticItemSelector_C::OnCosmeticUnhover()
 
 void UWBP_KSCosmeticItemSelector_C::OnCosmeticClicked(class UWBP_KSCosmeticItemDisplay_C* Widget, const struct FCosmeticSlotDetails& CosmeticSlotDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnCosmeticClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnCosmeticClicked"));
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UWBP_KSCosmeticItemSelector_C::OnCosmeticClicked(class UWBP_KSCosmeticItemD
 
 void UWBP_KSCosmeticItemSelector_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.GamepadHover"));
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UWBP_KSCosmeticItemSelector_C::GamepadHover()
 
 void UWBP_KSCosmeticItemSelector_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.GamepadUnhover"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void UWBP_KSCosmeticItemSelector_C::GamepadUnhover()
 
 void UWBP_KSCosmeticItemSelector_C::SetSlotActive(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.SetSlotActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.SetSlotActive"));
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UWBP_KSCosmeticItemSelector_C::SetSlotActive(bool Active)
 
 void UWBP_KSCosmeticItemSelector_C::SetItemOwned(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.SetItemOwned");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.SetItemOwned"));
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UWBP_KSCosmeticItemSelector_C::SetItemOwned(class UPUMG_StoreItem* StoreIte
 
 void UWBP_KSCosmeticItemSelector_C::ExecuteUbergraph_WBP_KSCosmeticItemSelector(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.ExecuteUbergraph_WBP_KSCosmeticItemSelector");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.ExecuteUbergraph_WBP_KSCosmeticItemSelector"));
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_KSCosmeticItemSelector_C::ExecuteUbergraph_WBP_KSCosmeticItemSelector(
 
 void UWBP_KSCosmeticItemSelector_C::OnPurchaseItem__DelegateSignature(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnPurchaseItem__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnPurchaseItem__DelegateSignature"));
 
 	struct
 	{
@@ -288,7 +288,7 @@ void UWBP_KSCosmeticItemSelector_C::OnPurchaseItem__DelegateSignature(class UPUM
 
 void UWBP_KSCosmeticItemSelector_C::OnItemSelected__DelegateSignature(class UPlatformInventoryItem* PlatformItem, class UPUMG_StoreItem* StoreItem, class UWidget* Widget, const struct FCosmeticSlotDetails& CosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnItemSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnItemSelected__DelegateSignature"));
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UWBP_KSCosmeticItemSelector_C::OnItemSelected__DelegateSignature(class UPla
 
 void UWBP_KSCosmeticItemSelector_C::OnItemUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnItemUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnItemUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -332,7 +332,7 @@ void UWBP_KSCosmeticItemSelector_C::OnItemUnhovered__DelegateSignature()
 
 void UWBP_KSCosmeticItemSelector_C::OnItemHovered__DelegateSignature(const struct FCosmeticSlotDetails& CosmeticDetails, class UPlatformInventoryItem* PlatformItem, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnItemHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSCosmeticItemSelector.WBP_KSCosmeticItemSelector_C.OnItemHovered__DelegateSignature"));
 
 	struct
 	{

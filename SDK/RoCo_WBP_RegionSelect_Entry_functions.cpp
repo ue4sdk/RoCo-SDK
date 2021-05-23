@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RegionSelect_Entry_C::ShowPreferredSiteIcon(bool IsPreferredSite)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.ShowPreferredSiteIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.ShowPreferredSiteIcon"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_RegionSelect_Entry_C::ShowPreferredSiteIcon(bool IsPreferredSite)
 
 bool UWBP_RegionSelect_Entry_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.NavigateConfirm"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ bool UWBP_RegionSelect_Entry_C::NavigateConfirm()
 
 void UWBP_RegionSelect_Entry_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.PreConstruct"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_RegionSelect_Entry_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RegionSelect_Entry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.Construct"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UWBP_RegionSelect_Entry_C::Construct()
 
 void UWBP_RegionSelect_Entry_C::BndEvt__Button_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.BndEvt__Button_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.BndEvt__Button_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_RegionSelect_Entry_C::BndEvt__Button_K2Node_ComponentBoundEvent_0_OnBu
 
 void UWBP_RegionSelect_Entry_C::BndEvt__Button_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.BndEvt__Button_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.BndEvt__Button_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_RegionSelect_Entry_C::BndEvt__Button_K2Node_ComponentBoundEvent_1_OnBu
 
 void UWBP_RegionSelect_Entry_C::BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_RegionSelect_Entry_C::BndEvt__Button_K2Node_ComponentBoundEvent_2_OnBu
 
 void UWBP_RegionSelect_Entry_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.GamepadHover"));
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_RegionSelect_Entry_C::GamepadHover()
 
 void UWBP_RegionSelect_Entry_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.GamepadUnhover"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_RegionSelect_Entry_C::GamepadUnhover()
 
 void UWBP_RegionSelect_Entry_C::OnGamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.OnGamepadConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.OnGamepadConfirm"));
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_RegionSelect_Entry_C::OnGamepadConfirm()
 
 void UWBP_RegionSelect_Entry_C::ExecuteUbergraph_WBP_RegionSelect_Entry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.ExecuteUbergraph_WBP_RegionSelect_Entry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.ExecuteUbergraph_WBP_RegionSelect_Entry"));
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UWBP_RegionSelect_Entry_C::ExecuteUbergraph_WBP_RegionSelect_Entry(int Entr
 
 void UWBP_RegionSelect_Entry_C::OnRegionSelected__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.OnRegionSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect_Entry.WBP_RegionSelect_Entry_C.OnRegionSelected__DelegateSignature"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UClothingSimulationInteractor::SetAnimDriveSpringStiffness(float InStiffness)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.SetAnimDriveSpringStiffness");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.SetAnimDriveSpringStiffness"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UClothingSimulationInteractor::SetAnimDriveSpringStiffness(float InStiffnes
 
 void UClothingSimulationInteractor::PhysicsAssetUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.PhysicsAssetUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.PhysicsAssetUpdated"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UClothingSimulationInteractor::PhysicsAssetUpdated()
 
 void UClothingSimulationInteractor::EnableGravityOverride(const struct FVector& InVector)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.EnableGravityOverride");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.EnableGravityOverride"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UClothingSimulationInteractor::EnableGravityOverride(const struct FVector& 
 
 void UClothingSimulationInteractor::DisableGravityOverride()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.DisableGravityOverride");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.DisableGravityOverride"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UClothingSimulationInteractor::DisableGravityOverride()
 
 void UClothingSimulationInteractor::ClothConfigUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.ClothConfigUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ClothingSystemRuntimeInterface.ClothingSimulationInteractor.ClothConfigUpdated"));
 
 	struct
 	{

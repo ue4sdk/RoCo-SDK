@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ItemDescSlot_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.Construct"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_ItemDescSlot_C::Construct()
 
 void UWBP_ItemDescSlot_C::PopulateItemDescSlot(class UKSItem* KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.PopulateItemDescSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.PopulateItemDescSlot"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_ItemDescSlot_C::PopulateItemDescSlot(class UKSItem* KSItem)
 
 void UWBP_ItemDescSlot_C::SetTextColors(const struct FLinearColor& HeaderColor, const struct FLinearColor& HeadingColor, const struct FLinearColor& TextColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.SetTextColors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.SetTextColors"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_ItemDescSlot_C::SetTextColors(const struct FLinearColor& HeaderColor, 
 
 void UWBP_ItemDescSlot_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.PreConstruct"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_ItemDescSlot_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ItemDescSlot_C::ExecuteUbergraph_WBP_ItemDescSlot(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.ExecuteUbergraph_WBP_ItemDescSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemDescSlot.WBP_ItemDescSlot_C.ExecuteUbergraph_WBP_ItemDescSlot"));
 
 	struct
 	{

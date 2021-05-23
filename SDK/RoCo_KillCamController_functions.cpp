@@ -17,7 +17,7 @@ namespace SDK
 
 void AKillCamController_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KillCamController.KillCamController_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillCamController.KillCamController_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void AKillCamController_C::ReceiveBeginPlay()
 
 void AKillCamController_C::ExecuteUbergraph_KillCamController(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KillCamController.KillCamController_C.ExecuteUbergraph_KillCamController");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillCamController.KillCamController_C.ExecuteUbergraph_KillCamController"));
 
 	struct
 	{

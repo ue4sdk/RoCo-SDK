@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_RogueListingOfferPanel_C::SetItemDisplay(class UKSCurrency* KSCurrency, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.SetItemDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.SetItemDisplay"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_RogueListingOfferPanel_C::SetItemDisplay(class UKSCurrency* KSCurrency
 
 void UWBP_RogueListingOfferPanel_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.PreConstruct"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_RogueListingOfferPanel_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RogueListingOfferPanel_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.Construct"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_RogueListingOfferPanel_C::Construct()
 
 void UWBP_RogueListingOfferPanel_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_0_OnBtnHovered__DelegateSignature(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_0_OnBtnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_0_OnBtnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -96,7 +96,7 @@ void UWBP_RogueListingOfferPanel_C::BndEvt__WBP_StorePanelButton_K2Node_Componen
 
 void UWBP_RogueListingOfferPanel_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_1_OnBtnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_1_OnBtnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_1_OnBtnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -112,7 +112,7 @@ void UWBP_RogueListingOfferPanel_C::BndEvt__WBP_StorePanelButton_K2Node_Componen
 
 void UWBP_RogueListingOfferPanel_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_2_OnBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_2_OnBtnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_2_OnBtnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_RogueListingOfferPanel_C::BndEvt__WBP_StorePanelButton_K2Node_Componen
 
 void UWBP_RogueListingOfferPanel_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.InitializeWidget"));
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UWBP_RogueListingOfferPanel_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RogueListingOfferPanel_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.HandleInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.HandleInputStateChanged"));
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_RogueListingOfferPanel_C::HandleInputStateChanged(TEnumAsByte<EPGAME_I
 
 void UWBP_RogueListingOfferPanel_C::ExecuteUbergraph_WBP_RogueListingOfferPanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.ExecuteUbergraph_WBP_RogueListingOfferPanel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.ExecuteUbergraph_WBP_RogueListingOfferPanel"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_RogueListingOfferPanel_C::ExecuteUbergraph_WBP_RogueListingOfferPanel(
 
 void UWBP_RogueListingOfferPanel_C::OnOfferClicked__DelegateSignature(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.OnOfferClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListingOfferPanel.WBP_RogueListingOfferPanel_C.OnOfferClicked__DelegateSignature"));
 
 	struct
 	{

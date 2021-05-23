@@ -19,7 +19,7 @@ namespace SDK
 
 void UScoreboardPlayerEntry_C::GetPlayerState(class AKSPlayerState** OutPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.GetPlayerState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.GetPlayerState"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UScoreboardPlayerEntry_C::GetPlayerState(class AKSPlayerState** OutPlayerSt
 
 void UScoreboardPlayerEntry_C::SetColors()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetColors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetColors"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UScoreboardPlayerEntry_C::SetColors()
 
 void UScoreboardPlayerEntry_C::SetStatText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetStatText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetStatText"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UScoreboardPlayerEntry_C::SetStatText()
 
 void UScoreboardPlayerEntry_C::SetPlayerName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetPlayerName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetPlayerName"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UScoreboardPlayerEntry_C::SetPlayerName()
 
 void UScoreboardPlayerEntry_C::SetIconsAndIndicators()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetIconsAndIndicators");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetIconsAndIndicators"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UScoreboardPlayerEntry_C::SetIconsAndIndicators()
 
 void UScoreboardPlayerEntry_C::SetPlayerData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetPlayerData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetPlayerData"));
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UScoreboardPlayerEntry_C::SetPlayerData()
 
 void UScoreboardPlayerEntry_C::UpdateVoiceInfo(bool IsTalking, bool IsMuted, bool InVoiceChannel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.UpdateVoiceInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.UpdateVoiceInfo"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UScoreboardPlayerEntry_C::UpdateVoiceInfo(bool IsTalking, bool IsMuted, boo
 
 void UScoreboardPlayerEntry_C::SetMercIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetMercIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.SetMercIcon"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UScoreboardPlayerEntry_C::SetMercIcon()
 
 void UScoreboardPlayerEntry_C::Update(class UKSPersistentPlayerData* PlayerData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.Update");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.Update"));
 
 	struct
 	{
@@ -181,7 +181,7 @@ void UScoreboardPlayerEntry_C::Update(class UKSPersistentPlayerData* PlayerData)
 
 void UScoreboardPlayerEntry_C::BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -197,7 +197,7 @@ void UScoreboardPlayerEntry_C::BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0
 
 void UScoreboardPlayerEntry_C::BndEvt__PlayerButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.BndEvt__PlayerButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.BndEvt__PlayerButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UScoreboardPlayerEntry_C::BndEvt__PlayerButton_K2Node_ComponentBoundEvent_1
 
 void UScoreboardPlayerEntry_C::BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -229,7 +229,7 @@ void UScoreboardPlayerEntry_C::BndEvt__PlayerButton_K2Node_ComponentBoundEvent_0
 
 void UScoreboardPlayerEntry_C::DoUnhoverState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.DoUnhoverState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.DoUnhoverState"));
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UScoreboardPlayerEntry_C::DoUnhoverState()
 
 void UScoreboardPlayerEntry_C::DoHoverState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.DoHoverState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.DoHoverState"));
 
 	struct
 	{
@@ -263,7 +263,7 @@ void UScoreboardPlayerEntry_C::DoHoverState()
 
 void UScoreboardPlayerEntry_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.InitializeWidget"));
 
 	struct
 	{
@@ -281,7 +281,7 @@ void UScoreboardPlayerEntry_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UScoreboardPlayerEntry_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.OnShown"));
 
 	struct
 	{
@@ -299,7 +299,7 @@ void UScoreboardPlayerEntry_C::OnShown()
 
 void UScoreboardPlayerEntry_C::OnNeedUpdatePlayerUI(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.OnNeedUpdatePlayerUI");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.OnNeedUpdatePlayerUI"));
 
 	struct
 	{
@@ -317,7 +317,7 @@ void UScoreboardPlayerEntry_C::OnNeedUpdatePlayerUI(class AKSPlayerState* Player
 
 void UScoreboardPlayerEntry_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.UninitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.UninitializeWidget"));
 
 	struct
 	{
@@ -336,7 +336,7 @@ void UScoreboardPlayerEntry_C::UninitializeWidget()
 
 void UScoreboardPlayerEntry_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.Tick"));
 
 	struct
 	{
@@ -356,7 +356,7 @@ void UScoreboardPlayerEntry_C::Tick(const struct FGeometry& MyGeometry, float In
 
 void UScoreboardPlayerEntry_C::ScheduleUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.ScheduleUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.ScheduleUpdate"));
 
 	struct
 	{
@@ -374,7 +374,7 @@ void UScoreboardPlayerEntry_C::ScheduleUpdate()
 
 void UScoreboardPlayerEntry_C::ExecuteUbergraph_ScoreboardPlayerEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.ExecuteUbergraph_ScoreboardPlayerEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.ExecuteUbergraph_ScoreboardPlayerEntry"));
 
 	struct
 	{
@@ -395,7 +395,7 @@ void UScoreboardPlayerEntry_C::ExecuteUbergraph_ScoreboardPlayerEntry(int EntryP
 
 void UScoreboardPlayerEntry_C::OnPlayerClicked__DelegateSignature(class UKSPersistentPlayerData* NewPlayerState, class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.OnPlayerClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerEntry.ScoreboardPlayerEntry_C.OnPlayerClicked__DelegateSignature"));
 
 	struct
 	{

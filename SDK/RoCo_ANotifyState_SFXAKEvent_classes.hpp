@@ -30,7 +30,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass ANotifyState_SFXAKEvent.ANotifyState_SFXAKEvent_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass ANotifyState_SFXAKEvent.ANotifyState_SFXAKEvent_C"));
 		return ptr;
 	}
 

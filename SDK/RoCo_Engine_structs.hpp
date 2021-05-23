@@ -12,10 +12,10 @@
 #include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
 #include "RoCo_PhysicsCore_classes.hpp"
-#include "RoCo_Slate_classes.hpp"
 #include "RoCo_AudioPlatformConfiguration_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"
 #include "RoCo_PacketHandler_classes.hpp"
+#include "RoCo_Slate_classes.hpp"
 
 namespace SDK
 {

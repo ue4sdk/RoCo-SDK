@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_LaunchCinematic_C::IsActiveView()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.IsActiveView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.IsActiveView"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_LaunchCinematic_C::IsActiveView()
 
 void UWBP_LaunchCinematic_C::StopVideoPlayback()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.StopVideoPlayback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.StopVideoPlayback"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWBP_LaunchCinematic_C::StopVideoPlayback()
 
 void UWBP_LaunchCinematic_C::StopAudioPlayback()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.StopAudioPlayback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.StopAudioPlayback"));
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_LaunchCinematic_C::StopAudioPlayback()
 
 void UWBP_LaunchCinematic_C::HandleOnClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleOnClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleOnClicked"));
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UWBP_LaunchCinematic_C::HandleOnClicked()
 
 void UWBP_LaunchCinematic_C::PlayAnimationSmoothly(class UWidgetAnimation* InAnimation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.PlayAnimationSmoothly");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.PlayAnimationSmoothly"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_LaunchCinematic_C::PlayAnimationSmoothly(class UWidgetAnimation* InAni
 
 void UWBP_LaunchCinematic_C::FinishPlayback()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.FinishPlayback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.FinishPlayback"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_LaunchCinematic_C::FinishPlayback()
 
 struct FEventReply UWBP_LaunchCinematic_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnKeyDown"));
 
 	struct
 	{
@@ -149,7 +149,7 @@ struct FEventReply UWBP_LaunchCinematic_C::OnKeyDown(const struct FGeometry& MyG
 
 void UWBP_LaunchCinematic_C::SetPromptKeyDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.SetPromptKeyDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.SetPromptKeyDisplay"));
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UWBP_LaunchCinematic_C::SetPromptKeyDisplay()
 
 void UWBP_LaunchCinematic_C::GetPromptKeys(TArray<struct FKey>* SkipPromptKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.GetPromptKeys");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.GetPromptKeys"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_LaunchCinematic_C::GetPromptKeys(TArray<struct FKey>* SkipPromptKeys)
 
 void UWBP_LaunchCinematic_C::IsSkipKey(const struct FKeyEvent& InInput, bool* IsSkipKey)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.IsSkipKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.IsSkipKey"));
 
 	struct
 	{
@@ -214,7 +214,7 @@ void UWBP_LaunchCinematic_C::IsSkipKey(const struct FKeyEvent& InInput, bool* Is
 
 void UWBP_LaunchCinematic_C::TogglePromptDisplay(bool ShouldShow)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.TogglePromptDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.TogglePromptDisplay"));
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UWBP_LaunchCinematic_C::TogglePromptDisplay(bool ShouldShow)
 
 void UWBP_LaunchCinematic_C::WhenCinematicDone()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.WhenCinematicDone");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.WhenCinematicDone"));
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_LaunchCinematic_C::WhenCinematicDone()
 
 void UWBP_LaunchCinematic_C::OnReadyForPlayback(class UPlatformMediaSource* PlatformMediaSource, class UAkAudioEvent* PlayEvent, class UAkAudioEvent* StopEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnReadyForPlayback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnReadyForPlayback"));
 
 	struct
 	{
@@ -276,7 +276,7 @@ void UWBP_LaunchCinematic_C::OnReadyForPlayback(class UPlatformMediaSource* Plat
 
 void UWBP_LaunchCinematic_C::OnShouldShowPromptChanged(bool bCanSkipEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnShouldShowPromptChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnShouldShowPromptChanged"));
 
 	struct
 	{
@@ -294,7 +294,7 @@ void UWBP_LaunchCinematic_C::OnShouldShowPromptChanged(bool bCanSkipEntry)
 
 void UWBP_LaunchCinematic_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UWBP_LaunchCinematic_C::InitializeWidgetNavigation()
 
 void UWBP_LaunchCinematic_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleInputStateChanged"));
 
 	struct
 	{
@@ -330,7 +330,7 @@ void UWBP_LaunchCinematic_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_ST
 
 void UWBP_LaunchCinematic_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnShown"));
 
 	struct
 	{
@@ -346,7 +346,7 @@ void UWBP_LaunchCinematic_C::OnShown()
 
 void UWBP_LaunchCinematic_C::FadeTextureIn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.FadeTextureIn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.FadeTextureIn"));
 
 	struct
 	{
@@ -362,7 +362,7 @@ void UWBP_LaunchCinematic_C::FadeTextureIn()
 
 void UWBP_LaunchCinematic_C::FadeTextureOut()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.FadeTextureOut");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.FadeTextureOut"));
 
 	struct
 	{
@@ -378,7 +378,7 @@ void UWBP_LaunchCinematic_C::FadeTextureOut()
 
 void UWBP_LaunchCinematic_C::HandleFadeOutAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleFadeOutAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleFadeOutAnimFinished"));
 
 	struct
 	{
@@ -394,7 +394,7 @@ void UWBP_LaunchCinematic_C::HandleFadeOutAnimFinished()
 
 void UWBP_LaunchCinematic_C::OnBeginLoadingPlaylist()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnBeginLoadingPlaylist");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnBeginLoadingPlaylist"));
 
 	struct
 	{
@@ -410,7 +410,7 @@ void UWBP_LaunchCinematic_C::OnBeginLoadingPlaylist()
 
 void UWBP_LaunchCinematic_C::OnEndLoadingPlaylist()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnEndLoadingPlaylist");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnEndLoadingPlaylist"));
 
 	struct
 	{
@@ -426,7 +426,7 @@ void UWBP_LaunchCinematic_C::OnEndLoadingPlaylist()
 
 void UWBP_LaunchCinematic_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.OnHide"));
 
 	struct
 	{
@@ -444,7 +444,7 @@ void UWBP_LaunchCinematic_C::OnHide()
 
 void UWBP_LaunchCinematic_C::HandleOnMediaOpened(const struct FString& OpenedUrl)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleOnMediaOpened");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleOnMediaOpened"));
 
 	struct
 	{
@@ -464,7 +464,7 @@ void UWBP_LaunchCinematic_C::HandleOnMediaOpened(const struct FString& OpenedUrl
 
 void UWBP_LaunchCinematic_C::HandleOnMediaOpenFailed(const struct FString& FailedUrl)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleOnMediaOpenFailed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.HandleOnMediaOpenFailed"));
 
 	struct
 	{
@@ -484,7 +484,7 @@ void UWBP_LaunchCinematic_C::HandleOnMediaOpenFailed(const struct FString& Faile
 
 void UWBP_LaunchCinematic_C::ExecuteUbergraph_WBP_LaunchCinematic(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.ExecuteUbergraph_WBP_LaunchCinematic");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LaunchCinematic.WBP_LaunchCinematic_C.ExecuteUbergraph_WBP_LaunchCinematic"));
 
 	struct
 	{

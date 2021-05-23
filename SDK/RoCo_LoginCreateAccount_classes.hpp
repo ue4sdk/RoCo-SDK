@@ -50,7 +50,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass LoginCreateAccount.LoginCreateAccount_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass LoginCreateAccount.LoginCreateAccount_C"));
 		return ptr;
 	}
 

@@ -33,7 +33,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_GameModeInfoPanel_Lobby.WBP_GameModeInfoPanel_Lobby_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_GameModeInfoPanel_Lobby.WBP_GameModeInfoPanel_Lobby_C"));
 		return ptr;
 	}
 

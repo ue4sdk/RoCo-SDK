@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RegionSelect_C::GetRegionSelectEntries(TArray<class UWBP_RegionSelect_Entry_C*>* RegionSelectEntries)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.GetRegionSelectEntries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.GetRegionSelectEntries"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_RegionSelect_C::GetRegionSelectEntries(TArray<class UWBP_RegionSelect_
 
 void UWBP_RegionSelect_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.PreConstruct"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_RegionSelect_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RegionSelect_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.Construct"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_RegionSelect_C::Construct()
 
 void UWBP_RegionSelect_C::LoginState(EPUMG_LoginState LoginState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.LoginState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.LoginState"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_RegionSelect_C::LoginState(EPUMG_LoginState LoginState)
 
 void UWBP_RegionSelect_C::Populate_Regions()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.Populate Regions");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.Populate Regions"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_RegionSelect_C::Populate_Regions()
 
 void UWBP_RegionSelect_C::OnChildButtonSelectedRegion()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.OnChildButtonSelectedRegion");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.OnChildButtonSelectedRegion"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_RegionSelect_C::OnChildButtonSelectedRegion()
 
 void UWBP_RegionSelect_C::BndEvt__WBP_ModalPopupContainer_K2Node_ComponentBoundEvent_0_CloseButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.BndEvt__WBP_ModalPopupContainer_K2Node_ComponentBoundEvent_0_CloseButtonClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.BndEvt__WBP_ModalPopupContainer_K2Node_ComponentBoundEvent_0_CloseButtonClicked__DelegateSignature"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_RegionSelect_C::BndEvt__WBP_ModalPopupContainer_K2Node_ComponentBoundE
 
 void UWBP_RegionSelect_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.InitializeWidget"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UWBP_RegionSelect_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RegionSelect_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.OnShown"));
 
 	struct
 	{
@@ -181,7 +181,7 @@ void UWBP_RegionSelect_C::OnShown()
 
 void UWBP_RegionSelect_C::ExecuteUbergraph_WBP_RegionSelect(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.ExecuteUbergraph_WBP_RegionSelect");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.ExecuteUbergraph_WBP_RegionSelect"));
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UWBP_RegionSelect_C::ExecuteUbergraph_WBP_RegionSelect(int EntryPoint)
 
 void UWBP_RegionSelect_C::OnRegionSelectEntriesCreated__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.OnRegionSelectEntriesCreated__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.OnRegionSelectEntriesCreated__DelegateSignature"));
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UWBP_RegionSelect_C::OnRegionSelectEntriesCreated__DelegateSignature()
 
 void UWBP_RegionSelect_C::OnRegionSelected__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelect.WBP_RegionSelect_C.OnRegionSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelect.WBP_RegionSelect_C.OnRegionSelected__DelegateSignature"));
 
 	struct
 	{

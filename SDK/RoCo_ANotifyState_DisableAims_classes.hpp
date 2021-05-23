@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass ANotifyState_DisableAims.ANotifyState_DisableAims_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass ANotifyState_DisableAims.ANotifyState_DisableAims_C"));
 		return ptr;
 	}
 

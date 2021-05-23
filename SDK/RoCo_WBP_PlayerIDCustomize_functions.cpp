@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_PlayerIDCustomize_C::SavePlayerIdentity()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.SavePlayerIdentity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.SavePlayerIdentity"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_PlayerIDCustomize_C::SavePlayerIdentity()
 
 void UWBP_PlayerIDCustomize_C::OnPreviousTab()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.OnPreviousTab");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.OnPreviousTab"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_PlayerIDCustomize_C::OnPreviousTab()
 
 void UWBP_PlayerIDCustomize_C::OnNextTab()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.OnNextTab");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.OnNextTab"));
 
 	struct
 	{
@@ -68,7 +68,7 @@ void UWBP_PlayerIDCustomize_C::OnNextTab()
 
 void UWBP_PlayerIDCustomize_C::SetInfoFieldData(class UPlatformInventoryItem* CosmeticItem, EPlayerAccountSlot ItemSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.SetInfoFieldData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.SetInfoFieldData"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_PlayerIDCustomize_C::SetInfoFieldData(class UPlatformInventoryItem* Co
 
 void UWBP_PlayerIDCustomize_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.PreConstruct"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UWBP_PlayerIDCustomize_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PlayerIDCustomize_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.Construct"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_PlayerIDCustomize_C::Construct()
 
 void UWBP_PlayerIDCustomize_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.InitializeWidget"));
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UWBP_PlayerIDCustomize_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_PlayerIDCustomize_C::Update_Player_Identity()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.Update Player Identity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.Update Player Identity"));
 
 	struct
 	{
@@ -160,7 +160,7 @@ void UWBP_PlayerIDCustomize_C::Update_Player_Identity()
 
 void UWBP_PlayerIDCustomize_C::OnButtonsCreated()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.OnButtonsCreated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.OnButtonsCreated"));
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_PlayerIDCustomize_C::OnButtonsCreated()
 
 void UWBP_PlayerIDCustomize_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.UninitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.UninitializeWidget"));
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_PlayerIDCustomize_C::UninitializeWidget()
 
 void UWBP_PlayerIDCustomize_C::OnLocalLoadoutUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.OnLocalLoadoutUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.OnLocalLoadoutUpdate"));
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UWBP_PlayerIDCustomize_C::OnLocalLoadoutUpdate()
 
 void UWBP_PlayerIDCustomize_C::ExecuteUbergraph_WBP_PlayerIDCustomize(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.ExecuteUbergraph_WBP_PlayerIDCustomize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIDCustomize.WBP_PlayerIDCustomize_C.ExecuteUbergraph_WBP_PlayerIDCustomize"));
 
 	struct
 	{

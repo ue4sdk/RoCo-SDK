@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.AkPoolComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.AkPoolComponent"));
 		return ptr;
 	}
 
@@ -42,7 +42,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.AnimNotifyState_DirectionSwap");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.AnimNotifyState_DirectionSwap"));
 		return ptr;
 	}
 
@@ -57,7 +57,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.AnimNotifyState_LeftHandIKOff");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.AnimNotifyState_LeftHandIKOff"));
 		return ptr;
 	}
 
@@ -77,7 +77,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.ItemCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.ItemCollection"));
 		return ptr;
 	}
 
@@ -95,7 +95,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.ApparelCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.ApparelCollection"));
 		return ptr;
 	}
 
@@ -113,7 +113,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.AttachmentCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.AttachmentCollection"));
 		return ptr;
 	}
 
@@ -139,7 +139,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.BakedOcclusionLUT");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.BakedOcclusionLUT"));
 		return ptr;
 	}
 
@@ -155,7 +155,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.AudioOcclusionComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.AudioOcclusionComponent"));
 		return ptr;
 	}
 
@@ -172,7 +172,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.EchoBlueprintLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.EchoBlueprintLibrary"));
 		return ptr;
 	}
 
@@ -190,7 +190,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.EnvironmentActorInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.EnvironmentActorInterface"));
 		return ptr;
 	}
 
@@ -212,7 +212,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.EnvironmentListenerComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.EnvironmentListenerComponent"));
 		return ptr;
 	}
 
@@ -237,7 +237,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.EnvironmentTrackerComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.EnvironmentTrackerComponent"));
 		return ptr;
 	}
 
@@ -261,7 +261,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.EnvironmentVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.EnvironmentVolume"));
 		return ptr;
 	}
 
@@ -277,7 +277,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.PreviewActorLoadoutComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.PreviewActorLoadoutComponent"));
 		return ptr;
 	}
 
@@ -298,7 +298,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.RogueScreenLoadoutComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.RogueScreenLoadoutComponent"));
 		return ptr;
 	}
 
@@ -317,7 +317,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.FavoritePreviewLoadoutComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.FavoritePreviewLoadoutComponent"));
 		return ptr;
 	}
 
@@ -334,7 +334,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.IconInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.IconInfo"));
 		return ptr;
 	}
 
@@ -352,7 +352,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.ImageIconInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.ImageIconInfo"));
 		return ptr;
 	}
 
@@ -370,7 +370,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.JobCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.JobCollection"));
 		return ptr;
 	}
 
@@ -391,7 +391,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJobRole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJobRole"));
 		return ptr;
 	}
 
@@ -408,7 +408,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KickbackModule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KickbackModule"));
 		return ptr;
 	}
 
@@ -433,7 +433,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KickbackModuleRandom");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KickbackModuleRandom"));
 		return ptr;
 	}
 
@@ -448,7 +448,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.Killstreak_ShippingConsole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.Killstreak_ShippingConsole"));
 		return ptr;
 	}
 
@@ -464,7 +464,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KillstreakGameSingleton");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KillstreakGameSingleton"));
 		return ptr;
 	}
 
@@ -481,7 +481,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAccoladeTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAccoladeTracker"));
 		return ptr;
 	}
 
@@ -509,7 +509,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.AcquisitionItemData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.AcquisitionItemData"));
 		return ptr;
 	}
 
@@ -530,7 +530,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEquipOnAcquisitionData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEquipOnAcquisitionData"));
 		return ptr;
 	}
 
@@ -550,7 +550,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAcquisition");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAcquisition"));
 		return ptr;
 	}
 
@@ -575,7 +575,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAcquisitionManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAcquisitionManager"));
 		return ptr;
 	}
 
@@ -626,7 +626,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivity");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivity"));
 		return ptr;
 	}
 
@@ -657,7 +657,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityComponent"));
 		return ptr;
 	}
 
@@ -672,7 +672,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityComponent_Achievement");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityComponent_Achievement"));
 		return ptr;
 	}
 
@@ -697,7 +697,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityComponent_BattlePass");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityComponent_BattlePass"));
 		return ptr;
 	}
 
@@ -714,7 +714,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityComponent_Challenge");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityComponent_Challenge"));
 		return ptr;
 	}
 
@@ -733,7 +733,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityComponent_Job");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityComponent_Job"));
 		return ptr;
 	}
 
@@ -751,7 +751,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityComponent_LoginReward");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityComponent_LoginReward"));
 		return ptr;
 	}
 
@@ -772,7 +772,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityComponent_MercMastery");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityComponent_MercMastery"));
 		return ptr;
 	}
 
@@ -815,7 +815,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityInstance"));
 		return ptr;
 	}
 
@@ -870,7 +870,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityInstanceManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityInstanceManager"));
 		return ptr;
 	}
 
@@ -897,7 +897,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityManagerBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityManagerBase"));
 		return ptr;
 	}
 
@@ -949,7 +949,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement"));
 		return ptr;
 	}
 
@@ -966,7 +966,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Achievements");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Achievements"));
 		return ptr;
 	}
 
@@ -982,7 +982,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_ActivitySelected");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_ActivitySelected"));
 		return ptr;
 	}
 
@@ -999,7 +999,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_AiPvp");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_AiPvp"));
 		return ptr;
 	}
 
@@ -1014,7 +1014,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_BattlePass");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_BattlePass"));
 		return ptr;
 	}
 
@@ -1031,7 +1031,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Booster");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Booster"));
 		return ptr;
 	}
 
@@ -1048,7 +1048,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_CustomMatch");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_CustomMatch"));
 		return ptr;
 	}
 
@@ -1063,7 +1063,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_DailyChallenge");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_DailyChallenge"));
 		return ptr;
 	}
 
@@ -1079,7 +1079,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Event");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Event"));
 		return ptr;
 	}
 
@@ -1095,7 +1095,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_GameMode");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_GameMode"));
 		return ptr;
 	}
 
@@ -1113,7 +1113,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_GameModeTag");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_GameModeTag"));
 		return ptr;
 	}
 
@@ -1130,7 +1130,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Item");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Item"));
 		return ptr;
 	}
 
@@ -1146,7 +1146,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Job");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Job"));
 		return ptr;
 	}
 
@@ -1162,7 +1162,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_JobTag");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_JobTag"));
 		return ptr;
 	}
 
@@ -1178,7 +1178,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Map");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Map"));
 		return ptr;
 	}
 
@@ -1194,7 +1194,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_MapTag");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_MapTag"));
 		return ptr;
 	}
 
@@ -1209,7 +1209,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_MiniBattlePass");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_MiniBattlePass"));
 		return ptr;
 	}
 
@@ -1227,7 +1227,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_MultiItem");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_MultiItem"));
 		return ptr;
 	}
 
@@ -1244,7 +1244,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Queue");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Queue"));
 		return ptr;
 	}
 
@@ -1261,7 +1261,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Ranked");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Ranked"));
 		return ptr;
 	}
 
@@ -1277,7 +1277,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_RankedSeason");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_RankedSeason"));
 		return ptr;
 	}
 
@@ -1294,7 +1294,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Rewards");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Rewards"));
 		return ptr;
 	}
 
@@ -1310,7 +1310,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Sequence");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Sequence"));
 		return ptr;
 	}
 
@@ -1327,7 +1327,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRequirement_Weapon");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRequirement_Weapon"));
 		return ptr;
 	}
 
@@ -1342,7 +1342,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition"));
 		return ptr;
 	}
 
@@ -1359,7 +1359,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_Affiliation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_Affiliation"));
 		return ptr;
 	}
 
@@ -1376,7 +1376,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_AimModeUsed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_AimModeUsed"));
 		return ptr;
 	}
 
@@ -1392,7 +1392,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_DamageType");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_DamageType"));
 		return ptr;
 	}
 
@@ -1409,7 +1409,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_Distance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_Distance"));
 		return ptr;
 	}
 
@@ -1426,7 +1426,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_Down");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_Down"));
 		return ptr;
 	}
 
@@ -1443,7 +1443,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_Elimination");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_Elimination"));
 		return ptr;
 	}
 
@@ -1460,7 +1460,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_Headshot");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_Headshot"));
 		return ptr;
 	}
 
@@ -1476,7 +1476,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_Sequence");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_Sequence"));
 		return ptr;
 	}
 
@@ -1492,7 +1492,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_WeaponTagUsed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_WeaponTagUsed"));
 		return ptr;
 	}
 
@@ -1508,7 +1508,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityRewardCondition_WeaponUsed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityRewardCondition_WeaponUsed"));
 		return ptr;
 	}
 
@@ -1524,7 +1524,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivitySequenceManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivitySequenceManager"));
 		return ptr;
 	}
 
@@ -1551,7 +1551,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSActivityTestManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSActivityTestManager"));
 		return ptr;
 	}
 
@@ -1578,7 +1578,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLagCompensatedActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLagCompensatedActor"));
 		return ptr;
 	}
 
@@ -1633,7 +1633,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAgentBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAgentBase"));
 		return ptr;
 	}
 
@@ -1677,7 +1677,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAgent_Aimed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAgent_Aimed"));
 		return ptr;
 	}
 
@@ -1722,7 +1722,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAgent_RevealDrone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAgent_RevealDrone"));
 		return ptr;
 	}
 
@@ -1775,7 +1775,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAgent_RevivalDrone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAgent_RevivalDrone"));
 		return ptr;
 	}
 
@@ -1817,7 +1817,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAIActorCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAIActorCollection"));
 		return ptr;
 	}
 
@@ -1833,7 +1833,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAIActorCollection_Extraction");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAIActorCollection_Extraction"));
 		return ptr;
 	}
 
@@ -1883,7 +1883,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAIController");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAIController"));
 		return ptr;
 	}
 
@@ -1942,7 +1942,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAIDifficultyComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAIDifficultyComponent"));
 		return ptr;
 	}
 
@@ -1961,7 +1961,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAIItemPriorityComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAIItemPriorityComponent"));
 		return ptr;
 	}
 
@@ -2001,7 +2001,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimAssistActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimAssistActor"));
 		return ptr;
 	}
 
@@ -2028,7 +2028,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimAssistAnchorComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimAssistAnchorComponent"));
 		return ptr;
 	}
 
@@ -2083,7 +2083,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimAssistComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimAssistComponent"));
 		return ptr;
 	}
 
@@ -2110,7 +2110,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimAssistDataBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimAssistDataBase"));
 		return ptr;
 	}
 
@@ -2125,7 +2125,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimAssistTargetInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimAssistTargetInterface"));
 		return ptr;
 	}
 
@@ -2150,7 +2150,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimCorrectionData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimCorrectionData"));
 		return ptr;
 	}
 
@@ -2168,7 +2168,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimFrictionData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimFrictionData"));
 		return ptr;
 	}
 
@@ -2186,7 +2186,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimLockData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimLockData"));
 		return ptr;
 	}
 
@@ -2201,7 +2201,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimMagnetismData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimMagnetismData"));
 		return ptr;
 	}
 
@@ -2219,7 +2219,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAimSnapData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAimSnapData"));
 		return ptr;
 	}
 
@@ -2237,7 +2237,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAIObjectivePriorityComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAIObjectivePriorityComponent"));
 		return ptr;
 	}
 
@@ -2261,7 +2261,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAIPerceptionComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAIPerceptionComponent"));
 		return ptr;
 	}
 
@@ -2279,7 +2279,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISense_MapPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISense_MapPoint"));
 		return ptr;
 	}
 
@@ -2295,7 +2295,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISense_Objective");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISense_Objective"));
 		return ptr;
 	}
 
@@ -2312,7 +2312,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISense_PeripheralSight");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISense_PeripheralSight"));
 		return ptr;
 	}
 
@@ -2328,7 +2328,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISense_Player");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISense_Player"));
 		return ptr;
 	}
 
@@ -2344,7 +2344,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISense_Team");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISense_Team"));
 		return ptr;
 	}
 
@@ -2359,7 +2359,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISenseConfig_MapPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISenseConfig_MapPoint"));
 		return ptr;
 	}
 
@@ -2374,7 +2374,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISenseConfig_Player");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISenseConfig_Player"));
 		return ptr;
 	}
 
@@ -2389,7 +2389,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISenseConfig_Team");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISenseConfig_Team"));
 		return ptr;
 	}
 
@@ -2405,7 +2405,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISenseEvent_Objective");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISenseEvent_Objective"));
 		return ptr;
 	}
 
@@ -2420,7 +2420,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAISightTargetInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAISightTargetInterface"));
 		return ptr;
 	}
 
@@ -2454,7 +2454,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAkComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAkComponent"));
 		return ptr;
 	}
 
@@ -2474,7 +2474,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAkAmbientComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAkAmbientComponent"));
 		return ptr;
 	}
 
@@ -2495,7 +2495,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAkAmbientSound");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAkAmbientSound"));
 		return ptr;
 	}
 
@@ -2557,7 +2557,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSItemDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSItemDrop"));
 		return ptr;
 	}
 
@@ -2600,7 +2600,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAmmoDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAmmoDrop"));
 		return ptr;
 	}
 
@@ -2624,7 +2624,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSItem");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSItem"));
 		return ptr;
 	}
 
@@ -2664,7 +2664,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAmmoDropAsset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAmmoDropAsset"));
 		return ptr;
 	}
 
@@ -2684,7 +2684,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnalogStickFilter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnalogStickFilter"));
 		return ptr;
 	}
 
@@ -2700,7 +2700,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnimationAuditComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnimationAuditComponent"));
 		return ptr;
 	}
 
@@ -2721,7 +2721,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnimInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnimInstance"));
 		return ptr;
 	}
 
@@ -2742,7 +2742,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnimNotify_EmotionDuration");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnimNotify_EmotionDuration"));
 		return ptr;
 	}
 
@@ -2759,7 +2759,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnimNotify_PlayParticleEffect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnimNotify_PlayParticleEffect"));
 		return ptr;
 	}
 
@@ -2776,7 +2776,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnimNotifyState_Emotion");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnimNotifyState_Emotion"));
 		return ptr;
 	}
 
@@ -2795,7 +2795,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnimNotifyState_Prop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnimNotifyState_Prop"));
 		return ptr;
 	}
 
@@ -2811,7 +2811,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnimNotifyState_Trail");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnimNotifyState_Trail"));
 		return ptr;
 	}
 
@@ -2833,7 +2833,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnimNotifyState_WeaponProp");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnimNotifyState_WeaponProp"));
 		return ptr;
 	}
 
@@ -2862,7 +2862,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAnnouncer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAnnouncer"));
 		return ptr;
 	}
 
@@ -2914,7 +2914,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSApparelAsset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSApparelAsset"));
 		return ptr;
 	}
 
@@ -2933,7 +2933,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSApparelAsset_SkinDataTables");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSApparelAsset_SkinDataTables"));
 		return ptr;
 	}
 
@@ -2949,7 +2949,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSApparelAsset_CustomComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSApparelAsset_CustomComponent"));
 		return ptr;
 	}
 
@@ -2971,7 +2971,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSApparelAsset_SkinnedMesh");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSApparelAsset_SkinnedMesh"));
 		return ptr;
 	}
 
@@ -2999,7 +2999,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEquipment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEquipment"));
 		return ptr;
 	}
 
@@ -3151,7 +3151,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon"));
 		return ptr;
 	}
 
@@ -3362,7 +3362,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSArmor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSArmor"));
 		return ptr;
 	}
 
@@ -3567,7 +3567,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAsset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAsset"));
 		return ptr;
 	}
 
@@ -3753,7 +3753,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSArmorAsset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSArmorAsset"));
 		return ptr;
 	}
 
@@ -3797,7 +3797,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAssetDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAssetDrop"));
 		return ptr;
 	}
 
@@ -3827,7 +3827,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSArmorAssetDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSArmorAssetDrop"));
 		return ptr;
 	}
 
@@ -3850,7 +3850,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAssetManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAssetManager"));
 		return ptr;
 	}
 
@@ -3878,7 +3878,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAssetManagerSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAssetManagerSettings"));
 		return ptr;
 	}
 
@@ -3898,7 +3898,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAssetQueryHelperComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAssetQueryHelperComponent"));
 		return ptr;
 	}
 
@@ -3920,7 +3920,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAsyncImage");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAsyncImage"));
 		return ptr;
 	}
 
@@ -3954,7 +3954,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEquipmentCosmeticComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEquipmentCosmeticComponent"));
 		return ptr;
 	}
 
@@ -3996,7 +3996,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachmentCosmeticInst");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachmentCosmeticInst"));
 		return ptr;
 	}
 
@@ -4028,7 +4028,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAttachCosmeticInst_Reactive");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAttachCosmeticInst_Reactive"));
 		return ptr;
 	}
 
@@ -4051,7 +4051,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAssetDrop_MacGuffin");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAssetDrop_MacGuffin"));
 		return ptr;
 	}
 
@@ -4115,7 +4115,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNeutralBombDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNeutralBombDrop"));
 		return ptr;
 	}
 
@@ -4143,7 +4143,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAttackBombDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAttackBombDrop"));
 		return ptr;
 	}
 
@@ -4190,7 +4190,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSObjectiveBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSObjectiveBase"));
 		return ptr;
 	}
 
@@ -4256,7 +4256,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSExtractionComputer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSExtractionComputer"));
 		return ptr;
 	}
 
@@ -4282,7 +4282,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAttackExtractionComputer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAttackExtractionComputer"));
 		return ptr;
 	}
 
@@ -4303,7 +4303,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAudioManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAudioManager"));
 		return ptr;
 	}
 
@@ -4351,7 +4351,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAudioPlayer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAudioPlayer"));
 		return ptr;
 	}
 
@@ -4376,7 +4376,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAudioPlayerEventActionData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAudioPlayerEventActionData"));
 		return ptr;
 	}
 
@@ -4403,7 +4403,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAudioPlayerStateParameterData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAudioPlayerStateParameterData"));
 		return ptr;
 	}
 
@@ -4442,7 +4442,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAutoPickupComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAutoPickupComponent"));
 		return ptr;
 	}
 
@@ -4462,7 +4462,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAvatar");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAvatar"));
 		return ptr;
 	}
 
@@ -4484,7 +4484,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAvenger");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAvenger"));
 		return ptr;
 	}
 
@@ -4503,7 +4503,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSAwardsManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSAwardsManager"));
 		return ptr;
 	}
 
@@ -4522,7 +4522,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBanner");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBanner"));
 		return ptr;
 	}
 
@@ -4545,7 +4545,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBattlePassProgressionManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBattlePassProgressionManager"));
 		return ptr;
 	}
 
@@ -4580,7 +4580,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameRuleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameRuleComponent"));
 		return ptr;
 	}
 
@@ -4601,7 +4601,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBehaviorRuleBaseComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBehaviorRuleBaseComponent"));
 		return ptr;
 	}
 
@@ -4618,7 +4618,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBehaviorRuleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBehaviorRuleComponent"));
 		return ptr;
 	}
 
@@ -4640,7 +4640,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerBehaviorRuleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerBehaviorRuleComponent"));
 		return ptr;
 	}
 
@@ -4664,7 +4664,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBlendableCameraModifier");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBlendableCameraModifier"));
 		return ptr;
 	}
 
@@ -4690,7 +4690,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFXCurveComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFXCurveComponent"));
 		return ptr;
 	}
 
@@ -4717,7 +4717,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBloodSplatterComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBloodSplatterComponent"));
 		return ptr;
 	}
 
@@ -4757,7 +4757,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBlueprintableInteractable");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBlueprintableInteractable"));
 		return ptr;
 	}
 
@@ -4782,7 +4782,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBlueprintableAmmoRefillCrate");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBlueprintableAmmoRefillCrate"));
 		return ptr;
 	}
 
@@ -4801,7 +4801,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSInteractionState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSInteractionState"));
 		return ptr;
 	}
 
@@ -4816,7 +4816,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHoldOrTapStart");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHoldOrTapStart"));
 		return ptr;
 	}
 
@@ -4831,7 +4831,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBlueprintStart");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBlueprintStart"));
 		return ptr;
 	}
 
@@ -4846,7 +4846,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWaitingForTimer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWaitingForTimer"));
 		return ptr;
 	}
 
@@ -4861,7 +4861,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBlueprintWaiting");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBlueprintWaiting"));
 		return ptr;
 	}
 
@@ -4876,7 +4876,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBlueprintFunctionLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBlueprintFunctionLibrary"));
 		return ptr;
 	}
 
@@ -5021,7 +5021,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCurrency");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCurrency"));
 		return ptr;
 	}
 
@@ -5045,7 +5045,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBoost");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBoost"));
 		return ptr;
 	}
 
@@ -5063,7 +5063,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBoosterManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBoosterManager"));
 		return ptr;
 	}
 
@@ -5082,7 +5082,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBorder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBorder"));
 		return ptr;
 	}
 
@@ -5104,7 +5104,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBotDefinition");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBotDefinition"));
 		return ptr;
 	}
 
@@ -5120,7 +5120,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBotDefinitionCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBotDefinitionCollection"));
 		return ptr;
 	}
 
@@ -5144,7 +5144,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBotEncounter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBotEncounter"));
 		return ptr;
 	}
 
@@ -5214,7 +5214,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBotFactory");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBotFactory"));
 		return ptr;
 	}
 
@@ -5252,7 +5252,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBotJobConfigMap");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBotJobConfigMap"));
 		return ptr;
 	}
 
@@ -5269,7 +5269,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBoxDeadZoneFilter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBoxDeadZoneFilter"));
 		return ptr;
 	}
 
@@ -5288,7 +5288,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBRC_GiveEquipment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBRC_GiveEquipment"));
 		return ptr;
 	}
 
@@ -5314,7 +5314,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTAbilityConditionValidator");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTAbilityConditionValidator"));
 		return ptr;
 	}
 
@@ -5330,7 +5330,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTAction");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTAction"));
 		return ptr;
 	}
 
@@ -5350,7 +5350,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_AbilityState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_AbilityState"));
 		return ptr;
 	}
 
@@ -5367,7 +5367,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_AnyActorPerceived");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_AnyActorPerceived"));
 		return ptr;
 	}
 
@@ -5384,7 +5384,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_BlackboardPerceived");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_BlackboardPerceived"));
 		return ptr;
 	}
 
@@ -5400,7 +5400,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CanActivateAbility");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CanActivateAbility"));
 		return ptr;
 	}
 
@@ -5416,7 +5416,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CanActivateUniqueAbility");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CanActivateUniqueAbility"));
 		return ptr;
 	}
 
@@ -5432,7 +5432,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CharacterState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CharacterState"));
 		return ptr;
 	}
 
@@ -5450,7 +5450,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CheckRole");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CheckRole"));
 		return ptr;
 	}
 
@@ -5468,7 +5468,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CheckUniqueAbilityType");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CheckUniqueAbilityType"));
 		return ptr;
 	}
 
@@ -5487,7 +5487,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CompareBetweenBlackboards");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CompareBetweenBlackboards"));
 		return ptr;
 	}
 
@@ -5504,7 +5504,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CompareBlackboardToValue");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CompareBlackboardToValue"));
 		return ptr;
 	}
 
@@ -5522,7 +5522,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CompareGrenadeFuseTimeLeft");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CompareGrenadeFuseTimeLeft"));
 		return ptr;
 	}
 
@@ -5538,7 +5538,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CompareKeyToObjective");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CompareKeyToObjective"));
 		return ptr;
 	}
 
@@ -5556,7 +5556,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CompareMatchPhaseTimeLeft");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CompareMatchPhaseTimeLeft"));
 		return ptr;
 	}
 
@@ -5574,7 +5574,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_CompareRoundNumber");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_CompareRoundNumber"));
 		return ptr;
 	}
 
@@ -5591,7 +5591,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_DestroyableHazardState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_DestroyableHazardState"));
 		return ptr;
 	}
 
@@ -5608,7 +5608,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_DestructibleState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_DestructibleState"));
 		return ptr;
 	}
 
@@ -5626,7 +5626,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_DistanceFromBlackboard");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_DistanceFromBlackboard"));
 		return ptr;
 	}
 
@@ -5659,7 +5659,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_EquipmentState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_EquipmentState"));
 		return ptr;
 	}
 
@@ -5680,7 +5680,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_GameState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_GameState"));
 		return ptr;
 	}
 
@@ -5703,7 +5703,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_HasAmmo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_HasAmmo"));
 		return ptr;
 	}
 
@@ -5718,7 +5718,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_HasBeenCollected");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_HasBeenCollected"));
 		return ptr;
 	}
 
@@ -5735,7 +5735,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_HasBeenHitRecently");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_HasBeenHitRecently"));
 		return ptr;
 	}
 
@@ -5751,7 +5751,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_HasSwappedEquipment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_HasSwappedEquipment"));
 		return ptr;
 	}
 
@@ -5767,7 +5767,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_InteractableState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_InteractableState"));
 		return ptr;
 	}
 
@@ -5783,7 +5783,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsActionAllowed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsActionAllowed"));
 		return ptr;
 	}
 
@@ -5798,7 +5798,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsActorPendingKill");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsActorPendingKill"));
 		return ptr;
 	}
 
@@ -5815,7 +5815,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsApproachingDropLocation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsApproachingDropLocation"));
 		return ptr;
 	}
 
@@ -5832,7 +5832,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsApproachingFall");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsApproachingFall"));
 		return ptr;
 	}
 
@@ -5847,7 +5847,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsBlackboardSet");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsBlackboardSet"));
 		return ptr;
 	}
 
@@ -5862,7 +5862,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsBlackboardVisible");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsBlackboardVisible"));
 		return ptr;
 	}
 
@@ -5877,7 +5877,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsFreeFalling");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsFreeFalling"));
 		return ptr;
 	}
 
@@ -5893,7 +5893,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsGameMode");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsGameMode"));
 		return ptr;
 	}
 
@@ -5908,7 +5908,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsOnNavMesh");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsOnNavMesh"));
 		return ptr;
 	}
 
@@ -5923,7 +5923,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsRidingZipline");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsRidingZipline"));
 		return ptr;
 	}
 
@@ -5938,7 +5938,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsSprinting");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsSprinting"));
 		return ptr;
 	}
 
@@ -5953,7 +5953,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsSwimming");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsSwimming"));
 		return ptr;
 	}
 
@@ -5969,7 +5969,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsWeaponFiring");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsWeaponFiring"));
 		return ptr;
 	}
 
@@ -5985,7 +5985,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_IsWeaponReady");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_IsWeaponReady"));
 		return ptr;
 	}
 
@@ -6001,7 +6001,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_ItemDropState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_ItemDropState"));
 		return ptr;
 	}
 
@@ -6023,7 +6023,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_NearbyEnemyCount");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_NearbyEnemyCount"));
 		return ptr;
 	}
 
@@ -6040,7 +6040,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_RandomCooldown");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_RandomCooldown"));
 		return ptr;
 	}
 
@@ -6056,7 +6056,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_ShouldCrouchAtPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_ShouldCrouchAtPoint"));
 		return ptr;
 	}
 
@@ -6071,7 +6071,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_ShouldDodgeRoll");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_ShouldDodgeRoll"));
 		return ptr;
 	}
 
@@ -6086,7 +6086,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_ShouldStrafe");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_ShouldStrafe"));
 		return ptr;
 	}
 
@@ -6101,7 +6101,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_ShouldThrowGrenade");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_ShouldThrowGrenade"));
 		return ptr;
 	}
 
@@ -6116,7 +6116,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_ShouldThrowMelee");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_ShouldThrowMelee"));
 		return ptr;
 	}
 
@@ -6131,7 +6131,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_TimerComplete");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_TimerComplete"));
 		return ptr;
 	}
 
@@ -6146,7 +6146,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_WantsToVaultFromSwimming");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_WantsToVaultFromSwimming"));
 		return ptr;
 	}
 
@@ -6164,7 +6164,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_WeightedPerceptionCheck");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_WeightedPerceptionCheck"));
 		return ptr;
 	}
 
@@ -6181,7 +6181,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTD_WillActiveGrenadeHitTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTD_WillActiveGrenadeHitTarget"));
 		return ptr;
 	}
 
@@ -6197,7 +6197,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTDifficulty");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTDifficulty"));
 		return ptr;
 	}
 
@@ -6216,7 +6216,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTObjective");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTObjective"));
 		return ptr;
 	}
 
@@ -6231,7 +6231,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTObjective_DestroyHazard");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTObjective_DestroyHazard"));
 		return ptr;
 	}
 
@@ -6246,7 +6246,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTObjective_Patrol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTObjective_Patrol"));
 		return ptr;
 	}
 
@@ -6261,7 +6261,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTObjective_PickUpItem");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTObjective_PickUpItem"));
 		return ptr;
 	}
 
@@ -6283,7 +6283,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTargetSelector");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTargetSelector"));
 		return ptr;
 	}
 
@@ -6299,7 +6299,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_ActivateAbility");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_ActivateAbility"));
 		return ptr;
 	}
 
@@ -6314,7 +6314,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_ActivateUniqueAbility");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_ActivateUniqueAbility"));
 		return ptr;
 	}
 
@@ -6335,7 +6335,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_LookAt");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_LookAt"));
 		return ptr;
 	}
 
@@ -6354,7 +6354,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_AimAt");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_AimAt"));
 		return ptr;
 	}
 
@@ -6369,7 +6369,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_BuyItemFromShop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_BuyItemFromShop"));
 		return ptr;
 	}
 
@@ -6384,7 +6384,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_ClearFocus");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_ClearFocus"));
 		return ptr;
 	}
 
@@ -6399,7 +6399,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_ClearNavigationInteractTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_ClearNavigationInteractTarget"));
 		return ptr;
 	}
 
@@ -6414,7 +6414,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_ClearReviverForTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_ClearReviverForTarget"));
 		return ptr;
 	}
 
@@ -6429,7 +6429,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_ClearValue");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_ClearValue"));
 		return ptr;
 	}
 
@@ -6446,7 +6446,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_CopyActorLocation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_CopyActorLocation"));
 		return ptr;
 	}
 
@@ -6463,7 +6463,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_CopyObjectFacingVector");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_CopyObjectFacingVector"));
 		return ptr;
 	}
 
@@ -6478,7 +6478,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_CopyReviverToBlackboard");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_CopyReviverToBlackboard"));
 		return ptr;
 	}
 
@@ -6494,7 +6494,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_GetNavigationInteractTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_GetNavigationInteractTarget"));
 		return ptr;
 	}
 
@@ -6511,7 +6511,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_GetRotationFromPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_GetRotationFromPoint"));
 		return ptr;
 	}
 
@@ -6526,7 +6526,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_HandleChangedCombatTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_HandleChangedCombatTarget"));
 		return ptr;
 	}
 
@@ -6543,7 +6543,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_InteractWith");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_InteractWith"));
 		return ptr;
 	}
 
@@ -6558,7 +6558,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_InterruptInteraction");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_InterruptInteraction"));
 		return ptr;
 	}
 
@@ -6574,7 +6574,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_LeaveDefensePoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_LeaveDefensePoint"));
 		return ptr;
 	}
 
@@ -6592,7 +6592,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_LookInDirection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_LookInDirection"));
 		return ptr;
 	}
 
@@ -6610,7 +6610,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_MakeNoiseEvent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_MakeNoiseEvent"));
 		return ptr;
 	}
 
@@ -6625,7 +6625,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_MarkAsSeen");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_MarkAsSeen"));
 		return ptr;
 	}
 
@@ -6646,7 +6646,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_MoveToBlackboard");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_MoveToBlackboard"));
 		return ptr;
 	}
 
@@ -6666,7 +6666,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_MoveToward");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_MoveToward"));
 		return ptr;
 	}
 
@@ -6681,7 +6681,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_PerformPawnAction");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_PerformPawnAction"));
 		return ptr;
 	}
 
@@ -6702,7 +6702,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_PerformRandomDodgeRoll");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_PerformRandomDodgeRoll"));
 		return ptr;
 	}
 
@@ -6720,7 +6720,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_PlayVO");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_PlayVO"));
 		return ptr;
 	}
 
@@ -6737,7 +6737,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_RandomizeWayPointDefensePoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_RandomizeWayPointDefensePoint"));
 		return ptr;
 	}
 
@@ -6767,7 +6767,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_RunBehaviorForTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_RunBehaviorForTarget"));
 		return ptr;
 	}
 
@@ -6789,7 +6789,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SelectBlackboardTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SelectBlackboardTarget"));
 		return ptr;
 	}
 
@@ -6805,7 +6805,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SelectDefensePoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SelectDefensePoint"));
 		return ptr;
 	}
 
@@ -6826,7 +6826,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SelectDropLocation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SelectDropLocation"));
 		return ptr;
 	}
 
@@ -6846,7 +6846,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SelectEvadePoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SelectEvadePoint"));
 		return ptr;
 	}
 
@@ -6864,7 +6864,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SelectIngressPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SelectIngressPoint"));
 		return ptr;
 	}
 
@@ -6885,7 +6885,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SelectObjective");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SelectObjective"));
 		return ptr;
 	}
 
@@ -6902,7 +6902,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SelectTargetOfTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SelectTargetOfTarget"));
 		return ptr;
 	}
 
@@ -6917,7 +6917,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SelectVaultTargetLocation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SelectVaultTargetLocation"));
 		return ptr;
 	}
 
@@ -6932,7 +6932,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SelectWayPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SelectWayPoint"));
 		return ptr;
 	}
 
@@ -6949,7 +6949,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SetBehaviorState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SetBehaviorState"));
 		return ptr;
 	}
 
@@ -6968,7 +6968,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SetBetweenBlackboards");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SetBetweenBlackboards"));
 		return ptr;
 	}
 
@@ -6985,7 +6985,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SetBoolOnBlackboard");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SetBoolOnBlackboard"));
 		return ptr;
 	}
 
@@ -7002,7 +7002,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SetFloatOnBlackboard");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SetFloatOnBlackboard"));
 		return ptr;
 	}
 
@@ -7018,7 +7018,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SetObjectiveOnBlackboard");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SetObjectiveOnBlackboard"));
 		return ptr;
 	}
 
@@ -7033,7 +7033,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SetReviveTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SetReviveTarget"));
 		return ptr;
 	}
 
@@ -7050,7 +7050,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SetTimer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SetTimer"));
 		return ptr;
 	}
 
@@ -7067,7 +7067,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SetWaypointDefenseTimer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SetWaypointDefenseTimer"));
 		return ptr;
 	}
 
@@ -7086,7 +7086,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SetWeaponRanges");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SetWeaponRanges"));
 		return ptr;
 	}
 
@@ -7104,7 +7104,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_SkydiveToward");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_SkydiveToward"));
 		return ptr;
 	}
 
@@ -7119,7 +7119,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_StopMovement");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_StopMovement"));
 		return ptr;
 	}
 
@@ -7141,7 +7141,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_Strafe");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_Strafe"));
 		return ptr;
 	}
 
@@ -7156,7 +7156,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_TriggerBleedout");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_TriggerBleedout"));
 		return ptr;
 	}
 
@@ -7171,7 +7171,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_TryToVault");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_TryToVault"));
 		return ptr;
 	}
 
@@ -7187,7 +7187,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_UpdateCachedWeapon");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_UpdateCachedWeapon"));
 		return ptr;
 	}
 
@@ -7202,7 +7202,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_WaitForADS");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_WaitForADS"));
 		return ptr;
 	}
 
@@ -7225,7 +7225,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTask_WeaponDistanceChecks");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTask_WeaponDistanceChecks"));
 		return ptr;
 	}
 
@@ -7242,7 +7242,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBTTaskNode_SetCrowdFollowing");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBTTaskNode_SetCrowdFollowing"));
 		return ptr;
 	}
 
@@ -7288,7 +7288,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBuild");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBuild"));
 		return ptr;
 	}
 
@@ -7336,7 +7336,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBuild_APS");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBuild_APS"));
 		return ptr;
 	}
 
@@ -7360,7 +7360,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBuild_Shop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBuild_Shop"));
 		return ptr;
 	}
 
@@ -7385,7 +7385,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSBuildPreview");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSBuildPreview"));
 		return ptr;
 	}
 
@@ -7404,7 +7404,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCarriedInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCarriedInterface"));
 		return ptr;
 	}
 
@@ -7429,7 +7429,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCash");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCash"));
 		return ptr;
 	}
 
@@ -7446,7 +7446,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCashDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCashDrop"));
 		return ptr;
 	}
 
@@ -7486,7 +7486,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCashExtractionPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCashExtractionPoint"));
 		return ptr;
 	}
 
@@ -7683,7 +7683,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCharacterBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCharacterBase"));
 		return ptr;
 	}
 
@@ -8478,7 +8478,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCharacter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCharacter"));
 		return ptr;
 	}
 
@@ -9522,7 +9522,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCharacterAnimInst");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCharacterAnimInst"));
 		return ptr;
 	}
 
@@ -9641,7 +9641,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCharacterCameraShake");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCharacterCameraShake"));
 		return ptr;
 	}
 
@@ -9664,7 +9664,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCharacterCapsuleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCharacterCapsuleComponent"));
 		return ptr;
 	}
 
@@ -9892,7 +9892,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCharacterMovementComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCharacterMovementComponent"));
 		return ptr;
 	}
 
@@ -9934,7 +9934,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSkeletalMeshComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSkeletalMeshComponent"));
 		return ptr;
 	}
 
@@ -9961,7 +9961,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCharacterSkeletalMeshComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCharacterSkeletalMeshComponent"));
 		return ptr;
 	}
 
@@ -9980,7 +9980,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCharacterSocketComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCharacterSocketComponent"));
 		return ptr;
 	}
 
@@ -10011,7 +10011,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCheatComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCheatComponent"));
 		return ptr;
 	}
 
@@ -10128,7 +10128,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCheatComponent_Lobby");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCheatComponent_Lobby"));
 		return ptr;
 	}
 
@@ -10174,7 +10174,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJobSelectPreviewActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJobSelectPreviewActor"));
 		return ptr;
 	}
 
@@ -10216,7 +10216,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCinematicCharacterManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCinematicCharacterManager"));
 		return ptr;
 	}
 
@@ -10240,7 +10240,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCinematicSequenceManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCinematicSequenceManager"));
 		return ptr;
 	}
 
@@ -10263,7 +10263,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTeamCinematicSequenceManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTeamCinematicSequenceManager"));
 		return ptr;
 	}
 
@@ -10280,7 +10280,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCircleDeadZoneFilter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCircleDeadZoneFilter"));
 		return ptr;
 	}
 
@@ -10315,7 +10315,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponTargetingModule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponTargetingModule"));
 		return ptr;
 	}
 
@@ -10405,7 +10405,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectileTargetingModule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectileTargetingModule"));
 		return ptr;
 	}
 
@@ -10430,7 +10430,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGrenadeTargetingModule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGrenadeTargetingModule"));
 		return ptr;
 	}
 
@@ -10447,7 +10447,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSClusterGrenadeTargetingModule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSClusterGrenadeTargetingModule"));
 		return ptr;
 	}
 
@@ -10463,7 +10463,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCombatLogVisualizer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCombatLogVisualizer"));
 		return ptr;
 	}
 
@@ -10490,7 +10490,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRadialMenuItem");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRadialMenuItem"));
 		return ptr;
 	}
 
@@ -10520,7 +10520,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCommunication");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCommunication"));
 		return ptr;
 	}
 
@@ -10536,7 +10536,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRadialMenuItemInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRadialMenuItemInstance"));
 		return ptr;
 	}
 
@@ -10563,7 +10563,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCommunicationInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCommunicationInstance"));
 		return ptr;
 	}
 
@@ -10578,7 +10578,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSControllerInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSControllerInterface"));
 		return ptr;
 	}
 
@@ -10622,7 +10622,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSControlPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSControlPoint"));
 		return ptr;
 	}
 
@@ -10673,7 +10673,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCosmeticStateReplicator");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCosmeticStateReplicator"));
 		return ptr;
 	}
 
@@ -10705,7 +10705,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCosmeticRep_WeaponAttachment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCosmeticRep_WeaponAttachment"));
 		return ptr;
 	}
 
@@ -10733,7 +10733,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSCustomApparelComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSCustomApparelComponent"));
 		return ptr;
 	}
 
@@ -10754,7 +10754,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageable");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageable"));
 		return ptr;
 	}
 
@@ -10803,7 +10803,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeBase"));
 		return ptr;
 	}
 
@@ -10822,7 +10822,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeDisperse");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeDisperse"));
 		return ptr;
 	}
 
@@ -10839,7 +10839,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeEMP");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeEMP"));
 		return ptr;
 	}
 
@@ -10856,7 +10856,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeFire");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeFire"));
 		return ptr;
 	}
 
@@ -10871,7 +10871,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFlashSource");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFlashSource"));
 		return ptr;
 	}
 
@@ -10891,7 +10891,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeFlashBang");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeFlashBang"));
 		return ptr;
 	}
 
@@ -10906,7 +10906,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeMaxHealth");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeMaxHealth"));
 		return ptr;
 	}
 
@@ -10921,7 +10921,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeReverseFriendly");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeReverseFriendly"));
 		return ptr;
 	}
 
@@ -10939,7 +10939,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeSonar");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeSonar"));
 		return ptr;
 	}
 
@@ -10954,7 +10954,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeStuck");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeStuck"));
 		return ptr;
 	}
 
@@ -10971,7 +10971,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDamageTypeStun");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDamageTypeStun"));
 		return ptr;
 	}
 
@@ -10992,7 +10992,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDefaultAimTargetingModule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDefaultAimTargetingModule"));
 		return ptr;
 	}
 
@@ -11014,7 +11014,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMapPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMapPoint"));
 		return ptr;
 	}
 
@@ -11039,7 +11039,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDefensePoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDefensePoint"));
 		return ptr;
 	}
 
@@ -11057,7 +11057,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDeployable");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDeployable"));
 		return ptr;
 	}
 
@@ -11078,7 +11078,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDestroyableHazard");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDestroyableHazard"));
 		return ptr;
 	}
 
@@ -11100,7 +11100,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDestroyableHazardComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDestroyableHazardComponent"));
 		return ptr;
 	}
 
@@ -11170,7 +11170,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDestructibleBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDestructibleBase"));
 		return ptr;
 	}
 
@@ -11199,7 +11199,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDispersible");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDispersible"));
 		return ptr;
 	}
 
@@ -11224,7 +11224,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDistanceOptimizationComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDistanceOptimizationComponent"));
 		return ptr;
 	}
 
@@ -11252,7 +11252,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDropLocation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDropLocation"));
 		return ptr;
 	}
 
@@ -11296,7 +11296,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDropOffZone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDropOffZone"));
 		return ptr;
 	}
 
@@ -11363,7 +11363,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDropshipBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDropshipBase"));
 		return ptr;
 	}
 
@@ -11429,7 +11429,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDropShipExitVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDropShipExitVolume"));
 		return ptr;
 	}
 
@@ -11446,7 +11446,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDropShipExitZone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDropShipExitZone"));
 		return ptr;
 	}
 
@@ -11472,7 +11472,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDropshipExterior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDropshipExterior"));
 		return ptr;
 	}
 
@@ -11504,7 +11504,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDropshipInterior");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDropshipInterior"));
 		return ptr;
 	}
 
@@ -11532,7 +11532,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDropshipLights");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDropshipLights"));
 		return ptr;
 	}
 
@@ -11563,7 +11563,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDropShipLocation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDropShipLocation"));
 		return ptr;
 	}
 
@@ -11588,7 +11588,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSDynamicMaskComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSDynamicMaskComponent"));
 		return ptr;
 	}
 
@@ -11613,7 +11613,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEasyAntiCheatSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEasyAntiCheatSettings"));
 		return ptr;
 	}
 
@@ -11635,7 +11635,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmote");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmote"));
 		return ptr;
 	}
 
@@ -11672,7 +11672,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteCosmeticComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteCosmeticComponent"));
 		return ptr;
 	}
 
@@ -11702,7 +11702,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteCosmeticComponent_Spray");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteCosmeticComponent_Spray"));
 		return ptr;
 	}
 
@@ -11722,7 +11722,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteCosmeticSubInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteCosmeticSubInstance"));
 		return ptr;
 	}
 
@@ -11755,7 +11755,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteCosmeticSubInstance_Play");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteCosmeticSubInstance_Play"));
 		return ptr;
 	}
 
@@ -11774,7 +11774,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteCosmeticSubInstance_Spray");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteCosmeticSubInstance_Spray"));
 		return ptr;
 	}
 
@@ -11793,7 +11793,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteInstance"));
 		return ptr;
 	}
 
@@ -11813,7 +11813,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteMusicManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteMusicManager"));
 		return ptr;
 	}
 
@@ -11831,7 +11831,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteMusicManagerOwner");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteMusicManagerOwner"));
 		return ptr;
 	}
 
@@ -11848,7 +11848,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteMusicManagerStatics");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteMusicManagerStatics"));
 		return ptr;
 	}
 
@@ -11880,7 +11880,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmoteTestManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmoteTestManager"));
 		return ptr;
 	}
 
@@ -11902,7 +11902,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmotionComponentOwner");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmotionComponentOwner"));
 		return ptr;
 	}
 
@@ -11932,7 +11932,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEmotionComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEmotionComponent"));
 		return ptr;
 	}
 
@@ -11968,7 +11968,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEncounterManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEncounterManager"));
 		return ptr;
 	}
 
@@ -12010,7 +12010,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEncounterWave");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEncounterWave"));
 		return ptr;
 	}
 
@@ -12033,7 +12033,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEnforcedEquipmentRuleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEnforcedEquipmentRuleComponent"));
 		return ptr;
 	}
 
@@ -12050,7 +12050,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEnforcedEquipmentState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEnforcedEquipmentState"));
 		return ptr;
 	}
 
@@ -12070,7 +12070,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEnvironmentVolumeActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEnvironmentVolumeActor"));
 		return ptr;
 	}
 
@@ -12088,7 +12088,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEnvQueryContext_Character");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEnvQueryContext_Character"));
 		return ptr;
 	}
 
@@ -12103,7 +12103,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEnvQueryContext_Teammates");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEnvQueryContext_Teammates"));
 		return ptr;
 	}
 
@@ -12123,7 +12123,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEnvQueryTest_CharacterTrace");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEnvQueryTest_CharacterTrace"));
 		return ptr;
 	}
 
@@ -12138,7 +12138,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEquipmentContainerOwner");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEquipmentContainerOwner"));
 		return ptr;
 	}
 
@@ -12166,7 +12166,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEquipmentManagerComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEquipmentManagerComponent"));
 		return ptr;
 	}
 
@@ -12185,7 +12185,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEquipmentManagerOwner");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEquipmentManagerOwner"));
 		return ptr;
 	}
 
@@ -12205,7 +12205,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEscapePoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEscapePoint"));
 		return ptr;
 	}
 
@@ -12228,7 +12228,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEventChallengesManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEventChallengesManager"));
 		return ptr;
 	}
 
@@ -12270,7 +12270,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEventTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEventTracker"));
 		return ptr;
 	}
 
@@ -12299,7 +12299,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSEventTrackerPlayerData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSEventTrackerPlayerData"));
 		return ptr;
 	}
 
@@ -12336,7 +12336,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSExperiments");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSExperiments"));
 		return ptr;
 	}
 
@@ -12354,7 +12354,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSExponentialHeightFog");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSExponentialHeightFog"));
 		return ptr;
 	}
 
@@ -12369,7 +12369,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSExtinguisher");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSExtinguisher"));
 		return ptr;
 	}
 
@@ -12393,7 +12393,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSExtractionPickup");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSExtractionPickup"));
 		return ptr;
 	}
 
@@ -12413,7 +12413,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFaceAnimInst");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFaceAnimInst"));
 		return ptr;
 	}
 
@@ -12429,7 +12429,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFinalBlowTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFinalBlowTracker"));
 		return ptr;
 	}
 
@@ -12449,7 +12449,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFirstBloodTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFirstBloodTracker"));
 		return ptr;
 	}
 
@@ -12470,7 +12470,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFlightPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFlightPoint"));
 		return ptr;
 	}
 
@@ -12485,7 +12485,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFlightRecoveryVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFlightRecoveryVolume"));
 		return ptr;
 	}
 
@@ -12503,7 +12503,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFootstepOverrideInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFootstepOverrideInterface"));
 		return ptr;
 	}
 
@@ -12525,7 +12525,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFootstepOverrideVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFootstepOverrideVolume"));
 		return ptr;
 	}
 
@@ -12540,7 +12540,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSVelocityCameraShake");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSVelocityCameraShake"));
 		return ptr;
 	}
 
@@ -12555,7 +12555,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFreeFallCameraShake");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFreeFallCameraShake"));
 		return ptr;
 	}
 
@@ -12585,7 +12585,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFreezeFramePawn");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFreezeFramePawn"));
 		return ptr;
 	}
 
@@ -12608,7 +12608,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSFreezeFramePawnAnimInst");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSFreezeFramePawnAnimInst"));
 		return ptr;
 	}
 
@@ -12623,7 +12623,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGadgetAssetDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGadgetAssetDrop"));
 		return ptr;
 	}
 
@@ -12642,7 +12642,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameEngine");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameEngine"));
 		return ptr;
 	}
 
@@ -12703,7 +12703,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameInstance"));
 		return ptr;
 	}
 
@@ -12908,7 +12908,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode"));
 		return ptr;
 	}
 
@@ -12977,7 +12977,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSeamlessTravelTransferInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSeamlessTravelTransferInfo"));
 		return ptr;
 	}
 
@@ -13036,7 +13036,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_RoundGame");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_RoundGame"));
 		return ptr;
 	}
 
@@ -13090,7 +13090,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_Extraction");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_Extraction"));
 		return ptr;
 	}
 
@@ -13105,7 +13105,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_AttackExtraction");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_AttackExtraction"));
 		return ptr;
 	}
 
@@ -13139,7 +13139,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_Control");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_Control"));
 		return ptr;
 	}
 
@@ -13183,7 +13183,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_NeutralBomb");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_NeutralBomb"));
 		return ptr;
 	}
 
@@ -13204,7 +13204,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_Demolition");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_Demolition"));
 		return ptr;
 	}
 
@@ -13219,7 +13219,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_ExtInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_ExtInterface"));
 		return ptr;
 	}
 
@@ -13250,7 +13250,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_ExtractionCoop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_ExtractionCoop"));
 		return ptr;
 	}
 
@@ -13274,7 +13274,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_RoyaleBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_RoyaleBase"));
 		return ptr;
 	}
 
@@ -13298,7 +13298,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_ExtractionRoyale");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_ExtractionRoyale"));
 		return ptr;
 	}
 
@@ -13320,7 +13320,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_Heist");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_Heist"));
 		return ptr;
 	}
 
@@ -13335,7 +13335,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_Incursion");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_Incursion"));
 		return ptr;
 	}
 
@@ -13365,7 +13365,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_Modular");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_Modular"));
 		return ptr;
 	}
 
@@ -13412,7 +13412,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_Sabotage");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_Sabotage"));
 		return ptr;
 	}
 
@@ -13434,7 +13434,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_StrikeOutControl");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_StrikeOutControl"));
 		return ptr;
 	}
 
@@ -13454,7 +13454,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameMode_TutorialBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameMode_TutorialBase"));
 		return ptr;
 	}
 
@@ -13473,7 +13473,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGamepadLookSpeedManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGamepadLookSpeedManager"));
 		return ptr;
 	}
 
@@ -13505,7 +13505,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGamepadCurvedLookSpeedManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGamepadCurvedLookSpeedManager"));
 		return ptr;
 	}
 
@@ -13526,7 +13526,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGamePhaseProxyBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGamePhaseProxyBase"));
 		return ptr;
 	}
 
@@ -13710,7 +13710,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState"));
 		return ptr;
 	}
 
@@ -13840,7 +13840,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_RoundGame");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_RoundGame"));
 		return ptr;
 	}
 
@@ -13885,7 +13885,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_Control");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_Control"));
 		return ptr;
 	}
 
@@ -13921,7 +13921,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_NeutralBomb");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_NeutralBomb"));
 		return ptr;
 	}
 
@@ -13951,7 +13951,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_Demolition");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_Demolition"));
 		return ptr;
 	}
 
@@ -13972,7 +13972,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_ExtInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_ExtInterface"));
 		return ptr;
 	}
 
@@ -14008,7 +14008,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_Extraction");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_Extraction"));
 		return ptr;
 	}
 
@@ -14040,7 +14040,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_ExtractionCoop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_ExtractionCoop"));
 		return ptr;
 	}
 
@@ -14063,7 +14063,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_RoyaleBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_RoyaleBase"));
 		return ptr;
 	}
 
@@ -14100,7 +14100,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_ExtractionRoyale");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_ExtractionRoyale"));
 		return ptr;
 	}
 
@@ -14127,7 +14127,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_Heist");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_Heist"));
 		return ptr;
 	}
 
@@ -14147,7 +14147,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_Modular");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_Modular"));
 		return ptr;
 	}
 
@@ -14162,7 +14162,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_Sabotage");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_Sabotage"));
 		return ptr;
 	}
 
@@ -14177,7 +14177,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameState_StrikeOutControl");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameState_StrikeOutControl"));
 		return ptr;
 	}
 
@@ -14206,7 +14206,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSettingsSaveGame");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSettingsSaveGame"));
 		return ptr;
 	}
 
@@ -14222,7 +14222,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameUserSettingsDefault");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameUserSettingsDefault"));
 		return ptr;
 	}
 
@@ -14259,7 +14259,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameUserSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameUserSettings"));
 		return ptr;
 	}
 
@@ -14286,7 +14286,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGameViewportClient");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGameViewportClient"));
 		return ptr;
 	}
 
@@ -14301,7 +14301,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGeneralProgressionManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGeneralProgressionManager"));
 		return ptr;
 	}
 
@@ -14317,7 +14317,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGlobalShotListener");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGlobalShotListener"));
 		return ptr;
 	}
 
@@ -14336,7 +14336,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGroupedActivityEventTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGroupedActivityEventTracker"));
 		return ptr;
 	}
 
@@ -14353,7 +14353,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGyroControlledPawn");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGyroControlledPawn"));
 		return ptr;
 	}
 
@@ -14370,7 +14370,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHairSkeletalMeshComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHairSkeletalMeshComponent"));
 		return ptr;
 	}
 
@@ -14385,7 +14385,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHeadShotTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHeadShotTracker"));
 		return ptr;
 	}
 
@@ -14402,7 +14402,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerHealthMeterBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerHealthMeterBase"));
 		return ptr;
 	}
 
@@ -14434,7 +14434,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHeatSourceComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHeatSourceComponent"));
 		return ptr;
 	}
 
@@ -14466,7 +14466,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHUDAnnouncementComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHUDAnnouncementComponent"));
 		return ptr;
 	}
 
@@ -14483,7 +14483,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHUDComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHUDComponent"));
 		return ptr;
 	}
 
@@ -14510,7 +14510,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHUDComponent_Objective");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHUDComponent_Objective"));
 		return ptr;
 	}
 
@@ -14525,7 +14525,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHUDInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHUDInterface"));
 		return ptr;
 	}
 
@@ -14556,7 +14556,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSImpactDecalComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSImpactDecalComponent"));
 		return ptr;
 	}
 
@@ -14574,7 +14574,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSImpactEffect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSImpactEffect"));
 		return ptr;
 	}
 
@@ -14592,7 +14592,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSIngressPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSIngressPoint"));
 		return ptr;
 	}
 
@@ -14611,7 +14611,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSInputComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSInputComponent"));
 		return ptr;
 	}
 
@@ -14626,7 +14626,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSInputFunctionLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSInputFunctionLibrary"));
 		return ptr;
 	}
 
@@ -14651,7 +14651,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSInspectableMusicManagerActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSInspectableMusicManagerActor"));
 		return ptr;
 	}
 
@@ -14671,7 +14671,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSInteractable");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSInteractable"));
 		return ptr;
 	}
 
@@ -14721,7 +14721,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSInteractionBlockerManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSInteractionBlockerManager"));
 		return ptr;
 	}
 
@@ -14764,7 +14764,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLootSiteBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLootSiteBase"));
 		return ptr;
 	}
 
@@ -14811,7 +14811,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSInteractableLootSite");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSInteractableLootSite"));
 		return ptr;
 	}
 
@@ -14833,7 +14833,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHoldOnlyStart");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHoldOnlyStart"));
 		return ptr;
 	}
 
@@ -14848,7 +14848,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSHoldOrTapNoRelease");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSHoldOrTapNoRelease"));
 		return ptr;
 	}
 
@@ -14863,7 +14863,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTimerNoRelease");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTimerNoRelease"));
 		return ptr;
 	}
 
@@ -14878,7 +14878,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWaitingForInterrupt");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWaitingForInterrupt"));
 		return ptr;
 	}
 
@@ -14904,7 +14904,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSInteractionManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSInteractionManager"));
 		return ptr;
 	}
 
@@ -14950,7 +14950,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSInteractionType");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSInteractionType"));
 		return ptr;
 	}
 
@@ -14973,7 +14973,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSItem_Gender");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSItem_Gender"));
 		return ptr;
 	}
 
@@ -14991,7 +14991,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSItemBundle");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSItemBundle"));
 		return ptr;
 	}
 
@@ -15010,7 +15010,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSItemDataTable");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSItemDataTable"));
 		return ptr;
 	}
 
@@ -15025,7 +15025,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.ItemDropWidgetInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.ItemDropWidgetInterface"));
 		return ptr;
 	}
 
@@ -15045,7 +15045,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSItemStimuliSourceComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSItemStimuliSourceComponent"));
 		return ptr;
 	}
 
@@ -15135,7 +15135,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJobItem");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJobItem"));
 		return ptr;
 	}
 
@@ -15180,7 +15180,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.JobLoadout");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.JobLoadout"));
 		return ptr;
 	}
 
@@ -15225,7 +15225,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJobSelectionComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJobSelectionComponent"));
 		return ptr;
 	}
 
@@ -15264,7 +15264,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJobSelectionManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJobSelectionManager"));
 		return ptr;
 	}
 
@@ -15288,7 +15288,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJobSelectPreviewActor_InMatch");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJobSelectPreviewActor_InMatch"));
 		return ptr;
 	}
 
@@ -15321,7 +15321,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJobSelectPreviewActor_Lobby");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJobSelectPreviewActor_Lobby"));
 		return ptr;
 	}
 
@@ -15349,7 +15349,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJobSelectPrvwActor_RogueScrn");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJobSelectPrvwActor_RogueScrn"));
 		return ptr;
 	}
 
@@ -15372,7 +15372,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJsonData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJsonData"));
 		return ptr;
 	}
 
@@ -15389,7 +15389,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSJsonDataFactory");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSJsonDataFactory"));
 		return ptr;
 	}
 
@@ -15422,7 +15422,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSKillCam");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSKillCam"));
 		return ptr;
 	}
 
@@ -15583,7 +15583,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerController");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerController"));
 		return ptr;
 	}
 
@@ -15757,7 +15757,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSKillCamController");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSKillCamController"));
 		return ptr;
 	}
 
@@ -15775,7 +15775,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSKillCamObjectCamera");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSKillCamObjectCamera"));
 		return ptr;
 	}
 
@@ -15795,7 +15795,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSKillLeaderTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSKillLeaderTracker"));
 		return ptr;
 	}
 
@@ -15818,7 +15818,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLoadoutBundle");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLoadoutBundle"));
 		return ptr;
 	}
 
@@ -15857,7 +15857,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLoadoutClass");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLoadoutClass"));
 		return ptr;
 	}
 
@@ -15874,7 +15874,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLoadoutDataFactory");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLoadoutDataFactory"));
 		return ptr;
 	}
 
@@ -15898,7 +15898,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLoadoutRuleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLoadoutRuleComponent"));
 		return ptr;
 	}
 
@@ -15949,7 +15949,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLobbyCharacter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLobbyCharacter"));
 		return ptr;
 	}
 
@@ -16000,7 +16000,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLobbyCameraActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLobbyCameraActor"));
 		return ptr;
 	}
 
@@ -16016,7 +16016,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLobbyLevelSequenceActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLobbyLevelSequenceActor"));
 		return ptr;
 	}
 
@@ -16035,7 +16035,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLocalPlayer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLocalPlayer"));
 		return ptr;
 	}
 
@@ -16054,7 +16054,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLocomotionAnimInst");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLocomotionAnimInst"));
 		return ptr;
 	}
 
@@ -16071,7 +16071,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLongShot");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLongShot"));
 		return ptr;
 	}
 
@@ -16089,7 +16089,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSLootSitePowerUp");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSLootSitePowerUp"));
 		return ptr;
 	}
 
@@ -16129,7 +16129,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMapDifficultyManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMapDifficultyManager"));
 		return ptr;
 	}
 
@@ -16151,7 +16151,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPrimaryAssetLabel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPrimaryAssetLabel"));
 		return ptr;
 	}
 
@@ -16172,7 +16172,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMapLabel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMapLabel"));
 		return ptr;
 	}
 
@@ -16191,7 +16191,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMatchDataRecorder");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMatchDataRecorder"));
 		return ptr;
 	}
 
@@ -16209,7 +16209,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMath");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMath"));
 		return ptr;
 	}
 
@@ -16243,7 +16243,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMedPack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMedPack"));
 		return ptr;
 	}
 
@@ -16265,7 +16265,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMeleeTargetingModule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMeleeTargetingModule"));
 		return ptr;
 	}
 
@@ -16280,7 +16280,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMeleeWeaponAssetDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMeleeWeaponAssetDrop"));
 		return ptr;
 	}
 
@@ -16295,7 +16295,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMercManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMercManager"));
 		return ptr;
 	}
 
@@ -16319,7 +16319,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMercMasteryManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMercMasteryManager"));
 		return ptr;
 	}
 
@@ -16340,7 +16340,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMiniMapAssistant");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMiniMapAssistant"));
 		return ptr;
 	}
 
@@ -16357,7 +16357,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMinimapRendererBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMinimapRendererBase"));
 		return ptr;
 	}
 
@@ -16374,7 +16374,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModDrop"));
 		return ptr;
 	}
 
@@ -16416,7 +16416,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerModInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerModInstance"));
 		return ptr;
 	}
 
@@ -16517,7 +16517,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_Activated");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_Activated"));
 		return ptr;
 	}
 
@@ -16604,7 +16604,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_ActivatedStateMachine");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_ActivatedStateMachine"));
 		return ptr;
 	}
 
@@ -16636,7 +16636,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_ActivatedTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_ActivatedTarget"));
 		return ptr;
 	}
 
@@ -16658,7 +16658,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_ActivatedViewMode");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_ActivatedViewMode"));
 		return ptr;
 	}
 
@@ -16677,7 +16677,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnDamageOther");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnDamageOther"));
 		return ptr;
 	}
 
@@ -16701,7 +16701,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_ApplyDebuffOnDamage");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_ApplyDebuffOnDamage"));
 		return ptr;
 	}
 
@@ -16721,7 +16721,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnDownOther");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnDownOther"));
 		return ptr;
 	}
 
@@ -16749,7 +16749,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_ApplyDebuffOnDownOther");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_ApplyDebuffOnDownOther"));
 		return ptr;
 	}
 
@@ -16772,7 +16772,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_GiveItemOnActivation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_GiveItemOnActivation"));
 		return ptr;
 	}
 
@@ -16817,7 +16817,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_GiveWeaponOnActivation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_GiveWeaponOnActivation"));
 		return ptr;
 	}
 
@@ -16857,7 +16857,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_BuffWeaponOnActivation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_BuffWeaponOnActivation"));
 		return ptr;
 	}
 
@@ -16880,7 +16880,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_CacheAim");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_CacheAim"));
 		return ptr;
 	}
 
@@ -16897,7 +16897,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_DamageDealt");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_DamageDealt"));
 		return ptr;
 	}
 
@@ -16919,7 +16919,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OverTimeEffect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OverTimeEffect"));
 		return ptr;
 	}
 
@@ -16942,7 +16942,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_DamageOverTime");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_DamageOverTime"));
 		return ptr;
 	}
 
@@ -16961,7 +16961,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_DetectEnemy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_DetectEnemy"));
 		return ptr;
 	}
 
@@ -16982,7 +16982,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_FireWeaponOnActivation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_FireWeaponOnActivation"));
 		return ptr;
 	}
 
@@ -17004,7 +17004,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_DirectTargetWeapon");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_DirectTargetWeapon"));
 		return ptr;
 	}
 
@@ -17027,7 +17027,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_GiveBuildOnActivation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_GiveBuildOnActivation"));
 		return ptr;
 	}
 
@@ -17047,7 +17047,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_GiveEquipPoints");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_GiveEquipPoints"));
 		return ptr;
 	}
 
@@ -17067,7 +17067,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_HoldToTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_HoldToTarget"));
 		return ptr;
 	}
 
@@ -17085,7 +17085,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_MainCameraFov");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_MainCameraFov"));
 		return ptr;
 	}
 
@@ -17104,7 +17104,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_MartialArtist");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_MartialArtist"));
 		return ptr;
 	}
 
@@ -17126,7 +17126,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_MovementAbility");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_MovementAbility"));
 		return ptr;
 	}
 
@@ -17143,7 +17143,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnAbilityUsed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnAbilityUsed"));
 		return ptr;
 	}
 
@@ -17163,7 +17163,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnDodgeRoll");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnDodgeRoll"));
 		return ptr;
 	}
 
@@ -17181,7 +17181,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnDodgeRollEnd");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnDodgeRollEnd"));
 		return ptr;
 	}
 
@@ -17199,7 +17199,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnDownOrRevive");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnDownOrRevive"));
 		return ptr;
 	}
 
@@ -17216,7 +17216,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnEquipmentActive");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnEquipmentActive"));
 		return ptr;
 	}
 
@@ -17242,7 +17242,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnEndActiveReload");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnEndActiveReload"));
 		return ptr;
 	}
 
@@ -17260,7 +17260,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnFireWeaponType");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnFireWeaponType"));
 		return ptr;
 	}
 
@@ -17279,7 +17279,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnPickupItem");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnPickupItem"));
 		return ptr;
 	}
 
@@ -17303,7 +17303,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnProjectileBounce");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnProjectileBounce"));
 		return ptr;
 	}
 
@@ -17323,7 +17323,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnReviveOther");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnReviveOther"));
 		return ptr;
 	}
 
@@ -17345,7 +17345,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnShotAt");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnShotAt"));
 		return ptr;
 	}
 
@@ -17374,7 +17374,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnShotAtAndDodgeRollEnd");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnShotAtAndDodgeRollEnd"));
 		return ptr;
 	}
 
@@ -17404,7 +17404,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_OnTakeDamage");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_OnTakeDamage"));
 		return ptr;
 	}
 
@@ -17428,7 +17428,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_PhysAbilityMovement");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_PhysAbilityMovement"));
 		return ptr;
 	}
 
@@ -17443,7 +17443,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_PickupRange");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_PickupRange"));
 		return ptr;
 	}
 
@@ -17462,7 +17462,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_PingOnOtherDowned");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_PingOnOtherDowned"));
 		return ptr;
 	}
 
@@ -17486,7 +17486,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_RevealAreaToTeam");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_RevealAreaToTeam"));
 		return ptr;
 	}
 
@@ -17504,7 +17504,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_RevealOnMinimap");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_RevealOnMinimap"));
 		return ptr;
 	}
 
@@ -17521,7 +17521,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_RevealSelf");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_RevealSelf"));
 		return ptr;
 	}
 
@@ -17545,7 +17545,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_ReviveDrone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_ReviveDrone"));
 		return ptr;
 	}
 
@@ -17592,7 +17592,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_ReviveSelfOnActivation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_ReviveSelfOnActivation"));
 		return ptr;
 	}
 
@@ -17610,7 +17610,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_ReviveTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_ReviveTarget"));
 		return ptr;
 	}
 
@@ -17630,7 +17630,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_StartingEquipment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_StartingEquipment"));
 		return ptr;
 	}
 
@@ -17652,7 +17652,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModInst_WeaponSkinOverride");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModInst_WeaponSkinOverride"));
 		return ptr;
 	}
 
@@ -17672,7 +17672,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSModZone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSModZone"));
 		return ptr;
 	}
 
@@ -17695,7 +17695,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMultiDownsTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMultiDownsTracker"));
 		return ptr;
 	}
 
@@ -17717,7 +17717,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMultiElimTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMultiElimTracker"));
 		return ptr;
 	}
 
@@ -17737,7 +17737,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSMultiStateTargetingModule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSMultiStateTargetingModule"));
 		return ptr;
 	}
 
@@ -17752,7 +17752,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNamedLocation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNamedLocation"));
 		return ptr;
 	}
 
@@ -17767,7 +17767,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNamedObject");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNamedObject"));
 		return ptr;
 	}
 
@@ -17784,7 +17784,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNavAgentInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNavAgentInterface"));
 		return ptr;
 	}
 
@@ -17801,7 +17801,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNavArea");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNavArea"));
 		return ptr;
 	}
 
@@ -17822,7 +17822,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNavigationQueryFilter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNavigationQueryFilter"));
 		return ptr;
 	}
 
@@ -17837,7 +17837,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNavLinkProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNavLinkProxy"));
 		return ptr;
 	}
 
@@ -17854,7 +17854,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNavModifierComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNavModifierComponent"));
 		return ptr;
 	}
 
@@ -17873,7 +17873,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNavModifierVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNavModifierVolume"));
 		return ptr;
 	}
 
@@ -17888,7 +17888,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNearMissComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNearMissComponent"));
 		return ptr;
 	}
 
@@ -17907,7 +17907,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNeutralBombSpawner");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNeutralBombSpawner"));
 		return ptr;
 	}
 
@@ -17939,7 +17939,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNeutralBombZone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNeutralBombZone"));
 		return ptr;
 	}
 
@@ -17955,7 +17955,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSStaticMeshComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSStaticMeshComponent"));
 		return ptr;
 	}
 
@@ -17970,7 +17970,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNoCollisionStaticMeshComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNoCollisionStaticMeshComponent"));
 		return ptr;
 	}
 
@@ -17988,7 +17988,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNoFlyZoneTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNoFlyZoneTracker"));
 		return ptr;
 	}
 
@@ -18006,7 +18006,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNPETrackManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNPETrackManager"));
 		return ptr;
 	}
 
@@ -18025,7 +18025,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSNudgeComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSNudgeComponent"));
 		return ptr;
 	}
 
@@ -18044,7 +18044,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSObjectHelper");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSObjectHelper"));
 		return ptr;
 	}
 
@@ -18059,7 +18059,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSObjective");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSObjective"));
 		return ptr;
 	}
 
@@ -18113,7 +18113,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSOutOfBoundsManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSOutOfBoundsManager"));
 		return ptr;
 	}
 
@@ -18140,7 +18140,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSOutOfBoundsManager_RoundGame");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSOutOfBoundsManager_RoundGame"));
 		return ptr;
 	}
 
@@ -18160,7 +18160,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSOutOfBoundsRecoveryPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSOutOfBoundsRecoveryPoint"));
 		return ptr;
 	}
 
@@ -18180,7 +18180,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSOutOfBoundsZone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSOutOfBoundsZone"));
 		return ptr;
 	}
 
@@ -18203,7 +18203,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSOutOfBoundsVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSOutOfBoundsVolume"));
 		return ptr;
 	}
 
@@ -18223,7 +18223,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSParticleModuleLocationSkelVertSurface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSParticleModuleLocationSkelVertSurface"));
 		return ptr;
 	}
 
@@ -18238,7 +18238,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPathFollowingComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPathFollowingComponent"));
 		return ptr;
 	}
 
@@ -18254,7 +18254,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnActionBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnActionBase"));
 		return ptr;
 	}
 
@@ -18269,7 +18269,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_Crouch");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_Crouch"));
 		return ptr;
 	}
 
@@ -18284,7 +18284,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_DodgeRoll");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_DodgeRoll"));
 		return ptr;
 	}
 
@@ -18299,7 +18299,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_FreeFall");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_FreeFall"));
 		return ptr;
 	}
 
@@ -18314,7 +18314,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_Jump");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_Jump"));
 		return ptr;
 	}
 
@@ -18329,7 +18329,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_QuickMelee");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_QuickMelee"));
 		return ptr;
 	}
 
@@ -18344,7 +18344,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_Reload");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_Reload"));
 		return ptr;
 	}
 
@@ -18359,7 +18359,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_StartADS");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_StartADS"));
 		return ptr;
 	}
 
@@ -18374,7 +18374,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_StartAimAlternate");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_StartAimAlternate"));
 		return ptr;
 	}
 
@@ -18393,7 +18393,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_StartFire");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_StartFire"));
 		return ptr;
 	}
 
@@ -18408,7 +18408,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_StartSprint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_StartSprint"));
 		return ptr;
 	}
 
@@ -18423,7 +18423,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_StopADS");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_StopADS"));
 		return ptr;
 	}
 
@@ -18439,7 +18439,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_StopFire");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_StopFire"));
 		return ptr;
 	}
 
@@ -18454,7 +18454,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_StopSprint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_StopSprint"));
 		return ptr;
 	}
 
@@ -18470,7 +18470,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_SwapWeapon");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_SwapWeapon"));
 		return ptr;
 	}
 
@@ -18485,7 +18485,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnAction_Uncrouch");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnAction_Uncrouch"));
 		return ptr;
 	}
 
@@ -18500,7 +18500,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPawnCommonInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPawnCommonInterface"));
 		return ptr;
 	}
 
@@ -18518,7 +18518,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPayBackTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPayBackTracker"));
 		return ptr;
 	}
 
@@ -18537,7 +18537,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPerformanceCaptureCamera");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPerformanceCaptureCamera"));
 		return ptr;
 	}
 
@@ -18581,7 +18581,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPersistentPlayerData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPersistentPlayerData"));
 		return ptr;
 	}
 
@@ -18622,7 +18622,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPhaseRuleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPhaseRuleComponent"));
 		return ptr;
 	}
 
@@ -18671,7 +18671,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPhysicsAssetUtilities");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPhysicsAssetUtilities"));
 		return ptr;
 	}
 
@@ -18692,7 +18692,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPingBeaconBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPingBeaconBase"));
 		return ptr;
 	}
 
@@ -18745,7 +18745,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPingManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPingManager"));
 		return ptr;
 	}
 
@@ -18800,7 +18800,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerActivityInstanceContainer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerActivityInstanceContainer"));
 		return ptr;
 	}
 
@@ -18818,7 +18818,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerCameraManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerCameraManager"));
 		return ptr;
 	}
 
@@ -18842,7 +18842,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerChallengesManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerChallengesManager"));
 		return ptr;
 	}
 
@@ -18867,7 +18867,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerInfo"));
 		return ptr;
 	}
 
@@ -18930,7 +18930,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerInputDefault");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerInputDefault"));
 		return ptr;
 	}
 
@@ -18965,7 +18965,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerInput");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerInput"));
 		return ptr;
 	}
 
@@ -18984,7 +18984,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerInventoryHelper");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerInventoryHelper"));
 		return ptr;
 	}
 
@@ -19026,7 +19026,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod"));
 		return ptr;
 	}
 
@@ -19057,7 +19057,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Accuracy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Accuracy"));
 		return ptr;
 	}
 
@@ -19079,7 +19079,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ActionRestrictor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ActionRestrictor"));
 		return ptr;
 	}
 
@@ -19129,7 +19129,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Activated");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Activated"));
 		return ptr;
 	}
 
@@ -19156,7 +19156,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ActivatedTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ActivatedTarget"));
 		return ptr;
 	}
 
@@ -19173,7 +19173,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ActivationConfig");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ActivationConfig"));
 		return ptr;
 	}
 
@@ -19190,7 +19190,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_AdjustCashRewards");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_AdjustCashRewards"));
 		return ptr;
 	}
 
@@ -19207,7 +19207,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_AdsMoveSpeed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_AdsMoveSpeed"));
 		return ptr;
 	}
 
@@ -19226,7 +19226,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Aim");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Aim"));
 		return ptr;
 	}
 
@@ -19246,7 +19246,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_AngleConfig");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_AngleConfig"));
 		return ptr;
 	}
 
@@ -19268,7 +19268,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ApplyModOnEvent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ApplyModOnEvent"));
 		return ptr;
 	}
 
@@ -19289,7 +19289,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Blind");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Blind"));
 		return ptr;
 	}
 
@@ -19304,7 +19304,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_CarryDownedAllies");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_CarryDownedAllies"));
 		return ptr;
 	}
 
@@ -19325,7 +19325,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Charge");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Charge"));
 		return ptr;
 	}
 
@@ -19344,7 +19344,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_DamageDealt");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_DamageDealt"));
 		return ptr;
 	}
 
@@ -19371,7 +19371,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_DamageTaken");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_DamageTaken"));
 		return ptr;
 	}
 
@@ -19388,7 +19388,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_DodgeRollDamageTaken");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_DodgeRollDamageTaken"));
 		return ptr;
 	}
 
@@ -19405,7 +19405,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_DodgeRollLockout");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_DodgeRollLockout"));
 		return ptr;
 	}
 
@@ -19420,7 +19420,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_DownedHack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_DownedHack"));
 		return ptr;
 	}
 
@@ -19439,7 +19439,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_DownedRoll");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_DownedRoll"));
 		return ptr;
 	}
 
@@ -19454,7 +19454,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_EffectImmunity");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_EffectImmunity"));
 		return ptr;
 	}
 
@@ -19471,7 +19471,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_FullSpeedADS");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_FullSpeedADS"));
 		return ptr;
 	}
 
@@ -19490,7 +19490,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Gadget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Gadget"));
 		return ptr;
 	}
 
@@ -19506,7 +19506,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_GiveEquipPoints");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_GiveEquipPoints"));
 		return ptr;
 	}
 
@@ -19523,7 +19523,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_GiveItemOnActivation");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_GiveItemOnActivation"));
 		return ptr;
 	}
 
@@ -19541,7 +19541,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_GiveItemOnEvent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_GiveItemOnEvent"));
 		return ptr;
 	}
 
@@ -19564,7 +19564,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_GiveWeaponConfig");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_GiveWeaponConfig"));
 		return ptr;
 	}
 
@@ -19599,7 +19599,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_GlobalMoveSpeed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_GlobalMoveSpeed"));
 		return ptr;
 	}
 
@@ -19616,7 +19616,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Hacking");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Hacking"));
 		return ptr;
 	}
 
@@ -19633,7 +19633,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_HardLandAvoid");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_HardLandAvoid"));
 		return ptr;
 	}
 
@@ -19658,7 +19658,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_HealOnEvent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_HealOnEvent"));
 		return ptr;
 	}
 
@@ -19691,7 +19691,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_HealthRegeneration");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_HealthRegeneration"));
 		return ptr;
 	}
 
@@ -19709,7 +19709,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_HideFromTeam");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_HideFromTeam"));
 		return ptr;
 	}
 
@@ -19724,7 +19724,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_HideTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_HideTarget"));
 		return ptr;
 	}
 
@@ -19742,7 +19742,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_HipfireSprint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_HipfireSprint"));
 		return ptr;
 	}
 
@@ -19757,7 +19757,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_InteractDamageTaken");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_InteractDamageTaken"));
 		return ptr;
 	}
 
@@ -19772,7 +19772,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_KeepTeamAlive");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_KeepTeamAlive"));
 		return ptr;
 	}
 
@@ -19792,7 +19792,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_MainCameraFov");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_MainCameraFov"));
 		return ptr;
 	}
 
@@ -19809,7 +19809,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_MedPackSpeed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_MedPackSpeed"));
 		return ptr;
 	}
 
@@ -19824,7 +19824,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_MedPackWhileMoving");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_MedPackWhileMoving"));
 		return ptr;
 	}
 
@@ -19841,7 +19841,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_MeleeAttackSpeed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_MeleeAttackSpeed"));
 		return ptr;
 	}
 
@@ -19858,7 +19858,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_MeleeMoveSpeed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_MeleeMoveSpeed"));
 		return ptr;
 	}
 
@@ -19875,7 +19875,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Omniscience");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Omniscience"));
 		return ptr;
 	}
 
@@ -19896,7 +19896,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_OnDownOtherEvent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_OnDownOtherEvent"));
 		return ptr;
 	}
 
@@ -19915,7 +19915,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_PickupRange");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_PickupRange"));
 		return ptr;
 	}
 
@@ -19944,7 +19944,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_PingOnOtherDowned");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_PingOnOtherDowned"));
 		return ptr;
 	}
 
@@ -19961,7 +19961,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ProjectileDamage");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ProjectileDamage"));
 		return ptr;
 	}
 
@@ -19978,7 +19978,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ReloadAndRetrieve");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ReloadAndRetrieve"));
 		return ptr;
 	}
 
@@ -19995,7 +19995,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ReloadTime");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ReloadTime"));
 		return ptr;
 	}
 
@@ -20012,7 +20012,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_RetrieveTime");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_RetrieveTime"));
 		return ptr;
 	}
 
@@ -20028,7 +20028,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_RevealTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_RevealTarget"));
 		return ptr;
 	}
 
@@ -20052,7 +20052,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Revive");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Revive"));
 		return ptr;
 	}
 
@@ -20069,7 +20069,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ReviverDamageTaken");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ReviverDamageTaken"));
 		return ptr;
 	}
 
@@ -20085,7 +20085,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ShopGroup");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ShopGroup"));
 		return ptr;
 	}
 
@@ -20105,7 +20105,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_ShowTeamHovers");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_ShowTeamHovers"));
 		return ptr;
 	}
 
@@ -20122,7 +20122,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_SprintSpeed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_SprintSpeed"));
 		return ptr;
 	}
 
@@ -20138,7 +20138,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_StartingEquipment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_StartingEquipment"));
 		return ptr;
 	}
 
@@ -20153,7 +20153,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_StartEquipNoFlinch");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_StartEquipNoFlinch"));
 		return ptr;
 	}
 
@@ -20177,7 +20177,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_Undetectable");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_Undetectable"));
 		return ptr;
 	}
 
@@ -20195,7 +20195,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMod_VaultHeight");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMod_VaultHeight"));
 		return ptr;
 	}
 
@@ -20212,7 +20212,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerModInst_Omniscience");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerModInst_Omniscience"));
 		return ptr;
 	}
 
@@ -20236,7 +20236,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerModInst_WeaponAttachment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerModInst_WeaponAttachment"));
 		return ptr;
 	}
 
@@ -20259,7 +20259,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWidgetInfoActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWidgetInfoActor"));
 		return ptr;
 	}
 
@@ -20312,7 +20312,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerShop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerShop"));
 		return ptr;
 	}
 
@@ -20371,7 +20371,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerShop_Job");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerShop_Job"));
 		return ptr;
 	}
 
@@ -20386,7 +20386,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerShop_Custom");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerShop_Custom"));
 		return ptr;
 	}
 
@@ -20404,7 +20404,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerShopHistoryComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerShopHistoryComponent"));
 		return ptr;
 	}
 
@@ -20423,7 +20423,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerShopZone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerShopZone"));
 		return ptr;
 	}
 
@@ -20447,7 +20447,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerShotListener");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerShotListener"));
 		return ptr;
 	}
 
@@ -20480,7 +20480,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerStart");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerStart"));
 		return ptr;
 	}
 
@@ -20500,7 +20500,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerStart_Extraction");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerStart_Extraction"));
 		return ptr;
 	}
 
@@ -20658,7 +20658,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerState"));
 		return ptr;
 	}
 
@@ -20819,7 +20819,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerState_Control");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerState_Control"));
 		return ptr;
 	}
 
@@ -20836,7 +20836,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerState_Heist");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerState_Heist"));
 		return ptr;
 	}
 
@@ -20854,7 +20854,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerStatsManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerStatsManager"));
 		return ptr;
 	}
 
@@ -20874,7 +20874,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerStimulusComponentBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerStimulusComponentBase"));
 		return ptr;
 	}
 
@@ -20894,7 +20894,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPointOfInterest");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPointOfInterest"));
 		return ptr;
 	}
 
@@ -20912,7 +20912,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPOIBlueprintFunctionLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPOIBlueprintFunctionLibrary"));
 		return ptr;
 	}
 
@@ -20940,7 +20940,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPollBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPollBase"));
 		return ptr;
 	}
 
@@ -20971,7 +20971,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPowerUp");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPowerUp"));
 		return ptr;
 	}
 
@@ -20999,7 +20999,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPowerUp_Reequip");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPowerUp_Reequip"));
 		return ptr;
 	}
 
@@ -21014,7 +21014,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPowerUpDrop");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPowerUpDrop"));
 		return ptr;
 	}
 
@@ -21143,7 +21143,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile"));
 		return ptr;
 	}
 
@@ -21252,7 +21252,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_Grenade");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_Grenade"));
 		return ptr;
 	}
 
@@ -21289,7 +21289,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_ClusterGrenade");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_ClusterGrenade"));
 		return ptr;
 	}
 
@@ -21310,7 +21310,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpreadProjectile");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpreadProjectile"));
 		return ptr;
 	}
 
@@ -21330,7 +21330,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGrenadeSpreadRule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGrenadeSpreadRule"));
 		return ptr;
 	}
 
@@ -21347,7 +21347,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpikeBallSpreadRule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpikeBallSpreadRule"));
 		return ptr;
 	}
 
@@ -21363,7 +21363,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSGroundSpreadRule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSGroundSpreadRule"));
 		return ptr;
 	}
 
@@ -21378,7 +21378,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSClusterSpreadRule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSClusterSpreadRule"));
 		return ptr;
 	}
 
@@ -21456,7 +21456,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_GrenadeSpread");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_GrenadeSpread"));
 		return ptr;
 	}
 
@@ -21506,7 +21506,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_MacGuffin");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_MacGuffin"));
 		return ptr;
 	}
 
@@ -21523,7 +21523,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_Melee");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_Melee"));
 		return ptr;
 	}
 
@@ -21554,7 +21554,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_Pierce");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_Pierce"));
 		return ptr;
 	}
 
@@ -21572,7 +21572,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_ProximityGrenade");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_ProximityGrenade"));
 		return ptr;
 	}
 
@@ -21603,7 +21603,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_RemoteTrigger");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_RemoteTrigger"));
 		return ptr;
 	}
 
@@ -21628,7 +21628,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_ReviveDart");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_ReviveDart"));
 		return ptr;
 	}
 
@@ -21648,7 +21648,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectile_ZiplineAnchor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectile_ZiplineAnchor"));
 		return ptr;
 	}
 
@@ -21678,7 +21678,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectileClusterComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectileClusterComponent"));
 		return ptr;
 	}
 
@@ -21706,7 +21706,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjectileMovementComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjectileMovementComponent"));
 		return ptr;
 	}
 
@@ -21722,7 +21722,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProjWeaponTargetingModule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProjWeaponTargetingModule"));
 		return ptr;
 	}
 
@@ -21739,7 +21739,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProp_Physical");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProp_Physical"));
 		return ptr;
 	}
 
@@ -21764,7 +21764,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSProximityComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSProximityComponent"));
 		return ptr;
 	}
 
@@ -21791,7 +21791,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPunishmentConfig");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPunishmentConfig"));
 		return ptr;
 	}
 
@@ -21807,7 +21807,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPunishmentManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPunishmentManager"));
 		return ptr;
 	}
 
@@ -21827,7 +21827,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPunishmentRuleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPunishmentRuleComponent"));
 		return ptr;
 	}
 
@@ -21864,7 +21864,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSQueuesSettingsDefault");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSQueuesSettingsDefault"));
 		return ptr;
 	}
 
@@ -21881,7 +21881,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSQuip");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSQuip"));
 		return ptr;
 	}
 
@@ -21901,7 +21901,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSQuipInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSQuipInstance"));
 		return ptr;
 	}
 
@@ -21925,7 +21925,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRadialMenuManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRadialMenuManager"));
 		return ptr;
 	}
 
@@ -21945,7 +21945,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRankedManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRankedManager"));
 		return ptr;
 	}
 
@@ -21964,7 +21964,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRemoteReviverInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRemoteReviverInterface"));
 		return ptr;
 	}
 
@@ -21979,7 +21979,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRevealable");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRevealable"));
 		return ptr;
 	}
 
@@ -22011,7 +22011,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRevealManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRevealManager"));
 		return ptr;
 	}
 
@@ -22045,7 +22045,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KsReverbVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KsReverbVolume"));
 		return ptr;
 	}
 
@@ -22061,7 +22061,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSReverseTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSReverseTracker"));
 		return ptr;
 	}
 
@@ -22080,7 +22080,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRewardsCalculator");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRewardsCalculator"));
 		return ptr;
 	}
 
@@ -22099,7 +22099,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpectatorPawn");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpectatorPawn"));
 		return ptr;
 	}
 
@@ -22117,7 +22117,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRideAlongSpectatorPawn");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRideAlongSpectatorPawn"));
 		return ptr;
 	}
 
@@ -22145,7 +22145,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRocket");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRocket"));
 		return ptr;
 	}
 
@@ -22185,7 +22185,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRocketMovementComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRocketMovementComponent"));
 		return ptr;
 	}
 
@@ -22209,7 +22209,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRoundBasedObject");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRoundBasedObject"));
 		return ptr;
 	}
 
@@ -22238,7 +22238,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRoundedSquareDeadZoneFilter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRoundedSquareDeadZoneFilter"));
 		return ptr;
 	}
 
@@ -22265,7 +22265,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRoyaleSafeZone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRoyaleSafeZone"));
 		return ptr;
 	}
 
@@ -22294,7 +22294,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSRuleBasedPhaseProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSRuleBasedPhaseProxy"));
 		return ptr;
 	}
 
@@ -22315,7 +22315,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSafeZone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSafeZone"));
 		return ptr;
 	}
 
@@ -22333,7 +22333,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSceneComponentPoolStatics");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSceneComponentPoolStatics"));
 		return ptr;
 	}
 
@@ -22356,7 +22356,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSettingsCallbackInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSettingsCallbackInterface"));
 		return ptr;
 	}
 
@@ -22376,7 +22376,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSettingsCallbackStatics");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSettingsCallbackStatics"));
 		return ptr;
 	}
 
@@ -22407,7 +22407,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSShield");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSShield"));
 		return ptr;
 	}
 
@@ -22434,7 +22434,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSShopRuleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSShopRuleComponent"));
 		return ptr;
 	}
 
@@ -22457,7 +22457,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSightStimulusComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSightStimulusComponent"));
 		return ptr;
 	}
 
@@ -22480,7 +22480,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSkinBundle");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSkinBundle"));
 		return ptr;
 	}
 
@@ -22500,7 +22500,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSkyDiveListener");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSkyDiveListener"));
 		return ptr;
 	}
 
@@ -22519,7 +22519,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSmoothingComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSmoothingComponent"));
 		return ptr;
 	}
 
@@ -22536,7 +22536,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule"));
 		return ptr;
 	}
 
@@ -22558,7 +22558,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule_Bot");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule_Bot"));
 		return ptr;
 	}
 
@@ -22575,7 +22575,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule_Proximity");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule_Proximity"));
 		return ptr;
 	}
 
@@ -22592,7 +22592,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule_ObjectiveProximity");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule_ObjectiveProximity"));
 		return ptr;
 	}
 
@@ -22607,7 +22607,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule_PIE");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule_PIE"));
 		return ptr;
 	}
 
@@ -22628,7 +22628,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule_PlayerEventProximity");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule_PlayerEventProximity"));
 		return ptr;
 	}
 
@@ -22651,7 +22651,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule_PlayerProximity");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule_PlayerProximity"));
 		return ptr;
 	}
 
@@ -22666,7 +22666,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule_Respawn");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule_Respawn"));
 		return ptr;
 	}
 
@@ -22683,7 +22683,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule_Side");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule_Side"));
 		return ptr;
 	}
 
@@ -22700,7 +22700,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnRule_Vacant");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnRule_Vacant"));
 		return ptr;
 	}
 
@@ -22719,7 +22719,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpawnSelectorComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpawnSelectorComponent"));
 		return ptr;
 	}
 
@@ -22756,7 +22756,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpecialty");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpecialty"));
 		return ptr;
 	}
 
@@ -22774,7 +22774,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpray");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpray"));
 		return ptr;
 	}
 
@@ -22800,7 +22800,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSprayInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSprayInstance"));
 		return ptr;
 	}
 
@@ -22826,7 +22826,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSpringArmComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSpringArmComponent"));
 		return ptr;
 	}
 
@@ -22841,7 +22841,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSprintCameraShake");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSprintCameraShake"));
 		return ptr;
 	}
 
@@ -22859,7 +22859,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSPlayerMatchStats");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSPlayerMatchStats"));
 		return ptr;
 	}
 
@@ -22876,7 +22876,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSStoreItem");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSStoreItem"));
 		return ptr;
 	}
 
@@ -22903,7 +22903,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSStoreItemHelper");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSStoreItemHelper"));
 		return ptr;
 	}
 
@@ -22926,7 +22926,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSwapHandlerProfile");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSwapHandlerProfile"));
 		return ptr;
 	}
 
@@ -22941,7 +22941,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSwimmingAnimInst");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSwimmingAnimInst"));
 		return ptr;
 	}
 
@@ -22959,7 +22959,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSSwimmingPhysicsVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSSwimmingPhysicsVolume"));
 		return ptr;
 	}
 
@@ -22975,7 +22975,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTabletAnimInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTabletAnimInstance"));
 		return ptr;
 	}
 
@@ -22997,7 +22997,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTabletMeshComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTabletMeshComponent"));
 		return ptr;
 	}
 
@@ -23017,7 +23017,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTargeter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTargeter"));
 		return ptr;
 	}
 
@@ -23036,7 +23036,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTargetingDetailsWidget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTargetingDetailsWidget"));
 		return ptr;
 	}
 
@@ -23053,7 +23053,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTeamCreator");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTeamCreator"));
 		return ptr;
 	}
 
@@ -23071,7 +23071,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTeamKillTracker");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTeamKillTracker"));
 		return ptr;
 	}
 
@@ -23142,7 +23142,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTeamState");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTeamState"));
 		return ptr;
 	}
 
@@ -23205,7 +23205,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTeamState_Control");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTeamState_Control"));
 		return ptr;
 	}
 
@@ -23269,7 +23269,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSThreatComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSThreatComponent"));
 		return ptr;
 	}
 
@@ -23292,7 +23292,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTimerComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTimerComponent"));
 		return ptr;
 	}
 
@@ -23316,7 +23316,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSTitle");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSTitle"));
 		return ptr;
 	}
 
@@ -23339,7 +23339,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSUISessionManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSUISessionManager"));
 		return ptr;
 	}
 
@@ -23432,7 +23432,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSVehicle");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSVehicle"));
 		return ptr;
 	}
 
@@ -23505,7 +23505,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSVehicle_Remote");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSVehicle_Remote"));
 		return ptr;
 	}
 
@@ -23547,7 +23547,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSVehicleMovementComponent4W");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSVehicleMovementComponent4W"));
 		return ptr;
 	}
 
@@ -23577,7 +23577,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSVehicleSeatComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSVehicleSeatComponent"));
 		return ptr;
 	}
 
@@ -23602,7 +23602,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSVehicleWheel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSVehicleWheel"));
 		return ptr;
 	}
 
@@ -23642,7 +23642,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSViewModel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSViewModel"));
 		return ptr;
 	}
 
@@ -23660,7 +23660,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSViewModelInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSViewModelInterface"));
 		return ptr;
 	}
 
@@ -23684,7 +23684,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSVOComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSVOComponent"));
 		return ptr;
 	}
 
@@ -23724,7 +23724,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWaterFXVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWaterFXVolume"));
 		return ptr;
 	}
 
@@ -23746,7 +23746,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWAttachmentCosmetic_VarScope");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWAttachmentCosmetic_VarScope"));
 		return ptr;
 	}
 
@@ -23771,7 +23771,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWayPoint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWayPoint"));
 		return ptr;
 	}
 
@@ -23793,7 +23793,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWayPointSet");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWayPointSet"));
 		return ptr;
 	}
 
@@ -23848,7 +23848,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_Aimed");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_Aimed"));
 		return ptr;
 	}
 
@@ -23907,7 +23907,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_Build");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_Build"));
 		return ptr;
 	}
 
@@ -23930,7 +23930,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_DirectTarget");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_DirectTarget"));
 		return ptr;
 	}
 
@@ -23952,7 +23952,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_Projectile");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_Projectile"));
 		return ptr;
 	}
 
@@ -23973,7 +23973,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_GrenadeThrow");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_GrenadeThrow"));
 		return ptr;
 	}
 
@@ -23997,7 +23997,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_MacGuffin");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_MacGuffin"));
 		return ptr;
 	}
 
@@ -24021,7 +24021,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_Melee");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_Melee"));
 		return ptr;
 	}
 
@@ -24054,7 +24054,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_Proximity");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_Proximity"));
 		return ptr;
 	}
 
@@ -24088,7 +24088,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_RemoteRocket");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_RemoteRocket"));
 		return ptr;
 	}
 
@@ -24113,7 +24113,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_RemoteThrow");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_RemoteThrow"));
 		return ptr;
 	}
 
@@ -24137,7 +24137,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_RemoteThrowAndTrigger");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_RemoteThrowAndTrigger"));
 		return ptr;
 	}
 
@@ -24159,7 +24159,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_RemoteTrigger");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_RemoteTrigger"));
 		return ptr;
 	}
 
@@ -24185,7 +24185,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_RemoteVehicle");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_RemoteVehicle"));
 		return ptr;
 	}
 
@@ -24202,7 +24202,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_ReviveDirect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_ReviveDirect"));
 		return ptr;
 	}
 
@@ -24220,7 +24220,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_ReviveDartDirect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_ReviveDartDirect"));
 		return ptr;
 	}
 
@@ -24245,7 +24245,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_Targeted");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_Targeted"));
 		return ptr;
 	}
 
@@ -24267,7 +24267,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_ReviveDrone");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_ReviveDrone"));
 		return ptr;
 	}
 
@@ -24291,7 +24291,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_ReviveDroneDirect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_ReviveDroneDirect"));
 		return ptr;
 	}
 
@@ -24312,7 +24312,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_Shotgun");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_Shotgun"));
 		return ptr;
 	}
 
@@ -24327,7 +24327,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_TargetFriendly");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_TargetFriendly"));
 		return ptr;
 	}
 
@@ -24346,7 +24346,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_TargetSurface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_TargetSurface"));
 		return ptr;
 	}
 
@@ -24370,7 +24370,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeapon_Zipline");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeapon_Zipline"));
 		return ptr;
 	}
 
@@ -24414,7 +24414,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAnimInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAnimInstance"));
 		return ptr;
 	}
 
@@ -24444,7 +24444,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAsset_Build");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAsset_Build"));
 		return ptr;
 	}
 
@@ -24471,7 +24471,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAsset_WithProjectile");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAsset_WithProjectile"));
 		return ptr;
 	}
 
@@ -24509,7 +24509,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAsset_Grenade");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAsset_Grenade"));
 		return ptr;
 	}
 
@@ -24540,7 +24540,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAsset_Melee");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAsset_Melee"));
 		return ptr;
 	}
 
@@ -24566,7 +24566,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAsset_Pierce");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAsset_Pierce"));
 		return ptr;
 	}
 
@@ -24590,7 +24590,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAsset_Shotgun");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAsset_Shotgun"));
 		return ptr;
 	}
 
@@ -24618,7 +24618,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment"));
 		return ptr;
 	}
 
@@ -24651,7 +24651,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_AccuracyKick");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_AccuracyKick"));
 		return ptr;
 	}
 
@@ -24668,7 +24668,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_DefaultAmmo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_DefaultAmmo"));
 		return ptr;
 	}
 
@@ -24685,7 +24685,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_ExtMagazine");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_ExtMagazine"));
 		return ptr;
 	}
 
@@ -24705,7 +24705,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_ExtMagPercent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_ExtMagPercent"));
 		return ptr;
 	}
 
@@ -24722,7 +24722,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_LongBarrel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_LongBarrel"));
 		return ptr;
 	}
 
@@ -24739,7 +24739,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_QuickMag");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_QuickMag"));
 		return ptr;
 	}
 
@@ -24757,7 +24757,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_Reactive");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_Reactive"));
 		return ptr;
 	}
 
@@ -24774,7 +24774,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_Scope");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_Scope"));
 		return ptr;
 	}
 
@@ -24791,7 +24791,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_ScopeFixedFOV");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_ScopeFixedFOV"));
 		return ptr;
 	}
 
@@ -24810,7 +24810,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_ScopeMultiply");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_ScopeMultiply"));
 		return ptr;
 	}
 
@@ -24832,7 +24832,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_Silencer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_Silencer"));
 		return ptr;
 	}
 
@@ -24853,7 +24853,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachment_VarScope");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachment_VarScope"));
 		return ptr;
 	}
 
@@ -24881,7 +24881,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachmentInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachmentInstance"));
 		return ptr;
 	}
 
@@ -24908,7 +24908,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachmentInst_Reactive");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachmentInst_Reactive"));
 		return ptr;
 	}
 
@@ -24926,7 +24926,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachmentInst_VarScope");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachmentInst_VarScope"));
 		return ptr;
 	}
 
@@ -24946,7 +24946,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponAttachmentSkinDetails");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponAttachmentSkinDetails"));
 		return ptr;
 	}
 
@@ -25126,7 +25126,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponComponent"));
 		return ptr;
 	}
 
@@ -25289,7 +25289,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponFunctionLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponFunctionLibrary"));
 		return ptr;
 	}
 
@@ -25338,7 +25338,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponPropManagerComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponPropManagerComponent"));
 		return ptr;
 	}
 
@@ -25366,7 +25366,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWeaponSkeletalMeshComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWeaponSkeletalMeshComponent"));
 		return ptr;
 	}
 
@@ -25389,7 +25389,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWingSuitCosmeticComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWingSuitCosmeticComponent"));
 		return ptr;
 	}
 
@@ -25431,7 +25431,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSWorldSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSWorldSettings"));
 		return ptr;
 	}
 
@@ -25448,7 +25448,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSZipLineStart");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSZipLineStart"));
 		return ptr;
 	}
 
@@ -25486,7 +25486,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSZipLine");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSZipLine"));
 		return ptr;
 	}
 
@@ -25509,7 +25509,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSZipLine_Dynamic");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSZipLine_Dynamic"));
 		return ptr;
 	}
 
@@ -25532,7 +25532,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSZiplineAnimInst");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSZiplineAnimInst"));
 		return ptr;
 	}
 
@@ -25547,7 +25547,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.KSZiplineMeshComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.KSZiplineMeshComponent"));
 		return ptr;
 	}
 
@@ -25566,7 +25566,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.LoadingScreenImageManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.LoadingScreenImageManager"));
 		return ptr;
 	}
 
@@ -25584,7 +25584,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.LoadoutClassCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.LoadoutClassCollection"));
 		return ptr;
 	}
 
@@ -25601,7 +25601,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.LobbyPlayerController");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.LobbyPlayerController"));
 		return ptr;
 	}
 
@@ -25620,7 +25620,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.ParticleSystemChannelComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.ParticleSystemChannelComponent"));
 		return ptr;
 	}
 
@@ -25644,7 +25644,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.PerkCategory");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.PerkCategory"));
 		return ptr;
 	}
 
@@ -25664,7 +25664,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.PersistentPlayerLoadoutComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.PersistentPlayerLoadoutComponent"));
 		return ptr;
 	}
 
@@ -25686,7 +25686,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.PlayerInfoPrevwLoadoutComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.PlayerInfoPrevwLoadoutComponent"));
 		return ptr;
 	}
 
@@ -25704,7 +25704,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.PreviewActorLoadoutComponentDirect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.PreviewActorLoadoutComponentDirect"));
 		return ptr;
 	}
 
@@ -25719,7 +25719,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.SafeToCookAssetLabel");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.SafeToCookAssetLabel"));
 		return ptr;
 	}
 
@@ -25737,7 +25737,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.SkinBundleCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.SkinBundleCollection"));
 		return ptr;
 	}
 
@@ -25755,7 +25755,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.SmoothRepTimelineActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.SmoothRepTimelineActor"));
 		return ptr;
 	}
 
@@ -25789,7 +25789,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.SplineMovementComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.SplineMovementComponent"));
 		return ptr;
 	}
 
@@ -25820,7 +25820,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.ThermalScopeManagerComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.ThermalScopeManagerComponent"));
 		return ptr;
 	}
 
@@ -25842,7 +25842,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.ThermalScopePPComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.ThermalScopePPComponent"));
 		return ptr;
 	}
 
@@ -25857,7 +25857,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.TracerParticlePoolComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.TracerParticlePoolComponent"));
 		return ptr;
 	}
 
@@ -25882,7 +25882,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.TracerParticleSystemComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.TracerParticleSystemComponent"));
 		return ptr;
 	}
 
@@ -25905,7 +25905,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.TracerStaticMeshComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.TracerStaticMeshComponent"));
 		return ptr;
 	}
 
@@ -25925,7 +25925,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.TracerStaticMeshPoolComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.TracerStaticMeshPoolComponent"));
 		return ptr;
 	}
 
@@ -25942,7 +25942,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.ViewDependentRules_1PCamera");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.ViewDependentRules_1PCamera"));
 		return ptr;
 	}
 
@@ -25960,7 +25960,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Killstreak.WeaponCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Killstreak.WeaponCollection"));
 		return ptr;
 	}
 

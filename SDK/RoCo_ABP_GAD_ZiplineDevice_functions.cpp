@@ -19,7 +19,7 @@ namespace SDK
 
 void UABP_GAD_ZiplineDevice_C::AnimGraph(struct FPoseLink* AnimGraph)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ABP_GAD_ZiplineDevice.ABP_GAD_ZiplineDevice_C.AnimGraph");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ABP_GAD_ZiplineDevice.ABP_GAD_ZiplineDevice_C.AnimGraph"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UABP_GAD_ZiplineDevice_C::AnimGraph(struct FPoseLink* AnimGraph)
 
 void UABP_GAD_ZiplineDevice_C::BlueprintUpdateAnimation(float DeltaTimeX)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ABP_GAD_ZiplineDevice.ABP_GAD_ZiplineDevice_C.BlueprintUpdateAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ABP_GAD_ZiplineDevice.ABP_GAD_ZiplineDevice_C.BlueprintUpdateAnimation"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UABP_GAD_ZiplineDevice_C::BlueprintUpdateAnimation(float DeltaTimeX)
 
 void UABP_GAD_ZiplineDevice_C::ExecuteUbergraph_ABP_GAD_ZiplineDevice(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ABP_GAD_ZiplineDevice.ABP_GAD_ZiplineDevice_C.ExecuteUbergraph_ABP_GAD_ZiplineDevice");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ABP_GAD_ZiplineDevice.ABP_GAD_ZiplineDevice_C.ExecuteUbergraph_ABP_GAD_ZiplineDevice"));
 
 	struct
 	{

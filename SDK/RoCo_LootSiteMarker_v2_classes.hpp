@@ -49,7 +49,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass LootSiteMarker_v2.LootSiteMarker_v2_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass LootSiteMarker_v2.LootSiteMarker_v2_C"));
 		return ptr;
 	}
 

@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass InteractionTypeBase.InteractionTypeBase_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass InteractionTypeBase.InteractionTypeBase_C"));
 		return ptr;
 	}
 

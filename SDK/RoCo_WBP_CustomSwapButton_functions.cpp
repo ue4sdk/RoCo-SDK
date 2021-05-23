@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_CustomSwapButton_C::BndEvt__SwapButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.BndEvt__SwapButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.BndEvt__SwapButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_CustomSwapButton_C::BndEvt__SwapButton_K2Node_ComponentBoundEvent_0_On
 
 void UWBP_CustomSwapButton_C::BndEvt__SwapButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.BndEvt__SwapButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.BndEvt__SwapButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_CustomSwapButton_C::BndEvt__SwapButton_K2Node_ComponentBoundEvent_1_On
 
 void UWBP_CustomSwapButton_C::BndEvt__SwapButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.BndEvt__SwapButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.BndEvt__SwapButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_CustomSwapButton_C::BndEvt__SwapButton_K2Node_ComponentBoundEvent_2_On
 
 void UWBP_CustomSwapButton_C::ForceClick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.ForceClick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.ForceClick"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_CustomSwapButton_C::ForceClick()
 
 void UWBP_CustomSwapButton_C::ExecuteUbergraph_WBP_CustomSwapButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.ExecuteUbergraph_WBP_CustomSwapButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.ExecuteUbergraph_WBP_CustomSwapButton"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_CustomSwapButton_C::ExecuteUbergraph_WBP_CustomSwapButton(int EntryPoi
 
 void UWBP_CustomSwapButton_C::OnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomSwapButton.WBP_CustomSwapButton_C.OnClicked__DelegateSignature"));
 
 	struct
 	{

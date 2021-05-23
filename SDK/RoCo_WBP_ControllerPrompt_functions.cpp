@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ControllerPrompt_C::SetButtonPrompt(const struct FKey& Button)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetButtonPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetButtonPrompt"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_ControllerPrompt_C::SetButtonPrompt(const struct FKey& Button)
 
 void UWBP_ControllerPrompt_C::SetIsCancel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetIsCancel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetIsCancel"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_ControllerPrompt_C::SetIsCancel()
 
 void UWBP_ControllerPrompt_C::SetIsConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetIsConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetIsConfirm"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_ControllerPrompt_C::SetIsConfirm()
 
 void UWBP_ControllerPrompt_C::SetPromptFromButton(const struct FKey& Button)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetPromptFromButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetPromptFromButton"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_ControllerPrompt_C::SetPromptFromButton(const struct FKey& Button)
 
 void UWBP_ControllerPrompt_C::UpdateFromSetValues()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.UpdateFromSetValues");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.UpdateFromSetValues"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_ControllerPrompt_C::UpdateFromSetValues()
 
 void UWBP_ControllerPrompt_C::SetInputAction(const struct FName& ActionName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetInputAction");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.SetInputAction"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_ControllerPrompt_C::SetInputAction(const struct FName& ActionName)
 
 void UWBP_ControllerPrompt_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.PreConstruct"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_ControllerPrompt_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ControllerPrompt_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.Construct"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UWBP_ControllerPrompt_C::Construct()
 
 void UWBP_ControllerPrompt_C::ExecuteUbergraph_WBP_ControllerPrompt(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.ExecuteUbergraph_WBP_ControllerPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ControllerPrompt.WBP_ControllerPrompt_C.ExecuteUbergraph_WBP_ControllerPrompt"));
 
 	struct
 	{

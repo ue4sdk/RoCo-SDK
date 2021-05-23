@@ -19,7 +19,7 @@ namespace SDK
 
 void UMainCharacterThreatComponent_C::ReceiveTick(float bpp__DeltaSeconds__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterThreatComponent.MainCharacterThreatComponent_C.ReceiveTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterThreatComponent.MainCharacterThreatComponent_C.ReceiveTick"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UMainCharacterThreatComponent_C::ReceiveTick(float bpp__DeltaSeconds__pf)
 
 void UMainCharacterThreatComponent_C::DebugThreatLevels(bool bpp__Show__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterThreatComponent.MainCharacterThreatComponent_C.DebugThreatLevels");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainCharacterThreatComponent.MainCharacterThreatComponent_C.DebugThreatLevels"));
 
 	struct
 	{

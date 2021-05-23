@@ -141,7 +141,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("DynamicClass Minimap.Minimap_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass Minimap.Minimap_C"));
 		return ptr;
 	}
 

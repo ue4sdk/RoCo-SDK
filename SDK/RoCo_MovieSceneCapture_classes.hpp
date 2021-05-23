@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.MovieSceneCaptureProtocolBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.MovieSceneCaptureProtocolBase"));
 		return ptr;
 	}
 
@@ -43,7 +43,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.MovieSceneAudioCaptureProtocolBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.MovieSceneAudioCaptureProtocolBase"));
 		return ptr;
 	}
 
@@ -58,7 +58,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.NullAudioCaptureProtocol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.NullAudioCaptureProtocol"));
 		return ptr;
 	}
 
@@ -75,7 +75,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.MasterAudioSubmixCaptureProtocol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.MasterAudioSubmixCaptureProtocol"));
 		return ptr;
 	}
 
@@ -90,7 +90,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.MovieSceneImageCaptureProtocolBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.MovieSceneImageCaptureProtocolBase"));
 		return ptr;
 	}
 
@@ -116,7 +116,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.CompositionGraphCaptureProtocol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.CompositionGraphCaptureProtocol"));
 		return ptr;
 	}
 
@@ -132,7 +132,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.FrameGrabberProtocol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.FrameGrabberProtocol"));
 		return ptr;
 	}
 
@@ -148,7 +148,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.ImageSequenceProtocol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.ImageSequenceProtocol"));
 		return ptr;
 	}
 
@@ -165,7 +165,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.CompressedImageSequenceProtocol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.CompressedImageSequenceProtocol"));
 		return ptr;
 	}
 
@@ -180,7 +180,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.ImageSequenceProtocol_BMP");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.ImageSequenceProtocol_BMP"));
 		return ptr;
 	}
 
@@ -195,7 +195,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.ImageSequenceProtocol_PNG");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.ImageSequenceProtocol_PNG"));
 		return ptr;
 	}
 
@@ -210,7 +210,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.ImageSequenceProtocol_JPG");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.ImageSequenceProtocol_JPG"));
 		return ptr;
 	}
 
@@ -228,7 +228,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.ImageSequenceProtocol_EXR");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.ImageSequenceProtocol_EXR"));
 		return ptr;
 	}
 
@@ -243,7 +243,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.MovieSceneCaptureInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.MovieSceneCaptureInterface"));
 		return ptr;
 	}
 
@@ -270,7 +270,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.MovieSceneCapture");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.MovieSceneCapture"));
 		return ptr;
 	}
 
@@ -294,7 +294,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.LevelCapture");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.LevelCapture"));
 		return ptr;
 	}
 
@@ -309,7 +309,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.MovieSceneCaptureEnvironment");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.MovieSceneCaptureEnvironment"));
 		return ptr;
 	}
 
@@ -332,7 +332,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.UserDefinedCaptureProtocol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.UserDefinedCaptureProtocol"));
 		return ptr;
 	}
 
@@ -368,7 +368,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.UserDefinedImageCaptureProtocol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.UserDefinedImageCaptureProtocol"));
 		return ptr;
 	}
 
@@ -391,7 +391,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class MovieSceneCapture.VideoCaptureProtocol");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MovieSceneCapture.VideoCaptureProtocol"));
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_WeaponSlotsContainer_C::FindActiveSlot(class UKSWeaponComponent* ActiveWeaponComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.FindActiveSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.FindActiveSlot"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_WeaponSlotsContainer_C::FindActiveSlot(class UKSWeaponComponent* Activ
 
 void UWBP_WeaponSlotsContainer_C::RefreshActiveSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.RefreshActiveSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.RefreshActiveSlot"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_WeaponSlotsContainer_C::RefreshActiveSlot()
 
 void UWBP_WeaponSlotsContainer_C::HandleInputStop()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.HandleInputStop");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.HandleInputStop"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_WeaponSlotsContainer_C::HandleInputStop()
 
 void UWBP_WeaponSlotsContainer_C::HandleInputHold(float TotalTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.HandleInputHold");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.HandleInputHold"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_WeaponSlotsContainer_C::HandleInputHold(float TotalTime)
 
 void UWBP_WeaponSlotsContainer_C::ResetWeaponSlotsText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.ResetWeaponSlotsText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.ResetWeaponSlotsText"));
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UWBP_WeaponSlotsContainer_C::ResetWeaponSlotsText()
 
 void UWBP_WeaponSlotsContainer_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.Construct"));
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_WeaponSlotsContainer_C::Construct()
 
 void UWBP_WeaponSlotsContainer_C::OnUpdatedPawnInventorySlot(const struct FPlayerInventorySlot& InventorySlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.OnUpdatedPawnInventorySlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.OnUpdatedPawnInventorySlot"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWBP_WeaponSlotsContainer_C::OnUpdatedPawnInventorySlot(const struct FPlaye
 
 void UWBP_WeaponSlotsContainer_C::OnActivePawnInventorySlot(const struct FPlayerInventorySlot& InventorySlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.OnActivePawnInventorySlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.OnActivePawnInventorySlot"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UWBP_WeaponSlotsContainer_C::OnActivePawnInventorySlot(const struct FPlayer
 
 void UWBP_WeaponSlotsContainer_C::OnRemovedPawnInventorySlot(const struct FPlayerInventorySlot& InventorySlot)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.OnRemovedPawnInventorySlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.OnRemovedPawnInventorySlot"));
 
 	struct
 	{
@@ -183,7 +183,7 @@ void UWBP_WeaponSlotsContainer_C::OnRemovedPawnInventorySlot(const struct FPlaye
 
 void UWBP_WeaponSlotsContainer_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.InitializeWidget"));
 
 	struct
 	{
@@ -203,7 +203,7 @@ void UWBP_WeaponSlotsContainer_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_WeaponSlotsContainer_C::StartHoldProgress(float HoldTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.StartHoldProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.StartHoldProgress"));
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UWBP_WeaponSlotsContainer_C::StartHoldProgress(float HoldTime)
 
 void UWBP_WeaponSlotsContainer_C::CloseHoldProgress()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.CloseHoldProgress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.CloseHoldProgress"));
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_WeaponSlotsContainer_C::CloseHoldProgress()
 
 void UWBP_WeaponSlotsContainer_C::Tick_Wheel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.Tick Wheel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.Tick Wheel"));
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_WeaponSlotsContainer_C::Tick_Wheel()
 
 void UWBP_WeaponSlotsContainer_C::ExecuteUbergraph_WBP_WeaponSlotsContainer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.ExecuteUbergraph_WBP_WeaponSlotsContainer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.ExecuteUbergraph_WBP_WeaponSlotsContainer"));
 
 	struct
 	{

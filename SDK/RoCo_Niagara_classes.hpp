@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.MovieSceneNiagaraTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.MovieSceneNiagaraTrack"));
 		return ptr;
 	}
 
@@ -39,7 +39,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.MovieSceneNiagaraParameterTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.MovieSceneNiagaraParameterTrack"));
 		return ptr;
 	}
 
@@ -54,7 +54,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.MovieSceneNiagaraBoolParameterTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.MovieSceneNiagaraBoolParameterTrack"));
 		return ptr;
 	}
 
@@ -69,7 +69,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.MovieSceneNiagaraColorParameterTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.MovieSceneNiagaraColorParameterTrack"));
 		return ptr;
 	}
 
@@ -84,7 +84,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.MovieSceneNiagaraFloatParameterTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.MovieSceneNiagaraFloatParameterTrack"));
 		return ptr;
 	}
 
@@ -99,7 +99,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.MovieSceneNiagaraIntegerParameterTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.MovieSceneNiagaraIntegerParameterTrack"));
 		return ptr;
 	}
 
@@ -122,7 +122,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.MovieSceneNiagaraSystemSpawnSection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.MovieSceneNiagaraSystemSpawnSection"));
 		return ptr;
 	}
 
@@ -137,7 +137,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.MovieSceneNiagaraSystemTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.MovieSceneNiagaraSystemTrack"));
 		return ptr;
 	}
 
@@ -154,7 +154,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.MovieSceneNiagaraVectorParameterTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.MovieSceneNiagaraVectorParameterTrack"));
 		return ptr;
 	}
 
@@ -172,7 +172,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraActor"));
 		return ptr;
 	}
 
@@ -211,7 +211,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraComponent"));
 		return ptr;
 	}
 
@@ -280,7 +280,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraComponentPool");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraComponentPool"));
 		return ptr;
 	}
 
@@ -295,7 +295,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraConvertInPlaceUtilityBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraConvertInPlaceUtilityBase"));
 		return ptr;
 	}
 
@@ -311,7 +311,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterface");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterface"));
 		return ptr;
 	}
 
@@ -327,7 +327,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceAudioSubmix");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceAudioSubmix"));
 		return ptr;
 	}
 
@@ -345,7 +345,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceAudioOscilloscope");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceAudioOscilloscope"));
 		return ptr;
 	}
 
@@ -364,7 +364,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceAudioSpectrum");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceAudioSpectrum"));
 		return ptr;
 	}
 
@@ -381,7 +381,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceCamera");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceCamera"));
 		return ptr;
 	}
 
@@ -397,7 +397,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceCollisionQuery");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceCollisionQuery"));
 		return ptr;
 	}
 
@@ -419,7 +419,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceCurveBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceCurveBase"));
 		return ptr;
 	}
 
@@ -438,7 +438,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceColorCurve");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceColorCurve"));
 		return ptr;
 	}
 
@@ -455,7 +455,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceCurlNoise");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceCurlNoise"));
 		return ptr;
 	}
 
@@ -471,7 +471,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceCurve");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceCurve"));
 		return ptr;
 	}
 
@@ -486,7 +486,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraParticleCallbackHandler");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraParticleCallbackHandler"));
 		return ptr;
 	}
 
@@ -504,7 +504,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceExport");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceExport"));
 		return ptr;
 	}
 
@@ -521,7 +521,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceRWBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceRWBase"));
 		return ptr;
 	}
 
@@ -544,7 +544,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceGrid2D");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceGrid2D"));
 		return ptr;
 	}
 
@@ -560,7 +560,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceGrid2DCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceGrid2DCollection"));
 		return ptr;
 	}
 
@@ -585,7 +585,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceGrid3D");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceGrid3D"));
 		return ptr;
 	}
 
@@ -602,7 +602,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceNeighborGrid3D");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceNeighborGrid3D"));
 		return ptr;
 	}
 
@@ -617,7 +617,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceOcclusion");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceOcclusion"));
 		return ptr;
 	}
 
@@ -633,7 +633,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceParticleRead");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceParticleRead"));
 		return ptr;
 	}
 
@@ -648,7 +648,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceSimpleCounter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceSimpleCounter"));
 		return ptr;
 	}
 
@@ -676,7 +676,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceSkeletalMesh");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceSkeletalMesh"));
 		return ptr;
 	}
 
@@ -692,7 +692,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceSpline");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceSpline"));
 		return ptr;
 	}
 
@@ -712,7 +712,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceStaticMesh");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceStaticMesh"));
 		return ptr;
 	}
 
@@ -728,7 +728,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceTexture");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceTexture"));
 		return ptr;
 	}
 
@@ -745,7 +745,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceVector2DCurve");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceVector2DCurve"));
 		return ptr;
 	}
 
@@ -764,7 +764,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceVector4Curve");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceVector4Curve"));
 		return ptr;
 	}
 
@@ -782,7 +782,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceVectorCurve");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceVectorCurve"));
 		return ptr;
 	}
 
@@ -802,7 +802,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceVectorField");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceVectorField"));
 		return ptr;
 	}
 
@@ -818,7 +818,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraDataInterfaceVolumeTexture");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraDataInterfaceVolumeTexture"));
 		return ptr;
 	}
 
@@ -833,7 +833,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraEditorDataBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraEditorDataBase"));
 		return ptr;
 	}
 
@@ -856,7 +856,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraEffectType");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraEffectType"));
 		return ptr;
 	}
 
@@ -913,7 +913,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraEmitter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraEmitter"));
 		return ptr;
 	}
 
@@ -928,7 +928,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraEventReceiverEmitterAction");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraEventReceiverEmitterAction"));
 		return ptr;
 	}
 
@@ -945,7 +945,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraEventReceiverEmitterAction_SpawnParticles");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraEventReceiverEmitterAction_SpawnParticles"));
 		return ptr;
 	}
 
@@ -960,7 +960,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraFunctionLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraFunctionLibrary"));
 		return ptr;
 	}
 
@@ -988,7 +988,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraRendererProperties");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraRendererProperties"));
 		return ptr;
 	}
 
@@ -1016,7 +1016,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraLightRendererProperties");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraLightRendererProperties"));
 		return ptr;
 	}
 
@@ -1062,7 +1062,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraMeshRendererProperties");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraMeshRendererProperties"));
 		return ptr;
 	}
 
@@ -1080,7 +1080,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraParameterCollectionInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraParameterCollectionInstance"));
 		return ptr;
 	}
 
@@ -1116,7 +1116,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraParameterCollection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraParameterCollection"));
 		return ptr;
 	}
 
@@ -1133,7 +1133,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPrecompileContainer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPrecompileContainer"));
 		return ptr;
 	}
 
@@ -1148,7 +1148,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewBase"));
 		return ptr;
 	}
 
@@ -1166,7 +1166,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewAxis");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewAxis"));
 		return ptr;
 	}
 
@@ -1187,7 +1187,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewAxis_InterpParamBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewAxis_InterpParamBase"));
 		return ptr;
 	}
 
@@ -1204,7 +1204,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewAxis_InterpParamInt32");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewAxis_InterpParamInt32"));
 		return ptr;
 	}
 
@@ -1221,7 +1221,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewAxis_InterpParamFloat");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewAxis_InterpParamFloat"));
 		return ptr;
 	}
 
@@ -1238,7 +1238,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewAxis_InterpParamVector2D");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewAxis_InterpParamVector2D"));
 		return ptr;
 	}
 
@@ -1255,7 +1255,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewAxis_InterpParamVector");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewAxis_InterpParamVector"));
 		return ptr;
 	}
 
@@ -1273,7 +1273,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewAxis_InterpParamVector4");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewAxis_InterpParamVector4"));
 		return ptr;
 	}
 
@@ -1290,7 +1290,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewAxis_InterpParamLinearColor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewAxis_InterpParamLinearColor"));
 		return ptr;
 	}
 
@@ -1317,7 +1317,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraPreviewGrid");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraPreviewGrid"));
 		return ptr;
 	}
 
@@ -1375,7 +1375,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraRibbonRendererProperties");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraRibbonRendererProperties"));
 		return ptr;
 	}
 
@@ -1402,7 +1402,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraScript");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraScript"));
 		return ptr;
 	}
 
@@ -1420,7 +1420,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraScriptSourceBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraScriptSourceBase"));
 		return ptr;
 	}
 
@@ -1441,7 +1441,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraSettings"));
 		return ptr;
 	}
 
@@ -1458,7 +1458,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraSimulationStageBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraSimulationStageBase"));
 		return ptr;
 	}
 
@@ -1479,7 +1479,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraSimulationStageGeneric");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraSimulationStageGeneric"));
 		return ptr;
 	}
 
@@ -1528,7 +1528,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraSpriteRendererProperties");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraSpriteRendererProperties"));
 		return ptr;
 	}
 
@@ -1571,7 +1571,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Niagara.NiagaraSystem");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Niagara.NiagaraSystem"));
 		return ptr;
 	}
 

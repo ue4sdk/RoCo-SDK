@@ -20,7 +20,7 @@ namespace SDK
 
 void UNearMissCurveComponent_C::UpdateScalarTrack(const struct FName& TrackName, float TrackValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NearMissCurveComponent.NearMissCurveComponent_C.UpdateScalarTrack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NearMissCurveComponent.NearMissCurveComponent_C.UpdateScalarTrack"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UNearMissCurveComponent_C::UpdateScalarTrack(const struct FName& TrackName,
 
 void UNearMissCurveComponent_C::ExecuteUbergraph_NearMissCurveComponent(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NearMissCurveComponent.NearMissCurveComponent_C.ExecuteUbergraph_NearMissCurveComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NearMissCurveComponent.NearMissCurveComponent_C.ExecuteUbergraph_NearMissCurveComponent"));
 
 	struct
 	{

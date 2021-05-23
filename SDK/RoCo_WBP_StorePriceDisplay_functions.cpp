@@ -21,7 +21,7 @@ namespace SDK
 
 void UWBP_StorePriceDisplay_C::SetStorePrices(class UPUMG_StoreItem* StoreItem, TArray<class UPUMG_StoreItemPrice*>* Prices, TArray<class UPUMG_PortalOffer*>* PortalOffers)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePriceDisplay.WBP_StorePriceDisplay_C.SetStorePrices");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePriceDisplay.WBP_StorePriceDisplay_C.SetStorePrices"));
 
 	struct
 	{

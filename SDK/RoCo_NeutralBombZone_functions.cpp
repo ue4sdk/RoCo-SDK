@@ -17,7 +17,7 @@ namespace SDK
 
 void ANeutralBombZone_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombZone.NeutralBombZone_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NeutralBombZone.NeutralBombZone_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void ANeutralBombZone_C::ReceiveBeginPlay()
 
 void ANeutralBombZone_C::UpdateZoneMaterial()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombZone.NeutralBombZone_C.UpdateZoneMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NeutralBombZone.NeutralBombZone_C.UpdateZoneMaterial"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void ANeutralBombZone_C::UpdateZoneMaterial()
 
 void ANeutralBombZone_C::RoundSetup(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombZone.NeutralBombZone_C.RoundSetup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NeutralBombZone.NeutralBombZone_C.RoundSetup"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void ANeutralBombZone_C::RoundSetup(const struct FRoundInitState& RoundInitState
 
 void ANeutralBombZone_C::TeamUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombZone.NeutralBombZone_C.TeamUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NeutralBombZone.NeutralBombZone_C.TeamUpdated"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void ANeutralBombZone_C::TeamUpdated()
 
 void ANeutralBombZone_C::Activated(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombZone.NeutralBombZone_C.Activated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NeutralBombZone.NeutralBombZone_C.Activated"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void ANeutralBombZone_C::Activated(bool bActive)
 
 void ANeutralBombZone_C::BombStateChanged(const struct FKSNeutralBombState& BombState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombZone.NeutralBombZone_C.BombStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NeutralBombZone.NeutralBombZone_C.BombStateChanged"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void ANeutralBombZone_C::BombStateChanged(const struct FKSNeutralBombState& Bomb
 
 void ANeutralBombZone_C::On_Objective_State_Changed(const TScriptInterface<class UKSObjective>& GameObjective)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombZone.NeutralBombZone_C.On Objective State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NeutralBombZone.NeutralBombZone_C.On Objective State Changed"));
 
 	struct
 	{
@@ -147,7 +147,7 @@ void ANeutralBombZone_C::On_Objective_State_Changed(const TScriptInterface<class
 
 void ANeutralBombZone_C::ExecuteUbergraph_NeutralBombZone(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombZone.NeutralBombZone_C.ExecuteUbergraph_NeutralBombZone");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NeutralBombZone.NeutralBombZone_C.ExecuteUbergraph_NeutralBombZone"));
 
 	struct
 	{

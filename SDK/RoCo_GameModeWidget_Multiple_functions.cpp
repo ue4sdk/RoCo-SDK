@@ -17,7 +17,7 @@ namespace SDK
 
 void UGameModeWidget_Multiple_C::Bind_Killcam()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.Bind Killcam");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.Bind Killcam"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UGameModeWidget_Multiple_C::Bind_Killcam()
 
 void UGameModeWidget_Multiple_C::InitializeHudWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.InitializeHudWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.InitializeHudWidgets"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UGameModeWidget_Multiple_C::InitializeHudWidgets()
 
 void UGameModeWidget_Multiple_C::InitializeMapWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.InitializeMapWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.InitializeMapWidgets"));
 
 	struct
 	{
@@ -68,7 +68,7 @@ void UGameModeWidget_Multiple_C::InitializeMapWidgets()
 
 void UGameModeWidget_Multiple_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.Tick"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UGameModeWidget_Multiple_C::Tick(const struct FGeometry& MyGeometry, float 
 
 void UGameModeWidget_Multiple_C::SetListenersActive(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.SetListenersActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.SetListenersActive"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UGameModeWidget_Multiple_C::SetListenersActive(bool Active)
 
 void UGameModeWidget_Multiple_C::BndEvt__VehicleOverlay_K2Node_ComponentBoundEvent_0_Vehicle_State_Changed__DelegateSignature(bool InVehicle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.BndEvt__VehicleOverlay_K2Node_ComponentBoundEvent_0_Vehicle State Changed__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.BndEvt__VehicleOverlay_K2Node_ComponentBoundEvent_0_Vehicle State Changed__DelegateSignature"));
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UGameModeWidget_Multiple_C::BndEvt__VehicleOverlay_K2Node_ComponentBoundEve
 
 void UGameModeWidget_Multiple_C::HandleKillCamEnabled(bool IsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.HandleKillCamEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.HandleKillCamEnabled"));
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UGameModeWidget_Multiple_C::HandleKillCamEnabled(bool IsEnabled)
 
 void UGameModeWidget_Multiple_C::ShowHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.ShowHUD");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.ShowHUD"));
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UGameModeWidget_Multiple_C::ShowHUD()
 
 void UGameModeWidget_Multiple_C::HideHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.HideHUD");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.HideHUD"));
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UGameModeWidget_Multiple_C::HideHUD()
 
 void UGameModeWidget_Multiple_C::ToggleTopBarHUD(bool ShouldShow)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.ToggleTopBarHUD");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.ToggleTopBarHUD"));
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UGameModeWidget_Multiple_C::ToggleTopBarHUD(bool ShouldShow)
 
 void UGameModeWidget_Multiple_C::ToggleMiniMap()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.ToggleMiniMap");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.ToggleMiniMap"));
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UGameModeWidget_Multiple_C::ToggleMiniMap()
 
 void UGameModeWidget_Multiple_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.InitializeWidget"));
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UGameModeWidget_Multiple_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UGameModeWidget_Multiple_C::Handle_Swimming_Changed(bool IsSwimming)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.Handle Swimming Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.Handle Swimming Changed"));
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UGameModeWidget_Multiple_C::Handle_Swimming_Changed(bool IsSwimming)
 
 void UGameModeWidget_Multiple_C::HandleRoundSetup(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.HandleRoundSetup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.HandleRoundSetup"));
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UGameModeWidget_Multiple_C::HandleRoundSetup(const struct FRoundInitState& 
 
 void UGameModeWidget_Multiple_C::ExecuteUbergraph_GameModeWidget_Multiple(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.ExecuteUbergraph_GameModeWidget_Multiple");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.ExecuteUbergraph_GameModeWidget_Multiple"));
 
 	struct
 	{

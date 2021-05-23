@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_Acquisition_C::OnGamepadItemHover(class UAcquisitionItemData* Item, class UKSWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.OnGamepadItemHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.OnGamepadItemHover"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_Acquisition_C::OnGamepadItemHover(class UAcquisitionItemData* Item, cl
 
 void UWBP_Acquisition_C::DisplayStoreItem(class UAcquisitionItemData* AcqusitionItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.DisplayStoreItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.DisplayStoreItem"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_Acquisition_C::DisplayStoreItem(class UAcquisitionItemData* Acqusition
 
 void UWBP_Acquisition_C::SetAcquisitionDisplay(class UKSAcquisition* Acquistion)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.SetAcquisitionDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.SetAcquisitionDisplay"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWBP_Acquisition_C::SetAcquisitionDisplay(class UKSAcquisition* Acquistion)
 
 bool UWBP_Acquisition_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.NavigateBack"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ bool UWBP_Acquisition_C::NavigateBack()
 
 void UWBP_Acquisition_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.PreConstruct"));
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_Acquisition_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Acquisition_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.InitializeWidget"));
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UWBP_Acquisition_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Acquisition_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.OnBackPrompt"));
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWBP_Acquisition_C::OnBackPrompt()
 
 void UWBP_Acquisition_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UWBP_Acquisition_C::InitializeWidgetNavigation()
 
 void UWBP_Acquisition_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.OnShown"));
 
 	struct
 	{
@@ -189,7 +189,7 @@ void UWBP_Acquisition_C::OnShown()
 
 void UWBP_Acquisition_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.OnHide"));
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UWBP_Acquisition_C::OnHide()
 
 void UWBP_Acquisition_C::ExecuteUbergraph_WBP_Acquisition(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Acquisition.WBP_Acquisition_C.ExecuteUbergraph_WBP_Acquisition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Acquisition.WBP_Acquisition_C.ExecuteUbergraph_WBP_Acquisition"));
 
 	struct
 	{

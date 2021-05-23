@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass ANotifyState_MagGloveInteraction.ANotifyState_MagGloveInteraction_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass ANotifyState_MagGloveInteraction.ANotifyState_MagGloveInteraction_C"));
 		return ptr;
 	}
 

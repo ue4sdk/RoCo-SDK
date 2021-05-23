@@ -19,7 +19,7 @@ namespace SDK
 
 bool UPointObjectiveFullMapIcon_C::ShouldUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.ShouldUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.ShouldUpdate"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UPointObjectiveFullMapIcon_C::ShouldUpdate()
 
 void UPointObjectiveFullMapIcon_C::DoCaptureAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.DoCaptureAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.DoCaptureAnimation"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UPointObjectiveFullMapIcon_C::DoCaptureAnimation()
 
 void UPointObjectiveFullMapIcon_C::SetProgressValue(float Progress)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.SetProgressValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.SetProgressValue"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UPointObjectiveFullMapIcon_C::SetProgressValue(float Progress)
 
 void UPointObjectiveFullMapIcon_C::SetProgressColors(const struct FLinearColor& OffColor, const struct FLinearColor& OnColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.SetProgressColors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.SetProgressColors"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UPointObjectiveFullMapIcon_C::SetProgressColors(const struct FLinearColor& 
 
 void UPointObjectiveFullMapIcon_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.Tick"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UPointObjectiveFullMapIcon_C::Tick(const struct FGeometry& MyGeometry, floa
 
 void UPointObjectiveFullMapIcon_C::Objective_State_Change(class AKSObjectiveBase* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.Objective State Change");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.Objective State Change"));
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UPointObjectiveFullMapIcon_C::Objective_State_Change(class AKSObjectiveBase
 
 void UPointObjectiveFullMapIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.Construct"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UPointObjectiveFullMapIcon_C::Construct()
 
 void UPointObjectiveFullMapIcon_C::OnCaptureAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.OnCaptureAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.OnCaptureAnimFinished"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UPointObjectiveFullMapIcon_C::OnCaptureAnimFinished()
 
 void UPointObjectiveFullMapIcon_C::ExecuteUbergraph_PointObjectiveFullMapIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.ExecuteUbergraph_PointObjectiveFullMapIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveFullMapIcon.PointObjectiveFullMapIcon_C.ExecuteUbergraph_PointObjectiveFullMapIcon"));
 
 	struct
 	{

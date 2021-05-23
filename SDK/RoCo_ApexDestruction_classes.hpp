@@ -24,7 +24,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ApexDestruction.DestructibleActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ApexDestruction.DestructibleActor"));
 		return ptr;
 	}
 
@@ -48,7 +48,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ApexDestruction.DestructibleComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ApexDestruction.DestructibleComponent"));
 		return ptr;
 	}
 
@@ -78,7 +78,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ApexDestruction.DestructibleFractureSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ApexDestruction.DestructibleFractureSettings"));
 		return ptr;
 	}
 
@@ -96,7 +96,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ApexDestruction.DestructibleMesh");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ApexDestruction.DestructibleMesh"));
 		return ptr;
 	}
 

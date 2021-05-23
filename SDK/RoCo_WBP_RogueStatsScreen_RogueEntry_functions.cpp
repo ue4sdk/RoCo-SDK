@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueStatsScreen_RogueEntry_C::TickAnchorAnim(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.TickAnchorAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.TickAnchorAnim"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_RogueStatsScreen_RogueEntry_C::TickAnchorAnim(float DeltaTime)
 
 void UWBP_RogueStatsScreen_RogueEntry_C::ResetState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.ResetState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.ResetState"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_RogueStatsScreen_RogueEntry_C::ResetState()
 
 void UWBP_RogueStatsScreen_RogueEntry_C::PlayShowAnimInternal()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.PlayShowAnimInternal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.PlayShowAnimInternal"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_RogueStatsScreen_RogueEntry_C::PlayShowAnimInternal()
 
 void UWBP_RogueStatsScreen_RogueEntry_C::PlayShowAnim(float Delay)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.PlayShowAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.PlayShowAnim"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_RogueStatsScreen_RogueEntry_C::PlayShowAnim(float Delay)
 
 void UWBP_RogueStatsScreen_RogueEntry_C::UpdateValueText(int Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.UpdateValueText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.UpdateValueText"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_RogueStatsScreen_RogueEntry_C::UpdateValueText(int Value)
 
 void UWBP_RogueStatsScreen_RogueEntry_C::UpdateIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.UpdateIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.UpdateIcon"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_RogueStatsScreen_RogueEntry_C::UpdateIcon()
 
 void UWBP_RogueStatsScreen_RogueEntry_C::SetActivityInstance(class UKSActivityInstance* Instance, int MaxValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.SetActivityInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.SetActivityInstance"));
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UWBP_RogueStatsScreen_RogueEntry_C::SetActivityInstance(class UKSActivityIn
 
 void UWBP_RogueStatsScreen_RogueEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.Construct"));
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UWBP_RogueStatsScreen_RogueEntry_C::Construct()
 
 void UWBP_RogueStatsScreen_RogueEntry_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.Tick"));
 
 	struct
 	{
@@ -189,7 +189,7 @@ void UWBP_RogueStatsScreen_RogueEntry_C::Tick(const struct FGeometry& MyGeometry
 
 void UWBP_RogueStatsScreen_RogueEntry_C::ExecuteUbergraph_WBP_RogueStatsScreen_RogueEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.ExecuteUbergraph_WBP_RogueStatsScreen_RogueEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_RogueEntry.WBP_RogueStatsScreen_RogueEntry_C.ExecuteUbergraph_WBP_RogueStatsScreen_RogueEntry"));
 
 	struct
 	{

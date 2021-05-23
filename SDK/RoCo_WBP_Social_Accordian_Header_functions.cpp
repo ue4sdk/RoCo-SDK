@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_Social_Accordian_Header_C::OnHeaderUpdated(class UKSDataSocialCategory* Category, const struct FText& Header)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnHeaderUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnHeaderUpdated"));
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UWBP_Social_Accordian_Header_C::OnHeaderUpdated(class UKSDataSocialCategory
 
 void UWBP_Social_Accordian_Header_C::OnPlayersUpdated(class UKSDataSocialCategory* Category, TArray<class UKSDataSocialPlayer*> Players)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnPlayersUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnPlayersUpdated"));
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UWBP_Social_Accordian_Header_C::OnPlayersUpdated(class UKSDataSocialCategor
 
 void UWBP_Social_Accordian_Header_C::UpdateMessage(class UKSDataSocialCategory* Category, bool Processing, const struct FText& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.UpdateMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.UpdateMessage"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_Social_Accordian_Header_C::UpdateMessage(class UKSDataSocialCategory* 
 
 void UWBP_Social_Accordian_Header_C::GetIsExpanded(bool* Expanded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.GetIsExpanded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.GetIsExpanded"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_Social_Accordian_Header_C::GetIsExpanded(bool* Expanded)
 
 void UWBP_Social_Accordian_Header_C::GetData(class UKSDataSocialCategory** NewParam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.GetData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.GetData"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_Social_Accordian_Header_C::GetData(class UKSDataSocialCategory** NewPa
 
 void UWBP_Social_Accordian_Header_C::SetExpanded(bool Expanded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.SetExpanded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.SetExpanded"));
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UWBP_Social_Accordian_Header_C::SetExpanded(bool Expanded)
 
 void UWBP_Social_Accordian_Header_C::GetOuterHud(class AKSHUDCommon** HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.GetOuterHud");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.GetOuterHud"));
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UWBP_Social_Accordian_Header_C::GetOuterHud(class AKSHUDCommon** HUD)
 
 void UWBP_Social_Accordian_Header_C::SetListItemObject(class UObject* Object)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.SetListItemObject");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.SetListItemObject"));
 
 	struct
 	{
@@ -197,7 +197,7 @@ void UWBP_Social_Accordian_Header_C::SetListItemObject(class UObject* Object)
 
 void UWBP_Social_Accordian_Header_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.InitializeWidget"));
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UWBP_Social_Accordian_Header_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Social_Accordian_Header_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.UninitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.UninitializeWidget"));
 
 	struct
 	{
@@ -231,7 +231,7 @@ void UWBP_Social_Accordian_Header_C::UninitializeWidget()
 
 void UWBP_Social_Accordian_Header_C::HandleClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.HandleClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.HandleClicked"));
 
 	struct
 	{
@@ -247,7 +247,7 @@ void UWBP_Social_Accordian_Header_C::HandleClicked()
 
 void UWBP_Social_Accordian_Header_C::OnUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnUnhovered"));
 
 	struct
 	{
@@ -263,7 +263,7 @@ void UWBP_Social_Accordian_Header_C::OnUnhovered()
 
 void UWBP_Social_Accordian_Header_C::OnHovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnHovered"));
 
 	struct
 	{
@@ -281,7 +281,7 @@ void UWBP_Social_Accordian_Header_C::OnHovered()
 
 void UWBP_Social_Accordian_Header_C::OnListItemObjectSet(class UObject* ListItemObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnListItemObjectSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnListItemObjectSet"));
 
 	struct
 	{
@@ -299,7 +299,7 @@ void UWBP_Social_Accordian_Header_C::OnListItemObjectSet(class UObject* ListItem
 
 void UWBP_Social_Accordian_Header_C::BP_OnEntryReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.BP_OnEntryReleased");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.BP_OnEntryReleased"));
 
 	struct
 	{
@@ -317,7 +317,7 @@ void UWBP_Social_Accordian_Header_C::BP_OnEntryReleased()
 
 void UWBP_Social_Accordian_Header_C::BP_OnItemExpansionChanged(bool bIsExpanded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.BP_OnItemExpansionChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.BP_OnItemExpansionChanged"));
 
 	struct
 	{
@@ -337,7 +337,7 @@ void UWBP_Social_Accordian_Header_C::BP_OnItemExpansionChanged(bool bIsExpanded)
 
 void UWBP_Social_Accordian_Header_C::BP_OnItemSelectionChanged(bool bIsSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.BP_OnItemSelectionChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.BP_OnItemSelectionChanged"));
 
 	struct
 	{
@@ -355,7 +355,7 @@ void UWBP_Social_Accordian_Header_C::BP_OnItemSelectionChanged(bool bIsSelected)
 
 void UWBP_Social_Accordian_Header_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.Construct"));
 
 	struct
 	{
@@ -371,7 +371,7 @@ void UWBP_Social_Accordian_Header_C::Construct()
 
 void UWBP_Social_Accordian_Header_C::UnbindCategoryEvents()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.UnbindCategoryEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.UnbindCategoryEvents"));
 
 	struct
 	{
@@ -387,7 +387,7 @@ void UWBP_Social_Accordian_Header_C::UnbindCategoryEvents()
 
 void UWBP_Social_Accordian_Header_C::BindCategoryEvents()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.BindCategoryEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.BindCategoryEvents"));
 
 	struct
 	{
@@ -405,7 +405,7 @@ void UWBP_Social_Accordian_Header_C::BindCategoryEvents()
 
 void UWBP_Social_Accordian_Header_C::OnInputStateChange(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnInputStateChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnInputStateChange"));
 
 	struct
 	{
@@ -423,7 +423,7 @@ void UWBP_Social_Accordian_Header_C::OnInputStateChange(TEnumAsByte<EPGAME_INPUT
 
 void UWBP_Social_Accordian_Header_C::ForceUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.ForceUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.ForceUnhover"));
 
 	struct
 	{
@@ -441,7 +441,7 @@ void UWBP_Social_Accordian_Header_C::ForceUnhover()
 
 void UWBP_Social_Accordian_Header_C::ExecuteUbergraph_WBP_Social_Accordian_Header(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.ExecuteUbergraph_WBP_Social_Accordian_Header");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.ExecuteUbergraph_WBP_Social_Accordian_Header"));
 
 	struct
 	{
@@ -461,7 +461,7 @@ void UWBP_Social_Accordian_Header_C::ExecuteUbergraph_WBP_Social_Accordian_Heade
 
 void UWBP_Social_Accordian_Header_C::OnClicked__DelegateSignature(class UUserWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Accordian_Header.WBP_Social_Accordian_Header_C.OnClicked__DelegateSignature"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UParticleSystemPoolComponentBase::OnPSCFinished(class UParticleSystemComponent* InPSC)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.ParticleSystemPoolComponentBase.OnPSCFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.ParticleSystemPoolComponentBase.OnPSCFinished"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UParticleSystemPoolComponentBase::OnPSCFinished(class UParticleSystemCompon
 
 void UPoolableDecalComponent::ForceReturnToPool()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.PoolableDecalComponent.ForceReturnToPool");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.PoolableDecalComponent.ForceReturnToPool"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UPoolableDecalComponent::ForceReturnToPool()
 
 class UStaticMeshComponent* USceneComponentPoolStatics::SpawnStaticMeshAttached(class UStaticMesh* Mesh, class USceneComponent* AttachToComponent, const struct FPoolAttachmentInfo& AttachInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.SpawnStaticMeshAttached");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.SpawnStaticMeshAttached"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ class UStaticMeshComponent* USceneComponentPoolStatics::SpawnStaticMeshAttached(
 
 class USkeletalMeshComponent* USceneComponentPoolStatics::SpawnSkeletalMeshAttached(class USkeletalMesh* Mesh, class UClass* AnimClass, class USceneComponent* AttachToComponent, const struct FPoolAttachmentInfo& AttachInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.SpawnSkeletalMeshAttached");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.SpawnSkeletalMeshAttached"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ class USkeletalMeshComponent* USceneComponentPoolStatics::SpawnSkeletalMeshAttac
 
 class UParticleSystemComponent* USceneComponentPoolStatics::SpawnEmitterAttached(class UParticleSystem* EmitterTemplate, class USceneComponent* AttachToComponent, const struct FName& AttachPointName, const struct FVector& Location, const struct FRotator& Rotation, const struct FVector& Scale, TEnumAsByte<EAttachLocation> LocationType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.SpawnEmitterAttached");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.SpawnEmitterAttached"));
 
 	struct
 	{
@@ -168,7 +168,7 @@ class UParticleSystemComponent* USceneComponentPoolStatics::SpawnEmitterAttached
 
 class UParticleSystemComponent* USceneComponentPoolStatics::SpawnEmitterAtLocation(class UObject* WorldContextObject, class UParticleSystem* EmitterTemplate, const struct FVector& Location, const struct FRotator& Rotation, const struct FVector& Scale)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.SpawnEmitterAtLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.SpawnEmitterAtLocation"));
 
 	struct
 	{
@@ -209,7 +209,7 @@ class UParticleSystemComponent* USceneComponentPoolStatics::SpawnEmitterAtLocati
 
 class UPoolableDecalComponent* USceneComponentPoolStatics::SpawnDecalAttached(class UMaterialInterface* DecalMaterial, const struct FVector& DecalSize, class USceneComponent* AttachToComponent, const struct FName& AttachPointName, const struct FVector& Location, const struct FRotator& Rotation, TEnumAsByte<EAttachLocation> LocationType, float Lifespan, bool bUseGunshotDecalPool)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.SpawnDecalAttached");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.SpawnDecalAttached"));
 
 	struct
 	{
@@ -256,7 +256,7 @@ class UPoolableDecalComponent* USceneComponentPoolStatics::SpawnDecalAttached(cl
 
 class UPoolableDecalComponent* USceneComponentPoolStatics::SpawnDecalAtLocation(class UObject* WorldContextObject, class UMaterialInterface* DecalMaterial, const struct FVector& DecalSize, const struct FVector& Location, const struct FRotator& Rotation, float Lifespan, bool bUseGunshotDecalPool)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.SpawnDecalAtLocation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.SpawnDecalAtLocation"));
 
 	struct
 	{
@@ -292,7 +292,7 @@ class UPoolableDecalComponent* USceneComponentPoolStatics::SpawnDecalAtLocation(
 
 void USceneComponentPoolStatics::ReleaseSpawnedStaticMeshes(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedStaticMeshes");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedStaticMeshes"));
 
 	struct
 	{
@@ -313,7 +313,7 @@ void USceneComponentPoolStatics::ReleaseSpawnedStaticMeshes(class UObject* World
 
 void USceneComponentPoolStatics::ReleaseSpawnedStaticMeshComponent(class UStaticMeshComponent* StaticMeshComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedStaticMeshComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedStaticMeshComponent"));
 
 	struct
 	{
@@ -336,7 +336,7 @@ void USceneComponentPoolStatics::ReleaseSpawnedStaticMeshComponent(class UStatic
 
 void USceneComponentPoolStatics::ReleaseSpawnedStaticMesh(class UStaticMesh* StaticMeshComponent, class USceneComponent* AttachToComponent, const struct FPoolAttachmentInfo& AttachInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedStaticMesh");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedStaticMesh"));
 
 	struct
 	{
@@ -361,7 +361,7 @@ void USceneComponentPoolStatics::ReleaseSpawnedStaticMesh(class UStaticMesh* Sta
 
 void USceneComponentPoolStatics::ReleaseSpawnedSkeletalMeshes(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedSkeletalMeshes");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedSkeletalMeshes"));
 
 	struct
 	{
@@ -382,7 +382,7 @@ void USceneComponentPoolStatics::ReleaseSpawnedSkeletalMeshes(class UObject* Wor
 
 void USceneComponentPoolStatics::ReleaseSpawnedSkeletalMeshComponent(class USkeletalMeshComponent* SkeletalMeshComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedSkeletalMeshComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedSkeletalMeshComponent"));
 
 	struct
 	{
@@ -406,7 +406,7 @@ void USceneComponentPoolStatics::ReleaseSpawnedSkeletalMeshComponent(class USkel
 
 void USceneComponentPoolStatics::ReleaseSpawnedSkeletalMesh(class USkeletalMesh* SkeletalMesh, class UClass* AnimClass, class USceneComponent* AttachToComponent, const struct FPoolAttachmentInfo& AttachInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedSkeletalMesh");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedSkeletalMesh"));
 
 	struct
 	{
@@ -433,7 +433,7 @@ void USceneComponentPoolStatics::ReleaseSpawnedSkeletalMesh(class USkeletalMesh*
 
 void USceneComponentPoolStatics::ReleaseSpawnedEmitters(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedEmitters");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedEmitters"));
 
 	struct
 	{
@@ -454,7 +454,7 @@ void USceneComponentPoolStatics::ReleaseSpawnedEmitters(class UObject* WorldCont
 
 void USceneComponentPoolStatics::ReleaseSpawnedDecals(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedDecals");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SceneComponentPools.SceneComponentPoolStatics.ReleaseSpawnedDecals"));
 
 	struct
 	{

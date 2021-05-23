@@ -38,7 +38,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_LoadoutTierButton.WBP_LoadoutTierButton_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_LoadoutTierButton.WBP_LoadoutTierButton_C"));
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_InGameJobSelect_Loadout_C::GetLoadoutPerkButtons(TArray<class UWBP_InGameJobSelect_Loadout_Perk_C*>* PerkButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.GetLoadoutPerkButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.GetLoadoutPerkButtons"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_InGameJobSelect_Loadout_C::GetLoadoutPerkButtons(TArray<class UWBP_InG
 
 void UWBP_InGameJobSelect_Loadout_C::GetLoadoutPerks(TArray<class UKSItem*>* Perks)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.GetLoadoutPerks");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.GetLoadoutPerks"));
 
 	struct
 	{
@@ -66,7 +66,7 @@ void UWBP_InGameJobSelect_Loadout_C::GetLoadoutPerks(TArray<class UKSItem*>* Per
 
 void UWBP_InGameJobSelect_Loadout_C::GetCurrentJobLoadoutSlotItemInfo(EJobLoadoutSlot JobSlot, struct FString* DisplayName, bool* IsValid, class UKSItem** OutKSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.GetCurrentJobLoadoutSlotItemInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.GetCurrentJobLoadoutSlotItemInfo"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UWBP_InGameJobSelect_Loadout_C::GetCurrentJobLoadoutSlotItemInfo(EJobLoadou
 
 void UWBP_InGameJobSelect_Loadout_C::InitializeLoadoutButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.InitializeLoadoutButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.InitializeLoadoutButtons"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_InGameJobSelect_Loadout_C::InitializeLoadoutButtons()
 
 void UWBP_InGameJobSelect_Loadout_C::PopulateLoadoutInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PopulateLoadoutInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PopulateLoadoutInfo"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_InGameJobSelect_Loadout_C::PopulateLoadoutInfo()
 
 void UWBP_InGameJobSelect_Loadout_C::PopulateJobInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PopulateJobInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PopulateJobInfo"));
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UWBP_InGameJobSelect_Loadout_C::PopulateJobInfo()
 
 void UWBP_InGameJobSelect_Loadout_C::PopulateJobLoadout(class UJobSelectionEntryDetails* JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PopulateJobLoadout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PopulateJobLoadout"));
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_InGameJobSelect_Loadout_C::PopulateJobLoadout(class UJobSelectionEntry
 
 void UWBP_InGameJobSelect_Loadout_C::OnLoaded_0479943548EBDC9F20CA8D8C126D74BE(class UObject* Loaded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnLoaded_0479943548EBDC9F20CA8D8C126D74BE");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnLoaded_0479943548EBDC9F20CA8D8C126D74BE"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UWBP_InGameJobSelect_Loadout_C::OnLoaded_0479943548EBDC9F20CA8D8C126D74BE(c
 
 void UWBP_InGameJobSelect_Loadout_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.InitializeWidget"));
 
 	struct
 	{
@@ -202,7 +202,7 @@ void UWBP_InGameJobSelect_Loadout_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_InGameJobSelect_Loadout_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnShown"));
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_InGameJobSelect_Loadout_C::OnShown()
 
 void UWBP_InGameJobSelect_Loadout_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnHide"));
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_InGameJobSelect_Loadout_C::OnHide()
 
 void UWBP_InGameJobSelect_Loadout_C::LoadAndPopulateFirstPassive(TSoftObjectPtr<class UObject> Asset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.LoadAndPopulateFirstPassive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.LoadAndPopulateFirstPassive"));
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UWBP_InGameJobSelect_Loadout_C::LoadAndPopulateFirstPassive(TSoftObjectPtr<
 
 void UWBP_InGameJobSelect_Loadout_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PreConstruct"));
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_InGameJobSelect_Loadout_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_InGameJobSelect_Loadout_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -292,7 +292,7 @@ void UWBP_InGameJobSelect_Loadout_C::BndEvt__CloseButton_K2Node_ComponentBoundEv
 
 void UWBP_InGameJobSelect_Loadout_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.HandleInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.HandleInputStateChanged"));
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UWBP_InGameJobSelect_Loadout_C::HandleInputStateChanged(TEnumAsByte<EPGAME_
 
 void UWBP_InGameJobSelect_Loadout_C::ExecuteUbergraph_WBP_InGameJobSelect_Loadout(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.ExecuteUbergraph_WBP_InGameJobSelect_Loadout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.ExecuteUbergraph_WBP_InGameJobSelect_Loadout"));
 
 	struct
 	{
@@ -330,7 +330,7 @@ void UWBP_InGameJobSelect_Loadout_C::ExecuteUbergraph_WBP_InGameJobSelect_Loadou
 
 void UWBP_InGameJobSelect_Loadout_C::OnNavBack__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnNavBack__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnNavBack__DelegateSignature"));
 
 	struct
 	{
@@ -346,7 +346,7 @@ void UWBP_InGameJobSelect_Loadout_C::OnNavBack__DelegateSignature()
 
 void UWBP_InGameJobSelect_Loadout_C::OnJobLockInClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnJobLockInClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.OnJobLockInClicked__DelegateSignature"));
 
 	struct
 	{

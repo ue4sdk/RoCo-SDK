@@ -19,7 +19,7 @@ namespace SDK
 
 void UDualARReticle_C::ChangeADS(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DualARReticle.DualARReticle_C.ChangeADS");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DualARReticle.DualARReticle_C.ChangeADS"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UDualARReticle_C::ChangeADS(bool Active)
 
 void UDualARReticle_C::ForceADS(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DualARReticle.DualARReticle_C.ForceADS");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DualARReticle.DualARReticle_C.ForceADS"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UDualARReticle_C::ForceADS(bool Active)
 
 void UDualARReticle_C::HitConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DualARReticle.DualARReticle_C.HitConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DualARReticle.DualARReticle_C.HitConfirm"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UDualARReticle_C::HitConfirm()
 
 void UDualARReticle_C::Headshot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DualARReticle.DualARReticle_C.Headshot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DualARReticle.DualARReticle_C.Headshot"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UDualARReticle_C::Headshot()
 
 void UDualARReticle_C::KillConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DualARReticle.DualARReticle_C.KillConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DualARReticle.DualARReticle_C.KillConfirm"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UDualARReticle_C::KillConfirm()
 
 void UDualARReticle_C::GrenadeCook(bool Active, float TickPeriod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DualARReticle.DualARReticle_C.GrenadeCook");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DualARReticle.DualARReticle_C.GrenadeCook"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UDualARReticle_C::GrenadeCook(bool Active, float TickPeriod)
 
 void UDualARReticle_C::GrenadeTick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DualARReticle.DualARReticle_C.GrenadeTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DualARReticle.DualARReticle_C.GrenadeTick"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UDualARReticle_C::GrenadeTick()
 
 void UDualARReticle_C::UpdateOffset(float Offset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DualARReticle.DualARReticle_C.UpdateOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DualARReticle.DualARReticle_C.UpdateOffset"));
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UDualARReticle_C::UpdateOffset(float Offset)
 
 void UDualARReticle_C::ExecuteUbergraph_DualARReticle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DualARReticle.DualARReticle_C.ExecuteUbergraph_DualARReticle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DualARReticle.DualARReticle_C.ExecuteUbergraph_DualARReticle"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RegionSelectRedirect_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.InitializeWidget"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_RegionSelectRedirect_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RegionSelectRedirect_C::Handle_Region_Selected()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.Handle Region Selected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.Handle Region Selected"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_RegionSelectRedirect_C::Handle_Region_Selected()
 
 void UWBP_RegionSelectRedirect_C::Handle_Region_Select_Entries_Created()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.Handle Region Select Entries Created");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.Handle Region Select Entries Created"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_RegionSelectRedirect_C::Handle_Region_Select_Entries_Created()
 
 void UWBP_RegionSelectRedirect_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_RegionSelectRedirect_C::InitializeWidgetNavigation()
 
 void UWBP_RegionSelectRedirect_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.OnShown"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWBP_RegionSelectRedirect_C::OnShown()
 
 void UWBP_RegionSelectRedirect_C::ExecuteUbergraph_WBP_RegionSelectRedirect(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.ExecuteUbergraph_WBP_RegionSelectRedirect");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RegionSelectRedirect.WBP_RegionSelectRedirect_C.ExecuteUbergraph_WBP_RegionSelectRedirect"));
 
 	struct
 	{

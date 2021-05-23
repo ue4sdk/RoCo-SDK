@@ -19,7 +19,7 @@ namespace SDK
 
 void UGamepadPromptBasic_C::SetPrompt(const struct FButtonPromptData& Data)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GamepadPromptBasic.GamepadPromptBasic_C.SetPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamepadPromptBasic.GamepadPromptBasic_C.SetPrompt"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UGamepadPromptBasic_C::SetPrompt(const struct FButtonPromptData& Data)
 
 void UGamepadPromptBasic_C::Populate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GamepadPromptBasic.GamepadPromptBasic_C.Populate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamepadPromptBasic.GamepadPromptBasic_C.Populate"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UGamepadPromptBasic_C::Populate()
 
 void UGamepadPromptBasic_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GamepadPromptBasic.GamepadPromptBasic_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamepadPromptBasic.GamepadPromptBasic_C.Construct"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UGamepadPromptBasic_C::Construct()
 
 void UGamepadPromptBasic_C::ExecuteUbergraph_GamepadPromptBasic(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GamepadPromptBasic.GamepadPromptBasic_C.ExecuteUbergraph_GamepadPromptBasic");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamepadPromptBasic.GamepadPromptBasic_C.ExecuteUbergraph_GamepadPromptBasic"));
 
 	struct
 	{

@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformInventoryItem.PInv_AssetManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformInventoryItem.PInv_AssetManager"));
 		return ptr;
 	}
 
@@ -58,7 +58,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformInventoryItem.PlatformInventoryItem");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformInventoryItem.PlatformInventoryItem"));
 		return ptr;
 	}
 
@@ -93,7 +93,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class PlatformInventoryItem.PlatformStoreAsset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformInventoryItem.PlatformStoreAsset"));
 		return ptr;
 	}
 

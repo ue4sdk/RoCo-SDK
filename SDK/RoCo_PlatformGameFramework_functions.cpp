@@ -23,7 +23,7 @@ namespace SDK
 
 void UPGame_BlueprintFunctionLibrary::ShowSkinnedMeshMaterialSection(class USkinnedMeshComponent* SkinnedMeshComponent, int MaterialID, int SectionIndex, bool bShow, int LODIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ShowSkinnedMeshMaterialSection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ShowSkinnedMeshMaterialSection"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UPGame_BlueprintFunctionLibrary::ShowSkinnedMeshMaterialSection(class USkin
 
 void UPGame_BlueprintFunctionLibrary::SetLightingChannels(class UPrimitiveComponent* PrimitiveComponent, const struct FLightingChannels& NewLightingChannels)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.SetLightingChannels");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.SetLightingChannels"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UPGame_BlueprintFunctionLibrary::SetLightingChannels(class UPrimitiveCompon
 
 bool UPGame_BlueprintFunctionLibrary::ServerTravelWithGameMode(class UObject* WorldContextObject, TSoftObjectPtr<class UWorld> Map, TSoftObjectPtr<class UClass> GameMode, TArray<struct FString> Options, bool bSeamless)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ServerTravelWithGameMode");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ServerTravelWithGameMode"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ bool UPGame_BlueprintFunctionLibrary::ServerTravelWithGameMode(class UObject* Wo
 
 bool UPGame_BlueprintFunctionLibrary::ServerTravel(class UObject* WorldContextObject, TSoftObjectPtr<class UWorld> Map, TSoftObjectPtr<class UClass> GameMode, TArray<struct FString> Options, bool bSeamless, bool bPreserveCurrentOptions)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ServerTravel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ServerTravel"));
 
 	struct
 	{
@@ -153,7 +153,7 @@ bool UPGame_BlueprintFunctionLibrary::ServerTravel(class UObject* WorldContextOb
 
 bool UPGame_BlueprintFunctionLibrary::IsSteamClient()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsSteamClient");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsSteamClient"));
 
 	struct
 	{
@@ -178,7 +178,7 @@ bool UPGame_BlueprintFunctionLibrary::IsSteamClient()
 
 bool UPGame_BlueprintFunctionLibrary::IsPlatformType(bool IsConsole, bool IsPC, bool IsMobile)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsPlatformType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsPlatformType"));
 
 	struct
 	{
@@ -216,7 +216,7 @@ bool UPGame_BlueprintFunctionLibrary::IsPlatformType(bool IsConsole, bool IsPC, 
 
 bool UPGame_BlueprintFunctionLibrary::IsPlatform(bool IsXboxOne, bool IsPS4, bool IsSwitch, bool IsWindows, bool IsMac, bool IsLinux, bool IsIOS, bool IsAndroid, bool IsXSX, bool IsPS5)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsPlatform");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsPlatform"));
 
 	struct
 	{
@@ -259,7 +259,7 @@ bool UPGame_BlueprintFunctionLibrary::IsPlatform(bool IsXboxOne, bool IsPS4, boo
 
 bool UPGame_BlueprintFunctionLibrary::IsGameBit(EGameBits GameBit)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsGameBit");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsGameBit"));
 
 	struct
 	{
@@ -283,7 +283,7 @@ bool UPGame_BlueprintFunctionLibrary::IsGameBit(EGameBits GameBit)
 
 bool UPGame_BlueprintFunctionLibrary::IsAnonymousLogin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsAnonymousLogin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.IsAnonymousLogin"));
 
 	struct
 	{
@@ -306,7 +306,7 @@ bool UPGame_BlueprintFunctionLibrary::IsAnonymousLogin()
 
 float UPGame_BlueprintFunctionLibrary::GetPropertyClampedValue(const struct FPGame_Property& Prop)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.GetPropertyClampedValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.GetPropertyClampedValue"));
 
 	struct
 	{
@@ -330,7 +330,7 @@ float UPGame_BlueprintFunctionLibrary::GetPropertyClampedValue(const struct FPGa
 
 EGameLocalizationType UPGame_BlueprintFunctionLibrary::GetGameLocalizationType()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.GetGameLocalizationType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.GetGameLocalizationType"));
 
 	struct
 	{
@@ -354,7 +354,7 @@ EGameLocalizationType UPGame_BlueprintFunctionLibrary::GetGameLocalizationType()
 
 void UPGame_BlueprintFunctionLibrary::FrameDelay(class UObject* WorldContextObject, int NumFramesToDelay, const struct FLatentActionInfo& LatentInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.FrameDelay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.FrameDelay"));
 
 	struct
 	{
@@ -380,7 +380,7 @@ void UPGame_BlueprintFunctionLibrary::FrameDelay(class UObject* WorldContextObje
 
 struct FLightingChannels UPGame_BlueprintFunctionLibrary::ConvertToEngineLightingChannels(const struct FPGame_BlueprintableLightingChannels& BlueprintableLightingChannels)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ConvertToEngineLightingChannels");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ConvertToEngineLightingChannels"));
 
 	struct
 	{
@@ -405,7 +405,7 @@ struct FLightingChannels UPGame_BlueprintFunctionLibrary::ConvertToEngineLightin
 
 struct FPGame_BlueprintableLightingChannels UPGame_BlueprintFunctionLibrary::ConvertToBlueprintableLightingChannels(const struct FLightingChannels& EngineLightChannels)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ConvertToBlueprintableLightingChannels");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.ConvertToBlueprintableLightingChannels"));
 
 	struct
 	{
@@ -430,7 +430,7 @@ struct FPGame_BlueprintableLightingChannels UPGame_BlueprintFunctionLibrary::Con
 
 bool UPGame_BlueprintFunctionLibrary::AreMeshComponentTexturesFullyStreamedIn(class UMeshComponent* InMeshComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.AreMeshComponentTexturesFullyStreamedIn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.AreMeshComponentTexturesFullyStreamedIn"));
 
 	struct
 	{
@@ -455,7 +455,7 @@ bool UPGame_BlueprintFunctionLibrary::AreMeshComponentTexturesFullyStreamedIn(cl
 
 bool UPGame_BlueprintFunctionLibrary::AreActorTexturesFullyStreamedIn(class AActor* InActor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.AreActorTexturesFullyStreamedIn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_BlueprintFunctionLibrary.AreActorTexturesFullyStreamedIn"));
 
 	struct
 	{
@@ -477,7 +477,7 @@ bool UPGame_BlueprintFunctionLibrary::AreActorTexturesFullyStreamedIn(class AAct
 
 void APGame_Character::OnRep_Tween()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_Character.OnRep_Tween");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_Character.OnRep_Tween"));
 
 	struct
 	{
@@ -493,7 +493,7 @@ void APGame_Character::OnRep_Tween()
 
 void APGame_Character::OnRep_Charge()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_Character.OnRep_Charge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_Character.OnRep_Charge"));
 
 	struct
 	{
@@ -509,7 +509,7 @@ void APGame_Character::OnRep_Charge()
 
 void UPGame_CharacterMovementComponent::StopTween()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CharacterMovementComponent.StopTween");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CharacterMovementComponent.StopTween"));
 
 	struct
 	{
@@ -525,7 +525,7 @@ void UPGame_CharacterMovementComponent::StopTween()
 
 void UPGame_CharacterMovementComponent::StopCharge()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CharacterMovementComponent.StopCharge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CharacterMovementComponent.StopCharge"));
 
 	struct
 	{
@@ -545,7 +545,7 @@ void UPGame_CharacterMovementComponent::StopCharge()
 
 void UPGame_CharacterMovementComponent::StartTween(unsigned char TweenType, const struct FVector& TweenDestination, float TweenTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CharacterMovementComponent.StartTween");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CharacterMovementComponent.StartTween"));
 
 	struct
 	{
@@ -573,7 +573,7 @@ void UPGame_CharacterMovementComponent::StartTween(unsigned char TweenType, cons
 
 void UPGame_CharacterMovementComponent::StartCharge(unsigned char ChargeType, float ChargeInitialYaw, const struct FVector& ChargeInitialLocation, float ChargeSpeed, float ChargeRange)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CharacterMovementComponent.StartCharge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CharacterMovementComponent.StartCharge"));
 
 	struct
 	{
@@ -601,7 +601,7 @@ void UPGame_CharacterMovementComponent::StartCharge(unsigned char ChargeType, fl
 
 void UPGame_CharacterMovementComponent::OnRep_Tween(const struct FTweenInfo& TweenInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CharacterMovementComponent.OnRep_Tween");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CharacterMovementComponent.OnRep_Tween"));
 
 	struct
 	{
@@ -621,7 +621,7 @@ void UPGame_CharacterMovementComponent::OnRep_Tween(const struct FTweenInfo& Twe
 
 void UPGame_CharacterMovementComponent::OnRep_Charge(const struct FChargeInfo& ChargeInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CharacterMovementComponent.OnRep_Charge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CharacterMovementComponent.OnRep_Charge"));
 
 	struct
 	{
@@ -639,7 +639,7 @@ void UPGame_CharacterMovementComponent::OnRep_Charge(const struct FChargeInfo& C
 
 void UPGame_CheatComponent::TestFubar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.TestFubar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.TestFubar"));
 
 	struct
 	{
@@ -655,7 +655,7 @@ void UPGame_CheatComponent::TestFubar()
 
 void UPGame_CheatComponent::ServerTestFubar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.ServerTestFubar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.ServerTestFubar"));
 
 	struct
 	{
@@ -673,7 +673,7 @@ void UPGame_CheatComponent::ServerTestFubar()
 
 void UPGame_CheatComponent::ServerExecCall(const struct FString& request)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.ServerExecCall");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.ServerExecCall"));
 
 	struct
 	{
@@ -693,7 +693,7 @@ void UPGame_CheatComponent::ServerExecCall(const struct FString& request)
 
 void UPGame_CheatComponent::ServerExec(const struct FString& request)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.ServerExec");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.ServerExec"));
 
 	struct
 	{
@@ -711,7 +711,7 @@ void UPGame_CheatComponent::ServerExec(const struct FString& request)
 
 void UPGame_CheatComponent::Logout()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.Logout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.Logout"));
 
 	struct
 	{
@@ -727,7 +727,7 @@ void UPGame_CheatComponent::Logout()
 
 void UPGame_CheatComponent::gmmf()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.gmmf");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.gmmf"));
 
 	struct
 	{
@@ -745,7 +745,7 @@ void UPGame_CheatComponent::gmmf()
 
 void UPGame_CheatComponent::gmJoinQueue(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.gmJoinQueue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.gmJoinQueue"));
 
 	struct
 	{
@@ -765,7 +765,7 @@ void UPGame_CheatComponent::gmJoinQueue(int QueueId)
 
 void UPGame_CheatComponent::gmCommand(const struct FString& request)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.gmCommand");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.gmCommand"));
 
 	struct
 	{
@@ -785,7 +785,7 @@ void UPGame_CheatComponent::gmCommand(const struct FString& request)
 
 void UPGame_CheatComponent::gmC(const struct FString& request)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.gmC");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.gmC"));
 
 	struct
 	{
@@ -803,7 +803,7 @@ void UPGame_CheatComponent::gmC(const struct FString& request)
 
 void UPGame_CheatComponent::DumpAnimationStats()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.DumpAnimationStats");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.DumpAnimationStats"));
 
 	struct
 	{
@@ -819,7 +819,7 @@ void UPGame_CheatComponent::DumpAnimationStats()
 
 void UPGame_CheatComponent::CustomForceStart()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.CustomForceStart");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CheatComponent.CustomForceStart"));
 
 	struct
 	{
@@ -835,7 +835,7 @@ void UPGame_CheatComponent::CustomForceStart()
 
 void APGame_CombatLogVisualizer::Visualize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CombatLogVisualizer.Visualize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CombatLogVisualizer.Visualize"));
 
 	struct
 	{
@@ -851,7 +851,7 @@ void APGame_CombatLogVisualizer::Visualize()
 
 void APGame_CombatLogVisualizer::LoadCombatLog()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CombatLogVisualizer.LoadCombatLog");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CombatLogVisualizer.LoadCombatLog"));
 
 	struct
 	{
@@ -867,7 +867,7 @@ void APGame_CombatLogVisualizer::LoadCombatLog()
 
 void APGame_CombatLogVisualizer::ClearVisualization()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CombatLogVisualizer.ClearVisualization");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_CombatLogVisualizer.ClearVisualization"));
 
 	struct
 	{
@@ -883,7 +883,7 @@ void APGame_CombatLogVisualizer::ClearVisualization()
 
 void UPGame_EffectManagerComponent::OnRep_EffectData()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_EffectManagerComponent.OnRep_EffectData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_EffectManagerComponent.OnRep_EffectData"));
 
 	struct
 	{
@@ -901,7 +901,7 @@ void UPGame_EffectManagerComponent::OnRep_EffectData()
 
 void UPGame_EffectManagerComponent::InstantEffectBroadcast(const struct FPGame_InstantEffectRepData& repData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_EffectManagerComponent.InstantEffectBroadcast");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_EffectManagerComponent.InstantEffectBroadcast"));
 
 	struct
 	{
@@ -922,7 +922,7 @@ void UPGame_EffectManagerComponent::InstantEffectBroadcast(const struct FPGame_I
 
 int UPGame_EffectManagerComponent::GetPropertyValueIntFromBlueprint(int PropertyId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_EffectManagerComponent.GetPropertyValueIntFromBlueprint");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_EffectManagerComponent.GetPropertyValueIntFromBlueprint"));
 
 	struct
 	{
@@ -946,7 +946,7 @@ int UPGame_EffectManagerComponent::GetPropertyValueIntFromBlueprint(int Property
 
 float UPGame_EffectManagerComponent::GetPropertyValueFromBlueprint(int PropertyId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_EffectManagerComponent.GetPropertyValueFromBlueprint");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_EffectManagerComponent.GetPropertyValueFromBlueprint"));
 
 	struct
 	{
@@ -970,7 +970,7 @@ float UPGame_EffectManagerComponent::GetPropertyValueFromBlueprint(int PropertyI
 
 class UPGame_EffectGroupPersistent* UPGame_EffectManagerComponent::GetDefaultEffectGroupForPersistentRepData(const struct FPGame_PersistentEffectRepData& repData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_EffectManagerComponent.GetDefaultEffectGroupForPersistentRepData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_EffectManagerComponent.GetDefaultEffectGroupForPersistentRepData"));
 
 	struct
 	{
@@ -994,7 +994,7 @@ class UPGame_EffectGroupPersistent* UPGame_EffectManagerComponent::GetDefaultEff
 
 class UPGame_EffectGroupInstant* UPGame_EffectManagerComponent::GetDefaultEffectGroupForInstantRepData(const struct FPGame_InstantEffectRepData& repData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_EffectManagerComponent.GetDefaultEffectGroupForInstantRepData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_EffectManagerComponent.GetDefaultEffectGroupForInstantRepData"));
 
 	struct
 	{
@@ -1018,7 +1018,7 @@ class UPGame_EffectGroupInstant* UPGame_EffectManagerComponent::GetDefaultEffect
 
 class UPGame_EffectAttachment* UPGame_EffectManagerComponent::CreatePersistentAttachment(const struct FPGame_PersistentEffectRepData& repData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_EffectManagerComponent.CreatePersistentAttachment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_EffectManagerComponent.CreatePersistentAttachment"));
 
 	struct
 	{
@@ -1041,7 +1041,7 @@ class UPGame_EffectAttachment* UPGame_EffectManagerComponent::CreatePersistentAt
 
 void UPGame_EffectManagerComponent::CreateInstantAttachment(const struct FPGame_InstantEffectRepData& repData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_EffectManagerComponent.CreateInstantAttachment");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_EffectManagerComponent.CreateInstantAttachment"));
 
 	struct
 	{
@@ -1062,7 +1062,7 @@ void UPGame_EffectManagerComponent::CreateInstantAttachment(const struct FPGame_
 
 int UPGame_Effectable::GetIntPropertyValue(int propIdInt)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_Effectable.GetIntPropertyValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_Effectable.GetIntPropertyValue"));
 
 	struct
 	{
@@ -1086,7 +1086,7 @@ int UPGame_Effectable::GetIntPropertyValue(int propIdInt)
 
 float UPGame_Effectable::GetFloatPropertyValue(int propIdInt)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_Effectable.GetFloatPropertyValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_Effectable.GetFloatPropertyValue"));
 
 	struct
 	{
@@ -1109,7 +1109,7 @@ float UPGame_Effectable::GetFloatPropertyValue(int propIdInt)
 
 void UPGame_GameInstance::ProvideSonyMatchFeedback(bool bReviewTeamOnly)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_GameInstance.ProvideSonyMatchFeedback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_GameInstance.ProvideSonyMatchFeedback"));
 
 	struct
 	{
@@ -1129,7 +1129,7 @@ void UPGame_GameInstance::ProvideSonyMatchFeedback(bool bReviewTeamOnly)
 
 bool UPGame_GameInstance::HasValidSonyMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_GameInstance.HasValidSonyMatch");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_GameInstance.HasValidSonyMatch"));
 
 	struct
 	{
@@ -1150,7 +1150,7 @@ bool UPGame_GameInstance::HasValidSonyMatch()
 
 void UPGame_GameInstance::EndLoadingScreen(class UWorld* World)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_GameInstance.EndLoadingScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_GameInstance.EndLoadingScreen"));
 
 	struct
 	{
@@ -1170,7 +1170,7 @@ void UPGame_GameInstance::EndLoadingScreen(class UWorld* World)
 
 void UPGame_GameInstance::BeginLoadingScreen(const struct FString& mapName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_GameInstance.BeginLoadingScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_GameInstance.BeginLoadingScreen"));
 
 	struct
 	{
@@ -1188,7 +1188,7 @@ void UPGame_GameInstance::BeginLoadingScreen(const struct FString& mapName)
 
 void APGame_GameMode::OnFubarShutdownTimeout()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_GameMode.OnFubarShutdownTimeout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_GameMode.OnFubarShutdownTimeout"));
 
 	struct
 	{
@@ -1206,7 +1206,7 @@ void APGame_GameMode::OnFubarShutdownTimeout()
 
 void APGame_GameMode::InactivePlayerStateDestroyed(class AActor* InActor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_GameMode.InactivePlayerStateDestroyed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_GameMode.InactivePlayerStateDestroyed"));
 
 	struct
 	{
@@ -1224,7 +1224,7 @@ void APGame_GameMode::InactivePlayerStateDestroyed(class AActor* InActor)
 
 void APGame_GameMode::FinalShutdown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_GameMode.FinalShutdown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_GameMode.FinalShutdown"));
 
 	struct
 	{
@@ -1240,7 +1240,7 @@ void APGame_GameMode::FinalShutdown()
 
 void APGame_GameMode::FinalizeMatchEnded()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_GameMode.FinalizeMatchEnded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_GameMode.FinalizeMatchEnded"));
 
 	struct
 	{
@@ -1256,7 +1256,7 @@ void APGame_GameMode::FinalizeMatchEnded()
 
 void APGame_GameState::OnRep_SonyMatchIdForPlayerFeedback()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_GameState.OnRep_SonyMatchIdForPlayerFeedback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_GameState.OnRep_SonyMatchIdForPlayerFeedback"));
 
 	struct
 	{
@@ -1272,7 +1272,7 @@ void APGame_GameState::OnRep_SonyMatchIdForPlayerFeedback()
 
 void UPGame_LandingPanelJSONHandler::RequestNewJson()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_LandingPanelJSONHandler.RequestNewJson");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_LandingPanelJSONHandler.RequestNewJson"));
 
 	struct
 	{
@@ -1290,7 +1290,7 @@ void UPGame_LandingPanelJSONHandler::RequestNewJson()
 
 void APGame_PlayerController::ServerUpdateSonyMatchOwnerEligibility(bool bIsEligible)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_PlayerController.ServerUpdateSonyMatchOwnerEligibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_PlayerController.ServerUpdateSonyMatchOwnerEligibility"));
 
 	struct
 	{
@@ -1310,7 +1310,7 @@ void APGame_PlayerController::ServerUpdateSonyMatchOwnerEligibility(bool bIsElig
 
 void APGame_PlayerController::ServerUpdateSonyMatchData(const struct FString& InMatchId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_PlayerController.ServerUpdateSonyMatchData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_PlayerController.ServerUpdateSonyMatchData"));
 
 	struct
 	{
@@ -1331,7 +1331,7 @@ void APGame_PlayerController::ServerUpdateSonyMatchData(const struct FString& In
 
 void APGame_PlayerController::ClientUpdateSonyMatchData(const struct FString& InMatchId, const struct FString& InActivityId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_PlayerController.ClientUpdateSonyMatchData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_PlayerController.ClientUpdateSonyMatchData"));
 
 	struct
 	{
@@ -1353,7 +1353,7 @@ void APGame_PlayerController::ClientUpdateSonyMatchData(const struct FString& In
 
 void APGame_PlayerController::ClientGameFubared(EFubarReason Reason)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_PlayerController.ClientGameFubared");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_PlayerController.ClientGameFubared"));
 
 	struct
 	{
@@ -1371,7 +1371,7 @@ void APGame_PlayerController::ClientGameFubared(EFubarReason Reason)
 
 void APGame_PlayerController::ClientCheckSonyMatchOwnerEligibility()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_PlayerController.ClientCheckSonyMatchOwnerEligibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_PlayerController.ClientCheckSonyMatchOwnerEligibility"));
 
 	struct
 	{
@@ -1389,7 +1389,7 @@ void APGame_PlayerController::ClientCheckSonyMatchOwnerEligibility()
 
 void UPGame_PositionHistoryComponent::RemoveTrackedPrimitive(class UPrimitiveComponent* InPrimitive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_PositionHistoryComponent.RemoveTrackedPrimitive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_PositionHistoryComponent.RemoveTrackedPrimitive"));
 
 	struct
 	{
@@ -1410,7 +1410,7 @@ void UPGame_PositionHistoryComponent::RemoveTrackedPrimitive(class UPrimitiveCom
 
 void UPGame_PositionHistoryComponent::AddTrackedPrimitive(class UPrimitiveComponent* InPrimitive, int Priority)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_PositionHistoryComponent.AddTrackedPrimitive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformGameFramework.PGame_PositionHistoryComponent.AddTrackedPrimitive"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_TextChat_C::IsTextChatEnabled(bool* IsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.IsTextChatEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.IsTextChatEnabled"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_TextChat_C::IsTextChatEnabled(bool* IsEnabled)
 
 void UWBP_TextChat_C::HandleTextChatEnabledApplied(bool Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.HandleTextChatEnabledApplied");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.HandleTextChatEnabledApplied"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_TextChat_C::HandleTextChatEnabledApplied(bool Value)
 
 void UWBP_TextChat_C::AddCancelKey(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.AddCancelKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.AddCancelKey"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_TextChat_C::AddCancelKey(const struct FKey& Key)
 
 void UWBP_TextChat_C::ConsumeCancelInputReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.ConsumeCancelInputReleased");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.ConsumeCancelInputReleased"));
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_TextChat_C::ConsumeCancelInputReleased()
 
 void UWBP_TextChat_C::IsAnyCancelKeyDown(bool* AnyKeyDown)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.IsAnyCancelKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.IsAnyCancelKeyDown"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWBP_TextChat_C::IsAnyCancelKeyDown(bool* AnyKeyDown)
 
 void UWBP_TextChat_C::AddAllCancelKeys(TArray<struct FName>* Actions)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.AddAllCancelKeys");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.AddAllCancelKeys"));
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_TextChat_C::AddAllCancelKeys(TArray<struct FName>* Actions)
 
 void UWBP_TextChat_C::ProcessDelayedFocusClear()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.ProcessDelayedFocusClear");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.ProcessDelayedFocusClear"));
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UWBP_TextChat_C::ProcessDelayedFocusClear()
 
 struct FEventReply UWBP_TextChat_C::OnFocusReceived(const struct FGeometry& MyGeometry, const struct FFocusEvent& InFocusEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.OnFocusReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.OnFocusReceived"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ struct FEventReply UWBP_TextChat_C::OnFocusReceived(const struct FGeometry& MyGe
 
 void UWBP_TextChat_C::HandleSubmitTextInput(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.HandleSubmitTextInput");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.HandleSubmitTextInput"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void UWBP_TextChat_C::HandleSubmitTextInput(const struct FText& Text)
 
 bool UWBP_TextChat_C::CanChatInChannel(EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.CanChatInChannel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.CanChatInChannel"));
 
 	struct
 	{
@@ -228,7 +228,7 @@ bool UWBP_TextChat_C::CanChatInChannel(EPUMG_ChatChannel Channel)
 
 void UWBP_TextChat_C::GetDefaultChannel(EPUMG_ChatChannel* DefaultChannel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.GetDefaultChannel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.GetDefaultChannel"));
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UWBP_TextChat_C::GetDefaultChannel(EPUMG_ChatChannel* DefaultChannel)
 
 void UWBP_TextChat_C::HandleChannelChanged(struct FPUMG_ActiveChatChannelData* ChannelData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.HandleChannelChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.HandleChannelChanged"));
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_TextChat_C::HandleChannelChanged(struct FPUMG_ActiveChatChannelData* C
 
 void UWBP_TextChat_C::HandleChatMessage(struct FPUMG_ChatData* Message)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.HandleChatMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.HandleChatMessage"));
 
 	struct
 	{
@@ -292,7 +292,7 @@ void UWBP_TextChat_C::HandleChatMessage(struct FPUMG_ChatData* Message)
 
 void UWBP_TextChat_C::DisableInputListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.DisableInputListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.DisableInputListeners"));
 
 	struct
 	{
@@ -308,7 +308,7 @@ void UWBP_TextChat_C::DisableInputListeners()
 
 void UWBP_TextChat_C::EnableInputListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.EnableInputListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.EnableInputListeners"));
 
 	struct
 	{
@@ -324,7 +324,7 @@ void UWBP_TextChat_C::EnableInputListeners()
 
 void UWBP_TextChat_C::ConsumeCancelInputPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.ConsumeCancelInputPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.ConsumeCancelInputPressed"));
 
 	struct
 	{
@@ -342,7 +342,7 @@ void UWBP_TextChat_C::ConsumeCancelInputPressed()
 
 void UWBP_TextChat_C::SetUIFocus(bool IsFocused)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.SetUIFocus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.SetUIFocus"));
 
 	struct
 	{
@@ -360,7 +360,7 @@ void UWBP_TextChat_C::SetUIFocus(bool IsFocused)
 
 void UWBP_TextChat_C::DisplayTextChat()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.DisplayTextChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.DisplayTextChat"));
 
 	struct
 	{
@@ -380,7 +380,7 @@ void UWBP_TextChat_C::DisplayTextChat()
 
 void UWBP_TextChat_C::FinishTextChat(bool ShouldSubmitText, bool WaitForCancelRelease, struct FText* InputText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.FinishTextChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.FinishTextChat"));
 
 	struct
 	{
@@ -406,7 +406,7 @@ void UWBP_TextChat_C::FinishTextChat(bool ShouldSubmitText, bool WaitForCancelRe
 
 void UWBP_TextChat_C::StartTextChat(bool BeginChatCommand)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.StartTextChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.StartTextChat"));
 
 	struct
 	{
@@ -424,7 +424,7 @@ void UWBP_TextChat_C::StartTextChat(bool BeginChatCommand)
 
 void UWBP_TextChat_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.Construct"));
 
 	struct
 	{
@@ -443,7 +443,7 @@ void UWBP_TextChat_C::Construct()
 
 void UWBP_TextChat_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.Tick"));
 
 	struct
 	{
@@ -465,7 +465,7 @@ void UWBP_TextChat_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime
 
 void UWBP_TextChat_C::OpenTextChat(bool BeginChatCommand)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.OpenTextChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.OpenTextChat"));
 
 	struct
 	{
@@ -486,7 +486,7 @@ void UWBP_TextChat_C::OpenTextChat(bool BeginChatCommand)
 
 void UWBP_TextChat_C::OnTextCommitted(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.OnTextCommitted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.OnTextCommitted"));
 
 	struct
 	{
@@ -506,7 +506,7 @@ void UWBP_TextChat_C::OnTextCommitted(const struct FText& Text, TEnumAsByte<ETex
 
 void UWBP_TextChat_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -524,7 +524,7 @@ void UWBP_TextChat_C::InitializeWidgetNavigation()
 
 void UWBP_TextChat_C::HandleChatMessageReceived(const struct FPUMG_ChatData& ReceivedMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.HandleChatMessageReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.HandleChatMessageReceived"));
 
 	struct
 	{
@@ -544,7 +544,7 @@ void UWBP_TextChat_C::HandleChatMessageReceived(const struct FPUMG_ChatData& Rec
 
 void UWBP_TextChat_C::OnChannelChanged(const struct FPUMG_ActiveChatChannelData& ChatChannelData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.OnChannelChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.OnChannelChanged"));
 
 	struct
 	{
@@ -564,7 +564,7 @@ void UWBP_TextChat_C::OnChannelChanged(const struct FPUMG_ActiveChatChannelData&
 
 void UWBP_TextChat_C::HandleChatChannelJoined(EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.HandleChatChannelJoined");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.HandleChatChannelJoined"));
 
 	struct
 	{
@@ -584,7 +584,7 @@ void UWBP_TextChat_C::HandleChatChannelJoined(EPUMG_ChatChannel Channel)
 
 void UWBP_TextChat_C::HandleChatChannelLeft(EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.HandleChatChannelLeft");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.HandleChatChannelLeft"));
 
 	struct
 	{
@@ -604,7 +604,7 @@ void UWBP_TextChat_C::HandleChatChannelLeft(EPUMG_ChatChannel Channel)
 
 void UWBP_TextChat_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.InitializeWidget"));
 
 	struct
 	{
@@ -624,7 +624,7 @@ void UWBP_TextChat_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_TextChat_C::OnCancelButtonPressed(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.OnCancelButtonPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.OnCancelButtonPressed"));
 
 	struct
 	{
@@ -644,7 +644,7 @@ void UWBP_TextChat_C::OnCancelButtonPressed(const struct FKey& Key)
 
 void UWBP_TextChat_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.OpenTextChatToPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.OpenTextChatToPlayer"));
 
 	struct
 	{
@@ -662,7 +662,7 @@ void UWBP_TextChat_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 
 void UWBP_TextChat_C::HandleCloseTextChat()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.HandleCloseTextChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.HandleCloseTextChat"));
 
 	struct
 	{
@@ -678,7 +678,7 @@ void UWBP_TextChat_C::HandleCloseTextChat()
 
 void UWBP_TextChat_C::HandleTextChatEnabledChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.HandleTextChatEnabledChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.HandleTextChatEnabledChanged"));
 
 	struct
 	{
@@ -694,7 +694,7 @@ void UWBP_TextChat_C::HandleTextChatEnabledChanged()
 
 void UWBP_TextChat_C::ShowTextChat()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.ShowTextChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.ShowTextChat"));
 
 	struct
 	{
@@ -712,7 +712,7 @@ void UWBP_TextChat_C::ShowTextChat()
 
 void UWBP_TextChat_C::OnRadialMenuItemUse(const struct FRadialMenuItemEventInfo& EventInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.OnRadialMenuItemUse");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.OnRadialMenuItemUse"));
 
 	struct
 	{
@@ -732,7 +732,7 @@ void UWBP_TextChat_C::OnRadialMenuItemUse(const struct FRadialMenuItemEventInfo&
 
 void UWBP_TextChat_C::ExecuteUbergraph_WBP_TextChat(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat.WBP_TextChat_C.ExecuteUbergraph_WBP_TextChat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat.WBP_TextChat_C.ExecuteUbergraph_WBP_TextChat"));
 
 	struct
 	{

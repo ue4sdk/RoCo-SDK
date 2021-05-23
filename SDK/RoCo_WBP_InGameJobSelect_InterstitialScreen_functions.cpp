@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::TryToBindSelectionState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.TryToBindSelectionState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.TryToBindSelectionState"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::TryToBindSelectionState()
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::GetSelectionStatusHelper(ESelectionActivityState ExpectedState, bool* TeamActive, bool* PlayerActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.GetSelectionStatusHelper");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.GetSelectionStatusHelper"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::GetSelectionStatusHelper(ESelect
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::ChooseDraftingText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.ChooseDraftingText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.ChooseDraftingText"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::ChooseDraftingText()
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::ChooseBanningText()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.ChooseBanningText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.ChooseBanningText"));
 
 	struct
 	{
@@ -96,7 +96,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::ChooseBanningText()
 
 bool UWBP_InGameJobSelect_InterstitialScreen_C::IsSomeoneBanning()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.IsSomeoneBanning");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.IsSomeoneBanning"));
 
 	struct
 	{
@@ -117,7 +117,7 @@ bool UWBP_InGameJobSelect_InterstitialScreen_C::IsSomeoneBanning()
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.InitializeWidget"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::InitializeWidget(class APUMG_HUD
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::HandlePhaseChanged(const struct FName& CurrentPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.HandlePhaseChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.HandlePhaseChanged"));
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::HandlePhaseChanged(const struct 
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::HandleIntroFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.HandleIntroFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.HandleIntroFinished"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::HandleIntroFinished()
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::IntroInterstitial()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.IntroInterstitial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.IntroInterstitial"));
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::IntroInterstitial()
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::ActivityStatusChanged(class UKSJobSelectionComponent* JobSelectionComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.ActivityStatusChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.ActivityStatusChanged"));
 
 	struct
 	{
@@ -212,7 +212,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::ActivityStatusChanged(class UKSJ
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::EnemyActivittyStatusChanged(class UKSJobSelectionComponent* JobSelectionComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.EnemyActivittyStatusChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.EnemyActivittyStatusChanged"));
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::EnemyActivittyStatusChanged(clas
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::OwningTeamChanged(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.OwningTeamChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.OwningTeamChanged"));
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::OwningTeamChanged(class AKSPlaye
 
 void UWBP_InGameJobSelect_InterstitialScreen_C::ExecuteUbergraph_WBP_InGameJobSelect_InterstitialScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.ExecuteUbergraph_WBP_InGameJobSelect_InterstitialScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.ExecuteUbergraph_WBP_InGameJobSelect_InterstitialScreen"));
 
 	struct
 	{

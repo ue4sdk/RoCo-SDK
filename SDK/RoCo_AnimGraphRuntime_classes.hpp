@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AnimGraphRuntime.AnimNotify_PlayMontageNotify");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimGraphRuntime.AnimNotify_PlayMontageNotify"));
 		return ptr;
 	}
 
@@ -39,7 +39,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AnimGraphRuntime.AnimNotify_PlayMontageNotifyWindow");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimGraphRuntime.AnimNotify_PlayMontageNotifyWindow"));
 		return ptr;
 	}
 
@@ -54,7 +54,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AnimGraphRuntime.AnimSequencerInstance");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimGraphRuntime.AnimSequencerInstance"));
 		return ptr;
 	}
 
@@ -69,7 +69,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AnimGraphRuntime.KismetAnimationLibrary");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimGraphRuntime.KismetAnimationLibrary"));
 		return ptr;
 	}
 
@@ -101,7 +101,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AnimGraphRuntime.PlayMontageCallbackProxy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimGraphRuntime.PlayMontageCallbackProxy"));
 		return ptr;
 	}
 
@@ -122,7 +122,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AnimGraphRuntime.SequencerAnimationSupport");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimGraphRuntime.SequencerAnimationSupport"));
 		return ptr;
 	}
 

@@ -31,7 +31,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_CosmeticItem_Banner.WBP_CosmeticItem_Banner_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_CosmeticItem_Banner.WBP_CosmeticItem_Banner_C"));
 		return ptr;
 	}
 

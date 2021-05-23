@@ -21,7 +21,7 @@ namespace SDK
 
 bool UANotifyState_DropMagazine_C::Received_NotifyEnd(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ANotifyState_DropMagazine.ANotifyState_DropMagazine_C.Received_NotifyEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ANotifyState_DropMagazine.ANotifyState_DropMagazine_C.Received_NotifyEnd"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ bool UANotifyState_DropMagazine_C::Received_NotifyEnd(class USkeletalMeshCompone
 
 bool UANotifyState_DropMagazine_C::Received_NotifyBegin(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation, float TotalDuration)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ANotifyState_DropMagazine.ANotifyState_DropMagazine_C.Received_NotifyBegin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ANotifyState_DropMagazine.ANotifyState_DropMagazine_C.Received_NotifyBegin"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_VerticalTabGroupEntry_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.NavigateConfirm"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_VerticalTabGroupEntry_C::NavigateConfirm()
 
 void UWBP_VerticalTabGroupEntry_C::ClearSelected()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.ClearSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.ClearSelected"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_VerticalTabGroupEntry_C::ClearSelected()
 
 void UWBP_VerticalTabGroupEntry_C::SetViewState(TEnumAsByte<EVerticalTabState> TabState, bool Force)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.SetViewState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.SetViewState"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_VerticalTabGroupEntry_C::SetViewState(TEnumAsByte<EVerticalTabState> T
 
 void UWBP_VerticalTabGroupEntry_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.PreConstruct"));
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_VerticalTabGroupEntry_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_VerticalTabGroupEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.Construct"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_VerticalTabGroupEntry_C::Construct()
 
 void UWBP_VerticalTabGroupEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_VerticalTabGroupEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_
 
 void UWBP_VerticalTabGroupEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_VerticalTabGroupEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_
 
 void UWBP_VerticalTabGroupEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_VerticalTabGroupEntry_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_
 
 void UWBP_VerticalTabGroupEntry_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.GamepadHover"));
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UWBP_VerticalTabGroupEntry_C::GamepadHover()
 
 void UWBP_VerticalTabGroupEntry_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.GamepadUnhover"));
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UWBP_VerticalTabGroupEntry_C::GamepadUnhover()
 
 void UWBP_VerticalTabGroupEntry_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.InitializeWidget"));
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UWBP_VerticalTabGroupEntry_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_VerticalTabGroupEntry_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.Handle Input State Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.Handle Input State Changed"));
 
 	struct
 	{
@@ -235,7 +235,7 @@ void UWBP_VerticalTabGroupEntry_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME
 
 void UWBP_VerticalTabGroupEntry_C::ExecuteUbergraph_WBP_VerticalTabGroupEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.ExecuteUbergraph_WBP_VerticalTabGroupEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.ExecuteUbergraph_WBP_VerticalTabGroupEntry"));
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_VerticalTabGroupEntry_C::ExecuteUbergraph_WBP_VerticalTabGroupEntry(in
 
 void UWBP_VerticalTabGroupEntry_C::OnTabGamepadSelected__DelegateSignature(const struct FName& ViewName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.OnTabGamepadSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.OnTabGamepadSelected__DelegateSignature"));
 
 	struct
 	{
@@ -275,7 +275,7 @@ void UWBP_VerticalTabGroupEntry_C::OnTabGamepadSelected__DelegateSignature(const
 
 void UWBP_VerticalTabGroupEntry_C::OnTabSelected__DelegateSignature(const struct FName& ViewName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.OnTabSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VerticalTabGroupEntry.WBP_VerticalTabGroupEntry_C.OnTabSelected__DelegateSignature"));
 
 	struct
 	{

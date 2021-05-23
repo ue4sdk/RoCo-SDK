@@ -19,7 +19,7 @@ namespace SDK
 
 TArray<class UKSActivityInstance*> UWBP_ChallengeView_DailyContracts_C::GetDisplayingChallenges()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.GetDisplayingChallenges");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.GetDisplayingChallenges"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ TArray<class UKSActivityInstance*> UWBP_ChallengeView_DailyContracts_C::GetDispl
 
 void UWBP_ChallengeView_DailyContracts_C::Get_Daily_Challenge_Cards(TArray<class UWBP_ChallengeEntry_Card_C*>* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.Get Daily Challenge Cards");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.Get Daily Challenge Cards"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_ChallengeView_DailyContracts_C::Get_Daily_Challenge_Cards(TArray<class
 
 void UWBP_ChallengeView_DailyContracts_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_ChallengeView_DailyContracts_C::InitializeWidgetNavigation()
 
 void UWBP_ChallengeView_DailyContracts_C::InitializeChallengeDisplays()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.InitializeChallengeDisplays");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.InitializeChallengeDisplays"));
 
 	struct
 	{
@@ -96,7 +96,7 @@ void UWBP_ChallengeView_DailyContracts_C::InitializeChallengeDisplays()
 
 void UWBP_ChallengeView_DailyContracts_C::DisplayChallenge(int Index, class UKSActivityInstance* ActivityInstance, bool PlayFlourish)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.DisplayChallenge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.DisplayChallenge"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UWBP_ChallengeView_DailyContracts_C::DisplayChallenge(int Index, class UKSA
 
 void UWBP_ChallengeView_DailyContracts_C::DisplayChallengeTimeRemaining(int TimeRemainingSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.DisplayChallengeTimeRemaining");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.DisplayChallengeTimeRemaining"));
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_ChallengeView_DailyContracts_C::DisplayChallengeTimeRemaining(int Time
 
 void UWBP_ChallengeView_DailyContracts_C::ExecuteUbergraph_WBP_ChallengeView_DailyContracts(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.ExecuteUbergraph_WBP_ChallengeView_DailyContracts");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_DailyContracts.WBP_ChallengeView_DailyContracts_C.ExecuteUbergraph_WBP_ChallengeView_DailyContracts"));
 
 	struct
 	{

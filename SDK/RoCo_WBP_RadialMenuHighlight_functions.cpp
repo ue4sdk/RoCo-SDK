@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RadialMenuHighlight_C::SetDisabledAppearance(bool IsDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuHighlight.WBP_RadialMenuHighlight_C.SetDisabledAppearance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuHighlight.WBP_RadialMenuHighlight_C.SetDisabledAppearance"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_RadialMenuHighlight_C::SetDisabledAppearance(bool IsDisabled)
 
 class UMaterialInstanceDynamic* UWBP_RadialMenuHighlight_C::GetHighlightMat()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuHighlight.WBP_RadialMenuHighlight_C.GetHighlightMat");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuHighlight.WBP_RadialMenuHighlight_C.GetHighlightMat"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ class UMaterialInstanceDynamic* UWBP_RadialMenuHighlight_C::GetHighlightMat()
 
 void UWBP_RadialMenuHighlight_C::SetPosition(float Position)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuHighlight.WBP_RadialMenuHighlight_C.SetPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuHighlight.WBP_RadialMenuHighlight_C.SetPosition"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UWBP_RadialMenuHighlight_C::SetPosition(float Position)
 
 void UWBP_RadialMenuHighlight_C::SetWidth(float Width)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuHighlight.WBP_RadialMenuHighlight_C.SetWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuHighlight.WBP_RadialMenuHighlight_C.SetWidth"));
 
 	struct
 	{

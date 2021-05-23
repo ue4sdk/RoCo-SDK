@@ -57,7 +57,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_ProgressionCardSlot_RankedXP.WBP_ProgressionCardSlot_RankedXP_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_ProgressionCardSlot_RankedXP.WBP_ProgressionCardSlot_RankedXP_C"));
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ThrobberHorizontal_C::SetThrobberColor(const struct FSlateColor& NewColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ThrobberHorizontal.WBP_ThrobberHorizontal_C.SetThrobberColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ThrobberHorizontal.WBP_ThrobberHorizontal_C.SetThrobberColor"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ThrobberHorizontal_C::SetThrobberColor(const struct FSlateColor& NewCo
 
 void UWBP_ThrobberHorizontal_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ThrobberHorizontal.WBP_ThrobberHorizontal_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ThrobberHorizontal.WBP_ThrobberHorizontal_C.PreConstruct"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_ThrobberHorizontal_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ThrobberHorizontal_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ThrobberHorizontal.WBP_ThrobberHorizontal_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ThrobberHorizontal.WBP_ThrobberHorizontal_C.Construct"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_ThrobberHorizontal_C::Construct()
 
 void UWBP_ThrobberHorizontal_C::ExecuteUbergraph_WBP_ThrobberHorizontal(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ThrobberHorizontal.WBP_ThrobberHorizontal_C.ExecuteUbergraph_WBP_ThrobberHorizontal");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ThrobberHorizontal.WBP_ThrobberHorizontal_C.ExecuteUbergraph_WBP_ThrobberHorizontal"));
 
 	struct
 	{

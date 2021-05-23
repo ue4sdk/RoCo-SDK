@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_MatchSummary_StatEntry_C::SetStatText(const struct FText& StatName, const struct FText& StatValue)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchSummary_StatEntry.WBP_MatchSummary_StatEntry_C.SetStatText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchSummary_StatEntry.WBP_MatchSummary_StatEntry_C.SetStatText"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_MatchSummary_StatEntry_C::SetStatText(const struct FText& StatName, co
 
 void UWBP_MatchSummary_StatEntry_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchSummary_StatEntry.WBP_MatchSummary_StatEntry_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchSummary_StatEntry.WBP_MatchSummary_StatEntry_C.PreConstruct"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_MatchSummary_StatEntry_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_MatchSummary_StatEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchSummary_StatEntry.WBP_MatchSummary_StatEntry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchSummary_StatEntry.WBP_MatchSummary_StatEntry_C.Construct"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_MatchSummary_StatEntry_C::Construct()
 
 void UWBP_MatchSummary_StatEntry_C::ExecuteUbergraph_WBP_MatchSummary_StatEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_MatchSummary_StatEntry.WBP_MatchSummary_StatEntry_C.ExecuteUbergraph_WBP_MatchSummary_StatEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_MatchSummary_StatEntry.WBP_MatchSummary_StatEntry_C.ExecuteUbergraph_WBP_MatchSummary_StatEntry"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RadialMenuEntry_Divider_Highlight_C::SetDisabledAppearance(bool IsDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry_Divider_Highlight.WBP_RadialMenuEntry_Divider_Highlight_C.SetDisabledAppearance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry_Divider_Highlight.WBP_RadialMenuEntry_Divider_Highlight_C.SetDisabledAppearance"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_RadialMenuEntry_Divider_Highlight_C::SetDisabledAppearance(bool IsDisa
 
 void UWBP_RadialMenuEntry_Divider_Highlight_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry_Divider_Highlight.WBP_RadialMenuEntry_Divider_Highlight_C.OnInitialized");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry_Divider_Highlight.WBP_RadialMenuEntry_Divider_Highlight_C.OnInitialized"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_RadialMenuEntry_Divider_Highlight_C::OnInitialized()
 
 void UWBP_RadialMenuEntry_Divider_Highlight_C::ExecuteUbergraph_WBP_RadialMenuEntry_Divider_Highlight(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry_Divider_Highlight.WBP_RadialMenuEntry_Divider_Highlight_C.ExecuteUbergraph_WBP_RadialMenuEntry_Divider_Highlight");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry_Divider_Highlight.WBP_RadialMenuEntry_Divider_Highlight_C.ExecuteUbergraph_WBP_RadialMenuEntry_Divider_Highlight"));
 
 	struct
 	{

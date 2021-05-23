@@ -19,7 +19,7 @@ namespace SDK
 
 void UFirstTimeLanguageWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.InitializeWidget"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UFirstTimeLanguageWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UFirstTimeLanguageWidget_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.OnShown"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UFirstTimeLanguageWidget_C::OnShown()
 
 void UFirstTimeLanguageWidget_C::BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UFirstTimeLanguageWidget_C::BndEvt__WBP_StandardButtonMedium_K2Node_Compone
 
 void UFirstTimeLanguageWidget_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.PreConstruct"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UFirstTimeLanguageWidget_C::PreConstruct(bool IsDesignTime)
 
 void UFirstTimeLanguageWidget_C::HandleInputState(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.HandleInputState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.HandleInputState"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UFirstTimeLanguageWidget_C::HandleInputState(TEnumAsByte<EPGAME_INPUT_STATE
 
 void UFirstTimeLanguageWidget_C::SaveSetting()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.SaveSetting");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.SaveSetting"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UFirstTimeLanguageWidget_C::SaveSetting()
 
 void UFirstTimeLanguageWidget_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.OnHide"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UFirstTimeLanguageWidget_C::OnHide()
 
 void UFirstTimeLanguageWidget_C::OnSettingSelected()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.OnSettingSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.OnSettingSelected"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UFirstTimeLanguageWidget_C::OnSettingSelected()
 
 void UFirstTimeLanguageWidget_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UFirstTimeLanguageWidget_C::InitializeWidgetNavigation()
 
 void UFirstTimeLanguageWidget_C::ExecuteUbergraph_FirstTimeLanguageWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.ExecuteUbergraph_FirstTimeLanguageWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeLanguageWidget.FirstTimeLanguageWidget_C.ExecuteUbergraph_FirstTimeLanguageWidget"));
 
 	struct
 	{

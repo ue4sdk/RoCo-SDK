@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass NearMissCameraShake_FromLeft.NearMissCameraShake_FromLeft_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass NearMissCameraShake_FromLeft.NearMissCameraShake_FromLeft_C"));
 		return ptr;
 	}
 

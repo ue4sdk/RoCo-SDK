@@ -19,7 +19,7 @@ namespace SDK
 
 void UScoreboardTeamSection_Lobby_C::GetPlayerDisplays(TArray<class UScoreboardPlayerStats_Lobby_C*>* PlayerEntries)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.GetPlayerDisplays");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.GetPlayerDisplays"));
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UScoreboardTeamSection_Lobby_C::GetPlayerDisplays(TArray<class UScoreboardP
 
 void UScoreboardTeamSection_Lobby_C::CreatePlayerEntry(int Index, const struct FPlayerEntryStats& playerStats, class UScoreboardPlayerStats_Lobby_C** PlayerEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.CreatePlayerEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.CreatePlayerEntry"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UScoreboardTeamSection_Lobby_C::CreatePlayerEntry(int Index, const struct F
 
 void UScoreboardTeamSection_Lobby_C::SetIsVictorious(bool IsVictorious)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.SetIsVictorious");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.SetIsVictorious"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UScoreboardTeamSection_Lobby_C::SetIsVictorious(bool IsVictorious)
 
 void UScoreboardTeamSection_Lobby_C::SortPlayers(bool DescOrder, TArray<struct FPlayerEntryStats>* PlayerEntries)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.SortPlayers");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.SortPlayers"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UScoreboardTeamSection_Lobby_C::SortPlayers(bool DescOrder, TArray<struct F
 
 void UScoreboardTeamSection_Lobby_C::CreatePlayerEntries(TArray<struct FPlayerEntryStats>* PlayerEntries)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.CreatePlayerEntries");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.CreatePlayerEntries"));
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UScoreboardTeamSection_Lobby_C::CreatePlayerEntries(TArray<struct FPlayerEn
 
 void UScoreboardTeamSection_Lobby_C::FindPlayerTeam(int* PlayerTeamNum)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.FindPlayerTeam");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.FindPlayerTeam"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UScoreboardTeamSection_Lobby_C::FindPlayerTeam(int* PlayerTeamNum)
 
 void UScoreboardTeamSection_Lobby_C::PopulatePlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.PopulatePlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.PopulatePlayer"));
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UScoreboardTeamSection_Lobby_C::PopulatePlayer()
 
 void UScoreboardTeamSection_Lobby_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.Construct"));
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UScoreboardTeamSection_Lobby_C::Construct()
 
 void UScoreboardTeamSection_Lobby_C::SetColor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.SetColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.SetColor"));
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UScoreboardTeamSection_Lobby_C::SetColor()
 
 void UScoreboardTeamSection_Lobby_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.PreConstruct"));
 
 	struct
 	{
@@ -226,7 +226,7 @@ void UScoreboardTeamSection_Lobby_C::PreConstruct(bool IsDesignTime)
 
 void UScoreboardTeamSection_Lobby_C::ExecuteUbergraph_ScoreboardTeamSection_Lobby(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.ExecuteUbergraph_ScoreboardTeamSection_Lobby");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.ExecuteUbergraph_ScoreboardTeamSection_Lobby"));
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UScoreboardTeamSection_Lobby_C::ExecuteUbergraph_ScoreboardTeamSection_Lobb
 
 void UScoreboardTeamSection_Lobby_C::OnPlayersChanged__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.OnPlayersChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardTeamSection_Lobby.ScoreboardTeamSection_Lobby_C.OnPlayersChanged__DelegateSignature"));
 
 	struct
 	{

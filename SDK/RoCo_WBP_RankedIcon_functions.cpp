@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RankedIcon_C::SetRankedTierTextByTier(const struct FText& RankedText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedIcon.WBP_RankedIcon_C.SetRankedTierTextByTier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedIcon.WBP_RankedIcon_C.SetRankedTierTextByTier"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_RankedIcon_C::SetRankedTierTextByTier(const struct FText& RankedText)
 
 void UWBP_RankedIcon_C::SetRankedLevel(int Level)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedIcon.WBP_RankedIcon_C.SetRankedLevel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedIcon.WBP_RankedIcon_C.SetRankedLevel"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_RankedIcon_C::SetRankedLevel(int Level)
 
 void UWBP_RankedIcon_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedIcon.WBP_RankedIcon_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedIcon.WBP_RankedIcon_C.PreConstruct"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_RankedIcon_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RankedIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedIcon.WBP_RankedIcon_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedIcon.WBP_RankedIcon_C.Construct"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_RankedIcon_C::Construct()
 
 void UWBP_RankedIcon_C::ExecuteUbergraph_WBP_RankedIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedIcon.WBP_RankedIcon_C.ExecuteUbergraph_WBP_RankedIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedIcon.WBP_RankedIcon_C.ExecuteUbergraph_WBP_RankedIcon"));
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_RankedIcon_C::ExecuteUbergraph_WBP_RankedIcon(int EntryPoint)
 
 void UWBP_RankedIcon_C::OnRankTierSet__DelegateSignature(TEnumAsByte<E_RankedTiers> RankTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedIcon.WBP_RankedIcon_C.OnRankTierSet__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedIcon.WBP_RankedIcon_C.OnRankTierSet__DelegateSignature"));
 
 	struct
 	{

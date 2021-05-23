@@ -19,7 +19,7 @@ namespace SDK
 
 void UScoreboardPlayerStats_Lobby_C::Set_Level_From_Player_Info(class UKSPlayerInfo* KS_Player_Info)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.Set Level From Player Info");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.Set Level From Player Info"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UScoreboardPlayerStats_Lobby_C::Set_Level_From_Player_Info(class UKSPlayerI
 
 void UScoreboardPlayerStats_Lobby_C::Set_Avatar_From_Player_Info(class UKSPlayerInfo* KS_Player_Info)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.Set Avatar From Player Info");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.Set Avatar From Player Info"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UScoreboardPlayerStats_Lobby_C::Set_Avatar_From_Player_Info(class UKSPlayer
 
 bool UScoreboardPlayerStats_Lobby_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.NavigateConfirm"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ bool UScoreboardPlayerStats_Lobby_C::NavigateConfirm()
 
 void UScoreboardPlayerStats_Lobby_C::SetColors(bool IsFriendly)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.SetColors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.SetColors"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UScoreboardPlayerStats_Lobby_C::SetColors(bool IsFriendly)
 
 void UScoreboardPlayerStats_Lobby_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.Construct"));
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UScoreboardPlayerStats_Lobby_C::Construct()
 
 void UScoreboardPlayerStats_Lobby_C::SetTeamColor(bool IsFriendlyTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.SetTeamColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.SetTeamColor"));
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UScoreboardPlayerStats_Lobby_C::SetTeamColor(bool IsFriendlyTeam)
 
 void UScoreboardPlayerStats_Lobby_C::SetLocalPlayer(bool IsLocalPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.SetLocalPlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.SetLocalPlayer"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UScoreboardPlayerStats_Lobby_C::SetLocalPlayer(bool IsLocalPlayer)
 
 void UScoreboardPlayerStats_Lobby_C::SetJobIcon(class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.SetJobIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.SetJobIcon"));
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UScoreboardPlayerStats_Lobby_C::SetJobIcon(class UKSJobItem* JobItem)
 
 void UScoreboardPlayerStats_Lobby_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.InitializeWidget"));
 
 	struct
 	{
@@ -194,7 +194,7 @@ void UScoreboardPlayerStats_Lobby_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UScoreboardPlayerStats_Lobby_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UScoreboardPlayerStats_Lobby_C::BndEvt__HitTarget_K2Node_ComponentBoundEven
 
 void UScoreboardPlayerStats_Lobby_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -226,7 +226,7 @@ void UScoreboardPlayerStats_Lobby_C::BndEvt__HitTarget_K2Node_ComponentBoundEven
 
 void UScoreboardPlayerStats_Lobby_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -242,7 +242,7 @@ void UScoreboardPlayerStats_Lobby_C::BndEvt__HitTarget_K2Node_ComponentBoundEven
 
 void UScoreboardPlayerStats_Lobby_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.GamepadHover"));
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UScoreboardPlayerStats_Lobby_C::GamepadHover()
 
 void UScoreboardPlayerStats_Lobby_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.GamepadUnhover"));
 
 	struct
 	{
@@ -276,7 +276,7 @@ void UScoreboardPlayerStats_Lobby_C::GamepadUnhover()
 
 void UScoreboardPlayerStats_Lobby_C::ExecuteUbergraph_ScoreboardPlayerStats_Lobby(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.ExecuteUbergraph_ScoreboardPlayerStats_Lobby");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.ExecuteUbergraph_ScoreboardPlayerStats_Lobby"));
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UScoreboardPlayerStats_Lobby_C::ExecuteUbergraph_ScoreboardPlayerStats_Lobb
 
 void UScoreboardPlayerStats_Lobby_C::OnClicked__DelegateSignature(class UWidget* Widget, int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardPlayerStats_Lobby.ScoreboardPlayerStats_Lobby_C.OnClicked__DelegateSignature"));
 
 	struct
 	{

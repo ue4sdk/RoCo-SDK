@@ -20,7 +20,7 @@ namespace SDK
 
 struct FHitResult UChaosSolverEngineBlueprintLibrary::ConvertPhysicsCollisionToHitResult(const struct FChaosPhysicsCollisionInfo& PhysicsCollision)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosSolverEngine.ChaosSolverEngineBlueprintLibrary.ConvertPhysicsCollisionToHitResult");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosSolverEngine.ChaosSolverEngineBlueprintLibrary.ConvertPhysicsCollisionToHitResult"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ struct FHitResult UChaosSolverEngineBlueprintLibrary::ConvertPhysicsCollisionToH
 
 void AChaosSolverActor::SetSolverActive(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosSolverEngine.ChaosSolverActor.SetSolverActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosSolverEngine.ChaosSolverActor.SetSolverActive"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void AChaosSolverActor::SetSolverActive(bool bActive)
 
 void AChaosSolverActor::SetAsCurrentWorldSolver()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ChaosSolverEngine.ChaosSolverActor.SetAsCurrentWorldSolver");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ChaosSolverEngine.ChaosSolverActor.SetAsCurrentWorldSolver"));
 
 	struct
 	{

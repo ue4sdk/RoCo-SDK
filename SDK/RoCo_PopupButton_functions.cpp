@@ -19,7 +19,7 @@ namespace SDK
 
 bool UPopupButton_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.NavigateBack"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UPopupButton_C::NavigateBack()
 
 void UPopupButton_C::ToggleGamepadCallout(bool Show)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.ToggleGamepadCallout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.ToggleGamepadCallout"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UPopupButton_C::ToggleGamepadCallout(bool Show)
 
 void UPopupButton_C::SetDisplayText(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.SetDisplayText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.SetDisplayText"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UPopupButton_C::SetDisplayText(const struct FText& InText)
 
 void UPopupButton_C::SetButtonCalloutImage(const struct FName& InActionName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.SetButtonCalloutImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.SetButtonCalloutImage"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UPopupButton_C::SetButtonCalloutImage(const struct FName& InActionName)
 
 void UPopupButton_C::SetFontSize(int In_Font_Size)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.SetFontSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.SetFontSize"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UPopupButton_C::SetFontSize(int In_Font_Size)
 
 bool UPopupButton_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.NavigateConfirm"));
 
 	struct
 	{
@@ -141,7 +141,7 @@ bool UPopupButton_C::NavigateConfirm()
 
 void UPopupButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.PreConstruct"));
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UPopupButton_C::PreConstruct(bool IsDesignTime)
 
 void UPopupButton_C::BndEvt__Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.BndEvt__Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.BndEvt__Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UPopupButton_C::BndEvt__Button_K2Node_ComponentBoundEvent_0_OnButtonClicked
 
 void UPopupButton_C::BndEvt__Button_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.BndEvt__Button_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.BndEvt__Button_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UPopupButton_C::BndEvt__Button_K2Node_ComponentBoundEvent_1_OnButtonHoverEv
 
 void UPopupButton_C::BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UPopupButton_C::BndEvt__Button_K2Node_ComponentBoundEvent_2_OnButtonHoverEv
 
 void UPopupButton_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.GamepadHover"));
 
 	struct
 	{
@@ -223,7 +223,7 @@ void UPopupButton_C::GamepadHover()
 
 void UPopupButton_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.GamepadUnhover"));
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UPopupButton_C::GamepadUnhover()
 
 void UPopupButton_C::GamepadPress()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.GamepadPress");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.GamepadPress"));
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UPopupButton_C::GamepadPress()
 
 void UPopupButton_C::OnNavBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.OnNavBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.OnNavBack"));
 
 	struct
 	{
@@ -271,7 +271,7 @@ void UPopupButton_C::OnNavBack()
 
 void UPopupButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.Construct"));
 
 	struct
 	{
@@ -289,7 +289,7 @@ void UPopupButton_C::Construct()
 
 void UPopupButton_C::ExecuteUbergraph_PopupButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.ExecuteUbergraph_PopupButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.ExecuteUbergraph_PopupButton"));
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UPopupButton_C::ExecuteUbergraph_PopupButton(int EntryPoint)
 
 void UPopupButton_C::OnNavigateBackAction__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.OnNavigateBackAction__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.OnNavigateBackAction__DelegateSignature"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void UPopupButton_C::OnNavigateBackAction__DelegateSignature()
 
 void UPopupButton_C::OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PopupButton.PopupButton_C.OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupButton.PopupButton_C.OnClicked__DelegateSignature"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Loadout_C::OnPerkClicked(class UKSItem* PerkItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.OnPerkClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.OnPerkClicked"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_Loadout_C::OnPerkClicked(class UKSItem* PerkItem)
 
 void UWBP_Loadout_C::OnPerkSectionClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.OnPerkSectionClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.OnPerkSectionClicked"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_Loadout_C::OnPerkSectionClicked()
 
 void UWBP_Loadout_C::OnLoadoutClicked(class UKSItem* LoadoutItem, class UWBP_LoadoutButton_C* LoadoutButton)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.OnLoadoutClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.OnLoadoutClicked"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_Loadout_C::OnLoadoutClicked(class UKSItem* LoadoutItem, class UWBP_Loa
 
 void UWBP_Loadout_C::SelectPerk(class UKSItem* PerkItem, bool ShouldUpdate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.SelectPerk");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.SelectPerk"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_Loadout_C::SelectPerk(class UKSItem* PerkItem, bool ShouldUpdate)
 
 bool UWBP_Loadout_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.NavigateBack"));
 
 	struct
 	{
@@ -124,7 +124,7 @@ bool UWBP_Loadout_C::NavigateBack()
 
 struct FEventReply UWBP_Loadout_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.OnKeyDown"));
 
 	struct
 	{
@@ -149,7 +149,7 @@ struct FEventReply UWBP_Loadout_C::OnKeyDown(const struct FGeometry& MyGeometry,
 
 void UWBP_Loadout_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.HandleInputModeChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.HandleInputModeChanged"));
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UWBP_Loadout_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> Inpu
 
 void UWBP_Loadout_C::PopulateStatsPanel()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.PopulateStatsPanel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.PopulateStatsPanel"));
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UWBP_Loadout_C::PopulateStatsPanel()
 
 void UWBP_Loadout_C::SetCurrentIndex(int SelectedTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.SetCurrentIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.SetCurrentIndex"));
 
 	struct
 	{
@@ -203,7 +203,7 @@ void UWBP_Loadout_C::SetCurrentIndex(int SelectedTier)
 
 void UWBP_Loadout_C::CreateWidgetArrays()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.CreateWidgetArrays");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.CreateWidgetArrays"));
 
 	struct
 	{
@@ -222,7 +222,7 @@ void UWBP_Loadout_C::CreateWidgetArrays()
 
 void UWBP_Loadout_C::SwapToItemDisplay(class UKSItem* ItemSelected, bool ShouldSwap)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.SwapToItemDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.SwapToItemDisplay"));
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UWBP_Loadout_C::SwapToItemDisplay(class UKSItem* ItemSelected, bool ShouldS
 
 void UWBP_Loadout_C::Swap_to_Perk_Display(bool ShouldSwap)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.Swap to Perk Display");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.Swap to Perk Display"));
 
 	struct
 	{
@@ -262,7 +262,7 @@ void UWBP_Loadout_C::Swap_to_Perk_Display(bool ShouldSwap)
 
 void UWBP_Loadout_C::PopulatePerkButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.PopulatePerkButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.PopulatePerkButtons"));
 
 	struct
 	{
@@ -280,7 +280,7 @@ void UWBP_Loadout_C::PopulatePerkButtons()
 
 void UWBP_Loadout_C::PopulateItemDetails(class UKSItem* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.PopulateItemDetails");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.PopulateItemDetails"));
 
 	struct
 	{
@@ -298,7 +298,7 @@ void UWBP_Loadout_C::PopulateItemDetails(class UKSItem* Item)
 
 void UWBP_Loadout_C::PopulateRogueDetails()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.PopulateRogueDetails");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.PopulateRogueDetails"));
 
 	struct
 	{
@@ -314,7 +314,7 @@ void UWBP_Loadout_C::PopulateRogueDetails()
 
 void UWBP_Loadout_C::PopulateLoadout()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.PopulateLoadout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.PopulateLoadout"));
 
 	struct
 	{
@@ -332,7 +332,7 @@ void UWBP_Loadout_C::PopulateLoadout()
 
 void UWBP_Loadout_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.PreConstruct"));
 
 	struct
 	{
@@ -350,7 +350,7 @@ void UWBP_Loadout_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Loadout_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.Construct"));
 
 	struct
 	{
@@ -366,7 +366,7 @@ void UWBP_Loadout_C::Construct()
 
 void UWBP_Loadout_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.OnShown"));
 
 	struct
 	{
@@ -384,7 +384,7 @@ void UWBP_Loadout_C::OnShown()
 
 void UWBP_Loadout_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.InitializeWidget"));
 
 	struct
 	{
@@ -402,7 +402,7 @@ void UWBP_Loadout_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Loadout_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.OnBackPrompt"));
 
 	struct
 	{
@@ -418,7 +418,7 @@ void UWBP_Loadout_C::OnBackPrompt()
 
 void UWBP_Loadout_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -436,7 +436,7 @@ void UWBP_Loadout_C::InitializeWidgetNavigation()
 
 void UWBP_Loadout_C::ExecuteUbergraph_WBP_Loadout(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Loadout.WBP_Loadout_C.ExecuteUbergraph_WBP_Loadout");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Loadout.WBP_Loadout_C.ExecuteUbergraph_WBP_Loadout"));
 
 	struct
 	{

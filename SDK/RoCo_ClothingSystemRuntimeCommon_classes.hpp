@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeCommon.ClothConfigCommon");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeCommon.ClothConfigCommon"));
 		return ptr;
 	}
 
@@ -37,7 +37,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeCommon.ClothSharedConfigCommon");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeCommon.ClothSharedConfigCommon"));
 		return ptr;
 	}
 
@@ -52,7 +52,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeCommon.ClothingAssetCustomData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeCommon.ClothingAssetCustomData"));
 		return ptr;
 	}
 
@@ -82,7 +82,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeCommon.ClothingAssetCommon");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeCommon.ClothingAssetCommon"));
 		return ptr;
 	}
 
@@ -101,7 +101,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeCommon.ClothLODDataCommon_Legacy");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeCommon.ClothLODDataCommon_Legacy"));
 		return ptr;
 	}
 

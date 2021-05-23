@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_NeutralBombCarrierPrompts_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.InitializeWidget"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_NeutralBombCarrierPrompts_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_NeutralBombCarrierPrompts_C::EquipmentAdded(class UKSWeaponComponent* AddedEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.EquipmentAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.EquipmentAdded"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_NeutralBombCarrierPrompts_C::EquipmentAdded(class UKSWeaponComponent* 
 
 void UWBP_NeutralBombCarrierPrompts_C::EquipmentRemoved(class UKSWeaponComponent* RemovedEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.EquipmentRemoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.EquipmentRemoved"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_NeutralBombCarrierPrompts_C::EquipmentRemoved(class UKSWeaponComponent
 
 void UWBP_NeutralBombCarrierPrompts_C::Update_Prompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Update Prompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Update Prompt"));
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_NeutralBombCarrierPrompts_C::Update_Prompt()
 
 void UWBP_NeutralBombCarrierPrompts_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.PostSetPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.PostSetPawn"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_NeutralBombCarrierPrompts_C::PostSetPawn()
 
 void UWBP_NeutralBombCarrierPrompts_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.PreClearPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.PreClearPawn"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_NeutralBombCarrierPrompts_C::PreClearPawn()
 
 void UWBP_NeutralBombCarrierPrompts_C::Handle_Interact_Start(class AActor* Target, float Duration)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Handle Interact Start");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Handle Interact Start"));
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UWBP_NeutralBombCarrierPrompts_C::Handle_Interact_Start(class AActor* Targe
 
 void UWBP_NeutralBombCarrierPrompts_C::Handle_Interact_End()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Handle Interact End");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Handle Interact End"));
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UWBP_NeutralBombCarrierPrompts_C::Handle_Interact_End()
 
 void UWBP_NeutralBombCarrierPrompts_C::Handle_Bomb_Hidden_Interactable_Update(class AActor* Interactable)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Handle Bomb Hidden Interactable Update");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Handle Bomb Hidden Interactable Update"));
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UWBP_NeutralBombCarrierPrompts_C::Handle_Bomb_Hidden_Interactable_Update(cl
 
 void UWBP_NeutralBombCarrierPrompts_C::Handle_Tracked_Bomb_Active_Changed(class AKSCharacter* EquipmentOwner, class UKSWeaponComponent* Equipment)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Handle Tracked Bomb Active Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Handle Tracked Bomb Active Changed"));
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UWBP_NeutralBombCarrierPrompts_C::Handle_Tracked_Bomb_Active_Changed(class 
 
 void UWBP_NeutralBombCarrierPrompts_C::OnRoundOver(class AKSGameState* GameState, const struct FRoundResult& RoundResult)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.OnRoundOver");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.OnRoundOver"));
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UWBP_NeutralBombCarrierPrompts_C::OnRoundOver(class AKSGameState* GameState
 
 void UWBP_NeutralBombCarrierPrompts_C::Clear_Current_Tracked_Bomb(bool bSkipPromptUpdate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Clear Current Tracked Bomb");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.Clear Current Tracked Bomb"));
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_NeutralBombCarrierPrompts_C::Clear_Current_Tracked_Bomb(bool bSkipProm
 
 void UWBP_NeutralBombCarrierPrompts_C::ExecuteUbergraph_WBP_NeutralBombCarrierPrompts(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.ExecuteUbergraph_WBP_NeutralBombCarrierPrompts");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.ExecuteUbergraph_WBP_NeutralBombCarrierPrompts"));
 
 	struct
 	{

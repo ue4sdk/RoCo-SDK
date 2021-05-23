@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_EventBundleItem_C::GetStoreItem(class UPUMG_StoreItem** Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.GetStoreItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.GetStoreItem"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_EventBundleItem_C::GetStoreItem(class UPUMG_StoreItem** Return_Value)
 
 void UWBP_EventBundleItem_C::SetVisualDisplayState(bool IsOwned)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.SetVisualDisplayState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.SetVisualDisplayState"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_EventBundleItem_C::SetVisualDisplayState(bool IsOwned)
 
 bool UWBP_EventBundleItem_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.NavigateConfirm"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ bool UWBP_EventBundleItem_C::NavigateConfirm()
 
 void UWBP_EventBundleItem_C::UpdateUnlockButtonDisplay(bool ShouldTryDisplay)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.UpdateUnlockButtonDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.UpdateUnlockButtonDisplay"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWBP_EventBundleItem_C::UpdateUnlockButtonDisplay(bool ShouldTryDisplay)
 
 void UWBP_EventBundleItem_C::PopulateSlot(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.PopulateSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.PopulateSlot"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UWBP_EventBundleItem_C::PopulateSlot(class UPUMG_StoreItem* StoreItem)
 
 void UWBP_EventBundleItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UWBP_EventBundleItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnBu
 
 void UWBP_EventBundleItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_EventBundleItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnBu
 
 void UWBP_EventBundleItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UWBP_EventBundleItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnBu
 
 void UWBP_EventBundleItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_EventBundleItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnBu
 
 void UWBP_EventBundleItem_C::BndEvt__Button_BuyBundle_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__Button_BuyBundle_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.BndEvt__Button_BuyBundle_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_EventBundleItem_C::BndEvt__Button_BuyBundle_K2Node_ComponentBoundEvent
 
 void UWBP_EventBundleItem_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.GamepadHover"));
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_EventBundleItem_C::GamepadHover()
 
 void UWBP_EventBundleItem_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.GamepadUnhover"));
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_EventBundleItem_C::GamepadUnhover()
 
 void UWBP_EventBundleItem_C::OnGamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.OnGamepadConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.OnGamepadConfirm"));
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UWBP_EventBundleItem_C::OnGamepadConfirm()
 
 void UWBP_EventBundleItem_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.InitializeWidget"));
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_EventBundleItem_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_EventBundleItem_C::ExecuteUbergraph_WBP_EventBundleItem(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.ExecuteUbergraph_WBP_EventBundleItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.ExecuteUbergraph_WBP_EventBundleItem"));
 
 	struct
 	{
@@ -294,7 +294,7 @@ void UWBP_EventBundleItem_C::ExecuteUbergraph_WBP_EventBundleItem(int EntryPoint
 
 void UWBP_EventBundleItem_C::OnUnlockButtonClicked__DelegateSignature(class UWBP_EventBundleItem_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.OnUnlockButtonClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.OnUnlockButtonClicked__DelegateSignature"));
 
 	struct
 	{
@@ -314,7 +314,7 @@ void UWBP_EventBundleItem_C::OnUnlockButtonClicked__DelegateSignature(class UWBP
 
 void UWBP_EventBundleItem_C::OnBundleItemClicked__DelegateSignature(class UWBP_EventBundleItem_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBundleItem.WBP_EventBundleItem_C.OnBundleItemClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBundleItem.WBP_EventBundleItem_C.OnBundleItemClicked__DelegateSignature"));
 
 	struct
 	{

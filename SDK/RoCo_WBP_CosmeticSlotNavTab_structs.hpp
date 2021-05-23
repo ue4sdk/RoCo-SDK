@@ -7,9 +7,9 @@
 #endif
 
 #include "RoCo_Basic.hpp"
+#include "RoCo_Killstreak_classes.hpp"
 #include "RoCo_WBP_subscreen_nav_tab_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
-#include "RoCo_Killstreak_classes.hpp"
 
 namespace SDK
 {

@@ -21,7 +21,7 @@ namespace SDK
 
 void AMusicAudioPlayer_C::Append_String_to_Event_Array(const struct FString& AppendStringIn, TArray<struct FString>* EventNameArrayIn, TArray<struct FString>* EventNameArrayOut)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MusicAudioPlayer.MusicAudioPlayer_C.Append String to Event Array");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MusicAudioPlayer.MusicAudioPlayer_C.Append String to Event Array"));
 
 	struct
 	{
@@ -50,7 +50,7 @@ void AMusicAudioPlayer_C::Append_String_to_Event_Array(const struct FString& App
 
 void AMusicAudioPlayer_C::PrependStringToEventArray(const struct FString& PrependStringIn, TArray<struct FString>* EventNameArrayIn, TArray<struct FString>* EventNameArrayOut)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MusicAudioPlayer.MusicAudioPlayer_C.PrependStringToEventArray");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MusicAudioPlayer.MusicAudioPlayer_C.PrependStringToEventArray"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void AMusicAudioPlayer_C::PrependStringToEventArray(const struct FString& Prepen
 
 TArray<struct FString> AMusicAudioPlayer_C::ComposeEventNamePriorityArray(const struct FString& EventName, class UKSAudioPlayerStateParameterData* CurrentStateParameters)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MusicAudioPlayer.MusicAudioPlayer_C.ComposeEventNamePriorityArray");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MusicAudioPlayer.MusicAudioPlayer_C.ComposeEventNamePriorityArray"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ TArray<struct FString> AMusicAudioPlayer_C::ComposeEventNamePriorityArray(const 
 
 TArray<struct FString> AMusicAudioPlayer_C::ComposeBankNamePriorityArray(const struct FString& BankPrefix, class UKSAudioPlayerStateParameterData* CurrentStateParameters)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MusicAudioPlayer.MusicAudioPlayer_C.ComposeBankNamePriorityArray");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MusicAudioPlayer.MusicAudioPlayer_C.ComposeBankNamePriorityArray"));
 
 	struct
 	{

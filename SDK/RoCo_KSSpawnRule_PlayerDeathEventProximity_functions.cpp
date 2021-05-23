@@ -17,7 +17,7 @@ namespace SDK
 
 void UKSSpawnRule_PlayerDeathEventProximity_C::BindToEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSSpawnRule_PlayerDeathEventProximity.KSSpawnRule_PlayerDeathEventProximity_C.BindToEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSSpawnRule_PlayerDeathEventProximity.KSSpawnRule_PlayerDeathEventProximity_C.BindToEvent"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UKSSpawnRule_PlayerDeathEventProximity_C::BindToEvent()
 
 void UKSSpawnRule_PlayerDeathEventProximity_C::On_Player_Death(const struct FCombatEventInfo& EventInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSSpawnRule_PlayerDeathEventProximity.KSSpawnRule_PlayerDeathEventProximity_C.On Player Death");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSSpawnRule_PlayerDeathEventProximity.KSSpawnRule_PlayerDeathEventProximity_C.On Player Death"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UKSSpawnRule_PlayerDeathEventProximity_C::On_Player_Death(const struct FCom
 
 void UKSSpawnRule_PlayerDeathEventProximity_C::ExecuteUbergraph_KSSpawnRule_PlayerDeathEventProximity(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KSSpawnRule_PlayerDeathEventProximity.KSSpawnRule_PlayerDeathEventProximity_C.ExecuteUbergraph_KSSpawnRule_PlayerDeathEventProximity");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KSSpawnRule_PlayerDeathEventProximity.KSSpawnRule_PlayerDeathEventProximity_C.ExecuteUbergraph_KSSpawnRule_PlayerDeathEventProximity"));
 
 	struct
 	{

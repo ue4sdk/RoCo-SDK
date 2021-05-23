@@ -20,7 +20,7 @@ namespace SDK
 
 struct FSoftObjectPath UWBP_StoreItemInterior_C::GetStoreIconForSize(class UPlatformInventoryItem* InventoryItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.GetStoreIconForSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.GetStoreIconForSize"));
 
 	struct
 	{
@@ -43,7 +43,7 @@ struct FSoftObjectPath UWBP_StoreItemInterior_C::GetStoreIconForSize(class UPlat
 
 void UWBP_StoreItemInterior_C::SetRarityDisplay(class UPlatformInventoryItem* InventoryItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.SetRarityDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.SetRarityDisplay"));
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UWBP_StoreItemInterior_C::SetRarityDisplay(class UPlatformInventoryItem* In
 
 void UWBP_StoreItemInterior_C::SetStoreItem(class UKSStorePanelItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.SetStoreItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.SetStoreItem"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_StoreItemInterior_C::SetStoreItem(class UKSStorePanelItem* StoreItem)
 
 void UWBP_StoreItemInterior_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.PreConstruct"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_StoreItemInterior_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_StoreItemInterior_C::OnParentHovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.OnParentHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.OnParentHovered"));
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_StoreItemInterior_C::OnParentHovered()
 
 void UWBP_StoreItemInterior_C::OnParentUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.OnParentUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.OnParentUnhovered"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_StoreItemInterior_C::OnParentUnhovered()
 
 void UWBP_StoreItemInterior_C::ExecuteUbergraph_WBP_StoreItemInterior(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.ExecuteUbergraph_WBP_StoreItemInterior");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemInterior.WBP_StoreItemInterior_C.ExecuteUbergraph_WBP_StoreItemInterior"));
 
 	struct
 	{

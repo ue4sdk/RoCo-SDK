@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Context_Menu_Prompt_C::SetInputState(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.SetInputState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.SetInputState"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_Context_Menu_Prompt_C::SetInputState(TEnumAsByte<EPGAME_INPUT_STATE> I
 
 void UWBP_Context_Menu_Prompt_C::Populate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.Populate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.Populate"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_Context_Menu_Prompt_C::Populate()
 
 void UWBP_Context_Menu_Prompt_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.PreConstruct"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_Context_Menu_Prompt_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Context_Menu_Prompt_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.Construct"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_Context_Menu_Prompt_C::Construct()
 
 void UWBP_Context_Menu_Prompt_C::BndEvt__WBP_StandardButton_02_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__WBP_StandardButton_02_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__WBP_StandardButton_02_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_Context_Menu_Prompt_C::BndEvt__WBP_StandardButton_02_K2Node_ComponentB
 
 void UWBP_Context_Menu_Prompt_C::BndEvt__WBP_StandardButton_02_C_1_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__WBP_StandardButton_02_C_1_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__WBP_StandardButton_02_C_1_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UWBP_Context_Menu_Prompt_C::BndEvt__WBP_StandardButton_02_C_1_K2Node_Compon
 
 void UWBP_Context_Menu_Prompt_C::BndEvt__KBMWithKeyButton_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__KBMWithKeyButton_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__KBMWithKeyButton_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_Context_Menu_Prompt_C::BndEvt__KBMWithKeyButton_K2Node_ComponentBoundE
 
 void UWBP_Context_Menu_Prompt_C::BndEvt__KBMWithKeyButton_K2Node_ComponentBoundEvent_1_OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__KBMWithKeyButton_K2Node_ComponentBoundEvent_1_OnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__KBMWithKeyButton_K2Node_ComponentBoundEvent_1_OnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UWBP_Context_Menu_Prompt_C::BndEvt__KBMWithKeyButton_K2Node_ComponentBoundE
 
 void UWBP_Context_Menu_Prompt_C::BndEvt__KBMButton_K2Node_ComponentBoundEvent_4_OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__KBMButton_K2Node_ComponentBoundEvent_4_OnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__KBMButton_K2Node_ComponentBoundEvent_4_OnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_Context_Menu_Prompt_C::BndEvt__KBMButton_K2Node_ComponentBoundEvent_4_
 
 void UWBP_Context_Menu_Prompt_C::BndEvt__KBMButton_K2Node_ComponentBoundEvent_5_OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__KBMButton_K2Node_ComponentBoundEvent_5_OnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__KBMButton_K2Node_ComponentBoundEvent_5_OnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -211,7 +211,7 @@ void UWBP_Context_Menu_Prompt_C::BndEvt__KBMButton_K2Node_ComponentBoundEvent_5_
 
 void UWBP_Context_Menu_Prompt_C::ExecuteUbergraph_WBP_Context_Menu_Prompt(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.ExecuteUbergraph_WBP_Context_Menu_Prompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.ExecuteUbergraph_WBP_Context_Menu_Prompt"));
 
 	struct
 	{
@@ -229,7 +229,7 @@ void UWBP_Context_Menu_Prompt_C::ExecuteUbergraph_WBP_Context_Menu_Prompt(int En
 
 void UWBP_Context_Menu_Prompt_C::OnPromptClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.OnPromptClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.OnPromptClicked__DelegateSignature"));
 
 	struct
 	{

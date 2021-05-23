@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Hotfix.OnlineHotfixManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Hotfix.OnlineHotfixManager"));
 		return ptr;
 	}
 
@@ -67,7 +67,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class Hotfix.UpdateManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Hotfix.UpdateManager"));
 		return ptr;
 	}
 

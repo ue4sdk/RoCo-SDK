@@ -40,7 +40,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LevelSequenceActor");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LevelSequenceActor"));
 		return ptr;
 	}
 
@@ -79,7 +79,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.DefaultLevelSequenceInstanceData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.DefaultLevelSequenceInstanceData"));
 		return ptr;
 	}
 
@@ -94,7 +94,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LevelSequenceMetaData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LevelSequenceMetaData"));
 		return ptr;
 	}
 
@@ -114,7 +114,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LevelSequence");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LevelSequence"));
 		return ptr;
 	}
 
@@ -134,7 +134,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LevelSequenceBurnInInitSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LevelSequenceBurnInInitSettings"));
 		return ptr;
 	}
 
@@ -153,7 +153,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LevelSequenceBurnInOptions");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LevelSequenceBurnInOptions"));
 		return ptr;
 	}
 
@@ -172,7 +172,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LevelSequenceBurnIn");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LevelSequenceBurnIn"));
 		return ptr;
 	}
 
@@ -191,7 +191,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LevelSequenceDirector");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LevelSequenceDirector"));
 		return ptr;
 	}
 
@@ -208,7 +208,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LegacyLevelSequenceDirectorBlueprint");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LegacyLevelSequenceDirectorBlueprint"));
 		return ptr;
 	}
 
@@ -225,7 +225,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LevelSequencePlayer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LevelSequencePlayer"));
 		return ptr;
 	}
 
@@ -248,7 +248,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class LevelSequence.LevelSequenceMediaController");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LevelSequence.LevelSequenceMediaController"));
 		return ptr;
 	}
 

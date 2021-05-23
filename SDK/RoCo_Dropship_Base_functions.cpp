@@ -17,7 +17,7 @@ namespace SDK
 
 void ADropship_Base_C::BPI_InitializePlane()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropship_Base.Dropship_Base_C.BPI_InitializePlane");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropship_Base.Dropship_Base_C.BPI_InitializePlane"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void ADropship_Base_C::BPI_InitializePlane()
 
 void ADropship_Base_C::BPI_SetupDoor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropship_Base.Dropship_Base_C.BPI_SetupDoor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropship_Base.Dropship_Base_C.BPI_SetupDoor"));
 
 	struct
 	{
@@ -49,7 +49,7 @@ void ADropship_Base_C::BPI_SetupDoor()
 
 void ADropship_Base_C::BPI_OpenDoor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropship_Base.Dropship_Base_C.BPI_OpenDoor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropship_Base.Dropship_Base_C.BPI_OpenDoor"));
 
 	struct
 	{
@@ -67,7 +67,7 @@ void ADropship_Base_C::BPI_OpenDoor()
 
 void ADropship_Base_C::ExecuteUbergraph_Dropship_Base(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Dropship_Base.Dropship_Base_C.ExecuteUbergraph_Dropship_Base");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Dropship_Base.Dropship_Base_C.ExecuteUbergraph_Dropship_Base"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ChallengeEntry_Weekly_C::SetDisplayedChallenge(class UKSActivityInstance* Activity_Instance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Weekly.WBP_ChallengeEntry_Weekly_C.SetDisplayedChallenge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Weekly.WBP_ChallengeEntry_Weekly_C.SetDisplayedChallenge"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ChallengeEntry_Weekly_C::SetDisplayedChallenge(class UKSActivityInstan
 
 void UWBP_ChallengeEntry_Weekly_C::SetVisualState(bool IsComplete)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Weekly.WBP_ChallengeEntry_Weekly_C.SetVisualState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Weekly.WBP_ChallengeEntry_Weekly_C.SetVisualState"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_ChallengeEntry_Weekly_C::SetVisualState(bool IsComplete)
 
 void UWBP_ChallengeEntry_Weekly_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Weekly.WBP_ChallengeEntry_Weekly_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Weekly.WBP_ChallengeEntry_Weekly_C.PreConstruct"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_ChallengeEntry_Weekly_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ChallengeEntry_Weekly_C::ExecuteUbergraph_WBP_ChallengeEntry_Weekly(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Weekly.WBP_ChallengeEntry_Weekly_C.ExecuteUbergraph_WBP_ChallengeEntry_Weekly");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Weekly.WBP_ChallengeEntry_Weekly_C.ExecuteUbergraph_WBP_ChallengeEntry_Weekly"));
 
 	struct
 	{

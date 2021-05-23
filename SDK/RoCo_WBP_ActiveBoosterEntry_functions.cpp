@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ActiveBoosterEntry_C::SetDisplayType()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.SetDisplayType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.SetDisplayType"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_ActiveBoosterEntry_C::SetDisplayType()
 
 void UWBP_ActiveBoosterEntry_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.PreConstruct"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_ActiveBoosterEntry_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ActiveBoosterEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.Construct"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_ActiveBoosterEntry_C::Construct()
 
 void UWBP_ActiveBoosterEntry_C::Set_Item_Properties(const struct FAccountConsumableDetails& Item_Details)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.Set Item Properties");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.Set Item Properties"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_ActiveBoosterEntry_C::Set_Item_Properties(const struct FAccountConsuma
 
 void UWBP_ActiveBoosterEntry_C::ExecuteUbergraph_WBP_ActiveBoosterEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.ExecuteUbergraph_WBP_ActiveBoosterEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterEntry.WBP_ActiveBoosterEntry_C.ExecuteUbergraph_WBP_ActiveBoosterEntry"));
 
 	struct
 	{

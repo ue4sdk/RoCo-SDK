@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass SettingsInfo_SensitivityMouseLookScope.SettingsInfo_SensitivityMouseLookScope_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass SettingsInfo_SensitivityMouseLookScope.SettingsInfo_SensitivityMouseLookScope_C"));
 		return ptr;
 	}
 

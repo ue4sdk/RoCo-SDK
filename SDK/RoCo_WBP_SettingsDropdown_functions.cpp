@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_SettingsDropdown_C::SetPreviewIndex(int Index, bool* Success)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.SetPreviewIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.SetPreviewIndex"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UWBP_SettingsDropdown_C::SetPreviewIndex(int Index, bool* Success)
 
 bool UWBP_SettingsDropdown_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.NavigateBack"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ bool UWBP_SettingsDropdown_C::NavigateBack()
 
 bool UWBP_SettingsDropdown_C::NavigateConfirmPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.NavigateConfirmPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.NavigateConfirmPressed"));
 
 	struct
 	{
@@ -86,7 +86,7 @@ bool UWBP_SettingsDropdown_C::NavigateConfirmPressed()
 
 bool UWBP_SettingsDropdown_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.NavigateConfirm"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ bool UWBP_SettingsDropdown_C::NavigateConfirm()
 
 void UWBP_SettingsDropdown_C::SetDesiredIndex(int Index, bool* Success)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.SetDesiredIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.SetDesiredIndex"));
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_SettingsDropdown_C::SetDesiredIndex(int Index, bool* Success)
 
 void UWBP_SettingsDropdown_C::GetDirtyIndex(int* Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.GetDirtyIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.GetDirtyIndex"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_SettingsDropdown_C::GetDirtyIndex(int* Index)
 
 void UWBP_SettingsDropdown_C::Set_Text_To_Index(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.Set Text To Index");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.Set Text To Index"));
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_SettingsDropdown_C::Set_Text_To_Index(int Index)
 
 void UWBP_SettingsDropdown_C::OnWidgetSettingsInfoSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.OnWidgetSettingsInfoSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.OnWidgetSettingsInfoSet"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_SettingsDropdown_C::OnWidgetSettingsInfoSet()
 
 void UWBP_SettingsDropdown_C::Selection_Made(const struct FText& Text, int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.Selection Made");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.Selection Made"));
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UWBP_SettingsDropdown_C::Selection_Made(const struct FText& Text, int Index
 
 void UWBP_SettingsDropdown_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.InitializeWidget"));
 
 	struct
 	{
@@ -231,7 +231,7 @@ void UWBP_SettingsDropdown_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_SettingsDropdown_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.GamepadHover"));
 
 	struct
 	{
@@ -247,7 +247,7 @@ void UWBP_SettingsDropdown_C::GamepadHover()
 
 void UWBP_SettingsDropdown_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_SettingsDropdown_C::InitializeWidgetNavigation()
 
 void UWBP_SettingsDropdown_C::FocusGroupNavigateDownFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.FocusGroupNavigateDownFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.FocusGroupNavigateDownFailure"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_SettingsDropdown_C::FocusGroupNavigateDownFailure(int FocusGroup)
 
 void UWBP_SettingsDropdown_C::FocusGroupNavigateUpFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.FocusGroupNavigateUpFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.FocusGroupNavigateUpFailure"));
 
 	struct
 	{
@@ -305,7 +305,7 @@ void UWBP_SettingsDropdown_C::FocusGroupNavigateUpFailure(int FocusGroup)
 
 void UWBP_SettingsDropdown_C::OnSettingsInfoValueChanged(bool bChangedExternally)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.OnSettingsInfoValueChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.OnSettingsInfoValueChanged"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void UWBP_SettingsDropdown_C::OnSettingsInfoValueChanged(bool bChangedExternally
 
 void UWBP_SettingsDropdown_C::HoverPreview(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.HoverPreview");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.HoverPreview"));
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UWBP_SettingsDropdown_C::HoverPreview(int Index)
 
 void UWBP_SettingsDropdown_C::SelectionCanceled()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.SelectionCanceled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.SelectionCanceled"));
 
 	struct
 	{
@@ -361,7 +361,7 @@ void UWBP_SettingsDropdown_C::SelectionCanceled()
 
 void UWBP_SettingsDropdown_C::ExecuteUbergraph_WBP_SettingsDropdown(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.ExecuteUbergraph_WBP_SettingsDropdown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsDropdown.WBP_SettingsDropdown_C.ExecuteUbergraph_WBP_SettingsDropdown"));
 
 	struct
 	{

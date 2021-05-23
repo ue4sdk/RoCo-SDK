@@ -19,7 +19,7 @@ namespace SDK
 
 float AMinimapRenderer_C::GetMinimapWidth()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MinimapRenderer.MinimapRenderer_C.GetMinimapWidth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapRenderer.MinimapRenderer_C.GetMinimapWidth"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ float AMinimapRenderer_C::GetMinimapWidth()
 
 void AMinimapRenderer_C::UserConstructionScript()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MinimapRenderer.MinimapRenderer_C.UserConstructionScript");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapRenderer.MinimapRenderer_C.UserConstructionScript"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void AMinimapRenderer_C::UserConstructionScript()
 
 void AMinimapRenderer_C::OnLoaded_1F80951A45CA8E54458A18AA362E670C(class UObject* Loaded)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MinimapRenderer.MinimapRenderer_C.OnLoaded_1F80951A45CA8E54458A18AA362E670C");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapRenderer.MinimapRenderer_C.OnLoaded_1F80951A45CA8E54458A18AA362E670C"));
 
 	struct
 	{
@@ -74,7 +74,7 @@ void AMinimapRenderer_C::OnLoaded_1F80951A45CA8E54458A18AA362E670C(class UObject
 
 void AMinimapRenderer_C::_3_CaptureMinimap()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MinimapRenderer.MinimapRenderer_C.3_CaptureMinimap");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapRenderer.MinimapRenderer_C.3_CaptureMinimap"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void AMinimapRenderer_C::_3_CaptureMinimap()
 
 void AMinimapRenderer_C::_1_LoadMinimapTexture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MinimapRenderer.MinimapRenderer_C.1_LoadMinimapTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapRenderer.MinimapRenderer_C.1_LoadMinimapTexture"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void AMinimapRenderer_C::_1_LoadMinimapTexture()
 
 void AMinimapRenderer_C::_5_ResetVRAM()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MinimapRenderer.MinimapRenderer_C.5_ResetVRAM");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapRenderer.MinimapRenderer_C.5_ResetVRAM"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void AMinimapRenderer_C::_5_ResetVRAM()
 
 void AMinimapRenderer_C::_4_SaveToTexture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MinimapRenderer.MinimapRenderer_C.4_SaveToTexture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapRenderer.MinimapRenderer_C.4_SaveToTexture"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void AMinimapRenderer_C::_4_SaveToTexture()
 
 void AMinimapRenderer_C::_2_PrepareRenderTarget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MinimapRenderer.MinimapRenderer_C.2_PrepareRenderTarget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapRenderer.MinimapRenderer_C.2_PrepareRenderTarget"));
 
 	struct
 	{
@@ -156,7 +156,7 @@ void AMinimapRenderer_C::_2_PrepareRenderTarget()
 
 void AMinimapRenderer_C::ExecuteUbergraph_MinimapRenderer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MinimapRenderer.MinimapRenderer_C.ExecuteUbergraph_MinimapRenderer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapRenderer.MinimapRenderer_C.ExecuteUbergraph_MinimapRenderer"));
 
 	struct
 	{

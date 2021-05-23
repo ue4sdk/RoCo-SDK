@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueMasteryTrackLevel_C::HideEdgeNavCallouts(int TierNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.HideEdgeNavCallouts");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.HideEdgeNavCallouts"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_RogueMasteryTrackLevel_C::HideEdgeNavCallouts(int TierNumber)
 
 void UWBP_RogueMasteryTrackLevel_C::SetSelected(bool Selected)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.SetSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.SetSelected"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_RogueMasteryTrackLevel_C::SetSelected(bool Selected)
 
 void UWBP_RogueMasteryTrackLevel_C::UpdateGamepadPromptState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.UpdateGamepadPromptState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.UpdateGamepadPromptState"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_RogueMasteryTrackLevel_C::UpdateGamepadPromptState()
 
 void UWBP_RogueMasteryTrackLevel_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.OnInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.OnInputStateChanged"));
 
 	struct
 	{
@@ -96,7 +96,7 @@ void UWBP_RogueMasteryTrackLevel_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT
 
 void UWBP_RogueMasteryTrackLevel_C::Set_Tier_Data(const struct FActivityTier& ActivityTier, int CurrentTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.Set Tier Data");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.Set Tier Data"));
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UWBP_RogueMasteryTrackLevel_C::Set_Tier_Data(const struct FActivityTier& Ac
 
 void UWBP_RogueMasteryTrackLevel_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.Construct"));
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_RogueMasteryTrackLevel_C::Construct()
 
 void UWBP_RogueMasteryTrackLevel_C::BndEvt__Button_339_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.BndEvt__Button_339_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.BndEvt__Button_339_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UWBP_RogueMasteryTrackLevel_C::BndEvt__Button_339_K2Node_ComponentBoundEven
 
 void UWBP_RogueMasteryTrackLevel_C::BndEvt__Button_339_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.BndEvt__Button_339_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.BndEvt__Button_339_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_RogueMasteryTrackLevel_C::BndEvt__Button_339_K2Node_ComponentBoundEven
 
 void UWBP_RogueMasteryTrackLevel_C::BndEvt__Button_339_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.BndEvt__Button_339_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.BndEvt__Button_339_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWBP_RogueMasteryTrackLevel_C::BndEvt__Button_339_K2Node_ComponentBoundEven
 
 void UWBP_RogueMasteryTrackLevel_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.GamepadHover"));
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UWBP_RogueMasteryTrackLevel_C::GamepadHover()
 
 void UWBP_RogueMasteryTrackLevel_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.GamepadUnhover"));
 
 	struct
 	{
@@ -214,7 +214,7 @@ void UWBP_RogueMasteryTrackLevel_C::GamepadUnhover()
 
 void UWBP_RogueMasteryTrackLevel_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.InitializeWidget"));
 
 	struct
 	{
@@ -234,7 +234,7 @@ void UWBP_RogueMasteryTrackLevel_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RogueMasteryTrackLevel_C::ExecuteUbergraph_WBP_RogueMasteryTrackLevel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.ExecuteUbergraph_WBP_RogueMasteryTrackLevel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.ExecuteUbergraph_WBP_RogueMasteryTrackLevel"));
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UWBP_RogueMasteryTrackLevel_C::ExecuteUbergraph_WBP_RogueMasteryTrackLevel(
 
 void UWBP_RogueMasteryTrackLevel_C::OnTrackLevelSelected__DelegateSignature(const struct FActivityTier& Activity)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.OnTrackLevelSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackLevel.WBP_RogueMasteryTrackLevel_C.OnTrackLevelSelected__DelegateSignature"));
 
 	struct
 	{

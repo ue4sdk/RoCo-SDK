@@ -17,7 +17,7 @@ namespace SDK
 
 void USwimmingHUD_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SwimmingHUD.SwimmingHUD_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SwimmingHUD.SwimmingHUD_C.Construct"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void USwimmingHUD_C::Construct()
 
 void USwimmingHUD_C::SwimmingChanged(bool bIsSwimming)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SwimmingHUD.SwimmingHUD_C.SwimmingChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SwimmingHUD.SwimmingHUD_C.SwimmingChanged"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void USwimmingHUD_C::SwimmingChanged(bool bIsSwimming)
 
 void USwimmingHUD_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SwimmingHUD.SwimmingHUD_C.PostSetPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SwimmingHUD.SwimmingHUD_C.PostSetPawn"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void USwimmingHUD_C::PostSetPawn()
 
 void USwimmingHUD_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SwimmingHUD.SwimmingHUD_C.PreClearPawn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SwimmingHUD.SwimmingHUD_C.PreClearPawn"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void USwimmingHUD_C::PreClearPawn()
 
 void USwimmingHUD_C::ExecuteUbergraph_SwimmingHUD(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function SwimmingHUD.SwimmingHUD_C.ExecuteUbergraph_SwimmingHUD");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SwimmingHUD.SwimmingHUD_C.ExecuteUbergraph_SwimmingHUD"));
 
 	struct
 	{

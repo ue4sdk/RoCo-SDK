@@ -22,7 +22,7 @@ namespace SDK
 
 void UAutomationUtilsBlueprintLibrary::TakeGameplayAutomationScreenshot(const struct FString& ScreenshotName, float MaxGlobalError, float MaxLocalError, const struct FString& MapNameOverride)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AutomationUtils.AutomationUtilsBlueprintLibrary.TakeGameplayAutomationScreenshot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AutomationUtils.AutomationUtilsBlueprintLibrary.TakeGameplayAutomationScreenshot"));
 
 	struct
 	{

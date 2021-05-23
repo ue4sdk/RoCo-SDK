@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_CustomGameActionLog_C::ClearLog()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.ClearLog");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.ClearLog"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_CustomGameActionLog_C::ClearLog()
 
 void UWBP_CustomGameActionLog_C::AddLog(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.AddLog");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.AddLog"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_CustomGameActionLog_C::AddLog(const struct FText& Text)
 
 void UWBP_CustomGameActionLog_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.PreConstruct"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_CustomGameActionLog_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_CustomGameActionLog_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.Construct"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_CustomGameActionLog_C::Construct()
 
 void UWBP_CustomGameActionLog_C::HandleScrollBottom()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.HandleScrollBottom");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.HandleScrollBottom"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_CustomGameActionLog_C::HandleScrollBottom()
 
 void UWBP_CustomGameActionLog_C::BndEvt__ScrollContainer_K2Node_ComponentBoundEvent_0_OnUserScrolledEvent__DelegateSignature(float CurrentOffset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.BndEvt__ScrollContainer_K2Node_ComponentBoundEvent_0_OnUserScrolledEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.BndEvt__ScrollContainer_K2Node_ComponentBoundEvent_0_OnUserScrolledEvent__DelegateSignature"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_CustomGameActionLog_C::BndEvt__ScrollContainer_K2Node_ComponentBoundEv
 
 void UWBP_CustomGameActionLog_C::ExecuteUbergraph_WBP_CustomGameActionLog(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.ExecuteUbergraph_WBP_CustomGameActionLog");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameActionLog.WBP_CustomGameActionLog_C.ExecuteUbergraph_WBP_CustomGameActionLog"));
 
 	struct
 	{

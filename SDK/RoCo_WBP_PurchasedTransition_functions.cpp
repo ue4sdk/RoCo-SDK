@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_PurchasedTransition_C::GoToAcquisitonScene()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.GoToAcquisitonScene");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.GoToAcquisitonScene"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_PurchasedTransition_C::GoToAcquisitonScene()
 
 void UWBP_PurchasedTransition_C::SetAcquisitionDisplay(class UKSAcquisition* Acquisition)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.SetAcquisitionDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.SetAcquisitionDisplay"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_PurchasedTransition_C::SetAcquisitionDisplay(class UKSAcquisition* Acq
 
 void UWBP_PurchasedTransition_C::SequenceEvent_1()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.SequenceEvent_1");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.SequenceEvent_1"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_PurchasedTransition_C::SequenceEvent_1()
 
 void UWBP_PurchasedTransition_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.InitializeWidget"));
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_PurchasedTransition_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_PurchasedTransition_C::OnAcceptPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.OnAcceptPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.OnAcceptPrompt"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_PurchasedTransition_C::OnAcceptPrompt()
 
 void UWBP_PurchasedTransition_C::OnAnimationFinished(class UWidgetAnimation* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.OnAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.OnAnimationFinished"));
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UWBP_PurchasedTransition_C::OnAnimationFinished(class UWidgetAnimation* Ani
 
 void UWBP_PurchasedTransition_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.OnShown"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWBP_PurchasedTransition_C::OnShown()
 
 void UWBP_PurchasedTransition_C::ExecuteUbergraph_WBP_PurchasedTransition(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.ExecuteUbergraph_WBP_PurchasedTransition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.ExecuteUbergraph_WBP_PurchasedTransition"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_PurchasedTransition_C::ExecuteUbergraph_WBP_PurchasedTransition(int En
 
 void UWBP_PurchasedTransition_C::TransitionFinished__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.TransitionFinished__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchasedTransition.WBP_PurchasedTransition_C.TransitionFinished__DelegateSignature"));
 
 	struct
 	{

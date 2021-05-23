@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_Progression_C::OnPlayerLevelUp(const struct FActivityTier& NewTier, class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.OnPlayerLevelUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.OnPlayerLevelUp"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UWBP_Progression_C::OnPlayerLevelUp(const struct FActivityTier& NewTier, cl
 
 void UWBP_Progression_C::HandleBattlePassActivitiesReady()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.HandleBattlePassActivitiesReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.HandleBattlePassActivitiesReady"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_Progression_C::HandleBattlePassActivitiesReady()
 
 void UWBP_Progression_C::HandleEventChallengeProgression(const struct FPlayerProgression& PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.HandleEventChallengeProgression");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.HandleEventChallengeProgression"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_Progression_C::HandleEventChallengeProgression(const struct FPlayerPro
 
 void UWBP_Progression_C::HandleBattlePassXpProgression(const struct FPlayerProgression& Progression)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.HandleBattlePassXpProgression");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.HandleBattlePassXpProgression"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_Progression_C::HandleBattlePassXpProgression(const struct FPlayerProgr
 
 void UWBP_Progression_C::HandleProgressionData(TArray<struct FPlayerProgression>* PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.HandleProgressionData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.HandleProgressionData"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UWBP_Progression_C::HandleProgressionData(TArray<struct FPlayerProgression>
 
 void UWBP_Progression_C::HandleMiniBattlePassProgressionRecieved(const struct FPlayerProgression& PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.HandleMiniBattlePassProgressionRecieved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.HandleMiniBattlePassProgressionRecieved"));
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UWBP_Progression_C::HandleMiniBattlePassProgressionRecieved(const struct FP
 
 void UWBP_Progression_C::OnMercLevelUp(class UKSActivityInstance* ActivityInstance, const struct FActivityTier& NewTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.OnMercLevelUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.OnMercLevelUp"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_Progression_C::OnMercLevelUp(class UKSActivityInstance* ActivityInstan
 
 void UWBP_Progression_C::ResetVisualState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.ResetVisualState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.ResetVisualState"));
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UWBP_Progression_C::ResetVisualState()
 
 void UWBP_Progression_C::HandleRogueMasteryProgression(const struct FPlayerProgression& PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.HandleRogueMasteryProgression");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.HandleRogueMasteryProgression"));
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UWBP_Progression_C::HandleRogueMasteryProgression(const struct FPlayerProgr
 
 void UWBP_Progression_C::HandleReputationProgression(const struct FPlayerProgression& PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.HandleReputationProgression");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.HandleReputationProgression"));
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWBP_Progression_C::HandleReputationProgression(const struct FPlayerProgres
 
 void UWBP_Progression_C::HandlePlayerXpProgression(const struct FPlayerProgression& Progression)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.HandlePlayerXpProgression");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.HandlePlayerXpProgression"));
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_Progression_C::HandlePlayerXpProgression(const struct FPlayerProgressi
 
 void UWBP_Progression_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.Construct"));
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UWBP_Progression_C::Construct()
 
 void UWBP_Progression_C::StartAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.StartAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.StartAnimation"));
 
 	struct
 	{
@@ -271,7 +271,7 @@ void UWBP_Progression_C::StartAnimation()
 
 void UWBP_Progression_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.PreConstruct"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UWBP_Progression_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Progression_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.InitializeWidget"));
 
 	struct
 	{
@@ -309,7 +309,7 @@ void UWBP_Progression_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Progression_C::IncrementDelay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.IncrementDelay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.IncrementDelay"));
 
 	struct
 	{
@@ -327,7 +327,7 @@ void UWBP_Progression_C::IncrementDelay()
 
 void UWBP_Progression_C::ExecuteUbergraph_WBP_Progression(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Progression.WBP_Progression_C.ExecuteUbergraph_WBP_Progression");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Progression.WBP_Progression_C.ExecuteUbergraph_WBP_Progression"));
 
 	struct
 	{

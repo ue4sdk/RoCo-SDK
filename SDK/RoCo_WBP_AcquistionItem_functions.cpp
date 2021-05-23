@@ -21,7 +21,7 @@ namespace SDK
 
 void UWBP_AcquistionItem_C::OnSlotHovered(const struct FCosmeticSlotDetails& CosmeticSlotDetails, bool IsGamepad, class UWBP_KSCosmeticItemDisplay_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AcquistionItem.WBP_AcquistionItem_C.OnSlotHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AcquistionItem.WBP_AcquistionItem_C.OnSlotHovered"));
 
 	struct
 	{
@@ -46,7 +46,7 @@ void UWBP_AcquistionItem_C::OnSlotHovered(const struct FCosmeticSlotDetails& Cos
 
 void UWBP_AcquistionItem_C::OnSlotClicked(class UWBP_KSCosmeticItemDisplay_C* Widget, const struct FCosmeticSlotDetails& CosmeticSlotDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AcquistionItem.WBP_AcquistionItem_C.OnSlotClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AcquistionItem.WBP_AcquistionItem_C.OnSlotClicked"));
 
 	struct
 	{
@@ -68,7 +68,7 @@ void UWBP_AcquistionItem_C::OnSlotClicked(class UWBP_KSCosmeticItemDisplay_C* Wi
 
 void UWBP_AcquistionItem_C::SetSlotItem(class UAcquisitionItemData* SlotItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AcquistionItem.WBP_AcquistionItem_C.SetSlotItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AcquistionItem.WBP_AcquistionItem_C.SetSlotItem"));
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UWBP_AcquistionItem_C::SetSlotItem(class UAcquisitionItemData* SlotItem)
 
 void UWBP_AcquistionItem_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AcquistionItem.WBP_AcquistionItem_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AcquistionItem.WBP_AcquistionItem_C.InitializeWidget"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UWBP_AcquistionItem_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_AcquistionItem_C::ExecuteUbergraph_WBP_AcquistionItem(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AcquistionItem.WBP_AcquistionItem_C.ExecuteUbergraph_WBP_AcquistionItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AcquistionItem.WBP_AcquistionItem_C.ExecuteUbergraph_WBP_AcquistionItem"));
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_AcquistionItem_C::ExecuteUbergraph_WBP_AcquistionItem(int EntryPoint)
 
 void UWBP_AcquistionItem_C::OnSlotHover__DelegateSignature(class UAcquisitionItemData* AcquisitionItem, class UKSWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AcquistionItem.WBP_AcquistionItem_C.OnSlotHover__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AcquistionItem.WBP_AcquistionItem_C.OnSlotHover__DelegateSignature"));
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_AcquistionItem_C::OnSlotHover__DelegateSignature(class UAcquisitionIte
 
 void UWBP_AcquistionItem_C::OnSlotSelected__DelegateSignature(class UAcquisitionItemData* AcquisitionItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AcquistionItem.WBP_AcquistionItem_C.OnSlotSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AcquistionItem.WBP_AcquistionItem_C.OnSlotSelected__DelegateSignature"));
 
 	struct
 	{

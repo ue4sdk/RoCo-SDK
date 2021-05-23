@@ -37,7 +37,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass GameTouchHUDWidget.GameTouchHUDWidget_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass GameTouchHUDWidget.GameTouchHUDWidget_C"));
 		return ptr;
 	}
 

@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAcousticPortal");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAcousticPortal"));
 		return ptr;
 	}
 
@@ -46,7 +46,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkPortalComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkPortalComponent"));
 		return ptr;
 	}
 
@@ -64,7 +64,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAudioType");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAudioType"));
 		return ptr;
 	}
 
@@ -79,7 +79,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAcousticTexture");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAcousticTexture"));
 		return ptr;
 	}
 
@@ -100,7 +100,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAmbientSound");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAmbientSound"));
 		return ptr;
 	}
 
@@ -121,7 +121,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAndroidInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAndroidInitializationSettings"));
 		return ptr;
 	}
 
@@ -139,7 +139,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkPlatformInfo"));
 		return ptr;
 	}
 
@@ -154,7 +154,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAndroidPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAndroidPlatformInfo"));
 		return ptr;
 	}
 
@@ -170,7 +170,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAssetData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAssetData"));
 		return ptr;
 	}
 
@@ -187,7 +187,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAssetDataWithMedia");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAssetDataWithMedia"));
 		return ptr;
 	}
 
@@ -203,7 +203,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAssetPlatformData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAssetPlatformData"));
 		return ptr;
 	}
 
@@ -220,7 +220,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAssetBase");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAssetBase"));
 		return ptr;
 	}
 
@@ -240,7 +240,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAudioBank");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAudioBank"));
 		return ptr;
 	}
 
@@ -259,7 +259,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAssetDataSwitchContainerData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAssetDataSwitchContainerData"));
 		return ptr;
 	}
 
@@ -276,7 +276,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAssetDataSwitchContainer");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAssetDataSwitchContainer"));
 		return ptr;
 	}
 
@@ -298,7 +298,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAudioEventData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAudioEventData"));
 		return ptr;
 	}
 
@@ -319,7 +319,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAudioEvent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAudioEvent"));
 		return ptr;
 	}
 
@@ -342,7 +342,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkGameObject");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkGameObject"));
 		return ptr;
 	}
 
@@ -388,7 +388,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkComponent"));
 		return ptr;
 	}
 
@@ -423,7 +423,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAudioInputComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAudioInputComponent"));
 		return ptr;
 	}
 
@@ -441,7 +441,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkAuxBus");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkAuxBus"));
 		return ptr;
 	}
 
@@ -471,7 +471,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkCheckBox");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkCheckBox"));
 		return ptr;
 	}
 
@@ -496,7 +496,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkChinookPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkChinookPlatformInfo"));
 		return ptr;
 	}
 
@@ -511,7 +511,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkMPXPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkMPXPlatformInfo"));
 		return ptr;
 	}
 
@@ -526,7 +526,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkXSXPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkXSXPlatformInfo"));
 		return ptr;
 	}
 
@@ -541,7 +541,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkGameplayStatics");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkGameplayStatics"));
 		return ptr;
 	}
 
@@ -616,7 +616,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkCallbackInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkCallbackInfo"));
 		return ptr;
 	}
 
@@ -633,7 +633,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkEventCallbackInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkEventCallbackInfo"));
 		return ptr;
 	}
 
@@ -649,7 +649,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkMIDIEventCallbackInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkMIDIEventCallbackInfo"));
 		return ptr;
 	}
 
@@ -678,7 +678,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkMarkerCallbackInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkMarkerCallbackInfo"));
 		return ptr;
 	}
 
@@ -699,7 +699,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkDurationCallbackInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkDurationCallbackInfo"));
 		return ptr;
 	}
 
@@ -719,7 +719,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkMusicSyncCallbackInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkMusicSyncCallbackInfo"));
 		return ptr;
 	}
 
@@ -743,7 +743,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkGeometryComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkGeometryComponent"));
 		return ptr;
 	}
 
@@ -764,7 +764,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkGroupValue");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkGroupValue"));
 		return ptr;
 	}
 
@@ -782,7 +782,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkHololensInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkHololensInitializationSettings"));
 		return ptr;
 	}
 
@@ -799,7 +799,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkHololensPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkHololensPlatformInfo"));
 		return ptr;
 	}
 
@@ -815,7 +815,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkInitBankAssetData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkInitBankAssetData"));
 		return ptr;
 	}
 
@@ -832,7 +832,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkInitBank");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkInitBank"));
 		return ptr;
 	}
 
@@ -853,7 +853,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkIOSInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkIOSInitializationSettings"));
 		return ptr;
 	}
 
@@ -868,7 +868,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkIOSPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkIOSPlatformInfo"));
 		return ptr;
 	}
 
@@ -883,7 +883,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkItemBoolPropertiesConv");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkItemBoolPropertiesConv"));
 		return ptr;
 	}
 
@@ -904,7 +904,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkItemBoolProperties");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkItemBoolProperties"));
 		return ptr;
 	}
 
@@ -923,7 +923,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkItemPropertiesConv");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkItemPropertiesConv"));
 		return ptr;
 	}
 
@@ -944,7 +944,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkItemProperties");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkItemProperties"));
 		return ptr;
 	}
 
@@ -971,7 +971,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkLateReverbComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkLateReverbComponent"));
 		return ptr;
 	}
 
@@ -989,7 +989,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkLinuxInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkLinuxInitializationSettings"));
 		return ptr;
 	}
 
@@ -1006,7 +1006,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkLinuxPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkLinuxPlatformInfo"));
 		return ptr;
 	}
 
@@ -1024,7 +1024,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkLuminInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkLuminInitializationSettings"));
 		return ptr;
 	}
 
@@ -1041,7 +1041,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkLuminPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkLuminPlatformInfo"));
 		return ptr;
 	}
 
@@ -1059,7 +1059,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkMacInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkMacInitializationSettings"));
 		return ptr;
 	}
 
@@ -1076,7 +1076,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkMacPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkMacPlatformInfo"));
 		return ptr;
 	}
 
@@ -1094,7 +1094,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkMediaAssetData");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkMediaAssetData"));
 		return ptr;
 	}
 
@@ -1114,7 +1114,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkMediaAsset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkMediaAsset"));
 		return ptr;
 	}
 
@@ -1129,7 +1129,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkLocalizedMediaAsset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkLocalizedMediaAsset"));
 		return ptr;
 	}
 
@@ -1144,7 +1144,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkExternalMediaAsset");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkExternalMediaAsset"));
 		return ptr;
 	}
 
@@ -1159,7 +1159,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkPellegrinoPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkPellegrinoPlatformInfo"));
 		return ptr;
 	}
 
@@ -1174,7 +1174,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkDPXPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkDPXPlatformInfo"));
 		return ptr;
 	}
 
@@ -1189,7 +1189,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkPS5PlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkPS5PlatformInfo"));
 		return ptr;
 	}
 
@@ -1207,7 +1207,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkPS4InitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkPS4InitializationSettings"));
 		return ptr;
 	}
 
@@ -1224,7 +1224,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkPS4PlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkPS4PlatformInfo"));
 		return ptr;
 	}
 
@@ -1243,7 +1243,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkPS5InitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkPS5InitializationSettings"));
 		return ptr;
 	}
 
@@ -1258,7 +1258,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkDPXInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkDPXInitializationSettings"));
 		return ptr;
 	}
 
@@ -1282,7 +1282,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkReverbVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkReverbVolume"));
 		return ptr;
 	}
 
@@ -1303,7 +1303,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkRoomComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkRoomComponent"));
 		return ptr;
 	}
 
@@ -1318,7 +1318,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkRtpc");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkRtpc"));
 		return ptr;
 	}
 
@@ -1354,7 +1354,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkSettings"));
 		return ptr;
 	}
 
@@ -1377,7 +1377,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkSettingsPerUser");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkSettingsPerUser"));
 		return ptr;
 	}
 
@@ -1412,7 +1412,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkSlider");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkSlider"));
 		return ptr;
 	}
 
@@ -1442,7 +1442,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkSpatialAudioVolume");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkSpatialAudioVolume"));
 		return ptr;
 	}
 
@@ -1462,7 +1462,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkSpotReflector");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkSpotReflector"));
 		return ptr;
 	}
 
@@ -1477,7 +1477,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkStateValue");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkStateValue"));
 		return ptr;
 	}
 
@@ -1498,7 +1498,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkSurfaceReflectorSetComponent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkSurfaceReflectorSetComponent"));
 		return ptr;
 	}
 
@@ -1520,7 +1520,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkSwitchInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkSwitchInitializationSettings"));
 		return ptr;
 	}
 
@@ -1537,7 +1537,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkSwitchPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkSwitchPlatformInfo"));
 		return ptr;
 	}
 
@@ -1552,7 +1552,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkSwitchValue");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkSwitchValue"));
 		return ptr;
 	}
 
@@ -1567,7 +1567,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkTrigger");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkTrigger"));
 		return ptr;
 	}
 
@@ -1588,7 +1588,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkTVOSInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkTVOSInitializationSettings"));
 		return ptr;
 	}
 
@@ -1603,7 +1603,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkTVOSPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkTVOSPlatformInfo"));
 		return ptr;
 	}
 
@@ -1618,7 +1618,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWaapiCalls");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWaapiCalls"));
 		return ptr;
 	}
 
@@ -1643,7 +1643,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.SAkWaapiFieldNamesConv");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.SAkWaapiFieldNamesConv"));
 		return ptr;
 	}
 
@@ -1661,7 +1661,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWaapiJsonManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWaapiJsonManager"));
 		return ptr;
 	}
 
@@ -1691,7 +1691,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWaapiUriConv");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWaapiUriConv"));
 		return ptr;
 	}
 
@@ -1712,7 +1712,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWindowsInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWindowsInitializationSettings"));
 		return ptr;
 	}
 
@@ -1729,7 +1729,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWin32PlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWin32PlatformInfo"));
 		return ptr;
 	}
 
@@ -1744,7 +1744,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWin64PlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWin64PlatformInfo"));
 		return ptr;
 	}
 
@@ -1759,7 +1759,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWindowsPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWindowsPlatformInfo"));
 		return ptr;
 	}
 
@@ -1777,7 +1777,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWinGDKInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWinGDKInitializationSettings"));
 		return ptr;
 	}
 
@@ -1794,7 +1794,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWinAnvilInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWinAnvilInitializationSettings"));
 		return ptr;
 	}
 
@@ -1809,7 +1809,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWinGDKPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWinGDKPlatformInfo"));
 		return ptr;
 	}
 
@@ -1824,7 +1824,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWinAnvilPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWinAnvilPlatformInfo"));
 		return ptr;
 	}
 
@@ -1842,7 +1842,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWwiseTree");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWwiseTree"));
 		return ptr;
 	}
 
@@ -1864,7 +1864,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkWwiseTreeSelector");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkWwiseTreeSelector"));
 		return ptr;
 	}
 
@@ -1884,7 +1884,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkXboxOneGDKInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkXboxOneGDKInitializationSettings"));
 		return ptr;
 	}
 
@@ -1901,7 +1901,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkXboxOneAnvilInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkXboxOneAnvilInitializationSettings"));
 		return ptr;
 	}
 
@@ -1916,7 +1916,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkXboxOneGDKPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkXboxOneGDKPlatformInfo"));
 		return ptr;
 	}
 
@@ -1931,7 +1931,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkXboxOneAnvilPlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkXboxOneAnvilPlatformInfo"));
 		return ptr;
 	}
 
@@ -1951,7 +1951,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkXboxOneInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkXboxOneInitializationSettings"));
 		return ptr;
 	}
 
@@ -1968,7 +1968,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkXboxOnePlatformInfo");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkXboxOnePlatformInfo"));
 		return ptr;
 	}
 
@@ -1988,7 +1988,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkXSXInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkXSXInitializationSettings"));
 		return ptr;
 	}
 
@@ -2005,7 +2005,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.AkMPXInitializationSettings");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.AkMPXInitializationSettings"));
 		return ptr;
 	}
 
@@ -2023,7 +2023,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.InterpTrackAkAudioEvent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.InterpTrackAkAudioEvent"));
 		return ptr;
 	}
 
@@ -2042,7 +2042,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.InterpTrackAkAudioRTPC");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.InterpTrackAkAudioRTPC"));
 		return ptr;
 	}
 
@@ -2059,7 +2059,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.InterpTrackInstAkAudioEvent");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.InterpTrackInstAkAudioEvent"));
 		return ptr;
 	}
 
@@ -2076,7 +2076,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.InterpTrackInstAkAudioRTPC");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.InterpTrackInstAkAudioRTPC"));
 		return ptr;
 	}
 
@@ -2104,7 +2104,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.MovieSceneAkAudioEventSection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.MovieSceneAkAudioEventSection"));
 		return ptr;
 	}
 
@@ -2122,7 +2122,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.MovieSceneAkTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.MovieSceneAkTrack"));
 		return ptr;
 	}
 
@@ -2137,7 +2137,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.MovieSceneAkAudioEventTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.MovieSceneAkAudioEventTrack"));
 		return ptr;
 	}
 
@@ -2157,7 +2157,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.MovieSceneAkAudioRTPCSection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.MovieSceneAkAudioRTPCSection"));
 		return ptr;
 	}
 
@@ -2172,7 +2172,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.MovieSceneAkAudioRTPCTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.MovieSceneAkAudioRTPCTrack"));
 		return ptr;
 	}
 
@@ -2189,7 +2189,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.PostEventAsync");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.PostEventAsync"));
 		return ptr;
 	}
 
@@ -2209,7 +2209,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class AkAudio.PostEventAtLocationAsync");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AkAudio.PostEventAtLocationAsync"));
 		return ptr;
 	}
 

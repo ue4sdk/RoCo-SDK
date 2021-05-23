@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_news_card_C::SetCardData(class UKSWhatsNewPanel* CardData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_card.WBP_news_card_C.SetCardData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_card.WBP_news_card_C.SetCardData"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_news_card_C::SetCardData(class UKSWhatsNewPanel* CardData)
 
 void UWBP_news_card_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_card.WBP_news_card_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_card.WBP_news_card_C.PreConstruct"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_news_card_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_news_card_C::ExecuteUbergraph_WBP_news_card(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_card.WBP_news_card_C.ExecuteUbergraph_WBP_news_card");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_card.WBP_news_card_C.ExecuteUbergraph_WBP_news_card"));
 
 	struct
 	{

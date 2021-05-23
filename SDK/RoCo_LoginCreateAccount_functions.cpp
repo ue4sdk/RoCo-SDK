@@ -19,7 +19,7 @@ namespace SDK
 
 void ULoginCreateAccount_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.InitializeWidget"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void ULoginCreateAccount_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void ULoginCreateAccount_C::Handle_Text_Committed(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.Handle Text Committed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.Handle Text Committed"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void ULoginCreateAccount_C::Handle_Text_Committed(const struct FText& Text, TEnu
 
 void ULoginCreateAccount_C::BndEvt__NextButton_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.BndEvt__NextButton_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.BndEvt__NextButton_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void ULoginCreateAccount_C::BndEvt__NextButton_K2Node_ComponentBoundEvent_6_OnCl
 
 void ULoginCreateAccount_C::Handle_Text_Changed(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.Handle Text Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.Handle Text Changed"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ void ULoginCreateAccount_C::Handle_Text_Changed(const struct FText& Text)
 
 void ULoginCreateAccount_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -118,7 +118,7 @@ void ULoginCreateAccount_C::InitializeWidgetNavigation()
 
 void ULoginCreateAccount_C::Handle_Login_Error(const struct FText& MessageText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.Handle Login Error");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.Handle Login Error"));
 
 	struct
 	{
@@ -136,7 +136,7 @@ void ULoginCreateAccount_C::Handle_Login_Error(const struct FText& MessageText)
 
 void ULoginCreateAccount_C::Submit_New_Account()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.Submit New Account");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.Submit New Account"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ void ULoginCreateAccount_C::Submit_New_Account()
 
 void ULoginCreateAccount_C::Handle_Checkbox_Changed(bool Checked)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.Handle Checkbox Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.Handle Checkbox Changed"));
 
 	struct
 	{
@@ -172,7 +172,7 @@ void ULoginCreateAccount_C::Handle_Checkbox_Changed(bool Checked)
 
 void ULoginCreateAccount_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.OnShown"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ void ULoginCreateAccount_C::OnShown()
 
 void ULoginCreateAccount_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -208,7 +208,7 @@ void ULoginCreateAccount_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_0_OnCl
 
 void ULoginCreateAccount_C::Gamepad_Select_Email()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.Gamepad Select Email");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.Gamepad Select Email"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ void ULoginCreateAccount_C::Gamepad_Select_Email()
 
 void ULoginCreateAccount_C::Gamepad_Select_Repeat_Password()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.Gamepad Select Repeat Password");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.Gamepad Select Repeat Password"));
 
 	struct
 	{
@@ -240,7 +240,7 @@ void ULoginCreateAccount_C::Gamepad_Select_Repeat_Password()
 
 void ULoginCreateAccount_C::Gamepad_Select_Password()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.Gamepad Select Password");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.Gamepad Select Password"));
 
 	struct
 	{
@@ -256,7 +256,7 @@ void ULoginCreateAccount_C::Gamepad_Select_Password()
 
 void ULoginCreateAccount_C::Gamepad_Select_Username()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.Gamepad Select Username");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.Gamepad Select Username"));
 
 	struct
 	{
@@ -274,7 +274,7 @@ void ULoginCreateAccount_C::Gamepad_Select_Username()
 
 void ULoginCreateAccount_C::ExecuteUbergraph_LoginCreateAccount(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LoginCreateAccount.LoginCreateAccount_C.ExecuteUbergraph_LoginCreateAccount");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginCreateAccount.LoginCreateAccount_C.ExecuteUbergraph_LoginCreateAccount"));
 
 	struct
 	{

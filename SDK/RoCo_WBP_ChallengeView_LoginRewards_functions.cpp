@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ChallengeView_LoginRewards_C::BindRewardGridEvents()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.BindRewardGridEvents");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.BindRewardGridEvents"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ChallengeView_LoginRewards_C::BindRewardGridEvents()
 
 void UWBP_ChallengeView_LoginRewards_C::HandleRewardItemUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.HandleRewardItemUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.HandleRewardItemUnhovered"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_ChallengeView_LoginRewards_C::HandleRewardItemUnhovered()
 
 void UWBP_ChallengeView_LoginRewards_C::HandleRewardItemHovered(class UWBP_LoginRewardItem_C* RewardItemWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.HandleRewardItemHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.HandleRewardItemHovered"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_ChallengeView_LoginRewards_C::HandleRewardItemHovered(class UWBP_Login
 
 void UWBP_ChallengeView_LoginRewards_C::BindRewardItems()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.BindRewardItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.BindRewardItems"));
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_ChallengeView_LoginRewards_C::BindRewardItems()
 
 void UWBP_ChallengeView_LoginRewards_C::SetupRewardItems()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.SetupRewardItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.SetupRewardItems"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_ChallengeView_LoginRewards_C::SetupRewardItems()
 
 void UWBP_ChallengeView_LoginRewards_C::ResetRewardItemsNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.ResetRewardItemsNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.ResetRewardItemsNavigation"));
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_ChallengeView_LoginRewards_C::ResetRewardItemsNavigation()
 
 void UWBP_ChallengeView_LoginRewards_C::SetRewardItemNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.SetRewardItemNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.SetRewardItemNavigation"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_ChallengeView_LoginRewards_C::SetRewardItemNavigation()
 
 void UWBP_ChallengeView_LoginRewards_C::HandleRewardItemsReady(TArray<struct FLoginRewardItem>* RewardItems)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.HandleRewardItemsReady");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.HandleRewardItemsReady"));
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UWBP_ChallengeView_LoginRewards_C::HandleRewardItemsReady(TArray<struct FLo
 
 void UWBP_ChallengeView_LoginRewards_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.Construct"));
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UWBP_ChallengeView_LoginRewards_C::Construct()
 
 void UWBP_ChallengeView_LoginRewards_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.InitializeWidget"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_ChallengeView_LoginRewards_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_ChallengeView_LoginRewards_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -209,7 +209,7 @@ void UWBP_ChallengeView_LoginRewards_C::InitializeWidgetNavigation()
 
 void UWBP_ChallengeView_LoginRewards_C::ExecuteUbergraph_WBP_ChallengeView_LoginRewards(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.ExecuteUbergraph_WBP_ChallengeView_LoginRewards");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_LoginRewards.WBP_ChallengeView_LoginRewards_C.ExecuteUbergraph_WBP_ChallengeView_LoginRewards"));
 
 	struct
 	{

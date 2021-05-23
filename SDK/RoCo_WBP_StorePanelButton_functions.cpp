@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_StorePanelButton_C::SetTint(const struct FLinearColor& BaseColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.SetTint");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.SetTint"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_StorePanelButton_C::SetTint(const struct FLinearColor& BaseColor)
 
 void UWBP_StorePanelButton_C::OnHoveredLogic(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnHoveredLogic");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnHoveredLogic"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_StorePanelButton_C::OnHoveredLogic(bool IsGamepad)
 
 bool UWBP_StorePanelButton_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.NavigateConfirm"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ bool UWBP_StorePanelButton_C::NavigateConfirm()
 
 void UWBP_StorePanelButton_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnClickSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnClickSound"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UWBP_StorePanelButton_C::OnClickSound()
 
 void UWBP_StorePanelButton_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnHoverSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnHoverSound"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_StorePanelButton_C::OnHoverSound()
 
 void UWBP_StorePanelButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.Construct"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_StorePanelButton_C::Construct()
 
 void UWBP_StorePanelButton_C::OnGamepadConfirmed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnGamepadConfirmed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnGamepadConfirmed"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_StorePanelButton_C::OnGamepadConfirmed()
 
 void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnB
 
 void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnB
 
 void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnB
 
 void UWBP_StorePanelButton_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.GamepadHover"));
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_StorePanelButton_C::GamepadHover()
 
 void UWBP_StorePanelButton_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.GamepadUnhover"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_StorePanelButton_C::GamepadUnhover()
 
 void UWBP_StorePanelButton_C::DisableButton(bool bShouldDisable)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.DisableButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.DisableButton"));
 
 	struct
 	{
@@ -242,7 +242,7 @@ void UWBP_StorePanelButton_C::DisableButton(bool bShouldDisable)
 
 void UWBP_StorePanelButton_C::CallButtonHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.CallButtonHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.CallButtonHover"));
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UWBP_StorePanelButton_C::CallButtonHover()
 
 void UWBP_StorePanelButton_C::CallButtonUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.CallButtonUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.CallButtonUnhover"));
 
 	struct
 	{
@@ -276,7 +276,7 @@ void UWBP_StorePanelButton_C::CallButtonUnhover()
 
 void UWBP_StorePanelButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.PreConstruct"));
 
 	struct
 	{
@@ -294,7 +294,7 @@ void UWBP_StorePanelButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -310,7 +310,7 @@ void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnB
 
 void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonReleasedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonReleasedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -328,7 +328,7 @@ void UWBP_StorePanelButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnB
 
 void UWBP_StorePanelButton_C::ExecuteUbergraph_WBP_StorePanelButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.ExecuteUbergraph_WBP_StorePanelButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.ExecuteUbergraph_WBP_StorePanelButton"));
 
 	struct
 	{
@@ -346,7 +346,7 @@ void UWBP_StorePanelButton_C::ExecuteUbergraph_WBP_StorePanelButton(int EntryPoi
 
 void UWBP_StorePanelButton_C::OnBtnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnBtnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnBtnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -364,7 +364,7 @@ void UWBP_StorePanelButton_C::OnBtnUnhovered__DelegateSignature()
 
 void UWBP_StorePanelButton_C::OnBtnHovered__DelegateSignature(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnBtnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnBtnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -382,7 +382,7 @@ void UWBP_StorePanelButton_C::OnBtnHovered__DelegateSignature(bool IsGamepad)
 
 void UWBP_StorePanelButton_C::OnBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnBtnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StorePanelButton.WBP_StorePanelButton_C.OnBtnClicked__DelegateSignature"));
 
 	struct
 	{

@@ -31,7 +31,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class NiagaraAnimNotifies.AnimNotify_PlayNiagaraEffect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class NiagaraAnimNotifies.AnimNotify_PlayNiagaraEffect"));
 		return ptr;
 	}
 
@@ -54,7 +54,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class NiagaraAnimNotifies.AnimNotifyState_TimedNiagaraEffect");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class NiagaraAnimNotifies.AnimNotifyState_TimedNiagaraEffect"));
 		return ptr;
 	}
 

@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_PlayerAccolades_C::GetAccolateWidget(const struct FAccoladeDisplayInfo& AccoladeInfo, class UWBP_AccoladeMedal_C** Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.GetAccolateWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.GetAccolateWidget"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_PlayerAccolades_C::GetAccolateWidget(const struct FAccoladeDisplayInfo
 
 void UWBP_PlayerAccolades_C::InitAccoladePool()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.InitAccoladePool");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.InitAccoladePool"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_PlayerAccolades_C::InitAccoladePool()
 
 void UWBP_PlayerAccolades_C::SetPresentationSpeed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.SetPresentationSpeed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.SetPresentationSpeed"));
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_PlayerAccolades_C::SetPresentationSpeed()
 
 void UWBP_PlayerAccolades_C::TickPresentationSpeed(float TimeDelta)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.TickPresentationSpeed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.TickPresentationSpeed"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UWBP_PlayerAccolades_C::TickPresentationSpeed(float TimeDelta)
 
 void UWBP_PlayerAccolades_C::CalculatePresentationSpeed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.CalculatePresentationSpeed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.CalculatePresentationSpeed"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_PlayerAccolades_C::CalculatePresentationSpeed()
 
 void UWBP_PlayerAccolades_C::MoveAccolades()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.MoveAccolades");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.MoveAccolades"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_PlayerAccolades_C::MoveAccolades()
 
 void UWBP_PlayerAccolades_C::QueueAccolade()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.QueueAccolade");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.QueueAccolade"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_PlayerAccolades_C::QueueAccolade()
 
 void UWBP_PlayerAccolades_C::AllowOtherAccolades()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.AllowOtherAccolades");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.AllowOtherAccolades"));
 
 	struct
 	{
@@ -160,7 +160,7 @@ void UWBP_PlayerAccolades_C::AllowOtherAccolades()
 
 void UWBP_PlayerAccolades_C::RemoveAccolade(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.RemoveAccolade");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.RemoveAccolade"));
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWBP_PlayerAccolades_C::RemoveAccolade(class UWidget* Widget)
 
 void UWBP_PlayerAccolades_C::HandleAccoladeRecieved(TArray<struct FAccoladeEventEntry> AccoladeEvents)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.HandleAccoladeRecieved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.HandleAccoladeRecieved"));
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_PlayerAccolades_C::HandleAccoladeRecieved(TArray<struct FAccoladeEvent
 
 void UWBP_PlayerAccolades_C::HandleMultiplier(const struct FAccoladeDisplayInfo& AccoladeDisplayInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.HandleMultiplier");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.HandleMultiplier"));
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_PlayerAccolades_C::HandleMultiplier(const struct FAccoladeDisplayInfo&
 
 void UWBP_PlayerAccolades_C::CreateAccolade(const struct FAccoladeDisplayInfo& AccoladeInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.CreateAccolade");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.CreateAccolade"));
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UWBP_PlayerAccolades_C::CreateAccolade(const struct FAccoladeDisplayInfo& A
 
 void UWBP_PlayerAccolades_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.Construct"));
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UWBP_PlayerAccolades_C::Construct()
 
 void UWBP_PlayerAccolades_C::HandleKillCamEnabled(bool IsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.HandleKillCamEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.HandleKillCamEnabled"));
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UWBP_PlayerAccolades_C::HandleKillCamEnabled(bool IsEnabled)
 
 void UWBP_PlayerAccolades_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.Tick"));
 
 	struct
 	{
@@ -299,7 +299,7 @@ void UWBP_PlayerAccolades_C::Tick(const struct FGeometry& MyGeometry, float InDe
 
 void UWBP_PlayerAccolades_C::ExecuteUbergraph_WBP_PlayerAccolades(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.ExecuteUbergraph_WBP_PlayerAccolades");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAccolades.WBP_PlayerAccolades_C.ExecuteUbergraph_WBP_PlayerAccolades"));
 
 	struct
 	{

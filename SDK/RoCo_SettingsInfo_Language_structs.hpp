@@ -7,9 +7,9 @@
 #endif
 
 #include "RoCo_Basic.hpp"
-#include "RoCo_CultureFriendlyNames_classes.hpp"
 #include "RoCo_KillstreakUINew_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
+#include "RoCo_CultureFriendlyNames_classes.hpp"
 
 namespace SDK
 {

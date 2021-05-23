@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_CountdownVersusMessage_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CountdownVersusMessage.WBP_CountdownVersusMessage_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CountdownVersusMessage.WBP_CountdownVersusMessage_C.Construct"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_CountdownVersusMessage_C::Construct()
 
 void UWBP_CountdownVersusMessage_C::OnAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CountdownVersusMessage.WBP_CountdownVersusMessage_C.OnAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CountdownVersusMessage.WBP_CountdownVersusMessage_C.OnAnimFinished"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_CountdownVersusMessage_C::OnAnimFinished()
 
 void UWBP_CountdownVersusMessage_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CountdownVersusMessage.WBP_CountdownVersusMessage_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CountdownVersusMessage.WBP_CountdownVersusMessage_C.PreConstruct"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_CountdownVersusMessage_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_CountdownVersusMessage_C::ExecuteUbergraph_WBP_CountdownVersusMessage(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_CountdownVersusMessage.WBP_CountdownVersusMessage_C.ExecuteUbergraph_WBP_CountdownVersusMessage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CountdownVersusMessage.WBP_CountdownVersusMessage_C.ExecuteUbergraph_WBP_CountdownVersusMessage"));
 
 	struct
 	{

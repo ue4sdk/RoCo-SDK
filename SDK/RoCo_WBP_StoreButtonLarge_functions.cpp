@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_StoreButtonLarge_C::OnRotationTimerTick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.OnRotationTimerTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.OnRotationTimerTick"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_StoreButtonLarge_C::OnRotationTimerTick()
 
 void UWBP_StoreButtonLarge_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.OnInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.OnInputStateChanged"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_StoreButtonLarge_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE
 
 bool UWBP_StoreButtonLarge_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.NavigateConfirm"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ bool UWBP_StoreButtonLarge_C::NavigateConfirm()
 
 void UWBP_StoreButtonLarge_C::DisplayStoreItem(class UKSStorePanelItem* StoreItem, bool Animate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.DisplayStoreItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.DisplayStoreItem"));
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_StoreButtonLarge_C::DisplayStoreItem(class UKSStorePanelItem* StoreIte
 
 void UWBP_StoreButtonLarge_C::SetStoreItems(class UKSStoreSectionItem* StoreSection)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.SetStoreItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.SetStoreItems"));
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_StoreButtonLarge_C::SetStoreItems(class UKSStoreSectionItem* StoreSect
 
 void UWBP_StoreButtonLarge_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.GamepadUnhover"));
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_StoreButtonLarge_C::GamepadUnhover()
 
 void UWBP_StoreButtonLarge_C::OnGamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.OnGamepadConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.OnGamepadConfirm"));
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UWBP_StoreButtonLarge_C::OnGamepadConfirm()
 
 void UWBP_StoreButtonLarge_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_3_OnBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_3_OnBtnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_3_OnBtnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UWBP_StoreButtonLarge_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBound
 
 void UWBP_StoreButtonLarge_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_4_OnBtnHovered__DelegateSignature(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_4_OnBtnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_4_OnBtnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UWBP_StoreButtonLarge_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBound
 
 void UWBP_StoreButtonLarge_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_5_OnBtnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_5_OnBtnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_5_OnBtnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -201,7 +201,7 @@ void UWBP_StoreButtonLarge_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBound
 
 void UWBP_StoreButtonLarge_C::OnComparePressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.OnComparePressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.OnComparePressed"));
 
 	struct
 	{
@@ -217,7 +217,7 @@ void UWBP_StoreButtonLarge_C::OnComparePressed()
 
 void UWBP_StoreButtonLarge_C::BndEvt__CompareButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__CompareButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__CompareButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UWBP_StoreButtonLarge_C::BndEvt__CompareButton_K2Node_ComponentBoundEvent_0
 
 void UWBP_StoreButtonLarge_C::BndEvt__CompareButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__CompareButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__CompareButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -249,7 +249,7 @@ void UWBP_StoreButtonLarge_C::BndEvt__CompareButton_K2Node_ComponentBoundEvent_1
 
 void UWBP_StoreButtonLarge_C::BndEvt__CompareButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__CompareButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.BndEvt__CompareButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_StoreButtonLarge_C::BndEvt__CompareButton_K2Node_ComponentBoundEvent_2
 
 void UWBP_StoreButtonLarge_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.GamepadHover"));
 
 	struct
 	{
@@ -281,7 +281,7 @@ void UWBP_StoreButtonLarge_C::GamepadHover()
 
 void UWBP_StoreButtonLarge_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.Construct"));
 
 	struct
 	{
@@ -300,7 +300,7 @@ void UWBP_StoreButtonLarge_C::Construct()
 
 void UWBP_StoreButtonLarge_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.Tick"));
 
 	struct
 	{
@@ -322,7 +322,7 @@ void UWBP_StoreButtonLarge_C::Tick(const struct FGeometry& MyGeometry, float InD
 
 void UWBP_StoreButtonLarge_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.InitializeWidget"));
 
 	struct
 	{
@@ -342,7 +342,7 @@ void UWBP_StoreButtonLarge_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_StoreButtonLarge_C::ExecuteUbergraph_WBP_StoreButtonLarge(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.ExecuteUbergraph_WBP_StoreButtonLarge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonLarge.WBP_StoreButtonLarge_C.ExecuteUbergraph_WBP_StoreButtonLarge"));
 
 	struct
 	{

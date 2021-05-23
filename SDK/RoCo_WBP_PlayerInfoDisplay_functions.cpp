@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_PlayerInfoDisplay_C::UpdateVoiceDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.UpdateVoiceDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.UpdateVoiceDisplay"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_PlayerInfoDisplay_C::UpdateVoiceDisplay()
 
 void UWBP_PlayerInfoDisplay_C::SetPlayerNameFont(const struct FSlateFontInfo& Font)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetPlayerNameFont");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetPlayerNameFont"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_PlayerInfoDisplay_C::SetPlayerNameFont(const struct FSlateFontInfo& Fo
 
 void UWBP_PlayerInfoDisplay_C::SetPlayerNameColor(const struct FSlateColor& Color)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetPlayerNameColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetPlayerNameColor"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_PlayerInfoDisplay_C::SetPlayerNameColor(const struct FSlateColor& Colo
 
 void UWBP_PlayerInfoDisplay_C::TogglePartyLeaderIcon(bool ShowLeaderIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.TogglePartyLeaderIcon");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.TogglePartyLeaderIcon"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_PlayerInfoDisplay_C::TogglePartyLeaderIcon(bool ShowLeaderIcon)
 
 void UWBP_PlayerInfoDisplay_C::SetVoiceActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetVoiceActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetVoiceActive"));
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_PlayerInfoDisplay_C::SetVoiceActive(bool IsActive)
 
 void UWBP_PlayerInfoDisplay_C::SetVoiceTalking(bool Talking)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetVoiceTalking");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetVoiceTalking"));
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_PlayerInfoDisplay_C::SetVoiceTalking(bool Talking)
 
 void UWBP_PlayerInfoDisplay_C::SetVoiceMuted(bool Muted)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetVoiceMuted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetVoiceMuted"));
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UWBP_PlayerInfoDisplay_C::SetVoiceMuted(bool Muted)
 
 void UWBP_PlayerInfoDisplay_C::GetStatusColor(struct FSlateColor* StatusColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.GetStatusColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.GetStatusColor"));
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_PlayerInfoDisplay_C::GetStatusColor(struct FSlateColor* StatusColor)
 
 void UWBP_PlayerInfoDisplay_C::UpdateStatus()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.UpdateStatus");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.UpdateStatus"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_PlayerInfoDisplay_C::UpdateStatus()
 
 void UWBP_PlayerInfoDisplay_C::UpdatePlayerInfoIcons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.UpdatePlayerInfoIcons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.UpdatePlayerInfoIcons"));
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UWBP_PlayerInfoDisplay_C::UpdatePlayerInfoIcons()
 
 void UWBP_PlayerInfoDisplay_C::UpdateAvatarDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.UpdateAvatarDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.UpdateAvatarDisplay"));
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UWBP_PlayerInfoDisplay_C::UpdateAvatarDisplay()
 
 void UWBP_PlayerInfoDisplay_C::SetPlayerInfo(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetPlayerInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetPlayerInfo"));
 
 	struct
 	{
@@ -247,7 +247,7 @@ void UWBP_PlayerInfoDisplay_C::SetPlayerInfo(class UKSPlayerInfo* playerinfo)
 
 void UWBP_PlayerInfoDisplay_C::SetVoiceState(bool ShouldShow, bool IsTalking, bool IsMuted)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetVoiceState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.SetVoiceState"));
 
 	struct
 	{
@@ -271,7 +271,7 @@ void UWBP_PlayerInfoDisplay_C::SetVoiceState(bool ShouldShow, bool IsTalking, bo
 
 void UWBP_PlayerInfoDisplay_C::ToggleStatusDisplay(bool ShowStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.ToggleStatusDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.ToggleStatusDisplay"));
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UWBP_PlayerInfoDisplay_C::ToggleStatusDisplay(bool ShowStatus)
 
 void UWBP_PlayerInfoDisplay_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.PreConstruct"));
 
 	struct
 	{
@@ -309,7 +309,7 @@ void UWBP_PlayerInfoDisplay_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PlayerInfoDisplay_C::HandleFilteredNameUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.HandleFilteredNameUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.HandleFilteredNameUpdate"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void UWBP_PlayerInfoDisplay_C::HandleFilteredNameUpdate()
 
 void UWBP_PlayerInfoDisplay_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.OnInitialized");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.OnInitialized"));
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UWBP_PlayerInfoDisplay_C::OnInitialized()
 
 void UWBP_PlayerInfoDisplay_C::ExecuteUbergraph_WBP_PlayerInfoDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.ExecuteUbergraph_WBP_PlayerInfoDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerInfoDisplay.WBP_PlayerInfoDisplay_C.ExecuteUbergraph_WBP_PlayerInfoDisplay"));
 
 	struct
 	{

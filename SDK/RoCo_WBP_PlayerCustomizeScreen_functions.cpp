@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_PlayerCustomizeScreen_C::BndEvt__KeyboardBackButton_K2Node_ComponentBoundEvent_2_OnBackButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerCustomizeScreen.WBP_PlayerCustomizeScreen_C.BndEvt__KeyboardBackButton_K2Node_ComponentBoundEvent_2_OnBackButtonClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerCustomizeScreen.WBP_PlayerCustomizeScreen_C.BndEvt__KeyboardBackButton_K2Node_ComponentBoundEvent_2_OnBackButtonClicked__DelegateSignature"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_PlayerCustomizeScreen_C::BndEvt__KeyboardBackButton_K2Node_ComponentBo
 
 void UWBP_PlayerCustomizeScreen_C::ExecuteUbergraph_WBP_PlayerCustomizeScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerCustomizeScreen.WBP_PlayerCustomizeScreen_C.ExecuteUbergraph_WBP_PlayerCustomizeScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerCustomizeScreen.WBP_PlayerCustomizeScreen_C.ExecuteUbergraph_WBP_PlayerCustomizeScreen"));
 
 	struct
 	{

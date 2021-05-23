@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ThrobberShield_C::ResetThrobberAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ThrobberShield.WBP_ThrobberShield_C.ResetThrobberAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ThrobberShield.WBP_ThrobberShield_C.ResetThrobberAnim"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ThrobberShield_C::ResetThrobberAnim()
 
 void UWBP_ThrobberShield_C::PlayThrobberAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ThrobberShield.WBP_ThrobberShield_C.PlayThrobberAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ThrobberShield.WBP_ThrobberShield_C.PlayThrobberAnim"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_ThrobberShield_C::PlayThrobberAnim()
 
 void UWBP_ThrobberShield_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ThrobberShield.WBP_ThrobberShield_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ThrobberShield.WBP_ThrobberShield_C.PreConstruct"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_ThrobberShield_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ThrobberShield_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ThrobberShield.WBP_ThrobberShield_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ThrobberShield.WBP_ThrobberShield_C.Construct"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWBP_ThrobberShield_C::Construct()
 
 void UWBP_ThrobberShield_C::ExecuteUbergraph_WBP_ThrobberShield(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ThrobberShield.WBP_ThrobberShield_C.ExecuteUbergraph_WBP_ThrobberShield");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ThrobberShield.WBP_ThrobberShield_C.ExecuteUbergraph_WBP_ThrobberShield"));
 
 	struct
 	{

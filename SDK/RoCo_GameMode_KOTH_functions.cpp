@@ -19,7 +19,7 @@ namespace SDK
 
 void AGameMode_KOTH_C::OnFailedToStart_99A285D54E7ADDDCEB3CF6AB062823C8(class AKSTeamState* LeadingTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameMode_KOTH.GameMode_KOTH_C.OnFailedToStart_99A285D54E7ADDDCEB3CF6AB062823C8");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameMode_KOTH.GameMode_KOTH_C.OnFailedToStart_99A285D54E7ADDDCEB3CF6AB062823C8"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void AGameMode_KOTH_C::OnFailedToStart_99A285D54E7ADDDCEB3CF6AB062823C8(class AK
 
 void AGameMode_KOTH_C::OnPhaseCompleted_99A285D54E7ADDDCEB3CF6AB062823C8(class AKSTeamState* LeadingTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameMode_KOTH.GameMode_KOTH_C.OnPhaseCompleted_99A285D54E7ADDDCEB3CF6AB062823C8");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameMode_KOTH.GameMode_KOTH_C.OnPhaseCompleted_99A285D54E7ADDDCEB3CF6AB062823C8"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void AGameMode_KOTH_C::OnPhaseCompleted_99A285D54E7ADDDCEB3CF6AB062823C8(class A
 
 void AGameMode_KOTH_C::OnFailedToStart_6E14E65E47C7CD2AF678589E13F56177(class AKSTeamState* LeadingTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameMode_KOTH.GameMode_KOTH_C.OnFailedToStart_6E14E65E47C7CD2AF678589E13F56177");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameMode_KOTH.GameMode_KOTH_C.OnFailedToStart_6E14E65E47C7CD2AF678589E13F56177"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void AGameMode_KOTH_C::OnFailedToStart_6E14E65E47C7CD2AF678589E13F56177(class AK
 
 void AGameMode_KOTH_C::OnPhaseCompleted_6E14E65E47C7CD2AF678589E13F56177(class AKSTeamState* LeadingTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameMode_KOTH.GameMode_KOTH_C.OnPhaseCompleted_6E14E65E47C7CD2AF678589E13F56177");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameMode_KOTH.GameMode_KOTH_C.OnPhaseCompleted_6E14E65E47C7CD2AF678589E13F56177"));
 
 	struct
 	{
@@ -99,7 +99,7 @@ void AGameMode_KOTH_C::OnPhaseCompleted_6E14E65E47C7CD2AF678589E13F56177(class A
 
 void AGameMode_KOTH_C::OnFailedToStart_F6AE3C4949E72A5832F7A59F4ABF9336(class AKSTeamState* LeadingTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameMode_KOTH.GameMode_KOTH_C.OnFailedToStart_F6AE3C4949E72A5832F7A59F4ABF9336");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameMode_KOTH.GameMode_KOTH_C.OnFailedToStart_F6AE3C4949E72A5832F7A59F4ABF9336"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void AGameMode_KOTH_C::OnFailedToStart_F6AE3C4949E72A5832F7A59F4ABF9336(class AK
 
 void AGameMode_KOTH_C::OnPhaseCompleted_F6AE3C4949E72A5832F7A59F4ABF9336(class AKSTeamState* LeadingTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameMode_KOTH.GameMode_KOTH_C.OnPhaseCompleted_F6AE3C4949E72A5832F7A59F4ABF9336");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameMode_KOTH.GameMode_KOTH_C.OnPhaseCompleted_F6AE3C4949E72A5832F7A59F4ABF9336"));
 
 	struct
 	{
@@ -137,7 +137,7 @@ void AGameMode_KOTH_C::OnPhaseCompleted_F6AE3C4949E72A5832F7A59F4ABF9336(class A
 
 void AGameMode_KOTH_C::OnRoundPrepare()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameMode_KOTH.GameMode_KOTH_C.OnRoundPrepare");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameMode_KOTH.GameMode_KOTH_C.OnRoundPrepare"));
 
 	struct
 	{
@@ -153,7 +153,7 @@ void AGameMode_KOTH_C::OnRoundPrepare()
 
 void AGameMode_KOTH_C::OnRoundStart()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameMode_KOTH.GameMode_KOTH_C.OnRoundStart");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameMode_KOTH.GameMode_KOTH_C.OnRoundStart"));
 
 	struct
 	{
@@ -171,7 +171,7 @@ void AGameMode_KOTH_C::OnRoundStart()
 
 void AGameMode_KOTH_C::ExecuteUbergraph_GameMode_KOTH(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameMode_KOTH.GameMode_KOTH_C.ExecuteUbergraph_GameMode_KOTH");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameMode_KOTH.GameMode_KOTH_C.ExecuteUbergraph_GameMode_KOTH"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_PartyModuleCardSlot_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.NavigateConfirm"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_PartyModuleCardSlot_C::NavigateConfirm()
 
 void UWBP_PartyModuleCardSlot_C::SetPlayerView(class UPUMG_PlayerInfo* Player_Info)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.SetPlayerView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.SetPlayerView"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_PartyModuleCardSlot_C::SetPlayerView(class UPUMG_PlayerInfo* Player_In
 
 void UWBP_PartyModuleCardSlot_C::SetEmptyView()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.SetEmptyView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.SetEmptyView"));
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_PartyModuleCardSlot_C::SetEmptyView()
 
 void UWBP_PartyModuleCardSlot_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.InitializeWidget"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UWBP_PartyModuleCardSlot_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_PartyModuleCardSlot_C::BndEvt__EmptySlotGroup_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.BndEvt__EmptySlotGroup_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.BndEvt__EmptySlotGroup_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_PartyModuleCardSlot_C::BndEvt__EmptySlotGroup_K2Node_ComponentBoundEve
 
 void UWBP_PartyModuleCardSlot_C::BndEvt__EmptySlotGroup_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.BndEvt__EmptySlotGroup_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.BndEvt__EmptySlotGroup_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_PartyModuleCardSlot_C::BndEvt__EmptySlotGroup_K2Node_ComponentBoundEve
 
 void UWBP_PartyModuleCardSlot_C::BndEvt__EmptySlotGroup_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.BndEvt__EmptySlotGroup_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.BndEvt__EmptySlotGroup_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_PartyModuleCardSlot_C::BndEvt__EmptySlotGroup_K2Node_ComponentBoundEve
 
 void UWBP_PartyModuleCardSlot_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.GamepadHover"));
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_PartyModuleCardSlot_C::GamepadHover()
 
 void UWBP_PartyModuleCardSlot_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.GamepadUnhover"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_PartyModuleCardSlot_C::GamepadUnhover()
 
 void UWBP_PartyModuleCardSlot_C::Add_Party_Member_Selected()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.Add Party Member Selected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.Add Party Member Selected"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_PartyModuleCardSlot_C::Add_Party_Member_Selected()
 
 void UWBP_PartyModuleCardSlot_C::Add_Party_Member_Hovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.Add Party Member Hovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.Add Party Member Hovered"));
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_PartyModuleCardSlot_C::Add_Party_Member_Hovered()
 
 void UWBP_PartyModuleCardSlot_C::Add_Party_Member_Unhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.Add Party Member Unhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.Add Party Member Unhovered"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_PartyModuleCardSlot_C::Add_Party_Member_Unhovered()
 
 void UWBP_PartyModuleCardSlot_C::ExecuteUbergraph_WBP_PartyModuleCardSlot(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.ExecuteUbergraph_WBP_PartyModuleCardSlot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PartyModuleCardSlot.WBP_PartyModuleCardSlot_C.ExecuteUbergraph_WBP_PartyModuleCardSlot"));
 
 	struct
 	{

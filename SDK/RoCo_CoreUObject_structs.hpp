@@ -43,6 +43,60 @@ struct FGuid
 	int                                                B;                                                        // 0x0004(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                C;                                                        // 0x0008(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                D;                                                        // 0x000C(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+    FGuid() : A(0), B(0), C(0), D(0) {}
+
+    FGuid(int a, int b, int c, int d) : A(a), B(b), C(c), D(d) {}
+
+   std::size_t operator()(const FGuid& guid) const
+    {
+      return std::hash<int>()(guid.A) ^ std::hash<int>()(guid.B) ^ std::hash<int>()(guid.C) ^ std::hash<int>()(guid.D);
+    }
+
+    friend bool operator==( const FGuid& X, const FGuid& Y )
+	{
+		return ((X.A ^ Y.A) | (X.B ^ Y.B) | (X.C ^ Y.C) | (X.D ^ Y.D)) == 0;
+	}
+
+   friend bool operator!=( const FGuid& X, const FGuid& Y )
+	{
+		return ((X.A ^ Y.A) | (X.B ^ Y.B) | (X.C ^ Y.C) | (X.D ^ Y.D)) != 0;
+	}
+
+   friend bool operator<( const FGuid& X, const FGuid& Y )
+	{
+		return	((X.A < Y.A) ? true : ((X.A > Y.A) ? false :
+				((X.B < Y.B) ? true : ((X.B > Y.B) ? false :
+				((X.C < Y.C) ? true : ((X.C > Y.C) ? false :
+				((X.D < Y.D) ? true : ((X.D > Y.D) ? false : false )))))))); //-V583
+	}
+
+   int& operator[](int Index)
+	{
+		switch(Index)
+		{
+		case 0: return A;
+		case 1: return B;
+		case 2: return C;
+		case 3: return D;
+		}
+
+		return A;
+	}
+
+   const int& operator[](int Index) const
+	{
+		switch(Index)
+		{
+		case 0: return A;
+		case 1: return B;
+		case 2: return C;
+		case 3: return D;
+		}
+
+		return A;
+	}
+
 };
 
 // ScriptStruct CoreUObject.Vector
@@ -52,6 +106,35 @@ struct FVector
 	float                                              X;                                                        // 0x0000(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              Y;                                                        // 0x0004(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              Z;                                                        // 0x0008(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+    inline FVector() : X(0.f), Y(0.f), Z(0.f) {}
+
+    inline FVector(float x, float y, float z) : X(x), Y(y), Z(z) {}
+
+    inline FVector operator + (const FVector& other) const { return FVector(X + other.X, Y + other.Y, Z + other.Z); }
+
+    inline FVector operator - (const FVector& other) const { return FVector(X - other.X, Y - other.Y, Z - other.Z); }
+
+    inline FVector operator * (float scalar) const { return FVector(X * scalar, Y * scalar, Z * scalar); }
+
+    inline FVector& operator=  (const FVector& other) { X  = other.X; Y  = other.Y; Z  = other.Z; return *this; }
+
+    inline FVector& operator+= (const FVector& other) { X += other.X; Y += other.Y; Z += other.Z; return *this; }
+
+    inline FVector& operator-= (const FVector& other) { X -= other.X; Y -= other.Y; Z -= other.Z; return *this; }
+
+    inline FVector& operator*= (const float other)    { X *= other;   Y *= other;   Z *= other;   return *this; }
+
+   friend bool operator==(const FVector& first, const FVector& second)
+	{
+		return first.X == second.X && first.Y == second.Y && first.Z == second.Z;
+	}
+
+   friend bool operator!=(const FVector& first, const FVector& second)
+	{
+		return !(first == second);
+	}
+
 };
 
 // ScriptStruct CoreUObject.Vector4
@@ -80,6 +163,69 @@ struct FVector2D
 		  Y(y)
 	{ }
 
+    inline FVector2D operator + (const FVector2D& other) const 
+	{ 
+		return FVector2D(X + other.X, Y + other.Y); 
+	}
+
+    inline FVector2D operator - (const FVector2D& other) const 
+	{ 
+		return FVector2D(X - other.X, Y - other.Y);
+	 }
+
+    inline FVector2D operator * (float scalar) const 
+	{ 
+		return FVector2D(X * scalar, Y * scalar); 
+	}
+
+    inline FVector2D& operator=  (const FVector2D& other) 
+	{	
+		X  = other.X;
+		Y  = other.Y;
+		return *this;
+	}
+
+    inline FVector2D& operator+= (const FVector2D& other) 
+	{ 
+		X += other.X;
+		Y += other.Y;
+		return *this;
+	}
+
+    inline FVector2D& operator-= (const FVector2D& other)
+	{
+		X -= other.X;
+		Y -= other.Y;
+		return *this;
+	}
+
+    inline FVector2D& operator*= (const float other)
+	{
+		X *= other;
+		Y *= other;
+		return *this;
+	}
+
+    friend bool operator==(const FVector2D& one, const FVector2D& two)
+	{
+		return one.X == two.X && one.Y == two.Y;
+	}
+
+    friend bool operator!=(const FVector2D& one, const FVector2D& two)
+	{
+		return !(one == two);
+	}
+
+    friend bool operator>(const FVector2D& one, const FVector2D& two)
+	{
+		return one.X > two.X && one.Y > two.Y;
+	}
+
+    friend bool operator<(const FVector2D& one, const FVector2D& two)
+	{
+		return one.X < two.X && one.Y < two.Y;
+	}
+
 };
 
 // ScriptStruct CoreUObject.TwoVectors
@@ -104,6 +250,35 @@ struct FRotator
 	float                                              Pitch;                                                    // 0x0000(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              Yaw;                                                      // 0x0004(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              Roll;                                                     // 0x0008(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+    inline FRotator() : Pitch(0.f), Yaw(0.f), Roll(0.f) {}
+
+    inline FRotator(float pitch, float yaw, float roll) : Pitch(pitch), Yaw(yaw), Roll(roll) {}
+
+    inline FRotator operator + (const FRotator& other) const { return FRotator(Pitch + other.Pitch, Yaw + other.Yaw, Roll + other.Roll); }
+
+    inline FRotator operator - (const FRotator& other) const { return FRotator(Pitch - other.Pitch,Yaw - other.Yaw, Roll - other.Roll); }
+
+    inline FRotator operator * (float scalar) const { return FRotator(Pitch * scalar,Yaw * scalar, Roll * scalar); }
+
+    inline FRotator& operator=  (const FRotator& other) { Pitch = other.Pitch; Yaw = other.Yaw; Roll = other.Roll; return *this; }
+
+    inline FRotator& operator+= (const FRotator& other) { Pitch += other.Pitch; Yaw += other.Yaw; Roll += other.Roll; return *this; }
+
+    inline FRotator& operator-= (const FRotator& other) { Pitch -= other.Pitch; Yaw -= other.Yaw; Roll -= other.Roll; return *this; }
+
+    inline FRotator& operator*= (const float other)    { Yaw *= other; Pitch *= other; Roll *= other; return *this; }
+
+   friend bool operator==(const FRotator& first, const FRotator& second)
+	{
+		return first.Pitch == second.Pitch && first.Yaw == second.Yaw && first.Roll == second.Roll;
+	}
+
+    friend bool operator!=(const FRotator& first, const FRotator& second)
+	{
+		return !(first == second);
+	}
+
 };
 
 // ScriptStruct CoreUObject.Quat
@@ -114,6 +289,13 @@ struct alignas(16) FQuat
 	float                                              Y;                                                        // 0x0004(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              Z;                                                        // 0x0008(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              W;                                                        // 0x000C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+    inline FQuat() {}
+
+    inline FQuat( float InX, float InY, float InZ, float InW ) : X(InX) , Y(InY) , Z(InZ) , W(InW) {}
+
+    inline FQuat( const FQuat& Q ) : X(Q.X), Y(Q.Y), Z(Q.Z), W(Q.W) {}
+
 };
 
 // ScriptStruct CoreUObject.PackedNormal
@@ -188,6 +370,23 @@ struct FLinearColor
 		  A(a)
 	{ }
 
+	inline FLinearColor(float r, float g, float b)
+		: R(r),
+		  G(g),
+		  B(b),
+		  A(1.f)
+		{ }
+
+	bool operator!=(const FLinearColor& other)
+	{
+	    return R != other.R || G != other.G || B != other.B || A != other.A;
+	}
+
+	bool operator==(const FLinearColor& other)
+	{
+	    return R == other.R && G == other.G && B == other.B && A == other.A;
+	}
+
 };
 
 // ScriptStruct CoreUObject.Box
@@ -208,6 +407,11 @@ struct FBox2D
 	struct FVector2D                                   Max;                                                      // 0x0008(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_SaveGame, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bIsValid;                                                 // 0x0010(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x3];                                       // 0x0011(0x0003) MISSED OFFSET
+
+    FBox2D() : Min(FVector2D(0,0)), Max(FVector2D(0,0)), bIsValid(1), UnknownData00{} {}
+
+    FBox2D(FVector2D min, FVector2D max) : Min(min), Max(max), bIsValid(1), UnknownData00{} {}
+
 };
 
 // ScriptStruct CoreUObject.BoxSphereBounds

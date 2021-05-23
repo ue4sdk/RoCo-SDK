@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass ANotifyState_ZiplineLHIKlockout.ANotifyState_ZiplineLHIKlockout_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass ANotifyState_ZiplineLHIKlockout.ANotifyState_ZiplineLHIKlockout_C"));
 		return ptr;
 	}
 

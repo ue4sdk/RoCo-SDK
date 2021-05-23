@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass RewardsTrackSavedPosition.RewardsTrackSavedPosition_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass RewardsTrackSavedPosition.RewardsTrackSavedPosition_C"));
 		return ptr;
 	}
 

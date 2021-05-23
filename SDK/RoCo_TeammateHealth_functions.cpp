@@ -17,7 +17,7 @@ namespace SDK
 
 void UTeammateHealth_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TeammateHealth.TeammateHealth_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeammateHealth.TeammateHealth_C.Construct"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UTeammateHealth_C::Construct()
 
 void UTeammateHealth_C::HandleHealthChanged(class AKSCharacterBase* KSCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TeammateHealth.TeammateHealth_C.HandleHealthChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeammateHealth.TeammateHealth_C.HandleHealthChanged"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UTeammateHealth_C::HandleHealthChanged(class AKSCharacterBase* KSCharacter)
 
 void UTeammateHealth_C::HandleOnDowned(class AKSPlayerState* Player_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TeammateHealth.TeammateHealth_C.HandleOnDowned");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeammateHealth.TeammateHealth_C.HandleOnDowned"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UTeammateHealth_C::HandleOnDowned(class AKSPlayerState* Player_State)
 
 void UTeammateHealth_C::HandleOnElimated(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TeammateHealth.TeammateHealth_C.HandleOnElimated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeammateHealth.TeammateHealth_C.HandleOnElimated"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UTeammateHealth_C::HandleOnElimated(class AKSPlayerState* PlayerState)
 
 void UTeammateHealth_C::HandleOnPlayerSet(class AKSPlayerState* Player_State)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TeammateHealth.TeammateHealth_C.HandleOnPlayerSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeammateHealth.TeammateHealth_C.HandleOnPlayerSet"));
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UTeammateHealth_C::HandleOnPlayerSet(class AKSPlayerState* Player_State)
 
 void UTeammateHealth_C::ResetPlayerHealth()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TeammateHealth.TeammateHealth_C.ResetPlayerHealth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeammateHealth.TeammateHealth_C.ResetPlayerHealth"));
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UTeammateHealth_C::ResetPlayerHealth()
 
 void UTeammateHealth_C::ExecuteUbergraph_TeammateHealth(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TeammateHealth.TeammateHealth_C.ExecuteUbergraph_TeammateHealth");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeammateHealth.TeammateHealth_C.ExecuteUbergraph_TeammateHealth"));
 
 	struct
 	{

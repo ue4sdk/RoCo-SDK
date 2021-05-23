@@ -24,7 +24,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class SignificanceManager.SignificanceManager");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SignificanceManager.SignificanceManager"));
 		return ptr;
 	}
 

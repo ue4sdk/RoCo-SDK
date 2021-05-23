@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_RoleFilterButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RoleFilterButton.WBP_RoleFilterButton_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RoleFilterButton.WBP_RoleFilterButton_C.Construct"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_RoleFilterButton_C::Construct()
 
 void UWBP_RoleFilterButton_C::ExecuteUbergraph_WBP_RoleFilterButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RoleFilterButton.WBP_RoleFilterButton_C.ExecuteUbergraph_WBP_RoleFilterButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RoleFilterButton.WBP_RoleFilterButton_C.ExecuteUbergraph_WBP_RoleFilterButton"));
 
 	struct
 	{

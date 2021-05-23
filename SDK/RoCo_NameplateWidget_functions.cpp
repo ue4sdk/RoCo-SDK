@@ -17,7 +17,7 @@ namespace SDK
 
 void UNameplateWidget_C::Unbind_Events_From_PlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Unbind Events From PlayerState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.Unbind Events From PlayerState"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UNameplateWidget_C::Unbind_Events_From_PlayerState()
 
 void UNameplateWidget_C::Should_Show_Enemy_Nameplate(bool* bpp__ShouldShow__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Should Show Enemy Nameplate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.Should Show Enemy Nameplate"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UNameplateWidget_C::Should_Show_Enemy_Nameplate(bool* bpp__ShouldShow__pf)
 
 void UNameplateWidget_C::SetObjectiveMarkerFromGameState(bool bpp__ShowObjective__pf, class UTexture2D* bpp__ObjectiveIcon__pf, bool bpp__ForceAlways__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.SetObjectiveMarkerFromGameState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.SetObjectiveMarkerFromGameState"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UNameplateWidget_C::SetObjectiveMarkerFromGameState(bool bpp__ShowObjective
 
 void UNameplateWidget_C::SetNamePlateColor(class AKSPlayerState* bpp__PlayerxState__pfT)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.SetNamePlateColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.SetNamePlateColor"));
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UNameplateWidget_C::SetNamePlateColor(class AKSPlayerState* bpp__PlayerxSta
 
 void UNameplateWidget_C::Player_Is_Blinded(bool* bpp__IsxBlind__pfT)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Player Is Blinded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.Player Is Blinded"));
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UNameplateWidget_C::Player_Is_Blinded(bool* bpp__IsxBlind__pfT)
 
 void UNameplateWidget_C::OnUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnUnhovered"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UNameplateWidget_C::OnUnhovered()
 
 void UNameplateWidget_C::OnPossession(class APlayerState* bpp__PlayerState__pf, class AKSCharacter* bpp__Character__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnPossession");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnPossession"));
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UNameplateWidget_C::OnPossession(class APlayerState* bpp__PlayerState__pf, 
 
 void UNameplateWidget_C::OnPlayerUINeedsUpdate(class AKSPlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnPlayerUINeedsUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnPlayerUINeedsUpdate"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UNameplateWidget_C::OnPlayerUINeedsUpdate(class AKSPlayerState* bpp__Player
 
 void UNameplateWidget_C::OnPlayerDownedChanged_Event(class AKSPlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnPlayerDownedChanged_Event");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnPlayerDownedChanged_Event"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void UNameplateWidget_C::OnPlayerDownedChanged_Event(class AKSPlayerState* bpp__
 
 void UNameplateWidget_C::OnModRemoved(class UKSPlayerMod* bpp__Mod__pf, class UKSPlayerModInstance* bpp__ModInstance__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnModRemoved");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnModRemoved"));
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UNameplateWidget_C::OnModRemoved(class UKSPlayerMod* bpp__Mod__pf, class UK
 
 void UNameplateWidget_C::OnModAdded(class UKSPlayerMod* bpp__Mod__pf, class UKSPlayerModInstance* bpp__ModInstance__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnModAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnModAdded"));
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UNameplateWidget_C::OnModAdded(class UKSPlayerMod* bpp__Mod__pf, class UKSP
 
 void UNameplateWidget_C::OnLoaded_F5BCD8C84871643FB2979DA9F519484F(class UObject* bpp__Loaded__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnLoaded_F5BCD8C84871643FB2979DA9F519484F");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnLoaded_F5BCD8C84871643FB2979DA9F519484F"));
 
 	struct
 	{
@@ -270,7 +270,7 @@ void UNameplateWidget_C::OnLoaded_F5BCD8C84871643FB2979DA9F519484F(class UObject
 
 void UNameplateWidget_C::OnKillCamEnabled(bool bpp__IsEnabled__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnKillCamEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnKillCamEnabled"));
 
 	struct
 	{
@@ -288,7 +288,7 @@ void UNameplateWidget_C::OnKillCamEnabled(bool bpp__IsEnabled__pf)
 
 void UNameplateWidget_C::OnHovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnHovered"));
 
 	struct
 	{
@@ -306,7 +306,7 @@ void UNameplateWidget_C::OnHovered()
 
 void UNameplateWidget_C::OnDead(class AKSPlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnDead");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.OnDead"));
 
 	struct
 	{
@@ -324,7 +324,7 @@ void UNameplateWidget_C::OnDead(class AKSPlayerState* bpp__PlayerState__pf)
 
 void UNameplateWidget_C::Manual_Tick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Manual Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.Manual Tick"));
 
 	struct
 	{
@@ -342,7 +342,7 @@ void UNameplateWidget_C::Manual_Tick()
 
 void UNameplateWidget_C::Handle_Overheal_Changed(class AKSCharacterBase* bpp__Character__pf__const)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Handle Overheal Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.Handle Overheal Changed"));
 
 	struct
 	{
@@ -360,7 +360,7 @@ void UNameplateWidget_C::Handle_Overheal_Changed(class AKSCharacterBase* bpp__Ch
 
 void UNameplateWidget_C::Handle_Job_Changed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Handle Job Changed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.Handle Job Changed"));
 
 	struct
 	{
@@ -378,7 +378,7 @@ void UNameplateWidget_C::Handle_Job_Changed()
 
 void UNameplateWidget_C::HandleObjectiveStateChanged(const TScriptInterface<class UKSObjective>& bpp__Objective__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.HandleObjectiveStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.HandleObjectiveStateChanged"));
 
 	struct
 	{
@@ -398,7 +398,7 @@ void UNameplateWidget_C::HandleObjectiveStateChanged(const TScriptInterface<clas
 
 void UNameplateWidget_C::HandleNameChanged(class AKSPlayerState* bpp__InKSPlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.HandleNameChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.HandleNameChanged"));
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UNameplateWidget_C::HandleNameChanged(class AKSPlayerState* bpp__InKSPlayer
 
 void UNameplateWidget_C::HandleModActivationChanged(class UKSPlayerMod_Activated* bpp__ActivatedxMod__pfT, bool bpp__Active__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.HandleModActivationChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.HandleModActivationChanged"));
 
 	struct
 	{
@@ -441,7 +441,7 @@ void UNameplateWidget_C::HandleModActivationChanged(class UKSPlayerMod_Activated
 
 void UNameplateWidget_C::HandleGameObjectiveChanged(const TScriptInterface<class UKSObjective>& bpp__GameObjective__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.HandleGameObjectiveChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.HandleGameObjectiveChanged"));
 
 	struct
 	{
@@ -461,7 +461,7 @@ void UNameplateWidget_C::HandleGameObjectiveChanged(const TScriptInterface<class
 
 void UNameplateWidget_C::ExecuteUbergraph_NameplateWidget_8(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_8");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_8"));
 
 	struct
 	{
@@ -481,7 +481,7 @@ void UNameplateWidget_C::ExecuteUbergraph_NameplateWidget_8(int bpp__EntryPoint_
 
 void UNameplateWidget_C::ExecuteUbergraph_NameplateWidget_15(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_15");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_15"));
 
 	struct
 	{
@@ -499,7 +499,7 @@ void UNameplateWidget_C::ExecuteUbergraph_NameplateWidget_15(int bpp__EntryPoint
 
 void UNameplateWidget_C::Destruct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Destruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.Destruct"));
 
 	struct
 	{
@@ -515,7 +515,7 @@ void UNameplateWidget_C::Destruct()
 
 void UNameplateWidget_C::Deferred_Player_State_Open()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Deferred Player State Open");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.Deferred Player State Open"));
 
 	struct
 	{
@@ -531,7 +531,7 @@ void UNameplateWidget_C::Deferred_Player_State_Open()
 
 void UNameplateWidget_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.Construct"));
 
 	struct
 	{
@@ -549,7 +549,7 @@ void UNameplateWidget_C::Construct()
 
 void UNameplateWidget_C::CheckMods(class AKSPlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.CheckMods");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.CheckMods"));
 
 	struct
 	{
@@ -569,7 +569,7 @@ void UNameplateWidget_C::CheckMods(class AKSPlayerState* bpp__PlayerState__pf)
 
 void UNameplateWidget_C::CharacterHealthChange(class AKSCharacterBase* bpp__Character__pf__const)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.CharacterHealthChange");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NameplateWidget.NameplateWidget_C.CharacterHealthChange"));
 
 	struct
 	{
@@ -589,7 +589,7 @@ void UNameplateWidget_C::CharacterHealthChange(class AKSCharacterBase* bpp__Char
 
 void UNameplateWidget_C::OnUIRelevantPlayerStateChanged__DelegateSignature(class AKSPlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnUIRelevantPlayerStateChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnUIRelevantPlayerStateChanged__DelegateSignature"));
 
 	struct
 	{
@@ -610,7 +610,7 @@ void UNameplateWidget_C::OnUIRelevantPlayerStateChanged__DelegateSignature(class
 
 void UNameplateWidget_C::OnPlayerModActivationChange__DelegateSignature(class UKSPlayerMod_Activated* bpp__ActivatedMod__pf, bool bpp__Active__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnPlayerModActivationChange__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnPlayerModActivationChange__DelegateSignature"));
 
 	struct
 	{
@@ -632,7 +632,7 @@ void UNameplateWidget_C::OnPlayerModActivationChange__DelegateSignature(class UK
 
 void UNameplateWidget_C::OnPlayerEliminated__DelegateSignature(class AKSPlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnPlayerEliminated__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnPlayerEliminated__DelegateSignature"));
 
 	struct
 	{
@@ -652,7 +652,7 @@ void UNameplateWidget_C::OnPlayerEliminated__DelegateSignature(class AKSPlayerSt
 
 void UNameplateWidget_C::OnPlayerDownedChanged__DelegateSignature(class AKSPlayerState* bpp__PlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnPlayerDownedChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnPlayerDownedChanged__DelegateSignature"));
 
 	struct
 	{
@@ -673,7 +673,7 @@ void UNameplateWidget_C::OnPlayerDownedChanged__DelegateSignature(class AKSPlaye
 
 void UNameplateWidget_C::OnModRemoved__DelegateSignature(class UKSPlayerMod* bpp__Mod__pf, class UKSPlayerModInstance* bpp__ModInstance__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnModRemoved__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnModRemoved__DelegateSignature"));
 
 	struct
 	{
@@ -696,7 +696,7 @@ void UNameplateWidget_C::OnModRemoved__DelegateSignature(class UKSPlayerMod* bpp
 
 void UNameplateWidget_C::OnModAdded__DelegateSignature(class UKSPlayerMod* bpp__Mod__pf, class UKSPlayerModInstance* bpp__ModInstance__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnModAdded__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnModAdded__DelegateSignature"));
 
 	struct
 	{
@@ -718,7 +718,7 @@ void UNameplateWidget_C::OnModAdded__DelegateSignature(class UKSPlayerMod* bpp__
 
 void UNameplateWidget_C::OnKSPlayerStateTeamChanged__DelegateSignature(class AKSPlayerState* bpp__KSPlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnKSPlayerStateTeamChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnKSPlayerStateTeamChanged__DelegateSignature"));
 
 	struct
 	{
@@ -738,7 +738,7 @@ void UNameplateWidget_C::OnKSPlayerStateTeamChanged__DelegateSignature(class AKS
 
 void UNameplateWidget_C::OnKSPlayerStateNameChanged__DelegateSignature(class AKSPlayerState* bpp__KSPlayerState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnKSPlayerStateNameChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnKSPlayerStateNameChanged__DelegateSignature"));
 
 	struct
 	{
@@ -758,7 +758,7 @@ void UNameplateWidget_C::OnKSPlayerStateNameChanged__DelegateSignature(class AKS
 
 void UNameplateWidget_C::OnKillCamEnabled__DelegateSignature(bool bpp__bEnabled__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnKillCamEnabled__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnKillCamEnabled__DelegateSignature"));
 
 	struct
 	{
@@ -776,7 +776,7 @@ void UNameplateWidget_C::OnKillCamEnabled__DelegateSignature(bool bpp__bEnabled_
 
 void UNameplateWidget_C::OnJobChanged__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnJobChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnJobChanged__DelegateSignature"));
 
 	struct
 	{
@@ -794,7 +794,7 @@ void UNameplateWidget_C::OnJobChanged__DelegateSignature()
 
 void UNameplateWidget_C::OnHealthChanged__DelegateSignature(class AKSCharacterBase* bpp__Character__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnHealthChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnHealthChanged__DelegateSignature"));
 
 	struct
 	{
@@ -814,7 +814,7 @@ void UNameplateWidget_C::OnHealthChanged__DelegateSignature(class AKSCharacterBa
 
 void UNameplateWidget_C::OnGameObjectiveChanged__DelegateSignature(const TScriptInterface<class UKSObjective>& bpp__GameObjective__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction NameplateWidget.NameplateWidget_C.OnGameObjectiveChanged__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction NameplateWidget.NameplateWidget_C.OnGameObjectiveChanged__DelegateSignature"));
 
 	struct
 	{

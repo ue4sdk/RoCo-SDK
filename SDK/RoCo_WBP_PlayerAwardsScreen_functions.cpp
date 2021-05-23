@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_PlayerAwardsScreen_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.NavigateBack"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_PlayerAwardsScreen_C::NavigateBack()
 
 void UWBP_PlayerAwardsScreen_C::GoBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.GoBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.GoBack"));
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWBP_PlayerAwardsScreen_C::GoBack()
 
 void UWBP_PlayerAwardsScreen_C::RegisterScrollingInput()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.RegisterScrollingInput");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.RegisterScrollingInput"));
 
 	struct
 	{
@@ -72,7 +72,7 @@ void UWBP_PlayerAwardsScreen_C::RegisterScrollingInput()
 
 void UWBP_PlayerAwardsScreen_C::TickScrolling(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.TickScrolling");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.TickScrolling"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_PlayerAwardsScreen_C::TickScrolling(float DeltaTime)
 
 void UWBP_PlayerAwardsScreen_C::ScrollReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.ScrollReleased");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.ScrollReleased"));
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_PlayerAwardsScreen_C::ScrollReleased()
 
 void UWBP_PlayerAwardsScreen_C::ScrollDownPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.ScrollDownPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.ScrollDownPressed"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_PlayerAwardsScreen_C::ScrollDownPressed()
 
 void UWBP_PlayerAwardsScreen_C::ScrollUpPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.ScrollUpPressed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.ScrollUpPressed"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_PlayerAwardsScreen_C::ScrollUpPressed()
 
 bool UWBP_PlayerAwardsScreen_C::CompareChildren(class UWidget* LHS, class UWidget* RHS)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.CompareChildren");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.CompareChildren"));
 
 	struct
 	{
@@ -165,7 +165,7 @@ bool UWBP_PlayerAwardsScreen_C::CompareChildren(class UWidget* LHS, class UWidge
 
 void UWBP_PlayerAwardsScreen_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.Construct"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UWBP_PlayerAwardsScreen_C::Construct()
 
 void UWBP_PlayerAwardsScreen_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.Tick"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_PlayerAwardsScreen_C::Tick(const struct FGeometry& MyGeometry, float I
 
 void UWBP_PlayerAwardsScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.OnShown"));
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_PlayerAwardsScreen_C::OnShown()
 
 void UWBP_PlayerAwardsScreen_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.InitializeWidgetButtonListeners");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.InitializeWidgetButtonListeners"));
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UWBP_PlayerAwardsScreen_C::InitializeWidgetButtonListeners()
 
 void UWBP_PlayerAwardsScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.InitializeWidget"));
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UWBP_PlayerAwardsScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_PlayerAwardsScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_PlayerAwardsScreen_C::InitializeWidgetNavigation()
 
 void UWBP_PlayerAwardsScreen_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.OnBackPrompt"));
 
 	struct
 	{
@@ -290,7 +290,7 @@ void UWBP_PlayerAwardsScreen_C::OnBackPrompt()
 
 void UWBP_PlayerAwardsScreen_C::ExecuteUbergraph_WBP_PlayerAwardsScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.ExecuteUbergraph_WBP_PlayerAwardsScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerAwardsScreen.WBP_PlayerAwardsScreen_C.ExecuteUbergraph_WBP_PlayerAwardsScreen"));
 
 	struct
 	{

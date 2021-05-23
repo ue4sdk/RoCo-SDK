@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ListButton_Cosmetic_C::SetRewardItem(const struct FMasteryRewardData& RewardItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.SetRewardItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.SetRewardItem"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_ListButton_Cosmetic_C::SetRewardItem(const struct FMasteryRewardData& 
 
 void UWBP_ListButton_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_ListButton_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_
 
 void UWBP_ListButton_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_ListButton_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_
 
 void UWBP_ListButton_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_ListButton_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_
 
 void UWBP_ListButton_Cosmetic_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.GamepadHover"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_ListButton_Cosmetic_C::GamepadHover()
 
 void UWBP_ListButton_Cosmetic_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.GamepadUnhover"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWBP_ListButton_Cosmetic_C::GamepadUnhover()
 
 void UWBP_ListButton_Cosmetic_C::SetIsSelected(bool IsSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.SetIsSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.SetIsSelected"));
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_ListButton_Cosmetic_C::SetIsSelected(bool IsSelected)
 
 void UWBP_ListButton_Cosmetic_C::ExecuteUbergraph_WBP_ListButton_Cosmetic(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.ExecuteUbergraph_WBP_ListButton_Cosmetic");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.ExecuteUbergraph_WBP_ListButton_Cosmetic"));
 
 	struct
 	{
@@ -160,7 +160,7 @@ void UWBP_ListButton_Cosmetic_C::ExecuteUbergraph_WBP_ListButton_Cosmetic(int En
 
 void UWBP_ListButton_Cosmetic_C::OnRewardSelected__DelegateSignature(const struct FMasteryRewardData& RewardItem, class UWidget* WidgetObject)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.OnRewardSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ListButton_Cosmetic.WBP_ListButton_Cosmetic_C.OnRewardSelected__DelegateSignature"));
 
 	struct
 	{

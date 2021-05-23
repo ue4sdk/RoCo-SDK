@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_LoginRewardsGrid_C::GetRewardItems(TArray<class UWBP_LoginRewardItem_C*>* RewardItems)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.GetRewardItems");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.GetRewardItems"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_LoginRewardsGrid_C::GetRewardItems(TArray<class UWBP_LoginRewardItem_C
 
 void UWBP_LoginRewardsGrid_C::SetMaxPerRow(int Num)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.SetMaxPerRow");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.SetMaxPerRow"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_LoginRewardsGrid_C::SetMaxPerRow(int Num)
 
 void UWBP_LoginRewardsGrid_C::GetRewardItemAtIndex(int Index, class UWBP_LoginRewardItem_C** RewardItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.GetRewardItemAtIndex");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.GetRewardItemAtIndex"));
 
 	struct
 	{
@@ -84,7 +84,7 @@ void UWBP_LoginRewardsGrid_C::GetRewardItemAtIndex(int Index, class UWBP_LoginRe
 
 void UWBP_LoginRewardsGrid_C::HandleClaimRewardAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.HandleClaimRewardAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.HandleClaimRewardAnimFinished"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UWBP_LoginRewardsGrid_C::HandleClaimRewardAnimFinished()
 
 void UWBP_LoginRewardsGrid_C::ResetGrid()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.ResetGrid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.ResetGrid"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWBP_LoginRewardsGrid_C::ResetGrid()
 
 void UWBP_LoginRewardsGrid_C::PopulateRewardGrid(bool AllowClaimReward, TArray<struct FLoginRewardItem>* RewardItems)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.PopulateRewardGrid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.PopulateRewardGrid"));
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWBP_LoginRewardsGrid_C::PopulateRewardGrid(bool AllowClaimReward, TArray<s
 
 void UWBP_LoginRewardsGrid_C::HandleOnRewardHovered(class UWBP_LoginRewardItem_C* RewardItemWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.HandleOnRewardHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.HandleOnRewardHovered"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_LoginRewardsGrid_C::HandleOnRewardHovered(class UWBP_LoginRewardItem_C
 
 void UWBP_LoginRewardsGrid_C::HandleOnRewardUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.HandleOnRewardUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.HandleOnRewardUnhovered"));
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UWBP_LoginRewardsGrid_C::HandleOnRewardUnhovered()
 
 void UWBP_LoginRewardsGrid_C::HandleOnRewardClicked(const struct FLoginRewardItem& RewardItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.HandleOnRewardClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.HandleOnRewardClicked"));
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UWBP_LoginRewardsGrid_C::HandleOnRewardClicked(const struct FLoginRewardIte
 
 void UWBP_LoginRewardsGrid_C::ExecuteUbergraph_WBP_LoginRewardsGrid(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.ExecuteUbergraph_WBP_LoginRewardsGrid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.ExecuteUbergraph_WBP_LoginRewardsGrid"));
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWBP_LoginRewardsGrid_C::ExecuteUbergraph_WBP_LoginRewardsGrid(int EntryPoi
 
 void UWBP_LoginRewardsGrid_C::OnRewardClicked__DelegateSignature(const struct FLoginRewardItem& RewardItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnRewardClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnRewardClicked__DelegateSignature"));
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_LoginRewardsGrid_C::OnRewardClicked__DelegateSignature(const struct FL
 
 void UWBP_LoginRewardsGrid_C::OnRewardUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnRewardUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnRewardUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_LoginRewardsGrid_C::OnRewardUnhovered__DelegateSignature()
 
 void UWBP_LoginRewardsGrid_C::OnRewardHovered__DelegateSignature(class UWBP_LoginRewardItem_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnRewardHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnRewardHovered__DelegateSignature"));
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UWBP_LoginRewardsGrid_C::OnRewardHovered__DelegateSignature(class UWBP_Logi
 
 void UWBP_LoginRewardsGrid_C::OnRewardItemsPopulated__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnRewardItemsPopulated__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnRewardItemsPopulated__DelegateSignature"));
 
 	struct
 	{
@@ -289,7 +289,7 @@ void UWBP_LoginRewardsGrid_C::OnRewardItemsPopulated__DelegateSignature()
 
 void UWBP_LoginRewardsGrid_C::OnClaimRewardAnimComplete__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnClaimRewardAnimComplete__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoginRewardsGrid.WBP_LoginRewardsGrid_C.OnClaimRewardAnimComplete__DelegateSignature"));
 
 	struct
 	{

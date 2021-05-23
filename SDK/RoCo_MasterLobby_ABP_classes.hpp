@@ -63,7 +63,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("AnimBlueprintGeneratedClass MasterLobby_ABP.MasterLobby_ABP_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("AnimBlueprintGeneratedClass MasterLobby_ABP.MasterLobby_ABP_C"));
 		return ptr;
 	}
 

@@ -20,7 +20,7 @@ namespace SDK
 
 void UShotgunReticle_C::IsValidWeaponType(class UKSWeaponComponent* NewParam, bool* IsValidWeaponType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.IsValidWeaponType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.IsValidWeaponType"));
 
 	struct
 	{
@@ -45,7 +45,7 @@ void UShotgunReticle_C::IsValidWeaponType(class UKSWeaponComponent* NewParam, bo
 
 void UShotgunReticle_C::ShouldHideAmmoGauge(class UKSWeaponComponent* NewParam, bool* bShouldHideAmmoGauge)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.ShouldHideAmmoGauge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.ShouldHideAmmoGauge"));
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UShotgunReticle_C::ShouldHideAmmoGauge(class UKSWeaponComponent* NewParam, 
 
 void UShotgunReticle_C::UpdateReloadBarPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.UpdateReloadBarPosition");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.UpdateReloadBarPosition"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UShotgunReticle_C::UpdateReloadBarPosition()
 
 void UShotgunReticle_C::UpdateCrosshairDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.UpdateCrosshairDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.UpdateCrosshairDisplay"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UShotgunReticle_C::UpdateCrosshairDisplay()
 
 void UShotgunReticle_C::ColorSet(const struct FLinearColor& NewColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.ColorSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.ColorSet"));
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UShotgunReticle_C::ColorSet(const struct FLinearColor& NewColor)
 
 void UShotgunReticle_C::FadeClipMeter()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.FadeClipMeter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.FadeClipMeter"));
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UShotgunReticle_C::FadeClipMeter()
 
 void UShotgunReticle_C::UpdateOffset(float Offset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.UpdateOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.UpdateOffset"));
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UShotgunReticle_C::UpdateOffset(float Offset)
 
 void UShotgunReticle_C::ChangeADS(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.ChangeADS");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.ChangeADS"));
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UShotgunReticle_C::ChangeADS(bool Active)
 
 void UShotgunReticle_C::HitConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.HitConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.HitConfirm"));
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UShotgunReticle_C::HitConfirm()
 
 void UShotgunReticle_C::Headshot()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.Headshot");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.Headshot"));
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UShotgunReticle_C::Headshot()
 
 void UShotgunReticle_C::KillConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.KillConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.KillConfirm"));
 
 	struct
 	{
@@ -226,7 +226,7 @@ void UShotgunReticle_C::KillConfirm()
 
 void UShotgunReticle_C::GrenadeCook(bool Active, float TickPeriod)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.GrenadeCook");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.GrenadeCook"));
 
 	struct
 	{
@@ -246,7 +246,7 @@ void UShotgunReticle_C::GrenadeCook(bool Active, float TickPeriod)
 
 void UShotgunReticle_C::GrenadeTick()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.GrenadeTick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.GrenadeTick"));
 
 	struct
 	{
@@ -264,7 +264,7 @@ void UShotgunReticle_C::GrenadeTick()
 
 void UShotgunReticle_C::UpdateAmmoGauge(class UKSWeaponComponent* Weapon)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.UpdateAmmoGauge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.UpdateAmmoGauge"));
 
 	struct
 	{
@@ -284,7 +284,7 @@ void UShotgunReticle_C::UpdateAmmoGauge(class UKSWeaponComponent* Weapon)
 
 void UShotgunReticle_C::ExecuteUbergraph_ShotgunReticle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.ExecuteUbergraph_ShotgunReticle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ShotgunReticle.ShotgunReticle_C.ExecuteUbergraph_ShotgunReticle"));
 
 	struct
 	{

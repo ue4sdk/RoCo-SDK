@@ -19,7 +19,7 @@ namespace SDK
 
 void UTextTypeEffect_C::SetText(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TextTypeEffect.TextTypeEffect_C.SetText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TextTypeEffect.TextTypeEffect_C.SetText"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UTextTypeEffect_C::SetText(const struct FText& Text)
 
 void UTextTypeEffect_C::Tick(float dt)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TextTypeEffect.TextTypeEffect_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TextTypeEffect.TextTypeEffect_C.Tick"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UTextTypeEffect_C::Tick(float dt)
 
 void UTextTypeEffect_C::StartType()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TextTypeEffect.TextTypeEffect_C.StartType");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TextTypeEffect.TextTypeEffect_C.StartType"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UTextTypeEffect_C::StartType()
 
 void UTextTypeEffect_C::ExecuteUbergraph_TextTypeEffect(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function TextTypeEffect.TextTypeEffect_C.ExecuteUbergraph_TextTypeEffect");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TextTypeEffect.TextTypeEffect_C.ExecuteUbergraph_TextTypeEffect"));
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 class UPUMG_Widget* UWBP_Challenge_Hub_C::GetCurrentViewWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.GetCurrentViewWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.GetCurrentViewWidget"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ class UPUMG_Widget* UWBP_Challenge_Hub_C::GetCurrentViewWidget()
 
 TArray<class UPUMG_Widget*> UWBP_Challenge_Hub_C::GetAllViews()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.GetAllViews");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.GetAllViews"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ TArray<class UPUMG_Widget*> UWBP_Challenge_Hub_C::GetAllViews()
 
 void UWBP_Challenge_Hub_C::Set_Context_Bar_Prompts()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.Set Context Bar Prompts");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.Set Context Bar Prompts"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_Challenge_Hub_C::Set_Context_Bar_Prompts()
 
 bool UWBP_Challenge_Hub_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.NavigateBack"));
 
 	struct
 	{
@@ -96,7 +96,7 @@ bool UWBP_Challenge_Hub_C::NavigateBack()
 
 void UWBP_Challenge_Hub_C::Bind_Vertical_Tab_Group()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.Bind Vertical Tab Group");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.Bind Vertical Tab Group"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_Challenge_Hub_C::Bind_Vertical_Tab_Group()
 
 void UWBP_Challenge_Hub_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.InitializeWidget"));
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_Challenge_Hub_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Challenge_Hub_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UWBP_Challenge_Hub_C::InitializeWidgetNavigation()
 
 void UWBP_Challenge_Hub_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.OnShown"));
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_Challenge_Hub_C::OnShown()
 
 void UWBP_Challenge_Hub_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.OnBackPrompt"));
 
 	struct
 	{
@@ -183,7 +183,7 @@ void UWBP_Challenge_Hub_C::OnBackPrompt()
 
 void UWBP_Challenge_Hub_C::AddView(const struct FName& ViewName, const struct FOverlayTabViewRow& ViewInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.AddView");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.AddView"));
 
 	struct
 	{
@@ -203,7 +203,7 @@ void UWBP_Challenge_Hub_C::AddView(const struct FName& ViewName, const struct FO
 
 void UWBP_Challenge_Hub_C::ClearAllViews()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.ClearAllViews");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.ClearAllViews"));
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UWBP_Challenge_Hub_C::ClearAllViews()
 
 void UWBP_Challenge_Hub_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.PreConstruct"));
 
 	struct
 	{
@@ -241,7 +241,7 @@ void UWBP_Challenge_Hub_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Challenge_Hub_C::SelectViewAndShow(const struct FName& ViewName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.SelectViewAndShow");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.SelectViewAndShow"));
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UWBP_Challenge_Hub_C::SelectViewAndShow(const struct FName& ViewName)
 
 void UWBP_Challenge_Hub_C::OnTabsFocused()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.OnTabsFocused");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.OnTabsFocused"));
 
 	struct
 	{
@@ -275,7 +275,7 @@ void UWBP_Challenge_Hub_C::OnTabsFocused()
 
 void UWBP_Challenge_Hub_C::OnViewFocused()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.OnViewFocused");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.OnViewFocused"));
 
 	struct
 	{
@@ -293,7 +293,7 @@ void UWBP_Challenge_Hub_C::OnViewFocused()
 
 void UWBP_Challenge_Hub_C::ExecuteUbergraph_WBP_Challenge_Hub(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.ExecuteUbergraph_WBP_Challenge_Hub");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Hub.WBP_Challenge_Hub_C.ExecuteUbergraph_WBP_Challenge_Hub"));
 
 	struct
 	{

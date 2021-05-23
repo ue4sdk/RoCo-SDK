@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_HorizontalRule_Bottom.WBP_HorizontalRule_Bottom_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_HorizontalRule_Bottom.WBP_HorizontalRule_Bottom_C"));
 		return ptr;
 	}
 

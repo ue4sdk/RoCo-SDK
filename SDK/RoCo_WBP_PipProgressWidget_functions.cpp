@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_PipProgressWidget_C::SetPipsState(int CompletedPips, int TotalPips)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PipProgressWidget.WBP_PipProgressWidget_C.SetPipsState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PipProgressWidget.WBP_PipProgressWidget_C.SetPipsState"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_PipProgressWidget_C::SetPipsState(int CompletedPips, int TotalPips)
 
 void UWBP_PipProgressWidget_C::GetPips(TArray<class UWBP_PipProgressEntry_C*>* PipEntries)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PipProgressWidget.WBP_PipProgressWidget_C.GetPips");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PipProgressWidget.WBP_PipProgressWidget_C.GetPips"));
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_PipProgressWidget_C::GetPips(TArray<class UWBP_PipProgressEntry_C*>* P
 
 void UWBP_PipProgressWidget_C::SetPipColors(const struct FLinearColor& BaseColor, const struct FLinearColor& FillColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PipProgressWidget.WBP_PipProgressWidget_C.SetPipColors");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PipProgressWidget.WBP_PipProgressWidget_C.SetPipColors"));
 
 	struct
 	{

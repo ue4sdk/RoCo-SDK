@@ -28,7 +28,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C"));
 		return ptr;
 	}
 

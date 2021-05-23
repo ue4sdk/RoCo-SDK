@@ -18,7 +18,6 @@
 #include "RoCo_PlatformUMG_classes.hpp"
 #include "RoCo_CinematicCamera_classes.hpp"
 #include "RoCo_PlatformCommon_classes.hpp"
-#include "RoCo_PhysXVehicles_classes.hpp"
 #include "RoCo_HiRezNetTools_classes.hpp"
 #include "RoCo_KillstreakAnimGraphRuntime_classes.hpp"
 #include "RoCo_AIModule_classes.hpp"
@@ -30,6 +29,7 @@
 #include "RoCo_InputCore_classes.hpp"
 #include "RoCo_LevelSequence_classes.hpp"
 #include "RoCo_NavigationSystem_classes.hpp"
+#include "RoCo_PhysXVehicles_classes.hpp"
 #include "RoCo_SkinnableAnimNotifies_classes.hpp"
 #include "RoCo_SelectiveAkAudioEventCommon_classes.hpp"
 

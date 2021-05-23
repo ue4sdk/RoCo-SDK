@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class EditableMesh.EditableMeshAdapter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class EditableMesh.EditableMeshAdapter"));
 		return ptr;
 	}
 
@@ -41,7 +41,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class EditableMesh.EditableGeometryCollectionAdapter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class EditableMesh.EditableGeometryCollectionAdapter"));
 		return ptr;
 	}
 
@@ -64,7 +64,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class EditableMesh.EditableMesh");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class EditableMesh.EditableMesh"));
 		return ptr;
 	}
 
@@ -209,7 +209,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class EditableMesh.EditableMeshFactory");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class EditableMesh.EditableMeshFactory"));
 		return ptr;
 	}
 
@@ -230,7 +230,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class EditableMesh.EditableStaticMeshAdapter");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class EditableMesh.EditableStaticMeshAdapter"));
 		return ptr;
 	}
 

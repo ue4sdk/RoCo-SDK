@@ -26,7 +26,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_Lightbomb_HitDisplay.WBP_Lightbomb_HitDisplay_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_Lightbomb_HitDisplay.WBP_Lightbomb_HitDisplay_C"));
 		return ptr;
 	}
 

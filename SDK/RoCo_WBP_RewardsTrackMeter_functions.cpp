@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_RewardsTrackMeter_C::Create_Segments()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.Create Segments");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.Create Segments"));
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UWBP_RewardsTrackMeter_C::Create_Segments()
 
 void UWBP_RewardsTrackMeter_C::Set_From_Activity_Instance(class UKSActivityInstance* Progression, int Starting_Tier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.Set From Activity Instance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.Set From Activity Instance"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_RewardsTrackMeter_C::Set_From_Activity_Instance(class UKSActivityInsta
 
 void UWBP_RewardsTrackMeter_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.PreConstruct"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_RewardsTrackMeter_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RewardsTrackMeter_C::ExecuteUbergraph_WBP_RewardsTrackMeter(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.ExecuteUbergraph_WBP_RewardsTrackMeter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.ExecuteUbergraph_WBP_RewardsTrackMeter"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_RewardsTrackMeter_C::ExecuteUbergraph_WBP_RewardsTrackMeter(int EntryP
 
 void UWBP_RewardsTrackMeter_C::OnLerpUpdate__DelegateSignature(float CurrentLerpPercantage)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.OnLerpUpdate__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.OnLerpUpdate__DelegateSignature"));
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UWBP_RewardsTrackMeter_C::OnLerpUpdate__DelegateSignature(float CurrentLerp
 
 void UWBP_RewardsTrackMeter_C::OnLevelDownEvent__DelegateSignature(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.OnLevelDownEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.OnLevelDownEvent__DelegateSignature"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_RewardsTrackMeter_C::OnLevelDownEvent__DelegateSignature(int NewLevel)
 
 void UWBP_RewardsTrackMeter_C::OnLevelUpEvent__DelegateSignature(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.OnLevelUpEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrackMeter.WBP_RewardsTrackMeter_C.OnLevelUpEvent__DelegateSignature"));
 
 	struct
 	{

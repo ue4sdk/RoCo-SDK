@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_AdditiveImage_C::SetAdditiveMaterial()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AdditiveImage.WBP_AdditiveImage_C.SetAdditiveMaterial");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AdditiveImage.WBP_AdditiveImage_C.SetAdditiveMaterial"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_AdditiveImage_C::SetAdditiveMaterial()
 
 void UWBP_AdditiveImage_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AdditiveImage.WBP_AdditiveImage_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AdditiveImage.WBP_AdditiveImage_C.PreConstruct"));
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_AdditiveImage_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_AdditiveImage_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AdditiveImage.WBP_AdditiveImage_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AdditiveImage.WBP_AdditiveImage_C.Construct"));
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_AdditiveImage_C::Construct()
 
 void UWBP_AdditiveImage_C::ExecuteUbergraph_WBP_AdditiveImage(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AdditiveImage.WBP_AdditiveImage_C.ExecuteUbergraph_WBP_AdditiveImage");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AdditiveImage.WBP_AdditiveImage_C.ExecuteUbergraph_WBP_AdditiveImage"));
 
 	struct
 	{

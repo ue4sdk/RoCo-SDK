@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_BanShelf_C::NotifyBanShouldHaveBeenReceived()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BanShelf.WBP_BanShelf_C.NotifyBanShouldHaveBeenReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BanShelf.WBP_BanShelf_C.NotifyBanShouldHaveBeenReceived"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_BanShelf_C::NotifyBanShouldHaveBeenReceived()
 
 void UWBP_BanShelf_C::NotifyBanExpected(bool IsFriendly)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BanShelf.WBP_BanShelf_C.NotifyBanExpected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BanShelf.WBP_BanShelf_C.NotifyBanExpected"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_BanShelf_C::NotifyBanExpected(bool IsFriendly)
 
 bool UWBP_BanShelf_C::IsFriendlyBan(class UKSJobItem* CheckItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BanShelf.WBP_BanShelf_C.IsFriendlyBan");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BanShelf.WBP_BanShelf_C.IsFriendlyBan"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ bool UWBP_BanShelf_C::IsFriendlyBan(class UKSJobItem* CheckItem)
 
 void UWBP_BanShelf_C::ClearBannedJobs()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BanShelf.WBP_BanShelf_C.ClearBannedJobs");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BanShelf.WBP_BanShelf_C.ClearBannedJobs"));
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_BanShelf_C::ClearBannedJobs()
 
 void UWBP_BanShelf_C::NotifyBannedJobItem(class UKSJobItem* NewBanItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BanShelf.WBP_BanShelf_C.NotifyBannedJobItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BanShelf.WBP_BanShelf_C.NotifyBannedJobItem"));
 
 	struct
 	{

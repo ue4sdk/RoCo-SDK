@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ScorePipEntry_C::Set_Pip(bool On)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ScorePipEntry.WBP_ScorePipEntry_C.Set Pip");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ScorePipEntry.WBP_ScorePipEntry_C.Set Pip"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ScorePipEntry_C::Set_Pip(bool On)
 
 void UWBP_ScorePipEntry_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ScorePipEntry.WBP_ScorePipEntry_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ScorePipEntry.WBP_ScorePipEntry_C.PreConstruct"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_ScorePipEntry_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ScorePipEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ScorePipEntry.WBP_ScorePipEntry_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ScorePipEntry.WBP_ScorePipEntry_C.Construct"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_ScorePipEntry_C::Construct()
 
 void UWBP_ScorePipEntry_C::ExecuteUbergraph_WBP_ScorePipEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ScorePipEntry.WBP_ScorePipEntry_C.ExecuteUbergraph_WBP_ScorePipEntry");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ScorePipEntry.WBP_ScorePipEntry_C.ExecuteUbergraph_WBP_ScorePipEntry"));
 
 	struct
 	{

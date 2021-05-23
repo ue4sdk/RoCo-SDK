@@ -35,7 +35,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass HitIndicatorSub.HitIndicatorSub_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass HitIndicatorSub.HitIndicatorSub_C"));
 		return ptr;
 	}
 

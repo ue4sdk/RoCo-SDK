@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass VoicelineNotify.VoicelineNotify_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass VoicelineNotify.VoicelineNotify_C"));
 		return ptr;
 	}
 

@@ -17,7 +17,7 @@ namespace SDK
 
 void UAudioCapture::StopCapturingAudio()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AudioCapture.AudioCapture.StopCapturingAudio");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AudioCapture.AudioCapture.StopCapturingAudio"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UAudioCapture::StopCapturingAudio()
 
 void UAudioCapture::StartCapturingAudio()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AudioCapture.AudioCapture.StartCapturingAudio");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AudioCapture.AudioCapture.StartCapturingAudio"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UAudioCapture::StartCapturingAudio()
 
 bool UAudioCapture::IsCapturingAudio()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AudioCapture.AudioCapture.IsCapturingAudio");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AudioCapture.AudioCapture.IsCapturingAudio"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ bool UAudioCapture::IsCapturingAudio()
 
 bool UAudioCapture::GetAudioCaptureDeviceInfo(struct FAudioCaptureDeviceInfo* OutInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AudioCapture.AudioCapture.GetAudioCaptureDeviceInfo");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AudioCapture.AudioCapture.GetAudioCaptureDeviceInfo"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ bool UAudioCapture::GetAudioCaptureDeviceInfo(struct FAudioCaptureDeviceInfo* Ou
 
 class UAudioCapture* UAudioCaptureFunctionLibrary::CreateAudioCapture()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AudioCapture.AudioCaptureFunctionLibrary.CreateAudioCapture");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AudioCapture.AudioCaptureFunctionLibrary.CreateAudioCapture"));
 
 	struct
 	{

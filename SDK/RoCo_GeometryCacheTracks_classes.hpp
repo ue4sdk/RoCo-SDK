@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCacheTracks.MovieSceneGeometryCacheSection");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCacheTracks.MovieSceneGeometryCacheSection"));
 		return ptr;
 	}
 
@@ -39,7 +39,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class GeometryCacheTracks.MovieSceneGeometryCacheTrack");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GeometryCacheTracks.MovieSceneGeometryCacheTrack"));
 		return ptr;
 	}
 

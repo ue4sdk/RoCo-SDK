@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass MasterMelee_DamageType.MasterMelee_DamageType_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass MasterMelee_DamageType.MasterMelee_DamageType_C"));
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void USub_Hero_ABP_Face_C::ExecuteUbergraph_Sub_Hero_ABP_Face(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Sub_Hero_ABP_Face.Sub_Hero_ABP_Face_C.ExecuteUbergraph_Sub_Hero_ABP_Face");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Sub_Hero_ABP_Face.Sub_Hero_ABP_Face_C.ExecuteUbergraph_Sub_Hero_ABP_Face"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ void USub_Hero_ABP_Face_C::ExecuteUbergraph_Sub_Hero_ABP_Face(int bpp__EntryPoin
 
 void USub_Hero_ABP_Face_C::AnimGraph(const struct FPoseLink& bpp__InPose__pf, struct FPoseLink* bpp__AnimGraph__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Sub_Hero_ABP_Face.Sub_Hero_ABP_Face_C.AnimGraph");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Sub_Hero_ABP_Face.Sub_Hero_ABP_Face_C.AnimGraph"));
 
 	struct
 	{

@@ -20,7 +20,7 @@ namespace SDK
 
 void UPlayerHealthMeter_C::SetImmune(bool bpp__bEnabled__pf, bool bpp__bImmediate__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.SetImmune");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.SetImmune"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UPlayerHealthMeter_C::SetImmune(bool bpp__bEnabled__pf, bool bpp__bImmediat
 
 void UPlayerHealthMeter_C::SetHealthMeterState(const struct FPlayerHealthMeterState& bpp__HealthMeterState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.SetHealthMeterState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.SetHealthMeterState"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UPlayerHealthMeter_C::SetHealthMeterState(const struct FPlayerHealthMeterSt
 
 void UPlayerHealthMeter_C::SequenceEvent__ENTRYPOINTPlayerHealthMeter_2(class UImage* bpp__OutlineBorder__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.SequenceEvent__ENTRYPOINTPlayerHealthMeter_2");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.SequenceEvent__ENTRYPOINTPlayerHealthMeter_2"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UPlayerHealthMeter_C::SequenceEvent__ENTRYPOINTPlayerHealthMeter_2(class UI
 
 void UPlayerHealthMeter_C::SequenceEvent__ENTRYPOINTPlayerHealthMeter_1(class UImage* bpp__OutlineBorder__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.SequenceEvent__ENTRYPOINTPlayerHealthMeter_1");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.SequenceEvent__ENTRYPOINTPlayerHealthMeter_1"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UPlayerHealthMeter_C::SequenceEvent__ENTRYPOINTPlayerHealthMeter_1(class UI
 
 void UPlayerHealthMeter_C::PreConstruct(bool bpp__IsDesignTime__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.PreConstruct"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UPlayerHealthMeter_C::PreConstruct(bool bpp__IsDesignTime__pf)
 
 void UPlayerHealthMeter_C::PlayDamagePulse()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.PlayDamagePulse");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.PlayDamagePulse"));
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UPlayerHealthMeter_C::PlayDamagePulse()
 
 void UPlayerHealthMeter_C::OnEnableImmuneParams(class UImage* bpp__OutlineBorder__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.OnEnableImmuneParams");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.OnEnableImmuneParams"));
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UPlayerHealthMeter_C::OnEnableImmuneParams(class UImage* bpp__OutlineBorder
 
 void UPlayerHealthMeter_C::OnDisableImmuneParams(class UImage* bpp__OutlineBorder__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.OnDisableImmuneParams");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.OnDisableImmuneParams"));
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UPlayerHealthMeter_C::OnDisableImmuneParams(class UImage* bpp__OutlineBorde
 
 void UPlayerHealthMeter_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.Construct"));
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UPlayerHealthMeter_C::Construct()
 
 void UPlayerHealthMeter_C::Apply_State_To_Segments()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.Apply State To Segments");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.Apply State To Segments"));
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UPlayerHealthMeter_C::Apply_State_To_Segments()
 
 void UPlayerHealthMeter_C::Add_Segments_If_Needed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.Add Segments If Needed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeter.PlayerHealthMeter_C.Add Segments If Needed"));
 
 	struct
 	{

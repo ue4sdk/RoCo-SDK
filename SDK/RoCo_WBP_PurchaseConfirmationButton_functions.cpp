@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_PurchaseConfirmationButton_C::Can_Prompt_Store_Redirect()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.Can Prompt Store Redirect");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.Can Prompt Store Redirect"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_PurchaseConfirmationButton_C::Can_Prompt_Store_Redirect()
 
 void UWBP_PurchaseConfirmationButton_C::Store_Redirect()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.Store Redirect");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.Store Redirect"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_PurchaseConfirmationButton_C::Store_Redirect()
 
 void UWBP_PurchaseConfirmationButton_C::DisableButton(bool IsDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.DisableButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.DisableButton"));
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_PurchaseConfirmationButton_C::DisableButton(bool IsDisabled)
 
 void UWBP_PurchaseConfirmationButton_C::StartConfirmHold()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.StartConfirmHold");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.StartConfirmHold"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_PurchaseConfirmationButton_C::StartConfirmHold()
 
 void UWBP_PurchaseConfirmationButton_C::ClearConfirmHold()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.ClearConfirmHold");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.ClearConfirmHold"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UWBP_PurchaseConfirmationButton_C::ClearConfirmHold()
 
 void UWBP_PurchaseConfirmationButton_C::UpdateGamepadPromptDisplay(TEnumAsByte<EPGAME_INPUT_STATE> InputMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.UpdateGamepadPromptDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.UpdateGamepadPromptDisplay"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_PurchaseConfirmationButton_C::UpdateGamepadPromptDisplay(TEnumAsByte<E
 
 void UWBP_PurchaseConfirmationButton_C::OnButtonUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.OnButtonUnhovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.OnButtonUnhovered"));
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UWBP_PurchaseConfirmationButton_C::OnButtonUnhovered()
 
 void UWBP_PurchaseConfirmationButton_C::OnButtonHovered(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.OnButtonHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.OnButtonHovered"));
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWBP_PurchaseConfirmationButton_C::OnButtonHovered(bool IsGamepad)
 
 void UWBP_PurchaseConfirmationButton_C::OnButtonClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.OnButtonClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.OnButtonClicked"));
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWBP_PurchaseConfirmationButton_C::OnButtonClicked()
 
 void UWBP_PurchaseConfirmationButton_C::SetPortalOffer(class UPUMG_PortalOffer* PortalOffer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.SetPortalOffer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.SetPortalOffer"));
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_PurchaseConfirmationButton_C::SetPortalOffer(class UPUMG_PortalOffer* 
 
 void UWBP_PurchaseConfirmationButton_C::SetRawText(const struct FText& ButtonText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.SetRawText");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.SetRawText"));
 
 	struct
 	{
@@ -222,7 +222,7 @@ void UWBP_PurchaseConfirmationButton_C::SetRawText(const struct FText& ButtonTex
 
 void UWBP_PurchaseConfirmationButton_C::SetStorePrice(class UPUMG_StoreItemPrice* ItemPrice, int ItemPurchaseQuantity, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.SetStorePrice");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.SetStorePrice"));
 
 	struct
 	{
@@ -246,7 +246,7 @@ void UWBP_PurchaseConfirmationButton_C::SetStorePrice(class UPUMG_StoreItemPrice
 
 void UWBP_PurchaseConfirmationButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.PreConstruct"));
 
 	struct
 	{
@@ -264,7 +264,7 @@ void UWBP_PurchaseConfirmationButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PurchaseConfirmationButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.Construct"));
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UWBP_PurchaseConfirmationButton_C::Construct()
 
 void UWBP_PurchaseConfirmationButton_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.Tick"));
 
 	struct
 	{
@@ -305,7 +305,7 @@ void UWBP_PurchaseConfirmationButton_C::Tick(const struct FGeometry& MyGeometry,
 
 void UWBP_PurchaseConfirmationButton_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.InitializeWidget"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ void UWBP_PurchaseConfirmationButton_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_PurchaseConfirmationButton_C::ExecuteUbergraph_WBP_PurchaseConfirmationButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.ExecuteUbergraph_WBP_PurchaseConfirmationButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.ExecuteUbergraph_WBP_PurchaseConfirmationButton"));
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UWBP_PurchaseConfirmationButton_C::ExecuteUbergraph_WBP_PurchaseConfirmatio
 
 void UWBP_PurchaseConfirmationButton_C::OnRawClick__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.OnRawClick__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.OnRawClick__DelegateSignature"));
 
 	struct
 	{
@@ -361,7 +361,7 @@ void UWBP_PurchaseConfirmationButton_C::OnRawClick__DelegateSignature()
 
 void UWBP_PurchaseConfirmationButton_C::PurcaseItemWithPortalOffer__DelegateSignature(class UPUMG_PortalOffer* PortalOffer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.PurcaseItemWithPortalOffer__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.PurcaseItemWithPortalOffer__DelegateSignature"));
 
 	struct
 	{
@@ -381,7 +381,7 @@ void UWBP_PurchaseConfirmationButton_C::PurcaseItemWithPortalOffer__DelegateSign
 
 void UWBP_PurchaseConfirmationButton_C::PurcaseItemWithPrice__DelegateSignature(class UPUMG_StoreItemPrice* Price)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.PurcaseItemWithPrice__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PurchaseConfirmationButton.WBP_PurchaseConfirmationButton_C.PurcaseItemWithPrice__DelegateSignature"));
 
 	struct
 	{

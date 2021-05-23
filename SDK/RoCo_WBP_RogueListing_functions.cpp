@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueListing_C::OnGotoOffer(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnGotoOffer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnGotoOffer"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_RogueListing_C::OnGotoOffer(class UPUMG_StoreItem* StoreItem)
 
 void UWBP_RogueListing_C::SetDLCDisplay(bool ShowDLC)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.SetDLCDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.SetDLCDisplay"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_RogueListing_C::SetDLCDisplay(bool ShowDLC)
 
 void UWBP_RogueListing_C::IsJobOwned(class UKSJobItem* JobItem, bool* owned)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.IsJobOwned");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.IsJobOwned"));
 
 	struct
 	{
@@ -84,7 +84,7 @@ void UWBP_RogueListing_C::IsJobOwned(class UKSJobItem* JobItem, bool* owned)
 
 void UWBP_RogueListing_C::SetRogueOwned(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.SetRogueOwned");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.SetRogueOwned"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWBP_RogueListing_C::SetRogueOwned(class UPUMG_StoreItem* StoreItem)
 
 void UWBP_RogueListing_C::ResetFavoriteIcons()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.ResetFavoriteIcons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.ResetFavoriteIcons"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UWBP_RogueListing_C::ResetFavoriteIcons()
 
 void UWBP_RogueListing_C::OnJobHovered(class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnJobHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnJobHovered"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_RogueListing_C::OnJobHovered(class UKSJobItem* JobItem)
 
 struct FEventReply UWBP_RogueListing_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnKeyUp"));
 
 	struct
 	{
@@ -167,7 +167,7 @@ struct FEventReply UWBP_RogueListing_C::OnKeyUp(const struct FGeometry& MyGeomet
 
 bool UWBP_RogueListing_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.NavigateBack"));
 
 	struct
 	{
@@ -186,7 +186,7 @@ bool UWBP_RogueListing_C::NavigateBack()
 
 void UWBP_RogueListing_C::PopulateRoleFilters()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.PopulateRoleFilters");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.PopulateRoleFilters"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_RogueListing_C::PopulateRoleFilters()
 
 void UWBP_RogueListing_C::GetJobButtons(TArray<class UWBP_JobGeneralButton_C*>* JobButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.GetJobButtons");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.GetJobButtons"));
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UWBP_RogueListing_C::GetJobButtons(TArray<class UWBP_JobGeneralButton_C*>* 
 
 void UWBP_RogueListing_C::SetRowAndColumn(class UGridSlot* GridSlot, int Index, int MaxRowCount)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.SetRowAndColumn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.SetRowAndColumn"));
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UWBP_RogueListing_C::SetRowAndColumn(class UGridSlot* GridSlot, int Index, 
 
 void UWBP_RogueListing_C::ResetButtonState()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.ResetButtonState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.ResetButtonState"));
 
 	struct
 	{
@@ -266,7 +266,7 @@ void UWBP_RogueListing_C::ResetButtonState()
 
 void UWBP_RogueListing_C::ResetJobList()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.ResetJobList");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.ResetJobList"));
 
 	struct
 	{
@@ -284,7 +284,7 @@ void UWBP_RogueListing_C::ResetJobList()
 
 void UWBP_RogueListing_C::PopulateJobList(TArray<TSoftObjectPtr<class UKSJobItem>>* LoadoutOptions)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.PopulateJobList");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.PopulateJobList"));
 
 	struct
 	{
@@ -304,7 +304,7 @@ void UWBP_RogueListing_C::PopulateJobList(TArray<TSoftObjectPtr<class UKSJobItem
 
 void UWBP_RogueListing_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.InitializeTickAnimations");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.InitializeTickAnimations"));
 
 	struct
 	{
@@ -323,7 +323,7 @@ void UWBP_RogueListing_C::InitializeTickAnimations()
 
 void UWBP_RogueListing_C::OnShowScreenAnimUpdate(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnShowScreenAnimUpdate");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnShowScreenAnimUpdate"));
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UWBP_RogueListing_C::OnShowScreenAnimUpdate(float ElapsedTime, float Elapse
 
 void UWBP_RogueListing_C::OnShowScreenAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnShowScreenAnimFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnShowScreenAnimFinished"));
 
 	struct
 	{
@@ -359,7 +359,7 @@ void UWBP_RogueListing_C::OnShowScreenAnimFinished()
 
 void UWBP_RogueListing_C::StartShowScreenAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.StartShowScreenAnim");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.StartShowScreenAnim"));
 
 	struct
 	{
@@ -377,7 +377,7 @@ void UWBP_RogueListing_C::StartShowScreenAnim()
 
 void UWBP_RogueListing_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.InitializeWidget"));
 
 	struct
 	{
@@ -397,7 +397,7 @@ void UWBP_RogueListing_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RogueListing_C::HandleOnJobSelected(class UKSJobItem* SelectedJob)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.HandleOnJobSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.HandleOnJobSelected"));
 
 	struct
 	{
@@ -415,7 +415,7 @@ void UWBP_RogueListing_C::HandleOnJobSelected(class UKSJobItem* SelectedJob)
 
 void UWBP_RogueListing_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnShown"));
 
 	struct
 	{
@@ -431,7 +431,7 @@ void UWBP_RogueListing_C::OnShown()
 
 void UWBP_RogueListing_C::ExternalOnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.ExternalOnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.ExternalOnShown"));
 
 	struct
 	{
@@ -447,7 +447,7 @@ void UWBP_RogueListing_C::ExternalOnShown()
 
 void UWBP_RogueListing_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -463,7 +463,7 @@ void UWBP_RogueListing_C::InitializeWidgetNavigation()
 
 void UWBP_RogueListing_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnBackPrompt"));
 
 	struct
 	{
@@ -482,7 +482,7 @@ void UWBP_RogueListing_C::OnBackPrompt()
 
 void UWBP_RogueListing_C::HandleOnPurchasedItem(class UPUMG_StoreItem* Item, class UPUMG_StoreItemPrice* Price)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.HandleOnPurchasedItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.HandleOnPurchasedItem"));
 
 	struct
 	{
@@ -505,7 +505,7 @@ void UWBP_RogueListing_C::HandleOnPurchasedItem(class UPUMG_StoreItem* Item, cla
 
 void UWBP_RogueListing_C::OnItemGamepadHovered(class UPUMG_Widget* Widget, bool bHovered)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnItemGamepadHovered");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnItemGamepadHovered"));
 
 	struct
 	{
@@ -525,7 +525,7 @@ void UWBP_RogueListing_C::OnItemGamepadHovered(class UPUMG_Widget* Widget, bool 
 
 void UWBP_RogueListing_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnHide"));
 
 	struct
 	{
@@ -543,7 +543,7 @@ void UWBP_RogueListing_C::OnHide()
 
 void UWBP_RogueListing_C::BndEvt__WBP_RogueListingOfferPanel_K2Node_ComponentBoundEvent_0_OnOfferClicked__DelegateSignature(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.BndEvt__WBP_RogueListingOfferPanel_K2Node_ComponentBoundEvent_0_OnOfferClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.BndEvt__WBP_RogueListingOfferPanel_K2Node_ComponentBoundEvent_0_OnOfferClicked__DelegateSignature"));
 
 	struct
 	{
@@ -563,7 +563,7 @@ void UWBP_RogueListing_C::BndEvt__WBP_RogueListingOfferPanel_K2Node_ComponentBou
 
 void UWBP_RogueListing_C::FocusGroupNavigateRightFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.FocusGroupNavigateRightFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.FocusGroupNavigateRightFailure"));
 
 	struct
 	{
@@ -583,7 +583,7 @@ void UWBP_RogueListing_C::FocusGroupNavigateRightFailure(int FocusGroup)
 
 void UWBP_RogueListing_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.FocusGroupNavigateLeftFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.FocusGroupNavigateLeftFailure"));
 
 	struct
 	{
@@ -603,7 +603,7 @@ void UWBP_RogueListing_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 
 void UWBP_RogueListing_C::ExecuteUbergraph_WBP_RogueListing(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.ExecuteUbergraph_WBP_RogueListing");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.ExecuteUbergraph_WBP_RogueListing"));
 
 	struct
 	{
@@ -623,7 +623,7 @@ void UWBP_RogueListing_C::ExecuteUbergraph_WBP_RogueListing(int EntryPoint)
 
 void UWBP_RogueListing_C::OnJobListReady__DelegateSignature(TArray<class UWBP_JobGeneralButton_C*>* JobButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnJobListReady__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnJobListReady__DelegateSignature"));
 
 	struct
 	{
@@ -645,7 +645,7 @@ void UWBP_RogueListing_C::OnJobListReady__DelegateSignature(TArray<class UWBP_Jo
 
 void UWBP_RogueListing_C::OnJobSelected__DelegateSignature(class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueListing.WBP_RogueListing_C.OnJobSelected__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueListing.WBP_RogueListing_C.OnJobSelected__DelegateSignature"));
 
 	struct
 	{

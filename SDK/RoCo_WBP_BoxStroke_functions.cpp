@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_BoxStroke_C::SetStrokeColor(const struct FLinearColor& NewColor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoxStroke.WBP_BoxStroke_C.SetStrokeColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoxStroke.WBP_BoxStroke_C.SetStrokeColor"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_BoxStroke_C::SetStrokeColor(const struct FLinearColor& NewColor)
 
 void UWBP_BoxStroke_C::SetStrokeSize(float NewSize)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoxStroke.WBP_BoxStroke_C.SetStrokeSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoxStroke.WBP_BoxStroke_C.SetStrokeSize"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_BoxStroke_C::SetStrokeSize(float NewSize)
 
 void UWBP_BoxStroke_C::ApplyStrokeColor()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoxStroke.WBP_BoxStroke_C.ApplyStrokeColor");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoxStroke.WBP_BoxStroke_C.ApplyStrokeColor"));
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_BoxStroke_C::ApplyStrokeColor()
 
 void UWBP_BoxStroke_C::ApplyStrokeSize()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoxStroke.WBP_BoxStroke_C.ApplyStrokeSize");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoxStroke.WBP_BoxStroke_C.ApplyStrokeSize"));
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_BoxStroke_C::ApplyStrokeSize()
 
 void UWBP_BoxStroke_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoxStroke.WBP_BoxStroke_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoxStroke.WBP_BoxStroke_C.PreConstruct"));
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_BoxStroke_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_BoxStroke_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoxStroke.WBP_BoxStroke_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoxStroke.WBP_BoxStroke_C.Construct"));
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_BoxStroke_C::Construct()
 
 void UWBP_BoxStroke_C::ExecuteUbergraph_WBP_BoxStroke(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BoxStroke.WBP_BoxStroke_C.ExecuteUbergraph_WBP_BoxStroke");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BoxStroke.WBP_BoxStroke_C.ExecuteUbergraph_WBP_BoxStroke"));
 
 	struct
 	{

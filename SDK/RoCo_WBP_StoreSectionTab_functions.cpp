@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_StoreSectionTab_C::ShowCTA(bool ShowCTA)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.ShowCTA");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.ShowCTA"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_StoreSectionTab_C::ShowCTA(bool ShowCTA)
 
 void UWBP_StoreSectionTab_C::SetPromptButton(const struct FKey& PromptKey)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.SetPromptButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.SetPromptButton"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_StoreSectionTab_C::SetPromptButton(const struct FKey& PromptKey)
 
 void UWBP_StoreSectionTab_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.OnInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.OnInputStateChanged"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_StoreSectionTab_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE>
 
 bool UWBP_StoreSectionTab_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.NavigateConfirm"));
 
 	struct
 	{
@@ -98,7 +98,7 @@ bool UWBP_StoreSectionTab_C::NavigateConfirm()
 
 void UWBP_StoreSectionTab_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.Construct"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_StoreSectionTab_C::Construct()
 
 void UWBP_StoreSectionTab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_StoreSectionTab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnBu
 
 void UWBP_StoreSectionTab_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.GamepadConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.GamepadConfirm"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_StoreSectionTab_C::GamepadConfirm()
 
 void UWBP_StoreSectionTab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWBP_StoreSectionTab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnBu
 
 void UWBP_StoreSectionTab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -178,7 +178,7 @@ void UWBP_StoreSectionTab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnBu
 
 void UWBP_StoreSectionTab_C::SetActive()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.SetActive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.SetActive"));
 
 	struct
 	{
@@ -194,7 +194,7 @@ void UWBP_StoreSectionTab_C::SetActive()
 
 void UWBP_StoreSectionTab_C::SetInactive()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.SetInactive");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.SetInactive"));
 
 	struct
 	{
@@ -212,7 +212,7 @@ void UWBP_StoreSectionTab_C::SetInactive()
 
 void UWBP_StoreSectionTab_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.PreConstruct"));
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UWBP_StoreSectionTab_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_StoreSectionTab_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.InitializeWidget"));
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_StoreSectionTab_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_StoreSectionTab_C::ExecuteUbergraph_WBP_StoreSectionTab(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.ExecuteUbergraph_WBP_StoreSectionTab");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.ExecuteUbergraph_WBP_StoreSectionTab"));
 
 	struct
 	{
@@ -270,7 +270,7 @@ void UWBP_StoreSectionTab_C::ExecuteUbergraph_WBP_StoreSectionTab(int EntryPoint
 
 void UWBP_StoreSectionTab_C::OnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.OnUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.OnUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -286,7 +286,7 @@ void UWBP_StoreSectionTab_C::OnUnhovered__DelegateSignature()
 
 void UWBP_StoreSectionTab_C::OnHovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.OnHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.OnHovered__DelegateSignature"));
 
 	struct
 	{
@@ -304,7 +304,7 @@ void UWBP_StoreSectionTab_C::OnHovered__DelegateSignature()
 
 void UWBP_StoreSectionTab_C::OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreSectionTab.WBP_StoreSectionTab_C.OnClicked__DelegateSignature"));
 
 	struct
 	{

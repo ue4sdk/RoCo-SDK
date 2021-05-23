@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_VoteChoice_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteChoice.WBP_VoteChoice_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteChoice.WBP_VoteChoice_C.PreConstruct"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_VoteChoice_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_VoteChoice_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteChoice.WBP_VoteChoice_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteChoice.WBP_VoteChoice_C.Construct"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_VoteChoice_C::Construct()
 
 void UWBP_VoteChoice_C::UpdateVoteFill(float Delta_Time, float TimeToFill)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteChoice.WBP_VoteChoice_C.UpdateVoteFill");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteChoice.WBP_VoteChoice_C.UpdateVoteFill"));
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_VoteChoice_C::UpdateVoteFill(float Delta_Time, float TimeToFill)
 
 void UWBP_VoteChoice_C::ResetFill()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteChoice.WBP_VoteChoice_C.ResetFill");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteChoice.WBP_VoteChoice_C.ResetFill"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UWBP_VoteChoice_C::ResetFill()
 
 void UWBP_VoteChoice_C::ExecuteUbergraph_WBP_VoteChoice(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteChoice.WBP_VoteChoice_C.ExecuteUbergraph_WBP_VoteChoice");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteChoice.WBP_VoteChoice_C.ExecuteUbergraph_WBP_VoteChoice"));
 
 	struct
 	{

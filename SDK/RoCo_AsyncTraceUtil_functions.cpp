@@ -22,7 +22,7 @@ namespace SDK
 
 void UAsyncTraceUtilBPLibrary::OnMultiAsyncTraceResult__DelegateSignature(bool bBlockingHit, TArray<struct FHitResult> OutHits, const struct FVector& start, const struct FVector& end)
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AsyncTraceUtil.AsyncTraceUtilBPLibrary.OnMultiAsyncTraceResult__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AsyncTraceUtil.AsyncTraceUtilBPLibrary.OnMultiAsyncTraceResult__DelegateSignature"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UAsyncTraceUtilBPLibrary::OnMultiAsyncTraceResult__DelegateSignature(bool b
 
 void UAsyncTraceUtilBPLibrary::MultiSphereSweepByChannelAsync(class UObject* WorldContextObject, const struct FVector& start, const struct FVector& end, TEnumAsByte<ECollisionChannel> TraceChannel, float SphereRadius, bool bTraceComplex, TArray<class AActor*> ActorsToIgnore, TEnumAsByte<EDrawDebugTrace> DrawDebugType, const struct FScriptDelegate& OnTraceComplete, bool bIgnoreSelf, const struct FLatentActionInfo& LatentInfo, const struct FLinearColor& TraceColor, const struct FLinearColor& TraceHitColor, float DrawTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AsyncTraceUtil.AsyncTraceUtilBPLibrary.MultiSphereSweepByChannelAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AsyncTraceUtil.AsyncTraceUtilBPLibrary.MultiSphereSweepByChannelAsync"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UAsyncTraceUtilBPLibrary::MultiSphereSweepByChannelAsync(class UObject* Wor
 
 bool UAsyncTraceUtilBPLibrary::MultipleLineTraceAsync(class UObject* WorldContextObject, TArray<struct FVector> Starts, TArray<struct FVector> Ends, TEnumAsByte<ECollisionChannel> TraceChannel, bool bTraceComplex, TArray<class AActor*> ActorsToIgnore, TEnumAsByte<EDrawDebugTrace> DrawDebugType, bool bIgnoreSelf, const struct FLatentActionInfo& LatentInfo, const struct FLinearColor& TraceColor, const struct FLinearColor& TraceHitColor, float DrawTime, TArray<struct FHitResult>* OutHits)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AsyncTraceUtil.AsyncTraceUtilBPLibrary.MultipleLineTraceAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AsyncTraceUtil.AsyncTraceUtilBPLibrary.MultipleLineTraceAsync"));
 
 	struct
 	{
@@ -183,7 +183,7 @@ bool UAsyncTraceUtilBPLibrary::MultipleLineTraceAsync(class UObject* WorldContex
 
 void UAsyncTraceUtilBPLibrary::MultiLineTraceByChannelAsync(class UObject* WorldContextObject, const struct FVector& start, const struct FVector& end, TEnumAsByte<ECollisionChannel> TraceChannel, bool bTraceComplex, TArray<class AActor*> ActorsToIgnore, TEnumAsByte<EDrawDebugTrace> DrawDebugType, const struct FScriptDelegate& OnTraceComplete, bool bIgnoreSelf, const struct FLatentActionInfo& LatentInfo, const struct FLinearColor& TraceColor, const struct FLinearColor& TraceHitColor, float DrawTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AsyncTraceUtil.AsyncTraceUtilBPLibrary.MultiLineTraceByChannelAsync");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AsyncTraceUtil.AsyncTraceUtilBPLibrary.MultiLineTraceByChannelAsync"));
 
 	struct
 	{

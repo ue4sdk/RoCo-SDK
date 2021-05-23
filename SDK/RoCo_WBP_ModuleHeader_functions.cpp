@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ModuleHeader_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModuleHeader.WBP_ModuleHeader_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ModuleHeader.WBP_ModuleHeader_C.PreConstruct"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ModuleHeader_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ModuleHeader_C::ExecuteUbergraph_WBP_ModuleHeader(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModuleHeader.WBP_ModuleHeader_C.ExecuteUbergraph_WBP_ModuleHeader");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ModuleHeader.WBP_ModuleHeader_C.ExecuteUbergraph_WBP_ModuleHeader"));
 
 	struct
 	{

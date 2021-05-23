@@ -17,7 +17,7 @@ namespace SDK
 
 void UForceChimeraOpenPhase_C::HandlePhaseStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ForceChimeraOpenPhase.ForceChimeraOpenPhase_C.HandlePhaseStarted");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ForceChimeraOpenPhase.ForceChimeraOpenPhase_C.HandlePhaseStarted"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UForceChimeraOpenPhase_C::HandlePhaseStarted()
 
 void UForceChimeraOpenPhase_C::PhaseTimerExpired(const struct FName& PhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ForceChimeraOpenPhase.ForceChimeraOpenPhase_C.PhaseTimerExpired");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ForceChimeraOpenPhase.ForceChimeraOpenPhase_C.PhaseTimerExpired"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UForceChimeraOpenPhase_C::PhaseTimerExpired(const struct FName& PhaseName)
 
 void UForceChimeraOpenPhase_C::ExecuteUbergraph_ForceChimeraOpenPhase(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ForceChimeraOpenPhase.ForceChimeraOpenPhase_C.ExecuteUbergraph_ForceChimeraOpenPhase");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ForceChimeraOpenPhase.ForceChimeraOpenPhase_C.ExecuteUbergraph_ForceChimeraOpenPhase"));
 
 	struct
 	{

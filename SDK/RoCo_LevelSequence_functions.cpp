@@ -17,7 +17,7 @@ namespace SDK
 
 void ALevelSequenceActor::ShowBurnin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.ShowBurnin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.ShowBurnin"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void ALevelSequenceActor::ShowBurnin()
 
 void ALevelSequenceActor::SetSequence(class ULevelSequence* InSequence)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.SetSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.SetSequence"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void ALevelSequenceActor::SetSequence(class ULevelSequence* InSequence)
 
 void ALevelSequenceActor::SetReplicatePlayback(bool ReplicatePlayback)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.SetReplicatePlayback");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.SetReplicatePlayback"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void ALevelSequenceActor::SetReplicatePlayback(bool ReplicatePlayback)
 
 void ALevelSequenceActor::SetEventReceivers(TArray<class AActor*> AdditionalReceivers)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.SetEventReceivers");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.SetEventReceivers"));
 
 	struct
 	{
@@ -97,7 +97,7 @@ void ALevelSequenceActor::SetEventReceivers(TArray<class AActor*> AdditionalRece
 
 void ALevelSequenceActor::SetBindingByTag(const struct FName& BindingTag, TArray<class AActor*> Actors, bool bAllowBindingsFromAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.SetBindingByTag");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.SetBindingByTag"));
 
 	struct
 	{
@@ -123,7 +123,7 @@ void ALevelSequenceActor::SetBindingByTag(const struct FName& BindingTag, TArray
 
 void ALevelSequenceActor::SetBinding(const struct FMovieSceneObjectBindingID& Binding, TArray<class AActor*> Actors, bool bAllowBindingsFromAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.SetBinding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.SetBinding"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void ALevelSequenceActor::SetBinding(const struct FMovieSceneObjectBindingID& Bi
 
 void ALevelSequenceActor::ResetBindings()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.ResetBindings");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.ResetBindings"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ void ALevelSequenceActor::ResetBindings()
 
 void ALevelSequenceActor::ResetBinding(const struct FMovieSceneObjectBindingID& Binding)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.ResetBinding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.ResetBinding"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ void ALevelSequenceActor::ResetBinding(const struct FMovieSceneObjectBindingID& 
 
 void ALevelSequenceActor::RemoveBindingByTag(const struct FName& Tag, class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.RemoveBindingByTag");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.RemoveBindingByTag"));
 
 	struct
 	{
@@ -207,7 +207,7 @@ void ALevelSequenceActor::RemoveBindingByTag(const struct FName& Tag, class AAct
 
 void ALevelSequenceActor::RemoveBinding(const struct FMovieSceneObjectBindingID& Binding, class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.RemoveBinding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.RemoveBinding"));
 
 	struct
 	{
@@ -227,7 +227,7 @@ void ALevelSequenceActor::RemoveBinding(const struct FMovieSceneObjectBindingID&
 
 void ALevelSequenceActor::OnLevelSequenceLoaded__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction LevelSequence.LevelSequenceActor.OnLevelSequenceLoaded__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction LevelSequence.LevelSequenceActor.OnLevelSequenceLoaded__DelegateSignature"));
 
 	struct
 	{
@@ -245,7 +245,7 @@ void ALevelSequenceActor::OnLevelSequenceLoaded__DelegateSignature()
 
 class ULevelSequence* ALevelSequenceActor::LoadSequence()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.LoadSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.LoadSequence"));
 
 	struct
 	{
@@ -264,7 +264,7 @@ class ULevelSequence* ALevelSequenceActor::LoadSequence()
 
 void ALevelSequenceActor::HideBurnin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.HideBurnin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.HideBurnin"));
 
 	struct
 	{
@@ -282,7 +282,7 @@ void ALevelSequenceActor::HideBurnin()
 
 class ULevelSequencePlayer* ALevelSequenceActor::GetSequencePlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.GetSequencePlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.GetSequencePlayer"));
 
 	struct
 	{
@@ -303,7 +303,7 @@ class ULevelSequencePlayer* ALevelSequenceActor::GetSequencePlayer()
 
 class ULevelSequence* ALevelSequenceActor::GetSequence()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.GetSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.GetSequence"));
 
 	struct
 	{
@@ -325,7 +325,7 @@ class ULevelSequence* ALevelSequenceActor::GetSequence()
 
 TArray<struct FMovieSceneObjectBindingID> ALevelSequenceActor::FindNamedBindings(const struct FName& Tag)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.FindNamedBindings");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.FindNamedBindings"));
 
 	struct
 	{
@@ -349,7 +349,7 @@ TArray<struct FMovieSceneObjectBindingID> ALevelSequenceActor::FindNamedBindings
 
 struct FMovieSceneObjectBindingID ALevelSequenceActor::FindNamedBinding(const struct FName& Tag)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.FindNamedBinding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.FindNamedBinding"));
 
 	struct
 	{
@@ -374,7 +374,7 @@ struct FMovieSceneObjectBindingID ALevelSequenceActor::FindNamedBinding(const st
 
 void ALevelSequenceActor::AddBindingByTag(const struct FName& BindingTag, class AActor* Actor, bool bAllowBindingsFromAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.AddBindingByTag");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.AddBindingByTag"));
 
 	struct
 	{
@@ -400,7 +400,7 @@ void ALevelSequenceActor::AddBindingByTag(const struct FName& BindingTag, class 
 
 void ALevelSequenceActor::AddBinding(const struct FMovieSceneObjectBindingID& Binding, class AActor* Actor, bool bAllowBindingsFromAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceActor.AddBinding");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceActor.AddBinding"));
 
 	struct
 	{
@@ -424,7 +424,7 @@ void ALevelSequenceActor::AddBinding(const struct FMovieSceneObjectBindingID& Bi
 
 void ULevelSequence::RemoveMetaDataByClass(class UClass* InClass)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequence.RemoveMetaDataByClass");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequence.RemoveMetaDataByClass"));
 
 	struct
 	{
@@ -445,7 +445,7 @@ void ULevelSequence::RemoveMetaDataByClass(class UClass* InClass)
 
 class UObject* ULevelSequence::FindOrAddMetaDataByClass(class UClass* InClass)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequence.FindOrAddMetaDataByClass");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequence.FindOrAddMetaDataByClass"));
 
 	struct
 	{
@@ -469,7 +469,7 @@ class UObject* ULevelSequence::FindOrAddMetaDataByClass(class UClass* InClass)
 
 class UObject* ULevelSequence::FindMetaDataByClass(class UClass* InClass)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequence.FindMetaDataByClass");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequence.FindMetaDataByClass"));
 
 	struct
 	{
@@ -493,7 +493,7 @@ class UObject* ULevelSequence::FindMetaDataByClass(class UClass* InClass)
 
 class UObject* ULevelSequence::CopyMetaData(class UObject* InMetaData)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequence.CopyMetaData");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequence.CopyMetaData"));
 
 	struct
 	{
@@ -516,7 +516,7 @@ class UObject* ULevelSequence::CopyMetaData(class UObject* InMetaData)
 
 void ULevelSequenceBurnInOptions::SetBurnIn(const struct FSoftClassPath& InBurnInClass)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceBurnInOptions.SetBurnIn");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceBurnInOptions.SetBurnIn"));
 
 	struct
 	{
@@ -536,7 +536,7 @@ void ULevelSequenceBurnInOptions::SetBurnIn(const struct FSoftClassPath& InBurnI
 
 void ULevelSequenceBurnIn::SetSettings(class UObject* InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceBurnIn.SetSettings");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceBurnIn.SetSettings"));
 
 	struct
 	{
@@ -556,7 +556,7 @@ void ULevelSequenceBurnIn::SetSettings(class UObject* InSettings)
 
 class UClass* ULevelSequenceBurnIn::GetSettingsClass()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceBurnIn.GetSettingsClass");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceBurnIn.GetSettingsClass"));
 
 	struct
 	{
@@ -575,7 +575,7 @@ class UClass* ULevelSequenceBurnIn::GetSettingsClass()
 
 void ULevelSequenceDirector::OnCreated()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceDirector.OnCreated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceDirector.OnCreated"));
 
 	struct
 	{
@@ -593,7 +593,7 @@ void ULevelSequenceDirector::OnCreated()
 
 class UCameraComponent* ULevelSequencePlayer::GetActiveCameraComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequencePlayer.GetActiveCameraComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequencePlayer.GetActiveCameraComponent"));
 
 	struct
 	{
@@ -618,7 +618,7 @@ class UCameraComponent* ULevelSequencePlayer::GetActiveCameraComponent()
 
 class ULevelSequencePlayer* ULevelSequencePlayer::CreateLevelSequencePlayer(class UObject* WorldContextObject, class ULevelSequence* LevelSequence, const struct FMovieSceneSequencePlaybackSettings& Settings, class ALevelSequenceActor** OutActor)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequencePlayer.CreateLevelSequencePlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequencePlayer.CreateLevelSequencePlayer"));
 
 	struct
 	{
@@ -650,7 +650,7 @@ class ULevelSequencePlayer* ULevelSequencePlayer::CreateLevelSequencePlayer(clas
 
 void ALevelSequenceMediaController::SynchronizeToServer(float DesyncThresholdSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceMediaController.SynchronizeToServer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceMediaController.SynchronizeToServer"));
 
 	struct
 	{
@@ -668,7 +668,7 @@ void ALevelSequenceMediaController::SynchronizeToServer(float DesyncThresholdSec
 
 void ALevelSequenceMediaController::Play()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceMediaController.Play");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceMediaController.Play"));
 
 	struct
 	{
@@ -684,7 +684,7 @@ void ALevelSequenceMediaController::Play()
 
 void ALevelSequenceMediaController::OnRep_ServerStartTimeSeconds()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceMediaController.OnRep_ServerStartTimeSeconds");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceMediaController.OnRep_ServerStartTimeSeconds"));
 
 	struct
 	{
@@ -702,7 +702,7 @@ void ALevelSequenceMediaController::OnRep_ServerStartTimeSeconds()
 
 class ALevelSequenceActor* ALevelSequenceMediaController::GetSequence()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceMediaController.GetSequence");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceMediaController.GetSequence"));
 
 	struct
 	{
@@ -723,7 +723,7 @@ class ALevelSequenceActor* ALevelSequenceMediaController::GetSequence()
 
 class UMediaComponent* ALevelSequenceMediaController::GetMediaComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function LevelSequence.LevelSequenceMediaController.GetMediaComponent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LevelSequence.LevelSequenceMediaController.GetMediaComponent"));
 
 	struct
 	{

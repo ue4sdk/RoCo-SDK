@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Challenge_Rewards_Badge_C::SetCompletedState(bool IsCompleted)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Rewards_Badge.WBP_Challenge_Rewards_Badge_C.SetCompletedState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Rewards_Badge.WBP_Challenge_Rewards_Badge_C.SetCompletedState"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_Challenge_Rewards_Badge_C::SetCompletedState(bool IsCompleted)
 
 void UWBP_Challenge_Rewards_Badge_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Rewards_Badge.WBP_Challenge_Rewards_Badge_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Rewards_Badge.WBP_Challenge_Rewards_Badge_C.PreConstruct"));
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_Challenge_Rewards_Badge_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Challenge_Rewards_Badge_C::ExecuteUbergraph_WBP_Challenge_Rewards_Badge(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Rewards_Badge.WBP_Challenge_Rewards_Badge_C.ExecuteUbergraph_WBP_Challenge_Rewards_Badge");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Rewards_Badge.WBP_Challenge_Rewards_Badge_C.ExecuteUbergraph_WBP_Challenge_Rewards_Badge"));
 
 	struct
 	{

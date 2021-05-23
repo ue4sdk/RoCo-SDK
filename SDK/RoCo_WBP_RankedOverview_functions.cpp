@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_RankedOverview_C::SetUpRankedDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.SetUpRankedDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.SetUpRankedDisplay"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_RankedOverview_C::SetUpRankedDisplay()
 
 bool UWBP_RankedOverview_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.NavigateBack"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ bool UWBP_RankedOverview_C::NavigateBack()
 
 void UWBP_RankedOverview_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.PreConstruct"));
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_RankedOverview_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RankedOverview_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.Construct"));
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_RankedOverview_C::Construct()
 
 void UWBP_RankedOverview_C::OnClose()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.OnClose");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.OnClose"));
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UWBP_RankedOverview_C::OnClose()
 
 void UWBP_RankedOverview_C::BndEvt__RankedInfoButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.BndEvt__RankedInfoButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.BndEvt__RankedInfoButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_RankedOverview_C::BndEvt__RankedInfoButton_K2Node_ComponentBoundEvent_
 
 void UWBP_RankedOverview_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.InitializeWidget"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_RankedOverview_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RankedOverview_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWBP_RankedOverview_C::InitializeWidgetNavigation()
 
 void UWBP_RankedOverview_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.OnShown"));
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWBP_RankedOverview_C::OnShown()
 
 void UWBP_RankedOverview_C::ExecuteUbergraph_WBP_RankedOverview(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankedOverview.WBP_RankedOverview_C.ExecuteUbergraph_WBP_RankedOverview");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankedOverview.WBP_RankedOverview_C.ExecuteUbergraph_WBP_RankedOverview"));
 
 	struct
 	{

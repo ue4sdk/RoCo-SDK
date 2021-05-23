@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_RogueMastery_C::Display_Reward(const struct FMasteryRewardData& RewardItem, class UWidget* SelectedWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.Display Reward");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.Display Reward"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_RogueMastery_C::Display_Reward(const struct FMasteryRewardData& Reward
 
 void UWBP_RogueMastery_C::SetRewardDisplayLevel(int Level)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.SetRewardDisplayLevel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.SetRewardDisplayLevel"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_RogueMastery_C::SetRewardDisplayLevel(int Level)
 
 void UWBP_RogueMastery_C::DisplayPrestigeLevels()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.DisplayPrestigeLevels");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.DisplayPrestigeLevels"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_RogueMastery_C::DisplayPrestigeLevels()
 
 void UWBP_RogueMastery_C::DisplayMasteryLevel(const struct FActivityTier& ActivityTier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.DisplayMasteryLevel");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.DisplayMasteryLevel"));
 
 	struct
 	{
@@ -96,7 +96,7 @@ void UWBP_RogueMastery_C::DisplayMasteryLevel(const struct FActivityTier& Activi
 
 void UWBP_RogueMastery_C::SetContextBar()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.SetContextBar");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.SetContextBar"));
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_RogueMastery_C::SetContextBar()
 
 bool UWBP_RogueMastery_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.NavigateBack"));
 
 	struct
 	{
@@ -133,7 +133,7 @@ bool UWBP_RogueMastery_C::NavigateBack()
 
 void UWBP_RogueMastery_C::OnBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.OnBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.OnBack"));
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_RogueMastery_C::OnBack()
 
 void UWBP_RogueMastery_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.PreConstruct"));
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_RogueMastery_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RogueMastery_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.Construct"));
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UWBP_RogueMastery_C::Construct()
 
 void UWBP_RogueMastery_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.InitializeWidget"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void UWBP_RogueMastery_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RogueMastery_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.OnShown"));
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UWBP_RogueMastery_C::OnShown()
 
 void UWBP_RogueMastery_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UWBP_RogueMastery_C::InitializeWidgetNavigation()
 
 void UWBP_RogueMastery_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.FocusGroupNavigateLeftFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.FocusGroupNavigateLeftFailure"));
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UWBP_RogueMastery_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 
 void UWBP_RogueMastery_C::FocusGroupNavigateRightFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.FocusGroupNavigateRightFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.FocusGroupNavigateRightFailure"));
 
 	struct
 	{
@@ -279,7 +279,7 @@ void UWBP_RogueMastery_C::FocusGroupNavigateRightFailure(int FocusGroup)
 
 void UWBP_RogueMastery_C::ExecuteUbergraph_WBP_RogueMastery(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMastery.WBP_RogueMastery_C.ExecuteUbergraph_WBP_RogueMastery");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMastery.WBP_RogueMastery_C.ExecuteUbergraph_WBP_RogueMastery"));
 
 	struct
 	{

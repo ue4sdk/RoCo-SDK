@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_Social_Friends_Tab_C::FocusFirstItem()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.FocusFirstItem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.FocusFirstItem"));
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UWBP_Social_Friends_Tab_C::FocusFirstItem()
 
 void UWBP_Social_Friends_Tab_C::TryGetFirstItemForCategory(EKSSocialOverlaySection Category, class UKSPlayerInfo** Output)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.TryGetFirstItemForCategory");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.TryGetFirstItemForCategory"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_Social_Friends_Tab_C::TryGetFirstItemForCategory(EKSSocialOverlaySecti
 
 void UWBP_Social_Friends_Tab_C::FindFirstOnlinePlayerOrDefault(class UObject** Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.FindFirstOnlinePlayerOrDefault");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.FindFirstOnlinePlayerOrDefault"));
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UWBP_Social_Friends_Tab_C::FindFirstOnlinePlayerOrDefault(class UObject** I
 
 void UWBP_Social_Friends_Tab_C::FocusFirstOnlinePlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.FocusFirstOnlinePlayer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.FocusFirstOnlinePlayer"));
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UWBP_Social_Friends_Tab_C::FocusFirstOnlinePlayer()
 
 struct FEventReply UWBP_Social_Friends_Tab_C::OnFocusReceived(const struct FGeometry& MyGeometry, const struct FFocusEvent& InFocusEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnFocusReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnFocusReceived"));
 
 	struct
 	{
@@ -125,7 +125,7 @@ struct FEventReply UWBP_Social_Friends_Tab_C::OnFocusReceived(const struct FGeom
 
 void UWBP_Social_Friends_Tab_C::HandleItemClicked(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.HandleItemClicked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.HandleItemClicked"));
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_Social_Friends_Tab_C::HandleItemClicked(class UObject* Item)
 
 bool UWBP_Social_Friends_Tab_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.NavigateConfirm"));
 
 	struct
 	{
@@ -166,7 +166,7 @@ bool UWBP_Social_Friends_Tab_C::NavigateConfirm()
 
 void UWBP_Social_Friends_Tab_C::GetFocusTarget(class UWidget** Target)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.GetFocusTarget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.GetFocusTarget"));
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_Social_Friends_Tab_C::GetFocusTarget(class UWidget** Target)
 
 void UWBP_Social_Friends_Tab_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.InitializeWidget"));
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_Social_Friends_Tab_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Social_Friends_Tab_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.UninitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.UninitializeWidget"));
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UWBP_Social_Friends_Tab_C::UninitializeWidget()
 
 void UWBP_Social_Friends_Tab_C::BndEvt__PlayerList_K2Node_ComponentBoundEvent_0_OnItemIsHoveredChangedDynamic__DelegateSignature(class UObject* Item, bool bIsHovered)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.BndEvt__PlayerList_K2Node_ComponentBoundEvent_0_OnItemIsHoveredChangedDynamic__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.BndEvt__PlayerList_K2Node_ComponentBoundEvent_0_OnItemIsHoveredChangedDynamic__DelegateSignature"));
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UWBP_Social_Friends_Tab_C::BndEvt__PlayerList_K2Node_ComponentBoundEvent_0_
 
 void UWBP_Social_Friends_Tab_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnShown"));
 
 	struct
 	{
@@ -263,7 +263,7 @@ void UWBP_Social_Friends_Tab_C::OnShown()
 
 void UWBP_Social_Friends_Tab_C::BndEvt__PlayerList_K2Node_ComponentBoundEvent_1_SimpleListItemEventDynamic__DelegateSignature(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.BndEvt__PlayerList_K2Node_ComponentBoundEvent_1_SimpleListItemEventDynamic__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.BndEvt__PlayerList_K2Node_ComponentBoundEvent_1_SimpleListItemEventDynamic__DelegateSignature"));
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UWBP_Social_Friends_Tab_C::BndEvt__PlayerList_K2Node_ComponentBoundEvent_1_
 
 void UWBP_Social_Friends_Tab_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnInputStateChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnInputStateChanged"));
 
 	struct
 	{
@@ -301,7 +301,7 @@ void UWBP_Social_Friends_Tab_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STA
 
 void UWBP_Social_Friends_Tab_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -320,7 +320,7 @@ void UWBP_Social_Friends_Tab_C::InitializeWidgetNavigation()
 
 void UWBP_Social_Friends_Tab_C::OnListScrolled(float ItemOffset, float DistanceRemaining)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnListScrolled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnListScrolled"));
 
 	struct
 	{
@@ -342,7 +342,7 @@ void UWBP_Social_Friends_Tab_C::OnListScrolled(float ItemOffset, float DistanceR
 
 void UWBP_Social_Friends_Tab_C::ExecuteUbergraph_WBP_Social_Friends_Tab(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.ExecuteUbergraph_WBP_Social_Friends_Tab");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.ExecuteUbergraph_WBP_Social_Friends_Tab"));
 
 	struct
 	{
@@ -360,7 +360,7 @@ void UWBP_Social_Friends_Tab_C::ExecuteUbergraph_WBP_Social_Friends_Tab(int Entr
 
 void UWBP_Social_Friends_Tab_C::OnPlayerListScrolled__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnPlayerListScrolled__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Friends_Tab.WBP_Social_Friends_Tab_C.OnPlayerListScrolled__DelegateSignature"));
 
 	struct
 	{

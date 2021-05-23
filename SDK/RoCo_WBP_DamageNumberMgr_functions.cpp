@@ -19,7 +19,7 @@ namespace SDK
 
 class UDamageNumberDisplayWidget* UWBP_DamageNumberMgr_C::GetDamageNumberWidgetInstance()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumberMgr.WBP_DamageNumberMgr_C.GetDamageNumberWidgetInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumberMgr.WBP_DamageNumberMgr_C.GetDamageNumberWidgetInstance"));
 
 	struct
 	{
@@ -38,7 +38,7 @@ class UDamageNumberDisplayWidget* UWBP_DamageNumberMgr_C::GetDamageNumberWidgetI
 
 void UWBP_DamageNumberMgr_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumberMgr.WBP_DamageNumberMgr_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumberMgr.WBP_DamageNumberMgr_C.Construct"));
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_DamageNumberMgr_C::Construct()
 
 void UWBP_DamageNumberMgr_C::ExecuteUbergraph_WBP_DamageNumberMgr(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumberMgr.WBP_DamageNumberMgr_C.ExecuteUbergraph_WBP_DamageNumberMgr");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumberMgr.WBP_DamageNumberMgr_C.ExecuteUbergraph_WBP_DamageNumberMgr"));
 
 	struct
 	{

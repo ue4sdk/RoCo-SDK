@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ButtonStacked_C::SetVisuallyDisabled(bool ShouldDisable)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.SetVisuallyDisabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.SetVisuallyDisabled"));
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_ButtonStacked_C::SetVisuallyDisabled(bool ShouldDisable)
 
 void UWBP_ButtonStacked_C::SetInitialDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.SetInitialDisplay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.SetInitialDisplay"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_ButtonStacked_C::SetInitialDisplay()
 
 void UWBP_ButtonStacked_C::OnHoveredLogic(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnHoveredLogic");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnHoveredLogic"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_ButtonStacked_C::OnHoveredLogic(bool IsGamepad)
 
 bool UWBP_ButtonStacked_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.NavigateConfirm"));
 
 	struct
 	{
@@ -94,7 +94,7 @@ bool UWBP_ButtonStacked_C::NavigateConfirm()
 
 void UWBP_ButtonStacked_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnClickSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnClickSound"));
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_ButtonStacked_C::OnClickSound()
 
 void UWBP_ButtonStacked_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnHoverSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnHoverSound"));
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_ButtonStacked_C::OnHoverSound()
 
 void UWBP_ButtonStacked_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.Construct"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_ButtonStacked_C::Construct()
 
 void UWBP_ButtonStacked_C::OnGamepadConfirmed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnGamepadConfirmed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnGamepadConfirmed"));
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_ButtonStacked_C::OnGamepadConfirmed()
 
 void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButt
 
 void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButt
 
 void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButt
 
 void UWBP_ButtonStacked_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.GamepadHover"));
 
 	struct
 	{
@@ -222,7 +222,7 @@ void UWBP_ButtonStacked_C::GamepadHover()
 
 void UWBP_ButtonStacked_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.GamepadUnhover"));
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UWBP_ButtonStacked_C::GamepadUnhover()
 
 void UWBP_ButtonStacked_C::DisableButton(bool bShouldDisable)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.DisableButton");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.DisableButton"));
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UWBP_ButtonStacked_C::DisableButton(bool bShouldDisable)
 
 void UWBP_ButtonStacked_C::CallButtonHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.CallButtonHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.CallButtonHover"));
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_ButtonStacked_C::CallButtonHover()
 
 void UWBP_ButtonStacked_C::CallButtonUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.CallButtonUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.CallButtonUnhover"));
 
 	struct
 	{
@@ -292,7 +292,7 @@ void UWBP_ButtonStacked_C::CallButtonUnhover()
 
 void UWBP_ButtonStacked_C::SetIsActiveState(bool bIsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.SetIsActiveState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.SetIsActiveState"));
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UWBP_ButtonStacked_C::SetIsActiveState(bool bIsActive)
 
 void UWBP_ButtonStacked_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.PreConstruct"));
 
 	struct
 	{
@@ -330,7 +330,7 @@ void UWBP_ButtonStacked_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -346,7 +346,7 @@ void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButt
 
 void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonReleasedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButtonReleasedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -364,7 +364,7 @@ void UWBP_ButtonStacked_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_5_OnButt
 
 void UWBP_ButtonStacked_C::ExecuteUbergraph_WBP_ButtonStacked(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.ExecuteUbergraph_WBP_ButtonStacked");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.ExecuteUbergraph_WBP_ButtonStacked"));
 
 	struct
 	{
@@ -382,7 +382,7 @@ void UWBP_ButtonStacked_C::ExecuteUbergraph_WBP_ButtonStacked(int EntryPoint)
 
 void UWBP_ButtonStacked_C::OnBtnStackedReleased__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnBtnStackedReleased__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnBtnStackedReleased__DelegateSignature"));
 
 	struct
 	{
@@ -398,7 +398,7 @@ void UWBP_ButtonStacked_C::OnBtnStackedReleased__DelegateSignature()
 
 void UWBP_ButtonStacked_C::OnBtnStackedUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnBtnStackedUnhovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnBtnStackedUnhovered__DelegateSignature"));
 
 	struct
 	{
@@ -416,7 +416,7 @@ void UWBP_ButtonStacked_C::OnBtnStackedUnhovered__DelegateSignature()
 
 void UWBP_ButtonStacked_C::OnBtnStackedHovered__DelegateSignature(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnBtnStackedHovered__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnBtnStackedHovered__DelegateSignature"));
 
 	struct
 	{
@@ -434,7 +434,7 @@ void UWBP_ButtonStacked_C::OnBtnStackedHovered__DelegateSignature(bool IsGamepad
 
 void UWBP_ButtonStacked_C::OnBtnStackedClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnBtnStackedClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonStacked.WBP_ButtonStacked_C.OnBtnStackedClicked__DelegateSignature"));
 
 	struct
 	{

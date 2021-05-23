@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_BattlePassTitle_C::RefreshTimeRemaining()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassTitle.WBP_BattlePassTitle_C.RefreshTimeRemaining");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassTitle.WBP_BattlePassTitle_C.RefreshTimeRemaining"));
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_BattlePassTitle_C::RefreshTimeRemaining()
 
 void UWBP_BattlePassTitle_C::InitializeWithActivityInstance(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassTitle.WBP_BattlePassTitle_C.InitializeWithActivityInstance");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassTitle.WBP_BattlePassTitle_C.InitializeWithActivityInstance"));
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_BattlePassTitle_C::InitializeWithActivityInstance(class UKSActivityIns
 
 void UWBP_BattlePassTitle_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassTitle.WBP_BattlePassTitle_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassTitle.WBP_BattlePassTitle_C.InitializeWidget"));
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_BattlePassTitle_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlePassTitle_C::ExecuteUbergraph_WBP_BattlePassTitle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassTitle.WBP_BattlePassTitle_C.ExecuteUbergraph_WBP_BattlePassTitle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassTitle.WBP_BattlePassTitle_C.ExecuteUbergraph_WBP_BattlePassTitle"));
 
 	struct
 	{

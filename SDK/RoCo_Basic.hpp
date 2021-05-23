@@ -7,8 +7,8 @@
 #endif
 
 #include <locale>
-#include <unordered_map>
 #include <string>
+#include "XorStrEx/XorStrEx.hpp"
 
 namespace SDK
 {
@@ -155,11 +155,21 @@ constexpr T Align(T Val, uint64_t Alignment)
 	return (T)(((uint64_t)Val + Alignment - 1) & ~(Alignment - 1));
 }
 
-struct UENameInfo
+inline bool CmpCStr(const char* str1, const char* str2, size_t maxCmpLen = 250, size_t startIndex = 0)
 {
-	size_t Index;
-	std::string Name;
-};
+	for (size_t i = startIndex; i < maxCmpLen; i++)
+	{
+		if (str1[i] != str2[i])
+		{
+			return false;
+		}
+		else if (str1[i] == '\0')
+		{
+			break;
+		}
+	}
+	return true;
+}
 
 struct FNameEntryId
 {
@@ -180,6 +190,13 @@ struct FNameEntryId
 	uint32_t ToUnstableInt() const { return Value; }
 };
 
+struct UENameInfo
+{
+	FNameEntryId Index;
+	const char* Name;
+	uint32_t Len;
+};
+
 struct FNameEntryHeader
 {
 	uint16_t bIsWide : 1;
@@ -197,14 +214,22 @@ public:
 		wchar_t WideName[1024];
 	};
 
-	const std::string GetName() const
+	const char* GetName(uint16_t* len = nullptr) const
 	{
-		return std::string(AnsiName, Header.Len);
+		if(len)
+		{
+			*len = Header.Len;
+		}
+		return AnsiName;
 	}
 
-	const std::wstring GetWideName() const
+	const wchar_t* GetWideName(uint16_t* len = nullptr) const
 	{
-		return std::wstring(WideName, Header.Len);
+		if (len)
+		{
+			*len = Header.Len;
+		}
+		return WideName;
 	}
 
 	bool IsWide() const
@@ -266,7 +291,7 @@ class FNameEntryAllocator
 {
 public:
 	enum { Stride = alignof(FNameEntry) };
-	enum { BlockSizeBytes = Stride * FNameBlockOffsets };
+	enum { BlockSizeBytes = Stride * static_cast<size_t>(FNameBlockOffsets) };
 	
 	uint8_t Lock[8];
 	uint32_t CurrentBlock;
@@ -280,20 +305,23 @@ public:
 
 	FNameEntry* GetNameEntry(FNameEntryHandle Handle) const
 	{
-		return reinterpret_cast<FNameEntry*>(Blocks[Handle.Block] + Stride * Handle.Offset);
+		return reinterpret_cast<FNameEntry*>(Blocks[Handle.Block] + Stride * static_cast<size_t>(Handle.Offset));
 	}
 
-	void DumpNames(std::unordered_map<std::string, size_t>& Out) const
+	bool FindName(const char* nameToFind, UENameInfo& out) const
 	{
 		for (uint32_t BlockIdx = 0; BlockIdx < CurrentBlock; ++BlockIdx)
 		{
-			DumpBlock(BlockIdx, BlockSizeBytes, Out);
+			if(FindNameInBlock(nameToFind, BlockIdx, BlockSizeBytes, out))
+			{
+				return true;
+			}
 		}
 
-		DumpBlock(CurrentBlock, CurrentByteCursor, Out);
+		return FindNameInBlock(nameToFind, CurrentBlock, CurrentByteCursor, out);
 	}
 
-	void DumpBlock(uint32_t BlockId, uint32_t BlockSize, std::unordered_map<std::string, size_t>& Out) const
+	bool FindNameInBlock(const char* nameToFind, uint32_t BlockId, uint32_t BlockSize, UENameInfo& out) const
 	{
 		const uint8_t* It = Blocks[BlockId];
 		const uint8_t* End = It + BlockSize - FNameEntry::GetDataOffset();
@@ -303,16 +331,21 @@ public:
 			const FNameEntry* Entry = (const FNameEntry*)It;
 			if (uint32_t Len = Entry->Header.Len)
 			{
-				Out.insert({ Entry->GetName(), entryHandle });
+				if (CmpCStr(nameToFind, Entry->GetName(), Len))
+				{
+					out = { static_cast<uint32_t>(entryHandle), Entry->GetName(), Len };
+					return true;
+				}
 				const auto size = FNameEntry::GetSize(Len, !Entry->IsWide());
 				entryHandle.Offset += size / Stride;
 				It += size;
 			}
 			else // Null-terminator entry found
 			{
-				break;
+				return false;
 			}
 		}
+		return false;
 	}
 };
 
@@ -359,20 +392,14 @@ struct FName
 	{
 	};
 
-	FName(const char* nameToFind)
+	FName(const char* nameToFind, uint32_t Number = 0)
 		: ComparisonIndex(0),
-		  Number(0)
+		  Number(Number)
 	{
-		static std::unordered_map<std::string, size_t> cache;
-		if(cache.empty())
+		UENameInfo nameInfo;
+		if(GetGlobalNames().Entries.FindName(nameToFind, nameInfo))
 		{
-			GetGlobalNames().Entries.DumpNames(cache);
-		}
-
-		auto it = cache.find(nameToFind);
-		if(it != cache.end())
-		{
-			ComparisonIndex = FNameEntryId::FromUnstableInt(it->second);
+			ComparisonIndex = nameInfo.Index;
 		}
 	}
 

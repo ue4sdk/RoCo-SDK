@@ -19,7 +19,7 @@ namespace SDK
 
 void UANotifyState_SFXTeamPerspectiveAKEvent_C::SetTeamPerspective(class USkeletalMeshComponent* MeshComp)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ANotifyState_SFXTeamPerspectiveAKEvent.ANotifyState_SFXTeamPerspectiveAKEvent_C.SetTeamPerspective");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ANotifyState_SFXTeamPerspectiveAKEvent.ANotifyState_SFXTeamPerspectiveAKEvent_C.SetTeamPerspective"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UANotifyState_SFXTeamPerspectiveAKEvent_C::SetTeamPerspective(class USkelet
 
 bool UANotifyState_SFXTeamPerspectiveAKEvent_C::Received_NotifyEnd(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ANotifyState_SFXTeamPerspectiveAKEvent.ANotifyState_SFXTeamPerspectiveAKEvent_C.Received_NotifyEnd");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ANotifyState_SFXTeamPerspectiveAKEvent.ANotifyState_SFXTeamPerspectiveAKEvent_C.Received_NotifyEnd"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ bool UANotifyState_SFXTeamPerspectiveAKEvent_C::Received_NotifyEnd(class USkelet
 
 bool UANotifyState_SFXTeamPerspectiveAKEvent_C::Received_NotifyBegin(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation, float TotalDuration)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ANotifyState_SFXTeamPerspectiveAKEvent.ANotifyState_SFXTeamPerspectiveAKEvent_C.Received_NotifyBegin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ANotifyState_SFXTeamPerspectiveAKEvent.ANotifyState_SFXTeamPerspectiveAKEvent_C.Received_NotifyBegin"));
 
 	struct
 	{

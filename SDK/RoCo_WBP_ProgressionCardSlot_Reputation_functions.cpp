@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ProgressionCardSlot_Reputation_C::ProcessPlayerProgression(const struct FPlayerProgression& PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_Reputation.WBP_ProgressionCardSlot_Reputation_C.ProcessPlayerProgression");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_Reputation.WBP_ProgressionCardSlot_Reputation_C.ProcessPlayerProgression"));
 
 	struct
 	{

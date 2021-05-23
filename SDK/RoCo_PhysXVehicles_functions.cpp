@@ -19,7 +19,7 @@ namespace SDK
 
 void UWheeledVehicleMovementComponent::SetUseAutoGears(bool bUseAuto)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetUseAutoGears");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetUseAutoGears"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWheeledVehicleMovementComponent::SetUseAutoGears(bool bUseAuto)
 
 void UWheeledVehicleMovementComponent::SetThrottleInput(float Throttle)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetThrottleInput");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetThrottleInput"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWheeledVehicleMovementComponent::SetThrottleInput(float Throttle)
 
 void UWheeledVehicleMovementComponent::SetTargetGear(int GearNum, bool bImmediate)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetTargetGear");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetTargetGear"));
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWheeledVehicleMovementComponent::SetTargetGear(int GearNum, bool bImmediat
 
 void UWheeledVehicleMovementComponent::SetSteeringInput(float Steering)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetSteeringInput");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetSteeringInput"));
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWheeledVehicleMovementComponent::SetSteeringInput(float Steering)
 
 void UWheeledVehicleMovementComponent::SetHandbrakeInput(bool bNewHandbrake)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetHandbrakeInput");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetHandbrakeInput"));
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWheeledVehicleMovementComponent::SetHandbrakeInput(bool bNewHandbrake)
 
 void UWheeledVehicleMovementComponent::SetGroupsToIgnoreMask(const struct FNavAvoidanceMask& GroupMask)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToIgnoreMask");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToIgnoreMask"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToIgnoreMask(const struct FNavAv
 
 void UWheeledVehicleMovementComponent::SetGroupsToIgnore(int GroupFlags)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToIgnore");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToIgnore"));
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToIgnore(int GroupFlags)
 
 void UWheeledVehicleMovementComponent::SetGroupsToAvoidMask(const struct FNavAvoidanceMask& GroupMask)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToAvoidMask");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToAvoidMask"));
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToAvoidMask(const struct FNavAvo
 
 void UWheeledVehicleMovementComponent::SetGroupsToAvoid(int GroupFlags)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToAvoid");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGroupsToAvoid"));
 
 	struct
 	{
@@ -202,7 +202,7 @@ void UWheeledVehicleMovementComponent::SetGroupsToAvoid(int GroupFlags)
 
 void UWheeledVehicleMovementComponent::SetGearUp(bool bNewGearUp)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGearUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGearUp"));
 
 	struct
 	{
@@ -222,7 +222,7 @@ void UWheeledVehicleMovementComponent::SetGearUp(bool bNewGearUp)
 
 void UWheeledVehicleMovementComponent::SetGearDown(bool bNewGearDown)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGearDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetGearDown"));
 
 	struct
 	{
@@ -242,7 +242,7 @@ void UWheeledVehicleMovementComponent::SetGearDown(bool bNewGearDown)
 
 void UWheeledVehicleMovementComponent::SetBrakeInput(float Brake)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetBrakeInput");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetBrakeInput"));
 
 	struct
 	{
@@ -262,7 +262,7 @@ void UWheeledVehicleMovementComponent::SetBrakeInput(float Brake)
 
 void UWheeledVehicleMovementComponent::SetAvoidanceGroupMask(const struct FNavAvoidanceMask& GroupMask)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetAvoidanceGroupMask");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetAvoidanceGroupMask"));
 
 	struct
 	{
@@ -282,7 +282,7 @@ void UWheeledVehicleMovementComponent::SetAvoidanceGroupMask(const struct FNavAv
 
 void UWheeledVehicleMovementComponent::SetAvoidanceGroup(int GroupFlags)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetAvoidanceGroup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetAvoidanceGroup"));
 
 	struct
 	{
@@ -302,7 +302,7 @@ void UWheeledVehicleMovementComponent::SetAvoidanceGroup(int GroupFlags)
 
 void UWheeledVehicleMovementComponent::SetAvoidanceEnabled(bool bEnable)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.SetAvoidanceEnabled");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.SetAvoidanceEnabled"));
 
 	struct
 	{
@@ -326,7 +326,7 @@ void UWheeledVehicleMovementComponent::SetAvoidanceEnabled(bool bEnable)
 
 void UWheeledVehicleMovementComponent::ServerUpdateState(float InSteeringInput, float InThrottleInput, float InBrakeInput, float InHandbrakeInput, int CurrentGear)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.ServerUpdateState");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.ServerUpdateState"));
 
 	struct
 	{
@@ -354,7 +354,7 @@ void UWheeledVehicleMovementComponent::ServerUpdateState(float InSteeringInput, 
 
 bool UWheeledVehicleMovementComponent::GetUseAutoGears()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.GetUseAutoGears");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.GetUseAutoGears"));
 
 	struct
 	{
@@ -375,7 +375,7 @@ bool UWheeledVehicleMovementComponent::GetUseAutoGears()
 
 int UWheeledVehicleMovementComponent::GetTargetGear()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.GetTargetGear");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.GetTargetGear"));
 
 	struct
 	{
@@ -396,7 +396,7 @@ int UWheeledVehicleMovementComponent::GetTargetGear()
 
 float UWheeledVehicleMovementComponent::GetForwardSpeed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.GetForwardSpeed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.GetForwardSpeed"));
 
 	struct
 	{
@@ -417,7 +417,7 @@ float UWheeledVehicleMovementComponent::GetForwardSpeed()
 
 float UWheeledVehicleMovementComponent::GetEngineRotationSpeed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.GetEngineRotationSpeed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.GetEngineRotationSpeed"));
 
 	struct
 	{
@@ -438,7 +438,7 @@ float UWheeledVehicleMovementComponent::GetEngineRotationSpeed()
 
 float UWheeledVehicleMovementComponent::GetEngineMaxRotationSpeed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.GetEngineMaxRotationSpeed");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.GetEngineMaxRotationSpeed"));
 
 	struct
 	{
@@ -459,7 +459,7 @@ float UWheeledVehicleMovementComponent::GetEngineMaxRotationSpeed()
 
 int UWheeledVehicleMovementComponent::GetCurrentGear()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.WheeledVehicleMovementComponent.GetCurrentGear");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.WheeledVehicleMovementComponent.GetCurrentGear"));
 
 	struct
 	{
@@ -481,7 +481,7 @@ int UWheeledVehicleMovementComponent::GetCurrentGear()
 
 void USimpleWheeledVehicleMovementComponent::SetSteerAngle(float SteerAngle, int WheelIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.SimpleWheeledVehicleMovementComponent.SetSteerAngle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.SimpleWheeledVehicleMovementComponent.SetSteerAngle"));
 
 	struct
 	{
@@ -504,7 +504,7 @@ void USimpleWheeledVehicleMovementComponent::SetSteerAngle(float SteerAngle, int
 
 void USimpleWheeledVehicleMovementComponent::SetDriveTorque(float DriveTorque, int WheelIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.SimpleWheeledVehicleMovementComponent.SetDriveTorque");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.SimpleWheeledVehicleMovementComponent.SetDriveTorque"));
 
 	struct
 	{
@@ -527,7 +527,7 @@ void USimpleWheeledVehicleMovementComponent::SetDriveTorque(float DriveTorque, i
 
 void USimpleWheeledVehicleMovementComponent::SetBrakeTorque(float BrakeTorque, int WheelIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.SimpleWheeledVehicleMovementComponent.SetBrakeTorque");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.SimpleWheeledVehicleMovementComponent.SetBrakeTorque"));
 
 	struct
 	{
@@ -549,7 +549,7 @@ void USimpleWheeledVehicleMovementComponent::SetBrakeTorque(float BrakeTorque, i
 
 class AWheeledVehicle* UVehicleAnimInstance::GetVehicle()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.VehicleAnimInstance.GetVehicle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.VehicleAnimInstance.GetVehicle"));
 
 	struct
 	{
@@ -570,7 +570,7 @@ class AWheeledVehicle* UVehicleAnimInstance::GetVehicle()
 
 bool UVehicleWheel::IsInAir()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.VehicleWheel.IsInAir");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.VehicleWheel.IsInAir"));
 
 	struct
 	{
@@ -591,7 +591,7 @@ bool UVehicleWheel::IsInAir()
 
 float UVehicleWheel::GetSuspensionOffset()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.VehicleWheel.GetSuspensionOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.VehicleWheel.GetSuspensionOffset"));
 
 	struct
 	{
@@ -612,7 +612,7 @@ float UVehicleWheel::GetSuspensionOffset()
 
 float UVehicleWheel::GetSteerAngle()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.VehicleWheel.GetSteerAngle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.VehicleWheel.GetSteerAngle"));
 
 	struct
 	{
@@ -633,7 +633,7 @@ float UVehicleWheel::GetSteerAngle()
 
 float UVehicleWheel::GetRotationAngle()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PhysXVehicles.VehicleWheel.GetRotationAngle");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PhysXVehicles.VehicleWheel.GetRotationAngle"));
 
 	struct
 	{

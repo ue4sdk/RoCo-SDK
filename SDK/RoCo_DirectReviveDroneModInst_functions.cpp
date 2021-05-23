@@ -17,7 +17,7 @@ namespace SDK
 
 void UDirectReviveDroneModInst_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.ReceiveBeginPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.ReceiveBeginPlay"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UDirectReviveDroneModInst_C::ReceiveBeginPlay()
 
 void UDirectReviveDroneModInst_C::OnActivation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnActivation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnActivation"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UDirectReviveDroneModInst_C::OnActivation()
 
 void UDirectReviveDroneModInst_C::OnReviveDroneEvent(EKSReviveDroneEvent KSReviveDroneEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnReviveDroneEvent");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnReviveDroneEvent"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UDirectReviveDroneModInst_C::OnReviveDroneEvent(EKSReviveDroneEvent KSReviv
 
 void UDirectReviveDroneModInst_C::PlayAbilityVO()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.PlayAbilityVO");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.PlayAbilityVO"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UDirectReviveDroneModInst_C::PlayAbilityVO()
 
 void UDirectReviveDroneModInst_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.ReceiveEndPlay");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.ReceiveEndPlay"));
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UDirectReviveDroneModInst_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> End
 
 void UDirectReviveDroneModInst_C::ExecuteUbergraph_DirectReviveDroneModInst(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.ExecuteUbergraph_DirectReviveDroneModInst");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.ExecuteUbergraph_DirectReviveDroneModInst"));
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UDirectReviveDroneModInst_C::ExecuteUbergraph_DirectReviveDroneModInst(int 
 
 void UDirectReviveDroneModInst_C::OnDroneAborted__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnDroneAborted__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnDroneAborted__DelegateSignature"));
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UDirectReviveDroneModInst_C::OnDroneAborted__DelegateSignature()
 
 void UDirectReviveDroneModInst_C::OnReviveComplete__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnReviveComplete__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnReviveComplete__DelegateSignature"));
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UDirectReviveDroneModInst_C::OnReviveComplete__DelegateSignature()
 
 void UDirectReviveDroneModInst_C::OnReviveBegin__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnReviveBegin__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnReviveBegin__DelegateSignature"));
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UDirectReviveDroneModInst_C::OnReviveBegin__DelegateSignature()
 
 void UDirectReviveDroneModInst_C::OnDroneDestroy__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnDroneDestroy__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnDroneDestroy__DelegateSignature"));
 
 	struct
 	{
@@ -189,7 +189,7 @@ void UDirectReviveDroneModInst_C::OnDroneDestroy__DelegateSignature()
 
 void UDirectReviveDroneModInst_C::OnTargetRevive__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnTargetRevive__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnTargetRevive__DelegateSignature"));
 
 	struct
 	{
@@ -205,7 +205,7 @@ void UDirectReviveDroneModInst_C::OnTargetRevive__DelegateSignature()
 
 void UDirectReviveDroneModInst_C::OnTargetDeath__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnTargetDeath__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DirectReviveDroneModInst.DirectReviveDroneModInst_C.OnTargetDeath__DelegateSignature"));
 
 	struct
 	{

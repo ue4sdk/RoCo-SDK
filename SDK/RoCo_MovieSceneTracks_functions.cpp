@@ -19,7 +19,7 @@ namespace SDK
 
 struct FTransform UMovieSceneTransformOrigin::BP_GetTransformOrigin()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneTransformOrigin.BP_GetTransformOrigin");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneTransformOrigin.BP_GetTransformOrigin"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ struct FTransform UMovieSceneTransformOrigin::BP_GetTransformOrigin()
 
 void UMovieScene3DConstraintSection::SetConstraintBindingID(const struct FMovieSceneObjectBindingID& InConstraintBindingID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieScene3DConstraintSection.SetConstraintBindingID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieScene3DConstraintSection.SetConstraintBindingID"));
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UMovieScene3DConstraintSection::SetConstraintBindingID(const struct FMovieS
 
 struct FMovieSceneObjectBindingID UMovieScene3DConstraintSection::GetConstraintBindingID()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieScene3DConstraintSection.GetConstraintBindingID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieScene3DConstraintSection.GetConstraintBindingID"));
 
 	struct
 	{
@@ -81,7 +81,7 @@ struct FMovieSceneObjectBindingID UMovieScene3DConstraintSection::GetConstraintB
 
 void UMovieSceneAudioSection::SetStartOffset(const struct FFrameNumber& InStartOffset)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneAudioSection.SetStartOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneAudioSection.SetStartOffset"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UMovieSceneAudioSection::SetStartOffset(const struct FFrameNumber& InStartO
 
 void UMovieSceneAudioSection::SetSound(class USoundBase* InSound)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneAudioSection.SetSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneAudioSection.SetSound"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UMovieSceneAudioSection::SetSound(class USoundBase* InSound)
 
 struct FFrameNumber UMovieSceneAudioSection::GetStartOffset()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneAudioSection.GetStartOffset");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneAudioSection.GetStartOffset"));
 
 	struct
 	{
@@ -142,7 +142,7 @@ struct FFrameNumber UMovieSceneAudioSection::GetStartOffset()
 
 class USoundBase* UMovieSceneAudioSection::GetSound()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneAudioSection.GetSound");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneAudioSection.GetSound"));
 
 	struct
 	{
@@ -163,7 +163,7 @@ class USoundBase* UMovieSceneAudioSection::GetSound()
 
 void UMovieSceneCameraCutSection::SetCameraBindingID(const struct FMovieSceneObjectBindingID& InCameraBindingID)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneCameraCutSection.SetCameraBindingID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneCameraCutSection.SetCameraBindingID"));
 
 	struct
 	{
@@ -183,7 +183,7 @@ void UMovieSceneCameraCutSection::SetCameraBindingID(const struct FMovieSceneObj
 
 struct FMovieSceneObjectBindingID UMovieSceneCameraCutSection::GetCameraBindingID()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneCameraCutSection.GetCameraBindingID");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneCameraCutSection.GetCameraBindingID"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ struct FMovieSceneObjectBindingID UMovieSceneCameraCutSection::GetCameraBindingI
 
 void UMovieSceneCinematicShotSection::SetShotDisplayName(const struct FString& InShotDisplayName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneCinematicShotSection.SetShotDisplayName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneCinematicShotSection.SetShotDisplayName"));
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UMovieSceneCinematicShotSection::SetShotDisplayName(const struct FString& I
 
 struct FString UMovieSceneCinematicShotSection::GetShotDisplayName()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneCinematicShotSection.GetShotDisplayName");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneCinematicShotSection.GetShotDisplayName"));
 
 	struct
 	{
@@ -245,7 +245,7 @@ struct FString UMovieSceneCinematicShotSection::GetShotDisplayName()
 
 void UMovieSceneLevelVisibilitySection::SetVisibility(ELevelVisibility InVisibility)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneLevelVisibilitySection.SetVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneLevelVisibilitySection.SetVisibility"));
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UMovieSceneLevelVisibilitySection::SetVisibility(ELevelVisibility InVisibil
 
 void UMovieSceneLevelVisibilitySection::SetLevelNames(TArray<struct FName> InLevelNames)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneLevelVisibilitySection.SetLevelNames");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneLevelVisibilitySection.SetLevelNames"));
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UMovieSceneLevelVisibilitySection::SetLevelNames(TArray<struct FName> InLev
 
 ELevelVisibility UMovieSceneLevelVisibilitySection::GetVisibility()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneLevelVisibilitySection.GetVisibility");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneLevelVisibilitySection.GetVisibility"));
 
 	struct
 	{
@@ -306,7 +306,7 @@ ELevelVisibility UMovieSceneLevelVisibilitySection::GetVisibility()
 
 TArray<struct FName> UMovieSceneLevelVisibilitySection::GetLevelNames()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MovieSceneTracks.MovieSceneLevelVisibilitySection.GetLevelNames");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieSceneTracks.MovieSceneLevelVisibilitySection.GetLevelNames"));
 
 	struct
 	{

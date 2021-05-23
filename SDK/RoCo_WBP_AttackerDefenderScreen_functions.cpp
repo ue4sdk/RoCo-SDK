@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_AttackerDefenderScreen_C::HandleShowAnimationFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandleShowAnimationFinished");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandleShowAnimationFinished"));
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_AttackerDefenderScreen_C::HandleShowAnimationFinished()
 
 void UWBP_AttackerDefenderScreen_C::ShowScreenAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.ShowScreenAnimation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.ShowScreenAnimation"));
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_AttackerDefenderScreen_C::ShowScreenAnimation()
 
 void UWBP_AttackerDefenderScreen_C::HandleTeamAdded(class AKSTeamState* TeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandleTeamAdded");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandleTeamAdded"));
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_AttackerDefenderScreen_C::HandleTeamAdded(class AKSTeamState* TeamStat
 
 void UWBP_AttackerDefenderScreen_C::SetTeamRole()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.SetTeamRole");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.SetTeamRole"));
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWBP_AttackerDefenderScreen_C::SetTeamRole()
 
 void UWBP_AttackerDefenderScreen_C::HandleAttackingTeamUpdated(class AKSTeamState* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandleAttackingTeamUpdated");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandleAttackingTeamUpdated"));
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UWBP_AttackerDefenderScreen_C::HandleAttackingTeamUpdated(class AKSTeamStat
 
 void UWBP_AttackerDefenderScreen_C::SetRounds()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.SetRounds");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.SetRounds"));
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_AttackerDefenderScreen_C::SetRounds()
 
 void UWBP_AttackerDefenderScreen_C::ResetPreRoundScreen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.ResetPreRoundScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.ResetPreRoundScreen"));
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_AttackerDefenderScreen_C::ResetPreRoundScreen()
 
 void UWBP_AttackerDefenderScreen_C::Get_Pre_Round_Text(struct FText* PreRoundText)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.Get Pre Round Text");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.Get Pre Round Text"));
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_AttackerDefenderScreen_C::Get_Pre_Round_Text(struct FText* PreRoundTex
 
 void UWBP_AttackerDefenderScreen_C::IsAttackerRole(bool* IsAttacker)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.IsAttackerRole");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.IsAttackerRole"));
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UWBP_AttackerDefenderScreen_C::IsAttackerRole(bool* IsAttacker)
 
 void UWBP_AttackerDefenderScreen_C::HandlePhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandlePhaseChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandlePhaseChanged"));
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_AttackerDefenderScreen_C::HandlePhaseChanged(const struct FName& NewPh
 
 void UWBP_AttackerDefenderScreen_C::PreRoundAnimComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.PreRoundAnimComplete");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.PreRoundAnimComplete"));
 
 	struct
 	{
@@ -222,7 +222,7 @@ void UWBP_AttackerDefenderScreen_C::PreRoundAnimComplete()
 
 void UWBP_AttackerDefenderScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.InitializeWidget"));
 
 	struct
 	{
@@ -242,7 +242,7 @@ void UWBP_AttackerDefenderScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_AttackerDefenderScreen_C::ExecuteUbergraph_WBP_AttackerDefenderScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.ExecuteUbergraph_WBP_AttackerDefenderScreen");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.ExecuteUbergraph_WBP_AttackerDefenderScreen"));
 
 	struct
 	{

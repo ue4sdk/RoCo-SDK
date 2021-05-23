@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Store_C::ConvertStoreTime(struct FText* Time)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.ConvertStoreTime");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.ConvertStoreTime"));
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_Store_C::ConvertStoreTime(struct FText* Time)
 
 void UWBP_Store_C::UpdateStoreTimer()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.UpdateStoreTimer");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.UpdateStoreTimer"));
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_Store_C::UpdateStoreTimer()
 
 void UWBP_Store_C::GetKSStoreItemHelper(class UKSStoreItemHelper** StoreItemHelper)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.GetKSStoreItemHelper");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.GetKSStoreItemHelper"));
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_Store_C::GetKSStoreItemHelper(class UKSStoreItemHelper** StoreItemHelp
 
 void UWBP_Store_C::Set_Initial_Scroll_Position()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.Set Initial Scroll Position");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.Set Initial Scroll Position"));
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_Store_C::Set_Initial_Scroll_Position()
 
 struct FEventReply UWBP_Store_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnKeyDown"));
 
 	struct
 	{
@@ -120,7 +120,7 @@ struct FEventReply UWBP_Store_C::OnKeyDown(const struct FGeometry& MyGeometry, c
 
 void UWBP_Store_C::OnPrevSection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnPrevSection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnPrevSection"));
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UWBP_Store_C::OnPrevSection()
 
 void UWBP_Store_C::OnNextSection()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnNextSection");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnNextSection"));
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_Store_C::OnNextSection()
 
 void UWBP_Store_C::OnStoreSectionSelected(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnStoreSectionSelected");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnStoreSectionSelected"));
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_Store_C::OnStoreSectionSelected(int Index)
 
 void UWBP_Store_C::AddSectionsToStore(TArray<class UKSStoreSection*>* StoreSection)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.AddSectionsToStore");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.AddSectionsToStore"));
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UWBP_Store_C::AddSectionsToStore(TArray<class UKSStoreSection*>* StoreSecti
 
 bool UWBP_Store_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.NavigateBack"));
 
 	struct
 	{
@@ -215,7 +215,7 @@ bool UWBP_Store_C::NavigateBack()
 
 void UWBP_Store_C::PopulateStore()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.PopulateStore");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.PopulateStore"));
 
 	struct
 	{
@@ -234,7 +234,7 @@ void UWBP_Store_C::PopulateStore()
 
 void UWBP_Store_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.Tick"));
 
 	struct
 	{
@@ -257,7 +257,7 @@ void UWBP_Store_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 void UWBP_Store_C::OnVendorsReceived(int GroupId, TArray<int> VendorIds)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnVendorsReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnVendorsReceived"));
 
 	struct
 	{
@@ -279,7 +279,7 @@ void UWBP_Store_C::OnVendorsReceived(int GroupId, TArray<int> VendorIds)
 
 void UWBP_Store_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.InitializeWidget"));
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UWBP_Store_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Store_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnBackPrompt"));
 
 	struct
 	{
@@ -313,7 +313,7 @@ void UWBP_Store_C::OnBackPrompt()
 
 void UWBP_Store_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -329,7 +329,7 @@ void UWBP_Store_C::InitializeWidgetNavigation()
 
 void UWBP_Store_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnShown"));
 
 	struct
 	{
@@ -345,7 +345,7 @@ void UWBP_Store_C::OnShown()
 
 void UWBP_Store_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnHide");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnHide"));
 
 	struct
 	{
@@ -361,7 +361,7 @@ void UWBP_Store_C::OnHide()
 
 void UWBP_Store_C::OnOpenCodeRedeem()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnOpenCodeRedeem");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnOpenCodeRedeem"));
 
 	struct
 	{
@@ -379,7 +379,7 @@ void UWBP_Store_C::OnOpenCodeRedeem()
 
 void UWBP_Store_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.FocusGroupNavigateLeftFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.FocusGroupNavigateLeftFailure"));
 
 	struct
 	{
@@ -399,7 +399,7 @@ void UWBP_Store_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 
 void UWBP_Store_C::FocusGroupNavigateRightFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.FocusGroupNavigateRightFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.FocusGroupNavigateRightFailure"));
 
 	struct
 	{
@@ -417,7 +417,7 @@ void UWBP_Store_C::FocusGroupNavigateRightFailure(int FocusGroup)
 
 void UWBP_Store_C::OnPortalOffersReceived()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnPortalOffersReceived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnPortalOffersReceived"));
 
 	struct
 	{
@@ -433,7 +433,7 @@ void UWBP_Store_C::OnPortalOffersReceived()
 
 void UWBP_Store_C::OnPricePointsReveived()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.OnPricePointsReveived");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.OnPricePointsReveived"));
 
 	struct
 	{
@@ -451,7 +451,7 @@ void UWBP_Store_C::OnPricePointsReveived()
 
 void UWBP_Store_C::ExecuteUbergraph_WBP_Store(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_Store.WBP_Store_C.ExecuteUbergraph_WBP_Store");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Store.WBP_Store_C.ExecuteUbergraph_WBP_Store"));
 
 	struct
 	{

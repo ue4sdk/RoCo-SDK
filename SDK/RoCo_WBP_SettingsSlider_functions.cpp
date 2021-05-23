@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_SettingsSlider_C::IsSliderKey(const struct FKey& InKey, bool* IsKey)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.IsSliderKey");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.IsSliderKey"));
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_SettingsSlider_C::IsSliderKey(const struct FKey& InKey, bool* IsKey)
 
 void UWBP_SettingsSlider_C::ResetCurrentAcceleration()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.ResetCurrentAcceleration");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.ResetCurrentAcceleration"));
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_SettingsSlider_C::ResetCurrentAcceleration()
 
 void UWBP_SettingsSlider_C::IncreaseCurrentAcceleration()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.IncreaseCurrentAcceleration");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.IncreaseCurrentAcceleration"));
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_SettingsSlider_C::IncreaseCurrentAcceleration()
 
 struct FEventReply UWBP_SettingsSlider_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnKeyUp");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnKeyUp"));
 
 	struct
 	{
@@ -105,7 +105,7 @@ struct FEventReply UWBP_SettingsSlider_C::OnKeyUp(const struct FGeometry& MyGeom
 
 struct FEventReply UWBP_SettingsSlider_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnKeyDown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnKeyDown"));
 
 	struct
 	{
@@ -128,7 +128,7 @@ struct FEventReply UWBP_SettingsSlider_C::OnKeyDown(const struct FGeometry& MyGe
 
 void UWBP_SettingsSlider_C::Step_Left()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Step Left");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Step Left"));
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_SettingsSlider_C::Step_Left()
 
 void UWBP_SettingsSlider_C::Step(float Multiplier)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Step");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Step"));
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_SettingsSlider_C::Step(float Multiplier)
 
 void UWBP_SettingsSlider_C::Step_Right()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Step Right");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Step Right"));
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWBP_SettingsSlider_C::Step_Right()
 
 void UWBP_SettingsSlider_C::Set_Display_Text()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Set Display Text");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Set Display Text"));
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UWBP_SettingsSlider_C::Set_Display_Text()
 
 void UWBP_SettingsSlider_C::Set_Desired_Value()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Set Desired Value");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Set Desired Value"));
 
 	struct
 	{
@@ -212,7 +212,7 @@ void UWBP_SettingsSlider_C::Set_Desired_Value()
 
 void UWBP_SettingsSlider_C::Position_Slider_To_Value()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Position Slider To Value");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Position Slider To Value"));
 
 	struct
 	{
@@ -230,7 +230,7 @@ void UWBP_SettingsSlider_C::Position_Slider_To_Value()
 
 void UWBP_SettingsSlider_C::Slider_To_Value(float* Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Slider To Value");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Slider To Value"));
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_SettingsSlider_C::Slider_To_Value(float* Value)
 
 void UWBP_SettingsSlider_C::GetMaxSliderValue(float* Max_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.GetMaxSliderValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.GetMaxSliderValue"));
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_SettingsSlider_C::GetMaxSliderValue(float* Max_Value)
 
 void UWBP_SettingsSlider_C::GetMinSliderValue(float* Min_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.GetMinSliderValue");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.GetMinSliderValue"));
 
 	struct
 	{
@@ -296,7 +296,7 @@ void UWBP_SettingsSlider_C::GetMinSliderValue(float* Min_Value)
 
 void UWBP_SettingsSlider_C::Value_To_Slider(float* Slider_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Value To Slider");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Value To Slider"));
 
 	struct
 	{
@@ -318,7 +318,7 @@ void UWBP_SettingsSlider_C::Value_To_Slider(float* Slider_Value)
 
 void UWBP_SettingsSlider_C::Get_Dirty_Value(float* Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Get Dirty Value");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Get Dirty Value"));
 
 	struct
 	{
@@ -338,7 +338,7 @@ void UWBP_SettingsSlider_C::Get_Dirty_Value(float* Value)
 
 void UWBP_SettingsSlider_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Construct");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Construct"));
 
 	struct
 	{
@@ -357,7 +357,7 @@ void UWBP_SettingsSlider_C::Construct()
 
 void UWBP_SettingsSlider_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Tick");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.Tick"));
 
 	struct
 	{
@@ -379,7 +379,7 @@ void UWBP_SettingsSlider_C::Tick(const struct FGeometry& MyGeometry, float InDel
 
 void UWBP_SettingsSlider_C::BndEvt__SettingsSlider_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature(float Value)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.BndEvt__SettingsSlider_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.BndEvt__SettingsSlider_K2Node_ComponentBoundEvent_0_OnFloatValueChangedEvent__DelegateSignature"));
 
 	struct
 	{
@@ -397,7 +397,7 @@ void UWBP_SettingsSlider_C::BndEvt__SettingsSlider_K2Node_ComponentBoundEvent_0_
 
 void UWBP_SettingsSlider_C::OnWidgetSettingsInfoSet()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnWidgetSettingsInfoSet");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnWidgetSettingsInfoSet"));
 
 	struct
 	{
@@ -416,7 +416,7 @@ void UWBP_SettingsSlider_C::OnWidgetSettingsInfoSet()
 
 void UWBP_SettingsSlider_C::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnMouseEnter");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnMouseEnter"));
 
 	struct
 	{
@@ -438,7 +438,7 @@ void UWBP_SettingsSlider_C::OnMouseEnter(const struct FGeometry& MyGeometry, con
 
 void UWBP_SettingsSlider_C::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnMouseLeave");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnMouseLeave"));
 
 	struct
 	{
@@ -456,7 +456,7 @@ void UWBP_SettingsSlider_C::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 
 void UWBP_SettingsSlider_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.GamepadHover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.GamepadHover"));
 
 	struct
 	{
@@ -472,7 +472,7 @@ void UWBP_SettingsSlider_C::GamepadHover()
 
 void UWBP_SettingsSlider_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.GamepadUnhover");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.GamepadUnhover"));
 
 	struct
 	{
@@ -488,7 +488,7 @@ void UWBP_SettingsSlider_C::GamepadUnhover()
 
 void UWBP_SettingsSlider_C::NavigateLeftFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.NavigateLeftFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.NavigateLeftFailure"));
 
 	struct
 	{
@@ -504,7 +504,7 @@ void UWBP_SettingsSlider_C::NavigateLeftFailure()
 
 void UWBP_SettingsSlider_C::NavigateRightFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.NavigateRightFailure");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.NavigateRightFailure"));
 
 	struct
 	{
@@ -522,7 +522,7 @@ void UWBP_SettingsSlider_C::NavigateRightFailure()
 
 void UWBP_SettingsSlider_C::OnSettingsInfoValueChanged(bool bChangedExternally)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnSettingsInfoValueChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.OnSettingsInfoValueChanged"));
 
 	struct
 	{
@@ -542,7 +542,7 @@ void UWBP_SettingsSlider_C::OnSettingsInfoValueChanged(bool bChangedExternally)
 
 void UWBP_SettingsSlider_C::ExecuteUbergraph_WBP_SettingsSlider(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSlider.WBP_SettingsSlider_C.ExecuteUbergraph_WBP_SettingsSlider");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSlider.WBP_SettingsSlider_C.ExecuteUbergraph_WBP_SettingsSlider"));
 
 	struct
 	{

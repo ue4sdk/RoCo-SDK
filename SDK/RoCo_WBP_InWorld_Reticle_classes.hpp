@@ -48,7 +48,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_InWorld_Reticle.WBP_InWorld_Reticle_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_InWorld_Reticle.WBP_InWorld_Reticle_C"));
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_EventRulesPopup_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.NavigateConfirm");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.NavigateConfirm"));
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_EventRulesPopup_C::NavigateConfirm()
 
 void UWBP_EventRulesPopup_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* Widgets)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.GetNavigationWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.GetNavigationWidgets"));
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_EventRulesPopup_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* W
 
 bool UWBP_EventRulesPopup_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.NavigateBack");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.NavigateBack"));
 
 	struct
 	{
@@ -83,7 +83,7 @@ bool UWBP_EventRulesPopup_C::NavigateBack()
 
 void UWBP_EventRulesPopup_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.InitializeWidget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.InitializeWidget"));
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_EventRulesPopup_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_EventRulesPopup_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.OnBackPrompt");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.OnBackPrompt"));
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_EventRulesPopup_C::OnBackPrompt()
 
 void UWBP_EventRulesPopup_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.InitializeWidgetNavigation");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.InitializeWidgetNavigation"));
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_EventRulesPopup_C::InitializeWidgetNavigation()
 
 void UWBP_EventRulesPopup_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.OnShown");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.OnShown"));
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_EventRulesPopup_C::OnShown()
 
 void UWBP_EventRulesPopup_C::BndEvt__Button_GotIt_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.BndEvt__Button_GotIt_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.BndEvt__Button_GotIt_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UWBP_EventRulesPopup_C::BndEvt__Button_GotIt_K2Node_ComponentBoundEvent_0_O
 
 void UWBP_EventRulesPopup_C::ExecuteUbergraph_WBP_EventRulesPopup(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.ExecuteUbergraph_WBP_EventRulesPopup");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRulesPopup.WBP_EventRulesPopup_C.ExecuteUbergraph_WBP_EventRulesPopup"));
 
 	struct
 	{

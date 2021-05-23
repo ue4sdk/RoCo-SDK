@@ -20,7 +20,7 @@ namespace SDK
 
 void UAnimationBudgetBlueprintLibrary::SetAnimationBudgetParameters(class UObject* WorldContextObject, const struct FAnimationBudgetAllocatorParameters& InParameters)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AnimationBudgetAllocator.AnimationBudgetBlueprintLibrary.SetAnimationBudgetParameters");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationBudgetAllocator.AnimationBudgetBlueprintLibrary.SetAnimationBudgetParameters"));
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UAnimationBudgetBlueprintLibrary::SetAnimationBudgetParameters(class UObjec
 
 void UAnimationBudgetBlueprintLibrary::EnableAnimationBudget(class UObject* WorldContextObject, bool bEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AnimationBudgetAllocator.AnimationBudgetBlueprintLibrary.EnableAnimationBudget");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationBudgetAllocator.AnimationBudgetBlueprintLibrary.EnableAnimationBudget"));
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UAnimationBudgetBlueprintLibrary::EnableAnimationBudget(class UObject* Worl
 
 void USkeletalMeshComponentBudgeted::SetAutoRegisterWithBudgetAllocator(bool bInAutoRegisterWithBudgetAllocator)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AnimationBudgetAllocator.SkeletalMeshComponentBudgeted.SetAutoRegisterWithBudgetAllocator");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationBudgetAllocator.SkeletalMeshComponentBudgeted.SetAutoRegisterWithBudgetAllocator"));
 
 	struct
 	{

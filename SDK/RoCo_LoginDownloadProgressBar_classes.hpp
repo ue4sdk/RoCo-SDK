@@ -26,7 +26,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass LoginDownloadProgressBar.LoginDownloadProgressBar_C");
+		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass LoginDownloadProgressBar.LoginDownloadProgressBar_C"));
 		return ptr;
 	}
 

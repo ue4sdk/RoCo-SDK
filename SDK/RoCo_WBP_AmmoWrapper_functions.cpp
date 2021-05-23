@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_AmmoWrapper_C::GetAmmoWidgets(TArray<class UWBP_AmmoCount_C*>* AmmoWidgtes)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AmmoWrapper.WBP_AmmoWrapper_C.GetAmmoWidgets");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AmmoWrapper.WBP_AmmoWrapper_C.GetAmmoWidgets"));
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_AmmoWrapper_C::GetAmmoWidgets(TArray<class UWBP_AmmoCount_C*>* AmmoWid
 
 void UWBP_AmmoWrapper_C::OnAmmoChanged(class UKSWeaponComponent* Weapon)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AmmoWrapper.WBP_AmmoWrapper_C.OnAmmoChanged");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AmmoWrapper.WBP_AmmoWrapper_C.OnAmmoChanged"));
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_AmmoWrapper_C::OnAmmoChanged(class UKSWeaponComponent* Weapon)
 
 void UWBP_AmmoWrapper_C::SetInitialAmmoCount(class UKSWeaponComponent* Weapon)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AmmoWrapper.WBP_AmmoWrapper_C.SetInitialAmmoCount");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AmmoWrapper.WBP_AmmoWrapper_C.SetInitialAmmoCount"));
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_AmmoWrapper_C::SetInitialAmmoCount(class UKSWeaponComponent* Weapon)
 
 void UWBP_AmmoWrapper_C::AddAmmoCount()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_AmmoWrapper.WBP_AmmoWrapper_C.AddAmmoCount");
+	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AmmoWrapper.WBP_AmmoWrapper_C.AddAmmoCount"));
 
 	struct
 	{
