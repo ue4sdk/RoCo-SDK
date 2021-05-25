@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Overlay.Overlays"));
+		static auto ptr = UObject::FindObject<UClass>("Class Overlay.Overlays");
 		return ptr;
 	}
 
@@ -38,7 +38,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Overlay.BasicOverlays"));
+		static auto ptr = UObject::FindObject<UClass>("Class Overlay.BasicOverlays");
 		return ptr;
 	}
 
@@ -55,7 +55,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Overlay.LocalizedOverlays"));
+		static auto ptr = UObject::FindObject<UClass>("Class Overlay.LocalizedOverlays");
 		return ptr;
 	}
 

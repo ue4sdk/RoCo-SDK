@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ProgressionCardSlot_PlayerXP_C::ShowXPBar(bool ShowXPBar)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.ShowXPBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.ShowXPBar");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ProgressionCardSlot_PlayerXP_C::ShowXPBar(bool ShowXPBar)
 
 void UWBP_ProgressionCardSlot_PlayerXP_C::ProcessPlayerProgression(const struct FPlayerProgression& PlayerProgress)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.ProcessPlayerProgression"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.ProcessPlayerProgression");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_ProgressionCardSlot_PlayerXP_C::ProcessPlayerProgression(const struct 
 
 void UWBP_ProgressionCardSlot_PlayerXP_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.PreConstruct");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_ProgressionCardSlot_PlayerXP_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ProgressionCardSlot_PlayerXP_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.Construct");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_ProgressionCardSlot_PlayerXP_C::Construct()
 
 void UWBP_ProgressionCardSlot_PlayerXP_C::Event_On_Level_Up(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.Event On Level Up"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.Event On Level Up");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_ProgressionCardSlot_PlayerXP_C::Event_On_Level_Up(int NewLevel)
 
 void UWBP_ProgressionCardSlot_PlayerXP_C::ExecuteUbergraph_WBP_ProgressionCardSlot_PlayerXP(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.ExecuteUbergraph_WBP_ProgressionCardSlot_PlayerXP"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.ExecuteUbergraph_WBP_ProgressionCardSlot_PlayerXP");
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UWBP_ProgressionCardSlot_PlayerXP_C::ExecuteUbergraph_WBP_ProgressionCardSl
 
 void UWBP_ProgressionCardSlot_PlayerXP_C::OnPlayerLevelUp__DelegateSignature(const struct FActivityTier& NewTier, class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.OnPlayerLevelUp__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_PlayerXP.WBP_ProgressionCardSlot_PlayerXP_C.OnPlayerLevelUp__DelegateSignature");
 
 	struct
 	{

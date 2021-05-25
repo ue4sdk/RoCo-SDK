@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_HeadstrongPerkActive_C::SetDisabledState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.SetDisabledState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.SetDisabledState");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_HeadstrongPerkActive_C::SetDisabledState()
 
 void UWBP_HeadstrongPerkActive_C::SetActiveState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.SetActiveState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.SetActiveState");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_HeadstrongPerkActive_C::SetActiveState()
 
 void UWBP_HeadstrongPerkActive_C::OnRepairableArmorEquipped(bool bEquiped)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.OnRepairableArmorEquipped"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.OnRepairableArmorEquipped");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_HeadstrongPerkActive_C::OnRepairableArmorEquipped(bool bEquiped)
 
 void UWBP_HeadstrongPerkActive_C::OnArmorInteractAvailable(bool bAvailable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.OnArmorInteractAvailable"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.OnArmorInteractAvailable");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_HeadstrongPerkActive_C::OnArmorInteractAvailable(bool bAvailable)
 
 void UWBP_HeadstrongPerkActive_C::OnPawnSet(class APawn* OwningPawn)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.OnPawnSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.OnPawnSet");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_HeadstrongPerkActive_C::OnPawnSet(class APawn* OwningPawn)
 
 void UWBP_HeadstrongPerkActive_C::Initialize_Widget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.Initialize Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.Initialize Widget");
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UWBP_HeadstrongPerkActive_C::Initialize_Widget(class APUMG_HUD* HUD)
 
 void UWBP_HeadstrongPerkActive_C::OnPawnCleared(class APawn* Old_Pawn)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.OnPawnCleared"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.OnPawnCleared");
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_HeadstrongPerkActive_C::OnPawnCleared(class APawn* Old_Pawn)
 
 void UWBP_HeadstrongPerkActive_C::ExecuteUbergraph_WBP_HeadstrongPerkActive(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.ExecuteUbergraph_WBP_HeadstrongPerkActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HeadstrongPerkActive.WBP_HeadstrongPerkActive_C.ExecuteUbergraph_WBP_HeadstrongPerkActive");
 
 	struct
 	{

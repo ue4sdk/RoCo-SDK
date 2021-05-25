@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_InGameJobSelect_TeamComp_C::ResetJobEntries()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.ResetJobEntries"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.ResetJobEntries");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_InGameJobSelect_TeamComp_C::ResetJobEntries()
 
 void UWBP_InGameJobSelect_TeamComp_C::TeamMembersUpdated(class AKSPlayerState* NewMember)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.TeamMembersUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.TeamMembersUpdated");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_InGameJobSelect_TeamComp_C::TeamMembersUpdated(class AKSPlayerState* N
 
 void UWBP_InGameJobSelect_TeamComp_C::Setup_Team_Display()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.Setup Team Display"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.Setup Team Display");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_InGameJobSelect_TeamComp_C::Setup_Team_Display()
 
 void UWBP_InGameJobSelect_TeamComp_C::SetInitialView()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.SetInitialView"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.SetInitialView");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWBP_InGameJobSelect_TeamComp_C::SetInitialView()
 
 void UWBP_InGameJobSelect_TeamComp_C::OnJobEntryUpdated(class UJobSelectionEntryDetails* JobSelectionEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.OnJobEntryUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.OnJobEntryUpdated");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_InGameJobSelect_TeamComp_C::OnJobEntryUpdated(class UJobSelectionEntry
 
 void UWBP_InGameJobSelect_TeamComp_C::OnPlayerStateChanged(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.OnPlayerStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.OnPlayerStateChanged");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_InGameJobSelect_TeamComp_C::OnPlayerStateChanged(class AKSPlayerState*
 
 void UWBP_InGameJobSelect_TeamComp_C::On_Team_Changed(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.On Team Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.On Team Changed");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_InGameJobSelect_TeamComp_C::On_Team_Changed(class AKSPlayerState* KSPl
 
 void UWBP_InGameJobSelect_TeamComp_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.PreConstruct");
 
 	struct
 	{
@@ -165,7 +165,7 @@ void UWBP_InGameJobSelect_TeamComp_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_InGameJobSelect_TeamComp_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.Construct");
 
 	struct
 	{
@@ -183,7 +183,7 @@ void UWBP_InGameJobSelect_TeamComp_C::Construct()
 
 void UWBP_InGameJobSelect_TeamComp_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.InitializeWidget");
 
 	struct
 	{
@@ -203,7 +203,7 @@ void UWBP_InGameJobSelect_TeamComp_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_InGameJobSelect_TeamComp_C::Team_Added_To_Match(class AKSTeamState* New_Team)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.Team Added To Match"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.Team Added To Match");
 
 	struct
 	{
@@ -223,7 +223,7 @@ void UWBP_InGameJobSelect_TeamComp_C::Team_Added_To_Match(class AKSTeamState* Ne
 
 void UWBP_InGameJobSelect_TeamComp_C::ExecuteUbergraph_WBP_InGameJobSelect_TeamComp(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.ExecuteUbergraph_WBP_InGameJobSelect_TeamComp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.ExecuteUbergraph_WBP_InGameJobSelect_TeamComp");
 
 	struct
 	{

@@ -7,10 +7,10 @@
 #endif
 
 #include "RoCo_Basic.hpp"
-#include "RoCo_ColorEntry_classes.hpp"
-#include "RoCo_KillstreakUINew_classes.hpp"
 #include "RoCo_EPlayerStatusOption_classes.hpp"
+#include "RoCo_KillstreakUINew_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
+#include "RoCo_ColorEntry_classes.hpp"
 #include "RoCo_Killstreak_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"
 

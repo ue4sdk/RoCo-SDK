@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Social_Platform_ID_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Platform_ID.WBP_Social_Platform_ID_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Platform_ID.WBP_Social_Platform_ID_C.PreConstruct");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_Social_Platform_ID_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Social_Platform_ID_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Platform_ID.WBP_Social_Platform_ID_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Platform_ID.WBP_Social_Platform_ID_C.OnInitialized");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_Social_Platform_ID_C::OnInitialized()
 
 void UWBP_Social_Platform_ID_C::ExecuteUbergraph_WBP_Social_Platform_ID(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Platform_ID.WBP_Social_Platform_ID_C.ExecuteUbergraph_WBP_Social_Platform_ID"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Platform_ID.WBP_Social_Platform_ID_C.ExecuteUbergraph_WBP_Social_Platform_ID");
 
 	struct
 	{

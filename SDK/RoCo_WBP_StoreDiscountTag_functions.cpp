@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_StoreDiscountTag_C::SetSaleMessage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreDiscountTag.WBP_StoreDiscountTag_C.SetSaleMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreDiscountTag.WBP_StoreDiscountTag_C.SetSaleMessage");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_StoreDiscountTag_C::SetSaleMessage()
 
 void UWBP_StoreDiscountTag_C::SetDiscountPercentage(int Percentage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreDiscountTag.WBP_StoreDiscountTag_C.SetDiscountPercentage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreDiscountTag.WBP_StoreDiscountTag_C.SetDiscountPercentage");
 
 	struct
 	{

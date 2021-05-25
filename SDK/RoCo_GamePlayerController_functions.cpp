@@ -17,7 +17,7 @@ namespace SDK
 
 void AGamePlayerController_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamePlayerController.GamePlayerController_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function GamePlayerController.GamePlayerController_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void AGamePlayerController_C::ReceiveBeginPlay()
 
 void AGamePlayerController_C::ReceiveTick(float DeltaSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamePlayerController.GamePlayerController_C.ReceiveTick"));
+	static auto fn = UObject::FindObject<UFunction>("Function GamePlayerController.GamePlayerController_C.ReceiveTick");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void AGamePlayerController_C::ReceiveTick(float DeltaSeconds)
 
 void AGamePlayerController_C::ExecuteUbergraph_GamePlayerController(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GamePlayerController.GamePlayerController_C.ExecuteUbergraph_GamePlayerController"));
+	static auto fn = UObject::FindObject<UFunction>("Function GamePlayerController.GamePlayerController_C.ExecuteUbergraph_GamePlayerController");
 
 	struct
 	{

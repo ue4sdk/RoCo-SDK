@@ -48,7 +48,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass GrenadeMarker.GrenadeMarker_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass GrenadeMarker.GrenadeMarker_C");
 		return ptr;
 	}
 

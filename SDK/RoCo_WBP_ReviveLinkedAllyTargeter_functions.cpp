@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ReviveLinkedAllyTargeter_C::Set_Tracked_Ally(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Set Tracked Ally"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Set Tracked Ally");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Set_Tracked_Ally(class AKSPlayerState* KSP
 
 void UWBP_ReviveLinkedAllyTargeter_C::Current_Target_Is_Tracked_Ally(bool* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Current Target Is Tracked Ally"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Current Target Is Tracked Ally");
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Current_Target_Is_Tracked_Ally(bool* Retur
 
 void UWBP_ReviveLinkedAllyTargeter_C::Check_For_Valid_Mod_Inst(class AKSCharacter* KSCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Check For Valid Mod Inst"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Check For Valid Mod Inst");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Check_For_Valid_Mod_Inst(class AKSCharacte
 
 void UWBP_ReviveLinkedAllyTargeter_C::UpdateInputState(TEnumAsByte<EPGAME_INPUT_STATE> NewInputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.UpdateInputState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.UpdateInputState");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::UpdateInputState(TEnumAsByte<EPGAME_INPUT_
 
 void UWBP_ReviveLinkedAllyTargeter_C::Handle_Show_Anim_Finished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Show Anim Finished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Show Anim Finished");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Handle_Show_Anim_Finished()
 
 void UWBP_ReviveLinkedAllyTargeter_C::Handle_Hide_Anim_Finished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Hide Anim Finished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Hide Anim Finished");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Handle_Hide_Anim_Finished()
 
 void UWBP_ReviveLinkedAllyTargeter_C::Apply_View_State(ETargetMarkerViewState View_State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Apply View State"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Apply View State");
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Apply_View_State(ETargetMarkerViewState Vi
 
 void UWBP_ReviveLinkedAllyTargeter_C::Handle_Mod_Activated(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Mod Activated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Mod Activated");
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Handle_Mod_Activated(bool bActive)
 
 void UWBP_ReviveLinkedAllyTargeter_C::Handle_Target_Downed_Changed(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Target Downed Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Target Downed Changed");
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Handle_Target_Downed_Changed(class AKSPlay
 
 void UWBP_ReviveLinkedAllyTargeter_C::Handle_Mod_State_Storage_Changed(class UKSModInst_ActivatedStateMachine* StateMachine)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Mod State Storage Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Handle Mod State Storage Changed");
 
 	struct
 	{
@@ -211,7 +211,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Handle_Mod_State_Storage_Changed(class UKS
 
 void UWBP_ReviveLinkedAllyTargeter_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.OnInitialized");
 
 	struct
 	{
@@ -229,7 +229,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::OnInitialized()
 
 void UWBP_ReviveLinkedAllyTargeter_C::Bind_Mod_Inst(class UKSModInst_ReviveTarget* Associated_Mod_Inst)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Bind Mod Inst"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.Bind Mod Inst");
 
 	struct
 	{
@@ -247,7 +247,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::Bind_Mod_Inst(class UKSModInst_ReviveTarge
 
 void UWBP_ReviveLinkedAllyTargeter_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.PostSetPawn");
 
 	struct
 	{
@@ -263,7 +263,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::PostSetPawn()
 
 void UWBP_ReviveLinkedAllyTargeter_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.PreClearPawn");
 
 	struct
 	{
@@ -281,7 +281,7 @@ void UWBP_ReviveLinkedAllyTargeter_C::PreClearPawn()
 
 void UWBP_ReviveLinkedAllyTargeter_C::ExecuteUbergraph_WBP_ReviveLinkedAllyTargeter(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.ExecuteUbergraph_WBP_ReviveLinkedAllyTargeter"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ReviveLinkedAllyTargeter.WBP_ReviveLinkedAllyTargeter_C.ExecuteUbergraph_WBP_ReviveLinkedAllyTargeter");
 
 	struct
 	{

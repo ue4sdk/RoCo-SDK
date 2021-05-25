@@ -19,7 +19,7 @@ namespace SDK
 
 bool UDebugMenuItem_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenuItem.DebugMenuItem_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenuItem.DebugMenuItem_C.NavigateConfirm");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UDebugMenuItem_C::NavigateConfirm()
 
 void UDebugMenuItem_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenuItem.DebugMenuItem_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenuItem.DebugMenuItem_C.Construct");
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UDebugMenuItem_C::Construct()
 
 void UDebugMenuItem_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenuItem.DebugMenuItem_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenuItem.DebugMenuItem_C.GamepadHover");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UDebugMenuItem_C::GamepadHover()
 
 void UDebugMenuItem_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenuItem.DebugMenuItem_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenuItem.DebugMenuItem_C.GamepadUnhover");
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UDebugMenuItem_C::GamepadUnhover()
 
 void UDebugMenuItem_C::ExecuteUbergraph_DebugMenuItem(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenuItem.DebugMenuItem_C.ExecuteUbergraph_DebugMenuItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenuItem.DebugMenuItem_C.ExecuteUbergraph_DebugMenuItem");
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UDebugMenuItem_C::ExecuteUbergraph_DebugMenuItem(int EntryPoint)
 
 void UDebugMenuItem_C::ItemSelected__DelegateSignature(const struct FDebugMenuCommandInfo& Command)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenuItem.DebugMenuItem_C.ItemSelected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenuItem.DebugMenuItem_C.ItemSelected__DelegateSignature");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_TopNavButton_C::SetNewIndicator(bool Visible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.SetNewIndicator"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.SetNewIndicator");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_TopNavButton_C::SetNewIndicator(bool Visible)
 
 void UWBP_TopNavButton_C::IsDisabled(bool* Disabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.IsDisabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.IsDisabled");
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_TopNavButton_C::IsDisabled(bool* Disabled)
 
 void UWBP_TopNavButton_C::IsActive(bool* Active)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.IsActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.IsActive");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_TopNavButton_C::IsActive(bool* Active)
 
 void UWBP_TopNavButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.PreConstruct");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWBP_TopNavButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_TopNavButton_C::SetMessage(const struct FText& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.SetMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.SetMessage");
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_TopNavButton_C::SetMessage(const struct FText& Message)
 
 void UWBP_TopNavButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.Construct");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_TopNavButton_C::Construct()
 
 void UWBP_TopNavButton_C::DisableButton(bool IsDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.DisableButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.DisableButton");
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UWBP_TopNavButton_C::DisableButton(bool IsDisabled)
 
 void UWBP_TopNavButton_C::SetActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.SetActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.SetActive");
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UWBP_TopNavButton_C::SetActive(bool IsActive)
 
 void UWBP_TopNavButton_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.GamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.GamepadConfirm");
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UWBP_TopNavButton_C::GamepadConfirm()
 
 void UWBP_TopNavButton_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.InitializeWidget");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UWBP_TopNavButton_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_TopNavButton_C::NavTabSelected(class UKSNavTabWidget* SelectedNavTab)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.NavTabSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.NavTabSelected");
 
 	struct
 	{
@@ -235,7 +235,7 @@ void UWBP_TopNavButton_C::NavTabSelected(class UKSNavTabWidget* SelectedNavTab)
 
 void UWBP_TopNavButton_C::ExecuteUbergraph_WBP_TopNavButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.ExecuteUbergraph_WBP_TopNavButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.ExecuteUbergraph_WBP_TopNavButton");
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_TopNavButton_C::ExecuteUbergraph_WBP_TopNavButton(int EntryPoint)
 
 void UWBP_TopNavButton_C::OnNonRouteClicked__DelegateSignature(class UKSWidget* ButtonClicked)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.OnNonRouteClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.OnNonRouteClicked__DelegateSignature");
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UWBP_TopNavButton_C::OnNonRouteClicked__DelegateSignature(class UKSWidget* 
 
 void UWBP_TopNavButton_C::OnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -289,7 +289,7 @@ void UWBP_TopNavButton_C::OnUnhovered__DelegateSignature()
 
 void UWBP_TopNavButton_C::OnHovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.OnHovered__DelegateSignature");
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UWBP_TopNavButton_C::OnHovered__DelegateSignature()
 
 void UWBP_TopNavButton_C::OnClicked__DelegateSignature(const struct FName& TargetViewState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavButton.WBP_TopNavButton_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavButton.WBP_TopNavButton_C.OnClicked__DelegateSignature");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void ULoginLinkPrompt_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginLinkPrompt.LoginLinkPrompt_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginLinkPrompt.LoginLinkPrompt_C.InitializeWidget");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void ULoginLinkPrompt_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void ULoginLinkPrompt_C::BndEvt__DeclineButton_K2Node_ComponentBoundEvent_174_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginLinkPrompt.LoginLinkPrompt_C.BndEvt__DeclineButton_K2Node_ComponentBoundEvent_174_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginLinkPrompt.LoginLinkPrompt_C.BndEvt__DeclineButton_K2Node_ComponentBoundEvent_174_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void ULoginLinkPrompt_C::BndEvt__DeclineButton_K2Node_ComponentBoundEvent_174_On
 
 void ULoginLinkPrompt_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginLinkPrompt.LoginLinkPrompt_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginLinkPrompt.LoginLinkPrompt_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void ULoginLinkPrompt_C::InitializeWidgetNavigation()
 
 void ULoginLinkPrompt_C::BndEvt__ExistingButton_K2Node_ComponentBoundEvent_50_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginLinkPrompt.LoginLinkPrompt_C.BndEvt__ExistingButton_K2Node_ComponentBoundEvent_50_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginLinkPrompt.LoginLinkPrompt_C.BndEvt__ExistingButton_K2Node_ComponentBoundEvent_50_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void ULoginLinkPrompt_C::BndEvt__ExistingButton_K2Node_ComponentBoundEvent_50_On
 
 void ULoginLinkPrompt_C::BndEvt__CreateButton_K2Node_ComponentBoundEvent_67_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginLinkPrompt.LoginLinkPrompt_C.BndEvt__CreateButton_K2Node_ComponentBoundEvent_67_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginLinkPrompt.LoginLinkPrompt_C.BndEvt__CreateButton_K2Node_ComponentBoundEvent_67_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void ULoginLinkPrompt_C::BndEvt__CreateButton_K2Node_ComponentBoundEvent_67_OnCl
 
 void ULoginLinkPrompt_C::ExecuteUbergraph_LoginLinkPrompt(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginLinkPrompt.LoginLinkPrompt_C.ExecuteUbergraph_LoginLinkPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginLinkPrompt.LoginLinkPrompt_C.ExecuteUbergraph_LoginLinkPrompt");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PlayerProfileScreen_StatPanel_C::SetDisableState(bool IsDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.SetDisableState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.SetDisableState");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_PlayerProfileScreen_StatPanel_C::SetDisableState(bool IsDisabled)
 
 bool UWBP_PlayerProfileScreen_StatPanel_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.NavigateConfirm");
 
 	struct
 	{
@@ -58,7 +58,7 @@ bool UWBP_PlayerProfileScreen_StatPanel_C::NavigateConfirm()
 
 void UWBP_PlayerProfileScreen_StatPanel_C::RefreshStats()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.RefreshStats"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.RefreshStats");
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_PlayerProfileScreen_StatPanel_C::RefreshStats()
 
 void UWBP_PlayerProfileScreen_StatPanel_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.PreConstruct");
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UWBP_PlayerProfileScreen_StatPanel_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PlayerProfileScreen_StatPanel_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.Construct");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_PlayerProfileScreen_StatPanel_C::Construct()
 
 void UWBP_PlayerProfileScreen_StatPanel_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.GamepadHover");
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_PlayerProfileScreen_StatPanel_C::GamepadHover()
 
 void UWBP_PlayerProfileScreen_StatPanel_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.GamepadUnhover");
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UWBP_PlayerProfileScreen_StatPanel_C::GamepadUnhover()
 
 void UWBP_PlayerProfileScreen_StatPanel_C::OnActivityInstanceChanged(bool IsLoaded)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.OnActivityInstanceChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.OnActivityInstanceChanged");
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_PlayerProfileScreen_StatPanel_C::OnActivityInstanceChanged(bool IsLoad
 
 void UWBP_PlayerProfileScreen_StatPanel_C::ExecuteUbergraph_WBP_PlayerProfileScreen_StatPanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.ExecuteUbergraph_WBP_PlayerProfileScreen_StatPanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatPanel.WBP_PlayerProfileScreen_StatPanel_C.ExecuteUbergraph_WBP_PlayerProfileScreen_StatPanel");
 
 	struct
 	{

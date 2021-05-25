@@ -19,7 +19,7 @@ namespace SDK
 
 void UMinimapGridLine_C::UpdateOnAxis(float Position)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapGridLine.MinimapGridLine_C.UpdateOnAxis"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapGridLine.MinimapGridLine_C.UpdateOnAxis");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UMinimapGridLine_C::UpdateOnAxis(float Position)
 
 void UMinimapGridLine_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapGridLine.MinimapGridLine_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapGridLine.MinimapGridLine_C.Construct");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UMinimapGridLine_C::Construct()
 
 void UMinimapGridLine_C::Update(const struct FVector2D& PlayerRelativePosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapGridLine.MinimapGridLine_C.Update"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapGridLine.MinimapGridLine_C.Update");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UMinimapGridLine_C::Update(const struct FVector2D& PlayerRelativePosition)
 
 void UMinimapGridLine_C::ExecuteUbergraph_MinimapGridLine(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapGridLine.MinimapGridLine_C.ExecuteUbergraph_MinimapGridLine"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapGridLine.MinimapGridLine_C.ExecuteUbergraph_MinimapGridLine");
 
 	struct
 	{

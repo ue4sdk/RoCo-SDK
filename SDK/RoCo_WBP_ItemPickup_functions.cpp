@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_ItemPickup_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPickup.WBP_ItemPickup_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPickup.WBP_ItemPickup_C.Tick");
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UWBP_ItemPickup_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTi
 
 void UWBP_ItemPickup_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPickup.WBP_ItemPickup_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPickup.WBP_ItemPickup_C.Construct");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_ItemPickup_C::Construct()
 
 void UWBP_ItemPickup_C::OnItemPickedUp_Event_1(class AKSCharacter* Character, class AKSItemDrop* ItemDrop, class UKSItem* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPickup.WBP_ItemPickup_C.OnItemPickedUp_Event_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPickup.WBP_ItemPickup_C.OnItemPickedUp_Event_1");
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWBP_ItemPickup_C::OnItemPickedUp_Event_1(class AKSCharacter* Character, cl
 
 void UWBP_ItemPickup_C::OnPostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPickup.WBP_ItemPickup_C.OnPostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPickup.WBP_ItemPickup_C.OnPostSetPawn");
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UWBP_ItemPickup_C::OnPostSetPawn()
 
 void UWBP_ItemPickup_C::ExecuteUbergraph_WBP_ItemPickup(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemPickup.WBP_ItemPickup_C.ExecuteUbergraph_WBP_ItemPickup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemPickup.WBP_ItemPickup_C.ExecuteUbergraph_WBP_ItemPickup");
 
 	struct
 	{

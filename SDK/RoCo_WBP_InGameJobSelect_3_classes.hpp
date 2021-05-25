@@ -91,7 +91,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_InGameJobSelect_3.WBP_InGameJobSelect_2_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_InGameJobSelect_3.WBP_InGameJobSelect_2_C");
 		return ptr;
 	}
 

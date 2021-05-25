@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeInterface.ClothConfigBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeInterface.ClothConfigBase");
 		return ptr;
 	}
 
@@ -37,7 +37,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeInterface.ClothingSimulationFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeInterface.ClothingSimulationFactory");
 		return ptr;
 	}
 
@@ -53,7 +53,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeInterface.ClothingSimulationInteractor"));
+		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeInterface.ClothingSimulationInteractor");
 		return ptr;
 	}
 
@@ -74,7 +74,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeInterface.ClothSharedSimConfigBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeInterface.ClothSharedSimConfigBase");
 		return ptr;
 	}
 
@@ -91,7 +91,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeInterface.ClothingAssetBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeInterface.ClothingAssetBase");
 		return ptr;
 	}
 
@@ -115,7 +115,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ClothingSystemRuntimeInterface.ClothPhysicalMeshDataBase_Legacy"));
+		static auto ptr = UObject::FindObject<UClass>("Class ClothingSystemRuntimeInterface.ClothPhysicalMeshDataBase_Legacy");
 		return ptr;
 	}
 

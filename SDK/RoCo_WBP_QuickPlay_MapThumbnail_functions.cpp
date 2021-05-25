@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_QuickPlay_MapThumbnail_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_MapThumbnail.WBP_QuickPlay_MapThumbnail_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_MapThumbnail.WBP_QuickPlay_MapThumbnail_C.Construct");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_QuickPlay_MapThumbnail_C::Construct()
 
 void UWBP_QuickPlay_MapThumbnail_C::SetMapInfo(const struct FUIMapInfo& UIMapInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_MapThumbnail.WBP_QuickPlay_MapThumbnail_C.SetMapInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_MapThumbnail.WBP_QuickPlay_MapThumbnail_C.SetMapInfo");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_QuickPlay_MapThumbnail_C::SetMapInfo(const struct FUIMapInfo& UIMapInf
 
 void UWBP_QuickPlay_MapThumbnail_C::SetMapDetail(const struct FMapDetail& MapDetail)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_MapThumbnail.WBP_QuickPlay_MapThumbnail_C.SetMapDetail"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_MapThumbnail.WBP_QuickPlay_MapThumbnail_C.SetMapDetail");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_QuickPlay_MapThumbnail_C::SetMapDetail(const struct FMapDetail& MapDet
 
 void UWBP_QuickPlay_MapThumbnail_C::ExecuteUbergraph_WBP_QuickPlay_MapThumbnail(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_MapThumbnail.WBP_QuickPlay_MapThumbnail_C.ExecuteUbergraph_WBP_QuickPlay_MapThumbnail"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_MapThumbnail.WBP_QuickPlay_MapThumbnail_C.ExecuteUbergraph_WBP_QuickPlay_MapThumbnail");
 
 	struct
 	{

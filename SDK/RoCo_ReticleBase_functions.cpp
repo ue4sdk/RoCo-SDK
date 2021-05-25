@@ -20,7 +20,7 @@ namespace SDK
 
 void UReticleBase_C::GetAmmoState(class UKSWeaponComponent* NewParam, EAmmoState* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticleBase.ReticleBase_C.GetAmmoState"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReticleBase.ReticleBase_C.GetAmmoState");
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UReticleBase_C::GetAmmoState(class UKSWeaponComponent* NewParam, EAmmoState
 
 void UReticleBase_C::HitConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticleBase.ReticleBase_C.HitConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReticleBase.ReticleBase_C.HitConfirm");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UReticleBase_C::HitConfirm()
 
 void UReticleBase_C::ForceADS(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticleBase.ReticleBase_C.ForceADS"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReticleBase.ReticleBase_C.ForceADS");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UReticleBase_C::ForceADS(bool Active)
 
 void UReticleBase_C::GrenadeCook(bool Active, float TickPeriod)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticleBase.ReticleBase_C.GrenadeCook"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReticleBase.ReticleBase_C.GrenadeCook");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UReticleBase_C::GrenadeCook(bool Active, float TickPeriod)
 
 void UReticleBase_C::ChangeADS(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticleBase.ReticleBase_C.ChangeADS"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReticleBase.ReticleBase_C.ChangeADS");
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UReticleBase_C::ChangeADS(bool Active)
 
 void UReticleBase_C::KillConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticleBase.ReticleBase_C.KillConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReticleBase.ReticleBase_C.KillConfirm");
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UReticleBase_C::KillConfirm()
 
 void UReticleBase_C::Headshot()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticleBase.ReticleBase_C.Headshot"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReticleBase.ReticleBase_C.Headshot");
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UReticleBase_C::Headshot()
 
 void UReticleBase_C::UpdateOffset(float Offset)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReticleBase.ReticleBase_C.UpdateOffset"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReticleBase.ReticleBase_C.UpdateOffset");
 
 	struct
 	{

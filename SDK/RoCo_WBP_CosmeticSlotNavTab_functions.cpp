@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_CosmeticSlotNavTab_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticSlotNavTab.WBP_CosmeticSlotNavTab_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticSlotNavTab.WBP_CosmeticSlotNavTab_C.Construct");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_CosmeticSlotNavTab_C::Construct()
 
 void UWBP_CosmeticSlotNavTab_C::ExecuteUbergraph_WBP_CosmeticSlotNavTab(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticSlotNavTab.WBP_CosmeticSlotNavTab_C.ExecuteUbergraph_WBP_CosmeticSlotNavTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticSlotNavTab.WBP_CosmeticSlotNavTab_C.ExecuteUbergraph_WBP_CosmeticSlotNavTab");
 
 	struct
 	{

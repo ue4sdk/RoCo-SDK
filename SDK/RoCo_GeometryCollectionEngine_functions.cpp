@@ -20,7 +20,7 @@ namespace SDK
 
 void UChaosDestructionListener::SortTrailingEvents(EChaosTrailingSortMethod SortMethod, TArray<struct FChaosTrailingEventData>* TrailingEvents)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.SortTrailingEvents"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.SortTrailingEvents");
 
 	struct
 	{
@@ -45,7 +45,7 @@ void UChaosDestructionListener::SortTrailingEvents(EChaosTrailingSortMethod Sort
 
 void UChaosDestructionListener::SortCollisionEvents(EChaosCollisionSortMethod SortMethod, TArray<struct FChaosCollisionEventData>* CollisionEvents)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.SortCollisionEvents"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.SortCollisionEvents");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UChaosDestructionListener::SortCollisionEvents(EChaosCollisionSortMethod So
 
 void UChaosDestructionListener::SortBreakingEvents(EChaosBreakingSortMethod SortMethod, TArray<struct FChaosBreakingEventData>* BreakingEvents)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.SortBreakingEvents"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.SortBreakingEvents");
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UChaosDestructionListener::SortBreakingEvents(EChaosBreakingSortMethod Sort
 
 void UChaosDestructionListener::SetTrailingEventRequestSettings(const struct FChaosTrailingEventRequestSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.SetTrailingEventRequestSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.SetTrailingEventRequestSettings");
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UChaosDestructionListener::SetTrailingEventRequestSettings(const struct FCh
 
 void UChaosDestructionListener::SetTrailingEventEnabled(bool bIsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.SetTrailingEventEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.SetTrailingEventEnabled");
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UChaosDestructionListener::SetTrailingEventEnabled(bool bIsEnabled)
 
 void UChaosDestructionListener::SetCollisionEventRequestSettings(const struct FChaosCollisionEventRequestSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.SetCollisionEventRequestSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.SetCollisionEventRequestSettings");
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UChaosDestructionListener::SetCollisionEventRequestSettings(const struct FC
 
 void UChaosDestructionListener::SetCollisionEventEnabled(bool bIsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.SetCollisionEventEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.SetCollisionEventEnabled");
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UChaosDestructionListener::SetCollisionEventEnabled(bool bIsEnabled)
 
 void UChaosDestructionListener::SetBreakingEventRequestSettings(const struct FChaosBreakingEventRequestSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.SetBreakingEventRequestSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.SetBreakingEventRequestSettings");
 
 	struct
 	{
@@ -194,7 +194,7 @@ void UChaosDestructionListener::SetBreakingEventRequestSettings(const struct FCh
 
 void UChaosDestructionListener::SetBreakingEventEnabled(bool bIsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.SetBreakingEventEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.SetBreakingEventEnabled");
 
 	struct
 	{
@@ -214,7 +214,7 @@ void UChaosDestructionListener::SetBreakingEventEnabled(bool bIsEnabled)
 
 void UChaosDestructionListener::RemoveGeometryCollectionActor(class AGeometryCollectionActor* GeometryCollectionActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.RemoveGeometryCollectionActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.RemoveGeometryCollectionActor");
 
 	struct
 	{
@@ -234,7 +234,7 @@ void UChaosDestructionListener::RemoveGeometryCollectionActor(class AGeometryCol
 
 void UChaosDestructionListener::RemoveChaosSolverActor(class AChaosSolverActor* ChaosSolverActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.RemoveChaosSolverActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.RemoveChaosSolverActor");
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UChaosDestructionListener::RemoveChaosSolverActor(class AChaosSolverActor* 
 
 bool UChaosDestructionListener::IsEventListening()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.IsEventListening"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.IsEventListening");
 
 	struct
 	{
@@ -275,7 +275,7 @@ bool UChaosDestructionListener::IsEventListening()
 
 void UChaosDestructionListener::AddGeometryCollectionActor(class AGeometryCollectionActor* GeometryCollectionActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.AddGeometryCollectionActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.AddGeometryCollectionActor");
 
 	struct
 	{
@@ -295,7 +295,7 @@ void UChaosDestructionListener::AddGeometryCollectionActor(class AGeometryCollec
 
 void UChaosDestructionListener::AddChaosSolverActor(class AChaosSolverActor* ChaosSolverActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.ChaosDestructionListener.AddChaosSolverActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.ChaosDestructionListener.AddChaosSolverActor");
 
 	struct
 	{
@@ -318,7 +318,7 @@ void UChaosDestructionListener::AddChaosSolverActor(class AChaosSolverActor* Cha
 
 bool AGeometryCollectionActor::RaycastSingle(const struct FVector& start, const struct FVector& end, struct FHitResult* OutHit)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.GeometryCollectionActor.RaycastSingle"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.GeometryCollectionActor.RaycastSingle");
 
 	struct
 	{
@@ -347,7 +347,7 @@ bool AGeometryCollectionActor::RaycastSingle(const struct FVector& start, const 
 
 void UGeometryCollectionComponent::SetNotifyBreaks(bool bNewNotifyBreaks)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.GeometryCollectionComponent.SetNotifyBreaks"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.GeometryCollectionComponent.SetNotifyBreaks");
 
 	struct
 	{
@@ -367,7 +367,7 @@ void UGeometryCollectionComponent::SetNotifyBreaks(bool bNewNotifyBreaks)
 
 void UGeometryCollectionComponent::ReceivePhysicsCollision(const struct FChaosPhysicsCollisionInfo& CollisionInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.GeometryCollectionComponent.ReceivePhysicsCollision"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.GeometryCollectionComponent.ReceivePhysicsCollision");
 
 	struct
 	{
@@ -387,7 +387,7 @@ void UGeometryCollectionComponent::ReceivePhysicsCollision(const struct FChaosPh
 
 void UGeometryCollectionComponent::NotifyGeometryCollectionPhysicsStateChange__DelegateSignature(class UGeometryCollectionComponent* FracturedComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction GeometryCollectionEngine.GeometryCollectionComponent.NotifyGeometryCollectionPhysicsStateChange__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction GeometryCollectionEngine.GeometryCollectionComponent.NotifyGeometryCollectionPhysicsStateChange__DelegateSignature");
 
 	struct
 	{
@@ -407,7 +407,7 @@ void UGeometryCollectionComponent::NotifyGeometryCollectionPhysicsStateChange__D
 
 void UGeometryCollectionComponent::NotifyGeometryCollectionPhysicsLoadingStateChange__DelegateSignature(class UGeometryCollectionComponent* FracturedComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction GeometryCollectionEngine.GeometryCollectionComponent.NotifyGeometryCollectionPhysicsLoadingStateChange__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction GeometryCollectionEngine.GeometryCollectionComponent.NotifyGeometryCollectionPhysicsLoadingStateChange__DelegateSignature");
 
 	struct
 	{
@@ -430,7 +430,7 @@ void UGeometryCollectionComponent::NotifyGeometryCollectionPhysicsLoadingStateCh
 
 void UGeometryCollectionComponent::ApplyPhysicsField(bool Enabled, EGeometryCollectionPhysicsTypeEnum Target, class UFieldSystemMetaData* MetaData, class UFieldNodeBase* Field)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyPhysicsField"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyPhysicsField");
 
 	struct
 	{
@@ -457,7 +457,7 @@ void UGeometryCollectionComponent::ApplyPhysicsField(bool Enabled, EGeometryColl
 
 void UGeometryCollectionComponent::ApplyKinematicField(float Radius, const struct FVector& Position)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyKinematicField"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.GeometryCollectionComponent.ApplyKinematicField");
 
 	struct
 	{
@@ -479,7 +479,7 @@ void UGeometryCollectionComponent::ApplyKinematicField(float Radius, const struc
 
 void USkeletalMeshSimulationComponent::ReceivePhysicsCollision(const struct FChaosPhysicsCollisionInfo& CollisionInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.SkeletalMeshSimulationComponent.ReceivePhysicsCollision"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.SkeletalMeshSimulationComponent.ReceivePhysicsCollision");
 
 	struct
 	{
@@ -499,7 +499,7 @@ void USkeletalMeshSimulationComponent::ReceivePhysicsCollision(const struct FCha
 
 void UStaticMeshSimulationComponent::ReceivePhysicsCollision(const struct FChaosPhysicsCollisionInfo& CollisionInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.StaticMeshSimulationComponent.ReceivePhysicsCollision"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.StaticMeshSimulationComponent.ReceivePhysicsCollision");
 
 	struct
 	{
@@ -517,7 +517,7 @@ void UStaticMeshSimulationComponent::ReceivePhysicsCollision(const struct FChaos
 
 void UStaticMeshSimulationComponent::ForceRecreatePhysicsState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GeometryCollectionEngine.StaticMeshSimulationComponent.ForceRecreatePhysicsState"));
+	static auto fn = UObject::FindObject<UFunction>("Function GeometryCollectionEngine.StaticMeshSimulationComponent.ForceRecreatePhysicsState");
 
 	struct
 	{

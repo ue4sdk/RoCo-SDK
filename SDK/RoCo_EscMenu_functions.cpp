@@ -17,7 +17,7 @@ namespace SDK
 
 void UEscMenu_C::ClearVoteInput()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.ClearVoteInput"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.ClearVoteInput");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UEscMenu_C::ClearVoteInput()
 
 void UEscMenu_C::ToggleGameHUDLayers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.ToggleGameHUDLayers"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.ToggleGameHUDLayers");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UEscMenu_C::ToggleGameHUDLayers()
 
 bool UEscMenu_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.NavigateBack");
 
 	struct
 	{
@@ -72,7 +72,7 @@ bool UEscMenu_C::NavigateBack()
 
 void UEscMenu_C::BndEvt__QuitButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.BndEvt__QuitButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.BndEvt__QuitButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UEscMenu_C::BndEvt__QuitButton_K2Node_ComponentBoundEvent_0_OnClicked__Dele
 
 void UEscMenu_C::BndEvt__OptionsButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.BndEvt__OptionsButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.BndEvt__OptionsButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -112,7 +112,7 @@ void UEscMenu_C::BndEvt__OptionsButton_K2Node_ComponentBoundEvent_1_OnClicked__D
 
 void UEscMenu_C::BndEvt__ResumeButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.BndEvt__ResumeButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.BndEvt__ResumeButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UEscMenu_C::BndEvt__ResumeButton_K2Node_ComponentBoundEvent_2_OnClicked__De
 
 void UEscMenu_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UEscMenu_C::InitializeWidgetNavigation()
 
 void UEscMenu_C::BndEvt__ReturnButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.BndEvt__ReturnButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.BndEvt__ReturnButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UEscMenu_C::BndEvt__ReturnButton_K2Node_ComponentBoundEvent_0_OnClicked__De
 
 void UEscMenu_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.InitializeWidgetButtonListeners"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.InitializeWidgetButtonListeners");
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UEscMenu_C::InitializeWidgetButtonListeners()
 
 void UEscMenu_C::Handle_Menu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.Handle Menu"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.Handle Menu");
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UEscMenu_C::Handle_Menu()
 
 void UEscMenu_C::BndEvt__ToggleHUDLayers_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.BndEvt__ToggleHUDLayers_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.BndEvt__ToggleHUDLayers_K2Node_ComponentBoundEvent_3_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UEscMenu_C::BndEvt__ToggleHUDLayers_K2Node_ComponentBoundEvent_3_OnClicked_
 
 void UEscMenu_C::OpenTextChatGamepad()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.OpenTextChatGamepad"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.OpenTextChatGamepad");
 
 	struct
 	{
@@ -234,7 +234,7 @@ void UEscMenu_C::OpenTextChatGamepad()
 
 void UEscMenu_C::OpenTextChatForCommand()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.OpenTextChatForCommand"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.OpenTextChatForCommand");
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UEscMenu_C::OpenTextChatForCommand()
 
 void UEscMenu_C::OpenTextChat()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.OpenTextChat"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.OpenTextChat");
 
 	struct
 	{
@@ -266,7 +266,7 @@ void UEscMenu_C::OpenTextChat()
 
 void UEscMenu_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.OnShown");
 
 	struct
 	{
@@ -282,7 +282,7 @@ void UEscMenu_C::OnShown()
 
 void UEscMenu_C::RefreshLeaveOptions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.RefreshLeaveOptions"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.RefreshLeaveOptions");
 
 	struct
 	{
@@ -300,7 +300,7 @@ void UEscMenu_C::RefreshLeaveOptions()
 
 void UEscMenu_C::BndEvt__SurrenderButton_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.BndEvt__SurrenderButton_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.BndEvt__SurrenderButton_K2Node_ComponentBoundEvent_4_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -318,7 +318,7 @@ void UEscMenu_C::BndEvt__SurrenderButton_K2Node_ComponentBoundEvent_4_OnClicked_
 
 void UEscMenu_C::SetupSurrernderButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.SetupSurrernderButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.SetupSurrernderButton");
 
 	struct
 	{
@@ -336,7 +336,7 @@ void UEscMenu_C::SetupSurrernderButton()
 
 void UEscMenu_C::Change_Surrender_Button(bool bCanTeamSurrender)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.Change Surrender Button"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.Change Surrender Button");
 
 	struct
 	{
@@ -356,7 +356,7 @@ void UEscMenu_C::Change_Surrender_Button(bool bCanTeamSurrender)
 
 void UEscMenu_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.InitializeWidget");
 
 	struct
 	{
@@ -374,7 +374,7 @@ void UEscMenu_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UEscMenu_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.OnHide");
 
 	struct
 	{
@@ -392,7 +392,7 @@ void UEscMenu_C::OnHide()
 
 void UEscMenu_C::BndEvt__ReportServerButton_K2Node_ComponentBoundEvent_5_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.BndEvt__ReportServerButton_K2Node_ComponentBoundEvent_5_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.BndEvt__ReportServerButton_K2Node_ComponentBoundEvent_5_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -412,7 +412,7 @@ void UEscMenu_C::BndEvt__ReportServerButton_K2Node_ComponentBoundEvent_5_OnClick
 
 void UEscMenu_C::ExecuteUbergraph_EscMenu(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EscMenu.EscMenu_C.ExecuteUbergraph_EscMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.ExecuteUbergraph_EscMenu");
 
 	struct
 	{

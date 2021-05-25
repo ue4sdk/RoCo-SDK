@@ -17,7 +17,7 @@ namespace SDK
 
 void ADroppedMagazine_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DroppedMagazine.DroppedMagazine_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function DroppedMagazine.DroppedMagazine_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void ADroppedMagazine_C::ReceiveBeginPlay()
 
 void ADroppedMagazine_C::SetMesh(class USkeletalMesh* NewSkelMesh, class UStaticMesh* NewStaticMesh)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DroppedMagazine.DroppedMagazine_C.SetMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function DroppedMagazine.DroppedMagazine_C.SetMesh");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void ADroppedMagazine_C::SetMesh(class USkeletalMesh* NewSkelMesh, class UStatic
 
 void ADroppedMagazine_C::SetVelocity(const struct FVector& Velocity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DroppedMagazine.DroppedMagazine_C.SetVelocity"));
+	static auto fn = UObject::FindObject<UFunction>("Function DroppedMagazine.DroppedMagazine_C.SetVelocity");
 
 	struct
 	{
@@ -78,7 +78,7 @@ void ADroppedMagazine_C::SetVelocity(const struct FVector& Velocity)
 
 void ADroppedMagazine_C::ExecuteUbergraph_DroppedMagazine(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DroppedMagazine.DroppedMagazine_C.ExecuteUbergraph_DroppedMagazine"));
+	static auto fn = UObject::FindObject<UFunction>("Function DroppedMagazine.DroppedMagazine_C.ExecuteUbergraph_DroppedMagazine");
 
 	struct
 	{

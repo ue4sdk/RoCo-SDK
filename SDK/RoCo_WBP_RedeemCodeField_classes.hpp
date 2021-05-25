@@ -26,7 +26,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_RedeemCodeField.WBP_RedeemCodeField_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_RedeemCodeField.WBP_RedeemCodeField_C");
 		return ptr;
 	}
 

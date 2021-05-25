@@ -19,7 +19,7 @@ namespace SDK
 
 void UAnimSharingStateInstance::GetInstancedActors(TArray<class AActor*>* Actors)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationSharing.AnimSharingStateInstance.GetInstancedActors"));
+	static auto fn = UObject::FindObject<UFunction>("Function AnimationSharing.AnimSharingStateInstance.GetInstancedActors");
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UAnimSharingStateInstance::GetInstancedActors(TArray<class AActor*>* Actors
 
 void UAnimationSharingManager::RegisterActorWithSkeletonBP(class AActor* InActor, class USkeleton* SharingSkeleton)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationSharing.AnimationSharingManager.RegisterActorWithSkeletonBP"));
+	static auto fn = UObject::FindObject<UFunction>("Function AnimationSharing.AnimationSharingManager.RegisterActorWithSkeletonBP");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UAnimationSharingManager::RegisterActorWithSkeletonBP(class AActor* InActor
 
 class UAnimationSharingManager* UAnimationSharingManager::GetAnimationSharingManager(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationSharing.AnimationSharingManager.GetAnimationSharingManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function AnimationSharing.AnimationSharingManager.GetAnimationSharingManager");
 
 	struct
 	{
@@ -91,7 +91,7 @@ class UAnimationSharingManager* UAnimationSharingManager::GetAnimationSharingMan
 
 bool UAnimationSharingManager::CreateAnimationSharingManager(class UObject* WorldContextObject, class UAnimationSharingSetup* Setup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationSharing.AnimationSharingManager.CreateAnimationSharingManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function AnimationSharing.AnimationSharingManager.CreateAnimationSharingManager");
 
 	struct
 	{
@@ -117,7 +117,7 @@ bool UAnimationSharingManager::CreateAnimationSharingManager(class UObject* Worl
 
 bool UAnimationSharingManager::AnimationSharingEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationSharing.AnimationSharingManager.AnimationSharingEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function AnimationSharing.AnimationSharingManager.AnimationSharingEnabled");
 
 	struct
 	{
@@ -143,7 +143,7 @@ bool UAnimationSharingManager::AnimationSharingEnabled()
 
 void UAnimationSharingStateProcessor::ProcessActorState(class AActor* InActor, unsigned char CurrentState, unsigned char OnDemandState, int* OutState, bool* bShouldProcess)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationSharing.AnimationSharingStateProcessor.ProcessActorState"));
+	static auto fn = UObject::FindObject<UFunction>("Function AnimationSharing.AnimationSharingStateProcessor.ProcessActorState");
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UAnimationSharingStateProcessor::ProcessActorState(class AActor* InActor, u
 
 class UEnum* UAnimationSharingStateProcessor::GetAnimationStateEnum()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimationSharing.AnimationSharingStateProcessor.GetAnimationStateEnum"));
+	static auto fn = UObject::FindObject<UFunction>("Function AnimationSharing.AnimationSharingStateProcessor.GetAnimationStateEnum");
 
 	struct
 	{

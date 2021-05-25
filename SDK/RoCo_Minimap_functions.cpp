@@ -17,7 +17,7 @@ namespace SDK
 
 void UMinimap_C::UpdateFlashBang()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.UpdateFlashBang"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.UpdateFlashBang");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UMinimap_C::UpdateFlashBang()
 
 void UMinimap_C::TickVisibility(float bpp__DeltaTime__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.TickVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.TickVisibility");
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UMinimap_C::TickVisibility(float bpp__DeltaTime__pf)
 
 void UMinimap_C::Tick(const struct FGeometry& bpp__MyGeometry__pf, float bpp__InDeltaTime__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.Tick");
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UMinimap_C::Tick(const struct FGeometry& bpp__MyGeometry__pf, float bpp__In
 
 void UMinimap_C::SetScrambleTexture()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.SetScrambleTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.SetScrambleTexture");
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UMinimap_C::SetScrambleTexture()
 
 void UMinimap_C::SetRoyaleMode(bool bpp__IsRoyaleMode__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.SetRoyaleMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.SetRoyaleMode");
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UMinimap_C::SetRoyaleMode(bool bpp__IsRoyaleMode__pf)
 
 void UMinimap_C::OnScrambleStateChanged(bool bpp__Scrambled__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.OnScrambleStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.OnScrambleStateChanged");
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UMinimap_C::OnScrambleStateChanged(bool bpp__Scrambled__pf)
 
 void UMinimap_C::OnRoyaleRoundStart(const struct FRoundInitState& bpp__RoundInitState__pf__const)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.OnRoyaleRoundStart"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.OnRoyaleRoundStart");
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UMinimap_C::OnRoyaleRoundStart(const struct FRoundInitState& bpp__RoundInit
 
 void UMinimap_C::OnLoaded_DB612B4F430AF7AB8BD23B968AE6C16E(class UObject* bpp__Loaded__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.OnLoaded_DB612B4F430AF7AB8BD23B968AE6C16E"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.OnLoaded_DB612B4F430AF7AB8BD23B968AE6C16E");
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UMinimap_C::OnLoaded_DB612B4F430AF7AB8BD23B968AE6C16E(class UObject* bpp__L
 
 void UMinimap_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.OnInitialized");
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UMinimap_C::OnInitialized()
 
 void UMinimap_C::Handle_Royale_Zone_Wait(float bpp__TimeUntilShrink__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.Handle Royale Zone Wait"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.Handle Royale Zone Wait");
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UMinimap_C::Handle_Royale_Zone_Wait(float bpp__TimeUntilShrink__pf)
 
 void UMinimap_C::GetTransformInfo(float* bpp__NormalizedX__pf, float* bpp__NormalizedY__pf, float* bpp__Rotation__pf, float* bpp__Scale__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.GetTransformInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.GetTransformInfo");
 
 	struct
 	{
@@ -242,7 +242,7 @@ void UMinimap_C::GetTransformInfo(float* bpp__NormalizedX__pf, float* bpp__Norma
 
 void UMinimap_C::GetMapTexture()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.GetMapTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.GetMapTexture");
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UMinimap_C::GetMapTexture()
 
 void UMinimap_C::FindMinimapRenderer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.FindMinimapRenderer"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.FindMinimapRenderer");
 
 	struct
 	{
@@ -276,7 +276,7 @@ void UMinimap_C::FindMinimapRenderer()
 
 void UMinimap_C::ExecuteUbergraph_Minimap_2(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.ExecuteUbergraph_Minimap_2"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.ExecuteUbergraph_Minimap_2");
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UMinimap_C::ExecuteUbergraph_Minimap_2(int bpp__EntryPoint__pf)
 
 void UMinimap_C::EvaluateRelativeHeight(const struct FVector& bpp__SubjectxLocation__pfT, EMiniMapRelativeHeight* bpp__RelativeHeight__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.EvaluateRelativeHeight"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.EvaluateRelativeHeight");
 
 	struct
 	{
@@ -322,7 +322,7 @@ void UMinimap_C::EvaluateRelativeHeight(const struct FVector& bpp__SubjectxLocat
 
 void UMinimap_C::EvaluateIconPosition(const struct FVector& bpp__SubjectLocation__pf, class UUserWidget* bpp__Icon__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.EvaluateIconPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.EvaluateIconPosition");
 
 	struct
 	{
@@ -352,7 +352,7 @@ void UMinimap_C::EvaluateIconPosition(const struct FVector& bpp__SubjectLocation
 
 class UKSMapIconWidgetBase* UMinimap_C::CreateNewIconWidget(class UClass* bpp__WidgetClass__pf, int bpp__UniqueId__pf, class AKSPlayerState* bpp__CreatingPlayer__pf, EDisplayType bpp__ParentMapDisplayType__pf, class AActor* bpp__AssociatedActor__pf, class UObject* bpp__AssociatedObject__pf, const struct FVector& bpp__DefaultLocation__pf, float bpp__Lifespan__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.CreateNewIconWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.CreateNewIconWidget");
 
 	struct
 	{
@@ -387,7 +387,7 @@ class UKSMapIconWidgetBase* UMinimap_C::CreateNewIconWidget(class UClass* bpp__W
 
 void UMinimap_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.Construct");
 
 	struct
 	{
@@ -405,7 +405,7 @@ void UMinimap_C::Construct()
 
 void UMinimap_C::CanShowMinimap(bool* bpp__CanShow__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Minimap.Minimap_C.CanShowMinimap"));
+	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.CanShowMinimap");
 
 	struct
 	{
@@ -427,7 +427,7 @@ void UMinimap_C::CanShowMinimap(bool* bpp__CanShow__pf)
 
 void UMinimap_C::OnRoyaleZoneWait__DelegateSignature(float bpp__TimeUntilShrink__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction Minimap.Minimap_C.OnRoyaleZoneWait__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction Minimap.Minimap_C.OnRoyaleZoneWait__DelegateSignature");
 
 	struct
 	{
@@ -447,7 +447,7 @@ void UMinimap_C::OnRoyaleZoneWait__DelegateSignature(float bpp__TimeUntilShrink_
 
 void UMinimap_C::OnRoundStart__DelegateSignature(const struct FRoundInitState& bpp__RoundInitState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction Minimap.Minimap_C.OnRoundStart__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction Minimap.Minimap_C.OnRoundStart__DelegateSignature");
 
 	struct
 	{

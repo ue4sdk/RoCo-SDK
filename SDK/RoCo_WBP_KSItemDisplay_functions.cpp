@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_KSItemDisplay_C::OnButtonHovered(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnButtonHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnButtonHovered");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_KSItemDisplay_C::OnButtonHovered(bool IsGamepad)
 
 void UWBP_KSItemDisplay_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnHoverSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnHoverSound");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_KSItemDisplay_C::OnHoverSound()
 
 void UWBP_KSItemDisplay_C::PopulateSlot(class UKSItem* KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.PopulateSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.PopulateSlot");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_KSItemDisplay_C::PopulateSlot(class UKSItem* KSItem)
 
 void UWBP_KSItemDisplay_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.GamepadHover");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_KSItemDisplay_C::GamepadHover()
 
 void UWBP_KSItemDisplay_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.GamepadUnhover");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UWBP_KSItemDisplay_C::GamepadUnhover()
 
 void UWBP_KSItemDisplay_C::BndEvt__Button_111_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.BndEvt__Button_111_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.BndEvt__Button_111_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_KSItemDisplay_C::BndEvt__Button_111_K2Node_ComponentBoundEvent_0_OnBut
 
 void UWBP_KSItemDisplay_C::BndEvt__Button_111_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.BndEvt__Button_111_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.BndEvt__Button_111_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_KSItemDisplay_C::BndEvt__Button_111_K2Node_ComponentBoundEvent_1_OnBut
 
 void UWBP_KSItemDisplay_C::SetIsActiveState(bool bIsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.SetIsActiveState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.SetIsActiveState");
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWBP_KSItemDisplay_C::SetIsActiveState(bool bIsActive)
 
 void UWBP_KSItemDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_KSItemDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButt
 
 void UWBP_KSItemDisplay_C::ExecuteUbergraph_WBP_KSItemDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.ExecuteUbergraph_WBP_KSItemDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.ExecuteUbergraph_WBP_KSItemDisplay");
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UWBP_KSItemDisplay_C::ExecuteUbergraph_WBP_KSItemDisplay(int EntryPoint)
 
 void UWBP_KSItemDisplay_C::OnClick__DelegateSignature(class UKSItem* PerkItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnClick__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnClick__DelegateSignature");
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UWBP_KSItemDisplay_C::OnClick__DelegateSignature(class UKSItem* PerkItem)
 
 void UWBP_KSItemDisplay_C::OnUnhover__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnUnhover__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnUnhover__DelegateSignature");
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UWBP_KSItemDisplay_C::OnUnhover__DelegateSignature()
 
 void UWBP_KSItemDisplay_C::OnHover__DelegateSignature(class UKSItem* KSItem, bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnHover__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KSItemDisplay.WBP_KSItemDisplay_C.OnHover__DelegateSignature");
 
 	struct
 	{

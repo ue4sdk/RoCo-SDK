@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Qos.QosBeaconClient"));
+		static auto ptr = UObject::FindObject<UClass>("Class Qos.QosBeaconClient");
 		return ptr;
 	}
 
@@ -42,7 +42,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Qos.QosBeaconHost"));
+		static auto ptr = UObject::FindObject<UClass>("Class Qos.QosBeaconHost");
 		return ptr;
 	}
 
@@ -63,7 +63,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Qos.QosEvaluator"));
+		static auto ptr = UObject::FindObject<UClass>("Class Qos.QosEvaluator");
 		return ptr;
 	}
 
@@ -92,7 +92,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Qos.QosRegionManager"));
+		static auto ptr = UObject::FindObject<UClass>("Class Qos.QosRegionManager");
 		return ptr;
 	}
 

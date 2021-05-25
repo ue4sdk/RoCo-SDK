@@ -21,7 +21,7 @@ namespace SDK
 
 struct FString UDatasmithContentBlueprintLibrary::GetDatasmithUserDataValueForKey(class UObject* Object, const struct FName& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataValueForKey"));
+	static auto fn = UObject::FindObject<UFunction>("Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataValueForKey");
 
 	struct
 	{
@@ -50,7 +50,7 @@ struct FString UDatasmithContentBlueprintLibrary::GetDatasmithUserDataValueForKe
 
 void UDatasmithContentBlueprintLibrary::GetDatasmithUserDataKeysAndValuesForValue(class UObject* Object, const struct FString& StringToMatch, TArray<struct FName>* OutKeys, TArray<struct FString>* OutValues)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataKeysAndValuesForValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserDataKeysAndValuesForValue");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UDatasmithContentBlueprintLibrary::GetDatasmithUserDataKeysAndValuesForValu
 
 class UDatasmithAssetUserData* UDatasmithContentBlueprintLibrary::GetDatasmithUserData(class UObject* Object)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserData"));
+	static auto fn = UObject::FindObject<UFunction>("Function DatasmithContent.DatasmithContentBlueprintLibrary.GetDatasmithUserData");
 
 	struct
 	{
@@ -105,7 +105,7 @@ class UDatasmithAssetUserData* UDatasmithContentBlueprintLibrary::GetDatasmithUs
 
 void ADatasmithImportedSequencesActor::PlayLevelSequence(class ULevelSequence* SequenceToPlay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DatasmithContent.DatasmithImportedSequencesActor.PlayLevelSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function DatasmithContent.DatasmithImportedSequencesActor.PlayLevelSequence");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_SettingsGroup_C::Add_Sub_Settings_Widget(class UKSSettingsContainer* Settings_Container)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsGroup.WBP_SettingsGroup_C.Add Sub Settings Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsGroup.WBP_SettingsGroup_C.Add Sub Settings Widget");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_SettingsGroup_C::Add_Sub_Settings_Widget(class UKSSettingsContainer* S
 
 void UWBP_SettingsGroup_C::Add_Main_Settings_Widget(class UKSSettingsContainer* Settings_Container)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsGroup.WBP_SettingsGroup_C.Add Main Settings Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsGroup.WBP_SettingsGroup_C.Add Main Settings Widget");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_SettingsGroup_C::Add_Main_Settings_Widget(class UKSSettingsContainer* 
 
 void UWBP_SettingsGroup_C::AddSettingsWidget(class UKSSettingsContainer* Settings_Container, class UVerticalBox* Vertical_Box)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsGroup.WBP_SettingsGroup_C.AddSettingsWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsGroup.WBP_SettingsGroup_C.AddSettingsWidget");
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWBP_SettingsGroup_C::AddSettingsWidget(class UKSSettingsContainer* Setting
 
 void UWBP_SettingsGroup_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsGroup.WBP_SettingsGroup_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsGroup.WBP_SettingsGroup_C.InitializeWidget");
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWBP_SettingsGroup_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_SettingsGroup_C::AddSubSettingsContainerWidget(class UKSSettingsContainer* SettingsContainer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsGroup.WBP_SettingsGroup_C.AddSubSettingsContainerWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsGroup.WBP_SettingsGroup_C.AddSubSettingsContainerWidget");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_SettingsGroup_C::AddSubSettingsContainerWidget(class UKSSettingsContai
 
 void UWBP_SettingsGroup_C::AddMainSettingsContainerWidget(class UKSSettingsContainer* SettingsContainer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsGroup.WBP_SettingsGroup_C.AddMainSettingsContainerWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsGroup.WBP_SettingsGroup_C.AddMainSettingsContainerWidget");
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_SettingsGroup_C::AddMainSettingsContainerWidget(class UKSSettingsConta
 
 void UWBP_SettingsGroup_C::ExecuteUbergraph_WBP_SettingsGroup(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsGroup.WBP_SettingsGroup_C.ExecuteUbergraph_WBP_SettingsGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsGroup.WBP_SettingsGroup_C.ExecuteUbergraph_WBP_SettingsGroup");
 
 	struct
 	{

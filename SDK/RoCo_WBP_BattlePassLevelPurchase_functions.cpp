@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_BattlePassLevelPurchase_C::DisplayUnlockTier(int Tier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.DisplayUnlockTier"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.DisplayUnlockTier");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_BattlePassLevelPurchase_C::DisplayUnlockTier(int Tier)
 
 void UWBP_BattlePassLevelPurchase_C::BndEvt__WBP_YellowButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.BndEvt__WBP_YellowButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.BndEvt__WBP_YellowButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_BattlePassLevelPurchase_C::BndEvt__WBP_YellowButton_K2Node_ComponentBo
 
 void UWBP_BattlePassLevelPurchase_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.InitializeWidget");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_BattlePassLevelPurchase_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlePassLevelPurchase_C::ExecuteUbergraph_WBP_BattlePassLevelPurchase(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.ExecuteUbergraph_WBP_BattlePassLevelPurchase"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.ExecuteUbergraph_WBP_BattlePassLevelPurchase");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_BattlePassLevelPurchase_C::ExecuteUbergraph_WBP_BattlePassLevelPurchas
 
 void UWBP_BattlePassLevelPurchase_C::OnButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.OnButtonClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelPurchase.WBP_BattlePassLevelPurchase_C.OnButtonClicked__DelegateSignature");
 
 	struct
 	{

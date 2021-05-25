@@ -35,7 +35,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass NewStartMenu.NewStartMenu_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass NewStartMenu.NewStartMenu_C");
 		return ptr;
 	}
 

@@ -17,7 +17,7 @@ namespace SDK
 
 void UCamMod_Master_C::OnCamModFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_Master.CamMod_Master_C.OnCamModFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_Master.CamMod_Master_C.OnCamModFinished");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UCamMod_Master_C::OnCamModFinished()
 
 void UCamMod_Master_C::PlayTimeline()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_Master.CamMod_Master_C.PlayTimeline"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_Master.CamMod_Master_C.PlayTimeline");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UCamMod_Master_C::PlayTimeline()
 
 void UCamMod_Master_C::ShouldModifyCamera(bool* bSuccess)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_Master.CamMod_Master_C.ShouldModifyCamera"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_Master.CamMod_Master_C.ShouldModifyCamera");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UCamMod_Master_C::ShouldModifyCamera(bool* bSuccess)
 
 void UCamMod_Master_C::UpdateValues(const struct FVector& InLocation, const struct FRotator& InRotation, float InFOV)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_Master.CamMod_Master_C.UpdateValues"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_Master.CamMod_Master_C.UpdateValues");
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UCamMod_Master_C::UpdateValues(const struct FVector& InLocation, const stru
 
 void UCamMod_Master_C::GetKSCharacterData(bool* Success, class AKSCharacter** KSCharacter, class UKSCharacterMovementComponent** MovementComponent, class AKSCameraManager_C** Camera_Manager)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_Master.CamMod_Master_C.GetKSCharacterData"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_Master.CamMod_Master_C.GetKSCharacterData");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UCamMod_Master_C::GetKSCharacterData(bool* Success, class AKSCharacter** KS
 
 void UCamMod_Master_C::BlueprintModifyCamera(float DeltaTime, const struct FVector& ViewLocation, const struct FRotator& ViewRotation, float FOV, struct FVector* NewViewLocation, struct FRotator* NewViewRotation, float* NewFOV)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_Master.CamMod_Master_C.BlueprintModifyCamera"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_Master.CamMod_Master_C.BlueprintModifyCamera");
 
 	struct
 	{

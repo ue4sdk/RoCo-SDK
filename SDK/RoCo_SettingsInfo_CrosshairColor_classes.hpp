@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass SettingsInfo_CrosshairColor.SettingsInfo_CrosshairColor_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass SettingsInfo_CrosshairColor.SettingsInfo_CrosshairColor_C");
 		return ptr;
 	}
 

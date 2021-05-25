@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_LoadoutTierButton_C::SetIsActive(bool ShowPrice, bool SetActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.SetIsActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.SetIsActive");
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_LoadoutTierButton_C::SetIsActive(bool ShowPrice, bool SetActive)
 
 void UWBP_LoadoutTierButton_C::SetTierPrice(const struct FText& PriceText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.SetTierPrice"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.SetTierPrice");
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_LoadoutTierButton_C::SetTierPrice(const struct FText& PriceText)
 
 void UWBP_LoadoutTierButton_C::Set_Button_Text(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.Set Button Text"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.Set Button Text");
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWBP_LoadoutTierButton_C::Set_Button_Text(const struct FText& Text)
 
 void UWBP_LoadoutTierButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.PreConstruct");
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UWBP_LoadoutTierButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_LoadoutTierButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.Construct");
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UWBP_LoadoutTierButton_C::Construct()
 
 void UWBP_LoadoutTierButton_C::BndEvt__TierButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.BndEvt__TierButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.BndEvt__TierButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_LoadoutTierButton_C::BndEvt__TierButton_K2Node_ComponentBoundEvent_0_O
 
 void UWBP_LoadoutTierButton_C::BndEvt__TierButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.BndEvt__TierButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.BndEvt__TierButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UWBP_LoadoutTierButton_C::BndEvt__TierButton_K2Node_ComponentBoundEvent_1_O
 
 void UWBP_LoadoutTierButton_C::BndEvt__TierButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.BndEvt__TierButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.BndEvt__TierButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UWBP_LoadoutTierButton_C::BndEvt__TierButton_K2Node_ComponentBoundEvent_2_O
 
 void UWBP_LoadoutTierButton_C::ExecuteUbergraph_WBP_LoadoutTierButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.ExecuteUbergraph_WBP_LoadoutTierButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.ExecuteUbergraph_WBP_LoadoutTierButton");
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_LoadoutTierButton_C::ExecuteUbergraph_WBP_LoadoutTierButton(int EntryP
 
 void UWBP_LoadoutTierButton_C::OnClick__DelegateSignature(int TierIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.OnClick__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.OnClick__DelegateSignature");
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_LoadoutTierButton_C::OnClick__DelegateSignature(int TierIndex)
 
 void UWBP_LoadoutTierButton_C::OnHover__DelegateSignature(int TierIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.OnHover__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LoadoutTierButton.WBP_LoadoutTierButton_C.OnHover__DelegateSignature");
 
 	struct
 	{

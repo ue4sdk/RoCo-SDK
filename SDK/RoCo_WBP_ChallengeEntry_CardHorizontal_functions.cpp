@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ChallengeEntry_CardHorizontal_C::DisplayFullCompletion()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.DisplayFullCompletion"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.DisplayFullCompletion");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::DisplayFullCompletion()
 
 void UWBP_ChallengeEntry_CardHorizontal_C::DisplayTemporaryCompletion()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.DisplayTemporaryCompletion"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.DisplayTemporaryCompletion");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::DisplayTemporaryCompletion()
 
 void UWBP_ChallengeEntry_CardHorizontal_C::SetDisplayedChallenge(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.SetDisplayedChallenge"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.SetDisplayedChallenge");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::SetDisplayedChallenge(class UKSActivi
 
 void UWBP_ChallengeEntry_CardHorizontal_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::BndEvt__HitTarget_K2Node_ComponentBou
 
 void UWBP_ChallengeEntry_CardHorizontal_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::BndEvt__HitTarget_K2Node_ComponentBou
 
 void UWBP_ChallengeEntry_CardHorizontal_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.GamepadHover");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::GamepadHover()
 
 void UWBP_ChallengeEntry_CardHorizontal_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.GamepadUnhover");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::GamepadUnhover()
 
 void UWBP_ChallengeEntry_CardHorizontal_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::BndEvt__HitTarget_K2Node_ComponentBou
 
 void UWBP_ChallengeEntry_CardHorizontal_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.OnClickSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.OnClickSound");
 
 	struct
 	{
@@ -165,7 +165,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::OnClickSound()
 
 void UWBP_ChallengeEntry_CardHorizontal_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.OnHoverSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.OnHoverSound");
 
 	struct
 	{
@@ -183,7 +183,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::OnHoverSound()
 
 void UWBP_ChallengeEntry_CardHorizontal_C::ExecuteUbergraph_WBP_ChallengeEntry_CardHorizontal(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.ExecuteUbergraph_WBP_ChallengeEntry_CardHorizontal"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.ExecuteUbergraph_WBP_ChallengeEntry_CardHorizontal");
 
 	struct
 	{
@@ -201,7 +201,7 @@ void UWBP_ChallengeEntry_CardHorizontal_C::ExecuteUbergraph_WBP_ChallengeEntry_C
 
 void UWBP_ChallengeEntry_CardHorizontal_C::OnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_CardHorizontal.WBP_ChallengeEntry_CardHorizontal_C.OnClicked__DelegateSignature");
 
 	struct
 	{

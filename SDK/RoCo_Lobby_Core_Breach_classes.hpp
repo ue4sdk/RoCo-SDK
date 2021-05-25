@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass Lobby_Core_Breach.Lobby_Core_Breach_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass Lobby_Core_Breach.Lobby_Core_Breach_C");
 		return ptr;
 	}
 

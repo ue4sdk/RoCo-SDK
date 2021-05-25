@@ -26,7 +26,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TemplateSequence.TemplateSequence"));
+		static auto ptr = UObject::FindObject<UClass>("Class TemplateSequence.TemplateSequence");
 		return ptr;
 	}
 
@@ -41,7 +41,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TemplateSequence.CameraAnimationSequence"));
+		static auto ptr = UObject::FindObject<UClass>("Class TemplateSequence.CameraAnimationSequence");
 		return ptr;
 	}
 
@@ -63,7 +63,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TemplateSequence.TemplateSequenceActor"));
+		static auto ptr = UObject::FindObject<UClass>("Class TemplateSequence.TemplateSequenceActor");
 		return ptr;
 	}
 
@@ -85,7 +85,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TemplateSequence.TemplateSequencePlayer"));
+		static auto ptr = UObject::FindObject<UClass>("Class TemplateSequence.TemplateSequencePlayer");
 		return ptr;
 	}
 
@@ -102,7 +102,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TemplateSequence.TemplateSequenceSection"));
+		static auto ptr = UObject::FindObject<UClass>("Class TemplateSequence.TemplateSequenceSection");
 		return ptr;
 	}
 
@@ -117,7 +117,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TemplateSequence.TemplateSequenceTrack"));
+		static auto ptr = UObject::FindObject<UClass>("Class TemplateSequence.TemplateSequenceTrack");
 		return ptr;
 	}
 

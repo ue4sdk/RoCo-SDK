@@ -17,7 +17,7 @@ namespace SDK
 
 void UBPI_Dropship_C::BPI_OpenDoor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BPI_Dropship.BPI_Dropship_C.BPI_OpenDoor"));
+	static auto fn = UObject::FindObject<UFunction>("Function BPI_Dropship.BPI_Dropship_C.BPI_OpenDoor");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UBPI_Dropship_C::BPI_OpenDoor()
 
 void UBPI_Dropship_C::BPI_SetupDoor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BPI_Dropship.BPI_Dropship_C.BPI_SetupDoor"));
+	static auto fn = UObject::FindObject<UFunction>("Function BPI_Dropship.BPI_Dropship_C.BPI_SetupDoor");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UBPI_Dropship_C::BPI_SetupDoor()
 
 void UBPI_Dropship_C::BPI_InitializePlane()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BPI_Dropship.BPI_Dropship_C.BPI_InitializePlane"));
+	static auto fn = UObject::FindObject<UFunction>("Function BPI_Dropship.BPI_Dropship_C.BPI_InitializePlane");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_InGameJobSelect_Base_C::OnTeamMemberAdded(class UKSPersistentPlayerData* NewMember)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnTeamMemberAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnTeamMemberAdded");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_InGameJobSelect_Base_C::OnTeamMemberAdded(class UKSPersistentPlayerDat
 
 void UWBP_InGameJobSelect_Base_C::OnSelectionActivityStatusChange(class UKSJobSelectionComponent* JobSelectionComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnSelectionActivityStatusChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnSelectionActivityStatusChange");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_InGameJobSelect_Base_C::OnSelectionActivityStatusChange(class UKSJobSe
 
 void UWBP_InGameJobSelect_Base_C::TryBindJobEntryChange()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.TryBindJobEntryChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.TryBindJobEntryChange");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_InGameJobSelect_Base_C::TryBindJobEntryChange()
 
 void UWBP_InGameJobSelect_Base_C::On_Job_Entry_Change(const struct FJobSelectionEntry& Entry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.On Job Entry Change"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.On Job Entry Change");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_InGameJobSelect_Base_C::On_Job_Entry_Change(const struct FJobSelection
 
 void UWBP_InGameJobSelect_Base_C::UpdateJobLockInButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.UpdateJobLockInButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.UpdateJobLockInButton");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_InGameJobSelect_Base_C::UpdateJobLockInButton()
 
 void UWBP_InGameJobSelect_Base_C::HandleTeamAdded(class AKSTeamState* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.HandleTeamAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.HandleTeamAdded");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_InGameJobSelect_Base_C::HandleTeamAdded(class AKSTeamState* Team)
 
 void UWBP_InGameJobSelect_Base_C::ClearPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.ClearPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.ClearPrompt");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_InGameJobSelect_Base_C::ClearPrompt()
 
 void UWBP_InGameJobSelect_Base_C::HandleScrollWidgetIntoView(class UKSWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.HandleScrollWidgetIntoView"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.HandleScrollWidgetIntoView");
 
 	struct
 	{
@@ -165,7 +165,7 @@ void UWBP_InGameJobSelect_Base_C::HandleScrollWidgetIntoView(class UKSWidget* Wi
 
 void UWBP_InGameJobSelect_Base_C::SetGamepadPrompts()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.SetGamepadPrompts"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.SetGamepadPrompts");
 
 	struct
 	{
@@ -181,7 +181,7 @@ void UWBP_InGameJobSelect_Base_C::SetGamepadPrompts()
 
 void UWBP_InGameJobSelect_Base_C::SetAttackDefendMessage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.SetAttackDefendMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.SetAttackDefendMessage");
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_InGameJobSelect_Base_C::SetAttackDefendMessage()
 
 void UWBP_InGameJobSelect_Base_C::HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.HandlePhaseChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.HandlePhaseChange");
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_InGameJobSelect_Base_C::HandlePhaseChange(const struct FName& NewPhase
 
 void UWBP_InGameJobSelect_Base_C::RestoreVisualState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.RestoreVisualState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.RestoreVisualState");
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UWBP_InGameJobSelect_Base_C::RestoreVisualState()
 
 void UWBP_InGameJobSelect_Base_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnInputStateChanged");
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UWBP_InGameJobSelect_Base_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_S
 
 void UWBP_InGameJobSelect_Base_C::SetHoverMessage(class UJobSelectionEntryDetails* JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.SetHoverMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.SetHoverMessage");
 
 	struct
 	{
@@ -279,7 +279,7 @@ void UWBP_InGameJobSelect_Base_C::SetHoverMessage(class UJobSelectionEntryDetail
 
 void UWBP_InGameJobSelect_Base_C::CanSelect(class UJobSelectionEntryDetails* JobSelectionEntry, bool* CanSelect)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.CanSelect"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.CanSelect");
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_InGameJobSelect_Base_C::CanSelect(class UJobSelectionEntryDetails* Job
 
 void UWBP_InGameJobSelect_Base_C::OnPlayerSelectionStateChanged(EPlayerSelectionState SelectionState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnPlayerSelectionStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnPlayerSelectionStateChanged");
 
 	struct
 	{
@@ -323,7 +323,7 @@ void UWBP_InGameJobSelect_Base_C::OnPlayerSelectionStateChanged(EPlayerSelection
 
 void UWBP_InGameJobSelect_Base_C::OnTimerTick(float NewTruncatedSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnTimerTick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnTimerTick");
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UWBP_InGameJobSelect_Base_C::OnTimerTick(float NewTruncatedSeconds)
 
 void UWBP_InGameJobSelect_Base_C::OnJobEntrySelected(class UJobSelectionEntryDetails* JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnJobEntrySelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnJobEntrySelected");
 
 	struct
 	{
@@ -364,7 +364,7 @@ void UWBP_InGameJobSelect_Base_C::OnJobEntrySelected(class UJobSelectionEntryDet
 
 void UWBP_InGameJobSelect_Base_C::Update_Job_Entry(class UJobSelectionEntryDetails* UpdatedJobEntry, bool EnemyTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.Update Job Entry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.Update Job Entry");
 
 	struct
 	{
@@ -384,7 +384,7 @@ void UWBP_InGameJobSelect_Base_C::Update_Job_Entry(class UJobSelectionEntryDetai
 
 void UWBP_InGameJobSelect_Base_C::ClearSelectedRogue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.ClearSelectedRogue"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.ClearSelectedRogue");
 
 	struct
 	{
@@ -402,7 +402,7 @@ void UWBP_InGameJobSelect_Base_C::ClearSelectedRogue()
 
 void UWBP_InGameJobSelect_Base_C::SetJobEntries(TArray<class UJobSelectionEntryDetails*>* JobEntries)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.SetJobEntries"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.SetJobEntries");
 
 	struct
 	{
@@ -424,7 +424,7 @@ void UWBP_InGameJobSelect_Base_C::SetJobEntries(TArray<class UJobSelectionEntryD
 
 void UWBP_InGameJobSelect_Base_C::OnCancelJobSelection__DelegateSignature(class UJobSelectionEntryDetails* JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnCancelJobSelection__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnCancelJobSelection__DelegateSignature");
 
 	struct
 	{
@@ -442,7 +442,7 @@ void UWBP_InGameJobSelect_Base_C::OnCancelJobSelection__DelegateSignature(class 
 
 void UWBP_InGameJobSelect_Base_C::OnViewJobLoadout__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnViewJobLoadout__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnViewJobLoadout__DelegateSignature");
 
 	struct
 	{
@@ -460,7 +460,7 @@ void UWBP_InGameJobSelect_Base_C::OnViewJobLoadout__DelegateSignature()
 
 void UWBP_InGameJobSelect_Base_C::OnLockInJob__DelegateSignature(bool IsBan)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnLockInJob__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnLockInJob__DelegateSignature");
 
 	struct
 	{
@@ -480,7 +480,7 @@ void UWBP_InGameJobSelect_Base_C::OnLockInJob__DelegateSignature(bool IsBan)
 
 void UWBP_InGameJobSelect_Base_C::OnJobSelected__DelegateSignature(class UJobSelectionEntryDetails* JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnJobSelected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnJobSelected__DelegateSignature");
 
 	struct
 	{
@@ -500,7 +500,7 @@ void UWBP_InGameJobSelect_Base_C::OnJobSelected__DelegateSignature(class UJobSel
 
 void UWBP_InGameJobSelect_Base_C::OnResetJobEntries__DelegateSignature(TArray<class UWBP_InGameJobSelect_JobEntry_C*>* JobEntryButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnResetJobEntries__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnResetJobEntries__DelegateSignature");
 
 	struct
 	{

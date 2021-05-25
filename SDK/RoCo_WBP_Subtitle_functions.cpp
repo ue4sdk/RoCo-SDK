@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Subtitle_C::SetText(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Subtitle.WBP_Subtitle_C.SetText"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Subtitle.WBP_Subtitle_C.SetText");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_Subtitle_C::SetText(const struct FText& Text)
 
 void UWBP_Subtitle_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Subtitle.WBP_Subtitle_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Subtitle.WBP_Subtitle_C.PreConstruct");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_Subtitle_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Subtitle_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Subtitle.WBP_Subtitle_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Subtitle.WBP_Subtitle_C.Construct");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_Subtitle_C::Construct()
 
 void UWBP_Subtitle_C::ExecuteUbergraph_WBP_Subtitle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Subtitle.WBP_Subtitle_C.ExecuteUbergraph_WBP_Subtitle"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Subtitle.WBP_Subtitle_C.ExecuteUbergraph_WBP_Subtitle");
 
 	struct
 	{

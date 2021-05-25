@@ -30,7 +30,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass BreathMeter.BreathMeter_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass BreathMeter.BreathMeter_C");
 		return ptr;
 	}
 

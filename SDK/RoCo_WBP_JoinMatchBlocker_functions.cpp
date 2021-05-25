@@ -21,7 +21,7 @@ namespace SDK
 
 struct FEventReply UWBP_JoinMatchBlocker_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnKeyUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnKeyUp");
 
 	struct
 	{
@@ -48,7 +48,7 @@ struct FEventReply UWBP_JoinMatchBlocker_C::OnKeyUp(const struct FGeometry& MyGe
 
 struct FEventReply UWBP_JoinMatchBlocker_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnKeyDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnKeyDown");
 
 	struct
 	{
@@ -71,7 +71,7 @@ struct FEventReply UWBP_JoinMatchBlocker_C::OnKeyDown(const struct FGeometry& My
 
 void UWBP_JoinMatchBlocker_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_JoinMatchBlocker_C::InitializeWidgetNavigation()
 
 void UWBP_JoinMatchBlocker_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.StartShowSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.StartShowSequence");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_JoinMatchBlocker_C::StartShowSequence(const struct FName& FromRoute, c
 
 void UWBP_JoinMatchBlocker_C::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.StartHideSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.StartHideSequence");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_JoinMatchBlocker_C::StartHideSequence(const struct FName& FromRoute, c
 
 void UWBP_JoinMatchBlocker_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnInitialized");
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UWBP_JoinMatchBlocker_C::OnInitialized()
 
 void UWBP_JoinMatchBlocker_C::OnShowAnimFinish()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnShowAnimFinish"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnShowAnimFinish");
 
 	struct
 	{
@@ -165,7 +165,7 @@ void UWBP_JoinMatchBlocker_C::OnShowAnimFinish()
 
 void UWBP_JoinMatchBlocker_C::OnShowAnimStart()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnShowAnimStart"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.OnShowAnimStart");
 
 	struct
 	{
@@ -183,7 +183,7 @@ void UWBP_JoinMatchBlocker_C::OnShowAnimStart()
 
 void UWBP_JoinMatchBlocker_C::ExecuteUbergraph_WBP_JoinMatchBlocker(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.ExecuteUbergraph_WBP_JoinMatchBlocker"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C.ExecuteUbergraph_WBP_JoinMatchBlocker");
 
 	struct
 	{

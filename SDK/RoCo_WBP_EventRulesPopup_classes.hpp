@@ -28,7 +28,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_EventRulesPopup.WBP_EventRulesPopup_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_EventRulesPopup.WBP_EventRulesPopup_C");
 		return ptr;
 	}
 

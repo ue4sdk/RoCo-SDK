@@ -17,7 +17,7 @@ namespace SDK
 
 void UVehicleOverlay_C::UpdateRevealConeReticle()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.UpdateRevealConeReticle"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.UpdateRevealConeReticle");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UVehicleOverlay_C::UpdateRevealConeReticle()
 
 void UVehicleOverlay_C::SetVehicle(class AKSVehicle* Vehicle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.SetVehicle"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.SetVehicle");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UVehicleOverlay_C::SetVehicle(class AKSVehicle* Vehicle)
 
 void UVehicleOverlay_C::UnsetVehicle()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.UnsetVehicle"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.UnsetVehicle");
 
 	struct
 	{
@@ -72,7 +72,7 @@ void UVehicleOverlay_C::UnsetVehicle()
 
 void UVehicleOverlay_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.Tick");
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UVehicleOverlay_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTi
 
 void UVehicleOverlay_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.InitializeWidget");
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UVehicleOverlay_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UVehicleOverlay_C::ModeChange(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.ModeChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.ModeChange");
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UVehicleOverlay_C::ModeChange(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 
 void UVehicleOverlay_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.PostSetPawn");
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UVehicleOverlay_C::PostSetPawn()
 
 void UVehicleOverlay_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.PreClearPawn");
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UVehicleOverlay_C::PreClearPawn()
 
 void UVehicleOverlay_C::Handle_Vehicle_State_Changed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.Handle Vehicle State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.Handle Vehicle State Changed");
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UVehicleOverlay_C::Handle_Vehicle_State_Changed()
 
 void UVehicleOverlay_C::HandleVehicleHealthChanged(float CurrentHealth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.HandleVehicleHealthChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.HandleVehicleHealthChanged");
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UVehicleOverlay_C::HandleVehicleHealthChanged(float CurrentHealth)
 
 void UVehicleOverlay_C::HandleVehicleSeatingChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.HandleVehicleSeatingChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.HandleVehicleSeatingChanged");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UVehicleOverlay_C::HandleVehicleSeatingChanged()
 
 void UVehicleOverlay_C::ExecuteUbergraph_VehicleOverlay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.ExecuteUbergraph_VehicleOverlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.ExecuteUbergraph_VehicleOverlay");
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UVehicleOverlay_C::ExecuteUbergraph_VehicleOverlay(int EntryPoint)
 
 void UVehicleOverlay_C::Vehicle_State_Changed__DelegateSignature(bool InVehicle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleOverlay.VehicleOverlay_C.Vehicle State Changed__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleOverlay.VehicleOverlay_C.Vehicle State Changed__DelegateSignature");
 
 	struct
 	{

@@ -140,7 +140,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass AllyMarker.AllyMarker_C"));
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass AllyMarker.AllyMarker_C");
 		return ptr;
 	}
 

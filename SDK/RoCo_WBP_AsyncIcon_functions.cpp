@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_AsyncIcon_C::Set_Brush_From_Icon_Info(class UIconInfo* Icon_Info, bool MatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Set Brush From Icon Info"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Set Brush From Icon Info");
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UWBP_AsyncIcon_C::Set_Brush_From_Icon_Info(class UIconInfo* Icon_Info, bool
 
 void UWBP_AsyncIcon_C::Set_Brush_from_Path_on_Item(class UKSItem* Item, bool MatchSize, const struct FSoftObjectPath& Path)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Set Brush from Path on Item"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Set Brush from Path on Item");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_AsyncIcon_C::Set_Brush_from_Path_on_Item(class UKSItem* Item, bool Mat
 
 void UWBP_AsyncIcon_C::SetBrushFromSoftPath(const struct FSoftObjectPath& Soft_Path, bool MatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetBrushFromSoftPath"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetBrushFromSoftPath");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_AsyncIcon_C::SetBrushFromSoftPath(const struct FSoftObjectPath& Soft_P
 
 void UWBP_AsyncIcon_C::Set_Brush_from_Texture_on_Item(class UKSItem* Item, bool MatchSize, TSoftObjectPtr<class UTexture2D> Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Set Brush from Texture on Item"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Set Brush from Texture on Item");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_AsyncIcon_C::Set_Brush_from_Texture_on_Item(class UKSItem* Item, bool 
 
 void UWBP_AsyncIcon_C::Get_Material(class UMaterialInstanceDynamic** MaterialInstanceDynamic)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Get Material"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Get Material");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_AsyncIcon_C::Get_Material(class UMaterialInstanceDynamic** MaterialIns
 
 void UWBP_AsyncIcon_C::SetMaterialToUse(class UMaterialInterface* Material)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetMaterialToUse"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetMaterialToUse");
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWBP_AsyncIcon_C::SetMaterialToUse(class UMaterialInterface* Material)
 
 void UWBP_AsyncIcon_C::ApplyDefaultBrush()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.ApplyDefaultBrush"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.ApplyDefaultBrush");
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_AsyncIcon_C::ApplyDefaultBrush()
 
 void UWBP_AsyncIcon_C::SetBrushFromSoftTexture(TSoftObjectPtr<class UTexture2D> Texture, bool MatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetBrushFromSoftTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetBrushFromSoftTexture");
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UWBP_AsyncIcon_C::SetBrushFromSoftTexture(TSoftObjectPtr<class UTexture2D> 
 
 void UWBP_AsyncIcon_C::SetBrushFromTexture(class UTexture2D* Texture, bool MatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetBrushFromTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetBrushFromTexture");
 
 	struct
 	{
@@ -222,7 +222,7 @@ void UWBP_AsyncIcon_C::SetBrushFromTexture(class UTexture2D* Texture, bool Match
 
 void UWBP_AsyncIcon_C::SetBrushFromItemIcon(class UPlatformInventoryItem* Item, bool MatchSize)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetBrushFromItemIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.SetBrushFromItemIcon");
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UWBP_AsyncIcon_C::SetBrushFromItemIcon(class UPlatformInventoryItem* Item, 
 
 void UWBP_AsyncIcon_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.PreConstruct");
 
 	struct
 	{
@@ -262,7 +262,7 @@ void UWBP_AsyncIcon_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_AsyncIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.Construct");
 
 	struct
 	{
@@ -280,7 +280,7 @@ void UWBP_AsyncIcon_C::Construct()
 
 void UWBP_AsyncIcon_C::OnStartLoad(class UPUMG_AsyncImage* Image)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.OnStartLoad"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.OnStartLoad");
 
 	struct
 	{
@@ -300,7 +300,7 @@ void UWBP_AsyncIcon_C::OnStartLoad(class UPUMG_AsyncImage* Image)
 
 void UWBP_AsyncIcon_C::OnFinishLoad(class UPUMG_AsyncImage* Image)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.OnFinishLoad"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.OnFinishLoad");
 
 	struct
 	{
@@ -320,7 +320,7 @@ void UWBP_AsyncIcon_C::OnFinishLoad(class UPUMG_AsyncImage* Image)
 
 void UWBP_AsyncIcon_C::ExecuteUbergraph_WBP_AsyncIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.ExecuteUbergraph_WBP_AsyncIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.ExecuteUbergraph_WBP_AsyncIcon");
 
 	struct
 	{
@@ -340,7 +340,7 @@ void UWBP_AsyncIcon_C::ExecuteUbergraph_WBP_AsyncIcon(int EntryPoint)
 
 void UWBP_AsyncIcon_C::OnIconUpdated__DelegateSignature(class UTexture2D* Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AsyncIcon.WBP_AsyncIcon_C.OnIconUpdated__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AsyncIcon.WBP_AsyncIcon_C.OnIconUpdated__DelegateSignature");
 
 	struct
 	{

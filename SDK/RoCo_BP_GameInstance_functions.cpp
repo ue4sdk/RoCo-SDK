@@ -17,7 +17,7 @@ namespace SDK
 
 void UBP_GameInstance_C::EndLoading()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameInstance.BP_GameInstance_C.EndLoading"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameInstance.BP_GameInstance_C.EndLoading");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UBP_GameInstance_C::EndLoading()
 
 void UBP_GameInstance_C::BeginLoading(const struct FString& mapName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameInstance.BP_GameInstance_C.BeginLoading"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameInstance.BP_GameInstance_C.BeginLoading");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UBP_GameInstance_C::BeginLoading(const struct FString& mapName)
 
 void UBP_GameInstance_C::ExecuteUbergraph_BP_GameInstance(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameInstance.BP_GameInstance_C.ExecuteUbergraph_BP_GameInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameInstance.BP_GameInstance_C.ExecuteUbergraph_BP_GameInstance");
 
 	struct
 	{

@@ -43,7 +43,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass GadgetCompInventoryElement.GadgetCompInventoryElement_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass GadgetCompInventoryElement.GadgetCompInventoryElement_C");
 		return ptr;
 	}
 

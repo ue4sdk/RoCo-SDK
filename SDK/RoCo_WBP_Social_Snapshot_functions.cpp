@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_Social_Snapshot_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.NavigateConfirm");
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_Social_Snapshot_C::NavigateConfirm()
 
 void UWBP_Social_Snapshot_C::UpdateGamepadPrompt(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.UpdateGamepadPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.UpdateGamepadPrompt");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_Social_Snapshot_C::UpdateGamepadPrompt(TEnumAsByte<EPGAME_INPUT_STATE>
 
 void UWBP_Social_Snapshot_C::Update_Alerts_Counter()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.Update Alerts Counter"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.Update Alerts Counter");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_Social_Snapshot_C::Update_Alerts_Counter()
 
 void UWBP_Social_Snapshot_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.Construct");
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_Social_Snapshot_C::Construct()
 
 void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnBu
 
 void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnBu
 
 void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnBu
 
 void UWBP_Social_Snapshot_C::HandleFriendDataUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.HandleFriendDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.HandleFriendDataUpdated");
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_Social_Snapshot_C::HandleFriendDataUpdated()
 
 void UWBP_Social_Snapshot_C::HandlePartyDataUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.HandlePartyDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.HandlePartyDataUpdated");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_Social_Snapshot_C::HandlePartyDataUpdated()
 
 void UWBP_Social_Snapshot_C::Force_Click()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.Force Click"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.Force Click");
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_Social_Snapshot_C::Force_Click()
 
 void UWBP_Social_Snapshot_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.OnInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.OnInputStateChanged");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_Social_Snapshot_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE>
 
 void UWBP_Social_Snapshot_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.InitializeWidget");
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UWBP_Social_Snapshot_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Social_Snapshot_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.PreConstruct");
 
 	struct
 	{
@@ -246,7 +246,7 @@ void UWBP_Social_Snapshot_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Social_Snapshot_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.GamepadHover");
 
 	struct
 	{
@@ -262,7 +262,7 @@ void UWBP_Social_Snapshot_C::GamepadHover()
 
 void UWBP_Social_Snapshot_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.GamepadUnhover");
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UWBP_Social_Snapshot_C::GamepadUnhover()
 
 void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature");
 
 	struct
 	{
@@ -294,7 +294,7 @@ void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnBu
 
 void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UWBP_Social_Snapshot_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnBu
 
 void UWBP_Social_Snapshot_C::ExecuteUbergraph_WBP_Social_Snapshot(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.ExecuteUbergraph_WBP_Social_Snapshot"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Snapshot.WBP_Social_Snapshot_C.ExecuteUbergraph_WBP_Social_Snapshot");
 
 	struct
 	{

@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_EnemyDetected_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EnemyDetected.WBP_EnemyDetected_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EnemyDetected.WBP_EnemyDetected_C.Construct");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_EnemyDetected_C::Construct()
 
 void UWBP_EnemyDetected_C::OnUpdateEnemyDetectedUI(bool bShow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EnemyDetected.WBP_EnemyDetected_C.OnUpdateEnemyDetectedUI"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EnemyDetected.WBP_EnemyDetected_C.OnUpdateEnemyDetectedUI");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_EnemyDetected_C::OnUpdateEnemyDetectedUI(bool bShow)
 
 void UWBP_EnemyDetected_C::ExecuteUbergraph_WBP_EnemyDetected(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EnemyDetected.WBP_EnemyDetected_C.ExecuteUbergraph_WBP_EnemyDetected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EnemyDetected.WBP_EnemyDetected_C.ExecuteUbergraph_WBP_EnemyDetected");
 
 	struct
 	{

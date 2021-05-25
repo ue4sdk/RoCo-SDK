@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_StoreItemRotator_C::SetPercentTimeRemaining(float PercentRemaining)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemRotator.WBP_StoreItemRotator_C.SetPercentTimeRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemRotator.WBP_StoreItemRotator_C.SetPercentTimeRemaining");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_StoreItemRotator_C::SetPercentTimeRemaining(float PercentRemaining)
 
 void UWBP_StoreItemRotator_C::SetRotatorSize(int NumElements)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemRotator.WBP_StoreItemRotator_C.SetRotatorSize"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemRotator.WBP_StoreItemRotator_C.SetRotatorSize");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_StoreItemRotator_C::SetRotatorSize(int NumElements)
 
 void UWBP_StoreItemRotator_C::SetActiveIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreItemRotator.WBP_StoreItemRotator_C.SetActiveIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreItemRotator.WBP_StoreItemRotator_C.SetActiveIndex");
 
 	struct
 	{

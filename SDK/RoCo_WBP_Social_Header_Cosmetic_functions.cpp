@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_Social_Header_Cosmetic_C::BindContextMenu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.BindContextMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.BindContextMenu");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_Social_Header_Cosmetic_C::BindContextMenu()
 
 void UWBP_Social_Header_Cosmetic_C::UpdateName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.UpdateName"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.UpdateName");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_Social_Header_Cosmetic_C::UpdateName()
 
 void UWBP_Social_Header_Cosmetic_C::UpdateAfterInfoChange()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.UpdateAfterInfoChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.UpdateAfterInfoChange");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_Social_Header_Cosmetic_C::UpdateAfterInfoChange()
 
 void UWBP_Social_Header_Cosmetic_C::UpdateBanner()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.UpdateBanner"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.UpdateBanner");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_Social_Header_Cosmetic_C::UpdateBanner()
 
 void UWBP_Social_Header_Cosmetic_C::UpdateAvatar()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.UpdateAvatar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.UpdateAvatar");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_Social_Header_Cosmetic_C::UpdateAvatar()
 
 void UWBP_Social_Header_Cosmetic_C::SetData(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.SetData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.SetData");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWBP_Social_Header_Cosmetic_C::SetData(class UKSPlayerInfo* playerinfo)
 
 void UWBP_Social_Header_Cosmetic_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.PreConstruct");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_Social_Header_Cosmetic_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Social_Header_Cosmetic_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.InitializeWidget");
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWBP_Social_Header_Cosmetic_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Social_Header_Cosmetic_C::BndEvt__DNDToggleBtn_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.BndEvt__DNDToggleBtn_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.BndEvt__DNDToggleBtn_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_Social_Header_Cosmetic_C::BndEvt__DNDToggleBtn_K2Node_ComponentBoundEv
 
 void UWBP_Social_Header_Cosmetic_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HandleInputStateChanged");
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UWBP_Social_Header_Cosmetic_C::HandleInputStateChanged(TEnumAsByte<EPGAME_I
 
 void UWBP_Social_Header_Cosmetic_C::ToggleDND()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.ToggleDND"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.ToggleDND");
 
 	struct
 	{
@@ -211,7 +211,7 @@ void UWBP_Social_Header_Cosmetic_C::ToggleDND()
 
 void UWBP_Social_Header_Cosmetic_C::HandleReadyNavigation(TArray<class UWBP_PlayerStatus_ContextMenuOption_C*>* StatusButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HandleReadyNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HandleReadyNavigation");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UWBP_Social_Header_Cosmetic_C::HandleReadyNavigation(TArray<class UWBP_Play
 
 void UWBP_Social_Header_Cosmetic_C::HandleMenuStart(class UWBP_PlayerStatus_ContextMenuOption_C* FocusWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HandleMenuStart"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HandleMenuStart");
 
 	struct
 	{
@@ -251,7 +251,7 @@ void UWBP_Social_Header_Cosmetic_C::HandleMenuStart(class UWBP_PlayerStatus_Cont
 
 void UWBP_Social_Header_Cosmetic_C::HandleMenuHidden()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HandleMenuHidden"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HandleMenuHidden");
 
 	struct
 	{
@@ -267,7 +267,7 @@ void UWBP_Social_Header_Cosmetic_C::HandleMenuHidden()
 
 void UWBP_Social_Header_Cosmetic_C::HideStatusMenu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HideStatusMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.HideStatusMenu");
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_Social_Header_Cosmetic_C::HideStatusMenu()
 
 void UWBP_Social_Header_Cosmetic_C::ExecuteUbergraph_WBP_Social_Header_Cosmetic(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.ExecuteUbergraph_WBP_Social_Header_Cosmetic"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.ExecuteUbergraph_WBP_Social_Header_Cosmetic");
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_Social_Header_Cosmetic_C::ExecuteUbergraph_WBP_Social_Header_Cosmetic(
 
 void UWBP_Social_Header_Cosmetic_C::OnMenuHidden__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.OnMenuHidden__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.OnMenuHidden__DelegateSignature");
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UWBP_Social_Header_Cosmetic_C::OnMenuHidden__DelegateSignature()
 
 void UWBP_Social_Header_Cosmetic_C::OnMenuShown__DelegateSignature(class UWBP_PlayerStatus_ContextMenuOption_C* FocusWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.OnMenuShown__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.OnMenuShown__DelegateSignature");
 
 	struct
 	{
@@ -341,7 +341,7 @@ void UWBP_Social_Header_Cosmetic_C::OnMenuShown__DelegateSignature(class UWBP_Pl
 
 void UWBP_Social_Header_Cosmetic_C::OnNavigationReady__DelegateSignature(TArray<class UWBP_PlayerStatus_ContextMenuOption_C*>* StatusButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.OnNavigationReady__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Header_Cosmetic.WBP_Social_Header_Cosmetic_C.OnNavigationReady__DelegateSignature");
 
 	struct
 	{

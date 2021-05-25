@@ -19,7 +19,7 @@ namespace SDK
 
 float UWBP_Daily_Challenge_Timer_C::GetCurrentSecondsRemaining()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.GetCurrentSecondsRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.GetCurrentSecondsRemaining");
 
 	struct
 	{
@@ -38,7 +38,7 @@ float UWBP_Daily_Challenge_Timer_C::GetCurrentSecondsRemaining()
 
 void UWBP_Daily_Challenge_Timer_C::CheckForNewChallenge()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.CheckForNewChallenge"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.CheckForNewChallenge");
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWBP_Daily_Challenge_Timer_C::CheckForNewChallenge()
 
 void UWBP_Daily_Challenge_Timer_C::UpdateContractTimer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.UpdateContractTimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.UpdateContractTimer");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_Daily_Challenge_Timer_C::UpdateContractTimer()
 
 void UWBP_Daily_Challenge_Timer_C::SetRemainingTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.SetRemainingTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.SetRemainingTime");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_Daily_Challenge_Timer_C::SetRemainingTime()
 
 void UWBP_Daily_Challenge_Timer_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.Tick");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_Daily_Challenge_Timer_C::Tick(const struct FGeometry& MyGeometry, floa
 
 void UWBP_Daily_Challenge_Timer_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.InitializeWidget");
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UWBP_Daily_Challenge_Timer_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Daily_Challenge_Timer_C::ExecuteUbergraph_WBP_Daily_Challenge_Timer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.ExecuteUbergraph_WBP_Daily_Challenge_Timer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Daily_Challenge_Timer.WBP_Daily_Challenge_Timer_C.ExecuteUbergraph_WBP_Daily_Challenge_Timer");
 
 	struct
 	{

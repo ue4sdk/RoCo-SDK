@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARBlueprintLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARBlueprintLibrary");
 		return ptr;
 	}
 
@@ -75,7 +75,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTraceResultLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTraceResultLibrary");
 		return ptr;
 	}
 
@@ -97,7 +97,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARBaseAsyncTaskBlueprintProxy"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARBaseAsyncTaskBlueprintProxy");
 		return ptr;
 	}
 
@@ -115,7 +115,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARSaveWorldAsyncTaskBlueprintProxy"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARSaveWorldAsyncTaskBlueprintProxy");
 		return ptr;
 	}
 
@@ -135,7 +135,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARGetCandidateObjectAsyncTaskBlueprintProxy"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARGetCandidateObjectAsyncTaskBlueprintProxy");
 		return ptr;
 	}
 
@@ -152,7 +152,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARLightEstimate"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARLightEstimate");
 		return ptr;
 	}
 
@@ -170,7 +170,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARBasicLightEstimate"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARBasicLightEstimate");
 		return ptr;
 	}
 
@@ -189,7 +189,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.AROriginActor"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.AROriginActor");
 		return ptr;
 	}
 
@@ -214,7 +214,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARPin"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARPin");
 		return ptr;
 	}
 
@@ -270,7 +270,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARSessionConfig"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARSessionConfig");
 		return ptr;
 	}
 
@@ -318,7 +318,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARSharedWorldGameMode"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARSharedWorldGameMode");
 		return ptr;
 	}
 
@@ -345,7 +345,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARSharedWorldGameState"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARSharedWorldGameState");
 		return ptr;
 	}
 
@@ -363,7 +363,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARSharedWorldPlayerController"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARSharedWorldPlayerController");
 		return ptr;
 	}
 
@@ -385,7 +385,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARSkyLight"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARSkyLight");
 		return ptr;
 	}
 
@@ -407,7 +407,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTexture"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTexture");
 		return ptr;
 	}
 
@@ -422,7 +422,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTextureCameraImage"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTextureCameraImage");
 		return ptr;
 	}
 
@@ -441,7 +441,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTextureCameraDepth"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTextureCameraDepth");
 		return ptr;
 	}
 
@@ -461,7 +461,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.AREnvironmentCaptureProbeTexture"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.AREnvironmentCaptureProbeTexture");
 		return ptr;
 	}
 
@@ -476,7 +476,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTraceResultDummy"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTraceResultDummy");
 		return ptr;
 	}
 
@@ -504,7 +504,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTrackedGeometry"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTrackedGeometry");
 		return ptr;
 	}
 
@@ -533,7 +533,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARPlaneGeometry"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARPlaneGeometry");
 		return ptr;
 	}
 
@@ -554,7 +554,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTrackedPoint"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTrackedPoint");
 		return ptr;
 	}
 
@@ -571,7 +571,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTrackedImage"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTrackedImage");
 		return ptr;
 	}
 
@@ -592,7 +592,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTrackedQRCode"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTrackedQRCode");
 		return ptr;
 	}
 
@@ -612,7 +612,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARFaceGeometry"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARFaceGeometry");
 		return ptr;
 	}
 
@@ -634,7 +634,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.AREnvironmentCaptureProbe"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.AREnvironmentCaptureProbe");
 		return ptr;
 	}
 
@@ -652,7 +652,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTrackedObject"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTrackedObject");
 		return ptr;
 	}
 
@@ -670,7 +670,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTrackedPose"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTrackedPose");
 		return ptr;
 	}
 
@@ -708,7 +708,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTrackableNotifyComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTrackableNotifyComponent");
 		return ptr;
 	}
 
@@ -723,7 +723,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARTypesDummyClass"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARTypesDummyClass");
 		return ptr;
 	}
 
@@ -744,7 +744,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARCandidateImage"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARCandidateImage");
 		return ptr;
 	}
 
@@ -769,7 +769,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AugmentedReality.ARCandidateObject"));
+		static auto ptr = UObject::FindObject<UClass>("Class AugmentedReality.ARCandidateObject");
 		return ptr;
 	}
 

@@ -24,7 +24,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass SFXEvent.SFXEvent_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass SFXEvent.SFXEvent_C");
 		return ptr;
 	}
 

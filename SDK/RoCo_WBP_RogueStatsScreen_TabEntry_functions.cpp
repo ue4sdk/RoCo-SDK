@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueStatsScreen_TabEntry_C::SetSelected(bool Selected)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.SetSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.SetSelected");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_RogueStatsScreen_TabEntry_C::SetSelected(bool Selected)
 
 void UWBP_RogueStatsScreen_TabEntry_C::UpdateTotalCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.UpdateTotalCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.UpdateTotalCount");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_RogueStatsScreen_TabEntry_C::UpdateTotalCount()
 
 void UWBP_RogueStatsScreen_TabEntry_C::BndEvt__BtnSelect_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.BndEvt__BtnSelect_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.BndEvt__BtnSelect_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_RogueStatsScreen_TabEntry_C::BndEvt__BtnSelect_K2Node_ComponentBoundEv
 
 void UWBP_RogueStatsScreen_TabEntry_C::BndEvt__BtnSelect_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.BndEvt__BtnSelect_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.BndEvt__BtnSelect_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_RogueStatsScreen_TabEntry_C::BndEvt__BtnSelect_K2Node_ComponentBoundEv
 
 void UWBP_RogueStatsScreen_TabEntry_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.GamepadHover");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_RogueStatsScreen_TabEntry_C::GamepadHover()
 
 void UWBP_RogueStatsScreen_TabEntry_C::BndEvt__Button_92_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.BndEvt__Button_92_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.BndEvt__Button_92_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_RogueStatsScreen_TabEntry_C::BndEvt__Button_92_K2Node_ComponentBoundEv
 
 void UWBP_RogueStatsScreen_TabEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.Construct");
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_RogueStatsScreen_TabEntry_C::Construct()
 
 void UWBP_RogueStatsScreen_TabEntry_C::ExecuteUbergraph_WBP_RogueStatsScreen_TabEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.ExecuteUbergraph_WBP_RogueStatsScreen_TabEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.ExecuteUbergraph_WBP_RogueStatsScreen_TabEntry");
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UWBP_RogueStatsScreen_TabEntry_C::ExecuteUbergraph_WBP_RogueStatsScreen_Tab
 
 void UWBP_RogueStatsScreen_TabEntry_C::OnSelected__DelegateSignature(class UKSActivityComponent_MercMastery* MercMasteryStat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.OnSelected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueStatsScreen_TabEntry.WBP_RogueStatsScreen_TabEntry_C.OnSelected__DelegateSignature");
 
 	struct
 	{

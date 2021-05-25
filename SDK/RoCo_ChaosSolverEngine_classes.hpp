@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosSolverEngine.ChaosDebugDrawComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class ChaosSolverEngine.ChaosDebugDrawComponent");
 		return ptr;
 	}
 
@@ -39,7 +39,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosSolverEngine.ChaosEventListenerComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class ChaosSolverEngine.ChaosEventListenerComponent");
 		return ptr;
 	}
 
@@ -58,7 +58,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosSolverEngine.ChaosGameplayEventDispatcher"));
+		static auto ptr = UObject::FindObject<UClass>("Class ChaosSolverEngine.ChaosGameplayEventDispatcher");
 		return ptr;
 	}
 
@@ -73,7 +73,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosSolverEngine.ChaosNotifyHandlerInterface"));
+		static auto ptr = UObject::FindObject<UClass>("Class ChaosSolverEngine.ChaosNotifyHandlerInterface");
 		return ptr;
 	}
 
@@ -88,7 +88,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosSolverEngine.ChaosSolverEngineBlueprintLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class ChaosSolverEngine.ChaosSolverEngineBlueprintLibrary");
 		return ptr;
 	}
 
@@ -105,7 +105,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosSolverEngine.ChaosSolver"));
+		static auto ptr = UObject::FindObject<UClass>("Class ChaosSolverEngine.ChaosSolver");
 		return ptr;
 	}
 
@@ -144,7 +144,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosSolverEngine.ChaosSolverActor"));
+		static auto ptr = UObject::FindObject<UClass>("Class ChaosSolverEngine.ChaosSolverActor");
 		return ptr;
 	}
 
@@ -164,7 +164,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosSolverEngine.ChaosSolverSettings"));
+		static auto ptr = UObject::FindObject<UClass>("Class ChaosSolverEngine.ChaosSolverSettings");
 		return ptr;
 	}
 

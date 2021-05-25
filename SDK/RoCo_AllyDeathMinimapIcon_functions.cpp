@@ -19,7 +19,7 @@ namespace SDK
 
 bool UAllyDeathMinimapIcon_C::ShouldUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.ShouldUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.ShouldUpdate");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UAllyDeathMinimapIcon_C::ShouldUpdate()
 
 void UAllyDeathMinimapIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.Construct");
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UAllyDeathMinimapIcon_C::Construct()
 
 void UAllyDeathMinimapIcon_C::Start_Fade()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.Start Fade"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.Start Fade");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UAllyDeathMinimapIcon_C::Start_Fade()
 
 void UAllyDeathMinimapIcon_C::UpdateMeetsHeightThreshold(bool bHeight, bool bDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.UpdateMeetsHeightThreshold"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.UpdateMeetsHeightThreshold");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UAllyDeathMinimapIcon_C::UpdateMeetsHeightThreshold(bool bHeight, bool bDep
 
 void UAllyDeathMinimapIcon_C::HandleMapIconWidgetReady()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.HandleMapIconWidgetReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.HandleMapIconWidgetReady");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UAllyDeathMinimapIcon_C::HandleMapIconWidgetReady()
 
 void UAllyDeathMinimapIcon_C::ExecuteUbergraph_AllyDeathMinimapIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.ExecuteUbergraph_AllyDeathMinimapIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.ExecuteUbergraph_AllyDeathMinimapIcon");
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UAllyDeathMinimapIcon_C::ExecuteUbergraph_AllyDeathMinimapIcon(int EntryPoi
 
 void UAllyDeathMinimapIcon_C::PingExpired__DelegateSignature(unsigned char IconType, int UniqueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.PingExpired__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyDeathMinimapIcon.AllyDeathMinimapIcon_C.PingExpired__DelegateSignature");
 
 	struct
 	{

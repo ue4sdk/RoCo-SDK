@@ -19,7 +19,7 @@ namespace SDK
 
 void UMarkerDisplay_C::AddIconToScreen(class UKSMapIconWidgetBase* Icon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.AddIconToScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.AddIconToScreen");
 
 	struct
 	{
@@ -47,7 +47,7 @@ void UMarkerDisplay_C::AddIconToScreen(class UKSMapIconWidgetBase* Icon)
 
 class UKSMapIconWidgetBase* UMarkerDisplay_C::CreateNewIconWidget(class UClass* WidgetClass, int UniqueId, class AKSPlayerState* CreatingPlayer, EDisplayType ParentMapDisplayType, class AActor* AssociatedActor, class UObject* AssociatedObject, const struct FVector& DefaultLocation, float Lifespan)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.CreateNewIconWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.CreateNewIconWidget");
 
 	struct
 	{
@@ -84,7 +84,7 @@ class UKSMapIconWidgetBase* UMarkerDisplay_C::CreateNewIconWidget(class UClass* 
 
 void UMarkerDisplay_C::Receive_Loot_Inspect_Off_From_Marker(class ULootSiteMarker_v2_C* Marker)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.Receive Loot Inspect Off From Marker"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.Receive Loot Inspect Off From Marker");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UMarkerDisplay_C::Receive_Loot_Inspect_Off_From_Marker(class ULootSiteMarke
 
 void UMarkerDisplay_C::Receive_Loot_Inspect_Request_From_Marker(class AKSLootSiteBase* Loot_Site, class ULootSiteMarker_v2_C* Marker)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.Receive Loot Inspect Request From Marker"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.Receive Loot Inspect Request From Marker");
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UMarkerDisplay_C::Receive_Loot_Inspect_Request_From_Marker(class AKSLootSit
 
 void UMarkerDisplay_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.InitializeTickAnimations"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.InitializeTickAnimations");
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UMarkerDisplay_C::InitializeTickAnimations()
 
 void UMarkerDisplay_C::Inspect_Anim_Update(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.Inspect Anim Update"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.Inspect Anim Update");
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UMarkerDisplay_C::Inspect_Anim_Update(float ElapsedTime, float ElapsedAlpha
 
 void UMarkerDisplay_C::Inspect_Anim_Finished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.Inspect Anim Finished"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.Inspect Anim Finished");
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UMarkerDisplay_C::Inspect_Anim_Finished()
 
 void UMarkerDisplay_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.InitializeWidget");
 
 	struct
 	{
@@ -202,7 +202,7 @@ void UMarkerDisplay_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UMarkerDisplay_C::OnScrambleStateChanged(bool Scrambled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.OnScrambleStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.OnScrambleStateChanged");
 
 	struct
 	{
@@ -222,7 +222,7 @@ void UMarkerDisplay_C::OnScrambleStateChanged(bool Scrambled)
 
 void UMarkerDisplay_C::Handle_Loot_Site_State_Changed(const struct FLootSiteState& Loot_Site_State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.Handle Loot Site State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.Handle Loot Site State Changed");
 
 	struct
 	{
@@ -243,7 +243,7 @@ void UMarkerDisplay_C::Handle_Loot_Site_State_Changed(const struct FLootSiteStat
 
 void UMarkerDisplay_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.Tick");
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UMarkerDisplay_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTim
 
 void UMarkerDisplay_C::DisplayToMapWidget(class UKSMapIconWidgetBase* MapIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.DisplayToMapWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.DisplayToMapWidget");
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UMarkerDisplay_C::DisplayToMapWidget(class UKSMapIconWidgetBase* MapIcon)
 
 void UMarkerDisplay_C::ExecuteUbergraph_MarkerDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.ExecuteUbergraph_MarkerDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.ExecuteUbergraph_MarkerDisplay");
 
 	struct
 	{
@@ -305,7 +305,7 @@ void UMarkerDisplay_C::ExecuteUbergraph_MarkerDisplay(int EntryPoint)
 
 void UMarkerDisplay_C::OnMarkerAddedToScreen__DelegateSignature(class UKSMapIconWidgetBase* Marker)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MarkerDisplay.MarkerDisplay_C.OnMarkerAddedToScreen__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function MarkerDisplay.MarkerDisplay_C.OnMarkerAddedToScreen__DelegateSignature");
 
 	struct
 	{

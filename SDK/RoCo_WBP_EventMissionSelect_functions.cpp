@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_EventMissionSelect_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.NavigateConfirm");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_EventMissionSelect_C::NavigateConfirm()
 
 void UWBP_EventMissionSelect_C::UpdateActivateButtonAndPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.UpdateActivateButtonAndPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.UpdateActivateButtonAndPrompt");
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_EventMissionSelect_C::UpdateActivateButtonAndPrompt()
 
 void UWBP_EventMissionSelect_C::TryActivateFocusedMission(bool* DidActivate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.TryActivateFocusedMission"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.TryActivateFocusedMission");
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_EventMissionSelect_C::TryActivateFocusedMission(bool* DidActivate)
 
 void UWBP_EventMissionSelect_C::PopulateMissions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.PopulateMissions"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.PopulateMissions");
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UWBP_EventMissionSelect_C::PopulateMissions()
 
 void UWBP_EventMissionSelect_C::RefreshScene()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.RefreshScene"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.RefreshScene");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_EventMissionSelect_C::RefreshScene()
 
 void UWBP_EventMissionSelect_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnInputStateChanged");
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_EventMissionSelect_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STA
 
 void UWBP_EventMissionSelect_C::GetNavigationWidgets(TArray<class UWBP_EventMissionItem_C*>* Widgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.GetNavigationWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.GetNavigationWidgets");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_EventMissionSelect_C::GetNavigationWidgets(TArray<class UWBP_EventMiss
 
 bool UWBP_EventMissionSelect_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.NavigateBack");
 
 	struct
 	{
@@ -173,7 +173,7 @@ bool UWBP_EventMissionSelect_C::NavigateBack()
 
 void UWBP_EventMissionSelect_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.InitializeWidget");
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_EventMissionSelect_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_EventMissionSelect_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnBackPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnBackPrompt");
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UWBP_EventMissionSelect_C::OnBackPrompt()
 
 void UWBP_EventMissionSelect_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -223,7 +223,7 @@ void UWBP_EventMissionSelect_C::InitializeWidgetNavigation()
 
 void UWBP_EventMissionSelect_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnShown");
 
 	struct
 	{
@@ -241,7 +241,7 @@ void UWBP_EventMissionSelect_C::OnShown()
 
 void UWBP_EventMissionSelect_C::OnActivateButtonClicked(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnActivateButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnActivateButtonClicked");
 
 	struct
 	{
@@ -262,7 +262,7 @@ void UWBP_EventMissionSelect_C::OnActivateButtonClicked(class UWidget* Widget)
 
 void UWBP_EventMissionSelect_C::OnMissionFocused(class UKSActivityInstance* ActivityInstance, class UWBP_EventMissionItem_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnMissionFocused"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.OnMissionFocused");
 
 	struct
 	{
@@ -284,7 +284,7 @@ void UWBP_EventMissionSelect_C::OnMissionFocused(class UKSActivityInstance* Acti
 
 void UWBP_EventMissionSelect_C::ExecuteUbergraph_WBP_EventMissionSelect(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.ExecuteUbergraph_WBP_EventMissionSelect"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventMissionSelect.WBP_EventMissionSelect_C.ExecuteUbergraph_WBP_EventMissionSelect");
 
 	struct
 	{

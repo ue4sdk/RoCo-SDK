@@ -17,7 +17,7 @@ namespace SDK
 
 void AWaypointBeacon_C::UserConstructionScript()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WaypointBeacon.WaypointBeacon_C.UserConstructionScript"));
+	static auto fn = UObject::FindObject<UFunction>("Function WaypointBeacon.WaypointBeacon_C.UserConstructionScript");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void AWaypointBeacon_C::UserConstructionScript()
 
 void AWaypointBeacon_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WaypointBeacon.WaypointBeacon_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WaypointBeacon.WaypointBeacon_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void AWaypointBeacon_C::ReceiveBeginPlay()
 
 void AWaypointBeacon_C::SetupBeaconDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WaypointBeacon.WaypointBeacon_C.SetupBeaconDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WaypointBeacon.WaypointBeacon_C.SetupBeaconDisplay");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void AWaypointBeacon_C::SetupBeaconDisplay()
 
 void AWaypointBeacon_C::ExecuteUbergraph_WaypointBeacon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WaypointBeacon.WaypointBeacon_C.ExecuteUbergraph_WaypointBeacon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WaypointBeacon.WaypointBeacon_C.ExecuteUbergraph_WaypointBeacon");
 
 	struct
 	{

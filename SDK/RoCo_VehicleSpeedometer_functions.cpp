@@ -19,7 +19,7 @@ namespace SDK
 
 void UVehicleSpeedometer_C::SetTargetValue(float TargetValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleSpeedometer.VehicleSpeedometer_C.SetTargetValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleSpeedometer.VehicleSpeedometer_C.SetTargetValue");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UVehicleSpeedometer_C::SetTargetValue(float TargetValue)
 
 void UVehicleSpeedometer_C::SetValue(float Speedo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleSpeedometer.VehicleSpeedometer_C.SetValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleSpeedometer.VehicleSpeedometer_C.SetValue");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UVehicleSpeedometer_C::SetValue(float Speedo)
 
 void UVehicleSpeedometer_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleSpeedometer.VehicleSpeedometer_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleSpeedometer.VehicleSpeedometer_C.Tick");
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UVehicleSpeedometer_C::Tick(const struct FGeometry& MyGeometry, float InDel
 
 void UVehicleSpeedometer_C::ExecuteUbergraph_VehicleSpeedometer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleSpeedometer.VehicleSpeedometer_C.ExecuteUbergraph_VehicleSpeedometer"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleSpeedometer.VehicleSpeedometer_C.ExecuteUbergraph_VehicleSpeedometer");
 
 	struct
 	{

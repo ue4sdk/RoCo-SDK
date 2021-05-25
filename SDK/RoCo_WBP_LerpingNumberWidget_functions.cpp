@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_LerpingNumberWidget_C::UpdateTextDisplay(float NewTargetValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LerpingNumberWidget.WBP_LerpingNumberWidget_C.UpdateTextDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LerpingNumberWidget.WBP_LerpingNumberWidget_C.UpdateTextDisplay");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_LerpingNumberWidget_C::UpdateTextDisplay(float NewTargetValue)
 
 void UWBP_LerpingNumberWidget_C::UpdateCashBalance(int CashValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LerpingNumberWidget.WBP_LerpingNumberWidget_C.UpdateCashBalance"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LerpingNumberWidget.WBP_LerpingNumberWidget_C.UpdateCashBalance");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_LerpingNumberWidget_C::UpdateCashBalance(int CashValue)
 
 void UWBP_LerpingNumberWidget_C::DisplayForValue(float Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LerpingNumberWidget.WBP_LerpingNumberWidget_C.DisplayForValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LerpingNumberWidget.WBP_LerpingNumberWidget_C.DisplayForValue");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_LerpingNumberWidget_C::DisplayForValue(float Value)
 
 void UWBP_LerpingNumberWidget_C::ExecuteUbergraph_WBP_LerpingNumberWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LerpingNumberWidget.WBP_LerpingNumberWidget_C.ExecuteUbergraph_WBP_LerpingNumberWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LerpingNumberWidget.WBP_LerpingNumberWidget_C.ExecuteUbergraph_WBP_LerpingNumberWidget");
 
 	struct
 	{

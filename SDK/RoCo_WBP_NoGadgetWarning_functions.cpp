@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_NoGadgetWarning_C::HandleMedPackFailed(EKSItemUsageFailureType FailureType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.HandleMedPackFailed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.HandleMedPackFailed");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_NoGadgetWarning_C::HandleMedPackFailed(EKSItemUsageFailureType Failure
 
 void UWBP_NoGadgetWarning_C::HandleGrenadeFailed(EKSItemUsageFailureType FailureType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.HandleGrenadeFailed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.HandleGrenadeFailed");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_NoGadgetWarning_C::HandleGrenadeFailed(EKSItemUsageFailureType Failure
 
 void UWBP_NoGadgetWarning_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.PostSetPawn");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_NoGadgetWarning_C::PostSetPawn()
 
 void UWBP_NoGadgetWarning_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.PreClearPawn");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_NoGadgetWarning_C::PreClearPawn()
 
 void UWBP_NoGadgetWarning_C::ExecuteUbergraph_WBP_NoGadgetWarning(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.ExecuteUbergraph_WBP_NoGadgetWarning"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NoGadgetWarning.WBP_NoGadgetWarning_C.ExecuteUbergraph_WBP_NoGadgetWarning");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueMasteryTrackSection_C::SetSelectedEntry(int ActivityTierNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.SetSelectedEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.SetSelectedEntry");
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UWBP_RogueMasteryTrackSection_C::SetSelectedEntry(int ActivityTierNumber)
 
 void UWBP_RogueMasteryTrackSection_C::SetSectionData(int CurrentTier, struct FMasterySectionData* SectionData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.SetSectionData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.SetSectionData");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_RogueMasteryTrackSection_C::SetSectionData(int CurrentTier, struct FMa
 
 void UWBP_RogueMasteryTrackSection_C::GetSelectedActivity(int Index, struct FActivityTier* Activity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.GetSelectedActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.GetSelectedActivity");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_RogueMasteryTrackSection_C::GetSelectedActivity(int Index, struct FAct
 
 void UWBP_RogueMasteryTrackSection_C::OnMasteryLevelSelected(const struct FActivityTier& Activity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.OnMasteryLevelSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.OnMasteryLevelSelected");
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_RogueMasteryTrackSection_C::OnMasteryLevelSelected(const struct FActiv
 
 void UWBP_RogueMasteryTrackSection_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.PreConstruct");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_RogueMasteryTrackSection_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RogueMasteryTrackSection_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.Construct");
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_RogueMasteryTrackSection_C::Construct()
 
 void UWBP_RogueMasteryTrackSection_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.InitializeWidget");
 
 	struct
 	{
@@ -165,7 +165,7 @@ void UWBP_RogueMasteryTrackSection_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RogueMasteryTrackSection_C::ExecuteUbergraph_WBP_RogueMasteryTrackSection(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.ExecuteUbergraph_WBP_RogueMasteryTrackSection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.ExecuteUbergraph_WBP_RogueMasteryTrackSection");
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UWBP_RogueMasteryTrackSection_C::ExecuteUbergraph_WBP_RogueMasteryTrackSect
 
 void UWBP_RogueMasteryTrackSection_C::OnTrackEntrySelected__DelegateSignature(const struct FActivityTier& ActivityTier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.OnTrackEntrySelected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryTrackSection.WBP_RogueMasteryTrackSection_C.OnTrackEntrySelected__DelegateSignature");
 
 	struct
 	{

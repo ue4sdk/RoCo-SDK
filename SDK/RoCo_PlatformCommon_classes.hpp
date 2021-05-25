@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformCommon.PComGameEngine"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformCommon.PComGameEngine");
 		return ptr;
 	}
 
@@ -41,7 +41,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformCommon.PCom_IpConnection"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformCommon.PCom_IpConnection");
 		return ptr;
 	}
 
@@ -56,7 +56,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformCommon.PCom_LocalPlayer"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformCommon.PCom_LocalPlayer");
 		return ptr;
 	}
 
@@ -71,7 +71,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformCommon.PCom_UDPEncryptionHandlerComponentFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformCommon.PCom_UDPEncryptionHandlerComponentFactory");
 		return ptr;
 	}
 
@@ -88,7 +88,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformCommon.PCom_SimpleTimecodeProvider"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformCommon.PCom_SimpleTimecodeProvider");
 		return ptr;
 	}
 

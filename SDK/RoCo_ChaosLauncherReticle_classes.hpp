@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass ChaosLauncherReticle.ChaosLauncherReticle_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass ChaosLauncherReticle.ChaosLauncherReticle_C");
 		return ptr;
 	}
 

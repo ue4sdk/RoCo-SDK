@@ -43,7 +43,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass GameModeWidget_Multiple.GameModeWidget_Multiple_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass GameModeWidget_Multiple.GameModeWidget_Multiple_C");
 		return ptr;
 	}
 

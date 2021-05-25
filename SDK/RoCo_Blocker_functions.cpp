@@ -17,7 +17,7 @@ namespace SDK
 
 void UBlocker_C::BndEvt__Closer_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Blocker.Blocker_C.BndEvt__Closer_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Blocker.Blocker_C.BndEvt__Closer_K2Node_ComponentBoundEvent_10_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UBlocker_C::BndEvt__Closer_K2Node_ComponentBoundEvent_10_OnButtonClickedEve
 
 void UBlocker_C::Bind(class UPUMG_Widget* Widget, bool ClickToClose)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Blocker.Blocker_C.Bind"));
+	static auto fn = UObject::FindObject<UFunction>("Function Blocker.Blocker_C.Bind");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UBlocker_C::Bind(class UPUMG_Widget* Widget, bool ClickToClose)
 
 void UBlocker_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Blocker.Blocker_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function Blocker.Blocker_C.InitializeWidget");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UBlocker_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UBlocker_C::HandleBlockerChange(bool Show, class UUserWidget* InWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Blocker.Blocker_C.HandleBlockerChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function Blocker.Blocker_C.HandleBlockerChange");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UBlocker_C::HandleBlockerChange(bool Show, class UUserWidget* InWidget)
 
 void UBlocker_C::ExecuteUbergraph_Blocker(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Blocker.Blocker_C.ExecuteUbergraph_Blocker"));
+	static auto fn = UObject::FindObject<UFunction>("Function Blocker.Blocker_C.ExecuteUbergraph_Blocker");
 
 	struct
 	{

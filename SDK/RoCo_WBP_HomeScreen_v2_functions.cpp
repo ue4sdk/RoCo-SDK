@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_HomeScreen_v2_C::GetChallengePanel(class UKSWidget** Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.GetChallengePanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.GetChallengePanel");
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UWBP_HomeScreen_v2_C::GetChallengePanel(class UKSWidget** Return_Value)
 
 struct FEventReply UWBP_HomeScreen_v2_C::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnMouseButtonDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnMouseButtonDown");
 
 	struct
 	{
@@ -70,7 +70,7 @@ struct FEventReply UWBP_HomeScreen_v2_C::OnMouseButtonDown(const struct FGeometr
 
 struct FEventReply UWBP_HomeScreen_v2_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnKeyUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnKeyUp");
 
 	struct
 	{
@@ -95,7 +95,7 @@ struct FEventReply UWBP_HomeScreen_v2_C::OnKeyUp(const struct FGeometry& MyGeome
 
 void UWBP_HomeScreen_v2_C::CanFocus(bool* bAllowFous)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.CanFocus"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.CanFocus");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_HomeScreen_v2_C::CanFocus(bool* bAllowFous)
 
 void UWBP_HomeScreen_v2_C::UpdateContextPrompts()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.UpdateContextPrompts"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.UpdateContextPrompts");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_HomeScreen_v2_C::UpdateContextPrompts()
 
 void UWBP_HomeScreen_v2_C::StopConflictingAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StopConflictingAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StopConflictingAnimation");
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UWBP_HomeScreen_v2_C::StopConflictingAnimation(const struct FName& AnimName
 
 bool UWBP_HomeScreen_v2_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.NavigateBack");
 
 	struct
 	{
@@ -174,7 +174,7 @@ bool UWBP_HomeScreen_v2_C::NavigateBack()
 
 void UWBP_HomeScreen_v2_C::HandleQueueStatusChange(EPUMG_MatchStatus NewStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleQueueStatusChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleQueueStatusChange");
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_HomeScreen_v2_C::HandleQueueStatusChange(EPUMG_MatchStatus NewStatus)
 
 void UWBP_HomeScreen_v2_C::HandleLobbyCameraSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleLobbyCameraSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleLobbyCameraSet");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_HomeScreen_v2_C::HandleLobbyCameraSet()
 
 void UWBP_HomeScreen_v2_C::HandlePreMatchAnimStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandlePreMatchAnimStarted"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandlePreMatchAnimStarted");
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_HomeScreen_v2_C::HandlePreMatchAnimStarted()
 
 void UWBP_HomeScreen_v2_C::UnbindLobbyAnimationHandling()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.UnbindLobbyAnimationHandling"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.UnbindLobbyAnimationHandling");
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UWBP_HomeScreen_v2_C::UnbindLobbyAnimationHandling()
 
 void UWBP_HomeScreen_v2_C::BindLobbyAnimationHandling()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.BindLobbyAnimationHandling"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.BindLobbyAnimationHandling");
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UWBP_HomeScreen_v2_C::BindLobbyAnimationHandling()
 
 void UWBP_HomeScreen_v2_C::InitializeContentWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeContentWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeContentWidgets");
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_HomeScreen_v2_C::InitializeContentWidgets()
 
 void UWBP_HomeScreen_v2_C::StartShowAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StartShowAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StartShowAnim");
 
 	struct
 	{
@@ -288,7 +288,7 @@ void UWBP_HomeScreen_v2_C::StartShowAnim()
 
 void UWBP_HomeScreen_v2_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeTickAnimations"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeTickAnimations");
 
 	struct
 	{
@@ -304,7 +304,7 @@ void UWBP_HomeScreen_v2_C::InitializeTickAnimations()
 
 void UWBP_HomeScreen_v2_C::ShowQuickPlayFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.ShowQuickPlayFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.ShowQuickPlayFinished");
 
 	struct
 	{
@@ -323,7 +323,7 @@ void UWBP_HomeScreen_v2_C::ShowQuickPlayFinished()
 
 void UWBP_HomeScreen_v2_C::ShowQuickPlayAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.ShowQuickPlayAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.ShowQuickPlayAnim");
 
 	struct
 	{
@@ -343,7 +343,7 @@ void UWBP_HomeScreen_v2_C::ShowQuickPlayAnim(float ElapsedTime, float ElapsedAlp
 
 void UWBP_HomeScreen_v2_C::InitHideAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitHideAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitHideAnimation");
 
 	struct
 	{
@@ -359,7 +359,7 @@ void UWBP_HomeScreen_v2_C::InitHideAnimation()
 
 void UWBP_HomeScreen_v2_C::HideQuickPlayFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HideQuickPlayFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HideQuickPlayFinished");
 
 	struct
 	{
@@ -378,7 +378,7 @@ void UWBP_HomeScreen_v2_C::HideQuickPlayFinished()
 
 void UWBP_HomeScreen_v2_C::HideQuickPlayAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HideQuickPlayAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HideQuickPlayAnim");
 
 	struct
 	{
@@ -398,7 +398,7 @@ void UWBP_HomeScreen_v2_C::HideQuickPlayAnim(float ElapsedTime, float ElapsedAlp
 
 void UWBP_HomeScreen_v2_C::StartHideAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StartHideAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StartHideAnim");
 
 	struct
 	{
@@ -416,7 +416,7 @@ void UWBP_HomeScreen_v2_C::StartHideAnim()
 
 void UWBP_HomeScreen_v2_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeWidget");
 
 	struct
 	{
@@ -434,7 +434,7 @@ void UWBP_HomeScreen_v2_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_HomeScreen_v2_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeWidgetButtonListeners"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeWidgetButtonListeners");
 
 	struct
 	{
@@ -450,7 +450,7 @@ void UWBP_HomeScreen_v2_C::InitializeWidgetButtonListeners()
 
 void UWBP_HomeScreen_v2_C::HandleJoinQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleJoinQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleJoinQueue");
 
 	struct
 	{
@@ -466,7 +466,7 @@ void UWBP_HomeScreen_v2_C::HandleJoinQueue()
 
 void UWBP_HomeScreen_v2_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnShown");
 
 	struct
 	{
@@ -482,7 +482,7 @@ void UWBP_HomeScreen_v2_C::OnShown()
 
 void UWBP_HomeScreen_v2_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.UninitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.UninitializeWidget");
 
 	struct
 	{
@@ -501,7 +501,7 @@ void UWBP_HomeScreen_v2_C::UninitializeWidget()
 
 void UWBP_HomeScreen_v2_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StartShowSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StartShowSequence");
 
 	struct
 	{
@@ -524,7 +524,7 @@ void UWBP_HomeScreen_v2_C::StartShowSequence(const struct FName& FromRoute, cons
 
 void UWBP_HomeScreen_v2_C::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StartHideSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.StartHideSequence");
 
 	struct
 	{
@@ -544,7 +544,7 @@ void UWBP_HomeScreen_v2_C::StartHideSequence(const struct FName& FromRoute, cons
 
 void UWBP_HomeScreen_v2_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -560,7 +560,7 @@ void UWBP_HomeScreen_v2_C::InitializeWidgetNavigation()
 
 void UWBP_HomeScreen_v2_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Construct");
 
 	struct
 	{
@@ -576,7 +576,7 @@ void UWBP_HomeScreen_v2_C::Construct()
 
 void UWBP_HomeScreen_v2_C::OnCrossplayChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnCrossplayChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnCrossplayChanged");
 
 	struct
 	{
@@ -592,7 +592,7 @@ void UWBP_HomeScreen_v2_C::OnCrossplayChanged()
 
 void UWBP_HomeScreen_v2_C::UpdateCrossplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.UpdateCrossplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.UpdateCrossplay");
 
 	struct
 	{
@@ -610,7 +610,7 @@ void UWBP_HomeScreen_v2_C::UpdateCrossplay()
 
 void UWBP_HomeScreen_v2_C::LoginState(EPUMG_LoginState LoginState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.LoginState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.LoginState");
 
 	struct
 	{
@@ -628,7 +628,7 @@ void UWBP_HomeScreen_v2_C::LoginState(EPUMG_LoginState LoginState)
 
 void UWBP_HomeScreen_v2_C::Update_Region()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Update Region"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Update Region");
 
 	struct
 	{
@@ -646,7 +646,7 @@ void UWBP_HomeScreen_v2_C::Update_Region()
 
 void UWBP_HomeScreen_v2_C::Handle_Party_Player_Card_Selected(class UWBP_player_card_module_C* Selected_Player_Card)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Party Player Card Selected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Party Player Card Selected");
 
 	struct
 	{
@@ -667,7 +667,7 @@ void UWBP_HomeScreen_v2_C::Handle_Party_Player_Card_Selected(class UWBP_player_c
 
 void UWBP_HomeScreen_v2_C::Handle_Context_Menu_Navigation(class UWidget* Default_Widget, TArray<class UWidget*>* NavWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Context Menu Navigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Context Menu Navigation");
 
 	struct
 	{
@@ -689,7 +689,7 @@ void UWBP_HomeScreen_v2_C::Handle_Context_Menu_Navigation(class UWidget* Default
 
 void UWBP_HomeScreen_v2_C::Handle_Context_Menu_Hidden()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Context Menu Hidden"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Context Menu Hidden");
 
 	struct
 	{
@@ -707,7 +707,7 @@ void UWBP_HomeScreen_v2_C::Handle_Context_Menu_Hidden()
 
 void UWBP_HomeScreen_v2_C::HandleContextMenuShown(class UWidget* FocusWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleContextMenuShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleContextMenuShown");
 
 	struct
 	{
@@ -727,7 +727,7 @@ void UWBP_HomeScreen_v2_C::HandleContextMenuShown(class UWidget* FocusWidget)
 
 void UWBP_HomeScreen_v2_C::FocusGroupNavigateRightFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.FocusGroupNavigateRightFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.FocusGroupNavigateRightFailure");
 
 	struct
 	{
@@ -747,7 +747,7 @@ void UWBP_HomeScreen_v2_C::FocusGroupNavigateRightFailure(int FocusGroup)
 
 void UWBP_HomeScreen_v2_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.FocusGroupNavigateLeftFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.FocusGroupNavigateLeftFailure");
 
 	struct
 	{
@@ -767,7 +767,7 @@ void UWBP_HomeScreen_v2_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 
 void UWBP_HomeScreen_v2_C::NewsPanelVisibilityChanged(bool IsVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.NewsPanelVisibilityChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.NewsPanelVisibilityChanged");
 
 	struct
 	{
@@ -785,7 +785,7 @@ void UWBP_HomeScreen_v2_C::NewsPanelVisibilityChanged(bool IsVisible)
 
 void UWBP_HomeScreen_v2_C::OnEOMButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnEOMButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnEOMButton");
 
 	struct
 	{
@@ -801,7 +801,7 @@ void UWBP_HomeScreen_v2_C::OnEOMButton()
 
 void UWBP_HomeScreen_v2_C::HandleViewSocial()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleViewSocial"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.HandleViewSocial");
 
 	struct
 	{
@@ -819,7 +819,7 @@ void UWBP_HomeScreen_v2_C::HandleViewSocial()
 
 void UWBP_HomeScreen_v2_C::FocusGroupNavigateDownFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.FocusGroupNavigateDownFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.FocusGroupNavigateDownFailure");
 
 	struct
 	{
@@ -839,7 +839,7 @@ void UWBP_HomeScreen_v2_C::FocusGroupNavigateDownFailure(int FocusGroup)
 
 void UWBP_HomeScreen_v2_C::FocusGroupNavigateUpFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.FocusGroupNavigateUpFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.FocusGroupNavigateUpFailure");
 
 	struct
 	{
@@ -857,7 +857,7 @@ void UWBP_HomeScreen_v2_C::FocusGroupNavigateUpFailure(int FocusGroup)
 
 void UWBP_HomeScreen_v2_C::Handle_Player_Card_Back_Button()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Player Card Back Button"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Player Card Back Button");
 
 	struct
 	{
@@ -875,7 +875,7 @@ void UWBP_HomeScreen_v2_C::Handle_Player_Card_Back_Button()
 
 void UWBP_HomeScreen_v2_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.PreConstruct");
 
 	struct
 	{
@@ -895,7 +895,7 @@ void UWBP_HomeScreen_v2_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_HomeScreen_v2_C::OnSetQueueInputState(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnSetQueueInputState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnSetQueueInputState");
 
 	struct
 	{
@@ -915,7 +915,7 @@ void UWBP_HomeScreen_v2_C::OnSetQueueInputState(TEnumAsByte<EPGAME_INPUT_STATE> 
 
 void UWBP_HomeScreen_v2_C::OnpartyLeaveVisibilityChange(bool Visible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnpartyLeaveVisibilityChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.OnpartyLeaveVisibilityChange");
 
 	struct
 	{
@@ -933,7 +933,7 @@ void UWBP_HomeScreen_v2_C::OnpartyLeaveVisibilityChange(bool Visible)
 
 void UWBP_HomeScreen_v2_C::Handle_Party_Member_Left()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Party Member Left"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.Handle Party Member Left");
 
 	struct
 	{
@@ -949,7 +949,7 @@ void UWBP_HomeScreen_v2_C::Handle_Party_Member_Left()
 
 void UWBP_HomeScreen_v2_C::On_Boosts_Context_Button()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.On Boosts Context Button"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.On Boosts Context Button");
 
 	struct
 	{
@@ -965,7 +965,7 @@ void UWBP_HomeScreen_v2_C::On_Boosts_Context_Button()
 
 void UWBP_HomeScreen_v2_C::On_Emote_Context_Button()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.On Emote Context Button"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.On Emote Context Button");
 
 	struct
 	{
@@ -983,7 +983,7 @@ void UWBP_HomeScreen_v2_C::On_Emote_Context_Button()
 
 void UWBP_HomeScreen_v2_C::ExecuteUbergraph_WBP_HomeScreen_v2(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.ExecuteUbergraph_WBP_HomeScreen_v2"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeScreen_v2.WBP_HomeScreen_v2_C.ExecuteUbergraph_WBP_HomeScreen_v2");
 
 	struct
 	{

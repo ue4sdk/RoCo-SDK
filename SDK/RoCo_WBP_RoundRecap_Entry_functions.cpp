@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_RoundRecap_Entry_C::SetVisualState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RoundRecap_Entry.WBP_RoundRecap_Entry_C.SetVisualState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RoundRecap_Entry.WBP_RoundRecap_Entry_C.SetVisualState");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_RoundRecap_Entry_C::SetVisualState()
 
 void UWBP_RoundRecap_Entry_C::RoundDataSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RoundRecap_Entry.WBP_RoundRecap_Entry_C.RoundDataSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RoundRecap_Entry.WBP_RoundRecap_Entry_C.RoundDataSet");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_RoundRecap_Entry_C::RoundDataSet()
 
 void UWBP_RoundRecap_Entry_C::ExecuteUbergraph_WBP_RoundRecap_Entry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RoundRecap_Entry.WBP_RoundRecap_Entry_C.ExecuteUbergraph_WBP_RoundRecap_Entry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RoundRecap_Entry.WBP_RoundRecap_Entry_C.ExecuteUbergraph_WBP_RoundRecap_Entry");
 
 	struct
 	{

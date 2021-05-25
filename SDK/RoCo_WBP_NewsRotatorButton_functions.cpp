@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_NewsRotatorButton_C::SetActiveButton(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.SetActiveButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.SetActiveButton");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_NewsRotatorButton_C::SetActiveButton(bool IsActive)
 
 void UWBP_NewsRotatorButton_C::BndEvt__PipButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.BndEvt__PipButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.BndEvt__PipButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_NewsRotatorButton_C::BndEvt__PipButton_K2Node_ComponentBoundEvent_0_On
 
 void UWBP_NewsRotatorButton_C::BndEvt__PipButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.BndEvt__PipButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.BndEvt__PipButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_NewsRotatorButton_C::BndEvt__PipButton_K2Node_ComponentBoundEvent_1_On
 
 void UWBP_NewsRotatorButton_C::BndEvt__PipButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.BndEvt__PipButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.BndEvt__PipButton_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_NewsRotatorButton_C::BndEvt__PipButton_K2Node_ComponentBoundEvent_2_On
 
 void UWBP_NewsRotatorButton_C::BndEvt__PipButton_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.BndEvt__PipButton_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.BndEvt__PipButton_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWBP_NewsRotatorButton_C::BndEvt__PipButton_K2Node_ComponentBoundEvent_3_On
 
 void UWBP_NewsRotatorButton_C::ExecuteUbergraph_WBP_NewsRotatorButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.ExecuteUbergraph_WBP_NewsRotatorButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.ExecuteUbergraph_WBP_NewsRotatorButton");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_NewsRotatorButton_C::ExecuteUbergraph_WBP_NewsRotatorButton(int EntryP
 
 void UWBP_NewsRotatorButton_C::OnClicked__DelegateSignature(int ButtonIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NewsRotatorButton.WBP_NewsRotatorButton_C.OnClicked__DelegateSignature");
 
 	struct
 	{

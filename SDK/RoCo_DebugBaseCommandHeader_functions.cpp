@@ -17,7 +17,7 @@ namespace SDK
 
 void UDebugBaseCommandHeader_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugBaseCommandHeader.DebugBaseCommandHeader_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugBaseCommandHeader.DebugBaseCommandHeader_C.Construct");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UDebugBaseCommandHeader_C::Construct()
 
 void UDebugBaseCommandHeader_C::EstablishIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugBaseCommandHeader.DebugBaseCommandHeader_C.EstablishIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugBaseCommandHeader.DebugBaseCommandHeader_C.EstablishIndex");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UDebugBaseCommandHeader_C::EstablishIndex(int Index)
 
 void UDebugBaseCommandHeader_C::ExecuteUbergraph_DebugBaseCommandHeader(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugBaseCommandHeader.DebugBaseCommandHeader_C.ExecuteUbergraph_DebugBaseCommandHeader"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugBaseCommandHeader.DebugBaseCommandHeader_C.ExecuteUbergraph_DebugBaseCommandHeader");
 
 	struct
 	{

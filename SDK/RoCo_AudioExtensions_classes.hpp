@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioExtensions.SoundfieldEncodingSettingsBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class AudioExtensions.SoundfieldEncodingSettingsBase");
 		return ptr;
 	}
 
@@ -37,7 +37,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioExtensions.AudioEndpointSettingsBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class AudioExtensions.AudioEndpointSettingsBase");
 		return ptr;
 	}
 
@@ -52,7 +52,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioExtensions.SpatializationPluginSourceSettingsBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class AudioExtensions.SpatializationPluginSourceSettingsBase");
 		return ptr;
 	}
 
@@ -67,7 +67,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioExtensions.OcclusionPluginSourceSettingsBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class AudioExtensions.OcclusionPluginSourceSettingsBase");
 		return ptr;
 	}
 
@@ -82,7 +82,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioExtensions.SoundModulationPluginSourceSettingsBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class AudioExtensions.SoundModulationPluginSourceSettingsBase");
 		return ptr;
 	}
 
@@ -97,7 +97,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioExtensions.ReverbPluginSourceSettingsBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class AudioExtensions.ReverbPluginSourceSettingsBase");
 		return ptr;
 	}
 
@@ -112,7 +112,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioExtensions.SoundfieldEndpointSettingsBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class AudioExtensions.SoundfieldEndpointSettingsBase");
 		return ptr;
 	}
 
@@ -127,7 +127,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioExtensions.SoundfieldEffectSettingsBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class AudioExtensions.SoundfieldEffectSettingsBase");
 		return ptr;
 	}
 
@@ -143,7 +143,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AudioExtensions.SoundfieldEffectBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class AudioExtensions.SoundfieldEffectBase");
 		return ptr;
 	}
 

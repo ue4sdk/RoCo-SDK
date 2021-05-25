@@ -19,7 +19,7 @@ namespace SDK
 
 void ULoginTwoFactor_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.InitializeWidget");
 
 	struct
 	{
@@ -40,7 +40,7 @@ void ULoginTwoFactor_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void ULoginTwoFactor_C::Handle_Text_Committed(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.Handle Text Committed"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.Handle Text Committed");
 
 	struct
 	{
@@ -62,7 +62,7 @@ void ULoginTwoFactor_C::Handle_Text_Committed(const struct FText& Text, TEnumAsB
 
 void ULoginTwoFactor_C::BndEvt__NextButton_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.BndEvt__NextButton_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.BndEvt__NextButton_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -82,7 +82,7 @@ void ULoginTwoFactor_C::BndEvt__NextButton_K2Node_ComponentBoundEvent_6_OnClicke
 
 void ULoginTwoFactor_C::Handle_Text_Changed(const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.Handle Text Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.Handle Text Changed");
 
 	struct
 	{
@@ -102,7 +102,7 @@ void ULoginTwoFactor_C::Handle_Text_Changed(const struct FText& Text)
 
 void ULoginTwoFactor_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_26_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_26_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_26_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -120,7 +120,7 @@ void ULoginTwoFactor_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_26_OnClick
 
 void ULoginTwoFactor_C::Submit_Code()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.Submit Code"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.Submit Code");
 
 	struct
 	{
@@ -136,7 +136,7 @@ void ULoginTwoFactor_C::Submit_Code()
 
 void ULoginTwoFactor_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void ULoginTwoFactor_C::InitializeWidgetNavigation()
 
 void ULoginTwoFactor_C::Handle_CodeField_Gamepad_Confirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.Handle CodeField Gamepad Confirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.Handle CodeField Gamepad Confirm");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void ULoginTwoFactor_C::Handle_CodeField_Gamepad_Confirm()
 
 void ULoginTwoFactor_C::Handle_Login_Error(const struct FText& MessageText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.Handle Login Error"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.Handle Login Error");
 
 	struct
 	{
@@ -190,7 +190,7 @@ void ULoginTwoFactor_C::Handle_Login_Error(const struct FText& MessageText)
 
 void ULoginTwoFactor_C::ExecuteUbergraph_LoginTwoFactor(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginTwoFactor.LoginTwoFactor_C.ExecuteUbergraph_LoginTwoFactor"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginTwoFactor.LoginTwoFactor_C.ExecuteUbergraph_LoginTwoFactor");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ScorePips_C::Set_Total_Pips(int Pips_Number)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ScorePips.WBP_ScorePips_C.Set Total Pips"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ScorePips.WBP_ScorePips_C.Set Total Pips");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ScorePips_C::Set_Total_Pips(int Pips_Number)
 
 void UWBP_ScorePips_C::Set_Pips_Number(int Pips_Number)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ScorePips.WBP_ScorePips_C.Set Pips Number"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ScorePips.WBP_ScorePips_C.Set Pips Number");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_ScorePips_C::Set_Pips_Number(int Pips_Number)
 
 void UWBP_ScorePips_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ScorePips.WBP_ScorePips_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ScorePips.WBP_ScorePips_C.PreConstruct");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_ScorePips_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ScorePips_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ScorePips.WBP_ScorePips_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ScorePips.WBP_ScorePips_C.Construct");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_ScorePips_C::Construct()
 
 void UWBP_ScorePips_C::ExecuteUbergraph_WBP_ScorePips(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ScorePips.WBP_ScorePips_C.ExecuteUbergraph_WBP_ScorePips"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ScorePips.WBP_ScorePips_C.ExecuteUbergraph_WBP_ScorePips");
 
 	struct
 	{

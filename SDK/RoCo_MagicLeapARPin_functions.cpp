@@ -17,7 +17,7 @@ namespace SDK
 
 void UMagicLeapARPinComponent::UnPin()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinComponent.UnPin"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinComponent.UnPin");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UMagicLeapARPinComponent::UnPin()
 
 bool UMagicLeapARPinComponent::PinSceneComponent(class USceneComponent* ComponentToPin)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinComponent.PinSceneComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinComponent.PinSceneComponent");
 
 	struct
 	{
@@ -59,7 +59,7 @@ bool UMagicLeapARPinComponent::PinSceneComponent(class USceneComponent* Componen
 
 bool UMagicLeapARPinComponent::PinRestoredOrSynced()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinComponent.PinRestoredOrSynced"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinComponent.PinRestoredOrSynced");
 
 	struct
 	{
@@ -81,7 +81,7 @@ bool UMagicLeapARPinComponent::PinRestoredOrSynced()
 
 bool UMagicLeapARPinComponent::PinActor(class AActor* ActorToPin)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinComponent.PinActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinComponent.PinActor");
 
 	struct
 	{
@@ -104,7 +104,7 @@ bool UMagicLeapARPinComponent::PinActor(class AActor* ActorToPin)
 
 void UMagicLeapARPinComponent::PersistentEntityPinned__DelegateSignature(bool bRestoredOrSynced)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction MagicLeapARPin.MagicLeapARPinComponent.PersistentEntityPinned__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction MagicLeapARPin.MagicLeapARPinComponent.PersistentEntityPinned__DelegateSignature");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UMagicLeapARPinComponent::PersistentEntityPinned__DelegateSignature(bool bR
 
 void UMagicLeapARPinComponent::PersistentEntityPinLost__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction MagicLeapARPin.MagicLeapARPinComponent.PersistentEntityPinLost__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction MagicLeapARPin.MagicLeapARPinComponent.PersistentEntityPinLost__DelegateSignature");
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UMagicLeapARPinComponent::PersistentEntityPinLost__DelegateSignature()
 
 bool UMagicLeapARPinComponent::IsPinned()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinComponent.IsPinned"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinComponent.IsPinned");
 
 	struct
 	{
@@ -162,7 +162,7 @@ bool UMagicLeapARPinComponent::IsPinned()
 
 bool UMagicLeapARPinComponent::GetPinState(struct FMagicLeapARPinState* State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinComponent.GetPinState"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinComponent.GetPinState");
 
 	struct
 	{
@@ -188,7 +188,7 @@ bool UMagicLeapARPinComponent::GetPinState(struct FMagicLeapARPinState* State)
 
 bool UMagicLeapARPinComponent::GetPinnedPinID(struct FGuid* PinID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinComponent.GetPinnedPinID"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinComponent.GetPinnedPinID");
 
 	struct
 	{
@@ -214,7 +214,7 @@ bool UMagicLeapARPinComponent::GetPinnedPinID(struct FGuid* PinID)
 
 class UMagicLeapARPinSaveGame* UMagicLeapARPinComponent::GetPinData(class UClass* PinDataClass)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinComponent.GetPinData"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinComponent.GetPinData");
 
 	struct
 	{
@@ -237,7 +237,7 @@ class UMagicLeapARPinSaveGame* UMagicLeapARPinComponent::GetPinData(class UClass
 
 void UMagicLeapARPinFunctionLibrary::UnBindToOnMagicLeapARPinUpdatedDelegate(const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.UnBindToOnMagicLeapARPinUpdatedDelegate"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.UnBindToOnMagicLeapARPinUpdatedDelegate");
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UMagicLeapARPinFunctionLibrary::UnBindToOnMagicLeapARPinUpdatedDelegate(con
 
 bool UMagicLeapARPinFunctionLibrary::IsTrackerValid()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.IsTrackerValid"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.IsTrackerValid");
 
 	struct
 	{
@@ -281,7 +281,7 @@ bool UMagicLeapARPinFunctionLibrary::IsTrackerValid()
 
 EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::GetNumAvailableARPins(int* Count)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetNumAvailableARPins"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetNumAvailableARPins");
 
 	struct
 	{
@@ -309,7 +309,7 @@ EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::GetNumAvailableARPi
 
 EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::GetClosestARPin(const struct FVector& SearchPoint, struct FGuid* PinID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetClosestARPin"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetClosestARPin");
 
 	struct
 	{
@@ -339,7 +339,7 @@ EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::GetClosestARPin(con
 
 EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::GetAvailableARPins(int NumRequested, TArray<struct FGuid>* Pins)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetAvailableARPins"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetAvailableARPins");
 
 	struct
 	{
@@ -368,7 +368,7 @@ EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::GetAvailableARPins(
 
 struct FString UMagicLeapARPinFunctionLibrary::GetARPinStateToString(const struct FMagicLeapARPinState& State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinStateToString"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinStateToString");
 
 	struct
 	{
@@ -394,7 +394,7 @@ struct FString UMagicLeapARPinFunctionLibrary::GetARPinStateToString(const struc
 
 EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::GetARPinState(const struct FGuid& PinID, struct FMagicLeapARPinState* State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinState"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinState");
 
 	struct
 	{
@@ -426,7 +426,7 @@ EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::GetARPinState(const
 
 bool UMagicLeapARPinFunctionLibrary::GetARPinPositionAndOrientation_TrackingSpace(const struct FGuid& PinID, struct FVector* Position, struct FRotator* Orientation, bool* PinFoundInEnvironment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinPositionAndOrientation_TrackingSpace"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinPositionAndOrientation_TrackingSpace");
 
 	struct
 	{
@@ -464,7 +464,7 @@ bool UMagicLeapARPinFunctionLibrary::GetARPinPositionAndOrientation_TrackingSpac
 
 bool UMagicLeapARPinFunctionLibrary::GetARPinPositionAndOrientation(const struct FGuid& PinID, struct FVector* Position, struct FRotator* Orientation, bool* PinFoundInEnvironment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinPositionAndOrientation"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.GetARPinPositionAndOrientation");
 
 	struct
 	{
@@ -498,7 +498,7 @@ bool UMagicLeapARPinFunctionLibrary::GetARPinPositionAndOrientation(const struct
 
 EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::DestroyTracker()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.DestroyTracker"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.DestroyTracker");
 
 	struct
 	{
@@ -520,7 +520,7 @@ EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::DestroyTracker()
 
 EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::CreateTracker()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.CreateTracker"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.CreateTracker");
 
 	struct
 	{
@@ -542,7 +542,7 @@ EMagicLeapPassableWorldError UMagicLeapARPinFunctionLibrary::CreateTracker()
 
 void UMagicLeapARPinFunctionLibrary::BindToOnMagicLeapARPinUpdatedDelegate(const struct FScriptDelegate& Delegate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.BindToOnMagicLeapARPinUpdatedDelegate"));
+	static auto fn = UObject::FindObject<UFunction>("Function MagicLeapARPin.MagicLeapARPinFunctionLibrary.BindToOnMagicLeapARPinUpdatedDelegate");
 
 	struct
 	{

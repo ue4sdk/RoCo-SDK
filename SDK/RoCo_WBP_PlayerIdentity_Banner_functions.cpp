@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PlayerIdentity_Banner_C::SetBorderFromIconInfo(class UIconInfo* Icon_Info)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.SetBorderFromIconInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.SetBorderFromIconInfo");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_PlayerIdentity_Banner_C::SetBorderFromIconInfo(class UIconInfo* Icon_I
 
 void UWBP_PlayerIdentity_Banner_C::SetBannerFromIconInfo(class UIconInfo* Icon_Info)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.SetBannerFromIconInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.SetBannerFromIconInfo");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_PlayerIdentity_Banner_C::SetBannerFromIconInfo(class UIconInfo* Icon_I
 
 void UWBP_PlayerIdentity_Banner_C::HideBorder()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.HideBorder"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.HideBorder");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_PlayerIdentity_Banner_C::HideBorder()
 
 void UWBP_PlayerIdentity_Banner_C::SetBorder(TSoftObjectPtr<class UTexture2D> Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.SetBorder"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.SetBorder");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_PlayerIdentity_Banner_C::SetBorder(TSoftObjectPtr<class UTexture2D> Te
 
 void UWBP_PlayerIdentity_Banner_C::SetBanner(TSoftObjectPtr<class UTexture2D> Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.SetBanner"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Banner.WBP_PlayerIdentity_Banner_C.SetBanner");
 
 	struct
 	{

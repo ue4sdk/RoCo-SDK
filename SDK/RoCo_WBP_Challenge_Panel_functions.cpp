@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Challenge_Panel_C::DisplayRerollPrompt(bool Show)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.DisplayRerollPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.DisplayRerollPrompt");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_Challenge_Panel_C::DisplayRerollPrompt(bool Show)
 
 void UWBP_Challenge_Panel_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* Widgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.GetNavigationWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.GetNavigationWidgets");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_Challenge_Panel_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* W
 
 void UWBP_Challenge_Panel_C::PopulateChallenges()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.PopulateChallenges"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.PopulateChallenges");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_Challenge_Panel_C::PopulateChallenges()
 
 void UWBP_Challenge_Panel_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.PreConstruct");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_Challenge_Panel_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Challenge_Panel_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.InitializeWidget");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_Challenge_Panel_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Challenge_Panel_C::ExecuteUbergraph_WBP_Challenge_Panel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.ExecuteUbergraph_WBP_Challenge_Panel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Panel.WBP_Challenge_Panel_C.ExecuteUbergraph_WBP_Challenge_Panel");
 
 	struct
 	{

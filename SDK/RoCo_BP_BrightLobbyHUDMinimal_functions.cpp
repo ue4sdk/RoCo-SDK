@@ -20,7 +20,7 @@ namespace SDK
 
 void ABP_BrightLobbyHUDMinimal_C::CallRemoveTopViewRoute(bool ForceTransition, bool* ViewChanged)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUDMinimal.BP_BrightLobbyHUDMinimal_C.CallRemoveTopViewRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUDMinimal.BP_BrightLobbyHUDMinimal_C.CallRemoveTopViewRoute");
 
 	struct
 	{
@@ -47,7 +47,7 @@ void ABP_BrightLobbyHUDMinimal_C::CallRemoveTopViewRoute(bool ForceTransition, b
 
 void ABP_BrightLobbyHUDMinimal_C::CallAddViewRoute(const struct FName& RouteName, bool ClearRouteStack, bool ForceTransition, bool* ViewChanged)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_BrightLobbyHUDMinimal.BP_BrightLobbyHUDMinimal_C.CallAddViewRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_BrightLobbyHUDMinimal.BP_BrightLobbyHUDMinimal_C.CallAddViewRoute");
 
 	struct
 	{

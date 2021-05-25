@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_Notification_Icon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Notification_Icon.WBP_Notification_Icon_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Notification_Icon.WBP_Notification_Icon_C.Construct");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_Notification_Icon_C::Construct()
 
 void UWBP_Notification_Icon_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Notification_Icon.WBP_Notification_Icon_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Notification_Icon.WBP_Notification_Icon_C.OnShown");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_Notification_Icon_C::OnShown()
 
 void UWBP_Notification_Icon_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Notification_Icon.WBP_Notification_Icon_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Notification_Icon.WBP_Notification_Icon_C.OnHide");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_Notification_Icon_C::OnHide()
 
 void UWBP_Notification_Icon_C::HandleShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Notification_Icon.WBP_Notification_Icon_C.HandleShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Notification_Icon.WBP_Notification_Icon_C.HandleShown");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_Notification_Icon_C::HandleShown()
 
 void UWBP_Notification_Icon_C::HandleHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Notification_Icon.WBP_Notification_Icon_C.HandleHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Notification_Icon.WBP_Notification_Icon_C.HandleHide");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_Notification_Icon_C::HandleHide()
 
 void UWBP_Notification_Icon_C::ExecuteUbergraph_WBP_Notification_Icon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Notification_Icon.WBP_Notification_Icon_C.ExecuteUbergraph_WBP_Notification_Icon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Notification_Icon.WBP_Notification_Icon_C.ExecuteUbergraph_WBP_Notification_Icon");
 
 	struct
 	{

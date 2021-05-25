@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PlayerProfileScreen_AwardPanel_C::SetDisableState(bool IsDisable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.SetDisableState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.SetDisableState");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_PlayerProfileScreen_AwardPanel_C::SetDisableState(bool IsDisable)
 
 bool UWBP_PlayerProfileScreen_AwardPanel_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.NavigateConfirm");
 
 	struct
 	{
@@ -58,7 +58,7 @@ bool UWBP_PlayerProfileScreen_AwardPanel_C::NavigateConfirm()
 
 void UWBP_PlayerProfileScreen_AwardPanel_C::RefreshAwards()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.RefreshAwards"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.RefreshAwards");
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_PlayerProfileScreen_AwardPanel_C::RefreshAwards()
 
 void UWBP_PlayerProfileScreen_AwardPanel_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.PreConstruct");
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UWBP_PlayerProfileScreen_AwardPanel_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PlayerProfileScreen_AwardPanel_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.Construct");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_PlayerProfileScreen_AwardPanel_C::Construct()
 
 void UWBP_PlayerProfileScreen_AwardPanel_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.GamepadHover");
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_PlayerProfileScreen_AwardPanel_C::GamepadHover()
 
 void UWBP_PlayerProfileScreen_AwardPanel_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.GamepadUnhover");
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UWBP_PlayerProfileScreen_AwardPanel_C::GamepadUnhover()
 
 void UWBP_PlayerProfileScreen_AwardPanel_C::ExecuteUbergraph_WBP_PlayerProfileScreen_AwardPanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.ExecuteUbergraph_WBP_PlayerProfileScreen_AwardPanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AwardPanel.WBP_PlayerProfileScreen_AwardPanel_C.ExecuteUbergraph_WBP_PlayerProfileScreen_AwardPanel");
 
 	struct
 	{

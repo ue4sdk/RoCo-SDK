@@ -19,7 +19,7 @@ namespace SDK
 
 void UIKSContextMenuTarget_C::OnContextMenuOpen(EViewSide side)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function IKSContextMenuTarget.IKSContextMenuTarget_C.OnContextMenuOpen"));
+	static auto fn = UObject::FindObject<UFunction>("Function IKSContextMenuTarget.IKSContextMenuTarget_C.OnContextMenuOpen");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UIKSContextMenuTarget_C::OnContextMenuOpen(EViewSide side)
 
 void UIKSContextMenuTarget_C::OnContextMenuClose()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function IKSContextMenuTarget.IKSContextMenuTarget_C.OnContextMenuClose"));
+	static auto fn = UObject::FindObject<UFunction>("Function IKSContextMenuTarget.IKSContextMenuTarget_C.OnContextMenuClose");
 
 	struct
 	{

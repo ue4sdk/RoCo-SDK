@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_CustomMassInviteEntry_C::GetPlayerInfo(class UKSPlayerInfo** playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.GetPlayerInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.GetPlayerInfo");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_CustomMassInviteEntry_C::GetPlayerInfo(class UKSPlayerInfo** playerinf
 
 void UWBP_CustomMassInviteEntry_C::BndEvt__HitArea_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BndEvt__HitArea_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BndEvt__HitArea_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_CustomMassInviteEntry_C::BndEvt__HitArea_K2Node_ComponentBoundEvent_0_
 
 void UWBP_CustomMassInviteEntry_C::BndEvt__HitArea_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BndEvt__HitArea_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BndEvt__HitArea_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_CustomMassInviteEntry_C::BndEvt__HitArea_K2Node_ComponentBoundEvent_1_
 
 void UWBP_CustomMassInviteEntry_C::BndEvt__HitArea_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BndEvt__HitArea_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BndEvt__HitArea_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_CustomMassInviteEntry_C::BndEvt__HitArea_K2Node_ComponentBoundEvent_2_
 
 void UWBP_CustomMassInviteEntry_C::BP_OnItemSelectionChanged(bool bIsSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BP_OnItemSelectionChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BP_OnItemSelectionChanged");
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_CustomMassInviteEntry_C::BP_OnItemSelectionChanged(bool bIsSelected)
 
 void UWBP_CustomMassInviteEntry_C::BP_OnItemExpansionChanged(bool bIsExpanded)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BP_OnItemExpansionChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BP_OnItemExpansionChanged");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_CustomMassInviteEntry_C::BP_OnItemExpansionChanged(bool bIsExpanded)
 
 void UWBP_CustomMassInviteEntry_C::BP_OnEntryReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BP_OnEntryReleased"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.BP_OnEntryReleased");
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_CustomMassInviteEntry_C::BP_OnEntryReleased()
 
 void UWBP_CustomMassInviteEntry_C::OnListItemObjectSet(class UObject* ListItemObject)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.OnListItemObjectSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.OnListItemObjectSet");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UWBP_CustomMassInviteEntry_C::OnListItemObjectSet(class UObject* ListItemOb
 
 void UWBP_CustomMassInviteEntry_C::ForceHovered()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.ForceHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.ForceHovered");
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UWBP_CustomMassInviteEntry_C::ForceHovered()
 
 void UWBP_CustomMassInviteEntry_C::ForceUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.ForceUnhovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.ForceUnhovered");
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UWBP_CustomMassInviteEntry_C::ForceUnhovered()
 
 void UWBP_CustomMassInviteEntry_C::PlaySelection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.PlaySelection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.PlaySelection");
 
 	struct
 	{
@@ -211,7 +211,7 @@ void UWBP_CustomMassInviteEntry_C::PlaySelection()
 
 void UWBP_CustomMassInviteEntry_C::PlayDeselection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.PlayDeselection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.PlayDeselection");
 
 	struct
 	{
@@ -229,7 +229,7 @@ void UWBP_CustomMassInviteEntry_C::PlayDeselection()
 
 void UWBP_CustomMassInviteEntry_C::SetSelected(bool Selected)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.SetSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.SetSelected");
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UWBP_CustomMassInviteEntry_C::SetSelected(bool Selected)
 
 void UWBP_CustomMassInviteEntry_C::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.OnMouseEnter"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.OnMouseEnter");
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_CustomMassInviteEntry_C::OnMouseEnter(const struct FGeometry& MyGeomet
 
 void UWBP_CustomMassInviteEntry_C::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.OnMouseLeave"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.OnMouseLeave");
 
 	struct
 	{
@@ -292,7 +292,7 @@ void UWBP_CustomMassInviteEntry_C::OnMouseLeave(const struct FPointerEvent& Mous
 
 void UWBP_CustomMassInviteEntry_C::ExecuteUbergraph_WBP_CustomMassInviteEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.ExecuteUbergraph_WBP_CustomMassInviteEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.ExecuteUbergraph_WBP_CustomMassInviteEntry");
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UWBP_CustomMassInviteEntry_C::ExecuteUbergraph_WBP_CustomMassInviteEntry(in
 
 void UWBP_CustomMassInviteEntry_C::OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C.OnClicked__DelegateSignature");
 
 	struct
 	{

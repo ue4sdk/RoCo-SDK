@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_KillstreakMeterMgr_C::InitActivatableMods(TArray<class UKSModInst_Activated*>* Mods)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.InitActivatableMods"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.InitActivatableMods");
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UWBP_KillstreakMeterMgr_C::InitActivatableMods(TArray<class UKSModInst_Acti
 
 void UWBP_KillstreakMeterMgr_C::GetWeaponErrorText(class AKSWeapon* Weapon, EKSAbilityUsageFailureType AbilityFailType, struct FText* ErrorText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.GetWeaponErrorText"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.GetWeaponErrorText");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_KillstreakMeterMgr_C::GetWeaponErrorText(class AKSWeapon* Weapon, EKSA
 
 void UWBP_KillstreakMeterMgr_C::DisplayErrorText(const struct FText& ErrorText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.DisplayErrorText"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.DisplayErrorText");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_KillstreakMeterMgr_C::DisplayErrorText(const struct FText& ErrorText)
 
 void UWBP_KillstreakMeterMgr_C::GetModInstErrorText(class UKSModInst_Activated* ModInst, EKSAbilityUsageFailureType AbilityFailType, struct FText* ErrorText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.GetModInstErrorText"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.GetModInstErrorText");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_KillstreakMeterMgr_C::GetModInstErrorText(class UKSModInst_Activated* 
 
 void UWBP_KillstreakMeterMgr_C::UpdateCanUse()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.UpdateCanUse"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.UpdateCanUse");
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UWBP_KillstreakMeterMgr_C::UpdateCanUse()
 
 void UWBP_KillstreakMeterMgr_C::Set_Jammed(bool IsJammed, bool Initialize)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Set Jammed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Set Jammed");
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_KillstreakMeterMgr_C::Set_Jammed(bool IsJammed, bool Initialize)
 
 void UWBP_KillstreakMeterMgr_C::HandleEMPLockoutTick(float TimeLeft)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleEMPLockoutTick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleEMPLockoutTick");
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_KillstreakMeterMgr_C::HandleEMPLockoutTick(float TimeLeft)
 
 void UWBP_KillstreakMeterMgr_C::BindToEMPLockout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.BindToEMPLockout"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.BindToEMPLockout");
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_KillstreakMeterMgr_C::BindToEMPLockout()
 
 void UWBP_KillstreakMeterMgr_C::HandleEMPLocked(bool IsLocked)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleEMPLocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleEMPLocked");
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UWBP_KillstreakMeterMgr_C::HandleEMPLocked(bool IsLocked)
 
 void UWBP_KillstreakMeterMgr_C::RemoveMeters()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.RemoveMeters"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.RemoveMeters");
 
 	struct
 	{
@@ -229,7 +229,7 @@ void UWBP_KillstreakMeterMgr_C::RemoveMeters()
 
 void UWBP_KillstreakMeterMgr_C::CreateNewMeter(class UKSModInst_Activated* KSModInstActivtd, bool Reserve)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.CreateNewMeter"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.CreateNewMeter");
 
 	struct
 	{
@@ -251,7 +251,7 @@ void UWBP_KillstreakMeterMgr_C::CreateNewMeter(class UKSModInst_Activated* KSMod
 
 void UWBP_KillstreakMeterMgr_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OnInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OnInputStateChanged");
 
 	struct
 	{
@@ -269,7 +269,7 @@ void UWBP_KillstreakMeterMgr_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STA
 
 void UWBP_KillstreakMeterMgr_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.PostSetPawn");
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_KillstreakMeterMgr_C::PostSetPawn()
 
 void UWBP_KillstreakMeterMgr_C::OpenPostSetPawnRetry()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OpenPostSetPawnRetry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OpenPostSetPawnRetry");
 
 	struct
 	{
@@ -301,7 +301,7 @@ void UWBP_KillstreakMeterMgr_C::OpenPostSetPawnRetry()
 
 void UWBP_KillstreakMeterMgr_C::ClosePostSetPawnRetry()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.ClosePostSetPawnRetry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.ClosePostSetPawnRetry");
 
 	struct
 	{
@@ -320,7 +320,7 @@ void UWBP_KillstreakMeterMgr_C::ClosePostSetPawnRetry()
 
 void UWBP_KillstreakMeterMgr_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Tick");
 
 	struct
 	{
@@ -340,7 +340,7 @@ void UWBP_KillstreakMeterMgr_C::Tick(const struct FGeometry& MyGeometry, float I
 
 void UWBP_KillstreakMeterMgr_C::AttemptPostSetPawnRetry()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.AttemptPostSetPawnRetry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.AttemptPostSetPawnRetry");
 
 	struct
 	{
@@ -356,7 +356,7 @@ void UWBP_KillstreakMeterMgr_C::AttemptPostSetPawnRetry()
 
 void UWBP_KillstreakMeterMgr_C::RetryPostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.RetryPostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.RetryPostSetPawn");
 
 	struct
 	{
@@ -374,7 +374,7 @@ void UWBP_KillstreakMeterMgr_C::RetryPostSetPawn()
 
 void UWBP_KillstreakMeterMgr_C::HandleModsUpdated(class AKSCharacter* KSCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleModsUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleModsUpdated");
 
 	struct
 	{
@@ -392,7 +392,7 @@ void UWBP_KillstreakMeterMgr_C::HandleModsUpdated(class AKSCharacter* KSCharacte
 
 void UWBP_KillstreakMeterMgr_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.PreClearPawn");
 
 	struct
 	{
@@ -410,7 +410,7 @@ void UWBP_KillstreakMeterMgr_C::PreClearPawn()
 
 void UWBP_KillstreakMeterMgr_C::HandleOnPlayerEliminated(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleOnPlayerEliminated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleOnPlayerEliminated");
 
 	struct
 	{
@@ -430,7 +430,7 @@ void UWBP_KillstreakMeterMgr_C::HandleOnPlayerEliminated(class AKSPlayerState* P
 
 void UWBP_KillstreakMeterMgr_C::HandleDownedStateChange(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleDownedStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleDownedStateChange");
 
 	struct
 	{
@@ -450,7 +450,7 @@ void UWBP_KillstreakMeterMgr_C::HandleDownedStateChange(class AKSPlayerState* Pl
 
 void UWBP_KillstreakMeterMgr_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.InitializeWidget");
 
 	struct
 	{
@@ -470,7 +470,7 @@ void UWBP_KillstreakMeterMgr_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_KillstreakMeterMgr_C::HandleActivateModsUpdated(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleActivateModsUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleActivateModsUpdated");
 
 	struct
 	{
@@ -488,7 +488,7 @@ void UWBP_KillstreakMeterMgr_C::HandleActivateModsUpdated(class AKSPlayerState* 
 
 void UWBP_KillstreakMeterMgr_C::OpenPromptFailureTimer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OpenPromptFailureTimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OpenPromptFailureTimer");
 
 	struct
 	{
@@ -504,7 +504,7 @@ void UWBP_KillstreakMeterMgr_C::OpenPromptFailureTimer()
 
 void UWBP_KillstreakMeterMgr_C::ClosePromptFailureTimer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.ClosePromptFailureTimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.ClosePromptFailureTimer");
 
 	struct
 	{
@@ -522,7 +522,7 @@ void UWBP_KillstreakMeterMgr_C::ClosePromptFailureTimer()
 
 void UWBP_KillstreakMeterMgr_C::StartPromptFailureTimer(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.StartPromptFailureTimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.StartPromptFailureTimer");
 
 	struct
 	{
@@ -540,7 +540,7 @@ void UWBP_KillstreakMeterMgr_C::StartPromptFailureTimer(float DeltaTime)
 
 void UWBP_KillstreakMeterMgr_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Construct");
 
 	struct
 	{
@@ -558,7 +558,7 @@ void UWBP_KillstreakMeterMgr_C::Construct()
 
 void UWBP_KillstreakMeterMgr_C::HandleKillCam(bool Enabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleKillCam"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleKillCam");
 
 	struct
 	{
@@ -579,7 +579,7 @@ void UWBP_KillstreakMeterMgr_C::HandleKillCam(bool Enabled)
 
 void UWBP_KillstreakMeterMgr_C::Handle_Mod_Failed(class UKSModInst_Activated* AttemptedMod, EKSAbilityUsageFailureType AbilityFailureType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Handle Mod Failed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Handle Mod Failed");
 
 	struct
 	{
@@ -599,7 +599,7 @@ void UWBP_KillstreakMeterMgr_C::Handle_Mod_Failed(class UKSModInst_Activated* At
 
 void UWBP_KillstreakMeterMgr_C::OnBuildFailed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OnBuildFailed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OnBuildFailed");
 
 	struct
 	{
@@ -617,7 +617,7 @@ void UWBP_KillstreakMeterMgr_C::OnBuildFailed()
 
 void UWBP_KillstreakMeterMgr_C::OnBruteStrengthActivated(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OnBruteStrengthActivated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.OnBruteStrengthActivated");
 
 	struct
 	{
@@ -638,7 +638,7 @@ void UWBP_KillstreakMeterMgr_C::OnBruteStrengthActivated(bool bActive)
 
 void UWBP_KillstreakMeterMgr_C::HandleFireFailed(class AKSWeapon* Weapon, EKSAbilityUsageFailureType FailureType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleFireFailed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.HandleFireFailed");
 
 	struct
 	{
@@ -660,7 +660,7 @@ void UWBP_KillstreakMeterMgr_C::HandleFireFailed(class AKSWeapon* Weapon, EKSAbi
 
 void UWBP_KillstreakMeterMgr_C::ExecuteUbergraph_WBP_KillstreakMeterMgr(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.ExecuteUbergraph_WBP_KillstreakMeterMgr"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.ExecuteUbergraph_WBP_KillstreakMeterMgr");
 
 	struct
 	{

@@ -17,7 +17,7 @@ namespace SDK
 
 void UDownedHealthRemaining_C::Unbind_Player_State()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.Unbind Player State"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.Unbind Player State");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UDownedHealthRemaining_C::Unbind_Player_State()
 
 struct FText UDownedHealthRemaining_C::StatusTextBind()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.StatusTextBind"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.StatusTextBind");
 
 	struct
 	{
@@ -56,7 +56,7 @@ struct FText UDownedHealthRemaining_C::StatusTextBind()
 
 struct FLinearColor UDownedHealthRemaining_C::OverallColorBind()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.OverallColorBind"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.OverallColorBind");
 
 	struct
 	{
@@ -77,7 +77,7 @@ struct FLinearColor UDownedHealthRemaining_C::OverallColorBind()
 
 float UDownedHealthRemaining_C::BarPercentBind()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.BarPercentBind"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.BarPercentBind");
 
 	struct
 	{
@@ -98,7 +98,7 @@ float UDownedHealthRemaining_C::BarPercentBind()
 
 void UDownedHealthRemaining_C::Handle_Give_Up_Timer_Active(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.Handle Give Up Timer Active"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.Handle Give Up Timer Active");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UDownedHealthRemaining_C::Handle_Give_Up_Timer_Active(bool bActive)
 
 void UDownedHealthRemaining_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.Tick");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UDownedHealthRemaining_C::Tick(const struct FGeometry& MyGeometry, float In
 
 void UDownedHealthRemaining_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.PreClearPawn");
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UDownedHealthRemaining_C::PreClearPawn()
 
 void UDownedHealthRemaining_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.PostSetPawn");
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UDownedHealthRemaining_C::PostSetPawn()
 
 void UDownedHealthRemaining_C::DownStateChanged(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.DownStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.DownStateChanged");
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UDownedHealthRemaining_C::DownStateChanged(class AKSPlayerState* PlayerStat
 
 void UDownedHealthRemaining_C::FadedOutFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.FadedOutFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.FadedOutFinished");
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UDownedHealthRemaining_C::FadedOutFinished()
 
 void UDownedHealthRemaining_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.Construct");
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UDownedHealthRemaining_C::Construct()
 
 void UDownedHealthRemaining_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.InitializeWidget");
 
 	struct
 	{
@@ -243,7 +243,7 @@ void UDownedHealthRemaining_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UDownedHealthRemaining_C::PostSetPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.PostSetPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.PostSetPlayerState");
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UDownedHealthRemaining_C::PostSetPlayerState()
 
 void UDownedHealthRemaining_C::PreClearPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.PreClearPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.PreClearPlayerState");
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UDownedHealthRemaining_C::PreClearPlayerState()
 
 void UDownedHealthRemaining_C::On_Character_Give_Up_Allowed(bool Allowed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.On Character Give Up Allowed"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.On Character Give Up Allowed");
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UDownedHealthRemaining_C::On_Character_Give_Up_Allowed(bool Allowed)
 
 void UDownedHealthRemaining_C::ExecuteUbergraph_DownedHealthRemaining(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DownedHealthRemaining.DownedHealthRemaining_C.ExecuteUbergraph_DownedHealthRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function DownedHealthRemaining.DownedHealthRemaining_C.ExecuteUbergraph_DownedHealthRemaining");
 
 	struct
 	{

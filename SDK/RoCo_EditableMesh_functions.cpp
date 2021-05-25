@@ -20,7 +20,7 @@ namespace SDK
 
 void UEditableMesh::WeldVertices(TArray<struct FVertexID> VertexIDs, struct FVertexID* OutNewVertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.WeldVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.WeldVertices");
 
 	struct
 	{
@@ -46,7 +46,7 @@ void UEditableMesh::WeldVertices(TArray<struct FVertexID> VertexIDs, struct FVer
 
 void UEditableMesh::TryToRemoveVertex(const struct FVertexID& VertexID, bool* bOutWasVertexRemoved, struct FEdgeID* OutNewEdgeID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.TryToRemoveVertex"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.TryToRemoveVertex");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UEditableMesh::TryToRemoveVertex(const struct FVertexID& VertexID, bool* bO
 
 void UEditableMesh::TryToRemovePolygonEdge(const struct FEdgeID& EdgeID, bool* bOutWasEdgeRemoved, struct FPolygonID* OutNewPolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.TryToRemovePolygonEdge"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.TryToRemovePolygonEdge");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UEditableMesh::TryToRemovePolygonEdge(const struct FEdgeID& EdgeID, bool* b
 
 void UEditableMesh::TriangulatePolygons(TArray<struct FPolygonID> PolygonIDs, TArray<struct FPolygonID>* OutNewTrianglePolygons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.TriangulatePolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.TriangulatePolygons");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UEditableMesh::TriangulatePolygons(TArray<struct FPolygonID> PolygonIDs, TA
 
 void UEditableMesh::TessellatePolygons(TArray<struct FPolygonID> PolygonIDs, ETriangleTessellationMode TriangleTessellationMode, TArray<struct FPolygonID>* OutNewPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.TessellatePolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.TessellatePolygons");
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UEditableMesh::TessellatePolygons(TArray<struct FPolygonID> PolygonIDs, ETr
 
 void UEditableMesh::StartModification(EMeshModificationType MeshModificationType, EMeshTopologyChange MeshTopologyChange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.StartModification"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.StartModification");
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UEditableMesh::StartModification(EMeshModificationType MeshModificationType
 
 void UEditableMesh::SplitPolygons(TArray<struct FPolygonToSplit> PolygonsToSplit, TArray<struct FEdgeID>* OutNewEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SplitPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SplitPolygons");
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UEditableMesh::SplitPolygons(TArray<struct FPolygonToSplit> PolygonsToSplit
 
 void UEditableMesh::SplitPolygonalMesh(const struct FPlane& InPlane, TArray<struct FPolygonID>* PolygonIDs1, TArray<struct FPolygonID>* PolygonIDs2, TArray<struct FEdgeID>* BoundaryIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SplitPolygonalMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SplitPolygonalMesh");
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UEditableMesh::SplitPolygonalMesh(const struct FPlane& InPlane, TArray<stru
 
 void UEditableMesh::SplitEdge(const struct FEdgeID& EdgeID, TArray<float> Splits, TArray<struct FVertexID>* OutNewVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SplitEdge"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SplitEdge");
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UEditableMesh::SplitEdge(const struct FEdgeID& EdgeID, TArray<float> Splits
 
 void UEditableMesh::SetVerticesCornerSharpness(TArray<struct FVertexID> VertexIDs, TArray<float> VerticesNewCornerSharpness)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetVerticesCornerSharpness"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetVerticesCornerSharpness");
 
 	struct
 	{
@@ -287,7 +287,7 @@ void UEditableMesh::SetVerticesCornerSharpness(TArray<struct FVertexID> VertexID
 
 void UEditableMesh::SetVerticesAttributes(TArray<struct FAttributesForVertex> AttributesForVertices)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetVerticesAttributes"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetVerticesAttributes");
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UEditableMesh::SetVerticesAttributes(TArray<struct FAttributesForVertex> At
 
 void UEditableMesh::SetVertexInstancesAttributes(TArray<struct FAttributesForVertexInstance> AttributesForVertexInstances)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetVertexInstancesAttributes"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetVertexInstancesAttributes");
 
 	struct
 	{
@@ -327,7 +327,7 @@ void UEditableMesh::SetVertexInstancesAttributes(TArray<struct FAttributesForVer
 
 void UEditableMesh::SetTextureCoordinateCount(int NumTexCoords)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetTextureCoordinateCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetTextureCoordinateCount");
 
 	struct
 	{
@@ -347,7 +347,7 @@ void UEditableMesh::SetTextureCoordinateCount(int NumTexCoords)
 
 void UEditableMesh::SetSubdivisionCount(int NewSubdivisionCount)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetSubdivisionCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetSubdivisionCount");
 
 	struct
 	{
@@ -367,7 +367,7 @@ void UEditableMesh::SetSubdivisionCount(int NewSubdivisionCount)
 
 void UEditableMesh::SetPolygonsVertexAttributes(TArray<struct FVertexAttributesForPolygon> VertexAttributesForPolygons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetPolygonsVertexAttributes"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetPolygonsVertexAttributes");
 
 	struct
 	{
@@ -388,7 +388,7 @@ void UEditableMesh::SetPolygonsVertexAttributes(TArray<struct FVertexAttributesF
 
 void UEditableMesh::SetEdgesHardnessAutomatically(TArray<struct FEdgeID> EdgeIDs, float MaxDotProductForSoftEdge)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetEdgesHardnessAutomatically"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetEdgesHardnessAutomatically");
 
 	struct
 	{
@@ -411,7 +411,7 @@ void UEditableMesh::SetEdgesHardnessAutomatically(TArray<struct FEdgeID> EdgeIDs
 
 void UEditableMesh::SetEdgesHardness(TArray<struct FEdgeID> EdgeIDs, TArray<bool> EdgesNewIsHard)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetEdgesHardness"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetEdgesHardness");
 
 	struct
 	{
@@ -434,7 +434,7 @@ void UEditableMesh::SetEdgesHardness(TArray<struct FEdgeID> EdgeIDs, TArray<bool
 
 void UEditableMesh::SetEdgesCreaseSharpness(TArray<struct FEdgeID> EdgeIDs, TArray<float> EdgesNewCreaseSharpness)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetEdgesCreaseSharpness"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetEdgesCreaseSharpness");
 
 	struct
 	{
@@ -456,7 +456,7 @@ void UEditableMesh::SetEdgesCreaseSharpness(TArray<struct FEdgeID> EdgeIDs, TArr
 
 void UEditableMesh::SetEdgesAttributes(TArray<struct FAttributesForEdge> AttributesForEdges)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetEdgesAttributes"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetEdgesAttributes");
 
 	struct
 	{
@@ -476,7 +476,7 @@ void UEditableMesh::SetEdgesAttributes(TArray<struct FAttributesForEdge> Attribu
 
 void UEditableMesh::SetAllowUndo(bool bInAllowUndo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetAllowUndo"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetAllowUndo");
 
 	struct
 	{
@@ -496,7 +496,7 @@ void UEditableMesh::SetAllowUndo(bool bInAllowUndo)
 
 void UEditableMesh::SetAllowSpatialDatabase(bool bInAllowSpatialDatabase)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetAllowSpatialDatabase"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetAllowSpatialDatabase");
 
 	struct
 	{
@@ -516,7 +516,7 @@ void UEditableMesh::SetAllowSpatialDatabase(bool bInAllowSpatialDatabase)
 
 void UEditableMesh::SetAllowCompact(bool bInAllowCompact)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SetAllowCompact"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SetAllowCompact");
 
 	struct
 	{
@@ -537,7 +537,7 @@ void UEditableMesh::SetAllowCompact(bool bInAllowCompact)
 
 void UEditableMesh::SearchSpatialDatabaseForPolygonsPotentiallyIntersectingPlane(const struct FPlane& InPlane, TArray<struct FPolygonID>* OutPolygons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsPotentiallyIntersectingPlane"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsPotentiallyIntersectingPlane");
 
 	struct
 	{
@@ -563,7 +563,7 @@ void UEditableMesh::SearchSpatialDatabaseForPolygonsPotentiallyIntersectingPlane
 
 void UEditableMesh::SearchSpatialDatabaseForPolygonsPotentiallyIntersectingLineSegment(const struct FVector& LineSegmentStart, const struct FVector& LineSegmentEnd, TArray<struct FPolygonID>* OutPolygons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsPotentiallyIntersectingLineSegment"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsPotentiallyIntersectingLineSegment");
 
 	struct
 	{
@@ -590,7 +590,7 @@ void UEditableMesh::SearchSpatialDatabaseForPolygonsPotentiallyIntersectingLineS
 
 void UEditableMesh::SearchSpatialDatabaseForPolygonsInVolume(TArray<struct FPlane> Planes, TArray<struct FPolygonID>* OutPolygons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsInVolume"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.SearchSpatialDatabaseForPolygonsInVolume");
 
 	struct
 	{
@@ -614,7 +614,7 @@ void UEditableMesh::SearchSpatialDatabaseForPolygonsInVolume(TArray<struct FPlan
 
 class UEditableMesh* UEditableMesh::RevertInstance()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.RevertInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.RevertInstance");
 
 	struct
 	{
@@ -633,7 +633,7 @@ class UEditableMesh* UEditableMesh::RevertInstance()
 
 void UEditableMesh::Revert()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.Revert"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.Revert");
 
 	struct
 	{
@@ -649,7 +649,7 @@ void UEditableMesh::Revert()
 
 void UEditableMesh::RebuildRenderMesh()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.RebuildRenderMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.RebuildRenderMesh");
 
 	struct
 	{
@@ -667,7 +667,7 @@ void UEditableMesh::RebuildRenderMesh()
 
 void UEditableMesh::QuadrangulateMesh(TArray<struct FPolygonID>* OutNewPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.QuadrangulateMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.QuadrangulateMesh");
 
 	struct
 	{
@@ -687,7 +687,7 @@ void UEditableMesh::QuadrangulateMesh(TArray<struct FPolygonID>* OutNewPolygonID
 
 void UEditableMesh::PropagateInstanceChanges()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.PropagateInstanceChanges"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.PropagateInstanceChanges");
 
 	struct
 	{
@@ -705,7 +705,7 @@ void UEditableMesh::PropagateInstanceChanges()
 
 void UEditableMesh::MoveVertices(TArray<struct FVertexToMove> VerticesToMove)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.MoveVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.MoveVertices");
 
 	struct
 	{
@@ -726,7 +726,7 @@ void UEditableMesh::MoveVertices(TArray<struct FVertexToMove> VerticesToMove)
 
 struct FVertexID UEditableMesh::MakeVertexID(int VertexIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.MakeVertexID"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.MakeVertexID");
 
 	struct
 	{
@@ -751,7 +751,7 @@ struct FVertexID UEditableMesh::MakeVertexID(int VertexIndex)
 
 struct FPolygonID UEditableMesh::MakePolygonID(int PolygonIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.MakePolygonID"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.MakePolygonID");
 
 	struct
 	{
@@ -776,7 +776,7 @@ struct FPolygonID UEditableMesh::MakePolygonID(int PolygonIndex)
 
 struct FPolygonGroupID UEditableMesh::MakePolygonGroupID(int PolygonGroupIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.MakePolygonGroupID"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.MakePolygonGroupID");
 
 	struct
 	{
@@ -801,7 +801,7 @@ struct FPolygonGroupID UEditableMesh::MakePolygonGroupID(int PolygonGroupIndex)
 
 struct FEdgeID UEditableMesh::MakeEdgeID(int EdgeIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.MakeEdgeID"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.MakeEdgeID");
 
 	struct
 	{
@@ -826,7 +826,7 @@ struct FEdgeID UEditableMesh::MakeEdgeID(int EdgeIndex)
 
 bool UEditableMesh::IsValidVertex(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsValidVertex"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsValidVertex");
 
 	struct
 	{
@@ -850,7 +850,7 @@ bool UEditableMesh::IsValidVertex(const struct FVertexID& VertexID)
 
 bool UEditableMesh::IsValidPolygonGroup(const struct FPolygonGroupID& PolygonGroupID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsValidPolygonGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsValidPolygonGroup");
 
 	struct
 	{
@@ -874,7 +874,7 @@ bool UEditableMesh::IsValidPolygonGroup(const struct FPolygonGroupID& PolygonGro
 
 bool UEditableMesh::IsValidPolygon(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsValidPolygon"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsValidPolygon");
 
 	struct
 	{
@@ -898,7 +898,7 @@ bool UEditableMesh::IsValidPolygon(const struct FPolygonID& PolygonID)
 
 bool UEditableMesh::IsValidEdge(const struct FEdgeID& EdgeID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsValidEdge"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsValidEdge");
 
 	struct
 	{
@@ -921,7 +921,7 @@ bool UEditableMesh::IsValidEdge(const struct FEdgeID& EdgeID)
 
 bool UEditableMesh::IsUndoAllowed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsUndoAllowed"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsUndoAllowed");
 
 	struct
 	{
@@ -942,7 +942,7 @@ bool UEditableMesh::IsUndoAllowed()
 
 bool UEditableMesh::IsSpatialDatabaseAllowed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsSpatialDatabaseAllowed"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsSpatialDatabaseAllowed");
 
 	struct
 	{
@@ -963,7 +963,7 @@ bool UEditableMesh::IsSpatialDatabaseAllowed()
 
 bool UEditableMesh::IsPreviewingSubdivisions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsPreviewingSubdivisions"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsPreviewingSubdivisions");
 
 	struct
 	{
@@ -985,7 +985,7 @@ bool UEditableMesh::IsPreviewingSubdivisions()
 
 bool UEditableMesh::IsOrphanedVertex(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsOrphanedVertex"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsOrphanedVertex");
 
 	struct
 	{
@@ -1008,7 +1008,7 @@ bool UEditableMesh::IsOrphanedVertex(const struct FVertexID& VertexID)
 
 bool UEditableMesh::IsCompactAllowed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsCompactAllowed"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsCompactAllowed");
 
 	struct
 	{
@@ -1029,7 +1029,7 @@ bool UEditableMesh::IsCompactAllowed()
 
 bool UEditableMesh::IsCommittedAsInstance()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsCommittedAsInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsCommittedAsInstance");
 
 	struct
 	{
@@ -1050,7 +1050,7 @@ bool UEditableMesh::IsCommittedAsInstance()
 
 bool UEditableMesh::IsCommitted()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsCommitted"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsCommitted");
 
 	struct
 	{
@@ -1071,7 +1071,7 @@ bool UEditableMesh::IsCommitted()
 
 bool UEditableMesh::IsBeingModified()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.IsBeingModified"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.IsBeingModified");
 
 	struct
 	{
@@ -1092,7 +1092,7 @@ bool UEditableMesh::IsBeingModified()
 
 struct FVertexID UEditableMesh::InvalidVertexID()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.InvalidVertexID"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.InvalidVertexID");
 
 	struct
 	{
@@ -1114,7 +1114,7 @@ struct FVertexID UEditableMesh::InvalidVertexID()
 
 struct FPolygonID UEditableMesh::InvalidPolygonID()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.InvalidPolygonID"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.InvalidPolygonID");
 
 	struct
 	{
@@ -1136,7 +1136,7 @@ struct FPolygonID UEditableMesh::InvalidPolygonID()
 
 struct FPolygonGroupID UEditableMesh::InvalidPolygonGroupID()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.InvalidPolygonGroupID"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.InvalidPolygonGroupID");
 
 	struct
 	{
@@ -1158,7 +1158,7 @@ struct FPolygonGroupID UEditableMesh::InvalidPolygonGroupID()
 
 struct FEdgeID UEditableMesh::InvalidEdgeID()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.InvalidEdgeID"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.InvalidEdgeID");
 
 	struct
 	{
@@ -1185,7 +1185,7 @@ struct FEdgeID UEditableMesh::InvalidEdgeID()
 
 void UEditableMesh::InsetPolygons(TArray<struct FPolygonID> PolygonIDs, float InsetFixedDistance, float InsetProgressTowardCenter, EInsetPolygonsMode Mode, TArray<struct FPolygonID>* OutNewCenterPolygonIDs, TArray<struct FPolygonID>* OutNewSidePolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.InsetPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.InsetPolygons");
 
 	struct
 	{
@@ -1220,7 +1220,7 @@ void UEditableMesh::InsetPolygons(TArray<struct FPolygonID> PolygonIDs, float In
 
 void UEditableMesh::InsertEdgeLoop(const struct FEdgeID& EdgeID, TArray<float> Splits, TArray<struct FEdgeID>* OutNewEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.InsertEdgeLoop"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.InsertEdgeLoop");
 
 	struct
 	{
@@ -1244,7 +1244,7 @@ void UEditableMesh::InsertEdgeLoop(const struct FEdgeID& EdgeID, TArray<float> S
 
 void UEditableMesh::InitializeAdapters()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.InitializeAdapters"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.InitializeAdapters");
 
 	struct
 	{
@@ -1265,7 +1265,7 @@ void UEditableMesh::InitializeAdapters()
 
 struct FEdgeID UEditableMesh::GetVertexPairEdge(const struct FVertexID& VertexID, const struct FVertexID& NextVertexID, bool* bOutEdgeWindingIsReversed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexPairEdge"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexPairEdge");
 
 	struct
 	{
@@ -1295,7 +1295,7 @@ struct FEdgeID UEditableMesh::GetVertexPairEdge(const struct FVertexID& VertexID
 
 struct FVertexID UEditableMesh::GetVertexInstanceVertex(const struct FVertexInstanceID& VertexInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexInstanceVertex"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexInstanceVertex");
 
 	struct
 	{
@@ -1318,7 +1318,7 @@ struct FVertexID UEditableMesh::GetVertexInstanceVertex(const struct FVertexInst
 
 int UEditableMesh::GetVertexInstanceCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexInstanceCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexInstanceCount");
 
 	struct
 	{
@@ -1340,7 +1340,7 @@ int UEditableMesh::GetVertexInstanceCount()
 
 void UEditableMesh::GetVertexInstanceConnectedPolygons(const struct FVertexInstanceID& VertexInstanceID, TArray<struct FPolygonID>* OutConnectedPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygons");
 
 	struct
 	{
@@ -1365,7 +1365,7 @@ void UEditableMesh::GetVertexInstanceConnectedPolygons(const struct FVertexInsta
 
 int UEditableMesh::GetVertexInstanceConnectedPolygonCount(const struct FVertexInstanceID& VertexInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygonCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygonCount");
 
 	struct
 	{
@@ -1390,7 +1390,7 @@ int UEditableMesh::GetVertexInstanceConnectedPolygonCount(const struct FVertexIn
 
 struct FPolygonID UEditableMesh::GetVertexInstanceConnectedPolygon(const struct FVertexInstanceID& VertexInstanceID, int ConnectedPolygonNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygon"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexInstanceConnectedPolygon");
 
 	struct
 	{
@@ -1415,7 +1415,7 @@ struct FPolygonID UEditableMesh::GetVertexInstanceConnectedPolygon(const struct 
 
 int UEditableMesh::GetVertexCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexCount");
 
 	struct
 	{
@@ -1437,7 +1437,7 @@ int UEditableMesh::GetVertexCount()
 
 void UEditableMesh::GetVertexConnectedPolygons(const struct FVertexID& VertexID, TArray<struct FPolygonID>* OutConnectedPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexConnectedPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexConnectedPolygons");
 
 	struct
 	{
@@ -1462,7 +1462,7 @@ void UEditableMesh::GetVertexConnectedPolygons(const struct FVertexID& VertexID,
 
 void UEditableMesh::GetVertexConnectedEdges(const struct FVertexID& VertexID, TArray<struct FEdgeID>* OutConnectedEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexConnectedEdges"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexConnectedEdges");
 
 	struct
 	{
@@ -1487,7 +1487,7 @@ void UEditableMesh::GetVertexConnectedEdges(const struct FVertexID& VertexID, TA
 
 int UEditableMesh::GetVertexConnectedEdgeCount(const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexConnectedEdgeCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexConnectedEdgeCount");
 
 	struct
 	{
@@ -1512,7 +1512,7 @@ int UEditableMesh::GetVertexConnectedEdgeCount(const struct FVertexID& VertexID)
 
 struct FEdgeID UEditableMesh::GetVertexConnectedEdge(const struct FVertexID& VertexID, int ConnectedEdgeNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexConnectedEdge"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexConnectedEdge");
 
 	struct
 	{
@@ -1538,7 +1538,7 @@ struct FEdgeID UEditableMesh::GetVertexConnectedEdge(const struct FVertexID& Ver
 
 void UEditableMesh::GetVertexAdjacentVertices(const struct FVertexID& VertexID, TArray<struct FVertexID>* OutAdjacentVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetVertexAdjacentVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetVertexAdjacentVertices");
 
 	struct
 	{
@@ -1562,7 +1562,7 @@ void UEditableMesh::GetVertexAdjacentVertices(const struct FVertexID& VertexID, 
 
 int UEditableMesh::GetTextureCoordinateCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetTextureCoordinateCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetTextureCoordinateCount");
 
 	struct
 	{
@@ -1583,7 +1583,7 @@ int UEditableMesh::GetTextureCoordinateCount()
 
 struct FSubdivisionLimitData UEditableMesh::GetSubdivisionLimitData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetSubdivisionLimitData"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetSubdivisionLimitData");
 
 	struct
 	{
@@ -1604,7 +1604,7 @@ struct FSubdivisionLimitData UEditableMesh::GetSubdivisionLimitData()
 
 int UEditableMesh::GetSubdivisionCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetSubdivisionCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetSubdivisionCount");
 
 	struct
 	{
@@ -1626,7 +1626,7 @@ int UEditableMesh::GetSubdivisionCount()
 
 int UEditableMesh::GetPolygonTriangulatedTriangleCount(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonTriangulatedTriangleCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonTriangulatedTriangleCount");
 
 	struct
 	{
@@ -1651,7 +1651,7 @@ int UEditableMesh::GetPolygonTriangulatedTriangleCount(const struct FPolygonID& 
 
 struct FTriangleID UEditableMesh::GetPolygonTriangulatedTriangle(const struct FPolygonID& PolygonID, int PolygonTriangleNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonTriangulatedTriangle"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonTriangulatedTriangle");
 
 	struct
 	{
@@ -1677,7 +1677,7 @@ struct FTriangleID UEditableMesh::GetPolygonTriangulatedTriangle(const struct FP
 
 void UEditableMesh::GetPolygonPerimeterVertices(const struct FPolygonID& PolygonID, TArray<struct FVertexID>* OutPolygonPerimeterVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertices");
 
 	struct
 	{
@@ -1702,7 +1702,7 @@ void UEditableMesh::GetPolygonPerimeterVertices(const struct FPolygonID& Polygon
 
 void UEditableMesh::GetPolygonPerimeterVertexInstances(const struct FPolygonID& PolygonID, TArray<struct FVertexInstanceID>* OutPolygonPerimeterVertexInstanceIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexInstances"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexInstances");
 
 	struct
 	{
@@ -1728,7 +1728,7 @@ void UEditableMesh::GetPolygonPerimeterVertexInstances(const struct FPolygonID& 
 
 struct FVertexInstanceID UEditableMesh::GetPolygonPerimeterVertexInstance(const struct FPolygonID& PolygonID, int PolygonVertexNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexInstance");
 
 	struct
 	{
@@ -1754,7 +1754,7 @@ struct FVertexInstanceID UEditableMesh::GetPolygonPerimeterVertexInstance(const 
 
 int UEditableMesh::GetPolygonPerimeterVertexCount(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertexCount");
 
 	struct
 	{
@@ -1779,7 +1779,7 @@ int UEditableMesh::GetPolygonPerimeterVertexCount(const struct FPolygonID& Polyg
 
 struct FVertexID UEditableMesh::GetPolygonPerimeterVertex(const struct FPolygonID& PolygonID, int PolygonVertexNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertex"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonPerimeterVertex");
 
 	struct
 	{
@@ -1805,7 +1805,7 @@ struct FVertexID UEditableMesh::GetPolygonPerimeterVertex(const struct FPolygonI
 
 void UEditableMesh::GetPolygonPerimeterEdges(const struct FPolygonID& PolygonID, TArray<struct FEdgeID>* OutPolygonPerimeterEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonPerimeterEdges"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonPerimeterEdges");
 
 	struct
 	{
@@ -1830,7 +1830,7 @@ void UEditableMesh::GetPolygonPerimeterEdges(const struct FPolygonID& PolygonID,
 
 int UEditableMesh::GetPolygonPerimeterEdgeCount(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonPerimeterEdgeCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonPerimeterEdgeCount");
 
 	struct
 	{
@@ -1856,7 +1856,7 @@ int UEditableMesh::GetPolygonPerimeterEdgeCount(const struct FPolygonID& Polygon
 
 struct FEdgeID UEditableMesh::GetPolygonPerimeterEdge(const struct FPolygonID& PolygonID, int PerimeterEdgeNumber, bool* bOutEdgeWindingIsReversedForPolygon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonPerimeterEdge"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonPerimeterEdge");
 
 	struct
 	{
@@ -1887,7 +1887,7 @@ struct FEdgeID UEditableMesh::GetPolygonPerimeterEdge(const struct FPolygonID& P
 
 struct FPolygonID UEditableMesh::GetPolygonInGroup(const struct FPolygonGroupID& PolygonGroupID, int PolygonNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonInGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonInGroup");
 
 	struct
 	{
@@ -1912,7 +1912,7 @@ struct FPolygonID UEditableMesh::GetPolygonInGroup(const struct FPolygonGroupID&
 
 int UEditableMesh::GetPolygonGroupCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonGroupCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonGroupCount");
 
 	struct
 	{
@@ -1934,7 +1934,7 @@ int UEditableMesh::GetPolygonGroupCount()
 
 int UEditableMesh::GetPolygonCountInGroup(const struct FPolygonGroupID& PolygonGroupID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonCountInGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonCountInGroup");
 
 	struct
 	{
@@ -1957,7 +1957,7 @@ int UEditableMesh::GetPolygonCountInGroup(const struct FPolygonGroupID& PolygonG
 
 int UEditableMesh::GetPolygonCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonCount");
 
 	struct
 	{
@@ -1979,7 +1979,7 @@ int UEditableMesh::GetPolygonCount()
 
 void UEditableMesh::GetPolygonAdjacentPolygons(const struct FPolygonID& PolygonID, TArray<struct FPolygonID>* OutAdjacentPolygons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetPolygonAdjacentPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetPolygonAdjacentPolygons");
 
 	struct
 	{
@@ -2004,7 +2004,7 @@ void UEditableMesh::GetPolygonAdjacentPolygons(const struct FPolygonID& PolygonI
 
 struct FPolygonGroupID UEditableMesh::GetGroupForPolygon(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetGroupForPolygon"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetGroupForPolygon");
 
 	struct
 	{
@@ -2027,7 +2027,7 @@ struct FPolygonGroupID UEditableMesh::GetGroupForPolygon(const struct FPolygonID
 
 struct FPolygonGroupID UEditableMesh::GetFirstValidPolygonGroup()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetFirstValidPolygonGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetFirstValidPolygonGroup");
 
 	struct
 	{
@@ -2050,7 +2050,7 @@ struct FPolygonGroupID UEditableMesh::GetFirstValidPolygonGroup()
 
 void UEditableMesh::GetEdgeVertices(const struct FEdgeID& EdgeID, struct FVertexID* OutEdgeVertexID0, struct FVertexID* OutEdgeVertexID1)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetEdgeVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetEdgeVertices");
 
 	struct
 	{
@@ -2079,7 +2079,7 @@ void UEditableMesh::GetEdgeVertices(const struct FEdgeID& EdgeID, struct FVertex
 
 struct FVertexID UEditableMesh::GetEdgeVertex(const struct FEdgeID& EdgeID, int EdgeVertexNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetEdgeVertex"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetEdgeVertex");
 
 	struct
 	{
@@ -2106,7 +2106,7 @@ struct FVertexID UEditableMesh::GetEdgeVertex(const struct FEdgeID& EdgeID, int 
 
 struct FEdgeID UEditableMesh::GetEdgeThatConnectsVertices(const struct FVertexID& VertexID0, const struct FVertexID& VertexID1)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetEdgeThatConnectsVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetEdgeThatConnectsVertices");
 
 	struct
 	{
@@ -2132,7 +2132,7 @@ struct FEdgeID UEditableMesh::GetEdgeThatConnectsVertices(const struct FVertexID
 
 void UEditableMesh::GetEdgeLoopElements(const struct FEdgeID& EdgeID, TArray<struct FEdgeID>* EdgeLoopIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetEdgeLoopElements"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetEdgeLoopElements");
 
 	struct
 	{
@@ -2156,7 +2156,7 @@ void UEditableMesh::GetEdgeLoopElements(const struct FEdgeID& EdgeID, TArray<str
 
 int UEditableMesh::GetEdgeCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetEdgeCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetEdgeCount");
 
 	struct
 	{
@@ -2178,7 +2178,7 @@ int UEditableMesh::GetEdgeCount()
 
 void UEditableMesh::GetEdgeConnectedPolygons(const struct FEdgeID& EdgeID, TArray<struct FPolygonID>* OutConnectedPolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetEdgeConnectedPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetEdgeConnectedPolygons");
 
 	struct
 	{
@@ -2203,7 +2203,7 @@ void UEditableMesh::GetEdgeConnectedPolygons(const struct FEdgeID& EdgeID, TArra
 
 int UEditableMesh::GetEdgeConnectedPolygonCount(const struct FEdgeID& EdgeID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetEdgeConnectedPolygonCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetEdgeConnectedPolygonCount");
 
 	struct
 	{
@@ -2228,7 +2228,7 @@ int UEditableMesh::GetEdgeConnectedPolygonCount(const struct FEdgeID& EdgeID)
 
 struct FPolygonID UEditableMesh::GetEdgeConnectedPolygon(const struct FEdgeID& EdgeID, int ConnectedPolygonNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GetEdgeConnectedPolygon"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GetEdgeConnectedPolygon");
 
 	struct
 	{
@@ -2253,7 +2253,7 @@ struct FPolygonID UEditableMesh::GetEdgeConnectedPolygon(const struct FEdgeID& E
 
 void UEditableMesh::GeneratePolygonTangentsAndNormals(TArray<struct FPolygonID> PolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.GeneratePolygonTangentsAndNormals"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.GeneratePolygonTangentsAndNormals");
 
 	struct
 	{
@@ -2273,7 +2273,7 @@ void UEditableMesh::GeneratePolygonTangentsAndNormals(TArray<struct FPolygonID> 
 
 void UEditableMesh::FlipPolygons(TArray<struct FPolygonID> PolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.FlipPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.FlipPolygons");
 
 	struct
 	{
@@ -2295,7 +2295,7 @@ void UEditableMesh::FlipPolygons(TArray<struct FPolygonID> PolygonIDs)
 
 int UEditableMesh::FindPolygonPerimeterVertexNumberForVertex(const struct FPolygonID& PolygonID, const struct FVertexID& VertexID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.FindPolygonPerimeterVertexNumberForVertex"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.FindPolygonPerimeterVertexNumberForVertex");
 
 	struct
 	{
@@ -2323,7 +2323,7 @@ int UEditableMesh::FindPolygonPerimeterVertexNumberForVertex(const struct FPolyg
 
 int UEditableMesh::FindPolygonPerimeterEdgeNumberForVertices(const struct FPolygonID& PolygonID, const struct FVertexID& EdgeVertexID0, const struct FVertexID& EdgeVertexID1)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.FindPolygonPerimeterEdgeNumberForVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.FindPolygonPerimeterEdgeNumberForVertices");
 
 	struct
 	{
@@ -2354,7 +2354,7 @@ int UEditableMesh::FindPolygonPerimeterEdgeNumberForVertices(const struct FPolyg
 
 void UEditableMesh::FindPolygonLoop(const struct FEdgeID& EdgeID, TArray<struct FEdgeID>* OutEdgeLoopEdgeIDs, TArray<struct FEdgeID>* OutFlippedEdgeIDs, TArray<struct FEdgeID>* OutReversedEdgeIDPathToTake, TArray<struct FPolygonID>* OutPolygonIDsToSplit)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.FindPolygonLoop"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.FindPolygonLoop");
 
 	struct
 	{
@@ -2390,7 +2390,7 @@ void UEditableMesh::FindPolygonLoop(const struct FEdgeID& EdgeID, TArray<struct 
 
 void UEditableMesh::ExtrudePolygons(TArray<struct FPolygonID> Polygons, float ExtrudeDistance, bool bKeepNeighborsTogether, TArray<struct FPolygonID>* OutNewExtrudedFrontPolygons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ExtrudePolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ExtrudePolygons");
 
 	struct
 	{
@@ -2421,7 +2421,7 @@ void UEditableMesh::ExtrudePolygons(TArray<struct FPolygonID> Polygons, float Ex
 
 void UEditableMesh::ExtendVertices(TArray<struct FVertexID> VertexIDs, bool bOnlyExtendClosestEdge, const struct FVector& ReferencePosition, TArray<struct FVertexID>* OutNewExtendedVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ExtendVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ExtendVertices");
 
 	struct
 	{
@@ -2451,7 +2451,7 @@ void UEditableMesh::ExtendVertices(TArray<struct FVertexID> VertexIDs, bool bOnl
 
 void UEditableMesh::ExtendEdges(TArray<struct FEdgeID> EdgeIDs, bool bWeldNeighbors, TArray<struct FEdgeID>* OutNewExtendedEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ExtendEdges"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ExtendEdges");
 
 	struct
 	{
@@ -2477,7 +2477,7 @@ void UEditableMesh::ExtendEdges(TArray<struct FEdgeID> EdgeIDs, bool bWeldNeighb
 
 void UEditableMesh::EndModification(bool bFromUndo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.EndModification"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.EndModification");
 
 	struct
 	{
@@ -2498,7 +2498,7 @@ void UEditableMesh::EndModification(bool bFromUndo)
 
 void UEditableMesh::DeleteVertexInstances(TArray<struct FVertexInstanceID> VertexInstanceIDsToDelete, bool bDeleteOrphanedVertices)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.DeleteVertexInstances"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.DeleteVertexInstances");
 
 	struct
 	{
@@ -2524,7 +2524,7 @@ void UEditableMesh::DeleteVertexInstances(TArray<struct FVertexInstanceID> Verte
 
 void UEditableMesh::DeleteVertexAndConnectedEdgesAndPolygons(const struct FVertexID& VertexID, bool bDeleteOrphanedEdges, bool bDeleteOrphanedVertices, bool bDeleteOrphanedVertexInstances, bool bDeleteEmptyPolygonGroups)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.DeleteVertexAndConnectedEdgesAndPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.DeleteVertexAndConnectedEdgesAndPolygons");
 
 	struct
 	{
@@ -2556,7 +2556,7 @@ void UEditableMesh::DeleteVertexAndConnectedEdgesAndPolygons(const struct FVerte
 
 void UEditableMesh::DeletePolygons(TArray<struct FPolygonID> PolygonIDsToDelete, bool bDeleteOrphanedEdges, bool bDeleteOrphanedVertices, bool bDeleteOrphanedVertexInstances, bool bDeleteEmptyPolygonGroups)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.DeletePolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.DeletePolygons");
 
 	struct
 	{
@@ -2584,7 +2584,7 @@ void UEditableMesh::DeletePolygons(TArray<struct FPolygonID> PolygonIDsToDelete,
 
 void UEditableMesh::DeletePolygonGroups(TArray<struct FPolygonGroupID> PolygonGroupIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.DeletePolygonGroups"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.DeletePolygonGroups");
 
 	struct
 	{
@@ -2604,7 +2604,7 @@ void UEditableMesh::DeletePolygonGroups(TArray<struct FPolygonGroupID> PolygonGr
 
 void UEditableMesh::DeleteOrphanVertices(TArray<struct FVertexID> VertexIDsToDelete)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.DeleteOrphanVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.DeleteOrphanVertices");
 
 	struct
 	{
@@ -2625,7 +2625,7 @@ void UEditableMesh::DeleteOrphanVertices(TArray<struct FVertexID> VertexIDsToDel
 
 void UEditableMesh::DeleteEdges(TArray<struct FEdgeID> EdgeIDsToDelete, bool bDeleteOrphanedVertices)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.DeleteEdges"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.DeleteEdges");
 
 	struct
 	{
@@ -2651,7 +2651,7 @@ void UEditableMesh::DeleteEdges(TArray<struct FEdgeID> EdgeIDsToDelete, bool bDe
 
 void UEditableMesh::DeleteEdgeAndConnectedPolygons(const struct FEdgeID& EdgeID, bool bDeleteOrphanedEdges, bool bDeleteOrphanedVertices, bool bDeleteOrphanedVertexInstances, bool bDeleteEmptyPolygonGroups)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.DeleteEdgeAndConnectedPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.DeleteEdgeAndConnectedPolygons");
 
 	struct
 	{
@@ -2680,7 +2680,7 @@ void UEditableMesh::DeleteEdgeAndConnectedPolygons(const struct FEdgeID& EdgeID,
 
 void UEditableMesh::CreateVertices(TArray<struct FVertexToCreate> VerticesToCreate, TArray<struct FVertexID>* OutNewVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.CreateVertices"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.CreateVertices");
 
 	struct
 	{
@@ -2705,7 +2705,7 @@ void UEditableMesh::CreateVertices(TArray<struct FVertexToCreate> VerticesToCrea
 
 void UEditableMesh::CreateVertexInstances(TArray<struct FVertexInstanceToCreate> VertexInstancesToCreate, TArray<struct FVertexInstanceID>* OutNewVertexInstanceIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.CreateVertexInstances"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.CreateVertexInstances");
 
 	struct
 	{
@@ -2731,7 +2731,7 @@ void UEditableMesh::CreateVertexInstances(TArray<struct FVertexInstanceToCreate>
 
 void UEditableMesh::CreatePolygons(TArray<struct FPolygonToCreate> PolygonsToCreate, TArray<struct FPolygonID>* OutNewPolygonIDs, TArray<struct FEdgeID>* OutNewEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.CreatePolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.CreatePolygons");
 
 	struct
 	{
@@ -2759,7 +2759,7 @@ void UEditableMesh::CreatePolygons(TArray<struct FPolygonToCreate> PolygonsToCre
 
 void UEditableMesh::CreatePolygonGroups(TArray<struct FPolygonGroupToCreate> PolygonGroupsToCreate, TArray<struct FPolygonGroupID>* OutNewPolygonGroupIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.CreatePolygonGroups"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.CreatePolygonGroups");
 
 	struct
 	{
@@ -2784,7 +2784,7 @@ void UEditableMesh::CreatePolygonGroups(TArray<struct FPolygonGroupToCreate> Pol
 
 void UEditableMesh::CreateMissingPolygonPerimeterEdges(const struct FPolygonID& PolygonID, TArray<struct FEdgeID>* OutNewEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.CreateMissingPolygonPerimeterEdges"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.CreateMissingPolygonPerimeterEdges");
 
 	struct
 	{
@@ -2809,7 +2809,7 @@ void UEditableMesh::CreateMissingPolygonPerimeterEdges(const struct FPolygonID& 
 
 void UEditableMesh::CreateEmptyVertexRange(int NumVerticesToCreate, TArray<struct FVertexID>* OutNewVertexIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.CreateEmptyVertexRange"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.CreateEmptyVertexRange");
 
 	struct
 	{
@@ -2834,7 +2834,7 @@ void UEditableMesh::CreateEmptyVertexRange(int NumVerticesToCreate, TArray<struc
 
 void UEditableMesh::CreateEdges(TArray<struct FEdgeToCreate> EdgesToCreate, TArray<struct FEdgeID>* OutNewEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.CreateEdges"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.CreateEdges");
 
 	struct
 	{
@@ -2859,7 +2859,7 @@ void UEditableMesh::CreateEdges(TArray<struct FEdgeToCreate> EdgesToCreate, TArr
 
 void UEditableMesh::ComputePolygonsSharedEdges(TArray<struct FPolygonID> PolygonIDs, TArray<struct FEdgeID>* OutSharedEdgeIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ComputePolygonsSharedEdges"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ComputePolygonsSharedEdges");
 
 	struct
 	{
@@ -2884,7 +2884,7 @@ void UEditableMesh::ComputePolygonsSharedEdges(TArray<struct FPolygonID> Polygon
 
 struct FPlane UEditableMesh::ComputePolygonPlane(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ComputePolygonPlane"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ComputePolygonPlane");
 
 	struct
 	{
@@ -2908,7 +2908,7 @@ struct FPlane UEditableMesh::ComputePolygonPlane(const struct FPolygonID& Polygo
 
 struct FVector UEditableMesh::ComputePolygonNormal(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ComputePolygonNormal"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ComputePolygonNormal");
 
 	struct
 	{
@@ -2932,7 +2932,7 @@ struct FVector UEditableMesh::ComputePolygonNormal(const struct FPolygonID& Poly
 
 struct FVector UEditableMesh::ComputePolygonCenter(const struct FPolygonID& PolygonID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ComputePolygonCenter"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ComputePolygonCenter");
 
 	struct
 	{
@@ -2955,7 +2955,7 @@ struct FVector UEditableMesh::ComputePolygonCenter(const struct FPolygonID& Poly
 
 struct FBoxSphereBounds UEditableMesh::ComputeBoundingBoxAndSphere()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ComputeBoundingBoxAndSphere"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ComputeBoundingBoxAndSphere");
 
 	struct
 	{
@@ -2976,7 +2976,7 @@ struct FBoxSphereBounds UEditableMesh::ComputeBoundingBoxAndSphere()
 
 struct FBox UEditableMesh::ComputeBoundingBox()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ComputeBoundingBox"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ComputeBoundingBox");
 
 	struct
 	{
@@ -2998,7 +2998,7 @@ struct FBox UEditableMesh::ComputeBoundingBox()
 
 class UEditableMesh* UEditableMesh::CommitInstance(class UPrimitiveComponent* ComponentToInstanceTo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.CommitInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.CommitInstance");
 
 	struct
 	{
@@ -3019,7 +3019,7 @@ class UEditableMesh* UEditableMesh::CommitInstance(class UPrimitiveComponent* Co
 
 void UEditableMesh::Commit()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.Commit"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.Commit");
 
 	struct
 	{
@@ -3037,7 +3037,7 @@ void UEditableMesh::Commit()
 
 void UEditableMesh::ChangePolygonsVertexInstances(TArray<struct FChangeVertexInstancesForPolygon> VertexInstancesForPolygons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.ChangePolygonsVertexInstances"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.ChangePolygonsVertexInstances");
 
 	struct
 	{
@@ -3061,7 +3061,7 @@ void UEditableMesh::ChangePolygonsVertexInstances(TArray<struct FChangeVertexIns
 
 void UEditableMesh::BevelPolygons(TArray<struct FPolygonID> PolygonIDs, float BevelFixedDistance, float BevelProgressTowardCenter, TArray<struct FPolygonID>* OutNewCenterPolygonIDs, TArray<struct FPolygonID>* OutNewSidePolygonIDs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.BevelPolygons"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.BevelPolygons");
 
 	struct
 	{
@@ -3093,7 +3093,7 @@ void UEditableMesh::BevelPolygons(TArray<struct FPolygonID> PolygonIDs, float Be
 
 void UEditableMesh::AssignPolygonsToPolygonGroups(TArray<struct FPolygonGroupForPolygon> PolygonGroupForPolygons, bool bDeleteOrphanedPolygonGroups)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.AssignPolygonsToPolygonGroups"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.AssignPolygonsToPolygonGroups");
 
 	struct
 	{
@@ -3115,7 +3115,7 @@ void UEditableMesh::AssignPolygonsToPolygonGroups(TArray<struct FPolygonGroupFor
 
 bool UEditableMesh::AnyChangesToUndo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMesh.AnyChangesToUndo"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMesh.AnyChangesToUndo");
 
 	struct
 	{
@@ -3138,7 +3138,7 @@ bool UEditableMesh::AnyChangesToUndo()
 
 class UEditableMesh* UEditableMeshFactory::MakeEditableMesh(class UPrimitiveComponent* PrimitiveComponent, int LODIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EditableMesh.EditableMeshFactory.MakeEditableMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function EditableMesh.EditableMeshFactory.MakeEditableMesh");
 
 	struct
 	{

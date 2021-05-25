@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Guided_Tutorial_Card_C::SetCardData(const struct FGuidedCalloutCardData& CardData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Card.WBP_Guided_Tutorial_Card_C.SetCardData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Card.WBP_Guided_Tutorial_Card_C.SetCardData");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_Guided_Tutorial_Card_C::SetCardData(const struct FGuidedCalloutCardDat
 
 void UWBP_Guided_Tutorial_Card_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Card.WBP_Guided_Tutorial_Card_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Card.WBP_Guided_Tutorial_Card_C.PreConstruct");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_Guided_Tutorial_Card_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Guided_Tutorial_Card_C::ExecuteUbergraph_WBP_Guided_Tutorial_Card(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Guided_Tutorial_Card.WBP_Guided_Tutorial_Card_C.ExecuteUbergraph_WBP_Guided_Tutorial_Card"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Guided_Tutorial_Card.WBP_Guided_Tutorial_Card_C.ExecuteUbergraph_WBP_Guided_Tutorial_Card");
 
 	struct
 	{

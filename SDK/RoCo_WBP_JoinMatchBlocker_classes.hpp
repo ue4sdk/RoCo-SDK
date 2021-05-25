@@ -28,7 +28,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_JoinMatchBlocker.WBP_JoinMatchBlocker_C");
 		return ptr;
 	}
 

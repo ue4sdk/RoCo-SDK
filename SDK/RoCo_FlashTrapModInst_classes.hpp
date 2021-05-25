@@ -24,7 +24,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass FlashTrapModInst.FlashTrapModInst_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass FlashTrapModInst.FlashTrapModInst_C");
 		return ptr;
 	}
 

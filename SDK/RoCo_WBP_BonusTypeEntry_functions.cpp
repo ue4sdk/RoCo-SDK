@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_BonusTypeEntry_C::DisplayEventDetails()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BonusTypeEntry.WBP_BonusTypeEntry_C.DisplayEventDetails"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BonusTypeEntry.WBP_BonusTypeEntry_C.DisplayEventDetails");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_BonusTypeEntry_C::DisplayEventDetails()
 
 void UWBP_BonusTypeEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BonusTypeEntry.WBP_BonusTypeEntry_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BonusTypeEntry.WBP_BonusTypeEntry_C.Construct");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_BonusTypeEntry_C::Construct()
 
 void UWBP_BonusTypeEntry_C::ExecuteUbergraph_WBP_BonusTypeEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BonusTypeEntry.WBP_BonusTypeEntry_C.ExecuteUbergraph_WBP_BonusTypeEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BonusTypeEntry.WBP_BonusTypeEntry_C.ExecuteUbergraph_WBP_BonusTypeEntry");
 
 	struct
 	{

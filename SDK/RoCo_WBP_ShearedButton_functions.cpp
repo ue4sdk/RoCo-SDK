@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_ShearedButton_C::ApplyColors(const struct FLinearColor& PrimaryColor, const struct FLinearColor& SecondaryColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.ApplyColors"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.ApplyColors");
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_ShearedButton_C::ApplyColors(const struct FLinearColor& PrimaryColor, 
 
 void UWBP_ShearedButton_C::SetActive(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.SetActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.SetActive");
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_ShearedButton_C::SetActive(bool Active)
 
 void UWBP_ShearedButton_C::SetDisabled(bool Disable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.SetDisabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.SetDisabled");
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UWBP_ShearedButton_C::SetDisabled(bool Disable)
 
 bool UWBP_ShearedButton_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.NavigateConfirm");
 
 	struct
 	{
@@ -103,7 +103,7 @@ bool UWBP_ShearedButton_C::NavigateConfirm()
 
 void UWBP_ShearedButton_C::SetMessage(const struct FText& InTitle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.SetMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.SetMessage");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_ShearedButton_C::SetMessage(const struct FText& InTitle)
 
 void UWBP_ShearedButton_C::SetShadowVisibility(bool Show)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.SetShadowVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.SetShadowVisibility");
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWBP_ShearedButton_C::SetShadowVisibility(bool Show)
 
 void UWBP_ShearedButton_C::SetPositions(float InOffset)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.SetPositions"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.SetPositions");
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_ShearedButton_C::SetPositions(float InOffset)
 
 void UWBP_ShearedButton_C::SetSizings(float InWidth, float InHeight)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.SetSizings"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.SetSizings");
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UWBP_ShearedButton_C::SetSizings(float InWidth, float InHeight)
 
 void UWBP_ShearedButton_C::SetColors()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.SetColors"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.SetColors");
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_ShearedButton_C::SetColors()
 
 void UWBP_ShearedButton_C::HoverStateAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.HoverStateAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.HoverStateAnimFinished");
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWBP_ShearedButton_C::HoverStateAnimFinished()
 
 void UWBP_ShearedButton_C::UnhoverStateAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.UnhoverStateAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.UnhoverStateAnim");
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UWBP_ShearedButton_C::UnhoverStateAnim(float ElapsedTime, float ElapsedAlph
 
 void UWBP_ShearedButton_C::UnhoverStateAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.UnhoverStateAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.UnhoverStateAnimFinished");
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UWBP_ShearedButton_C::UnhoverStateAnimFinished()
 
 void UWBP_ShearedButton_C::PressedStateAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.PressedStateAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.PressedStateAnim");
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UWBP_ShearedButton_C::PressedStateAnim(float ElapsedTime, float ElapsedAlph
 
 void UWBP_ShearedButton_C::PressedStateAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.PressedStateAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.PressedStateAnimFinished");
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UWBP_ShearedButton_C::PressedStateAnimFinished()
 
 void UWBP_ShearedButton_C::ReleasedStateAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.ReleasedStateAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.ReleasedStateAnim");
 
 	struct
 	{
@@ -317,7 +317,7 @@ void UWBP_ShearedButton_C::ReleasedStateAnim(float ElapsedTime, float ElapsedAlp
 
 void UWBP_ShearedButton_C::ReleasedStateAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.ReleasedStateAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.ReleasedStateAnimFinished");
 
 	struct
 	{
@@ -336,7 +336,7 @@ void UWBP_ShearedButton_C::ReleasedStateAnimFinished()
 
 void UWBP_ShearedButton_C::HoverStateAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.HoverStateAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.HoverStateAnim");
 
 	struct
 	{
@@ -356,7 +356,7 @@ void UWBP_ShearedButton_C::HoverStateAnim(float ElapsedTime, float ElapsedAlpha)
 
 void UWBP_ShearedButton_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.InitializeTickAnimations"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.InitializeTickAnimations");
 
 	struct
 	{
@@ -374,7 +374,7 @@ void UWBP_ShearedButton_C::InitializeTickAnimations()
 
 void UWBP_ShearedButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.PreConstruct");
 
 	struct
 	{
@@ -392,7 +392,7 @@ void UWBP_ShearedButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ShearedButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.Construct");
 
 	struct
 	{
@@ -408,7 +408,7 @@ void UWBP_ShearedButton_C::Construct()
 
 void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -424,7 +424,7 @@ void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButt
 
 void UWBP_ShearedButton_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.GamepadHover");
 
 	struct
 	{
@@ -440,7 +440,7 @@ void UWBP_ShearedButton_C::GamepadHover()
 
 void UWBP_ShearedButton_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.GamepadUnhover");
 
 	struct
 	{
@@ -456,7 +456,7 @@ void UWBP_ShearedButton_C::GamepadUnhover()
 
 void UWBP_ShearedButton_C::ProxyClick()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.ProxyClick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.ProxyClick");
 
 	struct
 	{
@@ -472,7 +472,7 @@ void UWBP_ShearedButton_C::ProxyClick()
 
 void UWBP_ShearedButton_C::ProxyHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.ProxyHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.ProxyHover");
 
 	struct
 	{
@@ -488,7 +488,7 @@ void UWBP_ShearedButton_C::ProxyHover()
 
 void UWBP_ShearedButton_C::ProxyUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.ProxyUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.ProxyUnhover");
 
 	struct
 	{
@@ -504,7 +504,7 @@ void UWBP_ShearedButton_C::ProxyUnhover()
 
 void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -520,7 +520,7 @@ void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButt
 
 void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -536,7 +536,7 @@ void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButt
 
 void UWBP_ShearedButton_C::ResetDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.ResetDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.ResetDisplay");
 
 	struct
 	{
@@ -552,7 +552,7 @@ void UWBP_ShearedButton_C::ResetDisplay()
 
 void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -568,7 +568,7 @@ void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButt
 
 void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonReleasedEvent__DelegateSignature");
 
 	struct
 	{
@@ -586,7 +586,7 @@ void UWBP_ShearedButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButt
 
 void UWBP_ShearedButton_C::ExecuteUbergraph_WBP_ShearedButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.ExecuteUbergraph_WBP_ShearedButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.ExecuteUbergraph_WBP_ShearedButton");
 
 	struct
 	{
@@ -606,7 +606,7 @@ void UWBP_ShearedButton_C::ExecuteUbergraph_WBP_ShearedButton(int EntryPoint)
 
 void UWBP_ShearedButton_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -626,7 +626,7 @@ void UWBP_ShearedButton_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 
 void UWBP_ShearedButton_C::OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.OnHovered__DelegateSignature");
 
 	struct
 	{
@@ -646,7 +646,7 @@ void UWBP_ShearedButton_C::OnHovered__DelegateSignature(class UWidget* Widget)
 
 void UWBP_ShearedButton_C::OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShearedButton.WBP_ShearedButton_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShearedButton.WBP_ShearedButton_C.OnClicked__DelegateSignature");
 
 	struct
 	{

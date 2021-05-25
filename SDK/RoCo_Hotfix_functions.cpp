@@ -17,7 +17,7 @@ namespace SDK
 
 void UOnlineHotfixManager::StartHotfixProcess()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Hotfix.OnlineHotfixManager.StartHotfixProcess"));
+	static auto fn = UObject::FindObject<UFunction>("Function Hotfix.OnlineHotfixManager.StartHotfixProcess");
 
 	struct
 	{

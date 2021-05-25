@@ -33,7 +33,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass LoginTwoFactor.LoginTwoFactor_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass LoginTwoFactor.LoginTwoFactor_C");
 		return ptr;
 	}
 

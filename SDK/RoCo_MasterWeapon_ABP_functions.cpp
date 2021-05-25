@@ -20,7 +20,7 @@ namespace SDK
 
 void UMasterWeapon_ABP_C::UpdateUnspentShellVisibility(int bpp__ShellIndex__pf, bool bpp__NewxVisibility__pfT)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.UpdateUnspentShellVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.UpdateUnspentShellVisibility");
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UMasterWeapon_ABP_C::UpdateUnspentShellVisibility(int bpp__ShellIndex__pf, 
 
 void UMasterWeapon_ABP_C::UpdateSpentShellVisibility(int bpp__ShellIndex__pf, bool bpp__NewxVisibility__pfT)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.UpdateSpentShellVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.UpdateSpentShellVisibility");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UMasterWeapon_ABP_C::UpdateSpentShellVisibility(int bpp__ShellIndex__pf, bo
 
 void UMasterWeapon_ABP_C::Set_Multi_Stage_Reload(bool bpp__NewxIsxMultixStagexReload__pfTTTT)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.Set Multi Stage Reload"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.Set Multi Stage Reload");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UMasterWeapon_ABP_C::Set_Multi_Stage_Reload(bool bpp__NewxIsxMultixStagexRe
 
 void UMasterWeapon_ABP_C::SetWeaponState(class UKSWeaponComponent* bpp__OwningWeaponComponent__pf, EWeaponStateNew bpp__OldState__pf, EWeaponStateNew bpp__NewState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetWeaponState"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetWeaponState");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UMasterWeapon_ABP_C::SetWeaponState(class UKSWeaponComponent* bpp__OwningWe
 
 void UMasterWeapon_ABP_C::SetShieldActive(bool bpp__bIsShieldActive__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetShieldActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetShieldActive");
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UMasterWeapon_ABP_C::SetShieldActive(bool bpp__bIsShieldActive__pf)
 
 void UMasterWeapon_ABP_C::SetScopeScaleAlpha(float bpp__NewAlpha__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetScopeScaleAlpha"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetScopeScaleAlpha");
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UMasterWeapon_ABP_C::SetScopeScaleAlpha(float bpp__NewAlpha__pf)
 
 void UMasterWeapon_ABP_C::SetRevolverChamberRotatae(const struct FRotator& bpp__NewRevolverChamberRot__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetRevolverChamberRotatae"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetRevolverChamberRotatae");
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UMasterWeapon_ABP_C::SetRevolverChamberRotatae(const struct FRotator& bpp__
 
 void UMasterWeapon_ABP_C::InitSetWeaponState(EWeaponStateNew bpp__NewWeaponState__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetWeaponState"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetWeaponState");
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UMasterWeapon_ABP_C::InitSetWeaponState(EWeaponStateNew bpp__NewWeaponState
 
 void UMasterWeapon_ABP_C::InitSetUseWeaponAdditive(bool bpp__bUseAdditive__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetUseWeaponAdditive"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetUseWeaponAdditive");
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UMasterWeapon_ABP_C::InitSetUseWeaponAdditive(bool bpp__bUseAdditive__pf)
 
 void UMasterWeapon_ABP_C::InitSetScopeMeshScale(float bpp__NewAlpha__pf, bool bpp__bIsRevolver__pf, bool bpp__bIsMultiStageReload__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetScopeMeshScale"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetScopeMeshScale");
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UMasterWeapon_ABP_C::InitSetScopeMeshScale(float bpp__NewAlpha__pf, bool bp
 
 void UMasterWeapon_ABP_C::InitSetHideMagazine(float bpp__HideMagazineAlpha__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetHideMagazine"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetHideMagazine");
 
 	struct
 	{
@@ -259,7 +259,7 @@ void UMasterWeapon_ABP_C::InitSetHideMagazine(float bpp__HideMagazineAlpha__pf)
 
 void UMasterWeapon_ABP_C::InitSetFoldingStock(bool bpp__bIsStockFolded__pf, const struct FRotator& bpp__StockRotationTarget__pf, const struct FRotator& bpp__StockAltRotationTarget__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetFoldingStock"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.InitSetFoldingStock");
 
 	struct
 	{
@@ -281,7 +281,7 @@ void UMasterWeapon_ABP_C::InitSetFoldingStock(bool bpp__bIsStockFolded__pf, cons
 
 void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_TransitionResult_C81FAA1C43A50F58E2735BA1DAFCEAC3()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_TransitionResult_C81FAA1C43A50F58E2735BA1DAFCEAC3"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_TransitionResult_C81FAA1C43A50F58E2735BA1DAFCEAC3");
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeap
 
 void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_TransitionResult_611B83614EC94B902AE59986EF3BC03A()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_TransitionResult_611B83614EC94B902AE59986EF3BC03A"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_TransitionResult_611B83614EC94B902AE59986EF3BC03A");
 
 	struct
 	{
@@ -313,7 +313,7 @@ void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeap
 
 void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_ModifyBone_52465FEA4D6701EB8BD2D5B0FF7D5E44()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_ModifyBone_52465FEA4D6701EB8BD2D5B0FF7D5E44"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_ModifyBone_52465FEA4D6701EB8BD2D5B0FF7D5E44");
 
 	struct
 	{
@@ -329,7 +329,7 @@ void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeap
 
 void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_BlendListByBool_8D407D3B4E9DF8DEBA89FBB2A5413674()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_BlendListByBool_8D407D3B4E9DF8DEBA89FBB2A5413674"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_AnimGraphNode_BlendListByBool_8D407D3B4E9DF8DEBA89FBB2A5413674");
 
 	struct
 	{
@@ -345,7 +345,7 @@ void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeap
 
 void UMasterWeapon_ABP_C::AnimNotify_Unhide_Mag()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.AnimNotify_Unhide Mag"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.AnimNotify_Unhide Mag");
 
 	struct
 	{
@@ -361,7 +361,7 @@ void UMasterWeapon_ABP_C::AnimNotify_Unhide_Mag()
 
 void UMasterWeapon_ABP_C::AnimNotify_Hide_Mag()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.AnimNotify_Hide Mag"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.AnimNotify_Hide Mag");
 
 	struct
 	{
@@ -379,7 +379,7 @@ void UMasterWeapon_ABP_C::AnimNotify_Hide_Mag()
 
 void UMasterWeapon_ABP_C::AnimGraph(struct FPoseLink* bpp__AnimGraph__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MasterWeapon_ABP.MasterWeapon_ABP_C.AnimGraph"));
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.AnimGraph");
 
 	struct
 	{

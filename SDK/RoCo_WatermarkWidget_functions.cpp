@@ -19,7 +19,7 @@ namespace SDK
 
 void UWatermarkWidget_C::GetNewWatermarkTranslation(struct FVector2D* Transform_Translation)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WatermarkWidget.WatermarkWidget_C.GetNewWatermarkTranslation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WatermarkWidget.WatermarkWidget_C.GetNewWatermarkTranslation");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWatermarkWidget_C::GetNewWatermarkTranslation(struct FVector2D* Transform_
 
 void UWatermarkWidget_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WatermarkWidget.WatermarkWidget_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WatermarkWidget.WatermarkWidget_C.Construct");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWatermarkWidget_C::Construct()
 
 void UWatermarkWidget_C::Reposition_Watermark()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WatermarkWidget.WatermarkWidget_C.Reposition Watermark"));
+	static auto fn = UObject::FindObject<UFunction>("Function WatermarkWidget.WatermarkWidget_C.Reposition Watermark");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWatermarkWidget_C::Reposition_Watermark()
 
 void UWatermarkWidget_C::Fade_In()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WatermarkWidget.WatermarkWidget_C.Fade In"));
+	static auto fn = UObject::FindObject<UFunction>("Function WatermarkWidget.WatermarkWidget_C.Fade In");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWatermarkWidget_C::Fade_In()
 
 void UWatermarkWidget_C::Fade_Out()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WatermarkWidget.WatermarkWidget_C.Fade Out"));
+	static auto fn = UObject::FindObject<UFunction>("Function WatermarkWidget.WatermarkWidget_C.Fade Out");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWatermarkWidget_C::Fade_Out()
 
 void UWatermarkWidget_C::Move_Watermark_To_Random_Position()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WatermarkWidget.WatermarkWidget_C.Move Watermark To Random Position"));
+	static auto fn = UObject::FindObject<UFunction>("Function WatermarkWidget.WatermarkWidget_C.Move Watermark To Random Position");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWatermarkWidget_C::Move_Watermark_To_Random_Position()
 
 void UWatermarkWidget_C::StartPositionChanging()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WatermarkWidget.WatermarkWidget_C.StartPositionChanging"));
+	static auto fn = UObject::FindObject<UFunction>("Function WatermarkWidget.WatermarkWidget_C.StartPositionChanging");
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UWatermarkWidget_C::StartPositionChanging()
 
 void UWatermarkWidget_C::OnResizeViewport(const struct FIntPoint& Viewport_Size)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WatermarkWidget.WatermarkWidget_C.OnResizeViewport"));
+	static auto fn = UObject::FindObject<UFunction>("Function WatermarkWidget.WatermarkWidget_C.OnResizeViewport");
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWatermarkWidget_C::OnResizeViewport(const struct FIntPoint& Viewport_Size)
 
 void UWatermarkWidget_C::ExecuteUbergraph_WatermarkWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WatermarkWidget.WatermarkWidget_C.ExecuteUbergraph_WatermarkWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WatermarkWidget.WatermarkWidget_C.ExecuteUbergraph_WatermarkWidget");
 
 	struct
 	{

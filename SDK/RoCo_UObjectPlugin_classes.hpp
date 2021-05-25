@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class UObjectPlugin.MyPluginObject"));
+		static auto ptr = UObject::FindObject<UClass>("Class UObjectPlugin.MyPluginObject");
 		return ptr;
 	}
 

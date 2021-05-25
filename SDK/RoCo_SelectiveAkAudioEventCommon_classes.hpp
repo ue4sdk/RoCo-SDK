@@ -26,7 +26,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SelectiveAkAudioEventCommon.AnimNotify_SelectiveAkEvent"));
+		static auto ptr = UObject::FindObject<UClass>("Class SelectiveAkAudioEventCommon.AnimNotify_SelectiveAkEvent");
 		return ptr;
 	}
 
@@ -41,7 +41,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SelectiveAkAudioEventCommon.SelectiveAkAudioEvent"));
+		static auto ptr = UObject::FindObject<UClass>("Class SelectiveAkAudioEventCommon.SelectiveAkAudioEvent");
 		return ptr;
 	}
 
@@ -56,7 +56,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics"));
+		static auto ptr = UObject::FindObject<UClass>("Class SelectiveAkAudioEventCommon.SelectiveAkGameplayStatics");
 		return ptr;
 	}
 
@@ -85,7 +85,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SelectiveAkAudioEventCommon.ViewDependentAkAudioEvent"));
+		static auto ptr = UObject::FindObject<UClass>("Class SelectiveAkAudioEventCommon.ViewDependentAkAudioEvent");
 		return ptr;
 	}
 
@@ -100,7 +100,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SelectiveAkAudioEventCommon.ViewDependentAkEventRules"));
+		static auto ptr = UObject::FindObject<UClass>("Class SelectiveAkAudioEventCommon.ViewDependentAkEventRules");
 		return ptr;
 	}
 
@@ -115,7 +115,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SelectiveAkAudioEventCommon.ViewDependentRules_IsViewTarget"));
+		static auto ptr = UObject::FindObject<UClass>("Class SelectiveAkAudioEventCommon.ViewDependentRules_IsViewTarget");
 		return ptr;
 	}
 

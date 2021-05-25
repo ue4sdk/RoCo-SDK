@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_QuickPlay_QueueTypeSection_C::ResetQueueButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.ResetQueueButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.ResetQueueButtons");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::ResetQueueButtons()
 
 void UWBP_QuickPlay_QueueTypeSection_C::GetQueueButtons(TArray<class UWBP_QuickPlay_QueueButton_C*>* Buttons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.GetQueueButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.GetQueueButtons");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::GetQueueButtons(TArray<class UWBP_QuickP
 
 void UWBP_QuickPlay_QueueTypeSection_C::PopulateSection(const struct FQueueSection& QueueSectionInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.PopulateSection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.PopulateSection");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::PopulateSection(const struct FQueueSecti
 
 void UWBP_QuickPlay_QueueTypeSection_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.Construct");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::Construct()
 
 void UWBP_QuickPlay_QueueTypeSection_C::HandleOnQueueClicked(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleOnQueueClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleOnQueueClicked");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::HandleOnQueueClicked(int QueueId)
 
 void UWBP_QuickPlay_QueueTypeSection_C::HandleOnQueueHovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleOnQueueHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleOnQueueHovered");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::HandleOnQueueHovered(class UWidget* Widg
 
 void UWBP_QuickPlay_QueueTypeSection_C::HandleOnQueueUnhovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleOnQueueUnhovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleOnQueueUnhovered");
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::HandleOnQueueUnhovered(class UWidget* Wi
 
 void UWBP_QuickPlay_QueueTypeSection_C::HandleCustomBtnHovered(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleCustomBtnHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleCustomBtnHovered");
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::HandleCustomBtnHovered(bool IsGamepad)
 
 void UWBP_QuickPlay_QueueTypeSection_C::HandleCustomBtnUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleCustomBtnUnhovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleCustomBtnUnhovered");
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::HandleCustomBtnUnhovered()
 
 void UWBP_QuickPlay_QueueTypeSection_C::HandleCustomBtnClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleCustomBtnClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.HandleCustomBtnClicked");
 
 	struct
 	{
@@ -203,7 +203,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::HandleCustomBtnClicked()
 
 void UWBP_QuickPlay_QueueTypeSection_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnInitialized");
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::OnInitialized()
 
 void UWBP_QuickPlay_QueueTypeSection_C::ExecuteUbergraph_WBP_QuickPlay_QueueTypeSection(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.ExecuteUbergraph_WBP_QuickPlay_QueueTypeSection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.ExecuteUbergraph_WBP_QuickPlay_QueueTypeSection");
 
 	struct
 	{
@@ -241,7 +241,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::ExecuteUbergraph_WBP_QuickPlay_QueueType
 
 void UWBP_QuickPlay_QueueTypeSection_C::OnCustomMatchPopulated__DelegateSignature(TArray<class UKSWidget*>* Buttons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnCustomMatchPopulated__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnCustomMatchPopulated__DelegateSignature");
 
 	struct
 	{
@@ -261,7 +261,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::OnCustomMatchPopulated__DelegateSignatur
 
 void UWBP_QuickPlay_QueueTypeSection_C::OnCustomMatchSelected__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnCustomMatchSelected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnCustomMatchSelected__DelegateSignature");
 
 	struct
 	{
@@ -279,7 +279,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::OnCustomMatchSelected__DelegateSignature
 
 void UWBP_QuickPlay_QueueTypeSection_C::OnQueuePopulated__DelegateSignature(TArray<class UWBP_QuickPlay_QueueButton_C*>* QueueButton)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnQueuePopulated__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnQueuePopulated__DelegateSignature");
 
 	struct
 	{
@@ -301,7 +301,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::OnQueuePopulated__DelegateSignature(TArr
 
 void UWBP_QuickPlay_QueueTypeSection_C::OnQueueUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnQueueUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnQueueUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::OnQueueUnhovered__DelegateSignature(clas
 
 void UWBP_QuickPlay_QueueTypeSection_C::OnQueueHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnQueueHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnQueueHovered__DelegateSignature");
 
 	struct
 	{
@@ -341,7 +341,7 @@ void UWBP_QuickPlay_QueueTypeSection_C::OnQueueHovered__DelegateSignature(class 
 
 void UWBP_QuickPlay_QueueTypeSection_C::OnQueueSelected__DelegateSignature(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnQueueSelected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeSection.WBP_QuickPlay_QueueTypeSection_C.OnQueueSelected__DelegateSignature");
 
 	struct
 	{

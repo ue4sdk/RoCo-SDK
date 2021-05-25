@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ToastNotification_Manager_C::PushAwardsEarnedInMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.PushAwardsEarnedInMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.PushAwardsEarnedInMatch");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_ToastNotification_Manager_C::PushAwardsEarnedInMatch()
 
 void UWBP_ToastNotification_Manager_C::DisplayChallengeToast(class UWBP_Toast2_C* Toast)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.DisplayChallengeToast"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.DisplayChallengeToast");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_ToastNotification_Manager_C::DisplayChallengeToast(class UWBP_Toast2_C
 
 void UWBP_ToastNotification_Manager_C::DisplayToast(class UWBP_ToastNotifcation_Entry_C* Toast)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.DisplayToast"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.DisplayToast");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_ToastNotification_Manager_C::DisplayToast(class UWBP_ToastNotifcation_
 
 void UWBP_ToastNotification_Manager_C::OnToastNotificationReceived(const struct FToastData& ToastData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.OnToastNotificationReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.OnToastNotificationReceived");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_ToastNotification_Manager_C::OnToastNotificationReceived(const struct 
 
 void UWBP_ToastNotification_Manager_C::HandleToastNotificationRemove(class UKSWidget* ToastNotification)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.HandleToastNotificationRemove"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.HandleToastNotificationRemove");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_ToastNotification_Manager_C::HandleToastNotificationRemove(class UKSWi
 
 void UWBP_ToastNotification_Manager_C::OnToastIntroAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.OnToastIntroAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.OnToastIntroAnimFinished");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_ToastNotification_Manager_C::OnToastIntroAnimFinished()
 
 void UWBP_ToastNotification_Manager_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.Construct");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_ToastNotification_Manager_C::Construct()
 
 void UWBP_ToastNotification_Manager_C::HandleChallengeToastNotificationRemove(class UKSWidget* ToastNotification)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.HandleChallengeToastNotificationRemove"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.HandleChallengeToastNotificationRemove");
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UWBP_ToastNotification_Manager_C::HandleChallengeToastNotificationRemove(cl
 
 void UWBP_ToastNotification_Manager_C::ExecuteUbergraph_WBP_ToastNotification_Manager(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.ExecuteUbergraph_WBP_ToastNotification_Manager"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ToastNotification_Manager.WBP_ToastNotification_Manager_C.ExecuteUbergraph_WBP_ToastNotification_Manager");
 
 	struct
 	{

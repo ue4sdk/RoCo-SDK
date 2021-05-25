@@ -17,7 +17,7 @@ namespace SDK
 
 void ATaskBeacon_C::UserConstructionScript()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TaskBeacon.TaskBeacon_C.UserConstructionScript"));
+	static auto fn = UObject::FindObject<UFunction>("Function TaskBeacon.TaskBeacon_C.UserConstructionScript");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void ATaskBeacon_C::UserConstructionScript()
 
 void ATaskBeacon_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TaskBeacon.TaskBeacon_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function TaskBeacon.TaskBeacon_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void ATaskBeacon_C::ReceiveBeginPlay()
 
 void ATaskBeacon_C::ExecuteUbergraph_TaskBeacon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TaskBeacon.TaskBeacon_C.ExecuteUbergraph_TaskBeacon"));
+	static auto fn = UObject::FindObject<UFunction>("Function TaskBeacon.TaskBeacon_C.ExecuteUbergraph_TaskBeacon");
 
 	struct
 	{

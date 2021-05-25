@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemSteam.SteamAuthComponentModuleInterface"));
+		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemSteam.SteamAuthComponentModuleInterface");
 		return ptr;
 	}
 
@@ -39,7 +39,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemSteam.SteamNetConnection"));
+		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemSteam.SteamNetConnection");
 		return ptr;
 	}
 
@@ -55,7 +55,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class OnlineSubsystemSteam.SteamNetDriver"));
+		static auto ptr = UObject::FindObject<UClass>("Class OnlineSubsystemSteam.SteamNetDriver");
 		return ptr;
 	}
 

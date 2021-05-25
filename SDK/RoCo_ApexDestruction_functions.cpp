@@ -19,7 +19,7 @@ namespace SDK
 
 void UDestructibleComponent::SetDestructibleMesh(class UDestructibleMesh* NewMesh)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ApexDestruction.DestructibleComponent.SetDestructibleMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function ApexDestruction.DestructibleComponent.SetDestructibleMesh");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UDestructibleComponent::SetDestructibleMesh(class UDestructibleMesh* NewMes
 
 class UDestructibleMesh* UDestructibleComponent::GetDestructibleMesh()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ApexDestruction.DestructibleComponent.GetDestructibleMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function ApexDestruction.DestructibleComponent.GetDestructibleMesh");
 
 	struct
 	{
@@ -64,7 +64,7 @@ class UDestructibleMesh* UDestructibleComponent::GetDestructibleMesh()
 
 void UDestructibleComponent::ApplyRadiusDamage(float BaseDamage, const struct FVector& HurtOrigin, float DamageRadius, float ImpulseStrength, bool bFullDamage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ApexDestruction.DestructibleComponent.ApplyRadiusDamage"));
+	static auto fn = UObject::FindObject<UFunction>("Function ApexDestruction.DestructibleComponent.ApplyRadiusDamage");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UDestructibleComponent::ApplyRadiusDamage(float BaseDamage, const struct FV
 
 void UDestructibleComponent::ApplyDamage(float DamageAmount, const struct FVector& HitLocation, const struct FVector& ImpulseDir, float ImpulseStrength)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ApexDestruction.DestructibleComponent.ApplyDamage"));
+	static auto fn = UObject::FindObject<UFunction>("Function ApexDestruction.DestructibleComponent.ApplyDamage");
 
 	struct
 	{

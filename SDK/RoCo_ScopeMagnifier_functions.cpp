@@ -19,7 +19,7 @@ namespace SDK
 
 void UScopeMagnifier_C::OnPlayerHealthChanged(class AKSCharacterBase* CharacterBase)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.OnPlayerHealthChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.OnPlayerHealthChanged");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UScopeMagnifier_C::OnPlayerHealthChanged(class AKSCharacterBase* CharacterB
 
 void UScopeMagnifier_C::OnAimStateChanged(EKSCharacterAimMode AimState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.OnAimStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.OnAimStateChanged");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UScopeMagnifier_C::OnAimStateChanged(EKSCharacterAimMode AimState)
 
 void UScopeMagnifier_C::DetermineScope(float FOV)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.DetermineScope"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.DetermineScope");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UScopeMagnifier_C::DetermineScope(float FOV)
 
 void UScopeMagnifier_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.HandleInputModeChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.HandleInputModeChanged");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UScopeMagnifier_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> I
 
 void UScopeMagnifier_C::SetPromptImage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.SetPromptImage"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.SetPromptImage");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UScopeMagnifier_C::SetPromptImage()
 
 struct FText UScopeMagnifier_C::Get_PostPromptText_Text_1()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.Get_PostPromptText_Text_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.Get_PostPromptText_Text_1");
 
 	struct
 	{
@@ -136,7 +136,7 @@ struct FText UScopeMagnifier_C::Get_PostPromptText_Text_1()
 
 struct FText UScopeMagnifier_C::Get_PrePromptText_Text_1()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.Get_PrePromptText_Text_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.Get_PrePromptText_Text_1");
 
 	struct
 	{
@@ -158,7 +158,7 @@ struct FText UScopeMagnifier_C::Get_PrePromptText_Text_1()
 
 void UScopeMagnifier_C::SplitPrompt(struct FString* PreText, struct FString* PosText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.SplitPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.SplitPrompt");
 
 	struct
 	{
@@ -181,7 +181,7 @@ void UScopeMagnifier_C::SplitPrompt(struct FString* PreText, struct FString* Pos
 
 void UScopeMagnifier_C::PostSetWeapon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.PostSetWeapon"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.PostSetWeapon");
 
 	struct
 	{
@@ -197,7 +197,7 @@ void UScopeMagnifier_C::PostSetWeapon()
 
 void UScopeMagnifier_C::PreClearWeapon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.PreClearWeapon"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.PreClearWeapon");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UScopeMagnifier_C::PreClearWeapon()
 
 void UScopeMagnifier_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.InitializeWidget");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UScopeMagnifier_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UScopeMagnifier_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.Construct");
 
 	struct
 	{
@@ -251,7 +251,7 @@ void UScopeMagnifier_C::Construct()
 
 void UScopeMagnifier_C::ExecuteUbergraph_ScopeMagnifier(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScopeMagnifier.ScopeMagnifier_C.ExecuteUbergraph_ScopeMagnifier"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScopeMagnifier.ScopeMagnifier_C.ExecuteUbergraph_ScopeMagnifier");
 
 	struct
 	{

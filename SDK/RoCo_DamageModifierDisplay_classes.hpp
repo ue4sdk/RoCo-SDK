@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass DamageModifierDisplay.DamageModifierDisplay_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass DamageModifierDisplay.DamageModifierDisplay_C");
 		return ptr;
 	}
 

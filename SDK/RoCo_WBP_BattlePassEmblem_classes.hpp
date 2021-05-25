@@ -29,7 +29,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_BattlePassEmblem.WBP_BattlePassEmblem_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_BattlePassEmblem.WBP_BattlePassEmblem_C");
 		return ptr;
 	}
 

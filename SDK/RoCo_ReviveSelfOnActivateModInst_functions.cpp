@@ -20,7 +20,7 @@ namespace SDK
 
 void UReviveSelfOnActivateModInst_C::Get_outro_timer(class UAnimMontage* Montage, float* Outro_Duration_timer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.Get outro timer"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.Get outro timer");
 
 	struct
 	{
@@ -46,7 +46,7 @@ void UReviveSelfOnActivateModInst_C::Get_outro_timer(class UAnimMontage* Montage
 
 bool UReviveSelfOnActivateModInst_C::StopAnimationFromEvent(const struct FName& AnimEventName, class UKSCharacterAnimInst* CharAnimInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StopAnimationFromEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StopAnimationFromEvent");
 
 	struct
 	{
@@ -73,7 +73,7 @@ bool UReviveSelfOnActivateModInst_C::StopAnimationFromEvent(const struct FName& 
 
 bool UReviveSelfOnActivateModInst_C::ReactsToAnimationEvent(const struct FName& AnimEventName, int* Priority)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.ReactsToAnimationEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.ReactsToAnimationEvent");
 
 	struct
 	{
@@ -101,7 +101,7 @@ bool UReviveSelfOnActivateModInst_C::ReactsToAnimationEvent(const struct FName& 
 
 void UReviveSelfOnActivateModInst_C::OnNotifyEnd_9E1EC10C43864E26E4E9E1B703588426(const struct FName& NotifyName, int MontageInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnNotifyEnd_9E1EC10C43864E26E4E9E1B703588426"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnNotifyEnd_9E1EC10C43864E26E4E9E1B703588426");
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UReviveSelfOnActivateModInst_C::OnNotifyEnd_9E1EC10C43864E26E4E9E1B70358842
 
 void UReviveSelfOnActivateModInst_C::OnNotifyBegin_9E1EC10C43864E26E4E9E1B703588426(const struct FName& NotifyName, int MontageInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnNotifyBegin_9E1EC10C43864E26E4E9E1B703588426"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnNotifyBegin_9E1EC10C43864E26E4E9E1B703588426");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UReviveSelfOnActivateModInst_C::OnNotifyBegin_9E1EC10C43864E26E4E9E1B703588
 
 void UReviveSelfOnActivateModInst_C::OnInterrupted_9E1EC10C43864E26E4E9E1B703588426(const struct FName& NotifyName, int MontageInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnInterrupted_9E1EC10C43864E26E4E9E1B703588426"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnInterrupted_9E1EC10C43864E26E4E9E1B703588426");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UReviveSelfOnActivateModInst_C::OnInterrupted_9E1EC10C43864E26E4E9E1B703588
 
 void UReviveSelfOnActivateModInst_C::OnBlendOut_9E1EC10C43864E26E4E9E1B703588426(const struct FName& NotifyName, int MontageInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnBlendOut_9E1EC10C43864E26E4E9E1B703588426"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnBlendOut_9E1EC10C43864E26E4E9E1B703588426");
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UReviveSelfOnActivateModInst_C::OnBlendOut_9E1EC10C43864E26E4E9E1B703588426
 
 void UReviveSelfOnActivateModInst_C::OnCompleted_9E1EC10C43864E26E4E9E1B703588426(const struct FName& NotifyName, int MontageInstanceID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnCompleted_9E1EC10C43864E26E4E9E1B703588426"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnCompleted_9E1EC10C43864E26E4E9E1B703588426");
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UReviveSelfOnActivateModInst_C::OnCompleted_9E1EC10C43864E26E4E9E1B70358842
 
 void UReviveSelfOnActivateModInst_C::VO_Revive_Activate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.VO_Revive_Activate"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.VO_Revive_Activate");
 
 	struct
 	{
@@ -229,7 +229,7 @@ void UReviveSelfOnActivateModInst_C::VO_Revive_Activate()
 
 void UReviveSelfOnActivateModInst_C::StimPackDownedEndSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StimPackDownedEndSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StimPackDownedEndSFX");
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UReviveSelfOnActivateModInst_C::StimPackDownedEndSFX()
 
 void UReviveSelfOnActivateModInst_C::StimPackActivateStandingSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StimPackActivateStandingSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StimPackActivateStandingSFX");
 
 	struct
 	{
@@ -261,7 +261,7 @@ void UReviveSelfOnActivateModInst_C::StimPackActivateStandingSFX()
 
 void UReviveSelfOnActivateModInst_C::StimPackActivateDownedSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StimPackActivateDownedSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StimPackActivateDownedSFX");
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UReviveSelfOnActivateModInst_C::StimPackActivateDownedSFX()
 
 void UReviveSelfOnActivateModInst_C::SFX_Revive_Activate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.SFX_Revive_Activate"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.SFX_Revive_Activate");
 
 	struct
 	{
@@ -293,7 +293,7 @@ void UReviveSelfOnActivateModInst_C::SFX_Revive_Activate()
 
 void UReviveSelfOnActivateModInst_C::SFX_Revive_Complete()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.SFX_Revive_Complete"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.SFX_Revive_Complete");
 
 	struct
 	{
@@ -309,7 +309,7 @@ void UReviveSelfOnActivateModInst_C::SFX_Revive_Complete()
 
 void UReviveSelfOnActivateModInst_C::StimPackReviveCompleteSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StimPackReviveCompleteSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.StimPackReviveCompleteSFX");
 
 	struct
 	{
@@ -328,7 +328,7 @@ void UReviveSelfOnActivateModInst_C::StimPackReviveCompleteSFX()
 
 void UReviveSelfOnActivateModInst_C::PlayAnimationFromEvent(const struct FName& AnimEventName, class UKSCharacterAnimInst* CharAnimInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.PlayAnimationFromEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.PlayAnimationFromEvent");
 
 	struct
 	{
@@ -348,7 +348,7 @@ void UReviveSelfOnActivateModInst_C::PlayAnimationFromEvent(const struct FName& 
 
 void UReviveSelfOnActivateModInst_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -366,7 +366,7 @@ void UReviveSelfOnActivateModInst_C::ReceiveBeginPlay()
 
 void UReviveSelfOnActivateModInst_C::OnActivated(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnActivated"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnActivated");
 
 	struct
 	{
@@ -386,7 +386,7 @@ void UReviveSelfOnActivateModInst_C::OnActivated(bool bActive)
 
 void UReviveSelfOnActivateModInst_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.ReceiveEndPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.ReceiveEndPlay");
 
 	struct
 	{
@@ -406,7 +406,7 @@ void UReviveSelfOnActivateModInst_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> 
 
 void UReviveSelfOnActivateModInst_C::AdjustImmunityEffect(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.AdjustImmunityEffect"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.AdjustImmunityEffect");
 
 	struct
 	{
@@ -424,7 +424,7 @@ void UReviveSelfOnActivateModInst_C::AdjustImmunityEffect(bool Active)
 
 void UReviveSelfOnActivateModInst_C::OnSetup()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnSetup"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnSetup");
 
 	struct
 	{
@@ -440,7 +440,7 @@ void UReviveSelfOnActivateModInst_C::OnSetup()
 
 void UReviveSelfOnActivateModInst_C::Brute_Strength_Effect_Stop()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.Brute Strength Effect Stop"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.Brute Strength Effect Stop");
 
 	struct
 	{
@@ -456,7 +456,7 @@ void UReviveSelfOnActivateModInst_C::Brute_Strength_Effect_Stop()
 
 void UReviveSelfOnActivateModInst_C::Play_Outro()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.Play Outro"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.Play Outro");
 
 	struct
 	{
@@ -472,7 +472,7 @@ void UReviveSelfOnActivateModInst_C::Play_Outro()
 
 void UReviveSelfOnActivateModInst_C::Brute_Strength_Effect_Play()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.Brute Strength Effect Play"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.Brute Strength Effect Play");
 
 	struct
 	{
@@ -488,7 +488,7 @@ void UReviveSelfOnActivateModInst_C::Brute_Strength_Effect_Play()
 
 void UReviveSelfOnActivateModInst_C::OnNewCharacter()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnNewCharacter"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnNewCharacter");
 
 	struct
 	{
@@ -504,7 +504,7 @@ void UReviveSelfOnActivateModInst_C::OnNewCharacter()
 
 void UReviveSelfOnActivateModInst_C::OnDeathStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnDeathStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.OnDeathStateChanged");
 
 	struct
 	{
@@ -522,7 +522,7 @@ void UReviveSelfOnActivateModInst_C::OnDeathStateChanged()
 
 void UReviveSelfOnActivateModInst_C::ExecuteUbergraph_ReviveSelfOnActivateModInst(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.ExecuteUbergraph_ReviveSelfOnActivateModInst"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReviveSelfOnActivateModInst.ReviveSelfOnActivateModInst_C.ExecuteUbergraph_ReviveSelfOnActivateModInst");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_EventRewardsScreen_C::HandleOnPageNavigated(int Direction)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.HandleOnPageNavigated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.HandleOnPageNavigated");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_EventRewardsScreen_C::HandleOnPageNavigated(int Direction)
 
 void UWBP_EventRewardsScreen_C::Select_Initial_Item()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.Select Initial Item"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.Select Initial Item");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_EventRewardsScreen_C::Select_Initial_Item()
 
 void UWBP_EventRewardsScreen_C::OnRewardButtonClicked(class UWBP_RewardListEntry_C* Widget, const struct FCosmeticSlotDetails& RewardSlotDetails, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnRewardButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnRewardButtonClicked");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_EventRewardsScreen_C::OnRewardButtonClicked(class UWBP_RewardListEntry
 
 bool UWBP_EventRewardsScreen_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.NavigateBack");
 
 	struct
 	{
@@ -100,7 +100,7 @@ bool UWBP_EventRewardsScreen_C::NavigateBack()
 
 void UWBP_EventRewardsScreen_C::PerformInitialSetup()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.PerformInitialSetup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.PerformInitialSetup");
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UWBP_EventRewardsScreen_C::PerformInitialSetup()
 
 void UWBP_EventRewardsScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnShown");
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UWBP_EventRewardsScreen_C::OnShown()
 
 void UWBP_EventRewardsScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.InitializeWidget");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_EventRewardsScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_EventRewardsScreen_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnBackPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnBackPrompt");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UWBP_EventRewardsScreen_C::OnBackPrompt()
 
 void UWBP_EventRewardsScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_EventRewardsScreen_C::InitializeWidgetNavigation()
 
 void UWBP_EventRewardsScreen_C::FocusGroupNavigateRightFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.FocusGroupNavigateRightFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.FocusGroupNavigateRightFailure");
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_EventRewardsScreen_C::FocusGroupNavigateRightFailure(int FocusGroup)
 
 void UWBP_EventRewardsScreen_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.FocusGroupNavigateLeftFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.FocusGroupNavigateLeftFailure");
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_EventRewardsScreen_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 
 void UWBP_EventRewardsScreen_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.InitializeWidgetButtonListeners"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.InitializeWidgetButtonListeners");
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UWBP_EventRewardsScreen_C::InitializeWidgetButtonListeners()
 
 void UWBP_EventRewardsScreen_C::OnTriggerPageLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnTriggerPageLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnTriggerPageLeft");
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UWBP_EventRewardsScreen_C::OnTriggerPageLeft()
 
 void UWBP_EventRewardsScreen_C::OnTriggerPageRight()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnTriggerPageRight"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.OnTriggerPageRight");
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_EventRewardsScreen_C::OnTriggerPageRight()
 
 void UWBP_EventRewardsScreen_C::ExecuteUbergraph_WBP_EventRewardsScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.ExecuteUbergraph_WBP_EventRewardsScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventRewardsScreen.WBP_EventRewardsScreen_C.ExecuteUbergraph_WBP_EventRewardsScreen");
 
 	struct
 	{

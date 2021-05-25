@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass DefaultPunishmentConfig.DefaultPunishmentConfig_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass DefaultPunishmentConfig.DefaultPunishmentConfig_C");
 		return ptr;
 	}
 

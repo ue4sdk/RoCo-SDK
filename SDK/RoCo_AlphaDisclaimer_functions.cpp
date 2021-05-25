@@ -17,7 +17,7 @@ namespace SDK
 
 void UAlphaDisclaimer_C::HideScrollCallout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.HideScrollCallout"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.HideScrollCallout");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UAlphaDisclaimer_C::HideScrollCallout()
 
 void UAlphaDisclaimer_C::ShowArrows(float Value, float MaxValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.ShowArrows"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.ShowArrows");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UAlphaDisclaimer_C::ShowArrows(float Value, float MaxValue)
 
 void UAlphaDisclaimer_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.Tick");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UAlphaDisclaimer_C::Tick(const struct FGeometry& MyGeometry, float InDeltaT
 
 void UAlphaDisclaimer_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.InitializeWidget");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UAlphaDisclaimer_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UAlphaDisclaimer_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UAlphaDisclaimer_C::InitializeWidgetNavigation()
 
 void UAlphaDisclaimer_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.InitializeWidgetButtonListeners"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.InitializeWidgetButtonListeners");
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UAlphaDisclaimer_C::InitializeWidgetButtonListeners()
 
 void UAlphaDisclaimer_C::ScrollUpPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.ScrollUpPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.ScrollUpPressed");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UAlphaDisclaimer_C::ScrollUpPressed()
 
 void UAlphaDisclaimer_C::ScrollDownPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.ScrollDownPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.ScrollDownPressed");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UAlphaDisclaimer_C::ScrollDownPressed()
 
 void UAlphaDisclaimer_C::ScrollUpReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.ScrollUpReleased"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.ScrollUpReleased");
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UAlphaDisclaimer_C::ScrollUpReleased()
 
 void UAlphaDisclaimer_C::ScrollDownReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.ScrollDownReleased"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.ScrollDownReleased");
 
 	struct
 	{
@@ -197,7 +197,7 @@ void UAlphaDisclaimer_C::ScrollDownReleased()
 
 void UAlphaDisclaimer_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.Handle Input State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.Handle Input State Changed");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UAlphaDisclaimer_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STA
 
 void UAlphaDisclaimer_C::CalloutTimerFunction()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.CalloutTimerFunction"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.CalloutTimerFunction");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UAlphaDisclaimer_C::CalloutTimerFunction()
 
 void UAlphaDisclaimer_C::BndEvt__PopupButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.BndEvt__PopupButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.BndEvt__PopupButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -251,7 +251,7 @@ void UAlphaDisclaimer_C::BndEvt__PopupButton_K2Node_ComponentBoundEvent_0_OnClic
 
 void UAlphaDisclaimer_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.OnHide");
 
 	struct
 	{
@@ -267,7 +267,7 @@ void UAlphaDisclaimer_C::OnHide()
 
 void UAlphaDisclaimer_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.OnShown");
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UAlphaDisclaimer_C::OnShown()
 
 void UAlphaDisclaimer_C::Destruct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.Destruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.Destruct");
 
 	struct
 	{
@@ -301,7 +301,7 @@ void UAlphaDisclaimer_C::Destruct()
 
 void UAlphaDisclaimer_C::ExecuteUbergraph_AlphaDisclaimer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AlphaDisclaimer.AlphaDisclaimer_C.ExecuteUbergraph_AlphaDisclaimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function AlphaDisclaimer.AlphaDisclaimer_C.ExecuteUbergraph_AlphaDisclaimer");
 
 	struct
 	{

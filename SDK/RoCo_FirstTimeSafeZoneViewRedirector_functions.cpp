@@ -20,7 +20,7 @@ namespace SDK
 
 bool UFirstTimeSafeZoneViewRedirector_C::DoesLocalSettingApply(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeSafeZoneViewRedirector.FirstTimeSafeZoneViewRedirector_C.DoesLocalSettingApply"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeSafeZoneViewRedirector.FirstTimeSafeZoneViewRedirector_C.DoesLocalSettingApply");
 
 	struct
 	{

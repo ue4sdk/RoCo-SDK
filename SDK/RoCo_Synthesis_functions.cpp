@@ -21,7 +21,7 @@ namespace SDK
 
 void UModularSynthLibrary::AddModularSynthPresetToBankAsset(class UModularSynthPresetBank* InBank, const struct FModularSynthPreset& Preset, const struct FString& PresetName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthLibrary.AddModularSynthPresetToBankAsset"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthLibrary.AddModularSynthPresetToBankAsset");
 
 	struct
 	{
@@ -46,7 +46,7 @@ void UModularSynthLibrary::AddModularSynthPresetToBankAsset(class UModularSynthP
 
 void UModularSynthComponent::SetSynthPreset(const struct FModularSynthPreset& SynthPreset)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetSynthPreset"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetSynthPreset");
 
 	struct
 	{
@@ -66,7 +66,7 @@ void UModularSynthComponent::SetSynthPreset(const struct FModularSynthPreset& Sy
 
 void UModularSynthComponent::SetSustainGain(float SustainGain)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetSustainGain"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetSustainGain");
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UModularSynthComponent::SetSustainGain(float SustainGain)
 
 void UModularSynthComponent::SetStereoDelayWetlevel(float DelayWetlevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetStereoDelayWetlevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetStereoDelayWetlevel");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UModularSynthComponent::SetStereoDelayWetlevel(float DelayWetlevel)
 
 void UModularSynthComponent::SetStereoDelayTime(float DelayTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetStereoDelayTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetStereoDelayTime");
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UModularSynthComponent::SetStereoDelayTime(float DelayTimeMsec)
 
 void UModularSynthComponent::SetStereoDelayRatio(float DelayRatio)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetStereoDelayRatio"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetStereoDelayRatio");
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UModularSynthComponent::SetStereoDelayRatio(float DelayRatio)
 
 void UModularSynthComponent::SetStereoDelayMode(ESynthStereoDelayMode StereoDelayMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetStereoDelayMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetStereoDelayMode");
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UModularSynthComponent::SetStereoDelayMode(ESynthStereoDelayMode StereoDela
 
 void UModularSynthComponent::SetStereoDelayIsEnabled(bool StereoDelayEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetStereoDelayIsEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetStereoDelayIsEnabled");
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UModularSynthComponent::SetStereoDelayIsEnabled(bool StereoDelayEnabled)
 
 void UModularSynthComponent::SetStereoDelayFeedback(float DelayFeedback)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetStereoDelayFeedback"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetStereoDelayFeedback");
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UModularSynthComponent::SetStereoDelayFeedback(float DelayFeedback)
 
 void UModularSynthComponent::SetSpread(float Spread)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetSpread"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetSpread");
 
 	struct
 	{
@@ -226,7 +226,7 @@ void UModularSynthComponent::SetSpread(float Spread)
 
 void UModularSynthComponent::SetReleaseTime(float ReleaseTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetReleaseTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetReleaseTime");
 
 	struct
 	{
@@ -246,7 +246,7 @@ void UModularSynthComponent::SetReleaseTime(float ReleaseTimeMsec)
 
 void UModularSynthComponent::SetPortamento(float Portamento)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetPortamento"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetPortamento");
 
 	struct
 	{
@@ -266,7 +266,7 @@ void UModularSynthComponent::SetPortamento(float Portamento)
 
 void UModularSynthComponent::SetPitchBend(float PitchBend)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetPitchBend"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetPitchBend");
 
 	struct
 	{
@@ -286,7 +286,7 @@ void UModularSynthComponent::SetPitchBend(float PitchBend)
 
 void UModularSynthComponent::SetPan(float Pan)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetPan"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetPan");
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UModularSynthComponent::SetPan(float Pan)
 
 void UModularSynthComponent::SetOscType(int OscIndex, ESynth1OscType OscType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetOscType"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetOscType");
 
 	struct
 	{
@@ -329,7 +329,7 @@ void UModularSynthComponent::SetOscType(int OscIndex, ESynth1OscType OscType)
 
 void UModularSynthComponent::SetOscSync(bool bIsSynced)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetOscSync"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetOscSync");
 
 	struct
 	{
@@ -350,7 +350,7 @@ void UModularSynthComponent::SetOscSync(bool bIsSynced)
 
 void UModularSynthComponent::SetOscSemitones(int OscIndex, float Semitones)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetOscSemitones"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetOscSemitones");
 
 	struct
 	{
@@ -373,7 +373,7 @@ void UModularSynthComponent::SetOscSemitones(int OscIndex, float Semitones)
 
 void UModularSynthComponent::SetOscPulsewidth(int OscIndex, float Pulsewidth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetOscPulsewidth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetOscPulsewidth");
 
 	struct
 	{
@@ -396,7 +396,7 @@ void UModularSynthComponent::SetOscPulsewidth(int OscIndex, float Pulsewidth)
 
 void UModularSynthComponent::SetOscOctave(int OscIndex, float Octave)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetOscOctave"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetOscOctave");
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UModularSynthComponent::SetOscOctave(int OscIndex, float Octave)
 
 void UModularSynthComponent::SetOscGainMod(int OscIndex, float OscGainMod)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetOscGainMod"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetOscGainMod");
 
 	struct
 	{
@@ -442,7 +442,7 @@ void UModularSynthComponent::SetOscGainMod(int OscIndex, float OscGainMod)
 
 void UModularSynthComponent::SetOscGain(int OscIndex, float OscGain)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetOscGain"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetOscGain");
 
 	struct
 	{
@@ -465,7 +465,7 @@ void UModularSynthComponent::SetOscGain(int OscIndex, float OscGain)
 
 void UModularSynthComponent::SetOscFrequencyMod(int OscIndex, float OscFreqMod)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetOscFrequencyMod"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetOscFrequencyMod");
 
 	struct
 	{
@@ -488,7 +488,7 @@ void UModularSynthComponent::SetOscFrequencyMod(int OscIndex, float OscFreqMod)
 
 void UModularSynthComponent::SetOscCents(int OscIndex, float Cents)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetOscCents"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetOscCents");
 
 	struct
 	{
@@ -510,7 +510,7 @@ void UModularSynthComponent::SetOscCents(int OscIndex, float Cents)
 
 void UModularSynthComponent::SetModEnvSustainGain(float SustainGain)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetModEnvSustainGain"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetModEnvSustainGain");
 
 	struct
 	{
@@ -530,7 +530,7 @@ void UModularSynthComponent::SetModEnvSustainGain(float SustainGain)
 
 void UModularSynthComponent::SetModEnvReleaseTime(float Release)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetModEnvReleaseTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetModEnvReleaseTime");
 
 	struct
 	{
@@ -550,7 +550,7 @@ void UModularSynthComponent::SetModEnvReleaseTime(float Release)
 
 void UModularSynthComponent::SetModEnvPatch(ESynthModEnvPatch InPatchType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetModEnvPatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetModEnvPatch");
 
 	struct
 	{
@@ -570,7 +570,7 @@ void UModularSynthComponent::SetModEnvPatch(ESynthModEnvPatch InPatchType)
 
 void UModularSynthComponent::SetModEnvInvert(bool bInvert)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetModEnvInvert"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetModEnvInvert");
 
 	struct
 	{
@@ -590,7 +590,7 @@ void UModularSynthComponent::SetModEnvInvert(bool bInvert)
 
 void UModularSynthComponent::SetModEnvDepth(float Depth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetModEnvDepth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetModEnvDepth");
 
 	struct
 	{
@@ -610,7 +610,7 @@ void UModularSynthComponent::SetModEnvDepth(float Depth)
 
 void UModularSynthComponent::SetModEnvDecayTime(float DecayTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetModEnvDecayTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetModEnvDecayTime");
 
 	struct
 	{
@@ -630,7 +630,7 @@ void UModularSynthComponent::SetModEnvDecayTime(float DecayTimeMsec)
 
 void UModularSynthComponent::SetModEnvBiasPatch(ESynthModEnvBiasPatch InPatchType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetModEnvBiasPatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetModEnvBiasPatch");
 
 	struct
 	{
@@ -650,7 +650,7 @@ void UModularSynthComponent::SetModEnvBiasPatch(ESynthModEnvBiasPatch InPatchTyp
 
 void UModularSynthComponent::SetModEnvBiasInvert(bool bInvert)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetModEnvBiasInvert"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetModEnvBiasInvert");
 
 	struct
 	{
@@ -670,7 +670,7 @@ void UModularSynthComponent::SetModEnvBiasInvert(bool bInvert)
 
 void UModularSynthComponent::SetModEnvAttackTime(float AttackTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetModEnvAttackTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetModEnvAttackTime");
 
 	struct
 	{
@@ -691,7 +691,7 @@ void UModularSynthComponent::SetModEnvAttackTime(float AttackTimeMsec)
 
 void UModularSynthComponent::SetLFOType(int LFOIndex, ESynthLFOType LFOType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetLFOType"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetLFOType");
 
 	struct
 	{
@@ -714,7 +714,7 @@ void UModularSynthComponent::SetLFOType(int LFOIndex, ESynthLFOType LFOType)
 
 void UModularSynthComponent::SetLFOPatch(int LFOIndex, ESynthLFOPatchType LFOPatchType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetLFOPatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetLFOPatch");
 
 	struct
 	{
@@ -737,7 +737,7 @@ void UModularSynthComponent::SetLFOPatch(int LFOIndex, ESynthLFOPatchType LFOPat
 
 void UModularSynthComponent::SetLFOMode(int LFOIndex, ESynthLFOMode LFOMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetLFOMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetLFOMode");
 
 	struct
 	{
@@ -760,7 +760,7 @@ void UModularSynthComponent::SetLFOMode(int LFOIndex, ESynthLFOMode LFOMode)
 
 void UModularSynthComponent::SetLFOGainMod(int LFOIndex, float GainMod)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetLFOGainMod"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetLFOGainMod");
 
 	struct
 	{
@@ -783,7 +783,7 @@ void UModularSynthComponent::SetLFOGainMod(int LFOIndex, float GainMod)
 
 void UModularSynthComponent::SetLFOGain(int LFOIndex, float Gain)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetLFOGain"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetLFOGain");
 
 	struct
 	{
@@ -806,7 +806,7 @@ void UModularSynthComponent::SetLFOGain(int LFOIndex, float Gain)
 
 void UModularSynthComponent::SetLFOFrequencyMod(int LFOIndex, float FrequencyModHz)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetLFOFrequencyMod"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetLFOFrequencyMod");
 
 	struct
 	{
@@ -829,7 +829,7 @@ void UModularSynthComponent::SetLFOFrequencyMod(int LFOIndex, float FrequencyMod
 
 void UModularSynthComponent::SetLFOFrequency(int LFOIndex, float FrequencyHz)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetLFOFrequency"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetLFOFrequency");
 
 	struct
 	{
@@ -851,7 +851,7 @@ void UModularSynthComponent::SetLFOFrequency(int LFOIndex, float FrequencyHz)
 
 void UModularSynthComponent::SetGainDb(float GainDb)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetGainDb"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetGainDb");
 
 	struct
 	{
@@ -871,7 +871,7 @@ void UModularSynthComponent::SetGainDb(float GainDb)
 
 void UModularSynthComponent::SetFilterType(ESynthFilterType FilterType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetFilterType"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetFilterType");
 
 	struct
 	{
@@ -891,7 +891,7 @@ void UModularSynthComponent::SetFilterType(ESynthFilterType FilterType)
 
 void UModularSynthComponent::SetFilterQMod(float FilterQ)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetFilterQMod"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetFilterQMod");
 
 	struct
 	{
@@ -911,7 +911,7 @@ void UModularSynthComponent::SetFilterQMod(float FilterQ)
 
 void UModularSynthComponent::SetFilterQ(float FilterQ)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetFilterQ"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetFilterQ");
 
 	struct
 	{
@@ -931,7 +931,7 @@ void UModularSynthComponent::SetFilterQ(float FilterQ)
 
 void UModularSynthComponent::SetFilterFrequencyMod(float FilterFrequencyHz)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetFilterFrequencyMod"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetFilterFrequencyMod");
 
 	struct
 	{
@@ -951,7 +951,7 @@ void UModularSynthComponent::SetFilterFrequencyMod(float FilterFrequencyHz)
 
 void UModularSynthComponent::SetFilterFrequency(float FilterFrequencyHz)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetFilterFrequency"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetFilterFrequency");
 
 	struct
 	{
@@ -971,7 +971,7 @@ void UModularSynthComponent::SetFilterFrequency(float FilterFrequencyHz)
 
 void UModularSynthComponent::SetFilterAlgorithm(ESynthFilterAlgorithm FilterAlgorithm)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetFilterAlgorithm"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetFilterAlgorithm");
 
 	struct
 	{
@@ -991,7 +991,7 @@ void UModularSynthComponent::SetFilterAlgorithm(ESynthFilterAlgorithm FilterAlgo
 
 void UModularSynthComponent::SetEnableUnison(bool EnableUnison)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetEnableUnison"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetEnableUnison");
 
 	struct
 	{
@@ -1011,7 +1011,7 @@ void UModularSynthComponent::SetEnableUnison(bool EnableUnison)
 
 void UModularSynthComponent::SetEnableRetrigger(bool RetriggerEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetEnableRetrigger"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetEnableRetrigger");
 
 	struct
 	{
@@ -1031,7 +1031,7 @@ void UModularSynthComponent::SetEnableRetrigger(bool RetriggerEnabled)
 
 void UModularSynthComponent::SetEnablePolyphony(bool bEnablePolyphony)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetEnablePolyphony"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetEnablePolyphony");
 
 	struct
 	{
@@ -1053,7 +1053,7 @@ void UModularSynthComponent::SetEnablePolyphony(bool bEnablePolyphony)
 
 bool UModularSynthComponent::SetEnablePatch(const struct FPatchId& PatchId, bool bIsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetEnablePatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetEnablePatch");
 
 	struct
 	{
@@ -1078,7 +1078,7 @@ bool UModularSynthComponent::SetEnablePatch(const struct FPatchId& PatchId, bool
 
 void UModularSynthComponent::SetEnableLegato(bool LegatoEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetEnableLegato"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetEnableLegato");
 
 	struct
 	{
@@ -1098,7 +1098,7 @@ void UModularSynthComponent::SetEnableLegato(bool LegatoEnabled)
 
 void UModularSynthComponent::SetDecayTime(float DecayTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetDecayTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetDecayTime");
 
 	struct
 	{
@@ -1118,7 +1118,7 @@ void UModularSynthComponent::SetDecayTime(float DecayTimeMsec)
 
 void UModularSynthComponent::SetChorusFrequency(float Frequency)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetChorusFrequency"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetChorusFrequency");
 
 	struct
 	{
@@ -1138,7 +1138,7 @@ void UModularSynthComponent::SetChorusFrequency(float Frequency)
 
 void UModularSynthComponent::SetChorusFeedback(float Feedback)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetChorusFeedback"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetChorusFeedback");
 
 	struct
 	{
@@ -1158,7 +1158,7 @@ void UModularSynthComponent::SetChorusFeedback(float Feedback)
 
 void UModularSynthComponent::SetChorusEnabled(bool EnableChorus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetChorusEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetChorusEnabled");
 
 	struct
 	{
@@ -1178,7 +1178,7 @@ void UModularSynthComponent::SetChorusEnabled(bool EnableChorus)
 
 void UModularSynthComponent::SetChorusDepth(float Depth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetChorusDepth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetChorusDepth");
 
 	struct
 	{
@@ -1198,7 +1198,7 @@ void UModularSynthComponent::SetChorusDepth(float Depth)
 
 void UModularSynthComponent::SetAttackTime(float AttackTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.SetAttackTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.SetAttackTime");
 
 	struct
 	{
@@ -1220,7 +1220,7 @@ void UModularSynthComponent::SetAttackTime(float AttackTimeMsec)
 
 void UModularSynthComponent::NoteOn(float Note, int Velocity, float Duration)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.NoteOn"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.NoteOn");
 
 	struct
 	{
@@ -1246,7 +1246,7 @@ void UModularSynthComponent::NoteOn(float Note, int Velocity, float Duration)
 
 void UModularSynthComponent::NoteOff(float Note, bool bAllNotesOff, bool bKillAllNotes)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.NoteOff"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.NoteOff");
 
 	struct
 	{
@@ -1273,7 +1273,7 @@ void UModularSynthComponent::NoteOff(float Note, bool bAllNotesOff, bool bKillAl
 
 struct FPatchId UModularSynthComponent::CreatePatch(ESynth1PatchSource PatchSource, TArray<struct FSynth1PatchCable> PatchCables, bool bEnableByDefault)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.ModularSynthComponent.CreatePatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.ModularSynthComponent.CreatePatch");
 
 	struct
 	{
@@ -1300,7 +1300,7 @@ struct FPatchId UModularSynthComponent::CreatePatch(ESynth1PatchSource PatchSour
 
 void USourceEffectBitCrusherPreset::SetSettings(const struct FSourceEffectBitCrusherSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectBitCrusherPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectBitCrusherPreset.SetSettings");
 
 	struct
 	{
@@ -1320,7 +1320,7 @@ void USourceEffectBitCrusherPreset::SetSettings(const struct FSourceEffectBitCru
 
 void USourceEffectChorusPreset::SetSettings(const struct FSourceEffectChorusSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectChorusPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectChorusPreset.SetSettings");
 
 	struct
 	{
@@ -1340,7 +1340,7 @@ void USourceEffectChorusPreset::SetSettings(const struct FSourceEffectChorusSett
 
 void USourceEffectDynamicsProcessorPreset::SetSettings(const struct FSourceEffectDynamicsProcessorSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectDynamicsProcessorPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectDynamicsProcessorPreset.SetSettings");
 
 	struct
 	{
@@ -1360,7 +1360,7 @@ void USourceEffectDynamicsProcessorPreset::SetSettings(const struct FSourceEffec
 
 void USourceEffectEnvelopeFollowerPreset::UnregisterEnvelopeFollowerListener(class UEnvelopeFollowerListener* EnvelopeFollowerListener)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectEnvelopeFollowerPreset.UnregisterEnvelopeFollowerListener"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectEnvelopeFollowerPreset.UnregisterEnvelopeFollowerListener");
 
 	struct
 	{
@@ -1380,7 +1380,7 @@ void USourceEffectEnvelopeFollowerPreset::UnregisterEnvelopeFollowerListener(cla
 
 void USourceEffectEnvelopeFollowerPreset::SetSettings(const struct FSourceEffectEnvelopeFollowerSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectEnvelopeFollowerPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectEnvelopeFollowerPreset.SetSettings");
 
 	struct
 	{
@@ -1400,7 +1400,7 @@ void USourceEffectEnvelopeFollowerPreset::SetSettings(const struct FSourceEffect
 
 void USourceEffectEnvelopeFollowerPreset::RegisterEnvelopeFollowerListener(class UEnvelopeFollowerListener* EnvelopeFollowerListener)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectEnvelopeFollowerPreset.RegisterEnvelopeFollowerListener"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectEnvelopeFollowerPreset.RegisterEnvelopeFollowerListener");
 
 	struct
 	{
@@ -1420,7 +1420,7 @@ void USourceEffectEnvelopeFollowerPreset::RegisterEnvelopeFollowerListener(class
 
 void USourceEffectEQPreset::SetSettings(const struct FSourceEffectEQSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectEQPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectEQPreset.SetSettings");
 
 	struct
 	{
@@ -1440,7 +1440,7 @@ void USourceEffectEQPreset::SetSettings(const struct FSourceEffectEQSettings& In
 
 void USourceEffectFilterPreset::SetSettings(const struct FSourceEffectFilterSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectFilterPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectFilterPreset.SetSettings");
 
 	struct
 	{
@@ -1460,7 +1460,7 @@ void USourceEffectFilterPreset::SetSettings(const struct FSourceEffectFilterSett
 
 void USourceEffectFoldbackDistortionPreset::SetSettings(const struct FSourceEffectFoldbackDistortionSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectFoldbackDistortionPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectFoldbackDistortionPreset.SetSettings");
 
 	struct
 	{
@@ -1480,7 +1480,7 @@ void USourceEffectFoldbackDistortionPreset::SetSettings(const struct FSourceEffe
 
 void USourceEffectMidSideSpreaderPreset::SetSettings(const struct FSourceEffectMidSideSpreaderSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectMidSideSpreaderPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectMidSideSpreaderPreset.SetSettings");
 
 	struct
 	{
@@ -1500,7 +1500,7 @@ void USourceEffectMidSideSpreaderPreset::SetSettings(const struct FSourceEffectM
 
 void USourceEffectPannerPreset::SetSettings(const struct FSourceEffectPannerSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectPannerPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectPannerPreset.SetSettings");
 
 	struct
 	{
@@ -1520,7 +1520,7 @@ void USourceEffectPannerPreset::SetSettings(const struct FSourceEffectPannerSett
 
 void USourceEffectPhaserPreset::SetSettings(const struct FSourceEffectPhaserSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectPhaserPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectPhaserPreset.SetSettings");
 
 	struct
 	{
@@ -1540,7 +1540,7 @@ void USourceEffectPhaserPreset::SetSettings(const struct FSourceEffectPhaserSett
 
 void USourceEffectRingModulationPreset::SetSettings(const struct FSourceEffectRingModulationSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectRingModulationPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectRingModulationPreset.SetSettings");
 
 	struct
 	{
@@ -1560,7 +1560,7 @@ void USourceEffectRingModulationPreset::SetSettings(const struct FSourceEffectRi
 
 void USourceEffectSimpleDelayPreset::SetSettings(const struct FSourceEffectSimpleDelaySettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectSimpleDelayPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectSimpleDelayPreset.SetSettings");
 
 	struct
 	{
@@ -1580,7 +1580,7 @@ void USourceEffectSimpleDelayPreset::SetSettings(const struct FSourceEffectSimpl
 
 void USourceEffectStereoDelayPreset::SetSettings(const struct FSourceEffectStereoDelaySettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectStereoDelayPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectStereoDelayPreset.SetSettings");
 
 	struct
 	{
@@ -1600,7 +1600,7 @@ void USourceEffectStereoDelayPreset::SetSettings(const struct FSourceEffectStere
 
 void USourceEffectWaveShaperPreset::SetSettings(const struct FSourceEffectWaveShaperSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SourceEffectWaveShaperPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SourceEffectWaveShaperPreset.SetSettings");
 
 	struct
 	{
@@ -1620,7 +1620,7 @@ void USourceEffectWaveShaperPreset::SetSettings(const struct FSourceEffectWaveSh
 
 void USubmixEffectConvolutionReverbPreset::SetSettings(const struct FSubmixEffectConvolutionReverbSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectConvolutionReverbPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectConvolutionReverbPreset.SetSettings");
 
 	struct
 	{
@@ -1640,7 +1640,7 @@ void USubmixEffectConvolutionReverbPreset::SetSettings(const struct FSubmixEffec
 
 void USubmixEffectConvolutionReverbPreset::SetImpulseResponse(class UAudioImpulseResponse* InImpulseResponse)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectConvolutionReverbPreset.SetImpulseResponse"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectConvolutionReverbPreset.SetImpulseResponse");
 
 	struct
 	{
@@ -1660,7 +1660,7 @@ void USubmixEffectConvolutionReverbPreset::SetImpulseResponse(class UAudioImpuls
 
 void USubmixEffectDelayPreset::SetSettings(const struct FSubmixEffectDelaySettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectDelayPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectDelayPreset.SetSettings");
 
 	struct
 	{
@@ -1680,7 +1680,7 @@ void USubmixEffectDelayPreset::SetSettings(const struct FSubmixEffectDelaySettin
 
 void USubmixEffectDelayPreset::SetInterpolationTime(float Time)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectDelayPreset.SetInterpolationTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectDelayPreset.SetInterpolationTime");
 
 	struct
 	{
@@ -1700,7 +1700,7 @@ void USubmixEffectDelayPreset::SetInterpolationTime(float Time)
 
 void USubmixEffectDelayPreset::SetDelay(float Length)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectDelayPreset.SetDelay"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectDelayPreset.SetDelay");
 
 	struct
 	{
@@ -1720,7 +1720,7 @@ void USubmixEffectDelayPreset::SetDelay(float Length)
 
 float USubmixEffectDelayPreset::GetMaxDelayInMilliseconds()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectDelayPreset.GetMaxDelayInMilliseconds"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectDelayPreset.GetMaxDelayInMilliseconds");
 
 	struct
 	{
@@ -1741,7 +1741,7 @@ float USubmixEffectDelayPreset::GetMaxDelayInMilliseconds()
 
 void USubmixEffectFilterPreset::SetSettings(const struct FSubmixEffectFilterSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectFilterPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectFilterPreset.SetSettings");
 
 	struct
 	{
@@ -1761,7 +1761,7 @@ void USubmixEffectFilterPreset::SetSettings(const struct FSubmixEffectFilterSett
 
 void USubmixEffectFilterPreset::SetFilterType(ESubmixFilterType InType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectFilterPreset.SetFilterType"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectFilterPreset.SetFilterType");
 
 	struct
 	{
@@ -1781,7 +1781,7 @@ void USubmixEffectFilterPreset::SetFilterType(ESubmixFilterType InType)
 
 void USubmixEffectFilterPreset::SetFilterQMod(float InQ)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectFilterPreset.SetFilterQMod"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectFilterPreset.SetFilterQMod");
 
 	struct
 	{
@@ -1801,7 +1801,7 @@ void USubmixEffectFilterPreset::SetFilterQMod(float InQ)
 
 void USubmixEffectFilterPreset::SetFilterQ(float InQ)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectFilterPreset.SetFilterQ"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectFilterPreset.SetFilterQ");
 
 	struct
 	{
@@ -1821,7 +1821,7 @@ void USubmixEffectFilterPreset::SetFilterQ(float InQ)
 
 void USubmixEffectFilterPreset::SetFilterCutoffFrequencyMod(float InFrequency)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectFilterPreset.SetFilterCutoffFrequencyMod"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectFilterPreset.SetFilterCutoffFrequencyMod");
 
 	struct
 	{
@@ -1841,7 +1841,7 @@ void USubmixEffectFilterPreset::SetFilterCutoffFrequencyMod(float InFrequency)
 
 void USubmixEffectFilterPreset::SetFilterCutoffFrequency(float InFrequency)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectFilterPreset.SetFilterCutoffFrequency"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectFilterPreset.SetFilterCutoffFrequency");
 
 	struct
 	{
@@ -1861,7 +1861,7 @@ void USubmixEffectFilterPreset::SetFilterCutoffFrequency(float InFrequency)
 
 void USubmixEffectFilterPreset::SetFilterAlgorithm(ESubmixFilterAlgorithm InAlgorithm)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectFilterPreset.SetFilterAlgorithm"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectFilterPreset.SetFilterAlgorithm");
 
 	struct
 	{
@@ -1881,7 +1881,7 @@ void USubmixEffectFilterPreset::SetFilterAlgorithm(ESubmixFilterAlgorithm InAlgo
 
 void USubmixEffectFlexiverbPreset::SetSettings(const struct FSubmixEffectFlexiverbSettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectFlexiverbPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectFlexiverbPreset.SetSettings");
 
 	struct
 	{
@@ -1902,7 +1902,7 @@ void USubmixEffectFlexiverbPreset::SetSettings(const struct FSubmixEffectFlexive
 
 void USubmixEffectTapDelayPreset::SetTap(int TapId, const struct FTapDelayInfo& TapInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectTapDelayPreset.SetTap"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectTapDelayPreset.SetTap");
 
 	struct
 	{
@@ -1924,7 +1924,7 @@ void USubmixEffectTapDelayPreset::SetTap(int TapId, const struct FTapDelayInfo& 
 
 void USubmixEffectTapDelayPreset::SetSettings(const struct FSubmixEffectTapDelaySettings& InSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectTapDelayPreset.SetSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectTapDelayPreset.SetSettings");
 
 	struct
 	{
@@ -1944,7 +1944,7 @@ void USubmixEffectTapDelayPreset::SetSettings(const struct FSubmixEffectTapDelay
 
 void USubmixEffectTapDelayPreset::SetInterpolationTime(float Time)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectTapDelayPreset.SetInterpolationTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectTapDelayPreset.SetInterpolationTime");
 
 	struct
 	{
@@ -1964,7 +1964,7 @@ void USubmixEffectTapDelayPreset::SetInterpolationTime(float Time)
 
 void USubmixEffectTapDelayPreset::RemoveTap(int TapId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectTapDelayPreset.RemoveTap"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectTapDelayPreset.RemoveTap");
 
 	struct
 	{
@@ -1984,7 +1984,7 @@ void USubmixEffectTapDelayPreset::RemoveTap(int TapId)
 
 void USubmixEffectTapDelayPreset::GetTapIds(TArray<int>* TapIds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectTapDelayPreset.GetTapIds"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectTapDelayPreset.GetTapIds");
 
 	struct
 	{
@@ -2007,7 +2007,7 @@ void USubmixEffectTapDelayPreset::GetTapIds(TArray<int>* TapIds)
 
 void USubmixEffectTapDelayPreset::GetTap(int TapId, struct FTapDelayInfo* TapInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectTapDelayPreset.GetTap"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectTapDelayPreset.GetTap");
 
 	struct
 	{
@@ -2031,7 +2031,7 @@ void USubmixEffectTapDelayPreset::GetTap(int TapId, struct FTapDelayInfo* TapInf
 
 float USubmixEffectTapDelayPreset::GetMaxDelayInMilliseconds()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectTapDelayPreset.GetMaxDelayInMilliseconds"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectTapDelayPreset.GetMaxDelayInMilliseconds");
 
 	struct
 	{
@@ -2052,7 +2052,7 @@ float USubmixEffectTapDelayPreset::GetMaxDelayInMilliseconds()
 
 void USubmixEffectTapDelayPreset::AddTap(int* TapId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SubmixEffectTapDelayPreset.AddTap"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SubmixEffectTapDelayPreset.AddTap");
 
 	struct
 	{
@@ -2074,7 +2074,7 @@ void USubmixEffectTapDelayPreset::AddTap(int* TapId)
 
 void USynth2DSlider::SetValue(const struct FVector2D& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.Synth2DSlider.SetValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.Synth2DSlider.SetValue");
 
 	struct
 	{
@@ -2094,7 +2094,7 @@ void USynth2DSlider::SetValue(const struct FVector2D& InValue)
 
 void USynth2DSlider::SetStepSize(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.Synth2DSlider.SetStepSize"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.Synth2DSlider.SetStepSize");
 
 	struct
 	{
@@ -2114,7 +2114,7 @@ void USynth2DSlider::SetStepSize(float InValue)
 
 void USynth2DSlider::SetSliderHandleColor(const struct FLinearColor& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.Synth2DSlider.SetSliderHandleColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.Synth2DSlider.SetSliderHandleColor");
 
 	struct
 	{
@@ -2134,7 +2134,7 @@ void USynth2DSlider::SetSliderHandleColor(const struct FLinearColor& InValue)
 
 void USynth2DSlider::SetLocked(bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.Synth2DSlider.SetLocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.Synth2DSlider.SetLocked");
 
 	struct
 	{
@@ -2154,7 +2154,7 @@ void USynth2DSlider::SetLocked(bool InValue)
 
 void USynth2DSlider::SetIndentHandle(bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.Synth2DSlider.SetIndentHandle"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.Synth2DSlider.SetIndentHandle");
 
 	struct
 	{
@@ -2174,7 +2174,7 @@ void USynth2DSlider::SetIndentHandle(bool InValue)
 
 struct FVector2D USynth2DSlider::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.Synth2DSlider.GetValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.Synth2DSlider.GetValue");
 
 	struct
 	{
@@ -2195,7 +2195,7 @@ struct FVector2D USynth2DSlider::GetValue()
 
 void UGranularSynth::SetSustainGain(float SustainGain)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetSustainGain"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetSustainGain");
 
 	struct
 	{
@@ -2215,7 +2215,7 @@ void UGranularSynth::SetSustainGain(float SustainGain)
 
 void UGranularSynth::SetSoundWave(class USoundWave* InSoundWave)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetSoundWave"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetSoundWave");
 
 	struct
 	{
@@ -2235,7 +2235,7 @@ void UGranularSynth::SetSoundWave(class USoundWave* InSoundWave)
 
 void UGranularSynth::SetScrubMode(bool bScrubMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetScrubMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetScrubMode");
 
 	struct
 	{
@@ -2255,7 +2255,7 @@ void UGranularSynth::SetScrubMode(bool bScrubMode)
 
 void UGranularSynth::SetReleaseTimeMsec(float ReleaseTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetReleaseTimeMsec"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetReleaseTimeMsec");
 
 	struct
 	{
@@ -2277,7 +2277,7 @@ void UGranularSynth::SetReleaseTimeMsec(float ReleaseTimeMsec)
 
 void UGranularSynth::SetPlayheadTime(float InPositionSec, float LerpTimeSec, EGranularSynthSeekType SeekType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetPlayheadTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetPlayheadTime");
 
 	struct
 	{
@@ -2301,7 +2301,7 @@ void UGranularSynth::SetPlayheadTime(float InPositionSec, float LerpTimeSec, EGr
 
 void UGranularSynth::SetPlaybackSpeed(float InPlayheadRate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetPlaybackSpeed"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetPlaybackSpeed");
 
 	struct
 	{
@@ -2322,7 +2322,7 @@ void UGranularSynth::SetPlaybackSpeed(float InPlayheadRate)
 
 void UGranularSynth::SetGrainVolume(float BaseVolume, const struct FVector2D& VolumeRange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetGrainVolume"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetGrainVolume");
 
 	struct
 	{
@@ -2344,7 +2344,7 @@ void UGranularSynth::SetGrainVolume(float BaseVolume, const struct FVector2D& Vo
 
 void UGranularSynth::SetGrainsPerSecond(float InGrainsPerSecond)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetGrainsPerSecond"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetGrainsPerSecond");
 
 	struct
 	{
@@ -2364,7 +2364,7 @@ void UGranularSynth::SetGrainsPerSecond(float InGrainsPerSecond)
 
 void UGranularSynth::SetGrainProbability(float InGrainProbability)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetGrainProbability"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetGrainProbability");
 
 	struct
 	{
@@ -2385,7 +2385,7 @@ void UGranularSynth::SetGrainProbability(float InGrainProbability)
 
 void UGranularSynth::SetGrainPitch(float BasePitch, const struct FVector2D& PitchRange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetGrainPitch"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetGrainPitch");
 
 	struct
 	{
@@ -2408,7 +2408,7 @@ void UGranularSynth::SetGrainPitch(float BasePitch, const struct FVector2D& Pitc
 
 void UGranularSynth::SetGrainPan(float BasePan, const struct FVector2D& PanRange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetGrainPan"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetGrainPan");
 
 	struct
 	{
@@ -2430,7 +2430,7 @@ void UGranularSynth::SetGrainPan(float BasePan, const struct FVector2D& PanRange
 
 void UGranularSynth::SetGrainEnvelopeType(EGranularSynthEnvelopeType EnvelopeType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetGrainEnvelopeType"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetGrainEnvelopeType");
 
 	struct
 	{
@@ -2451,7 +2451,7 @@ void UGranularSynth::SetGrainEnvelopeType(EGranularSynthEnvelopeType EnvelopeTyp
 
 void UGranularSynth::SetGrainDuration(float BaseDurationMsec, const struct FVector2D& DurationRange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetGrainDuration"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetGrainDuration");
 
 	struct
 	{
@@ -2473,7 +2473,7 @@ void UGranularSynth::SetGrainDuration(float BaseDurationMsec, const struct FVect
 
 void UGranularSynth::SetDecayTime(float DecayTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetDecayTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetDecayTime");
 
 	struct
 	{
@@ -2493,7 +2493,7 @@ void UGranularSynth::SetDecayTime(float DecayTimeMsec)
 
 void UGranularSynth::SetAttackTime(float AttackTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.SetAttackTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.SetAttackTime");
 
 	struct
 	{
@@ -2515,7 +2515,7 @@ void UGranularSynth::SetAttackTime(float AttackTimeMsec)
 
 void UGranularSynth::NoteOn(float Note, int Velocity, float Duration)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.NoteOn"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.NoteOn");
 
 	struct
 	{
@@ -2540,7 +2540,7 @@ void UGranularSynth::NoteOn(float Note, int Velocity, float Duration)
 
 void UGranularSynth::NoteOff(float Note, bool bKill)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.NoteOff"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.NoteOff");
 
 	struct
 	{
@@ -2562,7 +2562,7 @@ void UGranularSynth::NoteOff(float Note, bool bKill)
 
 bool UGranularSynth::IsLoaded()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.IsLoaded"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.IsLoaded");
 
 	struct
 	{
@@ -2583,7 +2583,7 @@ bool UGranularSynth::IsLoaded()
 
 float UGranularSynth::GetSampleDuration()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.GetSampleDuration"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.GetSampleDuration");
 
 	struct
 	{
@@ -2604,7 +2604,7 @@ float UGranularSynth::GetSampleDuration()
 
 float UGranularSynth::GetCurrentPlayheadTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.GranularSynth.GetCurrentPlayheadTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.GranularSynth.GetCurrentPlayheadTime");
 
 	struct
 	{
@@ -2625,7 +2625,7 @@ float UGranularSynth::GetCurrentPlayheadTime()
 
 void USynthComponentMonoWaveTable::SetWaveTablePosition(float InPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetWaveTablePosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetWaveTablePosition");
 
 	struct
 	{
@@ -2645,7 +2645,7 @@ void USynthComponentMonoWaveTable::SetWaveTablePosition(float InPosition)
 
 void USynthComponentMonoWaveTable::SetSustainPedalState(bool InSustainPedalState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetSustainPedalState"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetSustainPedalState");
 
 	struct
 	{
@@ -2665,7 +2665,7 @@ void USynthComponentMonoWaveTable::SetSustainPedalState(bool InSustainPedalState
 
 void USynthComponentMonoWaveTable::SetPosLfoType(ESynthLFOType InLfoType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPosLfoType"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPosLfoType");
 
 	struct
 	{
@@ -2685,7 +2685,7 @@ void USynthComponentMonoWaveTable::SetPosLfoType(ESynthLFOType InLfoType)
 
 void USynthComponentMonoWaveTable::SetPosLfoFrequency(float InLfoFrequency)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPosLfoFrequency"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPosLfoFrequency");
 
 	struct
 	{
@@ -2705,7 +2705,7 @@ void USynthComponentMonoWaveTable::SetPosLfoFrequency(float InLfoFrequency)
 
 void USynthComponentMonoWaveTable::SetPosLfoDepth(float InLfoDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPosLfoDepth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPosLfoDepth");
 
 	struct
 	{
@@ -2725,7 +2725,7 @@ void USynthComponentMonoWaveTable::SetPosLfoDepth(float InLfoDepth)
 
 void USynthComponentMonoWaveTable::SetPositionEnvelopeSustainGain(float InSustainGain)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeSustainGain"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeSustainGain");
 
 	struct
 	{
@@ -2745,7 +2745,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeSustainGain(float InSustai
 
 void USynthComponentMonoWaveTable::SetPositionEnvelopeReleaseTime(float InReleaseTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeReleaseTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeReleaseTime");
 
 	struct
 	{
@@ -2765,7 +2765,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeReleaseTime(float InReleas
 
 void USynthComponentMonoWaveTable::SetPositionEnvelopeInvert(bool bInInvert)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeInvert"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeInvert");
 
 	struct
 	{
@@ -2785,7 +2785,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeInvert(bool bInInvert)
 
 void USynthComponentMonoWaveTable::SetPositionEnvelopeDepth(float InDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeDepth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeDepth");
 
 	struct
 	{
@@ -2805,7 +2805,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeDepth(float InDepth)
 
 void USynthComponentMonoWaveTable::SetPositionEnvelopeDecayTime(float InDecayTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeDecayTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeDecayTime");
 
 	struct
 	{
@@ -2825,7 +2825,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeDecayTime(float InDecayTim
 
 void USynthComponentMonoWaveTable::SetPositionEnvelopeBiasInvert(bool bInBiasInvert)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeBiasInvert"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeBiasInvert");
 
 	struct
 	{
@@ -2845,7 +2845,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeBiasInvert(bool bInBiasInv
 
 void USynthComponentMonoWaveTable::SetPositionEnvelopeBiasDepth(float InDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeBiasDepth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeBiasDepth");
 
 	struct
 	{
@@ -2865,7 +2865,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeBiasDepth(float InDepth)
 
 void USynthComponentMonoWaveTable::SetPositionEnvelopeAttackTime(float InAttackTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeAttackTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetPositionEnvelopeAttackTime");
 
 	struct
 	{
@@ -2885,7 +2885,7 @@ void USynthComponentMonoWaveTable::SetPositionEnvelopeAttackTime(float InAttackT
 
 void USynthComponentMonoWaveTable::SetLowPassFilterResonance(float InNewQ)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetLowPassFilterResonance"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetLowPassFilterResonance");
 
 	struct
 	{
@@ -2905,7 +2905,7 @@ void USynthComponentMonoWaveTable::SetLowPassFilterResonance(float InNewQ)
 
 void USynthComponentMonoWaveTable::SetLowPassFilterFrequency(float InNewFrequency)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetLowPassFilterFrequency"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetLowPassFilterFrequency");
 
 	struct
 	{
@@ -2925,7 +2925,7 @@ void USynthComponentMonoWaveTable::SetLowPassFilterFrequency(float InNewFrequenc
 
 void USynthComponentMonoWaveTable::SetFrequencyWithMidiNote(float InMidiNote)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFrequencyWithMidiNote"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFrequencyWithMidiNote");
 
 	struct
 	{
@@ -2945,7 +2945,7 @@ void USynthComponentMonoWaveTable::SetFrequencyWithMidiNote(float InMidiNote)
 
 void USynthComponentMonoWaveTable::SetFrequencyPitchBend(float FrequencyOffsetCents)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFrequencyPitchBend"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFrequencyPitchBend");
 
 	struct
 	{
@@ -2965,7 +2965,7 @@ void USynthComponentMonoWaveTable::SetFrequencyPitchBend(float FrequencyOffsetCe
 
 void USynthComponentMonoWaveTable::SetFrequency(float FrequencyHz)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFrequency"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFrequency");
 
 	struct
 	{
@@ -2985,7 +2985,7 @@ void USynthComponentMonoWaveTable::SetFrequency(float FrequencyHz)
 
 void USynthComponentMonoWaveTable::SetFilterEnvelopeSustainGain(float InSustainGain)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeSustainGain"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeSustainGain");
 
 	struct
 	{
@@ -3005,7 +3005,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeSustainGain(float InSustainG
 
 void USynthComponentMonoWaveTable::SetFilterEnvelopeReleaseTime(float InReleaseTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeReleaseTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeReleaseTime");
 
 	struct
 	{
@@ -3025,7 +3025,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeReleaseTime(float InReleaseT
 
 void USynthComponentMonoWaveTable::SetFilterEnvelopenDecayTime(float InDecayTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopenDecayTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopenDecayTime");
 
 	struct
 	{
@@ -3045,7 +3045,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopenDecayTime(float InDecayTime
 
 void USynthComponentMonoWaveTable::SetFilterEnvelopeInvert(bool bInInvert)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeInvert"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeInvert");
 
 	struct
 	{
@@ -3065,7 +3065,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeInvert(bool bInInvert)
 
 void USynthComponentMonoWaveTable::SetFilterEnvelopeDepth(float InDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeDepth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeDepth");
 
 	struct
 	{
@@ -3085,7 +3085,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeDepth(float InDepth)
 
 void USynthComponentMonoWaveTable::SetFilterEnvelopeBiasInvert(bool bInBiasInvert)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeBiasInvert"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeBiasInvert");
 
 	struct
 	{
@@ -3105,7 +3105,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeBiasInvert(bool bInBiasInver
 
 void USynthComponentMonoWaveTable::SetFilterEnvelopeBiasDepth(float InDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeBiasDepth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeBiasDepth");
 
 	struct
 	{
@@ -3125,7 +3125,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeBiasDepth(float InDepth)
 
 void USynthComponentMonoWaveTable::SetFilterEnvelopeAttackTime(float InAttackTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeAttackTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetFilterEnvelopeAttackTime");
 
 	struct
 	{
@@ -3148,7 +3148,7 @@ void USynthComponentMonoWaveTable::SetFilterEnvelopeAttackTime(float InAttackTim
 
 bool USynthComponentMonoWaveTable::SetCurveValue(int TableIndex, int KeyframeIndex, float NewValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetCurveValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetCurveValue");
 
 	struct
 	{
@@ -3177,7 +3177,7 @@ bool USynthComponentMonoWaveTable::SetCurveValue(int TableIndex, int KeyframeInd
 
 bool USynthComponentMonoWaveTable::SetCurveTangent(int TableIndex, float InNewTangent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetCurveTangent"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetCurveTangent");
 
 	struct
 	{
@@ -3204,7 +3204,7 @@ bool USynthComponentMonoWaveTable::SetCurveTangent(int TableIndex, float InNewTa
 
 bool USynthComponentMonoWaveTable::SetCurveInterpolationType(ECurveInterpolationType InterpolationType, int TableIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetCurveInterpolationType"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetCurveInterpolationType");
 
 	struct
 	{
@@ -3229,7 +3229,7 @@ bool USynthComponentMonoWaveTable::SetCurveInterpolationType(ECurveInterpolation
 
 void USynthComponentMonoWaveTable::SetAmpEnvelopeSustainGain(float InSustainGain)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeSustainGain"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeSustainGain");
 
 	struct
 	{
@@ -3249,7 +3249,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeSustainGain(float InSustainGain
 
 void USynthComponentMonoWaveTable::SetAmpEnvelopeReleaseTime(float InReleaseTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeReleaseTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeReleaseTime");
 
 	struct
 	{
@@ -3269,7 +3269,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeReleaseTime(float InReleaseTime
 
 void USynthComponentMonoWaveTable::SetAmpEnvelopeInvert(bool bInInvert)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeInvert"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeInvert");
 
 	struct
 	{
@@ -3289,7 +3289,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeInvert(bool bInInvert)
 
 void USynthComponentMonoWaveTable::SetAmpEnvelopeDepth(float InDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeDepth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeDepth");
 
 	struct
 	{
@@ -3309,7 +3309,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeDepth(float InDepth)
 
 void USynthComponentMonoWaveTable::SetAmpEnvelopeDecayTime(float InDecayTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeDecayTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeDecayTime");
 
 	struct
 	{
@@ -3329,7 +3329,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeDecayTime(float InDecayTimeMsec
 
 void USynthComponentMonoWaveTable::SetAmpEnvelopeBiasInvert(bool bInBiasInvert)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeBiasInvert"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeBiasInvert");
 
 	struct
 	{
@@ -3349,7 +3349,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeBiasInvert(bool bInBiasInvert)
 
 void USynthComponentMonoWaveTable::SetAmpEnvelopeBiasDepth(float InDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeBiasDepth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeBiasDepth");
 
 	struct
 	{
@@ -3369,7 +3369,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeBiasDepth(float InDepth)
 
 void USynthComponentMonoWaveTable::SetAmpEnvelopeAttackTime(float InAttackTimeMsec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeAttackTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.SetAmpEnvelopeAttackTime");
 
 	struct
 	{
@@ -3389,7 +3389,7 @@ void USynthComponentMonoWaveTable::SetAmpEnvelopeAttackTime(float InAttackTimeMs
 
 void USynthComponentMonoWaveTable::RefreshWaveTable(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.RefreshWaveTable"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.RefreshWaveTable");
 
 	struct
 	{
@@ -3407,7 +3407,7 @@ void USynthComponentMonoWaveTable::RefreshWaveTable(int Index)
 
 void USynthComponentMonoWaveTable::RefreshAllWaveTables()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.RefreshAllWaveTables"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.RefreshAllWaveTables");
 
 	struct
 	{
@@ -3426,7 +3426,7 @@ void USynthComponentMonoWaveTable::RefreshAllWaveTables()
 
 void USynthComponentMonoWaveTable::NoteOn(float InMidiNote, float InVelocity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.NoteOn"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.NoteOn");
 
 	struct
 	{
@@ -3448,7 +3448,7 @@ void USynthComponentMonoWaveTable::NoteOn(float InMidiNote, float InVelocity)
 
 void USynthComponentMonoWaveTable::NoteOff(float InMidiNote)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.NoteOff"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.NoteOff");
 
 	struct
 	{
@@ -3468,7 +3468,7 @@ void USynthComponentMonoWaveTable::NoteOff(float InMidiNote)
 
 int USynthComponentMonoWaveTable::GetNumTableEntries()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.GetNumTableEntries"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.GetNumTableEntries");
 
 	struct
 	{
@@ -3489,7 +3489,7 @@ int USynthComponentMonoWaveTable::GetNumTableEntries()
 
 int USynthComponentMonoWaveTable::GetMaxTableIndex()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.GetMaxTableIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.GetMaxTableIndex");
 
 	struct
 	{
@@ -3511,7 +3511,7 @@ int USynthComponentMonoWaveTable::GetMaxTableIndex()
 
 TArray<float> USynthComponentMonoWaveTable::GetKeyFrameValuesForTable(float TableIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.GetKeyFrameValuesForTable"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.GetKeyFrameValuesForTable");
 
 	struct
 	{
@@ -3535,7 +3535,7 @@ TArray<float> USynthComponentMonoWaveTable::GetKeyFrameValuesForTable(float Tabl
 
 float USynthComponentMonoWaveTable::GetCurveTangent(int TableIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthComponentMonoWaveTable.GetCurveTangent"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthComponentMonoWaveTable.GetCurveTangent");
 
 	struct
 	{
@@ -3558,7 +3558,7 @@ float USynthComponentMonoWaveTable::GetCurveTangent(int TableIndex)
 
 void USynthSamplePlayer::SetSoundWave(class USoundWave* InSoundWave)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthSamplePlayer.SetSoundWave"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthSamplePlayer.SetSoundWave");
 
 	struct
 	{
@@ -3578,7 +3578,7 @@ void USynthSamplePlayer::SetSoundWave(class USoundWave* InSoundWave)
 
 void USynthSamplePlayer::SetScrubTimeWidth(float InScrubTimeWidthSec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthSamplePlayer.SetScrubTimeWidth"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthSamplePlayer.SetScrubTimeWidth");
 
 	struct
 	{
@@ -3598,7 +3598,7 @@ void USynthSamplePlayer::SetScrubTimeWidth(float InScrubTimeWidthSec)
 
 void USynthSamplePlayer::SetScrubMode(bool bScrubMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthSamplePlayer.SetScrubMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthSamplePlayer.SetScrubMode");
 
 	struct
 	{
@@ -3619,7 +3619,7 @@ void USynthSamplePlayer::SetScrubMode(bool bScrubMode)
 
 void USynthSamplePlayer::SetPitch(float InPitch, float TimeSec)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthSamplePlayer.SetPitch"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthSamplePlayer.SetPitch");
 
 	struct
 	{
@@ -3643,7 +3643,7 @@ void USynthSamplePlayer::SetPitch(float InPitch, float TimeSec)
 
 void USynthSamplePlayer::SeekToTime(float TimeSec, ESamplePlayerSeekType SeekType, bool bWrap)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthSamplePlayer.SeekToTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthSamplePlayer.SeekToTime");
 
 	struct
 	{
@@ -3667,7 +3667,7 @@ void USynthSamplePlayer::SeekToTime(float TimeSec, ESamplePlayerSeekType SeekTyp
 
 bool USynthSamplePlayer::IsLoaded()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthSamplePlayer.IsLoaded"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthSamplePlayer.IsLoaded");
 
 	struct
 	{
@@ -3688,7 +3688,7 @@ bool USynthSamplePlayer::IsLoaded()
 
 float USynthSamplePlayer::GetSampleDuration()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthSamplePlayer.GetSampleDuration"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthSamplePlayer.GetSampleDuration");
 
 	struct
 	{
@@ -3709,7 +3709,7 @@ float USynthSamplePlayer::GetSampleDuration()
 
 float USynthSamplePlayer::GetCurrentPlaybackProgressTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthSamplePlayer.GetCurrentPlaybackProgressTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthSamplePlayer.GetCurrentPlaybackProgressTime");
 
 	struct
 	{
@@ -3730,7 +3730,7 @@ float USynthSamplePlayer::GetCurrentPlaybackProgressTime()
 
 float USynthSamplePlayer::GetCurrentPlaybackProgressPercent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthSamplePlayer.GetCurrentPlaybackProgressPercent"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthSamplePlayer.GetCurrentPlaybackProgressPercent");
 
 	struct
 	{
@@ -3751,7 +3751,7 @@ float USynthSamplePlayer::GetCurrentPlaybackProgressPercent()
 
 void USynthKnob::SetValue(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthKnob.SetValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthKnob.SetValue");
 
 	struct
 	{
@@ -3771,7 +3771,7 @@ void USynthKnob::SetValue(float InValue)
 
 void USynthKnob::SetStepSize(float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthKnob.SetStepSize"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthKnob.SetStepSize");
 
 	struct
 	{
@@ -3791,7 +3791,7 @@ void USynthKnob::SetStepSize(float InValue)
 
 void USynthKnob::SetLocked(bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthKnob.SetLocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthKnob.SetLocked");
 
 	struct
 	{
@@ -3811,7 +3811,7 @@ void USynthKnob::SetLocked(bool InValue)
 
 float USynthKnob::GetValue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Synthesis.SynthKnob.GetValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function Synthesis.SynthKnob.GetValue");
 
 	struct
 	{

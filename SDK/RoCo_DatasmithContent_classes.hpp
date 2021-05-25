@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithObjectTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithObjectTemplate");
 		return ptr;
 	}
 
@@ -40,7 +40,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithActorTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithActorTemplate");
 		return ptr;
 	}
 
@@ -55,7 +55,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithAdditionalData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithAdditionalData");
 		return ptr;
 	}
 
@@ -89,7 +89,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithAreaLightActor"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithAreaLightActor");
 		return ptr;
 	}
 
@@ -121,7 +121,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithAreaLightActorTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithAreaLightActorTemplate");
 		return ptr;
 	}
 
@@ -136,7 +136,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithAssetImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithAssetImportData");
 		return ptr;
 	}
 
@@ -151,7 +151,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithStaticMeshImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithStaticMeshImportData");
 		return ptr;
 	}
 
@@ -166,7 +166,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithStaticMeshCADImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithStaticMeshCADImportData");
 		return ptr;
 	}
 
@@ -181,7 +181,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithSceneImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithSceneImportData");
 		return ptr;
 	}
 
@@ -196,7 +196,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithTranslatedSceneImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithTranslatedSceneImportData");
 		return ptr;
 	}
 
@@ -211,7 +211,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithCADImportSceneData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithCADImportSceneData");
 		return ptr;
 	}
 
@@ -226,7 +226,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithMDLSceneImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithMDLSceneImportData");
 		return ptr;
 	}
 
@@ -247,7 +247,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithGLTFSceneImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithGLTFSceneImportData");
 		return ptr;
 	}
 
@@ -263,7 +263,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithStaticMeshGLTFImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithStaticMeshGLTFImportData");
 		return ptr;
 	}
 
@@ -284,7 +284,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithFBXSceneImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithFBXSceneImportData");
 		return ptr;
 	}
 
@@ -299,7 +299,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithDeltaGenAssetImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithDeltaGenAssetImportData");
 		return ptr;
 	}
 
@@ -327,7 +327,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithDeltaGenSceneImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithDeltaGenSceneImportData");
 		return ptr;
 	}
 
@@ -342,7 +342,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithVREDAssetImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithVREDAssetImportData");
 		return ptr;
 	}
 
@@ -372,7 +372,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithVREDSceneImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithVREDSceneImportData");
 		return ptr;
 	}
 
@@ -387,7 +387,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithIFCSceneImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithIFCSceneImportData");
 		return ptr;
 	}
 
@@ -403,7 +403,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithStaticMeshIFCImportData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithStaticMeshIFCImportData");
 		return ptr;
 	}
 
@@ -419,7 +419,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithAssetUserData"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithAssetUserData");
 		return ptr;
 	}
 
@@ -435,7 +435,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithCineCameraActorTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithCineCameraActorTemplate");
 		return ptr;
 	}
 
@@ -457,7 +457,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithCineCameraComponentTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithCineCameraComponentTemplate");
 		return ptr;
 	}
 
@@ -472,7 +472,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithContentBlueprintLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithContentBlueprintLibrary");
 		return ptr;
 	}
 
@@ -492,7 +492,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithCustomActionBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithCustomActionBase");
 		return ptr;
 	}
 
@@ -508,7 +508,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithImportedSequencesActor"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithImportedSequencesActor");
 		return ptr;
 	}
 
@@ -525,7 +525,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithOptionsBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithOptionsBase");
 		return ptr;
 	}
 
@@ -541,7 +541,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithCommonTessellationOptions"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithCommonTessellationOptions");
 		return ptr;
 	}
 
@@ -571,7 +571,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithImportOptions"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithImportOptions");
 		return ptr;
 	}
 
@@ -589,7 +589,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithLandscapeTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithLandscapeTemplate");
 		return ptr;
 	}
 
@@ -617,7 +617,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithLightComponentTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithLightComponentTemplate");
 		return ptr;
 	}
 
@@ -637,7 +637,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithMaterialInstanceTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithMaterialInstanceTemplate");
 		return ptr;
 	}
 
@@ -657,7 +657,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithPointLightComponentTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithPointLightComponentTemplate");
 		return ptr;
 	}
 
@@ -676,7 +676,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithPostProcessVolumeTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithPostProcessVolumeTemplate");
 		return ptr;
 	}
 
@@ -692,7 +692,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithScene"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithScene");
 		return ptr;
 	}
 
@@ -709,7 +709,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithSceneActor"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithSceneActor");
 		return ptr;
 	}
 
@@ -729,7 +729,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithSceneComponentTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithSceneComponentTemplate");
 		return ptr;
 	}
 
@@ -748,7 +748,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithSkyLightComponentTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithSkyLightComponentTemplate");
 		return ptr;
 	}
 
@@ -765,7 +765,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithSpotLightComponentTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithSpotLightComponentTemplate");
 		return ptr;
 	}
 
@@ -782,7 +782,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithStaticMeshComponentTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithStaticMeshComponentTemplate");
 		return ptr;
 	}
 
@@ -802,7 +802,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DatasmithContent.DatasmithStaticMeshTemplate"));
+		static auto ptr = UObject::FindObject<UClass>("Class DatasmithContent.DatasmithStaticMeshTemplate");
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_TelemetryWidget_C::UpdateOutgoingDisplay(class AKSPlayerController* Controller)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdateOutgoingDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdateOutgoingDisplay");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_TelemetryWidget_C::UpdateOutgoingDisplay(class AKSPlayerController* Co
 
 void UWBP_TelemetryWidget_C::UpdateIncomingDisplay(class AKSPlayerController* Controller)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdateIncomingDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdateIncomingDisplay");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_TelemetryWidget_C::UpdateIncomingDisplay(class AKSPlayerController* Co
 
 void UWBP_TelemetryWidget_C::UpdateFPSDisplay(class AKSPlayerController* Controller)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdateFPSDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdateFPSDisplay");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_TelemetryWidget_C::UpdateFPSDisplay(class AKSPlayerController* Control
 
 void UWBP_TelemetryWidget_C::UpdatePingDisplay(class AKSPlayerController* Controller)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdatePingDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdatePingDisplay");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_TelemetryWidget_C::UpdatePingDisplay(class AKSPlayerController* Contro
 
 void UWBP_TelemetryWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.InitializeWidget");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWBP_TelemetryWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_TelemetryWidget_C::UpdateVisibility(const struct FTelemetrySettings& NewSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdateVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.UpdateVisibility");
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_TelemetryWidget_C::UpdateVisibility(const struct FTelemetrySettings& N
 
 void UWBP_TelemetryWidget_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.Tick");
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWBP_TelemetryWidget_C::Tick(const struct FGeometry& MyGeometry, float InDe
 
 void UWBP_TelemetryWidget_C::ExecuteUbergraph_WBP_TelemetryWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.ExecuteUbergraph_WBP_TelemetryWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TelemetryWidget.WBP_TelemetryWidget_C.ExecuteUbergraph_WBP_TelemetryWidget");
 
 	struct
 	{

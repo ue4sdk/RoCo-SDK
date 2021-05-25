@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ProgressBar_C::SetFillPercentage(float Percentage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressBar.WBP_ProgressBar_C.SetFillPercentage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressBar.WBP_ProgressBar_C.SetFillPercentage");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_BattlePassLevelTracker_C::Get_Has_Premium_Battle_Pass(bool* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.Get Has Premium Battle Pass"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.Get Has Premium Battle Pass");
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UWBP_BattlePassLevelTracker_C::Get_Has_Premium_Battle_Pass(bool* Return_Val
 
 void UWBP_BattlePassLevelTracker_C::Get_Reward_Item_At_Tier(int TierIndex, int RewardIndex, struct FTierRewardItemData* RewardStoreItemData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.Get Reward Item At Tier"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.Get Reward Item At Tier");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UWBP_BattlePassLevelTracker_C::Get_Reward_Item_At_Tier(int TierIndex, int R
 
 void UWBP_BattlePassLevelTracker_C::DisplayFinishedState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.DisplayFinishedState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.DisplayFinishedState");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_BattlePassLevelTracker_C::DisplayFinishedState()
 
 void UWBP_BattlePassLevelTracker_C::SetConstantTextElements()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.SetConstantTextElements"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.SetConstantTextElements");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_BattlePassLevelTracker_C::SetConstantTextElements()
 
 void UWBP_BattlePassLevelTracker_C::TriggerLevelUpEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.TriggerLevelUpEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.TriggerLevelUpEvent");
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UWBP_BattlePassLevelTracker_C::TriggerLevelUpEvent()
 
 void UWBP_BattlePassLevelTracker_C::GetXpProgressPercentageInLevel(float* PercentProgress, int* XpNumber)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.GetXpProgressPercentageInLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.GetXpProgressPercentageInLevel");
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UWBP_BattlePassLevelTracker_C::GetXpProgressPercentageInLevel(float* Percen
 
 void UWBP_BattlePassLevelTracker_C::SetNewLerpTimeframe()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.SetNewLerpTimeframe"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.SetNewLerpTimeframe");
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWBP_BattlePassLevelTracker_C::SetNewLerpTimeframe()
 
 void UWBP_BattlePassLevelTracker_C::UpdateLevelDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.UpdateLevelDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.UpdateLevelDisplay");
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_BattlePassLevelTracker_C::UpdateLevelDisplay()
 
 struct FText UWBP_BattlePassLevelTracker_C::GetXPRequiredForLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.GetXPRequiredForLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.GetXPRequiredForLevel");
 
 	struct
 	{
@@ -196,7 +196,7 @@ struct FText UWBP_BattlePassLevelTracker_C::GetXPRequiredForLevel()
 
 struct FText UWBP_BattlePassLevelTracker_C::GetNextLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.GetNextLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.GetNextLevel");
 
 	struct
 	{
@@ -217,7 +217,7 @@ struct FText UWBP_BattlePassLevelTracker_C::GetNextLevel()
 
 struct FText UWBP_BattlePassLevelTracker_C::GetCurrentLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.GetCurrentLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.GetCurrentLevel");
 
 	struct
 	{
@@ -236,7 +236,7 @@ struct FText UWBP_BattlePassLevelTracker_C::GetCurrentLevel()
 
 void UWBP_BattlePassLevelTracker_C::DisplayXPAnimationState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.DisplayXPAnimationState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.DisplayXPAnimationState");
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_BattlePassLevelTracker_C::DisplayXPAnimationState()
 
 void UWBP_BattlePassLevelTracker_C::OnLevelUpAnimCompleted()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.OnLevelUpAnimCompleted"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.OnLevelUpAnimCompleted");
 
 	struct
 	{
@@ -268,7 +268,7 @@ void UWBP_BattlePassLevelTracker_C::OnLevelUpAnimCompleted()
 
 void UWBP_BattlePassLevelTracker_C::SetPalette()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.SetPalette"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.SetPalette");
 
 	struct
 	{
@@ -286,7 +286,7 @@ void UWBP_BattlePassLevelTracker_C::SetPalette()
 
 void UWBP_BattlePassLevelTracker_C::ProcessPlayerProgression(const struct FPlayerProgression& PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.ProcessPlayerProgression"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.ProcessPlayerProgression");
 
 	struct
 	{
@@ -306,7 +306,7 @@ void UWBP_BattlePassLevelTracker_C::ProcessPlayerProgression(const struct FPlaye
 
 void UWBP_BattlePassLevelTracker_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.InitializeWidget");
 
 	struct
 	{
@@ -327,7 +327,7 @@ void UWBP_BattlePassLevelTracker_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlePassLevelTracker_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.Tick");
 
 	struct
 	{
@@ -349,7 +349,7 @@ void UWBP_BattlePassLevelTracker_C::Tick(const struct FGeometry& MyGeometry, flo
 
 void UWBP_BattlePassLevelTracker_C::PlayProgressionAnim(float Delay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.PlayProgressionAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.PlayProgressionAnim");
 
 	struct
 	{
@@ -369,7 +369,7 @@ void UWBP_BattlePassLevelTracker_C::PlayProgressionAnim(float Delay)
 
 void UWBP_BattlePassLevelTracker_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.PreConstruct");
 
 	struct
 	{
@@ -387,7 +387,7 @@ void UWBP_BattlePassLevelTracker_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_BattlePassLevelTracker_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.Construct");
 
 	struct
 	{
@@ -405,7 +405,7 @@ void UWBP_BattlePassLevelTracker_C::Construct()
 
 void UWBP_BattlePassLevelTracker_C::ExecuteUbergraph_WBP_BattlePassLevelTracker(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.ExecuteUbergraph_WBP_BattlePassLevelTracker"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLevelTracker.WBP_BattlePassLevelTracker_C.ExecuteUbergraph_WBP_BattlePassLevelTracker");
 
 	struct
 	{

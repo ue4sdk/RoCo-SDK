@@ -17,7 +17,7 @@ namespace SDK
 
 void UFontPreloader_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FontPreloader.FontPreloader_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function FontPreloader.FontPreloader_C.Construct");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UFontPreloader_C::Construct()
 
 void UFontPreloader_C::ExecuteUbergraph_FontPreloader(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FontPreloader.FontPreloader_C.ExecuteUbergraph_FontPreloader"));
+	static auto fn = UObject::FindObject<UFunction>("Function FontPreloader.FontPreloader_C.ExecuteUbergraph_FontPreloader");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UGameTimerBarPips_C::Set_Total_Pips(int Pips_Number)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPips.GameTimerBarPips_C.Set Total Pips"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPips.GameTimerBarPips_C.Set Total Pips");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UGameTimerBarPips_C::Set_Total_Pips(int Pips_Number)
 
 void UGameTimerBarPips_C::Set_Pips_Number(int Pips_Number)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPips.GameTimerBarPips_C.Set Pips Number"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPips.GameTimerBarPips_C.Set Pips Number");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UGameTimerBarPips_C::Set_Pips_Number(int Pips_Number)
 
 void UGameTimerBarPips_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPips.GameTimerBarPips_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPips.GameTimerBarPips_C.PreConstruct");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UGameTimerBarPips_C::PreConstruct(bool IsDesignTime)
 
 void UGameTimerBarPips_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPips.GameTimerBarPips_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPips.GameTimerBarPips_C.Construct");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UGameTimerBarPips_C::Construct()
 
 void UGameTimerBarPips_C::ExecuteUbergraph_GameTimerBarPips(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBarPips.GameTimerBarPips_C.ExecuteUbergraph_GameTimerBarPips"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPips.GameTimerBarPips_C.ExecuteUbergraph_GameTimerBarPips");
 
 	struct
 	{

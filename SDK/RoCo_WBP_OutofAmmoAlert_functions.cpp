@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_OutOfAmmoAlert_C::IsValidWeaponType(bool* IsValidWeaponType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.IsValidWeaponType"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.IsValidWeaponType");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_OutOfAmmoAlert_C::IsValidWeaponType(bool* IsValidWeaponType)
 
 void UWBP_OutOfAmmoAlert_C::HandleAmmoChanged(class UKSWeaponComponent* Weapon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.HandleAmmoChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.HandleAmmoChanged");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_OutOfAmmoAlert_C::HandleAmmoChanged(class UKSWeaponComponent* Weapon)
 
 void UWBP_OutOfAmmoAlert_C::BindToAmmoUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.BindToAmmoUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.BindToAmmoUpdate");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_OutOfAmmoAlert_C::BindToAmmoUpdate()
 
 void UWBP_OutOfAmmoAlert_C::PostSetActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.PostSetActiveWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.PostSetActiveWeaponComponent");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_OutOfAmmoAlert_C::PostSetActiveWeaponComponent()
 
 void UWBP_OutOfAmmoAlert_C::PreClearActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.PreClearActiveWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.PreClearActiveWeaponComponent");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_OutOfAmmoAlert_C::PreClearActiveWeaponComponent()
 
 void UWBP_OutOfAmmoAlert_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.Construct");
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UWBP_OutOfAmmoAlert_C::Construct()
 
 void UWBP_OutOfAmmoAlert_C::ExecuteUbergraph_WBP_OutOfAmmoAlert(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.ExecuteUbergraph_WBP_OutOfAmmoAlert"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OutofAmmoAlert.WBP_OutOfAmmoAlert_C.ExecuteUbergraph_WBP_OutOfAmmoAlert");
 
 	struct
 	{

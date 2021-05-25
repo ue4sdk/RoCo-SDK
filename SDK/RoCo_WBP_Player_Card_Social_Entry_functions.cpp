@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_Player_Card_Social_Entry_C::SetCurrentInfoContainer(class UObject* InfoContainer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.SetCurrentInfoContainer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.SetCurrentInfoContainer");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_Player_Card_Social_Entry_C::SetCurrentInfoContainer(class UObject* Inf
 
 void UWBP_Player_Card_Social_Entry_C::UpdatePlayerCard(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.UpdatePlayerCard"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.UpdatePlayerCard");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_Player_Card_Social_Entry_C::UpdatePlayerCard(class UKSPlayerInfo* play
 
 void UWBP_Player_Card_Social_Entry_C::SetHoverState(bool IsHovered)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.SetHoverState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.SetHoverState");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_Player_Card_Social_Entry_C::SetHoverState(bool IsHovered)
 
 void UWBP_Player_Card_Social_Entry_C::GetDisplayItem(class UKSWidget** ActiveDisplayItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.GetDisplayItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.GetDisplayItem");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_Player_Card_Social_Entry_C::GetDisplayItem(class UKSWidget** ActiveDis
 
 void UWBP_Player_Card_Social_Entry_C::UpdateDataItem(class UObject* Data)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.UpdateDataItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.UpdateDataItem");
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_Player_Card_Social_Entry_C::UpdateDataItem(class UObject* Data)
 
 void UWBP_Player_Card_Social_Entry_C::BP_OnItemSelectionChanged(bool bIsSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.BP_OnItemSelectionChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.BP_OnItemSelectionChanged");
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UWBP_Player_Card_Social_Entry_C::BP_OnItemSelectionChanged(bool bIsSelected
 
 void UWBP_Player_Card_Social_Entry_C::BP_OnItemExpansionChanged(bool bIsExpanded)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.BP_OnItemExpansionChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.BP_OnItemExpansionChanged");
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UWBP_Player_Card_Social_Entry_C::BP_OnItemExpansionChanged(bool bIsExpanded
 
 void UWBP_Player_Card_Social_Entry_C::BP_OnEntryReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.BP_OnEntryReleased"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.BP_OnEntryReleased");
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UWBP_Player_Card_Social_Entry_C::BP_OnEntryReleased()
 
 void UWBP_Player_Card_Social_Entry_C::OnListItemObjectSet(class UObject* ListItemObject)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnListItemObjectSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnListItemObjectSet");
 
 	struct
 	{
@@ -197,7 +197,7 @@ void UWBP_Player_Card_Social_Entry_C::OnListItemObjectSet(class UObject* ListIte
 
 void UWBP_Player_Card_Social_Entry_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.InitializeWidget");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UWBP_Player_Card_Social_Entry_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Player_Card_Social_Entry_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.UninitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.UninitializeWidget");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UWBP_Player_Card_Social_Entry_C::UninitializeWidget()
 
 void UWBP_Player_Card_Social_Entry_C::OnHeaderClicked(class UUserWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnHeaderClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnHeaderClicked");
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UWBP_Player_Card_Social_Entry_C::OnHeaderClicked(class UUserWidget* Widget)
 
 void UWBP_Player_Card_Social_Entry_C::OnPlayerClicked(class UWBP_player_card_module_C* Selected_Player_Card)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnPlayerClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnPlayerClicked");
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_Player_Card_Social_Entry_C::OnPlayerClicked(class UWBP_player_card_mod
 
 void UWBP_Player_Card_Social_Entry_C::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnMouseEnter"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnMouseEnter");
 
 	struct
 	{
@@ -296,7 +296,7 @@ void UWBP_Player_Card_Social_Entry_C::OnMouseEnter(const struct FGeometry& MyGeo
 
 void UWBP_Player_Card_Social_Entry_C::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnMouseLeave"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnMouseLeave");
 
 	struct
 	{
@@ -314,7 +314,7 @@ void UWBP_Player_Card_Social_Entry_C::OnMouseLeave(const struct FPointerEvent& M
 
 void UWBP_Player_Card_Social_Entry_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnShown");
 
 	struct
 	{
@@ -332,7 +332,7 @@ void UWBP_Player_Card_Social_Entry_C::OnShown()
 
 void UWBP_Player_Card_Social_Entry_C::HandlePlayerContainerUpdate(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.HandlePlayerContainerUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.HandlePlayerContainerUpdate");
 
 	struct
 	{
@@ -352,7 +352,7 @@ void UWBP_Player_Card_Social_Entry_C::HandlePlayerContainerUpdate(class UKSPlaye
 
 void UWBP_Player_Card_Social_Entry_C::ExecuteUbergraph_WBP_Player_Card_Social_Entry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.ExecuteUbergraph_WBP_Player_Card_Social_Entry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.ExecuteUbergraph_WBP_Player_Card_Social_Entry");
 
 	struct
 	{
@@ -372,7 +372,7 @@ void UWBP_Player_Card_Social_Entry_C::ExecuteUbergraph_WBP_Player_Card_Social_En
 
 void UWBP_Player_Card_Social_Entry_C::OnClicked__DelegateSignature(class UUserWidget* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Player_Card_Social_Entry.WBP_Player_Card_Social_Entry_C.OnClicked__DelegateSignature");
 
 	struct
 	{

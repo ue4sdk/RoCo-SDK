@@ -25,7 +25,7 @@ namespace SDK
 
 void ALobby_Core_Breach_C::BndEvt__MainLobbyCamera_K2Node_ActorBoundEvent_0_TakeRadialDamageSignature__DelegateSignature(class AActor* DamagedActor, float Damage, class UDamageType* DamageType, const struct FVector& Origin, const struct FHitResult& HitInfo, class AController* InstigatedBy, class AActor* DamageCauser)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Lobby_Core_Breach.Lobby_Core_Breach_C.BndEvt__MainLobbyCamera_K2Node_ActorBoundEvent_0_TakeRadialDamageSignature__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Lobby_Core_Breach.Lobby_Core_Breach_C.BndEvt__MainLobbyCamera_K2Node_ActorBoundEvent_0_TakeRadialDamageSignature__DelegateSignature");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void ALobby_Core_Breach_C::BndEvt__MainLobbyCamera_K2Node_ActorBoundEvent_0_Take
 
 void ALobby_Core_Breach_C::ExecuteUbergraph_Lobby_Core_Breach(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Lobby_Core_Breach.Lobby_Core_Breach_C.ExecuteUbergraph_Lobby_Core_Breach"));
+	static auto fn = UObject::FindObject<UFunction>("Function Lobby_Core_Breach.Lobby_Core_Breach_C.ExecuteUbergraph_Lobby_Core_Breach");
 
 	struct
 	{

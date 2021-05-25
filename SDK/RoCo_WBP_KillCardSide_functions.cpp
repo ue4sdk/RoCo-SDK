@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_KillCardSide_C::Show_Sequence()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillCardSide.WBP_KillCardSide_C.Show Sequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillCardSide.WBP_KillCardSide_C.Show Sequence");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UWBP_KillCardSide_C::Show_Sequence()
 
 void UWBP_KillCardSide_C::ShowPlayerAndMessage(class AKSPlayerState* PlayerState, const struct FText& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillCardSide.WBP_KillCardSide_C.ShowPlayerAndMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillCardSide.WBP_KillCardSide_C.ShowPlayerAndMessage");
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_KillCardSide_C::ShowPlayerAndMessage(class AKSPlayerState* PlayerState
 
 void UWBP_KillCardSide_C::Display_Duration_Finished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillCardSide.WBP_KillCardSide_C.Display Duration Finished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillCardSide.WBP_KillCardSide_C.Display Duration Finished");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_KillCardSide_C::Display_Duration_Finished()
 
 void UWBP_KillCardSide_C::ClearMessage(bool UseAnimations)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillCardSide.WBP_KillCardSide_C.ClearMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillCardSide.WBP_KillCardSide_C.ClearMessage");
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UWBP_KillCardSide_C::ClearMessage(bool UseAnimations)
 
 void UWBP_KillCardSide_C::Hide_Anim_Finished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillCardSide.WBP_KillCardSide_C.Hide Anim Finished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillCardSide.WBP_KillCardSide_C.Hide Anim Finished");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_KillCardSide_C::Hide_Anim_Finished()
 
 void UWBP_KillCardSide_C::ExecuteUbergraph_WBP_KillCardSide(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KillCardSide.WBP_KillCardSide_C.ExecuteUbergraph_WBP_KillCardSide"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillCardSide.WBP_KillCardSide_C.ExecuteUbergraph_WBP_KillCardSide");
 
 	struct
 	{

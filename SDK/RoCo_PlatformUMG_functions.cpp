@@ -17,7 +17,7 @@ namespace SDK
 
 void UPUMG_AsyncImage::ShowWaitingWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_AsyncImage.ShowWaitingWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_AsyncImage.ShowWaitingWidget");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UPUMG_AsyncImage::ShowWaitingWidget()
 
 void UPUMG_AsyncImage::HideWaitingWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_AsyncImage.HideWaitingWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_AsyncImage.HideWaitingWidget");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UPUMG_AsyncImage::HideWaitingWidget()
 
 bool UPUMG_BlueprintFunctionLibrary::IsWithEditor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.IsWithEditor"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.IsWithEditor");
 
 	struct
 	{
@@ -73,7 +73,7 @@ bool UPUMG_BlueprintFunctionLibrary::IsWithEditor()
 
 float UPUMG_BlueprintFunctionLibrary::GetUMG_DPI_Scaling()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetUMG_DPI_Scaling"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetUMG_DPI_Scaling");
 
 	struct
 	{
@@ -96,7 +96,7 @@ float UPUMG_BlueprintFunctionLibrary::GetUMG_DPI_Scaling()
 
 struct FName UPUMG_BlueprintFunctionLibrary::GetKeyName(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetKeyName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetKeyName");
 
 	struct
 	{
@@ -120,7 +120,7 @@ struct FName UPUMG_BlueprintFunctionLibrary::GetKeyName(const struct FKey& Key)
 
 struct FKey UPUMG_BlueprintFunctionLibrary::GetGamepadConfirmButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetGamepadConfirmButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetGamepadConfirmButton");
 
 	struct
 	{
@@ -142,7 +142,7 @@ struct FKey UPUMG_BlueprintFunctionLibrary::GetGamepadConfirmButton()
 
 struct FKey UPUMG_BlueprintFunctionLibrary::GetGamepadCancelButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetGamepadCancelButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetGamepadCancelButton");
 
 	struct
 	{
@@ -166,7 +166,7 @@ struct FKey UPUMG_BlueprintFunctionLibrary::GetGamepadCancelButton()
 
 bool UPUMG_BlueprintFunctionLibrary::GetGamepadButtonForAction(const struct FName& Action, struct FKey* Button)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetGamepadButtonForAction"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetGamepadButtonForAction");
 
 	struct
 	{
@@ -197,7 +197,7 @@ bool UPUMG_BlueprintFunctionLibrary::GetGamepadButtonForAction(const struct FNam
 
 bool UPUMG_BlueprintFunctionLibrary::GetButtonForActionMappingUsingWidget(class UWidget* InWidget, const struct FName& Action, struct FKey* Button)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetButtonForActionMappingUsingWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetButtonForActionMappingUsingWidget");
 
 	struct
 	{
@@ -230,7 +230,7 @@ bool UPUMG_BlueprintFunctionLibrary::GetButtonForActionMappingUsingWidget(class 
 
 bool UPUMG_BlueprintFunctionLibrary::GetButtonForActionMapping(const struct FName& Action, bool IsGamepadKey, struct FKey* Button)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetButtonForActionMapping"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetButtonForActionMapping");
 
 	struct
 	{
@@ -263,7 +263,7 @@ bool UPUMG_BlueprintFunctionLibrary::GetButtonForActionMapping(const struct FNam
 
 bool UPUMG_BlueprintFunctionLibrary::GetAllButtonsForActionMappingUsingWidget(class UWidget* InWidget, const struct FName& Action, TArray<struct FKey>* Buttons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetAllButtonsForActionMappingUsingWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetAllButtonsForActionMappingUsingWidget");
 
 	struct
 	{
@@ -296,7 +296,7 @@ bool UPUMG_BlueprintFunctionLibrary::GetAllButtonsForActionMappingUsingWidget(cl
 
 bool UPUMG_BlueprintFunctionLibrary::GetAllButtonsForActionMapping(const struct FName& Action, bool IsGamepadKey, TArray<struct FKey>* Buttons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetAllButtonsForActionMapping"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_BlueprintFunctionLibrary.GetAllButtonsForActionMapping");
 
 	struct
 	{
@@ -327,7 +327,7 @@ bool UPUMG_BlueprintFunctionLibrary::GetAllButtonsForActionMapping(const struct 
 
 void UPUMG_CanvasPanel::PlaceWidgetUnder(class UUserWidget* BottomWidget, class UUserWidget* TopWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_CanvasPanel.PlaceWidgetUnder"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_CanvasPanel.PlaceWidgetUnder");
 
 	struct
 	{
@@ -349,7 +349,7 @@ void UPUMG_CanvasPanel::PlaceWidgetUnder(class UUserWidget* BottomWidget, class 
 
 bool UPUMG_DataFactory::IsLoggedIn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_DataFactory.IsLoggedIn"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_DataFactory.IsLoggedIn");
 
 	struct
 	{
@@ -370,7 +370,7 @@ bool UPUMG_DataFactory::IsLoggedIn()
 
 void UPUMG_ChatDataFactory::SetMaxMessageCount(int MaxMessageCount)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.SetMaxMessageCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.SetMaxMessageCount");
 
 	struct
 	{
@@ -391,7 +391,7 @@ void UPUMG_ChatDataFactory::SetMaxMessageCount(int MaxMessageCount)
 
 void UPUMG_ChatDataFactory::SendChatToPlayer(const struct FString& Message, int64_t TargetPlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.SendChatToPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.SendChatToPlayer");
 
 	struct
 	{
@@ -414,7 +414,7 @@ void UPUMG_ChatDataFactory::SendChatToPlayer(const struct FString& Message, int6
 
 void UPUMG_ChatDataFactory::SendChatToChannel(const struct FString& Message, EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.SendChatToChannel"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.SendChatToChannel");
 
 	struct
 	{
@@ -437,7 +437,7 @@ void UPUMG_ChatDataFactory::SendChatToChannel(const struct FString& Message, EPU
 
 bool UPUMG_ChatDataFactory::RemovePlayerFilter(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.RemovePlayerFilter"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.RemovePlayerFilter");
 
 	struct
 	{
@@ -461,7 +461,7 @@ bool UPUMG_ChatDataFactory::RemovePlayerFilter(int64_t PlayerId)
 
 bool UPUMG_ChatDataFactory::RemoveChatCommand(const struct FString& Command)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.RemoveChatCommand"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.RemoveChatCommand");
 
 	struct
 	{
@@ -485,7 +485,7 @@ bool UPUMG_ChatDataFactory::RemoveChatCommand(const struct FString& Command)
 
 bool UPUMG_ChatDataFactory::RemoveAllChatCommands(class UObject* Target)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.RemoveAllChatCommands"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.RemoveAllChatCommands");
 
 	struct
 	{
@@ -506,7 +506,7 @@ bool UPUMG_ChatDataFactory::RemoveAllChatCommands(class UObject* Target)
 
 void UPUMG_ChatDataFactory::QueueCheckPendingMessages()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.QueueCheckPendingMessages"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.QueueCheckPendingMessages");
 
 	struct
 	{
@@ -524,7 +524,7 @@ void UPUMG_ChatDataFactory::QueueCheckPendingMessages()
 
 void UPUMG_ChatDataFactory::MarkMessageAsRead(int MessageId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.MarkMessageAsRead"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.MarkMessageAsRead");
 
 	struct
 	{
@@ -542,7 +542,7 @@ void UPUMG_ChatDataFactory::MarkMessageAsRead(int MessageId)
 
 void UPUMG_ChatDataFactory::ListChatCommands()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.ListChatCommands"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.ListChatCommands");
 
 	struct
 	{
@@ -561,7 +561,7 @@ void UPUMG_ChatDataFactory::ListChatCommands()
 
 bool UPUMG_ChatDataFactory::IsValidMessage(const struct FPUMG_ChatData& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.IsValidMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.IsValidMessage");
 
 	struct
 	{
@@ -585,7 +585,7 @@ bool UPUMG_ChatDataFactory::IsValidMessage(const struct FPUMG_ChatData& Message)
 
 bool UPUMG_ChatDataFactory::IsPlayerFilteredFromChat(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.IsPlayerFilteredFromChat"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.IsPlayerFilteredFromChat");
 
 	struct
 	{
@@ -606,7 +606,7 @@ bool UPUMG_ChatDataFactory::IsPlayerFilteredFromChat(int64_t PlayerId)
 
 void UPUMG_ChatDataFactory::HandleCommunicationSettingChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.HandleCommunicationSettingChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.HandleCommunicationSettingChanged");
 
 	struct
 	{
@@ -625,7 +625,7 @@ void UPUMG_ChatDataFactory::HandleCommunicationSettingChanged()
 
 struct FPUMG_ChatData UPUMG_ChatDataFactory::GetMessage(int MessageId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.GetMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.GetMessage");
 
 	struct
 	{
@@ -648,7 +648,7 @@ struct FPUMG_ChatData UPUMG_ChatDataFactory::GetMessage(int MessageId)
 
 int UPUMG_ChatDataFactory::GetMaxMessageCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.GetMaxMessageCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.GetMaxMessageCount");
 
 	struct
 	{
@@ -669,7 +669,7 @@ int UPUMG_ChatDataFactory::GetMaxMessageCount()
 
 EPCOM_PrivilegeStatus UPUMG_ChatDataFactory::GetChatPrivilegeStatus()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.GetChatPrivilegeStatus"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.GetChatPrivilegeStatus");
 
 	struct
 	{
@@ -691,7 +691,7 @@ EPCOM_PrivilegeStatus UPUMG_ChatDataFactory::GetChatPrivilegeStatus()
 
 void UPUMG_ChatDataFactory::GetActiveChatChannels(bool IncludePersonalChannel, TArray<struct FPUMG_ActiveChatChannelData>* ActiveChatChatChannels)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.GetActiveChatChannels"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.GetActiveChatChannels");
 
 	struct
 	{
@@ -716,7 +716,7 @@ void UPUMG_ChatDataFactory::GetActiveChatChannels(bool IncludePersonalChannel, T
 
 int UPUMG_ChatDataFactory::FindChatCommandIndex(const struct FString& Command)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.FindChatCommandIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.FindChatCommandIndex");
 
 	struct
 	{
@@ -740,7 +740,7 @@ int UPUMG_ChatDataFactory::FindChatCommandIndex(const struct FString& Command)
 
 bool UPUMG_ChatDataFactory::ExecuteChatCommandLine(const struct FString& CommandLine)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.ExecuteChatCommandLine"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.ExecuteChatCommandLine");
 
 	struct
 	{
@@ -761,7 +761,7 @@ bool UPUMG_ChatDataFactory::ExecuteChatCommandLine(const struct FString& Command
 
 void UPUMG_ChatDataFactory::CheckPendingMessages()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.CheckPendingMessages"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.CheckPendingMessages");
 
 	struct
 	{
@@ -779,7 +779,7 @@ void UPUMG_ChatDataFactory::CheckPendingMessages()
 
 void UPUMG_ChatDataFactory::BeginProcessingChatMessage(struct FPUMG_ChatData* Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.BeginProcessingChatMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.BeginProcessingChatMessage");
 
 	struct
 	{
@@ -801,7 +801,7 @@ void UPUMG_ChatDataFactory::BeginProcessingChatMessage(struct FPUMG_ChatData* Me
 
 void UPUMG_ChatDataFactory::AddSystemMessage(const struct FText& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.AddSystemMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.AddSystemMessage");
 
 	struct
 	{
@@ -822,7 +822,7 @@ void UPUMG_ChatDataFactory::AddSystemMessage(const struct FText& Message)
 
 bool UPUMG_ChatDataFactory::AddPlayerFilter(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.AddPlayerFilter"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.AddPlayerFilter");
 
 	struct
 	{
@@ -846,7 +846,7 @@ bool UPUMG_ChatDataFactory::AddPlayerFilter(int64_t PlayerId)
 
 void UPUMG_ChatDataFactory::AddGameMessage(const struct FText& Message, EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.AddGameMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.AddGameMessage");
 
 	struct
 	{
@@ -876,7 +876,7 @@ void UPUMG_ChatDataFactory::AddGameMessage(const struct FText& Message, EPUMG_Ch
 
 bool UPUMG_ChatDataFactory::AddChatCommand(const struct FString& Command, const struct FText& Desc, class UObject* Target, const struct FString& Function, const struct FString& Alias1, const struct FString& Alias2, const struct FString& Alias3, const struct FString& Alias4)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ChatDataFactory.AddChatCommand"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ChatDataFactory.AddChatCommand");
 
 	struct
 	{
@@ -913,7 +913,7 @@ bool UPUMG_ChatDataFactory::AddChatCommand(const struct FString& Command, const 
 
 void UPUMG_FriendDataFactory::UIX_OnRemoveFriend(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnRemoveFriend"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnRemoveFriend");
 
 	struct
 	{
@@ -933,7 +933,7 @@ void UPUMG_FriendDataFactory::UIX_OnRemoveFriend(int64_t PlayerId)
 
 void UPUMG_FriendDataFactory::UIX_OnRejectFriendRequest(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnRejectFriendRequest"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnRejectFriendRequest");
 
 	struct
 	{
@@ -953,7 +953,7 @@ void UPUMG_FriendDataFactory::UIX_OnRejectFriendRequest(int64_t PlayerId)
 
 void UPUMG_FriendDataFactory::UIX_OnCancelFriendRequest(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnCancelFriendRequest"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnCancelFriendRequest");
 
 	struct
 	{
@@ -973,7 +973,7 @@ void UPUMG_FriendDataFactory::UIX_OnCancelFriendRequest(int64_t PlayerId)
 
 void UPUMG_FriendDataFactory::UIX_OnAddFriend(class UPUMG_PlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnAddFriend"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnAddFriend");
 
 	struct
 	{
@@ -993,7 +993,7 @@ void UPUMG_FriendDataFactory::UIX_OnAddFriend(class UPUMG_PlayerInfo* playerinfo
 
 void UPUMG_FriendDataFactory::UIX_OnAcceptFriendRequest(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnAcceptFriendRequest"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.UIX_OnAcceptFriendRequest");
 
 	struct
 	{
@@ -1013,7 +1013,7 @@ void UPUMG_FriendDataFactory::UIX_OnAcceptFriendRequest(int64_t PlayerId)
 
 void UPUMG_FriendDataFactory::SetEnableFriendsListUpdatePolling(bool InBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.SetEnableFriendsListUpdatePolling"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.SetEnableFriendsListUpdatePolling");
 
 	struct
 	{
@@ -1031,7 +1031,7 @@ void UPUMG_FriendDataFactory::SetEnableFriendsListUpdatePolling(bool InBool)
 
 void UPUMG_FriendDataFactory::RequestUpdateFriendsList()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.RequestUpdateFriendsList"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.RequestUpdateFriendsList");
 
 	struct
 	{
@@ -1049,7 +1049,7 @@ void UPUMG_FriendDataFactory::RequestUpdateFriendsList()
 
 bool UPUMG_FriendDataFactory::IsCrossplaySocialEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.IsCrossplaySocialEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.IsCrossplaySocialEnabled");
 
 	struct
 	{
@@ -1068,7 +1068,7 @@ bool UPUMG_FriendDataFactory::IsCrossplaySocialEnabled()
 
 void UPUMG_FriendDataFactory::HandleFriendsListUpdatePolling()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.HandleFriendsListUpdatePolling"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.HandleFriendsListUpdatePolling");
 
 	struct
 	{
@@ -1084,7 +1084,7 @@ void UPUMG_FriendDataFactory::HandleFriendsListUpdatePolling()
 
 void UPUMG_FriendDataFactory::HandleCrossplaySettingChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.HandleCrossplaySettingChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.HandleCrossplaySettingChanged");
 
 	struct
 	{
@@ -1102,7 +1102,7 @@ void UPUMG_FriendDataFactory::HandleCrossplaySettingChanged()
 
 TArray<struct FPUMG_FriendData> UPUMG_FriendDataFactory::GetPendingFriends()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.GetPendingFriends"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.GetPendingFriends");
 
 	struct
 	{
@@ -1123,7 +1123,7 @@ TArray<struct FPUMG_FriendData> UPUMG_FriendDataFactory::GetPendingFriends()
 
 TArray<struct FPUMG_FriendData> UPUMG_FriendDataFactory::GetFriends()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.GetFriends"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.GetFriends");
 
 	struct
 	{
@@ -1144,7 +1144,7 @@ TArray<struct FPUMG_FriendData> UPUMG_FriendDataFactory::GetFriends()
 
 TArray<struct FPUMG_FriendData> UPUMG_FriendDataFactory::GetFriendRequests()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.GetFriendRequests"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.GetFriendRequests");
 
 	struct
 	{
@@ -1166,7 +1166,7 @@ TArray<struct FPUMG_FriendData> UPUMG_FriendDataFactory::GetFriendRequests()
 
 struct FText UPUMG_FriendDataFactory::GetFriendName(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.GetFriendName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.GetFriendName");
 
 	struct
 	{
@@ -1190,7 +1190,7 @@ struct FText UPUMG_FriendDataFactory::GetFriendName(int64_t PlayerId)
 
 TSoftObjectPtr<class UTexture2D> UPUMG_FriendDataFactory::GetFriendAvatarTexture(const struct FPUMG_FriendData& Friend)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.GetFriendAvatarTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.GetFriendAvatarTexture");
 
 	struct
 	{
@@ -1213,7 +1213,7 @@ TSoftObjectPtr<class UTexture2D> UPUMG_FriendDataFactory::GetFriendAvatarTexture
 
 bool UPUMG_FriendDataFactory::GetEnableFriendsListUpdatePolling()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.GetEnableFriendsListUpdatePolling"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.GetEnableFriendsListUpdatePolling");
 
 	struct
 	{
@@ -1232,7 +1232,7 @@ bool UPUMG_FriendDataFactory::GetEnableFriendsListUpdatePolling()
 
 void UPUMG_FriendDataFactory::FriendRemoveResponse()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.FriendRemoveResponse"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.FriendRemoveResponse");
 
 	struct
 	{
@@ -1251,7 +1251,7 @@ void UPUMG_FriendDataFactory::FriendRemoveResponse()
 
 bool UPUMG_FriendDataFactory::CheckAlreadyFriends(const struct FString& FriendName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_FriendDataFactory.CheckAlreadyFriends"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_FriendDataFactory.CheckAlreadyFriends");
 
 	struct
 	{
@@ -1274,7 +1274,7 @@ bool UPUMG_FriendDataFactory::CheckAlreadyFriends(const struct FString& FriendNa
 
 bool UGamepadPromptInterface::UnregisterOnClear()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.GamepadPromptInterface.UnregisterOnClear"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.GamepadPromptInterface.UnregisterOnClear");
 
 	struct
 	{
@@ -1295,7 +1295,7 @@ bool UGamepadPromptInterface::UnregisterOnClear()
 
 void UGamepadPromptInterface::SetPrompt(const struct FText& PromptText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.GamepadPromptInterface.SetPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.GamepadPromptInterface.SetPrompt");
 
 	struct
 	{
@@ -1313,7 +1313,7 @@ void UGamepadPromptInterface::SetPrompt(const struct FText& PromptText)
 
 void UGamepadPromptInterface::ClearPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.GamepadPromptInterface.ClearPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.GamepadPromptInterface.ClearPrompt");
 
 	struct
 	{
@@ -1332,7 +1332,7 @@ void UGamepadPromptInterface::ClearPrompt()
 
 bool UPUMG_GamepadDataFactory::UnregisterPromptForButton(const struct FKey& Button)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_GamepadDataFactory.UnregisterPromptForButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_GamepadDataFactory.UnregisterPromptForButton");
 
 	struct
 	{
@@ -1356,7 +1356,7 @@ bool UPUMG_GamepadDataFactory::UnregisterPromptForButton(const struct FKey& Butt
 
 void UPUMG_GamepadDataFactory::SetPromptForGamepadButton(const struct FKey& Button, const struct FText& PromptText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_GamepadDataFactory.SetPromptForGamepadButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_GamepadDataFactory.SetPromptForGamepadButton");
 
 	struct
 	{
@@ -1378,7 +1378,7 @@ void UPUMG_GamepadDataFactory::SetPromptForGamepadButton(const struct FKey& Butt
 
 void UPUMG_GamepadDataFactory::RemovePromptForGamepadButton(const struct FKey& Button)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_GamepadDataFactory.RemovePromptForGamepadButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_GamepadDataFactory.RemovePromptForGamepadButton");
 
 	struct
 	{
@@ -1400,7 +1400,7 @@ void UPUMG_GamepadDataFactory::RemovePromptForGamepadButton(const struct FKey& B
 
 bool UPUMG_GamepadDataFactory::RegisterPromptWidgetForButton(class UWidget* Widget, const struct FKey& Button)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_GamepadDataFactory.RegisterPromptWidgetForButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_GamepadDataFactory.RegisterPromptWidgetForButton");
 
 	struct
 	{
@@ -1423,7 +1423,7 @@ bool UPUMG_GamepadDataFactory::RegisterPromptWidgetForButton(class UWidget* Widg
 
 void UPUMG_GamepadDataFactory::ClearAllGamepadPrompts()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_GamepadDataFactory.ClearAllGamepadPrompts"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_GamepadDataFactory.ClearAllGamepadPrompts");
 
 	struct
 	{
@@ -1442,7 +1442,7 @@ void UPUMG_GamepadDataFactory::ClearAllGamepadPrompts()
 
 void APUMG_HUD::TestHirezLogin(const struct FString& User, const struct FString& password)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.TestHirezLogin"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.TestHirezLogin");
 
 	struct
 	{
@@ -1464,7 +1464,7 @@ void APUMG_HUD::TestHirezLogin(const struct FString& User, const struct FString&
 
 void APUMG_HUD::TestAutoLogin(int ControllerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.TestAutoLogin"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.TestAutoLogin");
 
 	struct
 	{
@@ -1484,7 +1484,7 @@ void APUMG_HUD::TestAutoLogin(int ControllerId)
 
 void APUMG_HUD::ShowSystemTrayNotification(const struct FString& popupType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.ShowSystemTrayNotification"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.ShowSystemTrayNotification");
 
 	struct
 	{
@@ -1504,7 +1504,7 @@ void APUMG_HUD::ShowSystemTrayNotification(const struct FString& popupType)
 
 void APUMG_HUD::SetUseNewUIFeatures(bool UseNewFeatures)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.SetUseNewUIFeatures"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.SetUseNewUIFeatures");
 
 	struct
 	{
@@ -1522,7 +1522,7 @@ void APUMG_HUD::SetUseNewUIFeatures(bool UseNewFeatures)
 
 void APUMG_HUD::SetUIFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.SetUIFocus"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.SetUIFocus");
 
 	struct
 	{
@@ -1540,7 +1540,7 @@ void APUMG_HUD::SetUIFocus()
 
 void APUMG_HUD::SetNavigationEnabled(bool Enabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.SetNavigationEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.SetNavigationEnabled");
 
 	struct
 	{
@@ -1558,7 +1558,7 @@ void APUMG_HUD::SetNavigationEnabled(bool Enabled)
 
 void APUMG_HUD::OnQuit()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.OnQuit"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.OnQuit");
 
 	struct
 	{
@@ -1576,7 +1576,7 @@ void APUMG_HUD::OnQuit()
 
 bool APUMG_HUD::OnNavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.OnNavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.OnNavigateBack");
 
 	struct
 	{
@@ -1595,7 +1595,7 @@ bool APUMG_HUD::OnNavigateBack()
 
 void APUMG_HUD::OnConfirmQuit()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.OnConfirmQuit"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.OnConfirmQuit");
 
 	struct
 	{
@@ -1613,7 +1613,7 @@ void APUMG_HUD::OnConfirmQuit()
 
 class UPUMG_PlayerInfo* APUMG_HUD::NewPlayerInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.NewPlayerInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.NewPlayerInfo");
 
 	struct
 	{
@@ -1634,7 +1634,7 @@ class UPUMG_PlayerInfo* APUMG_HUD::NewPlayerInfo()
 
 bool APUMG_HUD::IsLobbyHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.IsLobbyHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.IsLobbyHUD");
 
 	struct
 	{
@@ -1655,7 +1655,7 @@ bool APUMG_HUD::IsLobbyHUD()
 
 bool APUMG_HUD::IsCrossplayEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.IsCrossplayEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.IsCrossplayEnabled");
 
 	struct
 	{
@@ -1676,7 +1676,7 @@ bool APUMG_HUD::IsCrossplayEnabled()
 
 void APUMG_HUD::InputStateChangePassthrough(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.InputStateChangePassthrough"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.InputStateChangePassthrough");
 
 	struct
 	{
@@ -1696,7 +1696,7 @@ void APUMG_HUD::InputStateChangePassthrough(TEnumAsByte<EPGAME_INPUT_STATE> Inpu
 
 class UPUMG_ViewManager* APUMG_HUD::GetViewManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.GetViewManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.GetViewManager");
 
 	struct
 	{
@@ -1717,7 +1717,7 @@ class UPUMG_ViewManager* APUMG_HUD::GetViewManager()
 
 class UPUMG_PopupManager* APUMG_HUD::GetPopupManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.GetPopupManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.GetPopupManager");
 
 	struct
 	{
@@ -1738,7 +1738,7 @@ class UPUMG_PopupManager* APUMG_HUD::GetPopupManager()
 
 class APlayerController* APUMG_HUD::GetPlayerControllerOwner()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.GetPlayerControllerOwner"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.GetPlayerControllerOwner");
 
 	struct
 	{
@@ -1760,7 +1760,7 @@ class APlayerController* APUMG_HUD::GetPlayerControllerOwner()
 
 class UPUMG_PlayerInfo* APUMG_HUD::GetOrCreatePlayerInfo(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.GetOrCreatePlayerInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.GetOrCreatePlayerInfo");
 
 	struct
 	{
@@ -1783,7 +1783,7 @@ class UPUMG_PlayerInfo* APUMG_HUD::GetOrCreatePlayerInfo(int64_t PlayerId)
 
 class UPUMG_InputManager* APUMG_HUD::GetInputManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.GetInputManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.GetInputManager");
 
 	struct
 	{
@@ -1804,7 +1804,7 @@ class UPUMG_InputManager* APUMG_HUD::GetInputManager()
 
 TEnumAsByte<EPGAME_INPUT_STATE> APUMG_HUD::GetCurrentInputState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.GetCurrentInputState"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.GetCurrentInputState");
 
 	struct
 	{
@@ -1826,7 +1826,7 @@ TEnumAsByte<EPGAME_INPUT_STATE> APUMG_HUD::GetCurrentInputState()
 
 void APUMG_HUD::DisplayGenericPopup(const struct FString& sTitle, const struct FString& sDesc)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.DisplayGenericPopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.DisplayGenericPopup");
 
 	struct
 	{
@@ -1848,7 +1848,7 @@ void APUMG_HUD::DisplayGenericPopup(const struct FString& sTitle, const struct F
 
 void APUMG_HUD::DisplayGenericError(const struct FString& sDesc)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_HUD.DisplayGenericError"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.DisplayGenericError");
 
 	struct
 	{
@@ -1868,7 +1868,7 @@ void APUMG_HUD::DisplayGenericError(const struct FString& sDesc)
 
 void UPUMG_InputManager::HandleModeChange(TEnumAsByte<EPGAME_INPUT_STATE> Mode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_InputManager.HandleModeChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_InputManager.HandleModeChange");
 
 	struct
 	{
@@ -1890,7 +1890,7 @@ void UPUMG_InputManager::HandleModeChange(TEnumAsByte<EPGAME_INPUT_STATE> Mode)
 
 bool UPUMG_InputManager::GetFocusedWidget(class UPUMG_Widget* ParentWidget, class UWidget** FocusWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_InputManager.GetFocusedWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_InputManager.GetFocusedWidget");
 
 	struct
 	{
@@ -1915,7 +1915,7 @@ bool UPUMG_InputManager::GetFocusedWidget(class UPUMG_Widget* ParentWidget, clas
 
 void UPUMG_InputManager::ClearNavInputThrottled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_InputManager.ClearNavInputThrottled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_InputManager.ClearNavInputThrottled");
 
 	struct
 	{
@@ -1931,7 +1931,7 @@ void UPUMG_InputManager::ClearNavInputThrottled()
 
 void UPUMG_InputManager::ClearNavInputDebouncedThrottled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_InputManager.ClearNavInputDebouncedThrottled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_InputManager.ClearNavInputDebouncedThrottled");
 
 	struct
 	{
@@ -1949,7 +1949,7 @@ void UPUMG_InputManager::ClearNavInputDebouncedThrottled()
 
 void UPUMG_JsonDataFactory::HandleJsonReady(class UPGame_LandingPanelJSONHandler* pHandler)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_JsonDataFactory.HandleJsonReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_JsonDataFactory.HandleJsonReady");
 
 	struct
 	{
@@ -1969,7 +1969,7 @@ void UPUMG_JsonDataFactory::HandleJsonReady(class UPGame_LandingPanelJSONHandler
 
 void UPUMG_JsonDataFactory::HandleImagesReady(class UPGame_LandingPanelJSONHandler* pHandler)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_JsonDataFactory.HandleImagesReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_JsonDataFactory.HandleImagesReady");
 
 	struct
 	{
@@ -1989,7 +1989,7 @@ void UPUMG_JsonDataFactory::HandleImagesReady(class UPGame_LandingPanelJSONHandl
 
 bool UPUMG_LoginDataFactory::UpdateControllers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UpdateControllers"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UpdateControllers");
 
 	struct
 	{
@@ -2008,7 +2008,7 @@ bool UPUMG_LoginDataFactory::UpdateControllers()
 
 void UPUMG_LoginDataFactory::UIX_TriggerAutoLogin()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_TriggerAutoLogin"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_TriggerAutoLogin");
 
 	struct
 	{
@@ -2026,7 +2026,7 @@ void UPUMG_LoginDataFactory::UIX_TriggerAutoLogin()
 
 void UPUMG_LoginDataFactory::UIX_OnTwoFactorSubmit(const struct FString& AuthCode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnTwoFactorSubmit"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnTwoFactorSubmit");
 
 	struct
 	{
@@ -2044,7 +2044,7 @@ void UPUMG_LoginDataFactory::UIX_OnTwoFactorSubmit(const struct FString& AuthCod
 
 void UPUMG_LoginDataFactory::UIX_OnTwoFactorDecline()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnTwoFactorDecline"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnTwoFactorDecline");
 
 	struct
 	{
@@ -2063,7 +2063,7 @@ void UPUMG_LoginDataFactory::UIX_OnTwoFactorDecline()
 
 void UPUMG_LoginDataFactory::UIX_OnSubmitLogin(const struct FString& UserName, const struct FString& password)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnSubmitLogin"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnSubmitLogin");
 
 	struct
 	{
@@ -2085,7 +2085,7 @@ void UPUMG_LoginDataFactory::UIX_OnSubmitLogin(const struct FString& UserName, c
 
 void UPUMG_LoginDataFactory::UIX_OnSubmitConsoleLogin(int ControllerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnSubmitConsoleLogin"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnSubmitConsoleLogin");
 
 	struct
 	{
@@ -2105,7 +2105,7 @@ void UPUMG_LoginDataFactory::UIX_OnSubmitConsoleLogin(int ControllerId)
 
 void UPUMG_LoginDataFactory::UIX_OnSubmitAutoLogin(int ControllerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnSubmitAutoLogin"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnSubmitAutoLogin");
 
 	struct
 	{
@@ -2125,7 +2125,7 @@ void UPUMG_LoginDataFactory::UIX_OnSubmitAutoLogin(int ControllerId)
 
 void UPUMG_LoginDataFactory::UIX_OnPlayerCreate(const struct FString& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnPlayerCreate"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnPlayerCreate");
 
 	struct
 	{
@@ -2146,7 +2146,7 @@ void UPUMG_LoginDataFactory::UIX_OnPlayerCreate(const struct FString& PlayerName
 
 void UPUMG_LoginDataFactory::UIX_OnLinkExistingAccount(const struct FString& UserName, const struct FString& password)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnLinkExistingAccount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnLinkExistingAccount");
 
 	struct
 	{
@@ -2166,7 +2166,7 @@ void UPUMG_LoginDataFactory::UIX_OnLinkExistingAccount(const struct FString& Use
 
 void UPUMG_LoginDataFactory::UIX_OnLinkDecline()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnLinkDecline"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnLinkDecline");
 
 	struct
 	{
@@ -2187,7 +2187,7 @@ void UPUMG_LoginDataFactory::UIX_OnLinkDecline()
 
 void UPUMG_LoginDataFactory::UIX_OnLinkCreateAccount(const struct FString& UserName, const struct FString& password, const struct FString& Email, bool bAcceptAgeReqs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnLinkCreateAccount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnLinkCreateAccount");
 
 	struct
 	{
@@ -2211,7 +2211,7 @@ void UPUMG_LoginDataFactory::UIX_OnLinkCreateAccount(const struct FString& UserN
 
 void UPUMG_LoginDataFactory::UIX_OnEulaDecline()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnEulaDecline"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnEulaDecline");
 
 	struct
 	{
@@ -2227,7 +2227,7 @@ void UPUMG_LoginDataFactory::UIX_OnEulaDecline()
 
 void UPUMG_LoginDataFactory::UIX_OnEulaAccept()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnEulaAccept"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnEulaAccept");
 
 	struct
 	{
@@ -2243,7 +2243,7 @@ void UPUMG_LoginDataFactory::UIX_OnEulaAccept()
 
 void UPUMG_LoginDataFactory::UIX_OnChangeUserAccount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnChangeUserAccount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnChangeUserAccount");
 
 	struct
 	{
@@ -2259,7 +2259,7 @@ void UPUMG_LoginDataFactory::UIX_OnChangeUserAccount()
 
 void UPUMG_LoginDataFactory::UIX_OnCancelLogin()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnCancelLogin"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnCancelLogin");
 
 	struct
 	{
@@ -2280,7 +2280,7 @@ void UPUMG_LoginDataFactory::UIX_OnCancelLogin()
 
 void UPUMG_LoginDataFactory::UIX_OnAccountCreate(const struct FString& UserName, const struct FString& password, const struct FString& Email, bool bAcceptAgeReqs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnAccountCreate"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.UIX_OnAccountCreate");
 
 	struct
 	{
@@ -2304,7 +2304,7 @@ void UPUMG_LoginDataFactory::UIX_OnAccountCreate(const struct FString& UserName,
 
 void UPUMG_LoginDataFactory::TriggerAutoLogin()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.TriggerAutoLogin"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.TriggerAutoLogin");
 
 	struct
 	{
@@ -2322,7 +2322,7 @@ void UPUMG_LoginDataFactory::TriggerAutoLogin()
 
 bool UPUMG_LoginDataFactory::ShouldDisplayUsername()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.ShouldDisplayUsername"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.ShouldDisplayUsername");
 
 	struct
 	{
@@ -2343,7 +2343,7 @@ bool UPUMG_LoginDataFactory::ShouldDisplayUsername()
 
 bool UPUMG_LoginDataFactory::ShouldDisplayDisconnectError()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.ShouldDisplayDisconnectError"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.ShouldDisplayDisconnectError");
 
 	struct
 	{
@@ -2364,7 +2364,7 @@ bool UPUMG_LoginDataFactory::ShouldDisplayDisconnectError()
 
 void UPUMG_LoginDataFactory::SetUserErrorDataTable(class UDataTable* ErrorMsgTable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.SetUserErrorDataTable"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.SetUserErrorDataTable");
 
 	struct
 	{
@@ -2384,7 +2384,7 @@ void UPUMG_LoginDataFactory::SetUserErrorDataTable(class UDataTable* ErrorMsgTab
 
 void UPUMG_LoginDataFactory::RecordLoginState(EPUMG_LoginState NewState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.RecordLoginState"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.RecordLoginState");
 
 	struct
 	{
@@ -2406,7 +2406,7 @@ void UPUMG_LoginDataFactory::RecordLoginState(EPUMG_LoginState NewState)
 
 void UPUMG_LoginDataFactory::LoginEvent_ShowAgreements(bool bNeedsEULA, bool bNeedsTOS, bool bNeedsPP)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_ShowAgreements"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_ShowAgreements");
 
 	struct
 	{
@@ -2432,7 +2432,7 @@ void UPUMG_LoginDataFactory::LoginEvent_ShowAgreements(bool bNeedsEULA, bool bNe
 
 void UPUMG_LoginDataFactory::LoginEvent_Queued(uint32_t QueuePosition, uint32_t QueueSize, uint32_t queueEstimatedWait)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_Queued"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_Queued");
 
 	struct
 	{
@@ -2454,7 +2454,7 @@ void UPUMG_LoginDataFactory::LoginEvent_Queued(uint32_t QueuePosition, uint32_t 
 
 void UPUMG_LoginDataFactory::LoginEvent_LoginRequested()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_LoginRequested"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_LoginRequested");
 
 	struct
 	{
@@ -2470,7 +2470,7 @@ void UPUMG_LoginDataFactory::LoginEvent_LoginRequested()
 
 void UPUMG_LoginDataFactory::LoginEvent_LoggedIn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_LoggedIn"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_LoggedIn");
 
 	struct
 	{
@@ -2488,7 +2488,7 @@ void UPUMG_LoginDataFactory::LoginEvent_LoggedIn()
 
 void UPUMG_LoginDataFactory::LoginEvent_FailedClient(const struct FText& ErrorMsg)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_FailedClient"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_FailedClient");
 
 	struct
 	{
@@ -2508,7 +2508,7 @@ void UPUMG_LoginDataFactory::LoginEvent_FailedClient(const struct FText& ErrorMs
 
 void UPUMG_LoginDataFactory::LoginEvent_Failed(uint32_t ErrorMsgId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_Failed"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.LoginEvent_Failed");
 
 	struct
 	{
@@ -2529,7 +2529,7 @@ void UPUMG_LoginDataFactory::LoginEvent_Failed(uint32_t ErrorMsgId)
 
 bool UPUMG_LoginDataFactory::LoadEULAFile(struct FString* SaveText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.LoadEULAFile"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.LoadEULAFile");
 
 	struct
 	{
@@ -2557,7 +2557,7 @@ bool UPUMG_LoginDataFactory::LoadEULAFile(struct FString* SaveText)
 
 void UPUMG_LoginDataFactory::HandleControllerPairingChange(int ControllerIndex, int NewUserId, int OldUserId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.HandleControllerPairingChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.HandleControllerPairingChange");
 
 	struct
 	{
@@ -2583,7 +2583,7 @@ void UPUMG_LoginDataFactory::HandleControllerPairingChange(int ControllerIndex, 
 
 void UPUMG_LoginDataFactory::HandleControllerConnectionChange(bool IsConnection, int UserId, int ControllerIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.HandleControllerConnectionChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.HandleControllerConnectionChange");
 
 	struct
 	{
@@ -2607,7 +2607,7 @@ void UPUMG_LoginDataFactory::HandleControllerConnectionChange(bool IsConnection,
 
 struct FString UPUMG_LoginDataFactory::GetVersion()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.GetVersion"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.GetVersion");
 
 	struct
 	{
@@ -2630,7 +2630,7 @@ struct FString UPUMG_LoginDataFactory::GetVersion()
 
 bool UPUMG_LoginDataFactory::GetLastDisconnectReason(struct FText* ErrorMsg)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.GetLastDisconnectReason"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.GetLastDisconnectReason");
 
 	struct
 	{
@@ -2656,7 +2656,7 @@ bool UPUMG_LoginDataFactory::GetLastDisconnectReason(struct FText* ErrorMsg)
 
 bool UPUMG_LoginDataFactory::GetCurrentPlayerName(struct FText* NameText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.GetCurrentPlayerName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.GetCurrentPlayerName");
 
 	struct
 	{
@@ -2681,7 +2681,7 @@ bool UPUMG_LoginDataFactory::GetCurrentPlayerName(struct FText* NameText)
 
 EPUMG_LoginState UPUMG_LoginDataFactory::GetCurrentLoginState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_LoginDataFactory.GetCurrentLoginState"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_LoginDataFactory.GetCurrentLoginState");
 
 	struct
 	{
@@ -2702,7 +2702,7 @@ EPUMG_LoginState UPUMG_LoginDataFactory::GetCurrentLoginState()
 
 void UPUMG_PartyDataFactory::UIX_PromoteMemberToLeader(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.UIX_PromoteMemberToLeader"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.UIX_PromoteMemberToLeader");
 
 	struct
 	{
@@ -2720,7 +2720,7 @@ void UPUMG_PartyDataFactory::UIX_PromoteMemberToLeader(int64_t PlayerId)
 
 void UPUMG_PartyDataFactory::UIX_LeaveParty()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.UIX_LeaveParty"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.UIX_LeaveParty");
 
 	struct
 	{
@@ -2738,7 +2738,7 @@ void UPUMG_PartyDataFactory::UIX_LeaveParty()
 
 void UPUMG_PartyDataFactory::UIX_KickMemberFromParty(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.UIX_KickMemberFromParty"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.UIX_KickMemberFromParty");
 
 	struct
 	{
@@ -2759,7 +2759,7 @@ void UPUMG_PartyDataFactory::UIX_KickMemberFromParty(int64_t PlayerId)
 
 bool UPUMG_PartyDataFactory::UIX_InviteMemberToParty(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.UIX_InviteMemberToParty"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.UIX_InviteMemberToParty");
 
 	struct
 	{
@@ -2782,7 +2782,7 @@ bool UPUMG_PartyDataFactory::UIX_InviteMemberToParty(int64_t PlayerId)
 
 void UPUMG_PartyDataFactory::UIX_GiveInvitePermission(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.UIX_GiveInvitePermission"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.UIX_GiveInvitePermission");
 
 	struct
 	{
@@ -2800,7 +2800,7 @@ void UPUMG_PartyDataFactory::UIX_GiveInvitePermission(int64_t PlayerId)
 
 void UPUMG_PartyDataFactory::UIX_DisbandParty()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.UIX_DisbandParty"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.UIX_DisbandParty");
 
 	struct
 	{
@@ -2816,7 +2816,7 @@ void UPUMG_PartyDataFactory::UIX_DisbandParty()
 
 void UPUMG_PartyDataFactory::UIX_DenyPartyInvitation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.UIX_DenyPartyInvitation"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.UIX_DenyPartyInvitation");
 
 	struct
 	{
@@ -2832,7 +2832,7 @@ void UPUMG_PartyDataFactory::UIX_DenyPartyInvitation()
 
 void UPUMG_PartyDataFactory::UIX_AcceptPartyInvitation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.UIX_AcceptPartyInvitation"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.UIX_AcceptPartyInvitation");
 
 	struct
 	{
@@ -2851,7 +2851,7 @@ void UPUMG_PartyDataFactory::UIX_AcceptPartyInvitation()
 
 void UPUMG_PartyDataFactory::SetPartyInfo(const struct FString& Key, const struct FString& Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.SetPartyInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.SetPartyInfo");
 
 	struct
 	{
@@ -2873,7 +2873,7 @@ void UPUMG_PartyDataFactory::SetPartyInfo(const struct FString& Key, const struc
 
 void UPUMG_PartyDataFactory::SendPartyMessage(const struct FString& Data)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.SendPartyMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.SendPartyMessage");
 
 	struct
 	{
@@ -2891,7 +2891,7 @@ void UPUMG_PartyDataFactory::SendPartyMessage(const struct FString& Data)
 
 void UPUMG_PartyDataFactory::PartyPromoteResponse()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.PartyPromoteResponse"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.PartyPromoteResponse");
 
 	struct
 	{
@@ -2907,7 +2907,7 @@ void UPUMG_PartyDataFactory::PartyPromoteResponse()
 
 void UPUMG_PartyDataFactory::PartyLeaveResponse()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.PartyLeaveResponse"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.PartyLeaveResponse");
 
 	struct
 	{
@@ -2923,7 +2923,7 @@ void UPUMG_PartyDataFactory::PartyLeaveResponse()
 
 void UPUMG_PartyDataFactory::PartyKickResponse()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.PartyKickResponse"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.PartyKickResponse");
 
 	struct
 	{
@@ -2942,7 +2942,7 @@ void UPUMG_PartyDataFactory::PartyKickResponse()
 
 bool UPUMG_PartyDataFactory::IsPlayerInParty(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.IsPlayerInParty"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.IsPlayerInParty");
 
 	struct
 	{
@@ -2965,7 +2965,7 @@ bool UPUMG_PartyDataFactory::IsPlayerInParty(int64_t PlayerId)
 
 bool UPUMG_PartyDataFactory::IsPending()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.IsPending"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.IsPending");
 
 	struct
 	{
@@ -2986,7 +2986,7 @@ bool UPUMG_PartyDataFactory::IsPending()
 
 bool UPUMG_PartyDataFactory::IsPartyMaxed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.IsPartyMaxed"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.IsPartyMaxed");
 
 	struct
 	{
@@ -3007,7 +3007,7 @@ bool UPUMG_PartyDataFactory::IsPartyMaxed()
 
 bool UPUMG_PartyDataFactory::IsLeader()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.IsLeader"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.IsLeader");
 
 	struct
 	{
@@ -3028,7 +3028,7 @@ bool UPUMG_PartyDataFactory::IsLeader()
 
 bool UPUMG_PartyDataFactory::IsInParty()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.IsInParty"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.IsInParty");
 
 	struct
 	{
@@ -3050,7 +3050,7 @@ bool UPUMG_PartyDataFactory::IsInParty()
 
 bool UPUMG_PartyDataFactory::HasInvitePrivileges(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.HasInvitePrivileges"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.HasInvitePrivileges");
 
 	struct
 	{
@@ -3073,7 +3073,7 @@ bool UPUMG_PartyDataFactory::HasInvitePrivileges(int64_t PlayerId)
 
 int UPUMG_PartyDataFactory::GetQueueId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.GetQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.GetQueueId");
 
 	struct
 	{
@@ -3095,7 +3095,7 @@ int UPUMG_PartyDataFactory::GetQueueId()
 
 struct FText UPUMG_PartyDataFactory::GetPartyMemeberName(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyMemeberName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyMemeberName");
 
 	struct
 	{
@@ -3118,7 +3118,7 @@ struct FText UPUMG_PartyDataFactory::GetPartyMemeberName(int64_t PlayerId)
 
 TArray<struct FPUMG_PartyMemberData> UPUMG_PartyDataFactory::GetPartyMembers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyMembers"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyMembers");
 
 	struct
 	{
@@ -3139,7 +3139,7 @@ TArray<struct FPUMG_PartyMemberData> UPUMG_PartyDataFactory::GetPartyMembers()
 
 int UPUMG_PartyDataFactory::GetPartyMemberCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyMemberCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyMemberCount");
 
 	struct
 	{
@@ -3161,7 +3161,7 @@ int UPUMG_PartyDataFactory::GetPartyMemberCount()
 
 struct FPUMG_PartyMemberData UPUMG_PartyDataFactory::GetPartyMemberByID(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyMemberByID"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyMemberByID");
 
 	struct
 	{
@@ -3184,7 +3184,7 @@ struct FPUMG_PartyMemberData UPUMG_PartyDataFactory::GetPartyMemberByID(int64_t 
 
 class UPUMG_PlayerInfo* UPUMG_PartyDataFactory::GetPartyInviter()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyInviter"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyInviter");
 
 	struct
 	{
@@ -3205,7 +3205,7 @@ class UPUMG_PlayerInfo* UPUMG_PartyDataFactory::GetPartyInviter()
 
 EPUMG_PartyInviteRightsMode UPUMG_PartyDataFactory::GetPartyInviteMode()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyInviteMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyInviteMode");
 
 	struct
 	{
@@ -3227,7 +3227,7 @@ EPUMG_PartyInviteRightsMode UPUMG_PartyDataFactory::GetPartyInviteMode()
 
 struct FString UPUMG_PartyDataFactory::GetPartyInfo(const struct FString& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.GetPartyInfo");
 
 	struct
 	{
@@ -3250,7 +3250,7 @@ struct FString UPUMG_PartyDataFactory::GetPartyInfo(const struct FString& Key)
 
 int UPUMG_PartyDataFactory::GetMaxPartyMembers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.GetMaxPartyMembers"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.GetMaxPartyMembers");
 
 	struct
 	{
@@ -3272,7 +3272,7 @@ int UPUMG_PartyDataFactory::GetMaxPartyMembers()
 
 bool UPUMG_PartyDataFactory::CheckPartyMemberIsLeader(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PartyDataFactory.CheckPartyMemberIsLeader"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PartyDataFactory.CheckPartyMemberIsLeader");
 
 	struct
 	{
@@ -3295,7 +3295,7 @@ bool UPUMG_PartyDataFactory::CheckPartyMemberIsLeader(int64_t PlayerId)
 
 void UPUMG_PlayerDataFactory::OnSelectAvatar(int ItemId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerDataFactory.OnSelectAvatar"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerDataFactory.OnSelectAvatar");
 
 	struct
 	{
@@ -3315,7 +3315,7 @@ void UPUMG_PlayerDataFactory::OnSelectAvatar(int ItemId)
 
 TSoftObjectPtr<class UTexture2D> UPUMG_PlayerDataFactory::GetAvatarIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerDataFactory.GetAvatarIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerDataFactory.GetAvatarIcon");
 
 	struct
 	{
@@ -3336,7 +3336,7 @@ TSoftObjectPtr<class UTexture2D> UPUMG_PlayerDataFactory::GetAvatarIcon()
 
 void UPUMG_PlayerInfo::SetIgnored(bool Ignored)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerInfo.SetIgnored"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerInfo.SetIgnored");
 
 	struct
 	{
@@ -3356,7 +3356,7 @@ void UPUMG_PlayerInfo::SetIgnored(bool Ignored)
 
 bool UPUMG_PlayerInfo::IsIgnored()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerInfo.IsIgnored"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerInfo.IsIgnored");
 
 	struct
 	{
@@ -3377,7 +3377,7 @@ bool UPUMG_PlayerInfo::IsIgnored()
 
 int64_t UPUMG_PlayerInfo::GetPlayerId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerInfo.GetPlayerId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerInfo.GetPlayerId");
 
 	struct
 	{
@@ -3398,7 +3398,7 @@ int64_t UPUMG_PlayerInfo::GetPlayerId()
 
 struct FText UPUMG_PlayerInfo::GetName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerInfo.GetName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerInfo.GetName");
 
 	struct
 	{
@@ -3419,7 +3419,7 @@ struct FText UPUMG_PlayerInfo::GetName()
 
 struct FString UPUMG_PlayerInfo::GetMctsName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerInfo.GetMctsName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerInfo.GetMctsName");
 
 	struct
 	{
@@ -3440,7 +3440,7 @@ struct FString UPUMG_PlayerInfo::GetMctsName()
 
 int UPUMG_PlayerInfo::GetAvatarItemId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerInfo.GetAvatarItemId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerInfo.GetAvatarItemId");
 
 	struct
 	{
@@ -3462,7 +3462,7 @@ int UPUMG_PlayerInfo::GetAvatarItemId()
 
 void UPUMG_PlayerWhoDataFactory::UIX_SearchByNameForPlayer(const struct FString& PlayerName, bool bIncludeOfflinePlayers)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerWhoDataFactory.UIX_SearchByNameForPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerWhoDataFactory.UIX_SearchByNameForPlayer");
 
 	struct
 	{
@@ -3484,7 +3484,7 @@ void UPUMG_PlayerWhoDataFactory::UIX_SearchByNameForPlayer(const struct FString&
 
 TArray<class UPUMG_PlayerInfo*> UPUMG_PlayerWhoDataFactory::GetSearchByNameResults()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PlayerWhoDataFactory.GetSearchByNameResults"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PlayerWhoDataFactory.GetSearchByNameResults");
 
 	struct
 	{
@@ -3510,7 +3510,7 @@ TArray<class UPUMG_PlayerInfo*> UPUMG_PlayerWhoDataFactory::GetSearchByNameResul
 
 void UPUMG_Widget::UpdateRegistrationToInputManager(class UWidget* Widget, int FocusGroup, class UWidget* Up, class UWidget* Down, class UWidget* Left, class UWidget* Right)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.UpdateRegistrationToInputManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.UpdateRegistrationToInputManager");
 
 	struct
 	{
@@ -3540,7 +3540,7 @@ void UPUMG_Widget::UpdateRegistrationToInputManager(class UWidget* Widget, int F
 
 void UPUMG_Widget::UnregisterWidgetFromInputManager(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.UnregisterWidgetFromInputManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.UnregisterWidgetFromInputManager");
 
 	struct
 	{
@@ -3560,7 +3560,7 @@ void UPUMG_Widget::UnregisterWidgetFromInputManager(class UWidget* Widget)
 
 void UPUMG_Widget::UnregisterFocusGroup(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.UnregisterFocusGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.UnregisterFocusGroup");
 
 	struct
 	{
@@ -3578,7 +3578,7 @@ void UPUMG_Widget::UnregisterFocusGroup(int FocusGroup)
 
 void UPUMG_Widget::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.UninitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.UninitializeWidget");
 
 	struct
 	{
@@ -3599,7 +3599,7 @@ void UPUMG_Widget::UninitializeWidget()
 
 bool UPUMG_Widget::SwapViewRoute(const struct FName& RouteName, const struct FName& SwapTargetRoute, bool ForceTransition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.SwapViewRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.SwapViewRoute");
 
 	struct
 	{
@@ -3627,7 +3627,7 @@ bool UPUMG_Widget::SwapViewRoute(const struct FName& RouteName, const struct FNa
 
 void UPUMG_Widget::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.StartShowSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.StartShowSequence");
 
 	struct
 	{
@@ -3650,7 +3650,7 @@ void UPUMG_Widget::StartShowSequence(const struct FName& FromRoute, const struct
 
 void UPUMG_Widget::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.StartHideSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.StartHideSequence");
 
 	struct
 	{
@@ -3670,7 +3670,7 @@ void UPUMG_Widget::StartHideSequence(const struct FName& FromRoute, const struct
 
 void UPUMG_Widget::ShowWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.ShowWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.ShowWidget");
 
 	struct
 	{
@@ -3689,7 +3689,7 @@ void UPUMG_Widget::ShowWidget()
 
 void UPUMG_Widget::SetPendingRouteData(const struct FName& RouteName, class UObject* Data)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.SetPendingRouteData"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.SetPendingRouteData");
 
 	struct
 	{
@@ -3712,7 +3712,7 @@ void UPUMG_Widget::SetPendingRouteData(const struct FName& RouteName, class UObj
 
 void UPUMG_Widget::SetFocusToWidgetOfGroup(int FocusGroup, class UPUMG_Widget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.SetFocusToWidgetOfGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.SetFocusToWidgetOfGroup");
 
 	struct
 	{
@@ -3734,7 +3734,7 @@ void UPUMG_Widget::SetFocusToWidgetOfGroup(int FocusGroup, class UPUMG_Widget* W
 
 class UWidget* UPUMG_Widget::SetFocusToThis()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.SetFocusToThis"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.SetFocusToThis");
 
 	struct
 	{
@@ -3756,7 +3756,7 @@ class UWidget* UPUMG_Widget::SetFocusToThis()
 
 void UPUMG_Widget::SetFocusToGroup(int FocusGroup, bool KeepLastFocus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.SetFocusToGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.SetFocusToGroup");
 
 	struct
 	{
@@ -3779,7 +3779,7 @@ void UPUMG_Widget::SetFocusToGroup(int FocusGroup, bool KeepLastFocus)
 
 void UPUMG_Widget::SetDefaultFocusForGroup(class UWidget* Widget, int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.SetDefaultFocusForGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.SetDefaultFocusForGroup");
 
 	struct
 	{
@@ -3803,7 +3803,7 @@ void UPUMG_Widget::SetDefaultFocusForGroup(class UWidget* Widget, int FocusGroup
 
 bool UPUMG_Widget::RemoveViewRoute(const struct FName& RouteName, bool ForceTransition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.RemoveViewRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.RemoveViewRoute");
 
 	struct
 	{
@@ -3829,7 +3829,7 @@ bool UPUMG_Widget::RemoveViewRoute(const struct FName& RouteName, bool ForceTran
 
 bool UPUMG_Widget::RemoveTopViewRoute(bool ForceTransition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.RemoveTopViewRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.RemoveTopViewRoute");
 
 	struct
 	{
@@ -3857,7 +3857,7 @@ bool UPUMG_Widget::RemoveTopViewRoute(bool ForceTransition)
 
 void UPUMG_Widget::RegisterWidgetToInputManager(class UWidget* Widget, int FocusGroup, class UWidget* Up, class UWidget* Down, class UWidget* Left, class UWidget* Right)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.RegisterWidgetToInputManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.RegisterWidgetToInputManager");
 
 	struct
 	{
@@ -3885,7 +3885,7 @@ void UPUMG_Widget::RegisterWidgetToInputManager(class UWidget* Widget, int Focus
 
 void UPUMG_Widget::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.OnShown");
 
 	struct
 	{
@@ -3901,7 +3901,7 @@ void UPUMG_Widget::OnShown()
 
 void UPUMG_Widget::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.OnHide");
 
 	struct
 	{
@@ -3917,7 +3917,7 @@ void UPUMG_Widget::OnHide()
 
 void UPUMG_Widget::OnGamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.OnGamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.OnGamepadUnhover");
 
 	struct
 	{
@@ -3933,7 +3933,7 @@ void UPUMG_Widget::OnGamepadUnhover()
 
 void UPUMG_Widget::OnGamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.OnGamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.OnGamepadHover");
 
 	struct
 	{
@@ -3949,7 +3949,7 @@ void UPUMG_Widget::OnGamepadHover()
 
 void UPUMG_Widget::NavigateUpFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateUpFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateUpFailure");
 
 	struct
 	{
@@ -3965,7 +3965,7 @@ void UPUMG_Widget::NavigateUpFailure()
 
 void UPUMG_Widget::NavigateRightFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateRightFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateRightFailure");
 
 	struct
 	{
@@ -3981,7 +3981,7 @@ void UPUMG_Widget::NavigateRightFailure()
 
 void UPUMG_Widget::NavigateLeftFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateLeftFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateLeftFailure");
 
 	struct
 	{
@@ -3997,7 +3997,7 @@ void UPUMG_Widget::NavigateLeftFailure()
 
 void UPUMG_Widget::NavigateDownFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateDownFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateDownFailure");
 
 	struct
 	{
@@ -4015,7 +4015,7 @@ void UPUMG_Widget::NavigateDownFailure()
 
 bool UPUMG_Widget::NavigateConfirmPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateConfirmPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateConfirmPressed");
 
 	struct
 	{
@@ -4034,7 +4034,7 @@ bool UPUMG_Widget::NavigateConfirmPressed()
 
 void UPUMG_Widget::NavigateConfirmCancelled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateConfirmCancelled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateConfirmCancelled");
 
 	struct
 	{
@@ -4052,7 +4052,7 @@ void UPUMG_Widget::NavigateConfirmCancelled()
 
 bool UPUMG_Widget::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateConfirm");
 
 	struct
 	{
@@ -4073,7 +4073,7 @@ bool UPUMG_Widget::NavigateConfirm()
 
 bool UPUMG_Widget::NavigateBackPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateBackPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateBackPressed");
 
 	struct
 	{
@@ -4092,7 +4092,7 @@ bool UPUMG_Widget::NavigateBackPressed()
 
 void UPUMG_Widget::NavigateBackCancelled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateBackCancelled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateBackCancelled");
 
 	struct
 	{
@@ -4110,7 +4110,7 @@ void UPUMG_Widget::NavigateBackCancelled()
 
 bool UPUMG_Widget::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.NavigateBack");
 
 	struct
 	{
@@ -4131,7 +4131,7 @@ bool UPUMG_Widget::NavigateBack()
 
 bool UPUMG_Widget::IsFocusEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.IsFocusEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.IsFocusEnabled");
 
 	struct
 	{
@@ -4150,7 +4150,7 @@ bool UPUMG_Widget::IsFocusEnabled()
 
 void UPUMG_Widget::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -4166,7 +4166,7 @@ void UPUMG_Widget::InitializeWidgetNavigation()
 
 void UPUMG_Widget::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.InitializeWidgetButtonListeners"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.InitializeWidgetButtonListeners");
 
 	struct
 	{
@@ -4184,7 +4184,7 @@ void UPUMG_Widget::InitializeWidgetButtonListeners()
 
 void UPUMG_Widget::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.InitializeWidget");
 
 	struct
 	{
@@ -4206,7 +4206,7 @@ void UPUMG_Widget::InitializeWidget(class APUMG_HUD* HUD)
 
 void UPUMG_Widget::InheritFocusGroupFromWidget(int TargetFocusGroupNum, class UPUMG_Widget* SourceWidget, int SourceFocusGroupNum)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.InheritFocusGroupFromWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.InheritFocusGroupFromWidget");
 
 	struct
 	{
@@ -4228,7 +4228,7 @@ void UPUMG_Widget::InheritFocusGroupFromWidget(int TargetFocusGroupNum, class UP
 
 void UPUMG_Widget::HideWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.HideWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.HideWidget");
 
 	struct
 	{
@@ -4246,7 +4246,7 @@ void UPUMG_Widget::HideWidget()
 
 class UPUMG_ViewManager* UPUMG_Widget::GetViewManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GetViewManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GetViewManager");
 
 	struct
 	{
@@ -4267,7 +4267,7 @@ class UPUMG_ViewManager* UPUMG_Widget::GetViewManager()
 
 bool UPUMG_Widget::GetUsesBlocker()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GetUsesBlocker"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GetUsesBlocker");
 
 	struct
 	{
@@ -4290,7 +4290,7 @@ bool UPUMG_Widget::GetUsesBlocker()
 
 bool UPUMG_Widget::GetPendingRouteData(const struct FName& RouteName, class UObject** Data)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GetPendingRouteData"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GetPendingRouteData");
 
 	struct
 	{
@@ -4317,7 +4317,7 @@ bool UPUMG_Widget::GetPendingRouteData(const struct FName& RouteName, class UObj
 
 struct FGeometry UPUMG_Widget::GetGeometryFromLastTick()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GetGeometryFromLastTick"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GetGeometryFromLastTick");
 
 	struct
 	{
@@ -4339,7 +4339,7 @@ struct FGeometry UPUMG_Widget::GetGeometryFromLastTick()
 
 bool UPUMG_Widget::GetCurrentFocusGroup(int* OutFocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GetCurrentFocusGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GetCurrentFocusGroup");
 
 	struct
 	{
@@ -4365,7 +4365,7 @@ bool UPUMG_Widget::GetCurrentFocusGroup(int* OutFocusGroup)
 
 class UWidget* UPUMG_Widget::GetCurrentFocusForGroup(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GetCurrentFocusForGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GetCurrentFocusForGroup");
 
 	struct
 	{
@@ -4386,7 +4386,7 @@ class UWidget* UPUMG_Widget::GetCurrentFocusForGroup(int FocusGroup)
 
 void UPUMG_Widget::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GamepadUnhover");
 
 	struct
 	{
@@ -4402,7 +4402,7 @@ void UPUMG_Widget::GamepadUnhover()
 
 void UPUMG_Widget::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GamepadHover");
 
 	struct
 	{
@@ -4421,7 +4421,7 @@ void UPUMG_Widget::GamepadHover()
 
 struct FEventReply UPUMG_Widget::GamepadButtonUp(const struct FKey& Button)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GamepadButtonUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GamepadButtonUp");
 
 	struct
 	{
@@ -4445,7 +4445,7 @@ struct FEventReply UPUMG_Widget::GamepadButtonUp(const struct FKey& Button)
 
 struct FEventReply UPUMG_Widget::GamepadButtonDown(const struct FKey& Button)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.GamepadButtonDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GamepadButtonDown");
 
 	struct
 	{
@@ -4468,7 +4468,7 @@ struct FEventReply UPUMG_Widget::GamepadButtonDown(const struct FKey& Button)
 
 void UPUMG_Widget::FocusGroupNavigateUpFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.FocusGroupNavigateUpFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.FocusGroupNavigateUpFailure");
 
 	struct
 	{
@@ -4488,7 +4488,7 @@ void UPUMG_Widget::FocusGroupNavigateUpFailure(int FocusGroup)
 
 void UPUMG_Widget::FocusGroupNavigateRightFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.FocusGroupNavigateRightFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.FocusGroupNavigateRightFailure");
 
 	struct
 	{
@@ -4508,7 +4508,7 @@ void UPUMG_Widget::FocusGroupNavigateRightFailure(int FocusGroup)
 
 void UPUMG_Widget::FocusGroupNavigateLeftFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.FocusGroupNavigateLeftFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.FocusGroupNavigateLeftFailure");
 
 	struct
 	{
@@ -4528,7 +4528,7 @@ void UPUMG_Widget::FocusGroupNavigateLeftFailure(int FocusGroup)
 
 void UPUMG_Widget::FocusGroupNavigateDownFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.FocusGroupNavigateDownFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.FocusGroupNavigateDownFailure");
 
 	struct
 	{
@@ -4548,7 +4548,7 @@ void UPUMG_Widget::FocusGroupNavigateDownFailure(int FocusGroup)
 
 bool UPUMG_Widget::ExplicitNavigateUp()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.ExplicitNavigateUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.ExplicitNavigateUp");
 
 	struct
 	{
@@ -4569,7 +4569,7 @@ bool UPUMG_Widget::ExplicitNavigateUp()
 
 bool UPUMG_Widget::ExplicitNavigateRight()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.ExplicitNavigateRight"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.ExplicitNavigateRight");
 
 	struct
 	{
@@ -4590,7 +4590,7 @@ bool UPUMG_Widget::ExplicitNavigateRight()
 
 bool UPUMG_Widget::ExplicitNavigateLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.ExplicitNavigateLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.ExplicitNavigateLeft");
 
 	struct
 	{
@@ -4611,7 +4611,7 @@ bool UPUMG_Widget::ExplicitNavigateLeft()
 
 bool UPUMG_Widget::ExplicitNavigateDown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.ExplicitNavigateDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.ExplicitNavigateDown");
 
 	struct
 	{
@@ -4633,7 +4633,7 @@ bool UPUMG_Widget::ExplicitNavigateDown()
 
 void UPUMG_Widget::DisplayGenericPopup(const struct FString& sTitle, const struct FString& sDesc)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.DisplayGenericPopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.DisplayGenericPopup");
 
 	struct
 	{
@@ -4655,7 +4655,7 @@ void UPUMG_Widget::DisplayGenericPopup(const struct FString& sTitle, const struc
 
 void UPUMG_Widget::DisplayGenericError(const struct FString& sDesc)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.DisplayGenericError"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.DisplayGenericError");
 
 	struct
 	{
@@ -4673,7 +4673,7 @@ void UPUMG_Widget::DisplayGenericError(const struct FString& sDesc)
 
 void UPUMG_Widget::ClearNavigationInputThrottle()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.ClearNavigationInputThrottle"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.ClearNavigationInputThrottle");
 
 	struct
 	{
@@ -4691,7 +4691,7 @@ void UPUMG_Widget::ClearNavigationInputThrottle()
 
 bool UPUMG_Widget::CanCloseOnLogout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.CanCloseOnLogout"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.CanCloseOnLogout");
 
 	struct
 	{
@@ -4710,7 +4710,7 @@ bool UPUMG_Widget::CanCloseOnLogout()
 
 void UPUMG_Widget::CallOnShowSequenceFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.CallOnShowSequenceFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.CallOnShowSequenceFinished");
 
 	struct
 	{
@@ -4726,7 +4726,7 @@ void UPUMG_Widget::CallOnShowSequenceFinished()
 
 void UPUMG_Widget::CallOnHideSequenceFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.CallOnHideSequenceFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.CallOnHideSequenceFinished");
 
 	struct
 	{
@@ -4744,7 +4744,7 @@ void UPUMG_Widget::CallOnHideSequenceFinished()
 
 void UPUMG_Widget::BindToInputManager(int DefaultFocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.BindToInputManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.BindToInputManager");
 
 	struct
 	{
@@ -4764,7 +4764,7 @@ void UPUMG_Widget::BindToInputManager(int DefaultFocusGroup)
 
 void UPUMG_Widget::AsyncLoadTexture2D(TSoftObjectPtr<class UTexture2D> Texture2DRef)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.AsyncLoadTexture2D"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.AsyncLoadTexture2D");
 
 	struct
 	{
@@ -4788,7 +4788,7 @@ void UPUMG_Widget::AsyncLoadTexture2D(TSoftObjectPtr<class UTexture2D> Texture2D
 
 bool UPUMG_Widget::AddViewRoute(const struct FName& RouteName, bool ClearRouteStack, bool ForceTransition, class UObject* Data)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_Widget.AddViewRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.AddViewRoute");
 
 	struct
 	{
@@ -4817,7 +4817,7 @@ bool UPUMG_Widget::AddViewRoute(const struct FName& RouteName, bool ClearRouteSt
 
 void UPUMG_PopupManager::ShowPopup(const struct FPUMG_PopupConfig& popupData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PopupManager.ShowPopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PopupManager.ShowPopup");
 
 	struct
 	{
@@ -4837,7 +4837,7 @@ void UPUMG_PopupManager::ShowPopup(const struct FPUMG_PopupConfig& popupData)
 
 void UPUMG_PopupManager::RemovePopup(int PopupId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PopupManager.RemovePopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PopupManager.RemovePopup");
 
 	struct
 	{
@@ -4858,7 +4858,7 @@ void UPUMG_PopupManager::RemovePopup(int PopupId)
 
 void UPUMG_PopupManager::OnPopupResponse(int nPopupId, int nResponseIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PopupManager.OnPopupResponse"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PopupManager.OnPopupResponse");
 
 	struct
 	{
@@ -4878,7 +4878,7 @@ void UPUMG_PopupManager::OnPopupResponse(int nPopupId, int nResponseIndex)
 
 void UPUMG_PopupManager::OnPopupCanceled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PopupManager.OnPopupCanceled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PopupManager.OnPopupCanceled");
 
 	struct
 	{
@@ -4894,7 +4894,7 @@ void UPUMG_PopupManager::OnPopupCanceled()
 
 void UPUMG_PopupManager::NextPopup()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PopupManager.NextPopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PopupManager.NextPopup");
 
 	struct
 	{
@@ -4910,7 +4910,7 @@ void UPUMG_PopupManager::NextPopup()
 
 void UPUMG_PopupManager::HidePopup()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PopupManager.HidePopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PopupManager.HidePopup");
 
 	struct
 	{
@@ -4926,7 +4926,7 @@ void UPUMG_PopupManager::HidePopup()
 
 void UPUMG_PopupManager::CloseUnimportantPopups()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PopupManager.CloseUnimportantPopups"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PopupManager.CloseUnimportantPopups");
 
 	struct
 	{
@@ -4942,7 +4942,7 @@ void UPUMG_PopupManager::CloseUnimportantPopups()
 
 void UPUMG_PopupManager::CloseAllPopups()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PopupManager.CloseAllPopups"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PopupManager.CloseAllPopups");
 
 	struct
 	{
@@ -4961,7 +4961,7 @@ void UPUMG_PopupManager::CloseAllPopups()
 
 int UPUMG_PopupManager::AddPopup(const struct FPUMG_PopupConfig& popupData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PopupManager.AddPopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PopupManager.AddPopup");
 
 	struct
 	{
@@ -4982,7 +4982,7 @@ int UPUMG_PopupManager::AddPopup(const struct FPUMG_PopupConfig& popupData)
 
 void UPUMG_QueueDataFactory::StartCustomMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.StartCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.StartCustomMatch");
 
 	struct
 	{
@@ -5001,7 +5001,7 @@ void UPUMG_QueueDataFactory::StartCustomMatch()
 
 void UPUMG_QueueDataFactory::SetPlayerTeamCustomMatch(int64_t PlayerId, int TeamId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.SetPlayerTeamCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.SetPlayerTeamCustomMatch");
 
 	struct
 	{
@@ -5023,7 +5023,7 @@ void UPUMG_QueueDataFactory::SetPlayerTeamCustomMatch(int64_t PlayerId, int Team
 
 void UPUMG_QueueDataFactory::SetPendingMapForCustomQueue(int MapId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.SetPendingMapForCustomQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.SetPendingMapForCustomQueue");
 
 	struct
 	{
@@ -5043,7 +5043,7 @@ void UPUMG_QueueDataFactory::SetPendingMapForCustomQueue(int MapId)
 
 void UPUMG_QueueDataFactory::SetMapForCustomMatch(int MapId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.SetMapForCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.SetMapForCustomMatch");
 
 	struct
 	{
@@ -5063,7 +5063,7 @@ void UPUMG_QueueDataFactory::SetMapForCustomMatch(int MapId)
 
 bool UPUMG_QueueDataFactory::LeaveQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.LeaveQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.LeaveQueue");
 
 	struct
 	{
@@ -5084,7 +5084,7 @@ bool UPUMG_QueueDataFactory::LeaveQueue()
 
 void UPUMG_QueueDataFactory::KickFromCustomMatch(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.KickFromCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.KickFromCustomMatch");
 
 	struct
 	{
@@ -5105,7 +5105,7 @@ void UPUMG_QueueDataFactory::KickFromCustomMatch(int64_t PlayerId)
 
 bool UPUMG_QueueDataFactory::JoinQueue(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.JoinQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.JoinQueue");
 
 	struct
 	{
@@ -5129,7 +5129,7 @@ bool UPUMG_QueueDataFactory::JoinQueue(int QueueId)
 
 bool UPUMG_QueueDataFactory::IsQueueActive(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.IsQueueActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.IsQueueActive");
 
 	struct
 	{
@@ -5152,7 +5152,7 @@ bool UPUMG_QueueDataFactory::IsQueueActive(int QueueId)
 
 bool UPUMG_QueueDataFactory::IsInQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.IsInQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.IsInQueue");
 
 	struct
 	{
@@ -5174,7 +5174,7 @@ bool UPUMG_QueueDataFactory::IsInQueue()
 
 bool UPUMG_QueueDataFactory::IsInGame()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.IsInGame"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.IsInGame");
 
 	struct
 	{
@@ -5196,7 +5196,7 @@ bool UPUMG_QueueDataFactory::IsInGame()
 
 bool UPUMG_QueueDataFactory::IsInCustomMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.IsInCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.IsInCustomMatch");
 
 	struct
 	{
@@ -5219,7 +5219,7 @@ bool UPUMG_QueueDataFactory::IsInCustomMatch()
 
 bool UPUMG_QueueDataFactory::IsCustomInvitePending(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.IsCustomInvitePending"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.IsCustomInvitePending");
 
 	struct
 	{
@@ -5242,7 +5242,7 @@ bool UPUMG_QueueDataFactory::IsCustomInvitePending(int64_t PlayerId)
 
 void UPUMG_QueueDataFactory::InviteToCustomMatch(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.InviteToCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.InviteToCustomMatch");
 
 	struct
 	{
@@ -5262,7 +5262,7 @@ void UPUMG_QueueDataFactory::InviteToCustomMatch(int64_t PlayerId)
 
 void UPUMG_QueueDataFactory::IncrementPlayerTeamCustomMatch(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.IncrementPlayerTeamCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.IncrementPlayerTeamCustomMatch");
 
 	struct
 	{
@@ -5280,7 +5280,7 @@ void UPUMG_QueueDataFactory::IncrementPlayerTeamCustomMatch(int64_t PlayerId)
 
 void UPUMG_QueueDataFactory::HandleInviteCooldowns()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.HandleInviteCooldowns"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.HandleInviteCooldowns");
 
 	struct
 	{
@@ -5296,7 +5296,7 @@ void UPUMG_QueueDataFactory::HandleInviteCooldowns()
 
 void UPUMG_QueueDataFactory::HandleConfirmKickCustomPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.HandleConfirmKickCustomPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.HandleConfirmKickCustomPlayer");
 
 	struct
 	{
@@ -5314,7 +5314,7 @@ void UPUMG_QueueDataFactory::HandleConfirmKickCustomPlayer()
 
 float UPUMG_QueueDataFactory::GetTimeInQueueSeconds()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetTimeInQueueSeconds"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetTimeInQueueSeconds");
 
 	struct
 	{
@@ -5336,7 +5336,7 @@ float UPUMG_QueueDataFactory::GetTimeInQueueSeconds()
 
 int UPUMG_QueueDataFactory::GetTeamMemberCount(int TeamId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetTeamMemberCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetTeamMemberCount");
 
 	struct
 	{
@@ -5359,7 +5359,7 @@ int UPUMG_QueueDataFactory::GetTeamMemberCount(int TeamId)
 
 TArray<int> UPUMG_QueueDataFactory::GetQueueIds()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetQueueIds"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetQueueIds");
 
 	struct
 	{
@@ -5381,7 +5381,7 @@ TArray<int> UPUMG_QueueDataFactory::GetQueueIds()
 
 int UPUMG_QueueDataFactory::GetPlayerTeamId(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetPlayerTeamId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetPlayerTeamId");
 
 	struct
 	{
@@ -5404,7 +5404,7 @@ int UPUMG_QueueDataFactory::GetPlayerTeamId(int64_t PlayerId)
 
 int UPUMG_QueueDataFactory::GetPendingCustomMatchMapId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetPendingCustomMatchMapId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetPendingCustomMatchMapId");
 
 	struct
 	{
@@ -5426,7 +5426,7 @@ int UPUMG_QueueDataFactory::GetPendingCustomMatchMapId()
 
 int UPUMG_QueueDataFactory::GetNextTeamId(int RelativeToTeamId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetNextTeamId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetNextTeamId");
 
 	struct
 	{
@@ -5450,7 +5450,7 @@ int UPUMG_QueueDataFactory::GetNextTeamId(int RelativeToTeamId)
 
 EPUMG_CustomMatchPermission UPUMG_QueueDataFactory::GetCustomMatchPermissions(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetCustomMatchPermissions"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetCustomMatchPermissions");
 
 	struct
 	{
@@ -5473,7 +5473,7 @@ EPUMG_CustomMatchPermission UPUMG_QueueDataFactory::GetCustomMatchPermissions(in
 
 TArray<struct FPUMG_CustomMatchMember> UPUMG_QueueDataFactory::GetCustomMatchMembers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetCustomMatchMembers"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetCustomMatchMembers");
 
 	struct
 	{
@@ -5494,7 +5494,7 @@ TArray<struct FPUMG_CustomMatchMember> UPUMG_QueueDataFactory::GetCustomMatchMem
 
 int UPUMG_QueueDataFactory::GetCustomMatchMapId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetCustomMatchMapId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetCustomMatchMapId");
 
 	struct
 	{
@@ -5515,7 +5515,7 @@ int UPUMG_QueueDataFactory::GetCustomMatchMapId()
 
 class UPUMG_PlayerInfo* UPUMG_QueueDataFactory::GetCustomMatchInviterPlayerInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetCustomMatchInviterPlayerInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetCustomMatchInviterPlayerInfo");
 
 	struct
 	{
@@ -5536,7 +5536,7 @@ class UPUMG_PlayerInfo* UPUMG_QueueDataFactory::GetCustomMatchInviterPlayerInfo(
 
 EPUMG_MatchStatus UPUMG_QueueDataFactory::GetCurrentQueueMatchState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetCurrentQueueMatchState"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetCurrentQueueMatchState");
 
 	struct
 	{
@@ -5559,7 +5559,7 @@ EPUMG_MatchStatus UPUMG_QueueDataFactory::GetCurrentQueueMatchState()
 
 bool UPUMG_QueueDataFactory::GetCurrentQueueId(int* QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetCurrentQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetCurrentQueueId");
 
 	struct
 	{
@@ -5586,7 +5586,7 @@ bool UPUMG_QueueDataFactory::GetCurrentQueueId(int* QueueId)
 
 bool UPUMG_QueueDataFactory::GetCurrentMatchId(int* MatchID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetCurrentMatchId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetCurrentMatchId");
 
 	struct
 	{
@@ -5614,7 +5614,7 @@ bool UPUMG_QueueDataFactory::GetCurrentMatchId(int* MatchID)
 
 bool UPUMG_QueueDataFactory::GetBaseQueueInfoById(int QueueId, struct FPUMG_ClientQueueInfo* InClientQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.GetBaseQueueInfoById"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.GetBaseQueueInfoById");
 
 	struct
 	{
@@ -5639,7 +5639,7 @@ bool UPUMG_QueueDataFactory::GetBaseQueueInfoById(int QueueId, struct FPUMG_Clie
 
 void UPUMG_QueueDataFactory::DeclineMatchInvite()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.DeclineMatchInvite"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.DeclineMatchInvite");
 
 	struct
 	{
@@ -5657,7 +5657,7 @@ void UPUMG_QueueDataFactory::DeclineMatchInvite()
 
 void UPUMG_QueueDataFactory::CreateCustomMatch(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.CreateCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.CreateCustomMatch");
 
 	struct
 	{
@@ -5677,7 +5677,7 @@ void UPUMG_QueueDataFactory::CreateCustomMatch(int QueueId)
 
 EPUMG_CustomMatchError UPUMG_QueueDataFactory::CheckCustomMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.CheckCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.CheckCustomMatch");
 
 	struct
 	{
@@ -5698,7 +5698,7 @@ EPUMG_CustomMatchError UPUMG_QueueDataFactory::CheckCustomMatch()
 
 bool UPUMG_QueueDataFactory::CanQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.CanQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.CanQueue");
 
 	struct
 	{
@@ -5720,7 +5720,7 @@ bool UPUMG_QueueDataFactory::CanQueue()
 
 bool UPUMG_QueueDataFactory::CanLocalPlayerPromoteCustomLobbyPlayer(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.CanLocalPlayerPromoteCustomLobbyPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.CanLocalPlayerPromoteCustomLobbyPlayer");
 
 	struct
 	{
@@ -5744,7 +5744,7 @@ bool UPUMG_QueueDataFactory::CanLocalPlayerPromoteCustomLobbyPlayer(int64_t Play
 
 bool UPUMG_QueueDataFactory::CanLocalPlayerKickCustomLobbyPlayer(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.CanLocalPlayerKickCustomLobbyPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.CanLocalPlayerKickCustomLobbyPlayer");
 
 	struct
 	{
@@ -5768,7 +5768,7 @@ bool UPUMG_QueueDataFactory::CanLocalPlayerKickCustomLobbyPlayer(int64_t PlayerI
 
 bool UPUMG_QueueDataFactory::CanLocalPlayerControlCustomLobbyPlayer(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.CanLocalPlayerControlCustomLobbyPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.CanLocalPlayerControlCustomLobbyPlayer");
 
 	struct
 	{
@@ -5792,7 +5792,7 @@ bool UPUMG_QueueDataFactory::CanLocalPlayerControlCustomLobbyPlayer(int64_t Play
 
 bool UPUMG_QueueDataFactory::AttemptRejoinMatch(bool Forced)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.AttemptRejoinMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.AttemptRejoinMatch");
 
 	struct
 	{
@@ -5813,7 +5813,7 @@ bool UPUMG_QueueDataFactory::AttemptRejoinMatch(bool Forced)
 
 void UPUMG_QueueDataFactory::AcceptMatchInvite()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_QueueDataFactory.AcceptMatchInvite"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.AcceptMatchInvite");
 
 	struct
 	{
@@ -5833,7 +5833,7 @@ void UPUMG_QueueDataFactory::AcceptMatchInvite()
 
 bool UPUMG_SettingsDataFactory::OnSettingChanged(const struct FName& SettingId, int SettingValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_SettingsDataFactory.OnSettingChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_SettingsDataFactory.OnSettingChanged");
 
 	struct
 	{
@@ -5856,7 +5856,7 @@ bool UPUMG_SettingsDataFactory::OnSettingChanged(const struct FName& SettingId, 
 
 void UPUMG_SettingsDataFactory::InitSettingsForPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_SettingsDataFactory.InitSettingsForPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_SettingsDataFactory.InitSettingsForPlayer");
 
 	struct
 	{
@@ -5874,7 +5874,7 @@ void UPUMG_SettingsDataFactory::InitSettingsForPlayer()
 
 bool UPUMG_StorePurchaseRequest::SubmitPurchaseRequest()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StorePurchaseRequest.SubmitPurchaseRequest"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StorePurchaseRequest.SubmitPurchaseRequest");
 
 	struct
 	{
@@ -5895,7 +5895,7 @@ bool UPUMG_StorePurchaseRequest::SubmitPurchaseRequest()
 
 int UPUMG_PortalOffer::GetDiscountPercentage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_PortalOffer.GetDiscountPercentage"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_PortalOffer.GetDiscountPercentage");
 
 	struct
 	{
@@ -5917,7 +5917,7 @@ int UPUMG_PortalOffer::GetDiscountPercentage()
 
 int UPUMG_StoreItemPrice::GetPriceWithCoupon(class UPUMG_StoreItem* Coupon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemPrice.GetPriceWithCoupon"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemPrice.GetPriceWithCoupon");
 
 	struct
 	{
@@ -5940,7 +5940,7 @@ int UPUMG_StoreItemPrice::GetPriceWithCoupon(class UPUMG_StoreItem* Coupon)
 
 int UPUMG_StoreItemPrice::GetDiscountPercentage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemPrice.GetDiscountPercentage"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemPrice.GetDiscountPercentage");
 
 	struct
 	{
@@ -5963,7 +5963,7 @@ int UPUMG_StoreItemPrice::GetDiscountPercentage()
 
 bool UPUMG_StoreItemPrice::CanAfford(int Quantity, class UPUMG_StoreItem* Coupon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemPrice.CanAfford"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemPrice.CanAfford");
 
 	struct
 	{
@@ -5988,7 +5988,7 @@ bool UPUMG_StoreItemPrice::CanAfford(int Quantity, class UPUMG_StoreItem* Coupon
 
 void UPUMG_StoreItem::UIX_ShowPurchaseConfirmation(class UPUMG_StoreItemPrice* pPrice)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.UIX_ShowPurchaseConfirmation"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.UIX_ShowPurchaseConfirmation");
 
 	struct
 	{
@@ -6008,7 +6008,7 @@ void UPUMG_StoreItem::UIX_ShowPurchaseConfirmation(class UPUMG_StoreItemPrice* p
 
 bool UPUMG_StoreItem::ShouldDisplayToUser()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.ShouldDisplayToUser"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.ShouldDisplayToUser");
 
 	struct
 	{
@@ -6027,7 +6027,7 @@ bool UPUMG_StoreItem::ShouldDisplayToUser()
 
 void UPUMG_StoreItem::PurchaseFromPortal()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.PurchaseFromPortal"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.PurchaseFromPortal");
 
 	struct
 	{
@@ -6046,7 +6046,7 @@ void UPUMG_StoreItem::PurchaseFromPortal()
 
 bool UPUMG_StoreItem::IsRented(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.IsRented"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.IsRented");
 
 	struct
 	{
@@ -6070,7 +6070,7 @@ bool UPUMG_StoreItem::IsRented(int64_t PlayerId)
 
 bool UPUMG_StoreItem::IsRecipeFulfilled(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.IsRecipeFulfilled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.IsRecipeFulfilled");
 
 	struct
 	{
@@ -6094,7 +6094,7 @@ bool UPUMG_StoreItem::IsRecipeFulfilled(int64_t PlayerId)
 
 bool UPUMG_StoreItem::IsOwned(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.IsOwned"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.IsOwned");
 
 	struct
 	{
@@ -6117,7 +6117,7 @@ bool UPUMG_StoreItem::IsOwned(int64_t PlayerId)
 
 bool UPUMG_StoreItem::IsOnSale()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.IsOnSale"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.IsOnSale");
 
 	struct
 	{
@@ -6138,7 +6138,7 @@ bool UPUMG_StoreItem::IsOnSale()
 
 bool UPUMG_StoreItem::IsActive()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.IsActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.IsActive");
 
 	struct
 	{
@@ -6159,7 +6159,7 @@ bool UPUMG_StoreItem::IsActive()
 
 bool UPUMG_StoreItem::HasPortalOffer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.HasPortalOffer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.HasPortalOffer");
 
 	struct
 	{
@@ -6180,7 +6180,7 @@ bool UPUMG_StoreItem::HasPortalOffer()
 
 int UPUMG_StoreItem::GetVendorId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetVendorId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetVendorId");
 
 	struct
 	{
@@ -6201,7 +6201,7 @@ int UPUMG_StoreItem::GetVendorId()
 
 int UPUMG_StoreItem::GetUIHint()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetUIHint"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetUIHint");
 
 	struct
 	{
@@ -6222,7 +6222,7 @@ int UPUMG_StoreItem::GetUIHint()
 
 int UPUMG_StoreItem::GetType()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetType"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetType");
 
 	struct
 	{
@@ -6243,7 +6243,7 @@ int UPUMG_StoreItem::GetType()
 
 int UPUMG_StoreItem::GetSubType()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetSubType"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetSubType");
 
 	struct
 	{
@@ -6264,7 +6264,7 @@ int UPUMG_StoreItem::GetSubType()
 
 int UPUMG_StoreItem::GetSortOrder()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetSortOrder"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetSortOrder");
 
 	struct
 	{
@@ -6285,7 +6285,7 @@ int UPUMG_StoreItem::GetSortOrder()
 
 struct FSoftObjectPath UPUMG_StoreItem::GetSoftItemIconAsPath()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetSoftItemIconAsPath"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetSoftItemIconAsPath");
 
 	struct
 	{
@@ -6306,7 +6306,7 @@ struct FSoftObjectPath UPUMG_StoreItem::GetSoftItemIconAsPath()
 
 TSoftObjectPtr<class UTexture2D> UPUMG_StoreItem::GetSoftItemIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetSoftItemIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetSoftItemIcon");
 
 	struct
 	{
@@ -6327,7 +6327,7 @@ TSoftObjectPtr<class UTexture2D> UPUMG_StoreItem::GetSoftItemIcon()
 
 int UPUMG_StoreItem::GetRecipeEntryType()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetRecipeEntryType"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetRecipeEntryType");
 
 	struct
 	{
@@ -6349,7 +6349,7 @@ int UPUMG_StoreItem::GetRecipeEntryType()
 
 int UPUMG_StoreItem::GetQuantityOwned(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetQuantityOwned"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetQuantityOwned");
 
 	struct
 	{
@@ -6372,7 +6372,7 @@ int UPUMG_StoreItem::GetQuantityOwned(int64_t PlayerId)
 
 class UPUMG_StorePurchaseRequest* UPUMG_StoreItem::GetPurchaseRequest()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetPurchaseRequest"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetPurchaseRequest");
 
 	struct
 	{
@@ -6393,7 +6393,7 @@ class UPUMG_StorePurchaseRequest* UPUMG_StoreItem::GetPurchaseRequest()
 
 TArray<class UPUMG_StoreItemPrice*> UPUMG_StoreItem::GetPrices()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetPrices"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetPrices");
 
 	struct
 	{
@@ -6415,7 +6415,7 @@ TArray<class UPUMG_StoreItemPrice*> UPUMG_StoreItem::GetPrices()
 
 class UPUMG_StoreItemPrice* UPUMG_StoreItem::GetPrice(TSoftObjectPtr<class UPlatformInventoryItem> nCurrencyType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetPrice"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetPrice");
 
 	struct
 	{
@@ -6438,7 +6438,7 @@ class UPUMG_StoreItemPrice* UPUMG_StoreItem::GetPrice(TSoftObjectPtr<class UPlat
 
 class UPUMG_PortalOffer* UPUMG_StoreItem::GetPortalOffer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetPortalOffer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetPortalOffer");
 
 	struct
 	{
@@ -6459,7 +6459,7 @@ class UPUMG_PortalOffer* UPUMG_StoreItem::GetPortalOffer()
 
 struct FText UPUMG_StoreItem::GetName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetName");
 
 	struct
 	{
@@ -6480,7 +6480,7 @@ struct FText UPUMG_StoreItem::GetName()
 
 int UPUMG_StoreItem::GetLootQuantity()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetLootQuantity"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetLootQuantity");
 
 	struct
 	{
@@ -6501,7 +6501,7 @@ int UPUMG_StoreItem::GetLootQuantity()
 
 int UPUMG_StoreItem::GetLootId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetLootId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetLootId");
 
 	struct
 	{
@@ -6522,7 +6522,7 @@ int UPUMG_StoreItem::GetLootId()
 
 int UPUMG_StoreItem::GetItemId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetItemId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetItemId");
 
 	struct
 	{
@@ -6543,7 +6543,7 @@ int UPUMG_StoreItem::GetItemId()
 
 TSoftObjectPtr<class UPlatformInventoryItem> UPUMG_StoreItem::GetInventoryItem()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetInventoryItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetInventoryItem");
 
 	struct
 	{
@@ -6565,7 +6565,7 @@ TSoftObjectPtr<class UPlatformInventoryItem> UPUMG_StoreItem::GetInventoryItem()
 
 struct FText UPUMG_StoreItem::GetFormattedNameDisplay(int ExternalQuantity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetFormattedNameDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetFormattedNameDisplay");
 
 	struct
 	{
@@ -6588,7 +6588,7 @@ struct FText UPUMG_StoreItem::GetFormattedNameDisplay(int ExternalQuantity)
 
 struct FText UPUMG_StoreItem::GetFormattedDescDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetFormattedDescDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetFormattedDescDisplay");
 
 	struct
 	{
@@ -6609,7 +6609,7 @@ struct FText UPUMG_StoreItem::GetFormattedDescDisplay()
 
 struct FText UPUMG_StoreItem::GetDescription()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetDescription"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetDescription");
 
 	struct
 	{
@@ -6631,7 +6631,7 @@ struct FText UPUMG_StoreItem::GetDescription()
 
 TArray<class UPUMG_StoreItem*> UPUMG_StoreItem::GetCouponsForPrice(class UPUMG_StoreItemPrice* Price)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetCouponsForPrice"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetCouponsForPrice");
 
 	struct
 	{
@@ -6654,7 +6654,7 @@ TArray<class UPUMG_StoreItem*> UPUMG_StoreItem::GetCouponsForPrice(class UPUMG_S
 
 int UPUMG_StoreItem::GetBundleId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetBundleId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetBundleId");
 
 	struct
 	{
@@ -6675,7 +6675,7 @@ int UPUMG_StoreItem::GetBundleId()
 
 int UPUMG_StoreItem::GetBestDiscount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetBestDiscount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetBestDiscount");
 
 	struct
 	{
@@ -6697,7 +6697,7 @@ int UPUMG_StoreItem::GetBestDiscount()
 
 class UPUMG_StoreItem* UPUMG_StoreItem::GetBestCouponForPrice(class UPUMG_StoreItemPrice* Price)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.GetBestCouponForPrice"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.GetBestCouponForPrice");
 
 	struct
 	{
@@ -6718,7 +6718,7 @@ class UPUMG_StoreItem* UPUMG_StoreItem::GetBestCouponForPrice(class UPUMG_StoreI
 
 void UPUMG_StoreItem::ConfirmGotoPortalOffer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.ConfirmGotoPortalOffer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.ConfirmGotoPortalOffer");
 
 	struct
 	{
@@ -6738,7 +6738,7 @@ void UPUMG_StoreItem::ConfirmGotoPortalOffer()
 
 bool UPUMG_StoreItem::CanAfford(class UPUMG_StoreItemPrice* Price, int Quantity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItem.CanAfford"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItem.CanAfford");
 
 	struct
 	{
@@ -6764,7 +6764,7 @@ bool UPUMG_StoreItem::CanAfford(class UPUMG_StoreItemPrice* Price, int Quantity)
 
 int64_t UPUMG_XpTable::GetXpAtLevel(int XpLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_XpTable.GetXpAtLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_XpTable.GetXpAtLevel");
 
 	struct
 	{
@@ -6788,7 +6788,7 @@ int64_t UPUMG_XpTable::GetXpAtLevel(int XpLevel)
 
 int64_t UPUMG_XpTable::GetXpAtIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_XpTable.GetXpAtIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_XpTable.GetXpAtIndex");
 
 	struct
 	{
@@ -6811,7 +6811,7 @@ int64_t UPUMG_XpTable::GetXpAtIndex(int Index)
 
 int UPUMG_XpTable::GetMinXpLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_XpTable.GetMinXpLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_XpTable.GetMinXpLevel");
 
 	struct
 	{
@@ -6832,7 +6832,7 @@ int UPUMG_XpTable::GetMinXpLevel()
 
 int UPUMG_XpTable::GetLevelCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_XpTable.GetLevelCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_XpTable.GetLevelCount");
 
 	struct
 	{
@@ -6854,7 +6854,7 @@ int UPUMG_XpTable::GetLevelCount()
 
 int UPUMG_XpTable::GetLevelAtXp(int64_t XpPoints)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_XpTable.GetLevelAtXp"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_XpTable.GetLevelAtXp");
 
 	struct
 	{
@@ -6877,7 +6877,7 @@ int UPUMG_XpTable::GetLevelAtXp(int64_t XpPoints)
 
 int64_t UPUMG_XpTable::GetId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_XpTable.GetId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_XpTable.GetId");
 
 	struct
 	{
@@ -6898,7 +6898,7 @@ int64_t UPUMG_XpTable::GetId()
 
 void UPUMG_StoreItemHelper::UIX_RedeemCode(const struct FString& Code)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.UIX_RedeemCode"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.UIX_RedeemCode");
 
 	struct
 	{
@@ -6919,7 +6919,7 @@ void UPUMG_StoreItemHelper::UIX_RedeemCode(const struct FString& Code)
 
 bool UPUMG_StoreItemHelper::UIX_CompletePurchaseItem(class UPUMG_StorePurchaseRequest* PurchaseRequest)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.UIX_CompletePurchaseItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.UIX_CompletePurchaseItem");
 
 	struct
 	{
@@ -6943,7 +6943,7 @@ bool UPUMG_StoreItemHelper::UIX_CompletePurchaseItem(class UPUMG_StorePurchaseRe
 
 int UPUMG_StoreItemHelper::RequestVendorData(TArray<int> VendorIds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.RequestVendorData"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.RequestVendorData");
 
 	struct
 	{
@@ -6966,7 +6966,7 @@ int UPUMG_StoreItemHelper::RequestVendorData(TArray<int> VendorIds)
 
 bool UPUMG_StoreItemHelper::HasPendingPurchase()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.HasPendingPurchase"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.HasPendingPurchase");
 
 	struct
 	{
@@ -6988,7 +6988,7 @@ bool UPUMG_StoreItemHelper::HasPendingPurchase()
 
 class UPUMG_XpTable* UPUMG_StoreItemHelper::GetXpTable(int64_t XpTableId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.GetXpTable"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.GetXpTable");
 
 	struct
 	{
@@ -7014,7 +7014,7 @@ class UPUMG_XpTable* UPUMG_StoreItemHelper::GetXpTable(int64_t XpTableId)
 
 TArray<class UPUMG_StoreItem*> UPUMG_StoreItemHelper::GetStoreItemsForVendor(int nVendorId, bool bIncludeInactiveItems, bool bSearchSubContainers)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItemsForVendor"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItemsForVendor");
 
 	struct
 	{
@@ -7046,7 +7046,7 @@ TArray<class UPUMG_StoreItem*> UPUMG_StoreItemHelper::GetStoreItemsForVendor(int
 
 TArray<class UPUMG_StoreItem*> UPUMG_StoreItemHelper::GetStoreItemsAndQuantitiesForVendor(int nVendorId, bool bIncludeInactiveItems, bool bSearchSubContainers, int ExternalQuantity, TMap<int, int>* QuantityMap)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItemsAndQuantitiesForVendor"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItemsAndQuantitiesForVendor");
 
 	struct
 	{
@@ -7082,7 +7082,7 @@ TArray<class UPUMG_StoreItem*> UPUMG_StoreItemHelper::GetStoreItemsAndQuantities
 
 class UPUMG_StoreItem* UPUMG_StoreItemHelper::GetStoreItemForVendorByItemId(int nVendorId, int nItemId, bool bSearchSubVendors)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItemForVendorByItemId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItemForVendorByItemId");
 
 	struct
 	{
@@ -7111,7 +7111,7 @@ class UPUMG_StoreItem* UPUMG_StoreItemHelper::GetStoreItemForVendorByItemId(int 
 
 class UPUMG_StoreItem* UPUMG_StoreItemHelper::GetStoreItemForVendor(int nVendorId, int nLootItemId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItemForVendor"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItemForVendor");
 
 	struct
 	{
@@ -7137,7 +7137,7 @@ class UPUMG_StoreItem* UPUMG_StoreItemHelper::GetStoreItemForVendor(int nVendorI
 
 class UPUMG_StoreItem* UPUMG_StoreItemHelper::GetStoreItem(int LootId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.GetStoreItem");
 
 	struct
 	{
@@ -7160,7 +7160,7 @@ class UPUMG_StoreItem* UPUMG_StoreItemHelper::GetStoreItem(int LootId)
 
 TArray<class UPUMG_StorePurchaseRequest*> UPUMG_StoreItemHelper::GetPendingPurchaseData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.GetPendingPurchaseData"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.GetPendingPurchaseData");
 
 	struct
 	{
@@ -7179,7 +7179,7 @@ TArray<class UPUMG_StorePurchaseRequest*> UPUMG_StoreItemHelper::GetPendingPurch
 
 void UPUMG_StoreItemHelper::ExitInGameStoreUI()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.ExitInGameStoreUI"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.ExitInGameStoreUI");
 
 	struct
 	{
@@ -7195,7 +7195,7 @@ void UPUMG_StoreItemHelper::ExitInGameStoreUI()
 
 void UPUMG_StoreItemHelper::EnterInGameStoreUI()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.EnterInGameStoreUI"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.EnterInGameStoreUI");
 
 	struct
 	{
@@ -7213,7 +7213,7 @@ void UPUMG_StoreItemHelper::EnterInGameStoreUI()
 
 bool UPUMG_StoreItemHelper::DoesPortalHaveOffers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.DoesPortalHaveOffers"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.DoesPortalHaveOffers");
 
 	struct
 	{
@@ -7234,7 +7234,7 @@ bool UPUMG_StoreItemHelper::DoesPortalHaveOffers()
 
 bool UPUMG_StoreItemHelper::AreXpTablesLoaded()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.AreXpTablesLoaded"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.AreXpTablesLoaded");
 
 	struct
 	{
@@ -7255,7 +7255,7 @@ bool UPUMG_StoreItemHelper::AreXpTablesLoaded()
 
 bool UPUMG_StoreItemHelper::ArePricePointsLoaded()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.ArePricePointsLoaded"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.ArePricePointsLoaded");
 
 	struct
 	{
@@ -7276,7 +7276,7 @@ bool UPUMG_StoreItemHelper::ArePricePointsLoaded()
 
 bool UPUMG_StoreItemHelper::ArePortalOffersLoaded()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_StoreItemHelper.ArePortalOffersLoaded"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_StoreItemHelper.ArePortalOffersLoaded");
 
 	struct
 	{
@@ -7300,7 +7300,7 @@ bool UPUMG_StoreItemHelper::ArePortalOffersLoaded()
 
 bool UPUMG_ViewRedirecter::ShouldRedirect(class APUMG_HUD* HUD, const struct FName& Route, class UObject** SceneData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewRedirecter.ShouldRedirect"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewRedirecter.ShouldRedirect");
 
 	struct
 	{
@@ -7330,7 +7330,7 @@ bool UPUMG_ViewRedirecter::ShouldRedirect(class APUMG_HUD* HUD, const struct FNa
 
 bool UPUMG_ViewLayer::IsRouteValid(const struct FName& RouteName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewLayer.IsRouteValid"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewLayer.IsRouteValid");
 
 	struct
 	{
@@ -7351,7 +7351,7 @@ bool UPUMG_ViewLayer::IsRouteValid(const struct FName& RouteName)
 
 void UPUMG_ViewLayer::GoToRoute_InternalShowStep()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewLayer.GoToRoute_InternalShowStep"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewLayer.GoToRoute_InternalShowStep");
 
 	struct
 	{
@@ -7369,7 +7369,7 @@ void UPUMG_ViewLayer::GoToRoute_InternalShowStep()
 
 void UPUMG_ViewLayer::GoToRoute_HandleShowFinished(class UPUMG_Widget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewLayer.GoToRoute_HandleShowFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewLayer.GoToRoute_HandleShowFinished");
 
 	struct
 	{
@@ -7389,7 +7389,7 @@ void UPUMG_ViewLayer::GoToRoute_HandleShowFinished(class UPUMG_Widget* Widget)
 
 void UPUMG_ViewLayer::GoToRoute_HandleHideFinished(class UPUMG_Widget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewLayer.GoToRoute_HandleHideFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewLayer.GoToRoute_HandleHideFinished");
 
 	struct
 	{
@@ -7412,7 +7412,7 @@ void UPUMG_ViewLayer::GoToRoute_HandleHideFinished(class UPUMG_Widget* Widget)
 
 bool UPUMG_ViewManager::SwapRoute(const struct FName& RouteName, const struct FName& SwapTargetRoute, bool ForceTransition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.SwapRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.SwapRoute");
 
 	struct
 	{
@@ -7440,7 +7440,7 @@ bool UPUMG_ViewManager::SwapRoute(const struct FName& RouteName, const struct FN
 
 void UPUMG_ViewManager::SetPendingRouteData(const struct FName& RouteName, class UObject* Data)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.SetPendingRouteData"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.SetPendingRouteData");
 
 	struct
 	{
@@ -7465,7 +7465,7 @@ void UPUMG_ViewManager::SetPendingRouteData(const struct FName& RouteName, class
 
 bool UPUMG_ViewManager::ReplaceRoute(const struct FName& RouteName, bool ForceTransition, class UObject* Data)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.ReplaceRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.ReplaceRoute");
 
 	struct
 	{
@@ -7494,7 +7494,7 @@ bool UPUMG_ViewManager::ReplaceRoute(const struct FName& RouteName, bool ForceTr
 
 bool UPUMG_ViewManager::RemoveRoute(const struct FName& RouteName, bool ForceTransition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.RemoveRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.RemoveRoute");
 
 	struct
 	{
@@ -7522,7 +7522,7 @@ bool UPUMG_ViewManager::RemoveRoute(const struct FName& RouteName, bool ForceTra
 
 bool UPUMG_ViewManager::PushRoute(const struct FName& RouteName, bool ForceTransition, class UObject* Data)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.PushRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.PushRoute");
 
 	struct
 	{
@@ -7550,7 +7550,7 @@ bool UPUMG_ViewManager::PushRoute(const struct FName& RouteName, bool ForceTrans
 
 bool UPUMG_ViewManager::PopRoute(bool ForceTransition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.PopRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.PopRoute");
 
 	struct
 	{
@@ -7574,7 +7574,7 @@ bool UPUMG_ViewManager::PopRoute(bool ForceTransition)
 
 bool UPUMG_ViewManager::IsLayerIdle(EViewManagerLayer LayerType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.IsLayerIdle"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.IsLayerIdle");
 
 	struct
 	{
@@ -7597,7 +7597,7 @@ bool UPUMG_ViewManager::IsLayerIdle(EViewManagerLayer LayerType)
 
 bool UPUMG_ViewManager::IsEveryLayerIdle()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.IsEveryLayerIdle"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.IsEveryLayerIdle");
 
 	struct
 	{
@@ -7618,7 +7618,7 @@ bool UPUMG_ViewManager::IsEveryLayerIdle()
 
 bool UPUMG_ViewManager::IsBlockingAcquisitions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.IsBlockingAcquisitions"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.IsBlockingAcquisitions");
 
 	struct
 	{
@@ -7639,7 +7639,7 @@ bool UPUMG_ViewManager::IsBlockingAcquisitions()
 
 void UPUMG_ViewManager::InitializeRoutes(class UDataTable* RouteTable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.InitializeRoutes"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.InitializeRoutes");
 
 	struct
 	{
@@ -7657,7 +7657,7 @@ void UPUMG_ViewManager::InitializeRoutes(class UDataTable* RouteTable)
 
 void UPUMG_ViewManager::Initialize()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.Initialize"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.Initialize");
 
 	struct
 	{
@@ -7676,7 +7676,7 @@ void UPUMG_ViewManager::Initialize()
 
 bool UPUMG_ViewManager::HasCompletedRedirectFlow(EViewRouteRedirectionPhase RedirectPhase)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.HasCompletedRedirectFlow"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.HasCompletedRedirectFlow");
 
 	struct
 	{
@@ -7699,7 +7699,7 @@ bool UPUMG_ViewManager::HasCompletedRedirectFlow(EViewRouteRedirectionPhase Redi
 
 int UPUMG_ViewManager::GetViewRouteCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.GetViewRouteCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.GetViewRouteCount");
 
 	struct
 	{
@@ -7720,7 +7720,7 @@ int UPUMG_ViewManager::GetViewRouteCount()
 
 class UPUMG_Widget* UPUMG_ViewManager::GetTopViewRouteWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.GetTopViewRouteWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.GetTopViewRouteWidget");
 
 	struct
 	{
@@ -7741,7 +7741,7 @@ class UPUMG_Widget* UPUMG_ViewManager::GetTopViewRouteWidget()
 
 struct FName UPUMG_ViewManager::GetTopViewRoute()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.GetTopViewRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.GetTopViewRoute");
 
 	struct
 	{
@@ -7762,7 +7762,7 @@ struct FName UPUMG_ViewManager::GetTopViewRoute()
 
 EViewManagerLayer UPUMG_ViewManager::GetTopLayer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.GetTopLayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.GetTopLayer");
 
 	struct
 	{
@@ -7785,7 +7785,7 @@ EViewManagerLayer UPUMG_ViewManager::GetTopLayer()
 
 bool UPUMG_ViewManager::GetPendingRouteData(const struct FName& RouteName, class UObject** Data)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.GetPendingRouteData"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.GetPendingRouteData");
 
 	struct
 	{
@@ -7813,7 +7813,7 @@ bool UPUMG_ViewManager::GetPendingRouteData(const struct FName& RouteName, class
 
 struct FName UPUMG_ViewManager::GetDefaultRouteForLayer(EViewManagerLayer LayerType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.GetDefaultRouteForLayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.GetDefaultRouteForLayer");
 
 	struct
 	{
@@ -7837,7 +7837,7 @@ struct FName UPUMG_ViewManager::GetDefaultRouteForLayer(EViewManagerLayer LayerT
 
 struct FName UPUMG_ViewManager::GetCurrentTransitionRoute(EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.GetCurrentTransitionRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.GetCurrentTransitionRoute");
 
 	struct
 	{
@@ -7861,7 +7861,7 @@ struct FName UPUMG_ViewManager::GetCurrentTransitionRoute(EViewManagerLayer Laye
 
 struct FName UPUMG_ViewManager::GetCurrentRoute(EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.GetCurrentRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.GetCurrentRoute");
 
 	struct
 	{
@@ -7885,7 +7885,7 @@ struct FName UPUMG_ViewManager::GetCurrentRoute(EViewManagerLayer Layer)
 
 bool UPUMG_ViewManager::ContainsRoute(const struct FName& RouteName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_ViewManager.ContainsRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_ViewManager.ContainsRoute");
 
 	struct
 	{
@@ -7906,7 +7906,7 @@ bool UPUMG_ViewManager::ContainsRoute(const struct FName& RouteName)
 
 void UPUMG_VoiceChatManager::OnPartyDataUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_VoiceChatManager.OnPartyDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_VoiceChatManager.OnPartyDataUpdated");
 
 	struct
 	{
@@ -7924,7 +7924,7 @@ void UPUMG_VoiceChatManager::OnPartyDataUpdated()
 
 void UPUMG_VoiceChatManager::OnMatchStatusUpdated(EPUMG_MatchStatus MatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformUMG.PUMG_VoiceChatManager.OnMatchStatusUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_VoiceChatManager.OnMatchStatusUpdated");
 
 	struct
 	{

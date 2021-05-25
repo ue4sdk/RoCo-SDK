@@ -29,7 +29,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_RoyalePhaseMessage.WBP_RoyalePhaseMessage_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_RoyalePhaseMessage.WBP_RoyalePhaseMessage_C");
 		return ptr;
 	}
 

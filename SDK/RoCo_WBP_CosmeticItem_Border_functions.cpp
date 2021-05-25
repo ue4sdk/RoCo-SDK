@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_CosmeticItem_Border_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.NavigateConfirm");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_CosmeticItem_Border_C::NavigateConfirm()
 
 void UWBP_CosmeticItem_Border_C::SetBorderItemSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.SetBorderItemSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.SetBorderItemSlot");
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWBP_CosmeticItem_Border_C::SetBorderItemSlot()
 
 void UWBP_CosmeticItem_Border_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnHoverSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnHoverSound");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_CosmeticItem_Border_C::OnHoverSound()
 
 void UWBP_CosmeticItem_Border_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnClickSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnClickSound");
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UWBP_CosmeticItem_Border_C::OnClickSound()
 
 void UWBP_CosmeticItem_Border_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.Construct");
 
 	struct
 	{
@@ -104,7 +104,7 @@ void UWBP_CosmeticItem_Border_C::Construct()
 
 void UWBP_CosmeticItem_Border_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.InitializeWidget");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_CosmeticItem_Border_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CosmeticItem_Border_C::PopulateSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.PopulateSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.PopulateSlot");
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_CosmeticItem_Border_C::PopulateSlot()
 
 void UWBP_CosmeticItem_Border_C::OnBorderHover(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnBorderHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnBorderHover");
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_CosmeticItem_Border_C::OnBorderHover(bool IsGamepad)
 
 void UWBP_CosmeticItem_Border_C::OnBorderUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnBorderUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnBorderUnhover");
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_CosmeticItem_Border_C::OnBorderUnhover()
 
 void UWBP_CosmeticItem_Border_C::OnBorderClick()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnBorderClick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnBorderClick");
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_CosmeticItem_Border_C::OnBorderClick()
 
 void UWBP_CosmeticItem_Border_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.GamepadHover");
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_CosmeticItem_Border_C::GamepadHover()
 
 void UWBP_CosmeticItem_Border_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.GamepadUnhover");
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_CosmeticItem_Border_C::GamepadUnhover()
 
 void UWBP_CosmeticItem_Border_C::SetBorderActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.SetBorderActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.SetBorderActive");
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UWBP_CosmeticItem_Border_C::SetBorderActive(bool IsActive)
 
 void UWBP_CosmeticItem_Border_C::ExecuteUbergraph_WBP_CosmeticItem_Border(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.ExecuteUbergraph_WBP_CosmeticItem_Border"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.ExecuteUbergraph_WBP_CosmeticItem_Border");
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_CosmeticItem_Border_C::ExecuteUbergraph_WBP_CosmeticItem_Border(int En
 
 void UWBP_CosmeticItem_Border_C::OnItemClicked__DelegateSignature(class UPlatformInventoryItem* PlatformItem, class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnItemClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnItemClicked__DelegateSignature");
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_CosmeticItem_Border_C::OnItemClicked__DelegateSignature(class UPlatfor
 
 void UWBP_CosmeticItem_Border_C::OnItemUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnItemUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnItemUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_CosmeticItem_Border_C::OnItemUnhovered__DelegateSignature()
 
 void UWBP_CosmeticItem_Border_C::OnItemHovered__DelegateSignature(class UPlatformInventoryItem* PlatformItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnItemHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CosmeticItem_Border.WBP_CosmeticItem_Border_C.OnItemHovered__DelegateSignature");
 
 	struct
 	{

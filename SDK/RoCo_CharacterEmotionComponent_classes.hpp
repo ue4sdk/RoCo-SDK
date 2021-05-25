@@ -40,7 +40,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass CharacterEmotionComponent.CharacterEmotionComponent_C"));
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass CharacterEmotionComponent.CharacterEmotionComponent_C");
 		return ptr;
 	}
 

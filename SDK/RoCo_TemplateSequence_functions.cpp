@@ -19,7 +19,7 @@ namespace SDK
 
 void ATemplateSequenceActor::SetSequence(class UTemplateSequence* InSequence)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TemplateSequence.TemplateSequenceActor.SetSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function TemplateSequence.TemplateSequenceActor.SetSequence");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void ATemplateSequenceActor::SetSequence(class UTemplateSequence* InSequence)
 
 void ATemplateSequenceActor::SetBinding(class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TemplateSequence.TemplateSequenceActor.SetBinding"));
+	static auto fn = UObject::FindObject<UFunction>("Function TemplateSequence.TemplateSequenceActor.SetBinding");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void ATemplateSequenceActor::SetBinding(class AActor* Actor)
 
 class UTemplateSequence* ATemplateSequenceActor::LoadSequence()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TemplateSequence.TemplateSequenceActor.LoadSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function TemplateSequence.TemplateSequenceActor.LoadSequence");
 
 	struct
 	{
@@ -80,7 +80,7 @@ class UTemplateSequence* ATemplateSequenceActor::LoadSequence()
 
 class UTemplateSequencePlayer* ATemplateSequenceActor::GetSequencePlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TemplateSequence.TemplateSequenceActor.GetSequencePlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function TemplateSequence.TemplateSequenceActor.GetSequencePlayer");
 
 	struct
 	{
@@ -101,7 +101,7 @@ class UTemplateSequencePlayer* ATemplateSequenceActor::GetSequencePlayer()
 
 class UTemplateSequence* ATemplateSequenceActor::GetSequence()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TemplateSequence.TemplateSequenceActor.GetSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function TemplateSequence.TemplateSequenceActor.GetSequence");
 
 	struct
 	{
@@ -126,7 +126,7 @@ class UTemplateSequence* ATemplateSequenceActor::GetSequence()
 
 class UTemplateSequencePlayer* UTemplateSequencePlayer::CreateTemplateSequencePlayer(class UObject* WorldContextObject, class UTemplateSequence* TemplateSequence, const struct FMovieSceneSequencePlaybackSettings& Settings, class ATemplateSequenceActor** OutActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TemplateSequence.TemplateSequencePlayer.CreateTemplateSequencePlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function TemplateSequence.TemplateSequencePlayer.CreateTemplateSequencePlayer");
 
 	struct
 	{

@@ -17,7 +17,7 @@ namespace SDK
 
 void UStatusEffect_C::StopHideTimer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.StopHideTimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.StopHideTimer");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UStatusEffect_C::StopHideTimer()
 
 void UStatusEffect_C::StartHideTimer(float Time)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.StartHideTimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.StartHideTimer");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UStatusEffect_C::StartHideTimer(float Time)
 
 void UStatusEffect_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.Construct");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UStatusEffect_C::Construct()
 
 void UStatusEffect_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.PreClearPawn");
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UStatusEffect_C::PreClearPawn()
 
 void UStatusEffect_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.PostSetPawn");
 
 	struct
 	{
@@ -104,7 +104,7 @@ void UStatusEffect_C::PostSetPawn()
 
 void UStatusEffect_C::RevealStatus(bool Revealed, bool Permanent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.RevealStatus"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.RevealStatus");
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UStatusEffect_C::RevealStatus(bool Revealed, bool Permanent)
 
 void UStatusEffect_C::OnStuck()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.OnStuck"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.OnStuck");
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UStatusEffect_C::OnStuck()
 
 void UStatusEffect_C::HideTimeExpired()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.HideTimeExpired"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.HideTimeExpired");
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UStatusEffect_C::HideTimeExpired()
 
 void UStatusEffect_C::UpdateRevealStatus(bool IsRevealed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.UpdateRevealStatus"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.UpdateRevealStatus");
 
 	struct
 	{
@@ -178,7 +178,7 @@ void UStatusEffect_C::UpdateRevealStatus(bool IsRevealed)
 
 void UStatusEffect_C::HandleRootChanged(bool Rooted)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.HandleRootChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.HandleRootChanged");
 
 	struct
 	{
@@ -198,7 +198,7 @@ void UStatusEffect_C::HandleRootChanged(bool Rooted)
 
 void UStatusEffect_C::UpdatePlayerRevealedUI(bool bShow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.UpdatePlayerRevealedUI"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.UpdatePlayerRevealedUI");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UStatusEffect_C::UpdatePlayerRevealedUI(bool bShow)
 
 void UStatusEffect_C::ExecuteUbergraph_StatusEffect(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffect.StatusEffect_C.ExecuteUbergraph_StatusEffect"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffect.StatusEffect_C.ExecuteUbergraph_StatusEffect");
 
 	struct
 	{

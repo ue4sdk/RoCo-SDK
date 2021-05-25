@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_SettingsCarousel_Light_Indicator_C::Light_Up()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel_Light_Indicator.WBP_SettingsCarousel_Light_Indicator_C.Light Up"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel_Light_Indicator.WBP_SettingsCarousel_Light_Indicator_C.Light Up");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_SettingsCarousel_Light_Indicator_C::Light_Up()
 
 void UWBP_SettingsCarousel_Light_Indicator_C::Dim_Light()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel_Light_Indicator.WBP_SettingsCarousel_Light_Indicator_C.Dim Light"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel_Light_Indicator.WBP_SettingsCarousel_Light_Indicator_C.Dim Light");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_SettingsCarousel_Light_Indicator_C::Dim_Light()
 
 void UWBP_SettingsCarousel_Light_Indicator_C::Toggle_Lit_Up()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel_Light_Indicator.WBP_SettingsCarousel_Light_Indicator_C.Toggle Lit Up"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel_Light_Indicator.WBP_SettingsCarousel_Light_Indicator_C.Toggle Lit Up");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UWBP_SettingsCarousel_Light_Indicator_C::Toggle_Lit_Up()
 
 void UWBP_SettingsCarousel_Light_Indicator_C::ExecuteUbergraph_WBP_SettingsCarousel_Light_Indicator(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel_Light_Indicator.WBP_SettingsCarousel_Light_Indicator_C.ExecuteUbergraph_WBP_SettingsCarousel_Light_Indicator"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel_Light_Indicator.WBP_SettingsCarousel_Light_Indicator_C.ExecuteUbergraph_WBP_SettingsCarousel_Light_Indicator");
 
 	struct
 	{

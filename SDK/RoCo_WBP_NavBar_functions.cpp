@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_NavBar_C::ClearIndeces()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.ClearIndeces"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.ClearIndeces");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_NavBar_C::ClearIndeces()
 
 void UWBP_NavBar_C::GetActiveIndex(int* Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.GetActiveIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.GetActiveIndex");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_NavBar_C::GetActiveIndex(int* Index)
 
 void UWBP_NavBar_C::HandleNavRightFromIndex(int PreviousIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.HandleNavRightFromIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.HandleNavRightFromIndex");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_NavBar_C::HandleNavRightFromIndex(int PreviousIndex)
 
 void UWBP_NavBar_C::HandleNavLeftFromIndex(int PreviousIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.HandleNavLeftFromIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.HandleNavLeftFromIndex");
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_NavBar_C::HandleNavLeftFromIndex(int PreviousIndex)
 
 void UWBP_NavBar_C::HandleInput(const struct FKey& InKey, bool* Handled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.HandleInput"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.HandleInput");
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UWBP_NavBar_C::HandleInput(const struct FKey& InKey, bool* Handled)
 
 struct FEventReply UWBP_NavBar_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.OnKeyUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.OnKeyUp");
 
 	struct
 	{
@@ -149,7 +149,7 @@ struct FEventReply UWBP_NavBar_C::OnKeyUp(const struct FGeometry& MyGeometry, co
 
 void UWBP_NavBar_C::SetButtonIndexActive(int ButtonIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.SetButtonIndexActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.SetButtonIndexActive");
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UWBP_NavBar_C::SetButtonIndexActive(int ButtonIndex)
 
 void UWBP_NavBar_C::HandleNavRight()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.HandleNavRight"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.HandleNavRight");
 
 	struct
 	{
@@ -183,7 +183,7 @@ void UWBP_NavBar_C::HandleNavRight()
 
 void UWBP_NavBar_C::HandleNavLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.HandleNavLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.HandleNavLeft");
 
 	struct
 	{
@@ -201,7 +201,7 @@ void UWBP_NavBar_C::HandleNavLeft()
 
 void UWBP_NavBar_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.HandleInputStateChanged");
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWBP_NavBar_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> Inpu
 
 void UWBP_NavBar_C::SetupGamepadCallouts()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.SetupGamepadCallouts"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.SetupGamepadCallouts");
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_NavBar_C::SetupGamepadCallouts()
 
 void UWBP_NavBar_C::SetNavButtons(TArray<struct FNavButtonData>* Buttons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.SetNavButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.SetNavButtons");
 
 	struct
 	{
@@ -257,7 +257,7 @@ void UWBP_NavBar_C::SetNavButtons(TArray<struct FNavButtonData>* Buttons)
 
 void UWBP_NavBar_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.Construct");
 
 	struct
 	{
@@ -275,7 +275,7 @@ void UWBP_NavBar_C::Construct()
 
 void UWBP_NavBar_C::OnButtonClicked(class UKSWidget* ButtonClicked)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.OnButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.OnButtonClicked");
 
 	struct
 	{
@@ -295,7 +295,7 @@ void UWBP_NavBar_C::OnButtonClicked(class UKSWidget* ButtonClicked)
 
 void UWBP_NavBar_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.InitializeWidget");
 
 	struct
 	{
@@ -315,7 +315,7 @@ void UWBP_NavBar_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_NavBar_C::ExecuteUbergraph_WBP_NavBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.ExecuteUbergraph_WBP_NavBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.ExecuteUbergraph_WBP_NavBar");
 
 	struct
 	{
@@ -333,7 +333,7 @@ void UWBP_NavBar_C::ExecuteUbergraph_WBP_NavBar(int EntryPoint)
 
 void UWBP_NavBar_C::OnButtonsCreated__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.OnButtonsCreated__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.OnButtonsCreated__DelegateSignature");
 
 	struct
 	{
@@ -351,7 +351,7 @@ void UWBP_NavBar_C::OnButtonsCreated__DelegateSignature()
 
 void UWBP_NavBar_C::OnButtonSelected__DelegateSignature(int ButtonIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NavBar.WBP_NavBar_C.OnButtonSelected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NavBar.WBP_NavBar_C.OnButtonSelected__DelegateSignature");
 
 	struct
 	{

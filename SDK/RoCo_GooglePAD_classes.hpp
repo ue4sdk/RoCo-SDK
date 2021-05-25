@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class GooglePAD.GooglePADFunctionLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class GooglePAD.GooglePADFunctionLibrary");
 		return ptr;
 	}
 

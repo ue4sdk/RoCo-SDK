@@ -49,7 +49,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass KOTHPhase.KOTHPhase_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass KOTHPhase.KOTHPhase_C");
 		return ptr;
 	}
 

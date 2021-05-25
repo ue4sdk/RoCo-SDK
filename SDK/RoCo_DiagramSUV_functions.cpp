@@ -20,7 +20,7 @@ namespace SDK
 
 void UDiagramSUV_C::SetSeating(int Seat_Index, class AKSCharacter* Occupant)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DiagramSUV.DiagramSUV_C.SetSeating"));
+	static auto fn = UObject::FindObject<UFunction>("Function DiagramSUV.DiagramSUV_C.SetSeating");
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UDiagramSUV_C::SetSeating(int Seat_Index, class AKSCharacter* Occupant)
 
 void UDiagramSUV_C::ExecuteUbergraph_DiagramSUV(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DiagramSUV.DiagramSUV_C.ExecuteUbergraph_DiagramSUV"));
+	static auto fn = UObject::FindObject<UFunction>("Function DiagramSUV.DiagramSUV_C.ExecuteUbergraph_DiagramSUV");
 
 	struct
 	{

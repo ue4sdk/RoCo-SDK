@@ -22,7 +22,7 @@ namespace SDK
 
 void UWBP_RogueMasteryProgress_C::GetNextMasteryRewardTier(int CurrentProgressCount, TArray<struct FActivityTier>* ActivityTiers, struct FActivityTier* NextRewardTier, bool* RewardFound)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryProgress.WBP_RogueMasteryProgress_C.GetNextMasteryRewardTier"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryProgress.WBP_RogueMasteryProgress_C.GetNextMasteryRewardTier");
 
 	struct
 	{
@@ -52,7 +52,7 @@ void UWBP_RogueMasteryProgress_C::GetNextMasteryRewardTier(int CurrentProgressCo
 
 void UWBP_RogueMasteryProgress_C::SetMasteryLevelForJob(class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryProgress.WBP_RogueMasteryProgress_C.SetMasteryLevelForJob"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryProgress.WBP_RogueMasteryProgress_C.SetMasteryLevelForJob");
 
 	struct
 	{

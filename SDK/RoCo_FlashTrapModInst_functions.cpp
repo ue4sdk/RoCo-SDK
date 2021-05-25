@@ -20,7 +20,7 @@ namespace SDK
 
 bool UFlashTrapModInst_C::CanActivateNow(EKSAbilityUsageFailureType* OutAbilityFailureType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.CanActivateNow"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.CanActivateNow");
 
 	struct
 	{
@@ -43,7 +43,7 @@ bool UFlashTrapModInst_C::CanActivateNow(EKSAbilityUsageFailureType* OutAbilityF
 
 void UFlashTrapModInst_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UFlashTrapModInst_C::ReceiveBeginPlay()
 
 void UFlashTrapModInst_C::OnNewGivenItem()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.OnNewGivenItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.OnNewGivenItem");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UFlashTrapModInst_C::OnNewGivenItem()
 
 void UFlashTrapModInst_C::OnWeaponStateChanged(class AKSWeapon* Weapon, EWeaponStateNew OldState, EWeaponStateNew NewState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.OnWeaponStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.OnWeaponStateChanged");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UFlashTrapModInst_C::OnWeaponStateChanged(class AKSWeapon* Weapon, EWeaponS
 
 void UFlashTrapModInst_C::BeginActivation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.BeginActivation"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.BeginActivation");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UFlashTrapModInst_C::BeginActivation()
 
 void UFlashTrapModInst_C::OnGrenadeSpawned(class AKSProjectile_Grenade* Grenade)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.OnGrenadeSpawned"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.OnGrenadeSpawned");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UFlashTrapModInst_C::OnGrenadeSpawned(class AKSProjectile_Grenade* Grenade)
 
 void UFlashTrapModInst_C::OnGrenadeDestroyed(class AActor* DestroyedActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.OnGrenadeDestroyed"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.OnGrenadeDestroyed");
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UFlashTrapModInst_C::OnGrenadeDestroyed(class AActor* DestroyedActor)
 
 void UFlashTrapModInst_C::Init_RemoteThrow(class AKSWeapon_RemoteThrow* RemoteThrow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.Init_RemoteThrow"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.Init_RemoteThrow");
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UFlashTrapModInst_C::Init_RemoteThrow(class AKSWeapon_RemoteThrow* RemoteTh
 
 void UFlashTrapModInst_C::Init_Detonator(class AKSWeapon_RemoteTrigger* Detonator)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.Init_Detonator"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.Init_Detonator");
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UFlashTrapModInst_C::Init_Detonator(class AKSWeapon_RemoteTrigger* Detonato
 
 void UFlashTrapModInst_C::On_Detonator_Spawned(class AKSWeapon_RemoteTrigger* Detonator)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.On Detonator Spawned"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.On Detonator Spawned");
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UFlashTrapModInst_C::On_Detonator_Spawned(class AKSWeapon_RemoteTrigger* De
 
 void UFlashTrapModInst_C::On_Remote_Throw_Spawned(class AKSWeapon_RemoteThrow* RemoteThrow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.On Remote Throw Spawned"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.On Remote Throw Spawned");
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UFlashTrapModInst_C::On_Remote_Throw_Spawned(class AKSWeapon_RemoteThrow* R
 
 void UFlashTrapModInst_C::FiredOnAuthority()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.FiredOnAuthority"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.FiredOnAuthority");
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UFlashTrapModInst_C::FiredOnAuthority()
 
 void UFlashTrapModInst_C::On_Reclaimed(class AKSProjectile* Reclaimed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.On Reclaimed"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.On Reclaimed");
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UFlashTrapModInst_C::On_Reclaimed(class AKSProjectile* Reclaimed)
 
 void UFlashTrapModInst_C::OnAbilityReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.OnAbilityReleased"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.OnAbilityReleased");
 
 	struct
 	{
@@ -289,7 +289,7 @@ void UFlashTrapModInst_C::OnAbilityReleased()
 
 void UFlashTrapModInst_C::OnNewCharacter()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.OnNewCharacter"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.OnNewCharacter");
 
 	struct
 	{
@@ -308,7 +308,7 @@ void UFlashTrapModInst_C::OnNewCharacter()
 
 void UFlashTrapModInst_C::On_Character_Died(class AKSCharacterBase* KillerCharacter, class AKSCharacterBase* KilledCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.On Character Died"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.On Character Died");
 
 	struct
 	{
@@ -330,7 +330,7 @@ void UFlashTrapModInst_C::On_Character_Died(class AKSCharacterBase* KillerCharac
 
 void UFlashTrapModInst_C::ExecuteUbergraph_FlashTrapModInst(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FlashTrapModInst.FlashTrapModInst_C.ExecuteUbergraph_FlashTrapModInst"));
+	static auto fn = UObject::FindObject<UFunction>("Function FlashTrapModInst.FlashTrapModInst_C.ExecuteUbergraph_FlashTrapModInst");
 
 	struct
 	{

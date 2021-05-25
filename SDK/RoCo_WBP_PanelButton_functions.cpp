@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PanelButton_C::SetIsDisabled(bool bDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.SetIsDisabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.SetIsDisabled");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_PanelButton_C::SetIsDisabled(bool bDisabled)
 
 bool UWBP_PanelButton_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.NavigateConfirm");
 
 	struct
 	{
@@ -58,7 +58,7 @@ bool UWBP_PanelButton_C::NavigateConfirm()
 
 void UWBP_PanelButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_PanelButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnBu
 
 void UWBP_PanelButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_PanelButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnBu
 
 void UWBP_PanelButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_PanelButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnBu
 
 void UWBP_PanelButton_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.GamepadHover");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_PanelButton_C::GamepadHover()
 
 void UWBP_PanelButton_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.GamepadUnhover");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_PanelButton_C::GamepadUnhover()
 
 void UWBP_PanelButton_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.GamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.GamepadConfirm");
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_PanelButton_C::GamepadConfirm()
 
 void UWBP_PanelButton_C::Do_Hover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.Do Hover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.Do Hover");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_PanelButton_C::Do_Hover()
 
 void UWBP_PanelButton_C::Do_Unhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.Do Unhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.Do Unhover");
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_PanelButton_C::Do_Unhover()
 
 void UWBP_PanelButton_C::ExecuteUbergraph_WBP_PanelButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.ExecuteUbergraph_WBP_PanelButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.ExecuteUbergraph_WBP_PanelButton");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_PanelButton_C::ExecuteUbergraph_WBP_PanelButton(int EntryPoint)
 
 void UWBP_PanelButton_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UWBP_PanelButton_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 
 void UWBP_PanelButton_C::OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.OnHovered__DelegateSignature");
 
 	struct
 	{
@@ -248,7 +248,7 @@ void UWBP_PanelButton_C::OnHovered__DelegateSignature(class UWidget* Widget)
 
 void UWBP_PanelButton_C::OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelButton.WBP_PanelButton_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelButton.WBP_PanelButton_C.OnClicked__DelegateSignature");
 
 	struct
 	{

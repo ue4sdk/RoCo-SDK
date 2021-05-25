@@ -17,7 +17,7 @@ namespace SDK
 
 void UCombatLogElement_C::ClearInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.ClearInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.ClearInfo");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UCombatLogElement_C::ClearInfo()
 
 void UCombatLogElement_C::OnSetInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.OnSetInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.OnSetInfo");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UCombatLogElement_C::OnSetInfo()
 
 void UCombatLogElement_C::SetMessageData(const struct FScreenLogData& MessageData, class UCombatLogElement_C** CombatLogElement, bool* IsValid)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.SetMessageData"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.SetMessageData");
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UCombatLogElement_C::SetMessageData(const struct FScreenLogData& MessageDat
 
 void UCombatLogElement_C::GetVictimTextColor(struct FSlateColor* Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.GetVictimTextColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.GetVictimTextColor");
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UCombatLogElement_C::GetVictimTextColor(struct FSlateColor* Color)
 
 void UCombatLogElement_C::GetInstigatorTextColor(struct FSlateColor* Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.GetInstigatorTextColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.GetInstigatorTextColor");
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UCombatLogElement_C::GetInstigatorTextColor(struct FSlateColor* Color)
 
 void UCombatLogElement_C::OnIconUpdated(class UTexture2D* Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.OnIconUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.OnIconUpdated");
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UCombatLogElement_C::OnIconUpdated(class UTexture2D* Texture)
 
 void UCombatLogElement_C::Transition()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.Transition"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.Transition");
 
 	struct
 	{
@@ -160,7 +160,7 @@ void UCombatLogElement_C::Transition()
 
 void UCombatLogElement_C::OnIconUpdated_Event_1(class UTexture2D* Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.OnIconUpdated_Event_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.OnIconUpdated_Event_1");
 
 	struct
 	{
@@ -178,7 +178,7 @@ void UCombatLogElement_C::OnIconUpdated_Event_1(class UTexture2D* Texture)
 
 void UCombatLogElement_C::OnFadeOutAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.OnFadeOutAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.OnFadeOutAnimFinished");
 
 	struct
 	{
@@ -194,7 +194,7 @@ void UCombatLogElement_C::OnFadeOutAnimFinished()
 
 void UCombatLogElement_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.Construct");
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UCombatLogElement_C::Construct()
 
 void UCombatLogElement_C::FadeOut()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.FadeOut"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.FadeOut");
 
 	struct
 	{
@@ -226,7 +226,7 @@ void UCombatLogElement_C::FadeOut()
 
 void UCombatLogElement_C::StopAnimsAndTimers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.StopAnimsAndTimers"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.StopAnimsAndTimers");
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UCombatLogElement_C::StopAnimsAndTimers()
 
 void UCombatLogElement_C::ExecuteUbergraph_CombatLogElement(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CombatLogElement.CombatLogElement_C.ExecuteUbergraph_CombatLogElement"));
+	static auto fn = UObject::FindObject<UFunction>("Function CombatLogElement.CombatLogElement_C.ExecuteUbergraph_CombatLogElement");
 
 	struct
 	{

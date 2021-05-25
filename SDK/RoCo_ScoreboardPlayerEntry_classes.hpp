@@ -55,7 +55,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass ScoreboardPlayerEntry.ScoreboardPlayerEntry_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass ScoreboardPlayerEntry.ScoreboardPlayerEntry_C");
 		return ptr;
 	}
 

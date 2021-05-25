@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_UniqueWeaponPrompt_C::CleanUpWeaponPrompt(class UKSWeaponComponent* InactiveWeapon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.CleanUpWeaponPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.CleanUpWeaponPrompt");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_UniqueWeaponPrompt_C::CleanUpWeaponPrompt(class UKSWeaponComponent* In
 
 void UWBP_UniqueWeaponPrompt_C::SetUpWeaponPrompt(class UKSWeaponComponent* ActiveWeapon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.SetUpWeaponPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.SetUpWeaponPrompt");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_UniqueWeaponPrompt_C::SetUpWeaponPrompt(class UKSWeaponComponent* Acti
 
 void UWBP_UniqueWeaponPrompt_C::Finished_004258744317629FEEB1E5873FEB9A5D()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.Finished_004258744317629FEEB1E5873FEB9A5D"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.Finished_004258744317629FEEB1E5873FEB9A5D");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_UniqueWeaponPrompt_C::Finished_004258744317629FEEB1E5873FEB9A5D()
 
 void UWBP_UniqueWeaponPrompt_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.InitializeWidget");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_UniqueWeaponPrompt_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_UniqueWeaponPrompt_C::EquipmentAdded(class UKSWeaponComponent* AddedEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.EquipmentAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.EquipmentAdded");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_UniqueWeaponPrompt_C::EquipmentAdded(class UKSWeaponComponent* AddedEq
 
 void UWBP_UniqueWeaponPrompt_C::EquipmentRemoved(class UKSWeaponComponent* RemovedEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.EquipmentRemoved"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.EquipmentRemoved");
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_UniqueWeaponPrompt_C::EquipmentRemoved(class UKSWeaponComponent* Remov
 
 void UWBP_UniqueWeaponPrompt_C::AddActiveWeapon(class UKSWeaponComponent* ActiveWeapon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.AddActiveWeapon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.AddActiveWeapon");
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWBP_UniqueWeaponPrompt_C::AddActiveWeapon(class UKSWeaponComponent* Active
 
 void UWBP_UniqueWeaponPrompt_C::WeaponWithPromptChangedState(class UKSWeaponComponent* WeaponComponent, EWeaponStateNew OldState, EWeaponStateNew NewState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.WeaponWithPromptChangedState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.WeaponWithPromptChangedState");
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UWBP_UniqueWeaponPrompt_C::WeaponWithPromptChangedState(class UKSWeaponComp
 
 void UWBP_UniqueWeaponPrompt_C::OnRoundOver(class AKSGameState* GameState, const struct FRoundResult& RoundResult)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.OnRoundOver"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.OnRoundOver");
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_UniqueWeaponPrompt_C::OnRoundOver(class AKSGameState* GameState, const
 
 void UWBP_UniqueWeaponPrompt_C::RemoveInactiveWeapon(class UKSWeaponComponent* InactiveWeapon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.RemoveInactiveWeapon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.RemoveInactiveWeapon");
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UWBP_UniqueWeaponPrompt_C::RemoveInactiveWeapon(class UKSWeaponComponent* I
 
 void UWBP_UniqueWeaponPrompt_C::BulwarkSidearmFailedToFire(class AKSWeapon* Weapon, EKSAbilityUsageFailureType FailureType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.BulwarkSidearmFailedToFire"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.BulwarkSidearmFailedToFire");
 
 	struct
 	{
@@ -247,7 +247,7 @@ void UWBP_UniqueWeaponPrompt_C::BulwarkSidearmFailedToFire(class AKSWeapon* Weap
 
 void UWBP_UniqueWeaponPrompt_C::ExecuteUbergraph_WBP_UniqueWeaponPrompt(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.ExecuteUbergraph_WBP_UniqueWeaponPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_UniqueWeaponPrompt.WBP_UniqueWeaponPrompt_C.ExecuteUbergraph_WBP_UniqueWeaponPrompt");
 
 	struct
 	{

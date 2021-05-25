@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class NiagaraCore.NiagaraMergeable"));
+		static auto ptr = UObject::FindObject<UClass>("Class NiagaraCore.NiagaraMergeable");
 		return ptr;
 	}
 
@@ -37,7 +37,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class NiagaraCore.NiagaraDataInterfaceBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class NiagaraCore.NiagaraDataInterfaceBase");
 		return ptr;
 	}
 

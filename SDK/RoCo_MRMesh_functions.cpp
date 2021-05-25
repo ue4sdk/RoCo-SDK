@@ -17,7 +17,7 @@ namespace SDK
 
 void UMeshReconstructorBase::StopReconstruction()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MeshReconstructorBase.StopReconstruction"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MeshReconstructorBase.StopReconstruction");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UMeshReconstructorBase::StopReconstruction()
 
 void UMeshReconstructorBase::StartReconstruction()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MeshReconstructorBase.StartReconstruction"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MeshReconstructorBase.StartReconstruction");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UMeshReconstructorBase::StartReconstruction()
 
 void UMeshReconstructorBase::PauseReconstruction()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MeshReconstructorBase.PauseReconstruction"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MeshReconstructorBase.PauseReconstruction");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UMeshReconstructorBase::PauseReconstruction()
 
 bool UMeshReconstructorBase::IsReconstructionStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MeshReconstructorBase.IsReconstructionStarted"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MeshReconstructorBase.IsReconstructionStarted");
 
 	struct
 	{
@@ -88,7 +88,7 @@ bool UMeshReconstructorBase::IsReconstructionStarted()
 
 bool UMeshReconstructorBase::IsReconstructionPaused()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MeshReconstructorBase.IsReconstructionPaused"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MeshReconstructorBase.IsReconstructionPaused");
 
 	struct
 	{
@@ -107,7 +107,7 @@ bool UMeshReconstructorBase::IsReconstructionPaused()
 
 void UMeshReconstructorBase::DisconnectMRMesh()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MeshReconstructorBase.DisconnectMRMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MeshReconstructorBase.DisconnectMRMesh");
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UMeshReconstructorBase::DisconnectMRMesh()
 
 void UMeshReconstructorBase::ConnectMRMesh(class UMRMeshComponent* Mesh)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MeshReconstructorBase.ConnectMRMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MeshReconstructorBase.ConnectMRMesh");
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UMeshReconstructorBase::ConnectMRMesh(class UMRMeshComponent* Mesh)
 
 void UMockDataMeshTrackerComponent::OnMockDataMeshTrackerUpdated__DelegateSignature(int Index, TArray<struct FVector> Vertices, TArray<int> Triangles, TArray<struct FVector> Normals, TArray<float> Confidence)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction MRMesh.MockDataMeshTrackerComponent.OnMockDataMeshTrackerUpdated__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction MRMesh.MockDataMeshTrackerComponent.OnMockDataMeshTrackerUpdated__DelegateSignature");
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UMockDataMeshTrackerComponent::OnMockDataMeshTrackerUpdated__DelegateSignat
 
 void UMockDataMeshTrackerComponent::DisconnectMRMesh(class UMRMeshComponent* InMRMeshPtr)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MockDataMeshTrackerComponent.DisconnectMRMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MockDataMeshTrackerComponent.DisconnectMRMesh");
 
 	struct
 	{
@@ -197,7 +197,7 @@ void UMockDataMeshTrackerComponent::DisconnectMRMesh(class UMRMeshComponent* InM
 
 void UMockDataMeshTrackerComponent::ConnectMRMesh(class UMRMeshComponent* InMRMeshPtr)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MockDataMeshTrackerComponent.ConnectMRMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MockDataMeshTrackerComponent.ConnectMRMesh");
 
 	struct
 	{
@@ -217,7 +217,7 @@ void UMockDataMeshTrackerComponent::ConnectMRMesh(class UMRMeshComponent* InMRMe
 
 bool UMRMeshComponent::IsConnected()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MRMeshComponent.IsConnected"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MRMeshComponent.IsConnected");
 
 	struct
 	{
@@ -236,7 +236,7 @@ bool UMRMeshComponent::IsConnected()
 
 void UMRMeshComponent::ForceNavMeshUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MRMeshComponent.ForceNavMeshUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MRMeshComponent.ForceNavMeshUpdate");
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UMRMeshComponent::ForceNavMeshUpdate()
 
 void UMRMeshComponent::Clear()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MRMesh.MRMeshComponent.Clear"));
+	static auto fn = UObject::FindObject<UFunction>("Function MRMesh.MRMeshComponent.Clear");
 
 	struct
 	{

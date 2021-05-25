@@ -24,7 +24,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass CamMod_Mantle.CamMod_Mantle_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass CamMod_Mantle.CamMod_Mantle_C");
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void AQosBeaconClient::ServerQosRequest(const struct FString& InSessionId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Qos.QosBeaconClient.ServerQosRequest"));
+	static auto fn = UObject::FindObject<UFunction>("Function Qos.QosBeaconClient.ServerQosRequest");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void AQosBeaconClient::ServerQosRequest(const struct FString& InSessionId)
 
 void AQosBeaconClient::ClientQosResponse(EQosResponseType Response)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Qos.QosBeaconClient.ClientQosResponse"));
+	static auto fn = UObject::FindObject<UFunction>("Function Qos.QosBeaconClient.ClientQosResponse");
 
 	struct
 	{

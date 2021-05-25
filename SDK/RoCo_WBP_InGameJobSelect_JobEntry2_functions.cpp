@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_InGameJobSelect_JobEntry2_C::SetBanStates(EJobSelectionState JobSelection)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.SetBanStates"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.SetBanStates");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::SetBanStates(EJobSelectionState JobSelect
 
 void UWBP_InGameJobSelect_JobEntry2_C::TryToPlayAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.TryToPlayAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.TryToPlayAnim");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::TryToPlayAnim()
 
 void UWBP_InGameJobSelect_JobEntry2_C::CanSelect(bool* CanSelect)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.CanSelect"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.CanSelect");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::CanSelect(bool* CanSelect)
 
 void UWBP_InGameJobSelect_JobEntry2_C::CreateDesatMaterial()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.CreateDesatMaterial"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.CreateDesatMaterial");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::CreateDesatMaterial()
 
 void UWBP_InGameJobSelect_JobEntry2_C::Update_Job_Entry(class UJobSelectionEntryDetails* JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.Update Job Entry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.Update Job Entry");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::Update_Job_Entry(class UJobSelectionEntry
 
 bool UWBP_InGameJobSelect_JobEntry2_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.NavigateConfirm");
 
 	struct
 	{
@@ -134,7 +134,7 @@ bool UWBP_InGameJobSelect_JobEntry2_C::NavigateConfirm()
 
 void UWBP_InGameJobSelect_JobEntry2_C::PopulateJobEntrySlot(class UJobSelectionEntryDetails* JobDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.PopulateJobEntrySlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.PopulateJobEntrySlot");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::PopulateJobEntrySlot(class UJobSelectionE
 
 void UWBP_InGameJobSelect_JobEntry2_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.GamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.GamepadConfirm");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::GamepadConfirm()
 
 void UWBP_InGameJobSelect_JobEntry2_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::BndEvt__HitTarget_K2Node_ComponentBoundEv
 
 void UWBP_InGameJobSelect_JobEntry2_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::BndEvt__HitTarget_K2Node_ComponentBoundEv
 
 void UWBP_InGameJobSelect_JobEntry2_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.GamepadHover");
 
 	struct
 	{
@@ -216,7 +216,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::GamepadHover()
 
 void UWBP_InGameJobSelect_JobEntry2_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.GamepadUnhover");
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::GamepadUnhover()
 
 void UWBP_InGameJobSelect_JobEntry2_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -248,7 +248,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::BndEvt__HitTarget_K2Node_ComponentBoundEv
 
 void UWBP_InGameJobSelect_JobEntry2_C::SetHoverState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.SetHoverState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.SetHoverState");
 
 	struct
 	{
@@ -264,7 +264,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::SetHoverState()
 
 void UWBP_InGameJobSelect_JobEntry2_C::SetUnhoverState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.SetUnhoverState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.SetUnhoverState");
 
 	struct
 	{
@@ -280,7 +280,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::SetUnhoverState()
 
 void UWBP_InGameJobSelect_JobEntry2_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.OnInitialized");
 
 	struct
 	{
@@ -298,7 +298,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::OnInitialized()
 
 void UWBP_InGameJobSelect_JobEntry2_C::ExecuteUbergraph_WBP_InGameJobSelect_JobEntry2(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.ExecuteUbergraph_WBP_InGameJobSelect_JobEntry2"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.ExecuteUbergraph_WBP_InGameJobSelect_JobEntry2");
 
 	struct
 	{
@@ -316,7 +316,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::ExecuteUbergraph_WBP_InGameJobSelect_JobE
 
 void UWBP_InGameJobSelect_JobEntry2_C::OnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -335,7 +335,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::OnUnhovered__DelegateSignature()
 
 void UWBP_InGameJobSelect_JobEntry2_C::OnHovered__DelegateSignature(class UJobSelectionEntryDetails* JobEntry, class UKSWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.OnHovered__DelegateSignature");
 
 	struct
 	{
@@ -357,7 +357,7 @@ void UWBP_InGameJobSelect_JobEntry2_C::OnHovered__DelegateSignature(class UJobSe
 
 void UWBP_InGameJobSelect_JobEntry2_C::OnClicked__DelegateSignature(class UJobSelectionEntryDetails* JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_JobEntry2.WBP_InGameJobSelect_JobEntry2_C.OnClicked__DelegateSignature");
 
 	struct
 	{

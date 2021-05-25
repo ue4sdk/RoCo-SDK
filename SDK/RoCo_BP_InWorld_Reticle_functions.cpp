@@ -19,7 +19,7 @@ namespace SDK
 
 void ABP_InWorld_Reticle_C::SetWeaponComponent(class UKSWeaponComponent* WeaponComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_InWorld_Reticle.BP_InWorld_Reticle_C.SetWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_InWorld_Reticle.BP_InWorld_Reticle_C.SetWeaponComponent");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void ABP_InWorld_Reticle_C::SetWeaponComponent(class UKSWeaponComponent* WeaponC
 
 void ABP_InWorld_Reticle_C::SetPossession(class APlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_InWorld_Reticle.BP_InWorld_Reticle_C.SetPossession"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_InWorld_Reticle.BP_InWorld_Reticle_C.SetPossession");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void ABP_InWorld_Reticle_C::SetPossession(class APlayerState* PlayerState)
 
 void ABP_InWorld_Reticle_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_InWorld_Reticle.BP_InWorld_Reticle_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_InWorld_Reticle.BP_InWorld_Reticle_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void ABP_InWorld_Reticle_C::ReceiveBeginPlay()
 
 void ABP_InWorld_Reticle_C::ExecuteUbergraph_BP_InWorld_Reticle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_InWorld_Reticle.BP_InWorld_Reticle_C.ExecuteUbergraph_BP_InWorld_Reticle"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_InWorld_Reticle.BP_InWorld_Reticle_C.ExecuteUbergraph_BP_InWorld_Reticle");
 
 	struct
 	{

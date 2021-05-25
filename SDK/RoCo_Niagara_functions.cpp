@@ -19,7 +19,7 @@ namespace SDK
 
 void ANiagaraActor::SetDestroyOnSystemFinish(bool bShouldDestroyOnSystemFinish)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraActor.SetDestroyOnSystemFinish"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraActor.SetDestroyOnSystemFinish");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void ANiagaraActor::SetDestroyOnSystemFinish(bool bShouldDestroyOnSystemFinish)
 
 void ANiagaraActor::OnNiagaraSystemFinished(class UNiagaraComponent* FinishedComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraActor.OnNiagaraSystemFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraActor.OnNiagaraSystemFinished");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void ANiagaraActor::OnNiagaraSystemFinished(class UNiagaraComponent* FinishedCom
 
 void UNiagaraComponent::SetVariableVec4(const struct FName& InVariableName, const struct FVector4& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableVec4"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableVec4");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UNiagaraComponent::SetVariableVec4(const struct FName& InVariableName, cons
 
 void UNiagaraComponent::SetVariableVec3(const struct FName& InVariableName, const struct FVector& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableVec3"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableVec3");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UNiagaraComponent::SetVariableVec3(const struct FName& InVariableName, cons
 
 void UNiagaraComponent::SetVariableVec2(const struct FName& InVariableName, const struct FVector2D& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableVec2"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableVec2");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UNiagaraComponent::SetVariableVec2(const struct FName& InVariableName, cons
 
 void UNiagaraComponent::SetVariableQuat(const struct FName& InVariableName, const struct FQuat& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableQuat"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableQuat");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UNiagaraComponent::SetVariableQuat(const struct FName& InVariableName, cons
 
 void UNiagaraComponent::SetVariableObject(const struct FName& InVariableName, class UObject* Object)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableObject"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableObject");
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UNiagaraComponent::SetVariableObject(const struct FName& InVariableName, cl
 
 void UNiagaraComponent::SetVariableMaterial(const struct FName& InVariableName, class UMaterialInterface* Object)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableMaterial"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableMaterial");
 
 	struct
 	{
@@ -198,7 +198,7 @@ void UNiagaraComponent::SetVariableMaterial(const struct FName& InVariableName, 
 
 void UNiagaraComponent::SetVariableLinearColor(const struct FName& InVariableName, const struct FLinearColor& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableLinearColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableLinearColor");
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UNiagaraComponent::SetVariableLinearColor(const struct FName& InVariableNam
 
 void UNiagaraComponent::SetVariableInt(const struct FName& InVariableName, int InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableInt");
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UNiagaraComponent::SetVariableInt(const struct FName& InVariableName, int I
 
 void UNiagaraComponent::SetVariableFloat(const struct FName& InVariableName, float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableFloat");
 
 	struct
 	{
@@ -267,7 +267,7 @@ void UNiagaraComponent::SetVariableFloat(const struct FName& InVariableName, flo
 
 void UNiagaraComponent::SetVariableBool(const struct FName& InVariableName, bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableBool");
 
 	struct
 	{
@@ -290,7 +290,7 @@ void UNiagaraComponent::SetVariableBool(const struct FName& InVariableName, bool
 
 void UNiagaraComponent::SetVariableActor(const struct FName& InVariableName, class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetVariableActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetVariableActor");
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UNiagaraComponent::SetVariableActor(const struct FName& InVariableName, cla
 
 void UNiagaraComponent::SetSeekDelta(float InSeekDelta)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetSeekDelta"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetSeekDelta");
 
 	struct
 	{
@@ -332,7 +332,7 @@ void UNiagaraComponent::SetSeekDelta(float InSeekDelta)
 
 void UNiagaraComponent::SetRenderingEnabled(bool bInRenderingEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetRenderingEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetRenderingEnabled");
 
 	struct
 	{
@@ -353,7 +353,7 @@ void UNiagaraComponent::SetRenderingEnabled(bool bInRenderingEnabled)
 
 void UNiagaraComponent::SetPreviewLODDistance(bool bEnablePreviewLODDistance, float PreviewLODDistance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetPreviewLODDistance"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetPreviewLODDistance");
 
 	struct
 	{
@@ -375,7 +375,7 @@ void UNiagaraComponent::SetPreviewLODDistance(bool bEnablePreviewLODDistance, fl
 
 void UNiagaraComponent::SetPaused(bool bInPaused)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetPaused"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetPaused");
 
 	struct
 	{
@@ -396,7 +396,7 @@ void UNiagaraComponent::SetPaused(bool bInPaused)
 
 void UNiagaraComponent::SetNiagaraVariableVec4(const struct FString& InVariableName, const struct FVector4& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableVec4"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableVec4");
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UNiagaraComponent::SetNiagaraVariableVec4(const struct FString& InVariableN
 
 void UNiagaraComponent::SetNiagaraVariableVec3(const struct FString& InVariableName, const struct FVector& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableVec3"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableVec3");
 
 	struct
 	{
@@ -442,7 +442,7 @@ void UNiagaraComponent::SetNiagaraVariableVec3(const struct FString& InVariableN
 
 void UNiagaraComponent::SetNiagaraVariableVec2(const struct FString& InVariableName, const struct FVector2D& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableVec2"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableVec2");
 
 	struct
 	{
@@ -465,7 +465,7 @@ void UNiagaraComponent::SetNiagaraVariableVec2(const struct FString& InVariableN
 
 void UNiagaraComponent::SetNiagaraVariableQuat(const struct FString& InVariableName, const struct FQuat& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableQuat"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableQuat");
 
 	struct
 	{
@@ -488,7 +488,7 @@ void UNiagaraComponent::SetNiagaraVariableQuat(const struct FString& InVariableN
 
 void UNiagaraComponent::SetNiagaraVariableObject(const struct FString& InVariableName, class UObject* Object)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableObject"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableObject");
 
 	struct
 	{
@@ -511,7 +511,7 @@ void UNiagaraComponent::SetNiagaraVariableObject(const struct FString& InVariabl
 
 void UNiagaraComponent::SetNiagaraVariableLinearColor(const struct FString& InVariableName, const struct FLinearColor& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableLinearColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableLinearColor");
 
 	struct
 	{
@@ -534,7 +534,7 @@ void UNiagaraComponent::SetNiagaraVariableLinearColor(const struct FString& InVa
 
 void UNiagaraComponent::SetNiagaraVariableInt(const struct FString& InVariableName, int InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableInt");
 
 	struct
 	{
@@ -557,7 +557,7 @@ void UNiagaraComponent::SetNiagaraVariableInt(const struct FString& InVariableNa
 
 void UNiagaraComponent::SetNiagaraVariableFloat(const struct FString& InVariableName, float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableFloat");
 
 	struct
 	{
@@ -580,7 +580,7 @@ void UNiagaraComponent::SetNiagaraVariableFloat(const struct FString& InVariable
 
 void UNiagaraComponent::SetNiagaraVariableBool(const struct FString& InVariableName, bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableBool");
 
 	struct
 	{
@@ -603,7 +603,7 @@ void UNiagaraComponent::SetNiagaraVariableBool(const struct FString& InVariableN
 
 void UNiagaraComponent::SetNiagaraVariableActor(const struct FString& InVariableName, class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetNiagaraVariableActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetNiagaraVariableActor");
 
 	struct
 	{
@@ -625,7 +625,7 @@ void UNiagaraComponent::SetNiagaraVariableActor(const struct FString& InVariable
 
 void UNiagaraComponent::SetMaxSimTime(float InMaxTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetMaxSimTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetMaxSimTime");
 
 	struct
 	{
@@ -645,7 +645,7 @@ void UNiagaraComponent::SetMaxSimTime(float InMaxTime)
 
 void UNiagaraComponent::SetForceSolo(bool bInForceSolo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetForceSolo"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetForceSolo");
 
 	struct
 	{
@@ -665,7 +665,7 @@ void UNiagaraComponent::SetForceSolo(bool bInForceSolo)
 
 void UNiagaraComponent::SetDesiredAge(float InDesiredAge)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetDesiredAge"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetDesiredAge");
 
 	struct
 	{
@@ -685,7 +685,7 @@ void UNiagaraComponent::SetDesiredAge(float InDesiredAge)
 
 void UNiagaraComponent::SetCanRenderWhileSeeking(bool bInCanRenderWhileSeeking)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetCanRenderWhileSeeking"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetCanRenderWhileSeeking");
 
 	struct
 	{
@@ -705,7 +705,7 @@ void UNiagaraComponent::SetCanRenderWhileSeeking(bool bInCanRenderWhileSeeking)
 
 void UNiagaraComponent::SetAutoDestroy(bool bInAutoDestroy)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetAutoDestroy"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetAutoDestroy");
 
 	struct
 	{
@@ -725,7 +725,7 @@ void UNiagaraComponent::SetAutoDestroy(bool bInAutoDestroy)
 
 void UNiagaraComponent::SetAsset(class UNiagaraSystem* InAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetAsset"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetAsset");
 
 	struct
 	{
@@ -745,7 +745,7 @@ void UNiagaraComponent::SetAsset(class UNiagaraSystem* InAsset)
 
 void UNiagaraComponent::SetAllowScalability(bool bAllow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetAllowScalability"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetAllowScalability");
 
 	struct
 	{
@@ -765,7 +765,7 @@ void UNiagaraComponent::SetAllowScalability(bool bAllow)
 
 void UNiagaraComponent::SetAgeUpdateMode(ENiagaraAgeUpdateMode InAgeUpdateMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SetAgeUpdateMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SetAgeUpdateMode");
 
 	struct
 	{
@@ -785,7 +785,7 @@ void UNiagaraComponent::SetAgeUpdateMode(ENiagaraAgeUpdateMode InAgeUpdateMode)
 
 void UNiagaraComponent::SeekToDesiredAge(float InDesiredAge)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.SeekToDesiredAge"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.SeekToDesiredAge");
 
 	struct
 	{
@@ -803,7 +803,7 @@ void UNiagaraComponent::SeekToDesiredAge(float InDesiredAge)
 
 void UNiagaraComponent::ResetSystem()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.ResetSystem"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.ResetSystem");
 
 	struct
 	{
@@ -819,7 +819,7 @@ void UNiagaraComponent::ResetSystem()
 
 void UNiagaraComponent::ReinitializeSystem()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.ReinitializeSystem"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.ReinitializeSystem");
 
 	struct
 	{
@@ -837,7 +837,7 @@ void UNiagaraComponent::ReinitializeSystem()
 
 bool UNiagaraComponent::IsPaused()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.IsPaused"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.IsPaused");
 
 	struct
 	{
@@ -858,7 +858,7 @@ bool UNiagaraComponent::IsPaused()
 
 float UNiagaraComponent::GetSeekDelta()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetSeekDelta"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetSeekDelta");
 
 	struct
 	{
@@ -879,7 +879,7 @@ float UNiagaraComponent::GetSeekDelta()
 
 bool UNiagaraComponent::GetPreviewLODDistanceEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetPreviewLODDistanceEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetPreviewLODDistanceEnabled");
 
 	struct
 	{
@@ -900,7 +900,7 @@ bool UNiagaraComponent::GetPreviewLODDistanceEnabled()
 
 int UNiagaraComponent::GetPreviewLODDistance()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetPreviewLODDistance"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetPreviewLODDistance");
 
 	struct
 	{
@@ -923,7 +923,7 @@ int UNiagaraComponent::GetPreviewLODDistance()
 
 TArray<struct FVector> UNiagaraComponent::GetNiagaraParticleValueVec3_DebugOnly(const struct FString& InEmitterName, const struct FString& InValueName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetNiagaraParticleValueVec3_DebugOnly"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetNiagaraParticleValueVec3_DebugOnly");
 
 	struct
 	{
@@ -950,7 +950,7 @@ TArray<struct FVector> UNiagaraComponent::GetNiagaraParticleValueVec3_DebugOnly(
 
 TArray<float> UNiagaraComponent::GetNiagaraParticleValues_DebugOnly(const struct FString& InEmitterName, const struct FString& InValueName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetNiagaraParticleValues_DebugOnly"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetNiagaraParticleValues_DebugOnly");
 
 	struct
 	{
@@ -976,7 +976,7 @@ TArray<float> UNiagaraComponent::GetNiagaraParticleValues_DebugOnly(const struct
 
 TArray<struct FVector> UNiagaraComponent::GetNiagaraParticlePositions_DebugOnly(const struct FString& InEmitterName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetNiagaraParticlePositions_DebugOnly"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetNiagaraParticlePositions_DebugOnly");
 
 	struct
 	{
@@ -999,7 +999,7 @@ TArray<struct FVector> UNiagaraComponent::GetNiagaraParticlePositions_DebugOnly(
 
 float UNiagaraComponent::GetMaxSimTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetMaxSimTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetMaxSimTime");
 
 	struct
 	{
@@ -1020,7 +1020,7 @@ float UNiagaraComponent::GetMaxSimTime()
 
 bool UNiagaraComponent::GetForceSolo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetForceSolo"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetForceSolo");
 
 	struct
 	{
@@ -1041,7 +1041,7 @@ bool UNiagaraComponent::GetForceSolo()
 
 float UNiagaraComponent::GetDesiredAge()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetDesiredAge"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetDesiredAge");
 
 	struct
 	{
@@ -1063,7 +1063,7 @@ float UNiagaraComponent::GetDesiredAge()
 
 class UNiagaraDataInterface* UNiagaraComponent::GetDataInterface(const struct FString& Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetDataInterface"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetDataInterface");
 
 	struct
 	{
@@ -1086,7 +1086,7 @@ class UNiagaraDataInterface* UNiagaraComponent::GetDataInterface(const struct FS
 
 class UNiagaraSystem* UNiagaraComponent::GetAsset()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetAsset"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetAsset");
 
 	struct
 	{
@@ -1107,7 +1107,7 @@ class UNiagaraSystem* UNiagaraComponent::GetAsset()
 
 ENiagaraAgeUpdateMode UNiagaraComponent::GetAgeUpdateMode()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.GetAgeUpdateMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.GetAgeUpdateMode");
 
 	struct
 	{
@@ -1129,7 +1129,7 @@ ENiagaraAgeUpdateMode UNiagaraComponent::GetAgeUpdateMode()
 
 void UNiagaraComponent::AdvanceSimulationByTime(float SimulateTime, float TickDeltaSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.AdvanceSimulationByTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.AdvanceSimulationByTime");
 
 	struct
 	{
@@ -1152,7 +1152,7 @@ void UNiagaraComponent::AdvanceSimulationByTime(float SimulateTime, float TickDe
 
 void UNiagaraComponent::AdvanceSimulation(int TickCount, float TickDeltaSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraComponent.AdvanceSimulation"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraComponent.AdvanceSimulation");
 
 	struct
 	{
@@ -1175,7 +1175,7 @@ void UNiagaraComponent::AdvanceSimulation(int TickCount, float TickDeltaSeconds)
 
 void UNiagaraParticleCallbackHandler::ReceiveParticleData(TArray<struct FBasicParticleData> Data, class UNiagaraSystem* NiagaraSystem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParticleCallbackHandler.ReceiveParticleData"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParticleCallbackHandler.ReceiveParticleData");
 
 	struct
 	{
@@ -1199,7 +1199,7 @@ void UNiagaraParticleCallbackHandler::ReceiveParticleData(TArray<struct FBasicPa
 
 void UNiagaraDataInterfaceGrid2DCollection::GetTextureSize(class UNiagaraComponent* Component, int* SizeX, int* SizeY)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraDataInterfaceGrid2DCollection.GetTextureSize"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraDataInterfaceGrid2DCollection.GetTextureSize");
 
 	struct
 	{
@@ -1228,7 +1228,7 @@ void UNiagaraDataInterfaceGrid2DCollection::GetTextureSize(class UNiagaraCompone
 
 void UNiagaraDataInterfaceGrid2DCollection::GetRawTextureSize(class UNiagaraComponent* Component, int* SizeX, int* SizeY)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraDataInterfaceGrid2DCollection.GetRawTextureSize"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraDataInterfaceGrid2DCollection.GetRawTextureSize");
 
 	struct
 	{
@@ -1258,7 +1258,7 @@ void UNiagaraDataInterfaceGrid2DCollection::GetRawTextureSize(class UNiagaraComp
 
 bool UNiagaraDataInterfaceGrid2DCollection::FillTexture2D(class UNiagaraComponent* Component, class UTextureRenderTarget2D* Dest, int AttributeIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraDataInterfaceGrid2DCollection.FillTexture2D"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraDataInterfaceGrid2DCollection.FillTexture2D");
 
 	struct
 	{
@@ -1289,7 +1289,7 @@ bool UNiagaraDataInterfaceGrid2DCollection::FillTexture2D(class UNiagaraComponen
 
 bool UNiagaraDataInterfaceGrid2DCollection::FillRawTexture2D(class UNiagaraComponent* Component, class UTextureRenderTarget2D* Dest, int* TilesX, int* TilesY)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraDataInterfaceGrid2DCollection.FillRawTexture2D"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraDataInterfaceGrid2DCollection.FillRawTexture2D");
 
 	struct
 	{
@@ -1331,7 +1331,7 @@ bool UNiagaraDataInterfaceGrid2DCollection::FillRawTexture2D(class UNiagaraCompo
 
 class UNiagaraComponent* UNiagaraFunctionLibrary::SpawnSystemAttached(class UNiagaraSystem* SystemTemplate, class USceneComponent* AttachToComponent, const struct FName& AttachPointName, const struct FVector& Location, const struct FRotator& Rotation, TEnumAsByte<EAttachLocation> LocationType, bool bAutoDestroy, bool bAutoActivate, ENCPoolMethod PoolingMethod, bool bPreCullCheck)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraFunctionLibrary.SpawnSystemAttached"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraFunctionLibrary.SpawnSystemAttached");
 
 	struct
 	{
@@ -1382,7 +1382,7 @@ class UNiagaraComponent* UNiagaraFunctionLibrary::SpawnSystemAttached(class UNia
 
 class UNiagaraComponent* UNiagaraFunctionLibrary::SpawnSystemAtLocation(class UObject* WorldContextObject, class UNiagaraSystem* SystemTemplate, const struct FVector& Location, const struct FRotator& Rotation, const struct FVector& Scale, bool bAutoDestroy, bool bAutoActivate, ENCPoolMethod PoolingMethod, bool bPreCullCheck)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraFunctionLibrary.SpawnSystemAtLocation"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraFunctionLibrary.SpawnSystemAtLocation");
 
 	struct
 	{
@@ -1424,7 +1424,7 @@ class UNiagaraComponent* UNiagaraFunctionLibrary::SpawnSystemAtLocation(class UO
 
 void UNiagaraFunctionLibrary::SetVolumeTextureObject(class UNiagaraComponent* NiagaraSystem, const struct FString& OverrideName, class UVolumeTexture* Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraFunctionLibrary.SetVolumeTextureObject"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraFunctionLibrary.SetVolumeTextureObject");
 
 	struct
 	{
@@ -1451,7 +1451,7 @@ void UNiagaraFunctionLibrary::SetVolumeTextureObject(class UNiagaraComponent* Ni
 
 void UNiagaraFunctionLibrary::SetTextureObject(class UNiagaraComponent* NiagaraSystem, const struct FString& OverrideName, class UTexture* Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraFunctionLibrary.SetTextureObject"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraFunctionLibrary.SetTextureObject");
 
 	struct
 	{
@@ -1478,7 +1478,7 @@ void UNiagaraFunctionLibrary::SetTextureObject(class UNiagaraComponent* NiagaraS
 
 void UNiagaraFunctionLibrary::OverrideSystemUserVariableStaticMeshComponent(class UNiagaraComponent* NiagaraSystem, const struct FString& OverrideName, class UStaticMeshComponent* StaticMeshComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableStaticMeshComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableStaticMeshComponent");
 
 	struct
 	{
@@ -1505,7 +1505,7 @@ void UNiagaraFunctionLibrary::OverrideSystemUserVariableStaticMeshComponent(clas
 
 void UNiagaraFunctionLibrary::OverrideSystemUserVariableStaticMesh(class UNiagaraComponent* NiagaraSystem, const struct FString& OverrideName, class UStaticMesh* StaticMesh)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableStaticMesh"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableStaticMesh");
 
 	struct
 	{
@@ -1532,7 +1532,7 @@ void UNiagaraFunctionLibrary::OverrideSystemUserVariableStaticMesh(class UNiagar
 
 void UNiagaraFunctionLibrary::OverrideSystemUserVariableSkeletalMeshComponent(class UNiagaraComponent* NiagaraSystem, const struct FString& OverrideName, class USkeletalMeshComponent* SkeletalMeshComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableSkeletalMeshComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraFunctionLibrary.OverrideSystemUserVariableSkeletalMeshComponent");
 
 	struct
 	{
@@ -1559,7 +1559,7 @@ void UNiagaraFunctionLibrary::OverrideSystemUserVariableSkeletalMeshComponent(cl
 
 class UNiagaraParameterCollectionInstance* UNiagaraFunctionLibrary::GetNiagaraParameterCollection(class UObject* WorldContextObject, class UNiagaraParameterCollection* Collection)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraFunctionLibrary.GetNiagaraParameterCollection"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraFunctionLibrary.GetNiagaraParameterCollection");
 
 	struct
 	{
@@ -1586,7 +1586,7 @@ class UNiagaraParameterCollectionInstance* UNiagaraFunctionLibrary::GetNiagaraPa
 
 void UNiagaraParameterCollectionInstance::SetVectorParameter(const struct FString& InVariableName, const struct FVector& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.SetVectorParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.SetVectorParameter");
 
 	struct
 	{
@@ -1609,7 +1609,7 @@ void UNiagaraParameterCollectionInstance::SetVectorParameter(const struct FStrin
 
 void UNiagaraParameterCollectionInstance::SetVector4Parameter(const struct FString& InVariableName, const struct FVector4& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.SetVector4Parameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.SetVector4Parameter");
 
 	struct
 	{
@@ -1632,7 +1632,7 @@ void UNiagaraParameterCollectionInstance::SetVector4Parameter(const struct FStri
 
 void UNiagaraParameterCollectionInstance::SetVector2DParameter(const struct FString& InVariableName, const struct FVector2D& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.SetVector2DParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.SetVector2DParameter");
 
 	struct
 	{
@@ -1655,7 +1655,7 @@ void UNiagaraParameterCollectionInstance::SetVector2DParameter(const struct FStr
 
 void UNiagaraParameterCollectionInstance::SetQuatParameter(const struct FString& InVariableName, const struct FQuat& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.SetQuatParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.SetQuatParameter");
 
 	struct
 	{
@@ -1678,7 +1678,7 @@ void UNiagaraParameterCollectionInstance::SetQuatParameter(const struct FString&
 
 void UNiagaraParameterCollectionInstance::SetIntParameter(const struct FString& InVariableName, int InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.SetIntParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.SetIntParameter");
 
 	struct
 	{
@@ -1701,7 +1701,7 @@ void UNiagaraParameterCollectionInstance::SetIntParameter(const struct FString& 
 
 void UNiagaraParameterCollectionInstance::SetFloatParameter(const struct FString& InVariableName, float InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.SetFloatParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.SetFloatParameter");
 
 	struct
 	{
@@ -1724,7 +1724,7 @@ void UNiagaraParameterCollectionInstance::SetFloatParameter(const struct FString
 
 void UNiagaraParameterCollectionInstance::SetColorParameter(const struct FString& InVariableName, const struct FLinearColor& InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.SetColorParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.SetColorParameter");
 
 	struct
 	{
@@ -1747,7 +1747,7 @@ void UNiagaraParameterCollectionInstance::SetColorParameter(const struct FString
 
 void UNiagaraParameterCollectionInstance::SetBoolParameter(const struct FString& InVariableName, bool InValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.SetBoolParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.SetBoolParameter");
 
 	struct
 	{
@@ -1770,7 +1770,7 @@ void UNiagaraParameterCollectionInstance::SetBoolParameter(const struct FString&
 
 struct FVector UNiagaraParameterCollectionInstance::GetVectorParameter(const struct FString& InVariableName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.GetVectorParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.GetVectorParameter");
 
 	struct
 	{
@@ -1794,7 +1794,7 @@ struct FVector UNiagaraParameterCollectionInstance::GetVectorParameter(const str
 
 struct FVector4 UNiagaraParameterCollectionInstance::GetVector4Parameter(const struct FString& InVariableName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.GetVector4Parameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.GetVector4Parameter");
 
 	struct
 	{
@@ -1818,7 +1818,7 @@ struct FVector4 UNiagaraParameterCollectionInstance::GetVector4Parameter(const s
 
 struct FVector2D UNiagaraParameterCollectionInstance::GetVector2DParameter(const struct FString& InVariableName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.GetVector2DParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.GetVector2DParameter");
 
 	struct
 	{
@@ -1842,7 +1842,7 @@ struct FVector2D UNiagaraParameterCollectionInstance::GetVector2DParameter(const
 
 struct FQuat UNiagaraParameterCollectionInstance::GetQuatParameter(const struct FString& InVariableName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.GetQuatParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.GetQuatParameter");
 
 	struct
 	{
@@ -1866,7 +1866,7 @@ struct FQuat UNiagaraParameterCollectionInstance::GetQuatParameter(const struct 
 
 int UNiagaraParameterCollectionInstance::GetIntParameter(const struct FString& InVariableName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.GetIntParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.GetIntParameter");
 
 	struct
 	{
@@ -1890,7 +1890,7 @@ int UNiagaraParameterCollectionInstance::GetIntParameter(const struct FString& I
 
 float UNiagaraParameterCollectionInstance::GetFloatParameter(const struct FString& InVariableName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.GetFloatParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.GetFloatParameter");
 
 	struct
 	{
@@ -1914,7 +1914,7 @@ float UNiagaraParameterCollectionInstance::GetFloatParameter(const struct FStrin
 
 struct FLinearColor UNiagaraParameterCollectionInstance::GetColorParameter(const struct FString& InVariableName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.GetColorParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.GetColorParameter");
 
 	struct
 	{
@@ -1938,7 +1938,7 @@ struct FLinearColor UNiagaraParameterCollectionInstance::GetColorParameter(const
 
 bool UNiagaraParameterCollectionInstance::GetBoolParameter(const struct FString& InVariableName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraParameterCollectionInstance.GetBoolParameter"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraParameterCollectionInstance.GetBoolParameter");
 
 	struct
 	{
@@ -1961,7 +1961,7 @@ bool UNiagaraParameterCollectionInstance::GetBoolParameter(const struct FString&
 
 void ANiagaraPreviewBase::SetSystem(class UNiagaraSystem* InSystem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraPreviewBase.SetSystem"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraPreviewBase.SetSystem");
 
 	struct
 	{
@@ -1982,7 +1982,7 @@ void ANiagaraPreviewBase::SetSystem(class UNiagaraSystem* InSystem)
 
 void ANiagaraPreviewBase::SetLabelText(const struct FText& InXAxisText, const struct FText& InYAxisText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraPreviewBase.SetLabelText"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraPreviewBase.SetLabelText");
 
 	struct
 	{
@@ -2004,7 +2004,7 @@ void ANiagaraPreviewBase::SetLabelText(const struct FText& InXAxisText, const st
 
 int UNiagaraPreviewAxis::Num()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraPreviewAxis.Num"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraPreviewAxis.Num");
 
 	struct
 	{
@@ -2028,7 +2028,7 @@ int UNiagaraPreviewAxis::Num()
 
 void UNiagaraPreviewAxis::ApplyToPreview(class UNiagaraComponent* PreviewComponent, int PreviewIndex, bool bIsXAxis, struct FString* OutLabelText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraPreviewAxis.ApplyToPreview"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraPreviewAxis.ApplyToPreview");
 
 	struct
 	{
@@ -2056,7 +2056,7 @@ void UNiagaraPreviewAxis::ApplyToPreview(class UNiagaraComponent* PreviewCompone
 
 void ANiagaraPreviewGrid::SetPaused(bool bPaused)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraPreviewGrid.SetPaused"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraPreviewGrid.SetPaused");
 
 	struct
 	{
@@ -2076,7 +2076,7 @@ void ANiagaraPreviewGrid::SetPaused(bool bPaused)
 
 void ANiagaraPreviewGrid::GetPreviews(TArray<class UNiagaraComponent*>* OutPreviews)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraPreviewGrid.GetPreviews"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraPreviewGrid.GetPreviews");
 
 	struct
 	{
@@ -2096,7 +2096,7 @@ void ANiagaraPreviewGrid::GetPreviews(TArray<class UNiagaraComponent*>* OutPrevi
 
 void ANiagaraPreviewGrid::DeactivatePreviews()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraPreviewGrid.DeactivatePreviews"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraPreviewGrid.DeactivatePreviews");
 
 	struct
 	{
@@ -2114,7 +2114,7 @@ void ANiagaraPreviewGrid::DeactivatePreviews()
 
 void ANiagaraPreviewGrid::ActivatePreviews(bool bReset)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraPreviewGrid.ActivatePreviews"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraPreviewGrid.ActivatePreviews");
 
 	struct
 	{
@@ -2132,7 +2132,7 @@ void ANiagaraPreviewGrid::ActivatePreviews(bool bReset)
 
 void UNiagaraScript::RaiseOnGPUCompilationComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Niagara.NiagaraScript.RaiseOnGPUCompilationComplete"));
+	static auto fn = UObject::FindObject<UFunction>("Function Niagara.NiagaraScript.RaiseOnGPUCompilationComplete");
 
 	struct
 	{

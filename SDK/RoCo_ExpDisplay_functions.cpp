@@ -19,7 +19,7 @@ namespace SDK
 
 void UExpDisplay_C::Make_Cash_Message(const struct FKSScoreChangeEvent& Event)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.Make Cash Message"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.Make Cash Message");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UExpDisplay_C::Make_Cash_Message(const struct FKSScoreChangeEvent& Event)
 
 void UExpDisplay_C::MakePopup(const struct FExpDisplayInfo& ExpInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.MakePopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.MakePopup");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UExpDisplay_C::MakePopup(const struct FExpDisplayInfo& ExpInfo)
 
 void UExpDisplay_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.Construct");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UExpDisplay_C::Construct()
 
 void UExpDisplay_C::OnScoreChanged(const struct FKSScoreChangeEvent& ScoreChangeEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.OnScoreChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.OnScoreChanged");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UExpDisplay_C::OnScoreChanged(const struct FKSScoreChangeEvent& ScoreChange
 
 void UExpDisplay_C::OnUIRelevantPlayerStateChanged(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.OnUIRelevantPlayerStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.OnUIRelevantPlayerStateChanged");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UExpDisplay_C::OnUIRelevantPlayerStateChanged(class AKSPlayerState* PlayerS
 
 void UExpDisplay_C::DisplayExpInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.DisplayExpInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.DisplayExpInfo");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UExpDisplay_C::DisplayExpInfo()
 
 void UExpDisplay_C::ShowNextQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.ShowNextQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.ShowNextQueue");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UExpDisplay_C::ShowNextQueue()
 
 void UExpDisplay_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.PreConstruct");
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UExpDisplay_C::PreConstruct(bool IsDesignTime)
 
 void UExpDisplay_C::OnCashChange(const struct FKSScoreChangeEvent& Score_Change)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.OnCashChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.OnCashChange");
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UExpDisplay_C::OnCashChange(const struct FKSScoreChangeEvent& Score_Change)
 
 void UExpDisplay_C::ExecuteUbergraph_ExpDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpDisplay.ExpDisplay_C.ExecuteUbergraph_ExpDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpDisplay.ExpDisplay_C.ExecuteUbergraph_ExpDisplay");
 
 	struct
 	{

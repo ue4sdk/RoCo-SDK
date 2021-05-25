@@ -31,7 +31,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkMovieScene.MovieSceneLiveLinkSection"));
+		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkMovieScene.MovieSceneLiveLinkSection");
 		return ptr;
 	}
 
@@ -49,7 +49,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkMovieScene.MovieSceneLiveLinkSubSection"));
+		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkMovieScene.MovieSceneLiveLinkSubSection");
 		return ptr;
 	}
 
@@ -65,7 +65,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkMovieScene.MovieSceneLiveLinkSubSectionAnimation"));
+		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkMovieScene.MovieSceneLiveLinkSubSectionAnimation");
 		return ptr;
 	}
 
@@ -81,7 +81,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkMovieScene.MovieSceneLiveLinkSubSectionBasicRole"));
+		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkMovieScene.MovieSceneLiveLinkSubSectionBasicRole");
 		return ptr;
 	}
 
@@ -97,7 +97,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkMovieScene.MovieSceneLiveLinkSubSectionProperties"));
+		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkMovieScene.MovieSceneLiveLinkSubSectionProperties");
 		return ptr;
 	}
 
@@ -113,7 +113,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class LiveLinkMovieScene.MovieSceneLiveLinkTrack"));
+		static auto ptr = UObject::FindObject<UClass>("Class LiveLinkMovieScene.MovieSceneLiveLinkTrack");
 		return ptr;
 	}
 

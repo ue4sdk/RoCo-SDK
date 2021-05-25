@@ -37,7 +37,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass MedDroneMenu.MedDroneMenu_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass MedDroneMenu.MedDroneMenu_C");
 		return ptr;
 	}
 

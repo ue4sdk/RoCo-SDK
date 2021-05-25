@@ -34,7 +34,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MagicLeapARPin.MagicLeapARPinComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class MagicLeapARPin.MagicLeapARPinComponent");
 		return ptr;
 	}
 
@@ -60,7 +60,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MagicLeapARPin.MagicLeapARPinFunctionLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class MagicLeapARPin.MagicLeapARPinFunctionLibrary");
 		return ptr;
 	}
 
@@ -91,7 +91,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MagicLeapARPin.MagicLeapARPinSettings"));
+		static auto ptr = UObject::FindObject<UClass>("Class MagicLeapARPin.MagicLeapARPinSettings");
 		return ptr;
 	}
 
@@ -110,7 +110,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MagicLeapARPin.MagicLeapARPinSaveGame"));
+		static auto ptr = UObject::FindObject<UClass>("Class MagicLeapARPin.MagicLeapARPinSaveGame");
 		return ptr;
 	}
 

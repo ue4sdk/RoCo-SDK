@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_PostMatchNavButton_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.NavigateConfirm");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_PostMatchNavButton_C::NavigateConfirm()
 
 void UWBP_PostMatchNavButton_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.GamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.GamepadConfirm");
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_PostMatchNavButton_C::GamepadConfirm()
 
 void UWBP_PostMatchNavButton_C::SetActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.SetActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.SetActive");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_PostMatchNavButton_C::SetActive(bool IsActive)
 
 void UWBP_PostMatchNavButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.Construct");
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UWBP_PostMatchNavButton_C::Construct()
 
 void UWBP_PostMatchNavButton_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.InitializeWidget");
 
 	struct
 	{
@@ -112,7 +112,7 @@ void UWBP_PostMatchNavButton_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_PostMatchNavButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.PreConstruct");
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_PostMatchNavButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PostMatchNavButton_C::HandleNavTabSelected(class UKSNavTabWidget* SelectedNavTab)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.HandleNavTabSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.HandleNavTabSelected");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_PostMatchNavButton_C::HandleNavTabSelected(class UKSNavTabWidget* Sele
 
 void UWBP_PostMatchNavButton_C::ExecuteUbergraph_WBP_PostMatchNavButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.ExecuteUbergraph_WBP_PostMatchNavButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.ExecuteUbergraph_WBP_PostMatchNavButton");
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_PostMatchNavButton_C::ExecuteUbergraph_WBP_PostMatchNavButton(int Entr
 
 void UWBP_PostMatchNavButton_C::OnClicked__DelegateSignature(class UWBP_PostMatchNavButton_C* SelectedWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchNavButton.WBP_PostMatchNavButton_C.OnClicked__DelegateSignature");
 
 	struct
 	{

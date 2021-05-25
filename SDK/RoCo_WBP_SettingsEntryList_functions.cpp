@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_SettingsEntryList_C::SetDesiredIndex(int Index, bool* Success)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.SetDesiredIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.SetDesiredIndex");
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UWBP_SettingsEntryList_C::SetDesiredIndex(int Index, bool* Success)
 
 bool UWBP_SettingsEntryList_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.NavigateBack");
 
 	struct
 	{
@@ -65,7 +65,7 @@ bool UWBP_SettingsEntryList_C::NavigateBack()
 
 bool UWBP_SettingsEntryList_C::NavigateConfirmPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.NavigateConfirmPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.NavigateConfirmPressed");
 
 	struct
 	{
@@ -86,7 +86,7 @@ bool UWBP_SettingsEntryList_C::NavigateConfirmPressed()
 
 bool UWBP_SettingsEntryList_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.NavigateConfirm");
 
 	struct
 	{
@@ -107,7 +107,7 @@ bool UWBP_SettingsEntryList_C::NavigateConfirm()
 
 void UWBP_SettingsEntryList_C::GetDirtyIndex(int* Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.GetDirtyIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.GetDirtyIndex");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_SettingsEntryList_C::GetDirtyIndex(int* Index)
 
 void UWBP_SettingsEntryList_C::OnWidgetSettingsInfoSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.OnWidgetSettingsInfoSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.OnWidgetSettingsInfoSet");
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_SettingsEntryList_C::OnWidgetSettingsInfoSet()
 
 void UWBP_SettingsEntryList_C::Selection_Made(int Index, const struct FText& Text)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.Selection Made"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.Selection Made");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UWBP_SettingsEntryList_C::Selection_Made(int Index, const struct FText& Tex
 
 void UWBP_SettingsEntryList_C::ExecuteUbergraph_WBP_SettingsEntryList(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.ExecuteUbergraph_WBP_SettingsEntryList"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.ExecuteUbergraph_WBP_SettingsEntryList");
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_SettingsEntryList_C::ExecuteUbergraph_WBP_SettingsEntryList(int EntryP
 
 void UWBP_SettingsEntryList_C::OnSelection__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.OnSelection__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsEntryList.WBP_SettingsEntryList_C.OnSelection__DelegateSignature");
 
 	struct
 	{

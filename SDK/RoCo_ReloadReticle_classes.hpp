@@ -32,7 +32,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass ReloadReticle.ReloadReticle_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass ReloadReticle.ReloadReticle_C");
 		return ptr;
 	}
 

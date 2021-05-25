@@ -19,7 +19,7 @@ namespace SDK
 
 class URewardsTrackSavedPosition_C* UWBP_RewardsTrack_C::GetCurrentPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.GetCurrentPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.GetCurrentPosition");
 
 	struct
 	{
@@ -40,7 +40,7 @@ class URewardsTrackSavedPosition_C* UWBP_RewardsTrack_C::GetCurrentPosition()
 
 void UWBP_RewardsTrack_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnInputStateChanged");
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_RewardsTrack_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> In
 
 void UWBP_RewardsTrack_C::NavigatePageWithDirection(int Direction, bool* DidNavigate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.NavigatePageWithDirection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.NavigatePageWithDirection");
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_RewardsTrack_C::NavigatePageWithDirection(int Direction, bool* DidNavi
 
 void UWBP_RewardsTrack_C::DisplayPage(int Page)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.DisplayPage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.DisplayPage");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UWBP_RewardsTrack_C::DisplayPage(int Page)
 
 void UWBP_RewardsTrack_C::GetNavigationWidgets(TArray<class UWBP_RewardListEntry_C*>* Widgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.GetNavigationWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.GetNavigationWidgets");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_RewardsTrack_C::GetNavigationWidgets(TArray<class UWBP_RewardListEntry
 
 void UWBP_RewardsTrack_C::InitializeWithActivityInstance(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.InitializeWithActivityInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.InitializeWithActivityInstance");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_RewardsTrack_C::InitializeWithActivityInstance(class UKSActivityInstan
 
 void UWBP_RewardsTrack_C::InitializeWithStoreItems(TArray<class UPUMG_StoreItem*>* StoreItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.InitializeWithStoreItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.InitializeWithStoreItems");
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_RewardsTrack_C::InitializeWithStoreItems(TArray<class UPUMG_StoreItem*
 
 void UWBP_RewardsTrack_C::InitializeWithAcquisition(class UKSAcquisition* Acquisition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.InitializeWithAcquisition"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.InitializeWithAcquisition");
 
 	struct
 	{
@@ -189,7 +189,7 @@ void UWBP_RewardsTrack_C::InitializeWithAcquisition(class UKSAcquisition* Acquis
 
 void UWBP_RewardsTrack_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.InitializeWidget");
 
 	struct
 	{
@@ -211,7 +211,7 @@ void UWBP_RewardsTrack_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RewardsTrack_C::OnEntryClicked(class UWBP_RewardListEntry_C* Widget, const struct FCosmeticSlotDetails& RewardSlotDetails, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnEntryClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnEntryClicked");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UWBP_RewardsTrack_C::OnEntryClicked(class UWBP_RewardListEntry_C* Widget, c
 
 void UWBP_RewardsTrack_C::OnClickedPageLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnClickedPageLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnClickedPageLeft");
 
 	struct
 	{
@@ -249,7 +249,7 @@ void UWBP_RewardsTrack_C::OnClickedPageLeft()
 
 void UWBP_RewardsTrack_C::OnClickedPageRight()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnClickedPageRight"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnClickedPageRight");
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_RewardsTrack_C::OnClickedPageRight()
 
 void UWBP_RewardsTrack_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.Construct");
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UWBP_RewardsTrack_C::Construct()
 
 void UWBP_RewardsTrack_C::ExecuteUbergraph_WBP_RewardsTrack(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.ExecuteUbergraph_WBP_RewardsTrack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.ExecuteUbergraph_WBP_RewardsTrack");
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_RewardsTrack_C::ExecuteUbergraph_WBP_RewardsTrack(int EntryPoint)
 
 void UWBP_RewardsTrack_C::OnPageNavigated__DelegateSignature(int Direction)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnPageNavigated__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardsTrack.WBP_RewardsTrack_C.OnPageNavigated__DelegateSignature");
 
 	struct
 	{

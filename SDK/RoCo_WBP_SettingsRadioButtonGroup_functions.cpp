@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_SettingsRadioButtonGroup_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.NavigateBack");
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_SettingsRadioButtonGroup_C::NavigateBack()
 
 void UWBP_SettingsRadioButtonGroup_C::Set_Selection_To_Index(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.Set Selection To Index"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.Set Selection To Index");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_SettingsRadioButtonGroup_C::Set_Selection_To_Index(int Index)
 
 void UWBP_SettingsRadioButtonGroup_C::Get_Dirty_Index(int* Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.Get Dirty Index"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.Get Dirty Index");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_SettingsRadioButtonGroup_C::Get_Dirty_Index(int* Index)
 
 void UWBP_SettingsRadioButtonGroup_C::Set_Desired_Index(int Index, bool* Success)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.Set Desired Index"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.Set Desired Index");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UWBP_SettingsRadioButtonGroup_C::Set_Desired_Index(int Index, bool* Success
 
 void UWBP_SettingsRadioButtonGroup_C::OnWidgetSettingsInfoSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.OnWidgetSettingsInfoSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.OnWidgetSettingsInfoSet");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_SettingsRadioButtonGroup_C::OnWidgetSettingsInfoSet()
 
 void UWBP_SettingsRadioButtonGroup_C::On_Radio_Button_Clicked(class UWBP_SettingsRadio_C* Radio_Button)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.On Radio Button Clicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.On Radio Button Clicked");
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWBP_SettingsRadioButtonGroup_C::On_Radio_Button_Clicked(class UWBP_Setting
 
 void UWBP_SettingsRadioButtonGroup_C::On_Setting_Value_Changed(bool bChangedExternally)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.On Setting Value Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.On Setting Value Changed");
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_SettingsRadioButtonGroup_C::On_Setting_Value_Changed(bool bChangedExte
 
 void UWBP_SettingsRadioButtonGroup_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.GamepadHover");
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UWBP_SettingsRadioButtonGroup_C::GamepadHover()
 
 void UWBP_SettingsRadioButtonGroup_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UWBP_SettingsRadioButtonGroup_C::InitializeWidgetNavigation()
 
 void UWBP_SettingsRadioButtonGroup_C::FocusGroupNavigateDownFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.FocusGroupNavigateDownFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.FocusGroupNavigateDownFailure");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UWBP_SettingsRadioButtonGroup_C::FocusGroupNavigateDownFailure(int FocusGro
 
 void UWBP_SettingsRadioButtonGroup_C::FocusGroupNavigateUpFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.FocusGroupNavigateUpFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.FocusGroupNavigateUpFailure");
 
 	struct
 	{
@@ -235,7 +235,7 @@ void UWBP_SettingsRadioButtonGroup_C::FocusGroupNavigateUpFailure(int FocusGroup
 
 void UWBP_SettingsRadioButtonGroup_C::ExecuteUbergraph_WBP_SettingsRadioButtonGroup(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.ExecuteUbergraph_WBP_SettingsRadioButtonGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadioButtonGroup.WBP_SettingsRadioButtonGroup_C.ExecuteUbergraph_WBP_SettingsRadioButtonGroup");
 
 	struct
 	{

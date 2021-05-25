@@ -19,7 +19,7 @@ namespace SDK
 
 void UGameMapsSettings::SetSkipAssigningGamepadToPlayer1(bool bSkipFirstPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EngineSettings.GameMapsSettings.SetSkipAssigningGamepadToPlayer1"));
+	static auto fn = UObject::FindObject<UFunction>("Function EngineSettings.GameMapsSettings.SetSkipAssigningGamepadToPlayer1");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UGameMapsSettings::SetSkipAssigningGamepadToPlayer1(bool bSkipFirstPlayer)
 
 bool UGameMapsSettings::GetSkipAssigningGamepadToPlayer1()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EngineSettings.GameMapsSettings.GetSkipAssigningGamepadToPlayer1"));
+	static auto fn = UObject::FindObject<UFunction>("Function EngineSettings.GameMapsSettings.GetSkipAssigningGamepadToPlayer1");
 
 	struct
 	{
@@ -60,7 +60,7 @@ bool UGameMapsSettings::GetSkipAssigningGamepadToPlayer1()
 
 class UGameMapsSettings* UGameMapsSettings::GetGameMapsSettings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EngineSettings.GameMapsSettings.GetGameMapsSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function EngineSettings.GameMapsSettings.GetGameMapsSettings");
 
 	struct
 	{

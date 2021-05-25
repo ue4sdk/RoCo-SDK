@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_AcquisitionManager"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_AcquisitionManager");
 		return ptr;
 	}
 
@@ -45,7 +45,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_AsyncImage"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_AsyncImage");
 		return ptr;
 	}
 
@@ -63,7 +63,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_BlueprintFunctionLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_BlueprintFunctionLibrary");
 		return ptr;
 	}
 
@@ -89,7 +89,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_CanvasPanel"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_CanvasPanel");
 		return ptr;
 	}
 
@@ -108,7 +108,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_DataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_DataFactory");
 		return ptr;
 	}
 
@@ -137,7 +137,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_ChatDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_ChatDataFactory");
 		return ptr;
 	}
 
@@ -180,7 +180,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_CollectionDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_CollectionDataFactory");
 		return ptr;
 	}
 
@@ -212,7 +212,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_FriendDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_FriendDataFactory");
 		return ptr;
 	}
 
@@ -246,7 +246,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.GamepadPromptInterface"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.GamepadPromptInterface");
 		return ptr;
 	}
 
@@ -266,7 +266,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_GamepadDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_GamepadDataFactory");
 		return ptr;
 	}
 
@@ -288,7 +288,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_GameViewportClient"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_GameViewportClient");
 		return ptr;
 	}
 
@@ -303,7 +303,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_LobbyHUD"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_LobbyHUD");
 		return ptr;
 	}
 
@@ -325,7 +325,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_HUD"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_HUD");
 		return ptr;
 	}
 
@@ -366,7 +366,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_InputManager"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_InputManager");
 		return ptr;
 	}
 
@@ -387,7 +387,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_JsonDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_JsonDataFactory");
 		return ptr;
 	}
 
@@ -411,7 +411,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_Loadout"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_Loadout");
 		return ptr;
 	}
 
@@ -435,7 +435,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_LoadoutDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_LoadoutDataFactory");
 		return ptr;
 	}
 
@@ -461,7 +461,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_LoginDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_LoginDataFactory");
 		return ptr;
 	}
 
@@ -531,7 +531,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_PartyDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_PartyDataFactory");
 		return ptr;
 	}
 
@@ -593,7 +593,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_PlayerDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_PlayerDataFactory");
 		return ptr;
 	}
 
@@ -613,7 +613,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_PlayerInfo"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_PlayerInfo");
 		return ptr;
 	}
 
@@ -636,7 +636,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_PlayerInventoryHelper"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_PlayerInventoryHelper");
 		return ptr;
 	}
 
@@ -654,7 +654,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_PlayerWhoDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_PlayerWhoDataFactory");
 		return ptr;
 	}
 
@@ -695,7 +695,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_Widget"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_Widget");
 		return ptr;
 	}
 
@@ -778,7 +778,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_PopupManager"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_PopupManager");
 		return ptr;
 	}
 
@@ -828,7 +828,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_QueueDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_QueueDataFactory");
 		return ptr;
 	}
 
@@ -890,7 +890,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_SettingsDataFactory"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_SettingsDataFactory");
 		return ptr;
 	}
 
@@ -908,7 +908,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_Coupon"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_Coupon");
 		return ptr;
 	}
 
@@ -936,7 +936,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_StorePurchaseRequest"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_StorePurchaseRequest");
 		return ptr;
 	}
 
@@ -965,7 +965,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_PortalOffer"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_PortalOffer");
 		return ptr;
 	}
 
@@ -986,7 +986,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_StoreItemPrice"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_StoreItemPrice");
 		return ptr;
 	}
 
@@ -1010,7 +1010,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_StoreItem"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_StoreItem");
 		return ptr;
 	}
 
@@ -1063,7 +1063,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_XpTable"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_XpTable");
 		return ptr;
 	}
 
@@ -1105,7 +1105,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_StoreItemHelper"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_StoreItemHelper");
 		return ptr;
 	}
 
@@ -1139,7 +1139,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_UISoundTheme"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_UISoundTheme");
 		return ptr;
 	}
 
@@ -1158,7 +1158,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_GenericRouteDataObject"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_GenericRouteDataObject");
 		return ptr;
 	}
 
@@ -1173,7 +1173,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_ViewRedirecter"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_ViewRedirecter");
 		return ptr;
 	}
 
@@ -1201,7 +1201,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_ViewLayer"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_ViewLayer");
 		return ptr;
 	}
 
@@ -1230,7 +1230,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_ViewManager"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_ViewManager");
 		return ptr;
 	}
 
@@ -1279,7 +1279,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class PlatformUMG.PUMG_VoiceChatManager"));
+		static auto ptr = UObject::FindObject<UClass>("Class PlatformUMG.PUMG_VoiceChatManager");
 		return ptr;
 	}
 

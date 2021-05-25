@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_AccoladeMedal_C::SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_4()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_4"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_4");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_AccoladeMedal_C::SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_4()
 
 void UWBP_AccoladeMedal_C::SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_3()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_3"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_3");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_AccoladeMedal_C::SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_3()
 
 void UWBP_AccoladeMedal_C::SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_2()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_2"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_2");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_AccoladeMedal_C::SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_2()
 
 void UWBP_AccoladeMedal_C::SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_1()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_1");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_AccoladeMedal_C::SequenceEvent__ENTRYPOINTWBP_AccoladeMedal_1()
 
 void UWBP_AccoladeMedal_C::ResetAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.ResetAnimations"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.ResetAnimations");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_AccoladeMedal_C::ResetAnimations()
 
 void UWBP_AccoladeMedal_C::TickShowNextDelay(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.TickShowNextDelay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.TickShowNextDelay");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_AccoladeMedal_C::TickShowNextDelay(float DeltaTime)
 
 void UWBP_AccoladeMedal_C::ShowNextAccolade()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.ShowNextAccolade"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.ShowNextAccolade");
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_AccoladeMedal_C::ShowNextAccolade()
 
 void UWBP_AccoladeMedal_C::TickFadeOutDelay(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.TickFadeOutDelay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.TickFadeOutDelay");
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UWBP_AccoladeMedal_C::TickFadeOutDelay(float DeltaTime)
 
 void UWBP_AccoladeMedal_C::SetPresentationSpeed(float NewPresentationSpeed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SetPresentationSpeed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.SetPresentationSpeed");
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UWBP_AccoladeMedal_C::SetPresentationSpeed(float NewPresentationSpeed)
 
 void UWBP_AccoladeMedal_C::PlayThudSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayThudSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayThudSFX");
 
 	struct
 	{
@@ -189,7 +189,7 @@ void UWBP_AccoladeMedal_C::PlayThudSFX()
 
 void UWBP_AccoladeMedal_C::StartSheenAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.StartSheenAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.StartSheenAnim");
 
 	struct
 	{
@@ -205,7 +205,7 @@ void UWBP_AccoladeMedal_C::StartSheenAnim()
 
 void UWBP_AccoladeMedal_C::OnShowFinish()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnShowFinish"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnShowFinish");
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UWBP_AccoladeMedal_C::OnShowFinish()
 
 void UWBP_AccoladeMedal_C::OnSheenStart()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnSheenStart"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnSheenStart");
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_AccoladeMedal_C::OnSheenStart()
 
 void UWBP_AccoladeMedal_C::OnShowStart()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnShowStart"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnShowStart");
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_AccoladeMedal_C::OnShowStart()
 
 void UWBP_AccoladeMedal_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PreConstruct");
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UWBP_AccoladeMedal_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_AccoladeMedal_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.Construct");
 
 	struct
 	{
@@ -289,7 +289,7 @@ void UWBP_AccoladeMedal_C::Construct()
 
 void UWBP_AccoladeMedal_C::PlayShowAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayShowAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayShowAnim");
 
 	struct
 	{
@@ -308,7 +308,7 @@ void UWBP_AccoladeMedal_C::PlayShowAnim()
 
 void UWBP_AccoladeMedal_C::PlayMoveAccoladeAnim(int Index, int TotalAccolade)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayMoveAccoladeAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayMoveAccoladeAnim");
 
 	struct
 	{
@@ -331,7 +331,7 @@ void UWBP_AccoladeMedal_C::PlayMoveAccoladeAnim(int Index, int TotalAccolade)
 
 void UWBP_AccoladeMedal_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.Tick");
 
 	struct
 	{
@@ -353,7 +353,7 @@ void UWBP_AccoladeMedal_C::Tick(const struct FGeometry& MyGeometry, float InDelt
 
 void UWBP_AccoladeMedal_C::StartMoveAnim(float NewPositionX)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.StartMoveAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.StartMoveAnim");
 
 	struct
 	{
@@ -371,7 +371,7 @@ void UWBP_AccoladeMedal_C::StartMoveAnim(float NewPositionX)
 
 void UWBP_AccoladeMedal_C::CloseMoveAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.CloseMoveAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.CloseMoveAnim");
 
 	struct
 	{
@@ -387,7 +387,7 @@ void UWBP_AccoladeMedal_C::CloseMoveAnim()
 
 void UWBP_AccoladeMedal_C::HandleRemoveSelf()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.HandleRemoveSelf"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.HandleRemoveSelf");
 
 	struct
 	{
@@ -403,7 +403,7 @@ void UWBP_AccoladeMedal_C::HandleRemoveSelf()
 
 void UWBP_AccoladeMedal_C::PlayFadeOutAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayFadeOutAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayFadeOutAnim");
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UWBP_AccoladeMedal_C::PlayFadeOutAnim()
 
 void UWBP_AccoladeMedal_C::PlayTransitionOutAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayTransitionOutAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.PlayTransitionOutAnim");
 
 	struct
 	{
@@ -435,7 +435,7 @@ void UWBP_AccoladeMedal_C::PlayTransitionOutAnim()
 
 void UWBP_AccoladeMedal_C::HandleAnimationStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.HandleAnimationStarted"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.HandleAnimationStarted");
 
 	struct
 	{
@@ -453,7 +453,7 @@ void UWBP_AccoladeMedal_C::HandleAnimationStarted()
 
 void UWBP_AccoladeMedal_C::ExecuteUbergraph_WBP_AccoladeMedal(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.ExecuteUbergraph_WBP_AccoladeMedal"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.ExecuteUbergraph_WBP_AccoladeMedal");
 
 	struct
 	{
@@ -471,7 +471,7 @@ void UWBP_AccoladeMedal_C::ExecuteUbergraph_WBP_AccoladeMedal(int EntryPoint)
 
 void UWBP_AccoladeMedal_C::OnShowAnimFinished__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnShowAnimFinished__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnShowAnimFinished__DelegateSignature");
 
 	struct
 	{
@@ -487,7 +487,7 @@ void UWBP_AccoladeMedal_C::OnShowAnimFinished__DelegateSignature()
 
 void UWBP_AccoladeMedal_C::OnShowAnimStarted__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnShowAnimStarted__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnShowAnimStarted__DelegateSignature");
 
 	struct
 	{
@@ -505,7 +505,7 @@ void UWBP_AccoladeMedal_C::OnShowAnimStarted__DelegateSignature()
 
 void UWBP_AccoladeMedal_C::OnRemoveAccolade__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnRemoveAccolade__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AccoladeMedal.WBP_AccoladeMedal_C.OnRemoveAccolade__DelegateSignature");
 
 	struct
 	{

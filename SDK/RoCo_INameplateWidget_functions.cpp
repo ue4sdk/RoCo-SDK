@@ -17,7 +17,7 @@ namespace SDK
 
 void UINameplateWidget_C::OnUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function INameplateWidget.INameplateWidget_C.OnUnhovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function INameplateWidget.INameplateWidget_C.OnUnhovered");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UINameplateWidget_C::OnUnhovered()
 
 void UINameplateWidget_C::OnPossession(class APlayerState* bpp__PlayerState__pf, class AKSCharacter* bpp__Character__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function INameplateWidget.INameplateWidget_C.OnPossession"));
+	static auto fn = UObject::FindObject<UFunction>("Function INameplateWidget.INameplateWidget_C.OnPossession");
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UINameplateWidget_C::OnPossession(class APlayerState* bpp__PlayerState__pf,
 
 void UINameplateWidget_C::OnHovered()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function INameplateWidget.INameplateWidget_C.OnHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function INameplateWidget.INameplateWidget_C.OnHovered");
 
 	struct
 	{

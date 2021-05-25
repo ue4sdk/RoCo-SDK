@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ChallengeView_SeasonalContracts_C::RefreshSequenceWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.RefreshSequenceWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.RefreshSequenceWidgets");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_ChallengeView_SeasonalContracts_C::RefreshSequenceWidgets()
 
 void UWBP_ChallengeView_SeasonalContracts_C::GetWeeklySequenceWidgets(TArray<class UWBP_ChallengeEntry_Seasonal_C*>* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.GetWeeklySequenceWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.GetWeeklySequenceWidgets");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_ChallengeView_SeasonalContracts_C::GetWeeklySequenceWidgets(TArray<cla
 
 void UWBP_ChallengeView_SeasonalContracts_C::RefreshTimeRemaining()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.RefreshTimeRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.RefreshTimeRemaining");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_ChallengeView_SeasonalContracts_C::RefreshTimeRemaining()
 
 void UWBP_ChallengeView_SeasonalContracts_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.InitializeWidget");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_ChallengeView_SeasonalContracts_C::InitializeWidget(class APUMG_HUD* H
 
 void UWBP_ChallengeView_SeasonalContracts_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_ChallengeView_SeasonalContracts_C::InitializeWidgetNavigation()
 
 void UWBP_ChallengeView_SeasonalContracts_C::OnChallengesUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.OnChallengesUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.OnChallengesUpdated");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_ChallengeView_SeasonalContracts_C::OnChallengesUpdated()
 
 void UWBP_ChallengeView_SeasonalContracts_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.OnShown");
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UWBP_ChallengeView_SeasonalContracts_C::OnShown()
 
 void UWBP_ChallengeView_SeasonalContracts_C::Handle_On_Week_Gamepad_Hovered(class UWBP_ChallengeEntry_Seasonal_C* Hovered_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.Handle On Week Gamepad Hovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.Handle On Week Gamepad Hovered");
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_ChallengeView_SeasonalContracts_C::Handle_On_Week_Gamepad_Hovered(clas
 
 void UWBP_ChallengeView_SeasonalContracts_C::ExecuteUbergraph_WBP_ChallengeView_SeasonalContracts(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.ExecuteUbergraph_WBP_ChallengeView_SeasonalContracts"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeView_SeasonalContracts.WBP_ChallengeView_SeasonalContracts_C.ExecuteUbergraph_WBP_ChallengeView_SeasonalContracts");
 
 	struct
 	{

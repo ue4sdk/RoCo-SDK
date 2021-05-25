@@ -19,7 +19,7 @@ namespace SDK
 
 void AFriendlyLobbyCharacter_C::ReceiveTick(float DeltaSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.ReceiveTick"));
+	static auto fn = UObject::FindObject<UFunction>("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.ReceiveTick");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void AFriendlyLobbyCharacter_C::ReceiveTick(float DeltaSeconds)
 
 void AFriendlyLobbyCharacter_C::HideLobbyNameplate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.HideLobbyNameplate"));
+	static auto fn = UObject::FindObject<UFunction>("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.HideLobbyNameplate");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void AFriendlyLobbyCharacter_C::HideLobbyNameplate()
 
 void AFriendlyLobbyCharacter_C::ShowLobbyNameplate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.ShowLobbyNameplate"));
+	static auto fn = UObject::FindObject<UFunction>("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.ShowLobbyNameplate");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void AFriendlyLobbyCharacter_C::ShowLobbyNameplate()
 
 void AFriendlyLobbyCharacter_C::SetLobbyNameplate(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.SetLobbyNameplate"));
+	static auto fn = UObject::FindObject<UFunction>("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.SetLobbyNameplate");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void AFriendlyLobbyCharacter_C::SetLobbyNameplate(class UKSPlayerInfo* playerinf
 
 void AFriendlyLobbyCharacter_C::ExecuteUbergraph_FriendlyLobbyCharacter(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.ExecuteUbergraph_FriendlyLobbyCharacter"));
+	static auto fn = UObject::FindObject<UFunction>("Function FriendlyLobbyCharacter.FriendlyLobbyCharacter_C.ExecuteUbergraph_FriendlyLobbyCharacter");
 
 	struct
 	{

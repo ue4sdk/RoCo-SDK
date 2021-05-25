@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_HomeQuickPlay_C::GetDeserterStatusMessage(struct FText* OutDisplayText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.GetDeserterStatusMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.GetDeserterStatusMessage");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_HomeQuickPlay_C::GetDeserterStatusMessage(struct FText* OutDisplayText
 
 void UWBP_HomeQuickPlay_C::Apply_Pending_Display()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.Apply Pending Display"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.Apply Pending Display");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_HomeQuickPlay_C::Apply_Pending_Display()
 
 void UWBP_HomeQuickPlay_C::ForceVisualState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceVisualState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceVisualState");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_HomeQuickPlay_C::ForceVisualState()
 
 void UWBP_HomeQuickPlay_C::UpdateQueueTimer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.UpdateQueueTimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.UpdateQueueTimer");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWBP_HomeQuickPlay_C::UpdateQueueTimer()
 
 void UWBP_HomeQuickPlay_C::UpdateStatusModeDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.UpdateStatusModeDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.UpdateStatusModeDisplay");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWBP_HomeQuickPlay_C::UpdateStatusModeDisplay()
 
 void UWBP_HomeQuickPlay_C::UpdateDeserterCountdown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.UpdateDeserterCountdown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.UpdateDeserterCountdown");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWBP_HomeQuickPlay_C::UpdateDeserterCountdown()
 
 void UWBP_HomeQuickPlay_C::HandleQuickPlayStateUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.HandleQuickPlayStateUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.HandleQuickPlayStateUpdate");
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UWBP_HomeQuickPlay_C::HandleQuickPlayStateUpdate()
 
 void UWBP_HomeQuickPlay_C::TogglePlayBtnEnabled(bool InIsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.TogglePlayBtnEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.TogglePlayBtnEnabled");
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWBP_HomeQuickPlay_C::TogglePlayBtnEnabled(bool InIsEnabled)
 
 void UWBP_HomeQuickPlay_C::ToggleSupplementaryBtnEnabled(bool InIsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ToggleSupplementaryBtnEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ToggleSupplementaryBtnEnabled");
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_HomeQuickPlay_C::ToggleSupplementaryBtnEnabled(bool InIsEnabled)
 
 void UWBP_HomeQuickPlay_C::ApplyKeyShortcutsEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ApplyKeyShortcutsEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ApplyKeyShortcutsEnabled");
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UWBP_HomeQuickPlay_C::ApplyKeyShortcutsEnabled()
 
 void UWBP_HomeQuickPlay_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.GetNavigationWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.GetNavigationWidgets");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UWBP_HomeQuickPlay_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* Ret
 
 void UWBP_HomeQuickPlay_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.HandleInputModeChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.HandleInputModeChanged");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UWBP_HomeQuickPlay_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE
 
 void UWBP_HomeQuickPlay_C::SetCurrentGameModeTextDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.SetCurrentGameModeTextDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.SetCurrentGameModeTextDisplay");
 
 	struct
 	{
@@ -249,7 +249,7 @@ void UWBP_HomeQuickPlay_C::SetCurrentGameModeTextDisplay()
 
 void UWBP_HomeQuickPlay_C::SetupGamepadCallout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.SetupGamepadCallout"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.SetupGamepadCallout");
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_HomeQuickPlay_C::SetupGamepadCallout()
 
 void UWBP_HomeQuickPlay_C::ForceClickPlayButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceClickPlayButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceClickPlayButton");
 
 	struct
 	{
@@ -281,7 +281,7 @@ void UWBP_HomeQuickPlay_C::ForceClickPlayButton()
 
 void UWBP_HomeQuickPlay_C::BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UWBP_HomeQuickPlay_C::BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_1
 
 void UWBP_HomeQuickPlay_C::BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -313,7 +313,7 @@ void UWBP_HomeQuickPlay_C::BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBou
 
 void UWBP_HomeQuickPlay_C::ForceClickSupplementaryButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceClickSupplementaryButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceClickSupplementaryButton");
 
 	struct
 	{
@@ -331,7 +331,7 @@ void UWBP_HomeQuickPlay_C::ForceClickSupplementaryButton()
 
 void UWBP_HomeQuickPlay_C::BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_0_OnHovered__DelegateSignature");
 
 	struct
 	{
@@ -351,7 +351,7 @@ void UWBP_HomeQuickPlay_C::BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_0
 
 void UWBP_HomeQuickPlay_C::BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_3_OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_3_OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_3_OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -371,7 +371,7 @@ void UWBP_HomeQuickPlay_C::BndEvt__PlayBtnHitTarget_K2Node_ComponentBoundEvent_3
 
 void UWBP_HomeQuickPlay_C::BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBoundEvent_4_OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBoundEvent_4_OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBoundEvent_4_OnHovered__DelegateSignature");
 
 	struct
 	{
@@ -391,7 +391,7 @@ void UWBP_HomeQuickPlay_C::BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBou
 
 void UWBP_HomeQuickPlay_C::BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBoundEvent_5_OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBoundEvent_5_OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBoundEvent_5_OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -409,7 +409,7 @@ void UWBP_HomeQuickPlay_C::BndEvt__SupplementaryBtnHitTarget_K2Node_ComponentBou
 
 void UWBP_HomeQuickPlay_C::ForceUnhoverSupplementaryBtn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceUnhoverSupplementaryBtn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceUnhoverSupplementaryBtn");
 
 	struct
 	{
@@ -425,7 +425,7 @@ void UWBP_HomeQuickPlay_C::ForceUnhoverSupplementaryBtn()
 
 void UWBP_HomeQuickPlay_C::ForceHoverSupplementaryBtn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceHoverSupplementaryBtn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ForceHoverSupplementaryBtn");
 
 	struct
 	{
@@ -443,7 +443,7 @@ void UWBP_HomeQuickPlay_C::ForceHoverSupplementaryBtn()
 
 void UWBP_HomeQuickPlay_C::OnUpdateQuickPlayState(EQuickPlayQueueState QueueState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnUpdateQuickPlayState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnUpdateQuickPlayState");
 
 	struct
 	{
@@ -463,7 +463,7 @@ void UWBP_HomeQuickPlay_C::OnUpdateQuickPlayState(EQuickPlayQueueState QueueStat
 
 void UWBP_HomeQuickPlay_C::OnUpdatePenaltyTimeLeft(int TimeLeft)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnUpdatePenaltyTimeLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnUpdatePenaltyTimeLeft");
 
 	struct
 	{
@@ -483,7 +483,7 @@ void UWBP_HomeQuickPlay_C::OnUpdatePenaltyTimeLeft(int TimeLeft)
 
 void UWBP_HomeQuickPlay_C::OnSelectedQueueUpdate(const struct FClientQueueInfo& CurrentSelectedQueue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnSelectedQueueUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnSelectedQueueUpdate");
 
 	struct
 	{
@@ -503,7 +503,7 @@ void UWBP_HomeQuickPlay_C::OnSelectedQueueUpdate(const struct FClientQueueInfo& 
 
 void UWBP_HomeQuickPlay_C::OnQueueStateUpdate(EPUMG_MatchStatus CurrentMatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnQueueStateUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnQueueStateUpdate");
 
 	struct
 	{
@@ -521,7 +521,7 @@ void UWBP_HomeQuickPlay_C::OnQueueStateUpdate(EPUMG_MatchStatus CurrentMatchStat
 
 void UWBP_HomeQuickPlay_C::OnTransitionAnimationFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnTransitionAnimationFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnTransitionAnimationFinished");
 
 	struct
 	{
@@ -537,7 +537,7 @@ void UWBP_HomeQuickPlay_C::OnTransitionAnimationFinished()
 
 void UWBP_HomeQuickPlay_C::HandleTriggerStatusModeEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.HandleTriggerStatusModeEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.HandleTriggerStatusModeEvent");
 
 	struct
 	{
@@ -555,7 +555,7 @@ void UWBP_HomeQuickPlay_C::HandleTriggerStatusModeEvent()
 
 void UWBP_HomeQuickPlay_C::OnUpdateQueueTimeElapsed(float TimeElapsed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnUpdateQueueTimeElapsed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnUpdateQueueTimeElapsed");
 
 	struct
 	{
@@ -573,7 +573,7 @@ void UWBP_HomeQuickPlay_C::OnUpdateQueueTimeElapsed(float TimeElapsed)
 
 void UWBP_HomeQuickPlay_C::Pending_Queue_Update_Timeout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.Pending Queue Update Timeout"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.Pending Queue Update Timeout");
 
 	struct
 	{
@@ -589,7 +589,7 @@ void UWBP_HomeQuickPlay_C::Pending_Queue_Update_Timeout()
 
 void UWBP_HomeQuickPlay_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.OnInitialized");
 
 	struct
 	{
@@ -605,7 +605,7 @@ void UWBP_HomeQuickPlay_C::OnInitialized()
 
 void UWBP_HomeQuickPlay_C::HandleCustomQueueUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.HandleCustomQueueUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.HandleCustomQueueUpdate");
 
 	struct
 	{
@@ -621,7 +621,7 @@ void UWBP_HomeQuickPlay_C::HandleCustomQueueUpdate()
 
 void UWBP_HomeQuickPlay_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -639,7 +639,7 @@ void UWBP_HomeQuickPlay_C::InitializeWidgetNavigation()
 
 void UWBP_HomeQuickPlay_C::ExecuteUbergraph_WBP_HomeQuickPlay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ExecuteUbergraph_WBP_HomeQuickPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.ExecuteUbergraph_WBP_HomeQuickPlay");
 
 	struct
 	{
@@ -657,7 +657,7 @@ void UWBP_HomeQuickPlay_C::ExecuteUbergraph_WBP_HomeQuickPlay(int EntryPoint)
 
 void UWBP_HomeQuickPlay_C::TriggerStatusModeDisplayUpdate__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.TriggerStatusModeDisplayUpdate__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_HomeQuickPlay.WBP_HomeQuickPlay_C.TriggerStatusModeDisplayUpdate__DelegateSignature");
 
 	struct
 	{

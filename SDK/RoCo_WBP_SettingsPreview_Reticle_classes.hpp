@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C");
 		return ptr;
 	}
 

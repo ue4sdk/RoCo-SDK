@@ -561,7 +561,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass MainCharacter.MainCharacter_C"));
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass MainCharacter.MainCharacter_C");
 		return ptr;
 	}
 

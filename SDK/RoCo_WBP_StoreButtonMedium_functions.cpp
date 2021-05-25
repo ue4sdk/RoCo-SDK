@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_StoreButtonMedium_C::OnRotationTimerTick()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.OnRotationTimerTick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.OnRotationTimerTick");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_StoreButtonMedium_C::OnRotationTimerTick()
 
 bool UWBP_StoreButtonMedium_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.NavigateConfirm");
 
 	struct
 	{
@@ -57,7 +57,7 @@ bool UWBP_StoreButtonMedium_C::NavigateConfirm()
 
 void UWBP_StoreButtonMedium_C::DisplayStoreItem(class UKSStorePanelItem* StoreItem, bool Animate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.DisplayStoreItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.DisplayStoreItem");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_StoreButtonMedium_C::DisplayStoreItem(class UKSStorePanelItem* StoreIt
 
 void UWBP_StoreButtonMedium_C::SetStoreItems(class UKSStoreSectionItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.SetStoreItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.SetStoreItems");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_StoreButtonMedium_C::SetStoreItems(class UKSStoreSectionItem* StoreIte
 
 void UWBP_StoreButtonMedium_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.Construct");
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UWBP_StoreButtonMedium_C::Construct()
 
 void UWBP_StoreButtonMedium_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.Tick");
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UWBP_StoreButtonMedium_C::Tick(const struct FGeometry& MyGeometry, float In
 
 void UWBP_StoreButtonMedium_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.GamepadHover");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_StoreButtonMedium_C::GamepadHover()
 
 void UWBP_StoreButtonMedium_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.GamepadUnhover");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UWBP_StoreButtonMedium_C::GamepadUnhover()
 
 void UWBP_StoreButtonMedium_C::OnGamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.OnGamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.OnGamepadConfirm");
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_StoreButtonMedium_C::OnGamepadConfirm()
 
 void UWBP_StoreButtonMedium_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_4_OnBtnHovered__DelegateSignature(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_4_OnBtnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_4_OnBtnHovered__DelegateSignature");
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_StoreButtonMedium_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoun
 
 void UWBP_StoreButtonMedium_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_5_OnBtnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_5_OnBtnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_5_OnBtnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_StoreButtonMedium_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoun
 
 void UWBP_StoreButtonMedium_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.BndEvt__WBP_StorePanelButton_K2Node_ComponentBoundEvent_0_OnBtnClicked__DelegateSignature");
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UWBP_StoreButtonMedium_C::BndEvt__WBP_StorePanelButton_K2Node_ComponentBoun
 
 void UWBP_StoreButtonMedium_C::ExecuteUbergraph_WBP_StoreButtonMedium(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.ExecuteUbergraph_WBP_StoreButtonMedium"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreButtonMedium.WBP_StoreButtonMedium_C.ExecuteUbergraph_WBP_StoreButtonMedium");
 
 	struct
 	{

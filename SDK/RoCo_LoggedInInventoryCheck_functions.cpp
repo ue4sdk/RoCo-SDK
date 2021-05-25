@@ -19,7 +19,7 @@ namespace SDK
 
 void ULoggedInInventoryCheck_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.OnInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.OnInputStateChanged");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void ULoggedInInventoryCheck_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STA
 
 struct FEventReply ULoggedInInventoryCheck_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.OnKeyUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.OnKeyUp");
 
 	struct
 	{
@@ -67,7 +67,7 @@ struct FEventReply ULoggedInInventoryCheck_C::OnKeyUp(const struct FGeometry& My
 
 void ULoggedInInventoryCheck_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.Tick");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void ULoggedInInventoryCheck_C::Tick(const struct FGeometry& MyGeometry, float I
 
 void ULoggedInInventoryCheck_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.Construct");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void ULoggedInInventoryCheck_C::Construct()
 
 void ULoggedInInventoryCheck_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.PreConstruct");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void ULoggedInInventoryCheck_C::PreConstruct(bool IsDesignTime)
 
 void ULoggedInInventoryCheck_C::OpenGate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.OpenGate"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.OpenGate");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void ULoggedInInventoryCheck_C::OpenGate()
 
 void ULoggedInInventoryCheck_C::CloseGate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.CloseGate"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.CloseGate");
 
 	struct
 	{
@@ -155,7 +155,7 @@ void ULoggedInInventoryCheck_C::CloseGate()
 
 void ULoggedInInventoryCheck_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.OnShown");
 
 	struct
 	{
@@ -173,7 +173,7 @@ void ULoggedInInventoryCheck_C::OnShown()
 
 void ULoggedInInventoryCheck_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.InitializeWidget");
 
 	struct
 	{
@@ -193,7 +193,7 @@ void ULoggedInInventoryCheck_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void ULoggedInInventoryCheck_C::BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -211,7 +211,7 @@ void ULoggedInInventoryCheck_C::BndEvt__WBP_StandardButtonMedium_K2Node_Componen
 
 void ULoggedInInventoryCheck_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -229,7 +229,7 @@ void ULoggedInInventoryCheck_C::InitializeWidgetNavigation()
 
 void ULoggedInInventoryCheck_C::ExecuteUbergraph_LoggedInInventoryCheck(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.ExecuteUbergraph_LoggedInInventoryCheck"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoggedInInventoryCheck.LoggedInInventoryCheck_C.ExecuteUbergraph_LoggedInInventoryCheck");
 
 	struct
 	{

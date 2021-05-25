@@ -31,7 +31,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_CustomMassInviteEntry.WBP_CustomMassInviteEntry_C");
 		return ptr;
 	}
 

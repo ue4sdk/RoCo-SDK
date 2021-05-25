@@ -19,7 +19,7 @@ namespace SDK
 
 void ULootSiteMarker_v2_C::Get_Visibility_State_For_Distance(ESlateVisibility* NewParam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Visibility State For Distance"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Visibility State For Distance");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void ULootSiteMarker_v2_C::Get_Visibility_State_For_Distance(ESlateVisibility* N
 
 bool ULootSiteMarker_v2_C::IsHovering()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.IsHovering"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.IsHovering");
 
 	struct
 	{
@@ -62,7 +62,7 @@ bool ULootSiteMarker_v2_C::IsHovering()
 
 bool ULootSiteMarker_v2_C::ShouldUpdateHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.ShouldUpdateHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.ShouldUpdateHover");
 
 	struct
 	{
@@ -83,7 +83,7 @@ bool ULootSiteMarker_v2_C::ShouldUpdateHover()
 
 void ULootSiteMarker_v2_C::Get_Default_Icon_Visibility(ESlateVisibility* NewParam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Default Icon Visibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Default Icon Visibility");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void ULootSiteMarker_v2_C::Get_Default_Icon_Visibility(ESlateVisibility* NewPara
 
 void ULootSiteMarker_v2_C::Get_Icon_Scale(float* Icon_Scale)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Icon Scale"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Icon Scale");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void ULootSiteMarker_v2_C::Get_Icon_Scale(float* Icon_Scale)
 
 void ULootSiteMarker_v2_C::GetLootTexture(class UTexture2D** Texture2D)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.GetLootTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.GetLootTexture");
 
 	struct
 	{
@@ -149,7 +149,7 @@ void ULootSiteMarker_v2_C::GetLootTexture(class UTexture2D** Texture2D)
 
 void ULootSiteMarker_v2_C::GetPinTexture(class UTexture2D** Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.GetPinTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.GetPinTexture");
 
 	struct
 	{
@@ -171,7 +171,7 @@ void ULootSiteMarker_v2_C::GetPinTexture(class UTexture2D** Texture)
 
 void ULootSiteMarker_v2_C::Get_Pin_Height(float* Pin_Height)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Pin Height"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Pin Height");
 
 	struct
 	{
@@ -193,7 +193,7 @@ void ULootSiteMarker_v2_C::Get_Pin_Height(float* Pin_Height)
 
 void ULootSiteMarker_v2_C::Get_Render_Opacity(float* Render_Opacity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Render Opacity"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Get Render Opacity");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void ULootSiteMarker_v2_C::Get_Render_Opacity(float* Render_Opacity)
 
 void ULootSiteMarker_v2_C::Is_Still_In_Initial_Render_Position(bool* Still_In_Initial_Render_Position)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Is Still In Initial Render Position"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Is Still In Initial Render Position");
 
 	struct
 	{
@@ -237,7 +237,7 @@ void ULootSiteMarker_v2_C::Is_Still_In_Initial_Render_Position(bool* Still_In_In
 
 void ULootSiteMarker_v2_C::GetHitboxMultiplierByDistance(float* HitboxMultiplier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.GetHitboxMultiplierByDistance"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.GetHitboxMultiplierByDistance");
 
 	struct
 	{
@@ -259,7 +259,7 @@ void ULootSiteMarker_v2_C::GetHitboxMultiplierByDistance(float* HitboxMultiplier
 
 ESlateVisibility ULootSiteMarker_v2_C::Update()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Update"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Update");
 
 	struct
 	{
@@ -278,7 +278,7 @@ ESlateVisibility ULootSiteMarker_v2_C::Update()
 
 void ULootSiteMarker_v2_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.Construct");
 
 	struct
 	{
@@ -296,7 +296,7 @@ void ULootSiteMarker_v2_C::Construct()
 
 void ULootSiteMarker_v2_C::UpdateMetersAway(int Meters)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.UpdateMetersAway"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.UpdateMetersAway");
 
 	struct
 	{
@@ -316,7 +316,7 @@ void ULootSiteMarker_v2_C::UpdateMetersAway(int Meters)
 
 void ULootSiteMarker_v2_C::OnHoverStateChanged(EIconHoverState NewHoverState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.OnHoverStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.OnHoverStateChanged");
 
 	struct
 	{
@@ -336,7 +336,7 @@ void ULootSiteMarker_v2_C::OnHoverStateChanged(EIconHoverState NewHoverState)
 
 void ULootSiteMarker_v2_C::HandleLootSiteRarityChanged(ELootSiteRarity CurrentRarity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.HandleLootSiteRarityChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.HandleLootSiteRarityChanged");
 
 	struct
 	{
@@ -356,7 +356,7 @@ void ULootSiteMarker_v2_C::HandleLootSiteRarityChanged(ELootSiteRarity CurrentRa
 
 void ULootSiteMarker_v2_C::SetScreenRegion(EIconMarkerScreenRegion ScreenRegion)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.SetScreenRegion"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.SetScreenRegion");
 
 	struct
 	{
@@ -376,7 +376,7 @@ void ULootSiteMarker_v2_C::SetScreenRegion(EIconMarkerScreenRegion ScreenRegion)
 
 void ULootSiteMarker_v2_C::SetArrowAngle(float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.SetArrowAngle"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.SetArrowAngle");
 
 	struct
 	{
@@ -396,7 +396,7 @@ void ULootSiteMarker_v2_C::SetArrowAngle(float Angle)
 
 void ULootSiteMarker_v2_C::ExecuteUbergraph_LootSiteMarker_v2(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LootSiteMarker_v2.LootSiteMarker_v2_C.ExecuteUbergraph_LootSiteMarker_v2"));
+	static auto fn = UObject::FindObject<UFunction>("Function LootSiteMarker_v2.LootSiteMarker_v2_C.ExecuteUbergraph_LootSiteMarker_v2");
 
 	struct
 	{

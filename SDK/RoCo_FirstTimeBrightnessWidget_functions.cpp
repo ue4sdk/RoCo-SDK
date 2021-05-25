@@ -17,7 +17,7 @@ namespace SDK
 
 void UFirstTimeBrightnessWidget_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.OnShown");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UFirstTimeBrightnessWidget_C::OnShown()
 
 void UFirstTimeBrightnessWidget_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.OnHide");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UFirstTimeBrightnessWidget_C::OnHide()
 
 void UFirstTimeBrightnessWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.InitializeWidget");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UFirstTimeBrightnessWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UFirstTimeBrightnessWidget_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UFirstTimeBrightnessWidget_C::InitializeWidgetNavigation()
 
 void UFirstTimeBrightnessWidget_C::BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UFirstTimeBrightnessWidget_C::BndEvt__WBP_StandardButtonMedium_K2Node_Compo
 
 void UFirstTimeBrightnessWidget_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.PreConstruct");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UFirstTimeBrightnessWidget_C::PreConstruct(bool IsDesignTime)
 
 void UFirstTimeBrightnessWidget_C::ExecuteUbergraph_FirstTimeBrightnessWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.ExecuteUbergraph_FirstTimeBrightnessWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeBrightnessWidget.FirstTimeBrightnessWidget_C.ExecuteUbergraph_FirstTimeBrightnessWidget");
 
 	struct
 	{

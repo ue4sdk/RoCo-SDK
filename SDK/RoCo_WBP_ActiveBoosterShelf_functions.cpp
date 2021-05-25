@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ActiveBoosterShelf_C::RefreshActiveBoosts()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.RefreshActiveBoosts"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.RefreshActiveBoosts");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ActiveBoosterShelf_C::RefreshActiveBoosts()
 
 void UWBP_ActiveBoosterShelf_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_ActiveBoosterShelf_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_O
 
 void UWBP_ActiveBoosterShelf_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.OnShown");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UWBP_ActiveBoosterShelf_C::OnShown()
 
 void UWBP_ActiveBoosterShelf_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.InitializeWidget");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWBP_ActiveBoosterShelf_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_ActiveBoosterShelf_C::OnAcquisition(class UKSAcquisition* Acquisition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.OnAcquisition"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.OnAcquisition");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UWBP_ActiveBoosterShelf_C::OnAcquisition(class UKSAcquisition* Acquisition)
 
 void UWBP_ActiveBoosterShelf_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_ActiveBoosterShelf_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_O
 
 void UWBP_ActiveBoosterShelf_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_ActiveBoosterShelf_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_O
 
 void UWBP_ActiveBoosterShelf_C::ExecuteUbergraph_WBP_ActiveBoosterShelf(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.ExecuteUbergraph_WBP_ActiveBoosterShelf"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ActiveBoosterShelf.WBP_ActiveBoosterShelf_C.ExecuteUbergraph_WBP_ActiveBoosterShelf");
 
 	struct
 	{

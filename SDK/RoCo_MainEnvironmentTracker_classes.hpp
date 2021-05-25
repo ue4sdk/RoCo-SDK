@@ -31,7 +31,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass MainEnvironmentTracker.MainEnvironmentTracker_C"));
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass MainEnvironmentTracker.MainEnvironmentTracker_C");
 		return ptr;
 	}
 

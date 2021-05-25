@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass SemtexGrenade_StuckDamageType.SemtexGrenade_StuckDamageType_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass SemtexGrenade_StuckDamageType.SemtexGrenade_StuckDamageType_C");
 		return ptr;
 	}
 

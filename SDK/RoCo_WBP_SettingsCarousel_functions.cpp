@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_SettingsCarousel_C::Make_Indicator_Lights()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Make Indicator Lights"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Make Indicator Lights");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_SettingsCarousel_C::Make_Indicator_Lights()
 
 void UWBP_SettingsCarousel_C::Add_Indicator_Light()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Add Indicator Light"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Add Indicator Light");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_SettingsCarousel_C::Add_Indicator_Light()
 
 void UWBP_SettingsCarousel_C::SetAnimationTextToIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SetAnimationTextToIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SetAnimationTextToIndex");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_SettingsCarousel_C::SetAnimationTextToIndex(int Index)
 
 void UWBP_SettingsCarousel_C::SetDisplayTextToIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SetDisplayTextToIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SetDisplayTextToIndex");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_SettingsCarousel_C::SetDisplayTextToIndex(int Index)
 
 void UWBP_SettingsCarousel_C::GetDirtyIndex(int* Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.GetDirtyIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.GetDirtyIndex");
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_SettingsCarousel_C::GetDirtyIndex(int* Index)
 
 void UWBP_SettingsCarousel_C::SetDesiredIndex(int Desired_Index, bool* Index_Changed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SetDesiredIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SetDesiredIndex");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_SettingsCarousel_C::SetDesiredIndex(int Desired_Index, bool* Index_Cha
 
 void UWBP_SettingsCarousel_C::SetTextToIndex(class UTextBlock* Text_Widget, int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SetTextToIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SetTextToIndex");
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UWBP_SettingsCarousel_C::SetTextToIndex(class UTextBlock* Text_Widget, int 
 
 void UWBP_SettingsCarousel_C::SettingsCarouselHoverSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SettingsCarouselHoverSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SettingsCarouselHoverSFX");
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_SettingsCarousel_C::SettingsCarouselHoverSFX()
 
 void UWBP_SettingsCarousel_C::SettingsCarouselClickedSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SettingsCarouselClickedSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.SettingsCarouselClickedSFX");
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_SettingsCarousel_C::SettingsCarouselClickedSFX()
 
 void UWBP_SettingsCarousel_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.GamepadHover");
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UWBP_SettingsCarousel_C::GamepadHover()
 
 void UWBP_SettingsCarousel_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.GamepadUnhover");
 
 	struct
 	{
@@ -223,7 +223,7 @@ void UWBP_SettingsCarousel_C::GamepadUnhover()
 
 void UWBP_SettingsCarousel_C::BndEvt__Right_Button_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Right_Button_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Right_Button_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UWBP_SettingsCarousel_C::BndEvt__Right_Button_K2Node_ComponentBoundEvent_4_
 
 void UWBP_SettingsCarousel_C::BndEvt__Right_Button_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Right_Button_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Right_Button_K2Node_ComponentBoundEvent_5_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_SettingsCarousel_C::BndEvt__Right_Button_K2Node_ComponentBoundEvent_5_
 
 void UWBP_SettingsCarousel_C::BndEvt__Left_Button_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Left_Button_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Left_Button_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -271,7 +271,7 @@ void UWBP_SettingsCarousel_C::BndEvt__Left_Button_K2Node_ComponentBoundEvent_6_O
 
 void UWBP_SettingsCarousel_C::BndEvt__Left_Button_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Left_Button_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Left_Button_K2Node_ComponentBoundEvent_7_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -287,7 +287,7 @@ void UWBP_SettingsCarousel_C::BndEvt__Left_Button_K2Node_ComponentBoundEvent_7_O
 
 void UWBP_SettingsCarousel_C::Master_Hover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Master Hover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Master Hover");
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_SettingsCarousel_C::Master_Hover()
 
 void UWBP_SettingsCarousel_C::Master_Unhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Master Unhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Master Unhover");
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UWBP_SettingsCarousel_C::Master_Unhover()
 
 void UWBP_SettingsCarousel_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.InitializeWidget");
 
 	struct
 	{
@@ -339,7 +339,7 @@ void UWBP_SettingsCarousel_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_SettingsCarousel_C::OnWidgetSettingsInfoSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.OnWidgetSettingsInfoSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.OnWidgetSettingsInfoSet");
 
 	struct
 	{
@@ -355,7 +355,7 @@ void UWBP_SettingsCarousel_C::OnWidgetSettingsInfoSet()
 
 void UWBP_SettingsCarousel_C::OnWidgetConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.OnWidgetConfigSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.OnWidgetConfigSet");
 
 	struct
 	{
@@ -371,7 +371,7 @@ void UWBP_SettingsCarousel_C::OnWidgetConfigSet()
 
 void UWBP_SettingsCarousel_C::BndEvt__Left_Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Left_Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Left_Button_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -387,7 +387,7 @@ void UWBP_SettingsCarousel_C::BndEvt__Left_Button_K2Node_ComponentBoundEvent_0_O
 
 void UWBP_SettingsCarousel_C::BndEvt__Right_Button_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Right_Button_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.BndEvt__Right_Button_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -403,7 +403,7 @@ void UWBP_SettingsCarousel_C::BndEvt__Right_Button_K2Node_ComponentBoundEvent_1_
 
 void UWBP_SettingsCarousel_C::Reset_Text()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Reset Text"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Reset Text");
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UWBP_SettingsCarousel_C::Reset_Text()
 
 void UWBP_SettingsCarousel_C::Reset_Indicator_Light()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Reset Indicator Light"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Reset Indicator Light");
 
 	struct
 	{
@@ -435,7 +435,7 @@ void UWBP_SettingsCarousel_C::Reset_Indicator_Light()
 
 void UWBP_SettingsCarousel_C::Reset()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Reset"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Reset");
 
 	struct
 	{
@@ -451,7 +451,7 @@ void UWBP_SettingsCarousel_C::Reset()
 
 void UWBP_SettingsCarousel_C::NavigateRightFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.NavigateRightFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.NavigateRightFailure");
 
 	struct
 	{
@@ -467,7 +467,7 @@ void UWBP_SettingsCarousel_C::NavigateRightFailure()
 
 void UWBP_SettingsCarousel_C::NavigateLeftFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.NavigateLeftFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.NavigateLeftFailure");
 
 	struct
 	{
@@ -485,7 +485,7 @@ void UWBP_SettingsCarousel_C::NavigateLeftFailure()
 
 void UWBP_SettingsCarousel_C::FocusGroupNavigateDownFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.FocusGroupNavigateDownFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.FocusGroupNavigateDownFailure");
 
 	struct
 	{
@@ -505,7 +505,7 @@ void UWBP_SettingsCarousel_C::FocusGroupNavigateDownFailure(int FocusGroup)
 
 void UWBP_SettingsCarousel_C::FocusGroupNavigateUpFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.FocusGroupNavigateUpFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.FocusGroupNavigateUpFailure");
 
 	struct
 	{
@@ -523,7 +523,7 @@ void UWBP_SettingsCarousel_C::FocusGroupNavigateUpFailure(int FocusGroup)
 
 void UWBP_SettingsCarousel_C::Reset_Indicator_Lights()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Reset Indicator Lights"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.Reset Indicator Lights");
 
 	struct
 	{
@@ -541,7 +541,7 @@ void UWBP_SettingsCarousel_C::Reset_Indicator_Lights()
 
 void UWBP_SettingsCarousel_C::OnSettingsInfoValueChanged(bool bChangedExternally)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.OnSettingsInfoValueChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.OnSettingsInfoValueChanged");
 
 	struct
 	{
@@ -561,7 +561,7 @@ void UWBP_SettingsCarousel_C::OnSettingsInfoValueChanged(bool bChangedExternally
 
 void UWBP_SettingsCarousel_C::ExecuteUbergraph_WBP_SettingsCarousel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.ExecuteUbergraph_WBP_SettingsCarousel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsCarousel.WBP_SettingsCarousel_C.ExecuteUbergraph_WBP_SettingsCarousel");
 
 	struct
 	{

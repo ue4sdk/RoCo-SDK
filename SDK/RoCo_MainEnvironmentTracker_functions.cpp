@@ -19,7 +19,7 @@ namespace SDK
 
 void UMainEnvironmentTracker_C::BlueprintEnvironmentChanged(const struct FName& bpp__OldEnvironment__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MainEnvironmentTracker.MainEnvironmentTracker_C.BlueprintEnvironmentChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function MainEnvironmentTracker.MainEnvironmentTracker_C.BlueprintEnvironmentChanged");
 
 	struct
 	{

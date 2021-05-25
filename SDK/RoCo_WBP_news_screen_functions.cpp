@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_news_screen_C::SetNavigationFocus(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.SetNavigationFocus"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.SetNavigationFocus");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_news_screen_C::SetNavigationFocus(class UWidget* Widget)
 
 void UWBP_news_screen_C::PopulateFullScreenSection(class UKSWhatsNewPanel* Panel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.PopulateFullScreenSection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.PopulateFullScreenSection");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_news_screen_C::PopulateFullScreenSection(class UKSWhatsNewPanel* Panel
 
 void UWBP_news_screen_C::PopulateCardPanelsSection(TArray<class UKSWhatsNewPanel*>* Panels)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.PopulateCardPanelsSection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.PopulateCardPanelsSection");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_news_screen_C::PopulateCardPanelsSection(TArray<class UKSWhatsNewPanel
 
 void UWBP_news_screen_C::InitializeScreens()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.InitializeScreens"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.InitializeScreens");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_news_screen_C::InitializeScreens()
 
 void UWBP_news_screen_C::SetCloseBtnPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.SetCloseBtnPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.SetCloseBtnPrompt");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_news_screen_C::SetCloseBtnPrompt()
 
 void UWBP_news_screen_C::GoBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.GoBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.GoBack");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_news_screen_C::GoBack()
 
 void UWBP_news_screen_C::PopulateNewsCards()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.PopulateNewsCards"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.PopulateNewsCards");
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_news_screen_C::PopulateNewsCards()
 
 void UWBP_news_screen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.InitializeWidget");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UWBP_news_screen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_news_screen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UWBP_news_screen_C::InitializeWidgetNavigation()
 
 void UWBP_news_screen_C::OnJsonChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.OnJsonChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.OnJsonChanged");
 
 	struct
 	{
@@ -197,7 +197,7 @@ void UWBP_news_screen_C::OnJsonChanged()
 
 void UWBP_news_screen_C::HandleLoginStateChange(EPUMG_LoginState NewLoginState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.HandleLoginStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.HandleLoginStateChange");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UWBP_news_screen_C::HandleLoginStateChange(EPUMG_LoginState NewLoginState)
 
 void UWBP_news_screen_C::HandleCloseBtnClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.HandleCloseBtnClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.HandleCloseBtnClicked");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UWBP_news_screen_C::HandleCloseBtnClicked()
 
 void UWBP_news_screen_C::ExecuteUbergraph_WBP_news_screen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_screen.WBP_news_screen_C.ExecuteUbergraph_WBP_news_screen"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_screen.WBP_news_screen_C.ExecuteUbergraph_WBP_news_screen");
 
 	struct
 	{

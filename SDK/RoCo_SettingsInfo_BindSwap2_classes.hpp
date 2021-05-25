@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass SettingsInfo_BindSwap2.SettingsInfo_BindSwap2_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass SettingsInfo_BindSwap2.SettingsInfo_BindSwap2_C");
 		return ptr;
 	}
 

@@ -21,7 +21,7 @@ namespace SDK
 
 void UWBP_ProgressionTally_Entry_C::SetValue(int BonusValue, const struct FText& OptionalTextFormat, const struct FLinearColor& Optional_Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.SetValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.SetValue");
 
 	struct
 	{
@@ -45,7 +45,7 @@ void UWBP_ProgressionTally_Entry_C::SetValue(int BonusValue, const struct FText&
 
 void UWBP_ProgressionTally_Entry_C::SetColor(const struct FLinearColor& Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.SetColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.SetColor");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_ProgressionTally_Entry_C::SetColor(const struct FLinearColor& Color)
 
 void UWBP_ProgressionTally_Entry_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.PreConstruct");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_ProgressionTally_Entry_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ProgressionTally_Entry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.Construct");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_ProgressionTally_Entry_C::Construct()
 
 void UWBP_ProgressionTally_Entry_C::ExecuteUbergraph_WBP_ProgressionTally_Entry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.ExecuteUbergraph_WBP_ProgressionTally_Entry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionTally_Entry.WBP_ProgressionTally_Entry_C.ExecuteUbergraph_WBP_ProgressionTally_Entry");
 
 	struct
 	{

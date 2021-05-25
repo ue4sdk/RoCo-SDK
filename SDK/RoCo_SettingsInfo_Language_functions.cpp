@@ -20,7 +20,7 @@ namespace SDK
 
 int USettingsInfo_Language_C::FixupInvalidInt(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.FixupInvalidInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.FixupInvalidInt");
 
 	struct
 	{
@@ -44,7 +44,7 @@ int USettingsInfo_Language_C::FixupInvalidInt(int inInt)
 
 bool USettingsInfo_Language_C::IsValidValueInt(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.IsValidValueInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.IsValidValueInt");
 
 	struct
 	{
@@ -69,7 +69,7 @@ bool USettingsInfo_Language_C::IsValidValueInt(int inInt)
 
 void USettingsInfo_Language_C::GetCultureStringFromTextOptionIndex(int TextOptionIndex, bool* Success, struct FString* CultureString)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.GetCultureStringFromTextOptionIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.GetCultureStringFromTextOptionIndex");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void USettingsInfo_Language_C::GetCultureStringFromTextOptionIndex(int TextOptio
 
 void USettingsInfo_Language_C::GetLanguageTextOptionIndex(const struct FString& Language, int* TextOptionIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.GetLanguageTextOptionIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.GetLanguageTextOptionIndex");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void USettingsInfo_Language_C::GetLanguageTextOptionIndex(const struct FString& 
 
 void USettingsInfo_Language_C::SetUpLanguageOptions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.SetUpLanguageOptions"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.SetUpLanguageOptions");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void USettingsInfo_Language_C::SetUpLanguageOptions()
 
 bool USettingsInfo_Language_C::SaveIntValue(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.SaveIntValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.SaveIntValue");
 
 	struct
 	{
@@ -162,7 +162,7 @@ bool USettingsInfo_Language_C::SaveIntValue(int inInt)
 
 bool USettingsInfo_Language_C::ApplyIntValue(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.ApplyIntValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.ApplyIntValue");
 
 	struct
 	{
@@ -183,7 +183,7 @@ bool USettingsInfo_Language_C::ApplyIntValue(int inInt)
 
 void USettingsInfo_Language_C::InitializeValue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.InitializeValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.InitializeValue");
 
 	struct
 	{
@@ -201,7 +201,7 @@ void USettingsInfo_Language_C::InitializeValue()
 
 void USettingsInfo_Language_C::HandleOnDisplayLanguageApplied(const struct FString& StringValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.HandleOnDisplayLanguageApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.HandleOnDisplayLanguageApplied");
 
 	struct
 	{
@@ -221,7 +221,7 @@ void USettingsInfo_Language_C::HandleOnDisplayLanguageApplied(const struct FStri
 
 void USettingsInfo_Language_C::HandleOnDisplayLanguageSaved(const struct FString& StringValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.HandleOnDisplayLanguageSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.HandleOnDisplayLanguageSaved");
 
 	struct
 	{
@@ -239,7 +239,7 @@ void USettingsInfo_Language_C::HandleOnDisplayLanguageSaved(const struct FString
 
 void USettingsInfo_Language_C::RevertSettingToDefault()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.RevertSettingToDefault"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.RevertSettingToDefault");
 
 	struct
 	{
@@ -257,7 +257,7 @@ void USettingsInfo_Language_C::RevertSettingToDefault()
 
 void USettingsInfo_Language_C::ExecuteUbergraph_SettingsInfo_Language(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_Language.SettingsInfo_Language_C.ExecuteUbergraph_SettingsInfo_Language"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_Language.SettingsInfo_Language_C.ExecuteUbergraph_SettingsInfo_Language");
 
 	struct
 	{

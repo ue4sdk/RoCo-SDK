@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_news_cardpanels_C::HandleInputState(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.HandleInputState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.HandleInputState");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_news_cardpanels_C::HandleInputState(TEnumAsByte<EPGAME_INPUT_STATE> In
 
 void UWBP_news_cardpanels_C::SetCloseBtnGamepadPrompt(class UTexture2D* GamepadPrompt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.SetCloseBtnGamepadPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.SetCloseBtnGamepadPrompt");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_news_cardpanels_C::SetCloseBtnGamepadPrompt(class UTexture2D* GamepadP
 
 void UWBP_news_cardpanels_C::GetCloseBtn(class UKSWidget** CloseBtn)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.GetCloseBtn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.GetCloseBtn");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_news_cardpanels_C::GetCloseBtn(class UKSWidget** CloseBtn)
 
 void UWBP_news_cardpanels_C::InitializeCloseBtn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.InitializeCloseBtn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.InitializeCloseBtn");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_news_cardpanels_C::InitializeCloseBtn()
 
 void UWBP_news_cardpanels_C::PopulateCards(TArray<class UKSWhatsNewPanel*>* NewsPanelData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.PopulateCards"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.PopulateCards");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_news_cardpanels_C::PopulateCards(TArray<class UKSWhatsNewPanel*>* News
 
 void UWBP_news_cardpanels_C::SetNewsCard()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.SetNewsCard"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.SetNewsCard");
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_news_cardpanels_C::SetNewsCard()
 
 void UWBP_news_cardpanels_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.PreConstruct");
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UWBP_news_cardpanels_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_news_cardpanels_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.Construct");
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_news_cardpanels_C::Construct()
 
 void UWBP_news_cardpanels_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.OnInitialized");
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UWBP_news_cardpanels_C::OnInitialized()
 
 void UWBP_news_cardpanels_C::HandleCloseHovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.HandleCloseHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.HandleCloseHovered");
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UWBP_news_cardpanels_C::HandleCloseHovered(class UWidget* Widget)
 
 void UWBP_news_cardpanels_C::HandleCLoseUnhovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.HandleCLoseUnhovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.HandleCLoseUnhovered");
 
 	struct
 	{
@@ -227,7 +227,7 @@ void UWBP_news_cardpanels_C::HandleCLoseUnhovered(class UWidget* Widget)
 
 void UWBP_news_cardpanels_C::HandleCloseClicked(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.HandleCloseClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.HandleCloseClicked");
 
 	struct
 	{
@@ -247,7 +247,7 @@ void UWBP_news_cardpanels_C::HandleCloseClicked(class UWidget* Widget)
 
 void UWBP_news_cardpanels_C::ExecuteUbergraph_WBP_news_cardpanels(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.ExecuteUbergraph_WBP_news_cardpanels"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.ExecuteUbergraph_WBP_news_cardpanels");
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_news_cardpanels_C::ExecuteUbergraph_WBP_news_cardpanels(int EntryPoint
 
 void UWBP_news_cardpanels_C::OnCloseBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_cardpanels.WBP_news_cardpanels_C.OnCloseBtnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_cardpanels.WBP_news_cardpanels_C.OnCloseBtnClicked__DelegateSignature");
 
 	struct
 	{

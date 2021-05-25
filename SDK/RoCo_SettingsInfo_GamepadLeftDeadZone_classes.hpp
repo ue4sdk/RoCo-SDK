@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass SettingsInfo_GamepadLeftDeadZone.SettingsInfo_GamepadLeftDeadZone_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass SettingsInfo_GamepadLeftDeadZone.SettingsInfo_GamepadLeftDeadZone_C");
 		return ptr;
 	}
 

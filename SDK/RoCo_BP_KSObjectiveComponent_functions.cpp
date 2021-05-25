@@ -17,7 +17,7 @@ namespace SDK
 
 void UBP_KSObjectiveComponent_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UBP_KSObjectiveComponent_C::ReceiveBeginPlay()
 
 void UBP_KSObjectiveComponent_C::HandleOnHUDReady()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.HandleOnHUDReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.HandleOnHUDReady");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UBP_KSObjectiveComponent_C::HandleOnHUDReady()
 
 void UBP_KSObjectiveComponent_C::HandleGameModeWidgetSet(class UUserWidget* GameModeWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.HandleGameModeWidgetSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.HandleGameModeWidgetSet");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UBP_KSObjectiveComponent_C::HandleGameModeWidgetSet(class UUserWidget* Game
 
 void UBP_KSObjectiveComponent_C::HandleMarkerAdded(class UKSMapIconWidgetBase* Marker)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.HandleMarkerAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.HandleMarkerAdded");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UBP_KSObjectiveComponent_C::HandleMarkerAdded(class UKSMapIconWidgetBase* M
 
 void UBP_KSObjectiveComponent_C::ExecuteUbergraph_BP_KSObjectiveComponent(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.ExecuteUbergraph_BP_KSObjectiveComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_KSObjectiveComponent.BP_KSObjectiveComponent_C.ExecuteUbergraph_BP_KSObjectiveComponent");
 
 	struct
 	{

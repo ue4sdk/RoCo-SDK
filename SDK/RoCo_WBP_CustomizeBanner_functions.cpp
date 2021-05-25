@@ -21,7 +21,7 @@ namespace SDK
 
 bool UWBP_CustomizeBanner_C::OnSortRarityDescNameAsc(class UWidget* LHS, class UWidget* RHS)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnSortRarityDescNameAsc"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnSortRarityDescNameAsc");
 
 	struct
 	{
@@ -46,7 +46,7 @@ bool UWBP_CustomizeBanner_C::OnSortRarityDescNameAsc(class UWidget* LHS, class U
 
 bool UWBP_CustomizeBanner_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.NavigateBack");
 
 	struct
 	{
@@ -69,7 +69,7 @@ bool UWBP_CustomizeBanner_C::NavigateBack()
 
 struct FEventReply UWBP_CustomizeBanner_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnKeyDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnKeyDown");
 
 	struct
 	{
@@ -92,7 +92,7 @@ struct FEventReply UWBP_CustomizeBanner_C::OnKeyDown(const struct FGeometry& MyG
 
 void UWBP_CustomizeBanner_C::AddEmptySlots()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.AddEmptySlots"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.AddEmptySlots");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_CustomizeBanner_C::AddEmptySlots()
 
 void UWBP_CustomizeBanner_C::SetActiveStates(class UWBP_CosmeticItem_Banner_C* ActiveWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.SetActiveStates"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.SetActiveStates");
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_CustomizeBanner_C::SetActiveStates(class UWBP_CosmeticItem_Banner_C* A
 
 void UWBP_CustomizeBanner_C::RegisterNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.RegisterNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.RegisterNavigation");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_CustomizeBanner_C::RegisterNavigation()
 
 void UWBP_CustomizeBanner_C::IsBannerItemEquipped(class UKSItem* KSItem, bool* IsEquipped)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.IsBannerItemEquipped"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.IsBannerItemEquipped");
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_CustomizeBanner_C::IsBannerItemEquipped(class UKSItem* KSItem, bool* I
 
 void UWBP_CustomizeBanner_C::ResetBannerSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.ResetBannerSelection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.ResetBannerSelection");
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UWBP_CustomizeBanner_C::ResetBannerSelection()
 
 void UWBP_CustomizeBanner_C::SetContextBar()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.SetContextBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.SetContextBar");
 
 	struct
 	{
@@ -201,7 +201,7 @@ void UWBP_CustomizeBanner_C::SetContextBar()
 
 void UWBP_CustomizeBanner_C::SetBannerSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.SetBannerSelection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.SetBannerSelection");
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWBP_CustomizeBanner_C::SetBannerSelection()
 
 void UWBP_CustomizeBanner_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.InitializeWidget");
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_CustomizeBanner_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CustomizeBanner_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnShown");
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UWBP_CustomizeBanner_C::OnShown()
 
 void UWBP_CustomizeBanner_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnHide");
 
 	struct
 	{
@@ -269,7 +269,7 @@ void UWBP_CustomizeBanner_C::OnHide()
 
 void UWBP_CustomizeBanner_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -285,7 +285,7 @@ void UWBP_CustomizeBanner_C::InitializeWidgetNavigation()
 
 void UWBP_CustomizeBanner_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBackPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBackPrompt");
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UWBP_CustomizeBanner_C::OnBackPrompt()
 
 void UWBP_CustomizeBanner_C::OnBannerHover(class UPlatformInventoryItem* PlatformItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBannerHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBannerHover");
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UWBP_CustomizeBanner_C::OnBannerHover(class UPlatformInventoryItem* Platfor
 
 void UWBP_CustomizeBanner_C::OnBannerUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBannerUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBannerUnhover");
 
 	struct
 	{
@@ -340,7 +340,7 @@ void UWBP_CustomizeBanner_C::OnBannerUnhover()
 
 void UWBP_CustomizeBanner_C::OnBannerSelected(class UPlatformInventoryItem* PlatformItem, class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBannerSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBannerSelected");
 
 	struct
 	{
@@ -363,7 +363,7 @@ void UWBP_CustomizeBanner_C::OnBannerSelected(class UPlatformInventoryItem* Plat
 
 void UWBP_CustomizeBanner_C::OnBannerGamepadHover(class UPUMG_Widget* Widget, bool Hovered)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBannerGamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.OnBannerGamepadHover");
 
 	struct
 	{
@@ -385,7 +385,7 @@ void UWBP_CustomizeBanner_C::OnBannerGamepadHover(class UPUMG_Widget* Widget, bo
 
 void UWBP_CustomizeBanner_C::ExecuteUbergraph_WBP_CustomizeBanner(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.ExecuteUbergraph_WBP_CustomizeBanner"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeBanner.WBP_CustomizeBanner_C.ExecuteUbergraph_WBP_CustomizeBanner");
 
 	struct
 	{

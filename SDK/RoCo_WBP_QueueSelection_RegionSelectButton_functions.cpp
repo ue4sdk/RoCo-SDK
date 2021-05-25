@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_QueueSelection_RegionSelectButton_C::HandleInputStateChange(TEnumAsByte<EPGAME_INPUT_STATE> NewInputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.HandleInputStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.HandleInputStateChange");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::HandleInputStateChange(TEnumAsByt
 
 void UWBP_QueueSelection_RegionSelectButton_C::SetupPromptImageHandling()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.SetupPromptImageHandling"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.SetupPromptImageHandling");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::SetupPromptImageHandling()
 
 void UWBP_QueueSelection_RegionSelectButton_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.InitializeWidget");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::InitializeWidget(class APUMG_HUD*
 
 void UWBP_QueueSelection_RegionSelectButton_C::Update_Region()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.Update Region"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.Update Region");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::Update_Region()
 
 void UWBP_QueueSelection_RegionSelectButton_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.OnHide");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::OnHide()
 
 void UWBP_QueueSelection_RegionSelectButton_C::LoginState(EPUMG_LoginState LoginState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.LoginState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.LoginState");
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::LoginState(EPUMG_LoginState Login
 
 void UWBP_QueueSelection_RegionSelectButton_C::EnableAsButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.EnableAsButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.EnableAsButton");
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::EnableAsButton()
 
 void UWBP_QueueSelection_RegionSelectButton_C::DisableAsButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.DisableAsButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.DisableAsButton");
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::DisableAsButton()
 
 void UWBP_QueueSelection_RegionSelectButton_C::UpdateCrossplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.UpdateCrossplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.UpdateCrossplay");
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::UpdateCrossplay()
 
 void UWBP_QueueSelection_RegionSelectButton_C::BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::BndEvt__WBP_StandardButtonMedium_
 
 void UWBP_QueueSelection_RegionSelectButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.PreConstruct");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_QueueSelection_RegionSelectButton_C::ExecuteUbergraph_WBP_QueueSelection_RegionSelectButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.ExecuteUbergraph_WBP_QueueSelection_RegionSelectButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.ExecuteUbergraph_WBP_QueueSelection_RegionSelectButton");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UWBP_QueueSelection_RegionSelectButton_C::ExecuteUbergraph_WBP_QueueSelecti
 
 void UWBP_QueueSelection_RegionSelectButton_C::RegionSelectRequested__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.RegionSelectRequested__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueSelection_RegionSelectButton.WBP_QueueSelection_RegionSelectButton_C.RegionSelectRequested__DelegateSignature");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UCamMod_Mantle_C::ShouldModifyCamera(bool* bSuccess)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_Mantle.CamMod_Mantle_C.ShouldModifyCamera"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_Mantle.CamMod_Mantle_C.ShouldModifyCamera");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UCamMod_Mantle_C::ShouldModifyCamera(bool* bSuccess)
 
 void UCamMod_Mantle_C::PlayTimeline()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_Mantle.CamMod_Mantle_C.PlayTimeline"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_Mantle.CamMod_Mantle_C.PlayTimeline");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UCamMod_Mantle_C::PlayTimeline()
 
 void UCamMod_Mantle_C::ExecuteUbergraph_CamMod_Mantle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_Mantle.CamMod_Mantle_C.ExecuteUbergraph_CamMod_Mantle"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_Mantle.CamMod_Mantle_C.ExecuteUbergraph_CamMod_Mantle");
 
 	struct
 	{

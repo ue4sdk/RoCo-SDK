@@ -8,10 +8,10 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_Killstreak_classes.hpp"
+#include "RoCo_LastHitImpulse_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_HitEnum_classes.hpp"
-#include "RoCo_LastHitImpulse_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
 #include "RoCo_AkAudio_classes.hpp"
 

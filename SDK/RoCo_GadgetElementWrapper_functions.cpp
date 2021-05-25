@@ -19,7 +19,7 @@ namespace SDK
 
 void UGadgetElementWrapper_C::Get_Current_Cannot_Fire_Now(bool* bCanFireNow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.Get Current Cannot Fire Now"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.Get Current Cannot Fire Now");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UGadgetElementWrapper_C::Get_Current_Cannot_Fire_Now(bool* bCanFireNow)
 
 void UGadgetElementWrapper_C::Set_Jammed(bool Is_Jammed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.Set Jammed"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.Set Jammed");
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UGadgetElementWrapper_C::Set_Jammed(bool Is_Jammed)
 
 void UGadgetElementWrapper_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.InitializeWidget");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UGadgetElementWrapper_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UGadgetElementWrapper_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.PostSetPawn");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UGadgetElementWrapper_C::PostSetPawn()
 
 void UGadgetElementWrapper_C::OnWeaponInventoryChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.OnWeaponInventoryChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.OnWeaponInventoryChanged");
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UGadgetElementWrapper_C::OnWeaponInventoryChanged()
 
 void UGadgetElementWrapper_C::GadgetSwapped(class AKSCharacter* EquipmentOwner, class UKSWeaponComponent* Equipment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.GadgetSwapped"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.GadgetSwapped");
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UGadgetElementWrapper_C::GadgetSwapped(class AKSCharacter* EquipmentOwner, 
 
 void UGadgetElementWrapper_C::OnSetCannotFireNow(bool bInCannotFire)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.OnSetCannotFireNow"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.OnSetCannotFireNow");
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UGadgetElementWrapper_C::OnSetCannotFireNow(bool bInCannotFire)
 
 void UGadgetElementWrapper_C::Set_Tracked_Gadget(class UKSWeaponComponent* New_Gadget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.Set Tracked Gadget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.Set Tracked Gadget");
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UGadgetElementWrapper_C::Set_Tracked_Gadget(class UKSWeaponComponent* New_G
 
 void UGadgetElementWrapper_C::Clear_Tracked_Gadget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.Clear Tracked Gadget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.Clear Tracked Gadget");
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UGadgetElementWrapper_C::Clear_Tracked_Gadget()
 
 void UGadgetElementWrapper_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.PreClearPawn");
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UGadgetElementWrapper_C::PreClearPawn()
 
 void UGadgetElementWrapper_C::GadgetResupplied()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.GadgetResupplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.GadgetResupplied");
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UGadgetElementWrapper_C::GadgetResupplied()
 
 void UGadgetElementWrapper_C::ExecuteUbergraph_GadgetElementWrapper(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetElementWrapper.GadgetElementWrapper_C.ExecuteUbergraph_GadgetElementWrapper"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetElementWrapper.GadgetElementWrapper_C.ExecuteUbergraph_GadgetElementWrapper");
 
 	struct
 	{

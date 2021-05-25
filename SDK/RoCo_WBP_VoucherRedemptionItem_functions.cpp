@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_VoucherRedemptionItem_C::SetPanelDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherRedemptionItem.WBP_VoucherRedemptionItem_C.SetPanelDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherRedemptionItem.WBP_VoucherRedemptionItem_C.SetPanelDisplay");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_VoucherRedemptionItem_C::SetPanelDisplay()
 
 void UWBP_VoucherRedemptionItem_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherRedemptionItem.WBP_VoucherRedemptionItem_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherRedemptionItem.WBP_VoucherRedemptionItem_C.Construct");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_VoucherRedemptionItem_C::Construct()
 
 void UWBP_VoucherRedemptionItem_C::ExecuteUbergraph_WBP_VoucherRedemptionItem(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoucherRedemptionItem.WBP_VoucherRedemptionItem_C.ExecuteUbergraph_WBP_VoucherRedemptionItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoucherRedemptionItem.WBP_VoucherRedemptionItem_C.ExecuteUbergraph_WBP_VoucherRedemptionItem");
 
 	struct
 	{

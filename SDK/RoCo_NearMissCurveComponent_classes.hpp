@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass NearMissCurveComponent.NearMissCurveComponent_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass NearMissCurveComponent.NearMissCurveComponent_C");
 		return ptr;
 	}
 

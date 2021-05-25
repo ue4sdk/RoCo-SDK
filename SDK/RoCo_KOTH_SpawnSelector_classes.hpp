@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass KOTH_SpawnSelector.KOTH_SpawnSelector_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass KOTH_SpawnSelector.KOTH_SpawnSelector_C");
 		return ptr;
 	}
 

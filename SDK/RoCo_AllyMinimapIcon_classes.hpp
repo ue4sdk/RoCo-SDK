@@ -72,7 +72,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass AllyMinimapIcon.AllyMinimapIcon_C"));
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass AllyMinimapIcon.AllyMinimapIcon_C");
 		return ptr;
 	}
 

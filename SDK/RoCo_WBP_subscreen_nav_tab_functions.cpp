@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_subscreen_nav_tab_C::SetSelected(bool bNewSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SetSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SetSelected");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_subscreen_nav_tab_C::SetSelected(bool bNewSelected)
 
 void UWBP_subscreen_nav_tab_C::SetDisabled(bool bNewDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SetDisabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SetDisabled");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_subscreen_nav_tab_C::SetDisabled(bool bNewDisabled)
 
 void UWBP_subscreen_nav_tab_C::TryCreateCalloutWidget(bool* Created)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.TryCreateCalloutWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.TryCreateCalloutWidget");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_subscreen_nav_tab_C::TryCreateCalloutWidget(bool* Created)
 
 void UWBP_subscreen_nav_tab_C::SetShowCallout(bool Show)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SetShowCallout"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SetShowCallout");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_subscreen_nav_tab_C::SetShowCallout(bool Show)
 
 void UWBP_subscreen_nav_tab_C::SettingsSubScreenNavTabClickedSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SettingsSubScreenNavTabClickedSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SettingsSubScreenNavTabClickedSFX");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_subscreen_nav_tab_C::SettingsSubScreenNavTabClickedSFX()
 
 void UWBP_subscreen_nav_tab_C::SettingsSubScreenNavTabHoveredSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SettingsSubScreenNavTabHoveredSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SettingsSubScreenNavTabHoveredSFX");
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UWBP_subscreen_nav_tab_C::SettingsSubScreenNavTabHoveredSFX()
 
 void UWBP_subscreen_nav_tab_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.Construct");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_subscreen_nav_tab_C::Construct()
 
 void UWBP_subscreen_nav_tab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UWBP_subscreen_nav_tab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_0_On
 
 void UWBP_subscreen_nav_tab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UWBP_subscreen_nav_tab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_1_On
 
 void UWBP_subscreen_nav_tab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -197,7 +197,7 @@ void UWBP_subscreen_nav_tab_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_2_On
 
 void UWBP_subscreen_nav_tab_C::SetButtonText(const struct FText& ButtonText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SetButtonText"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SetButtonText");
 
 	struct
 	{
@@ -217,7 +217,7 @@ void UWBP_subscreen_nav_tab_C::SetButtonText(const struct FText& ButtonText)
 
 void UWBP_subscreen_nav_tab_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.InitializeWidget");
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_subscreen_nav_tab_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_subscreen_nav_tab_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.PreConstruct");
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_subscreen_nav_tab_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_subscreen_nav_tab_C::SelectNavTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SelectNavTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.SelectNavTab");
 
 	struct
 	{
@@ -271,7 +271,7 @@ void UWBP_subscreen_nav_tab_C::SelectNavTab()
 
 void UWBP_subscreen_nav_tab_C::UnselectNavTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.UnselectNavTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.UnselectNavTab");
 
 	struct
 	{
@@ -287,7 +287,7 @@ void UWBP_subscreen_nav_tab_C::UnselectNavTab()
 
 void UWBP_subscreen_nav_tab_C::Refresh_Battle_Pass_State()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.Refresh Battle Pass State"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.Refresh Battle Pass State");
 
 	struct
 	{
@@ -305,7 +305,7 @@ void UWBP_subscreen_nav_tab_C::Refresh_Battle_Pass_State()
 
 void UWBP_subscreen_nav_tab_C::ExecuteUbergraph_WBP_subscreen_nav_tab(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.ExecuteUbergraph_WBP_subscreen_nav_tab"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.ExecuteUbergraph_WBP_subscreen_nav_tab");
 
 	struct
 	{

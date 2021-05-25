@@ -20,7 +20,7 @@ namespace SDK
 
 EFlashBangIntensity ALightBombProjectile_C::DetermineFlashIntensity(class AKSCharacter* FlashedCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LightBombProjectile.LightBombProjectile_C.DetermineFlashIntensity"));
+	static auto fn = UObject::FindObject<UFunction>("Function LightBombProjectile.LightBombProjectile_C.DetermineFlashIntensity");
 
 	struct
 	{
@@ -44,7 +44,7 @@ EFlashBangIntensity ALightBombProjectile_C::DetermineFlashIntensity(class AKSCha
 
 class UCurveFloat* ALightBombProjectile_C::GetFlashCurve(EFlashBangIntensity Intensity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LightBombProjectile.LightBombProjectile_C.GetFlashCurve"));
+	static auto fn = UObject::FindObject<UFunction>("Function LightBombProjectile.LightBombProjectile_C.GetFlashCurve");
 
 	struct
 	{
@@ -68,7 +68,7 @@ class UCurveFloat* ALightBombProjectile_C::GetFlashCurve(EFlashBangIntensity Int
 
 bool ALightBombProjectile_C::ShouldBounceOff(const struct FHitResult& HitResult)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LightBombProjectile.LightBombProjectile_C.ShouldBounceOff"));
+	static auto fn = UObject::FindObject<UFunction>("Function LightBombProjectile.LightBombProjectile_C.ShouldBounceOff");
 
 	struct
 	{
@@ -89,7 +89,7 @@ bool ALightBombProjectile_C::ShouldBounceOff(const struct FHitResult& HitResult)
 
 void ALightBombProjectile_C::DoDamageToActors()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LightBombProjectile.LightBombProjectile_C.DoDamageToActors"));
+	static auto fn = UObject::FindObject<UFunction>("Function LightBombProjectile.LightBombProjectile_C.DoDamageToActors");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void ALightBombProjectile_C::DoDamageToActors()
 
 void ALightBombProjectile_C::LightBombDetonateSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LightBombProjectile.LightBombProjectile_C.LightBombDetonateSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function LightBombProjectile.LightBombProjectile_C.LightBombDetonateSFX");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void ALightBombProjectile_C::LightBombDetonateSFX()
 
 void ALightBombProjectile_C::TriggerExplosion(const struct FProjectileExplosionInfo& ExplosionInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LightBombProjectile.LightBombProjectile_C.TriggerExplosion"));
+	static auto fn = UObject::FindObject<UFunction>("Function LightBombProjectile.LightBombProjectile_C.TriggerExplosion");
 
 	struct
 	{
@@ -143,7 +143,7 @@ void ALightBombProjectile_C::TriggerExplosion(const struct FProjectileExplosionI
 
 void ALightBombProjectile_C::PlayExplosion(const struct FProjectileExplosionInfo& ExplosionInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LightBombProjectile.LightBombProjectile_C.PlayExplosion"));
+	static auto fn = UObject::FindObject<UFunction>("Function LightBombProjectile.LightBombProjectile_C.PlayExplosion");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void ALightBombProjectile_C::PlayExplosion(const struct FProjectileExplosionInfo
 
 void ALightBombProjectile_C::SpawnNumberHitWidget(int NumberHit)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LightBombProjectile.LightBombProjectile_C.SpawnNumberHitWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function LightBombProjectile.LightBombProjectile_C.SpawnNumberHitWidget");
 
 	struct
 	{
@@ -183,7 +183,7 @@ void ALightBombProjectile_C::SpawnNumberHitWidget(int NumberHit)
 
 void ALightBombProjectile_C::ExecuteUbergraph_LightBombProjectile(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LightBombProjectile.LightBombProjectile_C.ExecuteUbergraph_LightBombProjectile"));
+	static auto fn = UObject::FindObject<UFunction>("Function LightBombProjectile.LightBombProjectile_C.ExecuteUbergraph_LightBombProjectile");
 
 	struct
 	{

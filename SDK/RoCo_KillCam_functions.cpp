@@ -17,7 +17,7 @@ namespace SDK
 
 void UKillCam_C::PostSetPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillCam.KillCam_C.PostSetPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillCam.KillCam_C.PostSetPlayerState");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UKillCam_C::PostSetPlayerState()
 
 void UKillCam_C::SetPlayerStateUIRelevanceChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillCam.KillCam_C.SetPlayerStateUIRelevanceChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillCam.KillCam_C.SetPlayerStateUIRelevanceChanged");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UKillCam_C::SetPlayerStateUIRelevanceChanged()
 
 void UKillCam_C::ExecuteUbergraph_KillCam(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillCam.KillCam_C.ExecuteUbergraph_KillCam"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillCam.KillCam_C.ExecuteUbergraph_KillCam");
 
 	struct
 	{

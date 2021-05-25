@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass LaunchCinematicViewRedirector.LaunchCinematicViewRedirector_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass LaunchCinematicViewRedirector.LaunchCinematicViewRedirector_C");
 		return ptr;
 	}
 

@@ -17,7 +17,7 @@ namespace SDK
 
 void UAccuracyDebug_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AccuracyDebug.AccuracyDebug_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function AccuracyDebug.AccuracyDebug_C.Construct");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UAccuracyDebug_C::Construct()
 
 void UAccuracyDebug_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AccuracyDebug.AccuracyDebug_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function AccuracyDebug.AccuracyDebug_C.Tick");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UAccuracyDebug_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTim
 
 void UAccuracyDebug_C::ExecuteUbergraph_AccuracyDebug(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AccuracyDebug.AccuracyDebug_C.ExecuteUbergraph_AccuracyDebug"));
+	static auto fn = UObject::FindObject<UFunction>("Function AccuracyDebug.AccuracyDebug_C.ExecuteUbergraph_AccuracyDebug");
 
 	struct
 	{

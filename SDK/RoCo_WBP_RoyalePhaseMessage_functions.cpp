@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_RoyalePhaseMessage_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RoyalePhaseMessage.WBP_RoyalePhaseMessage_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RoyalePhaseMessage.WBP_RoyalePhaseMessage_C.Construct");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UWBP_RoyalePhaseMessage_C::Construct()
 
 void UWBP_RoyalePhaseMessage_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RoyalePhaseMessage.WBP_RoyalePhaseMessage_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RoyalePhaseMessage.WBP_RoyalePhaseMessage_C.Tick");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_RoyalePhaseMessage_C::Tick(const struct FGeometry& MyGeometry, float I
 
 void UWBP_RoyalePhaseMessage_C::ExecuteUbergraph_WBP_RoyalePhaseMessage(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RoyalePhaseMessage.WBP_RoyalePhaseMessage_C.ExecuteUbergraph_WBP_RoyalePhaseMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RoyalePhaseMessage.WBP_RoyalePhaseMessage_C.ExecuteUbergraph_WBP_RoyalePhaseMessage");
 
 	struct
 	{

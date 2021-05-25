@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_CosmeticSlotNavTab.WBP_CosmeticSlotNavTab_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_CosmeticSlotNavTab.WBP_CosmeticSlotNavTab_C");
 		return ptr;
 	}
 

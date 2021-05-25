@@ -21,7 +21,7 @@ namespace SDK
 
 void UStaticMeshDescription::SetVertexInstanceUV(const struct FVertexInstanceID& VertexInstanceID, const struct FVector2D& UV, int UVIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StaticMeshDescription.StaticMeshDescription.SetVertexInstanceUV"));
+	static auto fn = UObject::FindObject<UFunction>("Function StaticMeshDescription.StaticMeshDescription.SetVertexInstanceUV");
 
 	struct
 	{
@@ -46,7 +46,7 @@ void UStaticMeshDescription::SetVertexInstanceUV(const struct FVertexInstanceID&
 
 void UStaticMeshDescription::SetPolygonGroupMaterialSlotName(const struct FPolygonGroupID& PolygonGroupID, const struct FName& SlotName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StaticMeshDescription.StaticMeshDescription.SetPolygonGroupMaterialSlotName"));
+	static auto fn = UObject::FindObject<UFunction>("Function StaticMeshDescription.StaticMeshDescription.SetPolygonGroupMaterialSlotName");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UStaticMeshDescription::SetPolygonGroupMaterialSlotName(const struct FPolyg
 
 struct FVector2D UStaticMeshDescription::GetVertexInstanceUV(const struct FVertexInstanceID& VertexInstanceID, int UVIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StaticMeshDescription.StaticMeshDescription.GetVertexInstanceUV"));
+	static auto fn = UObject::FindObject<UFunction>("Function StaticMeshDescription.StaticMeshDescription.GetVertexInstanceUV");
 
 	struct
 	{
@@ -103,7 +103,7 @@ struct FVector2D UStaticMeshDescription::GetVertexInstanceUV(const struct FVerte
 
 void UStaticMeshDescription::CreateCube(const struct FVector& Center, const struct FVector& HalfExtents, const struct FPolygonGroupID& PolygonGroup, struct FPolygonID* PolygonID_PlusX, struct FPolygonID* PolygonID_MinusX, struct FPolygonID* PolygonID_PlusY, struct FPolygonID* PolygonID_MinusY, struct FPolygonID* PolygonID_PlusZ, struct FPolygonID* PolygonID_MinusZ)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StaticMeshDescription.StaticMeshDescription.CreateCube"));
+	static auto fn = UObject::FindObject<UFunction>("Function StaticMeshDescription.StaticMeshDescription.CreateCube");
 
 	struct
 	{

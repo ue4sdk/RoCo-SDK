@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_NeutralBombIndicator_C::GetObjectiveHolder(class AKSPlayerState** PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.GetObjectiveHolder"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.GetObjectiveHolder");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_NeutralBombIndicator_C::GetObjectiveHolder(class AKSPlayerState** Play
 
 void UWBP_NeutralBombIndicator_C::HandleObjectiveStateChanged(const TScriptInterface<class UKSObjective>& GameObjective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleObjectiveStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleObjectiveStateChanged");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_NeutralBombIndicator_C::HandleObjectiveStateChanged(const TScriptInter
 
 void UWBP_NeutralBombIndicator_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.Construct");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_NeutralBombIndicator_C::Construct()
 
 void UWBP_NeutralBombIndicator_C::HandleBombStateChanged(const struct FKSNeutralBombState& BombState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleBombStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleBombStateChanged");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_NeutralBombIndicator_C::HandleBombStateChanged(const struct FKSNeutral
 
 void UWBP_NeutralBombIndicator_C::HandleViewedPawnChanged(class AKSPlayerController* Controller, class AActor* OldViewTarget, class AActor* NewViewTarget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleViewedPawnChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleViewedPawnChanged");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_NeutralBombIndicator_C::HandleViewedPawnChanged(class AKSPlayerControl
 
 void UWBP_NeutralBombIndicator_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.InitializeWidget");
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWBP_NeutralBombIndicator_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_NeutralBombIndicator_C::ExecuteUbergraph_WBP_NeutralBombIndicator(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.ExecuteUbergraph_WBP_NeutralBombIndicator"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.ExecuteUbergraph_WBP_NeutralBombIndicator");
 
 	struct
 	{

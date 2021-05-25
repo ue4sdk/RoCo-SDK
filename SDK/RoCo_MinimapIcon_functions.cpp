@@ -17,7 +17,7 @@ namespace SDK
 
 void UMinimapIcon_C::SetupEnemyPing()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.SetupEnemyPing"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.SetupEnemyPing");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UMinimapIcon_C::SetupEnemyPing()
 
 void UMinimapIcon_C::SetupAlly()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.SetupAlly"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.SetupAlly");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UMinimapIcon_C::SetupAlly()
 
 void UMinimapIcon_C::SetupLocalPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.SetupLocalPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.SetupLocalPlayer");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UMinimapIcon_C::SetupLocalPlayer()
 
 void UMinimapIcon_C::SetObjectiveIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.SetObjectiveIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.SetObjectiveIcon");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UMinimapIcon_C::SetObjectiveIcon()
 
 void UMinimapIcon_C::AllyStateChange(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.AllyStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.AllyStateChange");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UMinimapIcon_C::AllyStateChange(class AKSPlayerState* PlayerState)
 
 void UMinimapIcon_C::ObjectiveUpdated(class AKSObjectiveBase* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.ObjectiveUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.ObjectiveUpdated");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UMinimapIcon_C::ObjectiveUpdated(class AKSObjectiveBase* Objective)
 
 void UMinimapIcon_C::SetRelativeHeight(TEnumAsByte<EMiniMapRelativeHeight> RelativeHeight)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.SetRelativeHeight"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.SetRelativeHeight");
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UMinimapIcon_C::SetRelativeHeight(TEnumAsByte<EMiniMapRelativeHeight> Relat
 
 void UMinimapIcon_C::ResetHeightIndicators()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.ResetHeightIndicators"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.ResetHeightIndicators");
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UMinimapIcon_C::ResetHeightIndicators()
 
 void UMinimapIcon_C::OnLootSiteStateChanged(const struct FLootSiteState& State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.OnLootSiteStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.OnLootSiteStateChanged");
 
 	struct
 	{
@@ -177,7 +177,7 @@ void UMinimapIcon_C::OnLootSiteStateChanged(const struct FLootSiteState& State)
 
 void UMinimapIcon_C::SetupObjective()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.SetupObjective"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.SetupObjective");
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UMinimapIcon_C::SetupObjective()
 
 void UMinimapIcon_C::SetupLootSite()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.SetupLootSite"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.SetupLootSite");
 
 	struct
 	{
@@ -209,7 +209,7 @@ void UMinimapIcon_C::SetupLootSite()
 
 void UMinimapIcon_C::Update()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.Update"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.Update");
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UMinimapIcon_C::Update()
 
 void UMinimapIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.Construct");
 
 	struct
 	{
@@ -243,7 +243,7 @@ void UMinimapIcon_C::Construct()
 
 void UMinimapIcon_C::ExecuteUbergraph_MinimapIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.ExecuteUbergraph_MinimapIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.ExecuteUbergraph_MinimapIcon");
 
 	struct
 	{
@@ -263,7 +263,7 @@ void UMinimapIcon_C::ExecuteUbergraph_MinimapIcon(int EntryPoint)
 
 void UMinimapIcon_C::PingExpired__DelegateSignature(int UniqueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MinimapIcon.MinimapIcon_C.PingExpired__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function MinimapIcon.MinimapIcon_C.PingExpired__DelegateSignature");
 
 	struct
 	{

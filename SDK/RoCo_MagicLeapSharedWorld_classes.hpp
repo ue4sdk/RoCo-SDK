@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MagicLeapSharedWorld.MagicLeapSharedWorldGameMode"));
+		static auto ptr = UObject::FindObject<UClass>("Class MagicLeapSharedWorld.MagicLeapSharedWorldGameMode");
 		return ptr;
 	}
 
@@ -51,7 +51,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MagicLeapSharedWorld.MagicLeapSharedWorldGameState"));
+		static auto ptr = UObject::FindObject<UClass>("Class MagicLeapSharedWorld.MagicLeapSharedWorldGameState");
 		return ptr;
 	}
 
@@ -72,7 +72,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController"));
+		static auto ptr = UObject::FindObject<UClass>("Class MagicLeapSharedWorld.MagicLeapSharedWorldPlayerController");
 		return ptr;
 	}
 

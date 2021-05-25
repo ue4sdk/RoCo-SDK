@@ -26,7 +26,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Rejoin.RejoinCheck"));
+		static auto ptr = UObject::FindObject<UClass>("Class Rejoin.RejoinCheck");
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void UScoreboard_C::Set_Gamepad_Focus_Group(bool Focused)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.Set Gamepad Focus Group"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.Set Gamepad Focus Group");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UScoreboard_C::Set_Gamepad_Focus_Group(bool Focused)
 
 void UScoreboard_C::UnhoverPlayerEntries()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.UnhoverPlayerEntries"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.UnhoverPlayerEntries");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UScoreboard_C::UnhoverPlayerEntries()
 
 void UScoreboard_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.HandleInputModeChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.HandleInputModeChanged");
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UScoreboard_C::HandleInputModeChanged(TEnumAsByte<EPGAME_INPUT_STATE> Input
 
 void UScoreboard_C::GetLocalPlayerJobInfo(bool* JobFound, class UKSJobItem** JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.GetLocalPlayerJobInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.GetLocalPlayerJobInfo");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UScoreboard_C::GetLocalPlayerJobInfo(bool* JobFound, class UKSJobItem** Job
 
 void UScoreboard_C::UpdateRogueInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.UpdateRogueInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.UpdateRogueInfo");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UScoreboard_C::UpdateRogueInfo()
 
 void UScoreboard_C::GetPlayerData(TArray<class UKSPersistentPlayerData*>* OutPlayerData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.GetPlayerData"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.GetPlayerData");
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UScoreboard_C::GetPlayerData(TArray<class UKSPersistentPlayerData*>* OutPla
 
 void UScoreboard_C::GetPlayersForTeamSection(class UScoreboardTeamSection_C* TeamSection, TArray<class UScoreboardPlayerEntry_C*>* PlayerButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.GetPlayersForTeamSection"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.GetPlayersForTeamSection");
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UScoreboard_C::GetPlayersForTeamSection(class UScoreboardTeamSection_C* Tea
 
 bool UScoreboard_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.NavigateBack");
 
 	struct
 	{
@@ -186,7 +186,7 @@ bool UScoreboard_C::NavigateBack()
 
 void UScoreboard_C::GetPlayers(bool PrioritizeAllyTeam, TArray<class UScoreboardPlayerEntry_C*>* Players)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.GetPlayers"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.GetPlayers");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UScoreboard_C::GetPlayers(bool PrioritizeAllyTeam, TArray<class UScoreboard
 
 void UScoreboard_C::UpdateTeamColors()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.UpdateTeamColors"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.UpdateTeamColors");
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UScoreboard_C::UpdateTeamColors()
 
 void UScoreboard_C::SortKSPlayerStatesByMoney(bool DescOrder, TArray<class UKSPersistentPlayerData*>* InKSPlayerData, TArray<class UKSPersistentPlayerData*>* OutKSPlayerData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.SortKSPlayerStatesByMoney"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.SortKSPlayerStatesByMoney");
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UScoreboard_C::SortKSPlayerStatesByMoney(bool DescOrder, TArray<class UKSPe
 
 void UScoreboard_C::Get_KSPlayer_Data(TArray<class UKSPersistentPlayerData*>* KSPlayerData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.Get KSPlayer Data"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.Get KSPlayer Data");
 
 	struct
 	{
@@ -279,7 +279,7 @@ void UScoreboard_C::Get_KSPlayer_Data(TArray<class UKSPersistentPlayerData*>* KS
 
 void UScoreboard_C::ComparePlayerScore(class AKSPlayerState* PlayerStateA, class AKSPlayerState* PlayerStateB, bool* After)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.ComparePlayerScore"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.ComparePlayerScore");
 
 	struct
 	{
@@ -303,7 +303,7 @@ void UScoreboard_C::ComparePlayerScore(class AKSPlayerState* PlayerStateA, class
 
 void UScoreboard_C::UpdateScores()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.UpdateScores"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.UpdateScores");
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UScoreboard_C::UpdateScores()
 
 void UScoreboard_C::OnLoaded_4848F73A412C50823EB015A4F7EF3736(class UObject* Loaded)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.OnLoaded_4848F73A412C50823EB015A4F7EF3736"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.OnLoaded_4848F73A412C50823EB015A4F7EF3736");
 
 	struct
 	{
@@ -342,7 +342,7 @@ void UScoreboard_C::OnLoaded_4848F73A412C50823EB015A4F7EF3736(class UObject* Loa
 
 void UScoreboard_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.Tick");
 
 	struct
 	{
@@ -362,7 +362,7 @@ void UScoreboard_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 void UScoreboard_C::UpdateScoreboard()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.UpdateScoreboard"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.UpdateScoreboard");
 
 	struct
 	{
@@ -378,7 +378,7 @@ void UScoreboard_C::UpdateScoreboard()
 
 void UScoreboard_C::HandleOnScoreboardEntryAdded()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.HandleOnScoreboardEntryAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.HandleOnScoreboardEntryAdded");
 
 	struct
 	{
@@ -396,7 +396,7 @@ void UScoreboard_C::HandleOnScoreboardEntryAdded()
 
 void UScoreboard_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.InitializeWidget");
 
 	struct
 	{
@@ -414,7 +414,7 @@ void UScoreboard_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UScoreboard_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.OnShown");
 
 	struct
 	{
@@ -432,7 +432,7 @@ void UScoreboard_C::OnShown()
 
 void UScoreboard_C::LoadAndPopulateFirstPassive(TSoftObjectPtr<class UObject> Asset)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.LoadAndPopulateFirstPassive"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.LoadAndPopulateFirstPassive");
 
 	struct
 	{
@@ -452,7 +452,7 @@ void UScoreboard_C::LoadAndPopulateFirstPassive(TSoftObjectPtr<class UObject> As
 
 void UScoreboard_C::ExecuteUbergraph_Scoreboard(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.ExecuteUbergraph_Scoreboard"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.ExecuteUbergraph_Scoreboard");
 
 	struct
 	{
@@ -470,7 +470,7 @@ void UScoreboard_C::ExecuteUbergraph_Scoreboard(int EntryPoint)
 
 void UScoreboard_C::OnScoreboardEntryAdded__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.OnScoreboardEntryAdded__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.OnScoreboardEntryAdded__DelegateSignature");
 
 	struct
 	{
@@ -486,7 +486,7 @@ void UScoreboard_C::OnScoreboardEntryAdded__DelegateSignature()
 
 void UScoreboard_C::ScoreboardTabPress__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.ScoreboardTabPress__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.ScoreboardTabPress__DelegateSignature");
 
 	struct
 	{
@@ -502,7 +502,7 @@ void UScoreboard_C::ScoreboardTabPress__DelegateSignature()
 
 void UScoreboard_C::Closed__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.Closed__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.Closed__DelegateSignature");
 
 	struct
 	{
@@ -518,7 +518,7 @@ void UScoreboard_C::Closed__DelegateSignature()
 
 void UScoreboard_C::Opened__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Scoreboard.Scoreboard_C.Opened__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Scoreboard.Scoreboard_C.Opened__DelegateSignature");
 
 	struct
 	{

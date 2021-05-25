@@ -28,7 +28,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimationSharing.AnimSharingStateInstance"));
+		static auto ptr = UObject::FindObject<UClass>("Class AnimationSharing.AnimSharingStateInstance");
 		return ptr;
 	}
 
@@ -49,7 +49,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimationSharing.AnimSharingTransitionInstance"));
+		static auto ptr = UObject::FindObject<UClass>("Class AnimationSharing.AnimSharingTransitionInstance");
 		return ptr;
 	}
 
@@ -68,7 +68,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimationSharing.AnimSharingAdditiveInstance"));
+		static auto ptr = UObject::FindObject<UClass>("Class AnimationSharing.AnimSharingAdditiveInstance");
 		return ptr;
 	}
 
@@ -92,7 +92,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimationSharing.AnimSharingInstance"));
+		static auto ptr = UObject::FindObject<UClass>("Class AnimationSharing.AnimSharingInstance");
 		return ptr;
 	}
 
@@ -110,7 +110,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimationSharing.AnimationSharingManager"));
+		static auto ptr = UObject::FindObject<UClass>("Class AnimationSharing.AnimationSharingManager");
 		return ptr;
 	}
 
@@ -132,7 +132,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimationSharing.AnimationSharingSetup"));
+		static auto ptr = UObject::FindObject<UClass>("Class AnimationSharing.AnimationSharingSetup");
 		return ptr;
 	}
 
@@ -148,7 +148,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AnimationSharing.AnimationSharingStateProcessor"));
+		static auto ptr = UObject::FindObject<UClass>("Class AnimationSharing.AnimationSharingStateProcessor");
 		return ptr;
 	}
 

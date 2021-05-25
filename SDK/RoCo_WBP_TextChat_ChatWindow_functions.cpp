@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_TextChat_ChatWindow_C::GetMaxChatMessages(int* MaxChatMessages)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.GetMaxChatMessages"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.GetMaxChatMessages");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_TextChat_ChatWindow_C::GetMaxChatMessages(int* MaxChatMessages)
 
 void UWBP_TextChat_ChatWindow_C::SetCollapsed(bool Collapsed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.SetCollapsed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.SetCollapsed");
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_TextChat_ChatWindow_C::SetCollapsed(bool Collapsed)
 
 void UWBP_TextChat_ChatWindow_C::AddChatMessage(struct FPUMG_ChatData* ChatData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.AddChatMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.AddChatMessage");
 
 	struct
 	{
@@ -84,7 +84,7 @@ void UWBP_TextChat_ChatWindow_C::AddChatMessage(struct FPUMG_ChatData* ChatData)
 
 void UWBP_TextChat_ChatWindow_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.Tick");
 
 	struct
 	{
@@ -104,7 +104,7 @@ void UWBP_TextChat_ChatWindow_C::Tick(const struct FGeometry& MyGeometry, float 
 
 void UWBP_TextChat_ChatWindow_C::BndEvt__CloseBtn_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.BndEvt__CloseBtn_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.BndEvt__CloseBtn_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_TextChat_ChatWindow_C::BndEvt__CloseBtn_K2Node_ComponentBoundEvent_0_O
 
 void UWBP_TextChat_ChatWindow_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.InitializeWidget");
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_TextChat_ChatWindow_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_TextChat_ChatWindow_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.HandleInputStateChanged");
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWBP_TextChat_ChatWindow_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPU
 
 void UWBP_TextChat_ChatWindow_C::ExecuteUbergraph_WBP_TextChat_ChatWindow(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.ExecuteUbergraph_WBP_TextChat_ChatWindow"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.ExecuteUbergraph_WBP_TextChat_ChatWindow");
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWBP_TextChat_ChatWindow_C::ExecuteUbergraph_WBP_TextChat_ChatWindow(int En
 
 void UWBP_TextChat_ChatWindow_C::OnCloseButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.OnCloseButtonClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatWindow.WBP_TextChat_ChatWindow_C.OnCloseButtonClicked__DelegateSignature");
 
 	struct
 	{

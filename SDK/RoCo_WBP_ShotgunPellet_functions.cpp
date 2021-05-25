@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ShotgunPellet_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShotgunPellet.WBP_ShotgunPellet_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShotgunPellet.WBP_ShotgunPellet_C.Construct");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ShotgunPellet_C::Construct()
 
 void UWBP_ShotgunPellet_C::PlayEliminationAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShotgunPellet.WBP_ShotgunPellet_C.PlayEliminationAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShotgunPellet.WBP_ShotgunPellet_C.PlayEliminationAnim");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_ShotgunPellet_C::PlayEliminationAnim()
 
 void UWBP_ShotgunPellet_C::ExecuteUbergraph_WBP_ShotgunPellet(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShotgunPellet.WBP_ShotgunPellet_C.ExecuteUbergraph_WBP_ShotgunPellet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShotgunPellet.WBP_ShotgunPellet_C.ExecuteUbergraph_WBP_ShotgunPellet");
 
 	struct
 	{

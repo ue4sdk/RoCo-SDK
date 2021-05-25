@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PlatformIcon_C::SetPlatform(EKSPlatformType Platform)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlatformIcon.WBP_PlatformIcon_C.SetPlatform"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlatformIcon.WBP_PlatformIcon_C.SetPlatform");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_PlatformIcon_C::SetPlatform(EKSPlatformType Platform)
 
 void UWBP_PlatformIcon_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlatformIcon.WBP_PlatformIcon_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlatformIcon.WBP_PlatformIcon_C.PreConstruct");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_PlatformIcon_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PlatformIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlatformIcon.WBP_PlatformIcon_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlatformIcon.WBP_PlatformIcon_C.Construct");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_PlatformIcon_C::Construct()
 
 void UWBP_PlatformIcon_C::ExecuteUbergraph_WBP_PlatformIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlatformIcon.WBP_PlatformIcon_C.ExecuteUbergraph_WBP_PlatformIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlatformIcon.WBP_PlatformIcon_C.ExecuteUbergraph_WBP_PlatformIcon");
 
 	struct
 	{

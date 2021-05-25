@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass KneeCrawlingNotify.KneeCrawlingNotify_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass KneeCrawlingNotify.KneeCrawlingNotify_C");
 		return ptr;
 	}
 

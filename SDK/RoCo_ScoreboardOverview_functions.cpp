@@ -19,7 +19,7 @@ namespace SDK
 
 void UScoreboardOverview_C::GetAllPlayerDisplays(TArray<class UScoreboardPlayerStats_Lobby_C*>* Widgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.GetAllPlayerDisplays"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.GetAllPlayerDisplays");
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UScoreboardOverview_C::GetAllPlayerDisplays(TArray<class UScoreboardPlayerS
 
 void UScoreboardOverview_C::CreateTeamDisplay(const struct FTeamStats& TeamStats, const struct FScoreboardStats& ScoreboardStats, class UScoreboardTeamSection_Lobby_C** ScoreboardTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.CreateTeamDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.CreateTeamDisplay");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UScoreboardOverview_C::CreateTeamDisplay(const struct FTeamStats& TeamStats
 
 void UScoreboardOverview_C::PopulateScoreboard(const struct FScoreboardStats& ScoreboardStatStruct)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.PopulateScoreboard"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.PopulateScoreboard");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UScoreboardOverview_C::PopulateScoreboard(const struct FScoreboardStats& Sc
 
 void UScoreboardOverview_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.InitializeWidget");
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UScoreboardOverview_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UScoreboardOverview_C::SetMatchResult(bool DidWin)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.SetMatchResult"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.SetMatchResult");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UScoreboardOverview_C::SetMatchResult(bool DidWin)
 
 void UScoreboardOverview_C::SetTeamColor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.SetTeamColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.SetTeamColor");
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UScoreboardOverview_C::SetTeamColor()
 
 void UScoreboardOverview_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.PreConstruct");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UScoreboardOverview_C::PreConstruct(bool IsDesignTime)
 
 void UScoreboardOverview_C::HandleTeamPlayersChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.HandleTeamPlayersChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.HandleTeamPlayersChanged");
 
 	struct
 	{
@@ -181,7 +181,7 @@ void UScoreboardOverview_C::HandleTeamPlayersChanged()
 
 void UScoreboardOverview_C::ExecuteUbergraph_ScoreboardOverview(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.ExecuteUbergraph_ScoreboardOverview"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.ExecuteUbergraph_ScoreboardOverview");
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UScoreboardOverview_C::ExecuteUbergraph_ScoreboardOverview(int EntryPoint)
 
 void UScoreboardOverview_C::OnTeamsChanged__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ScoreboardOverview.ScoreboardOverview_C.OnTeamsChanged__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function ScoreboardOverview.ScoreboardOverview_C.OnTeamsChanged__DelegateSignature");
 
 	struct
 	{

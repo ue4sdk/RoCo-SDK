@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ItemInfoContainer_C::SetAlignment()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.SetAlignment"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.SetAlignment");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_ItemInfoContainer_C::SetAlignment()
 
 void UWBP_ItemInfoContainer_C::SetItemRarityInfo(class UPlatformInventoryItem* CosmeticItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.SetItemRarityInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.SetItemRarityInfo");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_ItemInfoContainer_C::SetItemRarityInfo(class UPlatformInventoryItem* C
 
 void UWBP_ItemInfoContainer_C::SetInfoFieldData(class UPlatformInventoryItem* CosmeticItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.SetInfoFieldData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.SetInfoFieldData");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_ItemInfoContainer_C::SetInfoFieldData(class UPlatformInventoryItem* Co
 
 void UWBP_ItemInfoContainer_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.PreConstruct");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_ItemInfoContainer_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ItemInfoContainer_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.Construct");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_ItemInfoContainer_C::Construct()
 
 void UWBP_ItemInfoContainer_C::ExecuteUbergraph_WBP_ItemInfoContainer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.ExecuteUbergraph_WBP_ItemInfoContainer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ItemInfoContainer.WBP_ItemInfoContainer_C.ExecuteUbergraph_WBP_ItemInfoContainer");
 
 	struct
 	{

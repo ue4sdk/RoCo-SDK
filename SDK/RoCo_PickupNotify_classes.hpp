@@ -50,7 +50,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass PickupNotify.PickupNotify_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass PickupNotify.PickupNotify_C");
 		return ptr;
 	}
 

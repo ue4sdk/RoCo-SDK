@@ -20,7 +20,7 @@ namespace SDK
 
 void ALandscapeProxy::SetLandscapeMaterialVectorParameterValue(const struct FName& ParameterName, const struct FLinearColor& Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.SetLandscapeMaterialVectorParameterValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.SetLandscapeMaterialVectorParameterValue");
 
 	struct
 	{
@@ -43,7 +43,7 @@ void ALandscapeProxy::SetLandscapeMaterialVectorParameterValue(const struct FNam
 
 void ALandscapeProxy::SetLandscapeMaterialTextureParameterValue(const struct FName& ParameterName, class UTexture* Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.SetLandscapeMaterialTextureParameterValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.SetLandscapeMaterialTextureParameterValue");
 
 	struct
 	{
@@ -66,7 +66,7 @@ void ALandscapeProxy::SetLandscapeMaterialTextureParameterValue(const struct FNa
 
 void ALandscapeProxy::SetLandscapeMaterialScalarParameterValue(const struct FName& ParameterName, float Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.SetLandscapeMaterialScalarParameterValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.SetLandscapeMaterialScalarParameterValue");
 
 	struct
 	{
@@ -88,7 +88,7 @@ void ALandscapeProxy::SetLandscapeMaterialScalarParameterValue(const struct FNam
 
 void ALandscapeProxy::EditorSetLandscapeMaterial(class UMaterialInterface* NewLandscapeMaterial)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.EditorSetLandscapeMaterial"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.EditorSetLandscapeMaterial");
 
 	struct
 	{
@@ -118,7 +118,7 @@ void ALandscapeProxy::EditorSetLandscapeMaterial(class UMaterialInterface* NewLa
 
 void ALandscapeProxy::EditorApplySpline(class USplineComponent* InSplineComponent, float StartWidth, float EndWidth, float StartSideFalloff, float EndSideFalloff, float StartRoll, float EndRoll, int NumSubdivisions, bool bRaiseHeights, bool bLowerHeights, class ULandscapeLayerInfoObject* PaintLayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.EditorApplySpline"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.EditorApplySpline");
 
 	struct
 	{
@@ -158,7 +158,7 @@ void ALandscapeProxy::EditorApplySpline(class USplineComponent* InSplineComponen
 
 void ALandscapeProxy::ChangeUseTessellationComponentScreenSizeFalloff(bool InComponentScreenSizeToUseSubSections)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.ChangeUseTessellationComponentScreenSizeFalloff"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.ChangeUseTessellationComponentScreenSizeFalloff");
 
 	struct
 	{
@@ -178,7 +178,7 @@ void ALandscapeProxy::ChangeUseTessellationComponentScreenSizeFalloff(bool InCom
 
 void ALandscapeProxy::ChangeTessellationComponentScreenSizeFalloff(float InUseTessellationComponentScreenSizeFalloff)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.ChangeTessellationComponentScreenSizeFalloff"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.ChangeTessellationComponentScreenSizeFalloff");
 
 	struct
 	{
@@ -198,7 +198,7 @@ void ALandscapeProxy::ChangeTessellationComponentScreenSizeFalloff(float InUseTe
 
 void ALandscapeProxy::ChangeTessellationComponentScreenSize(float InTessellationComponentScreenSize)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.ChangeTessellationComponentScreenSize"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.ChangeTessellationComponentScreenSize");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void ALandscapeProxy::ChangeTessellationComponentScreenSize(float InTessellation
 
 void ALandscapeProxy::ChangeLODDistanceFactor(float InLODDistanceFactor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.ChangeLODDistanceFactor"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.ChangeLODDistanceFactor");
 
 	struct
 	{
@@ -238,7 +238,7 @@ void ALandscapeProxy::ChangeLODDistanceFactor(float InLODDistanceFactor)
 
 void ALandscapeProxy::ChangeComponentScreenSizeToUseSubSections(float InComponentScreenSizeToUseSubSections)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeProxy.ChangeComponentScreenSizeToUseSubSections"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeProxy.ChangeComponentScreenSizeToUseSubSections");
 
 	struct
 	{
@@ -256,7 +256,7 @@ void ALandscapeProxy::ChangeComponentScreenSizeToUseSubSections(float InComponen
 
 void ALandscapeBlueprintBrushBase::RequestLandscapeUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeBlueprintBrushBase.RequestLandscapeUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeBlueprintBrushBase.RequestLandscapeUpdate");
 
 	struct
 	{
@@ -277,7 +277,7 @@ void ALandscapeBlueprintBrushBase::RequestLandscapeUpdate()
 
 class UTextureRenderTarget2D* ALandscapeBlueprintBrushBase::Render(bool InIsHeightmap, class UTextureRenderTarget2D* InCombinedResult, const struct FName& InWeightmapLayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeBlueprintBrushBase.Render"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeBlueprintBrushBase.Render");
 
 	struct
 	{
@@ -306,7 +306,7 @@ class UTextureRenderTarget2D* ALandscapeBlueprintBrushBase::Render(bool InIsHeig
 
 void ALandscapeBlueprintBrushBase::Initialize(const struct FTransform& InLandscapeTransform, const struct FIntPoint& InLandscapeSize, const struct FIntPoint& InLandscapeRenderTargetSize)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeBlueprintBrushBase.Initialize"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeBlueprintBrushBase.Initialize");
 
 	struct
 	{
@@ -330,7 +330,7 @@ void ALandscapeBlueprintBrushBase::Initialize(const struct FTransform& InLandsca
 
 void ALandscapeBlueprintBrushBase::GetBlueprintRenderDependencies(TArray<class UTexture2D*>* OutStreamableAssets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeBlueprintBrushBase.GetBlueprintRenderDependencies"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeBlueprintBrushBase.GetBlueprintRenderDependencies");
 
 	struct
 	{
@@ -353,7 +353,7 @@ void ALandscapeBlueprintBrushBase::GetBlueprintRenderDependencies(TArray<class U
 
 class UMaterialInstanceDynamic* ULandscapeComponent::GetMaterialInstanceDynamic(int InIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeComponent.GetMaterialInstanceDynamic"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeComponent.GetMaterialInstanceDynamic");
 
 	struct
 	{
@@ -378,7 +378,7 @@ class UMaterialInstanceDynamic* ULandscapeComponent::GetMaterialInstanceDynamic(
 
 float ULandscapeComponent::EditorGetPaintLayerWeightByNameAtLocation(const struct FVector& InLocation, const struct FName& InPaintLayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeComponent.EditorGetPaintLayerWeightByNameAtLocation"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeComponent.EditorGetPaintLayerWeightByNameAtLocation");
 
 	struct
 	{
@@ -405,7 +405,7 @@ float ULandscapeComponent::EditorGetPaintLayerWeightByNameAtLocation(const struc
 
 float ULandscapeComponent::EditorGetPaintLayerWeightAtLocation(const struct FVector& InLocation, class ULandscapeLayerInfoObject* PaintLayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeComponent.EditorGetPaintLayerWeightAtLocation"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeComponent.EditorGetPaintLayerWeightAtLocation");
 
 	struct
 	{
@@ -430,7 +430,7 @@ float ULandscapeComponent::EditorGetPaintLayerWeightAtLocation(const struct FVec
 
 class ULandscapeComponent* ULandscapeHeightfieldCollisionComponent::GetRenderComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeHeightfieldCollisionComponent.GetRenderComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeHeightfieldCollisionComponent.GetRenderComponent");
 
 	struct
 	{
@@ -451,7 +451,7 @@ class ULandscapeComponent* ULandscapeHeightfieldCollisionComponent::GetRenderCom
 
 TArray<class USplineMeshComponent*> ULandscapeSplinesComponent::GetSplineMeshComponents()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Landscape.LandscapeSplinesComponent.GetSplineMeshComponents"));
+	static auto fn = UObject::FindObject<UFunction>("Function Landscape.LandscapeSplinesComponent.GetSplineMeshComponents");
 
 	struct
 	{

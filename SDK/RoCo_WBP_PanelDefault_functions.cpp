@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PanelDefault_C::SetContentPadding(const struct FMargin& ContentPadding)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelDefault.WBP_PanelDefault_C.SetContentPadding"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelDefault.WBP_PanelDefault_C.SetContentPadding");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_PanelDefault_C::SetContentPadding(const struct FMargin& ContentPadding
 
 void UWBP_PanelDefault_C::SetPanelColor(const struct FLinearColor& PanelColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelDefault.WBP_PanelDefault_C.SetPanelColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelDefault.WBP_PanelDefault_C.SetPanelColor");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_PanelDefault_C::SetPanelColor(const struct FLinearColor& PanelColor)
 
 void UWBP_PanelDefault_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelDefault.WBP_PanelDefault_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelDefault.WBP_PanelDefault_C.PreConstruct");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_PanelDefault_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PanelDefault_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelDefault.WBP_PanelDefault_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelDefault.WBP_PanelDefault_C.Construct");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_PanelDefault_C::Construct()
 
 void UWBP_PanelDefault_C::ExecuteUbergraph_WBP_PanelDefault(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PanelDefault.WBP_PanelDefault_C.ExecuteUbergraph_WBP_PanelDefault"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PanelDefault.WBP_PanelDefault_C.ExecuteUbergraph_WBP_PanelDefault");
 
 	struct
 	{

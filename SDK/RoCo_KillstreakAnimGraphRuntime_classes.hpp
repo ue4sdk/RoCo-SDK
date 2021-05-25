@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class KillstreakAnimGraphRuntime.RecoilProfileAsset"));
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakAnimGraphRuntime.RecoilProfileAsset");
 		return ptr;
 	}
 

@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_TopNavBar_C::UpdateBattlePassTabVisibility()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.UpdateBattlePassTabVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.UpdateBattlePassTabVisibility");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_TopNavBar_C::UpdateBattlePassTabVisibility()
 
 void UWBP_TopNavBar_C::OnHasNewStoreItems(bool HasNew)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.OnHasNewStoreItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.OnHasNewStoreItems");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_TopNavBar_C::OnHasNewStoreItems(bool HasNew)
 
 void UWBP_TopNavBar_C::HandleViewRouteChanged(const struct FName& CurrentRoute, const struct FName& NextRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.HandleViewRouteChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.HandleViewRouteChanged");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_TopNavBar_C::HandleViewRouteChanged(const struct FName& CurrentRoute, 
 
 void UWBP_TopNavBar_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.HandleInputStateChanged");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_TopNavBar_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> I
 
 void UWBP_TopNavBar_C::HandleNavRight()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.HandleNavRight"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.HandleNavRight");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_TopNavBar_C::HandleNavRight()
 
 void UWBP_TopNavBar_C::HandleNavLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.HandleNavLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.HandleNavLeft");
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UWBP_TopNavBar_C::HandleNavLeft()
 
 void UWBP_TopNavBar_C::InitializeNavButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeNavButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeNavButtons");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_TopNavBar_C::InitializeNavButtons()
 
 void UWBP_TopNavBar_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeTickAnimations"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeTickAnimations");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UWBP_TopNavBar_C::InitializeTickAnimations()
 
 void UWBP_TopNavBar_C::ShowTopBarFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.ShowTopBarFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.ShowTopBarFinished");
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UWBP_TopNavBar_C::ShowTopBarFinished()
 
 void UWBP_TopNavBar_C::ShowTopBarAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.ShowTopBarAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.ShowTopBarAnim");
 
 	struct
 	{
@@ -202,7 +202,7 @@ void UWBP_TopNavBar_C::ShowTopBarAnim(float ElapsedTime, float ElapsedAlpha)
 
 void UWBP_TopNavBar_C::StartShowAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.StartShowAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.StartShowAnim");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_TopNavBar_C::StartShowAnim()
 
 void UWBP_TopNavBar_C::InitHideAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.InitHideAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.InitHideAnimation");
 
 	struct
 	{
@@ -234,7 +234,7 @@ void UWBP_TopNavBar_C::InitHideAnimation()
 
 void UWBP_TopNavBar_C::HideTopBarFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.HideTopBarFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.HideTopBarFinished");
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UWBP_TopNavBar_C::HideTopBarFinished()
 
 void UWBP_TopNavBar_C::HideTopBarAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.HideTopBarAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.HideTopBarAnim");
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UWBP_TopNavBar_C::HideTopBarAnim(float ElapsedTime, float ElapsedAlpha)
 
 void UWBP_TopNavBar_C::StartHideAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.StartHideAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.StartHideAnim");
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UWBP_TopNavBar_C::StartHideAnim()
 
 void UWBP_TopNavBar_C::DisableTopBar(bool IsDisable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.DisableTopBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.DisableTopBar");
 
 	struct
 	{
@@ -311,7 +311,7 @@ void UWBP_TopNavBar_C::DisableTopBar(bool IsDisable)
 
 void UWBP_TopNavBar_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeWidget");
 
 	struct
 	{
@@ -329,7 +329,7 @@ void UWBP_TopNavBar_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_TopNavBar_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeWidgetButtonListeners"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeWidgetButtonListeners");
 
 	struct
 	{
@@ -345,7 +345,7 @@ void UWBP_TopNavBar_C::InitializeWidgetButtonListeners()
 
 void UWBP_TopNavBar_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.Construct");
 
 	struct
 	{
@@ -361,7 +361,7 @@ void UWBP_TopNavBar_C::Construct()
 
 void UWBP_TopNavBar_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -380,7 +380,7 @@ void UWBP_TopNavBar_C::InitializeWidgetNavigation()
 
 void UWBP_TopNavBar_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.StartShowSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.StartShowSequence");
 
 	struct
 	{
@@ -403,7 +403,7 @@ void UWBP_TopNavBar_C::StartShowSequence(const struct FName& FromRoute, const st
 
 void UWBP_TopNavBar_C::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.StartHideSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.StartHideSequence");
 
 	struct
 	{
@@ -425,7 +425,7 @@ void UWBP_TopNavBar_C::StartHideSequence(const struct FName& FromRoute, const st
 
 void UWBP_TopNavBar_C::ExecuteUbergraph_WBP_TopNavBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TopNavBar.WBP_TopNavBar_C.ExecuteUbergraph_WBP_TopNavBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TopNavBar.WBP_TopNavBar_C.ExecuteUbergraph_WBP_TopNavBar");
 
 	struct
 	{

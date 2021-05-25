@@ -19,7 +19,7 @@ namespace SDK
 
 void UCashEarnedElement_C::ShowRewardEarned(const struct FKSScoreChangeEvent& ScoreEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CashEarnedElement.CashEarnedElement_C.ShowRewardEarned"));
+	static auto fn = UObject::FindObject<UFunction>("Function CashEarnedElement.CashEarnedElement_C.ShowRewardEarned");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UCashEarnedElement_C::ShowRewardEarned(const struct FKSScoreChangeEvent& Sc
 
 void UCashEarnedElement_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CashEarnedElement.CashEarnedElement_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function CashEarnedElement.CashEarnedElement_C.Construct");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UCashEarnedElement_C::Construct()
 
 void UCashEarnedElement_C::HandleShowValueAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CashEarnedElement.CashEarnedElement_C.HandleShowValueAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function CashEarnedElement.CashEarnedElement_C.HandleShowValueAnimFinished");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UCashEarnedElement_C::HandleShowValueAnimFinished()
 
 void UCashEarnedElement_C::HandleHideValueAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CashEarnedElement.CashEarnedElement_C.HandleHideValueAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function CashEarnedElement.CashEarnedElement_C.HandleHideValueAnimFinished");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UCashEarnedElement_C::HandleHideValueAnimFinished()
 
 void UCashEarnedElement_C::ExecuteUbergraph_CashEarnedElement(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CashEarnedElement.CashEarnedElement_C.ExecuteUbergraph_CashEarnedElement"));
+	static auto fn = UObject::FindObject<UFunction>("Function CashEarnedElement.CashEarnedElement_C.ExecuteUbergraph_CashEarnedElement");
 
 	struct
 	{

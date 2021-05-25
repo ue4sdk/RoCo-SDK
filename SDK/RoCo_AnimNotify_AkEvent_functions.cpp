@@ -22,7 +22,7 @@ namespace SDK
 
 void UAnimNotify_AkEvent_C::Hirez_Get_Ak_Component(class USkeletalMeshComponent* AttachComponent, const struct FName& AttachPointName, bool* bComponentCreated, class UAkComponent** Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimNotify_AkEvent.AnimNotify_AkEvent_C.Hirez Get Ak Component"));
+	static auto fn = UObject::FindObject<UFunction>("Function AnimNotify_AkEvent.AnimNotify_AkEvent_C.Hirez Get Ak Component");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UAnimNotify_AkEvent_C::Hirez_Get_Ak_Component(class USkeletalMeshComponent*
 
 bool UAnimNotify_AkEvent_C::Received_Notify(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AnimNotify_AkEvent.AnimNotify_AkEvent_C.Received_Notify"));
+	static auto fn = UObject::FindObject<UFunction>("Function AnimNotify_AkEvent.AnimNotify_AkEvent_C.Received_Notify");
 
 	struct
 	{

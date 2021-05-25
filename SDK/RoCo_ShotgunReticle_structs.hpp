@@ -11,8 +11,8 @@
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_GameplayTags_classes.hpp"
 #include "RoCo_Killstreak_classes.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_UIColorPalette_classes.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_UMG_classes.hpp"
 #include "RoCo_KillstreakUINew_classes.hpp"
 

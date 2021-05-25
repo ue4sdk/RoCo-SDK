@@ -17,7 +17,7 @@ namespace SDK
 
 void ARoyaleSafeZone_C::OnZoneActivated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RoyaleSafeZone.RoyaleSafeZone_C.OnZoneActivated"));
+	static auto fn = UObject::FindObject<UFunction>("Function RoyaleSafeZone.RoyaleSafeZone_C.OnZoneActivated");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void ARoyaleSafeZone_C::OnZoneActivated()
 
 void ARoyaleSafeZone_C::OnCircleUpdate(float NewRadius, const struct FVector& NewLocation)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RoyaleSafeZone.RoyaleSafeZone_C.OnCircleUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function RoyaleSafeZone.RoyaleSafeZone_C.OnCircleUpdate");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void ARoyaleSafeZone_C::OnCircleUpdate(float NewRadius, const struct FVector& Ne
 
 void ARoyaleSafeZone_C::ExecuteUbergraph_RoyaleSafeZone(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function RoyaleSafeZone.RoyaleSafeZone_C.ExecuteUbergraph_RoyaleSafeZone"));
+	static auto fn = UObject::FindObject<UFunction>("Function RoyaleSafeZone.RoyaleSafeZone_C.ExecuteUbergraph_RoyaleSafeZone");
 
 	struct
 	{

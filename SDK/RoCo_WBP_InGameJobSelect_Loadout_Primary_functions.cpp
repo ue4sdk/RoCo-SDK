@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_InGameJobSelect_Loadout_Primary_C::Get_Shop_Item_Type(EShopItemType* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.Get Shop Item Type"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.Get Shop Item Type");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_InGameJobSelect_Loadout_Primary_C::Get_Shop_Item_Type(EShopItemType* R
 
 void UWBP_InGameJobSelect_Loadout_Primary_C::SetItemSlot(class UKSItem* KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.SetItemSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.SetItemSlot");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_InGameJobSelect_Loadout_Primary_C::SetItemSlot(class UKSItem* KSItem)
 
 void UWBP_InGameJobSelect_Loadout_Primary_C::PurchaseAcknowledge()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.PurchaseAcknowledge"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.PurchaseAcknowledge");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_InGameJobSelect_Loadout_Primary_C::PurchaseAcknowledge()
 
 void UWBP_InGameJobSelect_Loadout_Primary_C::RefreshData(class AKSPlayerShop* Player_Shop)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.RefreshData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.RefreshData");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_InGameJobSelect_Loadout_Primary_C::RefreshData(class AKSPlayerShop* Pl
 
 void UWBP_InGameJobSelect_Loadout_Primary_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.Construct");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_InGameJobSelect_Loadout_Primary_C::Construct()
 
 void UWBP_InGameJobSelect_Loadout_Primary_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.PreConstruct");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_InGameJobSelect_Loadout_Primary_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_InGameJobSelect_Loadout_Primary_C::ExecuteUbergraph_WBP_InGameJobSelect_Loadout_Primary(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.ExecuteUbergraph_WBP_InGameJobSelect_Loadout_Primary"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.ExecuteUbergraph_WBP_InGameJobSelect_Loadout_Primary");
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_InGameJobSelect_Loadout_Primary_C::ExecuteUbergraph_WBP_InGameJobSelec
 
 void UWBP_InGameJobSelect_Loadout_Primary_C::OnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_InGameJobSelect_Loadout_Primary_C::OnUnhovered__DelegateSignature()
 
 void UWBP_InGameJobSelect_Loadout_Primary_C::OnHovered__DelegateSignature(class UKSItem* KSItem_)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Primary.WBP_InGameJobSelect_Loadout_Primary_C.OnHovered__DelegateSignature");
 
 	struct
 	{

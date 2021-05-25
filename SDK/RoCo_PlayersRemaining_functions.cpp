@@ -17,7 +17,7 @@ namespace SDK
 
 void UPlayersRemaining_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayersRemaining.PlayersRemaining_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayersRemaining.PlayersRemaining_C.Construct");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UPlayersRemaining_C::Construct()
 
 void UPlayersRemaining_C::RefreshPlayerCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayersRemaining.PlayersRemaining_C.RefreshPlayerCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayersRemaining.PlayersRemaining_C.RefreshPlayerCount");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UPlayersRemaining_C::RefreshPlayerCount()
 
 void UPlayersRemaining_C::HandlePlayerEliminated(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayersRemaining.PlayersRemaining_C.HandlePlayerEliminated"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayersRemaining.PlayersRemaining_C.HandlePlayerEliminated");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UPlayersRemaining_C::HandlePlayerEliminated(class AKSPlayerState* PlayerSta
 
 void UPlayersRemaining_C::HandlePlayerSpawn(class AKSCharacterBase* NewCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayersRemaining.PlayersRemaining_C.HandlePlayerSpawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayersRemaining.PlayersRemaining_C.HandlePlayerSpawn");
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UPlayersRemaining_C::HandlePlayerSpawn(class AKSCharacterBase* NewCharacter
 
 void UPlayersRemaining_C::HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayersRemaining.PlayersRemaining_C.HandlePhaseChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayersRemaining.PlayersRemaining_C.HandlePhaseChange");
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UPlayersRemaining_C::HandlePhaseChange(const struct FName& NewPhaseName, co
 
 void UPlayersRemaining_C::ExecuteUbergraph_PlayersRemaining(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayersRemaining.PlayersRemaining_C.ExecuteUbergraph_PlayersRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayersRemaining.PlayersRemaining_C.ExecuteUbergraph_PlayersRemaining");
 
 	struct
 	{

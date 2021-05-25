@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MRMesh.MeshReconstructorBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class MRMesh.MeshReconstructorBase");
 		return ptr;
 	}
 
@@ -58,7 +58,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MRMesh.MockDataMeshTrackerComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class MRMesh.MockDataMeshTrackerComponent");
 		return ptr;
 	}
 
@@ -87,7 +87,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MRMesh.MRMeshComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class MRMesh.MRMeshComponent");
 		return ptr;
 	}
 

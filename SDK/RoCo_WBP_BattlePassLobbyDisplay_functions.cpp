@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_BattlePassLobbyDisplay_C::IsPanelSelectable(bool* IsSelectable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.IsPanelSelectable"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.IsPanelSelectable");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_BattlePassLobbyDisplay_C::IsPanelSelectable(bool* IsSelectable)
 
 bool UWBP_BattlePassLobbyDisplay_C::NavigateConfirmPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.NavigateConfirmPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.NavigateConfirmPressed");
 
 	struct
 	{
@@ -63,7 +63,7 @@ bool UWBP_BattlePassLobbyDisplay_C::NavigateConfirmPressed()
 
 void UWBP_BattlePassLobbyDisplay_C::Set_Progress_Fill_Colors(bool IsPremium, bool IsFinished)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.Set Progress Fill Colors"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.Set Progress Fill Colors");
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UWBP_BattlePassLobbyDisplay_C::Set_Progress_Fill_Colors(bool IsPremium, boo
 
 void UWBP_BattlePassLobbyDisplay_C::Update_Progress_Bar(int CurrentTierXP, int NextTierXP)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.Update Progress Bar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.Update Progress Bar");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_BattlePassLobbyDisplay_C::Update_Progress_Bar(int CurrentTierXP, int N
 
 void UWBP_BattlePassLobbyDisplay_C::DisplayActivity()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.DisplayActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.DisplayActivity");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_BattlePassLobbyDisplay_C::DisplayActivity()
 
 void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent
 
 void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent
 
 void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature");
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent
 
 void UWBP_BattlePassLobbyDisplay_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.InitializeWidget");
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UWBP_BattlePassLobbyDisplay_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlePassLobbyDisplay_C::OnBattlePassActivityProgressInitialized(class UKSActivityInstance* Activity, int Count)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.OnBattlePassActivityProgressInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.OnBattlePassActivityProgressInitialized");
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UWBP_BattlePassLobbyDisplay_C::OnBattlePassActivityProgressInitialized(clas
 
 void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -229,7 +229,7 @@ void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent
 
 void UWBP_BattlePassLobbyDisplay_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.GamepadHover");
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UWBP_BattlePassLobbyDisplay_C::GamepadHover()
 
 void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -261,7 +261,7 @@ void UWBP_BattlePassLobbyDisplay_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent
 
 void UWBP_BattlePassLobbyDisplay_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.GamepadUnhover");
 
 	struct
 	{
@@ -279,7 +279,7 @@ void UWBP_BattlePassLobbyDisplay_C::GamepadUnhover()
 
 void UWBP_BattlePassLobbyDisplay_C::ExecuteUbergraph_WBP_BattlePassLobbyDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.ExecuteUbergraph_WBP_BattlePassLobbyDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassLobbyDisplay.WBP_BattlePassLobbyDisplay_C.ExecuteUbergraph_WBP_BattlePassLobbyDisplay");
 
 	struct
 	{

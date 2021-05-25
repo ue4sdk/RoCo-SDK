@@ -19,7 +19,7 @@ namespace SDK
 
 void UGadgetCompInventoryElement_C::Set_Empty(bool Is_Empty)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.Set Empty"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.Set Empty");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UGadgetCompInventoryElement_C::Set_Empty(bool Is_Empty)
 
 void UGadgetCompInventoryElement_C::Set_Jammed(bool Is_Jammed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.Set Jammed"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.Set Jammed");
 
 	struct
 	{
@@ -64,7 +64,7 @@ void UGadgetCompInventoryElement_C::Set_Jammed(bool Is_Jammed)
 
 void UGadgetCompInventoryElement_C::OnAmmoChanged(int OldInClip, int OldClipSize, int OldReserve, int NewInClip, int NewClipSize, int NewReserve)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnAmmoChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnAmmoChanged");
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UGadgetCompInventoryElement_C::OnAmmoChanged(int OldInClip, int OldClipSize
 
 void UGadgetCompInventoryElement_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.InitializeWidget");
 
 	struct
 	{
@@ -112,7 +112,7 @@ void UGadgetCompInventoryElement_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UGadgetCompInventoryElement_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.Construct");
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UGadgetCompInventoryElement_C::Construct()
 
 void UGadgetCompInventoryElement_C::PostSetWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.PostSetWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.PostSetWeaponComponent");
 
 	struct
 	{
@@ -144,7 +144,7 @@ void UGadgetCompInventoryElement_C::PostSetWeaponComponent()
 
 void UGadgetCompInventoryElement_C::PreClearWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.PreClearWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.PreClearWeaponComponent");
 
 	struct
 	{
@@ -160,7 +160,7 @@ void UGadgetCompInventoryElement_C::PreClearWeaponComponent()
 
 void UGadgetCompInventoryElement_C::OnBecomeActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnBecomeActiveWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnBecomeActiveWeaponComponent");
 
 	struct
 	{
@@ -178,7 +178,7 @@ void UGadgetCompInventoryElement_C::OnBecomeActiveWeaponComponent()
 
 void UGadgetCompInventoryElement_C::OnSetCannotFireNow(bool bCannotFire)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnSetCannotFireNow"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnSetCannotFireNow");
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UGadgetCompInventoryElement_C::OnSetCannotFireNow(bool bCannotFire)
 
 void UGadgetCompInventoryElement_C::HandleOnGadgetResupply()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.HandleOnGadgetResupply"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.HandleOnGadgetResupply");
 
 	struct
 	{
@@ -214,7 +214,7 @@ void UGadgetCompInventoryElement_C::HandleOnGadgetResupply()
 
 void UGadgetCompInventoryElement_C::ExecuteUbergraph_GadgetCompInventoryElement(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.ExecuteUbergraph_GadgetCompInventoryElement"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.ExecuteUbergraph_GadgetCompInventoryElement");
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UGadgetCompInventoryElement_C::ExecuteUbergraph_GadgetCompInventoryElement(
 
 void UGadgetCompInventoryElement_C::OnGadgetRemoved__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnGadgetRemoved__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnGadgetRemoved__DelegateSignature");
 
 	struct
 	{
@@ -248,7 +248,7 @@ void UGadgetCompInventoryElement_C::OnGadgetRemoved__DelegateSignature()
 
 void UGadgetCompInventoryElement_C::OnGadgetAdded__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnGadgetAdded__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GadgetCompInventoryElement.GadgetCompInventoryElement_C.OnGadgetAdded__DelegateSignature");
 
 	struct
 	{

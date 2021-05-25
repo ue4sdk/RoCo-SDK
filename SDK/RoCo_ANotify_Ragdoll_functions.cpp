@@ -21,7 +21,7 @@ namespace SDK
 
 bool UANotify_Ragdoll_C::Received_Notify(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ANotify_Ragdoll.ANotify_Ragdoll_C.Received_Notify"));
+	static auto fn = UObject::FindObject<UFunction>("Function ANotify_Ragdoll.ANotify_Ragdoll_C.Received_Notify");
 
 	struct
 	{

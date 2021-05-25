@@ -17,7 +17,7 @@ namespace SDK
 
 void UStatusEffectPermant_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffectPermant.StatusEffectPermant_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffectPermant.StatusEffectPermant_C.PostSetPawn");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UStatusEffectPermant_C::PostSetPawn()
 
 void UStatusEffectPermant_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffectPermant.StatusEffectPermant_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffectPermant.StatusEffectPermant_C.Construct");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UStatusEffectPermant_C::Construct()
 
 void UStatusEffectPermant_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffectPermant.StatusEffectPermant_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffectPermant.StatusEffectPermant_C.PreClearPawn");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UStatusEffectPermant_C::PreClearPawn()
 
 void UStatusEffectPermant_C::CustomEvent_2(bool IsSpectating)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffectPermant.StatusEffectPermant_C.CustomEvent_2"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffectPermant.StatusEffectPermant_C.CustomEvent_2");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UStatusEffectPermant_C::CustomEvent_2(bool IsSpectating)
 
 void UStatusEffectPermant_C::CustomEvent_1(class AKSPlayerController* Controller, class AActor* OldViewTarget, class AActor* NewViewTarget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffectPermant.StatusEffectPermant_C.CustomEvent_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffectPermant.StatusEffectPermant_C.CustomEvent_1");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UStatusEffectPermant_C::CustomEvent_1(class AKSPlayerController* Controller
 
 void UStatusEffectPermant_C::ExecuteUbergraph_StatusEffectPermant(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StatusEffectPermant.StatusEffectPermant_C.ExecuteUbergraph_StatusEffectPermant"));
+	static auto fn = UObject::FindObject<UFunction>("Function StatusEffectPermant.StatusEffectPermant_C.ExecuteUbergraph_StatusEffectPermant");
 
 	struct
 	{

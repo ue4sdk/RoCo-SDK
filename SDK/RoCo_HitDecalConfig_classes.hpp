@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass HitDecalConfig.HitDecalConfig_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass HitDecalConfig.HitDecalConfig_C");
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_SettingsSection_C::Add_Settings_Group_Widget(class UKSSettingsGroup* Settings_Group_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSection.WBP_SettingsSection_C.Add Settings Group Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSection.WBP_SettingsSection_C.Add Settings Group Widget");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_SettingsSection_C::Add_Settings_Group_Widget(class UKSSettingsGroup* S
 
 void UWBP_SettingsSection_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSection.WBP_SettingsSection_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSection.WBP_SettingsSection_C.PreConstruct");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_SettingsSection_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_SettingsSection_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSection.WBP_SettingsSection_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSection.WBP_SettingsSection_C.InitializeWidget");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_SettingsSection_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_SettingsSection_C::AddSettingsGroupWidget(class UKSSettingsGroup* SettingsGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSection.WBP_SettingsSection_C.AddSettingsGroupWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSection.WBP_SettingsSection_C.AddSettingsGroupWidget");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_SettingsSection_C::AddSettingsGroupWidget(class UKSSettingsGroup* Sett
 
 void UWBP_SettingsSection_C::OnSectionConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSection.WBP_SettingsSection_C.OnSectionConfigSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSection.WBP_SettingsSection_C.OnSectionConfigSet");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_SettingsSection_C::OnSectionConfigSet()
 
 void UWBP_SettingsSection_C::ExecuteUbergraph_WBP_SettingsSection(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsSection.WBP_SettingsSection_C.ExecuteUbergraph_WBP_SettingsSection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsSection.WBP_SettingsSection_C.ExecuteUbergraph_WBP_SettingsSection");
 
 	struct
 	{

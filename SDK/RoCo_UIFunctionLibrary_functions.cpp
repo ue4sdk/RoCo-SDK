@@ -20,7 +20,7 @@ namespace SDK
 
 void UUIFunctionLibrary_C::GetRogueBucksItemId(class UObject* __WorldContext, int* ItemId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRogueBucksItemId"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRogueBucksItemId");
 
 	struct
 	{
@@ -46,7 +46,7 @@ void UUIFunctionLibrary_C::GetRogueBucksItemId(class UObject* __WorldContext, in
 
 void UUIFunctionLibrary_C::GetGameHUD(class UObject* __WorldContext, class ABP_GameHUDNew_C** GameHUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetGameHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetGameHUD");
 
 	struct
 	{
@@ -72,7 +72,7 @@ void UUIFunctionLibrary_C::GetGameHUD(class UObject* __WorldContext, class ABP_G
 
 void UUIFunctionLibrary_C::GetSettingsDataFactory(class UObject* __WorldContext, class UKSSettingsDataFactory** SettingsDataFactory)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetSettingsDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetSettingsDataFactory");
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UUIFunctionLibrary_C::GetSettingsDataFactory(class UObject* __WorldContext,
 
 void UUIFunctionLibrary_C::GetHUDCommon(class UObject* __WorldContext, class AKSHUDCommon** HUD_Common)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetHUDCommon"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetHUDCommon");
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UUIFunctionLibrary_C::GetHUDCommon(class UObject* __WorldContext, class AKS
 
 void UUIFunctionLibrary_C::SetupInputCallout(class UWBP_InputCallout_C* InputCallout, class APUMG_HUD* HUD, TEnumAsByte<EPGAME_INPUT_STATE> InputState, class UObject* __WorldContext)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.SetupInputCallout"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.SetupInputCallout");
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UUIFunctionLibrary_C::SetupInputCallout(class UWBP_InputCallout_C* InputCal
 
 void UUIFunctionLibrary_C::AssignActionIcon(class UImage* Image, const struct FName& ActionName, bool MatchSize, class UObject* __WorldContext)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.AssignActionIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.AssignActionIcon");
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UUIFunctionLibrary_C::AssignActionIcon(class UImage* Image, const struct FN
 
 void UUIFunctionLibrary_C::GetRankedTierAndDivisionByLevel(int RankedLevel, class UObject* __WorldContext, TEnumAsByte<E_RankedTiers>* RankedTier, int* Division)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRankedTierAndDivisionByLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRankedTierAndDivisionByLevel");
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UUIFunctionLibrary_C::GetRankedTierAndDivisionByLevel(int RankedLevel, clas
 
 void UUIFunctionLibrary_C::GetRankedTierAndDivisionTextByLevel(int RankedLevel, class UObject* __WorldContext, struct FText* RankedTierRichText, struct FText* RankedDivisionText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRankedTierAndDivisionTextByLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRankedTierAndDivisionTextByLevel");
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UUIFunctionLibrary_C::GetRankedTierAndDivisionTextByLevel(int RankedLevel, 
 
 void UUIFunctionLibrary_C::GetRankedBadgeTextureByLevel(int RankedLevel, class UObject* __WorldContext, class UTexture2D** RankedBadgeTexture, TSoftObjectPtr<class UTexture2D>* RankedBadgeSoftTexture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRankedBadgeTextureByLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRankedBadgeTextureByLevel");
 
 	struct
 	{
@@ -284,7 +284,7 @@ void UUIFunctionLibrary_C::GetRankedBadgeTextureByLevel(int RankedLevel, class U
 
 void UUIFunctionLibrary_C::GetDefaultAccountItemForSlot(EPlayerAccountSlot Slot, class UObject* __WorldContext, class UPlatformInventoryItem** Default_Item)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetDefaultAccountItemForSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetDefaultAccountItemForSlot");
 
 	struct
 	{
@@ -313,7 +313,7 @@ void UUIFunctionLibrary_C::GetDefaultAccountItemForSlot(EPlayerAccountSlot Slot,
 
 void UUIFunctionLibrary_C::GetInputTypeIcon(EKSPlayerInputType InputType, class UObject* __WorldContext, class UTexture2D** Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetInputTypeIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetInputTypeIcon");
 
 	struct
 	{
@@ -342,7 +342,7 @@ void UUIFunctionLibrary_C::GetInputTypeIcon(EKSPlayerInputType InputType, class 
 
 void UUIFunctionLibrary_C::GetPlatformIcon(EKSPlatformType Platform, class UObject* __WorldContext, class UTexture2D** Icon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetPlatformIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetPlatformIcon");
 
 	struct
 	{
@@ -371,7 +371,7 @@ void UUIFunctionLibrary_C::GetPlatformIcon(EKSPlatformType Platform, class UObje
 
 void UUIFunctionLibrary_C::GetDamageTypeResistIcon(class UClass* Damage_Type, class UObject* __WorldContext, class UTexture2D** Resisted_Icon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetDamageTypeResistIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetDamageTypeResistIcon");
 
 	struct
 	{
@@ -400,7 +400,7 @@ void UUIFunctionLibrary_C::GetDamageTypeResistIcon(class UClass* Damage_Type, cl
 
 void UUIFunctionLibrary_C::GetRarityFormatByTag(const struct FGameplayTagContainer& GameplayTagContainer, class UObject* __WorldContext, struct FText* RarityFormat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityFormatByTag"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityFormatByTag");
 
 	struct
 	{
@@ -430,7 +430,7 @@ void UUIFunctionLibrary_C::GetRarityFormatByTag(const struct FGameplayTagContain
 
 void UUIFunctionLibrary_C::GetFontByName(const struct FName& FontName, class UObject* __WorldContext, bool* HasFound, struct FSlateFontInfo* FontInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetFontByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetFontByName");
 
 	struct
 	{
@@ -463,7 +463,7 @@ void UUIFunctionLibrary_C::GetFontByName(const struct FName& FontName, class UOb
 
 void UUIFunctionLibrary_C::GetColorByName(const struct FName& ColorName, class UObject* __WorldContext, bool* HasFound, struct FLinearColor* Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorByName");
 
 	struct
 	{
@@ -495,7 +495,7 @@ void UUIFunctionLibrary_C::GetColorByName(const struct FName& ColorName, class U
 
 void UUIFunctionLibrary_C::GetRarityHighlightColorByTag(const struct FGameplayTagContainer& GameplayTagContainer, class UObject* __WorldContext, struct FSlateColor* RarityColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityHighlightColorByTag"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityHighlightColorByTag");
 
 	struct
 	{
@@ -523,7 +523,7 @@ void UUIFunctionLibrary_C::GetRarityHighlightColorByTag(const struct FGameplayTa
 
 void UUIFunctionLibrary_C::GetColorPalette_v2(class UObject* __WorldContext, struct FUIColorPalette_v2* ColorPalette)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorPalette_v2"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorPalette_v2");
 
 	struct
 	{
@@ -550,7 +550,7 @@ void UUIFunctionLibrary_C::GetColorPalette_v2(class UObject* __WorldContext, str
 
 void UUIFunctionLibrary_C::GetWeaponTypeAsText(const struct FGameplayTag& WeaponTypeTag, class UObject* __WorldContext, struct FText* Text)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetWeaponTypeAsText"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetWeaponTypeAsText");
 
 	struct
 	{
@@ -579,7 +579,7 @@ void UUIFunctionLibrary_C::GetWeaponTypeAsText(const struct FGameplayTag& Weapon
 
 void UUIFunctionLibrary_C::GetItemType(class UPlatformInventoryItem* InventoryItem, class UObject* __WorldContext, struct FText* ItemType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetItemType"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetItemType");
 
 	struct
 	{
@@ -610,7 +610,7 @@ void UUIFunctionLibrary_C::GetItemType(class UPlatformInventoryItem* InventoryIt
 
 void UUIFunctionLibrary_C::UpdateScrollBoxOffset(class UScrollBox* ScrollBox, float Speed, float TimeDelta, class UObject* __WorldContext, bool* Scrolled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.UpdateScrollBoxOffset"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.UpdateScrollBoxOffset");
 
 	struct
 	{
@@ -644,7 +644,7 @@ void UUIFunctionLibrary_C::UpdateScrollBoxOffset(class UScrollBox* ScrollBox, fl
 
 void UUIFunctionLibrary_C::GetFormattedTimeSpan(bool Shorthand, class UObject* __WorldContext, struct FTimespan* Timespan, struct FText* Text)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetFormattedTimeSpan"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetFormattedTimeSpan");
 
 	struct
 	{
@@ -677,7 +677,7 @@ void UUIFunctionLibrary_C::GetFormattedTimeSpan(bool Shorthand, class UObject* _
 
 void UUIFunctionLibrary_C::IsMatchTimerAtLeastThisUrgent(float Timer_Seconds, TEnumAsByte<E_MatchTimerVisualUrgency> Urgency_Level, class UObject* __WorldContext, bool* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.IsMatchTimerAtLeastThisUrgent"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.IsMatchTimerAtLeastThisUrgent");
 
 	struct
 	{
@@ -708,7 +708,7 @@ void UUIFunctionLibrary_C::IsMatchTimerAtLeastThisUrgent(float Timer_Seconds, TE
 
 void UUIFunctionLibrary_C::GetMatchTimerVisualUrgency(float Timer_Seconds, class UObject* __WorldContext, TEnumAsByte<E_MatchTimerVisualUrgency>* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetMatchTimerVisualUrgency"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetMatchTimerVisualUrgency");
 
 	struct
 	{
@@ -737,7 +737,7 @@ void UUIFunctionLibrary_C::GetMatchTimerVisualUrgency(float Timer_Seconds, class
 
 void UUIFunctionLibrary_C::GetRarityValueByTag(const struct FGameplayTagContainer& GameplayTagContainer, class UObject* __WorldContext, int* RarityValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityValueByTag"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityValueByTag");
 
 	struct
 	{
@@ -766,7 +766,7 @@ void UUIFunctionLibrary_C::GetRarityValueByTag(const struct FGameplayTagContaine
 
 void UUIFunctionLibrary_C::GetRarityNameByTag(const struct FGameplayTagContainer& GameplayTagContainer, class UObject* __WorldContext, struct FText* RarityName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityNameByTag"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityNameByTag");
 
 	struct
 	{
@@ -795,7 +795,7 @@ void UUIFunctionLibrary_C::GetRarityNameByTag(const struct FGameplayTagContainer
 
 void UUIFunctionLibrary_C::GetRarityColorByTag(const struct FGameplayTagContainer& GameplayTagContainer, class UObject* __WorldContext, struct FSlateColor* RarityColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityColorByTag"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityColorByTag");
 
 	struct
 	{
@@ -823,7 +823,7 @@ void UUIFunctionLibrary_C::GetRarityColorByTag(const struct FGameplayTagContaine
 
 void UUIFunctionLibrary_C::GetPlatformViewProfileText(class UObject* __WorldContext, struct FText* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetPlatformViewProfileText"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetPlatformViewProfileText");
 
 	struct
 	{
@@ -849,7 +849,7 @@ void UUIFunctionLibrary_C::GetPlatformViewProfileText(class UObject* __WorldCont
 
 void UUIFunctionLibrary_C::GetSelfColor(class UObject* __WorldContext, struct FLinearColor* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetSelfColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetSelfColor");
 
 	struct
 	{
@@ -875,7 +875,7 @@ void UUIFunctionLibrary_C::GetSelfColor(class UObject* __WorldContext, struct FL
 
 void UUIFunctionLibrary_C::GetEnemyColor(class UObject* __WorldContext, struct FLinearColor* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetEnemyColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetEnemyColor");
 
 	struct
 	{
@@ -901,7 +901,7 @@ void UUIFunctionLibrary_C::GetEnemyColor(class UObject* __WorldContext, struct F
 
 void UUIFunctionLibrary_C::GetFriendlyColor(class UObject* __WorldContext, struct FLinearColor* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetFriendlyColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetFriendlyColor");
 
 	struct
 	{
@@ -929,7 +929,7 @@ void UUIFunctionLibrary_C::GetFriendlyColor(class UObject* __WorldContext, struc
 
 void UUIFunctionLibrary_C::GetTextChatChannelName(EPUMG_ChatChannel Channel, class UPUMG_PlayerInfo* PersonalChannelPlayer, class UObject* __WorldContext, struct FText* Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetTextChatChannelName"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetTextChatChannelName");
 
 	struct
 	{
@@ -960,7 +960,7 @@ void UUIFunctionLibrary_C::GetTextChatChannelName(EPUMG_ChatChannel Channel, cla
 
 void UUIFunctionLibrary_C::SetTextChatWidgetColor(EPUMG_ChatChannel Channel, class UTextBlock* TextWidget, class UObject* __WorldContext)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.SetTextChatWidgetColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.SetTextChatWidgetColor");
 
 	struct
 	{
@@ -987,7 +987,7 @@ void UUIFunctionLibrary_C::SetTextChatWidgetColor(EPUMG_ChatChannel Channel, cla
 
 void UUIFunctionLibrary_C::GetCrossplayIcon(class UObject* __WorldContext, bool* ValidIconFound, class UTexture2D** OutIconTexture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetCrossplayIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetCrossplayIcon");
 
 	struct
 	{
@@ -1016,7 +1016,7 @@ void UUIFunctionLibrary_C::GetCrossplayIcon(class UObject* __WorldContext, bool*
 
 void UUIFunctionLibrary_C::GetCashColor(class UObject* __WorldContext, struct FLinearColor* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetCashColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetCashColor");
 
 	struct
 	{
@@ -1045,7 +1045,7 @@ void UUIFunctionLibrary_C::GetCashColor(class UObject* __WorldContext, struct FL
 
 void UUIFunctionLibrary_C::FormatSecondsToTimerText(float Seconds, int Minute_Digits, bool ShowTenths, class UObject* __WorldContext, struct FText* Timer_Text)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.FormatSecondsToTimerText"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.FormatSecondsToTimerText");
 
 	struct
 	{
@@ -1077,7 +1077,7 @@ void UUIFunctionLibrary_C::FormatSecondsToTimerText(float Seconds, int Minute_Di
 
 void UUIFunctionLibrary_C::GetSoundLibraries(class UObject* __WorldContext, struct FUISoundLibraries* SoundLibrary)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetSoundLibraries"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetSoundLibraries");
 
 	struct
 	{
@@ -1105,7 +1105,7 @@ void UUIFunctionLibrary_C::GetSoundLibraries(class UObject* __WorldContext, stru
 
 void UUIFunctionLibrary_C::GetColorForLoadoutBundle(class UKSLoadoutBundle* Loadout_Bundle, class UObject* __WorldContext, struct FLinearColor* Role_Dark_Color, struct FLinearColor* Role_Light_Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorForLoadoutBundle"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorForLoadoutBundle");
 
 	struct
 	{
@@ -1137,7 +1137,7 @@ void UUIFunctionLibrary_C::GetColorForLoadoutBundle(class UKSLoadoutBundle* Load
 
 void UUIFunctionLibrary_C::GetTextForSpecialtyCategory(ESpecialtyRoleType Specialty_Role_Type, class UObject* __WorldContext, struct FText* Role_Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetTextForSpecialtyCategory"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetTextForSpecialtyCategory");
 
 	struct
 	{
@@ -1167,7 +1167,7 @@ void UUIFunctionLibrary_C::GetTextForSpecialtyCategory(ESpecialtyRoleType Specia
 
 void UUIFunctionLibrary_C::GetColorForSpecialtyCategory(ESpecialtyRoleType Specialty_Role_Type, class UObject* __WorldContext, struct FLinearColor* Role_Dark_Color, struct FLinearColor* Role_Light_Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorForSpecialtyCategory"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorForSpecialtyCategory");
 
 	struct
 	{
@@ -1198,7 +1198,7 @@ void UUIFunctionLibrary_C::GetColorForSpecialtyCategory(ESpecialtyRoleType Speci
 
 void UUIFunctionLibrary_C::GetColorPalette(class UObject* __WorldContext, struct FUIColorPalette* ColorPalette)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorPalette"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetColorPalette");
 
 	struct
 	{
@@ -1224,7 +1224,7 @@ void UUIFunctionLibrary_C::GetColorPalette(class UObject* __WorldContext, struct
 
 void UUIFunctionLibrary_C::GetSlateFontInfo(class UObject* __WorldContext, struct FUIFontPalette* UI_Fonts)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetSlateFontInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetSlateFontInfo");
 
 	struct
 	{
@@ -1251,7 +1251,7 @@ void UUIFunctionLibrary_C::GetSlateFontInfo(class UObject* __WorldContext, struc
 
 void UUIFunctionLibrary_C::GetMedColor(class UObject* __WorldContext, struct FLinearColor* Med_Green, struct FLinearColor* Med_Green_Light)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetMedColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetMedColor");
 
 	struct
 	{
@@ -1280,7 +1280,7 @@ void UUIFunctionLibrary_C::GetMedColor(class UObject* __WorldContext, struct FLi
 
 void UUIFunctionLibrary_C::GetHideAnimDefaultTime(class UObject* __WorldContext, float* HideAnimTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetHideAnimDefaultTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetHideAnimDefaultTime");
 
 	struct
 	{
@@ -1306,7 +1306,7 @@ void UUIFunctionLibrary_C::GetHideAnimDefaultTime(class UObject* __WorldContext,
 
 void UUIFunctionLibrary_C::GetShowAnimDefaultTime(class UObject* __WorldContext, float* ShowAnimTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetShowAnimDefaultTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetShowAnimDefaultTime");
 
 	struct
 	{
@@ -1333,7 +1333,7 @@ void UUIFunctionLibrary_C::GetShowAnimDefaultTime(class UObject* __WorldContext,
 
 void UUIFunctionLibrary_C::CurrencyTypeToCurrencyIcon(unsigned char CurrencyType, class UObject* __WorldContext, class UTexture2D** CurrencyIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.CurrencyTypeToCurrencyIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.CurrencyTypeToCurrencyIcon");
 
 	struct
 	{
@@ -1362,7 +1362,7 @@ void UUIFunctionLibrary_C::CurrencyTypeToCurrencyIcon(unsigned char CurrencyType
 
 void UUIFunctionLibrary_C::CurrencyIdToCurrencyIcon(int CurrencyId, class UObject* __WorldContext, class UTexture2D** CurrencyIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.CurrencyIdToCurrencyIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.CurrencyIdToCurrencyIcon");
 
 	struct
 	{
@@ -1391,7 +1391,7 @@ void UUIFunctionLibrary_C::CurrencyIdToCurrencyIcon(int CurrencyId, class UObjec
 
 void UUIFunctionLibrary_C::Get_Opposing_Team_Num(int Team_Num, class UObject* __WorldContext, int* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.Get Opposing Team Num"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.Get Opposing Team Num");
 
 	struct
 	{
@@ -1421,7 +1421,7 @@ void UUIFunctionLibrary_C::Get_Opposing_Team_Num(int Team_Num, class UObject* __
 
 void UUIFunctionLibrary_C::GetAlignmentColors(class UObject* __WorldContext, struct FLinearColor* Friendly, struct FLinearColor* Enemy, struct FLinearColor* Neutral)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetAlignmentColors"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetAlignmentColors");
 
 	struct
 	{
@@ -1454,7 +1454,7 @@ void UUIFunctionLibrary_C::GetAlignmentColors(class UObject* __WorldContext, str
 
 void UUIFunctionLibrary_C::InvertColor(const struct FLinearColor& Color, class UObject* __WorldContext, struct FLinearColor* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.InvertColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.InvertColor");
 
 	struct
 	{
@@ -1483,7 +1483,7 @@ void UUIFunctionLibrary_C::InvertColor(const struct FLinearColor& Color, class U
 
 void UUIFunctionLibrary_C::GetIconForGamepadButton(const struct FKey& Button, class UObject* __WorldContext, class UTexture2D** Icon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetIconForGamepadButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetIconForGamepadButton");
 
 	struct
 	{
@@ -1516,7 +1516,7 @@ void UUIFunctionLibrary_C::GetIconForGamepadButton(const struct FKey& Button, cl
 
 void UUIFunctionLibrary_C::DrawCircle(const struct FVector2D& Center, float Radius, const struct FLinearColor& Tint, int Line_Count, bool Anti_Alias, class UObject* __WorldContext, struct FPaintContext* Context)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.DrawCircle"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.DrawCircle");
 
 	struct
 	{
@@ -1554,7 +1554,7 @@ void UUIFunctionLibrary_C::DrawCircle(const struct FVector2D& Center, float Radi
 
 void UUIFunctionLibrary_C::GetTeamName(int TeamNum, bool Abbreviate, class UObject* __WorldContext, struct FText* teamName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetTeamName"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetTeamName");
 
 	struct
 	{
@@ -1589,7 +1589,7 @@ void UUIFunctionLibrary_C::GetTeamName(int TeamNum, bool Abbreviate, class UObje
 
 void UUIFunctionLibrary_C::GetLargeTeamIcons(class UObject* __WorldContext, class UTexture2D** FriendlyBorder, class UTexture2D** FriendlyFill, class UTexture2D** FriendlyIcon, class UTexture2D** EnemyBorder, class UTexture2D** EnemyFill, class UTexture2D** EnemyIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetLargeTeamIcons"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetLargeTeamIcons");
 
 	struct
 	{
@@ -1633,7 +1633,7 @@ void UUIFunctionLibrary_C::GetLargeTeamIcons(class UObject* __WorldContext, clas
 
 void UUIFunctionLibrary_C::GetTeamColor(int TeamNum, int OwningPlayerNum, class UObject* __WorldContext, struct FLinearColor* Team_Color, bool* Found_Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetTeamColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetTeamColor");
 
 	struct
 	{
@@ -1669,7 +1669,7 @@ void UUIFunctionLibrary_C::GetTeamColor(int TeamNum, int OwningPlayerNum, class 
 
 void UUIFunctionLibrary_C::GetRarityColors(class UObject* __WorldContext, struct FLinearColor* Common, struct FLinearColor* Rare, struct FLinearColor* Epic, struct FLinearColor* Legendary)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityColors"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetRarityColors");
 
 	struct
 	{
@@ -1709,7 +1709,7 @@ void UUIFunctionLibrary_C::GetRarityColors(class UObject* __WorldContext, struct
 
 void UUIFunctionLibrary_C::GridIndexChecker(int TestIndex, int NumColumns, bool HorizontalWrapping, int SourceIndex, class UObject* __WorldContext, TArray<class UPUMG_Widget*>* Array, class UPUMG_Widget** Output)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.GridIndexChecker"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GridIndexChecker");
 
 	struct
 	{
@@ -1748,7 +1748,7 @@ void UUIFunctionLibrary_C::GridIndexChecker(int TestIndex, int NumColumns, bool 
 
 void UUIFunctionLibrary_C::LinearIndexChecker(int Index, class UObject* __WorldContext, TArray<class UPUMG_Widget*>* Array, class UPUMG_Widget** Output)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.LinearIndexChecker"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.LinearIndexChecker");
 
 	struct
 	{
@@ -1783,7 +1783,7 @@ void UUIFunctionLibrary_C::LinearIndexChecker(int Index, class UObject* __WorldC
 
 void UUIFunctionLibrary_C::SetUpLinearNavigation(class UPUMG_Widget* ParentWidget, int FocusGroup, bool Horizontal, bool Looping, class UObject* __WorldContext, TArray<class UPUMG_Widget*>* NavWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function UIFunctionLibrary.UIFunctionLibrary_C.SetUpLinearNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.SetUpLinearNavigation");
 
 	struct
 	{

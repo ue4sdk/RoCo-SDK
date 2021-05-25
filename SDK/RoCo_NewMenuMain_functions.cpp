@@ -17,7 +17,7 @@ namespace SDK
 
 void UNewMenuMain_C::SetupGamepadCallout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.SetupGamepadCallout"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.SetupGamepadCallout");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UNewMenuMain_C::SetupGamepadCallout()
 
 void UNewMenuMain_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.HandleInputStateChanged");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UNewMenuMain_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> Inp
 
 void UNewMenuMain_C::StartHideAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.StartHideAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.StartHideAnim");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UNewMenuMain_C::StartHideAnim()
 
 void UNewMenuMain_C::HideMenuButtonFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.HideMenuButtonFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.HideMenuButtonFinished");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UNewMenuMain_C::HideMenuButtonFinished()
 
 void UNewMenuMain_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.InitializeWidget");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UNewMenuMain_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UNewMenuMain_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UNewMenuMain_C::InitializeWidgetNavigation()
 
 void UNewMenuMain_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.Construct");
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UNewMenuMain_C::Construct()
 
 void UNewMenuMain_C::InitHideAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.InitHideAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.InitHideAnimation");
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UNewMenuMain_C::InitHideAnimation()
 
 void UNewMenuMain_C::OpenStartMenu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.OpenStartMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.OpenStartMenu");
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UNewMenuMain_C::OpenStartMenu()
 
 void UNewMenuMain_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UNewMenuMain_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClic
 
 void UNewMenuMain_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -201,7 +201,7 @@ void UNewMenuMain_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHove
 
 void UNewMenuMain_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -217,7 +217,7 @@ void UNewMenuMain_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonHove
 
 void UNewMenuMain_C::StartShowAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.StartShowAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.StartShowAnim");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UNewMenuMain_C::StartShowAnim()
 
 void UNewMenuMain_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.InitializeTickAnimations"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.InitializeTickAnimations");
 
 	struct
 	{
@@ -249,7 +249,7 @@ void UNewMenuMain_C::InitializeTickAnimations()
 
 void UNewMenuMain_C::ShowMenuButtonFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.ShowMenuButtonFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.ShowMenuButtonFinished");
 
 	struct
 	{
@@ -268,7 +268,7 @@ void UNewMenuMain_C::ShowMenuButtonFinished()
 
 void UNewMenuMain_C::HideMenuButtonAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.HideMenuButtonAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.HideMenuButtonAnim");
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UNewMenuMain_C::HideMenuButtonAnim(float ElapsedTime, float ElapsedAlpha)
 
 void UNewMenuMain_C::ShowMenuButtonAnim(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.ShowMenuButtonAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.ShowMenuButtonAnim");
 
 	struct
 	{
@@ -313,7 +313,7 @@ void UNewMenuMain_C::ShowMenuButtonAnim(float ElapsedTime, float ElapsedAlpha)
 
 void UNewMenuMain_C::ExecuteUbergraph_NewMenuMain(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewMenuMain.NewMenuMain_C.ExecuteUbergraph_NewMenuMain"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewMenuMain.NewMenuMain_C.ExecuteUbergraph_NewMenuMain");
 
 	struct
 	{

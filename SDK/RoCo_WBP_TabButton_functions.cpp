@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_TabButton_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.NavigateConfirm");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_TabButton_C::NavigateConfirm()
 
 void UWBP_TabButton_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.Construct");
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UWBP_TabButton_C::Construct()
 
 void UWBP_TabButton_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_TabButton_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_0_OnButtonCl
 
 void UWBP_TabButton_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.GamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.GamepadConfirm");
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UWBP_TabButton_C::GamepadConfirm()
 
 void UWBP_TabButton_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UWBP_TabButton_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_1_OnButtonHo
 
 void UWBP_TabButton_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UWBP_TabButton_C::BndEvt__TabButton_K2Node_ComponentBoundEvent_2_OnButtonHo
 
 void UWBP_TabButton_C::SetActive()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.SetActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.SetActive");
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UWBP_TabButton_C::SetActive()
 
 void UWBP_TabButton_C::SetInactive()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.SetInactive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.SetInactive");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_TabButton_C::SetInactive()
 
 void UWBP_TabButton_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.PreConstruct");
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_TabButton_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_TabButton_C::ExecuteUbergraph_WBP_TabButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.ExecuteUbergraph_WBP_TabButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.ExecuteUbergraph_WBP_TabButton");
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_TabButton_C::ExecuteUbergraph_WBP_TabButton(int EntryPoint)
 
 void UWBP_TabButton_C::OnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_TabButton_C::OnUnhovered__DelegateSignature()
 
 void UWBP_TabButton_C::OnHovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.OnHovered__DelegateSignature");
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_TabButton_C::OnHovered__DelegateSignature()
 
 void UWBP_TabButton_C::OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TabButton.WBP_TabButton_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TabButton.WBP_TabButton_C.OnClicked__DelegateSignature");
 
 	struct
 	{

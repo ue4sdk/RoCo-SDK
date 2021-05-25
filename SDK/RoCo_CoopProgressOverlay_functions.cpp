@@ -17,7 +17,7 @@ namespace SDK
 
 void UCoopProgressOverlay_C::Refresh_Appearance()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Refresh Appearance"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Refresh Appearance");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UCoopProgressOverlay_C::Refresh_Appearance()
 
 void UCoopProgressOverlay_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.InitializeWidget");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UCoopProgressOverlay_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UCoopProgressOverlay_C::Handle_Round_Start(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Round Start"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Round Start");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UCoopProgressOverlay_C::Handle_Round_Start(const struct FRoundInitState& Ro
 
 void UCoopProgressOverlay_C::Handle_Coop_Pickup(class AKSObjectiveBase* Pickup, int PickupsUsed, int PickupsLeft)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Coop Pickup"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Coop Pickup");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UCoopProgressOverlay_C::Handle_Coop_Pickup(class AKSObjectiveBase* Pickup, 
 
 void UCoopProgressOverlay_C::Handle_Computers_Unlocked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Computers Unlocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Computers Unlocked");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UCoopProgressOverlay_C::Handle_Computers_Unlocked()
 
 void UCoopProgressOverlay_C::Handle_Successful_Hack(class AKSExtractionComputer* Computer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Successful Hack"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Successful Hack");
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UCoopProgressOverlay_C::Handle_Successful_Hack(class AKSExtractionComputer*
 
 void UCoopProgressOverlay_C::Handle_Escape_Point_Changed(TArray<class AKSPlayerState*> ContainedPlayers)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Escape Point Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Escape Point Changed");
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UCoopProgressOverlay_C::Handle_Escape_Point_Changed(TArray<class AKSPlayerS
 
 void UCoopProgressOverlay_C::Handle_Phase_Change(const struct FName& CurrentPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Phase Change"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Phase Change");
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UCoopProgressOverlay_C::Handle_Phase_Change(const struct FName& CurrentPhas
 
 void UCoopProgressOverlay_C::Handle_Timer_Second_Tick(float NewTruncatedSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Timer Second Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Timer Second Tick");
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UCoopProgressOverlay_C::Handle_Timer_Second_Tick(float NewTruncatedSeconds)
 
 void UCoopProgressOverlay_C::Handle_Player_Downed_Changed(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Player Downed Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Player Downed Changed");
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UCoopProgressOverlay_C::Handle_Player_Downed_Changed(class AKSPlayerState* 
 
 void UCoopProgressOverlay_C::Handle_Player_Death(const struct FCombatEventInfo& EventInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Player Death"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.Handle Player Death");
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UCoopProgressOverlay_C::Handle_Player_Death(const struct FCombatEventInfo& 
 
 void UCoopProgressOverlay_C::ExecuteUbergraph_CoopProgressOverlay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CoopProgressOverlay.CoopProgressOverlay_C.ExecuteUbergraph_CoopProgressOverlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function CoopProgressOverlay.CoopProgressOverlay_C.ExecuteUbergraph_CoopProgressOverlay");
 
 	struct
 	{

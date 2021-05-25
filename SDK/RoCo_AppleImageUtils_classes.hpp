@@ -28,7 +28,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AppleImageUtils.AppleImageUtilsBaseAsyncTaskBlueprintProxy"));
+		static auto ptr = UObject::FindObject<UClass>("Class AppleImageUtils.AppleImageUtilsBaseAsyncTaskBlueprintProxy");
 		return ptr;
 	}
 
@@ -48,7 +48,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AppleImageUtils.AppleImageInterface"));
+		static auto ptr = UObject::FindObject<UClass>("Class AppleImageUtils.AppleImageInterface");
 		return ptr;
 	}
 

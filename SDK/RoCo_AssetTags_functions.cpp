@@ -20,7 +20,7 @@ namespace SDK
 
 TArray<struct FName> UAssetTagsSubsystem::GetCollectionsContainingAssetPtr(class UObject* AssetPtr)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetPtr"));
+	static auto fn = UObject::FindObject<UFunction>("Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetPtr");
 
 	struct
 	{
@@ -44,7 +44,7 @@ TArray<struct FName> UAssetTagsSubsystem::GetCollectionsContainingAssetPtr(class
 
 TArray<struct FName> UAssetTagsSubsystem::GetCollectionsContainingAssetData(const struct FAssetData& AssetData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetData"));
+	static auto fn = UObject::FindObject<UFunction>("Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAssetData");
 
 	struct
 	{
@@ -68,7 +68,7 @@ TArray<struct FName> UAssetTagsSubsystem::GetCollectionsContainingAssetData(cons
 
 TArray<struct FName> UAssetTagsSubsystem::GetCollectionsContainingAsset(const struct FName& AssetPathName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAsset"));
+	static auto fn = UObject::FindObject<UFunction>("Function AssetTags.AssetTagsSubsystem.GetCollectionsContainingAsset");
 
 	struct
 	{
@@ -91,7 +91,7 @@ TArray<struct FName> UAssetTagsSubsystem::GetCollectionsContainingAsset(const st
 
 TArray<struct FName> UAssetTagsSubsystem::GetCollections()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AssetTags.AssetTagsSubsystem.GetCollections"));
+	static auto fn = UObject::FindObject<UFunction>("Function AssetTags.AssetTagsSubsystem.GetCollections");
 
 	struct
 	{
@@ -113,7 +113,7 @@ TArray<struct FName> UAssetTagsSubsystem::GetCollections()
 
 TArray<struct FAssetData> UAssetTagsSubsystem::GetAssetsInCollection(const struct FName& Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AssetTags.AssetTagsSubsystem.GetAssetsInCollection"));
+	static auto fn = UObject::FindObject<UFunction>("Function AssetTags.AssetTagsSubsystem.GetAssetsInCollection");
 
 	struct
 	{
@@ -137,7 +137,7 @@ TArray<struct FAssetData> UAssetTagsSubsystem::GetAssetsInCollection(const struc
 
 bool UAssetTagsSubsystem::CollectionExists(const struct FName& Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AssetTags.AssetTagsSubsystem.CollectionExists"));
+	static auto fn = UObject::FindObject<UFunction>("Function AssetTags.AssetTagsSubsystem.CollectionExists");
 
 	struct
 	{

@@ -40,7 +40,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass AlphaDisclaimer.AlphaDisclaimer_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass AlphaDisclaimer.AlphaDisclaimer_C");
 		return ptr;
 	}
 

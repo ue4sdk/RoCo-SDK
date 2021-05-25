@@ -17,7 +17,7 @@ namespace SDK
 
 void UDamageResistModInst_C::OnNewCharacter()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DamageResistModInst.DamageResistModInst_C.OnNewCharacter"));
+	static auto fn = UObject::FindObject<UFunction>("Function DamageResistModInst.DamageResistModInst_C.OnNewCharacter");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UDamageResistModInst_C::OnNewCharacter()
 
 void UDamageResistModInst_C::DamageTaken(class AActor* DamagedActor, float Damage, class UDamageType* DamageType, class AController* InstigatedBy, class AActor* DamageCauser)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DamageResistModInst.DamageResistModInst_C.DamageTaken"));
+	static auto fn = UObject::FindObject<UFunction>("Function DamageResistModInst.DamageResistModInst_C.DamageTaken");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UDamageResistModInst_C::DamageTaken(class AActor* DamagedActor, float Damag
 
 void UDamageResistModInst_C::ExecuteUbergraph_DamageResistModInst(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DamageResistModInst.DamageResistModInst_C.ExecuteUbergraph_DamageResistModInst"));
+	static auto fn = UObject::FindObject<UFunction>("Function DamageResistModInst.DamageResistModInst_C.ExecuteUbergraph_DamageResistModInst");
 
 	struct
 	{

@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_QuickPlay_QueueTypeHeader_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeHeader.WBP_QuickPlay_QueueTypeHeader_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeHeader.WBP_QuickPlay_QueueTypeHeader_C.Construct");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_QuickPlay_QueueTypeHeader_C::Construct()
 
 void UWBP_QuickPlay_QueueTypeHeader_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeHeader.WBP_QuickPlay_QueueTypeHeader_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeHeader.WBP_QuickPlay_QueueTypeHeader_C.PreConstruct");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_QuickPlay_QueueTypeHeader_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_QuickPlay_QueueTypeHeader_C::SetHeaderText(const struct FText& QueueType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeHeader.WBP_QuickPlay_QueueTypeHeader_C.SetHeaderText"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeHeader.WBP_QuickPlay_QueueTypeHeader_C.SetHeaderText");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_QuickPlay_QueueTypeHeader_C::SetHeaderText(const struct FText& QueueTy
 
 void UWBP_QuickPlay_QueueTypeHeader_C::ExecuteUbergraph_WBP_QuickPlay_QueueTypeHeader(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QuickPlay_QueueTypeHeader.WBP_QuickPlay_QueueTypeHeader_C.ExecuteUbergraph_WBP_QuickPlay_QueueTypeHeader"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QuickPlay_QueueTypeHeader.WBP_QuickPlay_QueueTypeHeader_C.ExecuteUbergraph_WBP_QuickPlay_QueueTypeHeader");
 
 	struct
 	{

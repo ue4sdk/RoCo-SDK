@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass ConfigurableThreatComponent.ConfigurableThreatComponent_C"));
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass ConfigurableThreatComponent.ConfigurableThreatComponent_C");
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_SettingsPreview_Reticle_C::GetPreviewValue(int* Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.GetPreviewValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.GetPreviewValue");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_SettingsPreview_Reticle_C::GetPreviewValue(int* Value)
 
 void UWBP_SettingsPreview_Reticle_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.PreConstruct");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_SettingsPreview_Reticle_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_SettingsPreview_Reticle_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.OnInitialized");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_SettingsPreview_Reticle_C::OnInitialized()
 
 void UWBP_SettingsPreview_Reticle_C::OnCrosshairColorChanged(int SettingValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.OnCrosshairColorChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.OnCrosshairColorChanged");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_SettingsPreview_Reticle_C::OnCrosshairColorChanged(int SettingValue)
 
 void UWBP_SettingsPreview_Reticle_C::HandlePreviewValueChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.HandlePreviewValueChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.HandlePreviewValueChanged");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_SettingsPreview_Reticle_C::HandlePreviewValueChanged()
 
 void UWBP_SettingsPreview_Reticle_C::ExecuteUbergraph_WBP_SettingsPreview_Reticle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.ExecuteUbergraph_WBP_SettingsPreview_Reticle"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPreview_Reticle.WBP_SettingsPreview_Reticle_C.ExecuteUbergraph_WBP_SettingsPreview_Reticle");
 
 	struct
 	{

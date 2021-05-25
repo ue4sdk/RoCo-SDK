@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_SeasonalChallengePanel_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.InitializeWidget");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_SeasonalChallengePanel_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_SeasonalChallengePanel_C::Refresh_Player_Challenges()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.Refresh Player Challenges"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.Refresh Player Challenges");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_SeasonalChallengePanel_C::Refresh_Player_Challenges()
 
 void UWBP_SeasonalChallengePanel_C::Click_Action()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.Click Action"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.Click Action");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_SeasonalChallengePanel_C::Click_Action()
 
 void UWBP_SeasonalChallengePanel_C::BndEvt__WBP_ChallengeEntry_CardHorizontal_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.BndEvt__WBP_ChallengeEntry_CardHorizontal_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.BndEvt__WBP_ChallengeEntry_CardHorizontal_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -87,7 +87,7 @@ void UWBP_SeasonalChallengePanel_C::BndEvt__WBP_ChallengeEntry_CardHorizontal_K2
 
 void UWBP_SeasonalChallengePanel_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.Handle Input State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.Handle Input State Changed");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_SeasonalChallengePanel_C::Handle_Input_State_Changed(TEnumAsByte<EPGAM
 
 void UWBP_SeasonalChallengePanel_C::ExecuteUbergraph_WBP_SeasonalChallengePanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.ExecuteUbergraph_WBP_SeasonalChallengePanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SeasonalChallengePanel.WBP_SeasonalChallengePanel_C.ExecuteUbergraph_WBP_SeasonalChallengePanel");
 
 	struct
 	{

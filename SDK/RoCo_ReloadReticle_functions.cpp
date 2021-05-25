@@ -19,7 +19,7 @@ namespace SDK
 
 void UReloadReticle_C::ColorSet(const struct FLinearColor& NewColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.ColorSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.ColorSet");
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UReloadReticle_C::ColorSet(const struct FLinearColor& NewColor)
 
 void UReloadReticle_C::UpdateShotgunReload(float ReloadTime, float Percent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.UpdateShotgunReload"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.UpdateShotgunReload");
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UReloadReticle_C::UpdateShotgunReload(float ReloadTime, float Percent)
 
 void UReloadReticle_C::SetReloadTime(float NewTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.SetReloadTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.SetReloadTime");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UReloadReticle_C::SetReloadTime(float NewTime)
 
 void UReloadReticle_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.Tick");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UReloadReticle_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTim
 
 void UReloadReticle_C::Circle_Progress_Open()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.Circle Progress Open"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.Circle Progress Open");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UReloadReticle_C::Circle_Progress_Open()
 
 void UReloadReticle_C::Circle_Progress_Close()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.Circle Progress Close"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.Circle Progress Close");
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UReloadReticle_C::Circle_Progress_Close()
 
 void UReloadReticle_C::PreventCircleFill()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.PreventCircleFill"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.PreventCircleFill");
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UReloadReticle_C::PreventCircleFill()
 
 void UReloadReticle_C::ShotgunCircleOpen()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.ShotgunCircleOpen"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.ShotgunCircleOpen");
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UReloadReticle_C::ShotgunCircleOpen()
 
 void UReloadReticle_C::ShotgunCircleClose()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.ShotgunCircleClose"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.ShotgunCircleClose");
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UReloadReticle_C::ShotgunCircleClose()
 
 void UReloadReticle_C::ExecuteUbergraph_ReloadReticle(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ReloadReticle.ReloadReticle_C.ExecuteUbergraph_ReloadReticle"));
+	static auto fn = UObject::FindObject<UFunction>("Function ReloadReticle.ReloadReticle_C.ExecuteUbergraph_ReloadReticle");
 
 	struct
 	{

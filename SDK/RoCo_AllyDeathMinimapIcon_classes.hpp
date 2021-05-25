@@ -30,7 +30,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass AllyDeathMinimapIcon.AllyDeathMinimapIcon_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass AllyDeathMinimapIcon.AllyDeathMinimapIcon_C");
 		return ptr;
 	}
 

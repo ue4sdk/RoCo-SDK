@@ -55,7 +55,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_AccoladeMedal.WBP_AccoladeMedal_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_AccoladeMedal.WBP_AccoladeMedal_C");
 		return ptr;
 	}
 

@@ -17,7 +17,7 @@ namespace SDK
 
 void UExpElement_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpElement.ExpElement_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpElement.ExpElement_C.Construct");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UExpElement_C::Construct()
 
 void UExpElement_C::WidgetAnimationEvt_SlideIn_K2Node_WidgetAnimationEvent_1()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpElement.ExpElement_C.WidgetAnimationEvt_SlideIn_K2Node_WidgetAnimationEvent_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpElement.ExpElement_C.WidgetAnimationEvt_SlideIn_K2Node_WidgetAnimationEvent_1");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UExpElement_C::WidgetAnimationEvt_SlideIn_K2Node_WidgetAnimationEvent_1()
 
 void UExpElement_C::WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_2()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpElement.ExpElement_C.WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_2"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpElement.ExpElement_C.WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_2");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UExpElement_C::WidgetAnimationEvt_FadeOut_K2Node_WidgetAnimationEvent_2()
 
 void UExpElement_C::HandleAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpElement.ExpElement_C.HandleAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpElement.ExpElement_C.HandleAnimFinished");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UExpElement_C::HandleAnimFinished()
 
 void UExpElement_C::ExecuteUbergraph_ExpElement(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpElement.ExpElement_C.ExecuteUbergraph_ExpElement"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpElement.ExpElement_C.ExecuteUbergraph_ExpElement");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UExpElement_C::ExecuteUbergraph_ExpElement(int EntryPoint)
 
 void UExpElement_C::OnAnimFinished__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ExpElement.ExpElement_C.OnAnimFinished__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function ExpElement.ExpElement_C.OnAnimFinished__DelegateSignature");
 
 	struct
 	{

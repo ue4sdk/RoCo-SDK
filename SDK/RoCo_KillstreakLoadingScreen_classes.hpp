@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class KillstreakLoadingScreen.KSLoadingScreenSettings"));
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakLoadingScreen.KSLoadingScreenSettings");
 		return ptr;
 	}
 

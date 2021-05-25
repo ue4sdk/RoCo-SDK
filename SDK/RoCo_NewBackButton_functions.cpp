@@ -17,7 +17,7 @@ namespace SDK
 
 void UNewBackButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewBackButton.NewBackButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewBackButton.NewBackButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UNewBackButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHo
 
 void UNewBackButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewBackButton.NewBackButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewBackButton.NewBackButton_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_13_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UNewBackButton_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_13_OnButtonH
 
 void UNewBackButton_C::BndEvt__WBP_ShearedButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewBackButton.NewBackButton_C.BndEvt__WBP_ShearedButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewBackButton.NewBackButton_C.BndEvt__WBP_ShearedButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UNewBackButton_C::BndEvt__WBP_ShearedButton_K2Node_ComponentBoundEvent_2_On
 
 void UNewBackButton_C::OnViewChanged(const struct FName& LastRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewBackButton.NewBackButton_C.OnViewChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewBackButton.NewBackButton_C.OnViewChanged");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UNewBackButton_C::OnViewChanged(const struct FName& LastRoute)
 
 void UNewBackButton_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewBackButton.NewBackButton_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewBackButton.NewBackButton_C.InitializeWidget");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UNewBackButton_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UNewBackButton_C::ExecuteUbergraph_NewBackButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewBackButton.NewBackButton_C.ExecuteUbergraph_NewBackButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewBackButton.NewBackButton_C.ExecuteUbergraph_NewBackButton");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UNewBackButton_C::ExecuteUbergraph_NewBackButton(int EntryPoint)
 
 void UNewBackButton_C::BackButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NewBackButton.NewBackButton_C.BackButtonClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function NewBackButton.NewBackButton_C.BackButtonClicked__DelegateSignature");
 
 	struct
 	{

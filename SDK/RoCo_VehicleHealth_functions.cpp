@@ -19,7 +19,7 @@ namespace SDK
 
 void UVehicleHealth_C::Set_Target_Value(float TargetValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleHealth.VehicleHealth_C.Set Target Value"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleHealth.VehicleHealth_C.Set Target Value");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UVehicleHealth_C::Set_Target_Value(float TargetValue)
 
 void UVehicleHealth_C::Set_Value(float Percent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleHealth.VehicleHealth_C.Set Value"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleHealth.VehicleHealth_C.Set Value");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UVehicleHealth_C::Set_Value(float Percent)
 
 void UVehicleHealth_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleHealth.VehicleHealth_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleHealth.VehicleHealth_C.Tick");
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UVehicleHealth_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTim
 
 void UVehicleHealth_C::ExecuteUbergraph_VehicleHealth(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VehicleHealth.VehicleHealth_C.ExecuteUbergraph_VehicleHealth"));
+	static auto fn = UObject::FindObject<UFunction>("Function VehicleHealth.VehicleHealth_C.ExecuteUbergraph_VehicleHealth");
 
 	struct
 	{

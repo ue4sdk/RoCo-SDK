@@ -136,7 +136,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass NameplateWidget.NameplateWidget_C"));
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass NameplateWidget.NameplateWidget_C");
 		return ptr;
 	}
 

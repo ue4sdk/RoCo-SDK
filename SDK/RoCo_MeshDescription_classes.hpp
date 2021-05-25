@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MeshDescription.MeshDescription"));
+		static auto ptr = UObject::FindObject<UClass>("Class MeshDescription.MeshDescription");
 		return ptr;
 	}
 
@@ -38,7 +38,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class MeshDescription.MeshDescriptionBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class MeshDescription.MeshDescriptionBase");
 		return ptr;
 	}
 

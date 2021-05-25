@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_CosmeticItem_TitleEmpty.WBP_CosmeticItem_TitleEmpty_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_CosmeticItem_TitleEmpty.WBP_CosmeticItem_TitleEmpty_C");
 		return ptr;
 	}
 

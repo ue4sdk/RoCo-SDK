@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class NativizedAssets.__Delegates__UDirectReviveDroneModInst_C__pf3770280971"));
+		static auto ptr = UObject::FindObject<UClass>("Class NativizedAssets.__Delegates__UDirectReviveDroneModInst_C__pf3770280971");
 		return ptr;
 	}
 

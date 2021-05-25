@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ContextualPingIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ContextualPingIcon.WBP_ContextualPingIcon_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ContextualPingIcon.WBP_ContextualPingIcon_C.Construct");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ContextualPingIcon_C::Construct()
 
 void UWBP_ContextualPingIcon_C::HandlePingRemoved()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ContextualPingIcon.WBP_ContextualPingIcon_C.HandlePingRemoved"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ContextualPingIcon.WBP_ContextualPingIcon_C.HandlePingRemoved");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_ContextualPingIcon_C::HandlePingRemoved()
 
 void UWBP_ContextualPingIcon_C::SetupPingOnReady()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ContextualPingIcon.WBP_ContextualPingIcon_C.SetupPingOnReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ContextualPingIcon.WBP_ContextualPingIcon_C.SetupPingOnReady");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UWBP_ContextualPingIcon_C::SetupPingOnReady()
 
 void UWBP_ContextualPingIcon_C::ExecuteUbergraph_WBP_ContextualPingIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ContextualPingIcon.WBP_ContextualPingIcon_C.ExecuteUbergraph_WBP_ContextualPingIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ContextualPingIcon.WBP_ContextualPingIcon_C.ExecuteUbergraph_WBP_ContextualPingIcon");
 
 	struct
 	{

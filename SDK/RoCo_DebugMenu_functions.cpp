@@ -17,7 +17,7 @@ namespace SDK
 
 void UDebugMenu_C::CloseDebugMenu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.CloseDebugMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.CloseDebugMenu");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UDebugMenu_C::CloseDebugMenu()
 
 EConsoleCommandParamType UDebugMenu_C::GetParamTypeForSubCommand(const struct FString& BaseCommandString)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.GetParamTypeForSubCommand"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.GetParamTypeForSubCommand");
 
 	struct
 	{
@@ -59,7 +59,7 @@ EConsoleCommandParamType UDebugMenu_C::GetParamTypeForSubCommand(const struct FS
 
 void UDebugMenu_C::AddBaseCommandHeader(const struct FString& BaseCommand)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.AddBaseCommandHeader"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.AddBaseCommandHeader");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UDebugMenu_C::AddBaseCommandHeader(const struct FString& BaseCommand)
 
 bool UDebugMenu_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.NavigateBack");
 
 	struct
 	{
@@ -100,7 +100,7 @@ bool UDebugMenu_C::NavigateBack()
 
 void UDebugMenu_C::CommandSelected(const struct FDebugMenuCommandInfo& Command)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.CommandSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.CommandSelected");
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UDebugMenu_C::CommandSelected(const struct FDebugMenuCommandInfo& Command)
 
 void UDebugMenu_C::MakeBoolSubmenu(TArray<struct FDebugMenuCommandInfo>* Array)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.MakeBoolSubmenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.MakeBoolSubmenu");
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UDebugMenu_C::MakeBoolSubmenu(TArray<struct FDebugMenuCommandInfo>* Array)
 
 void UDebugMenu_C::InternalPopulate(TArray<struct FDebugMenuCommandInfo>* Commands)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.InternalPopulate"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.InternalPopulate");
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UDebugMenu_C::InternalPopulate(TArray<struct FDebugMenuCommandInfo>* Comman
 
 void UDebugMenu_C::PopulateList(int Depth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.PopulateList"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.PopulateList");
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UDebugMenu_C::PopulateList(int Depth)
 
 void UDebugMenu_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.Construct");
 
 	struct
 	{
@@ -198,7 +198,7 @@ void UDebugMenu_C::Construct()
 
 void UDebugMenu_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.OnShown");
 
 	struct
 	{
@@ -214,7 +214,7 @@ void UDebugMenu_C::OnShown()
 
 void UDebugMenu_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.OnHide");
 
 	struct
 	{
@@ -230,7 +230,7 @@ void UDebugMenu_C::OnHide()
 
 void UDebugMenu_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -248,7 +248,7 @@ void UDebugMenu_C::InitializeWidgetNavigation()
 
 void UDebugMenu_C::ExecuteUbergraph_DebugMenu(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DebugMenu.DebugMenu_C.ExecuteUbergraph_DebugMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function DebugMenu.DebugMenu_C.ExecuteUbergraph_DebugMenu");
 
 	struct
 	{

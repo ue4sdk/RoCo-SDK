@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_PlayerProfileScreen_StatEntry_C::SetActivityInstance(class UKSActivityInstance* Instance, EKSActivityProgressDisplayType DisplayType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_StatEntry.WBP_PlayerProfileScreen_StatEntry_C.SetActivityInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_StatEntry.WBP_PlayerProfileScreen_StatEntry_C.SetActivityInstance");
 
 	struct
 	{

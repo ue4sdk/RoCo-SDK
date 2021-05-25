@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ranked_level_tracker_C::SetProgressColorByTier(TEnumAsByte<E_RankedTiers> RankedTier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.SetProgressColorByTier"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.SetProgressColorByTier");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ranked_level_tracker_C::SetProgressColorByTier(TEnumAsByte<E_RankedTie
 
 void UWBP_ranked_level_tracker_C::SetCurrentLevel(int Tier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.SetCurrentLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.SetCurrentLevel");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_ranked_level_tracker_C::SetCurrentLevel(int Tier)
 
 void UWBP_ranked_level_tracker_C::OnLerpUpdate(float CurrentLerpPercantage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLerpUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLerpUpdate");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_ranked_level_tracker_C::OnLerpUpdate(float CurrentLerpPercantage)
 
 void UWBP_ranked_level_tracker_C::OnLevelDown(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLevelDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLevelDown");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_ranked_level_tracker_C::OnLevelDown(int NewLevel)
 
 void UWBP_ranked_level_tracker_C::OnLevelUp(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLevelUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLevelUp");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_ranked_level_tracker_C::OnLevelUp(int NewLevel)
 
 void UWBP_ranked_level_tracker_C::UpdateLevelDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.UpdateLevelDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.UpdateLevelDisplay");
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_ranked_level_tracker_C::UpdateLevelDisplay()
 
 int UWBP_ranked_level_tracker_C::GetXPRequiredForLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.GetXPRequiredForLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.GetXPRequiredForLevel");
 
 	struct
 	{
@@ -156,7 +156,7 @@ int UWBP_ranked_level_tracker_C::GetXPRequiredForLevel()
 
 int UWBP_ranked_level_tracker_C::GetNextLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.GetNextLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.GetNextLevel");
 
 	struct
 	{
@@ -177,7 +177,7 @@ int UWBP_ranked_level_tracker_C::GetNextLevel()
 
 int UWBP_ranked_level_tracker_C::GetCurrentLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.GetCurrentLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.GetCurrentLevel");
 
 	struct
 	{
@@ -198,7 +198,7 @@ int UWBP_ranked_level_tracker_C::GetCurrentLevel()
 
 void UWBP_ranked_level_tracker_C::ProcessPlayerProgression(const struct FPlayerProgression& PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.ProcessPlayerProgression"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.ProcessPlayerProgression");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_ranked_level_tracker_C::ProcessPlayerProgression(const struct FPlayerP
 
 void UWBP_ranked_level_tracker_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.PreConstruct");
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_ranked_level_tracker_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ranked_level_tracker_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.Construct");
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UWBP_ranked_level_tracker_C::Construct()
 
 void UWBP_ranked_level_tracker_C::ExecuteUbergraph_WBP_ranked_level_tracker(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.ExecuteUbergraph_WBP_ranked_level_tracker"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.ExecuteUbergraph_WBP_ranked_level_tracker");
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_ranked_level_tracker_C::ExecuteUbergraph_WBP_ranked_level_tracker(int 
 
 void UWBP_ranked_level_tracker_C::OnLevelDownEvent__DelegateSignature(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLevelDownEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLevelDownEvent__DelegateSignature");
 
 	struct
 	{
@@ -294,7 +294,7 @@ void UWBP_ranked_level_tracker_C::OnLevelDownEvent__DelegateSignature(int NewLev
 
 void UWBP_ranked_level_tracker_C::OnLevelUpEvent__DelegateSignature(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLevelUpEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ranked_level_tracker.WBP_ranked_level_tracker_C.OnLevelUpEvent__DelegateSignature");
 
 	struct
 	{

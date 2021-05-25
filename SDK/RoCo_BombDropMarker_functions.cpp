@@ -19,7 +19,7 @@ namespace SDK
 
 void UBombDropMarker_C::HandleGameObjectiveChanged(const TScriptInterface<class UKSObjective>& GameObjective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.HandleGameObjectiveChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.HandleGameObjectiveChanged");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UBombDropMarker_C::HandleGameObjectiveChanged(const TScriptInterface<class 
 
 void UBombDropMarker_C::IsStateEqualTo(EKSNeutralBombState BombState, EKSObjectiveState ObjectiveState, bool* Result)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.IsStateEqualTo"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.IsStateEqualTo");
 
 	struct
 	{
@@ -68,7 +68,7 @@ void UBombDropMarker_C::IsStateEqualTo(EKSNeutralBombState BombState, EKSObjecti
 
 void UBombDropMarker_C::IsCurrentObjectiveStateEqualTo(EKSObjectiveState CompareState, bool* Result)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.IsCurrentObjectiveStateEqualTo"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.IsCurrentObjectiveStateEqualTo");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UBombDropMarker_C::IsCurrentObjectiveStateEqualTo(EKSObjectiveState Compare
 
 void UBombDropMarker_C::IsCurrentBombStateEqualTo(EKSNeutralBombState CompareState, bool* Result)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.IsCurrentBombStateEqualTo"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.IsCurrentBombStateEqualTo");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UBombDropMarker_C::IsCurrentBombStateEqualTo(EKSNeutralBombState CompareSta
 
 void UBombDropMarker_C::GetObjectiveColor(struct FSlateColor* ObjectiveColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.GetObjectiveColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.GetObjectiveColor");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UBombDropMarker_C::GetObjectiveColor(struct FSlateColor* ObjectiveColor)
 
 void UBombDropMarker_C::SetShowBombTimer(bool bShowTimer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.SetShowBombTimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.SetShowBombTimer");
 
 	struct
 	{
@@ -157,7 +157,7 @@ void UBombDropMarker_C::SetShowBombTimer(bool bShowTimer)
 
 void UBombDropMarker_C::SetLocalPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.SetLocalPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.SetLocalPlayer");
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UBombDropMarker_C::SetLocalPlayer()
 
 void UBombDropMarker_C::GetBombColor(struct FSlateColor* BombColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.GetBombColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.GetBombColor");
 
 	struct
 	{
@@ -198,7 +198,7 @@ void UBombDropMarker_C::GetBombColor(struct FSlateColor* BombColor)
 
 void UBombDropMarker_C::UpdateProgressMeterFromBombState(EKSNeutralBombState BombState, int BombTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.UpdateProgressMeterFromBombState"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.UpdateProgressMeterFromBombState");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UBombDropMarker_C::UpdateProgressMeterFromBombState(EKSNeutralBombState Bom
 
 void UBombDropMarker_C::UpdateProgressMeterProgress()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.UpdateProgressMeterProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.UpdateProgressMeterProgress");
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UBombDropMarker_C::UpdateProgressMeterProgress()
 
 void UBombDropMarker_C::HandleBombStateChanged(const struct FKSNeutralBombState& BombState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.HandleBombStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.HandleBombStateChanged");
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UBombDropMarker_C::HandleBombStateChanged(const struct FKSNeutralBombState&
 
 void UBombDropMarker_C::GetArmedBombZone(class AKSNeutralBombZone** BombZone)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.GetArmedBombZone"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.GetArmedBombZone");
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UBombDropMarker_C::GetArmedBombZone(class AKSNeutralBombZone** BombZone)
 
 ESlateVisibility UBombDropMarker_C::Update()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.Update"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.Update");
 
 	struct
 	{
@@ -299,7 +299,7 @@ ESlateVisibility UBombDropMarker_C::Update()
 
 bool UBombDropMarker_C::ShouldUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.ShouldUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.ShouldUpdate");
 
 	struct
 	{
@@ -318,7 +318,7 @@ bool UBombDropMarker_C::ShouldUpdate()
 
 void UBombDropMarker_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.Construct");
 
 	struct
 	{
@@ -337,7 +337,7 @@ void UBombDropMarker_C::Construct()
 
 void UBombDropMarker_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.Tick");
 
 	struct
 	{
@@ -359,7 +359,7 @@ void UBombDropMarker_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTi
 
 void UBombDropMarker_C::Handle_Bomb_State_Timer_Tick(float Seconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.Handle Bomb State Timer Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.Handle Bomb State Timer Tick");
 
 	struct
 	{
@@ -379,7 +379,7 @@ void UBombDropMarker_C::Handle_Bomb_State_Timer_Tick(float Seconds)
 
 void UBombDropMarker_C::SetAttackingTeam(class AKSTeamState* NewTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.SetAttackingTeam"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.SetAttackingTeam");
 
 	struct
 	{
@@ -399,7 +399,7 @@ void UBombDropMarker_C::SetAttackingTeam(class AKSTeamState* NewTeam)
 
 void UBombDropMarker_C::UpdateMetersAway(int Meters)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.UpdateMetersAway"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.UpdateMetersAway");
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UBombDropMarker_C::UpdateMetersAway(int Meters)
 
 void UBombDropMarker_C::HandleKillCamEnabled(bool Enabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.HandleKillCamEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.HandleKillCamEnabled");
 
 	struct
 	{
@@ -440,7 +440,7 @@ void UBombDropMarker_C::HandleKillCamEnabled(bool Enabled)
 
 void UBombDropMarker_C::HandleObjectiveTimerActive(const TScriptInterface<class UKSObjective>& GameObjective, bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.HandleObjectiveTimerActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.HandleObjectiveTimerActive");
 
 	struct
 	{
@@ -460,7 +460,7 @@ void UBombDropMarker_C::HandleObjectiveTimerActive(const TScriptInterface<class 
 
 void UBombDropMarker_C::UpdateObjectiveTimerSeconds()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.UpdateObjectiveTimerSeconds"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.UpdateObjectiveTimerSeconds");
 
 	struct
 	{
@@ -478,7 +478,7 @@ void UBombDropMarker_C::UpdateObjectiveTimerSeconds()
 
 void UBombDropMarker_C::ExecuteUbergraph_BombDropMarker(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BombDropMarker.BombDropMarker_C.ExecuteUbergraph_BombDropMarker"));
+	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.ExecuteUbergraph_BombDropMarker");
 
 	struct
 	{

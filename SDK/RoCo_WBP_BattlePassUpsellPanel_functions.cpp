@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_BattlePassUpsellPanel_C::RefreshDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.RefreshDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.RefreshDisplay");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_BattlePassUpsellPanel_C::RefreshDisplay()
 
 void UWBP_BattlePassUpsellPanel_C::BndEvt__WBP_YellowButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.BndEvt__WBP_YellowButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.BndEvt__WBP_YellowButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_BattlePassUpsellPanel_C::BndEvt__WBP_YellowButton_K2Node_ComponentBoun
 
 void UWBP_BattlePassUpsellPanel_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.InitializeWidget");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_BattlePassUpsellPanel_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlePassUpsellPanel_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.Construct");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_BattlePassUpsellPanel_C::Construct()
 
 void UWBP_BattlePassUpsellPanel_C::ExecuteUbergraph_WBP_BattlePassUpsellPanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.ExecuteUbergraph_WBP_BattlePassUpsellPanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.ExecuteUbergraph_WBP_BattlePassUpsellPanel");
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_BattlePassUpsellPanel_C::ExecuteUbergraph_WBP_BattlePassUpsellPanel(in
 
 void UWBP_BattlePassUpsellPanel_C::OnButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.OnButtonClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlePassUpsellPanel.WBP_BattlePassUpsellPanel_C.OnButtonClicked__DelegateSignature");
 
 	struct
 	{

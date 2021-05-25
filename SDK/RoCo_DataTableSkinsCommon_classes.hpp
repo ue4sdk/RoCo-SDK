@@ -30,7 +30,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DataTableSkinsCommon.DynamicSkinTable"));
+		static auto ptr = UObject::FindObject<UClass>("Class DataTableSkinsCommon.DynamicSkinTable");
 		return ptr;
 	}
 
@@ -84,7 +84,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DataTableSkinsCommon.MultiSkinObject"));
+		static auto ptr = UObject::FindObject<UClass>("Class DataTableSkinsCommon.MultiSkinObject");
 		return ptr;
 	}
 
@@ -151,7 +151,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DataTableSkinsCommon.SkinnableSkeletalMeshComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class DataTableSkinsCommon.SkinnableSkeletalMeshComponent");
 		return ptr;
 	}
 
@@ -192,7 +192,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DataTableSkinsCommon.SkinnableMergedMeshComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class DataTableSkinsCommon.SkinnableMergedMeshComponent");
 		return ptr;
 	}
 
@@ -218,7 +218,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DataTableSkinsCommon.SkinnableStaticMeshComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class DataTableSkinsCommon.SkinnableStaticMeshComponent");
 		return ptr;
 	}
 
@@ -245,7 +245,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DataTableSkinsCommon.SkinObjectManagerComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class DataTableSkinsCommon.SkinObjectManagerComponent");
 		return ptr;
 	}
 
@@ -260,7 +260,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class DataTableSkinsCommon.SkinTagAssetInterface"));
+		static auto ptr = UObject::FindObject<UClass>("Class DataTableSkinsCommon.SkinTagAssetInterface");
 		return ptr;
 	}
 

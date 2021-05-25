@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldSystemActor"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldSystemActor");
 		return ptr;
 	}
 
@@ -39,7 +39,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldSystem"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldSystem");
 		return ptr;
 	}
 
@@ -58,7 +58,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldSystemComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldSystemComponent");
 		return ptr;
 	}
 
@@ -83,7 +83,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldSystemMetaData"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldSystemMetaData");
 		return ptr;
 	}
 
@@ -100,7 +100,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldSystemMetaDataIteration"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldSystemMetaDataIteration");
 		return ptr;
 	}
 
@@ -119,7 +119,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldSystemMetaDataProcessingResolution"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldSystemMetaDataProcessingResolution");
 		return ptr;
 	}
 
@@ -136,7 +136,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldNodeBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldNodeBase");
 		return ptr;
 	}
 
@@ -151,7 +151,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldNodeInt"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldNodeInt");
 		return ptr;
 	}
 
@@ -166,7 +166,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldNodeFloat"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldNodeFloat");
 		return ptr;
 	}
 
@@ -181,7 +181,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.FieldNodeVector"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.FieldNodeVector");
 		return ptr;
 	}
 
@@ -198,7 +198,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.UniformInteger"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.UniformInteger");
 		return ptr;
 	}
 
@@ -221,7 +221,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.RadialIntMask"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.RadialIntMask");
 		return ptr;
 	}
 
@@ -240,7 +240,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.UniformScalar"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.UniformScalar");
 		return ptr;
 	}
 
@@ -265,7 +265,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.RadialFalloff"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.RadialFalloff");
 		return ptr;
 	}
 
@@ -291,7 +291,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.PlaneFalloff"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.PlaneFalloff");
 		return ptr;
 	}
 
@@ -315,7 +315,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.BoxFalloff"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.BoxFalloff");
 		return ptr;
 	}
 
@@ -336,7 +336,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.NoiseField"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.NoiseField");
 		return ptr;
 	}
 
@@ -355,7 +355,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.UniformVector"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.UniformVector");
 		return ptr;
 	}
 
@@ -374,7 +374,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.RadialVector"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.RadialVector");
 		return ptr;
 	}
 
@@ -393,7 +393,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.RandomVector"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.RandomVector");
 		return ptr;
 	}
 
@@ -416,7 +416,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.OperatorField"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.OperatorField");
 		return ptr;
 	}
 
@@ -434,7 +434,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.ToIntegerField"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.ToIntegerField");
 		return ptr;
 	}
 
@@ -452,7 +452,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.ToFloatField"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.ToFloatField");
 		return ptr;
 	}
 
@@ -473,7 +473,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.CullingField"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.CullingField");
 		return ptr;
 	}
 
@@ -490,7 +490,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class FieldSystemEngine.ReturnResultsTerminal"));
+		static auto ptr = UObject::FindObject<UClass>("Class FieldSystemEngine.ReturnResultsTerminal");
 		return ptr;
 	}
 

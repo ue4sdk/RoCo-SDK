@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Lobby.LobbyBeaconClient"));
+		static auto ptr = UObject::FindObject<UClass>("Class Lobby.LobbyBeaconClient");
 		return ptr;
 	}
 
@@ -59,7 +59,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Lobby.LobbyBeaconHost"));
+		static auto ptr = UObject::FindObject<UClass>("Class Lobby.LobbyBeaconHost");
 		return ptr;
 	}
 
@@ -81,7 +81,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Lobby.LobbyBeaconPlayerState"));
+		static auto ptr = UObject::FindObject<UClass>("Class Lobby.LobbyBeaconPlayerState");
 		return ptr;
 	}
 
@@ -109,7 +109,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Lobby.LobbyBeaconState"));
+		static auto ptr = UObject::FindObject<UClass>("Class Lobby.LobbyBeaconState");
 		return ptr;
 	}
 

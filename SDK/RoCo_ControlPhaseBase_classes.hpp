@@ -39,7 +39,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass ControlPhaseBase.ControlPhaseBase_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass ControlPhaseBase.ControlPhaseBase_C");
 		return ptr;
 	}
 

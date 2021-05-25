@@ -21,7 +21,7 @@ namespace SDK
 
 struct FEventReply UWBP_EventBuyThroughScreen_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnKeyUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnKeyUp");
 
 	struct
 	{
@@ -47,7 +47,7 @@ struct FEventReply UWBP_EventBuyThroughScreen_C::OnKeyUp(const struct FGeometry&
 
 void UWBP_EventBuyThroughScreen_C::PreviewBundleItemAtIndex(int PreviewIndex, bool ForceUpdate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.PreviewBundleItemAtIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.PreviewBundleItemAtIndex");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UWBP_EventBuyThroughScreen_C::PreviewBundleItemAtIndex(int PreviewIndex, bo
 
 void UWBP_EventBuyThroughScreen_C::DisplayMissionSelect()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.DisplayMissionSelect"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.DisplayMissionSelect");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_EventBuyThroughScreen_C::DisplayMissionSelect()
 
 void UWBP_EventBuyThroughScreen_C::DisplayRulesWindow()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.DisplayRulesWindow"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.DisplayRulesWindow");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_EventBuyThroughScreen_C::DisplayRulesWindow()
 
 void UWBP_EventBuyThroughScreen_C::GetNavigationWidgets(TArray<class UPUMG_Widget*>* Widgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.GetNavigationWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.GetNavigationWidgets");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_EventBuyThroughScreen_C::GetNavigationWidgets(TArray<class UPUMG_Widge
 
 void UWBP_EventBuyThroughScreen_C::PurchaseBundle(class UPUMG_StoreItem* BundleItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.PurchaseBundle"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.PurchaseBundle");
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWBP_EventBuyThroughScreen_C::PurchaseBundle(class UPUMG_StoreItem* BundleI
 
 void UWBP_EventBuyThroughScreen_C::PopulateBundlePreviewItems(class UPUMG_StoreItem* BundleItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.PopulateBundlePreviewItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.PopulateBundlePreviewItems");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UWBP_EventBuyThroughScreen_C::PopulateBundlePreviewItems(class UPUMG_StoreI
 
 bool UWBP_EventBuyThroughScreen_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.NavigateConfirm");
 
 	struct
 	{
@@ -184,7 +184,7 @@ bool UWBP_EventBuyThroughScreen_C::NavigateConfirm()
 
 void UWBP_EventBuyThroughScreen_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnInputStateChanged");
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_EventBuyThroughScreen_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_
 
 void UWBP_EventBuyThroughScreen_C::OnBundleItemHovered(const struct FCosmeticSlotDetails& CosmeticSlotDetails, bool IsGamepad, class UWBP_KSCosmeticItemDisplay_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnBundleItemHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnBundleItemHovered");
 
 	struct
 	{
@@ -231,7 +231,7 @@ void UWBP_EventBuyThroughScreen_C::OnBundleItemHovered(const struct FCosmeticSlo
 
 void UWBP_EventBuyThroughScreen_C::OnBundleItemClicked(class UWBP_KSCosmeticItemDisplay_C* Widget, const struct FCosmeticSlotDetails& CosmeticSlotDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnBundleItemClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnBundleItemClicked");
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UWBP_EventBuyThroughScreen_C::OnBundleItemClicked(class UWBP_KSCosmeticItem
 
 void UWBP_EventBuyThroughScreen_C::Select_Bundle_Widget(class UWBP_EventBundleItem_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.Select Bundle Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.Select Bundle Widget");
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_EventBuyThroughScreen_C::Select_Bundle_Widget(class UWBP_EventBundleIt
 
 void UWBP_EventBuyThroughScreen_C::OnGrandPrizeClicked(class UWBP_EventGrandPrizeItem_C* Widget, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnGrandPrizeClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnGrandPrizeClicked");
 
 	struct
 	{
@@ -294,7 +294,7 @@ void UWBP_EventBuyThroughScreen_C::OnGrandPrizeClicked(class UWBP_EventGrandPriz
 
 void UWBP_EventBuyThroughScreen_C::RefreshScene()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.RefreshScene"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.RefreshScene");
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UWBP_EventBuyThroughScreen_C::RefreshScene()
 
 bool UWBP_EventBuyThroughScreen_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.NavigateBack");
 
 	struct
 	{
@@ -333,7 +333,7 @@ bool UWBP_EventBuyThroughScreen_C::NavigateBack()
 
 void UWBP_EventBuyThroughScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.InitializeWidget");
 
 	struct
 	{
@@ -351,7 +351,7 @@ void UWBP_EventBuyThroughScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_EventBuyThroughScreen_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnBackPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnBackPrompt");
 
 	struct
 	{
@@ -367,7 +367,7 @@ void UWBP_EventBuyThroughScreen_C::OnBackPrompt()
 
 void UWBP_EventBuyThroughScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnShown");
 
 	struct
 	{
@@ -385,7 +385,7 @@ void UWBP_EventBuyThroughScreen_C::OnShown()
 
 void UWBP_EventBuyThroughScreen_C::OnBundleUnlockButtonClicked(class UWBP_EventBundleItem_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnBundleUnlockButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnBundleUnlockButtonClicked");
 
 	struct
 	{
@@ -403,7 +403,7 @@ void UWBP_EventBuyThroughScreen_C::OnBundleUnlockButtonClicked(class UWBP_EventB
 
 void UWBP_EventBuyThroughScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UWBP_EventBuyThroughScreen_C::InitializeWidgetNavigation()
 
 void UWBP_EventBuyThroughScreen_C::OnRulesPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnRulesPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.OnRulesPrompt");
 
 	struct
 	{
@@ -437,7 +437,7 @@ void UWBP_EventBuyThroughScreen_C::OnRulesPrompt()
 
 void UWBP_EventBuyThroughScreen_C::FocusGroupNavigateRightFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.FocusGroupNavigateRightFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.FocusGroupNavigateRightFailure");
 
 	struct
 	{
@@ -457,7 +457,7 @@ void UWBP_EventBuyThroughScreen_C::FocusGroupNavigateRightFailure(int FocusGroup
 
 void UWBP_EventBuyThroughScreen_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.FocusGroupNavigateLeftFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.FocusGroupNavigateLeftFailure");
 
 	struct
 	{
@@ -477,7 +477,7 @@ void UWBP_EventBuyThroughScreen_C::FocusGroupNavigateLeftFailure(int FocusGroup)
 
 void UWBP_EventBuyThroughScreen_C::ExecuteUbergraph_WBP_EventBuyThroughScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.ExecuteUbergraph_WBP_EventBuyThroughScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C.ExecuteUbergraph_WBP_EventBuyThroughScreen");
 
 	struct
 	{

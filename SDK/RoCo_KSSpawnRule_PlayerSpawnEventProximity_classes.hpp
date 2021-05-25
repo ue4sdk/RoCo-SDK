@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass KSSpawnRule_PlayerSpawnEventProximity.KSSpawnRule_PlayerSpawnEventProximity_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass KSSpawnRule_PlayerSpawnEventProximity.KSSpawnRule_PlayerSpawnEventProximity_C");
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 struct FVector UEnemyPingMinimapIcon_C::GetWorldPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.GetWorldPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.GetWorldPosition");
 
 	struct
 	{
@@ -38,7 +38,7 @@ struct FVector UEnemyPingMinimapIcon_C::GetWorldPosition()
 
 void UEnemyPingMinimapIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.Construct");
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UEnemyPingMinimapIcon_C::Construct()
 
 void UEnemyPingMinimapIcon_C::Re_Ping(const struct FKSClientShotInfo& ShotInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.Re Ping"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.Re Ping");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UEnemyPingMinimapIcon_C::Re_Ping(const struct FKSClientShotInfo& ShotInfo)
 
 void UEnemyPingMinimapIcon_C::UpdateMeetsHeightThreshold(bool bHeight, bool bDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.UpdateMeetsHeightThreshold"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.UpdateMeetsHeightThreshold");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UEnemyPingMinimapIcon_C::UpdateMeetsHeightThreshold(bool bHeight, bool bDep
 
 void UEnemyPingMinimapIcon_C::ExecuteUbergraph_EnemyPingMinimapIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.ExecuteUbergraph_EnemyPingMinimapIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.ExecuteUbergraph_EnemyPingMinimapIcon");
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UEnemyPingMinimapIcon_C::ExecuteUbergraph_EnemyPingMinimapIcon(int EntryPoi
 
 void UEnemyPingMinimapIcon_C::PingExpired__DelegateSignature(unsigned char Icon_Type, int UniqueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.PingExpired__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingMinimapIcon.EnemyPingMinimapIcon_C.PingExpired__DelegateSignature");
 
 	struct
 	{

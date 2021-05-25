@@ -34,7 +34,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass EnemyPingMinimapIcon.EnemyPingMinimapIcon_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass EnemyPingMinimapIcon.EnemyPingMinimapIcon_C");
 		return ptr;
 	}
 

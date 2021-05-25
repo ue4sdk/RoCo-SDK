@@ -22,7 +22,7 @@ namespace SDK
 
 float UHiRezAnimationStatics::FindPositionFromDistanceCurve(const struct FName& DistanceCurveName, float Distance, class UAnimSequenceBase* InAnimSequence)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HiRezAnimationCommon.HiRezAnimationStatics.FindPositionFromDistanceCurve"));
+	static auto fn = UObject::FindObject<UFunction>("Function HiRezAnimationCommon.HiRezAnimationStatics.FindPositionFromDistanceCurve");
 
 	struct
 	{

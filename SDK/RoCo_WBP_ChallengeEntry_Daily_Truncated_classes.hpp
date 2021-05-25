@@ -42,7 +42,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_ChallengeEntry_Daily_Truncated.WBP_ChallengeEntry_Daily_Truncated_C");
 		return ptr;
 	}
 

@@ -43,7 +43,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass Dropdown.Dropdown_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass Dropdown.Dropdown_C");
 		return ptr;
 	}
 

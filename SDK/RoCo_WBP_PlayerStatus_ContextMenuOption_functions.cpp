@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_PlayerStatus_ContextMenuOption_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.NavigateConfirm");
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_PlayerStatus_ContextMenuOption_C::NavigateConfirm()
 
 void UWBP_PlayerStatus_ContextMenuOption_C::IsActiveForNavigation(bool* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.IsActiveForNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.IsActiveForNavigation");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::IsActiveForNavigation(bool* Return_V
 
 void UWBP_PlayerStatus_ContextMenuOption_C::Update_Callout_Visibility()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.Update Callout Visibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.Update Callout Visibility");
 
 	struct
 	{
@@ -76,7 +76,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::Update_Callout_Visibility()
 
 void UWBP_PlayerStatus_ContextMenuOption_C::SocialPlayerContextMenuOptionClickSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.SocialPlayerContextMenuOptionClickSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.SocialPlayerContextMenuOptionClickSFX");
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::SocialPlayerContextMenuOptionClickSF
 
 void UWBP_PlayerStatus_ContextMenuOption_C::SocialPlayerContextMenuOptionHoverSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.SocialPlayerContextMenuOptionHoverSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.SocialPlayerContextMenuOptionHoverSFX");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::SocialPlayerContextMenuOptionHoverSF
 
 void UWBP_PlayerStatus_ContextMenuOption_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.PreConstruct");
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PlayerStatus_ContextMenuOption_C::SetActiveInMenu(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.SetActiveInMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.SetActiveInMenu");
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::SetActiveInMenu(bool IsActive)
 
 void UWBP_PlayerStatus_ContextMenuOption_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.InitializeWidget");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::InitializeWidget(class APUMG_HUD* HU
 
 void UWBP_PlayerStatus_ContextMenuOption_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.Handle Input State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.Handle Input State Changed");
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::Handle_Input_State_Changed(TEnumAsBy
 
 void UWBP_PlayerStatus_ContextMenuOption_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.GamepadHover");
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::GamepadHover()
 
 void UWBP_PlayerStatus_ContextMenuOption_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.GamepadUnhover");
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::GamepadUnhover()
 
 void UWBP_PlayerStatus_ContextMenuOption_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.Construct");
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::Construct()
 
 void UWBP_PlayerStatus_ContextMenuOption_C::BndEvt__WBP_ButtonStacked_K2Node_ComponentBoundEvent_3_OnBtnStackedClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.BndEvt__WBP_ButtonStacked_K2Node_ComponentBoundEvent_3_OnBtnStackedClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.BndEvt__WBP_ButtonStacked_K2Node_ComponentBoundEvent_3_OnBtnStackedClicked__DelegateSignature");
 
 	struct
 	{
@@ -254,7 +254,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::BndEvt__WBP_ButtonStacked_K2Node_Com
 
 void UWBP_PlayerStatus_ContextMenuOption_C::BndEvt__WBP_ButtonStacked_K2Node_ComponentBoundEvent_4_OnBtnStackedHovered__DelegateSignature(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.BndEvt__WBP_ButtonStacked_K2Node_ComponentBoundEvent_4_OnBtnStackedHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.BndEvt__WBP_ButtonStacked_K2Node_ComponentBoundEvent_4_OnBtnStackedHovered__DelegateSignature");
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::BndEvt__WBP_ButtonStacked_K2Node_Com
 
 void UWBP_PlayerStatus_ContextMenuOption_C::BndEvt__WBP_ButtonStacked_K2Node_ComponentBoundEvent_5_OnBtnStackedUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.BndEvt__WBP_ButtonStacked_K2Node_ComponentBoundEvent_5_OnBtnStackedUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.BndEvt__WBP_ButtonStacked_K2Node_ComponentBoundEvent_5_OnBtnStackedUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -290,7 +290,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::BndEvt__WBP_ButtonStacked_K2Node_Com
 
 void UWBP_PlayerStatus_ContextMenuOption_C::ExecuteUbergraph_WBP_PlayerStatus_ContextMenuOption(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.ExecuteUbergraph_WBP_PlayerStatus_ContextMenuOption"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.ExecuteUbergraph_WBP_PlayerStatus_ContextMenuOption");
 
 	struct
 	{
@@ -310,7 +310,7 @@ void UWBP_PlayerStatus_ContextMenuOption_C::ExecuteUbergraph_WBP_PlayerStatus_Co
 
 void UWBP_PlayerStatus_ContextMenuOption_C::OnContextOptionSelected__DelegateSignature(TEnumAsByte<EPlayerStatusOption> Context_Option)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.OnContextOptionSelected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerStatus_ContextMenuOption.WBP_PlayerStatus_ContextMenuOption_C.OnContextOptionSelected__DelegateSignature");
 
 	struct
 	{

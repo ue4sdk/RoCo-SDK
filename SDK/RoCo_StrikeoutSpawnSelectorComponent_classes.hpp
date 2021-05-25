@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass StrikeoutSpawnSelectorComponent.StrikeoutSpawnSelectorComponent_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass StrikeoutSpawnSelectorComponent.StrikeoutSpawnSelectorComponent_C");
 		return ptr;
 	}
 

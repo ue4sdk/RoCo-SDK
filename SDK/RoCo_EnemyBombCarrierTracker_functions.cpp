@@ -19,7 +19,7 @@ namespace SDK
 
 void UEnemyBombCarrierTracker_C::Try_Create_Tracking(class AKSPlayerState* New_Bomb_Holder)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyBombCarrierTracker.EnemyBombCarrierTracker_C.Try Create Tracking"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyBombCarrierTracker.EnemyBombCarrierTracker_C.Try Create Tracking");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UEnemyBombCarrierTracker_C::Try_Create_Tracking(class AKSPlayerState* New_B
 
 void UEnemyBombCarrierTracker_C::Try_Remove_Current_Tracking(class AKSPlayerState* New_Bomb_Holder)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyBombCarrierTracker.EnemyBombCarrierTracker_C.Try Remove Current Tracking"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyBombCarrierTracker.EnemyBombCarrierTracker_C.Try Remove Current Tracking");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UEnemyBombCarrierTracker_C::Try_Remove_Current_Tracking(class AKSPlayerStat
 
 void UEnemyBombCarrierTracker_C::Handle_Bomb_State_Changed(const struct FKSNeutralBombState& BombState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyBombCarrierTracker.EnemyBombCarrierTracker_C.Handle Bomb State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyBombCarrierTracker.EnemyBombCarrierTracker_C.Handle Bomb State Changed");
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UEnemyBombCarrierTracker_C::Handle_Bomb_State_Changed(const struct FKSNeutr
 
 void UEnemyBombCarrierTracker_C::Bind_Game_And_Player(class AKSGameState_NeutralBomb* Neutral_Bomb_Game_State, class APlayerController* Player_Controller)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function EnemyBombCarrierTracker.EnemyBombCarrierTracker_C.Bind Game And Player"));
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyBombCarrierTracker.EnemyBombCarrierTracker_C.Bind Game And Player");
 
 	struct
 	{

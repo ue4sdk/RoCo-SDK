@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ShotgunHitConfirm_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.Construct");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_ShotgunHitConfirm_C::Construct()
 
 void UWBP_ShotgunHitConfirm_C::PlayFadeOut()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.PlayFadeOut"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.PlayFadeOut");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_ShotgunHitConfirm_C::PlayFadeOut()
 
 void UWBP_ShotgunHitConfirm_C::HandleFadeoutFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.HandleFadeoutFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.HandleFadeoutFinished");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_ShotgunHitConfirm_C::HandleFadeoutFinished()
 
 void UWBP_ShotgunHitConfirm_C::PlayEliminationFlourish()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.PlayEliminationFlourish"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.PlayEliminationFlourish");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_ShotgunHitConfirm_C::PlayEliminationFlourish()
 
 void UWBP_ShotgunHitConfirm_C::ExecuteUbergraph_WBP_ShotgunHitConfirm(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.ExecuteUbergraph_WBP_ShotgunHitConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ShotgunHitConfirm.WBP_ShotgunHitConfirm_C.ExecuteUbergraph_WBP_ShotgunHitConfirm");
 
 	struct
 	{

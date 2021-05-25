@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_VoiceActivityIcon_C::SetState(bool IsTalking, bool IsMuted)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivityIcon.WBP_VoiceActivityIcon_C.SetState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivityIcon.WBP_VoiceActivityIcon_C.SetState");
 
 	struct
 	{

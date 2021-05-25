@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_PlayerProfileScreen_AccountPanel_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.NavigateConfirm");
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_PlayerProfileScreen_AccountPanel_C::NavigateConfirm()
 
 void UWBP_PlayerProfileScreen_AccountPanel_C::RefreshPlayer(class UPUMG_PlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.RefreshPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.RefreshPlayer");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_PlayerProfileScreen_AccountPanel_C::RefreshPlayer(class UPUMG_PlayerIn
 
 void UWBP_PlayerProfileScreen_AccountPanel_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.PreConstruct");
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_PlayerProfileScreen_AccountPanel_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PlayerProfileScreen_AccountPanel_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.Construct");
 
 	struct
 	{
@@ -96,7 +96,7 @@ void UWBP_PlayerProfileScreen_AccountPanel_C::Construct()
 
 void UWBP_PlayerProfileScreen_AccountPanel_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.InitializeWidget");
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_PlayerProfileScreen_AccountPanel_C::InitializeWidget(class APUMG_HUD* 
 
 void UWBP_PlayerProfileScreen_AccountPanel_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.GamepadHover");
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_PlayerProfileScreen_AccountPanel_C::GamepadHover()
 
 void UWBP_PlayerProfileScreen_AccountPanel_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.GamepadUnhover");
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_PlayerProfileScreen_AccountPanel_C::GamepadUnhover()
 
 void UWBP_PlayerProfileScreen_AccountPanel_C::Update_Player_Identity()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.Update Player Identity"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.Update Player Identity");
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWBP_PlayerProfileScreen_AccountPanel_C::Update_Player_Identity()
 
 void UWBP_PlayerProfileScreen_AccountPanel_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.UninitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.UninitializeWidget");
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWBP_PlayerProfileScreen_AccountPanel_C::UninitializeWidget()
 
 void UWBP_PlayerProfileScreen_AccountPanel_C::ExecuteUbergraph_WBP_PlayerProfileScreen_AccountPanel(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.ExecuteUbergraph_WBP_PlayerProfileScreen_AccountPanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen_AccountPanel.WBP_PlayerProfileScreen_AccountPanel_C.ExecuteUbergraph_WBP_PlayerProfileScreen_AccountPanel");
 
 	struct
 	{

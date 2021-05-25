@@ -19,7 +19,7 @@ namespace SDK
 
 void UHitIndictor_C::ReturnToPool(class UHitIndicatorSub_C* HitIndicatorSub)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndictor.HitIndictor_C.ReturnToPool"));
+	static auto fn = UObject::FindObject<UFunction>("Function HitIndictor.HitIndictor_C.ReturnToPool");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UHitIndictor_C::ReturnToPool(class UHitIndicatorSub_C* HitIndicatorSub)
 
 void UHitIndictor_C::Init_Indicator_Pool()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndictor.HitIndictor_C.Init Indicator Pool"));
+	static auto fn = UObject::FindObject<UFunction>("Function HitIndictor.HitIndictor_C.Init Indicator Pool");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UHitIndictor_C::Init_Indicator_Pool()
 
 void UHitIndictor_C::CreateHitIndicator(class UClass* DamageType, const struct FVector& DamageOrigin, bool HitArmor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndictor.HitIndictor_C.CreateHitIndicator"));
+	static auto fn = UObject::FindObject<UFunction>("Function HitIndictor.HitIndictor_C.CreateHitIndicator");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UHitIndictor_C::CreateHitIndicator(class UClass* DamageType, const struct F
 
 void UHitIndictor_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndictor.HitIndictor_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function HitIndictor.HitIndictor_C.Construct");
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UHitIndictor_C::Construct()
 
 void UHitIndictor_C::On_Viewed_Pawn_Take_Damage(float DamageAmount, class UClass* DamageTypeClass, class AActor* DamageCauser, const struct FVector& DamageOrigin)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndictor.HitIndictor_C.On Viewed Pawn Take Damage"));
+	static auto fn = UObject::FindObject<UFunction>("Function HitIndictor.HitIndictor_C.On Viewed Pawn Take Damage");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UHitIndictor_C::On_Viewed_Pawn_Take_Damage(float DamageAmount, class UClass
 
 void UHitIndictor_C::HandleViewedPawnTakeArmorDamage(float DamageAmount, class UClass* DamageTypeClass, class AActor* DamageCauser, const struct FVector& DamageOrigin)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndictor.HitIndictor_C.HandleViewedPawnTakeArmorDamage"));
+	static auto fn = UObject::FindObject<UFunction>("Function HitIndictor.HitIndictor_C.HandleViewedPawnTakeArmorDamage");
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UHitIndictor_C::HandleViewedPawnTakeArmorDamage(float DamageAmount, class U
 
 void UHitIndictor_C::ExecuteUbergraph_HitIndictor(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function HitIndictor.HitIndictor_C.ExecuteUbergraph_HitIndictor"));
+	static auto fn = UObject::FindObject<UFunction>("Function HitIndictor.HitIndictor_C.ExecuteUbergraph_HitIndictor");
 
 	struct
 	{

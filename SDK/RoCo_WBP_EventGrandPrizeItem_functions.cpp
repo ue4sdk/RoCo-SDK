@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_EventGrandPrizeItem_C::SetIsSelected(bool IsSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.SetIsSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.SetIsSelected");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_EventGrandPrizeItem_C::SetIsSelected(bool IsSelected)
 
 bool UWBP_EventGrandPrizeItem_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.NavigateConfirm");
 
 	struct
 	{
@@ -60,7 +60,7 @@ bool UWBP_EventGrandPrizeItem_C::NavigateConfirm()
 
 void UWBP_EventGrandPrizeItem_C::SetGrandPrizeProgress(const struct FGrandPrizeProgression& GrandPrizeProgress)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.SetGrandPrizeProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.SetGrandPrizeProgress");
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UWBP_EventGrandPrizeItem_C::SetGrandPrizeProgress(const struct FGrandPrizeP
 
 void UWBP_EventGrandPrizeItem_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.PreConstruct");
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UWBP_EventGrandPrizeItem_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_EventGrandPrizeItem_C::PopulateSlot(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.PopulateSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.PopulateSlot");
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UWBP_EventGrandPrizeItem_C::PopulateSlot(class UPUMG_StoreItem* StoreItem)
 
 void UWBP_EventGrandPrizeItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UWBP_EventGrandPrizeItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_
 
 void UWBP_EventGrandPrizeItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UWBP_EventGrandPrizeItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_
 
 void UWBP_EventGrandPrizeItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UWBP_EventGrandPrizeItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_
 
 void UWBP_EventGrandPrizeItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature");
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UWBP_EventGrandPrizeItem_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_
 
 void UWBP_EventGrandPrizeItem_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.GamepadUnhover");
 
 	struct
 	{
@@ -198,7 +198,7 @@ void UWBP_EventGrandPrizeItem_C::GamepadUnhover()
 
 void UWBP_EventGrandPrizeItem_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.GamepadHover");
 
 	struct
 	{
@@ -214,7 +214,7 @@ void UWBP_EventGrandPrizeItem_C::GamepadHover()
 
 void UWBP_EventGrandPrizeItem_C::OnGamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.OnGamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.OnGamepadConfirm");
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UWBP_EventGrandPrizeItem_C::OnGamepadConfirm()
 
 void UWBP_EventGrandPrizeItem_C::ExecuteUbergraph_WBP_EventGrandPrizeItem(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.ExecuteUbergraph_WBP_EventGrandPrizeItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.ExecuteUbergraph_WBP_EventGrandPrizeItem");
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UWBP_EventGrandPrizeItem_C::ExecuteUbergraph_WBP_EventGrandPrizeItem(int En
 
 void UWBP_EventGrandPrizeItem_C::OnBundleItemClicked__DelegateSignature(class UWBP_EventGrandPrizeItem_C* Widget, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.OnBundleItemClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_EventGrandPrizeItem.WBP_EventGrandPrizeItem_C.OnBundleItemClicked__DelegateSignature");
 
 	struct
 	{

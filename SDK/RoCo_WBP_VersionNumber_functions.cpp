@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_VersionNumber_C::Set_Version_Text()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VersionNumber.WBP_VersionNumber_C.Set Version Text"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VersionNumber.WBP_VersionNumber_C.Set Version Text");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_VersionNumber_C::Set_Version_Text()
 
 void UWBP_VersionNumber_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VersionNumber.WBP_VersionNumber_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VersionNumber.WBP_VersionNumber_C.InitializeWidget");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_VersionNumber_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_VersionNumber_C::ExecuteUbergraph_WBP_VersionNumber(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VersionNumber.WBP_VersionNumber_C.ExecuteUbergraph_WBP_VersionNumber"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VersionNumber.WBP_VersionNumber_C.ExecuteUbergraph_WBP_VersionNumber");
 
 	struct
 	{

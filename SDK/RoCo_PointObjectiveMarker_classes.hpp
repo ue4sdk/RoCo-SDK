@@ -61,7 +61,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass PointObjectiveMarker.PointObjectiveMarker_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass PointObjectiveMarker.PointObjectiveMarker_C");
 		return ptr;
 	}
 

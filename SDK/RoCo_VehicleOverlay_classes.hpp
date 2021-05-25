@@ -33,7 +33,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass VehicleOverlay.VehicleOverlay_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass VehicleOverlay.VehicleOverlay_C");
 		return ptr;
 	}
 

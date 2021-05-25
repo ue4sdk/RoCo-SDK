@@ -19,7 +19,7 @@ namespace SDK
 
 void UGameHUDWidget_C::HandleTouchModeChange(bool IsTouchMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.HandleTouchModeChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.HandleTouchModeChange");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UGameHUDWidget_C::HandleTouchModeChange(bool IsTouchMode)
 
 void UGameHUDWidget_C::InitializeTouchWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.InitializeTouchWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.InitializeTouchWidget");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UGameHUDWidget_C::InitializeTouchWidget()
 
 void UGameHUDWidget_C::ShouldVoteBlockMenu(bool* ShouldBlock)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.ShouldVoteBlockMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.ShouldVoteBlockMenu");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UGameHUDWidget_C::ShouldVoteBlockMenu(bool* ShouldBlock)
 
 void UGameHUDWidget_C::FlushVoteInput()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.FlushVoteInput"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.FlushVoteInput");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UGameHUDWidget_C::FlushVoteInput()
 
 void UGameHUDWidget_C::ReleasePlayerInputs(EInputReleaseType ReleaseType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.ReleasePlayerInputs"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.ReleasePlayerInputs");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UGameHUDWidget_C::ReleasePlayerInputs(EInputReleaseType ReleaseType)
 
 void UGameHUDWidget_C::GetFocusableWidgets(TArray<class UPUMG_Widget*>* OutWIdgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.GetFocusableWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.GetFocusableWidgets");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UGameHUDWidget_C::GetFocusableWidgets(TArray<class UPUMG_Widget*>* OutWIdge
 
 void UGameHUDWidget_C::InitializeHUDContent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.InitializeHUDContent"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.InitializeHUDContent");
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UGameHUDWidget_C::InitializeHUDContent()
 
 void UGameHUDWidget_C::SetSafeFrame(float Scale)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.SetSafeFrame"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.SetSafeFrame");
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UGameHUDWidget_C::SetSafeFrame(float Scale)
 
 void UGameHUDWidget_C::Add_Game_Rule_Widget(class UUserWidget* Game_Rule_Widget, const struct FString& Parent_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.Add Game Rule Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Add Game Rule Widget");
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UGameHUDWidget_C::Add_Game_Rule_Widget(class UUserWidget* Game_Rule_Widget,
 
 void UGameHUDWidget_C::InitializeKillCam()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.InitializeKillCam"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.InitializeKillCam");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UGameHUDWidget_C::InitializeKillCam()
 
 void UGameHUDWidget_C::InitializeHudWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.InitializeHudWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.InitializeHudWidgets");
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UGameHUDWidget_C::InitializeHudWidgets()
 
 void UGameHUDWidget_C::InitializeMapWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.InitializeMapWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.InitializeMapWidgets");
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UGameHUDWidget_C::InitializeMapWidgets()
 
 void UGameHUDWidget_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Construct");
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UGameHUDWidget_C::Construct()
 
 void UGameHUDWidget_C::Map()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.Map"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Map");
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UGameHUDWidget_C::Map()
 
 void UGameHUDWidget_C::InputListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.InputListeners"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.InputListeners");
 
 	struct
 	{
@@ -288,7 +288,7 @@ void UGameHUDWidget_C::InputListeners()
 
 void UGameHUDWidget_C::Menu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.Menu"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Menu");
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UGameHUDWidget_C::Menu()
 
 void UGameHUDWidget_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Tick");
 
 	struct
 	{
@@ -329,7 +329,7 @@ void UGameHUDWidget_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTim
 
 void UGameHUDWidget_C::SetListenersActive(bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.SetListenersActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.SetListenersActive");
 
 	struct
 	{
@@ -349,7 +349,7 @@ void UGameHUDWidget_C::SetListenersActive(bool Active)
 
 void UGameHUDWidget_C::HandleKillCamEnabled(bool IsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.HandleKillCamEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.HandleKillCamEnabled");
 
 	struct
 	{
@@ -367,7 +367,7 @@ void UGameHUDWidget_C::HandleKillCamEnabled(bool IsEnabled)
 
 void UGameHUDWidget_C::ShowHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.ShowHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.ShowHUD");
 
 	struct
 	{
@@ -383,7 +383,7 @@ void UGameHUDWidget_C::ShowHUD()
 
 void UGameHUDWidget_C::HideHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.HideHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.HideHUD");
 
 	struct
 	{
@@ -401,7 +401,7 @@ void UGameHUDWidget_C::HideHUD()
 
 void UGameHUDWidget_C::ToggleTopBarHUD(bool ShouldShow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.ToggleTopBarHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.ToggleTopBarHUD");
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UGameHUDWidget_C::ToggleTopBarHUD(bool ShouldShow)
 
 void UGameHUDWidget_C::InitializeJobSelectionManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.InitializeJobSelectionManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.InitializeJobSelectionManager");
 
 	struct
 	{
@@ -437,7 +437,7 @@ void UGameHUDWidget_C::InitializeJobSelectionManager()
 
 void UGameHUDWidget_C::HandleOpenTextChat(bool BeginChatCommand)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.HandleOpenTextChat"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.HandleOpenTextChat");
 
 	struct
 	{
@@ -457,7 +457,7 @@ void UGameHUDWidget_C::HandleOpenTextChat(bool BeginChatCommand)
 
 void UGameHUDWidget_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.OpenTextChatToPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.OpenTextChatToPlayer");
 
 	struct
 	{
@@ -477,7 +477,7 @@ void UGameHUDWidget_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 
 void UGameHUDWidget_C::Handle_Viewport_Size_Changed(const struct FIntPoint& ViewportSize)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.Handle Viewport Size Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Handle Viewport Size Changed");
 
 	struct
 	{
@@ -497,7 +497,7 @@ void UGameHUDWidget_C::Handle_Viewport_Size_Changed(const struct FIntPoint& View
 
 void UGameHUDWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.InitializeWidget");
 
 	struct
 	{
@@ -515,7 +515,7 @@ void UGameHUDWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UGameHUDWidget_C::ToggleTabScreen()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.ToggleTabScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.ToggleTabScreen");
 
 	struct
 	{
@@ -531,7 +531,7 @@ void UGameHUDWidget_C::ToggleTabScreen()
 
 void UGameHUDWidget_C::DebugOnePress()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.DebugOnePress"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.DebugOnePress");
 
 	struct
 	{
@@ -547,7 +547,7 @@ void UGameHUDWidget_C::DebugOnePress()
 
 void UGameHUDWidget_C::DebugOneRelease()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.DebugOneRelease"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.DebugOneRelease");
 
 	struct
 	{
@@ -563,7 +563,7 @@ void UGameHUDWidget_C::DebugOneRelease()
 
 void UGameHUDWidget_C::DebugTwoPress()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.DebugTwoPress"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.DebugTwoPress");
 
 	struct
 	{
@@ -579,7 +579,7 @@ void UGameHUDWidget_C::DebugTwoPress()
 
 void UGameHUDWidget_C::DebugTwoRelease()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.DebugTwoRelease"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.DebugTwoRelease");
 
 	struct
 	{
@@ -597,7 +597,7 @@ void UGameHUDWidget_C::DebugTwoRelease()
 
 void UGameHUDWidget_C::OnChangedInput(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.OnChangedInput"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.OnChangedInput");
 
 	struct
 	{
@@ -615,7 +615,7 @@ void UGameHUDWidget_C::OnChangedInput(TEnumAsByte<EPGAME_INPUT_STATE> InputState
 
 void UGameHUDWidget_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.OnInitialized");
 
 	struct
 	{
@@ -633,7 +633,7 @@ void UGameHUDWidget_C::OnInitialized()
 
 void UGameHUDWidget_C::ExecuteUbergraph_GameHUDWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.ExecuteUbergraph_GameHUDWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.ExecuteUbergraph_GameHUDWidget");
 
 	struct
 	{
@@ -653,7 +653,7 @@ void UGameHUDWidget_C::ExecuteUbergraph_GameHUDWidget(int EntryPoint)
 
 void UGameHUDWidget_C::OnGameModeWidgetSet__DelegateSignature(class UUserWidget* GameModeWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameHUDWidget.GameHUDWidget_C.OnGameModeWidgetSet__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.OnGameModeWidgetSet__DelegateSignature");
 
 	struct
 	{

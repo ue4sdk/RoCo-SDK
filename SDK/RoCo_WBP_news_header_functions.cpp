@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_news_header_C::SetHeaderText(const struct FText& TitleText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_header.WBP_news_header_C.SetHeaderText"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_header.WBP_news_header_C.SetHeaderText");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_news_header_C::SetHeaderText(const struct FText& TitleText)
 
 void UWBP_news_header_C::Add_Settings_Group_Widget(class UKSSettingsGroup* Settings_Group_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_header.WBP_news_header_C.Add Settings Group Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_header.WBP_news_header_C.Add Settings Group Widget");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_news_header_C::Add_Settings_Group_Widget(class UKSSettingsGroup* Setti
 
 void UWBP_news_header_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_header.WBP_news_header_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_header.WBP_news_header_C.PreConstruct");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_news_header_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_news_header_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_header.WBP_news_header_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_header.WBP_news_header_C.Construct");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_news_header_C::Construct()
 
 void UWBP_news_header_C::ExecuteUbergraph_WBP_news_header(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_header.WBP_news_header_C.ExecuteUbergraph_WBP_news_header"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_header.WBP_news_header_C.ExecuteUbergraph_WBP_news_header");
 
 	struct
 	{

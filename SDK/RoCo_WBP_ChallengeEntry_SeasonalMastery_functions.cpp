@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ChallengeEntry_SeasonalMastery_C::SetDisplayedActivity(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.SetDisplayedActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.SetDisplayedActivity");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ChallengeEntry_SeasonalMastery_C::SetDisplayedActivity(class UKSActivi
 
 void UWBP_ChallengeEntry_SeasonalMastery_C::SetVisualState(bool IsComplete)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.SetVisualState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.SetVisualState");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_ChallengeEntry_SeasonalMastery_C::SetVisualState(bool IsComplete)
 
 void UWBP_ChallengeEntry_SeasonalMastery_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.PreConstruct");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_ChallengeEntry_SeasonalMastery_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ChallengeEntry_SeasonalMastery_C::RefreshFromMasteryActivity()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.RefreshFromMasteryActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.RefreshFromMasteryActivity");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_ChallengeEntry_SeasonalMastery_C::RefreshFromMasteryActivity()
 
 void UWBP_ChallengeEntry_SeasonalMastery_C::ExecuteUbergraph_WBP_ChallengeEntry_SeasonalMastery(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.ExecuteUbergraph_WBP_ChallengeEntry_SeasonalMastery"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_SeasonalMastery.WBP_ChallengeEntry_SeasonalMastery_C.ExecuteUbergraph_WBP_ChallengeEntry_SeasonalMastery");
 
 	struct
 	{

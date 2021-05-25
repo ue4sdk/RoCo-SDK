@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_PostMatchLobby_C::UpdateSonyMatchFeedbackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.UpdateSonyMatchFeedbackPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.UpdateSonyMatchFeedbackPrompt");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_PostMatchLobby_C::UpdateSonyMatchFeedbackPrompt()
 
 void UWBP_PostMatchLobby_C::ProvideSonyMatchFeedback()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.ProvideSonyMatchFeedback"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.ProvideSonyMatchFeedback");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_PostMatchLobby_C::ProvideSonyMatchFeedback()
 
 void UWBP_PostMatchLobby_C::GetCurrentFocus(int* CurrentFocus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetCurrentFocus"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetCurrentFocus");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_PostMatchLobby_C::GetCurrentFocus(int* CurrentFocus)
 
 void UWBP_PostMatchLobby_C::GetRankedPopupFocusGroup(int* FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetRankedPopupFocusGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetRankedPopupFocusGroup");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_PostMatchLobby_C::GetRankedPopupFocusGroup(int* FocusGroup)
 
 void UWBP_PostMatchLobby_C::PlayProgressionAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PlayProgressionAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PlayProgressionAnimation");
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_PostMatchLobby_C::PlayProgressionAnimation()
 
 void UWBP_PostMatchLobby_C::ShowAwardsEarned()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.ShowAwardsEarned"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.ShowAwardsEarned");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UWBP_PostMatchLobby_C::ShowAwardsEarned()
 
 void UWBP_PostMatchLobby_C::GetPreviousMatchPlayerIds(TArray<int64_t>* PlayerIds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetPreviousMatchPlayerIds"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetPreviousMatchPlayerIds");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_PostMatchLobby_C::GetPreviousMatchPlayerIds(TArray<int64_t>* PlayerIds
 
 void UWBP_PostMatchLobby_C::TryUpdatePlayAgainPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.TryUpdatePlayAgainPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.TryUpdatePlayAgainPrompt");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UWBP_PostMatchLobby_C::TryUpdatePlayAgainPrompt()
 
 void UWBP_PostMatchLobby_C::SetCurrentPrompts()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetCurrentPrompts"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetCurrentPrompts");
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UWBP_PostMatchLobby_C::SetCurrentPrompts()
 
 void UWBP_PostMatchLobby_C::TryMakeTabArray()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.TryMakeTabArray"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.TryMakeTabArray");
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UWBP_PostMatchLobby_C::TryMakeTabArray()
 
 void UWBP_PostMatchLobby_C::SetupReportMenuNav()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetupReportMenuNav"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetupReportMenuNav");
 
 	struct
 	{
@@ -213,7 +213,7 @@ void UWBP_PostMatchLobby_C::SetupReportMenuNav()
 
 void UWBP_PostMatchLobby_C::GetReportMenuFocusGroup(int* FocusGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetReportMenuFocusGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetReportMenuFocusGroup");
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_PostMatchLobby_C::GetReportMenuFocusGroup(int* FocusGroup)
 
 void UWBP_PostMatchLobby_C::ShowContextMenuForPlayer(class UWidget* Widget, int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.ShowContextMenuForPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.ShowContextMenuForPlayer");
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UWBP_PostMatchLobby_C::ShowContextMenuForPlayer(class UWidget* Widget, int6
 
 void UWBP_PostMatchLobby_C::GetContextMenuFocusGroup(int* GroupIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetContextMenuFocusGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetContextMenuFocusGroup");
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UWBP_PostMatchLobby_C::GetContextMenuFocusGroup(int* GroupIndex)
 
 void UWBP_PostMatchLobby_C::HandleScoreboardChange()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleScoreboardChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleScoreboardChange");
 
 	struct
 	{
@@ -296,7 +296,7 @@ void UWBP_PostMatchLobby_C::HandleScoreboardChange()
 
 void UWBP_PostMatchLobby_C::GetScoreboardFocusGroup(int* GroupIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetScoreboardFocusGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetScoreboardFocusGroup");
 
 	struct
 	{
@@ -319,7 +319,7 @@ void UWBP_PostMatchLobby_C::GetScoreboardFocusGroup(int* GroupIndex)
 
 void UWBP_PostMatchLobby_C::SetupContextMenuNav(class UWidget* DefaultFocus, TArray<class UWidget*>* NavWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetupContextMenuNav"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetupContextMenuNav");
 
 	struct
 	{
@@ -341,7 +341,7 @@ void UWBP_PostMatchLobby_C::SetupContextMenuNav(class UWidget* DefaultFocus, TAr
 
 void UWBP_PostMatchLobby_C::SetupFocusGroups()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetupFocusGroups"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetupFocusGroups");
 
 	struct
 	{
@@ -361,7 +361,7 @@ void UWBP_PostMatchLobby_C::SetupFocusGroups()
 
 struct FEventReply UWBP_PostMatchLobby_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.OnKeyUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.OnKeyUp");
 
 	struct
 	{
@@ -384,7 +384,7 @@ struct FEventReply UWBP_PostMatchLobby_C::OnKeyUp(const struct FGeometry& MyGeom
 
 void UWBP_PostMatchLobby_C::SetGamepadPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetGamepadPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetGamepadPrompt");
 
 	struct
 	{
@@ -402,7 +402,7 @@ void UWBP_PostMatchLobby_C::SetGamepadPrompt()
 
 void UWBP_PostMatchLobby_C::GetNavButtons(TArray<class UWBP_PostMatchNavButton_C*>* NavButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetNavButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.GetNavButtons");
 
 	struct
 	{
@@ -425,7 +425,7 @@ void UWBP_PostMatchLobby_C::GetNavButtons(TArray<class UWBP_PostMatchNavButton_C
 
 void UWBP_PostMatchLobby_C::FormatPlayedTime(float timePlayed, struct FText* Result)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.FormatPlayedTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.FormatPlayedTime");
 
 	struct
 	{
@@ -447,7 +447,7 @@ void UWBP_PostMatchLobby_C::FormatPlayedTime(float timePlayed, struct FText* Res
 
 void UWBP_PostMatchLobby_C::PopulateTimePlayed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PopulateTimePlayed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PopulateTimePlayed");
 
 	struct
 	{
@@ -465,7 +465,7 @@ void UWBP_PostMatchLobby_C::PopulateTimePlayed()
 
 bool UWBP_PostMatchLobby_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.NavigateBack");
 
 	struct
 	{
@@ -486,7 +486,7 @@ bool UWBP_PostMatchLobby_C::NavigateBack()
 
 void UWBP_PostMatchLobby_C::SetVictoryDefeat(const struct FScoreboardStats& ScoreboardStats)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetVictoryDefeat"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.SetVictoryDefeat");
 
 	struct
 	{
@@ -507,7 +507,7 @@ void UWBP_PostMatchLobby_C::SetVictoryDefeat(const struct FScoreboardStats& Scor
 
 void UWBP_PostMatchLobby_C::DetermineMatchResult(const struct FScoreboardStats& ScoreboardStats, bool* DidWin)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.DetermineMatchResult"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.DetermineMatchResult");
 
 	struct
 	{
@@ -531,7 +531,7 @@ void UWBP_PostMatchLobby_C::DetermineMatchResult(const struct FScoreboardStats& 
 
 void UWBP_PostMatchLobby_C::PopulateScoreboard(const struct FScoreboardStats& ScoreboardStats)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PopulateScoreboard"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PopulateScoreboard");
 
 	struct
 	{
@@ -551,7 +551,7 @@ void UWBP_PostMatchLobby_C::PopulateScoreboard(const struct FScoreboardStats& Sc
 
 void UWBP_PostMatchLobby_C::HandleTabClicked(class UWBP_PostMatchNavButton_C* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleTabClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleTabClicked");
 
 	struct
 	{
@@ -571,7 +571,7 @@ void UWBP_PostMatchLobby_C::HandleTabClicked(class UWBP_PostMatchNavButton_C* Wi
 
 void UWBP_PostMatchLobby_C::CycleTab(bool Reverse)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.CycleTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.CycleTab");
 
 	struct
 	{
@@ -589,7 +589,7 @@ void UWBP_PostMatchLobby_C::CycleTab(bool Reverse)
 
 void UWBP_PostMatchLobby_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.Construct");
 
 	struct
 	{
@@ -607,7 +607,7 @@ void UWBP_PostMatchLobby_C::Construct()
 
 void UWBP_PostMatchLobby_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.InitializeWidget");
 
 	struct
 	{
@@ -625,7 +625,7 @@ void UWBP_PostMatchLobby_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_PostMatchLobby_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -641,7 +641,7 @@ void UWBP_PostMatchLobby_C::InitializeWidgetNavigation()
 
 void UWBP_PostMatchLobby_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.OnShown");
 
 	struct
 	{
@@ -660,7 +660,7 @@ void UWBP_PostMatchLobby_C::OnShown()
 
 void UWBP_PostMatchLobby_C::PopulatePostMatch(const struct FPlayerRewardsSummary& PlayerSummary, const struct FScoreboardStats& ScoreboardStats)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PopulatePostMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PopulatePostMatch");
 
 	struct
 	{
@@ -680,7 +680,7 @@ void UWBP_PostMatchLobby_C::PopulatePostMatch(const struct FPlayerRewardsSummary
 
 void UWBP_PostMatchLobby_C::HandleOnShowAnimationFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleOnShowAnimationFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleOnShowAnimationFinished");
 
 	struct
 	{
@@ -696,7 +696,7 @@ void UWBP_PostMatchLobby_C::HandleOnShowAnimationFinished()
 
 void UWBP_PostMatchLobby_C::HandleOnPlayerDataChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleOnPlayerDataChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleOnPlayerDataChanged");
 
 	struct
 	{
@@ -714,7 +714,7 @@ void UWBP_PostMatchLobby_C::HandleOnPlayerDataChanged()
 
 void UWBP_PostMatchLobby_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandleInputStateChanged");
 
 	struct
 	{
@@ -735,7 +735,7 @@ void UWBP_PostMatchLobby_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STA
 
 void UWBP_PostMatchLobby_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.StartShowSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.StartShowSequence");
 
 	struct
 	{
@@ -758,7 +758,7 @@ void UWBP_PostMatchLobby_C::StartShowSequence(const struct FName& FromRoute, con
 
 void UWBP_PostMatchLobby_C::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.StartHideSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.StartHideSequence");
 
 	struct
 	{
@@ -778,7 +778,7 @@ void UWBP_PostMatchLobby_C::StartHideSequence(const struct FName& FromRoute, con
 
 void UWBP_PostMatchLobby_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.OnHide");
 
 	struct
 	{
@@ -794,7 +794,7 @@ void UWBP_PostMatchLobby_C::OnHide()
 
 void UWBP_PostMatchLobby_C::OnBackButtonClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.OnBackButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.OnBackButtonClicked");
 
 	struct
 	{
@@ -812,7 +812,7 @@ void UWBP_PostMatchLobby_C::OnBackButtonClicked()
 
 void UWBP_PostMatchLobby_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.PreConstruct");
 
 	struct
 	{
@@ -830,7 +830,7 @@ void UWBP_PostMatchLobby_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_PostMatchLobby_C::Handle_Play_Again()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.Handle Play Again"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.Handle Play Again");
 
 	struct
 	{
@@ -846,7 +846,7 @@ void UWBP_PostMatchLobby_C::Handle_Play_Again()
 
 void UWBP_PostMatchLobby_C::JoinQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.JoinQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.JoinQueue");
 
 	struct
 	{
@@ -862,7 +862,7 @@ void UWBP_PostMatchLobby_C::JoinQueue()
 
 void UWBP_PostMatchLobby_C::Handle_Party_Data_Updated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.Handle Party Data Updated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.Handle Party Data Updated");
 
 	struct
 	{
@@ -880,7 +880,7 @@ void UWBP_PostMatchLobby_C::Handle_Party_Data_Updated()
 
 void UWBP_PostMatchLobby_C::Handle_Queue_Status_Change(EPUMG_MatchStatus MatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.Handle Queue Status Change"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.Handle Queue Status Change");
 
 	struct
 	{
@@ -898,7 +898,7 @@ void UWBP_PostMatchLobby_C::Handle_Queue_Status_Change(EPUMG_MatchStatus MatchSt
 
 void UWBP_PostMatchLobby_C::BndEvt__ScoreboardOverview_K2Node_ComponentBoundEvent_3_OnTeamsChanged__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ScoreboardOverview_K2Node_ComponentBoundEvent_3_OnTeamsChanged__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ScoreboardOverview_K2Node_ComponentBoundEvent_3_OnTeamsChanged__DelegateSignature");
 
 	struct
 	{
@@ -917,7 +917,7 @@ void UWBP_PostMatchLobby_C::BndEvt__ScoreboardOverview_K2Node_ComponentBoundEven
 
 void UWBP_PostMatchLobby_C::HandlePlayerClicked(class UWidget* Widget, int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandlePlayerClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.HandlePlayerClicked");
 
 	struct
 	{
@@ -940,7 +940,7 @@ void UWBP_PostMatchLobby_C::HandlePlayerClicked(class UWidget* Widget, int64_t P
 
 void UWBP_PostMatchLobby_C::BndEvt__ReportMenu_K2Node_ComponentBoundEvent_5_OnPlayerReported__DelegateSignature(int64_t PlayerId, bool Success)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ReportMenu_K2Node_ComponentBoundEvent_5_OnPlayerReported__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ReportMenu_K2Node_ComponentBoundEvent_5_OnPlayerReported__DelegateSignature");
 
 	struct
 	{
@@ -960,7 +960,7 @@ void UWBP_PostMatchLobby_C::BndEvt__ReportMenu_K2Node_ComponentBoundEvent_5_OnPl
 
 void UWBP_PostMatchLobby_C::BndEvt__Blocker_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__Blocker_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__Blocker_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -978,7 +978,7 @@ void UWBP_PostMatchLobby_C::BndEvt__Blocker_K2Node_ComponentBoundEvent_6_OnButto
 
 void UWBP_PostMatchLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_7_OnReportPlayer__DelegateSignature(class UKSPlayerInfo* CurrentPlayerInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_7_OnReportPlayer__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_7_OnReportPlayer__DelegateSignature");
 
 	struct
 	{
@@ -999,7 +999,7 @@ void UWBP_PostMatchLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_7_OnR
 
 void UWBP_PostMatchLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_8_OnReadyForNavigation__DelegateSignature(class UWidget* Default_Widget, TArray<class UWidget*>* NavWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_8_OnReadyForNavigation__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_8_OnReadyForNavigation__DelegateSignature");
 
 	struct
 	{
@@ -1021,7 +1021,7 @@ void UWBP_PostMatchLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_8_OnR
 
 void UWBP_PostMatchLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_9_OnMenuHidden__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_9_OnMenuHidden__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_9_OnMenuHidden__DelegateSignature");
 
 	struct
 	{
@@ -1039,7 +1039,7 @@ void UWBP_PostMatchLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_9_OnM
 
 void UWBP_PostMatchLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_10_OnMenuStart__DelegateSignature(class UWidget* FocusWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_10_OnMenuStart__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_10_OnMenuStart__DelegateSignature");
 
 	struct
 	{
@@ -1059,7 +1059,7 @@ void UWBP_PostMatchLobby_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_10_On
 
 void UWBP_PostMatchLobby_C::ExecuteUbergraph_WBP_PostMatchLobby(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.ExecuteUbergraph_WBP_PostMatchLobby"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PostMatchLobby.WBP_PostMatchLobby_C.ExecuteUbergraph_WBP_PostMatchLobby");
 
 	struct
 	{

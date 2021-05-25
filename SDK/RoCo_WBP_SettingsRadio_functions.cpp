@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_SettingsRadio_C::NavigateConfirmPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.NavigateConfirmPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.NavigateConfirmPressed");
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_SettingsRadio_C::NavigateConfirmPressed()
 
 bool UWBP_SettingsRadio_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.NavigateConfirm");
 
 	struct
 	{
@@ -59,7 +59,7 @@ bool UWBP_SettingsRadio_C::NavigateConfirm()
 
 void UWBP_SettingsRadio_C::SettingsRadioClickedSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.SettingsRadioClickedSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.SettingsRadioClickedSFX");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_SettingsRadio_C::SettingsRadioClickedSFX()
 
 void UWBP_SettingsRadio_C::SettingsRadioHoveredSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.SettingsRadioHoveredSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.SettingsRadioHoveredSFX");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_SettingsRadio_C::SettingsRadioHoveredSFX()
 
 void UWBP_SettingsRadio_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.Construct");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_SettingsRadio_C::Construct()
 
 void UWBP_SettingsRadio_C::On_Selected()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.On Selected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.On Selected");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_SettingsRadio_C::On_Selected()
 
 void UWBP_SettingsRadio_C::On_Unselected()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.On Unselected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.On Unselected");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_SettingsRadio_C::On_Unselected()
 
 void UWBP_SettingsRadio_C::BndEvt__RadioButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.BndEvt__RadioButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.BndEvt__RadioButton_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UWBP_SettingsRadio_C::BndEvt__RadioButton_K2Node_ComponentBoundEvent_0_OnBu
 
 void UWBP_SettingsRadio_C::BndEvt__RadioButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.BndEvt__RadioButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.BndEvt__RadioButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UWBP_SettingsRadio_C::BndEvt__RadioButton_K2Node_ComponentBoundEvent_1_OnBu
 
 void UWBP_SettingsRadio_C::BndEvt__RadioButton_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.BndEvt__RadioButton_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.BndEvt__RadioButton_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -187,7 +187,7 @@ void UWBP_SettingsRadio_C::BndEvt__RadioButton_K2Node_ComponentBoundEvent_3_OnBu
 
 void UWBP_SettingsRadio_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.GamepadHover");
 
 	struct
 	{
@@ -203,7 +203,7 @@ void UWBP_SettingsRadio_C::GamepadHover()
 
 void UWBP_SettingsRadio_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.GamepadUnhover");
 
 	struct
 	{
@@ -219,7 +219,7 @@ void UWBP_SettingsRadio_C::GamepadUnhover()
 
 void UWBP_SettingsRadio_C::Select_Button()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.Select Button"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.Select Button");
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UWBP_SettingsRadio_C::Select_Button()
 
 void UWBP_SettingsRadio_C::ExecuteUbergraph_WBP_SettingsRadio(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.ExecuteUbergraph_WBP_SettingsRadio"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.ExecuteUbergraph_WBP_SettingsRadio");
 
 	struct
 	{
@@ -257,7 +257,7 @@ void UWBP_SettingsRadio_C::ExecuteUbergraph_WBP_SettingsRadio(int EntryPoint)
 
 void UWBP_SettingsRadio_C::On_Radio_Button_Selected__DelegateSignature(class UWBP_SettingsRadio_C* SettingsRadio)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsRadio.WBP_SettingsRadio_C.On Radio Button Selected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsRadio.WBP_SettingsRadio_C.On Radio Button Selected__DelegateSignature");
 
 	struct
 	{

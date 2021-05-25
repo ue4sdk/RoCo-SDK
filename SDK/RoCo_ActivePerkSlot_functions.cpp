@@ -17,7 +17,7 @@ namespace SDK
 
 void UActivePerkSlot_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ActivePerkSlot.ActivePerkSlot_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function ActivePerkSlot.ActivePerkSlot_C.Construct");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UActivePerkSlot_C::Construct()
 
 void UActivePerkSlot_C::HandleOnModTriggered()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ActivePerkSlot.ActivePerkSlot_C.HandleOnModTriggered"));
+	static auto fn = UObject::FindObject<UFunction>("Function ActivePerkSlot.ActivePerkSlot_C.HandleOnModTriggered");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UActivePerkSlot_C::HandleOnModTriggered()
 
 void UActivePerkSlot_C::ExecuteUbergraph_ActivePerkSlot(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ActivePerkSlot.ActivePerkSlot_C.ExecuteUbergraph_ActivePerkSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function ActivePerkSlot.ActivePerkSlot_C.ExecuteUbergraph_ActivePerkSlot");
 
 	struct
 	{

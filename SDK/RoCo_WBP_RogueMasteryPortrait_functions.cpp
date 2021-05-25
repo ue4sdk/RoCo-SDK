@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueMasteryPortrait_C::SetMasteryLevelExplicit(int MasteryLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetMasteryLevelExplicit"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetMasteryLevelExplicit");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_RogueMasteryPortrait_C::SetMasteryLevelExplicit(int MasteryLevel)
 
 void UWBP_RogueMasteryPortrait_C::SetMasteryFrameToLevel(int MasteryLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetMasteryFrameToLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetMasteryFrameToLevel");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_RogueMasteryPortrait_C::SetMasteryFrameToLevel(int MasteryLevel)
 
 void UWBP_RogueMasteryPortrait_C::OnJobMasteryLevelUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.OnJobMasteryLevelUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.OnJobMasteryLevelUpdated");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_RogueMasteryPortrait_C::OnJobMasteryLevelUpdated()
 
 void UWBP_RogueMasteryPortrait_C::SetJobPortraitFromSoftTexture(TSoftObjectPtr<class UTexture2D> SoftTexture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetJobPortraitFromSoftTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetJobPortraitFromSoftTexture");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_RogueMasteryPortrait_C::SetJobPortraitFromSoftTexture(TSoftObjectPtr<c
 
 void UWBP_RogueMasteryPortrait_C::Set_Mastery_Frame()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.Set Mastery Frame"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.Set Mastery Frame");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_RogueMasteryPortrait_C::Set_Mastery_Frame()
 
 void UWBP_RogueMasteryPortrait_C::SetPlayerOwner(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetPlayerOwner"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetPlayerOwner");
 
 	struct
 	{
@@ -131,7 +131,7 @@ void UWBP_RogueMasteryPortrait_C::SetPlayerOwner(class AKSPlayerState* PlayerSta
 
 void UWBP_RogueMasteryPortrait_C::SetJobInformation(class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetJobInformation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C.SetJobInformation");
 
 	struct
 	{

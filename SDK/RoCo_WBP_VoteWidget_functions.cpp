@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_VoteWidget_C::UpdateMenuBlock(class AKSPlayerController* PlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateMenuBlock"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateMenuBlock");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_VoteWidget_C::UpdateMenuBlock(class AKSPlayerController* PlayerControl
 
 void UWBP_VoteWidget_C::UpdateVotePipStates(int NewInFavorCount, int NewAgainstCount, bool IgnoreCached)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateVotePipStates"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateVotePipStates");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_VoteWidget_C::UpdateVotePipStates(int NewInFavorCount, int NewAgainstC
 
 void UWBP_VoteWidget_C::UpdateVotePipCount(int NewVoteCount)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateVotePipCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateVotePipCount");
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_VoteWidget_C::UpdateVotePipCount(int NewVoteCount)
 
 void UWBP_VoteWidget_C::CastVote(bool InFavor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.CastVote"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.CastVote");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UWBP_VoteWidget_C::CastVote(bool InFavor)
 
 void UWBP_VoteWidget_C::ResetTimerBar()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.ResetTimerBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.ResetTimerBar");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWBP_VoteWidget_C::ResetTimerBar()
 
 void UWBP_VoteWidget_C::UpdateRightChoice(float In_Delta_Time, bool ShouldReset, bool IgnoreHold)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateRightChoice"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateRightChoice");
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UWBP_VoteWidget_C::UpdateRightChoice(float In_Delta_Time, bool ShouldReset,
 
 void UWBP_VoteWidget_C::UpdateLeftChoice(float In_Delta_Time, bool ShouldReset, bool IgnoreHold)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateLeftChoice"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateLeftChoice");
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UWBP_VoteWidget_C::UpdateLeftChoice(float In_Delta_Time, bool ShouldReset, 
 
 void UWBP_VoteWidget_C::UpdateTimerBar(float In_Delta_Time)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateTimerBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.UpdateTimerBar");
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_VoteWidget_C::UpdateTimerBar(float In_Delta_Time)
 
 void UWBP_VoteWidget_C::Finished_B57E4A0043F84951AB8468824D8B8B03()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.Finished_B57E4A0043F84951AB8468824D8B8B03"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.Finished_B57E4A0043F84951AB8468824D8B8B03");
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UWBP_VoteWidget_C::Finished_B57E4A0043F84951AB8468824D8B8B03()
 
 void UWBP_VoteWidget_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.Tick");
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UWBP_VoteWidget_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTi
 
 void UWBP_VoteWidget_C::OnNewPollCalled(class UClass* PollType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.OnNewPollCalled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.OnNewPollCalled");
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_VoteWidget_C::OnNewPollCalled(class UClass* PollType)
 
 void UWBP_VoteWidget_C::OnLocalPlayerHasVoted(bool bInFavor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.OnLocalPlayerHasVoted"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.OnLocalPlayerHasVoted");
 
 	struct
 	{
@@ -272,7 +272,7 @@ void UWBP_VoteWidget_C::OnLocalPlayerHasVoted(bool bInFavor)
 
 void UWBP_VoteWidget_C::OnPollCompleted(const struct FKSPollResults& PollResults)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.OnPollCompleted"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.OnPollCompleted");
 
 	struct
 	{
@@ -292,7 +292,7 @@ void UWBP_VoteWidget_C::OnPollCompleted(const struct FKSPollResults& PollResults
 
 void UWBP_VoteWidget_C::OnPollStateChanged(bool bIsPaused)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.OnPollStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.OnPollStateChanged");
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UWBP_VoteWidget_C::OnPollStateChanged(bool bIsPaused)
 
 void UWBP_VoteWidget_C::SetupPollInfo(class UClass* NewParam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.SetupPollInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.SetupPollInfo");
 
 	struct
 	{
@@ -332,7 +332,7 @@ void UWBP_VoteWidget_C::SetupPollInfo(class UClass* NewParam)
 
 void UWBP_VoteWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.InitializeWidget");
 
 	struct
 	{
@@ -352,7 +352,7 @@ void UWBP_VoteWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_VoteWidget_C::OnVoteCountUpdated(const struct FKSPollData& NewVoteData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.OnVoteCountUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.OnVoteCountUpdated");
 
 	struct
 	{
@@ -372,7 +372,7 @@ void UWBP_VoteWidget_C::OnVoteCountUpdated(const struct FKSPollData& NewVoteData
 
 void UWBP_VoteWidget_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.OnInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.OnInputStateChanged");
 
 	struct
 	{
@@ -392,7 +392,7 @@ void UWBP_VoteWidget_C::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> Inpu
 
 void UWBP_VoteWidget_C::ExecuteUbergraph_WBP_VoteWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoteWidget.WBP_VoteWidget_C.ExecuteUbergraph_WBP_VoteWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoteWidget.WBP_VoteWidget_C.ExecuteUbergraph_WBP_VoteWidget");
 
 	struct
 	{

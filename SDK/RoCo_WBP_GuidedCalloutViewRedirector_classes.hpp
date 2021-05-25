@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass WBP_GuidedCalloutViewRedirector.WBP_GuidedCalloutViewRedirector_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass WBP_GuidedCalloutViewRedirector.WBP_GuidedCalloutViewRedirector_C");
 		return ptr;
 	}
 

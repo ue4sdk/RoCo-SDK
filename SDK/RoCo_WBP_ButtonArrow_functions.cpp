@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ButtonArrow_C::OnHoveredLogic(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnHoveredLogic"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnHoveredLogic");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ButtonArrow_C::OnHoveredLogic(bool IsGamepad)
 
 bool UWBP_ButtonArrow_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.NavigateConfirm");
 
 	struct
 	{
@@ -58,7 +58,7 @@ bool UWBP_ButtonArrow_C::NavigateConfirm()
 
 void UWBP_ButtonArrow_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnClickSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnClickSound");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_ButtonArrow_C::OnClickSound()
 
 void UWBP_ButtonArrow_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnHoverSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnHoverSound");
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_ButtonArrow_C::OnHoverSound()
 
 void UWBP_ButtonArrow_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.Construct");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_ButtonArrow_C::Construct()
 
 void UWBP_ButtonArrow_C::OnGamepadConfirmed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnGamepadConfirmed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnGamepadConfirmed");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_ButtonArrow_C::OnGamepadConfirmed()
 
 void UWBP_ButtonArrow_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_ButtonArrow_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButton
 
 void UWBP_ButtonArrow_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_ButtonArrow_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButton
 
 void UWBP_ButtonArrow_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_ButtonArrow_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButton
 
 void UWBP_ButtonArrow_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.GamepadHover");
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_ButtonArrow_C::GamepadHover()
 
 void UWBP_ButtonArrow_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.GamepadUnhover");
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_ButtonArrow_C::GamepadUnhover()
 
 void UWBP_ButtonArrow_C::DisableButton(bool bShouldDisable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.DisableButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.DisableButton");
 
 	struct
 	{
@@ -222,7 +222,7 @@ void UWBP_ButtonArrow_C::DisableButton(bool bShouldDisable)
 
 void UWBP_ButtonArrow_C::CallButtonHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.CallButtonHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.CallButtonHover");
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UWBP_ButtonArrow_C::CallButtonHover()
 
 void UWBP_ButtonArrow_C::CallButtonUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.CallButtonUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.CallButtonUnhover");
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UWBP_ButtonArrow_C::CallButtonUnhover()
 
 void UWBP_ButtonArrow_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.PreConstruct");
 
 	struct
 	{
@@ -276,7 +276,7 @@ void UWBP_ButtonArrow_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ButtonArrow_C::ExecuteUbergraph_WBP_ButtonArrow(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.ExecuteUbergraph_WBP_ButtonArrow"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.ExecuteUbergraph_WBP_ButtonArrow");
 
 	struct
 	{
@@ -294,7 +294,7 @@ void UWBP_ButtonArrow_C::ExecuteUbergraph_WBP_ButtonArrow(int EntryPoint)
 
 void UWBP_ButtonArrow_C::OnBtnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnBtnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnBtnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UWBP_ButtonArrow_C::OnBtnUnhovered__DelegateSignature()
 
 void UWBP_ButtonArrow_C::OnBtnHovered__DelegateSignature(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnBtnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnBtnHovered__DelegateSignature");
 
 	struct
 	{
@@ -330,7 +330,7 @@ void UWBP_ButtonArrow_C::OnBtnHovered__DelegateSignature(bool IsGamepad)
 
 void UWBP_ButtonArrow_C::OnBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnBtnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonArrow.WBP_ButtonArrow_C.OnBtnClicked__DelegateSignature");
 
 	struct
 	{

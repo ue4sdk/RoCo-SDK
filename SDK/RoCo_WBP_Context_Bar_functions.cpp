@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_Context_Bar_C::RefreshContextButtons(bool AlwaysShow, TArray<class UContextActionData*>* ContextActions)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Bar.WBP_Context_Bar_C.RefreshContextButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Bar.WBP_Context_Bar_C.RefreshContextButtons");
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UWBP_Context_Bar_C::RefreshContextButtons(bool AlwaysShow, TArray<class UCo
 
 void UWBP_Context_Bar_C::HandleInputStateChange(TEnumAsByte<EPGAME_INPUT_STATE> CurrentInputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Bar.WBP_Context_Bar_C.HandleInputStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Bar.WBP_Context_Bar_C.HandleInputStateChange");
 
 	struct
 	{
@@ -64,7 +64,7 @@ void UWBP_Context_Bar_C::HandleInputStateChange(TEnumAsByte<EPGAME_INPUT_STATE> 
 
 bool UWBP_Context_Bar_C::CanCloseOnLogout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Bar.WBP_Context_Bar_C.CanCloseOnLogout"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Bar.WBP_Context_Bar_C.CanCloseOnLogout");
 
 	struct
 	{
@@ -85,7 +85,7 @@ bool UWBP_Context_Bar_C::CanCloseOnLogout()
 
 void UWBP_Context_Bar_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Bar.WBP_Context_Bar_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Bar.WBP_Context_Bar_C.InitializeWidget");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_Context_Bar_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Context_Bar_C::UpdateContextActions(TArray<class UContextActionData*> ContextActions, const struct FName& CurrentRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Bar.WBP_Context_Bar_C.UpdateContextActions"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Bar.WBP_Context_Bar_C.UpdateContextActions");
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_Context_Bar_C::UpdateContextActions(TArray<class UContextActionData*> 
 
 void UWBP_Context_Bar_C::ExecuteUbergraph_WBP_Context_Bar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Context_Bar.WBP_Context_Bar_C.ExecuteUbergraph_WBP_Context_Bar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Bar.WBP_Context_Bar_C.ExecuteUbergraph_WBP_Context_Bar");
 
 	struct
 	{

@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_CustomGameConfirmation_C::InitalizeButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.InitalizeButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.InitalizeButtons");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_CustomGameConfirmation_C::InitalizeButtons()
 
 void UWBP_CustomGameConfirmation_C::GetButtons(TArray<class UKSWidget*>* Buttons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.GetButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.GetButtons");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_CustomGameConfirmation_C::GetButtons(TArray<class UKSWidget*>* Buttons
 
 void UWBP_CustomGameConfirmation_C::PopulateCustomPopup(int QueueId, int MapId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.PopulateCustomPopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.PopulateCustomPopup");
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UWBP_CustomGameConfirmation_C::PopulateCustomPopup(int QueueId, int MapId)
 
 void UWBP_CustomGameConfirmation_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.InitializeWidget");
 
 	struct
 	{
@@ -100,7 +100,7 @@ void UWBP_CustomGameConfirmation_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CustomGameConfirmation_C::BndEvt__CreateButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.BndEvt__CreateButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.BndEvt__CreateButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UWBP_CustomGameConfirmation_C::BndEvt__CreateButton_K2Node_ComponentBoundEv
 
 void UWBP_CustomGameConfirmation_C::BndEvt__CancelButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.BndEvt__CancelButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.BndEvt__CancelButton_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_CustomGameConfirmation_C::BndEvt__CancelButton_K2Node_ComponentBoundEv
 
 void UWBP_CustomGameConfirmation_C::BndEvt__WBP_ModalPopupContainer_K2Node_ComponentBoundEvent_2_CloseButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.BndEvt__WBP_ModalPopupContainer_K2Node_ComponentBoundEvent_2_CloseButtonClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.BndEvt__WBP_ModalPopupContainer_K2Node_ComponentBoundEvent_2_CloseButtonClicked__DelegateSignature");
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_CustomGameConfirmation_C::BndEvt__WBP_ModalPopupContainer_K2Node_Compo
 
 void UWBP_CustomGameConfirmation_C::ExecuteUbergraph_WBP_CustomGameConfirmation(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.ExecuteUbergraph_WBP_CustomGameConfirmation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.ExecuteUbergraph_WBP_CustomGameConfirmation");
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_CustomGameConfirmation_C::ExecuteUbergraph_WBP_CustomGameConfirmation(
 
 void UWBP_CustomGameConfirmation_C::OnCreateLobby__DelegateSignature(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.OnCreateLobby__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.OnCreateLobby__DelegateSignature");
 
 	struct
 	{
@@ -194,7 +194,7 @@ void UWBP_CustomGameConfirmation_C::OnCreateLobby__DelegateSignature(int QueueId
 
 void UWBP_CustomGameConfirmation_C::OnCancelLobby__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.OnCancelLobby__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomGameConfirmation.WBP_CustomGameConfirmation_C.OnCancelLobby__DelegateSignature");
 
 	struct
 	{

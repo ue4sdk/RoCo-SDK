@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RadialMenuEntry_C::SetHoverOverlay(bool IsShowingHover)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetHoverOverlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetHoverOverlay");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_RadialMenuEntry_C::SetHoverOverlay(bool IsShowingHover)
 
 void UWBP_RadialMenuEntry_C::SetDisabled(bool IsDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetDisabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetDisabled");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_RadialMenuEntry_C::SetDisabled(bool IsDisabled)
 
 void UWBP_RadialMenuEntry_C::ShowBigTextInsteadOfIcon(bool ShowBigText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.ShowBigTextInsteadOfIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.ShowBigTextInsteadOfIcon");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_RadialMenuEntry_C::ShowBigTextInsteadOfIcon(bool ShowBigText)
 
 void UWBP_RadialMenuEntry_C::SetEmpty()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetEmpty"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetEmpty");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UWBP_RadialMenuEntry_C::SetEmpty()
 
 void UWBP_RadialMenuEntry_C::SetIconColor(const struct FLinearColor& LinearColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetIconColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetIconColor");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_RadialMenuEntry_C::SetIconColor(const struct FLinearColor& LinearColor
 
 void UWBP_RadialMenuEntry_C::SetIconFromSoftTexture(TSoftObjectPtr<class UTexture2D> Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetIconFromSoftTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetIconFromSoftTexture");
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UWBP_RadialMenuEntry_C::SetIconFromSoftTexture(TSoftObjectPtr<class UTextur
 
 void UWBP_RadialMenuEntry_C::Set_IconAndName(class UKSItem* Item, bool ShowSmallText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.Set IconAndName"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.Set IconAndName");
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_RadialMenuEntry_C::Set_IconAndName(class UKSItem* Item, bool ShowSmall
 
 void UWBP_RadialMenuEntry_C::SetRotation(float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetRotation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.SetRotation");
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_RadialMenuEntry_C::SetRotation(float Angle)
 
 void UWBP_RadialMenuEntry_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.OnInitialized");
 
 	struct
 	{
@@ -194,7 +194,7 @@ void UWBP_RadialMenuEntry_C::OnInitialized()
 
 void UWBP_RadialMenuEntry_C::ExecuteUbergraph_WBP_RadialMenuEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.ExecuteUbergraph_WBP_RadialMenuEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialMenuEntry.WBP_RadialMenuEntry_C.ExecuteUbergraph_WBP_RadialMenuEntry");
 
 	struct
 	{

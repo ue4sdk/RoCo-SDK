@@ -11,8 +11,8 @@
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_AkAudio_classes.hpp"
-#include "RoCo_UMG_classes.hpp"
 #include "RoCo_UIColorPalette_v2_classes.hpp"
+#include "RoCo_UMG_classes.hpp"
 
 namespace SDK
 {

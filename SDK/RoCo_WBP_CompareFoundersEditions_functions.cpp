@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_CompareFoundersEditions_C::OnClickedOtherClosed(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.OnClickedOtherClosed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.OnClickedOtherClosed");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_CompareFoundersEditions_C::OnClickedOtherClosed(class UWidget* Widget)
 
 bool UWBP_CompareFoundersEditions_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.NavigateBack");
 
 	struct
 	{
@@ -58,7 +58,7 @@ bool UWBP_CompareFoundersEditions_C::NavigateBack()
 
 void UWBP_CompareFoundersEditions_C::OnCloseClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.OnCloseClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.OnCloseClicked");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_CompareFoundersEditions_C::OnCloseClicked()
 
 void UWBP_CompareFoundersEditions_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.OnShown");
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UWBP_CompareFoundersEditions_C::OnShown()
 
 void UWBP_CompareFoundersEditions_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.InitializeWidget");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_CompareFoundersEditions_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CompareFoundersEditions_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_CompareFoundersEditions_C::InitializeWidgetNavigation()
 
 void UWBP_CompareFoundersEditions_C::ExecuteUbergraph_WBP_CompareFoundersEditions(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.ExecuteUbergraph_WBP_CompareFoundersEditions"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CompareFoundersEditions.WBP_CompareFoundersEditions_C.ExecuteUbergraph_WBP_CompareFoundersEditions");
 
 	struct
 	{

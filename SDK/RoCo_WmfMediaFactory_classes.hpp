@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class WmfMediaFactory.WmfMediaSettings"));
+		static auto ptr = UObject::FindObject<UClass>("Class WmfMediaFactory.WmfMediaSettings");
 		return ptr;
 	}
 

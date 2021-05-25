@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass DefaultEnvironmentListener.DefaultEnvironmentListener_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass DefaultEnvironmentListener.DefaultEnvironmentListener_C");
 		return ptr;
 	}
 

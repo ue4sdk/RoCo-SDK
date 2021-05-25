@@ -24,7 +24,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SkinnableAnimGraphRuntime.AnimNotify_PlaySkinnedParticleEffect"));
+		static auto ptr = UObject::FindObject<UClass>("Class SkinnableAnimGraphRuntime.AnimNotify_PlaySkinnedParticleEffect");
 		return ptr;
 	}
 
@@ -45,7 +45,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SkinnableAnimGraphRuntime.AnimNotify_SkinnedAkEvent"));
+		static auto ptr = UObject::FindObject<UClass>("Class SkinnableAnimGraphRuntime.AnimNotify_SkinnedAkEvent");
 		return ptr;
 	}
 
@@ -61,7 +61,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SkinnableAnimGraphRuntime.AnimNotify_SkinSelectiveAkEvent"));
+		static auto ptr = UObject::FindObject<UClass>("Class SkinnableAnimGraphRuntime.AnimNotify_SkinSelectiveAkEvent");
 		return ptr;
 	}
 
@@ -79,7 +79,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SkinnableAnimGraphRuntime.SkinnedAnimInstance"));
+		static auto ptr = UObject::FindObject<UClass>("Class SkinnableAnimGraphRuntime.SkinnedAnimInstance");
 		return ptr;
 	}
 

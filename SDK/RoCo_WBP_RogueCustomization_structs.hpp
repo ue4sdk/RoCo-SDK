@@ -9,9 +9,9 @@
 #include "RoCo_Basic.hpp"
 #include "RoCo_KillstreakUINew_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
+#include "RoCo_CosmeticSlotDetails_classes.hpp"
 #include "RoCo_GameplayTags_classes.hpp"
 #include "RoCo_UMG_classes.hpp"
-#include "RoCo_CosmeticSlotDetails_classes.hpp"
 
 namespace SDK
 {

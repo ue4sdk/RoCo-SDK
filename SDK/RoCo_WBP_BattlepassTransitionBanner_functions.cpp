@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_BattlepassTransitionBanner_C::SequenceEvent__ENTRYPOINTWBP_BattlepassTransitionBanner_2()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SequenceEvent__ENTRYPOINTWBP_BattlepassTransitionBanner_2"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SequenceEvent__ENTRYPOINTWBP_BattlepassTransitionBanner_2");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_BattlepassTransitionBanner_C::SequenceEvent__ENTRYPOINTWBP_BattlepassT
 
 void UWBP_BattlepassTransitionBanner_C::SequenceEvent__ENTRYPOINTWBP_BattlepassTransitionBanner_1()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SequenceEvent__ENTRYPOINTWBP_BattlepassTransitionBanner_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SequenceEvent__ENTRYPOINTWBP_BattlepassTransitionBanner_1");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_BattlepassTransitionBanner_C::SequenceEvent__ENTRYPOINTWBP_BattlepassT
 
 void UWBP_BattlepassTransitionBanner_C::DisplayAcquiredTier(class UKSAcquisition* Acquisition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.DisplayAcquiredTier"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.DisplayAcquiredTier");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_BattlepassTransitionBanner_C::DisplayAcquiredTier(class UKSAcquisition
 
 void UWBP_BattlepassTransitionBanner_C::PlayAnimation_PremiumUnlocked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.PlayAnimation_PremiumUnlocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.PlayAnimation_PremiumUnlocked");
 
 	struct
 	{
@@ -85,7 +85,7 @@ void UWBP_BattlepassTransitionBanner_C::PlayAnimation_PremiumUnlocked()
 
 void UWBP_BattlepassTransitionBanner_C::PlayAnimation_NewTierPremium()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.PlayAnimation_NewTierPremium"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.PlayAnimation_NewTierPremium");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_BattlepassTransitionBanner_C::PlayAnimation_NewTierPremium()
 
 void UWBP_BattlepassTransitionBanner_C::PlayAnimation_NewTierFree()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.PlayAnimation_NewTierFree"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.PlayAnimation_NewTierFree");
 
 	struct
 	{
@@ -117,7 +117,7 @@ void UWBP_BattlepassTransitionBanner_C::PlayAnimation_NewTierFree()
 
 void UWBP_BattlepassTransitionBanner_C::UpdateColors_Premium()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.UpdateColors_Premium"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.UpdateColors_Premium");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_BattlepassTransitionBanner_C::UpdateColors_Premium()
 
 void UWBP_BattlepassTransitionBanner_C::UpdateColors_Free()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.UpdateColors_Free"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.UpdateColors_Free");
 
 	struct
 	{
@@ -151,7 +151,7 @@ void UWBP_BattlepassTransitionBanner_C::UpdateColors_Free()
 
 void UWBP_BattlepassTransitionBanner_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.PreConstruct");
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_BattlepassTransitionBanner_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_BattlepassTransitionBanner_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.Tick");
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_BattlepassTransitionBanner_C::Tick(const struct FGeometry& MyGeometry,
 
 void UWBP_BattlepassTransitionBanner_C::MakeColorsPremium()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.MakeColorsPremium"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.MakeColorsPremium");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_BattlepassTransitionBanner_C::MakeColorsPremium()
 
 void UWBP_BattlepassTransitionBanner_C::SetBannerText_NewTier()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SetBannerText_NewTier"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SetBannerText_NewTier");
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_BattlepassTransitionBanner_C::SetBannerText_NewTier()
 
 void UWBP_BattlepassTransitionBanner_C::SetBannerText_PremiumUnlocked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SetBannerText_PremiumUnlocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SetBannerText_PremiumUnlocked");
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UWBP_BattlepassTransitionBanner_C::SetBannerText_PremiumUnlocked()
 
 void UWBP_BattlepassTransitionBanner_C::MakeColorsFree()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.MakeColorsFree"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.MakeColorsFree");
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UWBP_BattlepassTransitionBanner_C::MakeColorsFree()
 
 void UWBP_BattlepassTransitionBanner_C::OnAnimationFinished(class UWidgetAnimation* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.OnAnimationFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.OnAnimationFinished");
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UWBP_BattlepassTransitionBanner_C::OnAnimationFinished(class UWidgetAnimati
 
 void UWBP_BattlepassTransitionBanner_C::OnAnimationStarted(class UWidgetAnimation* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.OnAnimationStarted"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.OnAnimationStarted");
 
 	struct
 	{
@@ -296,7 +296,7 @@ void UWBP_BattlepassTransitionBanner_C::OnAnimationStarted(class UWidgetAnimatio
 
 void UWBP_BattlepassTransitionBanner_C::SequenceEvent_1()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SequenceEvent_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.SequenceEvent_1");
 
 	struct
 	{
@@ -314,7 +314,7 @@ void UWBP_BattlepassTransitionBanner_C::SequenceEvent_1()
 
 void UWBP_BattlepassTransitionBanner_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.InitializeWidget");
 
 	struct
 	{
@@ -334,7 +334,7 @@ void UWBP_BattlepassTransitionBanner_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_BattlepassTransitionBanner_C::ExecuteUbergraph_WBP_BattlepassTransitionBanner(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.ExecuteUbergraph_WBP_BattlepassTransitionBanner"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.ExecuteUbergraph_WBP_BattlepassTransitionBanner");
 
 	struct
 	{
@@ -352,7 +352,7 @@ void UWBP_BattlepassTransitionBanner_C::ExecuteUbergraph_WBP_BattlepassTransitio
 
 void UWBP_BattlepassTransitionBanner_C::TransitionFinished__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.TransitionFinished__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BattlepassTransitionBanner.WBP_BattlepassTransitionBanner_C.TransitionFinished__DelegateSignature");
 
 	struct
 	{

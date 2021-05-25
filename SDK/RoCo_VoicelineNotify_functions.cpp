@@ -19,7 +19,7 @@ namespace SDK
 
 struct FString UVoicelineNotify_C::GetNotifyName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VoicelineNotify.VoicelineNotify_C.GetNotifyName"));
+	static auto fn = UObject::FindObject<UFunction>("Function VoicelineNotify.VoicelineNotify_C.GetNotifyName");
 
 	struct
 	{
@@ -42,7 +42,7 @@ struct FString UVoicelineNotify_C::GetNotifyName()
 
 bool UVoicelineNotify_C::Received_Notify(class USkeletalMeshComponent* MeshComp, class UAnimSequenceBase* Animation)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VoicelineNotify.VoicelineNotify_C.Received_Notify"));
+	static auto fn = UObject::FindObject<UFunction>("Function VoicelineNotify.VoicelineNotify_C.Received_Notify");
 
 	struct
 	{

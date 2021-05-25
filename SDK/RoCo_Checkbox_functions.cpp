@@ -19,7 +19,7 @@ namespace SDK
 
 bool UCheckbox_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.NavigateConfirm");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UCheckbox_C::NavigateConfirm()
 
 void UCheckbox_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UCheckbox_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEv
 
 void UCheckbox_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UCheckbox_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEv
 
 void UCheckbox_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UCheckbox_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClicked
 
 void UCheckbox_C::SetCheckedState(bool Checked)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.SetCheckedState"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.SetCheckedState");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UCheckbox_C::SetCheckedState(bool Checked)
 
 void UCheckbox_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.GamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.GamepadConfirm");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UCheckbox_C::GamepadConfirm()
 
 void UCheckbox_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.GamepadHover");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UCheckbox_C::GamepadHover()
 
 void UCheckbox_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.GamepadUnhover");
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UCheckbox_C::GamepadUnhover()
 
 void UCheckbox_C::ExecuteUbergraph_Checkbox(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.ExecuteUbergraph_Checkbox"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.ExecuteUbergraph_Checkbox");
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UCheckbox_C::ExecuteUbergraph_Checkbox(int EntryPoint)
 
 void UCheckbox_C::OnCheckChanged__DelegateSignature(bool Checked)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function Checkbox.Checkbox_C.OnCheckChanged__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function Checkbox.Checkbox_C.OnCheckChanged__DelegateSignature");
 
 	struct
 	{

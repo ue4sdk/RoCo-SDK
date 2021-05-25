@@ -77,7 +77,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass MainCharacterVOComponent.MainCharacterVOComponent_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass MainCharacterVOComponent.MainCharacterVOComponent_C");
 		return ptr;
 	}
 

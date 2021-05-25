@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_InWorld_ReticleComponents_C::SetWeaponComponent(class UKSWeaponComponent* WeaponComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.SetWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.SetWeaponComponent");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_InWorld_ReticleComponents_C::SetWeaponComponent(class UKSWeaponCompone
 
 void UWBP_InWorld_ReticleComponents_C::SetPlayerState(class APlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.SetPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.SetPlayerState");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_InWorld_ReticleComponents_C::SetPlayerState(class APlayerState* Player
 
 void UWBP_InWorld_ReticleComponents_C::SetAmmoColor(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.SetAmmoColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.SetAmmoColor");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_InWorld_ReticleComponents_C::SetAmmoColor(bool IsActive)
 
 void UWBP_InWorld_ReticleComponents_C::OnPossession(class APlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.OnPossession"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.OnPossession");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UWBP_InWorld_ReticleComponents_C::OnPossession(class APlayerState* PlayerSt
 
 void UWBP_InWorld_ReticleComponents_C::OnWeaponSet(class UKSWeaponComponent* WeaponComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.OnWeaponSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.OnWeaponSet");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UWBP_InWorld_ReticleComponents_C::OnWeaponSet(class UKSWeaponComponent* Wea
 
 void UWBP_InWorld_ReticleComponents_C::OnModActivated(bool bActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.OnModActivated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.OnModActivated");
 
 	struct
 	{
@@ -137,7 +137,7 @@ void UWBP_InWorld_ReticleComponents_C::OnModActivated(bool bActive)
 
 void UWBP_InWorld_ReticleComponents_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.Construct");
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UWBP_InWorld_ReticleComponents_C::Construct()
 
 void UWBP_InWorld_ReticleComponents_C::Destruct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.Destruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.Destruct");
 
 	struct
 	{
@@ -171,7 +171,7 @@ void UWBP_InWorld_ReticleComponents_C::Destruct()
 
 void UWBP_InWorld_ReticleComponents_C::ExecuteUbergraph_WBP_InWorld_ReticleComponents(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.ExecuteUbergraph_WBP_InWorld_ReticleComponents"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.ExecuteUbergraph_WBP_InWorld_ReticleComponents");
 
 	struct
 	{

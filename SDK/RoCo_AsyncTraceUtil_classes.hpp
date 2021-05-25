@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class AsyncTraceUtil.AsyncTraceUtilBPLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class AsyncTraceUtil.AsyncTraceUtilBPLibrary");
 		return ptr;
 	}
 

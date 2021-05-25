@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_VoiceParticipantElement_C::ShowActivity(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.ShowActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.ShowActivity");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_VoiceParticipantElement_C::ShowActivity(bool IsActive)
 
 void UWBP_VoiceParticipantElement_C::SetName(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.SetName"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.SetName");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_VoiceParticipantElement_C::SetName(const struct FText& InText)
 
 void UWBP_VoiceParticipantElement_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.OnInitialized");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_VoiceParticipantElement_C::OnInitialized()
 
 void UWBP_VoiceParticipantElement_C::HandleAnimationComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.HandleAnimationComplete"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.HandleAnimationComplete");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_VoiceParticipantElement_C::HandleAnimationComplete()
 
 void UWBP_VoiceParticipantElement_C::HandleAnimationStart()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.HandleAnimationStart"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.HandleAnimationStart");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_VoiceParticipantElement_C::HandleAnimationStart()
 
 void UWBP_VoiceParticipantElement_C::ExecuteUbergraph_WBP_VoiceParticipantElement(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.ExecuteUbergraph_WBP_VoiceParticipantElement"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceParticipantElement.WBP_VoiceParticipantElement_C.ExecuteUbergraph_WBP_VoiceParticipantElement");
 
 	struct
 	{

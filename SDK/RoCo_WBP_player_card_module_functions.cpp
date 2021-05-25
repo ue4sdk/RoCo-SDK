@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_player_card_module_C::HideRankedBadge(bool Should_Hide)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.HideRankedBadge"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.HideRankedBadge");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_player_card_module_C::HideRankedBadge(bool Should_Hide)
 
 void UWBP_player_card_module_C::SetPlayerCardStyle(TEnumAsByte<EPlayerCardStyle> PlayerCardStyle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.SetPlayerCardStyle"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.SetPlayerCardStyle");
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UWBP_player_card_module_C::SetPlayerCardStyle(TEnumAsByte<EPlayerCardStyle>
 
 void UWBP_player_card_module_C::SetVoiceState(bool ShouldShow, bool IsTalking, bool IsMuted)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.SetVoiceState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.SetVoiceState");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UWBP_player_card_module_C::SetVoiceState(bool ShouldShow, bool IsTalking, b
 
 void UWBP_player_card_module_C::View_ResetPlayerCardState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.View_ResetPlayerCardState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.View_ResetPlayerCardState");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UWBP_player_card_module_C::View_ResetPlayerCardState()
 
 bool UWBP_player_card_module_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.NavigateConfirm");
 
 	struct
 	{
@@ -122,7 +122,7 @@ bool UWBP_player_card_module_C::NavigateConfirm()
 
 void UWBP_player_card_module_C::PlayerUpdate(class UPUMG_PlayerInfo* Player_Info)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.PlayerUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.PlayerUpdate");
 
 	struct
 	{
@@ -140,7 +140,7 @@ void UWBP_player_card_module_C::PlayerUpdate(class UPUMG_PlayerInfo* Player_Info
 
 void UWBP_player_card_module_C::View_SetDefault()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.View_SetDefault"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.View_SetDefault");
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_player_card_module_C::View_SetDefault()
 
 void UWBP_player_card_module_C::View_SetEmpty()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.View_SetEmpty"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.View_SetEmpty");
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_player_card_module_C::View_SetEmpty()
 
 void UWBP_player_card_module_C::SocialPlayerCardHoverSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.SocialPlayerCardHoverSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.SocialPlayerCardHoverSFX");
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_player_card_module_C::SocialPlayerCardHoverSFX()
 
 void UWBP_player_card_module_C::SocialPlayerCardClickSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.SocialPlayerCardClickSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.SocialPlayerCardClickSFX");
 
 	struct
 	{
@@ -207,7 +207,7 @@ void UWBP_player_card_module_C::SocialPlayerCardClickSFX()
 
 void UWBP_player_card_module_C::ShowPlayerCardAnimation(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.ShowPlayerCardAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.ShowPlayerCardAnimation");
 
 	struct
 	{
@@ -227,7 +227,7 @@ void UWBP_player_card_module_C::ShowPlayerCardAnimation(float ElapsedTime, float
 
 void UWBP_player_card_module_C::ShowPlayerCardAnimationFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.ShowPlayerCardAnimationFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.ShowPlayerCardAnimationFinished");
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UWBP_player_card_module_C::ShowPlayerCardAnimationFinished()
 
 void UWBP_player_card_module_C::AddShowPlayerCardAnimation(float Delay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.AddShowPlayerCardAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.AddShowPlayerCardAnimation");
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWBP_player_card_module_C::AddShowPlayerCardAnimation(float Delay)
 
 void UWBP_player_card_module_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.PreConstruct");
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UWBP_player_card_module_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_player_card_module_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -299,7 +299,7 @@ void UWBP_player_card_module_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_O
 
 void UWBP_player_card_module_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -315,7 +315,7 @@ void UWBP_player_card_module_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_O
 
 void UWBP_player_card_module_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -331,7 +331,7 @@ void UWBP_player_card_module_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_O
 
 void UWBP_player_card_module_C::Manual_Clicked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.Manual Clicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.Manual Clicked");
 
 	struct
 	{
@@ -347,7 +347,7 @@ void UWBP_player_card_module_C::Manual_Clicked()
 
 void UWBP_player_card_module_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.GamepadUnhover");
 
 	struct
 	{
@@ -363,7 +363,7 @@ void UWBP_player_card_module_C::GamepadUnhover()
 
 void UWBP_player_card_module_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.GamepadHover");
 
 	struct
 	{
@@ -379,7 +379,7 @@ void UWBP_player_card_module_C::GamepadHover()
 
 void UWBP_player_card_module_C::NavigateLeftFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.NavigateLeftFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.NavigateLeftFailure");
 
 	struct
 	{
@@ -395,7 +395,7 @@ void UWBP_player_card_module_C::NavigateLeftFailure()
 
 void UWBP_player_card_module_C::NavigateRightFailure()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.NavigateRightFailure"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.NavigateRightFailure");
 
 	struct
 	{
@@ -411,7 +411,7 @@ void UWBP_player_card_module_C::NavigateRightFailure()
 
 void UWBP_player_card_module_C::Manual_Hover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.Manual Hover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.Manual Hover");
 
 	struct
 	{
@@ -427,7 +427,7 @@ void UWBP_player_card_module_C::Manual_Hover()
 
 void UWBP_player_card_module_C::Manual_Unhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.Manual Unhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.Manual Unhover");
 
 	struct
 	{
@@ -448,7 +448,7 @@ void UWBP_player_card_module_C::Manual_Unhover()
 
 void UWBP_player_card_module_C::OnPlayerUpdate(class UPUMG_PlayerInfo* playerinfo, EKSPlayerOnlineStatus PlayerStatus, bool IsPortalFriend, bool IsPending)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnPlayerUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnPlayerUpdate");
 
 	struct
 	{
@@ -474,7 +474,7 @@ void UWBP_player_card_module_C::OnPlayerUpdate(class UPUMG_PlayerInfo* playerinf
 
 void UWBP_player_card_module_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.Handle Input State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.Handle Input State Changed");
 
 	struct
 	{
@@ -494,7 +494,7 @@ void UWBP_player_card_module_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_IN
 
 void UWBP_player_card_module_C::OnContextMenuOpen(EViewSide side)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnContextMenuOpen"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnContextMenuOpen");
 
 	struct
 	{
@@ -512,7 +512,7 @@ void UWBP_player_card_module_C::OnContextMenuOpen(EViewSide side)
 
 void UWBP_player_card_module_C::OnContextMenuClose()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnContextMenuClose"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnContextMenuClose");
 
 	struct
 	{
@@ -528,7 +528,7 @@ void UWBP_player_card_module_C::OnContextMenuClose()
 
 void UWBP_player_card_module_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnInitialized");
 
 	struct
 	{
@@ -546,7 +546,7 @@ void UWBP_player_card_module_C::OnInitialized()
 
 void UWBP_player_card_module_C::ExecuteUbergraph_WBP_player_card_module(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.ExecuteUbergraph_WBP_player_card_module"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.ExecuteUbergraph_WBP_player_card_module");
 
 	struct
 	{
@@ -566,7 +566,7 @@ void UWBP_player_card_module_C::ExecuteUbergraph_WBP_player_card_module(int Entr
 
 void UWBP_player_card_module_C::OnPlayerUpdated__DelegateSignature(class UWBP_player_card_module_C* Player_Card)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnPlayerUpdated__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnPlayerUpdated__DelegateSignature");
 
 	struct
 	{
@@ -584,7 +584,7 @@ void UWBP_player_card_module_C::OnPlayerUpdated__DelegateSignature(class UWBP_pl
 
 void UWBP_player_card_module_C::OnBackButton__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnBackButton__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnBackButton__DelegateSignature");
 
 	struct
 	{
@@ -602,7 +602,7 @@ void UWBP_player_card_module_C::OnBackButton__DelegateSignature()
 
 void UWBP_player_card_module_C::OnCardHovered__DelegateSignature(class UPUMG_PlayerInfo* Card_Player_Info)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnCardHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnCardHovered__DelegateSignature");
 
 	struct
 	{
@@ -620,7 +620,7 @@ void UWBP_player_card_module_C::OnCardHovered__DelegateSignature(class UPUMG_Pla
 
 void UWBP_player_card_module_C::OnNavigateRightFailure__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnNavigateRightFailure__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnNavigateRightFailure__DelegateSignature");
 
 	struct
 	{
@@ -636,7 +636,7 @@ void UWBP_player_card_module_C::OnNavigateRightFailure__DelegateSignature()
 
 void UWBP_player_card_module_C::OnNavigateLeftFailure__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnNavigateLeftFailure__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnNavigateLeftFailure__DelegateSignature");
 
 	struct
 	{
@@ -654,7 +654,7 @@ void UWBP_player_card_module_C::OnNavigateLeftFailure__DelegateSignature()
 
 void UWBP_player_card_module_C::OnPlayerClicked__DelegateSignature(class UWBP_player_card_module_C* Selected_Player_Card)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_player_card_module.WBP_player_card_module_C.OnPlayerClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_player_card_module.WBP_player_card_module_C.OnPlayerClicked__DelegateSignature");
 
 	struct
 	{

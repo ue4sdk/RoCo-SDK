@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_LocalPlayerModBar_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LocalPlayerModBar.WBP_LocalPlayerModBar_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LocalPlayerModBar.WBP_LocalPlayerModBar_C.PostSetPawn");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_LocalPlayerModBar_C::PostSetPawn()
 
 void UWBP_LocalPlayerModBar_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LocalPlayerModBar.WBP_LocalPlayerModBar_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LocalPlayerModBar.WBP_LocalPlayerModBar_C.PreClearPawn");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_LocalPlayerModBar_C::PreClearPawn()
 
 void UWBP_LocalPlayerModBar_C::Handle_Mods_Updated(class AKSCharacter* Character)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LocalPlayerModBar.WBP_LocalPlayerModBar_C.Handle Mods Updated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LocalPlayerModBar.WBP_LocalPlayerModBar_C.Handle Mods Updated");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_LocalPlayerModBar_C::Handle_Mods_Updated(class AKSCharacter* Character
 
 void UWBP_LocalPlayerModBar_C::ExecuteUbergraph_WBP_LocalPlayerModBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LocalPlayerModBar.WBP_LocalPlayerModBar_C.ExecuteUbergraph_WBP_LocalPlayerModBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LocalPlayerModBar.WBP_LocalPlayerModBar_C.ExecuteUbergraph_WBP_LocalPlayerModBar");
 
 	struct
 	{

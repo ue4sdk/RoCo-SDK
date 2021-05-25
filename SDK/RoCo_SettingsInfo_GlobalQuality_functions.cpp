@@ -17,7 +17,7 @@ namespace SDK
 
 void USettingsInfo_GlobalQuality_C::InitializeValue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_GlobalQuality.SettingsInfo_GlobalQuality_C.InitializeValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_GlobalQuality.SettingsInfo_GlobalQuality_C.InitializeValue");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void USettingsInfo_GlobalQuality_C::InitializeValue()
 
 void USettingsInfo_GlobalQuality_C::ExecuteUbergraph_SettingsInfo_GlobalQuality(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SettingsInfo_GlobalQuality.SettingsInfo_GlobalQuality_C.ExecuteUbergraph_SettingsInfo_GlobalQuality"));
+	static auto fn = UObject::FindObject<UFunction>("Function SettingsInfo_GlobalQuality.SettingsInfo_GlobalQuality_C.ExecuteUbergraph_SettingsInfo_GlobalQuality");
 
 	struct
 	{

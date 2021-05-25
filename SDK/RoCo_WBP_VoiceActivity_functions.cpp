@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_VoiceActivity_C::GetNameForMctsId(int64_t MctsId, struct FText* Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivity.WBP_VoiceActivity_C.GetNameForMctsId"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivity.WBP_VoiceActivity_C.GetNameForMctsId");
 
 	struct
 	{
@@ -46,7 +46,7 @@ void UWBP_VoiceActivity_C::GetNameForMctsId(int64_t MctsId, struct FText* Name)
 
 void UWBP_VoiceActivity_C::Voice_Participant_Updated(const struct FString& Account, bool IsTalking, bool IsMuted)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivity.WBP_VoiceActivity_C.Voice Participant Updated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivity.WBP_VoiceActivity_C.Voice Participant Updated");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UWBP_VoiceActivity_C::Voice_Participant_Updated(const struct FString& Accou
 
 void UWBP_VoiceActivity_C::AddVoiceParticipant(const struct FString& Account)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivity.WBP_VoiceActivity_C.AddVoiceParticipant"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivity.WBP_VoiceActivity_C.AddVoiceParticipant");
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_VoiceActivity_C::AddVoiceParticipant(const struct FString& Account)
 
 void UWBP_VoiceActivity_C::RemoveVoiceParticipant(const struct FString& Account)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivity.WBP_VoiceActivity_C.RemoveVoiceParticipant"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivity.WBP_VoiceActivity_C.RemoveVoiceParticipant");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_VoiceActivity_C::RemoveVoiceParticipant(const struct FString& Account)
 
 void UWBP_VoiceActivity_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivity.WBP_VoiceActivity_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivity.WBP_VoiceActivity_C.InitializeWidget");
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_VoiceActivity_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_VoiceActivity_C::OnVoiceParticipantRemoved(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivity.WBP_VoiceActivity_C.OnVoiceParticipantRemoved"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivity.WBP_VoiceActivity_C.OnVoiceParticipantRemoved");
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UWBP_VoiceActivity_C::OnVoiceParticipantRemoved(const struct FString& Accou
 
 void UWBP_VoiceActivity_C::OnVoiceParticipantAdded(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivity.WBP_VoiceActivity_C.OnVoiceParticipantAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivity.WBP_VoiceActivity_C.OnVoiceParticipantAdded");
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UWBP_VoiceActivity_C::OnVoiceParticipantAdded(const struct FString& Account
 
 void UWBP_VoiceActivity_C::OnVoiceParticipantUpdated(const struct FString& AccountId, bool bIsTalking, bool bIsMuted)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivity.WBP_VoiceActivity_C.OnVoiceParticipantUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivity.WBP_VoiceActivity_C.OnVoiceParticipantUpdated");
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UWBP_VoiceActivity_C::OnVoiceParticipantUpdated(const struct FString& Accou
 
 void UWBP_VoiceActivity_C::ExecuteUbergraph_WBP_VoiceActivity(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_VoiceActivity.WBP_VoiceActivity_C.ExecuteUbergraph_WBP_VoiceActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_VoiceActivity.WBP_VoiceActivity_C.ExecuteUbergraph_WBP_VoiceActivity");
 
 	struct
 	{

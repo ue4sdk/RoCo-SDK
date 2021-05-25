@@ -19,7 +19,7 @@ namespace SDK
 
 void UMovieSceneSection::SetRowIndex(int NewRowIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.SetRowIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.SetRowIndex");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UMovieSceneSection::SetRowIndex(int NewRowIndex)
 
 void UMovieSceneSection::SetPreRollFrames(int InPreRollFrames)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.SetPreRollFrames"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.SetPreRollFrames");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UMovieSceneSection::SetPreRollFrames(int InPreRollFrames)
 
 void UMovieSceneSection::SetPostRollFrames(int InPostRollFrames)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.SetPostRollFrames"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.SetPostRollFrames");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UMovieSceneSection::SetPostRollFrames(int InPostRollFrames)
 
 void UMovieSceneSection::SetOverlapPriority(int NewPriority)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.SetOverlapPriority"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.SetOverlapPriority");
 
 	struct
 	{
@@ -99,7 +99,7 @@ void UMovieSceneSection::SetOverlapPriority(int NewPriority)
 
 void UMovieSceneSection::SetIsLocked(bool bInIsLocked)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.SetIsLocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.SetIsLocked");
 
 	struct
 	{
@@ -119,7 +119,7 @@ void UMovieSceneSection::SetIsLocked(bool bInIsLocked)
 
 void UMovieSceneSection::SetIsActive(bool bInIsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.SetIsActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.SetIsActive");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UMovieSceneSection::SetIsActive(bool bInIsActive)
 
 void UMovieSceneSection::SetCompletionMode(EMovieSceneCompletionMode InCompletionMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.SetCompletionMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.SetCompletionMode");
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UMovieSceneSection::SetCompletionMode(EMovieSceneCompletionMode InCompletio
 
 void UMovieSceneSection::SetBlendType(EMovieSceneBlendType InBlendType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.SetBlendType"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.SetBlendType");
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UMovieSceneSection::SetBlendType(EMovieSceneBlendType InBlendType)
 
 bool UMovieSceneSection::IsLocked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.IsLocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.IsLocked");
 
 	struct
 	{
@@ -200,7 +200,7 @@ bool UMovieSceneSection::IsLocked()
 
 bool UMovieSceneSection::IsActive()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.IsActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.IsActive");
 
 	struct
 	{
@@ -221,7 +221,7 @@ bool UMovieSceneSection::IsActive()
 
 int UMovieSceneSection::GetRowIndex()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.GetRowIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.GetRowIndex");
 
 	struct
 	{
@@ -242,7 +242,7 @@ int UMovieSceneSection::GetRowIndex()
 
 int UMovieSceneSection::GetPreRollFrames()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.GetPreRollFrames"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.GetPreRollFrames");
 
 	struct
 	{
@@ -263,7 +263,7 @@ int UMovieSceneSection::GetPreRollFrames()
 
 int UMovieSceneSection::GetPostRollFrames()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.GetPostRollFrames"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.GetPostRollFrames");
 
 	struct
 	{
@@ -284,7 +284,7 @@ int UMovieSceneSection::GetPostRollFrames()
 
 int UMovieSceneSection::GetOverlapPriority()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.GetOverlapPriority"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.GetOverlapPriority");
 
 	struct
 	{
@@ -305,7 +305,7 @@ int UMovieSceneSection::GetOverlapPriority()
 
 EMovieSceneCompletionMode UMovieSceneSection::GetCompletionMode()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.GetCompletionMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.GetCompletionMode");
 
 	struct
 	{
@@ -326,7 +326,7 @@ EMovieSceneCompletionMode UMovieSceneSection::GetCompletionMode()
 
 struct FOptionalMovieSceneBlendType UMovieSceneSection::GetBlendType()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSection.GetBlendType"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSection.GetBlendType");
 
 	struct
 	{
@@ -348,7 +348,7 @@ struct FOptionalMovieSceneBlendType UMovieSceneSection::GetBlendType()
 
 TArray<struct FMovieSceneObjectBindingID> UMovieSceneSequence::FindBindingsByTag(const struct FName& InBindingName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequence.FindBindingsByTag"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequence.FindBindingsByTag");
 
 	struct
 	{
@@ -372,7 +372,7 @@ TArray<struct FMovieSceneObjectBindingID> UMovieSceneSequence::FindBindingsByTag
 
 struct FMovieSceneObjectBindingID UMovieSceneSequence::FindBindingByTag(const struct FName& InBindingName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequence.FindBindingByTag"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequence.FindBindingByTag");
 
 	struct
 	{
@@ -393,7 +393,7 @@ struct FMovieSceneObjectBindingID UMovieSceneSequence::FindBindingByTag(const st
 
 void UMovieSceneSequencePlayer::StopAtCurrentTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.StopAtCurrentTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.StopAtCurrentTime");
 
 	struct
 	{
@@ -409,7 +409,7 @@ void UMovieSceneSequencePlayer::StopAtCurrentTime()
 
 void UMovieSceneSequencePlayer::Stop()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.Stop"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.Stop");
 
 	struct
 	{
@@ -428,7 +428,7 @@ void UMovieSceneSequencePlayer::Stop()
 
 void UMovieSceneSequencePlayer::SetTimeRange(float StartTime, float Duration)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.SetTimeRange"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.SetTimeRange");
 
 	struct
 	{
@@ -450,7 +450,7 @@ void UMovieSceneSequencePlayer::SetTimeRange(float StartTime, float Duration)
 
 void UMovieSceneSequencePlayer::SetPlayRate(float PlayRate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.SetPlayRate"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.SetPlayRate");
 
 	struct
 	{
@@ -471,7 +471,7 @@ void UMovieSceneSequencePlayer::SetPlayRate(float PlayRate)
 
 void UMovieSceneSequencePlayer::SetPlaybackRange(float NewStartTime, float NewEndTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.SetPlaybackRange"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.SetPlaybackRange");
 
 	struct
 	{
@@ -493,7 +493,7 @@ void UMovieSceneSequencePlayer::SetPlaybackRange(float NewStartTime, float NewEn
 
 void UMovieSceneSequencePlayer::SetPlaybackPosition(float NewPlaybackPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.SetPlaybackPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.SetPlaybackPosition");
 
 	struct
 	{
@@ -513,7 +513,7 @@ void UMovieSceneSequencePlayer::SetPlaybackPosition(float NewPlaybackPosition)
 
 void UMovieSceneSequencePlayer::SetFrameRate(const struct FFrameRate& FrameRate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.SetFrameRate"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.SetFrameRate");
 
 	struct
 	{
@@ -534,7 +534,7 @@ void UMovieSceneSequencePlayer::SetFrameRate(const struct FFrameRate& FrameRate)
 
 void UMovieSceneSequencePlayer::SetFrameRange(int StartFrame, int Duration)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.SetFrameRange"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.SetFrameRange");
 
 	struct
 	{
@@ -556,7 +556,7 @@ void UMovieSceneSequencePlayer::SetFrameRange(int StartFrame, int Duration)
 
 void UMovieSceneSequencePlayer::SetDisableCameraCuts(bool bInDisableCameraCuts)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.SetDisableCameraCuts"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.SetDisableCameraCuts");
 
 	struct
 	{
@@ -576,7 +576,7 @@ void UMovieSceneSequencePlayer::SetDisableCameraCuts(bool bInDisableCameraCuts)
 
 void UMovieSceneSequencePlayer::ScrubToSeconds(float TimeInSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.ScrubToSeconds"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.ScrubToSeconds");
 
 	struct
 	{
@@ -597,7 +597,7 @@ void UMovieSceneSequencePlayer::ScrubToSeconds(float TimeInSeconds)
 
 bool UMovieSceneSequencePlayer::ScrubToMarkedFrame(const struct FString& InLabel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.ScrubToMarkedFrame"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.ScrubToMarkedFrame");
 
 	struct
 	{
@@ -620,7 +620,7 @@ bool UMovieSceneSequencePlayer::ScrubToMarkedFrame(const struct FString& InLabel
 
 void UMovieSceneSequencePlayer::ScrubToFrame(const struct FFrameTime& NewPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.ScrubToFrame"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.ScrubToFrame");
 
 	struct
 	{
@@ -638,7 +638,7 @@ void UMovieSceneSequencePlayer::ScrubToFrame(const struct FFrameTime& NewPositio
 
 void UMovieSceneSequencePlayer::Scrub()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.Scrub"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.Scrub");
 
 	struct
 	{
@@ -656,7 +656,7 @@ void UMovieSceneSequencePlayer::Scrub()
 
 void UMovieSceneSequencePlayer::RPC_OnStopEvent(const struct FFrameTime& StoppedTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.RPC_OnStopEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.RPC_OnStopEvent");
 
 	struct
 	{
@@ -677,7 +677,7 @@ void UMovieSceneSequencePlayer::RPC_OnStopEvent(const struct FFrameTime& Stopped
 
 void UMovieSceneSequencePlayer::RPC_ExplicitServerUpdateEvent(EUpdatePositionMethod Method, const struct FFrameTime& RelevantTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.RPC_ExplicitServerUpdateEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.RPC_ExplicitServerUpdateEvent");
 
 	struct
 	{
@@ -699,7 +699,7 @@ void UMovieSceneSequencePlayer::RPC_ExplicitServerUpdateEvent(EUpdatePositionMet
 
 void UMovieSceneSequencePlayer::PlayToSeconds(float TimeInSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.PlayToSeconds"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.PlayToSeconds");
 
 	struct
 	{
@@ -720,7 +720,7 @@ void UMovieSceneSequencePlayer::PlayToSeconds(float TimeInSeconds)
 
 bool UMovieSceneSequencePlayer::PlayToMarkedFrame(const struct FString& InLabel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.PlayToMarkedFrame"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.PlayToMarkedFrame");
 
 	struct
 	{
@@ -743,7 +743,7 @@ bool UMovieSceneSequencePlayer::PlayToMarkedFrame(const struct FString& InLabel)
 
 void UMovieSceneSequencePlayer::PlayToFrame(const struct FFrameTime& NewPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.PlayToFrame"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.PlayToFrame");
 
 	struct
 	{
@@ -761,7 +761,7 @@ void UMovieSceneSequencePlayer::PlayToFrame(const struct FFrameTime& NewPosition
 
 void UMovieSceneSequencePlayer::PlayReverse()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.PlayReverse"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.PlayReverse");
 
 	struct
 	{
@@ -779,7 +779,7 @@ void UMovieSceneSequencePlayer::PlayReverse()
 
 void UMovieSceneSequencePlayer::PlayLooping(int NumLoops)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.PlayLooping"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.PlayLooping");
 
 	struct
 	{
@@ -797,7 +797,7 @@ void UMovieSceneSequencePlayer::PlayLooping(int NumLoops)
 
 void UMovieSceneSequencePlayer::Play()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.Play"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.Play");
 
 	struct
 	{
@@ -813,7 +813,7 @@ void UMovieSceneSequencePlayer::Play()
 
 void UMovieSceneSequencePlayer::Pause()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.Pause"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.Pause");
 
 	struct
 	{
@@ -831,7 +831,7 @@ void UMovieSceneSequencePlayer::Pause()
 
 void UMovieSceneSequencePlayer::JumpToSeconds(float TimeInSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.JumpToSeconds"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.JumpToSeconds");
 
 	struct
 	{
@@ -851,7 +851,7 @@ void UMovieSceneSequencePlayer::JumpToSeconds(float TimeInSeconds)
 
 void UMovieSceneSequencePlayer::JumpToPosition(float NewPlaybackPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.JumpToPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.JumpToPosition");
 
 	struct
 	{
@@ -872,7 +872,7 @@ void UMovieSceneSequencePlayer::JumpToPosition(float NewPlaybackPosition)
 
 bool UMovieSceneSequencePlayer::JumpToMarkedFrame(const struct FString& InLabel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.JumpToMarkedFrame"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.JumpToMarkedFrame");
 
 	struct
 	{
@@ -895,7 +895,7 @@ bool UMovieSceneSequencePlayer::JumpToMarkedFrame(const struct FString& InLabel)
 
 void UMovieSceneSequencePlayer::JumpToFrame(const struct FFrameTime& NewPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.JumpToFrame"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.JumpToFrame");
 
 	struct
 	{
@@ -915,7 +915,7 @@ void UMovieSceneSequencePlayer::JumpToFrame(const struct FFrameTime& NewPosition
 
 bool UMovieSceneSequencePlayer::IsReversed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.IsReversed"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.IsReversed");
 
 	struct
 	{
@@ -936,7 +936,7 @@ bool UMovieSceneSequencePlayer::IsReversed()
 
 bool UMovieSceneSequencePlayer::IsPlaying()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.IsPlaying"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.IsPlaying");
 
 	struct
 	{
@@ -957,7 +957,7 @@ bool UMovieSceneSequencePlayer::IsPlaying()
 
 bool UMovieSceneSequencePlayer::IsPaused()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.IsPaused"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.IsPaused");
 
 	struct
 	{
@@ -976,7 +976,7 @@ bool UMovieSceneSequencePlayer::IsPaused()
 
 void UMovieSceneSequencePlayer::GoToEndAndStop()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GoToEndAndStop"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GoToEndAndStop");
 
 	struct
 	{
@@ -994,7 +994,7 @@ void UMovieSceneSequencePlayer::GoToEndAndStop()
 
 struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetStartTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetStartTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetStartTime");
 
 	struct
 	{
@@ -1015,7 +1015,7 @@ struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetStartTime()
 
 float UMovieSceneSequencePlayer::GetPlayRate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetPlayRate"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetPlayRate");
 
 	struct
 	{
@@ -1036,7 +1036,7 @@ float UMovieSceneSequencePlayer::GetPlayRate()
 
 float UMovieSceneSequencePlayer::GetPlaybackStart()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetPlaybackStart"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetPlaybackStart");
 
 	struct
 	{
@@ -1057,7 +1057,7 @@ float UMovieSceneSequencePlayer::GetPlaybackStart()
 
 float UMovieSceneSequencePlayer::GetPlaybackPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetPlaybackPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetPlaybackPosition");
 
 	struct
 	{
@@ -1078,7 +1078,7 @@ float UMovieSceneSequencePlayer::GetPlaybackPosition()
 
 float UMovieSceneSequencePlayer::GetPlaybackEnd()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetPlaybackEnd"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetPlaybackEnd");
 
 	struct
 	{
@@ -1100,7 +1100,7 @@ float UMovieSceneSequencePlayer::GetPlaybackEnd()
 
 TArray<struct FMovieSceneObjectBindingID> UMovieSceneSequencePlayer::GetObjectBindings(class UObject* InObject)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetObjectBindings"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetObjectBindings");
 
 	struct
 	{
@@ -1123,7 +1123,7 @@ TArray<struct FMovieSceneObjectBindingID> UMovieSceneSequencePlayer::GetObjectBi
 
 float UMovieSceneSequencePlayer::GetLength()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetLength"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetLength");
 
 	struct
 	{
@@ -1144,7 +1144,7 @@ float UMovieSceneSequencePlayer::GetLength()
 
 struct FFrameRate UMovieSceneSequencePlayer::GetFrameRate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetFrameRate"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetFrameRate");
 
 	struct
 	{
@@ -1165,7 +1165,7 @@ struct FFrameRate UMovieSceneSequencePlayer::GetFrameRate()
 
 int UMovieSceneSequencePlayer::GetFrameDuration()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetFrameDuration"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetFrameDuration");
 
 	struct
 	{
@@ -1186,7 +1186,7 @@ int UMovieSceneSequencePlayer::GetFrameDuration()
 
 struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetEndTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetEndTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetEndTime");
 
 	struct
 	{
@@ -1207,7 +1207,7 @@ struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetEndTime()
 
 struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetDuration()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetDuration"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetDuration");
 
 	struct
 	{
@@ -1228,7 +1228,7 @@ struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetDuration()
 
 bool UMovieSceneSequencePlayer::GetDisableCameraCuts()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetDisableCameraCuts"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetDisableCameraCuts");
 
 	struct
 	{
@@ -1249,7 +1249,7 @@ bool UMovieSceneSequencePlayer::GetDisableCameraCuts()
 
 struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetCurrentTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetCurrentTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetCurrentTime");
 
 	struct
 	{
@@ -1271,7 +1271,7 @@ struct FQualifiedFrameTime UMovieSceneSequencePlayer::GetCurrentTime()
 
 TArray<class UObject*> UMovieSceneSequencePlayer::GetBoundObjects(const struct FMovieSceneObjectBindingID& ObjectBinding)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.GetBoundObjects"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.GetBoundObjects");
 
 	struct
 	{
@@ -1292,7 +1292,7 @@ TArray<class UObject*> UMovieSceneSequencePlayer::GetBoundObjects(const struct F
 
 void UMovieSceneSequencePlayer::ChangePlaybackDirection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSequencePlayer.ChangePlaybackDirection"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSequencePlayer.ChangePlaybackDirection");
 
 	struct
 	{
@@ -1310,7 +1310,7 @@ void UMovieSceneSequencePlayer::ChangePlaybackDirection()
 
 void UMovieSceneSubSection::SetSequence(class UMovieSceneSequence* Sequence)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSubSection.SetSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSubSection.SetSequence");
 
 	struct
 	{
@@ -1330,7 +1330,7 @@ void UMovieSceneSubSection::SetSequence(class UMovieSceneSequence* Sequence)
 
 class UMovieSceneSequence* UMovieSceneSubSection::GetSequence()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneSubSection.GetSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneSubSection.GetSequence");
 
 	struct
 	{
@@ -1352,7 +1352,7 @@ class UMovieSceneSequence* UMovieSceneSubSection::GetSequence()
 
 void UMovieSceneCustomClockSource::OnTick(float DeltaSeconds, float InPlayRate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneCustomClockSource.OnTick"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneCustomClockSource.OnTick");
 
 	struct
 	{
@@ -1374,7 +1374,7 @@ void UMovieSceneCustomClockSource::OnTick(float DeltaSeconds, float InPlayRate)
 
 void UMovieSceneCustomClockSource::OnStopPlaying(const struct FQualifiedFrameTime& InStopTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneCustomClockSource.OnStopPlaying"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneCustomClockSource.OnStopPlaying");
 
 	struct
 	{
@@ -1394,7 +1394,7 @@ void UMovieSceneCustomClockSource::OnStopPlaying(const struct FQualifiedFrameTim
 
 void UMovieSceneCustomClockSource::OnStartPlaying(const struct FQualifiedFrameTime& InStartTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneCustomClockSource.OnStartPlaying"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneCustomClockSource.OnStartPlaying");
 
 	struct
 	{
@@ -1416,7 +1416,7 @@ void UMovieSceneCustomClockSource::OnStartPlaying(const struct FQualifiedFrameTi
 
 struct FFrameTime UMovieSceneCustomClockSource::OnRequestCurrentTime(const struct FQualifiedFrameTime& InCurrentTime, float InPlayRate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneCustomClockSource.OnRequestCurrentTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneCustomClockSource.OnRequestCurrentTime");
 
 	struct
 	{
@@ -1442,7 +1442,7 @@ struct FFrameTime UMovieSceneCustomClockSource::OnRequestCurrentTime(const struc
 
 float UMovieSceneEasingFunction::OnEvaluate(float Interp)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function MovieScene.MovieSceneEasingFunction.OnEvaluate"));
+	static auto fn = UObject::FindObject<UFunction>("Function MovieScene.MovieSceneEasingFunction.OnEvaluate");
 
 	struct
 	{

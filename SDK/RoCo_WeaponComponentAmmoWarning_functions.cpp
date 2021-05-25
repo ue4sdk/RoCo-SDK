@@ -19,7 +19,7 @@ namespace SDK
 
 void UWeaponComponentAmmoWarning_C::Get_Ammo_Warning_Text(struct FText* AmmoText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.Get Ammo Warning Text"));
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.Get Ammo Warning Text");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWeaponComponentAmmoWarning_C::Get_Ammo_Warning_Text(struct FText* AmmoText
 
 void UWeaponComponentAmmoWarning_C::Update_Visibility_And_State()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.Update Visibility And State"));
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.Update Visibility And State");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWeaponComponentAmmoWarning_C::Update_Visibility_And_State()
 
 void UWeaponComponentAmmoWarning_C::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.PostSetPawn");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWeaponComponentAmmoWarning_C::PostSetPawn()
 
 void UWeaponComponentAmmoWarning_C::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.PreClearPawn");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWeaponComponentAmmoWarning_C::PreClearPawn()
 
 void UWeaponComponentAmmoWarning_C::PawnHealthChanged(class AKSCharacterBase* Character)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.PawnHealthChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.PawnHealthChanged");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWeaponComponentAmmoWarning_C::PawnHealthChanged(class AKSCharacterBase* Ch
 
 void UWeaponComponentAmmoWarning_C::AmmoStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.AmmoStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.AmmoStateChanged");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UWeaponComponentAmmoWarning_C::AmmoStateChanged()
 
 void UWeaponComponentAmmoWarning_C::PostSetActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.PostSetActiveWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.PostSetActiveWeaponComponent");
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UWeaponComponentAmmoWarning_C::PostSetActiveWeaponComponent()
 
 void UWeaponComponentAmmoWarning_C::ExecuteUbergraph_WeaponComponentAmmoWarning(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.ExecuteUbergraph_WeaponComponentAmmoWarning"));
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponComponentAmmoWarning.WeaponComponentAmmoWarning_C.ExecuteUbergraph_WeaponComponentAmmoWarning");
 
 	struct
 	{

@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ACLPlugin.ACLStatsDumpCommandlet"));
+		static auto ptr = UObject::FindObject<UClass>("Class ACLPlugin.ACLStatsDumpCommandlet");
 		return ptr;
 	}
 
@@ -37,7 +37,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ACLPlugin.AnimBoneCompressionCodec_ACLBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class ACLPlugin.AnimBoneCompressionCodec_ACLBase");
 		return ptr;
 	}
 
@@ -53,7 +53,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ACLPlugin.AnimBoneCompressionCodec_ACL"));
+		static auto ptr = UObject::FindObject<UClass>("Class ACLPlugin.AnimBoneCompressionCodec_ACL");
 		return ptr;
 	}
 
@@ -68,7 +68,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ACLPlugin.AnimBoneCompressionCodec_ACLCustom"));
+		static auto ptr = UObject::FindObject<UClass>("Class ACLPlugin.AnimBoneCompressionCodec_ACLCustom");
 		return ptr;
 	}
 
@@ -83,7 +83,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ACLPlugin.AnimBoneCompressionCodec_ACLSafe"));
+		static auto ptr = UObject::FindObject<UClass>("Class ACLPlugin.AnimBoneCompressionCodec_ACLSafe");
 		return ptr;
 	}
 
@@ -98,7 +98,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ACLPlugin.AnimCurveCompressionCodec_ACL"));
+		static auto ptr = UObject::FindObject<UClass>("Class ACLPlugin.AnimCurveCompressionCodec_ACL");
 		return ptr;
 	}
 

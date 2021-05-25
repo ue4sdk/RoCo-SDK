@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ChallengeEntry_Seasonal_C::RefreshFromActivitySequenceData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.RefreshFromActivitySequenceData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.RefreshFromActivitySequenceData");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_ChallengeEntry_Seasonal_C::RefreshFromActivitySequenceData()
 
 void UWBP_ChallengeEntry_Seasonal_C::SetLayoutState(TEnumAsByte<EChallengeEntry_Card_State> ProgressState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.SetLayoutState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.SetLayoutState");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_ChallengeEntry_Seasonal_C::SetLayoutState(TEnumAsByte<EChallengeEntry_
 
 void UWBP_ChallengeEntry_Seasonal_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.PreConstruct");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_ChallengeEntry_Seasonal_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ChallengeEntry_Seasonal_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_ChallengeEntry_Seasonal_C::BndEvt__HitTarget_K2Node_ComponentBoundEven
 
 void UWBP_ChallengeEntry_Seasonal_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -105,7 +105,7 @@ void UWBP_ChallengeEntry_Seasonal_C::BndEvt__HitTarget_K2Node_ComponentBoundEven
 
 void UWBP_ChallengeEntry_Seasonal_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.GamepadHover");
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWBP_ChallengeEntry_Seasonal_C::GamepadHover()
 
 void UWBP_ChallengeEntry_Seasonal_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.GamepadUnhover");
 
 	struct
 	{
@@ -139,7 +139,7 @@ void UWBP_ChallengeEntry_Seasonal_C::GamepadUnhover()
 
 void UWBP_ChallengeEntry_Seasonal_C::ExecuteUbergraph_WBP_ChallengeEntry_Seasonal(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.ExecuteUbergraph_WBP_ChallengeEntry_Seasonal"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.ExecuteUbergraph_WBP_ChallengeEntry_Seasonal");
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UWBP_ChallengeEntry_Seasonal_C::ExecuteUbergraph_WBP_ChallengeEntry_Seasona
 
 void UWBP_ChallengeEntry_Seasonal_C::OnWeekGamepadHovered__DelegateSignature(class UWBP_ChallengeEntry_Seasonal_C* Hovered_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.OnWeekGamepadHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ChallengeEntry_Seasonal.WBP_ChallengeEntry_Seasonal_C.OnWeekGamepadHovered__DelegateSignature");
 
 	struct
 	{

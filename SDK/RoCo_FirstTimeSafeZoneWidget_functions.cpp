@@ -17,7 +17,7 @@ namespace SDK
 
 void UFirstTimeSafeZoneWidget_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UFirstTimeSafeZoneWidget_C::InitializeWidgetNavigation()
 
 void UFirstTimeSafeZoneWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.InitializeWidget");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UFirstTimeSafeZoneWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UFirstTimeSafeZoneWidget_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.OnShown");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UFirstTimeSafeZoneWidget_C::OnShown()
 
 void UFirstTimeSafeZoneWidget_C::BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.BndEvt__WBP_StandardButtonMedium_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UFirstTimeSafeZoneWidget_C::BndEvt__WBP_StandardButtonMedium_K2Node_Compone
 
 void UFirstTimeSafeZoneWidget_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.PreConstruct");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UFirstTimeSafeZoneWidget_C::PreConstruct(bool IsDesignTime)
 
 void UFirstTimeSafeZoneWidget_C::ExecuteUbergraph_FirstTimeSafeZoneWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.ExecuteUbergraph_FirstTimeSafeZoneWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function FirstTimeSafeZoneWidget.FirstTimeSafeZoneWidget_C.ExecuteUbergraph_FirstTimeSafeZoneWidget");
 
 	struct
 	{

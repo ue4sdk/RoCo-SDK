@@ -56,7 +56,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_EventBuyThroughScreen.WBP_EventBuyThroughScreen_C");
 		return ptr;
 	}
 

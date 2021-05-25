@@ -29,7 +29,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TcpMessaging.TcpMessagingSettings"));
+		static auto ptr = UObject::FindObject<UClass>("Class TcpMessaging.TcpMessagingSettings");
 		return ptr;
 	}
 

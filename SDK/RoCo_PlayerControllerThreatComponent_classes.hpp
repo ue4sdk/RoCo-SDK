@@ -22,7 +22,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass PlayerControllerThreatComponent.PlayerControllerThreatComponent_C"));
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass PlayerControllerThreatComponent.PlayerControllerThreatComponent_C");
 		return ptr;
 	}
 

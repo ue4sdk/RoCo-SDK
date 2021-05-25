@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_AmmoCount_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AmmoCount.WBP_AmmoCount_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AmmoCount.WBP_AmmoCount_C.Construct");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_AmmoCount_C::Construct()
 
 void UWBP_AmmoCount_C::SetAmmoActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AmmoCount.WBP_AmmoCount_C.SetAmmoActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AmmoCount.WBP_AmmoCount_C.SetAmmoActive");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_AmmoCount_C::SetAmmoActive(bool IsActive)
 
 void UWBP_AmmoCount_C::SetAmmoColor(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AmmoCount.WBP_AmmoCount_C.SetAmmoColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AmmoCount.WBP_AmmoCount_C.SetAmmoColor");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_AmmoCount_C::SetAmmoColor(bool IsActive)
 
 void UWBP_AmmoCount_C::ExecuteUbergraph_WBP_AmmoCount(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_AmmoCount.WBP_AmmoCount_C.ExecuteUbergraph_WBP_AmmoCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_AmmoCount.WBP_AmmoCount_C.ExecuteUbergraph_WBP_AmmoCount");
 
 	struct
 	{

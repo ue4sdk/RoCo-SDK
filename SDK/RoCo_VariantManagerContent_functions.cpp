@@ -20,7 +20,7 @@ namespace SDK
 
 class UVariantSet* ULevelVariantSets::GetVariantSetByName(const struct FString& VariantSetName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.LevelVariantSets.GetVariantSetByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.LevelVariantSets.GetVariantSetByName");
 
 	struct
 	{
@@ -44,7 +44,7 @@ class UVariantSet* ULevelVariantSets::GetVariantSetByName(const struct FString& 
 
 class UVariantSet* ULevelVariantSets::GetVariantSet(int VariantSetIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.LevelVariantSets.GetVariantSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.LevelVariantSets.GetVariantSet");
 
 	struct
 	{
@@ -67,7 +67,7 @@ class UVariantSet* ULevelVariantSets::GetVariantSet(int VariantSetIndex)
 
 int ULevelVariantSets::GetNumVariantSets()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.LevelVariantSets.GetNumVariantSets"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.LevelVariantSets.GetNumVariantSets");
 
 	struct
 	{
@@ -90,7 +90,7 @@ int ULevelVariantSets::GetNumVariantSets()
 
 bool ALevelVariantSetsActor::SwitchOnVariantByName(const struct FString& VariantSetName, const struct FString& VariantName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.LevelVariantSetsActor.SwitchOnVariantByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.LevelVariantSetsActor.SwitchOnVariantByName");
 
 	struct
 	{
@@ -117,7 +117,7 @@ bool ALevelVariantSetsActor::SwitchOnVariantByName(const struct FString& Variant
 
 bool ALevelVariantSetsActor::SwitchOnVariantByIndex(int VariantSetIndex, int VariantIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.LevelVariantSetsActor.SwitchOnVariantByIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.LevelVariantSetsActor.SwitchOnVariantByIndex");
 
 	struct
 	{
@@ -142,7 +142,7 @@ bool ALevelVariantSetsActor::SwitchOnVariantByIndex(int VariantSetIndex, int Var
 
 void ALevelVariantSetsActor::SetLevelVariantSets(class ULevelVariantSets* InVariantSets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.LevelVariantSetsActor.SetLevelVariantSets"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.LevelVariantSetsActor.SetLevelVariantSets");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void ALevelVariantSetsActor::SetLevelVariantSets(class ULevelVariantSets* InVari
 
 class ULevelVariantSets* ALevelVariantSetsActor::GetLevelVariantSets(bool bLoad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.LevelVariantSetsActor.GetLevelVariantSets"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.LevelVariantSetsActor.GetLevelVariantSets");
 
 	struct
 	{
@@ -186,7 +186,7 @@ class ULevelVariantSets* ALevelVariantSetsActor::GetLevelVariantSets(bool bLoad)
 
 bool UPropertyValue::HasRecordedData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.PropertyValue.HasRecordedData"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.PropertyValue.HasRecordedData");
 
 	struct
 	{
@@ -207,7 +207,7 @@ bool UPropertyValue::HasRecordedData()
 
 struct FText UPropertyValue::GetPropertyTooltip()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.PropertyValue.GetPropertyTooltip"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.PropertyValue.GetPropertyTooltip");
 
 	struct
 	{
@@ -228,7 +228,7 @@ struct FText UPropertyValue::GetPropertyTooltip()
 
 struct FString UPropertyValue::GetFullDisplayString()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.PropertyValue.GetFullDisplayString"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.PropertyValue.GetFullDisplayString");
 
 	struct
 	{
@@ -249,7 +249,7 @@ struct FString UPropertyValue::GetFullDisplayString()
 
 void ASwitchActor::SelectOption(int OptionIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.SwitchActor.SelectOption"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.SwitchActor.SelectOption");
 
 	struct
 	{
@@ -269,7 +269,7 @@ void ASwitchActor::SelectOption(int OptionIndex)
 
 int ASwitchActor::GetSelectedOption()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.SwitchActor.GetSelectedOption"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.SwitchActor.GetSelectedOption");
 
 	struct
 	{
@@ -290,7 +290,7 @@ int ASwitchActor::GetSelectedOption()
 
 TArray<class AActor*> ASwitchActor::GetOptions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.SwitchActor.GetOptions"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.SwitchActor.GetOptions");
 
 	struct
 	{
@@ -309,7 +309,7 @@ TArray<class AActor*> ASwitchActor::GetOptions()
 
 void UVariant::SwitchOn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.Variant.SwitchOn"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.Variant.SwitchOn");
 
 	struct
 	{
@@ -327,7 +327,7 @@ void UVariant::SwitchOn()
 
 void UVariant::SetDisplayText(const struct FText& NewDisplayText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.Variant.SetDisplayText"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.Variant.SetDisplayText");
 
 	struct
 	{
@@ -347,7 +347,7 @@ void UVariant::SetDisplayText(const struct FText& NewDisplayText)
 
 bool UVariant::IsActive()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.Variant.IsActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.Variant.IsActive");
 
 	struct
 	{
@@ -368,7 +368,7 @@ bool UVariant::IsActive()
 
 class UTexture2D* UVariant::GetThumbnail()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.Variant.GetThumbnail"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.Variant.GetThumbnail");
 
 	struct
 	{
@@ -389,7 +389,7 @@ class UTexture2D* UVariant::GetThumbnail()
 
 int UVariant::GetNumActors()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.Variant.GetNumActors"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.Variant.GetNumActors");
 
 	struct
 	{
@@ -410,7 +410,7 @@ int UVariant::GetNumActors()
 
 struct FText UVariant::GetDisplayText()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.Variant.GetDisplayText"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.Variant.GetDisplayText");
 
 	struct
 	{
@@ -432,7 +432,7 @@ struct FText UVariant::GetDisplayText()
 
 class AActor* UVariant::GetActor(int ActorIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.Variant.GetActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.Variant.GetActor");
 
 	struct
 	{
@@ -455,7 +455,7 @@ class AActor* UVariant::GetActor(int ActorIndex)
 
 void UVariantSet::SetDisplayText(const struct FText& NewDisplayText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.VariantSet.SetDisplayText"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.VariantSet.SetDisplayText");
 
 	struct
 	{
@@ -476,7 +476,7 @@ void UVariantSet::SetDisplayText(const struct FText& NewDisplayText)
 
 class UVariant* UVariantSet::GetVariantByName(const struct FString& VariantName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.VariantSet.GetVariantByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.VariantSet.GetVariantByName");
 
 	struct
 	{
@@ -500,7 +500,7 @@ class UVariant* UVariantSet::GetVariantByName(const struct FString& VariantName)
 
 class UVariant* UVariantSet::GetVariant(int VariantIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.VariantSet.GetVariant"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.VariantSet.GetVariant");
 
 	struct
 	{
@@ -523,7 +523,7 @@ class UVariant* UVariantSet::GetVariant(int VariantIndex)
 
 int UVariantSet::GetNumVariants()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.VariantSet.GetNumVariants"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.VariantSet.GetNumVariants");
 
 	struct
 	{
@@ -544,7 +544,7 @@ int UVariantSet::GetNumVariants()
 
 struct FText UVariantSet::GetDisplayText()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function VariantManagerContent.VariantSet.GetDisplayText"));
+	static auto fn = UObject::FindObject<UFunction>("Function VariantManagerContent.VariantSet.GetDisplayText");
 
 	struct
 	{

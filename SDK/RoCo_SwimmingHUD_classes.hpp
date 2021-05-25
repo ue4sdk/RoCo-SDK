@@ -24,7 +24,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass SwimmingHUD.SwimmingHUD_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass SwimmingHUD.SwimmingHUD_C");
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 bool UStandardButtonNoBorder_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.NavigateConfirm");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UStandardButtonNoBorder_C::NavigateConfirm()
 
 void UStandardButtonNoBorder_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UStandardButtonNoBorder_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent
 
 void UStandardButtonNoBorder_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UStandardButtonNoBorder_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent
 
 void UStandardButtonNoBorder_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UStandardButtonNoBorder_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent
 
 void UStandardButtonNoBorder_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.GamepadHover");
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UStandardButtonNoBorder_C::GamepadHover()
 
 void UStandardButtonNoBorder_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.GamepadUnhover");
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UStandardButtonNoBorder_C::GamepadUnhover()
 
 void UStandardButtonNoBorder_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.GamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.GamepadConfirm");
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UStandardButtonNoBorder_C::GamepadConfirm()
 
 void UStandardButtonNoBorder_C::Do_Hover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.Do Hover"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.Do Hover");
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UStandardButtonNoBorder_C::Do_Hover()
 
 void UStandardButtonNoBorder_C::Do_Unhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.Do Unhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.Do Unhover");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UStandardButtonNoBorder_C::Do_Unhover()
 
 void UStandardButtonNoBorder_C::ExecuteUbergraph_StandardButtonNoBorder(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.ExecuteUbergraph_StandardButtonNoBorder"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.ExecuteUbergraph_StandardButtonNoBorder");
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UStandardButtonNoBorder_C::ExecuteUbergraph_StandardButtonNoBorder(int Entr
 
 void UStandardButtonNoBorder_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UStandardButtonNoBorder_C::OnUnhovered__DelegateSignature(class UWidget* Wi
 
 void UStandardButtonNoBorder_C::OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.OnHovered__DelegateSignature");
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UStandardButtonNoBorder_C::OnHovered__DelegateSignature(class UWidget* Widg
 
 void UStandardButtonNoBorder_C::OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButtonNoBorder.StandardButtonNoBorder_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButtonNoBorder.StandardButtonNoBorder_C.OnClicked__DelegateSignature");
 
 	struct
 	{

@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_RougeStatsScreen_C::RegisterScrollingInput()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.RegisterScrollingInput"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.RegisterScrollingInput");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_RougeStatsScreen_C::RegisterScrollingInput()
 
 bool UWBP_RougeStatsScreen_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.NavigateBack");
 
 	struct
 	{
@@ -54,7 +54,7 @@ bool UWBP_RougeStatsScreen_C::NavigateBack()
 
 void UWBP_RougeStatsScreen_C::GoBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.GoBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.GoBack");
 
 	struct
 	{
@@ -72,7 +72,7 @@ void UWBP_RougeStatsScreen_C::GoBack()
 
 void UWBP_RougeStatsScreen_C::TickScrolling(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.TickScrolling"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.TickScrolling");
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_RougeStatsScreen_C::TickScrolling(float DeltaTime)
 
 void UWBP_RougeStatsScreen_C::ScrollReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ScrollReleased"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ScrollReleased");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_RougeStatsScreen_C::ScrollReleased()
 
 void UWBP_RougeStatsScreen_C::ScrollDownPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ScrollDownPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ScrollDownPressed");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_RougeStatsScreen_C::ScrollDownPressed()
 
 void UWBP_RougeStatsScreen_C::ScrollUpPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ScrollUpPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ScrollUpPressed");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_RougeStatsScreen_C::ScrollUpPressed()
 
 void UWBP_RougeStatsScreen_C::SetupTabNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.SetupTabNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.SetupTabNavigation");
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_RougeStatsScreen_C::SetupTabNavigation()
 
 void UWBP_RougeStatsScreen_C::GetPooledStatEntry(class UWBP_RogueStatsScreen_RogueEntry_C** StatEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.GetPooledStatEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.GetPooledStatEntry");
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_RougeStatsScreen_C::GetPooledStatEntry(class UWBP_RogueStatsScreen_Rog
 
 void UWBP_RougeStatsScreen_C::ReturnAllStatEntriesToPool()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ReturnAllStatEntriesToPool"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ReturnAllStatEntriesToPool");
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UWBP_RougeStatsScreen_C::ReturnAllStatEntriesToPool()
 
 bool UWBP_RougeStatsScreen_C::On_PnlStatEntries_SortCompareChildren_1(class UWidget* LHS, class UWidget* RHS)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.On_PnlStatEntries_SortCompareChildren_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.On_PnlStatEntries_SortCompareChildren_1");
 
 	struct
 	{
@@ -221,7 +221,7 @@ bool UWBP_RougeStatsScreen_C::On_PnlStatEntries_SortCompareChildren_1(class UWid
 
 void UWBP_RougeStatsScreen_C::SelectStat(class UKSActivityComponent_MercMastery* MercMastery)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.SelectStat"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.SelectStat");
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UWBP_RougeStatsScreen_C::SelectStat(class UKSActivityComponent_MercMastery*
 
 void UWBP_RougeStatsScreen_C::AddStatTabs()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.AddStatTabs"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.AddStatTabs");
 
 	struct
 	{
@@ -255,7 +255,7 @@ void UWBP_RougeStatsScreen_C::AddStatTabs()
 
 void UWBP_RougeStatsScreen_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.Construct");
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UWBP_RougeStatsScreen_C::Construct()
 
 void UWBP_RougeStatsScreen_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.Tick");
 
 	struct
 	{
@@ -296,7 +296,7 @@ void UWBP_RougeStatsScreen_C::Tick(const struct FGeometry& MyGeometry, float InD
 
 void UWBP_RougeStatsScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.InitializeWidget");
 
 	struct
 	{
@@ -314,7 +314,7 @@ void UWBP_RougeStatsScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RougeStatsScreen_C::BndEvt__KeyboardBackButton_K2Node_ComponentBoundEvent_2_OnBackButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.BndEvt__KeyboardBackButton_K2Node_ComponentBoundEvent_2_OnBackButtonClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.BndEvt__KeyboardBackButton_K2Node_ComponentBoundEvent_2_OnBackButtonClicked__DelegateSignature");
 
 	struct
 	{
@@ -330,7 +330,7 @@ void UWBP_RougeStatsScreen_C::BndEvt__KeyboardBackButton_K2Node_ComponentBoundEv
 
 void UWBP_RougeStatsScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -346,7 +346,7 @@ void UWBP_RougeStatsScreen_C::InitializeWidgetNavigation()
 
 void UWBP_RougeStatsScreen_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.InitializeWidgetButtonListeners"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.InitializeWidgetButtonListeners");
 
 	struct
 	{
@@ -362,7 +362,7 @@ void UWBP_RougeStatsScreen_C::InitializeWidgetButtonListeners()
 
 void UWBP_RougeStatsScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.OnShown");
 
 	struct
 	{
@@ -378,7 +378,7 @@ void UWBP_RougeStatsScreen_C::OnShown()
 
 void UWBP_RougeStatsScreen_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.OnBackPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.OnBackPrompt");
 
 	struct
 	{
@@ -396,7 +396,7 @@ void UWBP_RougeStatsScreen_C::OnBackPrompt()
 
 void UWBP_RougeStatsScreen_C::ExecuteUbergraph_WBP_RougeStatsScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ExecuteUbergraph_WBP_RougeStatsScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RougeStatsScreen.WBP_RougeStatsScreen_C.ExecuteUbergraph_WBP_RougeStatsScreen");
 
 	struct
 	{

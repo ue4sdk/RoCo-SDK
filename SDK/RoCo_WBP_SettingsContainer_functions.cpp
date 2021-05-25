@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_SettingsContainer_C::GetPreviewWidget(class UKSWidget** PreviewWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.GetPreviewWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.GetPreviewWidget");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_SettingsContainer_C::GetPreviewWidget(class UKSWidget** PreviewWidget)
 
 void UWBP_SettingsContainer_C::Add_Setting_Widget_To_Box(class UKSSettingsWidget* Setting_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.Add Setting Widget To Box"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.Add Setting Widget To Box");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_SettingsContainer_C::Add_Setting_Widget_To_Box(class UKSSettingsWidget
 
 void UWBP_SettingsContainer_C::SettingsContainerHoverSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.SettingsContainerHoverSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.SettingsContainerHoverSFX");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_SettingsContainer_C::SettingsContainerHoverSFX()
 
 void UWBP_SettingsContainer_C::OnContainerConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.OnContainerConfigSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.OnContainerConfigSet");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_SettingsContainer_C::OnContainerConfigSet()
 
 void UWBP_SettingsContainer_C::AddSettingsWidget(class UKSSettingsWidget* SettingsWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.AddSettingsWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.AddSettingsWidget");
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_SettingsContainer_C::AddSettingsWidget(class UKSSettingsWidget* Settin
 
 void UWBP_SettingsContainer_C::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.OnMouseEnter"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.OnMouseEnter");
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UWBP_SettingsContainer_C::OnMouseEnter(const struct FGeometry& MyGeometry, 
 
 void UWBP_SettingsContainer_C::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.OnMouseLeave"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.OnMouseLeave");
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_SettingsContainer_C::OnMouseLeave(const struct FPointerEvent& MouseEve
 
 void UWBP_SettingsContainer_C::PlayHoverAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.PlayHoverAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.PlayHoverAnim");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_SettingsContainer_C::PlayHoverAnim()
 
 void UWBP_SettingsContainer_C::PlayUnhoverAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.PlayUnhoverAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.PlayUnhoverAnim");
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_SettingsContainer_C::PlayUnhoverAnim()
 
 void UWBP_SettingsContainer_C::AddPreviewWidget(class UKSSettingsPreview* PreviewWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.AddPreviewWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.AddPreviewWidget");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_SettingsContainer_C::AddPreviewWidget(class UKSSettingsPreview* Previe
 
 void UWBP_SettingsContainer_C::ExecuteUbergraph_WBP_SettingsContainer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.ExecuteUbergraph_WBP_SettingsContainer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.ExecuteUbergraph_WBP_SettingsContainer");
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UWBP_SettingsContainer_C::ExecuteUbergraph_WBP_SettingsContainer(int EntryP
 
 void UWBP_SettingsContainer_C::OnAddToPreview__DelegateSignature(class UKSWidget* PreviewWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsContainer.WBP_SettingsContainer_C.OnAddToPreview__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsContainer.WBP_SettingsContainer_C.OnAddToPreview__DelegateSignature");
 
 	struct
 	{

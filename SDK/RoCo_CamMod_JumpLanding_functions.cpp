@@ -19,7 +19,7 @@ namespace SDK
 
 void UCamMod_JumpLanding_C::ShouldModifyCamera(bool* bSuccess)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_JumpLanding.CamMod_JumpLanding_C.ShouldModifyCamera"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_JumpLanding.CamMod_JumpLanding_C.ShouldModifyCamera");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UCamMod_JumpLanding_C::ShouldModifyCamera(bool* bSuccess)
 
 void UCamMod_JumpLanding_C::PlayTimeline()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_JumpLanding.CamMod_JumpLanding_C.PlayTimeline"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_JumpLanding.CamMod_JumpLanding_C.PlayTimeline");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UCamMod_JumpLanding_C::PlayTimeline()
 
 void UCamMod_JumpLanding_C::OnCamModFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_JumpLanding.CamMod_JumpLanding_C.OnCamModFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_JumpLanding.CamMod_JumpLanding_C.OnCamModFinished");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UCamMod_JumpLanding_C::OnCamModFinished()
 
 void UCamMod_JumpLanding_C::ExecuteUbergraph_CamMod_JumpLanding(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CamMod_JumpLanding.CamMod_JumpLanding_C.ExecuteUbergraph_CamMod_JumpLanding"));
+	static auto fn = UObject::FindObject<UFunction>("Function CamMod_JumpLanding.CamMod_JumpLanding_C.ExecuteUbergraph_CamMod_JumpLanding");
 
 	struct
 	{

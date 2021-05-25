@@ -19,7 +19,7 @@ namespace SDK
 
 void UClothingSimulationInteractorNv::SetAnimDriveDamperStiffness(float InStiffness)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ClothingSystemRuntimeNv.ClothingSimulationInteractorNv.SetAnimDriveDamperStiffness"));
+	static auto fn = UObject::FindObject<UFunction>("Function ClothingSystemRuntimeNv.ClothingSimulationInteractorNv.SetAnimDriveDamperStiffness");
 
 	struct
 	{

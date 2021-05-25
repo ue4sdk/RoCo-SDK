@@ -19,7 +19,7 @@ namespace SDK
 
 void UGuidedMenuCalloutsViewRedirector::SetNPEGuidedCalloutSeen(EConfigPropertyGuidedCalloutScenes GuidedCalloutScene)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.GuidedMenuCalloutsViewRedirector.SetNPEGuidedCalloutSeen"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.GuidedMenuCalloutsViewRedirector.SetNPEGuidedCalloutSeen");
 
 	struct
 	{
@@ -40,7 +40,7 @@ void UGuidedMenuCalloutsViewRedirector::SetNPEGuidedCalloutSeen(EConfigPropertyG
 
 bool UGuidedMenuCalloutsViewRedirector::HasSeenNPEGuidedCallout(EConfigPropertyGuidedCalloutScenes GuidedCalloutScene)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.GuidedMenuCalloutsViewRedirector.HasSeenNPEGuidedCallout"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.GuidedMenuCalloutsViewRedirector.HasSeenNPEGuidedCallout");
 
 	struct
 	{
@@ -61,7 +61,7 @@ bool UGuidedMenuCalloutsViewRedirector::HasSeenNPEGuidedCallout(EConfigPropertyG
 
 void UKSWidget::UnbindFromViewportSizeChange()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.UnbindFromViewportSizeChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.UnbindFromViewportSizeChange");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UKSWidget::UnbindFromViewportSizeChange()
 
 void UKSWidget::TriggerGlobalInvalidate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.TriggerGlobalInvalidate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.TriggerGlobalInvalidate");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UKSWidget::TriggerGlobalInvalidate()
 
 void UKSWidget::StopTickAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.StopTickAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.StopTickAnimation");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UKSWidget::StopTickAnimation(const struct FName& AnimName)
 
 void UKSWidget::SkipToEndTickAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.SkipToEndTickAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.SkipToEndTickAnimation");
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UKSWidget::SkipToEndTickAnimation(const struct FName& AnimName)
 
 void UKSWidget::SetAllAnimationsPlaybackSpeed(float PlaybackSpeed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.SetAllAnimationsPlaybackSpeed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.SetAllAnimationsPlaybackSpeed");
 
 	struct
 	{
@@ -155,7 +155,7 @@ void UKSWidget::SetAllAnimationsPlaybackSpeed(float PlaybackSpeed)
 
 void UKSWidget::ResumeTickAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.ResumeTickAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.ResumeTickAnimation");
 
 	struct
 	{
@@ -175,7 +175,7 @@ void UKSWidget::ResumeTickAnimation(const struct FName& AnimName)
 
 void UKSWidget::RemoveTickAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.RemoveTickAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.RemoveTickAnimation");
 
 	struct
 	{
@@ -195,7 +195,7 @@ void UKSWidget::RemoveTickAnimation(const struct FName& AnimName)
 
 void UKSWidget::PlayTickAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.PlayTickAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.PlayTickAnimation");
 
 	struct
 	{
@@ -215,7 +215,7 @@ void UKSWidget::PlayTickAnimation(const struct FName& AnimName)
 
 void UKSWidget::PauseTickAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.PauseTickAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.PauseTickAnimation");
 
 	struct
 	{
@@ -235,7 +235,7 @@ void UKSWidget::PauseTickAnimation(const struct FName& AnimName)
 
 bool UKSWidget::IsInKillCamPlayback()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.IsInKillCamPlayback"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.IsInKillCamPlayback");
 
 	struct
 	{
@@ -254,7 +254,7 @@ bool UKSWidget::IsInKillCamPlayback()
 
 void UKSWidget::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.InitializeTickAnimations"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.InitializeTickAnimations");
 
 	struct
 	{
@@ -274,7 +274,7 @@ void UKSWidget::InitializeTickAnimations()
 
 bool UKSWidget::GetTickAnimationInfo(const struct FName& AnimName, struct FTickAnimationParams* OutAnimParams)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.GetTickAnimationInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.GetTickAnimationInfo");
 
 	struct
 	{
@@ -301,7 +301,7 @@ bool UKSWidget::GetTickAnimationInfo(const struct FName& AnimName, struct FTickA
 
 class APlayerController* UKSWidget::GetNormalOwningPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.GetNormalOwningPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.GetNormalOwningPlayer");
 
 	struct
 	{
@@ -322,7 +322,7 @@ class APlayerController* UKSWidget::GetNormalOwningPlayer()
 
 class APlayerController* UKSWidget::GetKillCamSpectatorController()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.GetKillCamSpectatorController"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.GetKillCamSpectatorController");
 
 	struct
 	{
@@ -343,7 +343,7 @@ class APlayerController* UKSWidget::GetKillCamSpectatorController()
 
 class APlayerController* UKSWidget::GetActivePlayerController()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.GetActivePlayerController"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.GetActivePlayerController");
 
 	struct
 	{
@@ -362,7 +362,7 @@ class APlayerController* UKSWidget::GetActivePlayerController()
 
 void UKSWidget::BlueprintPrepareKillCamPlayback()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.BlueprintPrepareKillCamPlayback"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.BlueprintPrepareKillCamPlayback");
 
 	struct
 	{
@@ -378,7 +378,7 @@ void UKSWidget::BlueprintPrepareKillCamPlayback()
 
 void UKSWidget::BlueprintFinishKillCamPlayback()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.BlueprintFinishKillCamPlayback"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.BlueprintFinishKillCamPlayback");
 
 	struct
 	{
@@ -396,7 +396,7 @@ void UKSWidget::BlueprintFinishKillCamPlayback()
 
 void UKSWidget::BindToViewportSizeChange(const struct FScriptDelegate& InViewportEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.BindToViewportSizeChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.BindToViewportSizeChange");
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UKSWidget::BindToViewportSizeChange(const struct FScriptDelegate& InViewpor
 
 void UKSWidget::AddTickAnimation(const struct FName& AnimName, float Duration, const struct FScriptDelegate& UpdateEvent, const struct FScriptDelegate& FinishedEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWidget.AddTickAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWidget.AddTickAnimation");
 
 	struct
 	{
@@ -445,7 +445,7 @@ void UKSWidget::AddTickAnimation(const struct FName& AnimName, float Duration, c
 
 void UKSAccoladeQueueWidget::Queue(TArray<struct FAccoladeEventEntry> Accolades)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAccoladeQueueWidget.Queue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAccoladeQueueWidget.Queue");
 
 	struct
 	{
@@ -465,7 +465,7 @@ void UKSAccoladeQueueWidget::Queue(TArray<struct FAccoladeEventEntry> Accolades)
 
 void UKSAccoladeQueueWidget::OnAccoladeRemovedFromScreen(const struct FAccoladeDisplayInfo& AccoladeRemoved)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAccoladeQueueWidget.OnAccoladeRemovedFromScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAccoladeQueueWidget.OnAccoladeRemovedFromScreen");
 
 	struct
 	{
@@ -486,7 +486,7 @@ void UKSAccoladeQueueWidget::OnAccoladeRemovedFromScreen(const struct FAccoladeD
 
 bool UKSAccoladeQueueWidget::GetNext(struct FAccoladeDisplayInfo* Accolade)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAccoladeQueueWidget.GetNext"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAccoladeQueueWidget.GetNext");
 
 	struct
 	{
@@ -509,7 +509,7 @@ bool UKSAccoladeQueueWidget::GetNext(struct FAccoladeDisplayInfo* Accolade)
 
 void UKSAccoladeQueueWidget::ClearAccoladeQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAccoladeQueueWidget.ClearAccoladeQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAccoladeQueueWidget.ClearAccoladeQueue");
 
 	struct
 	{
@@ -528,7 +528,7 @@ void UKSAccoladeQueueWidget::ClearAccoladeQueue()
 
 struct FText UKSAcquisitionModal::GetHeaderText(class UKSAcquisition* Acquisitition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAcquisitionModal.GetHeaderText"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAcquisitionModal.GetHeaderText");
 
 	struct
 	{
@@ -551,7 +551,7 @@ struct FText UKSAcquisitionModal::GetHeaderText(class UKSAcquisition* Acquisitit
 
 class UKSAcquisitionManager* UKSAcquisitionModal::GetAcquisitionManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAcquisitionModal.GetAcquisitionManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAcquisitionModal.GetAcquisitionManager");
 
 	struct
 	{
@@ -572,7 +572,7 @@ class UKSAcquisitionManager* UKSAcquisitionModal::GetAcquisitionManager()
 
 void UKSActiveBonusesWidget::GetBonusAppliedToLastMatch(TArray<struct FKSLimitedTimeEventMetadataRow>* ActiveEvents)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSActiveBonusesWidget.GetBonusAppliedToLastMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSActiveBonusesWidget.GetBonusAppliedToLastMatch");
 
 	struct
 	{
@@ -592,7 +592,7 @@ void UKSActiveBonusesWidget::GetBonusAppliedToLastMatch(TArray<struct FKSLimited
 
 void UKSPawnWidget::SetPlayerStateUIRelevanceChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.SetPlayerStateUIRelevanceChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.SetPlayerStateUIRelevanceChanged");
 
 	struct
 	{
@@ -610,7 +610,7 @@ void UKSPawnWidget::SetPlayerStateUIRelevanceChanged()
 
 void UKSPawnWidget::SetPawn(class AKSCharacter* NewPawn)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.SetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.SetPawn");
 
 	struct
 	{
@@ -628,7 +628,7 @@ void UKSPawnWidget::SetPawn(class AKSCharacter* NewPawn)
 
 void UKSPawnWidget::PreClearPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.PreClearPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.PreClearPlayerState");
 
 	struct
 	{
@@ -644,7 +644,7 @@ void UKSPawnWidget::PreClearPlayerState()
 
 void UKSPawnWidget::PreClearPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.PreClearPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.PreClearPawn");
 
 	struct
 	{
@@ -660,7 +660,7 @@ void UKSPawnWidget::PreClearPawn()
 
 void UKSPawnWidget::PostSetPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.PostSetPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.PostSetPlayerState");
 
 	struct
 	{
@@ -676,7 +676,7 @@ void UKSPawnWidget::PostSetPlayerState()
 
 void UKSPawnWidget::PostSetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.PostSetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.PostSetPawn");
 
 	struct
 	{
@@ -694,7 +694,7 @@ void UKSPawnWidget::PostSetPawn()
 
 void UKSPawnWidget::OnBoundPlayerStateDestroyed(class AActor* DestroyedActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.OnBoundPlayerStateDestroyed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.OnBoundPlayerStateDestroyed");
 
 	struct
 	{
@@ -714,7 +714,7 @@ void UKSPawnWidget::OnBoundPlayerStateDestroyed(class AActor* DestroyedActor)
 
 void UKSPawnWidget::OnBoundPawnDestroyed(class AActor* DestroyedActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.OnBoundPawnDestroyed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.OnBoundPawnDestroyed");
 
 	struct
 	{
@@ -734,7 +734,7 @@ void UKSPawnWidget::OnBoundPawnDestroyed(class AActor* DestroyedActor)
 
 class AKSPlayerState* UKSPawnWidget::GetPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.GetPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.GetPlayerState");
 
 	struct
 	{
@@ -755,7 +755,7 @@ class AKSPlayerState* UKSPawnWidget::GetPlayerState()
 
 class AKSCharacterBase* UKSPawnWidget::GetPawnBase()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.GetPawnBase"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.GetPawnBase");
 
 	struct
 	{
@@ -776,7 +776,7 @@ class AKSCharacterBase* UKSPawnWidget::GetPawnBase()
 
 class AKSCharacter* UKSPawnWidget::GetPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnWidget.GetPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnWidget.GetPawn");
 
 	struct
 	{
@@ -798,7 +798,7 @@ class AKSCharacter* UKSPawnWidget::GetPawn()
 
 bool UKSPawnInventoryWidget::RemoveWidgetFor(class UKSWeaponComponent* InWeaponComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnInventoryWidget.RemoveWidgetFor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnInventoryWidget.RemoveWidgetFor");
 
 	struct
 	{
@@ -822,7 +822,7 @@ bool UKSPawnInventoryWidget::RemoveWidgetFor(class UKSWeaponComponent* InWeaponC
 
 class UKSWeaponComponentWidget* UKSPawnInventoryWidget::GetWidgetForWeaponComponent(class UKSWeaponComponent* InWeaponComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnInventoryWidget.GetWidgetForWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnInventoryWidget.GetWidgetForWeaponComponent");
 
 	struct
 	{
@@ -845,7 +845,7 @@ class UKSWeaponComponentWidget* UKSPawnInventoryWidget::GetWidgetForWeaponCompon
 
 void UKSPawnInventoryWidget::EquipmentRemoved(class UKSWeaponComponent* RemovedEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnInventoryWidget.EquipmentRemoved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnInventoryWidget.EquipmentRemoved");
 
 	struct
 	{
@@ -865,7 +865,7 @@ void UKSPawnInventoryWidget::EquipmentRemoved(class UKSWeaponComponent* RemovedE
 
 void UKSPawnInventoryWidget::EquipmentEndActive(class UKSWeaponComponent* InactiveEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnInventoryWidget.EquipmentEndActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnInventoryWidget.EquipmentEndActive");
 
 	struct
 	{
@@ -885,7 +885,7 @@ void UKSPawnInventoryWidget::EquipmentEndActive(class UKSWeaponComponent* Inacti
 
 void UKSPawnInventoryWidget::EquipmentBecomeActive(class UKSWeaponComponent* ActiveEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnInventoryWidget.EquipmentBecomeActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnInventoryWidget.EquipmentBecomeActive");
 
 	struct
 	{
@@ -905,7 +905,7 @@ void UKSPawnInventoryWidget::EquipmentBecomeActive(class UKSWeaponComponent* Act
 
 void UKSPawnInventoryWidget::EquipmentAdded(class UKSWeaponComponent* AddedEquipment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnInventoryWidget.EquipmentAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnInventoryWidget.EquipmentAdded");
 
 	struct
 	{
@@ -929,7 +929,7 @@ void UKSPawnInventoryWidget::EquipmentAdded(class UKSWeaponComponent* AddedEquip
 
 class UKSWeaponComponentWidget* UKSPawnInventoryWidget::CreateWeaponComponentWidgetFor(class UObject* WorldContextObject, class UKSWeaponComponent* InWeaponComponent, class UClass* WidgetClass, class APlayerController* OwningPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPawnInventoryWidget.CreateWeaponComponentWidgetFor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPawnInventoryWidget.CreateWeaponComponentWidgetFor");
 
 	struct
 	{
@@ -956,7 +956,7 @@ class UKSWeaponComponentWidget* UKSPawnInventoryWidget::CreateWeaponComponentWid
 
 void UKSActiveWeaponComponentWidget::PreClearActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSActiveWeaponComponentWidget.PreClearActiveWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSActiveWeaponComponentWidget.PreClearActiveWeaponComponent");
 
 	struct
 	{
@@ -972,7 +972,7 @@ void UKSActiveWeaponComponentWidget::PreClearActiveWeaponComponent()
 
 void UKSActiveWeaponComponentWidget::PostSetActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSActiveWeaponComponentWidget.PostSetActiveWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSActiveWeaponComponentWidget.PostSetActiveWeaponComponent");
 
 	struct
 	{
@@ -990,7 +990,7 @@ void UKSActiveWeaponComponentWidget::PostSetActiveWeaponComponent()
 
 class UKSWeaponComponent* UKSActiveWeaponComponentWidget::GetActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSActiveWeaponComponentWidget.GetActiveWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSActiveWeaponComponentWidget.GetActiveWeaponComponent");
 
 	struct
 	{
@@ -1012,7 +1012,7 @@ class UKSWeaponComponent* UKSActiveWeaponComponentWidget::GetActiveWeaponCompone
 
 class UKSActivityManagerBase* UKSActivity_ViewRedirector::GetRelevantActivityManager(class UKSGameInstance* GameInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSActivity_ViewRedirector.GetRelevantActivityManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSActivity_ViewRedirector.GetRelevantActivityManager");
 
 	struct
 	{
@@ -1035,7 +1035,7 @@ class UKSActivityManagerBase* UKSActivity_ViewRedirector::GetRelevantActivityMan
 
 class AKSPlayerController* UKSAimAssistDebugWidget::GetOwningKSPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAimAssistDebugWidget.GetOwningKSPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAimAssistDebugWidget.GetOwningKSPlayer");
 
 	struct
 	{
@@ -1056,7 +1056,7 @@ class AKSPlayerController* UKSAimAssistDebugWidget::GetOwningKSPlayer()
 
 class UKSAimAssistComponent* UKSAimAssistDebugWidget::GetAimAssistComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAimAssistDebugWidget.GetAimAssistComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAimAssistDebugWidget.GetAimAssistComponent");
 
 	struct
 	{
@@ -1075,7 +1075,7 @@ class UKSAimAssistComponent* UKSAimAssistDebugWidget::GetAimAssistComponent()
 
 void UKSMapIconWidgetBase::UpdateScreenRegion()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.UpdateScreenRegion"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.UpdateScreenRegion");
 
 	struct
 	{
@@ -1091,7 +1091,7 @@ void UKSMapIconWidgetBase::UpdateScreenRegion()
 
 void UKSMapIconWidgetBase::UpdateOpacityWhenAiming()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.UpdateOpacityWhenAiming"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.UpdateOpacityWhenAiming");
 
 	struct
 	{
@@ -1109,7 +1109,7 @@ void UKSMapIconWidgetBase::UpdateOpacityWhenAiming()
 
 void UKSMapIconWidgetBase::UpdateMetersAway(int Meters)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.UpdateMetersAway"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.UpdateMetersAway");
 
 	struct
 	{
@@ -1130,7 +1130,7 @@ void UKSMapIconWidgetBase::UpdateMetersAway(int Meters)
 
 void UKSMapIconWidgetBase::UpdateMeetsHeightThreshold(bool bHeight, bool bDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.UpdateMeetsHeightThreshold"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.UpdateMeetsHeightThreshold");
 
 	struct
 	{
@@ -1152,7 +1152,7 @@ void UKSMapIconWidgetBase::UpdateMeetsHeightThreshold(bool bHeight, bool bDepth)
 
 ESlateVisibility UKSMapIconWidgetBase::Update()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.Update"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.Update");
 
 	struct
 	{
@@ -1173,7 +1173,7 @@ ESlateVisibility UKSMapIconWidgetBase::Update()
 
 bool UKSMapIconWidgetBase::ShouldUpdateOpacityWhenAiming()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.ShouldUpdateOpacityWhenAiming"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.ShouldUpdateOpacityWhenAiming");
 
 	struct
 	{
@@ -1194,7 +1194,7 @@ bool UKSMapIconWidgetBase::ShouldUpdateOpacityWhenAiming()
 
 bool UKSMapIconWidgetBase::ShouldUpdateHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.ShouldUpdateHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.ShouldUpdateHover");
 
 	struct
 	{
@@ -1215,7 +1215,7 @@ bool UKSMapIconWidgetBase::ShouldUpdateHover()
 
 bool UKSMapIconWidgetBase::ShouldUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.ShouldUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.ShouldUpdate");
 
 	struct
 	{
@@ -1236,7 +1236,7 @@ bool UKSMapIconWidgetBase::ShouldUpdate()
 
 void UKSMapIconWidgetBase::SetScreenRegion(EIconMarkerScreenRegion ScreenRegion)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.SetScreenRegion"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.SetScreenRegion");
 
 	struct
 	{
@@ -1256,7 +1256,7 @@ void UKSMapIconWidgetBase::SetScreenRegion(EIconMarkerScreenRegion ScreenRegion)
 
 void UKSMapIconWidgetBase::SetLifeSpan(float InLifespan)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.SetLifeSpan"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.SetLifeSpan");
 
 	struct
 	{
@@ -1282,7 +1282,7 @@ void UKSMapIconWidgetBase::SetLifeSpan(float InLifespan)
 
 void UKSMapIconWidgetBase::SetDisplayInfo(int InUniqueId, class AKSPlayerState* InCreatingPlayer, EDisplayType InParentMapDisplayType, class AActor* InAssociatedActor, class UObject* InAssociatedObject, const struct FVector& InDefaultLocation, float InLifespan)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.SetDisplayInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.SetDisplayInfo");
 
 	struct
 	{
@@ -1314,7 +1314,7 @@ void UKSMapIconWidgetBase::SetDisplayInfo(int InUniqueId, class AKSPlayerState* 
 
 void UKSMapIconWidgetBase::SetArrowAngle(float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.SetArrowAngle"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.SetArrowAngle");
 
 	struct
 	{
@@ -1332,7 +1332,7 @@ void UKSMapIconWidgetBase::SetArrowAngle(float Angle)
 
 void UKSMapIconWidgetBase::ResetDisplayInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.ResetDisplayInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.ResetDisplayInfo");
 
 	struct
 	{
@@ -1348,7 +1348,7 @@ void UKSMapIconWidgetBase::ResetDisplayInfo()
 
 void UKSMapIconWidgetBase::OnUnhoverTimerComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.OnUnhoverTimerComplete"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.OnUnhoverTimerComplete");
 
 	struct
 	{
@@ -1364,7 +1364,7 @@ void UKSMapIconWidgetBase::OnUnhoverTimerComplete()
 
 void UKSMapIconWidgetBase::OnHoverTimerComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.OnHoverTimerComplete"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.OnHoverTimerComplete");
 
 	struct
 	{
@@ -1382,7 +1382,7 @@ void UKSMapIconWidgetBase::OnHoverTimerComplete()
 
 void UKSMapIconWidgetBase::OnHoverStateChanged(EIconHoverState NewHoverState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.OnHoverStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.OnHoverStateChanged");
 
 	struct
 	{
@@ -1402,7 +1402,7 @@ void UKSMapIconWidgetBase::OnHoverStateChanged(EIconHoverState NewHoverState)
 
 void UKSMapIconWidgetBase::OnAssociatedActorDestroyed(class AActor* Actor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.OnAssociatedActorDestroyed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.OnAssociatedActorDestroyed");
 
 	struct
 	{
@@ -1423,7 +1423,7 @@ void UKSMapIconWidgetBase::OnAssociatedActorDestroyed(class AActor* Actor)
 
 void UKSMapIconWidgetBase::OnAimStateChanged(EKSCharacterAimMode NewAimState, float NewAimTransitionOffset)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.OnAimStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.OnAimStateChanged");
 
 	struct
 	{
@@ -1446,7 +1446,7 @@ void UKSMapIconWidgetBase::OnAimStateChanged(EKSCharacterAimMode NewAimState, fl
 
 void UKSMapIconWidgetBase::IsScreenRegion(bool* InsideCenter, bool* InsideMargins)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.IsScreenRegion"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.IsScreenRegion");
 
 	struct
 	{
@@ -1475,7 +1475,7 @@ void UKSMapIconWidgetBase::IsScreenRegion(bool* InsideCenter, bool* InsideMargin
 
 bool UKSMapIconWidgetBase::IsInCenteredScreenRect(float PositionX, float PositionY, float XMargin, float YMargin)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.IsInCenteredScreenRect"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.IsInCenteredScreenRect");
 
 	struct
 	{
@@ -1504,7 +1504,7 @@ bool UKSMapIconWidgetBase::IsInCenteredScreenRect(float PositionX, float Positio
 
 bool UKSMapIconWidgetBase::IsHovering()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.IsHovering"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.IsHovering");
 
 	struct
 	{
@@ -1523,7 +1523,7 @@ bool UKSMapIconWidgetBase::IsHovering()
 
 void UKSMapIconWidgetBase::HandleMapIconWidgetHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.HandleMapIconWidgetHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.HandleMapIconWidgetHide");
 
 	struct
 	{
@@ -1541,7 +1541,7 @@ void UKSMapIconWidgetBase::HandleMapIconWidgetHide()
 
 float UKSMapIconWidgetBase::GetWorldYaw()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.GetWorldYaw"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.GetWorldYaw");
 
 	struct
 	{
@@ -1562,7 +1562,7 @@ float UKSMapIconWidgetBase::GetWorldYaw()
 
 struct FVector UKSMapIconWidgetBase::GetWorldPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.GetWorldPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.GetWorldPosition");
 
 	struct
 	{
@@ -1583,7 +1583,7 @@ struct FVector UKSMapIconWidgetBase::GetWorldPosition()
 
 EIconHoverState UKSMapIconWidgetBase::GetHoverState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.GetHoverState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.GetHoverState");
 
 	struct
 	{
@@ -1605,7 +1605,7 @@ EIconHoverState UKSMapIconWidgetBase::GetHoverState()
 
 float UKSMapIconWidgetBase::GetEdgeArrowAngleBase(float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.GetEdgeArrowAngleBase"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.GetEdgeArrowAngleBase");
 
 	struct
 	{
@@ -1628,7 +1628,7 @@ float UKSMapIconWidgetBase::GetEdgeArrowAngleBase(float Angle)
 
 float UKSMapIconWidgetBase::GetDistanceToIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.GetDistanceToIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.GetDistanceToIcon");
 
 	struct
 	{
@@ -1651,7 +1651,7 @@ float UKSMapIconWidgetBase::GetDistanceToIcon()
 
 void UKSMapIconWidgetBase::GetArrowPosition(bool IsIconVisible, float Angle, struct FVector2D* ArrowPosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetBase.GetArrowPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetBase.GetArrowPosition");
 
 	struct
 	{
@@ -1678,7 +1678,7 @@ void UKSMapIconWidgetBase::GetArrowPosition(bool IsIconVisible, float Angle, str
 
 void UKSAllyMarkerWidget::View_SetSelfPingIcon(EPingType PingType, EPingMessage PingMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.View_SetSelfPingIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.View_SetSelfPingIcon");
 
 	struct
 	{
@@ -1700,7 +1700,7 @@ void UKSAllyMarkerWidget::View_SetSelfPingIcon(EPingType PingType, EPingMessage 
 
 void UKSAllyMarkerWidget::View_SetRevivePercent(float PercentValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.View_SetRevivePercent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.View_SetRevivePercent");
 
 	struct
 	{
@@ -1720,7 +1720,7 @@ void UKSAllyMarkerWidget::View_SetRevivePercent(float PercentValue)
 
 void UKSAllyMarkerWidget::View_SetNameText(const struct FText& NameText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.View_SetNameText"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.View_SetNameText");
 
 	struct
 	{
@@ -1742,7 +1742,7 @@ void UKSAllyMarkerWidget::View_SetNameText(const struct FText& NameText)
 
 void UKSAllyMarkerWidget::View_SetMode(EAllyMarkerState AllyMarkerState, bool HasObjective, bool HasSelfPing)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.View_SetMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.View_SetMode");
 
 	struct
 	{
@@ -1766,7 +1766,7 @@ void UKSAllyMarkerWidget::View_SetMode(EAllyMarkerState AllyMarkerState, bool Ha
 
 void UKSAllyMarkerWidget::View_SetJob(class UKSJobItem* Job)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.View_SetJob"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.View_SetJob");
 
 	struct
 	{
@@ -1786,7 +1786,7 @@ void UKSAllyMarkerWidget::View_SetJob(class UKSJobItem* Job)
 
 void UKSAllyMarkerWidget::View_SetHealthPercent(float PercentValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.View_SetHealthPercent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.View_SetHealthPercent");
 
 	struct
 	{
@@ -1806,7 +1806,7 @@ void UKSAllyMarkerWidget::View_SetHealthPercent(float PercentValue)
 
 void UKSAllyMarkerWidget::View_AcknowledgeSelfPing(class AKSPlayerState* AcknowledingPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.View_AcknowledgeSelfPing"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.View_AcknowledgeSelfPing");
 
 	struct
 	{
@@ -1824,7 +1824,7 @@ void UKSAllyMarkerWidget::View_AcknowledgeSelfPing(class AKSPlayerState* Acknowl
 
 void UKSAllyMarkerWidget::SetPlayerName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.SetPlayerName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.SetPlayerName");
 
 	struct
 	{
@@ -1842,7 +1842,7 @@ void UKSAllyMarkerWidget::SetPlayerName()
 
 void UKSAllyMarkerWidget::SetMarkerPlayerState(class AKSPlayerState* pPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.SetMarkerPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.SetMarkerPlayerState");
 
 	struct
 	{
@@ -1862,7 +1862,7 @@ void UKSAllyMarkerWidget::SetMarkerPlayerState(class AKSPlayerState* pPlayerStat
 
 bool UKSAllyMarkerWidget::IsOwningPlayer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.IsOwningPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.IsOwningPlayer");
 
 	struct
 	{
@@ -1883,7 +1883,7 @@ bool UKSAllyMarkerWidget::IsOwningPlayer()
 
 void UKSAllyMarkerWidget::HandleUIRelevantChanged(class AKSPlayerState* InPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandleUIRelevantChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandleUIRelevantChanged");
 
 	struct
 	{
@@ -1903,7 +1903,7 @@ void UKSAllyMarkerWidget::HandleUIRelevantChanged(class AKSPlayerState* InPlayer
 
 void UKSAllyMarkerWidget::HandleRemoveSelfPing(class AKSPlayerState* PingingPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandleRemoveSelfPing"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandleRemoveSelfPing");
 
 	struct
 	{
@@ -1924,7 +1924,7 @@ void UKSAllyMarkerWidget::HandleRemoveSelfPing(class AKSPlayerState* PingingPlay
 
 void UKSAllyMarkerWidget::HandlePlayerModActivated(class UKSPlayerMod_Activated* ActivatedMod, bool Active)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandlePlayerModActivated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandlePlayerModActivated");
 
 	struct
 	{
@@ -1947,7 +1947,7 @@ void UKSAllyMarkerWidget::HandlePlayerModActivated(class UKSPlayerMod_Activated*
 
 void UKSAllyMarkerWidget::HandlePlayerDown(const struct FCombatEventInfo& CombatEventInfo, int ExpBonus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandlePlayerDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandlePlayerDown");
 
 	struct
 	{
@@ -1969,7 +1969,7 @@ void UKSAllyMarkerWidget::HandlePlayerDown(const struct FCombatEventInfo& Combat
 
 void UKSAllyMarkerWidget::HandlePlayerDeath(const struct FCombatEventInfo& DeathInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandlePlayerDeath"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandlePlayerDeath");
 
 	struct
 	{
@@ -1987,7 +1987,7 @@ void UKSAllyMarkerWidget::HandlePlayerDeath(const struct FCombatEventInfo& Death
 
 void UKSAllyMarkerWidget::HandleOnJobChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandleOnJobChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandleOnJobChanged");
 
 	struct
 	{
@@ -2005,7 +2005,7 @@ void UKSAllyMarkerWidget::HandleOnJobChanged()
 
 void UKSAllyMarkerWidget::HandleObjectiveStateChanged(const TScriptInterface<class UKSObjective>& GameObjective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandleObjectiveStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandleObjectiveStateChanged");
 
 	struct
 	{
@@ -2026,7 +2026,7 @@ void UKSAllyMarkerWidget::HandleObjectiveStateChanged(const TScriptInterface<cla
 
 void UKSAllyMarkerWidget::HandleChangeSelfPing(class AKSPlayerState* PingingPlayer, class AKSPlayerState* AcknowledgingPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandleChangeSelfPing"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandleChangeSelfPing");
 
 	struct
 	{
@@ -2048,7 +2048,7 @@ void UKSAllyMarkerWidget::HandleChangeSelfPing(class AKSPlayerState* PingingPlay
 
 void UKSAllyMarkerWidget::HandleBombStateChanged(const struct FKSNeutralBombState& BombState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandleBombStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandleBombStateChanged");
 
 	struct
 	{
@@ -2070,7 +2070,7 @@ void UKSAllyMarkerWidget::HandleBombStateChanged(const struct FKSNeutralBombStat
 
 void UKSAllyMarkerWidget::HandleAddSelfPing(class AKSPlayerState* PingingPlayer, EPingType PingType, EPingMessage PingMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.HandleAddSelfPing"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.HandleAddSelfPing");
 
 	struct
 	{
@@ -2096,7 +2096,7 @@ void UKSAllyMarkerWidget::HandleAddSelfPing(class AKSPlayerState* PingingPlayer,
 
 bool UKSAllyMarkerWidget::GetPingIconByType(EPingType PingType, TSoftObjectPtr<class UTexture2D>* PingIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.GetPingIconByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.GetPingIconByType");
 
 	struct
 	{
@@ -2125,7 +2125,7 @@ bool UKSAllyMarkerWidget::GetPingIconByType(EPingType PingType, TSoftObjectPtr<c
 
 bool UKSAllyMarkerWidget::GetPingIconByMessage(EPingMessage PingMessage, TSoftObjectPtr<class UTexture2D>* PingIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.GetPingIconByMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.GetPingIconByMessage");
 
 	struct
 	{
@@ -2154,7 +2154,7 @@ bool UKSAllyMarkerWidget::GetPingIconByMessage(EPingMessage PingMessage, TSoftOb
 
 bool UKSAllyMarkerWidget::GetPingColorByType(EPingType PingType, struct FLinearColor* PingColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.GetPingColorByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.GetPingColorByType");
 
 	struct
 	{
@@ -2182,7 +2182,7 @@ bool UKSAllyMarkerWidget::GetPingColorByType(EPingType PingType, struct FLinearC
 
 struct FVector2D UKSAllyMarkerWidget::GetArrowPositionFromAngleBlueprint(float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.GetArrowPositionFromAngleBlueprint"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.GetArrowPositionFromAngleBlueprint");
 
 	struct
 	{
@@ -2207,7 +2207,7 @@ struct FVector2D UKSAllyMarkerWidget::GetArrowPositionFromAngleBlueprint(float A
 
 bool UKSAllyMarkerWidget::FindRowByType(EPingType PingType, struct FContextualPingTypesRow* ContextualPingTypesRow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.FindRowByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.FindRowByType");
 
 	struct
 	{
@@ -2236,7 +2236,7 @@ bool UKSAllyMarkerWidget::FindRowByType(EPingType PingType, struct FContextualPi
 
 bool UKSAllyMarkerWidget::FindRowByMessage(EPingMessage PingMessage, struct FContextualPingMessagesRow* ContextualPingMessagesRow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.FindRowByMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.FindRowByMessage");
 
 	struct
 	{
@@ -2263,7 +2263,7 @@ bool UKSAllyMarkerWidget::FindRowByMessage(EPingMessage PingMessage, struct FCon
 
 void UKSAllyMarkerWidget::ChangeOwnerContentVisibility(bool bVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAllyMarkerWidget.ChangeOwnerContentVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAllyMarkerWidget.ChangeOwnerContentVisibility");
 
 	struct
 	{
@@ -2284,7 +2284,7 @@ void UKSAllyMarkerWidget::ChangeOwnerContentVisibility(bool bVisible)
 
 bool UKSAlphaDisclaimer::LoadAlphaDisclaimerText(struct FString* SaveText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAlphaDisclaimer.LoadAlphaDisclaimerText"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAlphaDisclaimer.LoadAlphaDisclaimerText");
 
 	struct
 	{
@@ -2310,7 +2310,7 @@ bool UKSAlphaDisclaimer::LoadAlphaDisclaimerText(struct FString* SaveText)
 
 void UKSWeaponWidget::SetOwningWeapon(class AKSWeapon* InWeapon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponWidget.SetOwningWeapon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponWidget.SetOwningWeapon");
 
 	struct
 	{
@@ -2328,7 +2328,7 @@ void UKSWeaponWidget::SetOwningWeapon(class AKSWeapon* InWeapon)
 
 void UKSWeaponWidget::PreClearWeapon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponWidget.PreClearWeapon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponWidget.PreClearWeapon");
 
 	struct
 	{
@@ -2344,7 +2344,7 @@ void UKSWeaponWidget::PreClearWeapon()
 
 void UKSWeaponWidget::PostSetWeapon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponWidget.PostSetWeapon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponWidget.PostSetWeapon");
 
 	struct
 	{
@@ -2360,7 +2360,7 @@ void UKSWeaponWidget::PostSetWeapon()
 
 void UKSWeaponWidget::OtherWeaponUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponWidget.OtherWeaponUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponWidget.OtherWeaponUpdate");
 
 	struct
 	{
@@ -2378,7 +2378,7 @@ void UKSWeaponWidget::OtherWeaponUpdate()
 
 void UKSWeaponWidget::OnOwningWeaponDestroyed(class AActor* DestroyedWeapon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponWidget.OnOwningWeaponDestroyed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponWidget.OnOwningWeaponDestroyed");
 
 	struct
 	{
@@ -2398,7 +2398,7 @@ void UKSWeaponWidget::OnOwningWeaponDestroyed(class AActor* DestroyedWeapon)
 
 class AKSWeapon* UKSWeaponWidget::GetOwningWeapon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponWidget.GetOwningWeapon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponWidget.GetOwningWeapon");
 
 	struct
 	{
@@ -2417,7 +2417,7 @@ class AKSWeapon* UKSWeaponWidget::GetOwningWeapon()
 
 void UKSAmmoWidget::StopReloading()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAmmoWidget.StopReloading"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAmmoWidget.StopReloading");
 
 	struct
 	{
@@ -2433,7 +2433,7 @@ void UKSAmmoWidget::StopReloading()
 
 void UKSAmmoWidget::StartReloading()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAmmoWidget.StartReloading"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAmmoWidget.StartReloading");
 
 	struct
 	{
@@ -2456,7 +2456,7 @@ void UKSAmmoWidget::StartReloading()
 
 void UKSAmmoWidget::OnAmmoChanged(int OldInClip, int OldClipSize, int OldReserve, int NewInClip, int NewClipSize, int NewReserve)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAmmoWidget.OnAmmoChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAmmoWidget.OnAmmoChanged");
 
 	struct
 	{
@@ -2484,7 +2484,7 @@ void UKSAmmoWidget::OnAmmoChanged(int OldInClip, int OldClipSize, int OldReserve
 
 void UKSAnnouncementQueuedMessageWidget::DisplayAnnouncement()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAnnouncementQueuedMessageWidget.DisplayAnnouncement"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAnnouncementQueuedMessageWidget.DisplayAnnouncement");
 
 	struct
 	{
@@ -2502,7 +2502,7 @@ void UKSAnnouncementQueuedMessageWidget::DisplayAnnouncement()
 
 void UKSAnnouncementQueueWidget::Queue(const struct FAnnouncementData& Announcement)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAnnouncementQueueWidget.Queue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAnnouncementQueueWidget.Queue");
 
 	struct
 	{
@@ -2523,7 +2523,7 @@ void UKSAnnouncementQueueWidget::Queue(const struct FAnnouncementData& Announcem
 
 bool UKSAnnouncementQueueWidget::GetNext(struct FAnnouncementData* Announcement)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAnnouncementQueueWidget.GetNext"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAnnouncementQueueWidget.GetNext");
 
 	struct
 	{
@@ -2546,7 +2546,7 @@ bool UKSAnnouncementQueueWidget::GetNext(struct FAnnouncementData* Announcement)
 
 void UKSAnnouncementQueueWidget::ClearAnnoucementQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSAnnouncementQueueWidget.ClearAnnoucementQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAnnouncementQueueWidget.ClearAnnoucementQueue");
 
 	struct
 	{
@@ -2564,7 +2564,7 @@ void UKSAnnouncementQueueWidget::ClearAnnoucementQueue()
 
 void UKSBoostInventoryItemWidget::View_SetFromItem(const struct FAccountConsumableDetails& ItemDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSBoostInventoryItemWidget.View_SetFromItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSBoostInventoryItemWidget.View_SetFromItem");
 
 	struct
 	{
@@ -2582,7 +2582,7 @@ void UKSBoostInventoryItemWidget::View_SetFromItem(const struct FAccountConsumab
 
 void UKSBoostInventoryItemWidget::ShowBoostPopup()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSBoostInventoryItemWidget.ShowBoostPopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSBoostInventoryItemWidget.ShowBoostPopup");
 
 	struct
 	{
@@ -2600,7 +2600,7 @@ void UKSBoostInventoryItemWidget::ShowBoostPopup()
 
 void UKSBoostInventoryItemWidget::SetItem(const struct FAccountConsumableDetails& ItemDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSBoostInventoryItemWidget.SetItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSBoostInventoryItemWidget.SetItem");
 
 	struct
 	{
@@ -2618,7 +2618,7 @@ void UKSBoostInventoryItemWidget::SetItem(const struct FAccountConsumableDetails
 
 void UKSBoostInventoryItemWidget::PlayBoostConfirmationSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSBoostInventoryItemWidget.PlayBoostConfirmationSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSBoostInventoryItemWidget.PlayBoostConfirmationSound");
 
 	struct
 	{
@@ -2634,7 +2634,7 @@ void UKSBoostInventoryItemWidget::PlayBoostConfirmationSound()
 
 void UKSBoostInventoryItemWidget::OnActivateBoostConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSBoostInventoryItemWidget.OnActivateBoostConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSBoostInventoryItemWidget.OnActivateBoostConfirm");
 
 	struct
 	{
@@ -2650,7 +2650,7 @@ void UKSBoostInventoryItemWidget::OnActivateBoostConfirm()
 
 void UKSBoostInventoryItemWidget::OnActivateBoostCancel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSBoostInventoryItemWidget.OnActivateBoostCancel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSBoostInventoryItemWidget.OnActivateBoostCancel");
 
 	struct
 	{
@@ -2668,7 +2668,7 @@ void UKSBoostInventoryItemWidget::OnActivateBoostCancel()
 
 void UKSChallengeEntryCardBase::SetChallengeData(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSChallengeEntryCardBase.SetChallengeData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSChallengeEntryCardBase.SetChallengeData");
 
 	struct
 	{
@@ -2688,7 +2688,7 @@ void UKSChallengeEntryCardBase::SetChallengeData(class UKSActivityInstance* Acti
 
 void UKSChallengeEntryCardBase::DisplayRewardItems(TArray<struct FTierRewardItemData> RewardItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSChallengeEntryCardBase.DisplayRewardItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSChallengeEntryCardBase.DisplayRewardItems");
 
 	struct
 	{
@@ -2708,7 +2708,7 @@ void UKSChallengeEntryCardBase::DisplayRewardItems(TArray<struct FTierRewardItem
 
 void UKSChallengeEntryCardBase::ApplyRerollAvailable(bool CanReroll)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSChallengeEntryCardBase.ApplyRerollAvailable"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSChallengeEntryCardBase.ApplyRerollAvailable");
 
 	struct
 	{
@@ -2728,7 +2728,7 @@ void UKSChallengeEntryCardBase::ApplyRerollAvailable(bool CanReroll)
 
 void UKSChallengeEntryCardBase::ApplyLayoutType(EChallengeEntryCardState CardState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSChallengeEntryCardBase.ApplyLayoutType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSChallengeEntryCardBase.ApplyLayoutType");
 
 	struct
 	{
@@ -2749,7 +2749,7 @@ void UKSChallengeEntryCardBase::ApplyLayoutType(EChallengeEntryCardState CardSta
 
 void UKSChallengeEntryCardBase::ApplyChallengeProgress(int Progress, int ProgressTotal)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSChallengeEntryCardBase.ApplyChallengeProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSChallengeEntryCardBase.ApplyChallengeProgress");
 
 	struct
 	{
@@ -2771,7 +2771,7 @@ void UKSChallengeEntryCardBase::ApplyChallengeProgress(int Progress, int Progres
 
 void UKSChallengeEntryCardBase::ApplyChallengeDescription(const struct FText& DescText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSChallengeEntryCardBase.ApplyChallengeDescription"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSChallengeEntryCardBase.ApplyChallengeDescription");
 
 	struct
 	{
@@ -2791,7 +2791,7 @@ void UKSChallengeEntryCardBase::ApplyChallengeDescription(const struct FText& De
 
 void UKSComponentReticleWidgetBase::ViewedPawnInstigatedDamageNotify(const struct FCombatEventInfo& DamageInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSComponentReticleWidgetBase.ViewedPawnInstigatedDamageNotify"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSComponentReticleWidgetBase.ViewedPawnInstigatedDamageNotify");
 
 	struct
 	{
@@ -2811,7 +2811,7 @@ void UKSComponentReticleWidgetBase::ViewedPawnInstigatedDamageNotify(const struc
 
 void UKSComponentReticleWidgetBase::UpdateReticleOffset(float OffsetFromCenterScreen)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSComponentReticleWidgetBase.UpdateReticleOffset"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSComponentReticleWidgetBase.UpdateReticleOffset");
 
 	struct
 	{
@@ -2833,7 +2833,7 @@ void UKSComponentReticleWidgetBase::UpdateReticleOffset(float OffsetFromCenterSc
 
 void UKSComponentReticleWidgetBase::UpdateBlockedShotIcon(bool IconVisible, const struct FVector2D& Translation, const struct FVector2D& IconScale)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSComponentReticleWidgetBase.UpdateBlockedShotIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSComponentReticleWidgetBase.UpdateBlockedShotIcon");
 
 	struct
 	{
@@ -2857,7 +2857,7 @@ void UKSComponentReticleWidgetBase::UpdateBlockedShotIcon(bool IconVisible, cons
 
 void UKSComponentReticleWidgetBase::CalculateReticleOffset(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSComponentReticleWidgetBase.CalculateReticleOffset"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSComponentReticleWidgetBase.CalculateReticleOffset");
 
 	struct
 	{
@@ -2875,7 +2875,7 @@ void UKSComponentReticleWidgetBase::CalculateReticleOffset(float DeltaTime)
 
 void UKSComponentReticleWidgetBase::CalculateBlockedShotIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSComponentReticleWidgetBase.CalculateBlockedShotIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSComponentReticleWidgetBase.CalculateBlockedShotIcon");
 
 	struct
 	{
@@ -2891,7 +2891,7 @@ void UKSComponentReticleWidgetBase::CalculateBlockedShotIcon()
 
 void UContextActionData::TriggerContextAction()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.ContextActionData.TriggerContextAction"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.ContextActionData.TriggerContextAction");
 
 	struct
 	{
@@ -2910,7 +2910,7 @@ void UContextActionData::TriggerContextAction()
 
 void UKSContextBarWidget::UpdateContextActions(TArray<class UContextActionData*> ContextActions, const struct FName& CurrentRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.UpdateContextActions"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.UpdateContextActions");
 
 	struct
 	{
@@ -2933,7 +2933,7 @@ void UKSContextBarWidget::UpdateContextActions(TArray<class UContextActionData*>
 
 void UKSContextBarWidget::SetPrompts(const struct FName& Route, TArray<struct FName> ContextNames)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.SetPrompts"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.SetPrompts");
 
 	struct
 	{
@@ -2957,7 +2957,7 @@ void UKSContextBarWidget::SetPrompts(const struct FName& Route, TArray<struct FN
 
 void UKSContextBarWidget::SetPromptAction(const struct FName& Route, const struct FName& ContextName, const struct FScriptDelegate& EventCallback)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.SetPromptAction"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.SetPromptAction");
 
 	struct
 	{
@@ -2982,7 +2982,7 @@ void UKSContextBarWidget::SetPromptAction(const struct FName& Route, const struc
 
 void UKSContextBarWidget::SetPrompt(const struct FName& Route, const struct FName& ContextName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.SetPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.SetPrompt");
 
 	struct
 	{
@@ -3004,7 +3004,7 @@ void UKSContextBarWidget::SetPrompt(const struct FName& Route, const struct FNam
 
 void UKSContextBarWidget::SetOverrideRoute(const struct FName& Route)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.SetOverrideRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.SetOverrideRoute");
 
 	struct
 	{
@@ -3024,7 +3024,7 @@ void UKSContextBarWidget::SetOverrideRoute(const struct FName& Route)
 
 void UKSContextBarWidget::SetActiveRoute(const struct FName& Route)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.SetActiveRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.SetActiveRoute");
 
 	struct
 	{
@@ -3042,7 +3042,7 @@ void UKSContextBarWidget::SetActiveRoute(const struct FName& Route)
 
 void UKSContextBarWidget::RefreshContextBar()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.RefreshContextBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.RefreshContextBar");
 
 	struct
 	{
@@ -3060,7 +3060,7 @@ void UKSContextBarWidget::RefreshContextBar()
 
 void UKSContextBarWidget::PushOverrideRoute(const struct FName& Route)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.PushOverrideRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.PushOverrideRoute");
 
 	struct
 	{
@@ -3080,7 +3080,7 @@ void UKSContextBarWidget::PushOverrideRoute(const struct FName& Route)
 
 struct FName UKSContextBarWidget::PopOverrideRoute()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.PopOverrideRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.PopOverrideRoute");
 
 	struct
 	{
@@ -3099,7 +3099,7 @@ struct FName UKSContextBarWidget::PopOverrideRoute()
 
 void UKSContextBarWidget::OverrideKeyButtons()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.OverrideKeyButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.OverrideKeyButtons");
 
 	struct
 	{
@@ -3117,7 +3117,7 @@ void UKSContextBarWidget::OverrideKeyButtons()
 
 struct FName UKSContextBarWidget::GetCurrentContextRoute()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.GetCurrentContextRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.GetCurrentContextRoute");
 
 	struct
 	{
@@ -3139,7 +3139,7 @@ struct FName UKSContextBarWidget::GetCurrentContextRoute()
 
 void UKSContextBarWidget::ClearPromptByKey(const struct FName& Route, const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.ClearPromptByKey"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.ClearPromptByKey");
 
 	struct
 	{
@@ -3162,7 +3162,7 @@ void UKSContextBarWidget::ClearPromptByKey(const struct FName& Route, const stru
 
 void UKSContextBarWidget::ClearPrompt(const struct FName& Route, const struct FName& ContextName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.ClearPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.ClearPrompt");
 
 	struct
 	{
@@ -3182,7 +3182,7 @@ void UKSContextBarWidget::ClearPrompt(const struct FName& Route, const struct FN
 
 void UKSContextBarWidget::ClearOverrideRouteStack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.ClearOverrideRouteStack"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.ClearOverrideRouteStack");
 
 	struct
 	{
@@ -3198,7 +3198,7 @@ void UKSContextBarWidget::ClearOverrideRouteStack()
 
 void UKSContextBarWidget::ClearOverrideRoute()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.ClearOverrideRoute"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.ClearOverrideRoute");
 
 	struct
 	{
@@ -3216,7 +3216,7 @@ void UKSContextBarWidget::ClearOverrideRoute()
 
 void UKSContextBarWidget::ClearAllPrompts(const struct FName& Route)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextBarWidget.ClearAllPrompts"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextBarWidget.ClearAllPrompts");
 
 	struct
 	{
@@ -3234,7 +3234,7 @@ void UKSContextBarWidget::ClearAllPrompts(const struct FName& Route)
 
 void UKSContextMenu::SetOptionsVisibility()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.SetOptionsVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.SetOptionsVisibility");
 
 	struct
 	{
@@ -3257,7 +3257,7 @@ void UKSContextMenu::SetOptionsVisibility()
 
 struct FVector2D UKSContextMenu::SetMenuPosition(class UKSWidget* WidgetToMove, const struct FMargin& WidgetPadding, EViewSide side, float menuWidth, float menuHeight)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.SetMenuPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.SetMenuPosition");
 
 	struct
 	{
@@ -3288,7 +3288,7 @@ struct FVector2D UKSContextMenu::SetMenuPosition(class UKSWidget* WidgetToMove, 
 
 void UKSContextMenu::SetCurrentPlayerInfo(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.SetCurrentPlayerInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.SetCurrentPlayerInfo");
 
 	struct
 	{
@@ -3308,7 +3308,7 @@ void UKSContextMenu::SetCurrentPlayerInfo(class UKSPlayerInfo* playerinfo)
 
 void UKSContextMenu::RemoveContextMenuButton(class UKSContextMenuButton* ContextButton)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.RemoveContextMenuButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.RemoveContextMenuButton");
 
 	struct
 	{
@@ -3329,7 +3329,7 @@ void UKSContextMenu::RemoveContextMenuButton(class UKSContextMenuButton* Context
 
 bool UKSContextMenu::OnOptionSelected(EPlayerContextOptions ContextOption)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.OnOptionSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.OnOptionSelected");
 
 	struct
 	{
@@ -3352,7 +3352,7 @@ bool UKSContextMenu::OnOptionSelected(EPlayerContextOptions ContextOption)
 
 void UKSContextMenu::HandleOnQueueStatusChange(EPUMG_MatchStatus QueueStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.HandleOnQueueStatusChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.HandleOnQueueStatusChange");
 
 	struct
 	{
@@ -3372,7 +3372,7 @@ void UKSContextMenu::HandleOnQueueStatusChange(EPUMG_MatchStatus QueueStatus)
 
 class UPUMG_QueueDataFactory* UKSContextMenu::GetQueueDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.GetQueueDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.GetQueueDataFactory");
 
 	struct
 	{
@@ -3393,7 +3393,7 @@ class UPUMG_QueueDataFactory* UKSContextMenu::GetQueueDataFactory()
 
 class UKSPlayerDataFactory* UKSContextMenu::GetPlayerDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.GetPlayerDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.GetPlayerDataFactory");
 
 	struct
 	{
@@ -3414,7 +3414,7 @@ class UKSPlayerDataFactory* UKSContextMenu::GetPlayerDataFactory()
 
 class UPUMG_PartyDataFactory* UKSContextMenu::GetPartyDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.GetPartyDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.GetPartyDataFactory");
 
 	struct
 	{
@@ -3435,7 +3435,7 @@ class UPUMG_PartyDataFactory* UKSContextMenu::GetPartyDataFactory()
 
 class UKSFriendDataFactory* UKSContextMenu::GetFriendDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.GetFriendDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.GetFriendDataFactory");
 
 	struct
 	{
@@ -3457,7 +3457,7 @@ class UKSFriendDataFactory* UKSContextMenu::GetFriendDataFactory()
 
 class UKSContextMenuButton* UKSContextMenu::GetContextButtonByEnum(EPlayerContextOptions ContextOption)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.GetContextButtonByEnum"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.GetContextButtonByEnum");
 
 	struct
 	{
@@ -3478,7 +3478,7 @@ class UKSContextMenuButton* UKSContextMenu::GetContextButtonByEnum(EPlayerContex
 
 void UKSContextMenu::ClearAllContextMenuButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.ClearAllContextMenuButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.ClearAllContextMenuButton");
 
 	struct
 	{
@@ -3496,7 +3496,7 @@ void UKSContextMenu::ClearAllContextMenuButton()
 
 void UKSContextMenu::AddContextMenuButton(class UKSContextMenuButton* ContextButton)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenu.AddContextMenuButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenu.AddContextMenuButton");
 
 	struct
 	{
@@ -3516,7 +3516,7 @@ void UKSContextMenu::AddContextMenuButton(class UKSContextMenuButton* ContextBut
 
 void UKSContextMenuButton::SetContextOption(EPlayerContextOptions Context)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenuButton.SetContextOption"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenuButton.SetContextOption");
 
 	struct
 	{
@@ -3536,7 +3536,7 @@ void UKSContextMenuButton::SetContextOption(EPlayerContextOptions Context)
 
 void UKSContextMenuButton::HandleVisibility(bool isVisibility)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenuButton.HandleVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenuButton.HandleVisibility");
 
 	struct
 	{
@@ -3556,7 +3556,7 @@ void UKSContextMenuButton::HandleVisibility(bool isVisibility)
 
 void UKSContextMenuButton::HandleActive(bool IsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenuButton.HandleActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenuButton.HandleActive");
 
 	struct
 	{
@@ -3576,7 +3576,7 @@ void UKSContextMenuButton::HandleActive(bool IsActive)
 
 EPlayerContextOptions UKSContextMenuButton::GetContextOption()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextMenuButton.GetContextOption"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextMenuButton.GetContextOption");
 
 	struct
 	{
@@ -3595,7 +3595,7 @@ EPlayerContextOptions UKSContextMenuButton::GetContextOption()
 
 void UKSContextualPingMarkerWidget::SetupPingOnReady()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.SetupPingOnReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.SetupPingOnReady");
 
 	struct
 	{
@@ -3613,7 +3613,7 @@ void UKSContextualPingMarkerWidget::SetupPingOnReady()
 
 void UKSContextualPingMarkerWidget::SetPingInfo(const struct FPingInfo& PingInfoVal)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.SetPingInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.SetPingInfo");
 
 	struct
 	{
@@ -3634,7 +3634,7 @@ void UKSContextualPingMarkerWidget::SetPingInfo(const struct FPingInfo& PingInfo
 
 void UKSContextualPingMarkerWidget::OnPingUnhovered(int PingId, class AKSPlayerState* PingingPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.OnPingUnhovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.OnPingUnhovered");
 
 	struct
 	{
@@ -3657,7 +3657,7 @@ void UKSContextualPingMarkerWidget::OnPingUnhovered(int PingId, class AKSPlayerS
 
 void UKSContextualPingMarkerWidget::OnPingHovered(int PingId, class AKSPlayerState* PingingPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.OnPingHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.OnPingHovered");
 
 	struct
 	{
@@ -3677,7 +3677,7 @@ void UKSContextualPingMarkerWidget::OnPingHovered(int PingId, class AKSPlayerSta
 
 void UKSContextualPingMarkerWidget::OnInitializePing()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.OnInitializePing"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.OnInitializePing");
 
 	struct
 	{
@@ -3696,7 +3696,7 @@ void UKSContextualPingMarkerWidget::OnInitializePing()
 
 bool UKSContextualPingMarkerWidget::IsInvisiblePingType(EPingType PingType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.IsInvisiblePingType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.IsInvisiblePingType");
 
 	struct
 	{
@@ -3720,7 +3720,7 @@ bool UKSContextualPingMarkerWidget::IsInvisiblePingType(EPingType PingType)
 
 void UKSContextualPingMarkerWidget::HandleOnContextualPingRemoved(int PingId, class AKSPlayerState* PingingPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.HandleOnContextualPingRemoved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.HandleOnContextualPingRemoved");
 
 	struct
 	{
@@ -3744,7 +3744,7 @@ void UKSContextualPingMarkerWidget::HandleOnContextualPingRemoved(int PingId, cl
 
 void UKSContextualPingMarkerWidget::HandleOnContextualPingChanged(int PingId, class AKSPlayerState* PingingPlayer, class AKSPlayerState* AcknowledgingPlayer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.HandleOnContextualPingChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.HandleOnContextualPingChanged");
 
 	struct
 	{
@@ -3769,7 +3769,7 @@ void UKSContextualPingMarkerWidget::HandleOnContextualPingChanged(int PingId, cl
 
 float UKSContextualPingMarkerWidget::GetPingLifeSpan(EPingType PingType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.GetPingLifeSpan"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.GetPingLifeSpan");
 
 	struct
 	{
@@ -3794,7 +3794,7 @@ float UKSContextualPingMarkerWidget::GetPingLifeSpan(EPingType PingType)
 
 bool UKSContextualPingMarkerWidget::GetPingIconByType(EPingType PingType, TSoftObjectPtr<class UTexture2D>* PingIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.GetPingIconByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.GetPingIconByType");
 
 	struct
 	{
@@ -3823,7 +3823,7 @@ bool UKSContextualPingMarkerWidget::GetPingIconByType(EPingType PingType, TSoftO
 
 bool UKSContextualPingMarkerWidget::GetPingIconByMessage(EPingMessage PingMessage, TSoftObjectPtr<class UTexture2D>* PingIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.GetPingIconByMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.GetPingIconByMessage");
 
 	struct
 	{
@@ -3852,7 +3852,7 @@ bool UKSContextualPingMarkerWidget::GetPingIconByMessage(EPingMessage PingMessag
 
 bool UKSContextualPingMarkerWidget::GetPingColorByType(EPingType PingType, struct FLinearColor* PingColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.GetPingColorByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.GetPingColorByType");
 
 	struct
 	{
@@ -3881,7 +3881,7 @@ bool UKSContextualPingMarkerWidget::GetPingColorByType(EPingType PingType, struc
 
 bool UKSContextualPingMarkerWidget::FindRowByType(EPingType PingType, struct FContextualPingTypesRow* ContextualPingTypesRow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.FindRowByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.FindRowByType");
 
 	struct
 	{
@@ -3910,7 +3910,7 @@ bool UKSContextualPingMarkerWidget::FindRowByType(EPingType PingType, struct FCo
 
 bool UKSContextualPingMarkerWidget::FindRowByMessage(EPingMessage PingMessage, struct FContextualPingMessagesRow* ContextualPingMessagesRow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSContextualPingMarkerWidget.FindRowByMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSContextualPingMarkerWidget.FindRowByMessage");
 
 	struct
 	{
@@ -3935,7 +3935,7 @@ bool UKSContextualPingMarkerWidget::FindRowByMessage(EPingMessage PingMessage, s
 
 void UKSCustomizationSelection::TabRight()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.TabRight"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.TabRight");
 
 	struct
 	{
@@ -3951,7 +3951,7 @@ void UKSCustomizationSelection::TabRight()
 
 void UKSCustomizationSelection::TabLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.TabLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.TabLeft");
 
 	struct
 	{
@@ -3969,7 +3969,7 @@ void UKSCustomizationSelection::TabLeft()
 
 void UKSCustomizationSelection::SetWingSuitAsset(class UKSWeaponAsset* WingSuit)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.SetWingSuitAsset"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.SetWingSuitAsset");
 
 	struct
 	{
@@ -3992,7 +3992,7 @@ void UKSCustomizationSelection::SetWingSuitAsset(class UKSWeaponAsset* WingSuit)
 
 void UKSCustomizationSelection::PurchaseAndEquip(EMercCosmeticSlot SlotType, int SlotPosition, class UKSJobItem* JobItem, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.PurchaseAndEquip"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.PurchaseAndEquip");
 
 	struct
 	{
@@ -4019,7 +4019,7 @@ void UKSCustomizationSelection::PurchaseAndEquip(EMercCosmeticSlot SlotType, int
 
 bool UKSCustomizationSelection::IsItemOwned(class UPlatformInventoryItem* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.IsItemOwned"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.IsItemOwned");
 
 	struct
 	{
@@ -4043,7 +4043,7 @@ bool UKSCustomizationSelection::IsItemOwned(class UPlatformInventoryItem* Item)
 
 void UKSCustomizationSelection::GetWingSuitItems(TArray<TSoftObjectPtr<class UKSItem>>* OwnedItems, TArray<class UPUMG_StoreItem*>* StoreItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetWingSuitItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetWingSuitItems");
 
 	struct
 	{
@@ -4068,7 +4068,7 @@ void UKSCustomizationSelection::GetWingSuitItems(TArray<TSoftObjectPtr<class UKS
 
 class UKSWeaponAsset* UKSCustomizationSelection::GetWingSuitAsset()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetWingSuitAsset"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetWingSuitAsset");
 
 	struct
 	{
@@ -4092,7 +4092,7 @@ class UKSWeaponAsset* UKSCustomizationSelection::GetWingSuitAsset()
 
 void UKSCustomizationSelection::GetWeaponSlotItems(EWeaponSlot WeaponSlotType, class UKSJobItem* JobItem, TArray<TSoftObjectPtr<class UKSItem>>* OwnedItems, TArray<class UPUMG_StoreItem*>* StoreItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetWeaponSlotItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetWeaponSlotItems");
 
 	struct
 	{
@@ -4124,7 +4124,7 @@ void UKSCustomizationSelection::GetWeaponSlotItems(EWeaponSlot WeaponSlotType, c
 
 bool UKSCustomizationSelection::GetWeaponItem(EWeaponSlot WeaponSlotType, class UKSJobItem* JobItem, class UKSWeaponAsset** Weapon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetWeaponItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetWeaponItem");
 
 	struct
 	{
@@ -4155,7 +4155,7 @@ bool UKSCustomizationSelection::GetWeaponItem(EWeaponSlot WeaponSlotType, class 
 
 void UKSCustomizationSelection::GetSkinItemsForJobItem(class UKSJobItem* JobItem, TArray<TSoftObjectPtr<class UKSItem>>* OwnedItems, TArray<class UPUMG_StoreItem*>* StoreItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetSkinItemsForJobItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetSkinItemsForJobItem");
 
 	struct
 	{
@@ -4183,7 +4183,7 @@ void UKSCustomizationSelection::GetSkinItemsForJobItem(class UKSJobItem* JobItem
 
 class UKSScrollBox* UKSCustomizationSelection::GetScrollBoxForCosmeticSlot(EMercCosmeticSlot CheckCosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetScrollBoxForCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetScrollBoxForCosmeticSlot");
 
 	struct
 	{
@@ -4207,7 +4207,7 @@ class UKSScrollBox* UKSCustomizationSelection::GetScrollBoxForCosmeticSlot(EMerc
 
 struct FRogueCustomizationRelatedInfo UKSCustomizationSelection::GetRogueCustomizationRelatedInfoForCosmeticSlot(EMercCosmeticSlot CheckCosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetRogueCustomizationRelatedInfoForCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetRogueCustomizationRelatedInfoForCosmeticSlot");
 
 	struct
 	{
@@ -4233,7 +4233,7 @@ struct FRogueCustomizationRelatedInfo UKSCustomizationSelection::GetRogueCustomi
 
 void UKSCustomizationSelection::GetRadialMenuItems(TSoftObjectPtr<class UKSJobItem> ForJobItem, const struct FName& Tag, TArray<TSoftObjectPtr<class UKSItem>>* OwnedItems, TArray<class UPUMG_StoreItem*>* StoreItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetRadialMenuItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetRadialMenuItems");
 
 	struct
 	{
@@ -4263,7 +4263,7 @@ void UKSCustomizationSelection::GetRadialMenuItems(TSoftObjectPtr<class UKSJobIt
 
 class UKSNavTabWidget* UKSCustomizationSelection::GetNavTabForCosmeticSlot(EMercCosmeticSlot CheckCosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetNavTabForCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetNavTabForCosmeticSlot");
 
 	struct
 	{
@@ -4286,7 +4286,7 @@ class UKSNavTabWidget* UKSCustomizationSelection::GetNavTabForCosmeticSlot(EMerc
 
 class UKSStoreItemHelper* UKSCustomizationSelection::GetItemHelper()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetItemHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetItemHelper");
 
 	struct
 	{
@@ -4308,7 +4308,7 @@ class UKSStoreItemHelper* UKSCustomizationSelection::GetItemHelper()
 
 class UKSSortableGridPanel* UKSCustomizationSelection::GetItemContainerForCosmeticSlot(EMercCosmeticSlot CheckCosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetItemContainerForCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetItemContainerForCosmeticSlot");
 
 	struct
 	{
@@ -4335,7 +4335,7 @@ class UKSSortableGridPanel* UKSCustomizationSelection::GetItemContainerForCosmet
 
 void UKSCustomizationSelection::GetCosmeticItemsForSlot(EMercCosmeticSlot SlotType, EWeaponSlot WeaponSlotType, class UKSJobItem* JobItem, TArray<TSoftObjectPtr<class UKSItem>>* OwnedItems, TArray<class UPUMG_StoreItem*>* StoreItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetCosmeticItemsForSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetCosmeticItemsForSlot");
 
 	struct
 	{
@@ -4367,7 +4367,7 @@ void UKSCustomizationSelection::GetCosmeticItemsForSlot(EMercCosmeticSlot SlotTy
 
 TArray<class UKSCosmeticItemSelectorWidget*> UKSCustomizationSelection::GetCosmeticItemSelectorsForCosmeticSlot(EMercCosmeticSlot CheckCosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetCosmeticItemSelectorsForCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetCosmeticItemSelectorsForCosmeticSlot");
 
 	struct
 	{
@@ -4390,7 +4390,7 @@ TArray<class UKSCosmeticItemSelectorWidget*> UKSCustomizationSelection::GetCosme
 
 class UKSSortableGridPanel* UKSCustomizationSelection::GetActiveSortableGridPanel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetActiveSortableGridPanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetActiveSortableGridPanel");
 
 	struct
 	{
@@ -4411,7 +4411,7 @@ class UKSSortableGridPanel* UKSCustomizationSelection::GetActiveSortableGridPane
 
 class UKSScrollBox* UKSCustomizationSelection::GetActiveScrollBox()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetActiveScrollBox"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetActiveScrollBox");
 
 	struct
 	{
@@ -4432,7 +4432,7 @@ class UKSScrollBox* UKSCustomizationSelection::GetActiveScrollBox()
 
 struct FRogueCustomizationRelatedInfo UKSCustomizationSelection::GetActiveRogueCustomizationRelatedInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetActiveRogueCustomizationRelatedInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetActiveRogueCustomizationRelatedInfo");
 
 	struct
 	{
@@ -4453,7 +4453,7 @@ struct FRogueCustomizationRelatedInfo UKSCustomizationSelection::GetActiveRogueC
 
 class UKSNavTabWidget* UKSCustomizationSelection::GetActiveNavTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetActiveNavTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetActiveNavTab");
 
 	struct
 	{
@@ -4474,7 +4474,7 @@ class UKSNavTabWidget* UKSCustomizationSelection::GetActiveNavTab()
 
 EMercCosmeticSlot UKSCustomizationSelection::GetActiveCosmeticSlot()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetActiveCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetActiveCosmeticSlot");
 
 	struct
 	{
@@ -4495,7 +4495,7 @@ EMercCosmeticSlot UKSCustomizationSelection::GetActiveCosmeticSlot()
 
 TArray<class UKSCosmeticItemSelectorWidget*> UKSCustomizationSelection::GetActiveCosmeticItemSelectors()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.GetActiveCosmeticItemSelectors"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.GetActiveCosmeticItemSelectors");
 
 	struct
 	{
@@ -4516,7 +4516,7 @@ TArray<class UKSCosmeticItemSelectorWidget*> UKSCustomizationSelection::GetActiv
 
 void UKSCustomizationSelection::ForceSetTabIndex(int NewTabIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.ForceSetTabIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.ForceSetTabIndex");
 
 	struct
 	{
@@ -4536,7 +4536,7 @@ void UKSCustomizationSelection::ForceSetTabIndex(int NewTabIndex)
 
 void UKSCustomizationSelection::ClearCosmeticItemsForCosmeticSlot(EMercCosmeticSlot CheckCosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.ClearCosmeticItemsForCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.ClearCosmeticItemsForCosmeticSlot");
 
 	struct
 	{
@@ -4554,7 +4554,7 @@ void UKSCustomizationSelection::ClearCosmeticItemsForCosmeticSlot(EMercCosmeticS
 
 void UKSCustomizationSelection::ChangeToNewTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.ChangeToNewTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.ChangeToNewTab");
 
 	struct
 	{
@@ -4572,7 +4572,7 @@ void UKSCustomizationSelection::ChangeToNewTab()
 
 bool UKSCustomizationSelection::CanChangeTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.CanChangeTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.CanChangeTab");
 
 	struct
 	{
@@ -4597,7 +4597,7 @@ bool UKSCustomizationSelection::CanChangeTab()
 
 void UKSCustomizationSelection::AddRogueCustomizationRelatedInfo(int NewSwitcherIndex, EMercCosmeticSlot NewCosmeticSlot, class UKSNavTabWidget* NewNavTab, class UKSScrollBox* NewScrollBox, class UKSSortableGridPanel* NewSortableGridPanel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.AddRogueCustomizationRelatedInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.AddRogueCustomizationRelatedInfo");
 
 	struct
 	{
@@ -4626,7 +4626,7 @@ void UKSCustomizationSelection::AddRogueCustomizationRelatedInfo(int NewSwitcher
 
 void UKSCustomizationSelection::AddCosmeticItemsForCosmeticSlot(EMercCosmeticSlot CheckCosmeticSlot, TArray<class UKSCosmeticItemSelectorWidget*> NewCosmeticItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSCustomizationSelection.AddCosmeticItemsForCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSCustomizationSelection.AddCosmeticItemsForCosmeticSlot");
 
 	struct
 	{
@@ -4646,7 +4646,7 @@ void UKSCustomizationSelection::AddCosmeticItemsForCosmeticSlot(EMercCosmeticSlo
 
 void UKSDailyChallengeViewBase::UpdateChallenges()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDailyChallengeViewBase.UpdateChallenges"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDailyChallengeViewBase.UpdateChallenges");
 
 	struct
 	{
@@ -4662,7 +4662,7 @@ void UKSDailyChallengeViewBase::UpdateChallenges()
 
 void UKSDailyChallengeViewBase::InitializeChallengeDisplays()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDailyChallengeViewBase.InitializeChallengeDisplays"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDailyChallengeViewBase.InitializeChallengeDisplays");
 
 	struct
 	{
@@ -4678,7 +4678,7 @@ void UKSDailyChallengeViewBase::InitializeChallengeDisplays()
 
 void UKSDailyChallengeViewBase::HandlePlayerChallengesReady()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDailyChallengeViewBase.HandlePlayerChallengesReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDailyChallengeViewBase.HandlePlayerChallengesReady");
 
 	struct
 	{
@@ -4694,7 +4694,7 @@ void UKSDailyChallengeViewBase::HandlePlayerChallengesReady()
 
 void UKSDailyChallengeViewBase::HandlePlayerChallengesChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDailyChallengeViewBase.HandlePlayerChallengesChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDailyChallengeViewBase.HandlePlayerChallengesChanged");
 
 	struct
 	{
@@ -4710,7 +4710,7 @@ void UKSDailyChallengeViewBase::HandlePlayerChallengesChanged()
 
 void UKSDailyChallengeViewBase::HandleDailyChallengeTimerRefreshed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDailyChallengeViewBase.HandleDailyChallengeTimerRefreshed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDailyChallengeViewBase.HandleDailyChallengeTimerRefreshed");
 
 	struct
 	{
@@ -4728,7 +4728,7 @@ void UKSDailyChallengeViewBase::HandleDailyChallengeTimerRefreshed()
 
 TArray<class UKSActivityInstance*> UKSDailyChallengeViewBase::GetDisplayingChallenges()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDailyChallengeViewBase.GetDisplayingChallenges"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDailyChallengeViewBase.GetDisplayingChallenges");
 
 	struct
 	{
@@ -4749,7 +4749,7 @@ TArray<class UKSActivityInstance*> UKSDailyChallengeViewBase::GetDisplayingChall
 
 void UKSDailyChallengeViewBase::DisplayChallengeTimeRemaining(int TimeRemainingSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDailyChallengeViewBase.DisplayChallengeTimeRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDailyChallengeViewBase.DisplayChallengeTimeRemaining");
 
 	struct
 	{
@@ -4771,7 +4771,7 @@ void UKSDailyChallengeViewBase::DisplayChallengeTimeRemaining(int TimeRemainingS
 
 void UKSDailyChallengeViewBase::DisplayChallenge(int Index, class UKSActivityInstance* ActivityInstance, bool PlayFlourish)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDailyChallengeViewBase.DisplayChallenge"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDailyChallengeViewBase.DisplayChallenge");
 
 	struct
 	{
@@ -4795,7 +4795,7 @@ void UKSDailyChallengeViewBase::DisplayChallenge(int Index, class UKSActivityIns
 
 bool UKSDataSocialCategory::TryConsumeOpenOnUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.TryConsumeOpenOnUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.TryConsumeOpenOnUpdate");
 
 	struct
 	{
@@ -4816,7 +4816,7 @@ bool UKSDataSocialCategory::TryConsumeOpenOnUpdate()
 
 void UKSDataSocialCategory::SetOpenOnUpdate(bool Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.SetOpenOnUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.SetOpenOnUpdate");
 
 	struct
 	{
@@ -4837,7 +4837,7 @@ void UKSDataSocialCategory::SetOpenOnUpdate(bool Value)
 
 void UKSDataSocialCategory::SetMessageText(bool bProcessing, const struct FText& MessageText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.SetMessageText"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.SetMessageText");
 
 	struct
 	{
@@ -4859,7 +4859,7 @@ void UKSDataSocialCategory::SetMessageText(bool bProcessing, const struct FText&
 
 void UKSDataSocialCategory::SetHeaderText(const struct FText& Header)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.SetHeaderText"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.SetHeaderText");
 
 	struct
 	{
@@ -4879,7 +4879,7 @@ void UKSDataSocialCategory::SetHeaderText(const struct FText& Header)
 
 int UKSDataSocialCategory::Num()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.Num"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.Num");
 
 	struct
 	{
@@ -4900,7 +4900,7 @@ int UKSDataSocialCategory::Num()
 
 bool UKSDataSocialCategory::IsProcessing()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.IsProcessing"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.IsProcessing");
 
 	struct
 	{
@@ -4921,7 +4921,7 @@ bool UKSDataSocialCategory::IsProcessing()
 
 TArray<class UKSDataSocialPlayer*> UKSDataSocialCategory::GetPlayerList()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.GetPlayerList"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.GetPlayerList");
 
 	struct
 	{
@@ -4942,7 +4942,7 @@ TArray<class UKSDataSocialPlayer*> UKSDataSocialCategory::GetPlayerList()
 
 struct FText UKSDataSocialCategory::GetMessageText()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.GetMessageText"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.GetMessageText");
 
 	struct
 	{
@@ -4963,7 +4963,7 @@ struct FText UKSDataSocialCategory::GetMessageText()
 
 struct FText UKSDataSocialCategory::GetHeaderText()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.GetHeaderText"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.GetHeaderText");
 
 	struct
 	{
@@ -4984,7 +4984,7 @@ struct FText UKSDataSocialCategory::GetHeaderText()
 
 unsigned char UKSDataSocialCategory::BP_GetSectionValue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialCategory.BP_GetSectionValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialCategory.BP_GetSectionValue");
 
 	struct
 	{
@@ -5005,7 +5005,7 @@ unsigned char UKSDataSocialCategory::BP_GetSectionValue()
 
 void UKSDataSocialPlayer::KSSocialPlayerUpdate__DelegateSignature(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction KillstreakUINew.KSDataSocialPlayer.KSSocialPlayerUpdate__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction KillstreakUINew.KSDataSocialPlayer.KSSocialPlayerUpdate__DelegateSignature");
 
 	struct
 	{
@@ -5025,7 +5025,7 @@ void UKSDataSocialPlayer::KSSocialPlayerUpdate__DelegateSignature(class UKSPlaye
 
 bool UKSDataSocialPlayer::IsValid()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialPlayer.IsValid"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialPlayer.IsValid");
 
 	struct
 	{
@@ -5046,7 +5046,7 @@ bool UKSDataSocialPlayer::IsValid()
 
 class UKSPlayerInfo* UKSDataSocialPlayer::GetPlayerInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataSocialPlayer.GetPlayerInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataSocialPlayer.GetPlayerInfo");
 
 	struct
 	{
@@ -5069,7 +5069,7 @@ class UKSPlayerInfo* UKSDataSocialPlayer::GetPlayerInfo()
 
 bool UKSDebugMenu::GetSubmenu(const struct FDebugMenuCommandInfo& BaseCommand, TArray<struct FDebugMenuCommandInfo>* Submenu)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDebugMenu.GetSubmenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDebugMenu.GetSubmenu");
 
 	struct
 	{
@@ -5096,7 +5096,7 @@ bool UKSDebugMenu::GetSubmenu(const struct FDebugMenuCommandInfo& BaseCommand, T
 
 void UKSDebugMenu::GetSortedBaseDebugCommands(TArray<struct FDebugMenuCommandInfo>* SortedCommands)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDebugMenu.GetSortedBaseDebugCommands"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDebugMenu.GetSortedBaseDebugCommands");
 
 	struct
 	{
@@ -5119,7 +5119,7 @@ void UKSDebugMenu::GetSortedBaseDebugCommands(TArray<struct FDebugMenuCommandInf
 
 EConsoleCommandParamType UKSDebugMenu::GetParamTypeForSubCommand(const struct FString& BaseCommandString)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDebugMenu.GetParamTypeForSubCommand"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDebugMenu.GetParamTypeForSubCommand");
 
 	struct
 	{
@@ -5140,7 +5140,7 @@ EConsoleCommandParamType UKSDebugMenu::GetParamTypeForSubCommand(const struct FS
 
 void UKSDownloadProgressWidget::UpdateFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDownloadProgressWidget.UpdateFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDownloadProgressWidget.UpdateFinished");
 
 	struct
 	{
@@ -5161,7 +5161,7 @@ void UKSDownloadProgressWidget::UpdateFinished()
 
 void UKSDownloadProgressWidget::UpdatedDownloadProgress(float Progress, float Total, float Eta, bool bSupportsEta)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDownloadProgressWidget.UpdatedDownloadProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDownloadProgressWidget.UpdatedDownloadProgress");
 
 	struct
 	{
@@ -5188,7 +5188,7 @@ void UKSDownloadProgressWidget::UpdatedDownloadProgress(float Progress, float To
 
 void UKSEliminationMessageWidget::ShowMessageForTakenDown(class AKSPlayerState* Instigator, bool IsElimination)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEliminationMessageWidget.ShowMessageForTakenDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEliminationMessageWidget.ShowMessageForTakenDown");
 
 	struct
 	{
@@ -5211,7 +5211,7 @@ void UKSEliminationMessageWidget::ShowMessageForTakenDown(class AKSPlayerState* 
 
 void UKSEliminationMessageWidget::ShowMessageForTakedown(class AKSPlayerState* Victim, bool IsElimination)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEliminationMessageWidget.ShowMessageForTakedown"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEliminationMessageWidget.ShowMessageForTakedown");
 
 	struct
 	{
@@ -5234,7 +5234,7 @@ void UKSEliminationMessageWidget::ShowMessageForTakedown(class AKSPlayerState* V
 
 void UKSEliminationMessageWidget::ShowMessageForAssist(class AKSPlayerState* Victim, bool IsElimination)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEliminationMessageWidget.ShowMessageForAssist"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEliminationMessageWidget.ShowMessageForAssist");
 
 	struct
 	{
@@ -5257,7 +5257,7 @@ void UKSEliminationMessageWidget::ShowMessageForAssist(class AKSPlayerState* Vic
 
 void UKSEliminationMessageWidget::OnPlayerDownReceived(const struct FCombatEventInfo& EventInfo, int ExpBonus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEliminationMessageWidget.OnPlayerDownReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEliminationMessageWidget.OnPlayerDownReceived");
 
 	struct
 	{
@@ -5279,7 +5279,7 @@ void UKSEliminationMessageWidget::OnPlayerDownReceived(const struct FCombatEvent
 
 void UKSEliminationMessageWidget::OnPlayerDeathReceived(const struct FCombatEventInfo& EventInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEliminationMessageWidget.OnPlayerDeathReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEliminationMessageWidget.OnPlayerDeathReceived");
 
 	struct
 	{
@@ -5299,7 +5299,7 @@ void UKSEliminationMessageWidget::OnPlayerDeathReceived(const struct FCombatEven
 
 void UKSEliminationMessageWidget::OnPlayerAssistReceived(const struct FAssistInfo& EventInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEliminationMessageWidget.OnPlayerAssistReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEliminationMessageWidget.OnPlayerAssistReceived");
 
 	struct
 	{
@@ -5317,7 +5317,7 @@ void UKSEliminationMessageWidget::OnPlayerAssistReceived(const struct FAssistInf
 
 void UKSEliminationMessageWidget::ClearMessages()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEliminationMessageWidget.ClearMessages"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEliminationMessageWidget.ClearMessages");
 
 	struct
 	{
@@ -5340,7 +5340,7 @@ void UKSEliminationMessageWidget::ClearMessages()
 
 void UKSEMODataFactory::SetupTestData(int PlayerXp, int RankedXp, int RogueXp, int ReputationEarned, int PlacementMatchNum, int BattlePassXp)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.SetupTestData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.SetupTestData");
 
 	struct
 	{
@@ -5371,7 +5371,7 @@ void UKSEMODataFactory::SetupTestData(int PlayerXp, int RankedXp, int RogueXp, i
 
 bool UKSEMODataFactory::IsLocalPlayer(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.IsLocalPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.IsLocalPlayer");
 
 	struct
 	{
@@ -5395,7 +5395,7 @@ bool UKSEMODataFactory::IsLocalPlayer(int64_t PlayerId)
 
 void UKSEMODataFactory::HandlePlayerRewards(const struct FPlayerRewardsSummary& PlayerRewardSummary, bool bFakeTestData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.HandlePlayerRewards"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.HandlePlayerRewards");
 
 	struct
 	{
@@ -5415,7 +5415,7 @@ void UKSEMODataFactory::HandlePlayerRewards(const struct FPlayerRewardsSummary& 
 
 void UKSEMODataFactory::HandleEOMDetail()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.HandleEOMDetail"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.HandleEOMDetail");
 
 	struct
 	{
@@ -5433,7 +5433,7 @@ void UKSEMODataFactory::HandleEOMDetail()
 
 struct FScoreboardStats UKSEMODataFactory::GetScoreboardStats()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.GetScoreboardStats"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.GetScoreboardStats");
 
 	struct
 	{
@@ -5454,7 +5454,7 @@ struct FScoreboardStats UKSEMODataFactory::GetScoreboardStats()
 
 struct FPlayerRewardsSummary UKSEMODataFactory::GetPlayerRewardsSummary()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.GetPlayerRewardsSummary"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.GetPlayerRewardsSummary");
 
 	struct
 	{
@@ -5475,7 +5475,7 @@ struct FPlayerRewardsSummary UKSEMODataFactory::GetPlayerRewardsSummary()
 
 int UKSEMODataFactory::GetLastMatchQueueId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.GetLastMatchQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.GetLastMatchQueueId");
 
 	struct
 	{
@@ -5497,7 +5497,7 @@ int UKSEMODataFactory::GetLastMatchQueueId()
 
 bool UKSEMODataFactory::FindReputationProgressionActivity(class UKSActivityInstance** ReputationProgressionActivity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.FindReputationProgressionActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.FindReputationProgressionActivity");
 
 	struct
 	{
@@ -5523,7 +5523,7 @@ bool UKSEMODataFactory::FindReputationProgressionActivity(class UKSActivityInsta
 
 bool UKSEMODataFactory::FindRankedProgressionActivity(class UKSActivityInstance** RankedProgressionActivity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.FindRankedProgressionActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.FindRankedProgressionActivity");
 
 	struct
 	{
@@ -5549,7 +5549,7 @@ bool UKSEMODataFactory::FindRankedProgressionActivity(class UKSActivityInstance*
 
 bool UKSEMODataFactory::FindPlayerXpProgressionActivity(class UKSActivityInstance** PlayerXpProgressionActivity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.FindPlayerXpProgressionActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.FindPlayerXpProgressionActivity");
 
 	struct
 	{
@@ -5575,7 +5575,7 @@ bool UKSEMODataFactory::FindPlayerXpProgressionActivity(class UKSActivityInstanc
 
 bool UKSEMODataFactory::FindMiniBattlePassProgressionActivity(class UKSActivityInstance** MiniBattlePassProgressionActivity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.FindMiniBattlePassProgressionActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.FindMiniBattlePassProgressionActivity");
 
 	struct
 	{
@@ -5601,7 +5601,7 @@ bool UKSEMODataFactory::FindMiniBattlePassProgressionActivity(class UKSActivityI
 
 bool UKSEMODataFactory::FindBattlePassProgressionActivity(class UKSActivityInstance** BattlePassProgressionActivity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.FindBattlePassProgressionActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.FindBattlePassProgressionActivity");
 
 	struct
 	{
@@ -5624,7 +5624,7 @@ bool UKSEMODataFactory::FindBattlePassProgressionActivity(class UKSActivityInsta
 
 void UKSEMODataFactory::ComputeEOMResults()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSEMODataFactory.ComputeEOMResults"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEMODataFactory.ComputeEOMResults");
 
 	struct
 	{
@@ -5642,7 +5642,7 @@ void UKSEMODataFactory::ComputeEOMResults()
 
 void UKSExpDisplayWidget::QueueExpDisplays(const struct FExpDisplayInfo& ExpInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSExpDisplayWidget.QueueExpDisplays"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSExpDisplayWidget.QueueExpDisplays");
 
 	struct
 	{
@@ -5660,7 +5660,7 @@ void UKSExpDisplayWidget::QueueExpDisplays(const struct FExpDisplayInfo& ExpInfo
 
 void UKSExpDisplayWidget::NativeHandleDisplayExpInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSExpDisplayWidget.NativeHandleDisplayExpInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSExpDisplayWidget.NativeHandleDisplayExpInfo");
 
 	struct
 	{
@@ -5679,7 +5679,7 @@ void UKSExpDisplayWidget::NativeHandleDisplayExpInfo()
 
 bool UKSExpDisplayWidget::GetNextExpDisplay(struct FExpDisplayInfo* ExpInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSExpDisplayWidget.GetNextExpDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSExpDisplayWidget.GetNextExpDisplay");
 
 	struct
 	{
@@ -5702,7 +5702,7 @@ bool UKSExpDisplayWidget::GetNextExpDisplay(struct FExpDisplayInfo* ExpInfo)
 
 void UKSExpDisplayWidget::DisplayExpInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSExpDisplayWidget.DisplayExpInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSExpDisplayWidget.DisplayExpInfo");
 
 	struct
 	{
@@ -5720,7 +5720,7 @@ void UKSExpDisplayWidget::DisplayExpInfo()
 
 void UKSFloatTickLerpWidgetBase::SetTargetValue(float Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFloatTickLerpWidgetBase.SetTargetValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFloatTickLerpWidgetBase.SetTargetValue");
 
 	struct
 	{
@@ -5740,7 +5740,7 @@ void UKSFloatTickLerpWidgetBase::SetTargetValue(float Value)
 
 void UKSFloatTickLerpWidgetBase::SetLerpTime(float Time)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFloatTickLerpWidgetBase.SetLerpTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFloatTickLerpWidgetBase.SetLerpTime");
 
 	struct
 	{
@@ -5760,7 +5760,7 @@ void UKSFloatTickLerpWidgetBase::SetLerpTime(float Time)
 
 void UKSFloatTickLerpWidgetBase::SetLerpPower(float Power)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFloatTickLerpWidgetBase.SetLerpPower"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFloatTickLerpWidgetBase.SetLerpPower");
 
 	struct
 	{
@@ -5780,7 +5780,7 @@ void UKSFloatTickLerpWidgetBase::SetLerpPower(float Power)
 
 bool UKSFloatTickLerpWidgetBase::IsLerping()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFloatTickLerpWidgetBase.IsLerping"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFloatTickLerpWidgetBase.IsLerping");
 
 	struct
 	{
@@ -5801,7 +5801,7 @@ bool UKSFloatTickLerpWidgetBase::IsLerping()
 
 float UKSFloatTickLerpWidgetBase::GetCurrentValue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFloatTickLerpWidgetBase.GetCurrentValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFloatTickLerpWidgetBase.GetCurrentValue");
 
 	struct
 	{
@@ -5822,7 +5822,7 @@ float UKSFloatTickLerpWidgetBase::GetCurrentValue()
 
 void UKSFloatTickLerpWidgetBase::ForceCurrentValue(float Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFloatTickLerpWidgetBase.ForceCurrentValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFloatTickLerpWidgetBase.ForceCurrentValue");
 
 	struct
 	{
@@ -5842,7 +5842,7 @@ void UKSFloatTickLerpWidgetBase::ForceCurrentValue(float Value)
 
 void UKSFloatTickLerpWidgetBase::DisplayForValue(float Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFloatTickLerpWidgetBase.DisplayForValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFloatTickLerpWidgetBase.DisplayForValue");
 
 	struct
 	{
@@ -5863,7 +5863,7 @@ void UKSFloatTickLerpWidgetBase::DisplayForValue(float Value)
 
 void UKSFriendDataFactory::OnEOMRewardsReceived(const struct FPlayerRewardsSummary& PlayerRewardsSummary, const struct FScoreboardStats& ScoreboardStats)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFriendDataFactory.OnEOMRewardsReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFriendDataFactory.OnEOMRewardsReceived");
 
 	struct
 	{
@@ -5885,7 +5885,7 @@ void UKSFriendDataFactory::OnEOMRewardsReceived(const struct FPlayerRewardsSumma
 
 void UKSFriendDataFactory::KSUpdateRecentlyPlayedPlayers__DelegateSignature(class UKSFriendDataFactory* Source)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction KillstreakUINew.KSFriendDataFactory.KSUpdateRecentlyPlayedPlayers__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction KillstreakUINew.KSFriendDataFactory.KSUpdateRecentlyPlayedPlayers__DelegateSignature");
 
 	struct
 	{
@@ -5905,7 +5905,7 @@ void UKSFriendDataFactory::KSUpdateRecentlyPlayedPlayers__DelegateSignature(clas
 
 TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetSuggestedFriends_Info()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFriendDataFactory.GetSuggestedFriends_Info"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFriendDataFactory.GetSuggestedFriends_Info");
 
 	struct
 	{
@@ -5926,7 +5926,7 @@ TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetSuggestedFriends_Info()
 
 TArray<class UKSPlayerInfo*> UKSFriendDataFactory::GetPlayersPlayedWithThisClientSession_Info()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFriendDataFactory.GetPlayersPlayedWithThisClientSession_Info"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFriendDataFactory.GetPlayersPlayedWithThisClientSession_Info");
 
 	struct
 	{
@@ -5947,7 +5947,7 @@ TArray<class UKSPlayerInfo*> UKSFriendDataFactory::GetPlayersPlayedWithThisClien
 
 TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetPendingFriends_Info()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFriendDataFactory.GetPendingFriends_Info"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFriendDataFactory.GetPendingFriends_Info");
 
 	struct
 	{
@@ -5968,7 +5968,7 @@ TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetPendingFriends_Info()
 
 TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetOnlineFriends_Info()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFriendDataFactory.GetOnlineFriends_Info"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFriendDataFactory.GetOnlineFriends_Info");
 
 	struct
 	{
@@ -5989,7 +5989,7 @@ TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetOnlineFriends_Info()
 
 TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetFriends_Info()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFriendDataFactory.GetFriends_Info"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFriendDataFactory.GetFriends_Info");
 
 	struct
 	{
@@ -6010,7 +6010,7 @@ TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetFriends_Info()
 
 TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetFriendRequests_Info()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFriendDataFactory.GetFriendRequests_Info"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFriendDataFactory.GetFriendRequests_Info");
 
 	struct
 	{
@@ -6031,7 +6031,7 @@ TArray<class UPUMG_PlayerInfo*> UKSFriendDataFactory::GetFriendRequests_Info()
 
 void UKSFubarPopupWidget::ReceiveFubar(EFubarDisplayReason Reason)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFubarPopupWidget.ReceiveFubar"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFubarPopupWidget.ReceiveFubar");
 
 	struct
 	{
@@ -6051,7 +6051,7 @@ void UKSFubarPopupWidget::ReceiveFubar(EFubarDisplayReason Reason)
 
 int UKSFubarPopupWidget::GetSecondsToShutdown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFubarPopupWidget.GetSecondsToShutdown"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFubarPopupWidget.GetSecondsToShutdown");
 
 	struct
 	{
@@ -6072,7 +6072,7 @@ int UKSFubarPopupWidget::GetSecondsToShutdown()
 
 void UKSFubarPopupWidget::DisplayFubar(EFubarDisplayReason Reason)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSFubarPopupWidget.DisplayFubar"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSFubarPopupWidget.DisplayFubar");
 
 	struct
 	{
@@ -6090,7 +6090,7 @@ void UKSFubarPopupWidget::DisplayFubar(EFubarDisplayReason Reason)
 
 void UKSMapWidgetBase::UpdateOpacityWhenAiming()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.UpdateOpacityWhenAiming"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.UpdateOpacityWhenAiming");
 
 	struct
 	{
@@ -6108,7 +6108,7 @@ void UKSMapWidgetBase::UpdateOpacityWhenAiming()
 
 void UKSMapWidgetBase::UpdateIcon(class UKSMapIconWidgetBase* Icon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.UpdateIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.UpdateIcon");
 
 	struct
 	{
@@ -6129,7 +6129,7 @@ void UKSMapWidgetBase::UpdateIcon(class UKSMapIconWidgetBase* Icon)
 
 struct FVector2D UKSMapWidgetBase::ToIconRenderCoords(const struct FVector2D& MapCoords)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.ToIconRenderCoords"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.ToIconRenderCoords");
 
 	struct
 	{
@@ -6153,7 +6153,7 @@ struct FVector2D UKSMapWidgetBase::ToIconRenderCoords(const struct FVector2D& Ma
 
 float UKSMapWidgetBase::ToIconRenderAngle(float PlayerAngle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.ToIconRenderAngle"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.ToIconRenderAngle");
 
 	struct
 	{
@@ -6174,7 +6174,7 @@ float UKSMapWidgetBase::ToIconRenderAngle(float PlayerAngle)
 
 void UKSMapWidgetBase::TickCachedTransform()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.TickCachedTransform"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.TickCachedTransform");
 
 	struct
 	{
@@ -6192,7 +6192,7 @@ void UKSMapWidgetBase::TickCachedTransform()
 
 bool UKSMapWidgetBase::ShouldUpdateOpacityWhenAiming()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.ShouldUpdateOpacityWhenAiming"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.ShouldUpdateOpacityWhenAiming");
 
 	struct
 	{
@@ -6213,7 +6213,7 @@ bool UKSMapWidgetBase::ShouldUpdateOpacityWhenAiming()
 
 void UKSMapWidgetBase::SetScrambleState(bool Scrambled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.SetScrambleState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.SetScrambleState");
 
 	struct
 	{
@@ -6233,7 +6233,7 @@ void UKSMapWidgetBase::SetScrambleState(bool Scrambled)
 
 void UKSMapWidgetBase::RemoveWidgetFromLoaderById(int InId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.RemoveWidgetFromLoaderById"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.RemoveWidgetFromLoaderById");
 
 	struct
 	{
@@ -6253,7 +6253,7 @@ void UKSMapWidgetBase::RemoveWidgetFromLoaderById(int InId)
 
 void UKSMapWidgetBase::OnScrambleStateChanged(bool Scrambled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.OnScrambleStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.OnScrambleStateChanged");
 
 	struct
 	{
@@ -6273,7 +6273,7 @@ void UKSMapWidgetBase::OnScrambleStateChanged(bool Scrambled)
 
 void UKSMapWidgetBase::OnReceiveDisplayWidgetInfo(const struct FDisplayInfo& DisplayInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.OnReceiveDisplayWidgetInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.OnReceiveDisplayWidgetInfo");
 
 	struct
 	{
@@ -6293,7 +6293,7 @@ void UKSMapWidgetBase::OnReceiveDisplayWidgetInfo(const struct FDisplayInfo& Dis
 
 void UKSMapWidgetBase::OnGameStateSet(class AGameStateBase* GameStateBase)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.OnGameStateSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.OnGameStateSet");
 
 	struct
 	{
@@ -6314,7 +6314,7 @@ void UKSMapWidgetBase::OnGameStateSet(class AGameStateBase* GameStateBase)
 
 bool UKSMapWidgetBase::IsOnMap(const struct FVector2D& MapCoords)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.IsOnMap"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.IsOnMap");
 
 	struct
 	{
@@ -6337,7 +6337,7 @@ bool UKSMapWidgetBase::IsOnMap(const struct FVector2D& MapCoords)
 
 void UKSMapWidgetBase::HandleMoveToWidgetPool(class UKSMapIconWidgetBase* MapIconWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.HandleMoveToWidgetPool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.HandleMoveToWidgetPool");
 
 	struct
 	{
@@ -6358,7 +6358,7 @@ void UKSMapWidgetBase::HandleMoveToWidgetPool(class UKSMapIconWidgetBase* MapIco
 
 void UKSMapWidgetBase::HandleDisplayFromWidgetPool(class UKSMapIconWidgetBase* MapIconWidget, const struct FDisplayInfo& DisplayInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.HandleDisplayFromWidgetPool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.HandleDisplayFromWidgetPool");
 
 	struct
 	{
@@ -6380,7 +6380,7 @@ void UKSMapWidgetBase::HandleDisplayFromWidgetPool(class UKSMapIconWidgetBase* M
 
 void UKSMapWidgetBase::HandleAimStateChange(EKSCharacterAimMode NewAimState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.HandleAimStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.HandleAimStateChange");
 
 	struct
 	{
@@ -6401,7 +6401,7 @@ void UKSMapWidgetBase::HandleAimStateChange(EKSCharacterAimMode NewAimState)
 
 class UKSMapIconWidgetBase* UKSMapWidgetBase::GrabMapIconWidget(const struct FString& WidgetPoolName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.GrabMapIconWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.GrabMapIconWidget");
 
 	struct
 	{
@@ -6425,7 +6425,7 @@ class UKSMapIconWidgetBase* UKSMapWidgetBase::GrabMapIconWidget(const struct FSt
 
 float UKSMapWidgetBase::GetDistanceToIcon(class UKSMapIconWidgetBase* Icon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.GetDistanceToIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.GetDistanceToIcon");
 
 	struct
 	{
@@ -6448,7 +6448,7 @@ float UKSMapWidgetBase::GetDistanceToIcon(class UKSMapIconWidgetBase* Icon)
 
 class APawn* UKSMapWidgetBase::GetCachedViewedPawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.GetCachedViewedPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.GetCachedViewedPawn");
 
 	struct
 	{
@@ -6469,7 +6469,7 @@ class APawn* UKSMapWidgetBase::GetCachedViewedPawn()
 
 struct FTransform UKSMapWidgetBase::GetCachedTransform()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.GetCachedTransform"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.GetCachedTransform");
 
 	struct
 	{
@@ -6490,7 +6490,7 @@ struct FTransform UKSMapWidgetBase::GetCachedTransform()
 
 void UKSMapWidgetBase::DisplayToMapWidget(class UKSMapIconWidgetBase* MapIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.DisplayToMapWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.DisplayToMapWidget");
 
 	struct
 	{
@@ -6518,7 +6518,7 @@ void UKSMapWidgetBase::DisplayToMapWidget(class UKSMapIconWidgetBase* MapIcon)
 
 class UKSMapIconWidgetBase* UKSMapWidgetBase::CreateNewIconWidget(class UClass* WidgetClass, int UniqueId, class AKSPlayerState* CreatingPlayer, EDisplayType ParentMapDisplayType, class AActor* AssociatedActor, class UObject* AssociatedObject, const struct FVector& DefaultLocation, float Lifespan)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.CreateNewIconWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.CreateNewIconWidget");
 
 	struct
 	{
@@ -6555,7 +6555,7 @@ class UKSMapIconWidgetBase* UKSMapWidgetBase::CreateNewIconWidget(class UClass* 
 
 void UKSMapWidgetBase::CreateMapIconWidgetPool(const struct FMapIconWidgetConfig& MapIconWidgetConfig)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapWidgetBase.CreateMapIconWidgetPool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapWidgetBase.CreateMapIconWidgetPool");
 
 	struct
 	{
@@ -6573,7 +6573,7 @@ void UKSMapWidgetBase::CreateMapIconWidgetPool(const struct FMapIconWidgetConfig
 
 void AKSHUDCommon::UIX_ReportServer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.UIX_ReportServer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.UIX_ReportServer");
 
 	struct
 	{
@@ -6589,7 +6589,7 @@ void AKSHUDCommon::UIX_ReportServer()
 
 void AKSHUDCommon::TestChallengeNotification()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.TestChallengeNotification"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.TestChallengeNotification");
 
 	struct
 	{
@@ -6607,7 +6607,7 @@ void AKSHUDCommon::TestChallengeNotification()
 
 void AKSHUDCommon::ShowErrorPopup(const struct FText& ErrorMsg)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.ShowErrorPopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.ShowErrorPopup");
 
 	struct
 	{
@@ -6628,7 +6628,7 @@ void AKSHUDCommon::ShowErrorPopup(const struct FText& ErrorMsg)
 
 bool AKSHUDCommon::ShouldShowCrossplayIconForPlayerState(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.ShouldShowCrossplayIconForPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.ShouldShowCrossplayIconForPlayerState");
 
 	struct
 	{
@@ -6652,7 +6652,7 @@ bool AKSHUDCommon::ShouldShowCrossplayIconForPlayerState(class AKSPlayerState* P
 
 bool AKSHUDCommon::ShouldShowCrossplayIconForPlayer(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.ShouldShowCrossplayIconForPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.ShouldShowCrossplayIconForPlayer");
 
 	struct
 	{
@@ -6675,7 +6675,7 @@ bool AKSHUDCommon::ShouldShowCrossplayIconForPlayer(int64_t PlayerId)
 
 void AKSHUDCommon::SetPreferredSiteId(int SiteId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.SetPreferredSiteId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.SetPreferredSiteId");
 
 	struct
 	{
@@ -6695,7 +6695,7 @@ void AKSHUDCommon::SetPreferredSiteId(int SiteId)
 
 void AKSHUDCommon::PrintToLog(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.PrintToLog"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.PrintToLog");
 
 	struct
 	{
@@ -6715,7 +6715,7 @@ void AKSHUDCommon::PrintToLog(const struct FText& InText)
 
 void AKSHUDCommon::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.OpenTextChatToPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.OpenTextChatToPlayer");
 
 	struct
 	{
@@ -6737,7 +6737,7 @@ void AKSHUDCommon::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 
 bool AKSHUDCommon::MutePlayer(int64_t PlayerId, bool Mute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.MutePlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.MutePlayer");
 
 	struct
 	{
@@ -6762,7 +6762,7 @@ bool AKSHUDCommon::MutePlayer(int64_t PlayerId, bool Mute)
 
 void AKSHUDCommon::LogErrorMessage(const struct FText& ErrorMsg)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.LogErrorMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.LogErrorMessage");
 
 	struct
 	{
@@ -6783,7 +6783,7 @@ void AKSHUDCommon::LogErrorMessage(const struct FText& ErrorMsg)
 
 bool AKSHUDCommon::IsSamePortalAsLocalPlayer(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.IsSamePortalAsLocalPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.IsSamePortalAsLocalPlayer");
 
 	struct
 	{
@@ -6807,7 +6807,7 @@ bool AKSHUDCommon::IsSamePortalAsLocalPlayer(int64_t PlayerId)
 
 bool AKSHUDCommon::IsMuted(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.IsMuted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.IsMuted");
 
 	struct
 	{
@@ -6830,7 +6830,7 @@ bool AKSHUDCommon::IsMuted(int64_t PlayerId)
 
 void AKSHUDCommon::HandleOpenTextChat(bool BeginChatCommand)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.HandleOpenTextChat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.HandleOpenTextChat");
 
 	struct
 	{
@@ -6848,7 +6848,7 @@ void AKSHUDCommon::HandleOpenTextChat(bool BeginChatCommand)
 
 void AKSHUDCommon::HandleControllerDisconnect()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.HandleControllerDisconnect"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.HandleControllerDisconnect");
 
 	struct
 	{
@@ -6866,7 +6866,7 @@ void AKSHUDCommon::HandleControllerDisconnect()
 
 class UKSUISessionManager* AKSHUDCommon::GetUISessionManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetUISessionManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetUISessionManager");
 
 	struct
 	{
@@ -6887,7 +6887,7 @@ class UKSUISessionManager* AKSHUDCommon::GetUISessionManager()
 
 void AKSHUDCommon::GetSiteList(TMap<int, struct FText>* OutSiteIdToNameMap)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetSiteList"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetSiteList");
 
 	struct
 	{
@@ -6909,7 +6909,7 @@ void AKSHUDCommon::GetSiteList(TMap<int, struct FText>* OutSiteIdToNameMap)
 
 class UKSSettingsDataFactory* AKSHUDCommon::GetSettingsDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetSettingsDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetSettingsDataFactory");
 
 	struct
 	{
@@ -6931,7 +6931,7 @@ class UKSSettingsDataFactory* AKSHUDCommon::GetSettingsDataFactory()
 
 bool AKSHUDCommon::GetPreferredSiteId(int* OutSiteId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetPreferredSiteId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetPreferredSiteId");
 
 	struct
 	{
@@ -6956,7 +6956,7 @@ bool AKSHUDCommon::GetPreferredSiteId(int* OutSiteId)
 
 class UKSPlayerDataFactory* AKSHUDCommon::GetPlayerDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetPlayerDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetPlayerDataFactory");
 
 	struct
 	{
@@ -6977,7 +6977,7 @@ class UKSPlayerDataFactory* AKSHUDCommon::GetPlayerDataFactory()
 
 class UKSPartyDataFactory* AKSHUDCommon::GetPartyDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetPartyDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetPartyDataFactory");
 
 	struct
 	{
@@ -6998,7 +6998,7 @@ class UKSPartyDataFactory* AKSHUDCommon::GetPartyDataFactory()
 
 class UKSNPEDataFactory* AKSHUDCommon::GetNPEDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetNPEDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetNPEDataFactory");
 
 	struct
 	{
@@ -7019,7 +7019,7 @@ class UKSNPEDataFactory* AKSHUDCommon::GetNPEDataFactory()
 
 class UKSMercManager* AKSHUDCommon::GetMercManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetMercManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetMercManager");
 
 	struct
 	{
@@ -7040,7 +7040,7 @@ class UKSMercManager* AKSHUDCommon::GetMercManager()
 
 class UPUMG_LoginDataFactory* AKSHUDCommon::GetLoginDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetLoginDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetLoginDataFactory");
 
 	struct
 	{
@@ -7061,7 +7061,7 @@ class UPUMG_LoginDataFactory* AKSHUDCommon::GetLoginDataFactory()
 
 class UKSLoadoutDataFactory* AKSHUDCommon::GetLoadoutDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetLoadoutDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetLoadoutDataFactory");
 
 	struct
 	{
@@ -7082,7 +7082,7 @@ class UKSLoadoutDataFactory* AKSHUDCommon::GetLoadoutDataFactory()
 
 class UKSStoreItemHelper* AKSHUDCommon::GetItemHelper()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetItemHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetItemHelper");
 
 	struct
 	{
@@ -7105,7 +7105,7 @@ class UKSStoreItemHelper* AKSHUDCommon::GetItemHelper()
 
 bool AKSHUDCommon::GetFont(const struct FName& FontName, struct FSlateFontInfo* ReturnFont)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetFont"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetFont");
 
 	struct
 	{
@@ -7132,7 +7132,7 @@ bool AKSHUDCommon::GetFont(const struct FName& FontName, struct FSlateFontInfo* 
 
 TArray<class UPanelWidget*> AKSHUDCommon::GetFocusableWidgetContainers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetFocusableWidgetContainers"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetFocusableWidgetContainers");
 
 	struct
 	{
@@ -7153,7 +7153,7 @@ TArray<class UPanelWidget*> AKSHUDCommon::GetFocusableWidgetContainers()
 
 class UKSContextBarWidget* AKSHUDCommon::GetContextBarWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetContextBarWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetContextBarWidget");
 
 	struct
 	{
@@ -7176,7 +7176,7 @@ class UKSContextBarWidget* AKSHUDCommon::GetContextBarWidget()
 
 bool AKSHUDCommon::GetColor(const struct FName& ColorName, struct FLinearColor* ReturnColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetColor");
 
 	struct
 	{
@@ -7203,7 +7203,7 @@ bool AKSHUDCommon::GetColor(const struct FName& ColorName, struct FLinearColor* 
 
 class UKSChatDataFactory* AKSHUDCommon::GetChatDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetChatDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetChatDataFactory");
 
 	struct
 	{
@@ -7224,7 +7224,7 @@ class UKSChatDataFactory* AKSHUDCommon::GetChatDataFactory()
 
 class UKSAcquisitionManager* AKSHUDCommon::GetAcquisitionManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.GetAcquisitionManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.GetAcquisitionManager");
 
 	struct
 	{
@@ -7243,7 +7243,7 @@ class UKSAcquisitionManager* AKSHUDCommon::GetAcquisitionManager()
 
 void AKSHUDCommon::EvaluateFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.EvaluateFocus"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.EvaluateFocus");
 
 	struct
 	{
@@ -7259,7 +7259,7 @@ void AKSHUDCommon::EvaluateFocus()
 
 void AKSHUDCommon::DisplayWatermark()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.DisplayWatermark"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.DisplayWatermark");
 
 	struct
 	{
@@ -7275,7 +7275,7 @@ void AKSHUDCommon::DisplayWatermark()
 
 void AKSHUDCommon::ConfirmReportServer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.ConfirmReportServer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.ConfirmReportServer");
 
 	struct
 	{
@@ -7293,7 +7293,7 @@ void AKSHUDCommon::ConfirmReportServer()
 
 void AKSHUDCommon::ApplySafeFrameScale(float SafeFrameScale)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDCommon.ApplySafeFrameScale"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDCommon.ApplySafeFrameScale");
 
 	struct
 	{
@@ -7311,7 +7311,7 @@ void AKSHUDCommon::ApplySafeFrameScale(float SafeFrameScale)
 
 void AKSGameHUDNew::UIX_ReturnLobby()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.UIX_ReturnLobby"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.UIX_ReturnLobby");
 
 	struct
 	{
@@ -7327,7 +7327,7 @@ void AKSGameHUDNew::UIX_ReturnLobby()
 
 void AKSGameHUDNew::ToggleAimAssistDebug()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.ToggleAimAssistDebug"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.ToggleAimAssistDebug");
 
 	struct
 	{
@@ -7345,7 +7345,7 @@ void AKSGameHUDNew::ToggleAimAssistDebug()
 
 void AKSGameHUDNew::SetHUDVisible(bool bVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.SetHUDVisible"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.SetHUDVisible");
 
 	struct
 	{
@@ -7363,7 +7363,7 @@ void AKSGameHUDNew::SetHUDVisible(bool bVisible)
 
 void AKSGameHUDNew::ReturnToHome()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.ReturnToHome"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.ReturnToHome");
 
 	struct
 	{
@@ -7382,7 +7382,7 @@ void AKSGameHUDNew::ReturnToHome()
 
 void AKSGameHUDNew::OnViewedPlayerStateModRemoved(class UKSPlayerMod* PlayerMod, class UKSPlayerModInstance* ModInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.OnViewedPlayerStateModRemoved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.OnViewedPlayerStateModRemoved");
 
 	struct
 	{
@@ -7405,7 +7405,7 @@ void AKSGameHUDNew::OnViewedPlayerStateModRemoved(class UKSPlayerMod* PlayerMod,
 
 void AKSGameHUDNew::OnViewedPlayerStateModAdded(class UKSPlayerMod* PlayerMod, class UKSPlayerModInstance* ModInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.OnViewedPlayerStateModAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.OnViewedPlayerStateModAdded");
 
 	struct
 	{
@@ -7429,7 +7429,7 @@ void AKSGameHUDNew::OnViewedPlayerStateModAdded(class UKSPlayerMod* PlayerMod, c
 
 void AKSGameHUDNew::OnViewedPawnChanged(class AKSPlayerController* Controller, class AActor* OldViewTarget, class AActor* NewViewTarget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.OnViewedPawnChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.OnViewedPawnChanged");
 
 	struct
 	{
@@ -7451,7 +7451,7 @@ void AKSGameHUDNew::OnViewedPawnChanged(class AKSPlayerController* Controller, c
 
 void AKSGameHUDNew::OnToggleHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.OnToggleHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.OnToggleHUD");
 
 	struct
 	{
@@ -7467,7 +7467,7 @@ void AKSGameHUDNew::OnToggleHUD()
 
 void AKSGameHUDNew::OnAssetDataTableManagerChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.OnAssetDataTableManagerChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.OnAssetDataTableManagerChanged");
 
 	struct
 	{
@@ -7487,7 +7487,7 @@ void AKSGameHUDNew::OnAssetDataTableManagerChanged()
 
 void AKSGameHUDNew::NetworkLagStateChanged(class UWorld* World, class UNetDriver* NetDriver, TEnumAsByte<ENetworkLagState> LagType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.NetworkLagStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.NetworkLagStateChanged");
 
 	struct
 	{
@@ -7512,7 +7512,7 @@ void AKSGameHUDNew::NetworkLagStateChanged(class UWorld* World, class UNetDriver
 
 bool AKSGameHUDNew::IsPlayerMuted(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.IsPlayerMuted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.IsPlayerMuted");
 
 	struct
 	{
@@ -7536,7 +7536,7 @@ bool AKSGameHUDNew::IsPlayerMuted(class AKSPlayerState* KSPlayerState)
 
 bool AKSGameHUDNew::IsPlayerInVoiceChannel(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.IsPlayerInVoiceChannel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.IsPlayerInVoiceChannel");
 
 	struct
 	{
@@ -7559,7 +7559,7 @@ bool AKSGameHUDNew::IsPlayerInVoiceChannel(class AKSPlayerState* KSPlayerState)
 
 void AKSGameHUDNew::HandleLoginStateChange(EPUMG_LoginState LoginState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.HandleLoginStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.HandleLoginStateChange");
 
 	struct
 	{
@@ -7579,7 +7579,7 @@ void AKSGameHUDNew::HandleLoginStateChange(EPUMG_LoginState LoginState)
 
 void AKSGameHUDNew::HandleFubar(EFubarDisplayReason Reason)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.HandleFubar"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.HandleFubar");
 
 	struct
 	{
@@ -7599,7 +7599,7 @@ void AKSGameHUDNew::HandleFubar(EFubarDisplayReason Reason)
 
 class UKSHUDStateTracker* AKSGameHUDNew::GetHUDStateTracker()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameHUDNew.GetHUDStateTracker"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameHUDNew.GetHUDStateTracker");
 
 	struct
 	{
@@ -7620,7 +7620,7 @@ class UKSHUDStateTracker* AKSGameHUDNew::GetHUDStateTracker()
 
 void UKSGameInfoOverlayBase::HandlePlayerStateReady(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGameInfoOverlayBase.HandlePlayerStateReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameInfoOverlayBase.HandlePlayerStateReady");
 
 	struct
 	{
@@ -7640,7 +7640,7 @@ void UKSGameInfoOverlayBase::HandlePlayerStateReady(class AKSPlayerState* Player
 
 void UKSGamepadPromptWidget::SetContext(const struct FButtonPromptContext& PromptContext)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGamepadPromptWidget.SetContext"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGamepadPromptWidget.SetContext");
 
 	struct
 	{
@@ -7660,7 +7660,7 @@ void UKSGamepadPromptWidget::SetContext(const struct FButtonPromptContext& Promp
 
 void UKSGamepadPromptWidget::PushContext(const struct FButtonPromptContext& PromptContext)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGamepadPromptWidget.PushContext"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGamepadPromptWidget.PushContext");
 
 	struct
 	{
@@ -7681,7 +7681,7 @@ void UKSGamepadPromptWidget::PushContext(const struct FButtonPromptContext& Prom
 
 bool UKSGamepadPromptWidget::PopContext(struct FButtonPromptContext* OutContext)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGamepadPromptWidget.PopContext"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGamepadPromptWidget.PopContext");
 
 	struct
 	{
@@ -7704,7 +7704,7 @@ bool UKSGamepadPromptWidget::PopContext(struct FButtonPromptContext* OutContext)
 
 void UKSGamepadPromptWidget::ClearAllContext()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGamepadPromptWidget.ClearAllContext"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGamepadPromptWidget.ClearAllContext");
 
 	struct
 	{
@@ -7722,7 +7722,7 @@ void UKSGamepadPromptWidget::ClearAllContext()
 
 void UKSGamepadPromptWidget::ApplyContext(const struct FButtonPromptContext& Context)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSGamepadPromptWidget.ApplyContext"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGamepadPromptWidget.ApplyContext");
 
 	struct
 	{
@@ -7743,7 +7743,7 @@ void UKSGamepadPromptWidget::ApplyContext(const struct FButtonPromptContext& Con
 
 void UKSHealthWidget::OverhealChangeFromChar(class AKSCharacterBase* Character, bool bAnimatedChange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHealthWidget.OverhealChangeFromChar"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHealthWidget.OverhealChangeFromChar");
 
 	struct
 	{
@@ -7767,7 +7767,7 @@ void UKSHealthWidget::OverhealChangeFromChar(class AKSCharacterBase* Character, 
 
 void UKSHealthWidget::OnOverhealChanged(float OldOverheal, float NewOverheal, bool bAnimatedChange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHealthWidget.OnOverhealChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHealthWidget.OnOverhealChanged");
 
 	struct
 	{
@@ -7795,7 +7795,7 @@ void UKSHealthWidget::OnOverhealChanged(float OldOverheal, float NewOverheal, bo
 
 void UKSHealthWidget::OnHealthChanged(float OldHealth, float OldMaxHealth, float NewHealth, float NewMaxHealth, bool bAnimatedChange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHealthWidget.OnHealthChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHealthWidget.OnHealthChanged");
 
 	struct
 	{
@@ -7824,7 +7824,7 @@ void UKSHealthWidget::OnHealthChanged(float OldHealth, float OldMaxHealth, float
 
 void UKSHealthWidget::OnArmorChanged(float OldArmor, float NewArmor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHealthWidget.OnArmorChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHealthWidget.OnArmorChanged");
 
 	struct
 	{
@@ -7847,7 +7847,7 @@ void UKSHealthWidget::OnArmorChanged(float OldArmor, float NewArmor)
 
 void UKSHealthWidget::HealthChangeFromChar(class AKSCharacterBase* Character, bool bAnimatedChange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHealthWidget.HealthChangeFromChar"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHealthWidget.HealthChangeFromChar");
 
 	struct
 	{
@@ -7869,7 +7869,7 @@ void UKSHealthWidget::HealthChangeFromChar(class AKSCharacterBase* Character, bo
 
 void UKSHealthWidget::HandlePawnOverhealChange(class AKSCharacterBase* Character)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHealthWidget.HandlePawnOverhealChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHealthWidget.HandlePawnOverhealChange");
 
 	struct
 	{
@@ -7889,7 +7889,7 @@ void UKSHealthWidget::HandlePawnOverhealChange(class AKSCharacterBase* Character
 
 void UKSHealthWidget::HandlePawnHealthChange(class AKSCharacterBase* Character)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHealthWidget.HandlePawnHealthChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHealthWidget.HandlePawnHealthChange");
 
 	struct
 	{
@@ -7907,7 +7907,7 @@ void UKSHealthWidget::HandlePawnHealthChange(class AKSCharacterBase* Character)
 
 void UKSHUDStateTracker::PollMatchPhase()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDStateTracker.PollMatchPhase"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDStateTracker.PollMatchPhase");
 
 	struct
 	{
@@ -7926,7 +7926,7 @@ void UKSHUDStateTracker::PollMatchPhase()
 
 void UKSHUDStateTracker::HandleUpdatedMatchPhase(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDStateTracker.HandleUpdatedMatchPhase"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDStateTracker.HandleUpdatedMatchPhase");
 
 	struct
 	{
@@ -7948,7 +7948,7 @@ void UKSHUDStateTracker::HandleUpdatedMatchPhase(const struct FName& NewPhaseNam
 
 void UKSHUDStateTracker::HandleGameStateBeginPlay(class AKSGameState* GameState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSHUDStateTracker.HandleGameStateBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDStateTracker.HandleGameStateBeginPlay");
 
 	struct
 	{
@@ -7969,7 +7969,7 @@ void UKSHUDStateTracker::HandleGameStateBeginPlay(class AKSGameState* GameState)
 
 bool UKSInfoActorWidgetInterface::SetInfoActor(class AKSWidgetInfoActor* InfoActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSInfoActorWidgetInterface.SetInfoActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSInfoActorWidgetInterface.SetInfoActor");
 
 	struct
 	{
@@ -7992,7 +7992,7 @@ bool UKSInfoActorWidgetInterface::SetInfoActor(class AKSWidgetInfoActor* InfoAct
 
 void UKSInspectPlayerInterface::UnbindEventFromInspectPlayerChanged(const struct FScriptDelegate& Callback)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSInspectPlayerInterface.UnbindEventFromInspectPlayerChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSInspectPlayerInterface.UnbindEventFromInspectPlayerChanged");
 
 	struct
 	{
@@ -8012,7 +8012,7 @@ void UKSInspectPlayerInterface::UnbindEventFromInspectPlayerChanged(const struct
 
 class AKSPlayerState* UKSInspectPlayerInterface::GetInspectPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSInspectPlayerInterface.GetInspectPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSInspectPlayerInterface.GetInspectPlayerState");
 
 	struct
 	{
@@ -8033,7 +8033,7 @@ class AKSPlayerState* UKSInspectPlayerInterface::GetInspectPlayerState()
 
 void UKSInspectPlayerInterface::BindEventToInspectPlayerChanged(const struct FScriptDelegate& Callback)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSInspectPlayerInterface.BindEventToInspectPlayerChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSInspectPlayerInterface.BindEventToInspectPlayerChanged");
 
 	struct
 	{
@@ -8053,7 +8053,7 @@ void UKSInspectPlayerInterface::BindEventToInspectPlayerChanged(const struct FSc
 
 TArray<TSoftObjectPtr<class UKSJobItem>> UKSJobSelectionWidget::GetJobItems()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSJobSelectionWidget.GetJobItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSJobSelectionWidget.GetJobItems");
 
 	struct
 	{
@@ -8074,7 +8074,7 @@ TArray<TSoftObjectPtr<class UKSJobItem>> UKSJobSelectionWidget::GetJobItems()
 
 class UKSStoreItemHelper* UKSJobSelectionWidget::GetItemHelper()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSJobSelectionWidget.GetItemHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSJobSelectionWidget.GetItemHelper");
 
 	struct
 	{
@@ -8095,7 +8095,7 @@ class UKSStoreItemHelper* UKSJobSelectionWidget::GetItemHelper()
 
 class UPUMG_StoreItem* UKSJobSelectionWidget::GetAdOffer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSJobSelectionWidget.GetAdOffer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSJobSelectionWidget.GetAdOffer");
 
 	struct
 	{
@@ -8117,7 +8117,7 @@ class UPUMG_StoreItem* UKSJobSelectionWidget::GetAdOffer()
 
 void UKSKillCardWidget::ShowPlayerAndMessage(class AKSPlayerState* PlayerState, const struct FText& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSKillCardWidget.ShowPlayerAndMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSKillCardWidget.ShowPlayerAndMessage");
 
 	struct
 	{
@@ -8139,7 +8139,7 @@ void UKSKillCardWidget::ShowPlayerAndMessage(class AKSPlayerState* PlayerState, 
 
 void UKSKillCardWidget::ClearMessage(bool UseAnimations)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSKillCardWidget.ClearMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSKillCardWidget.ClearMessage");
 
 	struct
 	{
@@ -8160,7 +8160,7 @@ void UKSKillCardWidget::ClearMessage(bool UseAnimations)
 
 void AKSLobbyHUDNew::TransitionCamera(const struct FName& CameraTag, float BlendTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.TransitionCamera"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.TransitionCamera");
 
 	struct
 	{
@@ -8182,7 +8182,7 @@ void AKSLobbyHUDNew::TransitionCamera(const struct FName& CameraTag, float Blend
 
 void AKSLobbyHUDNew::ToggleDisablePartyLobbyCharacters(bool Disable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.ToggleDisablePartyLobbyCharacters"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.ToggleDisablePartyLobbyCharacters");
 
 	struct
 	{
@@ -8202,7 +8202,7 @@ void AKSLobbyHUDNew::ToggleDisablePartyLobbyCharacters(bool Disable)
 
 void AKSLobbyHUDNew::TestSetStoreRotationOverride(const struct FString& DateTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.TestSetStoreRotationOverride"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.TestSetStoreRotationOverride");
 
 	struct
 	{
@@ -8227,7 +8227,7 @@ void AKSLobbyHUDNew::TestSetStoreRotationOverride(const struct FString& DateTime
 
 void AKSLobbyHUDNew::TestPostMatchLobby(int PlayerXp, int RankedXp, int RogueXp, int ReputationEarned, int PlacementMatchNum, int BattlePassXp)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.TestPostMatchLobby"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.TestPostMatchLobby");
 
 	struct
 	{
@@ -8255,7 +8255,7 @@ void AKSLobbyHUDNew::TestPostMatchLobby(int PlayerXp, int RankedXp, int RogueXp,
 
 void AKSLobbyHUDNew::TestEventGrandPrizeAcquisition()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.TestEventGrandPrizeAcquisition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.TestEventGrandPrizeAcquisition");
 
 	struct
 	{
@@ -8274,7 +8274,7 @@ void AKSLobbyHUDNew::TestEventGrandPrizeAcquisition()
 
 void AKSLobbyHUDNew::TestBattlePassAcquisition(int StartTier, int EndTier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.TestBattlePassAcquisition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.TestBattlePassAcquisition");
 
 	struct
 	{
@@ -8297,7 +8297,7 @@ void AKSLobbyHUDNew::TestBattlePassAcquisition(int StartTier, int EndTier)
 
 void AKSLobbyHUDNew::ShowPopupConfirmation(const struct FText& Message, ESocialMessageType MessageType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.ShowPopupConfirmation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.ShowPopupConfirmation");
 
 	struct
 	{
@@ -8319,7 +8319,7 @@ void AKSLobbyHUDNew::ShowPopupConfirmation(const struct FText& Message, ESocialM
 
 void AKSLobbyHUDNew::SetNewLobbyAnimState(ELobbyCharacterAnimState TargetState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.SetNewLobbyAnimState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.SetNewLobbyAnimState");
 
 	struct
 	{
@@ -8339,7 +8339,7 @@ void AKSLobbyHUDNew::SetNewLobbyAnimState(ELobbyCharacterAnimState TargetState)
 
 void AKSLobbyHUDNew::ResetLobbyCharactersByIndex(TArray<ELobbyCharacterIndex> IndicesToReset)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.ResetLobbyCharactersByIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.ResetLobbyCharactersByIndex");
 
 	struct
 	{
@@ -8357,7 +8357,7 @@ void AKSLobbyHUDNew::ResetLobbyCharactersByIndex(TArray<ELobbyCharacterIndex> In
 
 void AKSLobbyHUDNew::ResetLobbyCharacters()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.ResetLobbyCharacters"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.ResetLobbyCharacters");
 
 	struct
 	{
@@ -8375,7 +8375,7 @@ void AKSLobbyHUDNew::ResetLobbyCharacters()
 
 void AKSLobbyHUDNew::PlayLoopingLevelSequence(const struct FName& LvlSeqTag)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.PlayLoopingLevelSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.PlayLoopingLevelSequence");
 
 	struct
 	{
@@ -8396,7 +8396,7 @@ void AKSLobbyHUDNew::PlayLoopingLevelSequence(const struct FName& LvlSeqTag)
 
 void AKSLobbyHUDNew::OnStoreVendorsLoaded(int GroupId, TArray<int> VendorIds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.OnStoreVendorsLoaded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.OnStoreVendorsLoaded");
 
 	struct
 	{
@@ -8418,7 +8418,7 @@ void AKSLobbyHUDNew::OnStoreVendorsLoaded(int GroupId, TArray<int> VendorIds)
 
 void AKSLobbyHUDNew::OnNotEnoughCurreny(class UPUMG_StorePurchaseRequest* PurchaseRequest)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.OnNotEnoughCurreny"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.OnNotEnoughCurreny");
 
 	struct
 	{
@@ -8439,7 +8439,7 @@ void AKSLobbyHUDNew::OnNotEnoughCurreny(class UPUMG_StorePurchaseRequest* Purcha
 
 void AKSLobbyHUDNew::NotifyViewStateChange(const struct FName& NewRoute, const struct FName& PreviousRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.NotifyViewStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.NotifyViewStateChange");
 
 	struct
 	{
@@ -8462,7 +8462,7 @@ void AKSLobbyHUDNew::NotifyViewStateChange(const struct FName& NewRoute, const s
 
 bool AKSLobbyHUDNew::IsPlayerMuted(class UPUMG_PlayerInfo* PlayerData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.IsPlayerMuted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.IsPlayerMuted");
 
 	struct
 	{
@@ -8485,7 +8485,7 @@ bool AKSLobbyHUDNew::IsPlayerMuted(class UPUMG_PlayerInfo* PlayerData)
 
 void AKSLobbyHUDNew::HandleSpecificPartyIdDataUpdated(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleSpecificPartyIdDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleSpecificPartyIdDataUpdated");
 
 	struct
 	{
@@ -8505,7 +8505,7 @@ void AKSLobbyHUDNew::HandleSpecificPartyIdDataUpdated(int64_t PlayerId)
 
 void AKSLobbyHUDNew::HandleSpecificPartyDataUpdated(const struct FPUMG_PartyMemberData& PartyMember)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleSpecificPartyDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleSpecificPartyDataUpdated");
 
 	struct
 	{
@@ -8525,7 +8525,7 @@ void AKSLobbyHUDNew::HandleSpecificPartyDataUpdated(const struct FPUMG_PartyMemb
 
 void AKSLobbyHUDNew::HandleSpecificPartyDataAdded(const struct FPUMG_PartyMemberData& PartyMember)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleSpecificPartyDataAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleSpecificPartyDataAdded");
 
 	struct
 	{
@@ -8543,7 +8543,7 @@ void AKSLobbyHUDNew::HandleSpecificPartyDataAdded(const struct FPUMG_PartyMember
 
 void AKSLobbyHUDNew::HandleReturnFromBattleLevelSeqStopped()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleReturnFromBattleLevelSeqStopped"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleReturnFromBattleLevelSeqStopped");
 
 	struct
 	{
@@ -8559,7 +8559,7 @@ void AKSLobbyHUDNew::HandleReturnFromBattleLevelSeqStopped()
 
 void AKSLobbyHUDNew::HandlePlayerLoadoutsUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandlePlayerLoadoutsUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandlePlayerLoadoutsUpdated");
 
 	struct
 	{
@@ -8578,7 +8578,7 @@ void AKSLobbyHUDNew::HandlePlayerLoadoutsUpdated()
 
 void AKSLobbyHUDNew::HandlePartyMemberDataUpdated(const struct FPUMG_PartyMemberData& PartyMember, int MemberIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandlePartyMemberDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandlePartyMemberDataUpdated");
 
 	struct
 	{
@@ -8601,7 +8601,7 @@ void AKSLobbyHUDNew::HandlePartyMemberDataUpdated(const struct FPUMG_PartyMember
 
 void AKSLobbyHUDNew::HandlePartyEmoteMessageReceived(class UPUMG_PlayerInfo* Sender, TSoftObjectPtr<class UKSEmote> SoftEmotePtr)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandlePartyEmoteMessageReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandlePartyEmoteMessageReceived");
 
 	struct
 	{
@@ -8621,7 +8621,7 @@ void AKSLobbyHUDNew::HandlePartyEmoteMessageReceived(class UPUMG_PlayerInfo* Sen
 
 void AKSLobbyHUDNew::HandlePartyDataUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandlePartyDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandlePartyDataUpdated");
 
 	struct
 	{
@@ -8639,7 +8639,7 @@ void AKSLobbyHUDNew::HandlePartyDataUpdated()
 
 void AKSLobbyHUDNew::HandleMatchStatusUpdated(EPUMG_MatchStatus MatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleMatchStatusUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleMatchStatusUpdated");
 
 	struct
 	{
@@ -8657,7 +8657,7 @@ void AKSLobbyHUDNew::HandleMatchStatusUpdated(EPUMG_MatchStatus MatchStatus)
 
 void AKSLobbyHUDNew::HandleLoginUserChange()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleLoginUserChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleLoginUserChange");
 
 	struct
 	{
@@ -8675,7 +8675,7 @@ void AKSLobbyHUDNew::HandleLoginUserChange()
 
 void AKSLobbyHUDNew::HandleLoginStateChange(EPUMG_LoginState LoginState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleLoginStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleLoginStateChange");
 
 	struct
 	{
@@ -8693,7 +8693,7 @@ void AKSLobbyHUDNew::HandleLoginStateChange(EPUMG_LoginState LoginState)
 
 void AKSLobbyHUDNew::HandleExitToGameLevelSeqStopped()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleExitToGameLevelSeqStopped"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleExitToGameLevelSeqStopped");
 
 	struct
 	{
@@ -8709,7 +8709,7 @@ void AKSLobbyHUDNew::HandleExitToGameLevelSeqStopped()
 
 void AKSLobbyHUDNew::HandleDenyPartyInvitation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleDenyPartyInvitation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleDenyPartyInvitation");
 
 	struct
 	{
@@ -8725,7 +8725,7 @@ void AKSLobbyHUDNew::HandleDenyPartyInvitation()
 
 void AKSLobbyHUDNew::HandleAcceptPartyInvitation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.HandleAcceptPartyInvitation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.HandleAcceptPartyInvitation");
 
 	struct
 	{
@@ -8743,7 +8743,7 @@ void AKSLobbyHUDNew::HandleAcceptPartyInvitation()
 
 class UKSPlayerWhoDataFactory* AKSLobbyHUDNew::GetPlayerWhoDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetPlayerWhoDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetPlayerWhoDataFactory");
 
 	struct
 	{
@@ -8764,7 +8764,7 @@ class UKSPlayerWhoDataFactory* AKSLobbyHUDNew::GetPlayerWhoDataFactory()
 
 class UKSPlayerQueryDataFactory* AKSLobbyHUDNew::GetPlayerQueryDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetPlayerQueryDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetPlayerQueryDataFactory");
 
 	struct
 	{
@@ -8785,7 +8785,7 @@ class UKSPlayerQueryDataFactory* AKSLobbyHUDNew::GetPlayerQueryDataFactory()
 
 class UKSLobbyWidget* AKSLobbyHUDNew::GetLobbyWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetLobbyWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetLobbyWidget");
 
 	struct
 	{
@@ -8808,7 +8808,7 @@ class UKSLobbyWidget* AKSLobbyHUDNew::GetLobbyWidget()
 
 bool AKSLobbyHUDNew::GetLobbyCharacterByPosition(ELobbyCharacterIndex CharacterIndex, class AKSLobbyCharacter** LobbyCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetLobbyCharacterByPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetLobbyCharacterByPosition");
 
 	struct
 	{
@@ -8835,7 +8835,7 @@ bool AKSLobbyHUDNew::GetLobbyCharacterByPosition(ELobbyCharacterIndex CharacterI
 
 class UKSQueueDataFactory* AKSLobbyHUDNew::GetKSQueueDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetKSQueueDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetKSQueueDataFactory");
 
 	struct
 	{
@@ -8856,7 +8856,7 @@ class UKSQueueDataFactory* AKSLobbyHUDNew::GetKSQueueDataFactory()
 
 class UKSJsonDataFactory* AKSLobbyHUDNew::GetJsonDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetJsonDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetJsonDataFactory");
 
 	struct
 	{
@@ -8879,7 +8879,7 @@ class UKSJsonDataFactory* AKSLobbyHUDNew::GetJsonDataFactory()
 
 bool AKSLobbyHUDNew::GetJobSelectPreviewActorByPosition(ELobbyCharacterIndex CharacterIndex, class AKSJobSelectPreviewActor_Lobby** PreviewActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetJobSelectPreviewActorByPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetJobSelectPreviewActorByPosition");
 
 	struct
 	{
@@ -8906,7 +8906,7 @@ bool AKSLobbyHUDNew::GetJobSelectPreviewActorByPosition(ELobbyCharacterIndex Cha
 
 class UKSFriendDataFactory* AKSLobbyHUDNew::GetFriendDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetFriendDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetFriendDataFactory");
 
 	struct
 	{
@@ -8927,7 +8927,7 @@ class UKSFriendDataFactory* AKSLobbyHUDNew::GetFriendDataFactory()
 
 class UKSEMODataFactory* AKSLobbyHUDNew::GetEMODataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetEMODataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetEMODataFactory");
 
 	struct
 	{
@@ -8949,7 +8949,7 @@ class UKSEMODataFactory* AKSLobbyHUDNew::GetEMODataFactory()
 
 class UKSItem* AKSLobbyHUDNew::GetDefaultPlayerAccountItem(EPlayerAccountSlot ItemSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetDefaultPlayerAccountItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetDefaultPlayerAccountItem");
 
 	struct
 	{
@@ -8974,7 +8974,7 @@ class UKSItem* AKSLobbyHUDNew::GetDefaultPlayerAccountItem(EPlayerAccountSlot It
 
 bool AKSLobbyHUDNew::GetCharacterIndexFromPartyIndex(int PartyMemberIndex, ELobbyCharacterIndex* OutCharIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.GetCharacterIndexFromPartyIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.GetCharacterIndexFromPartyIndex");
 
 	struct
 	{
@@ -8999,7 +8999,7 @@ bool AKSLobbyHUDNew::GetCharacterIndexFromPartyIndex(int PartyMemberIndex, ELobb
 
 void AKSLobbyHUDNew::ForceMinuteTimerUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.ForceMinuteTimerUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.ForceMinuteTimerUpdate");
 
 	struct
 	{
@@ -9015,7 +9015,7 @@ void AKSLobbyHUDNew::ForceMinuteTimerUpdate()
 
 void AKSLobbyHUDNew::ForceEulaAccept()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.ForceEulaAccept"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.ForceEulaAccept");
 
 	struct
 	{
@@ -9031,7 +9031,7 @@ void AKSLobbyHUDNew::ForceEulaAccept()
 
 void AKSLobbyHUDNew::CreateInitialPlayerLoadout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.CreateInitialPlayerLoadout"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.CreateInitialPlayerLoadout");
 
 	struct
 	{
@@ -9047,7 +9047,7 @@ void AKSLobbyHUDNew::CreateInitialPlayerLoadout()
 
 void AKSLobbyHUDNew::CheckForVoucherRedemption()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.CheckForVoucherRedemption"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.CheckForVoucherRedemption");
 
 	struct
 	{
@@ -9063,7 +9063,7 @@ void AKSLobbyHUDNew::CheckForVoucherRedemption()
 
 void AKSLobbyHUDNew::CheckForExistingPenaltyTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.CheckForExistingPenaltyTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.CheckForExistingPenaltyTime");
 
 	struct
 	{
@@ -9079,7 +9079,7 @@ void AKSLobbyHUDNew::CheckForExistingPenaltyTime()
 
 void AKSLobbyHUDNew::CancelExitToGameLevelAnimStoppedHandling()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyHUDNew.CancelExitToGameLevelAnimStoppedHandling"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyHUDNew.CancelExitToGameLevelAnimStoppedHandling");
 
 	struct
 	{
@@ -9095,7 +9095,7 @@ void AKSLobbyHUDNew::CancelExitToGameLevelAnimStoppedHandling()
 
 void UKSLobbyNameplateWidget::SetupRankedManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyNameplateWidget.SetupRankedManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyNameplateWidget.SetupRankedManager");
 
 	struct
 	{
@@ -9111,7 +9111,7 @@ void UKSLobbyNameplateWidget::SetupRankedManager()
 
 void UKSLobbyNameplateWidget::RefreshRankedData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLobbyNameplateWidget.RefreshRankedData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLobbyNameplateWidget.RefreshRankedData");
 
 	struct
 	{
@@ -9127,7 +9127,7 @@ void UKSLobbyNameplateWidget::RefreshRankedData()
 
 void UKSLoginInventoryCheck::CancelLogin()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLoginInventoryCheck.CancelLogin"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLoginInventoryCheck.CancelLogin");
 
 	struct
 	{
@@ -9143,7 +9143,7 @@ void UKSLoginInventoryCheck::CancelLogin()
 
 void UKSLoginProcessRewards::ProcessAccountRewards()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLoginProcessRewards.ProcessAccountRewards"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLoginProcessRewards.ProcessAccountRewards");
 
 	struct
 	{
@@ -9161,7 +9161,7 @@ void UKSLoginProcessRewards::ProcessAccountRewards()
 
 bool UKSTabValidator::IsValidTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTabValidator.IsValidTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTabValidator.IsValidTab");
 
 	struct
 	{
@@ -9180,7 +9180,7 @@ bool UKSTabValidator::IsValidTab()
 
 void UKSLoginRewardsModal::UIX_AttemptClaimReward()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLoginRewardsModal.UIX_AttemptClaimReward"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLoginRewardsModal.UIX_AttemptClaimReward");
 
 	struct
 	{
@@ -9196,7 +9196,7 @@ void UKSLoginRewardsModal::UIX_AttemptClaimReward()
 
 void UKSLoginRewardsModal::HandlePlayerChallengesReady()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLoginRewardsModal.HandlePlayerChallengesReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLoginRewardsModal.HandlePlayerChallengesReady");
 
 	struct
 	{
@@ -9215,7 +9215,7 @@ void UKSLoginRewardsModal::HandlePlayerChallengesReady()
 
 TArray<struct FLoginRewardItem> UKSLoginRewardsModal::GrabLoginRewardsFromActivityInstance(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLoginRewardsModal.GrabLoginRewardsFromActivityInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLoginRewardsModal.GrabLoginRewardsFromActivityInstance");
 
 	struct
 	{
@@ -9238,7 +9238,7 @@ TArray<struct FLoginRewardItem> UKSLoginRewardsModal::GrabLoginRewardsFromActivi
 
 int UKSLoginRewardsModal::GetNumberOfItemsToDisplay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLoginRewardsModal.GetNumberOfItemsToDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLoginRewardsModal.GetNumberOfItemsToDisplay");
 
 	struct
 	{
@@ -9259,7 +9259,7 @@ int UKSLoginRewardsModal::GetNumberOfItemsToDisplay()
 
 int UKSLoginRewardsModal::GetLoginRewardProgressCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLoginRewardsModal.GetLoginRewardProgressCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLoginRewardsModal.GetLoginRewardProgressCount");
 
 	struct
 	{
@@ -9280,7 +9280,7 @@ int UKSLoginRewardsModal::GetLoginRewardProgressCount()
 
 TArray<struct FLoginRewardItem> UKSLoginRewardsModal::GetLoginRewardItems()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLoginRewardsModal.GetLoginRewardItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLoginRewardsModal.GetLoginRewardItems");
 
 	struct
 	{
@@ -9301,7 +9301,7 @@ TArray<struct FLoginRewardItem> UKSLoginRewardsModal::GetLoginRewardItems()
 
 struct FText UKSLoginRewardsModal::GetLoginEventTimeRemaining()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLoginRewardsModal.GetLoginEventTimeRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLoginRewardsModal.GetLoginEventTimeRemaining");
 
 	struct
 	{
@@ -9322,7 +9322,7 @@ struct FText UKSLoginRewardsModal::GetLoginEventTimeRemaining()
 
 ELowAmmoState UKSLowAmmoAlertWidget::GetAmmoState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLowAmmoAlertWidget.GetAmmoState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLowAmmoAlertWidget.GetAmmoState");
 
 	struct
 	{
@@ -9343,7 +9343,7 @@ ELowAmmoState UKSLowAmmoAlertWidget::GetAmmoState()
 
 ELowAmmoState UKSLowAmmoAlertWidget::CalcAmmoState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLowAmmoAlertWidget.CalcAmmoState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLowAmmoAlertWidget.CalcAmmoState");
 
 	struct
 	{
@@ -9362,7 +9362,7 @@ ELowAmmoState UKSLowAmmoAlertWidget::CalcAmmoState()
 
 void UKSLowAmmoAlertWidget::AmmoStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSLowAmmoAlertWidget.AmmoStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSLowAmmoAlertWidget.AmmoStateChanged");
 
 	struct
 	{
@@ -9380,7 +9380,7 @@ void UKSLowAmmoAlertWidget::AmmoStateChanged()
 
 class UKSMapIconWidgetBase* UKSMapIconWidgetPool::GetMapIconWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetPool.GetMapIconWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetPool.GetMapIconWidget");
 
 	struct
 	{
@@ -9401,7 +9401,7 @@ class UKSMapIconWidgetBase* UKSMapIconWidgetPool::GetMapIconWidget()
 
 void UKSMapIconWidgetPool::AddMapIconWidget(class UKSMapIconWidgetBase* MapIconWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMapIconWidgetPool.AddMapIconWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMapIconWidgetPool.AddMapIconWidget");
 
 	struct
 	{
@@ -9426,7 +9426,7 @@ void UKSMapIconWidgetPool::AddMapIconWidget(class UKSMapIconWidgetBase* MapIconW
 
 bool UKSMarkerDisplayBase::GetScreenPositionForMarker(const struct FVector& TargetLocation, float AnchorHeight, float MarginX, float MarginY, struct FVector2D* ScreenLocation)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMarkerDisplayBase.GetScreenPositionForMarker"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMarkerDisplayBase.GetScreenPositionForMarker");
 
 	struct
 	{
@@ -9463,7 +9463,7 @@ bool UKSMarkerDisplayBase::GetScreenPositionForMarker(const struct FVector& Targ
 
 class UKSDataIndividualInviteSetup* UKSDataIndividualInviteSetup::SetCallbacks(const struct FScriptDelegate& GetIsSelected, const struct FScriptDelegate& Select, const struct FScriptDelegate& ShouldShowPlayer, const struct FScriptDelegate& Close)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataIndividualInviteSetup.SetCallbacks"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataIndividualInviteSetup.SetCallbacks");
 
 	struct
 	{
@@ -9493,7 +9493,7 @@ class UKSDataIndividualInviteSetup* UKSDataIndividualInviteSetup::SetCallbacks(c
 
 EKSInviteSelectResult UKSDataIndividualInviteSetup::KSInviteSelect__DelegateSignature(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction KillstreakUINew.KSDataIndividualInviteSetup.KSInviteSelect__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction KillstreakUINew.KSDataIndividualInviteSetup.KSInviteSelect__DelegateSignature");
 
 	struct
 	{
@@ -9517,7 +9517,7 @@ EKSInviteSelectResult UKSDataIndividualInviteSetup::KSInviteSelect__DelegateSign
 
 bool UKSDataIndividualInviteSetup::KSInviteGetIsSelected__DelegateSignature(class UKSPlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction KillstreakUINew.KSDataIndividualInviteSetup.KSInviteGetIsSelected__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction KillstreakUINew.KSDataIndividualInviteSetup.KSInviteGetIsSelected__DelegateSignature");
 
 	struct
 	{
@@ -9543,7 +9543,7 @@ bool UKSDataIndividualInviteSetup::KSInviteGetIsSelected__DelegateSignature(clas
 
 class UKSDataBatchInviteSetup* UKSDataBatchInviteSetup::SetCallbacks(const struct FScriptDelegate& Select, const struct FScriptDelegate& ShouldShowPlayer, const struct FScriptDelegate& Cancel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSDataBatchInviteSetup.SetCallbacks"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSDataBatchInviteSetup.SetCallbacks");
 
 	struct
 	{
@@ -9570,7 +9570,7 @@ class UKSDataBatchInviteSetup* UKSDataBatchInviteSetup::SetCallbacks(const struc
 
 void UKSDataBatchInviteSetup::KSBatchSelect__DelegateSignature(TArray<class UKSPlayerInfo*> playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction KillstreakUINew.KSDataBatchInviteSetup.KSBatchSelect__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction KillstreakUINew.KSDataBatchInviteSetup.KSBatchSelect__DelegateSignature");
 
 	struct
 	{
@@ -9590,7 +9590,7 @@ void UKSDataBatchInviteSetup::KSBatchSelect__DelegateSignature(TArray<class UKSP
 
 bool UKSMassInviteModal::UpdateRouteData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMassInviteModal.UpdateRouteData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMassInviteModal.UpdateRouteData");
 
 	struct
 	{
@@ -9612,7 +9612,7 @@ bool UKSMassInviteModal::UpdateRouteData()
 
 EKSInviteSelectResult UKSMassInviteModal::SelectPlayer(class UKSPlayerInfo* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMassInviteModal.SelectPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMassInviteModal.SelectPlayer");
 
 	struct
 	{
@@ -9635,7 +9635,7 @@ EKSInviteSelectResult UKSMassInviteModal::SelectPlayer(class UKSPlayerInfo* Play
 
 void UKSMassInviteModal::RequestFriends(const struct FScriptDelegate& OnReceivePlayers)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMassInviteModal.RequestFriends"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMassInviteModal.RequestFriends");
 
 	struct
 	{
@@ -9655,7 +9655,7 @@ void UKSMassInviteModal::RequestFriends(const struct FScriptDelegate& OnReceiveP
 
 void UKSMassInviteModal::KSInviteReceivePlayers__DelegateSignature(TArray<class UKSPlayerInfo*> Players)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction KillstreakUINew.KSMassInviteModal.KSInviteReceivePlayers__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction KillstreakUINew.KSMassInviteModal.KSInviteReceivePlayers__DelegateSignature");
 
 	struct
 	{
@@ -9676,7 +9676,7 @@ void UKSMassInviteModal::KSInviteReceivePlayers__DelegateSignature(TArray<class 
 
 bool UKSMassInviteModal::GetShouldSelect(class UKSPlayerInfo* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMassInviteModal.GetShouldSelect"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMassInviteModal.GetShouldSelect");
 
 	struct
 	{
@@ -9699,7 +9699,7 @@ bool UKSMassInviteModal::GetShouldSelect(class UKSPlayerInfo* Player)
 
 void UKSMassInviteModal::CloseScreen(EKSInviteCloseAction CloseAction)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMassInviteModal.CloseScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMassInviteModal.CloseScreen");
 
 	struct
 	{
@@ -9720,7 +9720,7 @@ void UKSMassInviteModal::CloseScreen(EKSInviteCloseAction CloseAction)
 
 void UKSMatchInvitationModal::ShowInvitation(class UKSPlayerInfo* playerinfo, const struct FClientQueueInfo& QueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.ShowInvitation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.ShowInvitation");
 
 	struct
 	{
@@ -9742,7 +9742,7 @@ void UKSMatchInvitationModal::ShowInvitation(class UKSPlayerInfo* playerinfo, co
 
 void UKSMatchInvitationModal::ShowError(const struct FText& ErrorMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.ShowError"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.ShowError");
 
 	struct
 	{
@@ -9760,7 +9760,7 @@ void UKSMatchInvitationModal::ShowError(const struct FText& ErrorMessage)
 
 void UKSMatchInvitationModal::OnInvitationExpired()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.OnInvitationExpired"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.OnInvitationExpired");
 
 	struct
 	{
@@ -9778,7 +9778,7 @@ void UKSMatchInvitationModal::OnInvitationExpired()
 
 void UKSMatchInvitationModal::HandleReceivePlayerName(class UPUMG_PlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.HandleReceivePlayerName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.HandleReceivePlayerName");
 
 	struct
 	{
@@ -9798,7 +9798,7 @@ void UKSMatchInvitationModal::HandleReceivePlayerName(class UPUMG_PlayerInfo* pl
 
 class UKSQueueDataFactory* UKSMatchInvitationModal::GetQueueDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.GetQueueDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.GetQueueDataFactory");
 
 	struct
 	{
@@ -9819,7 +9819,7 @@ class UKSQueueDataFactory* UKSMatchInvitationModal::GetQueueDataFactory()
 
 float UKSMatchInvitationModal::GetInvitationTotalTimeToExpire()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.GetInvitationTotalTimeToExpire"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.GetInvitationTotalTimeToExpire");
 
 	struct
 	{
@@ -9840,7 +9840,7 @@ float UKSMatchInvitationModal::GetInvitationTotalTimeToExpire()
 
 float UKSMatchInvitationModal::GetInvitationTimeRemaining()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.GetInvitationTimeRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.GetInvitationTimeRemaining");
 
 	struct
 	{
@@ -9859,7 +9859,7 @@ float UKSMatchInvitationModal::GetInvitationTimeRemaining()
 
 void UKSMatchInvitationModal::DeclineInvite()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.DeclineInvite"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.DeclineInvite");
 
 	struct
 	{
@@ -9875,7 +9875,7 @@ void UKSMatchInvitationModal::DeclineInvite()
 
 void UKSMatchInvitationModal::CloseScreen()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.CloseScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.CloseScreen");
 
 	struct
 	{
@@ -9893,7 +9893,7 @@ void UKSMatchInvitationModal::CloseScreen()
 
 void UKSMatchInvitationModal::AcceptInvite(int MapId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchInvitationModal.AcceptInvite"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.AcceptInvite");
 
 	struct
 	{
@@ -9913,7 +9913,7 @@ void UKSMatchInvitationModal::AcceptInvite(int MapId)
 
 void UKSMatchResult::UpdateRoundBaseScore(class AKSGameState_RoundGame* pGameState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchResult.UpdateRoundBaseScore"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchResult.UpdateRoundBaseScore");
 
 	struct
 	{
@@ -9934,7 +9934,7 @@ void UKSMatchResult::UpdateRoundBaseScore(class AKSGameState_RoundGame* pGameSta
 
 void UKSMatchResult::UpdateResultStatus(EGameResult Result, struct FText* Status)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchResult.UpdateResultStatus"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchResult.UpdateResultStatus");
 
 	struct
 	{
@@ -9958,7 +9958,7 @@ void UKSMatchResult::UpdateResultStatus(EGameResult Result, struct FText* Status
 
 void UKSMatchResult::ProcessResultAnnoucement(EGameResult Result)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchResult.ProcessResultAnnoucement"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchResult.ProcessResultAnnoucement");
 
 	struct
 	{
@@ -9978,7 +9978,7 @@ void UKSMatchResult::ProcessResultAnnoucement(EGameResult Result)
 
 void UKSMatchResult::HandleResultReceived(const struct FRoundResultAnnoucement& ResultAnnoucement)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchResult.HandleResultReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchResult.HandleResultReceived");
 
 	struct
 	{
@@ -9996,7 +9996,7 @@ void UKSMatchResult::HandleResultReceived(const struct FRoundResultAnnoucement& 
 
 void UKSMatchResult::HandleEndOfMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchResult.HandleEndOfMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchResult.HandleEndOfMatch");
 
 	struct
 	{
@@ -10015,7 +10015,7 @@ void UKSMatchResult::HandleEndOfMatch()
 
 void UKSMatchResult::GetTeamNames(struct FText* pTeamName, struct FText* pOpposingTeamName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchResult.GetTeamNames"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchResult.GetTeamNames");
 
 	struct
 	{
@@ -10040,7 +10040,7 @@ void UKSMatchResult::GetTeamNames(struct FText* pTeamName, struct FText* pOpposi
 
 void UKSMatchResult::GetSurrenderText(struct FText* pSurrenderText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMatchResult.GetSurrenderText"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchResult.GetSurrenderText");
 
 	struct
 	{
@@ -10060,7 +10060,7 @@ void UKSMatchResult::GetSurrenderText(struct FText* pSurrenderText)
 
 void UKSMediaPlayerWidget::UIX_SkipEntry()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMediaPlayerWidget.UIX_SkipEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMediaPlayerWidget.UIX_SkipEntry");
 
 	struct
 	{
@@ -10078,7 +10078,7 @@ void UKSMediaPlayerWidget::UIX_SkipEntry()
 
 void UKSMediaPlayerWidget::OnShouldShowPromptChanged(bool bCanSkipEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMediaPlayerWidget.OnShouldShowPromptChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMediaPlayerWidget.OnShouldShowPromptChanged");
 
 	struct
 	{
@@ -10100,7 +10100,7 @@ void UKSMediaPlayerWidget::OnShouldShowPromptChanged(bool bCanSkipEntry)
 
 void UKSMediaPlayerWidget::OnReadyForPlayback(class UPlatformMediaSource* PlatformMediaSource, class UAkAudioEvent* PlayEvent, class UAkAudioEvent* StopEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMediaPlayerWidget.OnReadyForPlayback"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMediaPlayerWidget.OnReadyForPlayback");
 
 	struct
 	{
@@ -10122,7 +10122,7 @@ void UKSMediaPlayerWidget::OnReadyForPlayback(class UPlatformMediaSource* Platfo
 
 void UKSMediaPlayerWidget::OnEndLoadingPlaylist()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMediaPlayerWidget.OnEndLoadingPlaylist"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMediaPlayerWidget.OnEndLoadingPlaylist");
 
 	struct
 	{
@@ -10138,7 +10138,7 @@ void UKSMediaPlayerWidget::OnEndLoadingPlaylist()
 
 void UKSMediaPlayerWidget::OnBeginLoadingPlaylist()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMediaPlayerWidget.OnBeginLoadingPlaylist"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMediaPlayerWidget.OnBeginLoadingPlaylist");
 
 	struct
 	{
@@ -10156,7 +10156,7 @@ void UKSMediaPlayerWidget::OnBeginLoadingPlaylist()
 
 bool UKSMediaPlayerWidget::IsCurrentEntrySkippable()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMediaPlayerWidget.IsCurrentEntrySkippable"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMediaPlayerWidget.IsCurrentEntrySkippable");
 
 	struct
 	{
@@ -10181,7 +10181,7 @@ bool UKSMediaPlayerWidget::IsCurrentEntrySkippable()
 
 void UKSMinimapWidgetBase::UpdateMapMaterialTransform(class UMaterialInstanceDynamic* MapMaterial, float NormalizedX, float NormalizedY, float Rotation, float Scale)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSMinimapWidgetBase.UpdateMapMaterialTransform"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMinimapWidgetBase.UpdateMapMaterialTransform");
 
 	struct
 	{
@@ -10211,7 +10211,7 @@ void UKSMinimapWidgetBase::UpdateMapMaterialTransform(class UMaterialInstanceDyn
 
 void UKSModelViewer::ViewModelByName(class UObject* WorldContextObject, const struct FName& InTargetItem, class UDataTable* InDataTable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.ViewModelByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.ViewModelByName");
 
 	struct
 	{
@@ -10239,7 +10239,7 @@ void UKSModelViewer::ViewModelByName(class UObject* WorldContextObject, const st
 
 void UKSModelViewer::ViewModelAttachment(class UObject* WorldContextObject, class UKSWeaponAttachment* InAttachment, const struct FName& InSpawnOnActorName, unsigned char Slot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.ViewModelAttachment"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.ViewModelAttachment");
 
 	struct
 	{
@@ -10272,7 +10272,7 @@ void UKSModelViewer::ViewModelAttachment(class UObject* WorldContextObject, clas
 
 void UKSModelViewer::ViewModel(class UObject* WorldContextObject, class UKSItem* InItem, const struct FName& InSpawnOnActorName, EWeaponStateNew DefaultWeaponState, bool InScaleToFitTargetActor, const struct FRotator& InDefaultRotation, bool InBindControllerToSpawner)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.ViewModel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.ViewModel");
 
 	struct
 	{
@@ -10306,7 +10306,7 @@ void UKSModelViewer::ViewModel(class UObject* WorldContextObject, class UKSItem*
 
 void UKSModelViewer::UnbindControllerFromSpawner(class UObject* WorldContextObject, const struct FName& InSpawnActorName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.UnbindControllerFromSpawner"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.UnbindControllerFromSpawner");
 
 	struct
 	{
@@ -10329,7 +10329,7 @@ void UKSModelViewer::UnbindControllerFromSpawner(class UObject* WorldContextObje
 
 void UKSModelViewer::UnbindAllControllersFromSpawners(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.UnbindAllControllersFromSpawners"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.UnbindAllControllersFromSpawners");
 
 	struct
 	{
@@ -10353,7 +10353,7 @@ void UKSModelViewer::UnbindAllControllersFromSpawners(class UObject* WorldContex
 
 void UKSModelViewer::SetAnimation(class UObject* WorldContextObject, class UAnimSequence* InAnim, const struct FName& InSpawnOnActorName, bool bLooping)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.SetAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.SetAnimation");
 
 	struct
 	{
@@ -10382,7 +10382,7 @@ void UKSModelViewer::SetAnimation(class UObject* WorldContextObject, class UAnim
 
 void UKSModelViewer::HideModelAttachment(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName, unsigned char Slot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.HideModelAttachment"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.HideModelAttachment");
 
 	struct
 	{
@@ -10408,7 +10408,7 @@ void UKSModelViewer::HideModelAttachment(class UObject* WorldContextObject, cons
 
 void UKSModelViewer::ClearModelAttachments(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.ClearModelAttachments"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.ClearModelAttachments");
 
 	struct
 	{
@@ -10432,7 +10432,7 @@ void UKSModelViewer::ClearModelAttachments(class UObject* WorldContextObject, co
 
 void UKSModelViewer::ClearModel(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.ClearModel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.ClearModel");
 
 	struct
 	{
@@ -10458,7 +10458,7 @@ void UKSModelViewer::ClearModel(class UObject* WorldContextObject, const struct 
 
 bool UKSModelViewer::BindDelForWeaponModelSet(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName, const struct FScriptDelegate& InEventCallback)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.BindDelForWeaponModelSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.BindDelForWeaponModelSet");
 
 	struct
 	{
@@ -10487,7 +10487,7 @@ bool UKSModelViewer::BindDelForWeaponModelSet(class UObject* WorldContextObject,
 
 void UKSModelViewer::BindControllerToSpawner(class UObject* WorldContextObject, const struct FName& InSpawnActorName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModelViewer.BindControllerToSpawner"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModelViewer.BindControllerToSpawner");
 
 	struct
 	{
@@ -10511,7 +10511,7 @@ void UKSModelViewer::BindControllerToSpawner(class UObject* WorldContextObject, 
 
 void UKSModWidget_DetectEnemy::OnDetectChanged(class UKSModInst_DetectEnemy* DetectEnemyModInst, bool bIsDetectingEnemy)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModWidget_DetectEnemy.OnDetectChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModWidget_DetectEnemy.OnDetectChanged");
 
 	struct
 	{
@@ -10533,7 +10533,7 @@ void UKSModWidget_DetectEnemy::OnDetectChanged(class UKSModInst_DetectEnemy* Det
 
 class UHorizontalBox* UKSModWidget_DetectEnemy::GetIconBox()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModWidget_DetectEnemy.GetIconBox"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModWidget_DetectEnemy.GetIconBox");
 
 	struct
 	{
@@ -10555,7 +10555,7 @@ class UHorizontalBox* UKSModWidget_DetectEnemy::GetIconBox()
 
 bool UKSModWidgetInterface::RemoveModInstance(class UKSPlayerModInstance* InInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModWidgetInterface.RemoveModInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModWidgetInterface.RemoveModInstance");
 
 	struct
 	{
@@ -10579,7 +10579,7 @@ bool UKSModWidgetInterface::RemoveModInstance(class UKSPlayerModInstance* InInst
 
 bool UKSModWidgetInterface::AddModInstance(class UKSPlayerModInstance* InInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSModWidgetInterface.AddModInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSModWidgetInterface.AddModInstance");
 
 	struct
 	{
@@ -10600,7 +10600,7 @@ bool UKSModWidgetInterface::AddModInstance(class UKSPlayerModInstance* InInstanc
 
 void UKSNavTabWidget::UnselectNavTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNavTabWidget.UnselectNavTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNavTabWidget.UnselectNavTab");
 
 	struct
 	{
@@ -10618,7 +10618,7 @@ void UKSNavTabWidget::UnselectNavTab()
 
 void UKSNavTabWidget::SetSelected(bool bNewSelected)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNavTabWidget.SetSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNavTabWidget.SetSelected");
 
 	struct
 	{
@@ -10638,7 +10638,7 @@ void UKSNavTabWidget::SetSelected(bool bNewSelected)
 
 void UKSNavTabWidget::SetDisabled(bool bNewDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNavTabWidget.SetDisabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNavTabWidget.SetDisabled");
 
 	struct
 	{
@@ -10656,7 +10656,7 @@ void UKSNavTabWidget::SetDisabled(bool bNewDisabled)
 
 void UKSNavTabWidget::SelectNavTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNavTabWidget.SelectNavTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNavTabWidget.SelectNavTab");
 
 	struct
 	{
@@ -10674,7 +10674,7 @@ void UKSNavTabWidget::SelectNavTab()
 
 bool UKSNavTabWidget::IsSelected()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNavTabWidget.IsSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNavTabWidget.IsSelected");
 
 	struct
 	{
@@ -10695,7 +10695,7 @@ bool UKSNavTabWidget::IsSelected()
 
 bool UKSNavTabWidget::IsDisabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNavTabWidget.IsDisabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNavTabWidget.IsDisabled");
 
 	struct
 	{
@@ -10717,7 +10717,7 @@ bool UKSNavTabWidget::IsDisabled()
 
 bool UKSNewsRotatorWidget::ShouldShowPanel(class UKSNewsRotatorData* Panel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNewsRotatorWidget.ShouldShowPanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNewsRotatorWidget.ShouldShowPanel");
 
 	struct
 	{
@@ -10738,7 +10738,7 @@ bool UKSNewsRotatorWidget::ShouldShowPanel(class UKSNewsRotatorData* Panel)
 
 void UKSNewsRotatorWidget::OnJsonChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNewsRotatorWidget.OnJsonChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNewsRotatorWidget.OnJsonChanged");
 
 	struct
 	{
@@ -10756,7 +10756,7 @@ void UKSNewsRotatorWidget::OnJsonChanged()
 
 TArray<class UKSNewsRotatorData*> UKSNewsRotatorWidget::GetPanelData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNewsRotatorWidget.GetPanelData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNewsRotatorWidget.GetPanelData");
 
 	struct
 	{
@@ -10777,7 +10777,7 @@ TArray<class UKSNewsRotatorData*> UKSNewsRotatorWidget::GetPanelData()
 
 class UKSJsonDataFactory* UKSNewsRotatorWidget::GetJsonDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNewsRotatorWidget.GetJsonDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNewsRotatorWidget.GetJsonDataFactory");
 
 	struct
 	{
@@ -10796,7 +10796,7 @@ class UKSJsonDataFactory* UKSNewsRotatorWidget::GetJsonDataFactory()
 
 void UKSNPEDataFactory::UIX_ClaimTutorialActivity()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNPEDataFactory.UIX_ClaimTutorialActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNPEDataFactory.UIX_ClaimTutorialActivity");
 
 	struct
 	{
@@ -10812,7 +10812,7 @@ void UKSNPEDataFactory::UIX_ClaimTutorialActivity()
 
 void UKSNPEDataFactory::UIX_ClaimRegionSelectedActivity()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNPEDataFactory.UIX_ClaimRegionSelectedActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNPEDataFactory.UIX_ClaimRegionSelectedActivity");
 
 	struct
 	{
@@ -10828,7 +10828,7 @@ void UKSNPEDataFactory::UIX_ClaimRegionSelectedActivity()
 
 void UKSNPEDataFactory::SkipTutorial()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNPEDataFactory.SkipTutorial"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNPEDataFactory.SkipTutorial");
 
 	struct
 	{
@@ -10846,7 +10846,7 @@ void UKSNPEDataFactory::SkipTutorial()
 
 bool UKSNPEDataFactory::ShouldForceTutorial()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNPEDataFactory.ShouldForceTutorial"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNPEDataFactory.ShouldForceTutorial");
 
 	struct
 	{
@@ -10865,7 +10865,7 @@ bool UKSNPEDataFactory::ShouldForceTutorial()
 
 void UKSNPEDataFactory::QueueTutorial()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNPEDataFactory.QueueTutorial"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNPEDataFactory.QueueTutorial");
 
 	struct
 	{
@@ -10884,7 +10884,7 @@ void UKSNPEDataFactory::QueueTutorial()
 
 bool UKSNPEDataFactory::HasClaimedActivity(const struct FGameplayTag& ActivityTag)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNPEDataFactory.HasClaimedActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNPEDataFactory.HasClaimedActivity");
 
 	struct
 	{
@@ -10907,7 +10907,7 @@ bool UKSNPEDataFactory::HasClaimedActivity(const struct FGameplayTag& ActivityTa
 
 class UKSQueueDataFactory* UKSNPEDataFactory::GetQueueDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNPEDataFactory.GetQueueDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNPEDataFactory.GetQueueDataFactory");
 
 	struct
 	{
@@ -10928,7 +10928,7 @@ class UKSQueueDataFactory* UKSNPEDataFactory::GetQueueDataFactory()
 
 void UKSNPEDataFactory::ClaimActivity(const struct FGameplayTag& ActivityTag)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSNPEDataFactory.ClaimActivity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSNPEDataFactory.ClaimActivity");
 
 	struct
 	{
@@ -10946,7 +10946,7 @@ void UKSNPEDataFactory::ClaimActivity(const struct FGameplayTag& ActivityTag)
 
 void UKSOverlayTabHubBase::SetFocusToView()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.SetFocusToView"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.SetFocusToView");
 
 	struct
 	{
@@ -10962,7 +10962,7 @@ void UKSOverlayTabHubBase::SetFocusToView()
 
 void UKSOverlayTabHubBase::SetFocusToTabs()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.SetFocusToTabs"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.SetFocusToTabs");
 
 	struct
 	{
@@ -10980,7 +10980,7 @@ void UKSOverlayTabHubBase::SetFocusToTabs()
 
 void UKSOverlayTabHubBase::SelectViewAndShow(const struct FName& ViewName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.SelectViewAndShow"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.SelectViewAndShow");
 
 	struct
 	{
@@ -10998,7 +10998,7 @@ void UKSOverlayTabHubBase::SelectViewAndShow(const struct FName& ViewName)
 
 void UKSOverlayTabHubBase::OnViewFocused()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.OnViewFocused"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.OnViewFocused");
 
 	struct
 	{
@@ -11014,7 +11014,7 @@ void UKSOverlayTabHubBase::OnViewFocused()
 
 void UKSOverlayTabHubBase::OnTabsFocused()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.OnTabsFocused"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.OnTabsFocused");
 
 	struct
 	{
@@ -11032,7 +11032,7 @@ void UKSOverlayTabHubBase::OnTabsFocused()
 
 struct FName UKSOverlayTabHubBase::GetLandingView()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.GetLandingView"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.GetLandingView");
 
 	struct
 	{
@@ -11053,7 +11053,7 @@ struct FName UKSOverlayTabHubBase::GetLandingView()
 
 class UPUMG_Widget* UKSOverlayTabHubBase::GetCurrentViewWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.GetCurrentViewWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.GetCurrentViewWidget");
 
 	struct
 	{
@@ -11074,7 +11074,7 @@ class UPUMG_Widget* UKSOverlayTabHubBase::GetCurrentViewWidget()
 
 TArray<class UPUMG_Widget*> UKSOverlayTabHubBase::GetAllViews()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.GetAllViews"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.GetAllViews");
 
 	struct
 	{
@@ -11093,7 +11093,7 @@ TArray<class UPUMG_Widget*> UKSOverlayTabHubBase::GetAllViews()
 
 void UKSOverlayTabHubBase::CreateAllViews()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.CreateAllViews"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.CreateAllViews");
 
 	struct
 	{
@@ -11109,7 +11109,7 @@ void UKSOverlayTabHubBase::CreateAllViews()
 
 void UKSOverlayTabHubBase::ClearAllViews()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.ClearAllViews"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.ClearAllViews");
 
 	struct
 	{
@@ -11127,7 +11127,7 @@ void UKSOverlayTabHubBase::ClearAllViews()
 
 void UKSOverlayTabHubBase::ChangeView(const struct FName& ViewName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.ChangeView"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.ChangeView");
 
 	struct
 	{
@@ -11148,7 +11148,7 @@ void UKSOverlayTabHubBase::ChangeView(const struct FName& ViewName)
 
 void UKSOverlayTabHubBase::AddView(const struct FName& ViewName, const struct FOverlayTabViewRow& ViewInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSOverlayTabHubBase.AddView"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSOverlayTabHubBase.AddView");
 
 	struct
 	{
@@ -11170,7 +11170,7 @@ void UKSOverlayTabHubBase::AddView(const struct FName& ViewName, const struct FO
 
 void UKSPartyDataFactory::SetSelectedQueueId(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyDataFactory.SetSelectedQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyDataFactory.SetSelectedQueueId");
 
 	struct
 	{
@@ -11190,7 +11190,7 @@ void UKSPartyDataFactory::SetSelectedQueueId(int QueueId)
 
 void UKSPartyDataFactory::PlayEmoteInParty(class UKSEmote* Emote)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyDataFactory.PlayEmoteInParty"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyDataFactory.PlayEmoteInParty");
 
 	struct
 	{
@@ -11210,7 +11210,7 @@ void UKSPartyDataFactory::PlayEmoteInParty(class UKSEmote* Emote)
 
 int UKSPartyDataFactory::GetSelectedQueueId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyDataFactory.GetSelectedQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyDataFactory.GetSelectedQueueId");
 
 	struct
 	{
@@ -11231,7 +11231,7 @@ int UKSPartyDataFactory::GetSelectedQueueId()
 
 int UKSPartyDataFactory::GetPartyMinimumLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyDataFactory.GetPartyMinimumLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyDataFactory.GetPartyMinimumLevel");
 
 	struct
 	{
@@ -11252,7 +11252,7 @@ int UKSPartyDataFactory::GetPartyMinimumLevel()
 
 int UKSPartyDataFactory::GetHighestDeserterPenaltySeconds()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyDataFactory.GetHighestDeserterPenaltySeconds"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyDataFactory.GetHighestDeserterPenaltySeconds");
 
 	struct
 	{
@@ -11274,7 +11274,7 @@ int UKSPartyDataFactory::GetHighestDeserterPenaltySeconds()
 
 bool UKSPartyDataFactory::CanPartyQueueForRanked(const struct FString& RankedSeasonKey)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyDataFactory.CanPartyQueueForRanked"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyDataFactory.CanPartyQueueForRanked");
 
 	struct
 	{
@@ -11297,7 +11297,7 @@ bool UKSPartyDataFactory::CanPartyQueueForRanked(const struct FString& RankedSea
 
 void UKSPartyDataFactory::BroadcastPartyInvitationError(const struct FText& InvitationError)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyDataFactory.BroadcastPartyInvitationError"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyDataFactory.BroadcastPartyInvitationError");
 
 	struct
 	{
@@ -11315,7 +11315,7 @@ void UKSPartyDataFactory::BroadcastPartyInvitationError(const struct FText& Invi
 
 void UKSPartyManagerWidgetBase::RefreshFromPartyData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.RefreshFromPartyData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.RefreshFromPartyData");
 
 	struct
 	{
@@ -11333,7 +11333,7 @@ void UKSPartyManagerWidgetBase::RefreshFromPartyData()
 
 void UKSPartyManagerWidgetBase::HandlePartyMemberUpdateByName(const struct FText& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.HandlePartyMemberUpdateByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.HandlePartyMemberUpdateByName");
 
 	struct
 	{
@@ -11353,7 +11353,7 @@ void UKSPartyManagerWidgetBase::HandlePartyMemberUpdateByName(const struct FText
 
 void UKSPartyManagerWidgetBase::HandlePartyMemberUpdateByInfo(class UPUMG_PlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.HandlePartyMemberUpdateByInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.HandlePartyMemberUpdateByInfo");
 
 	struct
 	{
@@ -11373,7 +11373,7 @@ void UKSPartyManagerWidgetBase::HandlePartyMemberUpdateByInfo(class UPUMG_Player
 
 void UKSPartyManagerWidgetBase::HandlePartyMemberUpdateById(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.HandlePartyMemberUpdateById"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.HandlePartyMemberUpdateById");
 
 	struct
 	{
@@ -11393,7 +11393,7 @@ void UKSPartyManagerWidgetBase::HandlePartyMemberUpdateById(int64_t PlayerId)
 
 void UKSPartyManagerWidgetBase::HandlePartyMemberDataUpdated(const struct FPUMG_PartyMemberData& MemberData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.HandlePartyMemberDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.HandlePartyMemberDataUpdated");
 
 	struct
 	{
@@ -11413,7 +11413,7 @@ void UKSPartyManagerWidgetBase::HandlePartyMemberDataUpdated(const struct FPUMG_
 
 class UPUMG_PlayerInfo* UKSPartyManagerWidgetBase::GetSuggestedInvite()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.GetSuggestedInvite"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.GetSuggestedInvite");
 
 	struct
 	{
@@ -11434,7 +11434,7 @@ class UPUMG_PlayerInfo* UKSPartyManagerWidgetBase::GetSuggestedInvite()
 
 class UKSPartyDataFactory* UKSPartyManagerWidgetBase::GetPartyDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.GetPartyDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.GetPartyDataFactory");
 
 	struct
 	{
@@ -11455,7 +11455,7 @@ class UKSPartyDataFactory* UKSPartyManagerWidgetBase::GetPartyDataFactory()
 
 TArray<struct FPUMG_PartyMemberData> UKSPartyManagerWidgetBase::GetCachedDisplayedPartyMembers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.GetCachedDisplayedPartyMembers"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.GetCachedDisplayedPartyMembers");
 
 	struct
 	{
@@ -11476,7 +11476,7 @@ TArray<struct FPUMG_PartyMemberData> UKSPartyManagerWidgetBase::GetCachedDisplay
 
 void UKSPartyManagerWidgetBase::ApplyPartyData(TArray<struct FPUMG_PartyMemberData> PartyMembers)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.ApplyPartyData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.ApplyPartyData");
 
 	struct
 	{
@@ -11494,7 +11494,7 @@ void UKSPartyManagerWidgetBase::ApplyPartyData(TArray<struct FPUMG_PartyMemberDa
 
 void UKSPartyManagerWidgetBase::ApplyEmptyPartyData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPartyManagerWidgetBase.ApplyEmptyPartyData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPartyManagerWidgetBase.ApplyEmptyPartyData");
 
 	struct
 	{
@@ -11512,7 +11512,7 @@ void UKSPartyManagerWidgetBase::ApplyEmptyPartyData()
 
 void UKSPerkTreeBase::SetCursorLerping(bool bLerping)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeBase.SetCursorLerping"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeBase.SetCursorLerping");
 
 	struct
 	{
@@ -11535,7 +11535,7 @@ void UKSPerkTreeBase::SetCursorLerping(bool bLerping)
 
 void UKSPerkTreeBase::RefreshEdge(class UKSPerkTreeEdgeBase* Edge, int column, int Row, TMap<struct FIntPoint, class UKSPerkTreeNodeBase*> NodesMap)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeBase.RefreshEdge"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeBase.RefreshEdge");
 
 	struct
 	{
@@ -11561,7 +11561,7 @@ void UKSPerkTreeBase::RefreshEdge(class UKSPerkTreeEdgeBase* Edge, int column, i
 
 TMap<struct FIntPoint, class UKSPerkTreeNodeBase*> UKSPerkTreeBase::InitializeNodes()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeBase.InitializeNodes"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeBase.InitializeNodes");
 
 	struct
 	{
@@ -11584,7 +11584,7 @@ TMap<struct FIntPoint, class UKSPerkTreeNodeBase*> UKSPerkTreeBase::InitializeNo
 
 void UKSPerkTreeBase::HandleTreeNodeSelected(class UKSPerkTreeNodeBase* SelectedNode, const struct FCustomLoadoutItem& SelectedPerk, bool bAlreadyEquipped)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeBase.HandleTreeNodeSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeBase.HandleTreeNodeSelected");
 
 	struct
 	{
@@ -11609,7 +11609,7 @@ void UKSPerkTreeBase::HandleTreeNodeSelected(class UKSPerkTreeNodeBase* Selected
 
 void UKSPerkTreeBase::HandleTreeNodeHovered(class UKSPerkTreeNodeBase* HoveredNode, const struct FCustomLoadoutItem& HoveredPerk)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeBase.HandleTreeNodeHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeBase.HandleTreeNodeHovered");
 
 	struct
 	{
@@ -11631,7 +11631,7 @@ void UKSPerkTreeBase::HandleTreeNodeHovered(class UKSPerkTreeNodeBase* HoveredNo
 
 class UWidget* UKSPerkTreeBase::GetHoverCursor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeBase.GetHoverCursor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeBase.GetHoverCursor");
 
 	struct
 	{
@@ -11652,7 +11652,7 @@ class UWidget* UKSPerkTreeBase::GetHoverCursor()
 
 class UKSPerkTreeNodeBase* UKSPerkTreeBase::GetDefaultFocusNode()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeBase.GetDefaultFocusNode"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeBase.GetDefaultFocusNode");
 
 	struct
 	{
@@ -11673,7 +11673,7 @@ class UKSPerkTreeNodeBase* UKSPerkTreeBase::GetDefaultFocusNode()
 
 void UKSPerkTreeBase::BindNode(class UKSPerkTreeNodeBase* TreeNode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeBase.BindNode"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeBase.BindNode");
 
 	struct
 	{
@@ -11693,7 +11693,7 @@ void UKSPerkTreeBase::BindNode(class UKSPerkTreeNodeBase* TreeNode)
 
 void UKSPerkTreeEdgeBase::SetViewByState(const struct FKSPerkTreeEdgeInfo& EdgeInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeEdgeBase.SetViewByState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeEdgeBase.SetViewByState");
 
 	struct
 	{
@@ -11713,7 +11713,7 @@ void UKSPerkTreeEdgeBase::SetViewByState(const struct FKSPerkTreeEdgeInfo& EdgeI
 
 void UKSPerkTreeNodeBase::SetNodeState(EPerkTreeNodeState NewNodeState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeNodeBase.SetNodeState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeNodeBase.SetNodeState");
 
 	struct
 	{
@@ -11731,7 +11731,7 @@ void UKSPerkTreeNodeBase::SetNodeState(EPerkTreeNodeState NewNodeState)
 
 void UKSPerkTreeNodeBase::RefreshView()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeNodeBase.RefreshView"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeNodeBase.RefreshView");
 
 	struct
 	{
@@ -11749,7 +11749,7 @@ void UKSPerkTreeNodeBase::RefreshView()
 
 EPerkTreeNodeState UKSPerkTreeNodeBase::GetNodeState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPerkTreeNodeBase.GetNodeState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPerkTreeNodeBase.GetNodeState");
 
 	struct
 	{
@@ -11771,7 +11771,7 @@ EPerkTreeNodeState UKSPerkTreeNodeBase::GetNodeState()
 
 void UKSPlayerAmmoLoaderWidget::SetActiveAmmoWidget(class UClass* NewWidgetClass, class AKSWeapon* NewWeapon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerAmmoLoaderWidget.SetActiveAmmoWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerAmmoLoaderWidget.SetActiveAmmoWidget");
 
 	struct
 	{
@@ -11793,7 +11793,7 @@ void UKSPlayerAmmoLoaderWidget::SetActiveAmmoWidget(class UClass* NewWidgetClass
 
 class UKSAmmoWidget* UKSPlayerAmmoLoaderWidget::GetActiveAmmoWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerAmmoLoaderWidget.GetActiveAmmoWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerAmmoLoaderWidget.GetActiveAmmoWidget");
 
 	struct
 	{
@@ -11812,7 +11812,7 @@ class UKSAmmoWidget* UKSPlayerAmmoLoaderWidget::GetActiveAmmoWidget()
 
 void UKSPlayerAmmoLoaderWidget::ClearActiveAmmoWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerAmmoLoaderWidget.ClearActiveAmmoWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerAmmoLoaderWidget.ClearActiveAmmoWidget");
 
 	struct
 	{
@@ -11831,7 +11831,7 @@ void UKSPlayerAmmoLoaderWidget::ClearActiveAmmoWidget()
 
 void UKSPlayerAwardsPanelWidget::GetSortedRecentlyProgressedData(TArray<struct FPlayerAwardsPanelData> AwardData, TArray<struct FPlayerAwardsPanelData>* RecentlyProgressedData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerAwardsPanelWidget.GetSortedRecentlyProgressedData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerAwardsPanelWidget.GetSortedRecentlyProgressedData");
 
 	struct
 	{
@@ -11855,7 +11855,7 @@ void UKSPlayerAwardsPanelWidget::GetSortedRecentlyProgressedData(TArray<struct F
 
 void UKSPlayerAwardsPanelWidget::GetActivityAwardData(TArray<struct FPlayerAwardsPanelData>* AwardData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerAwardsPanelWidget.GetActivityAwardData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerAwardsPanelWidget.GetActivityAwardData");
 
 	struct
 	{
@@ -11880,7 +11880,7 @@ void UKSPlayerAwardsPanelWidget::GetActivityAwardData(TArray<struct FPlayerAward
 
 void UKSPlayerCardModuleBase::View_SetPlayer(class UPUMG_PlayerInfo* playerinfo, EKSPlayerOnlineStatus PlayerStatus, bool IsPortalFriend, bool IsPending)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerCardModuleBase.View_SetPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerCardModuleBase.View_SetPlayer");
 
 	struct
 	{
@@ -11909,7 +11909,7 @@ void UKSPlayerCardModuleBase::View_SetPlayer(class UPUMG_PlayerInfo* playerinfo,
 
 void UKSPlayerCardModuleBase::OnPlayerUpdate(class UPUMG_PlayerInfo* playerinfo, EKSPlayerOnlineStatus PlayerStatus, bool IsPortalFriend, bool IsPending)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerCardModuleBase.OnPlayerUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerCardModuleBase.OnPlayerUpdate");
 
 	struct
 	{
@@ -11935,7 +11935,7 @@ void UKSPlayerCardModuleBase::OnPlayerUpdate(class UPUMG_PlayerInfo* playerinfo,
 
 void UKSPlayerCardModuleBase::HandlePlayerDataUpdated(class UPUMG_PlayerInfo* playerinfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerCardModuleBase.HandlePlayerDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerCardModuleBase.HandlePlayerDataUpdated");
 
 	struct
 	{
@@ -11956,7 +11956,7 @@ void UKSPlayerCardModuleBase::HandlePlayerDataUpdated(class UPUMG_PlayerInfo* pl
 
 void UKSPlayerCosmeticWidget::GetItemsForSlot(EPlayerAccountSlot SlotType, TArray<TSoftObjectPtr<class UKSItem>>* CosmeticItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerCosmeticWidget.GetItemsForSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerCosmeticWidget.GetItemsForSlot");
 
 	struct
 	{
@@ -11980,7 +11980,7 @@ void UKSPlayerCosmeticWidget::GetItemsForSlot(EPlayerAccountSlot SlotType, TArra
 
 bool UKSPlayerDataFactory::ShouldDisplayRankedLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.ShouldDisplayRankedLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.ShouldDisplayRankedLevel");
 
 	struct
 	{
@@ -12002,7 +12002,7 @@ bool UKSPlayerDataFactory::ShouldDisplayRankedLevel()
 
 void UKSPlayerDataFactory::HandlePlayerRankIncremented(class UKSActivityInstance* ActivityInstance, int Count)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.HandlePlayerRankIncremented"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.HandlePlayerRankIncremented");
 
 	struct
 	{
@@ -12026,7 +12026,7 @@ void UKSPlayerDataFactory::HandlePlayerRankIncremented(class UKSActivityInstance
 
 void UKSPlayerDataFactory::HandlePlayerRankChanged(class UKSActivityInstance* Activity, int Tier, int Count)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.HandlePlayerRankChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.HandlePlayerRankChanged");
 
 	struct
 	{
@@ -12051,7 +12051,7 @@ void UKSPlayerDataFactory::HandlePlayerRankChanged(class UKSActivityInstance* Ac
 
 void UKSPlayerDataFactory::HandlePlayerLevelIncremented(class UKSActivityInstance* ActivityInstance, int Count)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.HandlePlayerLevelIncremented"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.HandlePlayerLevelIncremented");
 
 	struct
 	{
@@ -12075,7 +12075,7 @@ void UKSPlayerDataFactory::HandlePlayerLevelIncremented(class UKSActivityInstanc
 
 void UKSPlayerDataFactory::HandlePlayerLevelChanged(class UKSActivityInstance* Activity, int Tier, int Count)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.HandlePlayerLevelChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.HandlePlayerLevelChanged");
 
 	struct
 	{
@@ -12099,7 +12099,7 @@ void UKSPlayerDataFactory::HandlePlayerLevelChanged(class UKSActivityInstance* A
 
 int UKSPlayerDataFactory::GetRankedLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.GetRankedLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.GetRankedLevel");
 
 	struct
 	{
@@ -12120,7 +12120,7 @@ int UKSPlayerDataFactory::GetRankedLevel()
 
 float UKSPlayerDataFactory::GetPlayerLevelPercent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.GetPlayerLevelPercent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.GetPlayerLevelPercent");
 
 	struct
 	{
@@ -12141,7 +12141,7 @@ float UKSPlayerDataFactory::GetPlayerLevelPercent()
 
 int UKSPlayerDataFactory::GetPlayerLevel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.GetPlayerLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.GetPlayerLevel");
 
 	struct
 	{
@@ -12162,7 +12162,7 @@ int UKSPlayerDataFactory::GetPlayerLevel()
 
 int UKSPlayerDataFactory::GetPlayerId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.GetPlayerId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.GetPlayerId");
 
 	struct
 	{
@@ -12184,7 +12184,7 @@ int UKSPlayerDataFactory::GetPlayerId()
 
 class UKSCurrency* UKSPlayerDataFactory::GetCurrencyItemByItemId(int CurrencyItemId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.GetCurrencyItemByItemId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.GetCurrencyItemByItemId");
 
 	struct
 	{
@@ -12208,7 +12208,7 @@ class UKSCurrency* UKSPlayerDataFactory::GetCurrencyItemByItemId(int CurrencyIte
 
 int UKSPlayerDataFactory::GetCurrencyCountByItemId(int CurrencyItemId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerDataFactory.GetCurrencyCountByItemId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerDataFactory.GetCurrencyCountByItemId");
 
 	struct
 	{
@@ -12231,7 +12231,7 @@ int UKSPlayerDataFactory::GetCurrencyCountByItemId(int CurrencyItemId)
 
 void UKSPlayerHealthSegmentBase::View_SetResidualValue(float PercentValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_SetResidualValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_SetResidualValue");
 
 	struct
 	{
@@ -12251,7 +12251,7 @@ void UKSPlayerHealthSegmentBase::View_SetResidualValue(float PercentValue)
 
 void UKSPlayerHealthSegmentBase::View_SetResidualColor(const struct FLinearColor& Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_SetResidualColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_SetResidualColor");
 
 	struct
 	{
@@ -12272,7 +12272,7 @@ void UKSPlayerHealthSegmentBase::View_SetResidualColor(const struct FLinearColor
 
 void UKSPlayerHealthSegmentBase::View_SetMainValue(float PercentValue, bool bCanTriggerPulse)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_SetMainValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_SetMainValue");
 
 	struct
 	{
@@ -12294,7 +12294,7 @@ void UKSPlayerHealthSegmentBase::View_SetMainValue(float PercentValue, bool bCan
 
 void UKSPlayerHealthSegmentBase::View_SetMainColor(const struct FLinearColor& Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_SetMainColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_SetMainColor");
 
 	struct
 	{
@@ -12312,7 +12312,7 @@ void UKSPlayerHealthSegmentBase::View_SetMainColor(const struct FLinearColor& Co
 
 void UKSPlayerHealthSegmentBase::View_PlayEmptiedPulse()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_PlayEmptiedPulse"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_PlayEmptiedPulse");
 
 	struct
 	{
@@ -12331,7 +12331,7 @@ void UKSPlayerHealthSegmentBase::View_PlayEmptiedPulse()
 
 void UKSPlayerHealthSegmentBase::View_PlayDamagePulse(const struct FLinearColor& PeakColor, const struct FLinearColor& BaseColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_PlayDamagePulse"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthSegmentBase.View_PlayDamagePulse");
 
 	struct
 	{
@@ -12353,7 +12353,7 @@ void UKSPlayerHealthSegmentBase::View_PlayDamagePulse(const struct FLinearColor&
 
 void UKSPlayerHealthWidgetBase::View_SetResidualPercent(float ResidualPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetResidualPercent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetResidualPercent");
 
 	struct
 	{
@@ -12373,7 +12373,7 @@ void UKSPlayerHealthWidgetBase::View_SetResidualPercent(float ResidualPercent)
 
 void UKSPlayerHealthWidgetBase::View_SetResidualMode(bool IsHealing)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetResidualMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetResidualMode");
 
 	struct
 	{
@@ -12393,7 +12393,7 @@ void UKSPlayerHealthWidgetBase::View_SetResidualMode(bool IsHealing)
 
 void UKSPlayerHealthWidgetBase::View_SetResidualAlpha(float ResidualAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetResidualAlpha"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetResidualAlpha");
 
 	struct
 	{
@@ -12414,7 +12414,7 @@ void UKSPlayerHealthWidgetBase::View_SetResidualAlpha(float ResidualAlpha)
 
 void UKSPlayerHealthWidgetBase::View_SetHealthTextValue(float HealthValue, float OverhealValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetHealthTextValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetHealthTextValue");
 
 	struct
 	{
@@ -12436,7 +12436,7 @@ void UKSPlayerHealthWidgetBase::View_SetHealthTextValue(float HealthValue, float
 
 void UKSPlayerHealthWidgetBase::View_SetHealthPercent(float HealthPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetHealthPercent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetHealthPercent");
 
 	struct
 	{
@@ -12457,7 +12457,7 @@ void UKSPlayerHealthWidgetBase::View_SetHealthPercent(float HealthPercent)
 
 void UKSPlayerHealthWidgetBase::View_SetHealthMode(bool IsDowned, bool IsOverhealed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetHealthMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_SetHealthMode");
 
 	struct
 	{
@@ -12477,7 +12477,7 @@ void UKSPlayerHealthWidgetBase::View_SetHealthMode(bool IsDowned, bool IsOverhea
 
 void UKSPlayerHealthWidgetBase::View_PlayDamagePulse()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_PlayDamagePulse"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_PlayDamagePulse");
 
 	struct
 	{
@@ -12493,7 +12493,7 @@ void UKSPlayerHealthWidgetBase::View_PlayDamagePulse()
 
 void UKSPlayerHealthWidgetBase::View_OnDeathStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_OnDeathStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.View_OnDeathStateChanged");
 
 	struct
 	{
@@ -12511,7 +12511,7 @@ void UKSPlayerHealthWidgetBase::View_OnDeathStateChanged()
 
 void UKSPlayerHealthWidgetBase::OnJobChanged(class UKSJobItem* Job)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.OnJobChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.OnJobChanged");
 
 	struct
 	{
@@ -12529,7 +12529,7 @@ void UKSPlayerHealthWidgetBase::OnJobChanged(class UKSJobItem* Job)
 
 void UKSPlayerHealthWidgetBase::OnHealthMeterStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.OnHealthMeterStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.OnHealthMeterStateChanged");
 
 	struct
 	{
@@ -12545,7 +12545,7 @@ void UKSPlayerHealthWidgetBase::OnHealthMeterStateChanged()
 
 void UKSPlayerHealthWidgetBase::OnHealthDecreased()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.OnHealthDecreased"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.OnHealthDecreased");
 
 	struct
 	{
@@ -12563,7 +12563,7 @@ void UKSPlayerHealthWidgetBase::OnHealthDecreased()
 
 void UKSPlayerHealthWidgetBase::HandlePlayerDownedChanged(class AKSPlayerState* pKSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.HandlePlayerDownedChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.HandlePlayerDownedChanged");
 
 	struct
 	{
@@ -12581,7 +12581,7 @@ void UKSPlayerHealthWidgetBase::HandlePlayerDownedChanged(class AKSPlayerState* 
 
 void UKSPlayerHealthWidgetBase::HandleJobChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.HandleJobChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.HandleJobChanged");
 
 	struct
 	{
@@ -12597,7 +12597,7 @@ void UKSPlayerHealthWidgetBase::HandleJobChanged()
 
 void UKSPlayerHealthWidgetBase::HandleDeathStateChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerHealthWidgetBase.HandleDeathStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerHealthWidgetBase.HandleDeathStateChanged");
 
 	struct
 	{
@@ -12615,7 +12615,7 @@ void UKSPlayerHealthWidgetBase::HandleDeathStateChanged()
 
 bool UJobSelectionEntryDetails::IsSelf()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.JobSelectionEntryDetails.IsSelf"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.JobSelectionEntryDetails.IsSelf");
 
 	struct
 	{
@@ -12636,7 +12636,7 @@ bool UJobSelectionEntryDetails::IsSelf()
 
 bool UJobSelectionEntryDetails::IsOwned()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.JobSelectionEntryDetails.IsOwned"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.JobSelectionEntryDetails.IsOwned");
 
 	struct
 	{
@@ -12657,7 +12657,7 @@ bool UJobSelectionEntryDetails::IsOwned()
 
 struct FText UJobSelectionEntryDetails::GetJobName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.JobSelectionEntryDetails.GetJobName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.JobSelectionEntryDetails.GetJobName");
 
 	struct
 	{
@@ -12678,7 +12678,7 @@ struct FText UJobSelectionEntryDetails::GetJobName()
 
 class UKSJobItem* UJobSelectionEntryDetails::GetJobItem()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.JobSelectionEntryDetails.GetJobItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.JobSelectionEntryDetails.GetJobItem");
 
 	struct
 	{
@@ -12701,7 +12701,7 @@ class UKSJobItem* UJobSelectionEntryDetails::GetJobItem()
 
 bool UKSPlayerJobSelectWidgetBase::UIX_RequestJobSelect(class UJobSelectionEntryDetails* JobEntry, EJobSelectionState RequestedState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.UIX_RequestJobSelect"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.UIX_RequestJobSelect");
 
 	struct
 	{
@@ -12724,7 +12724,7 @@ bool UKSPlayerJobSelectWidgetBase::UIX_RequestJobSelect(class UJobSelectionEntry
 
 void UKSPlayerJobSelectWidgetBase::OnResetSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.OnResetSelection"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.OnResetSelection");
 
 	struct
 	{
@@ -12742,7 +12742,7 @@ void UKSPlayerJobSelectWidgetBase::OnResetSelection()
 
 void UKSPlayerJobSelectWidgetBase::OnPlayerSelectionStateChanged(EPlayerSelectionState NewState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.OnPlayerSelectionStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.OnPlayerSelectionStateChanged");
 
 	struct
 	{
@@ -12763,7 +12763,7 @@ void UKSPlayerJobSelectWidgetBase::OnPlayerSelectionStateChanged(EPlayerSelectio
 
 void UKSPlayerJobSelectWidgetBase::OnJobEntryChanged(class UJobSelectionEntryDetails* JobEntry, bool EnemyTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.OnJobEntryChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.OnJobEntryChanged");
 
 	struct
 	{
@@ -12786,7 +12786,7 @@ void UKSPlayerJobSelectWidgetBase::OnJobEntryChanged(class UJobSelectionEntryDet
 
 void UKSPlayerJobSelectWidgetBase::OnJobEntriesReady(TArray<class UJobSelectionEntryDetails*> JobEntries, bool EnemyTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.OnJobEntriesReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.OnJobEntriesReady");
 
 	struct
 	{
@@ -12808,7 +12808,7 @@ void UKSPlayerJobSelectWidgetBase::OnJobEntriesReady(TArray<class UJobSelectionE
 
 void UKSPlayerJobSelectWidgetBase::HandleTeamAddedToMatch(class AKSTeamState* NewTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleTeamAddedToMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleTeamAddedToMatch");
 
 	struct
 	{
@@ -12828,7 +12828,7 @@ void UKSPlayerJobSelectWidgetBase::HandleTeamAddedToMatch(class AKSTeamState* Ne
 
 void UKSPlayerJobSelectWidgetBase::HandleNewJobSelectionComponent(class UKSJobSelectionComponent* NewJobSelectionComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleNewJobSelectionComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleNewJobSelectionComponent");
 
 	struct
 	{
@@ -12848,7 +12848,7 @@ void UKSPlayerJobSelectWidgetBase::HandleNewJobSelectionComponent(class UKSJobSe
 
 void UKSPlayerJobSelectWidgetBase::HandleJobSelectionManagerReady(class UKSJobSelectionManager* JobSelectionManager)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobSelectionManagerReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobSelectionManagerReady");
 
 	struct
 	{
@@ -12866,7 +12866,7 @@ void UKSPlayerJobSelectWidgetBase::HandleJobSelectionManagerReady(class UKSJobSe
 
 void UKSPlayerJobSelectWidgetBase::HandleJobSelectionInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobSelectionInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobSelectionInitialized");
 
 	struct
 	{
@@ -12884,7 +12884,7 @@ void UKSPlayerJobSelectWidgetBase::HandleJobSelectionInitialized()
 
 void UKSPlayerJobSelectWidgetBase::HandleJobEntryStateChangedForEnemies(const struct FJobSelectionEntry& JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryStateChangedForEnemies"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryStateChangedForEnemies");
 
 	struct
 	{
@@ -12904,7 +12904,7 @@ void UKSPlayerJobSelectWidgetBase::HandleJobEntryStateChangedForEnemies(const st
 
 void UKSPlayerJobSelectWidgetBase::HandleJobEntryStateChanged(const struct FJobSelectionEntry& JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryStateChanged");
 
 	struct
 	{
@@ -12924,7 +12924,7 @@ void UKSPlayerJobSelectWidgetBase::HandleJobEntryStateChanged(const struct FJobS
 
 void UKSPlayerJobSelectWidgetBase::HandleJobEntryAddedForEnemies(const struct FJobSelectionEntry& JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryAddedForEnemies"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryAddedForEnemies");
 
 	struct
 	{
@@ -12944,7 +12944,7 @@ void UKSPlayerJobSelectWidgetBase::HandleJobEntryAddedForEnemies(const struct FJ
 
 void UKSPlayerJobSelectWidgetBase::HandleJobEntryAdded(const struct FJobSelectionEntry& JobEntry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryAdded");
 
 	struct
 	{
@@ -12966,7 +12966,7 @@ void UKSPlayerJobSelectWidgetBase::HandleJobEntryAdded(const struct FJobSelectio
 
 void UKSPlayerJobSelectWidgetBase::HandleJobEntryAcknowledge(int ItemId, bool bSuccess, EJobSelectionState RequestState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryAcknowledge"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.HandleJobEntryAcknowledge");
 
 	struct
 	{
@@ -12990,7 +12990,7 @@ void UKSPlayerJobSelectWidgetBase::HandleJobEntryAcknowledge(int ItemId, bool bS
 
 class UKSJobSelectionComponent* UKSPlayerJobSelectWidgetBase::GetJobSelectionComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.GetJobSelectionComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.GetJobSelectionComponent");
 
 	struct
 	{
@@ -13012,7 +13012,7 @@ class UKSJobSelectionComponent* UKSPlayerJobSelectWidgetBase::GetJobSelectionCom
 
 class UKSJobItem* UKSPlayerJobSelectWidgetBase::GetJobItemById(int JobItemId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.GetJobItemById"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.GetJobItemById");
 
 	struct
 	{
@@ -13035,7 +13035,7 @@ class UKSJobItem* UKSPlayerJobSelectWidgetBase::GetJobItemById(int JobItemId)
 
 void UKSPlayerJobSelectWidgetBase::BindListenersForTeam(class AKSTeamState* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.BindListenersForTeam"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerJobSelectWidgetBase.BindListenersForTeam");
 
 	struct
 	{
@@ -13058,7 +13058,7 @@ void UKSPlayerJobSelectWidgetBase::BindListenersForTeam(class AKSTeamState* Team
 
 bool UKSPlayerQueryDataFactory::QueryPlayersByNameWithProfiles(const struct FText& PlayerName, const struct FScriptDelegate& OnReponse, struct FKSPlayerQueryHandle* OutHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerQueryDataFactory.QueryPlayersByNameWithProfiles"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerQueryDataFactory.QueryPlayersByNameWithProfiles");
 
 	struct
 	{
@@ -13090,7 +13090,7 @@ bool UKSPlayerQueryDataFactory::QueryPlayersByNameWithProfiles(const struct FTex
 
 bool UKSPlayerQueryDataFactory::QueryPlayersByName(const struct FText& PlayerName, const struct FScriptDelegate& OnReponse, struct FKSPlayerQueryHandle* OutHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerQueryDataFactory.QueryPlayersByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerQueryDataFactory.QueryPlayersByName");
 
 	struct
 	{
@@ -13117,7 +13117,7 @@ bool UKSPlayerQueryDataFactory::QueryPlayersByName(const struct FText& PlayerNam
 
 void UKSPlayerQueryDataFactory::OnTimeoutCheck()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerQueryDataFactory.OnTimeoutCheck"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerQueryDataFactory.OnTimeoutCheck");
 
 	struct
 	{
@@ -13136,7 +13136,7 @@ void UKSPlayerQueryDataFactory::OnTimeoutCheck()
 
 struct FText UKSPlayerQueryDataFactory::GetQueriedName(const struct FKSPlayerQueryHandle& InHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerQueryDataFactory.GetQueriedName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerQueryDataFactory.GetQueriedName");
 
 	struct
 	{
@@ -13160,7 +13160,7 @@ struct FText UKSPlayerQueryDataFactory::GetQueriedName(const struct FKSPlayerQue
 
 struct FText UKSPlayerQueryDataFactory::GetPlayerQueryErrorMessage(EKSPlayerQueryError Error)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerQueryDataFactory.GetPlayerQueryErrorMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerQueryDataFactory.GetPlayerQueryErrorMessage");
 
 	struct
 	{
@@ -13184,7 +13184,7 @@ struct FText UKSPlayerQueryDataFactory::GetPlayerQueryErrorMessage(EKSPlayerQuer
 
 void UKSPlayerQueryDataFactory::CancelQuery(struct FKSPlayerQueryHandle* InHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerQueryDataFactory.CancelQuery"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerQueryDataFactory.CancelQuery");
 
 	struct
 	{
@@ -13206,7 +13206,7 @@ void UKSPlayerQueryDataFactory::CancelQuery(struct FKSPlayerQueryHandle* InHandl
 
 void UKSPlayerShopWidgetBase::TriggerDisplayUpdate(bool ForceUpdate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.TriggerDisplayUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.TriggerDisplayUpdate");
 
 	struct
 	{
@@ -13226,7 +13226,7 @@ void UKSPlayerShopWidgetBase::TriggerDisplayUpdate(bool ForceUpdate)
 
 void UKSPlayerShopWidgetBase::ShopItemChanged(const struct FShopItem& ChangedItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.ShopItemChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.ShopItemChanged");
 
 	struct
 	{
@@ -13246,7 +13246,7 @@ void UKSPlayerShopWidgetBase::ShopItemChanged(const struct FShopItem& ChangedIte
 
 void UKSPlayerShopWidgetBase::SetShopState(bool IsOpen)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.SetShopState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.SetShopState");
 
 	struct
 	{
@@ -13264,7 +13264,7 @@ void UKSPlayerShopWidgetBase::SetShopState(bool IsOpen)
 
 void UKSPlayerShopWidgetBase::SetShopContent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.SetShopContent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.SetShopContent");
 
 	struct
 	{
@@ -13282,7 +13282,7 @@ void UKSPlayerShopWidgetBase::SetShopContent()
 
 void UKSPlayerShopWidgetBase::SetPromptShow(bool ShouldShowPrompt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.SetPromptShow"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.SetPromptShow");
 
 	struct
 	{
@@ -13302,7 +13302,7 @@ void UKSPlayerShopWidgetBase::SetPromptShow(bool ShouldShowPrompt)
 
 void UKSPlayerShopWidgetBase::SetCashValue(int CashValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.SetCashValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.SetCashValue");
 
 	struct
 	{
@@ -13322,7 +13322,7 @@ void UKSPlayerShopWidgetBase::SetCashValue(int CashValue)
 
 void UKSPlayerShopWidgetBase::PurchaseAcknowledge(EShopItemType ShopItemType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.PurchaseAcknowledge"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.PurchaseAcknowledge");
 
 	struct
 	{
@@ -13340,7 +13340,7 @@ void UKSPlayerShopWidgetBase::PurchaseAcknowledge(EShopItemType ShopItemType)
 
 void UKSPlayerShopWidgetBase::HandleTeamsFlipped()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleTeamsFlipped"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleTeamsFlipped");
 
 	struct
 	{
@@ -13358,7 +13358,7 @@ void UKSPlayerShopWidgetBase::HandleTeamsFlipped()
 
 void UKSPlayerShopWidgetBase::HandleShopOpened(class AKSPlayerShop* KSPlayerShop)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleShopOpened"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleShopOpened");
 
 	struct
 	{
@@ -13378,7 +13378,7 @@ void UKSPlayerShopWidgetBase::HandleShopOpened(class AKSPlayerShop* KSPlayerShop
 
 void UKSPlayerShopWidgetBase::HandleShopItemChanged(const struct FShopItem& ChangedItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleShopItemChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleShopItemChanged");
 
 	struct
 	{
@@ -13398,7 +13398,7 @@ void UKSPlayerShopWidgetBase::HandleShopItemChanged(const struct FShopItem& Chan
 
 void UKSPlayerShopWidgetBase::HandleShopClosed(class AKSPlayerShop* KSPlayerShop)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleShopClosed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleShopClosed");
 
 	struct
 	{
@@ -13418,7 +13418,7 @@ void UKSPlayerShopWidgetBase::HandleShopClosed(class AKSPlayerShop* KSPlayerShop
 
 void UKSPlayerShopWidgetBase::HandleShopAvailabilityChanged(class AKSPlayerShop* KSPlayerShop)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleShopAvailabilityChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleShopAvailabilityChanged");
 
 	struct
 	{
@@ -13439,7 +13439,7 @@ void UKSPlayerShopWidgetBase::HandleShopAvailabilityChanged(class AKSPlayerShop*
 
 void UKSPlayerShopWidgetBase::HandlePurchaseAcknowledged(EShopItemType ShopItemType, bool bSuccess)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.HandlePurchaseAcknowledged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.HandlePurchaseAcknowledged");
 
 	struct
 	{
@@ -13462,7 +13462,7 @@ void UKSPlayerShopWidgetBase::HandlePurchaseAcknowledged(EShopItemType ShopItemT
 
 void UKSPlayerShopWidgetBase::HandleCashChanged(int Cash, int Delta)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleCashChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.HandleCashChanged");
 
 	struct
 	{
@@ -13482,7 +13482,7 @@ void UKSPlayerShopWidgetBase::HandleCashChanged(int Cash, int Delta)
 
 void UKSPlayerShopWidgetBase::CheckForValidPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerShopWidgetBase.CheckForValidPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerShopWidgetBase.CheckForValidPlayerState");
 
 	struct
 	{
@@ -13498,7 +13498,7 @@ void UKSPlayerShopWidgetBase::CheckForValidPlayerState()
 
 void UKSPlayerWhoDataFactory::ClearSearchResults()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPlayerWhoDataFactory.ClearSearchResults"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPlayerWhoDataFactory.ClearSearchResults");
 
 	struct
 	{
@@ -13516,7 +13516,7 @@ void UKSPlayerWhoDataFactory::ClearSearchResults()
 
 void UKSPointObjectiveMarkerWidget::ViewSetCaptureProgress(float ProgressPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewSetCaptureProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewSetCaptureProgress");
 
 	struct
 	{
@@ -13537,7 +13537,7 @@ void UKSPointObjectiveMarkerWidget::ViewSetCaptureProgress(float ProgressPercent
 
 void UKSPointObjectiveMarkerWidget::ViewApplyTimerValue(float TimerSeconds, float TotalTimerSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewApplyTimerValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewApplyTimerValue");
 
 	struct
 	{
@@ -13559,7 +13559,7 @@ void UKSPointObjectiveMarkerWidget::ViewApplyTimerValue(float TimerSeconds, floa
 
 bool UKSPointObjectiveMarkerWidget::ShouldHideObjectiveIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ShouldHideObjectiveIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ShouldHideObjectiveIcon");
 
 	struct
 	{
@@ -13580,7 +13580,7 @@ bool UKSPointObjectiveMarkerWidget::ShouldHideObjectiveIcon()
 
 void UKSPointObjectiveMarkerWidget::SetView(const struct FKSPointObjectiveMarkerViewState& ViewState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.SetView"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.SetView");
 
 	struct
 	{
@@ -13600,7 +13600,7 @@ void UKSPointObjectiveMarkerWidget::SetView(const struct FKSPointObjectiveMarker
 
 void UKSPointObjectiveMarkerWidget::SetTeamColorsForState(TMap<EPointObjectiveMarkerTeamState, struct FLinearColor> StateColors)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.SetTeamColorsForState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.SetTeamColorsForState");
 
 	struct
 	{
@@ -13622,7 +13622,7 @@ void UKSPointObjectiveMarkerWidget::SetTeamColorsForState(TMap<EPointObjectiveMa
 
 bool UKSPointObjectiveMarkerWidget::SetTeamColorForState(EPointObjectiveMarkerTeamState ObjectiveState, const struct FLinearColor& StateColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.SetTeamColorForState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.SetTeamColorForState");
 
 	struct
 	{
@@ -13647,7 +13647,7 @@ bool UKSPointObjectiveMarkerWidget::SetTeamColorForState(EPointObjectiveMarkerTe
 
 void UKSPointObjectiveMarkerWidget::OnControlTeamScoreUpdated(class AKSTeamState* TeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.OnControlTeamScoreUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.OnControlTeamScoreUpdated");
 
 	struct
 	{
@@ -13667,7 +13667,7 @@ void UKSPointObjectiveMarkerWidget::OnControlTeamScoreUpdated(class AKSTeamState
 
 bool UKSPointObjectiveMarkerWidget::IsInTimerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInTimerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInTimerState");
 
 	struct
 	{
@@ -13688,7 +13688,7 @@ bool UKSPointObjectiveMarkerWidget::IsInTimerState()
 
 bool UKSPointObjectiveMarkerWidget::IsInProgressState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInProgressState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInProgressState");
 
 	struct
 	{
@@ -13709,7 +13709,7 @@ bool UKSPointObjectiveMarkerWidget::IsInProgressState()
 
 bool UKSPointObjectiveMarkerWidget::IsInMatchTimerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInMatchTimerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInMatchTimerState");
 
 	struct
 	{
@@ -13730,7 +13730,7 @@ bool UKSPointObjectiveMarkerWidget::IsInMatchTimerState()
 
 bool UKSPointObjectiveMarkerWidget::IsInLockedState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInLockedState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInLockedState");
 
 	struct
 	{
@@ -13751,7 +13751,7 @@ bool UKSPointObjectiveMarkerWidget::IsInLockedState()
 
 bool UKSPointObjectiveMarkerWidget::IsInCountdownState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInCountdownState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInCountdownState");
 
 	struct
 	{
@@ -13772,7 +13772,7 @@ bool UKSPointObjectiveMarkerWidget::IsInCountdownState()
 
 bool UKSPointObjectiveMarkerWidget::IsInContestedState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInContestedState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInContestedState");
 
 	struct
 	{
@@ -13793,7 +13793,7 @@ bool UKSPointObjectiveMarkerWidget::IsInContestedState()
 
 bool UKSPointObjectiveMarkerWidget::IsInCapturedState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInCapturedState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.IsInCapturedState");
 
 	struct
 	{
@@ -13815,7 +13815,7 @@ bool UKSPointObjectiveMarkerWidget::IsInCapturedState()
 
 void UKSPointObjectiveMarkerWidget::HandlePhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandlePhaseChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandlePhaseChanged");
 
 	struct
 	{
@@ -13837,7 +13837,7 @@ void UKSPointObjectiveMarkerWidget::HandlePhaseChanged(const struct FName& NewPh
 
 void UKSPointObjectiveMarkerWidget::HandleObjectiveStateChanged(const TScriptInterface<class UKSObjective>& Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleObjectiveStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleObjectiveStateChanged");
 
 	struct
 	{
@@ -13858,7 +13858,7 @@ void UKSPointObjectiveMarkerWidget::HandleObjectiveStateChanged(const TScriptInt
 
 void UKSPointObjectiveMarkerWidget::HandleControlTeamScoreUpdated(class AKSTeamState* TeamState, class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleControlTeamScoreUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleControlTeamScoreUpdated");
 
 	struct
 	{
@@ -13880,7 +13880,7 @@ void UKSPointObjectiveMarkerWidget::HandleControlTeamScoreUpdated(class AKSTeamS
 
 void UKSPointObjectiveMarkerWidget::HandleBombStateChanged(const struct FKSNeutralBombState& BombState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleBombStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleBombStateChanged");
 
 	struct
 	{
@@ -13901,7 +13901,7 @@ void UKSPointObjectiveMarkerWidget::HandleBombStateChanged(const struct FKSNeutr
 
 bool UKSPointObjectiveMarkerWidget::GetTeamColorForState(struct FLinearColor* TeamColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetTeamColorForState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetTeamColorForState");
 
 	struct
 	{
@@ -13926,7 +13926,7 @@ bool UKSPointObjectiveMarkerWidget::GetTeamColorForState(struct FLinearColor* Te
 
 struct FKSPointObjectiveMarkerViewState UKSPointObjectiveMarkerWidget::GetCurrentViewState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetCurrentViewState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetCurrentViewState");
 
 	struct
 	{
@@ -13947,7 +13947,7 @@ struct FKSPointObjectiveMarkerViewState UKSPointObjectiveMarkerWidget::GetCurren
 
 class AKSObjectiveBase* UKSPointObjectiveMarkerWidget::GetAssociatedObjective()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetAssociatedObjective"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetAssociatedObjective");
 
 	struct
 	{
@@ -13969,7 +13969,7 @@ class AKSObjectiveBase* UKSPointObjectiveMarkerWidget::GetAssociatedObjective()
 
 bool UKSPointObjectiveMarkerWidget::DoesAttackingTeamExist(bool* IsLocalPlayerOnAttackingTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.DoesAttackingTeamExist"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.DoesAttackingTeamExist");
 
 	struct
 	{
@@ -13994,7 +13994,7 @@ bool UKSPointObjectiveMarkerWidget::DoesAttackingTeamExist(bool* IsLocalPlayerOn
 
 void UKSPointObjectiveMarkerWidget::ControlPointStateUpdated(class AKSControlPoint* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ControlPointStateUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ControlPointStateUpdated");
 
 	struct
 	{
@@ -14014,7 +14014,7 @@ void UKSPointObjectiveMarkerWidget::ControlPointStateUpdated(class AKSControlPoi
 
 TArray<class UPUMG_StoreItem*> UKSPortalOffersWidget::GetPortalOfferItems()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPortalOffersWidget.GetPortalOfferItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPortalOffersWidget.GetPortalOfferItems");
 
 	struct
 	{
@@ -14035,7 +14035,7 @@ TArray<class UPUMG_StoreItem*> UKSPortalOffersWidget::GetPortalOfferItems()
 
 class UKSStoreItemHelper* UKSPortalOffersWidget::GetItemHelper()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPortalOffersWidget.GetItemHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPortalOffersWidget.GetItemHelper");
 
 	struct
 	{
@@ -14056,7 +14056,7 @@ class UKSStoreItemHelper* UKSPortalOffersWidget::GetItemHelper()
 
 void UKSProgressionTallyWidget::SetPlayerProgressionData(const struct FPlayerProgression& PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressionTallyWidget.SetPlayerProgressionData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressionTallyWidget.SetPlayerProgressionData");
 
 	struct
 	{
@@ -14079,7 +14079,7 @@ void UKSProgressionTallyWidget::SetPlayerProgressionData(const struct FPlayerPro
 
 void UKSProgressionTallyWidget::GetPlayerProgressionBreakdown(int* BaseXP, int* EventBonusXP, int* WinBonusXP, int* MiscGainedXP)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressionTallyWidget.GetPlayerProgressionBreakdown"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressionTallyWidget.GetPlayerProgressionBreakdown");
 
 	struct
 	{
@@ -14110,7 +14110,7 @@ void UKSProgressionTallyWidget::GetPlayerProgressionBreakdown(int* BaseXP, int* 
 
 struct FProgressionTallyMiscXPInfo UKSProgressionTallyWidget::GetMiscXPInfo()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressionTallyWidget.GetMiscXPInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressionTallyWidget.GetMiscXPInfo");
 
 	struct
 	{
@@ -14133,7 +14133,7 @@ struct FProgressionTallyMiscXPInfo UKSProgressionTallyWidget::GetMiscXPInfo()
 
 void UKSProgressMeterWidgetBase::SetDeltaAnimationParams(float BasePercent, float DeltaPercent, float AnimTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressMeterWidgetBase.SetDeltaAnimationParams"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressMeterWidgetBase.SetDeltaAnimationParams");
 
 	struct
 	{
@@ -14157,7 +14157,7 @@ void UKSProgressMeterWidgetBase::SetDeltaAnimationParams(float BasePercent, floa
 
 void UKSProgressMeterWidgetBase::PlayDeltaAnimation(float StartDelay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressMeterWidgetBase.PlayDeltaAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressMeterWidgetBase.PlayDeltaAnimation");
 
 	struct
 	{
@@ -14175,7 +14175,7 @@ void UKSProgressMeterWidgetBase::PlayDeltaAnimation(float StartDelay)
 
 void UKSProgressMeterWidgetBase::OnDeltaAnimationTicked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressMeterWidgetBase.OnDeltaAnimationTicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressMeterWidgetBase.OnDeltaAnimationTicked");
 
 	struct
 	{
@@ -14191,7 +14191,7 @@ void UKSProgressMeterWidgetBase::OnDeltaAnimationTicked()
 
 void UKSProgressMeterWidgetBase::OnDeltaAnimationStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressMeterWidgetBase.OnDeltaAnimationStarted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressMeterWidgetBase.OnDeltaAnimationStarted");
 
 	struct
 	{
@@ -14209,7 +14209,7 @@ void UKSProgressMeterWidgetBase::OnDeltaAnimationStarted()
 
 void UKSProgressMeterWidgetBase::OnDeltaAnimationFinished(bool bLevelChange)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressMeterWidgetBase.OnDeltaAnimationFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressMeterWidgetBase.OnDeltaAnimationFinished");
 
 	struct
 	{
@@ -14229,7 +14229,7 @@ void UKSProgressMeterWidgetBase::OnDeltaAnimationFinished(bool bLevelChange)
 
 bool UKSProgressMeterWidgetBase::IsPlayingDeltaAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressMeterWidgetBase.IsPlayingDeltaAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressMeterWidgetBase.IsPlayingDeltaAnimation");
 
 	struct
 	{
@@ -14248,7 +14248,7 @@ bool UKSProgressMeterWidgetBase::IsPlayingDeltaAnimation()
 
 void UKSProgressMeterWidgetBase::EnableDeltaAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressMeterWidgetBase.EnableDeltaAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressMeterWidgetBase.EnableDeltaAnimation");
 
 	struct
 	{
@@ -14267,7 +14267,7 @@ void UKSProgressMeterWidgetBase::EnableDeltaAnimation()
 
 void UKSProgressMeterWidgetBase::ApplyMeterPercentages_Raw(float BasePercent, float DeltaPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressMeterWidgetBase.ApplyMeterPercentages_Raw"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressMeterWidgetBase.ApplyMeterPercentages_Raw");
 
 	struct
 	{
@@ -14290,7 +14290,7 @@ void UKSProgressMeterWidgetBase::ApplyMeterPercentages_Raw(float BasePercent, fl
 
 void UKSProgressMeterWidgetBase::ApplyMeterPercentages(float BasePercent, float DeltaPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSProgressMeterWidgetBase.ApplyMeterPercentages"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSProgressMeterWidgetBase.ApplyMeterPercentages");
 
 	struct
 	{
@@ -14313,7 +14313,7 @@ void UKSProgressMeterWidgetBase::ApplyMeterPercentages(float BasePercent, float 
 
 bool UKSPurchaseConfirmationWidget::TryChangePurchaseQuantity(int QuantityChangeAmount)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPurchaseConfirmationWidget.TryChangePurchaseQuantity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseConfirmationWidget.TryChangePurchaseQuantity");
 
 	struct
 	{
@@ -14336,7 +14336,7 @@ bool UKSPurchaseConfirmationWidget::TryChangePurchaseQuantity(int QuantityChange
 
 void UKSPurchaseConfirmationWidget::SetupEquipOnPurchase(class UKSEquipOnAcquisitionData* EquipOnPurchaseData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPurchaseConfirmationWidget.SetupEquipOnPurchase"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseConfirmationWidget.SetupEquipOnPurchase");
 
 	struct
 	{
@@ -14354,7 +14354,7 @@ void UKSPurchaseConfirmationWidget::SetupEquipOnPurchase(class UKSEquipOnAcquisi
 
 void UKSPurchaseConfirmationWidget::PromptAlreadyPurchasing()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPurchaseConfirmationWidget.PromptAlreadyPurchasing"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseConfirmationWidget.PromptAlreadyPurchasing");
 
 	struct
 	{
@@ -14372,7 +14372,7 @@ void UKSPurchaseConfirmationWidget::PromptAlreadyPurchasing()
 
 class UKSStoreItemHelper* UKSPurchaseConfirmationWidget::GetStoreItemHelper()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPurchaseConfirmationWidget.GetStoreItemHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseConfirmationWidget.GetStoreItemHelper");
 
 	struct
 	{
@@ -14394,7 +14394,7 @@ class UKSStoreItemHelper* UKSPurchaseConfirmationWidget::GetStoreItemHelper()
 
 bool UKSPurchaseConfirmationWidget::CanChangePurchaseQuantity(int QuantityChangeAmount)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPurchaseConfirmationWidget.CanChangePurchaseQuantity"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseConfirmationWidget.CanChangePurchaseQuantity");
 
 	struct
 	{
@@ -14415,7 +14415,7 @@ bool UKSPurchaseConfirmationWidget::CanChangePurchaseQuantity(int QuantityChange
 
 void UKSPurchaseModal::SetupBindings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPurchaseModal.SetupBindings"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseModal.SetupBindings");
 
 	struct
 	{
@@ -14434,7 +14434,7 @@ void UKSPurchaseModal::SetupBindings()
 
 void UKSPurchaseModal::HandleShowPurchaseModal(class UPUMG_StoreItem* Item, class UPUMG_StoreItemPrice* Price)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPurchaseModal.HandleShowPurchaseModal"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseModal.HandleShowPurchaseModal");
 
 	struct
 	{
@@ -14456,7 +14456,7 @@ void UKSPurchaseModal::HandleShowPurchaseModal(class UPUMG_StoreItem* Item, clas
 
 class UPUMG_StoreItemHelper* UKSPurchaseModal::GetStoreItemHelper()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSPurchaseModal.GetStoreItemHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseModal.GetStoreItemHelper");
 
 	struct
 	{
@@ -14479,7 +14479,7 @@ class UPUMG_StoreItemHelper* UKSPurchaseModal::GetStoreItemHelper()
 
 TArray<struct FClientQueueInfo> UKSQueueDataFactory::SortQueues(TArray<struct FClientQueueInfo> ClientCachedQueueInfo, bool IsAlphanumerical)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.SortQueues"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.SortQueues");
 
 	struct
 	{
@@ -14505,7 +14505,7 @@ TArray<struct FClientQueueInfo> UKSQueueDataFactory::SortQueues(TArray<struct FC
 
 bool UKSQueueDataFactory::SetSelectedQueueId(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.SetSelectedQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.SetSelectedQueueId");
 
 	struct
 	{
@@ -14528,7 +14528,7 @@ bool UKSQueueDataFactory::SetSelectedQueueId(int QueueId)
 
 void UKSQueueDataFactory::SetPreviousCustomMatchMemberIds(TArray<int64_t> PreviousMembers)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.SetPreviousCustomMatchMemberIds"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.SetPreviousCustomMatchMemberIds");
 
 	struct
 	{
@@ -14548,7 +14548,7 @@ void UKSQueueDataFactory::SetPreviousCustomMatchMemberIds(TArray<int64_t> Previo
 
 void UKSQueueDataFactory::RetryQueuingForSheltered(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.RetryQueuingForSheltered"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.RetryQueuingForSheltered");
 
 	struct
 	{
@@ -14566,7 +14566,7 @@ void UKSQueueDataFactory::RetryQueuingForSheltered(int QueueId)
 
 void UKSQueueDataFactory::PopulateMapInfos()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.PopulateMapInfos"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.PopulateMapInfos");
 
 	struct
 	{
@@ -14584,7 +14584,7 @@ void UKSQueueDataFactory::PopulateMapInfos()
 
 void UKSQueueDataFactory::OnPartyMemberUpdate(const struct FPUMG_PartyMemberData& Member)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.OnPartyMemberUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.OnPartyMemberUpdate");
 
 	struct
 	{
@@ -14604,7 +14604,7 @@ void UKSQueueDataFactory::OnPartyMemberUpdate(const struct FPUMG_PartyMemberData
 
 void UKSQueueDataFactory::OnPartyMemberEvent(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.OnPartyMemberEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.OnPartyMemberEvent");
 
 	struct
 	{
@@ -14622,7 +14622,7 @@ void UKSQueueDataFactory::OnPartyMemberEvent(int64_t PlayerId)
 
 void UKSQueueDataFactory::OnPartyEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.OnPartyEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.OnPartyEvent");
 
 	struct
 	{
@@ -14640,7 +14640,7 @@ void UKSQueueDataFactory::OnPartyEvent()
 
 void UKSQueueDataFactory::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.OnInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.OnInputStateChanged");
 
 	struct
 	{
@@ -14660,7 +14660,7 @@ void UKSQueueDataFactory::OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> In
 
 bool UKSQueueDataFactory::JoinSelectedQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.JoinSelectedQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.JoinSelectedQueue");
 
 	struct
 	{
@@ -14682,7 +14682,7 @@ bool UKSQueueDataFactory::JoinSelectedQueue()
 
 bool UKSQueueDataFactory::IsTutorialQueue(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.IsTutorialQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.IsTutorialQueue");
 
 	struct
 	{
@@ -14706,7 +14706,7 @@ bool UKSQueueDataFactory::IsTutorialQueue(int QueueId)
 
 bool UKSQueueDataFactory::IsRankedQueue(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.IsRankedQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.IsRankedQueue");
 
 	struct
 	{
@@ -14730,7 +14730,7 @@ bool UKSQueueDataFactory::IsRankedQueue(int QueueId)
 
 bool UKSQueueDataFactory::IsQueueAvailableOnPlatform(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.IsQueueAvailableOnPlatform"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.IsQueueAvailableOnPlatform");
 
 	struct
 	{
@@ -14753,7 +14753,7 @@ bool UKSQueueDataFactory::IsQueueAvailableOnPlatform(int QueueId)
 
 bool UKSQueueDataFactory::IsCustomSpectateEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.IsCustomSpectateEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.IsCustomSpectateEnabled");
 
 	struct
 	{
@@ -14774,7 +14774,7 @@ bool UKSQueueDataFactory::IsCustomSpectateEnabled()
 
 void UKSQueueDataFactory::HandleShelteredMMTimeout(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.HandleShelteredMMTimeout"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.HandleShelteredMMTimeout");
 
 	struct
 	{
@@ -14795,7 +14795,7 @@ void UKSQueueDataFactory::HandleShelteredMMTimeout(int QueueId)
 
 void UKSQueueDataFactory::HandleShelteredMMSwitchFinish(bool bSendNotify, bool bClearTimer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.HandleShelteredMMSwitchFinish"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.HandleShelteredMMSwitchFinish");
 
 	struct
 	{
@@ -14817,7 +14817,7 @@ void UKSQueueDataFactory::HandleShelteredMMSwitchFinish(bool bSendNotify, bool b
 
 void UKSQueueDataFactory::HandleShelteredMMQueueSwitch(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.HandleShelteredMMQueueSwitch"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.HandleShelteredMMQueueSwitch");
 
 	struct
 	{
@@ -14837,7 +14837,7 @@ void UKSQueueDataFactory::HandleShelteredMMQueueSwitch(int QueueId)
 
 int UKSQueueDataFactory::GetSelectedShelteredQueueId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.GetSelectedShelteredQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.GetSelectedShelteredQueueId");
 
 	struct
 	{
@@ -14858,7 +14858,7 @@ int UKSQueueDataFactory::GetSelectedShelteredQueueId()
 
 int UKSQueueDataFactory::GetSelectedQueueId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.GetSelectedQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.GetSelectedQueueId");
 
 	struct
 	{
@@ -14881,7 +14881,7 @@ int UKSQueueDataFactory::GetSelectedQueueId()
 
 bool UKSQueueDataFactory::GetQueueInfoById(int QueueId, struct FClientQueueInfo* InClientQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.GetQueueInfoById"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.GetQueueInfoById");
 
 	struct
 	{
@@ -14908,7 +14908,7 @@ bool UKSQueueDataFactory::GetQueueInfoById(int QueueId, struct FClientQueueInfo*
 
 int UKSQueueDataFactory::GetPenaltyTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.GetPenaltyTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.GetPenaltyTime");
 
 	struct
 	{
@@ -14931,7 +14931,7 @@ int UKSQueueDataFactory::GetPenaltyTime()
 
 bool UKSQueueDataFactory::GetMapRotationsByQueueId(int QueueId, TArray<int>* MapIds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.GetMapRotationsByQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.GetMapRotationsByQueueId");
 
 	struct
 	{
@@ -14960,7 +14960,7 @@ bool UKSQueueDataFactory::GetMapRotationsByQueueId(int QueueId, TArray<int>* Map
 
 bool UKSQueueDataFactory::GetMapInfoById(int MapId, struct FMapDetail* MapDetail)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.GetMapInfoById"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.GetMapInfoById");
 
 	struct
 	{
@@ -14987,7 +14987,7 @@ bool UKSQueueDataFactory::GetMapInfoById(int MapId, struct FMapDetail* MapDetail
 
 TArray<struct FClientQueueInfo> UKSQueueDataFactory::GetCustomQueues()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.GetCustomQueues"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.GetCustomQueues");
 
 	struct
 	{
@@ -15009,7 +15009,7 @@ TArray<struct FClientQueueInfo> UKSQueueDataFactory::GetCustomQueues()
 
 bool UKSQueueDataFactory::GetCurrentCustomMatchInfo(struct FClientQueueInfo* InClientQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.GetCurrentCustomMatchInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.GetCurrentCustomMatchInfo");
 
 	struct
 	{
@@ -15037,7 +15037,7 @@ bool UKSQueueDataFactory::GetCurrentCustomMatchInfo(struct FClientQueueInfo* InC
 
 bool UKSQueueDataFactory::FormatQueueJoinErrorMessage(const struct FClientQueueInfo& Queue, EKSQueueJoinError Error, struct FText* OutErrorMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.FormatQueueJoinErrorMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.FormatQueueJoinErrorMessage");
 
 	struct
 	{
@@ -15069,7 +15069,7 @@ bool UKSQueueDataFactory::FormatQueueJoinErrorMessage(const struct FClientQueueI
 
 int UKSQueueDataFactory::DetermineQueueIdForShelteredMM(int QueueId, const struct FClientQueueInfo& QueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.DetermineQueueIdForShelteredMM"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.DetermineQueueIdForShelteredMM");
 
 	struct
 	{
@@ -15095,7 +15095,7 @@ int UKSQueueDataFactory::DetermineQueueIdForShelteredMM(int QueueId, const struc
 
 EKSQueueJoinError UKSQueueDataFactory::CheckQueueJoinableById(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.CheckQueueJoinableById"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.CheckQueueJoinableById");
 
 	struct
 	{
@@ -15119,7 +15119,7 @@ EKSQueueJoinError UKSQueueDataFactory::CheckQueueJoinableById(int QueueId)
 
 EKSQueueJoinError UKSQueueDataFactory::CheckQueueJoinable(const struct FClientQueueInfo& Queue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueDataFactory.CheckQueueJoinable"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.CheckQueueJoinable");
 
 	struct
 	{
@@ -15142,7 +15142,7 @@ EKSQueueJoinError UKSQueueDataFactory::CheckQueueJoinable(const struct FClientQu
 
 void UKSQueuedMessageWidget::QueueMessage(const struct FText& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueuedMessageWidget.QueueMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueuedMessageWidget.QueueMessage");
 
 	struct
 	{
@@ -15163,7 +15163,7 @@ void UKSQueuedMessageWidget::QueueMessage(const struct FText& Message)
 
 bool UKSQueuedMessageWidget::GetNextMessage(struct FText* Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueuedMessageWidget.GetNextMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueuedMessageWidget.GetNextMessage");
 
 	struct
 	{
@@ -15186,7 +15186,7 @@ bool UKSQueuedMessageWidget::GetNextMessage(struct FText* Message)
 
 void UKSQueueWidgetBase::UpdateQueueSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.UpdateQueueSelection"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.UpdateQueueSelection");
 
 	struct
 	{
@@ -15202,7 +15202,7 @@ void UKSQueueWidgetBase::UpdateQueueSelection()
 
 void UKSQueueWidgetBase::UpdateQueuePermissions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.UpdateQueuePermissions"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.UpdateQueuePermissions");
 
 	struct
 	{
@@ -15220,7 +15220,7 @@ void UKSQueueWidgetBase::UpdateQueuePermissions()
 
 bool UKSQueueWidgetBase::UIX_AttemptRejoinMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.UIX_AttemptRejoinMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.UIX_AttemptRejoinMatch");
 
 	struct
 	{
@@ -15241,7 +15241,7 @@ bool UKSQueueWidgetBase::UIX_AttemptRejoinMatch()
 
 bool UKSQueueWidgetBase::UIX_AttemptLeaveMatch()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.UIX_AttemptLeaveMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.UIX_AttemptLeaveMatch");
 
 	struct
 	{
@@ -15262,7 +15262,7 @@ bool UKSQueueWidgetBase::UIX_AttemptLeaveMatch()
 
 bool UKSQueueWidgetBase::UIX_AttemptJoinSelectedQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.UIX_AttemptJoinSelectedQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.UIX_AttemptJoinSelectedQueue");
 
 	struct
 	{
@@ -15283,7 +15283,7 @@ bool UKSQueueWidgetBase::UIX_AttemptJoinSelectedQueue()
 
 bool UKSQueueWidgetBase::UIX_AttemptCancelQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.UIX_AttemptCancelQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.UIX_AttemptCancelQueue");
 
 	struct
 	{
@@ -15302,7 +15302,7 @@ bool UKSQueueWidgetBase::UIX_AttemptCancelQueue()
 
 void UKSQueueWidgetBase::SetupReadyForQueueing()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.SetupReadyForQueueing"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.SetupReadyForQueueing");
 
 	struct
 	{
@@ -15318,7 +15318,7 @@ void UKSQueueWidgetBase::SetupReadyForQueueing()
 
 void UKSQueueWidgetBase::SetupBindings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.SetupBindings"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.SetupBindings");
 
 	struct
 	{
@@ -15337,7 +15337,7 @@ void UKSQueueWidgetBase::SetupBindings()
 
 bool UKSQueueWidgetBase::SetCurrentlySelectedQueue(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.SetCurrentlySelectedQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.SetCurrentlySelectedQueue");
 
 	struct
 	{
@@ -15360,7 +15360,7 @@ bool UKSQueueWidgetBase::SetCurrentlySelectedQueue(int QueueId)
 
 void UKSQueueWidgetBase::ReceiveMatchStatusUpdate(EPUMG_MatchStatus CurrentMatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.ReceiveMatchStatusUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.ReceiveMatchStatusUpdate");
 
 	struct
 	{
@@ -15380,7 +15380,7 @@ void UKSQueueWidgetBase::ReceiveMatchStatusUpdate(EPUMG_MatchStatus CurrentMatch
 
 void UKSQueueWidgetBase::OnSelectedQueueUpdate(const struct FClientQueueInfo& CurrentSelectedQueue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.OnSelectedQueueUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.OnSelectedQueueUpdate");
 
 	struct
 	{
@@ -15400,7 +15400,7 @@ void UKSQueueWidgetBase::OnSelectedQueueUpdate(const struct FClientQueueInfo& Cu
 
 void UKSQueueWidgetBase::OnQueueStateUpdate(EPUMG_MatchStatus CurrentMatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.OnQueueStateUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.OnQueueStateUpdate");
 
 	struct
 	{
@@ -15420,7 +15420,7 @@ void UKSQueueWidgetBase::OnQueueStateUpdate(EPUMG_MatchStatus CurrentMatchStatus
 
 void UKSQueueWidgetBase::OnQueuePermissionUpdate(bool CanQueue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.OnQueuePermissionUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.OnQueuePermissionUpdate");
 
 	struct
 	{
@@ -15440,7 +15440,7 @@ void UKSQueueWidgetBase::OnQueuePermissionUpdate(bool CanQueue)
 
 void UKSQueueWidgetBase::OnControlQueuePermissionUpdate(bool CanControl)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.OnControlQueuePermissionUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.OnControlQueuePermissionUpdate");
 
 	struct
 	{
@@ -15461,7 +15461,7 @@ void UKSQueueWidgetBase::OnControlQueuePermissionUpdate(bool CanControl)
 
 bool UKSQueueWidgetBase::IsValidQueue(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.IsValidQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.IsValidQueue");
 
 	struct
 	{
@@ -15482,7 +15482,7 @@ bool UKSQueueWidgetBase::IsValidQueue(int QueueId)
 
 void UKSQueueWidgetBase::HandleSelectedQueueIdSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.HandleSelectedQueueIdSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.HandleSelectedQueueIdSet");
 
 	struct
 	{
@@ -15500,7 +15500,7 @@ void UKSQueueWidgetBase::HandleSelectedQueueIdSet()
 
 void UKSQueueWidgetBase::HandlePartyMemberRemoved(int64_t PartyMemberId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.HandlePartyMemberRemoved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.HandlePartyMemberRemoved");
 
 	struct
 	{
@@ -15520,7 +15520,7 @@ void UKSQueueWidgetBase::HandlePartyMemberRemoved(int64_t PartyMemberId)
 
 void UKSQueueWidgetBase::HandlePartyMemberDataUpdated(const struct FPUMG_PartyMemberData& PartyMember)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.HandlePartyMemberDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.HandlePartyMemberDataUpdated");
 
 	struct
 	{
@@ -15540,7 +15540,7 @@ void UKSQueueWidgetBase::HandlePartyMemberDataUpdated(const struct FPUMG_PartyMe
 
 void UKSQueueWidgetBase::HandleMatchStatusUpdate(EPUMG_MatchStatus MatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.HandleMatchStatusUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.HandleMatchStatusUpdate");
 
 	struct
 	{
@@ -15558,7 +15558,7 @@ void UKSQueueWidgetBase::HandleMatchStatusUpdate(EPUMG_MatchStatus MatchStatus)
 
 void UKSQueueWidgetBase::HandleConfirmLeaveQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.HandleConfirmLeaveQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.HandleConfirmLeaveQueue");
 
 	struct
 	{
@@ -15577,7 +15577,7 @@ void UKSQueueWidgetBase::HandleConfirmLeaveQueue()
 
 TArray<struct FQueueSection> UKSQueueWidgetBase::GetQueueSections(TArray<struct FClientQueueInfo> ClientCachedQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.GetQueueSections"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.GetQueueSections");
 
 	struct
 	{
@@ -15600,7 +15600,7 @@ TArray<struct FQueueSection> UKSQueueWidgetBase::GetQueueSections(TArray<struct 
 
 TArray<struct FClientQueueInfo> UKSQueueWidgetBase::GetQueues()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.GetQueues"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.GetQueues");
 
 	struct
 	{
@@ -15622,7 +15622,7 @@ TArray<struct FClientQueueInfo> UKSQueueWidgetBase::GetQueues()
 
 void UKSQueueWidgetBase::GetQueuePermissions(bool* CanControl, bool* CanQueue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.GetQueuePermissions"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.GetQueuePermissions");
 
 	struct
 	{
@@ -15649,7 +15649,7 @@ void UKSQueueWidgetBase::GetQueuePermissions(bool* CanControl, bool* CanQueue)
 
 bool UKSQueueWidgetBase::GetQueueInfoById(int QueueId, struct FClientQueueInfo* QueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.GetQueueInfoById"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.GetQueueInfoById");
 
 	struct
 	{
@@ -15676,7 +15676,7 @@ bool UKSQueueWidgetBase::GetQueueInfoById(int QueueId, struct FClientQueueInfo* 
 
 class UKSQueueDataFactory* UKSQueueWidgetBase::GetQueueDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.GetQueueDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.GetQueueDataFactory");
 
 	struct
 	{
@@ -15697,7 +15697,7 @@ class UKSQueueDataFactory* UKSQueueWidgetBase::GetQueueDataFactory()
 
 class UKSPlayerDataFactory* UKSQueueWidgetBase::GetPlayerDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.GetPlayerDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.GetPlayerDataFactory");
 
 	struct
 	{
@@ -15718,7 +15718,7 @@ class UKSPlayerDataFactory* UKSQueueWidgetBase::GetPlayerDataFactory()
 
 class UPUMG_PartyDataFactory* UKSQueueWidgetBase::GetPartyDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.GetPartyDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.GetPartyDataFactory");
 
 	struct
 	{
@@ -15739,7 +15739,7 @@ class UPUMG_PartyDataFactory* UKSQueueWidgetBase::GetPartyDataFactory()
 
 struct FClientQueueInfo UKSQueueWidgetBase::GetCurrentlySelectedQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueWidgetBase.GetCurrentlySelectedQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueWidgetBase.GetCurrentlySelectedQueue");
 
 	struct
 	{
@@ -15760,7 +15760,7 @@ struct FClientQueueInfo UKSQueueWidgetBase::GetCurrentlySelectedQueue()
 
 void UKSQueueTimerWidgetBase::OnUpdateQueueTimerState(EQueueTimerState State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueTimerWidgetBase.OnUpdateQueueTimerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueTimerWidgetBase.OnUpdateQueueTimerState");
 
 	struct
 	{
@@ -15780,7 +15780,7 @@ void UKSQueueTimerWidgetBase::OnUpdateQueueTimerState(EQueueTimerState State)
 
 void UKSQueueTimerWidgetBase::OnUpdateQueueTime(float TimeSecs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueTimerWidgetBase.OnUpdateQueueTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueTimerWidgetBase.OnUpdateQueueTime");
 
 	struct
 	{
@@ -15800,7 +15800,7 @@ void UKSQueueTimerWidgetBase::OnUpdateQueueTime(float TimeSecs)
 
 float UKSQueueTimerWidgetBase::GetQueueTime_TotalSecs()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueTimerWidgetBase.GetQueueTime_TotalSecs"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueTimerWidgetBase.GetQueueTime_TotalSecs");
 
 	struct
 	{
@@ -15821,7 +15821,7 @@ float UKSQueueTimerWidgetBase::GetQueueTime_TotalSecs()
 
 int UKSQueueTimerWidgetBase::GetQueueTime_PartSecs()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueTimerWidgetBase.GetQueueTime_PartSecs"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueTimerWidgetBase.GetQueueTime_PartSecs");
 
 	struct
 	{
@@ -15842,7 +15842,7 @@ int UKSQueueTimerWidgetBase::GetQueueTime_PartSecs()
 
 int UKSQueueTimerWidgetBase::GetQueueTime_PartMins()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueTimerWidgetBase.GetQueueTime_PartMins"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueTimerWidgetBase.GetQueueTime_PartMins");
 
 	struct
 	{
@@ -15863,7 +15863,7 @@ int UKSQueueTimerWidgetBase::GetQueueTime_PartMins()
 
 int UKSQueueTimerWidgetBase::GetQueueTime_PartHours()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueTimerWidgetBase.GetQueueTime_PartHours"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueTimerWidgetBase.GetQueueTime_PartHours");
 
 	struct
 	{
@@ -15884,7 +15884,7 @@ int UKSQueueTimerWidgetBase::GetQueueTime_PartHours()
 
 EQueueTimerState UKSQueueTimerWidgetBase::GetCurrentTimerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQueueTimerWidgetBase.GetCurrentTimerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueTimerWidgetBase.GetCurrentTimerState");
 
 	struct
 	{
@@ -15903,7 +15903,7 @@ EQueueTimerState UKSQueueTimerWidgetBase::GetCurrentTimerState()
 
 void UKSQuickPlay::UpdateQueuePermissions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.UpdateQueuePermissions"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.UpdateQueuePermissions");
 
 	struct
 	{
@@ -15921,7 +15921,7 @@ void UKSQuickPlay::UpdateQueuePermissions()
 
 bool UKSQuickPlay::UIX_AttemptJoinSelectedQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.UIX_AttemptJoinSelectedQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.UIX_AttemptJoinSelectedQueue");
 
 	struct
 	{
@@ -15942,7 +15942,7 @@ bool UKSQuickPlay::UIX_AttemptJoinSelectedQueue()
 
 bool UKSQuickPlay::UIX_AttemptCancelQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.UIX_AttemptCancelQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.UIX_AttemptCancelQueue");
 
 	struct
 	{
@@ -15964,7 +15964,7 @@ bool UKSQuickPlay::UIX_AttemptCancelQueue()
 
 TArray<struct FQueueSection> UKSQuickPlay::SortQueueSections(TArray<struct FQueueSection> QueueSections)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.SortQueueSections"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.SortQueueSections");
 
 	struct
 	{
@@ -15985,7 +15985,7 @@ TArray<struct FQueueSection> UKSQuickPlay::SortQueueSections(TArray<struct FQueu
 
 void UKSQuickPlay::SetupReadyForQueueing()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.SetupReadyForQueueing"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.SetupReadyForQueueing");
 
 	struct
 	{
@@ -16001,7 +16001,7 @@ void UKSQuickPlay::SetupReadyForQueueing()
 
 void UKSQuickPlay::SetupBindings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.SetupBindings"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.SetupBindings");
 
 	struct
 	{
@@ -16020,7 +16020,7 @@ void UKSQuickPlay::SetupBindings()
 
 bool UKSQuickPlay::SetDefaultSelectedQueue(struct FClientQueueInfo* NewSelectedQueue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.SetDefaultSelectedQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.SetDefaultSelectedQueue");
 
 	struct
 	{
@@ -16046,7 +16046,7 @@ bool UKSQuickPlay::SetDefaultSelectedQueue(struct FClientQueueInfo* NewSelectedQ
 
 bool UKSQuickPlay::SetCurrentlySelectedQueue(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.SetCurrentlySelectedQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.SetCurrentlySelectedQueue");
 
 	struct
 	{
@@ -16069,7 +16069,7 @@ bool UKSQuickPlay::SetCurrentlySelectedQueue(int QueueId)
 
 void UKSQuickPlay::ReceiveMatchStatusUpdate(EPUMG_MatchStatus CurrentMatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.ReceiveMatchStatusUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.ReceiveMatchStatusUpdate");
 
 	struct
 	{
@@ -16089,7 +16089,7 @@ void UKSQuickPlay::ReceiveMatchStatusUpdate(EPUMG_MatchStatus CurrentMatchStatus
 
 void UKSQuickPlay::OnQueuePermissionChanged(bool CanQueue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.OnQueuePermissionChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.OnQueuePermissionChanged");
 
 	struct
 	{
@@ -16109,7 +16109,7 @@ void UKSQuickPlay::OnQueuePermissionChanged(bool CanQueue)
 
 void UKSQuickPlay::OnControlQueuePermissionChanged(bool CanControl)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.OnControlQueuePermissionChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.OnControlQueuePermissionChanged");
 
 	struct
 	{
@@ -16130,7 +16130,7 @@ void UKSQuickPlay::OnControlQueuePermissionChanged(bool CanControl)
 
 bool UKSQuickPlay::IsValidQueue(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.IsValidQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.IsValidQueue");
 
 	struct
 	{
@@ -16153,7 +16153,7 @@ bool UKSQuickPlay::IsValidQueue(int QueueId)
 
 void UKSQuickPlay::HandlePartyMemberDataUpdated(const struct FPUMG_PartyMemberData& PartyMember)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.HandlePartyMemberDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.HandlePartyMemberDataUpdated");
 
 	struct
 	{
@@ -16174,7 +16174,7 @@ void UKSQuickPlay::HandlePartyMemberDataUpdated(const struct FPUMG_PartyMemberDa
 
 EQueueType UKSQuickPlay::GetQueueTypeFromName(const struct FName& QueueType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.GetQueueTypeFromName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.GetQueueTypeFromName");
 
 	struct
 	{
@@ -16198,7 +16198,7 @@ EQueueType UKSQuickPlay::GetQueueTypeFromName(const struct FName& QueueType)
 
 TArray<struct FQueueSection> UKSQuickPlay::GetQueueSections(TArray<struct FClientQueueInfo> ClientCachedQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.GetQueueSections"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.GetQueueSections");
 
 	struct
 	{
@@ -16221,7 +16221,7 @@ TArray<struct FQueueSection> UKSQuickPlay::GetQueueSections(TArray<struct FClien
 
 TArray<struct FClientQueueInfo> UKSQuickPlay::GetQueues()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.GetQueues"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.GetQueues");
 
 	struct
 	{
@@ -16244,7 +16244,7 @@ TArray<struct FClientQueueInfo> UKSQuickPlay::GetQueues()
 
 bool UKSQuickPlay::GetQueueInfoById(int QueueId, struct FClientQueueInfo* QueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.GetQueueInfoById"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.GetQueueInfoById");
 
 	struct
 	{
@@ -16271,7 +16271,7 @@ bool UKSQuickPlay::GetQueueInfoById(int QueueId, struct FClientQueueInfo* QueueI
 
 class UKSQueueDataFactory* UKSQuickPlay::GetQueueDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.GetQueueDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.GetQueueDataFactory");
 
 	struct
 	{
@@ -16292,7 +16292,7 @@ class UKSQueueDataFactory* UKSQuickPlay::GetQueueDataFactory()
 
 class UPUMG_PartyDataFactory* UKSQuickPlay::GetPartyDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.GetPartyDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.GetPartyDataFactory");
 
 	struct
 	{
@@ -16313,7 +16313,7 @@ class UPUMG_PartyDataFactory* UKSQuickPlay::GetPartyDataFactory()
 
 int UKSQuickPlay::GetDefaultSelectedQueueId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.GetDefaultSelectedQueueId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.GetDefaultSelectedQueueId");
 
 	struct
 	{
@@ -16334,7 +16334,7 @@ int UKSQuickPlay::GetDefaultSelectedQueueId()
 
 struct FClientQueueInfo UKSQuickPlay::GetCurrentlySelectedQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.GetCurrentlySelectedQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.GetCurrentlySelectedQueue");
 
 	struct
 	{
@@ -16356,7 +16356,7 @@ struct FClientQueueInfo UKSQuickPlay::GetCurrentlySelectedQueue()
 
 bool UKSQuickPlay::CheckForDirtyQueues(TArray<struct FClientQueueInfo>* NewClientCachedQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.CheckForDirtyQueues"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.CheckForDirtyQueues");
 
 	struct
 	{
@@ -16382,7 +16382,7 @@ bool UKSQuickPlay::CheckForDirtyQueues(TArray<struct FClientQueueInfo>* NewClien
 
 bool UKSQuickPlay::CheckForCustomQueues(TArray<struct FClientQueueInfo>* CustomMatchQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlay.CheckForCustomQueues"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlay.CheckForCustomQueues");
 
 	struct
 	{
@@ -16405,7 +16405,7 @@ bool UKSQuickPlay::CheckForCustomQueues(TArray<struct FClientQueueInfo>* CustomM
 
 void UKSQuickPlayWidget::UpdateState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.UpdateState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.UpdateState");
 
 	struct
 	{
@@ -16423,7 +16423,7 @@ void UKSQuickPlayWidget::UpdateState()
 
 void UKSQuickPlayWidget::SetIsPendingQueueUpdate(bool IsPending)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.SetIsPendingQueueUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.SetIsPendingQueueUpdate");
 
 	struct
 	{
@@ -16443,7 +16443,7 @@ void UKSQuickPlayWidget::SetIsPendingQueueUpdate(bool IsPending)
 
 void UKSQuickPlayWidget::OnUpdateQuickPlayState(EQuickPlayQueueState QueueState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.OnUpdateQuickPlayState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.OnUpdateQuickPlayState");
 
 	struct
 	{
@@ -16463,7 +16463,7 @@ void UKSQuickPlayWidget::OnUpdateQuickPlayState(EQuickPlayQueueState QueueState)
 
 void UKSQuickPlayWidget::OnUpdateQuickPlayCanPlay(bool CanPlay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.OnUpdateQuickPlayCanPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.OnUpdateQuickPlayCanPlay");
 
 	struct
 	{
@@ -16483,7 +16483,7 @@ void UKSQuickPlayWidget::OnUpdateQuickPlayCanPlay(bool CanPlay)
 
 void UKSQuickPlayWidget::OnUpdateQueueTimeElapsed(float TimeElapsed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.OnUpdateQueueTimeElapsed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.OnUpdateQueueTimeElapsed");
 
 	struct
 	{
@@ -16503,7 +16503,7 @@ void UKSQuickPlayWidget::OnUpdateQueueTimeElapsed(float TimeElapsed)
 
 void UKSQuickPlayWidget::OnUpdatePenaltyTimeLeft(int TimeLeft)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.OnUpdatePenaltyTimeLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.OnUpdatePenaltyTimeLeft");
 
 	struct
 	{
@@ -16523,7 +16523,7 @@ void UKSQuickPlayWidget::OnUpdatePenaltyTimeLeft(int TimeLeft)
 
 bool UKSQuickPlayWidget::IsPendingQueueUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.IsPendingQueueUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.IsPendingQueueUpdate");
 
 	struct
 	{
@@ -16544,7 +16544,7 @@ bool UKSQuickPlayWidget::IsPendingQueueUpdate()
 
 EQuickPlayQueueState UKSQuickPlayWidget::GetSelectedQueueState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.GetSelectedQueueState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.GetSelectedQueueState");
 
 	struct
 	{
@@ -16566,7 +16566,7 @@ EQuickPlayQueueState UKSQuickPlayWidget::GetSelectedQueueState()
 
 bool UKSQuickPlayWidget::GetGameModeDisplayName(struct FText* GameModeDisplayName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.GetGameModeDisplayName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.GetGameModeDisplayName");
 
 	struct
 	{
@@ -16591,7 +16591,7 @@ bool UKSQuickPlayWidget::GetGameModeDisplayName(struct FText* GameModeDisplayNam
 
 EQuickPlayQueueState UKSQuickPlayWidget::GetCurrentQuickPlayState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSQuickPlayWidget.GetCurrentQuickPlayState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQuickPlayWidget.GetCurrentQuickPlayState");
 
 	struct
 	{
@@ -16612,7 +16612,7 @@ EQuickPlayQueueState UKSQuickPlayWidget::GetCurrentQuickPlayState()
 
 void UKSRadialSelectionWidgetBase::UpdateLastSelectedIndex(int NewIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.UpdateLastSelectedIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.UpdateLastSelectedIndex");
 
 	struct
 	{
@@ -16632,7 +16632,7 @@ void UKSRadialSelectionWidgetBase::UpdateLastSelectedIndex(int NewIndex)
 
 void UKSRadialSelectionWidgetBase::UpdateLastHoveredIndex(int NewHoveredIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.UpdateLastHoveredIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.UpdateLastHoveredIndex");
 
 	struct
 	{
@@ -16653,7 +16653,7 @@ void UKSRadialSelectionWidgetBase::UpdateLastHoveredIndex(int NewHoveredIndex)
 
 void UKSRadialSelectionWidgetBase::TraceSelectionCursor(float Radius, float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.TraceSelectionCursor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.TraceSelectionCursor");
 
 	struct
 	{
@@ -16673,7 +16673,7 @@ void UKSRadialSelectionWidgetBase::TraceSelectionCursor(float Radius, float Angl
 
 void UKSRadialSelectionWidgetBase::ShowSelector()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.ShowSelector"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.ShowSelector");
 
 	struct
 	{
@@ -16691,7 +16691,7 @@ void UKSRadialSelectionWidgetBase::ShowSelector()
 
 void UKSRadialSelectionWidgetBase::SetupForRadialWheelMode(ERadialWheelMode NewRadialWheelMode)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.SetupForRadialWheelMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.SetupForRadialWheelMode");
 
 	struct
 	{
@@ -16709,7 +16709,7 @@ void UKSRadialSelectionWidgetBase::SetupForRadialWheelMode(ERadialWheelMode NewR
 
 void UKSRadialSelectionWidgetBase::RadialOptionUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.RadialOptionUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.RadialOptionUnhover");
 
 	struct
 	{
@@ -16727,7 +16727,7 @@ void UKSRadialSelectionWidgetBase::RadialOptionUnhover()
 
 void UKSRadialSelectionWidgetBase::RadialOptionSelected(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.RadialOptionSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.RadialOptionSelected");
 
 	struct
 	{
@@ -16747,7 +16747,7 @@ void UKSRadialSelectionWidgetBase::RadialOptionSelected(int Index)
 
 void UKSRadialSelectionWidgetBase::RadialOptionHovered(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.RadialOptionHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.RadialOptionHovered");
 
 	struct
 	{
@@ -16767,7 +16767,7 @@ void UKSRadialSelectionWidgetBase::RadialOptionHovered(int Index)
 
 void UKSRadialSelectionWidgetBase::OpenSpecifiedRadialMenu(EMercCosmeticSlot CosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.OpenSpecifiedRadialMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OpenSpecifiedRadialMenu");
 
 	struct
 	{
@@ -16787,7 +16787,7 @@ void UKSRadialSelectionWidgetBase::OpenSpecifiedRadialMenu(EMercCosmeticSlot Cos
 
 void UKSRadialSelectionWidgetBase::OnRadialMenuUseLastSelection(EMercCosmeticSlot ButtonCosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnRadialMenuUseLastSelection"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnRadialMenuUseLastSelection");
 
 	struct
 	{
@@ -16808,7 +16808,7 @@ void UKSRadialSelectionWidgetBase::OnRadialMenuUseLastSelection(EMercCosmeticSlo
 
 void UKSRadialSelectionWidgetBase::OnRadialMenuReleased(EMercCosmeticSlot ButtonCosmeticSlot, bool bIsContextualPingHold)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnRadialMenuReleased"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnRadialMenuReleased");
 
 	struct
 	{
@@ -16831,7 +16831,7 @@ void UKSRadialSelectionWidgetBase::OnRadialMenuReleased(EMercCosmeticSlot Button
 
 void UKSRadialSelectionWidgetBase::OnRadialMenuPressed(EMercCosmeticSlot ButtonCosmeticSlot, bool bIsContextualPingHold)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnRadialMenuPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnRadialMenuPressed");
 
 	struct
 	{
@@ -16851,7 +16851,7 @@ void UKSRadialSelectionWidgetBase::OnRadialMenuPressed(EMercCosmeticSlot ButtonC
 
 void UKSRadialSelectionWidgetBase::OnRadialMenuForceClosed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnRadialMenuForceClosed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnRadialMenuForceClosed");
 
 	struct
 	{
@@ -16867,7 +16867,7 @@ void UKSRadialSelectionWidgetBase::OnRadialMenuForceClosed()
 
 void UKSRadialSelectionWidgetBase::OnCycleMenusRight()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCycleMenusRight"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCycleMenusRight");
 
 	struct
 	{
@@ -16883,7 +16883,7 @@ void UKSRadialSelectionWidgetBase::OnCycleMenusRight()
 
 void UKSRadialSelectionWidgetBase::OnCycleMenusLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCycleMenusLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCycleMenusLeft");
 
 	struct
 	{
@@ -16901,7 +16901,7 @@ void UKSRadialSelectionWidgetBase::OnCycleMenusLeft()
 
 void UKSRadialSelectionWidgetBase::OnCycledMenus(bool bCycledRight)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCycledMenus"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCycledMenus");
 
 	struct
 	{
@@ -16921,7 +16921,7 @@ void UKSRadialSelectionWidgetBase::OnCycledMenus(bool bCycledRight)
 
 bool UKSRadialSelectionWidgetBase::IsSelectorVisible()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsSelectorVisible"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsSelectorVisible");
 
 	struct
 	{
@@ -16942,7 +16942,7 @@ bool UKSRadialSelectionWidgetBase::IsSelectorVisible()
 
 bool UKSRadialSelectionWidgetBase::IsSelectorActive()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsSelectorActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsSelectorActive");
 
 	struct
 	{
@@ -16963,7 +16963,7 @@ bool UKSRadialSelectionWidgetBase::IsSelectorActive()
 
 bool UKSRadialSelectionWidgetBase::IsCycleBetweenMenusEnabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsCycleBetweenMenusEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsCycleBetweenMenusEnabled");
 
 	struct
 	{
@@ -16982,7 +16982,7 @@ bool UKSRadialSelectionWidgetBase::IsCycleBetweenMenusEnabled()
 
 void UKSRadialSelectionWidgetBase::InitializeTracking()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.InitializeTracking"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.InitializeTracking");
 
 	struct
 	{
@@ -16998,7 +16998,7 @@ void UKSRadialSelectionWidgetBase::InitializeTracking()
 
 void UKSRadialSelectionWidgetBase::HideSelector()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.HideSelector"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.HideSelector");
 
 	struct
 	{
@@ -17016,7 +17016,7 @@ void UKSRadialSelectionWidgetBase::HideSelector()
 
 void UKSRadialSelectionWidgetBase::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> NewInputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.HandleInputStateChanged");
 
 	struct
 	{
@@ -17036,7 +17036,7 @@ void UKSRadialSelectionWidgetBase::HandleInputStateChanged(TEnumAsByte<EPGAME_IN
 
 float UKSRadialSelectionWidgetBase::GetWheelSize()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetWheelSize"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetWheelSize");
 
 	struct
 	{
@@ -17059,7 +17059,7 @@ float UKSRadialSelectionWidgetBase::GetWheelSize()
 
 bool UKSRadialSelectionWidgetBase::GetPingIconByType(EPingType PingType, TSoftObjectPtr<class UTexture2D>* PingIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetPingIconByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetPingIconByType");
 
 	struct
 	{
@@ -17088,7 +17088,7 @@ bool UKSRadialSelectionWidgetBase::GetPingIconByType(EPingType PingType, TSoftOb
 
 bool UKSRadialSelectionWidgetBase::GetPingIconByMessage(EPingMessage PingMessage, TSoftObjectPtr<class UTexture2D>* PingIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetPingIconByMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetPingIconByMessage");
 
 	struct
 	{
@@ -17117,7 +17117,7 @@ bool UKSRadialSelectionWidgetBase::GetPingIconByMessage(EPingMessage PingMessage
 
 bool UKSRadialSelectionWidgetBase::GetPingColorByType(EPingType PingType, struct FLinearColor* PingColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetPingColorByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetPingColorByType");
 
 	struct
 	{
@@ -17144,7 +17144,7 @@ bool UKSRadialSelectionWidgetBase::GetPingColorByType(EPingType PingType, struct
 
 int UKSRadialSelectionWidgetBase::GetOptionsCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetOptionsCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetOptionsCount");
 
 	struct
 	{
@@ -17166,7 +17166,7 @@ int UKSRadialSelectionWidgetBase::GetOptionsCount()
 
 int UKSRadialSelectionWidgetBase::GetLastSelectedIndexForCosmeticSlot(EMercCosmeticSlot CosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetLastSelectedIndexForCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetLastSelectedIndexForCosmeticSlot");
 
 	struct
 	{
@@ -17189,7 +17189,7 @@ int UKSRadialSelectionWidgetBase::GetLastSelectedIndexForCosmeticSlot(EMercCosme
 
 int UKSRadialSelectionWidgetBase::GetLastHoveredIndex()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetLastHoveredIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetLastHoveredIndex");
 
 	struct
 	{
@@ -17210,7 +17210,7 @@ int UKSRadialSelectionWidgetBase::GetLastHoveredIndex()
 
 EMercCosmeticSlot UKSRadialSelectionWidgetBase::GetInitialRadialMenu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetInitialRadialMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetInitialRadialMenu");
 
 	struct
 	{
@@ -17232,7 +17232,7 @@ EMercCosmeticSlot UKSRadialSelectionWidgetBase::GetInitialRadialMenu()
 
 TArray<struct FGameplayTag> UKSRadialSelectionWidgetBase::GetGameplayTagsForCosmeticSlot(EMercCosmeticSlot CosmeticSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetGameplayTagsForCosmeticSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetGameplayTagsForCosmeticSlot");
 
 	struct
 	{
@@ -17255,7 +17255,7 @@ TArray<struct FGameplayTag> UKSRadialSelectionWidgetBase::GetGameplayTagsForCosm
 
 float UKSRadialSelectionWidgetBase::GetDeadZone()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetDeadZone"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetDeadZone");
 
 	struct
 	{
@@ -17277,7 +17277,7 @@ float UKSRadialSelectionWidgetBase::GetDeadZone()
 
 EMercCosmeticSlot UKSRadialSelectionWidgetBase::GetContiguousCosmeticSlotMenu(bool bRightSide)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetContiguousCosmeticSlotMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetContiguousCosmeticSlotMenu");
 
 	struct
 	{
@@ -17300,7 +17300,7 @@ EMercCosmeticSlot UKSRadialSelectionWidgetBase::GetContiguousCosmeticSlotMenu(bo
 
 EMercCosmeticSlot UKSRadialSelectionWidgetBase::GetActiveCosmeticSlotMenu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetActiveCosmeticSlotMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetActiveCosmeticSlotMenu");
 
 	struct
 	{
@@ -17323,7 +17323,7 @@ EMercCosmeticSlot UKSRadialSelectionWidgetBase::GetActiveCosmeticSlotMenu()
 
 bool UKSRadialSelectionWidgetBase::FindRowByType(EPingType PingType, struct FContextualPingTypesRow* ContextualPingTypesRow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.FindRowByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.FindRowByType");
 
 	struct
 	{
@@ -17352,7 +17352,7 @@ bool UKSRadialSelectionWidgetBase::FindRowByType(EPingType PingType, struct FCon
 
 bool UKSRadialSelectionWidgetBase::FindRowByMessage(EPingMessage PingMessage, struct FContextualPingMessagesRow* ContextualPingMessagesRow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.FindRowByMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.FindRowByMessage");
 
 	struct
 	{
@@ -17377,7 +17377,7 @@ bool UKSRadialSelectionWidgetBase::FindRowByMessage(EPingMessage PingMessage, st
 
 void UKSRadialSelectionWidgetBase::DummyFunction()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.DummyFunction"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.DummyFunction");
 
 	struct
 	{
@@ -17393,7 +17393,7 @@ void UKSRadialSelectionWidgetBase::DummyFunction()
 
 void UKSRadialSelectionWidgetBase::ChangeToNewRadialMenu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.ChangeToNewRadialMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.ChangeToNewRadialMenu");
 
 	struct
 	{
@@ -17409,7 +17409,7 @@ void UKSRadialSelectionWidgetBase::ChangeToNewRadialMenu()
 
 void UKSRadialSelectionWidgetBase::ButtonClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.ButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.ButtonClicked");
 
 	struct
 	{
@@ -17425,7 +17425,7 @@ void UKSRadialSelectionWidgetBase::ButtonClicked()
 
 void UKSRadialSelectionWidgetBase::BackPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.BackPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.BackPressed");
 
 	struct
 	{
@@ -17445,7 +17445,7 @@ void UKSRadialSelectionWidgetBase::BackPressed()
 
 bool UKSRadialSelectionWidgetBase::ActivateRadialMenuItem(int Index, class AKSPlayerController* PlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRadialSelectionWidgetBase.ActivateRadialMenuItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.ActivateRadialMenuItem");
 
 	struct
 	{
@@ -17471,7 +17471,7 @@ bool UKSRadialSelectionWidgetBase::ActivateRadialMenuItem(int Index, class AKSPl
 
 struct FPlayerProgression UKSRankChangeWidget::FormatProgressionData(const struct FPlayerProgression& ProgressionData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRankChangeWidget.FormatProgressionData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRankChangeWidget.FormatProgressionData");
 
 	struct
 	{
@@ -17494,7 +17494,7 @@ struct FPlayerProgression UKSRankChangeWidget::FormatProgressionData(const struc
 
 void UKSRedeemCodeScreenBase::RedeemCode(const struct FString& Code)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRedeemCodeScreenBase.RedeemCode"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRedeemCodeScreenBase.RedeemCode");
 
 	struct
 	{
@@ -17512,7 +17512,7 @@ void UKSRedeemCodeScreenBase::RedeemCode(const struct FString& Code)
 
 void UKSRedeemCodeScreenBase::OnRedeemCodeSubmit()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRedeemCodeScreenBase.OnRedeemCodeSubmit"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRedeemCodeScreenBase.OnRedeemCodeSubmit");
 
 	struct
 	{
@@ -17531,7 +17531,7 @@ void UKSRedeemCodeScreenBase::OnRedeemCodeSubmit()
 
 void UKSRedeemCodeScreenBase::OnRedeemCodeResult(bool Success, const struct FText& Error)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRedeemCodeScreenBase.OnRedeemCodeResult"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRedeemCodeScreenBase.OnRedeemCodeResult");
 
 	struct
 	{
@@ -17553,7 +17553,7 @@ void UKSRedeemCodeScreenBase::OnRedeemCodeResult(bool Success, const struct FTex
 
 bool UKSRedeemCodeScreenBase::IsPendingServerReply()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRedeemCodeScreenBase.IsPendingServerReply"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRedeemCodeScreenBase.IsPendingServerReply");
 
 	struct
 	{
@@ -17574,7 +17574,7 @@ bool UKSRedeemCodeScreenBase::IsPendingServerReply()
 
 void UKSReticleWidgetBase::UpdateReticleOffset(float OffsetFromCenterScreen)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSReticleWidgetBase.UpdateReticleOffset"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSReticleWidgetBase.UpdateReticleOffset");
 
 	struct
 	{
@@ -17596,7 +17596,7 @@ void UKSReticleWidgetBase::UpdateReticleOffset(float OffsetFromCenterScreen)
 
 void UKSReticleWidgetBase::UpdateBlockedShotIcon(bool IconVisible, const struct FVector2D& Translation, const struct FVector2D& IconScale)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSReticleWidgetBase.UpdateBlockedShotIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSReticleWidgetBase.UpdateBlockedShotIcon");
 
 	struct
 	{
@@ -17620,7 +17620,7 @@ void UKSReticleWidgetBase::UpdateBlockedShotIcon(bool IconVisible, const struct 
 
 void UKSReticleWidgetBase::CalculateReticleOffset(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSReticleWidgetBase.CalculateReticleOffset"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSReticleWidgetBase.CalculateReticleOffset");
 
 	struct
 	{
@@ -17638,7 +17638,7 @@ void UKSReticleWidgetBase::CalculateReticleOffset(float DeltaTime)
 
 void UKSReticleWidgetBase::CalculateBlockedShotIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSReticleWidgetBase.CalculateBlockedShotIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSReticleWidgetBase.CalculateBlockedShotIcon");
 
 	struct
 	{
@@ -17657,7 +17657,7 @@ void UKSReticleWidgetBase::CalculateBlockedShotIcon()
 
 void UKSRewardsTrackMeterSegmentBase::UpdateFromRewardTier(const struct FActivityTier& ActivityTier, int ActivityCount)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.UpdateFromRewardTier"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.UpdateFromRewardTier");
 
 	struct
 	{
@@ -17679,7 +17679,7 @@ void UKSRewardsTrackMeterSegmentBase::UpdateFromRewardTier(const struct FActivit
 
 struct FLinearColor UKSRewardsTrackMeterSegmentBase::GetStandardBackgroundColor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.GetStandardBackgroundColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.GetStandardBackgroundColor");
 
 	struct
 	{
@@ -17700,7 +17700,7 @@ struct FLinearColor UKSRewardsTrackMeterSegmentBase::GetStandardBackgroundColor(
 
 struct FLinearColor UKSRewardsTrackMeterSegmentBase::GetPremiumBackgroundColor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.GetPremiumBackgroundColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.GetPremiumBackgroundColor");
 
 	struct
 	{
@@ -17721,7 +17721,7 @@ struct FLinearColor UKSRewardsTrackMeterSegmentBase::GetPremiumBackgroundColor()
 
 struct FLinearColor UKSRewardsTrackMeterSegmentBase::GetBattlePassPremiumColor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.GetBattlePassPremiumColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.GetBattlePassPremiumColor");
 
 	struct
 	{
@@ -17742,7 +17742,7 @@ struct FLinearColor UKSRewardsTrackMeterSegmentBase::GetBattlePassPremiumColor()
 
 struct FLinearColor UKSRewardsTrackMeterSegmentBase::GetBattlePassFreeColor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.GetBattlePassFreeColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.GetBattlePassFreeColor");
 
 	struct
 	{
@@ -17763,7 +17763,7 @@ struct FLinearColor UKSRewardsTrackMeterSegmentBase::GetBattlePassFreeColor()
 
 void UKSRewardsTrackMeterSegmentBase::ApplySegmentProgress(float ProgressPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.ApplySegmentProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.ApplySegmentProgress");
 
 	struct
 	{
@@ -17783,7 +17783,7 @@ void UKSRewardsTrackMeterSegmentBase::ApplySegmentProgress(float ProgressPercent
 
 void UKSRewardsTrackMeterSegmentBase::ApplySegmentMeterColor(const struct FLinearColor& MeterColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.ApplySegmentMeterColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.ApplySegmentMeterColor");
 
 	struct
 	{
@@ -17803,7 +17803,7 @@ void UKSRewardsTrackMeterSegmentBase::ApplySegmentMeterColor(const struct FLinea
 
 void UKSRewardsTrackMeterSegmentBase::ApplySegmentLabel(const struct FText& LabelText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.ApplySegmentLabel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.ApplySegmentLabel");
 
 	struct
 	{
@@ -17823,7 +17823,7 @@ void UKSRewardsTrackMeterSegmentBase::ApplySegmentLabel(const struct FText& Labe
 
 void UKSRewardsTrackMeterSegmentBase::ApplySegmentBackgroundColor(const struct FLinearColor& BackgroundColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.ApplySegmentBackgroundColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackMeterSegmentBase.ApplySegmentBackgroundColor");
 
 	struct
 	{
@@ -17843,7 +17843,7 @@ void UKSRewardsTrackMeterSegmentBase::ApplySegmentBackgroundColor(const struct F
 
 void UKSRewardsTrackWidgetBase::UpdateMaxPageCount(int RewardCount)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackWidgetBase.UpdateMaxPageCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackWidgetBase.UpdateMaxPageCount");
 
 	struct
 	{
@@ -17863,7 +17863,7 @@ void UKSRewardsTrackWidgetBase::UpdateMaxPageCount(int RewardCount)
 
 void UKSRewardsTrackWidgetBase::SetCurrentPageFromIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRewardsTrackWidgetBase.SetCurrentPageFromIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardsTrackWidgetBase.SetCurrentPageFromIndex");
 
 	struct
 	{
@@ -17884,7 +17884,7 @@ void UKSRewardsTrackWidgetBase::SetCurrentPageFromIndex(int Index)
 
 class UPUMG_StoreItem* UKSRogueDetailsWidget::GetStoreItemForJob(class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRogueDetailsWidget.GetStoreItemForJob"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRogueDetailsWidget.GetStoreItemForJob");
 
 	struct
 	{
@@ -17907,7 +17907,7 @@ class UPUMG_StoreItem* UKSRogueDetailsWidget::GetStoreItemForJob(class UKSJobIte
 
 class UKSStoreItemHelper* UKSRogueDetailsWidget::GetItemHelper()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRogueDetailsWidget.GetItemHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRogueDetailsWidget.GetItemHelper");
 
 	struct
 	{
@@ -17929,7 +17929,7 @@ class UKSStoreItemHelper* UKSRogueDetailsWidget::GetItemHelper()
 
 void UKSRogueMasteryWidget::GetSectionData(class UKSActivityInstance* ActivityInstance, TArray<struct FMasterySectionData>* SectionData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRogueMasteryWidget.GetSectionData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRogueMasteryWidget.GetSectionData");
 
 	struct
 	{
@@ -17954,7 +17954,7 @@ void UKSRogueMasteryWidget::GetSectionData(class UKSActivityInstance* ActivityIn
 
 void UKSRogueMasteryWidget::GetMasteryRewardsForTier(const struct FActivityTier& Tier, TArray<struct FMasteryRewardData>* Rewards)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSRogueMasteryWidget.GetMasteryRewardsForTier"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRogueMasteryWidget.GetMasteryRewardsForTier");
 
 	struct
 	{
@@ -17978,7 +17978,7 @@ void UKSRogueMasteryWidget::GetMasteryRewardsForTier(const struct FActivityTier&
 
 float UKSScrollBox::GetViewFraction()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSScrollBox.GetViewFraction"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSScrollBox.GetViewFraction");
 
 	struct
 	{
@@ -17999,7 +17999,7 @@ float UKSScrollBox::GetViewFraction()
 
 void UKSSettingsContainer::OnShowSettingsWidget(class UKSSettingsWidget* SettingsWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainer.OnShowSettingsWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainer.OnShowSettingsWidget");
 
 	struct
 	{
@@ -18019,7 +18019,7 @@ void UKSSettingsContainer::OnShowSettingsWidget(class UKSSettingsWidget* Setting
 
 void UKSSettingsContainer::OnHideSettingsWidget(class UKSSettingsWidget* SettingsWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainer.OnHideSettingsWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainer.OnHideSettingsWidget");
 
 	struct
 	{
@@ -18037,7 +18037,7 @@ void UKSSettingsContainer::OnHideSettingsWidget(class UKSSettingsWidget* Setting
 
 void UKSSettingsContainer::OnContainerConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainer.OnContainerConfigSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainer.OnContainerConfigSet");
 
 	struct
 	{
@@ -18055,7 +18055,7 @@ void UKSSettingsContainer::OnContainerConfigSet()
 
 struct FText UKSSettingsContainer::GetWidgetContainerTitle()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainer.GetWidgetContainerTitle"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainer.GetWidgetContainerTitle");
 
 	struct
 	{
@@ -18076,7 +18076,7 @@ struct FText UKSSettingsContainer::GetWidgetContainerTitle()
 
 class UKSSettingsPreview* UKSSettingsContainer::GetWidgetContainerPreview()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainer.GetWidgetContainerPreview"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainer.GetWidgetContainerPreview");
 
 	struct
 	{
@@ -18097,7 +18097,7 @@ class UKSSettingsPreview* UKSSettingsContainer::GetWidgetContainerPreview()
 
 struct FText UKSSettingsContainer::GetWidgetContainerDescription()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainer.GetWidgetContainerDescription"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainer.GetWidgetContainerDescription");
 
 	struct
 	{
@@ -18118,7 +18118,7 @@ struct FText UKSSettingsContainer::GetWidgetContainerDescription()
 
 TArray<class UKSSettingsWidget*> UKSSettingsContainer::GetSettingsWidgets()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainer.GetSettingsWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainer.GetSettingsWidgets");
 
 	struct
 	{
@@ -18139,7 +18139,7 @@ TArray<class UKSSettingsWidget*> UKSSettingsContainer::GetSettingsWidgets()
 
 void UKSSettingsContainer::AddSettingsWidget(class UKSSettingsWidget* SettingsWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainer.AddSettingsWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainer.AddSettingsWidget");
 
 	struct
 	{
@@ -18159,7 +18159,7 @@ void UKSSettingsContainer::AddSettingsWidget(class UKSSettingsWidget* SettingsWi
 
 void UKSSettingsContainer::AddPreviewWidget(class UKSSettingsPreview* PreviewWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainer.AddPreviewWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainer.AddPreviewWidget");
 
 	struct
 	{
@@ -18179,7 +18179,7 @@ void UKSSettingsContainer::AddPreviewWidget(class UKSSettingsPreview* PreviewWid
 
 struct FText UKSSettingsContainerConfigAsset::GetSettingName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainerConfigAsset.GetSettingName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainerConfigAsset.GetSettingName");
 
 	struct
 	{
@@ -18200,7 +18200,7 @@ struct FText UKSSettingsContainerConfigAsset::GetSettingName()
 
 struct FText UKSSettingsContainerConfigAsset::GetSettingDescription()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsContainerConfigAsset.GetSettingDescription"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsContainerConfigAsset.GetSettingDescription");
 
 	struct
 	{
@@ -18221,7 +18221,7 @@ struct FText UKSSettingsContainerConfigAsset::GetSettingDescription()
 
 struct FText UKSSettingsSectionConfigAsset::GetHeading()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsSectionConfigAsset.GetHeading"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsSectionConfigAsset.GetHeading");
 
 	struct
 	{
@@ -18242,7 +18242,7 @@ struct FText UKSSettingsSectionConfigAsset::GetHeading()
 
 struct FText UKSSettingsPageConfigAsset::GetPageName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsPageConfigAsset.GetPageName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsPageConfigAsset.GetPageName");
 
 	struct
 	{
@@ -18264,7 +18264,7 @@ struct FText UKSSettingsPageConfigAsset::GetPageName()
 
 bool UKSSettingsDataFactory::SetSelectedRegion(int SiteId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SetSelectedRegion"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SetSelectedRegion");
 
 	struct
 	{
@@ -18288,7 +18288,7 @@ bool UKSSettingsDataFactory::SetSelectedRegion(int SiteId)
 
 bool UKSSettingsDataFactory::SetCrosshairColor(int CrosshairColorIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SetCrosshairColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SetCrosshairColor");
 
 	struct
 	{
@@ -18311,7 +18311,7 @@ bool UKSSettingsDataFactory::SetCrosshairColor(int CrosshairColorIndex)
 
 void UKSSettingsDataFactory::SetColorOptionValues(class UKSSettingsColorOptionsAsset* ColorOptionAsset)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SetColorOptionValues"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SetColorOptionValues");
 
 	struct
 	{
@@ -18329,7 +18329,7 @@ void UKSSettingsDataFactory::SetColorOptionValues(class UKSSettingsColorOptionsA
 
 void UKSSettingsDataFactory::SaveSettings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SaveSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveSettings");
 
 	struct
 	{
@@ -18347,7 +18347,7 @@ void UKSSettingsDataFactory::SaveSettings()
 
 void UKSSettingsDataFactory::SaveSettingAsInt(const struct FString& Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsInt");
 
 	struct
 	{
@@ -18367,7 +18367,7 @@ void UKSSettingsDataFactory::SaveSettingAsInt(const struct FString& Name)
 
 void UKSSettingsDataFactory::SaveSettingAsFloat(const struct FString& Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsFloat");
 
 	struct
 	{
@@ -18387,7 +18387,7 @@ void UKSSettingsDataFactory::SaveSettingAsFloat(const struct FString& Name)
 
 void UKSSettingsDataFactory::SaveSettingAsBool(const struct FString& Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsBool");
 
 	struct
 	{
@@ -18405,7 +18405,7 @@ void UKSSettingsDataFactory::SaveSettingAsBool(const struct FString& Name)
 
 void UKSSettingsDataFactory::SaveScreenResolution()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SaveScreenResolution"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveScreenResolution");
 
 	struct
 	{
@@ -18421,7 +18421,7 @@ void UKSSettingsDataFactory::SaveScreenResolution()
 
 void UKSSettingsDataFactory::SaveLanguage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SaveLanguage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveLanguage");
 
 	struct
 	{
@@ -18437,7 +18437,7 @@ void UKSSettingsDataFactory::SaveLanguage()
 
 void UKSSettingsDataFactory::SaveKeyBindings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SaveKeyBindings"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveKeyBindings");
 
 	struct
 	{
@@ -18456,7 +18456,7 @@ void UKSSettingsDataFactory::SaveKeyBindings()
 
 bool UKSSettingsDataFactory::SaveCrosshairColor(int CrosshairColorIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.SaveCrosshairColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveCrosshairColor");
 
 	struct
 	{
@@ -18477,7 +18477,7 @@ bool UKSSettingsDataFactory::SaveCrosshairColor(int CrosshairColorIndex)
 
 void UKSSettingsDataFactory::RevertScreenResolution()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.RevertScreenResolution"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.RevertScreenResolution");
 
 	struct
 	{
@@ -18493,7 +18493,7 @@ void UKSSettingsDataFactory::RevertScreenResolution()
 
 void UKSSettingsDataFactory::RevertPlayerPreferences()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.RevertPlayerPreferences"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.RevertPlayerPreferences");
 
 	struct
 	{
@@ -18509,7 +18509,7 @@ void UKSSettingsDataFactory::RevertPlayerPreferences()
 
 void UKSSettingsDataFactory::RevertLanguageToDefault()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.RevertLanguageToDefault"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.RevertLanguageToDefault");
 
 	struct
 	{
@@ -18525,7 +18525,7 @@ void UKSSettingsDataFactory::RevertLanguageToDefault()
 
 void UKSSettingsDataFactory::RevertKeyBindings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.RevertKeyBindings"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.RevertKeyBindings");
 
 	struct
 	{
@@ -18543,7 +18543,7 @@ void UKSSettingsDataFactory::RevertKeyBindings()
 
 bool UKSSettingsDataFactory::IsUserLoggedIn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.IsUserLoggedIn"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.IsUserLoggedIn");
 
 	struct
 	{
@@ -18566,7 +18566,7 @@ bool UKSSettingsDataFactory::IsUserLoggedIn()
 
 bool UKSSettingsDataFactory::GetSettingAsInt_Legacy(const struct FString& Name, int* OutInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsInt_Legacy"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsInt_Legacy");
 
 	struct
 	{
@@ -18595,7 +18595,7 @@ bool UKSSettingsDataFactory::GetSettingAsInt_Legacy(const struct FString& Name, 
 
 bool UKSSettingsDataFactory::GetSettingAsFloat_Legacy(const struct FString& Name, float* OutFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsFloat_Legacy"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsFloat_Legacy");
 
 	struct
 	{
@@ -18624,7 +18624,7 @@ bool UKSSettingsDataFactory::GetSettingAsFloat_Legacy(const struct FString& Name
 
 bool UKSSettingsDataFactory::GetSettingAsBool_Legacy(const struct FString& Name, bool* OutBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsBool_Legacy"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsBool_Legacy");
 
 	struct
 	{
@@ -18651,7 +18651,7 @@ bool UKSSettingsDataFactory::GetSettingAsBool_Legacy(const struct FString& Name,
 
 int UKSSettingsDataFactory::GetSelectedRegion()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetSelectedRegion"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetSelectedRegion");
 
 	struct
 	{
@@ -18672,7 +18672,7 @@ int UKSSettingsDataFactory::GetSelectedRegion()
 
 struct FIntPoint UKSSettingsDataFactory::GetScreenResolution()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetScreenResolution"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetScreenResolution");
 
 	struct
 	{
@@ -18693,7 +18693,7 @@ struct FIntPoint UKSSettingsDataFactory::GetScreenResolution()
 
 class UKSPlayerInput* UKSSettingsDataFactory::GetKSPlayerInput()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetKSPlayerInput"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetKSPlayerInput");
 
 	struct
 	{
@@ -18716,7 +18716,7 @@ class UKSPlayerInput* UKSSettingsDataFactory::GetKSPlayerInput()
 
 void UKSSettingsDataFactory::GetDefaultKSInputActionKeys(const struct FName& Name, EKSInputType InputType, TArray<struct FKSInputActionKey>* OutKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetDefaultKSInputActionKeys"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetDefaultKSInputActionKeys");
 
 	struct
 	{
@@ -18745,7 +18745,7 @@ void UKSSettingsDataFactory::GetDefaultKSInputActionKeys(const struct FName& Nam
 
 void UKSSettingsDataFactory::GetDefaultInputAxisKeys(const struct FName& Name, EKSInputType InputType, float Scale, TArray<struct FKey>* OutKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetDefaultInputAxisKeys"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetDefaultInputAxisKeys");
 
 	struct
 	{
@@ -18775,7 +18775,7 @@ void UKSSettingsDataFactory::GetDefaultInputAxisKeys(const struct FName& Name, E
 
 void UKSSettingsDataFactory::GetDefaultInputActionKeys(const struct FName& Name, EKSInputType InputType, TArray<struct FKey>* OutKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetDefaultInputActionKeys"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetDefaultInputActionKeys");
 
 	struct
 	{
@@ -18803,7 +18803,7 @@ void UKSSettingsDataFactory::GetDefaultInputActionKeys(const struct FName& Name,
 
 void UKSSettingsDataFactory::GetCustomKSInputActionKeys(const struct FName& Name, EKSInputType InputType, TArray<struct FKSInputActionKey>* OutKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetCustomKSInputActionKeys"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetCustomKSInputActionKeys");
 
 	struct
 	{
@@ -18832,7 +18832,7 @@ void UKSSettingsDataFactory::GetCustomKSInputActionKeys(const struct FName& Name
 
 void UKSSettingsDataFactory::GetCustomInputAxisKeys(const struct FName& Name, EKSInputType InputType, float Scale, TArray<struct FKey>* OutKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetCustomInputAxisKeys"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetCustomInputAxisKeys");
 
 	struct
 	{
@@ -18862,7 +18862,7 @@ void UKSSettingsDataFactory::GetCustomInputAxisKeys(const struct FName& Name, EK
 
 void UKSSettingsDataFactory::GetCustomInputActionKeys(const struct FName& Name, EKSInputType InputType, TArray<struct FKey>* OutKeys)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetCustomInputActionKeys"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetCustomInputActionKeys");
 
 	struct
 	{
@@ -18888,7 +18888,7 @@ void UKSSettingsDataFactory::GetCustomInputActionKeys(const struct FName& Name, 
 
 struct FString UKSSettingsDataFactory::GetCurrentLanguage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetCurrentLanguage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetCurrentLanguage");
 
 	struct
 	{
@@ -18910,7 +18910,7 @@ struct FString UKSSettingsDataFactory::GetCurrentLanguage()
 
 struct FLinearColor UKSSettingsDataFactory::GetCrosshairColorValue(int CrosshairColorIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetCrosshairColorValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetCrosshairColorValue");
 
 	struct
 	{
@@ -18933,7 +18933,7 @@ struct FLinearColor UKSSettingsDataFactory::GetCrosshairColorValue(int Crosshair
 
 int UKSSettingsDataFactory::GetCrosshairColor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetCrosshairColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetCrosshairColor");
 
 	struct
 	{
@@ -18954,7 +18954,7 @@ int UKSSettingsDataFactory::GetCrosshairColor()
 
 TArray<struct FString> UKSSettingsDataFactory::GetAvailableLanguages()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.GetAvailableLanguages"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetAvailableLanguages");
 
 	struct
 	{
@@ -18976,7 +18976,7 @@ TArray<struct FString> UKSSettingsDataFactory::GetAvailableLanguages()
 
 void UKSSettingsDataFactory::BindSettingCallbacks_Legacy(const struct FString& Name, const struct FSettingDelegateStruct& SettingDelegateStruct)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.BindSettingCallbacks_Legacy"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.BindSettingCallbacks_Legacy");
 
 	struct
 	{
@@ -18999,7 +18999,7 @@ void UKSSettingsDataFactory::BindSettingCallbacks_Legacy(const struct FString& N
 
 void UKSSettingsDataFactory::ApplySettingAsInt(const struct FString& Name, int Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsInt");
 
 	struct
 	{
@@ -19022,7 +19022,7 @@ void UKSSettingsDataFactory::ApplySettingAsInt(const struct FString& Name, int V
 
 void UKSSettingsDataFactory::ApplySettingAsFloat(const struct FString& Name, float Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsFloat");
 
 	struct
 	{
@@ -19045,7 +19045,7 @@ void UKSSettingsDataFactory::ApplySettingAsFloat(const struct FString& Name, flo
 
 void UKSSettingsDataFactory::ApplySettingAsBool(const struct FString& Name, bool Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsBool");
 
 	struct
 	{
@@ -19067,7 +19067,7 @@ void UKSSettingsDataFactory::ApplySettingAsBool(const struct FString& Name, bool
 
 void UKSSettingsDataFactory::ApplyScreenResolution(const struct FIntPoint& ScreenResolution)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.ApplyScreenResolution"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.ApplyScreenResolution");
 
 	struct
 	{
@@ -19087,7 +19087,7 @@ void UKSSettingsDataFactory::ApplyScreenResolution(const struct FIntPoint& Scree
 
 void UKSSettingsDataFactory::ApplyLanguage(const struct FString& LanguageCulture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.ApplyLanguage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.ApplyLanguage");
 
 	struct
 	{
@@ -19107,7 +19107,7 @@ void UKSSettingsDataFactory::ApplyLanguage(const struct FString& LanguageCulture
 
 void UKSSettingsDataFactory::AddColorOptionValues(const struct FLinearColor& ColorValue)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsDataFactory.AddColorOptionValues"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.AddColorOptionValues");
 
 	struct
 	{
@@ -19127,7 +19127,7 @@ void UKSSettingsDataFactory::AddColorOptionValues(const struct FLinearColor& Col
 
 void UKSSettingsGroup::OnShowContainer(class UKSSettingsContainer* SettingsContainer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsGroup.OnShowContainer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsGroup.OnShowContainer");
 
 	struct
 	{
@@ -19147,7 +19147,7 @@ void UKSSettingsGroup::OnShowContainer(class UKSSettingsContainer* SettingsConta
 
 void UKSSettingsGroup::OnHideContainer(class UKSSettingsContainer* SettingsContainer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsGroup.OnHideContainer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsGroup.OnHideContainer");
 
 	struct
 	{
@@ -19165,7 +19165,7 @@ void UKSSettingsGroup::OnHideContainer(class UKSSettingsContainer* SettingsConta
 
 void UKSSettingsGroup::OnGroupConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsGroup.OnGroupConfigSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsGroup.OnGroupConfigSet");
 
 	struct
 	{
@@ -19183,7 +19183,7 @@ void UKSSettingsGroup::OnGroupConfigSet()
 
 TArray<class UKSSettingsContainer*> UKSSettingsGroup::GetSettingsContainers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsGroup.GetSettingsContainers"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsGroup.GetSettingsContainers");
 
 	struct
 	{
@@ -19204,7 +19204,7 @@ TArray<class UKSSettingsContainer*> UKSSettingsGroup::GetSettingsContainers()
 
 void UKSSettingsGroup::AddSubSettingsContainerWidget(class UKSSettingsContainer* SettingsContainer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsGroup.AddSubSettingsContainerWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsGroup.AddSubSettingsContainerWidget");
 
 	struct
 	{
@@ -19224,7 +19224,7 @@ void UKSSettingsGroup::AddSubSettingsContainerWidget(class UKSSettingsContainer*
 
 void UKSSettingsGroup::AddMainSettingsContainerWidget(class UKSSettingsContainer* SettingsContainer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsGroup.AddMainSettingsContainerWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsGroup.AddMainSettingsContainerWidget");
 
 	struct
 	{
@@ -19244,7 +19244,7 @@ void UKSSettingsGroup::AddMainSettingsContainerWidget(class UKSSettingsContainer
 
 void UKSSettingsInfoBase::UpdateTextOptions(TArray<struct FText> NewOptions)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.UpdateTextOptions"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.UpdateTextOptions");
 
 	struct
 	{
@@ -19265,7 +19265,7 @@ void UKSSettingsInfoBase::UpdateTextOptions(TArray<struct FText> NewOptions)
 
 bool UKSSettingsInfoBase::SetPreviewValueInt(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SetPreviewValueInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SetPreviewValueInt");
 
 	struct
 	{
@@ -19289,7 +19289,7 @@ bool UKSSettingsInfoBase::SetPreviewValueInt(int inInt)
 
 bool UKSSettingsInfoBase::SetPreviewValueFloat(float InFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SetPreviewValueFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SetPreviewValueFloat");
 
 	struct
 	{
@@ -19313,7 +19313,7 @@ bool UKSSettingsInfoBase::SetPreviewValueFloat(float InFloat)
 
 bool UKSSettingsInfoBase::SetPreviewValueBool(bool InBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SetPreviewValueBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SetPreviewValueBool");
 
 	struct
 	{
@@ -19337,7 +19337,7 @@ bool UKSSettingsInfoBase::SetPreviewValueBool(bool InBool)
 
 bool UKSSettingsInfoBase::SetDesiredValueKeyBind(const struct FKSKeyBind& InKeyBind)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SetDesiredValueKeyBind"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SetDesiredValueKeyBind");
 
 	struct
 	{
@@ -19361,7 +19361,7 @@ bool UKSSettingsInfoBase::SetDesiredValueKeyBind(const struct FKSKeyBind& InKeyB
 
 bool UKSSettingsInfoBase::SetDesiredValueInt(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SetDesiredValueInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SetDesiredValueInt");
 
 	struct
 	{
@@ -19385,7 +19385,7 @@ bool UKSSettingsInfoBase::SetDesiredValueInt(int inInt)
 
 bool UKSSettingsInfoBase::SetDesiredValueFloat(float InFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SetDesiredValueFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SetDesiredValueFloat");
 
 	struct
 	{
@@ -19409,7 +19409,7 @@ bool UKSSettingsInfoBase::SetDesiredValueFloat(float InFloat)
 
 bool UKSSettingsInfoBase::SetDesiredValueBool(bool InBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SetDesiredValueBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SetDesiredValueBool");
 
 	struct
 	{
@@ -19433,7 +19433,7 @@ bool UKSSettingsInfoBase::SetDesiredValueBool(bool InBool)
 
 bool UKSSettingsInfoBase::SaveKeyBindValue(const struct FKSKeyBind& InKeyBind)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SaveKeyBindValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SaveKeyBindValue");
 
 	struct
 	{
@@ -19457,7 +19457,7 @@ bool UKSSettingsInfoBase::SaveKeyBindValue(const struct FKSKeyBind& InKeyBind)
 
 bool UKSSettingsInfoBase::SaveIntValue(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SaveIntValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SaveIntValue");
 
 	struct
 	{
@@ -19481,7 +19481,7 @@ bool UKSSettingsInfoBase::SaveIntValue(int inInt)
 
 bool UKSSettingsInfoBase::SaveFloatValue(float InFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SaveFloatValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SaveFloatValue");
 
 	struct
 	{
@@ -19505,7 +19505,7 @@ bool UKSSettingsInfoBase::SaveFloatValue(float InFloat)
 
 bool UKSSettingsInfoBase::SaveBoolValue(bool InBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.SaveBoolValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.SaveBoolValue");
 
 	struct
 	{
@@ -19526,7 +19526,7 @@ bool UKSSettingsInfoBase::SaveBoolValue(bool InBool)
 
 void UKSSettingsInfoBase::Save()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.Save"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.Save");
 
 	struct
 	{
@@ -19545,7 +19545,7 @@ void UKSSettingsInfoBase::Save()
 
 float UKSSettingsInfoBase::RoundToNearestValueFloat(float ValueToRound)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.RoundToNearestValueFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.RoundToNearestValueFloat");
 
 	struct
 	{
@@ -19566,7 +19566,7 @@ float UKSSettingsInfoBase::RoundToNearestValueFloat(float ValueToRound)
 
 void UKSSettingsInfoBase::RevertSettingToDefault()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.RevertSettingToDefault"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.RevertSettingToDefault");
 
 	struct
 	{
@@ -19582,7 +19582,7 @@ void UKSSettingsInfoBase::RevertSettingToDefault()
 
 void UKSSettingsInfoBase::Revert()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.Revert"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.Revert");
 
 	struct
 	{
@@ -19598,7 +19598,7 @@ void UKSSettingsInfoBase::Revert()
 
 void UKSSettingsInfoBase::ResetPreview()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.ResetPreview"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.ResetPreview");
 
 	struct
 	{
@@ -19616,7 +19616,7 @@ void UKSSettingsInfoBase::ResetPreview()
 
 void UKSSettingsInfoBase::OnValueKeyBindSaved(const struct FKSKeyBind& SavedKeyBind)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.OnValueKeyBindSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.OnValueKeyBindSaved");
 
 	struct
 	{
@@ -19636,7 +19636,7 @@ void UKSSettingsInfoBase::OnValueKeyBindSaved(const struct FKSKeyBind& SavedKeyB
 
 void UKSSettingsInfoBase::OnValueKeyBindApplied(const struct FKSKeyBind& AppliedKeyBind)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.OnValueKeyBindApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.OnValueKeyBindApplied");
 
 	struct
 	{
@@ -19656,7 +19656,7 @@ void UKSSettingsInfoBase::OnValueKeyBindApplied(const struct FKSKeyBind& Applied
 
 void UKSSettingsInfoBase::OnValueIntSaved(int SavedInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.OnValueIntSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.OnValueIntSaved");
 
 	struct
 	{
@@ -19676,7 +19676,7 @@ void UKSSettingsInfoBase::OnValueIntSaved(int SavedInt)
 
 void UKSSettingsInfoBase::OnValueIntApplied(int AppliedInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.OnValueIntApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.OnValueIntApplied");
 
 	struct
 	{
@@ -19696,7 +19696,7 @@ void UKSSettingsInfoBase::OnValueIntApplied(int AppliedInt)
 
 void UKSSettingsInfoBase::OnValueFloatSaved(float SavedFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.OnValueFloatSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.OnValueFloatSaved");
 
 	struct
 	{
@@ -19716,7 +19716,7 @@ void UKSSettingsInfoBase::OnValueFloatSaved(float SavedFloat)
 
 void UKSSettingsInfoBase::OnValueFloatApplied(float AppliedFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.OnValueFloatApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.OnValueFloatApplied");
 
 	struct
 	{
@@ -19736,7 +19736,7 @@ void UKSSettingsInfoBase::OnValueFloatApplied(float AppliedFloat)
 
 void UKSSettingsInfoBase::OnValueBoolSaved(bool SavedBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.OnValueBoolSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.OnValueBoolSaved");
 
 	struct
 	{
@@ -19756,7 +19756,7 @@ void UKSSettingsInfoBase::OnValueBoolSaved(bool SavedBool)
 
 void UKSSettingsInfoBase::OnValueBoolApplied(bool AppliedBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.OnValueBoolApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.OnValueBoolApplied");
 
 	struct
 	{
@@ -19777,7 +19777,7 @@ void UKSSettingsInfoBase::OnValueBoolApplied(bool AppliedBool)
 
 bool UKSSettingsInfoBase::IsValidValueKeyBind(const struct FKSKeyBind& InKey)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.IsValidValueKeyBind"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.IsValidValueKeyBind");
 
 	struct
 	{
@@ -19801,7 +19801,7 @@ bool UKSSettingsInfoBase::IsValidValueKeyBind(const struct FKSKeyBind& InKey)
 
 bool UKSSettingsInfoBase::IsValidValueInt(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.IsValidValueInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.IsValidValueInt");
 
 	struct
 	{
@@ -19825,7 +19825,7 @@ bool UKSSettingsInfoBase::IsValidValueInt(int inInt)
 
 bool UKSSettingsInfoBase::IsValidValueFloat(float InFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.IsValidValueFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.IsValidValueFloat");
 
 	struct
 	{
@@ -19849,7 +19849,7 @@ bool UKSSettingsInfoBase::IsValidValueFloat(float InFloat)
 
 bool UKSSettingsInfoBase::IsValidValueBool(bool InBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.IsValidValueBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.IsValidValueBool");
 
 	struct
 	{
@@ -19872,7 +19872,7 @@ bool UKSSettingsInfoBase::IsValidValueBool(bool InBool)
 
 bool UKSSettingsInfoBase::IsDirty()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.IsDirty"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.IsDirty");
 
 	struct
 	{
@@ -19891,7 +19891,7 @@ bool UKSSettingsInfoBase::IsDirty()
 
 void UKSSettingsInfoBase::InitializeValue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.InitializeValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.InitializeValue");
 
 	struct
 	{
@@ -19909,7 +19909,7 @@ void UKSSettingsInfoBase::InitializeValue()
 
 struct FKSKeyBind UKSSettingsInfoBase::GetValueKeyBind()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetValueKeyBind"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetValueKeyBind");
 
 	struct
 	{
@@ -19930,7 +19930,7 @@ struct FKSKeyBind UKSSettingsInfoBase::GetValueKeyBind()
 
 int UKSSettingsInfoBase::GetValueInt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetValueInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetValueInt");
 
 	struct
 	{
@@ -19951,7 +19951,7 @@ int UKSSettingsInfoBase::GetValueInt()
 
 float UKSSettingsInfoBase::GetValueFloat()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetValueFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetValueFloat");
 
 	struct
 	{
@@ -19972,7 +19972,7 @@ float UKSSettingsInfoBase::GetValueFloat()
 
 bool UKSSettingsInfoBase::GetValueBool()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetValueBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetValueBool");
 
 	struct
 	{
@@ -19993,7 +19993,7 @@ bool UKSSettingsInfoBase::GetValueBool()
 
 TArray<struct FText> UKSSettingsInfoBase::GetTextOptions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetTextOptions"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetTextOptions");
 
 	struct
 	{
@@ -20015,7 +20015,7 @@ TArray<struct FText> UKSSettingsInfoBase::GetTextOptions()
 
 struct FText UKSSettingsInfoBase::GetTextOption(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetTextOption"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetTextOption");
 
 	struct
 	{
@@ -20038,7 +20038,7 @@ struct FText UKSSettingsInfoBase::GetTextOption(int Index)
 
 float UKSSettingsInfoBase::GetStep()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetStep"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetStep");
 
 	struct
 	{
@@ -20059,7 +20059,7 @@ float UKSSettingsInfoBase::GetStep()
 
 EKSSettingType UKSSettingsInfoBase::GetSettingType()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetSettingType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetSettingType");
 
 	struct
 	{
@@ -20080,7 +20080,7 @@ EKSSettingType UKSSettingsInfoBase::GetSettingType()
 
 float UKSSettingsInfoBase::GetRoundToNearest()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetRoundToNearest"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetRoundToNearest");
 
 	struct
 	{
@@ -20101,7 +20101,7 @@ float UKSSettingsInfoBase::GetRoundToNearest()
 
 bool UKSSettingsInfoBase::GetRound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetRound"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetRound");
 
 	struct
 	{
@@ -20122,7 +20122,7 @@ bool UKSSettingsInfoBase::GetRound()
 
 int UKSSettingsInfoBase::GetPreviewValueInt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetPreviewValueInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetPreviewValueInt");
 
 	struct
 	{
@@ -20143,7 +20143,7 @@ int UKSSettingsInfoBase::GetPreviewValueInt()
 
 float UKSSettingsInfoBase::GetPreviewValueFloat()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetPreviewValueFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetPreviewValueFloat");
 
 	struct
 	{
@@ -20164,7 +20164,7 @@ float UKSSettingsInfoBase::GetPreviewValueFloat()
 
 bool UKSSettingsInfoBase::GetPreviewValueBool()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetPreviewValueBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetPreviewValueBool");
 
 	struct
 	{
@@ -20185,7 +20185,7 @@ bool UKSSettingsInfoBase::GetPreviewValueBool()
 
 int UKSSettingsInfoBase::GetNumTextOptions()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetNumTextOptions"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetNumTextOptions");
 
 	struct
 	{
@@ -20206,7 +20206,7 @@ int UKSSettingsInfoBase::GetNumTextOptions()
 
 float UKSSettingsInfoBase::GetMin()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetMin"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetMin");
 
 	struct
 	{
@@ -20227,7 +20227,7 @@ float UKSSettingsInfoBase::GetMin()
 
 float UKSSettingsInfoBase::GetMax()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetMax"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetMax");
 
 	struct
 	{
@@ -20248,7 +20248,7 @@ float UKSSettingsInfoBase::GetMax()
 
 class AKSHUDCommon* UKSSettingsInfoBase::GetKSHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetKSHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetKSHUD");
 
 	struct
 	{
@@ -20269,7 +20269,7 @@ class AKSHUDCommon* UKSSettingsInfoBase::GetKSHUD()
 
 bool UKSSettingsInfoBase::GetIsPercent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetIsPercent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetIsPercent");
 
 	struct
 	{
@@ -20290,7 +20290,7 @@ bool UKSSettingsInfoBase::GetIsPercent()
 
 struct FKSKeyBind UKSSettingsInfoBase::GetDirtyValueKeyBind()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetDirtyValueKeyBind"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetDirtyValueKeyBind");
 
 	struct
 	{
@@ -20311,7 +20311,7 @@ struct FKSKeyBind UKSSettingsInfoBase::GetDirtyValueKeyBind()
 
 int UKSSettingsInfoBase::GetDirtyValueInt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetDirtyValueInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetDirtyValueInt");
 
 	struct
 	{
@@ -20332,7 +20332,7 @@ int UKSSettingsInfoBase::GetDirtyValueInt()
 
 float UKSSettingsInfoBase::GetDirtyValueFloat()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetDirtyValueFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetDirtyValueFloat");
 
 	struct
 	{
@@ -20353,7 +20353,7 @@ float UKSSettingsInfoBase::GetDirtyValueFloat()
 
 bool UKSSettingsInfoBase::GetDirtyValueBool()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.GetDirtyValueBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.GetDirtyValueBool");
 
 	struct
 	{
@@ -20375,7 +20375,7 @@ bool UKSSettingsInfoBase::GetDirtyValueBool()
 
 struct FKSKeyBind UKSSettingsInfoBase::FixupInvalidKeyBind(const struct FKSKeyBind& InKey)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.FixupInvalidKeyBind"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.FixupInvalidKeyBind");
 
 	struct
 	{
@@ -20399,7 +20399,7 @@ struct FKSKeyBind UKSSettingsInfoBase::FixupInvalidKeyBind(const struct FKSKeyBi
 
 int UKSSettingsInfoBase::FixupInvalidInt(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.FixupInvalidInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.FixupInvalidInt");
 
 	struct
 	{
@@ -20423,7 +20423,7 @@ int UKSSettingsInfoBase::FixupInvalidInt(int inInt)
 
 float UKSSettingsInfoBase::FixupInvalidFloat(float InFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.FixupInvalidFloat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.FixupInvalidFloat");
 
 	struct
 	{
@@ -20447,7 +20447,7 @@ float UKSSettingsInfoBase::FixupInvalidFloat(float InFloat)
 
 bool UKSSettingsInfoBase::FixupInvalidBool(bool InBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.FixupInvalidBool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.FixupInvalidBool");
 
 	struct
 	{
@@ -20470,7 +20470,7 @@ bool UKSSettingsInfoBase::FixupInvalidBool(bool InBool)
 
 bool UKSSettingsInfoBase::CanRevert()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.CanRevert"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.CanRevert");
 
 	struct
 	{
@@ -20492,7 +20492,7 @@ bool UKSSettingsInfoBase::CanRevert()
 
 bool UKSSettingsInfoBase::ApplyPreviewIntValue(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.ApplyPreviewIntValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.ApplyPreviewIntValue");
 
 	struct
 	{
@@ -20516,7 +20516,7 @@ bool UKSSettingsInfoBase::ApplyPreviewIntValue(int inInt)
 
 bool UKSSettingsInfoBase::ApplyPreviewFloatValue(float InFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.ApplyPreviewFloatValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.ApplyPreviewFloatValue");
 
 	struct
 	{
@@ -20540,7 +20540,7 @@ bool UKSSettingsInfoBase::ApplyPreviewFloatValue(float InFloat)
 
 bool UKSSettingsInfoBase::ApplyPreviewBoolValue(bool InBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.ApplyPreviewBoolValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.ApplyPreviewBoolValue");
 
 	struct
 	{
@@ -20561,7 +20561,7 @@ bool UKSSettingsInfoBase::ApplyPreviewBoolValue(bool InBool)
 
 void UKSSettingsInfoBase::ApplyPreview()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.ApplyPreview"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.ApplyPreview");
 
 	struct
 	{
@@ -20580,7 +20580,7 @@ void UKSSettingsInfoBase::ApplyPreview()
 
 bool UKSSettingsInfoBase::ApplyKeyBindValue(const struct FKSKeyBind& InKeyBind)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.ApplyKeyBindValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.ApplyKeyBindValue");
 
 	struct
 	{
@@ -20604,7 +20604,7 @@ bool UKSSettingsInfoBase::ApplyKeyBindValue(const struct FKSKeyBind& InKeyBind)
 
 bool UKSSettingsInfoBase::ApplyIntValue(int inInt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.ApplyIntValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.ApplyIntValue");
 
 	struct
 	{
@@ -20628,7 +20628,7 @@ bool UKSSettingsInfoBase::ApplyIntValue(int inInt)
 
 bool UKSSettingsInfoBase::ApplyFloatValue(float InFloat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.ApplyFloatValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.ApplyFloatValue");
 
 	struct
 	{
@@ -20652,7 +20652,7 @@ bool UKSSettingsInfoBase::ApplyFloatValue(float InFloat)
 
 bool UKSSettingsInfoBase::ApplyBoolValue(bool InBool)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.ApplyBoolValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.ApplyBoolValue");
 
 	struct
 	{
@@ -20673,7 +20673,7 @@ bool UKSSettingsInfoBase::ApplyBoolValue(bool InBool)
 
 void UKSSettingsInfoBase::Apply()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfoBase.Apply"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfoBase.Apply");
 
 	struct
 	{
@@ -20689,7 +20689,7 @@ void UKSSettingsInfoBase::Apply()
 
 void UKSSettingsInfo_Binding::OnSettingsReceivedFromPlayerAccount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Binding.OnSettingsReceivedFromPlayerAccount"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Binding.OnSettingsReceivedFromPlayerAccount");
 
 	struct
 	{
@@ -20707,7 +20707,7 @@ void UKSSettingsInfo_Binding::OnSettingsReceivedFromPlayerAccount()
 
 void UKSSettingsInfo_Binding::OnKeyBindingsSaved(const struct FName& Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Binding.OnKeyBindingsSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Binding.OnKeyBindingsSaved");
 
 	struct
 	{
@@ -20727,7 +20727,7 @@ void UKSSettingsInfo_Binding::OnKeyBindingsSaved(const struct FName& Name)
 
 void UKSSettingsInfo_Binding::OnKeyBindingsApplied(const struct FName& Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Binding.OnKeyBindingsApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Binding.OnKeyBindingsApplied");
 
 	struct
 	{
@@ -20745,7 +20745,7 @@ void UKSSettingsInfo_Binding::OnKeyBindingsApplied(const struct FName& Name)
 
 void UKSSettingsInfo_Brightness::OnSettingSaved()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Brightness.OnSettingSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Brightness.OnSettingSaved");
 
 	struct
 	{
@@ -20761,7 +20761,7 @@ void UKSSettingsInfo_Brightness::OnSettingSaved()
 
 void UKSSettingsInfo_Brightness::OnSettingApplied()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Brightness.OnSettingApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Brightness.OnSettingApplied");
 
 	struct
 	{
@@ -20779,7 +20779,7 @@ void UKSSettingsInfo_Brightness::OnSettingApplied()
 
 class UKSSettingsDataFactory* UKSSettingsInfo_Brightness::GetKSSettingsDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Brightness.GetKSSettingsDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Brightness.GetKSSettingsDataFactory");
 
 	struct
 	{
@@ -20798,7 +20798,7 @@ class UKSSettingsDataFactory* UKSSettingsInfo_Brightness::GetKSSettingsDataFacto
 
 void UKSSettingsInfo_ConsolePerformanceMode::OnSettingSaved()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_ConsolePerformanceMode.OnSettingSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_ConsolePerformanceMode.OnSettingSaved");
 
 	struct
 	{
@@ -20814,7 +20814,7 @@ void UKSSettingsInfo_ConsolePerformanceMode::OnSettingSaved()
 
 void UKSSettingsInfo_ConsolePerformanceMode::OnSettingApplied()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_ConsolePerformanceMode.OnSettingApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_ConsolePerformanceMode.OnSettingApplied");
 
 	struct
 	{
@@ -20832,7 +20832,7 @@ void UKSSettingsInfo_ConsolePerformanceMode::OnSettingApplied()
 
 class UKSSettingsDataFactory* UKSSettingsInfo_ConsolePerformanceMode::GetKSSettingsDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_ConsolePerformanceMode.GetKSSettingsDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_ConsolePerformanceMode.GetKSSettingsDataFactory");
 
 	struct
 	{
@@ -20853,7 +20853,7 @@ class UKSSettingsDataFactory* UKSSettingsInfo_ConsolePerformanceMode::GetKSSetti
 
 void UKSSettingsInfo_CrosshairColor::OnCrosshairColorSaved(int SavedIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_CrosshairColor.OnCrosshairColorSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_CrosshairColor.OnCrosshairColorSaved");
 
 	struct
 	{
@@ -20871,7 +20871,7 @@ void UKSSettingsInfo_CrosshairColor::OnCrosshairColorSaved(int SavedIndex)
 
 void UKSSettingsInfo_Generic::OnSettingSaved()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Generic.OnSettingSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Generic.OnSettingSaved");
 
 	struct
 	{
@@ -20887,7 +20887,7 @@ void UKSSettingsInfo_Generic::OnSettingSaved()
 
 void UKSSettingsInfo_Generic::OnSettingApplied()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Generic.OnSettingApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Generic.OnSettingApplied");
 
 	struct
 	{
@@ -20905,7 +20905,7 @@ void UKSSettingsInfo_Generic::OnSettingApplied()
 
 class UKSSettingsDataFactory* UKSSettingsInfo_Generic::GetKSSettingsDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Generic.GetKSSettingsDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Generic.GetKSSettingsDataFactory");
 
 	struct
 	{
@@ -20924,7 +20924,7 @@ class UKSSettingsDataFactory* UKSSettingsInfo_Generic::GetKSSettingsDataFactory(
 
 void UKSSettingsInfo_Region::OnPreferredSiteUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Region.OnPreferredSiteUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Region.OnPreferredSiteUpdated");
 
 	struct
 	{
@@ -20942,7 +20942,7 @@ void UKSSettingsInfo_Region::OnPreferredSiteUpdated()
 
 void UKSSettingsInfo_Resolution::OnScreenResolutionSaved(const struct FIntPoint& SavedScreenResolution)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Resolution.OnScreenResolutionSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Resolution.OnScreenResolutionSaved");
 
 	struct
 	{
@@ -20962,7 +20962,7 @@ void UKSSettingsInfo_Resolution::OnScreenResolutionSaved(const struct FIntPoint&
 
 void UKSSettingsInfo_Resolution::OnScreenResolutionApplied(const struct FIntPoint& AppliedScreenResolution)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsInfo_Resolution.OnScreenResolutionApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsInfo_Resolution.OnScreenResolutionApplied");
 
 	struct
 	{
@@ -20980,7 +20980,7 @@ void UKSSettingsInfo_Resolution::OnScreenResolutionApplied(const struct FIntPoin
 
 void UKSSettingsMenu::RebuildNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.RebuildNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.RebuildNavigation");
 
 	struct
 	{
@@ -20998,7 +20998,7 @@ void UKSSettingsMenu::RebuildNavigation()
 
 void UKSSettingsMenu::OnShowPage(class UKSSettingsPage* SettingsPage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.OnShowPage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.OnShowPage");
 
 	struct
 	{
@@ -21016,7 +21016,7 @@ void UKSSettingsMenu::OnShowPage(class UKSSettingsPage* SettingsPage)
 
 void UKSSettingsMenu::OnSaveSettings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.OnSaveSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.OnSaveSettings");
 
 	struct
 	{
@@ -21032,7 +21032,7 @@ void UKSSettingsMenu::OnSaveSettings()
 
 void UKSSettingsMenu::OnRevertSettings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.OnRevertSettings"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.OnRevertSettings");
 
 	struct
 	{
@@ -21048,7 +21048,7 @@ void UKSSettingsMenu::OnRevertSettings()
 
 void UKSSettingsMenu::OnMenuConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.OnMenuConfigSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.OnMenuConfigSet");
 
 	struct
 	{
@@ -21066,7 +21066,7 @@ void UKSSettingsMenu::OnMenuConfigSet()
 
 void UKSSettingsMenu::OnHidePage(class UKSSettingsPage* SettingsPage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.OnHidePage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.OnHidePage");
 
 	struct
 	{
@@ -21086,7 +21086,7 @@ void UKSSettingsMenu::OnHidePage(class UKSSettingsPage* SettingsPage)
 
 void UKSSettingsMenu::OnConfirmExit(bool ShouldSaveSettings)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.OnConfirmExit"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.OnConfirmExit");
 
 	struct
 	{
@@ -21106,7 +21106,7 @@ void UKSSettingsMenu::OnConfirmExit(bool ShouldSaveSettings)
 
 TArray<class UKSSettingsPage*> UKSSettingsMenu::GetSettingsPages()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.GetSettingsPages"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.GetSettingsPages");
 
 	struct
 	{
@@ -21125,7 +21125,7 @@ TArray<class UKSSettingsPage*> UKSSettingsMenu::GetSettingsPages()
 
 void UKSSettingsMenu::CheckSavePendingChanges()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.CheckSavePendingChanges"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.CheckSavePendingChanges");
 
 	struct
 	{
@@ -21143,7 +21143,7 @@ void UKSSettingsMenu::CheckSavePendingChanges()
 
 void UKSSettingsMenu::AddSettingsPageWidget(class UKSSettingsPage* SettingsPage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsMenu.AddSettingsPageWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsMenu.AddSettingsPageWidget");
 
 	struct
 	{
@@ -21163,7 +21163,7 @@ void UKSSettingsMenu::AddSettingsPageWidget(class UKSSettingsPage* SettingsPage)
 
 void UKSSettingsPage::OnShowSection(class UKSSettingsSection* SettingsSection)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsPage.OnShowSection"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsPage.OnShowSection");
 
 	struct
 	{
@@ -21181,7 +21181,7 @@ void UKSSettingsPage::OnShowSection(class UKSSettingsSection* SettingsSection)
 
 void UKSSettingsPage::OnPageConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsPage.OnPageConfigSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsPage.OnPageConfigSet");
 
 	struct
 	{
@@ -21199,7 +21199,7 @@ void UKSSettingsPage::OnPageConfigSet()
 
 void UKSSettingsPage::OnHideSection(class UKSSettingsSection* SettingsSection)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsPage.OnHideSection"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsPage.OnHideSection");
 
 	struct
 	{
@@ -21219,7 +21219,7 @@ void UKSSettingsPage::OnHideSection(class UKSSettingsSection* SettingsSection)
 
 TArray<class UKSSettingsSection*> UKSSettingsPage::GetSettingsSections()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsPage.GetSettingsSections"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsPage.GetSettingsSections");
 
 	struct
 	{
@@ -21240,7 +21240,7 @@ TArray<class UKSSettingsSection*> UKSSettingsPage::GetSettingsSections()
 
 class UScrollBox* UKSSettingsPage::GetScrollBox()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsPage.GetScrollBox"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsPage.GetScrollBox");
 
 	struct
 	{
@@ -21261,7 +21261,7 @@ class UScrollBox* UKSSettingsPage::GetScrollBox()
 
 void UKSSettingsPage::AddSettingsSectionWidget(class UKSSettingsSection* SettingsSection)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsPage.AddSettingsSectionWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsPage.AddSettingsSectionWidget");
 
 	struct
 	{
@@ -21281,7 +21281,7 @@ void UKSSettingsPage::AddSettingsSectionWidget(class UKSSettingsSection* Setting
 
 void UKSSettingsPreview::HandleOnValueChanged(bool ChangedExternally)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsPreview.HandleOnValueChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsPreview.HandleOnValueChanged");
 
 	struct
 	{
@@ -21299,7 +21299,7 @@ void UKSSettingsPreview::HandleOnValueChanged(bool ChangedExternally)
 
 void UKSSettingsPreview::HandleOnPreviewValueChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsPreview.HandleOnPreviewValueChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsPreview.HandleOnPreviewValueChanged");
 
 	struct
 	{
@@ -21317,7 +21317,7 @@ void UKSSettingsPreview::HandleOnPreviewValueChanged()
 
 void UKSSettingsSection::OnShowGroup(class UKSSettingsGroup* SettingsGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsSection.OnShowGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsSection.OnShowGroup");
 
 	struct
 	{
@@ -21335,7 +21335,7 @@ void UKSSettingsSection::OnShowGroup(class UKSSettingsGroup* SettingsGroup)
 
 void UKSSettingsSection::OnSectionConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsSection.OnSectionConfigSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsSection.OnSectionConfigSet");
 
 	struct
 	{
@@ -21353,7 +21353,7 @@ void UKSSettingsSection::OnSectionConfigSet()
 
 void UKSSettingsSection::OnHideGroup(class UKSSettingsGroup* SettingsGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsSection.OnHideGroup"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsSection.OnHideGroup");
 
 	struct
 	{
@@ -21373,7 +21373,7 @@ void UKSSettingsSection::OnHideGroup(class UKSSettingsGroup* SettingsGroup)
 
 TArray<class UKSSettingsGroup*> UKSSettingsSection::GetSettingsGroups()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsSection.GetSettingsGroups"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsSection.GetSettingsGroups");
 
 	struct
 	{
@@ -21394,7 +21394,7 @@ TArray<class UKSSettingsGroup*> UKSSettingsSection::GetSettingsGroups()
 
 void UKSSettingsSection::AddSettingsGroupWidget(class UKSSettingsGroup* SettingsGroup)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsSection.AddSettingsGroupWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsSection.AddSettingsGroupWidget");
 
 	struct
 	{
@@ -21412,7 +21412,7 @@ void UKSSettingsSection::AddSettingsGroupWidget(class UKSSettingsGroup* Settings
 
 void UKSSettingsWidget::SaveSetting()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.SaveSetting"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.SaveSetting");
 
 	struct
 	{
@@ -21428,7 +21428,7 @@ void UKSSettingsWidget::SaveSetting()
 
 void UKSSettingsWidget::RevertSetting()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.RevertSetting"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.RevertSetting");
 
 	struct
 	{
@@ -21444,7 +21444,7 @@ void UKSSettingsWidget::RevertSetting()
 
 void UKSSettingsWidget::OnWidgetSettingsInfoSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.OnWidgetSettingsInfoSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.OnWidgetSettingsInfoSet");
 
 	struct
 	{
@@ -21460,7 +21460,7 @@ void UKSSettingsWidget::OnWidgetSettingsInfoSet()
 
 void UKSSettingsWidget::OnWidgetContainerTitleSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.OnWidgetContainerTitleSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.OnWidgetContainerTitleSet");
 
 	struct
 	{
@@ -21476,7 +21476,7 @@ void UKSSettingsWidget::OnWidgetContainerTitleSet()
 
 void UKSSettingsWidget::OnWidgetContainerPreviewSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.OnWidgetContainerPreviewSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.OnWidgetContainerPreviewSet");
 
 	struct
 	{
@@ -21492,7 +21492,7 @@ void UKSSettingsWidget::OnWidgetContainerPreviewSet()
 
 void UKSSettingsWidget::OnWidgetContainerDescriptionSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.OnWidgetContainerDescriptionSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.OnWidgetContainerDescriptionSet");
 
 	struct
 	{
@@ -21508,7 +21508,7 @@ void UKSSettingsWidget::OnWidgetContainerDescriptionSet()
 
 void UKSSettingsWidget::OnWidgetConfigSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.OnWidgetConfigSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.OnWidgetConfigSet");
 
 	struct
 	{
@@ -21526,7 +21526,7 @@ void UKSSettingsWidget::OnWidgetConfigSet()
 
 void UKSSettingsWidget::OnSettingsInfoValueChanged(bool bChangedExternally)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.OnSettingsInfoValueChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.OnSettingsInfoValueChanged");
 
 	struct
 	{
@@ -21547,7 +21547,7 @@ void UKSSettingsWidget::OnSettingsInfoValueChanged(bool bChangedExternally)
 
 void UKSSettingsWidget::OnInputAttached(bool bGamepadAttached, bool bMouseAttached)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.OnInputAttached"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.OnInputAttached");
 
 	struct
 	{
@@ -21569,7 +21569,7 @@ void UKSSettingsWidget::OnInputAttached(bool bGamepadAttached, bool bMouseAttach
 
 bool UKSSettingsWidget::IsSaved()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.IsSaved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.IsSaved");
 
 	struct
 	{
@@ -21590,7 +21590,7 @@ bool UKSSettingsWidget::IsSaved()
 
 bool UKSSettingsWidget::IsApplied()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.IsApplied"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.IsApplied");
 
 	struct
 	{
@@ -21611,7 +21611,7 @@ bool UKSSettingsWidget::IsApplied()
 
 bool UKSSettingsWidget::HasPreview()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.HasPreview"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.HasPreview");
 
 	struct
 	{
@@ -21632,7 +21632,7 @@ bool UKSSettingsWidget::HasPreview()
 
 bool UKSSettingsWidget::CanGamepadNavigate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.CanGamepadNavigate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.CanGamepadNavigate");
 
 	struct
 	{
@@ -21651,7 +21651,7 @@ bool UKSSettingsWidget::CanGamepadNavigate()
 
 void UKSSettingsWidget::ApplySetting()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSettingsWidget.ApplySetting"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsWidget.ApplySetting");
 
 	struct
 	{
@@ -21669,7 +21669,7 @@ void UKSSettingsWidget::ApplySetting()
 
 class UButton* UKSShopItemButtonBase::GetHitTarget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSShopItemButtonBase.GetHitTarget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSShopItemButtonBase.GetHitTarget");
 
 	struct
 	{
@@ -21692,7 +21692,7 @@ class UButton* UKSShopItemButtonBase::GetHitTarget()
 
 void UKSShopItemButtonBase::DisplayShopItem(const struct FShopItem& ShopItem, bool IsAffordable, bool IsToggleSlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSShopItemButtonBase.DisplayShopItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSShopItemButtonBase.DisplayShopItem");
 
 	struct
 	{
@@ -21714,7 +21714,7 @@ void UKSShopItemButtonBase::DisplayShopItem(const struct FShopItem& ShopItem, bo
 
 void UKSShopItemButtonBase::ButtonUnhovered()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSShopItemButtonBase.ButtonUnhovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSShopItemButtonBase.ButtonUnhovered");
 
 	struct
 	{
@@ -21730,7 +21730,7 @@ void UKSShopItemButtonBase::ButtonUnhovered()
 
 void UKSShopItemButtonBase::ButtonReleased()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSShopItemButtonBase.ButtonReleased"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSShopItemButtonBase.ButtonReleased");
 
 	struct
 	{
@@ -21746,7 +21746,7 @@ void UKSShopItemButtonBase::ButtonReleased()
 
 void UKSShopItemButtonBase::ButtonPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSShopItemButtonBase.ButtonPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSShopItemButtonBase.ButtonPressed");
 
 	struct
 	{
@@ -21762,7 +21762,7 @@ void UKSShopItemButtonBase::ButtonPressed()
 
 void UKSShopItemButtonBase::ButtonHovered()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSShopItemButtonBase.ButtonHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSShopItemButtonBase.ButtonHovered");
 
 	struct
 	{
@@ -21778,7 +21778,7 @@ void UKSShopItemButtonBase::ButtonHovered()
 
 void UKSShopItemButtonBase::ButtonClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSShopItemButtonBase.ButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSShopItemButtonBase.ButtonClicked");
 
 	struct
 	{
@@ -21794,7 +21794,7 @@ void UKSShopItemButtonBase::ButtonClicked()
 
 void UKSSocialPanelBase::UpdateListData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialPanelBase.UpdateListData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialPanelBase.UpdateListData");
 
 	struct
 	{
@@ -21812,7 +21812,7 @@ void UKSSocialPanelBase::UpdateListData()
 
 void UKSSocialPanelBase::SetupTreeView(class UTreeView* List)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialPanelBase.SetupTreeView"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialPanelBase.SetupTreeView");
 
 	struct
 	{
@@ -21832,7 +21832,7 @@ void UKSSocialPanelBase::SetupTreeView(class UTreeView* List)
 
 void UKSSocialPanelBase::SetDataSource(class UKSSocialOverlay* Source)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialPanelBase.SetDataSource"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialPanelBase.SetDataSource");
 
 	struct
 	{
@@ -21852,7 +21852,7 @@ void UKSSocialPanelBase::SetDataSource(class UKSSocialOverlay* Source)
 
 void UKSSocialPanelBase::OnDataChange(TArray<EKSSocialOverlaySection> Sections)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialPanelBase.OnDataChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialPanelBase.OnDataChange");
 
 	struct
 	{
@@ -21872,7 +21872,7 @@ void UKSSocialPanelBase::OnDataChange(TArray<EKSSocialOverlaySection> Sections)
 
 class UTreeView* UKSSocialPanelBase::GetTreeView()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialPanelBase.GetTreeView"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialPanelBase.GetTreeView");
 
 	struct
 	{
@@ -21894,7 +21894,7 @@ class UTreeView* UKSSocialPanelBase::GetTreeView()
 
 void UKSSocialPanelBase::GetSubListFromData(class UObject* Source, TArray<class UObject*>* Out_List)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialPanelBase.GetSubListFromData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialPanelBase.GetSubListFromData");
 
 	struct
 	{
@@ -21918,7 +21918,7 @@ void UKSSocialPanelBase::GetSubListFromData(class UObject* Source, TArray<class 
 
 class UKSSocialOverlay* UKSSocialPanelBase::GetDataSource()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialPanelBase.GetDataSource"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialPanelBase.GetDataSource");
 
 	struct
 	{
@@ -21937,7 +21937,7 @@ class UKSSocialOverlay* UKSSocialPanelBase::GetDataSource()
 
 void UKSSocialOverlay::RepopulateAll()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialOverlay.RepopulateAll"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialOverlay.RepopulateAll");
 
 	struct
 	{
@@ -21956,7 +21956,7 @@ void UKSSocialOverlay::RepopulateAll()
 
 void UKSSocialOverlay::PlayTransition(class UWidgetAnimation* Animation, bool TransitionOut)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialOverlay.PlayTransition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialOverlay.PlayTransition");
 
 	struct
 	{
@@ -21978,7 +21978,7 @@ void UKSSocialOverlay::PlayTransition(class UWidgetAnimation* Animation, bool Tr
 
 void UKSSocialOverlay::OnRecentlyPlayedChange(class UKSFriendDataFactory* Source)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialOverlay.OnRecentlyPlayedChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialOverlay.OnRecentlyPlayedChange");
 
 	struct
 	{
@@ -21996,7 +21996,7 @@ void UKSSocialOverlay::OnRecentlyPlayedChange(class UKSFriendDataFactory* Source
 
 void UKSSocialOverlay::HandleUpdatePlayers()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialOverlay.HandleUpdatePlayers"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialOverlay.HandleUpdatePlayers");
 
 	struct
 	{
@@ -22014,7 +22014,7 @@ void UKSSocialOverlay::HandleUpdatePlayers()
 
 TArray<class UKSDataSocialCategory*> UKSSocialOverlay::GetData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialOverlay.GetData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialOverlay.GetData");
 
 	struct
 	{
@@ -22036,7 +22036,7 @@ TArray<class UKSDataSocialCategory*> UKSSocialOverlay::GetData()
 
 class UKSDataSocialCategory* UKSSocialOverlay::GetCategory(EKSSocialOverlaySection Category)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialOverlay.GetCategory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialOverlay.GetCategory");
 
 	struct
 	{
@@ -22060,7 +22060,7 @@ class UKSDataSocialCategory* UKSSocialOverlay::GetCategory(EKSSocialOverlaySecti
 
 TArray<class UKSDataSocialCategory*> UKSSocialOverlay::GetCategories(TArray<EKSSocialOverlaySection> Categories)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialOverlay.GetCategories"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialOverlay.GetCategories");
 
 	struct
 	{
@@ -22081,7 +22081,7 @@ TArray<class UKSDataSocialCategory*> UKSSocialOverlay::GetCategories(TArray<EKSS
 
 void UKSSocialSearchPanel::OnSearchTimeout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialSearchPanel.OnSearchTimeout"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialSearchPanel.OnSearchTimeout");
 
 	struct
 	{
@@ -22099,7 +22099,7 @@ void UKSSocialSearchPanel::OnSearchTimeout()
 
 void UKSSocialSearchPanel::OnSearchStart(const struct FText& SearchTerm)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialSearchPanel.OnSearchStart"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialSearchPanel.OnSearchStart");
 
 	struct
 	{
@@ -22121,7 +22121,7 @@ void UKSSocialSearchPanel::OnSearchStart(const struct FText& SearchTerm)
 
 void UKSSocialSearchPanel::OnSearchComplete(const struct FText& SearchTerm, const struct FText& Error, TArray<class UKSDataSocialPlayer*> Results)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialSearchPanel.OnSearchComplete"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialSearchPanel.OnSearchComplete");
 
 	struct
 	{
@@ -22143,7 +22143,7 @@ void UKSSocialSearchPanel::OnSearchComplete(const struct FText& SearchTerm, cons
 
 void UKSSocialSearchPanel::OnOverlayClosed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialSearchPanel.OnOverlayClosed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialSearchPanel.OnOverlayClosed");
 
 	struct
 	{
@@ -22161,7 +22161,7 @@ void UKSSocialSearchPanel::OnOverlayClosed()
 
 bool UKSSocialSearchPanel::IsSearching()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialSearchPanel.IsSearching"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialSearchPanel.IsSearching");
 
 	struct
 	{
@@ -22182,7 +22182,7 @@ bool UKSSocialSearchPanel::IsSearching()
 
 struct FText UKSSocialSearchPanel::GetActiveSearchTerm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialSearchPanel.GetActiveSearchTerm"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialSearchPanel.GetActiveSearchTerm");
 
 	struct
 	{
@@ -22203,7 +22203,7 @@ struct FText UKSSocialSearchPanel::GetActiveSearchTerm()
 
 void UKSSocialSearchPanel::DoSearch(const struct FText& SearchTerm)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialSearchPanel.DoSearch"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialSearchPanel.DoSearch");
 
 	struct
 	{
@@ -22223,7 +22223,7 @@ void UKSSocialSearchPanel::DoSearch(const struct FText& SearchTerm)
 
 void UKSSocialWidgetBase::SortFriendData(TArray<class UPUMG_PlayerInfo*>* Friends)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.SortFriendData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.SortFriendData");
 
 	struct
 	{
@@ -22245,7 +22245,7 @@ void UKSSocialWidgetBase::SortFriendData(TArray<class UPUMG_PlayerInfo*>* Friend
 
 void UKSSocialWidgetBase::SearchPlayerName(const struct FString& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.SearchPlayerName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.SearchPlayerName");
 
 	struct
 	{
@@ -22263,7 +22263,7 @@ void UKSSocialWidgetBase::SearchPlayerName(const struct FString& PlayerName)
 
 void UKSSocialWidgetBase::OnFriendRequestsUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.OnFriendRequestsUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.OnFriendRequestsUpdated");
 
 	struct
 	{
@@ -22279,7 +22279,7 @@ void UKSSocialWidgetBase::OnFriendRequestsUpdated()
 
 void UKSSocialWidgetBase::HandleSearchByNameResultsUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.HandleSearchByNameResultsUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.HandleSearchByNameResultsUpdated");
 
 	struct
 	{
@@ -22295,7 +22295,7 @@ void UKSSocialWidgetBase::HandleSearchByNameResultsUpdated()
 
 void UKSSocialWidgetBase::HandlePartyDataUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.HandlePartyDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.HandlePartyDataUpdated");
 
 	struct
 	{
@@ -22313,7 +22313,7 @@ void UKSSocialWidgetBase::HandlePartyDataUpdated()
 
 void UKSSocialWidgetBase::HandleFriendInviteReceived(const struct FPUMG_FriendData& PlayerData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.HandleFriendInviteReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.HandleFriendInviteReceived");
 
 	struct
 	{
@@ -22331,7 +22331,7 @@ void UKSSocialWidgetBase::HandleFriendInviteReceived(const struct FPUMG_FriendDa
 
 void UKSSocialWidgetBase::HandleFriendDataUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.HandleFriendDataUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.HandleFriendDataUpdated");
 
 	struct
 	{
@@ -22349,7 +22349,7 @@ void UKSSocialWidgetBase::HandleFriendDataUpdated()
 
 TArray<class UPUMG_PlayerInfo*> UKSSocialWidgetBase::GetSortedFriends()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.GetSortedFriends"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.GetSortedFriends");
 
 	struct
 	{
@@ -22370,7 +22370,7 @@ TArray<class UPUMG_PlayerInfo*> UKSSocialWidgetBase::GetSortedFriends()
 
 TArray<class UPUMG_PlayerInfo*> UKSSocialWidgetBase::GetSearchResults()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.GetSearchResults"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.GetSearchResults");
 
 	struct
 	{
@@ -22391,7 +22391,7 @@ TArray<class UPUMG_PlayerInfo*> UKSSocialWidgetBase::GetSearchResults()
 
 class UKSPlayerWhoDataFactory* UKSSocialWidgetBase::GetPlayerWhoDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.GetPlayerWhoDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.GetPlayerWhoDataFactory");
 
 	struct
 	{
@@ -22412,7 +22412,7 @@ class UKSPlayerWhoDataFactory* UKSSocialWidgetBase::GetPlayerWhoDataFactory()
 
 class UKSPartyDataFactory* UKSSocialWidgetBase::GetPartyDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.GetPartyDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.GetPartyDataFactory");
 
 	struct
 	{
@@ -22433,7 +22433,7 @@ class UKSPartyDataFactory* UKSSocialWidgetBase::GetPartyDataFactory()
 
 class UKSFriendDataFactory* UKSSocialWidgetBase::GetFriendDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.GetFriendDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.GetFriendDataFactory");
 
 	struct
 	{
@@ -22452,7 +22452,7 @@ class UKSFriendDataFactory* UKSSocialWidgetBase::GetFriendDataFactory()
 
 void UKSSocialWidgetBase::ClearSearchResults()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSocialWidgetBase.ClearSearchResults"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSocialWidgetBase.ClearSearchResults");
 
 	struct
 	{
@@ -22472,7 +22472,7 @@ void UKSSocialWidgetBase::ClearSearchResults()
 
 bool UKSSortableGridPanel::SortChildrenComparator__DelegateSignature(class UWidget* LHS, class UWidget* RHS)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction KillstreakUINew.KSSortableGridPanel.SortChildrenComparator__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction KillstreakUINew.KSSortableGridPanel.SortChildrenComparator__DelegateSignature");
 
 	struct
 	{
@@ -22495,7 +22495,7 @@ bool UKSSortableGridPanel::SortChildrenComparator__DelegateSignature(class UWidg
 
 void UKSSortableGridPanel::SortChildren()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSortableGridPanel.SortChildren"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSortableGridPanel.SortChildren");
 
 	struct
 	{
@@ -22514,7 +22514,7 @@ void UKSSortableGridPanel::SortChildren()
 
 class UGridSlot* UKSSortableGridPanel::AddChildAutoLayout(class UWidget* Content)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSortableGridPanel.AddChildAutoLayout"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSortableGridPanel.AddChildAutoLayout");
 
 	struct
 	{
@@ -22539,7 +22539,7 @@ class UGridSlot* UKSSortableGridPanel::AddChildAutoLayout(class UWidget* Content
 
 bool UKSSortableVerticalBox::SortChildrenComparator__DelegateSignature(class UWidget* LHS, class UWidget* RHS)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction KillstreakUINew.KSSortableVerticalBox.SortChildrenComparator__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction KillstreakUINew.KSSortableVerticalBox.SortChildrenComparator__DelegateSignature");
 
 	struct
 	{
@@ -22562,7 +22562,7 @@ bool UKSSortableVerticalBox::SortChildrenComparator__DelegateSignature(class UWi
 
 void UKSSortableVerticalBox::SortChildren()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSSortableVerticalBox.SortChildren"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSortableVerticalBox.SortChildren");
 
 	struct
 	{
@@ -22580,7 +22580,7 @@ void UKSSortableVerticalBox::SortChildren()
 
 bool UKSStorePanelItem::IsOnSale()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStorePanelItem.IsOnSale"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStorePanelItem.IsOnSale");
 
 	struct
 	{
@@ -22601,7 +22601,7 @@ bool UKSStorePanelItem::IsOnSale()
 
 bool UKSStoreSectionItem::HasUnseenItems()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreSectionItem.HasUnseenItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreSectionItem.HasUnseenItems");
 
 	struct
 	{
@@ -22622,7 +22622,7 @@ bool UKSStoreSectionItem::HasUnseenItems()
 
 bool UKSStoreSection::HasUnseenItems()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreSection.HasUnseenItems"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreSection.HasUnseenItems");
 
 	struct
 	{
@@ -22643,7 +22643,7 @@ bool UKSStoreSection::HasUnseenItems()
 
 struct FText UKSStoreSection::GetSectionHeader()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreSection.GetSectionHeader"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreSection.GetSectionHeader");
 
 	struct
 	{
@@ -22664,7 +22664,7 @@ struct FText UKSStoreSection::GetSectionHeader()
 
 int UKSStoreSection::GetSecondsRemaining()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreSection.GetSecondsRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreSection.GetSecondsRemaining");
 
 	struct
 	{
@@ -22686,7 +22686,7 @@ int UKSStoreSection::GetSecondsRemaining()
 
 void UKSStoreWidget::OnVendorsReceived(int GroupId, TArray<int> VendorIds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreWidget.OnVendorsReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreWidget.OnVendorsReceived");
 
 	struct
 	{
@@ -22706,7 +22706,7 @@ void UKSStoreWidget::OnVendorsReceived(int GroupId, TArray<int> VendorIds)
 
 void UKSStoreWidget::OnPricePointsReveived()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreWidget.OnPricePointsReveived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreWidget.OnPricePointsReveived");
 
 	struct
 	{
@@ -22722,7 +22722,7 @@ void UKSStoreWidget::OnPricePointsReveived()
 
 void UKSStoreWidget::OnPortalOffersReceived()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreWidget.OnPortalOffersReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreWidget.OnPortalOffersReceived");
 
 	struct
 	{
@@ -22740,7 +22740,7 @@ void UKSStoreWidget::OnPortalOffersReceived()
 
 bool UKSStoreWidget::HasAllRequiredStoreInformation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreWidget.HasAllRequiredStoreInformation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreWidget.HasAllRequiredStoreInformation");
 
 	struct
 	{
@@ -22761,7 +22761,7 @@ bool UKSStoreWidget::HasAllRequiredStoreInformation()
 
 int UKSStoreWidget::GetStoreRotationSecondsRemaining()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreWidget.GetStoreRotationSecondsRemaining"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreWidget.GetStoreRotationSecondsRemaining");
 
 	struct
 	{
@@ -22782,7 +22782,7 @@ int UKSStoreWidget::GetStoreRotationSecondsRemaining()
 
 TArray<class UKSStoreSection*> UKSStoreWidget::GetStoreLayout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreWidget.GetStoreLayout"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreWidget.GetStoreLayout");
 
 	struct
 	{
@@ -22803,7 +22803,7 @@ TArray<class UKSStoreSection*> UKSStoreWidget::GetStoreLayout()
 
 class UKSStoreItemHelper* UKSStoreWidget::GetStoreItemHelper()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSStoreWidget.GetStoreItemHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSStoreWidget.GetStoreItemHelper");
 
 	struct
 	{
@@ -22824,7 +22824,7 @@ class UKSStoreItemHelper* UKSStoreWidget::GetStoreItemHelper()
 
 void UKSTargetMarkerWidget::UpdateCharge(class UKSModInst_Activated* ModInst)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTargetMarkerWidget.UpdateCharge"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTargetMarkerWidget.UpdateCharge");
 
 	struct
 	{
@@ -22845,7 +22845,7 @@ void UKSTargetMarkerWidget::UpdateCharge(class UKSModInst_Activated* ModInst)
 
 void UKSTargetMarkerWidget::TryApplyViewState(ETargetMarkerViewState ViewState, bool bForce)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTargetMarkerWidget.TryApplyViewState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTargetMarkerWidget.TryApplyViewState");
 
 	struct
 	{
@@ -22868,7 +22868,7 @@ void UKSTargetMarkerWidget::TryApplyViewState(ETargetMarkerViewState ViewState, 
 
 void UKSTargetMarkerWidget::ReceiveNewTarget(const TScriptInterface<class UKSTargeter>& InTargeter, class AActor* NewTarget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTargetMarkerWidget.ReceiveNewTarget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTargetMarkerWidget.ReceiveNewTarget");
 
 	struct
 	{
@@ -22890,7 +22890,7 @@ void UKSTargetMarkerWidget::ReceiveNewTarget(const TScriptInterface<class UKSTar
 
 void UKSTargetMarkerWidget::OnGamepadSelectedChanged(int NewSelectionIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTargetMarkerWidget.OnGamepadSelectedChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTargetMarkerWidget.OnGamepadSelectedChanged");
 
 	struct
 	{
@@ -22910,7 +22910,7 @@ void UKSTargetMarkerWidget::OnGamepadSelectedChanged(int NewSelectionIndex)
 
 ETargetMarkerViewState UKSTargetMarkerWidget::GetCurrentViewState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTargetMarkerWidget.GetCurrentViewState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTargetMarkerWidget.GetCurrentViewState");
 
 	struct
 	{
@@ -22929,7 +22929,7 @@ ETargetMarkerViewState UKSTargetMarkerWidget::GetCurrentViewState()
 
 void UKSTargetMarkerWidget::BindTargetModInst()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTargetMarkerWidget.BindTargetModInst"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTargetMarkerWidget.BindTargetModInst");
 
 	struct
 	{
@@ -22947,7 +22947,7 @@ void UKSTargetMarkerWidget::BindTargetModInst()
 
 void UKSTargetMarkerWidget::ApplyViewState(ETargetMarkerViewState ViewState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTargetMarkerWidget.ApplyViewState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTargetMarkerWidget.ApplyViewState");
 
 	struct
 	{
@@ -22968,7 +22968,7 @@ void UKSTargetMarkerWidget::ApplyViewState(ETargetMarkerViewState ViewState)
 
 void UKSTextChatWidget::Whisper(const struct FString& PlayerName, const struct FString& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.Whisper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.Whisper");
 
 	struct
 	{
@@ -22990,7 +22990,7 @@ void UKSTextChatWidget::Whisper(const struct FString& PlayerName, const struct F
 
 void UKSTextChatWidget::Unblock(const struct FString& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.Unblock"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.Unblock");
 
 	struct
 	{
@@ -23010,7 +23010,7 @@ void UKSTextChatWidget::Unblock(const struct FString& PlayerName)
 
 void UKSTextChatWidget::UIX_SubmitTextInput(const struct FString& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.UIX_SubmitTextInput"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.UIX_SubmitTextInput");
 
 	struct
 	{
@@ -23031,7 +23031,7 @@ void UKSTextChatWidget::UIX_SubmitTextInput(const struct FString& Message)
 
 void UKSTextChatWidget::UIX_SendMessageToPlayer(const struct FString& Message, int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.UIX_SendMessageToPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.UIX_SendMessageToPlayer");
 
 	struct
 	{
@@ -23054,7 +23054,7 @@ void UKSTextChatWidget::UIX_SendMessageToPlayer(const struct FString& Message, i
 
 void UKSTextChatWidget::UIX_SendMessageToChannel(const struct FString& Message, EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.UIX_SendMessageToChannel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.UIX_SendMessageToChannel");
 
 	struct
 	{
@@ -23076,7 +23076,7 @@ void UKSTextChatWidget::UIX_SendMessageToChannel(const struct FString& Message, 
 
 void UKSTextChatWidget::UIX_MarkMessageAsRead(int MessageIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.UIX_MarkMessageAsRead"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.UIX_MarkMessageAsRead");
 
 	struct
 	{
@@ -23096,7 +23096,7 @@ void UKSTextChatWidget::UIX_MarkMessageAsRead(int MessageIndex)
 
 void UKSTextChatWidget::UIX_ExecuteChatCommandLine(const struct FString& CommandLine)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.UIX_ExecuteChatCommandLine"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.UIX_ExecuteChatCommandLine");
 
 	struct
 	{
@@ -23114,7 +23114,7 @@ void UKSTextChatWidget::UIX_ExecuteChatCommandLine(const struct FString& Command
 
 void UKSTextChatWidget::ToggleDND()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.ToggleDND"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.ToggleDND");
 
 	struct
 	{
@@ -23130,7 +23130,7 @@ void UKSTextChatWidget::ToggleDND()
 
 void UKSTextChatWidget::ShowTextChat()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.ShowTextChat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.ShowTextChat");
 
 	struct
 	{
@@ -23149,7 +23149,7 @@ void UKSTextChatWidget::ShowTextChat()
 
 bool UKSTextChatWidget::SetChatChannelToPlayer(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.SetChatChannelToPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.SetChatChannelToPlayer");
 
 	struct
 	{
@@ -23174,7 +23174,7 @@ bool UKSTextChatWidget::SetChatChannelToPlayer(int64_t PlayerId)
 
 bool UKSTextChatWidget::SetChatChannel(EPUMG_ChatChannel Channel, int64_t PersonalChannelPlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.SetChatChannel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.SetChatChannel");
 
 	struct
 	{
@@ -23199,7 +23199,7 @@ bool UKSTextChatWidget::SetChatChannel(EPUMG_ChatChannel Channel, int64_t Person
 
 void UKSTextChatWidget::Reply(const struct FString& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.Reply"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.Reply");
 
 	struct
 	{
@@ -23220,7 +23220,7 @@ void UKSTextChatWidget::Reply(const struct FString& Message)
 
 void UKSTextChatWidget::ProcessMessageOnClient(const struct FText& Message, EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.ProcessMessageOnClient"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.ProcessMessageOnClient");
 
 	struct
 	{
@@ -23240,7 +23240,7 @@ void UKSTextChatWidget::ProcessMessageOnClient(const struct FText& Message, EPUM
 
 void UKSTextChatWidget::PreviousChatChannel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.PreviousChatChannel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.PreviousChatChannel");
 
 	struct
 	{
@@ -23258,7 +23258,7 @@ void UKSTextChatWidget::PreviousChatChannel()
 
 void UKSTextChatWidget::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.OpenTextChatToPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.OpenTextChatToPlayer");
 
 	struct
 	{
@@ -23278,7 +23278,7 @@ void UKSTextChatWidget::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 
 void UKSTextChatWidget::OpenTextChat(bool BeginChatCommand)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.OpenTextChat"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.OpenTextChat");
 
 	struct
 	{
@@ -23296,7 +23296,7 @@ void UKSTextChatWidget::OpenTextChat(bool BeginChatCommand)
 
 void UKSTextChatWidget::NextChatChannel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.NextChatChannel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.NextChatChannel");
 
 	struct
 	{
@@ -23315,7 +23315,7 @@ void UKSTextChatWidget::NextChatChannel()
 
 bool UKSTextChatWidget::IsActiveChatChannel(EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.IsActiveChatChannel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.IsActiveChatChannel");
 
 	struct
 	{
@@ -23338,7 +23338,7 @@ bool UKSTextChatWidget::IsActiveChatChannel(EPUMG_ChatChannel Channel)
 
 void UKSTextChatWidget::HandleChatMessageReceived(const struct FPUMG_ChatData& ReceivedMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.HandleChatMessageReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.HandleChatMessageReceived");
 
 	struct
 	{
@@ -23358,7 +23358,7 @@ void UKSTextChatWidget::HandleChatMessageReceived(const struct FPUMG_ChatData& R
 
 void UKSTextChatWidget::HandleChatMessageRead(const struct FPUMG_ChatData& ReadMessage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.HandleChatMessageRead"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.HandleChatMessageRead");
 
 	struct
 	{
@@ -23378,7 +23378,7 @@ void UKSTextChatWidget::HandleChatMessageRead(const struct FPUMG_ChatData& ReadM
 
 void UKSTextChatWidget::HandleChatChannelLeft(EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.HandleChatChannelLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.HandleChatChannelLeft");
 
 	struct
 	{
@@ -23398,7 +23398,7 @@ void UKSTextChatWidget::HandleChatChannelLeft(EPUMG_ChatChannel Channel)
 
 void UKSTextChatWidget::HandleChatChannelJoined(EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.HandleChatChannelJoined"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.HandleChatChannelJoined");
 
 	struct
 	{
@@ -23418,7 +23418,7 @@ void UKSTextChatWidget::HandleChatChannelJoined(EPUMG_ChatChannel Channel)
 
 struct FPUMG_ActiveChatChannelData UKSTextChatWidget::GetCurrentChatChannel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.GetCurrentChatChannel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.GetCurrentChatChannel");
 
 	struct
 	{
@@ -23439,7 +23439,7 @@ struct FPUMG_ActiveChatChannelData UKSTextChatWidget::GetCurrentChatChannel()
 
 class UKSChatDataFactory* UKSTextChatWidget::GetChatDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.GetChatDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.GetChatDataFactory");
 
 	struct
 	{
@@ -23460,7 +23460,7 @@ class UKSChatDataFactory* UKSTextChatWidget::GetChatDataFactory()
 
 TArray<struct FPUMG_ActiveChatChannelData> UKSTextChatWidget::GetActiveChatChannels()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.GetActiveChatChannels"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.GetActiveChatChannels");
 
 	struct
 	{
@@ -23482,7 +23482,7 @@ TArray<struct FPUMG_ActiveChatChannelData> UKSTextChatWidget::GetActiveChatChann
 
 bool UKSTextChatWidget::CanChatInChannel(EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.CanChatInChannel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.CanChatInChannel");
 
 	struct
 	{
@@ -23505,7 +23505,7 @@ bool UKSTextChatWidget::CanChatInChannel(EPUMG_ChatChannel Channel)
 
 void UKSTextChatWidget::Block(const struct FString& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTextChatWidget.Block"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTextChatWidget.Block");
 
 	struct
 	{
@@ -23523,7 +23523,7 @@ void UKSTextChatWidget::Block(const struct FString& PlayerName)
 
 void UKSToastNotificationWidgetBase::TestDisplayChallengeNotification()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.TestDisplayChallengeNotification"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.TestDisplayChallengeNotification");
 
 	struct
 	{
@@ -23541,7 +23541,7 @@ void UKSToastNotificationWidgetBase::TestDisplayChallengeNotification()
 
 void UKSToastNotificationWidgetBase::StoreToastQueue(const struct FToastData& ToastNotification)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.StoreToastQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.StoreToastQueue");
 
 	struct
 	{
@@ -23559,7 +23559,7 @@ void UKSToastNotificationWidgetBase::StoreToastQueue(const struct FToastData& To
 
 void UKSToastNotificationWidgetBase::ShowToastNotification()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.ShowToastNotification"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.ShowToastNotification");
 
 	struct
 	{
@@ -23577,7 +23577,7 @@ void UKSToastNotificationWidgetBase::ShowToastNotification()
 
 void UKSToastNotificationWidgetBase::OnToastNotificationReceived(const struct FToastData& ToastData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.OnToastNotificationReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.OnToastNotificationReceived");
 
 	struct
 	{
@@ -23597,7 +23597,7 @@ void UKSToastNotificationWidgetBase::OnToastNotificationReceived(const struct FT
 
 void UKSToastNotificationWidgetBase::OnChallengeCompleted(class UKSActivityInstance* Activity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.OnChallengeCompleted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.OnChallengeCompleted");
 
 	struct
 	{
@@ -23617,7 +23617,7 @@ void UKSToastNotificationWidgetBase::OnChallengeCompleted(class UKSActivityInsta
 
 void UKSToastNotificationWidgetBase::OnAwardsCompleted(class UKSActivityInstance* Activity)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.OnAwardsCompleted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.OnAwardsCompleted");
 
 	struct
 	{
@@ -23635,7 +23635,7 @@ void UKSToastNotificationWidgetBase::OnAwardsCompleted(class UKSActivityInstance
 
 void UKSToastNotificationWidgetBase::NotifyToastShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.NotifyToastShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.NotifyToastShown");
 
 	struct
 	{
@@ -23651,7 +23651,7 @@ void UKSToastNotificationWidgetBase::NotifyToastShown()
 
 void UKSToastNotificationWidgetBase::NotifyToastHidden()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.NotifyToastHidden"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.NotifyToastHidden");
 
 	struct
 	{
@@ -23669,7 +23669,7 @@ void UKSToastNotificationWidgetBase::NotifyToastHidden()
 
 void UKSToastNotificationWidgetBase::HandlePartyMemberPromoted(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyMemberPromoted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyMemberPromoted");
 
 	struct
 	{
@@ -23687,7 +23687,7 @@ void UKSToastNotificationWidgetBase::HandlePartyMemberPromoted(int64_t PlayerId)
 
 void UKSToastNotificationWidgetBase::HandlePartyMemberLeftGeneric()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyMemberLeftGeneric"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyMemberLeftGeneric");
 
 	struct
 	{
@@ -23705,7 +23705,7 @@ void UKSToastNotificationWidgetBase::HandlePartyMemberLeftGeneric()
 
 void UKSToastNotificationWidgetBase::HandlePartyMemberKick(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyMemberKick"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyMemberKick");
 
 	struct
 	{
@@ -23725,7 +23725,7 @@ void UKSToastNotificationWidgetBase::HandlePartyMemberKick(int64_t PlayerId)
 
 void UKSToastNotificationWidgetBase::HandlePartyMemberAdded(const struct FPUMG_PartyMemberData& PartyMemberData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyMemberAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyMemberAdded");
 
 	struct
 	{
@@ -23743,7 +23743,7 @@ void UKSToastNotificationWidgetBase::HandlePartyMemberAdded(const struct FPUMG_P
 
 void UKSToastNotificationWidgetBase::HandlePartyLocalPlayerLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyLocalPlayerLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyLocalPlayerLeft");
 
 	struct
 	{
@@ -23761,7 +23761,7 @@ void UKSToastNotificationWidgetBase::HandlePartyLocalPlayerLeft()
 
 void UKSToastNotificationWidgetBase::HandlePartyInviteSent(const struct FText& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteSent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteSent");
 
 	struct
 	{
@@ -23779,7 +23779,7 @@ void UKSToastNotificationWidgetBase::HandlePartyInviteSent(const struct FText& P
 
 void UKSToastNotificationWidgetBase::HandlePartyInviteRejected()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteRejected"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteRejected");
 
 	struct
 	{
@@ -23797,7 +23797,7 @@ void UKSToastNotificationWidgetBase::HandlePartyInviteRejected()
 
 void UKSToastNotificationWidgetBase::HandlePartyInviteReceived(class UPUMG_PlayerInfo* PartyInviter)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteReceived");
 
 	struct
 	{
@@ -23817,7 +23817,7 @@ void UKSToastNotificationWidgetBase::HandlePartyInviteReceived(class UPUMG_Playe
 
 void UKSToastNotificationWidgetBase::HandlePartyInviteError(const struct FText& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteError"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteError");
 
 	struct
 	{
@@ -23835,7 +23835,7 @@ void UKSToastNotificationWidgetBase::HandlePartyInviteError(const struct FText& 
 
 void UKSToastNotificationWidgetBase::HandlePartyInviteAccepted()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteAccepted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandlePartyInviteAccepted");
 
 	struct
 	{
@@ -23853,7 +23853,7 @@ void UKSToastNotificationWidgetBase::HandlePartyInviteAccepted()
 
 void UKSToastNotificationWidgetBase::HandleFriendRejected(const struct FText& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandleFriendRejected"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandleFriendRejected");
 
 	struct
 	{
@@ -23873,7 +23873,7 @@ void UKSToastNotificationWidgetBase::HandleFriendRejected(const struct FText& Pl
 
 void UKSToastNotificationWidgetBase::HandleFriendInviteReceived(const struct FPUMG_FriendData& PlayerData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandleFriendInviteReceived"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandleFriendInviteReceived");
 
 	struct
 	{
@@ -23893,7 +23893,7 @@ void UKSToastNotificationWidgetBase::HandleFriendInviteReceived(const struct FPU
 
 void UKSToastNotificationWidgetBase::HandleFriendAddSuccess(const struct FString& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandleFriendAddSuccess"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandleFriendAddSuccess");
 
 	struct
 	{
@@ -23913,7 +23913,7 @@ void UKSToastNotificationWidgetBase::HandleFriendAddSuccess(const struct FString
 
 void UKSToastNotificationWidgetBase::HandleFriendAdded(const struct FText& PlayerName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.HandleFriendAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.HandleFriendAdded");
 
 	struct
 	{
@@ -23933,7 +23933,7 @@ void UKSToastNotificationWidgetBase::HandleFriendAdded(const struct FText& Playe
 
 TArray<struct FToastData> UKSToastNotificationWidgetBase::GetPostMatchToasts()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.GetPostMatchToasts"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.GetPostMatchToasts");
 
 	struct
 	{
@@ -23954,7 +23954,7 @@ TArray<struct FToastData> UKSToastNotificationWidgetBase::GetPostMatchToasts()
 
 class UKSPlayerChallengesManager* UKSToastNotificationWidgetBase::GetPlayerChallengesManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.GetPlayerChallengesManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.GetPlayerChallengesManager");
 
 	struct
 	{
@@ -23975,7 +23975,7 @@ class UKSPlayerChallengesManager* UKSToastNotificationWidgetBase::GetPlayerChall
 
 class UKSAwardsManager* UKSToastNotificationWidgetBase::GetPlayerAwardsManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.GetPlayerAwardsManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.GetPlayerAwardsManager");
 
 	struct
 	{
@@ -23996,7 +23996,7 @@ class UKSAwardsManager* UKSToastNotificationWidgetBase::GetPlayerAwardsManager()
 
 class UKSPartyDataFactory* UKSToastNotificationWidgetBase::GetPartyDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.GetPartyDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.GetPartyDataFactory");
 
 	struct
 	{
@@ -24018,7 +24018,7 @@ class UKSPartyDataFactory* UKSToastNotificationWidgetBase::GetPartyDataFactory()
 
 bool UKSToastNotificationWidgetBase::GetNext(struct FToastData* NextToastNotification)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.GetNext"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.GetNext");
 
 	struct
 	{
@@ -24043,7 +24043,7 @@ bool UKSToastNotificationWidgetBase::GetNext(struct FToastData* NextToastNotific
 
 class UKSFriendDataFactory* UKSToastNotificationWidgetBase::GetFriendDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.GetFriendDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.GetFriendDataFactory");
 
 	struct
 	{
@@ -24064,7 +24064,7 @@ class UKSFriendDataFactory* UKSToastNotificationWidgetBase::GetFriendDataFactory
 
 class UKSEventChallengesManager* UKSToastNotificationWidgetBase::GetEventChallengesManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.GetEventChallengesManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.GetEventChallengesManager");
 
 	struct
 	{
@@ -24085,7 +24085,7 @@ class UKSEventChallengesManager* UKSToastNotificationWidgetBase::GetEventChallen
 
 class UKSBattlePassProgressionManager* UKSToastNotificationWidgetBase::GetBattlePassProgressionManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.GetBattlePassProgressionManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.GetBattlePassProgressionManager");
 
 	struct
 	{
@@ -24107,7 +24107,7 @@ class UKSBattlePassProgressionManager* UKSToastNotificationWidgetBase::GetBattle
 
 void UKSToastNotificationWidgetBase::CreatePlayerLevelUpToasts(class UKSActivityInstance* PlayerLevelActivityInstance, const struct FActivityTier& TierObtained)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.CreatePlayerLevelUpToasts"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.CreatePlayerLevelUpToasts");
 
 	struct
 	{
@@ -24130,7 +24130,7 @@ void UKSToastNotificationWidgetBase::CreatePlayerLevelUpToasts(class UKSActivity
 
 void UKSToastNotificationWidgetBase::CreateMiniBattlePassTierUnlockToasts(class UKSActivityInstance* MiniBattlePassActivityInstance, const struct FActivityTier& TierObtained)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateMiniBattlePassTierUnlockToasts"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateMiniBattlePassTierUnlockToasts");
 
 	struct
 	{
@@ -24153,7 +24153,7 @@ void UKSToastNotificationWidgetBase::CreateMiniBattlePassTierUnlockToasts(class 
 
 void UKSToastNotificationWidgetBase::CreateMercMasteryLevelUpToasts(class UKSActivityInstance* MercMasteryActivityInstance, const struct FActivityTier& TierObtained)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateMercMasteryLevelUpToasts"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateMercMasteryLevelUpToasts");
 
 	struct
 	{
@@ -24175,7 +24175,7 @@ void UKSToastNotificationWidgetBase::CreateMercMasteryLevelUpToasts(class UKSAct
 
 void UKSToastNotificationWidgetBase::CreateEventChallengeCompleteToasts(class UKSActivityInstance* EventChallengeActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateEventChallengeCompleteToasts"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateEventChallengeCompleteToasts");
 
 	struct
 	{
@@ -24195,7 +24195,7 @@ void UKSToastNotificationWidgetBase::CreateEventChallengeCompleteToasts(class UK
 
 void UKSToastNotificationWidgetBase::CreateBoostActivationToastBySpentItem(class UPlatformInventoryItem* SpentItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateBoostActivationToastBySpentItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateBoostActivationToastBySpentItem");
 
 	struct
 	{
@@ -24215,7 +24215,7 @@ void UKSToastNotificationWidgetBase::CreateBoostActivationToastBySpentItem(class
 
 void UKSToastNotificationWidgetBase::CreateBoostActivationToastByAcquisition(class UPUMG_StoreItem* AcquisitionItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateBoostActivationToastByAcquisition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.CreateBoostActivationToastByAcquisition");
 
 	struct
 	{
@@ -24233,7 +24233,7 @@ void UKSToastNotificationWidgetBase::CreateBoostActivationToastByAcquisition(cla
 
 void UKSToastNotificationWidgetBase::ClearPostMatchQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.ClearPostMatchQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.ClearPostMatchQueue");
 
 	struct
 	{
@@ -24249,7 +24249,7 @@ void UKSToastNotificationWidgetBase::ClearPostMatchQueue()
 
 void UKSToastNotificationWidgetBase::ClearNotificationQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSToastNotificationWidgetBase.ClearNotificationQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSToastNotificationWidgetBase.ClearNotificationQueue");
 
 	struct
 	{
@@ -24267,7 +24267,7 @@ void UKSToastNotificationWidgetBase::ClearNotificationQueue()
 
 void UKSTopBarStatusIconInterface::UnbindEventFromTopBarStatusIconShowingChanged(const struct FScriptDelegate& Callback)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTopBarStatusIconInterface.UnbindEventFromTopBarStatusIconShowingChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTopBarStatusIconInterface.UnbindEventFromTopBarStatusIconShowingChanged");
 
 	struct
 	{
@@ -24287,7 +24287,7 @@ void UKSTopBarStatusIconInterface::UnbindEventFromTopBarStatusIconShowingChanged
 
 bool UKSTopBarStatusIconInterface::IsInTopBarStatusIconShowingState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTopBarStatusIconInterface.IsInTopBarStatusIconShowingState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTopBarStatusIconInterface.IsInTopBarStatusIconShowingState");
 
 	struct
 	{
@@ -24308,7 +24308,7 @@ bool UKSTopBarStatusIconInterface::IsInTopBarStatusIconShowingState()
 
 class UTexture2D* UKSTopBarStatusIconInterface::GetTopBarStatusIconTexture()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTopBarStatusIconInterface.GetTopBarStatusIconTexture"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTopBarStatusIconInterface.GetTopBarStatusIconTexture");
 
 	struct
 	{
@@ -24329,7 +24329,7 @@ class UTexture2D* UKSTopBarStatusIconInterface::GetTopBarStatusIconTexture()
 
 void UKSTopBarStatusIconInterface::BindEventToTopBarStatusIconShowingChanged(const struct FScriptDelegate& Callback)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTopBarStatusIconInterface.BindEventToTopBarStatusIconShowingChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTopBarStatusIconInterface.BindEventToTopBarStatusIconShowingChanged");
 
 	struct
 	{
@@ -24347,7 +24347,7 @@ void UKSTopBarStatusIconInterface::BindEventToTopBarStatusIconShowingChanged(con
 
 void UKSTouchHudWidget::UpdateQuickMeleeRadius()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTouchHudWidget.UpdateQuickMeleeRadius"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTouchHudWidget.UpdateQuickMeleeRadius");
 
 	struct
 	{
@@ -24363,7 +24363,7 @@ void UKSTouchHudWidget::UpdateQuickMeleeRadius()
 
 void UKSTouchHudWidget::UpdateMeleeOrFireButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTouchHudWidget.UpdateMeleeOrFireButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTouchHudWidget.UpdateMeleeOrFireButton");
 
 	struct
 	{
@@ -24379,7 +24379,7 @@ void UKSTouchHudWidget::UpdateMeleeOrFireButton()
 
 void UKSTreeView::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTreeView.UninitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTreeView.UninitializeWidget");
 
 	struct
 	{
@@ -24397,7 +24397,7 @@ void UKSTreeView::UninitializeWidget()
 
 void UKSTreeView::NavigateSelectItem(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTreeView.NavigateSelectItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTreeView.NavigateSelectItem");
 
 	struct
 	{
@@ -24418,7 +24418,7 @@ void UKSTreeView::NavigateSelectItem(class UObject* Item)
 
 bool UKSTreeView::IsItemExpanded(class UObject* Item)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTreeView.IsItemExpanded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTreeView.IsItemExpanded");
 
 	struct
 	{
@@ -24439,7 +24439,7 @@ bool UKSTreeView::IsItemExpanded(class UObject* Item)
 
 void UKSTreeView::InitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTreeView.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTreeView.InitializeWidget");
 
 	struct
 	{
@@ -24457,7 +24457,7 @@ void UKSTreeView::InitializeWidget()
 
 int UKSTreeView::GetNumItemsInLayout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTreeView.GetNumItemsInLayout"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTreeView.GetNumItemsInLayout");
 
 	struct
 	{
@@ -24480,7 +24480,7 @@ int UKSTreeView::GetNumItemsInLayout()
 
 bool UKSTreeView::BP_GetEntryWidgetFromItem(class UObject* Item, class UUserWidget** OutWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSTreeView.BP_GetEntryWidgetFromItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTreeView.BP_GetEntryWidgetFromItem");
 
 	struct
 	{
@@ -24509,7 +24509,7 @@ bool UKSTreeView::BP_GetEntryWidgetFromItem(class UObject* Item, class UUserWidg
 
 bool UKSUIBlueprintFunctionLibrary::UIX_ReportPlayer(class UObject* WorldContextObject, const struct FReportPlayerParams& Params)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.UIX_ReportPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.UIX_ReportPlayer");
 
 	struct
 	{
@@ -24537,7 +24537,7 @@ bool UKSUIBlueprintFunctionLibrary::UIX_ReportPlayer(class UObject* WorldContext
 
 struct FReportPlayerParams UKSUIBlueprintFunctionLibrary::SetupReportPlayerFromScoreboardStats(int64_t PlayerId, const struct FScoreboardStats& State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.SetupReportPlayerFromScoreboardStats"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.SetupReportPlayerFromScoreboardStats");
 
 	struct
 	{
@@ -24565,7 +24565,7 @@ struct FReportPlayerParams UKSUIBlueprintFunctionLibrary::SetupReportPlayerFromS
 
 struct FReportPlayerParams UKSUIBlueprintFunctionLibrary::SetupReportPlayerFromGameState(int64_t PlayerId, class AKSGameState* State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.SetupReportPlayerFromGameState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.SetupReportPlayerFromGameState");
 
 	struct
 	{
@@ -24593,7 +24593,7 @@ struct FReportPlayerParams UKSUIBlueprintFunctionLibrary::SetupReportPlayerFromG
 
 void UKSUIBlueprintFunctionLibrary::SetHiddenCursorMode(class UObject* WorldContextObject, class APlayerController* PlayerController, bool ShouldHide)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.SetHiddenCursorMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.SetHiddenCursorMode");
 
 	struct
 	{
@@ -24619,7 +24619,7 @@ void UKSUIBlueprintFunctionLibrary::SetHiddenCursorMode(class UObject* WorldCont
 
 void UKSUIBlueprintFunctionLibrary::ResetHiddenCursorMode(class UObject* WorldContextObject, class APlayerController* PlayerController)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.ResetHiddenCursorMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.ResetHiddenCursorMode");
 
 	struct
 	{
@@ -24646,7 +24646,7 @@ void UKSUIBlueprintFunctionLibrary::ResetHiddenCursorMode(class UObject* WorldCo
 
 void UKSUIBlueprintFunctionLibrary::RegisterGridNavigation(class UPUMG_Widget* ParentWidget, int FocusGroup, TArray<class UWidget*> NavWidgets, int GridWidth, bool NavToLastElementOnDown)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.RegisterGridNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.RegisterGridNavigation");
 
 	struct
 	{
@@ -24676,7 +24676,7 @@ void UKSUIBlueprintFunctionLibrary::RegisterGridNavigation(class UPUMG_Widget* P
 
 struct FText UKSUIBlueprintFunctionLibrary::Key_GetShortDisplayName(const struct FKey& Key)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.Key_GetShortDisplayName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.Key_GetShortDisplayName");
 
 	struct
 	{
@@ -24703,7 +24703,7 @@ struct FText UKSUIBlueprintFunctionLibrary::Key_GetShortDisplayName(const struct
 
 bool UKSUIBlueprintFunctionLibrary::IsPlayerRelevant(const struct FJobSelectionEntry& Entry, class AKSPlayerState* InPlayerState, bool bLockedInOnly)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsPlayerRelevant"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsPlayerRelevant");
 
 	struct
 	{
@@ -24732,7 +24732,7 @@ bool UKSUIBlueprintFunctionLibrary::IsPlayerRelevant(const struct FJobSelectionE
 
 bool UKSUIBlueprintFunctionLibrary::IsNewJob(int RogueID)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsNewJob"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsNewJob");
 
 	struct
 	{
@@ -24759,7 +24759,7 @@ bool UKSUIBlueprintFunctionLibrary::IsNewJob(int RogueID)
 
 bool UKSUIBlueprintFunctionLibrary::IsInsideMargins(class UObject* WorldContextObject, const struct FVector2D& Translation, const struct FVector2D& Margins)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsInsideMargins"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsInsideMargins");
 
 	struct
 	{
@@ -24791,7 +24791,7 @@ bool UKSUIBlueprintFunctionLibrary::IsInsideMargins(class UObject* WorldContextO
 
 bool UKSUIBlueprintFunctionLibrary::IsInCenteredScreenRect(float PositionX, float PositionY, float MarginX, float MarginY)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsInCenteredScreenRect"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsInCenteredScreenRect");
 
 	struct
 	{
@@ -24822,7 +24822,7 @@ bool UKSUIBlueprintFunctionLibrary::IsInCenteredScreenRect(float PositionX, floa
 
 bool UKSUIBlueprintFunctionLibrary::IsExperimentActive(EExperimentalFeatureName Feature)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsExperimentActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.IsExperimentActive");
 
 	struct
 	{
@@ -24848,7 +24848,7 @@ bool UKSUIBlueprintFunctionLibrary::IsExperimentActive(EExperimentalFeatureName 
 
 struct FText UKSUIBlueprintFunctionLibrary::GetTextByPlatform(const struct FText& DefaultText, TMap<struct FString, struct FText> PlatformTexts)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetTextByPlatform"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetTextByPlatform");
 
 	struct
 	{
@@ -24875,7 +24875,7 @@ struct FText UKSUIBlueprintFunctionLibrary::GetTextByPlatform(const struct FText
 
 class UKSStoreItemHelper* UKSUIBlueprintFunctionLibrary::GetStoreItemHelper(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetStoreItemHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetStoreItemHelper");
 
 	struct
 	{
@@ -24901,7 +24901,7 @@ class UKSStoreItemHelper* UKSUIBlueprintFunctionLibrary::GetStoreItemHelper(clas
 
 EJobSelectionState UKSUIBlueprintFunctionLibrary::GetSelectionStateForPlayer(const struct FJobSelectionEntry& Entry, class AKSPlayerState* InPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetSelectionStateForPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetSelectionStateForPlayer");
 
 	struct
 	{
@@ -24928,7 +24928,7 @@ EJobSelectionState UKSUIBlueprintFunctionLibrary::GetSelectionStateForPlayer(con
 
 bool UKSUIBlueprintFunctionLibrary::GetQueueName(struct FText* DisplayNameText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetQueueName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetQueueName");
 
 	struct
 	{
@@ -24956,7 +24956,7 @@ bool UKSUIBlueprintFunctionLibrary::GetQueueName(struct FText* DisplayNameText)
 
 bool UKSUIBlueprintFunctionLibrary::GetQueueDisplayName(class UObject* WorldContextObject, struct FText* DisplayNameText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetQueueDisplayName"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetQueueDisplayName");
 
 	struct
 	{
@@ -24987,7 +24987,7 @@ bool UKSUIBlueprintFunctionLibrary::GetQueueDisplayName(class UObject* WorldCont
 
 bool UKSUIBlueprintFunctionLibrary::GetPlayerSelectInfo(const struct FJobSelectionEntry& Entry, class AKSPlayerState* InPlayerState, struct FPlayerJobSelectInfo* PlayerSelectInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPlayerSelectInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPlayerSelectInfo");
 
 	struct
 	{
@@ -25019,7 +25019,7 @@ bool UKSUIBlueprintFunctionLibrary::GetPlayerSelectInfo(const struct FJobSelecti
 
 class UPUMG_PlayerInfo* UKSUIBlueprintFunctionLibrary::GetPlayerInfoById(class APUMG_HUD* HUD, int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPlayerInfoById"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPlayerInfoById");
 
 	struct
 	{
@@ -25048,7 +25048,7 @@ class UPUMG_PlayerInfo* UKSUIBlueprintFunctionLibrary::GetPlayerInfoById(class A
 
 bool UKSUIBlueprintFunctionLibrary::GetPingIconByType(class UDataTable* ContextualPingTypesDT, EPingType PingType, TSoftObjectPtr<class UTexture2D>* PingIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPingIconByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPingIconByType");
 
 	struct
 	{
@@ -25081,7 +25081,7 @@ bool UKSUIBlueprintFunctionLibrary::GetPingIconByType(class UDataTable* Contextu
 
 bool UKSUIBlueprintFunctionLibrary::GetPingIconByMessage(class UDataTable* ContextualPingMessagesDT, EPingMessage PingMessage, TSoftObjectPtr<class UTexture2D>* PingIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPingIconByMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPingIconByMessage");
 
 	struct
 	{
@@ -25114,7 +25114,7 @@ bool UKSUIBlueprintFunctionLibrary::GetPingIconByMessage(class UDataTable* Conte
 
 bool UKSUIBlueprintFunctionLibrary::GetPingColorByType(class UDataTable* ContextualPingTypesDT, EPingType PingType, struct FLinearColor* PingColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPingColorByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetPingColorByType");
 
 	struct
 	{
@@ -25144,7 +25144,7 @@ bool UKSUIBlueprintFunctionLibrary::GetPingColorByType(class UDataTable* Context
 
 int UKSUIBlueprintFunctionLibrary::GetNewJobId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetNewJobId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetNewJobId");
 
 	struct
 	{
@@ -25167,7 +25167,7 @@ int UKSUIBlueprintFunctionLibrary::GetNewJobId()
 
 class UPUMG_PlayerInfo* UKSUIBlueprintFunctionLibrary::GetLocalPlayerInfo(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetLocalPlayerInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetLocalPlayerInfo");
 
 	struct
 	{
@@ -25196,7 +25196,7 @@ class UPUMG_PlayerInfo* UKSUIBlueprintFunctionLibrary::GetLocalPlayerInfo(class 
 
 struct FKey UKSUIBlueprintFunctionLibrary::GetKeyForBinding(class APlayerController* PlayerController, const struct FName& Binding, bool SecondaryKey, bool FallbackToDefault, bool IsGamepadDoubleTap)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetKeyForBinding"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetKeyForBinding");
 
 	struct
 	{
@@ -25229,7 +25229,7 @@ struct FKey UKSUIBlueprintFunctionLibrary::GetKeyForBinding(class APlayerControl
 
 TArray<int> UKSUIBlueprintFunctionLibrary::GetDigitsFromInt(int Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetDigitsFromInt"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetDigitsFromInt");
 
 	struct
 	{
@@ -25256,7 +25256,7 @@ TArray<int> UKSUIBlueprintFunctionLibrary::GetDigitsFromInt(int Value)
 
 void UKSUIBlueprintFunctionLibrary::GetCurrentRogueMasteryLevel(class UKSActivityInstance* ActivityInstance, int* MasteryLevel, int* CurrentXPProgress, int* XPRequiredForLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetCurrentRogueMasteryLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.GetCurrentRogueMasteryLevel");
 
 	struct
 	{
@@ -25290,7 +25290,7 @@ void UKSUIBlueprintFunctionLibrary::GetCurrentRogueMasteryLevel(class UKSActivit
 
 bool UKSUIBlueprintFunctionLibrary::FindContextualPingTypesRowByType(class UDataTable* ContextualPingTypesDT, EPingType PingType, struct FContextualPingTypesRow* ContextualPingTypesRow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.FindContextualPingTypesRowByType"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.FindContextualPingTypesRowByType");
 
 	struct
 	{
@@ -25323,7 +25323,7 @@ bool UKSUIBlueprintFunctionLibrary::FindContextualPingTypesRowByType(class UData
 
 bool UKSUIBlueprintFunctionLibrary::FindContextualPingMessagesRowByMessage(class UDataTable* ContextualPingMessagesDT, EPingMessage PingMessage, struct FContextualPingMessagesRow* ContextualPingMessagesRow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.FindContextualPingMessagesRowByMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.FindContextualPingMessagesRowByMessage");
 
 	struct
 	{
@@ -25357,7 +25357,7 @@ bool UKSUIBlueprintFunctionLibrary::FindContextualPingMessagesRowByMessage(class
 
 bool UKSUIBlueprintFunctionLibrary::DistanceToClosestScreenEdge(class UObject* WorldContextObject, const struct FVector2D& Location, float* OutDistX, float* OutDistY)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.DistanceToClosestScreenEdge"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.DistanceToClosestScreenEdge");
 
 	struct
 	{
@@ -25391,7 +25391,7 @@ bool UKSUIBlueprintFunctionLibrary::DistanceToClosestScreenEdge(class UObject* W
 
 EJobSelectionState UKSUIBlueprintFunctionLibrary::DetermineEntryLocalSelectionState(const struct FJobSelectionEntry& Entry)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.DetermineEntryLocalSelectionState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.DetermineEntryLocalSelectionState");
 
 	struct
 	{
@@ -25417,7 +25417,7 @@ EJobSelectionState UKSUIBlueprintFunctionLibrary::DetermineEntryLocalSelectionSt
 
 class UKSSettingsWidget* UKSUIBlueprintFunctionLibrary::CreateSettingsWidgetWithConfig(class APUMG_HUD* HUD, const struct FKSSettingsWidgetConfig& SettingsWidgetConfig)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CreateSettingsWidgetWithConfig"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CreateSettingsWidgetWithConfig");
 
 	struct
 	{
@@ -25445,7 +25445,7 @@ class UKSSettingsWidget* UKSUIBlueprintFunctionLibrary::CreateSettingsWidgetWith
 
 class UKSSettingsWidget* UKSUIBlueprintFunctionLibrary::CreateSettingsWidget(class APUMG_HUD* HUD, class UClass* SettingsWidgetClass)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CreateSettingsWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CreateSettingsWidget");
 
 	struct
 	{
@@ -25473,7 +25473,7 @@ class UKSSettingsWidget* UKSUIBlueprintFunctionLibrary::CreateSettingsWidget(cla
 
 class UKSSettingsPreview* UKSUIBlueprintFunctionLibrary::CreateSettingsPreview(class APUMG_HUD* HUD, class UClass* SettingsPreviewClass)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CreateSettingsPreview"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CreateSettingsPreview");
 
 	struct
 	{
@@ -25501,7 +25501,7 @@ class UKSSettingsPreview* UKSUIBlueprintFunctionLibrary::CreateSettingsPreview(c
 
 int UKSUIBlueprintFunctionLibrary::CompareStrings(const struct FString& LeftString, const struct FString& RightString)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CompareStrings"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CompareStrings");
 
 	struct
 	{
@@ -25525,7 +25525,7 @@ int UKSUIBlueprintFunctionLibrary::CompareStrings(const struct FString& LeftStri
 
 void UKSUIBlueprintFunctionLibrary::ClearKeyboardFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.ClearKeyboardFocus"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.ClearKeyboardFocus");
 
 	struct
 	{
@@ -25545,7 +25545,7 @@ void UKSUIBlueprintFunctionLibrary::ClearKeyboardFocus()
 
 bool UKSUIBlueprintFunctionLibrary::CanReportServer(class UObject* WorldContextObject)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CanReportServer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CanReportServer");
 
 	struct
 	{
@@ -25571,7 +25571,7 @@ bool UKSUIBlueprintFunctionLibrary::CanReportServer(class UObject* WorldContextO
 
 bool UKSUIBlueprintFunctionLibrary::CanPlayerSelectEntry(const struct FJobSelectionEntry& Entry, class AKSPlayerState* InPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CanPlayerSelectEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSUIBlueprintFunctionLibrary.CanPlayerSelectEntry");
 
 	struct
 	{
@@ -25598,7 +25598,7 @@ bool UKSUIBlueprintFunctionLibrary::CanPlayerSelectEntry(const struct FJobSelect
 
 int UCommonVendorHelper::GetVendorIDFromEnum(EKSVendorTypes VendorType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.CommonVendorHelper.GetVendorIDFromEnum"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.CommonVendorHelper.GetVendorIDFromEnum");
 
 	struct
 	{
@@ -25620,7 +25620,7 @@ int UCommonVendorHelper::GetVendorIDFromEnum(EKSVendorTypes VendorType)
 
 void UKSViewedItemLabel::UpdateLabelPosition()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.UpdateLabelPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.UpdateLabelPosition");
 
 	struct
 	{
@@ -25636,7 +25636,7 @@ void UKSViewedItemLabel::UpdateLabelPosition()
 
 void UKSViewedItemLabel::UnbindToViewportResizeEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.UnbindToViewportResizeEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.UnbindToViewportResizeEvent");
 
 	struct
 	{
@@ -25652,7 +25652,7 @@ void UKSViewedItemLabel::UnbindToViewportResizeEvent()
 
 void UKSViewedItemLabel::TriggerLabelPositionUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.TriggerLabelPositionUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.TriggerLabelPositionUpdate");
 
 	struct
 	{
@@ -25668,7 +25668,7 @@ void UKSViewedItemLabel::TriggerLabelPositionUpdate()
 
 void UKSViewedItemLabel::OnLabelShow()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.OnLabelShow"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.OnLabelShow");
 
 	struct
 	{
@@ -25684,7 +25684,7 @@ void UKSViewedItemLabel::OnLabelShow()
 
 void UKSViewedItemLabel::OnLabelHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.OnLabelHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.OnLabelHide");
 
 	struct
 	{
@@ -25702,7 +25702,7 @@ void UKSViewedItemLabel::OnLabelHide()
 
 class UImage* UKSViewedItemLabel::GetViewLimitImage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.GetViewLimitImage"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.GetViewLimitImage");
 
 	struct
 	{
@@ -25723,7 +25723,7 @@ class UImage* UKSViewedItemLabel::GetViewLimitImage()
 
 class AActor* UKSViewedItemLabel::GetTrackedActor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.GetTrackedActor"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.GetTrackedActor");
 
 	struct
 	{
@@ -25744,7 +25744,7 @@ class AActor* UKSViewedItemLabel::GetTrackedActor()
 
 class UCanvasPanel* UKSViewedItemLabel::GetOutermostCanvasPanel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.GetOutermostCanvasPanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.GetOutermostCanvasPanel");
 
 	struct
 	{
@@ -25768,7 +25768,7 @@ class UCanvasPanel* UKSViewedItemLabel::GetOutermostCanvasPanel()
 
 bool UKSViewedItemLabel::GetOnScreenPositionForLabel(class APlayerController* Player, class AActor* InActor, struct FBox2D* OutBounds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.GetOnScreenPositionForLabel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.GetOnScreenPositionForLabel");
 
 	struct
 	{
@@ -25797,7 +25797,7 @@ bool UKSViewedItemLabel::GetOnScreenPositionForLabel(class APlayerController* Pl
 
 class UCanvasPanel* UKSViewedItemLabel::GetLabelCanvasPanel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.GetLabelCanvasPanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.GetLabelCanvasPanel");
 
 	struct
 	{
@@ -25816,7 +25816,7 @@ class UCanvasPanel* UKSViewedItemLabel::GetLabelCanvasPanel()
 
 void UKSViewedItemLabel::BindToViewportResizeEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedItemLabel.BindToViewportResizeEvent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedItemLabel.BindToViewportResizeEvent");
 
 	struct
 	{
@@ -25832,7 +25832,7 @@ void UKSViewedItemLabel::BindToViewportResizeEvent()
 
 void UKSViewedPawnDamageDisplay::PrimeDamageNumbersWidgetPool()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnDamageDisplay.PrimeDamageNumbersWidgetPool"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnDamageDisplay.PrimeDamageNumbersWidgetPool");
 
 	struct
 	{
@@ -25851,7 +25851,7 @@ void UKSViewedPawnDamageDisplay::PrimeDamageNumbersWidgetPool()
 
 void UKSViewedPawnDamageDisplay::HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnDamageDisplay.HandlePhaseChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnDamageDisplay.HandlePhaseChange");
 
 	struct
 	{
@@ -25873,7 +25873,7 @@ void UKSViewedPawnDamageDisplay::HandlePhaseChange(const struct FName& NewPhaseN
 
 void UKSViewedPawnDamageDisplay::HandleInstigateDamageNotify(const struct FCombatEventInfo& DamageInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnDamageDisplay.HandleInstigateDamageNotify"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnDamageDisplay.HandleInstigateDamageNotify");
 
 	struct
 	{
@@ -25893,7 +25893,7 @@ void UKSViewedPawnDamageDisplay::HandleInstigateDamageNotify(const struct FComba
 
 void UKSViewedPawnDamageDisplay::HandleAnimationCompleted(class UDamageNumberDisplayWidget* DamageNumberWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnDamageDisplay.HandleAnimationCompleted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnDamageDisplay.HandleAnimationCompleted");
 
 	struct
 	{
@@ -25913,7 +25913,7 @@ void UKSViewedPawnDamageDisplay::HandleAnimationCompleted(class UDamageNumberDis
 
 class UDamageNumberDisplayWidget* UKSViewedPawnDamageDisplay::GetDamageNumberWidgetInstance()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnDamageDisplay.GetDamageNumberWidgetInstance"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnDamageDisplay.GetDamageNumberWidgetInstance");
 
 	struct
 	{
@@ -25932,7 +25932,7 @@ class UDamageNumberDisplayWidget* UKSViewedPawnDamageDisplay::GetDamageNumberWid
 
 void UKSViewedPawnDamageDisplay::ClearDamageNumbersOnScreen()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnDamageDisplay.ClearDamageNumbersOnScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnDamageDisplay.ClearDamageNumbersOnScreen");
 
 	struct
 	{
@@ -25962,7 +25962,7 @@ void UKSViewedPawnDamageDisplay::ClearDamageNumbersOnScreen()
 
 void UDamageNumberDisplayWidget::SetDisplayInformation(class AActor* InTargetActor, bool InTetherToEventLocation, float InDamageAmount, bool InIsSpecialDamage, const struct FSpecialDamageColors& InDamageColors, bool InIsLethal, bool InIsHeadshot, float InDelayWindow, float InStackWait, bool InArmorHit, bool InDamageReduced, bool InDamageResisted, bool InDamageShielded)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.DamageNumberDisplayWidget.SetDisplayInformation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.DamageNumberDisplayWidget.SetDisplayInformation");
 
 	struct
 	{
@@ -26006,7 +26006,7 @@ void UDamageNumberDisplayWidget::SetDisplayInformation(class AActor* InTargetAct
 
 void UDamageNumberDisplayWidget::SetContentVisibility(bool IsVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.DamageNumberDisplayWidget.SetContentVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.DamageNumberDisplayWidget.SetContentVisibility");
 
 	struct
 	{
@@ -26024,7 +26024,7 @@ void UDamageNumberDisplayWidget::SetContentVisibility(bool IsVisible)
 
 void UDamageNumberDisplayWidget::PlayNumberAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.DamageNumberDisplayWidget.PlayNumberAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.DamageNumberDisplayWidget.PlayNumberAnimation");
 
 	struct
 	{
@@ -26042,7 +26042,7 @@ void UDamageNumberDisplayWidget::PlayNumberAnimation()
 
 bool UDamageNumberDisplayWidget::PlayerIsBlinded()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.DamageNumberDisplayWidget.PlayerIsBlinded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.DamageNumberDisplayWidget.PlayerIsBlinded");
 
 	struct
 	{
@@ -26065,7 +26065,7 @@ bool UDamageNumberDisplayWidget::PlayerIsBlinded()
 
 void UDamageNumberDisplayWidget::OnDisplaySpecialDamageInfo(float CurrentDamageAmount, const struct FSpecialDamageColors& DamageColors, bool bChangePosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.DamageNumberDisplayWidget.OnDisplaySpecialDamageInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.DamageNumberDisplayWidget.OnDisplaySpecialDamageInfo");
 
 	struct
 	{
@@ -26087,7 +26087,7 @@ void UDamageNumberDisplayWidget::OnDisplaySpecialDamageInfo(float CurrentDamageA
 
 void UDamageNumberDisplayWidget::OnDisplayInformationReset()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.DamageNumberDisplayWidget.OnDisplayInformationReset"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.DamageNumberDisplayWidget.OnDisplayInformationReset");
 
 	struct
 	{
@@ -26105,7 +26105,7 @@ void UDamageNumberDisplayWidget::OnDisplayInformationReset()
 
 bool UDamageNumberDisplayWidget::IsDisplayStacking()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.DamageNumberDisplayWidget.IsDisplayStacking"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.DamageNumberDisplayWidget.IsDisplayStacking");
 
 	struct
 	{
@@ -26126,7 +26126,7 @@ bool UDamageNumberDisplayWidget::IsDisplayStacking()
 
 void UKSViewedPawnInventoryWidget::OnUpdatedPawnInventorySlot(const struct FPlayerInventorySlot& InventorySlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnInventoryWidget.OnUpdatedPawnInventorySlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnInventoryWidget.OnUpdatedPawnInventorySlot");
 
 	struct
 	{
@@ -26146,7 +26146,7 @@ void UKSViewedPawnInventoryWidget::OnUpdatedPawnInventorySlot(const struct FPlay
 
 void UKSViewedPawnInventoryWidget::OnRemovedPawnInventorySlot(const struct FPlayerInventorySlot& InventorySlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnInventoryWidget.OnRemovedPawnInventorySlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnInventoryWidget.OnRemovedPawnInventorySlot");
 
 	struct
 	{
@@ -26166,7 +26166,7 @@ void UKSViewedPawnInventoryWidget::OnRemovedPawnInventorySlot(const struct FPlay
 
 void UKSViewedPawnInventoryWidget::OnActivePawnInventorySlot(const struct FPlayerInventorySlot& InventorySlot)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnInventoryWidget.OnActivePawnInventorySlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnInventoryWidget.OnActivePawnInventorySlot");
 
 	struct
 	{
@@ -26187,7 +26187,7 @@ void UKSViewedPawnInventoryWidget::OnActivePawnInventorySlot(const struct FPlaye
 
 int UKSViewedPawnInventoryWidget::GetSlotIndex(const struct FGameplayTag& EquipPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnInventoryWidget.GetSlotIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnInventoryWidget.GetSlotIndex");
 
 	struct
 	{
@@ -26211,7 +26211,7 @@ int UKSViewedPawnInventoryWidget::GetSlotIndex(const struct FGameplayTag& EquipP
 
 void UKSViewedPawnModsWidget::OnViewedPawnModAdded(class UKSPlayerMod* Mod, class UKSPlayerModInstance* ModInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnModsWidget.OnViewedPawnModAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnModsWidget.OnViewedPawnModAdded");
 
 	struct
 	{
@@ -26233,7 +26233,7 @@ void UKSViewedPawnModsWidget::OnViewedPawnModAdded(class UKSPlayerMod* Mod, clas
 
 class UOverlay* UKSViewedPawnModsWidget::GetOverlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewedPawnModsWidget.GetOverlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnModsWidget.GetOverlay");
 
 	struct
 	{
@@ -26255,7 +26255,7 @@ class UOverlay* UKSViewedPawnModsWidget::GetOverlay()
 
 bool UKSViewRedirector_LocalSetting::DoesLocalSettingApply(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSViewRedirector_LocalSetting.DoesLocalSettingApply"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewRedirector_LocalSetting.DoesLocalSettingApply");
 
 	struct
 	{
@@ -26280,7 +26280,7 @@ bool UKSViewRedirector_LocalSetting::DoesLocalSettingApply(class APUMG_HUD* HUD)
 
 void UKSVoiceActivityWidget::OnVoiceParticipantUpdated(const struct FString& AccountId, bool bIsTalking, bool bIsMuted)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSVoiceActivityWidget.OnVoiceParticipantUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSVoiceActivityWidget.OnVoiceParticipantUpdated");
 
 	struct
 	{
@@ -26304,7 +26304,7 @@ void UKSVoiceActivityWidget::OnVoiceParticipantUpdated(const struct FString& Acc
 
 void UKSVoiceActivityWidget::OnVoiceParticipantRemoved(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSVoiceActivityWidget.OnVoiceParticipantRemoved"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSVoiceActivityWidget.OnVoiceParticipantRemoved");
 
 	struct
 	{
@@ -26324,7 +26324,7 @@ void UKSVoiceActivityWidget::OnVoiceParticipantRemoved(const struct FString& Acc
 
 void UKSVoiceActivityWidget::OnVoiceParticipantAdded(const struct FString& AccountId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSVoiceActivityWidget.OnVoiceParticipantAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSVoiceActivityWidget.OnVoiceParticipantAdded");
 
 	struct
 	{
@@ -26345,7 +26345,7 @@ void UKSVoiceActivityWidget::OnVoiceParticipantAdded(const struct FString& Accou
 
 struct FString UKSVoiceActivityWidget::GetVoiceIdByPlayerId(int64_t PlayerId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSVoiceActivityWidget.GetVoiceIdByPlayerId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSVoiceActivityWidget.GetVoiceIdByPlayerId");
 
 	struct
 	{
@@ -26369,7 +26369,7 @@ struct FString UKSVoiceActivityWidget::GetVoiceIdByPlayerId(int64_t PlayerId)
 
 class AKSPlayerState* UKSVoiceActivityWidget::GetPlayerStateByVoiceId(const struct FString& VoiceId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSVoiceActivityWidget.GetPlayerStateByVoiceId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSVoiceActivityWidget.GetPlayerStateByVoiceId");
 
 	struct
 	{
@@ -26393,7 +26393,7 @@ class AKSPlayerState* UKSVoiceActivityWidget::GetPlayerStateByVoiceId(const stru
 
 int64_t UKSVoiceActivityWidget::GetPlayerIdByVoiceId(const struct FString& VoiceId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSVoiceActivityWidget.GetPlayerIdByVoiceId"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSVoiceActivityWidget.GetPlayerIdByVoiceId");
 
 	struct
 	{
@@ -26417,7 +26417,7 @@ int64_t UKSVoiceActivityWidget::GetPlayerIdByVoiceId(const struct FString& Voice
 
 bool UKSVoucherAcquisition::RedeemVouchers(TArray<class UPUMG_StoreItem*> VoucherItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSVoucherAcquisition.RedeemVouchers"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSVoucherAcquisition.RedeemVouchers");
 
 	struct
 	{
@@ -26441,7 +26441,7 @@ bool UKSVoucherAcquisition::RedeemVouchers(TArray<class UPUMG_StoreItem*> Vouche
 
 void UKSVoucherAcquisition::GetVoucherAcquisitions(TArray<class UPUMG_StoreItem*>* VoucherItems, TArray<class UPUMG_StoreItem*>* PurchaseItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSVoucherAcquisition.GetVoucherAcquisitions"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSVoucherAcquisition.GetVoucherAcquisitions");
 
 	struct
 	{
@@ -26464,7 +26464,7 @@ void UKSVoucherAcquisition::GetVoucherAcquisitions(TArray<class UPUMG_StoreItem*
 
 void UKSVoucherAcquisition::DisplayVoucherRedemptionFailed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSVoucherAcquisition.DisplayVoucherRedemptionFailed"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSVoucherAcquisition.DisplayVoucherRedemptionFailed");
 
 	struct
 	{
@@ -26482,7 +26482,7 @@ void UKSVoucherAcquisition::DisplayVoucherRedemptionFailed()
 
 void UKSWeaponComponentWidget::SetOwningWeaponComponent(class UKSWeaponComponent* InWeaponComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentWidget.SetOwningWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentWidget.SetOwningWeaponComponent");
 
 	struct
 	{
@@ -26500,7 +26500,7 @@ void UKSWeaponComponentWidget::SetOwningWeaponComponent(class UKSWeaponComponent
 
 void UKSWeaponComponentWidget::PreClearWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentWidget.PreClearWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentWidget.PreClearWeaponComponent");
 
 	struct
 	{
@@ -26516,7 +26516,7 @@ void UKSWeaponComponentWidget::PreClearWeaponComponent()
 
 void UKSWeaponComponentWidget::PostSetWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentWidget.PostSetWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentWidget.PostSetWeaponComponent");
 
 	struct
 	{
@@ -26532,7 +26532,7 @@ void UKSWeaponComponentWidget::PostSetWeaponComponent()
 
 void UKSWeaponComponentWidget::OnEndActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentWidget.OnEndActiveWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentWidget.OnEndActiveWeaponComponent");
 
 	struct
 	{
@@ -26548,7 +26548,7 @@ void UKSWeaponComponentWidget::OnEndActiveWeaponComponent()
 
 void UKSWeaponComponentWidget::OnBecomeActiveWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentWidget.OnBecomeActiveWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentWidget.OnBecomeActiveWeaponComponent");
 
 	struct
 	{
@@ -26566,7 +26566,7 @@ void UKSWeaponComponentWidget::OnBecomeActiveWeaponComponent()
 
 bool UKSWeaponComponentWidget::IsWeaponComponentActive()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentWidget.IsWeaponComponentActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentWidget.IsWeaponComponentActive");
 
 	struct
 	{
@@ -26587,7 +26587,7 @@ bool UKSWeaponComponentWidget::IsWeaponComponentActive()
 
 class UKSWeaponComponent* UKSWeaponComponentWidget::GetWeaponComponent()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentWidget.GetWeaponComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentWidget.GetWeaponComponent");
 
 	struct
 	{
@@ -26606,7 +26606,7 @@ class UKSWeaponComponent* UKSWeaponComponentWidget::GetWeaponComponent()
 
 void UKSWeaponComponentAmmoWidget::StopReloading()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentAmmoWidget.StopReloading"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentAmmoWidget.StopReloading");
 
 	struct
 	{
@@ -26622,7 +26622,7 @@ void UKSWeaponComponentAmmoWidget::StopReloading()
 
 void UKSWeaponComponentAmmoWidget::StartReloading()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentAmmoWidget.StartReloading"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentAmmoWidget.StartReloading");
 
 	struct
 	{
@@ -26645,7 +26645,7 @@ void UKSWeaponComponentAmmoWidget::StartReloading()
 
 void UKSWeaponComponentAmmoWidget::OnAmmoChanged(int OldInClip, int OldClipSize, int OldReserve, int NewInClip, int NewClipSize, int NewReserve)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentAmmoWidget.OnAmmoChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentAmmoWidget.OnAmmoChanged");
 
 	struct
 	{
@@ -26675,7 +26675,7 @@ void UKSWeaponComponentAmmoWidget::OnAmmoChanged(int OldInClip, int OldClipSize,
 
 bool UKSWeaponComponentAmmoWidget::IsReloading()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentAmmoWidget.IsReloading"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentAmmoWidget.IsReloading");
 
 	struct
 	{
@@ -26696,7 +26696,7 @@ bool UKSWeaponComponentAmmoWidget::IsReloading()
 
 int UKSWeaponComponentAmmoWidget::GetClipSize()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentAmmoWidget.GetClipSize"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentAmmoWidget.GetClipSize");
 
 	struct
 	{
@@ -26717,7 +26717,7 @@ int UKSWeaponComponentAmmoWidget::GetClipSize()
 
 int UKSWeaponComponentAmmoWidget::GetAmmoInReserve()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentAmmoWidget.GetAmmoInReserve"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentAmmoWidget.GetAmmoInReserve");
 
 	struct
 	{
@@ -26738,7 +26738,7 @@ int UKSWeaponComponentAmmoWidget::GetAmmoInReserve()
 
 int UKSWeaponComponentAmmoWidget::GetAmmoInClip()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWeaponComponentAmmoWidget.GetAmmoInClip"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponComponentAmmoWidget.GetAmmoInClip");
 
 	struct
 	{
@@ -26757,7 +26757,7 @@ int UKSWeaponComponentAmmoWidget::GetAmmoInClip()
 
 void UKSWhatsNewModal::UpdateWhatsNewPanels()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWhatsNewModal.UpdateWhatsNewPanels"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWhatsNewModal.UpdateWhatsNewPanels");
 
 	struct
 	{
@@ -26773,7 +26773,7 @@ void UKSWhatsNewModal::UpdateWhatsNewPanels()
 
 void UKSWhatsNewModal::OnJsonChanged()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWhatsNewModal.OnJsonChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWhatsNewModal.OnJsonChanged");
 
 	struct
 	{
@@ -26791,7 +26791,7 @@ void UKSWhatsNewModal::OnJsonChanged()
 
 TArray<class UKSWhatsNewPanel*> UKSWhatsNewModal::GetPanelData()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWhatsNewModal.GetPanelData"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWhatsNewModal.GetPanelData");
 
 	struct
 	{
@@ -26812,7 +26812,7 @@ TArray<class UKSWhatsNewPanel*> UKSWhatsNewModal::GetPanelData()
 
 int UKSWhatsNewModal::GetMaxPanelCount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWhatsNewModal.GetMaxPanelCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWhatsNewModal.GetMaxPanelCount");
 
 	struct
 	{
@@ -26833,7 +26833,7 @@ int UKSWhatsNewModal::GetMaxPanelCount()
 
 class UKSJsonDataFactory* UKSWhatsNewModal::GetJsonDataFactory()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.KSWhatsNewModal.GetJsonDataFactory"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWhatsNewModal.GetJsonDataFactory");
 
 	struct
 	{
@@ -26854,7 +26854,7 @@ class UKSJsonDataFactory* UKSWhatsNewModal::GetJsonDataFactory()
 
 void UTickAnimationManager::StopAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.TickAnimationManager.StopAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.TickAnimationManager.StopAnimation");
 
 	struct
 	{
@@ -26874,7 +26874,7 @@ void UTickAnimationManager::StopAnimation(const struct FName& AnimName)
 
 void UTickAnimationManager::SkipToEndAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.TickAnimationManager.SkipToEndAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.TickAnimationManager.SkipToEndAnimation");
 
 	struct
 	{
@@ -26894,7 +26894,7 @@ void UTickAnimationManager::SkipToEndAnimation(const struct FName& AnimName)
 
 void UTickAnimationManager::ResumeAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.TickAnimationManager.ResumeAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.TickAnimationManager.ResumeAnimation");
 
 	struct
 	{
@@ -26914,7 +26914,7 @@ void UTickAnimationManager::ResumeAnimation(const struct FName& AnimName)
 
 void UTickAnimationManager::RemoveAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.TickAnimationManager.RemoveAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.TickAnimationManager.RemoveAnimation");
 
 	struct
 	{
@@ -26934,7 +26934,7 @@ void UTickAnimationManager::RemoveAnimation(const struct FName& AnimName)
 
 void UTickAnimationManager::PlayAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.TickAnimationManager.PlayAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.TickAnimationManager.PlayAnimation");
 
 	struct
 	{
@@ -26954,7 +26954,7 @@ void UTickAnimationManager::PlayAnimation(const struct FName& AnimName)
 
 void UTickAnimationManager::PauseAnimation(const struct FName& AnimName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.TickAnimationManager.PauseAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.TickAnimationManager.PauseAnimation");
 
 	struct
 	{
@@ -26976,7 +26976,7 @@ void UTickAnimationManager::PauseAnimation(const struct FName& AnimName)
 
 bool UTickAnimationManager::GetAnimationInfo(const struct FName& AnimName, struct FTickAnimationParams* OutAnimParams)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.TickAnimationManager.GetAnimationInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.TickAnimationManager.GetAnimationInfo");
 
 	struct
 	{
@@ -27003,7 +27003,7 @@ bool UTickAnimationManager::GetAnimationInfo(const struct FName& AnimName, struc
 
 void UTickAnimationManager::ApplyTick(float DeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.TickAnimationManager.ApplyTick"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.TickAnimationManager.ApplyTick");
 
 	struct
 	{
@@ -27026,7 +27026,7 @@ void UTickAnimationManager::ApplyTick(float DeltaTime)
 
 void UTickAnimationManager::AddAnimation(const struct FName& AnimName, float Duration, const struct FScriptDelegate& UpdateEvent, const struct FScriptDelegate& FinishedEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KillstreakUINew.TickAnimationManager.AddAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.TickAnimationManager.AddAnimation");
 
 	struct
 	{

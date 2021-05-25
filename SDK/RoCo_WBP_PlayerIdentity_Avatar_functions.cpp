@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_PlayerIdentity_Avatar_C::SetAvatarFromPath(const struct FSoftObjectPath& Icon_Path)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Avatar.WBP_PlayerIdentity_Avatar_C.SetAvatarFromPath"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Avatar.WBP_PlayerIdentity_Avatar_C.SetAvatarFromPath");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_PlayerIdentity_Avatar_C::SetAvatarFromPath(const struct FSoftObjectPat
 
 void UWBP_PlayerIdentity_Avatar_C::SetAvatar(TSoftObjectPtr<class UTexture2D> Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerIdentity_Avatar.WBP_PlayerIdentity_Avatar_C.SetAvatar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerIdentity_Avatar.WBP_PlayerIdentity_Avatar_C.SetAvatar");
 
 	struct
 	{

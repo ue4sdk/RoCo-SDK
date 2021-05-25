@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_CallToAction_C::StopCTAAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CallToAction.WBP_CallToAction_C.StopCTAAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CallToAction.WBP_CallToAction_C.StopCTAAnim");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_CallToAction_C::StopCTAAnim()
 
 void UWBP_CallToAction_C::PlayCTAAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CallToAction.WBP_CallToAction_C.PlayCTAAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CallToAction.WBP_CallToAction_C.PlayCTAAnim");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_CallToAction_C::PlayCTAAnim()
 
 void UWBP_CallToAction_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CallToAction.WBP_CallToAction_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CallToAction.WBP_CallToAction_C.Construct");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void UWBP_CallToAction_C::Construct()
 
 void UWBP_CallToAction_C::ExecuteUbergraph_WBP_CallToAction(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CallToAction.WBP_CallToAction_C.ExecuteUbergraph_WBP_CallToAction"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CallToAction.WBP_CallToAction_C.ExecuteUbergraph_WBP_CallToAction");
 
 	struct
 	{

@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass GameState_KOTH.GameState_KOTH_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass GameState_KOTH.GameState_KOTH_C");
 		return ptr;
 	}
 

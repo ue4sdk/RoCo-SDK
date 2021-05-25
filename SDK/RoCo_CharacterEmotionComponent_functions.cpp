@@ -17,7 +17,7 @@ namespace SDK
 
 void UCharacterEmotionComponent_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterEmotionComponent.CharacterEmotionComponent_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function CharacterEmotionComponent.CharacterEmotionComponent_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UCharacterEmotionComponent_C::ReceiveBeginPlay()
 
 void UCharacterEmotionComponent_C::Player_Downed_Changed(class AKSCharacter* bpp__Character__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterEmotionComponent.CharacterEmotionComponent_C.Player Downed Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function CharacterEmotionComponent.CharacterEmotionComponent_C.Player Downed Changed");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UCharacterEmotionComponent_C::Player_Downed_Changed(class AKSCharacter* bpp
 
 void UCharacterEmotionComponent_C::Check_Death_State()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterEmotionComponent.CharacterEmotionComponent_C.Check Death State"));
+	static auto fn = UObject::FindObject<UFunction>("Function CharacterEmotionComponent.CharacterEmotionComponent_C.Check Death State");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UCharacterEmotionComponent_C::Check_Death_State()
 
 void UCharacterEmotionComponent_C::Character_Health_Changed(class AKSCharacterBase* bpp__KSCharacter__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterEmotionComponent.CharacterEmotionComponent_C.Character Health Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function CharacterEmotionComponent.CharacterEmotionComponent_C.Character Health Changed");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UCharacterEmotionComponent_C::Character_Health_Changed(class AKSCharacterBa
 
 void UCharacterEmotionComponent_C::Character_Aim_State_Changed(EKSCharacterAimMode bpp__NewParam__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function CharacterEmotionComponent.CharacterEmotionComponent_C.Character Aim State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function CharacterEmotionComponent.CharacterEmotionComponent_C.Character Aim State Changed");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UCharacterEmotionComponent_C::Character_Aim_State_Changed(EKSCharacterAimMo
 
 void UCharacterEmotionComponent_C::OnHealthChanged__DelegateSignature(class AKSCharacterBase* bpp__Character__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction CharacterEmotionComponent.CharacterEmotionComponent_C.OnHealthChanged__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction CharacterEmotionComponent.CharacterEmotionComponent_C.OnHealthChanged__DelegateSignature");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UCharacterEmotionComponent_C::OnHealthChanged__DelegateSignature(class AKSC
 
 void UCharacterEmotionComponent_C::OnDeathStateChanged__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction CharacterEmotionComponent.CharacterEmotionComponent_C.OnDeathStateChanged__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction CharacterEmotionComponent.CharacterEmotionComponent_C.OnDeathStateChanged__DelegateSignature");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UCharacterEmotionComponent_C::OnDeathStateChanged__DelegateSignature()
 
 void UCharacterEmotionComponent_C::OnCharacterDownedChanged__DelegateSignature(class AKSCharacter* bpp__Character__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction CharacterEmotionComponent.CharacterEmotionComponent_C.OnCharacterDownedChanged__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction CharacterEmotionComponent.CharacterEmotionComponent_C.OnCharacterDownedChanged__DelegateSignature");
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UCharacterEmotionComponent_C::OnCharacterDownedChanged__DelegateSignature(c
 
 void UCharacterEmotionComponent_C::OnAimStateChange__DelegateSignature(EKSCharacterAimMode bpp__NewAimMode__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction CharacterEmotionComponent.CharacterEmotionComponent_C.OnAimStateChange__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction CharacterEmotionComponent.CharacterEmotionComponent_C.OnAimStateChange__DelegateSignature");
 
 	struct
 	{

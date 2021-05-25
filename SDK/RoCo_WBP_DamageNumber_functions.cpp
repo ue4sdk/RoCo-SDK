@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_DamageNumber_C::PlayerIsBlinded()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.PlayerIsBlinded"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.PlayerIsBlinded");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UWBP_DamageNumber_C::PlayerIsBlinded()
 
 void UWBP_DamageNumber_C::ClearAnimationsPlaying()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.ClearAnimationsPlaying"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.ClearAnimationsPlaying");
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_DamageNumber_C::ClearAnimationsPlaying()
 
 void UWBP_DamageNumber_C::UpdateVisuals(const struct FSlateColor& Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.UpdateVisuals"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.UpdateVisuals");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_DamageNumber_C::UpdateVisuals(const struct FSlateColor& Color)
 
 void UWBP_DamageNumber_C::Add_Gadget_Type()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Gadget Type"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Gadget Type");
 
 	struct
 	{
@@ -90,7 +90,7 @@ void UWBP_DamageNumber_C::Add_Gadget_Type()
 
 void UWBP_DamageNumber_C::Add_Shielded_Modifier()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Shielded Modifier"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Shielded Modifier");
 
 	struct
 	{
@@ -106,7 +106,7 @@ void UWBP_DamageNumber_C::Add_Shielded_Modifier()
 
 void UWBP_DamageNumber_C::Add_Immune_Modifier()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Immune Modifier"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Immune Modifier");
 
 	struct
 	{
@@ -122,7 +122,7 @@ void UWBP_DamageNumber_C::Add_Immune_Modifier()
 
 void UWBP_DamageNumber_C::Add_Lethal_Flourish()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Lethal Flourish"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Lethal Flourish");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UWBP_DamageNumber_C::Add_Lethal_Flourish()
 
 void UWBP_DamageNumber_C::Add_Headshot_Flourish()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Headshot Flourish"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Headshot Flourish");
 
 	struct
 	{
@@ -154,7 +154,7 @@ void UWBP_DamageNumber_C::Add_Headshot_Flourish()
 
 void UWBP_DamageNumber_C::Add_Lethal_Base()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Lethal Base"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Lethal Base");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_DamageNumber_C::Add_Lethal_Base()
 
 void UWBP_DamageNumber_C::Add_Armored_Base()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Armored Base"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Armored Base");
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UWBP_DamageNumber_C::Add_Armored_Base()
 
 void UWBP_DamageNumber_C::Add_Normal_Base()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Normal Base"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.Add Normal Base");
 
 	struct
 	{
@@ -202,7 +202,7 @@ void UWBP_DamageNumber_C::Add_Normal_Base()
 
 void UWBP_DamageNumber_C::Handle_Damage_Amount()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.Handle Damage Amount"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.Handle Damage Amount");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_DamageNumber_C::Handle_Damage_Amount()
 
 void UWBP_DamageNumber_C::OnDisplayInformationReset()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.OnDisplayInformationReset"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.OnDisplayInformationReset");
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UWBP_DamageNumber_C::OnDisplayInformationReset()
 
 void UWBP_DamageNumber_C::OnDisplaySpecialDamageInfo(float CurrentDamageAmount, const struct FSpecialDamageColors& DamageColors, bool bChangePosition)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.OnDisplaySpecialDamageInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.OnDisplaySpecialDamageInfo");
 
 	struct
 	{
@@ -260,7 +260,7 @@ void UWBP_DamageNumber_C::OnDisplaySpecialDamageInfo(float CurrentDamageAmount, 
 
 void UWBP_DamageNumber_C::HandleNumberAnimationFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.HandleNumberAnimationFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.HandleNumberAnimationFinished");
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UWBP_DamageNumber_C::HandleNumberAnimationFinished()
 
 void UWBP_DamageNumber_C::SetContentVisibility(bool IsVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.SetContentVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.SetContentVisibility");
 
 	struct
 	{
@@ -296,7 +296,7 @@ void UWBP_DamageNumber_C::SetContentVisibility(bool IsVisible)
 
 void UWBP_DamageNumber_C::PlayNumberAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.PlayNumberAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.PlayNumberAnimation");
 
 	struct
 	{
@@ -314,7 +314,7 @@ void UWBP_DamageNumber_C::PlayNumberAnimation()
 
 void UWBP_DamageNumber_C::ExecuteUbergraph_WBP_DamageNumber(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_DamageNumber.WBP_DamageNumber_C.ExecuteUbergraph_WBP_DamageNumber"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_DamageNumber.WBP_DamageNumber_C.ExecuteUbergraph_WBP_DamageNumber");
 
 	struct
 	{

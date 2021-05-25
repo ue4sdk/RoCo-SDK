@@ -25,7 +25,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TimeManagement.TimeSynchronizationSource"));
+		static auto ptr = UObject::FindObject<UClass>("Class TimeManagement.TimeSynchronizationSource");
 		return ptr;
 	}
 
@@ -41,7 +41,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TimeManagement.FixedFrameRateCustomTimeStep"));
+		static auto ptr = UObject::FindObject<UClass>("Class TimeManagement.FixedFrameRateCustomTimeStep");
 		return ptr;
 	}
 
@@ -56,7 +56,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class TimeManagement.TimeManagementBlueprintLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class TimeManagement.TimeManagementBlueprintLibrary");
 		return ptr;
 	}
 

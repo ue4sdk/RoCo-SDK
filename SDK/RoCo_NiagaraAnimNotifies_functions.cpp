@@ -19,7 +19,7 @@ namespace SDK
 
 class UFXSystemComponent* UAnimNotify_PlayNiagaraEffect::GetSpawnedEffect()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NiagaraAnimNotifies.AnimNotify_PlayNiagaraEffect.GetSpawnedEffect"));
+	static auto fn = UObject::FindObject<UFunction>("Function NiagaraAnimNotifies.AnimNotify_PlayNiagaraEffect.GetSpawnedEffect");
 
 	struct
 	{

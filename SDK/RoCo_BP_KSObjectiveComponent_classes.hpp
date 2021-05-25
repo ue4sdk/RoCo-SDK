@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass BP_KSObjectiveComponent.BP_KSObjectiveComponent_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass BP_KSObjectiveComponent.BP_KSObjectiveComponent_C");
 		return ptr;
 	}
 

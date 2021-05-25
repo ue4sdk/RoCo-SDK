@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_news_fullscreen_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.HandleInputStateChanged");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_news_fullscreen_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_ST
 
 void UWBP_news_fullscreen_C::SetCloseBtnGamepadPrompt(class UTexture2D* GamepadPrompt)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.SetCloseBtnGamepadPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.SetCloseBtnGamepadPrompt");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_news_fullscreen_C::SetCloseBtnGamepadPrompt(class UTexture2D* GamepadP
 
 void UWBP_news_fullscreen_C::GetCloseBtn(class UKSWidget** CloseBtn)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.GetCloseBtn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.GetCloseBtn");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UWBP_news_fullscreen_C::GetCloseBtn(class UKSWidget** CloseBtn)
 
 void UWBP_news_fullscreen_C::InitializeCloseBtn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.InitializeCloseBtn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.InitializeCloseBtn");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_news_fullscreen_C::InitializeCloseBtn()
 
 void UWBP_news_fullscreen_C::SetPanelData(class UKSWhatsNewPanel* NewsData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.SetPanelData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.SetPanelData");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_news_fullscreen_C::SetPanelData(class UKSWhatsNewPanel* NewsData)
 
 void UWBP_news_fullscreen_C::OnInitialized()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.OnInitialized"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.OnInitialized");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_news_fullscreen_C::OnInitialized()
 
 void UWBP_news_fullscreen_C::HandleCloseHovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.HandleCloseHovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.HandleCloseHovered");
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UWBP_news_fullscreen_C::HandleCloseHovered(class UWidget* Widget)
 
 void UWBP_news_fullscreen_C::HandleCLoseUnhovered(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.HandleCLoseUnhovered"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.HandleCLoseUnhovered");
 
 	struct
 	{
@@ -173,7 +173,7 @@ void UWBP_news_fullscreen_C::HandleCLoseUnhovered(class UWidget* Widget)
 
 void UWBP_news_fullscreen_C::HandleCloseClicked(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.HandleCloseClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.HandleCloseClicked");
 
 	struct
 	{
@@ -193,7 +193,7 @@ void UWBP_news_fullscreen_C::HandleCloseClicked(class UWidget* Widget)
 
 void UWBP_news_fullscreen_C::ExecuteUbergraph_WBP_news_fullscreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.ExecuteUbergraph_WBP_news_fullscreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.ExecuteUbergraph_WBP_news_fullscreen");
 
 	struct
 	{
@@ -211,7 +211,7 @@ void UWBP_news_fullscreen_C::ExecuteUbergraph_WBP_news_fullscreen(int EntryPoint
 
 void UWBP_news_fullscreen_C::OnCloseBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_news_fullscreen.WBP_news_fullscreen_C.OnCloseBtnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_news_fullscreen.WBP_news_fullscreen_C.OnCloseBtnClicked__DelegateSignature");
 
 	struct
 	{

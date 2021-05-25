@@ -40,7 +40,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass NewWBP_LobbyNameplate.NewWBP_LobbyNameplate_C");
 		return ptr;
 	}
 

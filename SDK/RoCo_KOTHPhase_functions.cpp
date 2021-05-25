@@ -19,7 +19,7 @@ namespace SDK
 
 void UKOTHPhase_C::ShouldEndPhase(bool* bShouldEnd)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.ShouldEndPhase"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.ShouldEndPhase");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UKOTHPhase_C::ShouldEndPhase(bool* bShouldEnd)
 
 void UKOTHPhase_C::On_Point_Uncaptured(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.On Point Uncaptured"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.On Point Uncaptured");
 
 	struct
 	{
@@ -61,7 +61,7 @@ void UKOTHPhase_C::On_Point_Uncaptured(class AKSControlPoint* ControlPoint)
 
 void UKOTHPhase_C::On_Point_Uncontested(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.On Point Uncontested"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.On Point Uncontested");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UKOTHPhase_C::On_Point_Uncontested(class AKSControlPoint* ControlPoint)
 
 void UKOTHPhase_C::PreviewNextControlPoint()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.PreviewNextControlPoint"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.PreviewNextControlPoint");
 
 	struct
 	{
@@ -95,7 +95,7 @@ void UKOTHPhase_C::PreviewNextControlPoint()
 
 void UKOTHPhase_C::ActivePointTimer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.ActivePointTimer"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.ActivePointTimer");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UKOTHPhase_C::ActivePointTimer()
 
 void UKOTHPhase_C::ScoreTimerComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.ScoreTimerComplete"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.ScoreTimerComplete");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UKOTHPhase_C::ScoreTimerComplete()
 
 void UKOTHPhase_C::SetLeadingTeam()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.SetLeadingTeam"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.SetLeadingTeam");
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UKOTHPhase_C::SetLeadingTeam()
 
 void UKOTHPhase_C::End_Phase()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.End Phase"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.End Phase");
 
 	struct
 	{
@@ -163,7 +163,7 @@ void UKOTHPhase_C::End_Phase()
 
 void UKOTHPhase_C::Is_Team_Contesting_Point(class AKSTeamState* Team, class AKSControlPoint* ControlPoint, bool* bContesting)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.Is Team Contesting Point"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.Is Team Contesting Point");
 
 	struct
 	{
@@ -189,7 +189,7 @@ void UKOTHPhase_C::Is_Team_Contesting_Point(class AKSTeamState* Team, class AKSC
 
 void UKOTHPhase_C::GetActiveControlPoint(class AKSControlPoint** ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.GetActiveControlPoint"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.GetActiveControlPoint");
 
 	struct
 	{
@@ -209,7 +209,7 @@ void UKOTHPhase_C::GetActiveControlPoint(class AKSControlPoint** ControlPoint)
 
 void UKOTHPhase_C::ResetRoundScore()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.ResetRoundScore"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.ResetRoundScore");
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UKOTHPhase_C::ResetRoundScore()
 
 void UKOTHPhase_C::ApplyTimerForPreview()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.ApplyTimerForPreview"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.ApplyTimerForPreview");
 
 	struct
 	{
@@ -241,7 +241,7 @@ void UKOTHPhase_C::ApplyTimerForPreview()
 
 void UKOTHPhase_C::ApplyTimerForActive()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.ApplyTimerForActive"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.ApplyTimerForActive");
 
 	struct
 	{
@@ -257,7 +257,7 @@ void UKOTHPhase_C::ApplyTimerForActive()
 
 void UKOTHPhase_C::ActivateNextControlPoint()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.ActivateNextControlPoint"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.ActivateNextControlPoint");
 
 	struct
 	{
@@ -273,7 +273,7 @@ void UKOTHPhase_C::ActivateNextControlPoint()
 
 void UKOTHPhase_C::PrepareForNextControlPoint()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.PrepareForNextControlPoint"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.PrepareForNextControlPoint");
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UKOTHPhase_C::PrepareForNextControlPoint()
 
 void UKOTHPhase_C::Deactivate_Control_Point(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.Deactivate Control Point"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.Deactivate Control Point");
 
 	struct
 	{
@@ -312,7 +312,7 @@ void UKOTHPhase_C::Deactivate_Control_Point(int Index)
 
 void UKOTHPhase_C::GetIndexRelativeToCurrentHelper(int Delta, int* Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.GetIndexRelativeToCurrentHelper"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.GetIndexRelativeToCurrentHelper");
 
 	struct
 	{
@@ -337,7 +337,7 @@ void UKOTHPhase_C::GetIndexRelativeToCurrentHelper(int Delta, int* Index)
 
 void UKOTHPhase_C::Activate_Control_Point(int Index, bool Unlock)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.Activate Control Point"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.Activate Control Point");
 
 	struct
 	{
@@ -359,7 +359,7 @@ void UKOTHPhase_C::Activate_Control_Point(int Index, bool Unlock)
 
 void UKOTHPhase_C::EnterCaptureState(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.EnterCaptureState"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.EnterCaptureState");
 
 	struct
 	{
@@ -379,7 +379,7 @@ void UKOTHPhase_C::EnterCaptureState(class AKSControlPoint* ControlPoint)
 
 void UKOTHPhase_C::OnAcquiredControlPointScore(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.OnAcquiredControlPointScore"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.OnAcquiredControlPointScore");
 
 	struct
 	{
@@ -397,7 +397,7 @@ void UKOTHPhase_C::OnAcquiredControlPointScore(class AKSControlPoint* ControlPoi
 
 void UKOTHPhase_C::HandlePhaseStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.HandlePhaseStarted"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.HandlePhaseStarted");
 
 	struct
 	{
@@ -415,7 +415,7 @@ void UKOTHPhase_C::HandlePhaseStarted()
 
 void UKOTHPhase_C::On_Team_Eliminated(class AKSTeamState* TeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.On Team Eliminated"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.On Team Eliminated");
 
 	struct
 	{
@@ -435,7 +435,7 @@ void UKOTHPhase_C::On_Team_Eliminated(class AKSTeamState* TeamState)
 
 void UKOTHPhase_C::PhaseTimerExpired(const struct FName& PhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.PhaseTimerExpired"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.PhaseTimerExpired");
 
 	struct
 	{
@@ -453,7 +453,7 @@ void UKOTHPhase_C::PhaseTimerExpired(const struct FName& PhaseName)
 
 void UKOTHPhase_C::Event_Ticket_End()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.Event Ticket End"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.Event Ticket End");
 
 	struct
 	{
@@ -471,7 +471,7 @@ void UKOTHPhase_C::Event_Ticket_End()
 
 void UKOTHPhase_C::ExecuteUbergraph_KOTHPhase(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.ExecuteUbergraph_KOTHPhase"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.ExecuteUbergraph_KOTHPhase");
 
 	struct
 	{
@@ -491,7 +491,7 @@ void UKOTHPhase_C::ExecuteUbergraph_KOTHPhase(int EntryPoint)
 
 void UKOTHPhase_C::OnApplyTimerForActive__DelegateSignature(const struct FTimerHandle& CurrentPointTimer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.OnApplyTimerForActive__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.OnApplyTimerForActive__DelegateSignature");
 
 	struct
 	{
@@ -511,7 +511,7 @@ void UKOTHPhase_C::OnApplyTimerForActive__DelegateSignature(const struct FTimerH
 
 void UKOTHPhase_C::OnEnteredCaptureState__DelegateSignature(float Time_Until_Point_Moves)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.OnEnteredCaptureState__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.OnEnteredCaptureState__DelegateSignature");
 
 	struct
 	{
@@ -529,7 +529,7 @@ void UKOTHPhase_C::OnEnteredCaptureState__DelegateSignature(float Time_Until_Poi
 
 void UKOTHPhase_C::OnActivatedNextControlPoint__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function KOTHPhase.KOTHPhase_C.OnActivatedNextControlPoint__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function KOTHPhase.KOTHPhase_C.OnActivatedNextControlPoint__DelegateSignature");
 
 	struct
 	{

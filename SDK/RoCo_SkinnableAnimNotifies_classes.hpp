@@ -29,7 +29,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SkinnableAnimNotifies.AnimNotifyState_SkinnedPropBase"));
+		static auto ptr = UObject::FindObject<UClass>("Class SkinnableAnimNotifies.AnimNotifyState_SkinnedPropBase");
 		return ptr;
 	}
 
@@ -46,7 +46,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SkinnableAnimNotifies.AnimNotifyState_SkinnedSkelProp"));
+		static auto ptr = UObject::FindObject<UClass>("Class SkinnableAnimNotifies.AnimNotifyState_SkinnedSkelProp");
 		return ptr;
 	}
 
@@ -61,7 +61,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SkinnableAnimNotifies.AnimNotifyState_SkinStaticProp"));
+		static auto ptr = UObject::FindObject<UClass>("Class SkinnableAnimNotifies.AnimNotifyState_SkinStaticProp");
 		return ptr;
 	}
 
@@ -82,7 +82,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SkinnableAnimNotifies.SkelPropManagerComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class SkinnableAnimNotifies.SkelPropManagerComponent");
 		return ptr;
 	}
 
@@ -103,7 +103,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class SkinnableAnimNotifies.StaticPropManagerComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class SkinnableAnimNotifies.StaticPropManagerComponent");
 		return ptr;
 	}
 

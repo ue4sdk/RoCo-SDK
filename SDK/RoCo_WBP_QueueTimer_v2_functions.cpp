@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_QueueTimer_v2_C::UpdateCancelButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.UpdateCancelButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.UpdateCancelButton");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_QueueTimer_v2_C::UpdateCancelButton()
 
 void UWBP_QueueTimer_v2_C::SetNeutralLabel(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.SetNeutralLabel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.SetNeutralLabel");
 
 	struct
 	{
@@ -56,7 +56,7 @@ void UWBP_QueueTimer_v2_C::SetNeutralLabel(const struct FText& InText)
 
 void UWBP_QueueTimer_v2_C::GetColorFromPalette(const struct FName& RowName, struct FLinearColor* LinearColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.GetColorFromPalette"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.GetColorFromPalette");
 
 	struct
 	{
@@ -78,7 +78,7 @@ void UWBP_QueueTimer_v2_C::GetColorFromPalette(const struct FName& RowName, stru
 
 void UWBP_QueueTimer_v2_C::UpdatePenaltyTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.UpdatePenaltyTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.UpdatePenaltyTime");
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UWBP_QueueTimer_v2_C::UpdatePenaltyTime()
 
 void UWBP_QueueTimer_v2_C::UpdateStatusLabel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.UpdateStatusLabel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.UpdateStatusLabel");
 
 	struct
 	{
@@ -112,7 +112,7 @@ void UWBP_QueueTimer_v2_C::UpdateStatusLabel()
 
 void UWBP_QueueTimer_v2_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.HandleInputStateChanged");
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_QueueTimer_v2_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STAT
 
 void UWBP_QueueTimer_v2_C::SetGamepadCallout()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.SetGamepadCallout"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.SetGamepadCallout");
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_QueueTimer_v2_C::SetGamepadCallout()
 
 void UWBP_QueueTimer_v2_C::UpdateQueueTime()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.UpdateQueueTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.UpdateQueueTime");
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_QueueTimer_v2_C::UpdateQueueTime()
 
 void UWBP_QueueTimer_v2_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.InitializeWidget");
 
 	struct
 	{
@@ -182,7 +182,7 @@ void UWBP_QueueTimer_v2_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_QueueTimer_v2_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.Construct");
 
 	struct
 	{
@@ -198,7 +198,7 @@ void UWBP_QueueTimer_v2_C::Construct()
 
 void UWBP_QueueTimer_v2_C::CancelQueue()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.CancelQueue"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.CancelQueue");
 
 	struct
 	{
@@ -214,7 +214,7 @@ void UWBP_QueueTimer_v2_C::CancelQueue()
 
 void UWBP_QueueTimer_v2_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -230,7 +230,7 @@ void UWBP_QueueTimer_v2_C::InitializeWidgetNavigation()
 
 void UWBP_QueueTimer_v2_C::InitializeWidgetButtonListeners()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.InitializeWidgetButtonListeners"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.InitializeWidgetButtonListeners");
 
 	struct
 	{
@@ -248,7 +248,7 @@ void UWBP_QueueTimer_v2_C::InitializeWidgetButtonListeners()
 
 void UWBP_QueueTimer_v2_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.PreConstruct");
 
 	struct
 	{
@@ -266,7 +266,7 @@ void UWBP_QueueTimer_v2_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_QueueTimer_v2_C::BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -282,7 +282,7 @@ void UWBP_QueueTimer_v2_C::BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_
 
 void UWBP_QueueTimer_v2_C::BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -298,7 +298,7 @@ void UWBP_QueueTimer_v2_C::BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_
 
 void UWBP_QueueTimer_v2_C::BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_5_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -316,7 +316,7 @@ void UWBP_QueueTimer_v2_C::BndEvt__CancelQueueButton_K2Node_ComponentBoundEvent_
 
 void UWBP_QueueTimer_v2_C::OnUpdateQueueTime(float TimeSecs)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.OnUpdateQueueTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.OnUpdateQueueTime");
 
 	struct
 	{
@@ -336,7 +336,7 @@ void UWBP_QueueTimer_v2_C::OnUpdateQueueTime(float TimeSecs)
 
 void UWBP_QueueTimer_v2_C::OnUpdateQueueTimerState(EQueueTimerState State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.OnUpdateQueueTimerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.OnUpdateQueueTimerState");
 
 	struct
 	{
@@ -356,7 +356,7 @@ void UWBP_QueueTimer_v2_C::OnUpdateQueueTimerState(EQueueTimerState State)
 
 void UWBP_QueueTimer_v2_C::OnControlQueuePermissionUpdate(bool CanControl)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.OnControlQueuePermissionUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.OnControlQueuePermissionUpdate");
 
 	struct
 	{
@@ -376,7 +376,7 @@ void UWBP_QueueTimer_v2_C::OnControlQueuePermissionUpdate(bool CanControl)
 
 void UWBP_QueueTimer_v2_C::ExecuteUbergraph_WBP_QueueTimer_v2(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.ExecuteUbergraph_WBP_QueueTimer_v2"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_QueueTimer_v2.WBP_QueueTimer_v2_C.ExecuteUbergraph_WBP_QueueTimer_v2");
 
 	struct
 	{

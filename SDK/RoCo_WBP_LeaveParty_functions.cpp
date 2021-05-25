@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_LeaveParty_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.NavigateConfirm");
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_LeaveParty_C::NavigateConfirm()
 
 void UWBP_LeaveParty_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> CurrentInputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.HandleInputStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.HandleInputStateChanged");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_LeaveParty_C::HandleInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> 
 
 void UWBP_LeaveParty_C::SocialLeavePartyHoverSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.SocialLeavePartyHoverSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.SocialLeavePartyHoverSFX");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_LeaveParty_C::SocialLeavePartyHoverSFX()
 
 void UWBP_LeaveParty_C::SocialLeavePartyClickSFX()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.SocialLeavePartyClickSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.SocialLeavePartyClickSFX");
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UWBP_LeaveParty_C::SocialLeavePartyClickSFX()
 
 void UWBP_LeaveParty_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.InitializeWidget");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_LeaveParty_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_LeaveParty_C::HandlePartyUpdated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.HandlePartyUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.HandlePartyUpdated");
 
 	struct
 	{
@@ -126,7 +126,7 @@ void UWBP_LeaveParty_C::HandlePartyUpdated()
 
 void UWBP_LeaveParty_C::CallLeaveParty()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.CallLeaveParty"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.CallLeaveParty");
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_LeaveParty_C::CallLeaveParty()
 
 void UWBP_LeaveParty_C::BndEvt__Button_101_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.BndEvt__Button_101_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.BndEvt__Button_101_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UWBP_LeaveParty_C::BndEvt__Button_101_K2Node_ComponentBoundEvent_0_OnButton
 
 void UWBP_LeaveParty_C::BndEvt__Button_101_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.BndEvt__Button_101_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.BndEvt__Button_101_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -174,7 +174,7 @@ void UWBP_LeaveParty_C::BndEvt__Button_101_K2Node_ComponentBoundEvent_1_OnButton
 
 void UWBP_LeaveParty_C::BndEvt__Button_101_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.BndEvt__Button_101_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.BndEvt__Button_101_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_LeaveParty_C::BndEvt__Button_101_K2Node_ComponentBoundEvent_2_OnButton
 
 void UWBP_LeaveParty_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.GamepadHover");
 
 	struct
 	{
@@ -206,7 +206,7 @@ void UWBP_LeaveParty_C::GamepadHover()
 
 void UWBP_LeaveParty_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.GamepadUnhover");
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_LeaveParty_C::GamepadUnhover()
 
 void UWBP_LeaveParty_C::ExecuteUbergraph_WBP_LeaveParty(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.ExecuteUbergraph_WBP_LeaveParty"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.ExecuteUbergraph_WBP_LeaveParty");
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UWBP_LeaveParty_C::ExecuteUbergraph_WBP_LeaveParty(int EntryPoint)
 
 void UWBP_LeaveParty_C::OnPartyLeaveVisibilityChange__DelegateSignature(bool Visible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_LeaveParty.WBP_LeaveParty_C.OnPartyLeaveVisibilityChange__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_LeaveParty.WBP_LeaveParty_C.OnPartyLeaveVisibilityChange__DelegateSignature");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueMasteryIcon_C::SetMasteryLevelExplicit(int CurrentLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryIcon.WBP_RogueMasteryIcon_C.SetMasteryLevelExplicit"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryIcon.WBP_RogueMasteryIcon_C.SetMasteryLevelExplicit");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_RogueMasteryIcon_C::SetMasteryLevelExplicit(int CurrentLevel)
 
 void UWBP_RogueMasteryIcon_C::SetMasteryLevelForJob(class UKSJobItem* JobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueMasteryIcon.WBP_RogueMasteryIcon_C.SetMasteryLevelForJob"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueMasteryIcon.WBP_RogueMasteryIcon_C.SetMasteryLevelForJob");
 
 	struct
 	{

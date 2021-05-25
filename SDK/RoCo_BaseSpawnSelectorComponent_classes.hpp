@@ -63,7 +63,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass BaseSpawnSelectorComponent.BaseSpawnSelectorComponent_C");
 		return ptr;
 	}
 

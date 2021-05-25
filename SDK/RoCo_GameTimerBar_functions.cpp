@@ -19,7 +19,7 @@ namespace SDK
 
 void UGameTimerBar_C::HandlePointBarType(ETopbarPointsBarType PointBarType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.HandlePointBarType"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.HandlePointBarType");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UGameTimerBar_C::HandlePointBarType(ETopbarPointsBarType PointBarType)
 
 void UGameTimerBar_C::SetTicketIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.SetTicketIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.SetTicketIcon");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UGameTimerBar_C::SetTicketIcon()
 
 void UGameTimerBar_C::ResetIntraScore()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.ResetIntraScore"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.ResetIntraScore");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UGameTimerBar_C::ResetIntraScore()
 
 void UGameTimerBar_C::SetIntraScoreIcons()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.SetIntraScoreIcons"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.SetIntraScoreIcons");
 
 	struct
 	{
@@ -94,7 +94,7 @@ void UGameTimerBar_C::SetIntraScoreIcons()
 
 void UGameTimerBar_C::SetGameBarFromComponent(class UTexture2D* ObjectiveIcon, bool UseProgressCircle, bool UseIntraScoring, class UTexture2D* ScoreIcon, ETopbarPointsBarType PointsBarType, bool UseTicketSystem, class UTexture2D* TicketIcon, ETopbarTicketDisplaySide TicketDisplaySide)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.SetGameBarFromComponent"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.SetGameBarFromComponent");
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UGameTimerBar_C::SetGameBarFromComponent(class UTexture2D* ObjectiveIcon, b
 
 void UGameTimerBar_C::HandleIntraGoalChanged(class AKSTeamState* TeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.HandleIntraGoalChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.HandleIntraGoalChanged");
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UGameTimerBar_C::HandleIntraGoalChanged(class AKSTeamState* TeamState)
 
 void UGameTimerBar_C::HandleIntraScoreChanged(class AKSTeamState* TeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.HandleIntraScoreChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.HandleIntraScoreChanged");
 
 	struct
 	{
@@ -166,7 +166,7 @@ void UGameTimerBar_C::HandleIntraScoreChanged(class AKSTeamState* TeamState)
 
 void UGameTimerBar_C::SetupIntraScoring()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.SetupIntraScoring"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.SetupIntraScoring");
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UGameTimerBar_C::SetupIntraScoring()
 
 void UGameTimerBar_C::HandleTicketDisplay(ETopbarTicketDisplaySide TicketDisplaySide)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.HandleTicketDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.HandleTicketDisplay");
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UGameTimerBar_C::HandleTicketDisplay(ETopbarTicketDisplaySide TicketDisplay
 
 void UGameTimerBar_C::OnTeamObjectiveRoleChanged(class AKSTeamState* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnTeamObjectiveRoleChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnTeamObjectiveRoleChanged");
 
 	struct
 	{
@@ -225,7 +225,7 @@ void UGameTimerBar_C::OnTeamObjectiveRoleChanged(class AKSTeamState* Team)
 
 void UGameTimerBar_C::Set_ObjectiveRole_Icon_for_Team(class UImage* Icon, class AKSTeamState* Team)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Set ObjectiveRole Icon for Team"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Set ObjectiveRole Icon for Team");
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UGameTimerBar_C::Set_ObjectiveRole_Icon_for_Team(class UImage* Icon, class 
 
 void UGameTimerBar_C::CheckTeamSides()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.CheckTeamSides"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.CheckTeamSides");
 
 	struct
 	{
@@ -261,7 +261,7 @@ void UGameTimerBar_C::CheckTeamSides()
 
 void UGameTimerBar_C::Bind_Player_State()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Bind Player State"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Bind Player State");
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UGameTimerBar_C::Bind_Player_State()
 
 void UGameTimerBar_C::ResetPlayerStates()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.ResetPlayerStates"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.ResetPlayerStates");
 
 	struct
 	{
@@ -295,7 +295,7 @@ void UGameTimerBar_C::ResetPlayerStates()
 
 void UGameTimerBar_C::OnTeamChanged(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnTeamChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnTeamChanged");
 
 	struct
 	{
@@ -313,7 +313,7 @@ void UGameTimerBar_C::OnTeamChanged(class AKSPlayerState* KSPlayerState)
 
 void UGameTimerBar_C::UpdateRoundNumberText()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.UpdateRoundNumberText"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.UpdateRoundNumberText");
 
 	struct
 	{
@@ -329,7 +329,7 @@ void UGameTimerBar_C::UpdateRoundNumberText()
 
 void UGameTimerBar_C::OnTotalRoundsSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnTotalRoundsSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnTotalRoundsSet");
 
 	struct
 	{
@@ -345,7 +345,7 @@ void UGameTimerBar_C::OnTotalRoundsSet()
 
 void UGameTimerBar_C::OnRoundsToWinSet()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnRoundsToWinSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnRoundsToWinSet");
 
 	struct
 	{
@@ -361,7 +361,7 @@ void UGameTimerBar_C::OnRoundsToWinSet()
 
 void UGameTimerBar_C::BindRoundEvents()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.BindRoundEvents"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.BindRoundEvents");
 
 	struct
 	{
@@ -379,7 +379,7 @@ void UGameTimerBar_C::BindRoundEvents()
 
 void UGameTimerBar_C::OnTeamScoreChanged(class AKSTeamState* KSTeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnTeamScoreChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnTeamScoreChanged");
 
 	struct
 	{
@@ -399,7 +399,7 @@ void UGameTimerBar_C::OnTeamScoreChanged(class AKSTeamState* KSTeamState)
 
 void UGameTimerBar_C::On_Team_Respawns_Changed(class AKSTeamState* KSTeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.On Team Respawns Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.On Team Respawns Changed");
 
 	struct
 	{
@@ -419,7 +419,7 @@ void UGameTimerBar_C::On_Team_Respawns_Changed(class AKSTeamState* KSTeamState)
 
 void UGameTimerBar_C::OnMemberRemoved(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnMemberRemoved"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnMemberRemoved");
 
 	struct
 	{
@@ -439,7 +439,7 @@ void UGameTimerBar_C::OnMemberRemoved(class AKSPlayerState* KSPlayerState)
 
 void UGameTimerBar_C::OnMemberAdded(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnMemberAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnMemberAdded");
 
 	struct
 	{
@@ -459,7 +459,7 @@ void UGameTimerBar_C::OnMemberAdded(class AKSPlayerState* KSPlayerState)
 
 void UGameTimerBar_C::OnTeamAdded(class AKSTeamState* KSTeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnTeamAdded"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnTeamAdded");
 
 	struct
 	{
@@ -477,7 +477,7 @@ void UGameTimerBar_C::OnTeamAdded(class AKSTeamState* KSTeamState)
 
 void UGameTimerBar_C::Bind_Team_Events()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Bind Team Events"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Bind Team Events");
 
 	struct
 	{
@@ -495,7 +495,7 @@ void UGameTimerBar_C::Bind_Team_Events()
 
 struct FText UGameTimerBar_C::GetRoundInProgressText()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.GetRoundInProgressText"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.GetRoundInProgressText");
 
 	struct
 	{
@@ -514,7 +514,7 @@ struct FText UGameTimerBar_C::GetRoundInProgressText()
 
 void UGameTimerBar_C::SetAttackDefendIcons()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.SetAttackDefendIcons"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.SetAttackDefendIcons");
 
 	struct
 	{
@@ -533,7 +533,7 @@ void UGameTimerBar_C::SetAttackDefendIcons()
 
 void UGameTimerBar_C::HandlePhaseChanged(const struct FName& NewPhase, const struct FName& PreviousPhase)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.HandlePhaseChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.HandlePhaseChanged");
 
 	struct
 	{
@@ -555,7 +555,7 @@ void UGameTimerBar_C::HandlePhaseChanged(const struct FName& NewPhase, const str
 
 void UGameTimerBar_C::PlayBombCountdownSFX(float Seconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.PlayBombCountdownSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.PlayBombCountdownSFX");
 
 	struct
 	{
@@ -575,7 +575,7 @@ void UGameTimerBar_C::PlayBombCountdownSFX(float Seconds)
 
 void UGameTimerBar_C::ShouldPlayCountdownSFX(bool* ShouldPlay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.ShouldPlayCountdownSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.ShouldPlayCountdownSFX");
 
 	struct
 	{
@@ -597,7 +597,7 @@ void UGameTimerBar_C::ShouldPlayCountdownSFX(bool* ShouldPlay)
 
 void UGameTimerBar_C::PlayFinalCountdownSFX(float Current_Second)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.PlayFinalCountdownSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.PlayFinalCountdownSFX");
 
 	struct
 	{
@@ -617,7 +617,7 @@ void UGameTimerBar_C::PlayFinalCountdownSFX(float Current_Second)
 
 void UGameTimerBar_C::Set_Timer_Text(float Seconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Set Timer Text"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Set Timer Text");
 
 	struct
 	{
@@ -637,7 +637,7 @@ void UGameTimerBar_C::Set_Timer_Text(float Seconds)
 
 void UGameTimerBar_C::Handle_Neutral_Bomb_State_Changed(const struct FKSNeutralBombState& BombState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Handle Neutral Bomb State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Neutral Bomb State Changed");
 
 	struct
 	{
@@ -655,7 +655,7 @@ void UGameTimerBar_C::Handle_Neutral_Bomb_State_Changed(const struct FKSNeutralB
 
 void UGameTimerBar_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Construct");
 
 	struct
 	{
@@ -674,7 +674,7 @@ void UGameTimerBar_C::Construct()
 
 void UGameTimerBar_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Tick");
 
 	struct
 	{
@@ -696,7 +696,7 @@ void UGameTimerBar_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime
 
 void UGameTimerBar_C::Handle_Timer_Second_Tick(float Seconds_Remaining)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Handle Timer Second Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Timer Second Tick");
 
 	struct
 	{
@@ -714,7 +714,7 @@ void UGameTimerBar_C::Handle_Timer_Second_Tick(float Seconds_Remaining)
 
 void UGameTimerBar_C::Handle_Round_Info_Changed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Handle Round Info Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Round Info Changed");
 
 	struct
 	{
@@ -730,7 +730,7 @@ void UGameTimerBar_C::Handle_Round_Info_Changed()
 
 void UGameTimerBar_C::Handle_Computers_Unlocked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Handle Computers Unlocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Computers Unlocked");
 
 	struct
 	{
@@ -748,7 +748,7 @@ void UGameTimerBar_C::Handle_Computers_Unlocked()
 
 void UGameTimerBar_C::Handle_Round_Start(const struct FRoundInitState& Round_Init_State)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Handle Round Start"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Round Start");
 
 	struct
 	{
@@ -768,7 +768,7 @@ void UGameTimerBar_C::Handle_Round_Start(const struct FRoundInitState& Round_Ini
 
 void UGameTimerBar_C::Handle_Computer_Update(class AKSObjectiveBase* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Handle Computer Update"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Computer Update");
 
 	struct
 	{
@@ -789,7 +789,7 @@ void UGameTimerBar_C::Handle_Computer_Update(class AKSObjectiveBase* Objective)
 
 void UGameTimerBar_C::Handle_Round_End(class AKSGameState* GameState, const struct FRoundResult& RoundResult)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Handle Round End"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Round End");
 
 	struct
 	{
@@ -811,7 +811,7 @@ void UGameTimerBar_C::Handle_Round_End(class AKSGameState* GameState, const stru
 
 void UGameTimerBar_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.InitializeWidget");
 
 	struct
 	{
@@ -831,7 +831,7 @@ void UGameTimerBar_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UGameTimerBar_C::HandleKillCamEnabled(bool bIsEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.HandleKillCamEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.HandleKillCamEnabled");
 
 	struct
 	{
@@ -849,7 +849,7 @@ void UGameTimerBar_C::HandleKillCamEnabled(bool bIsEnabled)
 
 void UGameTimerBar_C::HandleFadeAnimEnd()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.HandleFadeAnimEnd"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.HandleFadeAnimEnd");
 
 	struct
 	{
@@ -867,7 +867,7 @@ void UGameTimerBar_C::HandleFadeAnimEnd()
 
 void UGameTimerBar_C::OnUIRelevantPlayerStateChanged(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnUIRelevantPlayerStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnUIRelevantPlayerStateChanged");
 
 	struct
 	{
@@ -887,7 +887,7 @@ void UGameTimerBar_C::OnUIRelevantPlayerStateChanged(class AKSPlayerState* Playe
 
 void UGameTimerBar_C::OnControlPointUpdate(class AKSObjectiveBase* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnControlPointUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnControlPointUpdate");
 
 	struct
 	{
@@ -908,7 +908,7 @@ void UGameTimerBar_C::OnControlPointUpdate(class AKSObjectiveBase* Objective)
 
 void UGameTimerBar_C::OnControlPointScored(class AKSTeamState* TeamState, class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.OnControlPointScored"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnControlPointScored");
 
 	struct
 	{
@@ -930,7 +930,7 @@ void UGameTimerBar_C::OnControlPointScored(class AKSTeamState* TeamState, class 
 
 void UGameTimerBar_C::Handle_Attacking_Team_Updated(class AKSTeamState* NewTeam)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Handle Attacking Team Updated"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Attacking Team Updated");
 
 	struct
 	{
@@ -948,7 +948,7 @@ void UGameTimerBar_C::Handle_Attacking_Team_Updated(class AKSTeamState* NewTeam)
 
 void UGameTimerBar_C::Deferred_Game_State_Open()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Deferred Game State Open"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Deferred Game State Open");
 
 	struct
 	{
@@ -964,7 +964,7 @@ void UGameTimerBar_C::Deferred_Game_State_Open()
 
 void UGameTimerBar_C::Deferred_Bind_Computer_Open()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.Deferred Bind Computer Open"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Deferred Bind Computer Open");
 
 	struct
 	{
@@ -980,7 +980,7 @@ void UGameTimerBar_C::Deferred_Bind_Computer_Open()
 
 void UGameTimerBar_C::DeferredPlayerStateOpen()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.DeferredPlayerStateOpen"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.DeferredPlayerStateOpen");
 
 	struct
 	{
@@ -996,7 +996,7 @@ void UGameTimerBar_C::DeferredPlayerStateOpen()
 
 void UGameTimerBar_C::UnbindControlPointDelegates()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.UnbindControlPointDelegates"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.UnbindControlPointDelegates");
 
 	struct
 	{
@@ -1014,7 +1014,7 @@ void UGameTimerBar_C::UnbindControlPointDelegates()
 
 void UGameTimerBar_C::ScorePeriodElapsed(class AKSControlPoint* ControlPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.ScorePeriodElapsed"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.ScorePeriodElapsed");
 
 	struct
 	{
@@ -1032,7 +1032,7 @@ void UGameTimerBar_C::ScorePeriodElapsed(class AKSControlPoint* ControlPoint)
 
 void UGameTimerBar_C::StopTickCaptureProgress()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.StopTickCaptureProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.StopTickCaptureProgress");
 
 	struct
 	{
@@ -1048,7 +1048,7 @@ void UGameTimerBar_C::StopTickCaptureProgress()
 
 void UGameTimerBar_C::TickCaptureProgress()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.TickCaptureProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.TickCaptureProgress");
 
 	struct
 	{
@@ -1064,7 +1064,7 @@ void UGameTimerBar_C::TickCaptureProgress()
 
 void UGameTimerBar_C::DeferredBindControlPointOpen()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.DeferredBindControlPointOpen"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.DeferredBindControlPointOpen");
 
 	struct
 	{
@@ -1080,7 +1080,7 @@ void UGameTimerBar_C::DeferredBindControlPointOpen()
 
 void UGameTimerBar_C::DeferredLocalTeamOpen()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.DeferredLocalTeamOpen"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.DeferredLocalTeamOpen");
 
 	struct
 	{
@@ -1098,7 +1098,7 @@ void UGameTimerBar_C::DeferredLocalTeamOpen()
 
 void UGameTimerBar_C::ExecuteUbergraph_GameTimerBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTimerBar.GameTimerBar_C.ExecuteUbergraph_GameTimerBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.ExecuteUbergraph_GameTimerBar");
 
 	struct
 	{

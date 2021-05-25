@@ -17,7 +17,7 @@ namespace SDK
 
 void UJobSelectionPhaseRule_QuickTest_C::HandlePhaseStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function JobSelectionPhaseRule_QuickTest.JobSelectionPhaseRule_QuickTest_C.HandlePhaseStarted"));
+	static auto fn = UObject::FindObject<UFunction>("Function JobSelectionPhaseRule_QuickTest.JobSelectionPhaseRule_QuickTest_C.HandlePhaseStarted");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UJobSelectionPhaseRule_QuickTest_C::HandlePhaseStarted()
 
 void UJobSelectionPhaseRule_QuickTest_C::PhaseTimerExpired(const struct FName& PhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function JobSelectionPhaseRule_QuickTest.JobSelectionPhaseRule_QuickTest_C.PhaseTimerExpired"));
+	static auto fn = UObject::FindObject<UFunction>("Function JobSelectionPhaseRule_QuickTest.JobSelectionPhaseRule_QuickTest_C.PhaseTimerExpired");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UJobSelectionPhaseRule_QuickTest_C::PhaseTimerExpired(const struct FName& P
 
 void UJobSelectionPhaseRule_QuickTest_C::ExecuteUbergraph_JobSelectionPhaseRule_QuickTest(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function JobSelectionPhaseRule_QuickTest.JobSelectionPhaseRule_QuickTest_C.ExecuteUbergraph_JobSelectionPhaseRule_QuickTest"));
+	static auto fn = UObject::FindObject<UFunction>("Function JobSelectionPhaseRule_QuickTest.JobSelectionPhaseRule_QuickTest_C.ExecuteUbergraph_JobSelectionPhaseRule_QuickTest");
 
 	struct
 	{

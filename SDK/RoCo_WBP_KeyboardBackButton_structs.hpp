@@ -7,10 +7,10 @@
 #endif
 
 #include "RoCo_Basic.hpp"
-#include "RoCo_UISoundLibraries_classes.hpp"
 #include "RoCo_AkAudio_classes.hpp"
 #include "RoCo_UMG_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
+#include "RoCo_UISoundLibraries_classes.hpp"
 
 namespace SDK
 {

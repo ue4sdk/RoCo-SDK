@@ -19,7 +19,7 @@ namespace SDK
 
 ESlateVisibility UStandardContainer_C::EvaluateHeaderVisibility()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardContainer.StandardContainer_C.EvaluateHeaderVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardContainer.StandardContainer_C.EvaluateHeaderVisibility");
 
 	struct
 	{
@@ -40,7 +40,7 @@ ESlateVisibility UStandardContainer_C::EvaluateHeaderVisibility()
 
 ESlateVisibility UStandardContainer_C::EvaluateCloseButtonVisibility()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardContainer.StandardContainer_C.EvaluateCloseButtonVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardContainer.StandardContainer_C.EvaluateCloseButtonVisibility");
 
 	struct
 	{
@@ -61,7 +61,7 @@ ESlateVisibility UStandardContainer_C::EvaluateCloseButtonVisibility()
 
 void UStandardContainer_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardContainer.StandardContainer_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardContainer.StandardContainer_C.PreConstruct");
 
 	struct
 	{
@@ -79,7 +79,7 @@ void UStandardContainer_C::PreConstruct(bool IsDesignTime)
 
 void UStandardContainer_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardContainer.StandardContainer_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardContainer.StandardContainer_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_7_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UStandardContainer_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_7_OnBu
 
 void UStandardContainer_C::ExecuteUbergraph_StandardContainer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardContainer.StandardContainer_C.ExecuteUbergraph_StandardContainer"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardContainer.StandardContainer_C.ExecuteUbergraph_StandardContainer");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UStandardContainer_C::ExecuteUbergraph_StandardContainer(int EntryPoint)
 
 void UStandardContainer_C::OnContainerClose__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardContainer.StandardContainer_C.OnContainerClose__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardContainer.StandardContainer_C.OnContainerClose__DelegateSignature");
 
 	struct
 	{

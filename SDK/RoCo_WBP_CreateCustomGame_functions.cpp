@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_CreateCustomGame_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.Handle Input State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.Handle Input State Changed");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_CreateCustomGame_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPU
 
 struct FEventReply UWBP_CreateCustomGame_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnKeyUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnKeyUp");
 
 	struct
 	{
@@ -67,7 +67,7 @@ struct FEventReply UWBP_CreateCustomGame_C::OnKeyUp(const struct FGeometry& MyGe
 
 void UWBP_CreateCustomGame_C::GetQueueImageById(int QueueId, class UTexture2D** QueueImage)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.GetQueueImageById"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.GetQueueImageById");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_CreateCustomGame_C::GetQueueImageById(int QueueId, class UTexture2D** 
 
 void UWBP_CreateCustomGame_C::SetupQueueInfoPanel(const struct FClientQueueInfo& ClientQueueInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.SetupQueueInfoPanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.SetupQueueInfoPanel");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_CreateCustomGame_C::SetupQueueInfoPanel(const struct FClientQueueInfo&
 
 void UWBP_CreateCustomGame_C::OnLobbyCreated(int QueueId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnLobbyCreated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnLobbyCreated");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_CreateCustomGame_C::OnLobbyCreated(int QueueId)
 
 void UWBP_CreateCustomGame_C::OnLobbyCanceled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnLobbyCanceled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnLobbyCanceled");
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UWBP_CreateCustomGame_C::OnLobbyCanceled()
 
 void UWBP_CreateCustomGame_C::SetupConfirmation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.SetupConfirmation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.SetupConfirmation");
 
 	struct
 	{
@@ -164,7 +164,7 @@ void UWBP_CreateCustomGame_C::SetupConfirmation()
 
 void UWBP_CreateCustomGame_C::ShowConfirmation(int QueueId, int MapId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.ShowConfirmation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.ShowConfirmation");
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UWBP_CreateCustomGame_C::ShowConfirmation(int QueueId, int MapId)
 
 void UWBP_CreateCustomGame_C::BindConfirmationNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.BindConfirmationNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.BindConfirmationNavigation");
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_CreateCustomGame_C::BindConfirmationNavigation()
 
 void UWBP_CreateCustomGame_C::GoToLastScreen()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.GoToLastScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.GoToLastScreen");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_CreateCustomGame_C::GoToLastScreen()
 
 bool UWBP_CreateCustomGame_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.NavigateBack");
 
 	struct
 	{
@@ -241,7 +241,7 @@ bool UWBP_CreateCustomGame_C::NavigateBack()
 
 struct FEventReply UWBP_CreateCustomGame_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnKeyDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnKeyDown");
 
 	struct
 	{
@@ -264,7 +264,7 @@ struct FEventReply UWBP_CreateCustomGame_C::OnKeyDown(const struct FGeometry& My
 
 void UWBP_CreateCustomGame_C::OnPreviousTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnPreviousTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnPreviousTab");
 
 	struct
 	{
@@ -280,7 +280,7 @@ void UWBP_CreateCustomGame_C::OnPreviousTab()
 
 void UWBP_CreateCustomGame_C::OnNextTab()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnNextTab"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnNextTab");
 
 	struct
 	{
@@ -298,7 +298,7 @@ void UWBP_CreateCustomGame_C::OnNextTab()
 
 void UWBP_CreateCustomGame_C::SetNavigation(int NumColumns)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.SetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.SetNavigation");
 
 	struct
 	{
@@ -316,7 +316,7 @@ void UWBP_CreateCustomGame_C::SetNavigation(int NumColumns)
 
 void UWBP_CreateCustomGame_C::ResetMapSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.ResetMapSelection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.ResetMapSelection");
 
 	struct
 	{
@@ -334,7 +334,7 @@ void UWBP_CreateCustomGame_C::ResetMapSelection()
 
 void UWBP_CreateCustomGame_C::OnMapSelected(int MapId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnMapSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnMapSelected");
 
 	struct
 	{
@@ -354,7 +354,7 @@ void UWBP_CreateCustomGame_C::OnMapSelected(int MapId)
 
 void UWBP_CreateCustomGame_C::OnTabSelected(int ButtonIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnTabSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnTabSelected");
 
 	struct
 	{
@@ -372,7 +372,7 @@ void UWBP_CreateCustomGame_C::OnTabSelected(int ButtonIndex)
 
 void UWBP_CreateCustomGame_C::Setup_Custom_Tabs()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.Setup Custom Tabs"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.Setup Custom Tabs");
 
 	struct
 	{
@@ -388,7 +388,7 @@ void UWBP_CreateCustomGame_C::Setup_Custom_Tabs()
 
 void UWBP_CreateCustomGame_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.Construct");
 
 	struct
 	{
@@ -406,7 +406,7 @@ void UWBP_CreateCustomGame_C::Construct()
 
 void UWBP_CreateCustomGame_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.InitializeWidget");
 
 	struct
 	{
@@ -424,7 +424,7 @@ void UWBP_CreateCustomGame_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CreateCustomGame_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -442,7 +442,7 @@ void UWBP_CreateCustomGame_C::InitializeWidgetNavigation()
 
 void UWBP_CreateCustomGame_C::CheckIsInCustomMatch(EPUMG_MatchStatus MatchStatus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.CheckIsInCustomMatch"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.CheckIsInCustomMatch");
 
 	struct
 	{
@@ -460,7 +460,7 @@ void UWBP_CreateCustomGame_C::CheckIsInCustomMatch(EPUMG_MatchStatus MatchStatus
 
 void UWBP_CreateCustomGame_C::OnButtonsCreated()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnButtonsCreated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnButtonsCreated");
 
 	struct
 	{
@@ -476,7 +476,7 @@ void UWBP_CreateCustomGame_C::OnButtonsCreated()
 
 void UWBP_CreateCustomGame_C::OnBackButtonClicked()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnBackButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnBackButtonClicked");
 
 	struct
 	{
@@ -492,7 +492,7 @@ void UWBP_CreateCustomGame_C::OnBackButtonClicked()
 
 void UWBP_CreateCustomGame_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnHide");
 
 	struct
 	{
@@ -508,7 +508,7 @@ void UWBP_CreateCustomGame_C::OnHide()
 
 void UWBP_CreateCustomGame_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.OnShown");
 
 	struct
 	{
@@ -526,7 +526,7 @@ void UWBP_CreateCustomGame_C::OnShown()
 
 void UWBP_CreateCustomGame_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.PreConstruct");
 
 	struct
 	{
@@ -544,7 +544,7 @@ void UWBP_CreateCustomGame_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_CreateCustomGame_C::HandleMapScrollChange()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.HandleMapScrollChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.HandleMapScrollChange");
 
 	struct
 	{
@@ -563,7 +563,7 @@ void UWBP_CreateCustomGame_C::HandleMapScrollChange()
 
 void UWBP_CreateCustomGame_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.Tick");
 
 	struct
 	{
@@ -585,7 +585,7 @@ void UWBP_CreateCustomGame_C::Tick(const struct FGeometry& MyGeometry, float InD
 
 void UWBP_CreateCustomGame_C::ExecuteUbergraph_WBP_CreateCustomGame(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.ExecuteUbergraph_WBP_CreateCustomGame"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CreateCustomGame.WBP_CreateCustomGame_C.ExecuteUbergraph_WBP_CreateCustomGame");
 
 	struct
 	{

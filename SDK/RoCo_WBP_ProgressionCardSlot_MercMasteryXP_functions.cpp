@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_ProgressionCardSlot_MercMasteryXP_C::SetColor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.SetColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.SetColor");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_ProgressionCardSlot_MercMasteryXP_C::SetColor()
 
 void UWBP_ProgressionCardSlot_MercMasteryXP_C::ProcessPlayerProgression(const struct FPlayerProgression& PlayerProgress)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.ProcessPlayerProgression"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.ProcessPlayerProgression");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_ProgressionCardSlot_MercMasteryXP_C::ProcessPlayerProgression(const st
 
 void UWBP_ProgressionCardSlot_MercMasteryXP_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.PreConstruct");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_ProgressionCardSlot_MercMasteryXP_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ProgressionCardSlot_MercMasteryXP_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.Construct");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_ProgressionCardSlot_MercMasteryXP_C::Construct()
 
 void UWBP_ProgressionCardSlot_MercMasteryXP_C::Event_On_Level_Up(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.Event On Level Up"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.Event On Level Up");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_ProgressionCardSlot_MercMasteryXP_C::Event_On_Level_Up(int NewLevel)
 
 void UWBP_ProgressionCardSlot_MercMasteryXP_C::ExecuteUbergraph_WBP_ProgressionCardSlot_MercMasteryXP(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.ExecuteUbergraph_WBP_ProgressionCardSlot_MercMasteryXP"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.ExecuteUbergraph_WBP_ProgressionCardSlot_MercMasteryXP");
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_ProgressionCardSlot_MercMasteryXP_C::ExecuteUbergraph_WBP_ProgressionC
 
 void UWBP_ProgressionCardSlot_MercMasteryXP_C::OnMercLevelUp__DelegateSignature(class UKSActivityInstance* ActivityInstance, const struct FActivityTier& NewTier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.OnMercLevelUp__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot_MercMasteryXP.WBP_ProgressionCardSlot_MercMasteryXP_C.OnMercLevelUp__DelegateSignature");
 
 	struct
 	{

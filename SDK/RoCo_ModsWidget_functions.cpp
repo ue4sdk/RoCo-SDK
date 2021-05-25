@@ -19,7 +19,7 @@ namespace SDK
 
 class UOverlay* UModsWidget_C::GetOverlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function ModsWidget.ModsWidget_C.GetOverlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function ModsWidget.ModsWidget_C.GetOverlay");
 
 	struct
 	{

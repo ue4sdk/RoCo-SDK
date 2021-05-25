@@ -19,7 +19,7 @@ namespace SDK
 
 bool UWBP_Challenge_Renderer_C::NavigateConfirmPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.NavigateConfirmPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.NavigateConfirmPressed");
 
 	struct
 	{
@@ -40,7 +40,7 @@ bool UWBP_Challenge_Renderer_C::NavigateConfirmPressed()
 
 void UWBP_Challenge_Renderer_C::SetRewardDisplay(const struct FActivityTier& ActivityTier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.SetRewardDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.SetRewardDisplay");
 
 	struct
 	{
@@ -60,7 +60,7 @@ void UWBP_Challenge_Renderer_C::SetRewardDisplay(const struct FActivityTier& Act
 
 void UWBP_Challenge_Renderer_C::SetChallengeInformation(class UKSActivityInstance* ActivityInstance)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.SetChallengeInformation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.SetChallengeInformation");
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UWBP_Challenge_Renderer_C::SetChallengeInformation(class UKSActivityInstanc
 
 void UWBP_Challenge_Renderer_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.PreConstruct");
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_Challenge_Renderer_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_Challenge_Renderer_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -114,7 +114,7 @@ void UWBP_Challenge_Renderer_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent_
 
 void UWBP_Challenge_Renderer_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_3_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_Challenge_Renderer_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent_
 
 void UWBP_Challenge_Renderer_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__RerollButton_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -146,7 +146,7 @@ void UWBP_Challenge_Renderer_C::BndEvt__RerollButton_K2Node_ComponentBoundEvent_
 
 void UWBP_Challenge_Renderer_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_6_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UWBP_Challenge_Renderer_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_6
 
 void UWBP_Challenge_Renderer_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.GamepadHover");
 
 	struct
 	{
@@ -178,7 +178,7 @@ void UWBP_Challenge_Renderer_C::GamepadHover()
 
 void UWBP_Challenge_Renderer_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.GamepadUnhover");
 
 	struct
 	{
@@ -196,7 +196,7 @@ void UWBP_Challenge_Renderer_C::GamepadUnhover()
 
 void UWBP_Challenge_Renderer_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.InitializeWidget");
 
 	struct
 	{
@@ -214,7 +214,7 @@ void UWBP_Challenge_Renderer_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Challenge_Renderer_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -230,7 +230,7 @@ void UWBP_Challenge_Renderer_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_0
 
 void UWBP_Challenge_Renderer_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.BndEvt__HoverButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -248,7 +248,7 @@ void UWBP_Challenge_Renderer_C::BndEvt__HoverButton_K2Node_ComponentBoundEvent_1
 
 void UWBP_Challenge_Renderer_C::ExecuteUbergraph_WBP_Challenge_Renderer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.ExecuteUbergraph_WBP_Challenge_Renderer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.ExecuteUbergraph_WBP_Challenge_Renderer");
 
 	struct
 	{
@@ -268,7 +268,7 @@ void UWBP_Challenge_Renderer_C::ExecuteUbergraph_WBP_Challenge_Renderer(int Entr
 
 void UWBP_Challenge_Renderer_C::DisplayRerollPrompt__DelegateSignature(bool Show)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.DisplayRerollPrompt__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Challenge_Renderer.WBP_Challenge_Renderer_C.DisplayRerollPrompt__DelegateSignature");
 
 	struct
 	{

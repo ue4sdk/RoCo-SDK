@@ -19,7 +19,7 @@ namespace SDK
 
 void UPlayerHealthMeterSegment_C::SequenceEvent__ENTRYPOINTPlayerHealthMeterSegment_2(class UOverlay* SliceImmuneOverlay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SequenceEvent__ENTRYPOINTPlayerHealthMeterSegment_2"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SequenceEvent__ENTRYPOINTPlayerHealthMeterSegment_2");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UPlayerHealthMeterSegment_C::SequenceEvent__ENTRYPOINTPlayerHealthMeterSegm
 
 void UPlayerHealthMeterSegment_C::SequenceEvent__ENTRYPOINTPlayerHealthMeterSegment_1(class UOverlay* SliceImmuneOverlay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SequenceEvent__ENTRYPOINTPlayerHealthMeterSegment_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SequenceEvent__ENTRYPOINTPlayerHealthMeterSegment_1");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UPlayerHealthMeterSegment_C::SequenceEvent__ENTRYPOINTPlayerHealthMeterSegm
 
 void UPlayerHealthMeterSegment_C::SetIsDowned(bool IsDowned)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetIsDowned"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetIsDowned");
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UPlayerHealthMeterSegment_C::SetIsDowned(bool IsDowned)
 
 void UPlayerHealthMeterSegment_C::SetImmune(bool bEnabled, bool bImmediate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetImmune"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetImmune");
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UPlayerHealthMeterSegment_C::SetImmune(bool bEnabled, bool bImmediate)
 
 void UPlayerHealthMeterSegment_C::SetDotVisibility(bool IsVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetDotVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetDotVisibility");
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UPlayerHealthMeterSegment_C::SetDotVisibility(bool IsVisible)
 
 void UPlayerHealthMeterSegment_C::PlayDamagePulse()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.PlayDamagePulse"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.PlayDamagePulse");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UPlayerHealthMeterSegment_C::PlayDamagePulse()
 
 void UPlayerHealthMeterSegment_C::SetBonusState(bool IsBonus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetBonusState"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetBonusState");
 
 	struct
 	{
@@ -162,7 +162,7 @@ void UPlayerHealthMeterSegment_C::SetBonusState(bool IsBonus)
 
 void UPlayerHealthMeterSegment_C::SetSliceValues(int Health, int Armor, int Overheal, int Depleted, int Inactive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetSliceValues"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetSliceValues");
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UPlayerHealthMeterSegment_C::SetSliceValues(int Health, int Armor, int Over
 
 void UPlayerHealthMeterSegment_C::OnDisableImmuneParams(class UOverlay* SliceImmuneOverlay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.OnDisableImmuneParams"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.OnDisableImmuneParams");
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UPlayerHealthMeterSegment_C::OnDisableImmuneParams(class UOverlay* SliceImm
 
 void UPlayerHealthMeterSegment_C::OnEnableImmuneParams(class UOverlay* SliceImmuneOverlay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.OnEnableImmuneParams"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.OnEnableImmuneParams");
 
 	struct
 	{
@@ -230,7 +230,7 @@ void UPlayerHealthMeterSegment_C::OnEnableImmuneParams(class UOverlay* SliceImmu
 
 void UPlayerHealthMeterSegment_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.PreConstruct");
 
 	struct
 	{
@@ -250,7 +250,7 @@ void UPlayerHealthMeterSegment_C::PreConstruct(bool IsDesignTime)
 
 void UPlayerHealthMeterSegment_C::ExecuteUbergraph_PlayerHealthMeterSegment(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.ExecuteUbergraph_PlayerHealthMeterSegment"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.ExecuteUbergraph_PlayerHealthMeterSegment");
 
 	struct
 	{

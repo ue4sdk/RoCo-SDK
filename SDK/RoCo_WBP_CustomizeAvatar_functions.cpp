@@ -21,7 +21,7 @@ namespace SDK
 
 bool UWBP_CustomizeAvatar_C::OnSortRarityDescNameAsc(class UWidget* LHS, class UWidget* RHS)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnSortRarityDescNameAsc"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnSortRarityDescNameAsc");
 
 	struct
 	{
@@ -46,7 +46,7 @@ bool UWBP_CustomizeAvatar_C::OnSortRarityDescNameAsc(class UWidget* LHS, class U
 
 bool UWBP_CustomizeAvatar_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.NavigateBack");
 
 	struct
 	{
@@ -69,7 +69,7 @@ bool UWBP_CustomizeAvatar_C::NavigateBack()
 
 struct FEventReply UWBP_CustomizeAvatar_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnKeyDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnKeyDown");
 
 	struct
 	{
@@ -92,7 +92,7 @@ struct FEventReply UWBP_CustomizeAvatar_C::OnKeyDown(const struct FGeometry& MyG
 
 void UWBP_CustomizeAvatar_C::AddEmptySlots()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.AddEmptySlots"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.AddEmptySlots");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UWBP_CustomizeAvatar_C::AddEmptySlots()
 
 void UWBP_CustomizeAvatar_C::SetActiveStates(class UWBP_CosmeticItem_Avatar_C* ActiveWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.SetActiveStates"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.SetActiveStates");
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UWBP_CustomizeAvatar_C::SetActiveStates(class UWBP_CosmeticItem_Avatar_C* A
 
 void UWBP_CustomizeAvatar_C::RegisterNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.RegisterNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.RegisterNavigation");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_CustomizeAvatar_C::RegisterNavigation()
 
 void UWBP_CustomizeAvatar_C::IsAvatarItemEquipped(class UKSItem* KSItem, bool* IsEquipped)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.IsAvatarItemEquipped"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.IsAvatarItemEquipped");
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_CustomizeAvatar_C::IsAvatarItemEquipped(class UKSItem* KSItem, bool* I
 
 void UWBP_CustomizeAvatar_C::ResetAvatarSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.ResetAvatarSelection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.ResetAvatarSelection");
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UWBP_CustomizeAvatar_C::ResetAvatarSelection()
 
 void UWBP_CustomizeAvatar_C::SetContextBar()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.SetContextBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.SetContextBar");
 
 	struct
 	{
@@ -201,7 +201,7 @@ void UWBP_CustomizeAvatar_C::SetContextBar()
 
 void UWBP_CustomizeAvatar_C::SetAvatarSelection()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.SetAvatarSelection"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.SetAvatarSelection");
 
 	struct
 	{
@@ -217,7 +217,7 @@ void UWBP_CustomizeAvatar_C::SetAvatarSelection()
 
 void UWBP_CustomizeAvatar_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnShown");
 
 	struct
 	{
@@ -233,7 +233,7 @@ void UWBP_CustomizeAvatar_C::OnShown()
 
 void UWBP_CustomizeAvatar_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnBackPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnBackPrompt");
 
 	struct
 	{
@@ -249,7 +249,7 @@ void UWBP_CustomizeAvatar_C::OnBackPrompt()
 
 void UWBP_CustomizeAvatar_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -267,7 +267,7 @@ void UWBP_CustomizeAvatar_C::InitializeWidgetNavigation()
 
 void UWBP_CustomizeAvatar_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.InitializeWidget");
 
 	struct
 	{
@@ -287,7 +287,7 @@ void UWBP_CustomizeAvatar_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_CustomizeAvatar_C::OnAvatarHover(class UPlatformInventoryItem* PlatformItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnAvatarHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnAvatarHover");
 
 	struct
 	{
@@ -305,7 +305,7 @@ void UWBP_CustomizeAvatar_C::OnAvatarHover(class UPlatformInventoryItem* Platfor
 
 void UWBP_CustomizeAvatar_C::OnAvatarUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnAvatarUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnAvatarUnhover");
 
 	struct
 	{
@@ -324,7 +324,7 @@ void UWBP_CustomizeAvatar_C::OnAvatarUnhover()
 
 void UWBP_CustomizeAvatar_C::OnAvatarSelected(class UPlatformInventoryItem* PlatformItem, class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnAvatarSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnAvatarSelected");
 
 	struct
 	{
@@ -347,7 +347,7 @@ void UWBP_CustomizeAvatar_C::OnAvatarSelected(class UPlatformInventoryItem* Plat
 
 void UWBP_CustomizeAvatar_C::OnAvatarGamepadHover(class UPUMG_Widget* Widget, bool bHovered)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnAvatarGamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnAvatarGamepadHover");
 
 	struct
 	{
@@ -367,7 +367,7 @@ void UWBP_CustomizeAvatar_C::OnAvatarGamepadHover(class UPUMG_Widget* Widget, bo
 
 void UWBP_CustomizeAvatar_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.OnHide");
 
 	struct
 	{
@@ -385,7 +385,7 @@ void UWBP_CustomizeAvatar_C::OnHide()
 
 void UWBP_CustomizeAvatar_C::ExecuteUbergraph_WBP_CustomizeAvatar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.ExecuteUbergraph_WBP_CustomizeAvatar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_CustomizeAvatar.WBP_CustomizeAvatar_C.ExecuteUbergraph_WBP_CustomizeAvatar");
 
 	struct
 	{

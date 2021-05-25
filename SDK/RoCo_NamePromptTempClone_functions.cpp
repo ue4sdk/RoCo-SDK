@@ -20,7 +20,7 @@ namespace SDK
 
 void UNamePromptTempClone_C::BndEvt__PlayerName_K2Node_ComponentBoundEvent_0_OnEditableTextBoxCommittedEvent__DelegateSignature(const struct FText& Text, TEnumAsByte<ETextCommit> CommitMethod)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NamePromptTempClone.NamePromptTempClone_C.BndEvt__PlayerName_K2Node_ComponentBoundEvent_0_OnEditableTextBoxCommittedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function NamePromptTempClone.NamePromptTempClone_C.BndEvt__PlayerName_K2Node_ComponentBoundEvent_0_OnEditableTextBoxCommittedEvent__DelegateSignature");
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UNamePromptTempClone_C::BndEvt__PlayerName_K2Node_ComponentBoundEvent_0_OnE
 
 void UNamePromptTempClone_C::BndEvt__PopupButton_C_370_K2Node_ComponentBoundEvent_25_OnClicked__DelegateSignature(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NamePromptTempClone.NamePromptTempClone_C.BndEvt__PopupButton_C_370_K2Node_ComponentBoundEvent_25_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function NamePromptTempClone.NamePromptTempClone_C.BndEvt__PopupButton_C_370_K2Node_ComponentBoundEvent_25_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UNamePromptTempClone_C::BndEvt__PopupButton_C_370_K2Node_ComponentBoundEven
 
 void UNamePromptTempClone_C::HandleErrorMessage(const struct FText& MessageText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NamePromptTempClone.NamePromptTempClone_C.HandleErrorMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function NamePromptTempClone.NamePromptTempClone_C.HandleErrorMessage");
 
 	struct
 	{
@@ -82,7 +82,7 @@ void UNamePromptTempClone_C::HandleErrorMessage(const struct FText& MessageText)
 
 void UNamePromptTempClone_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NamePromptTempClone.NamePromptTempClone_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function NamePromptTempClone.NamePromptTempClone_C.InitializeWidget");
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UNamePromptTempClone_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UNamePromptTempClone_C::ExecuteUbergraph_NamePromptTempClone(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NamePromptTempClone.NamePromptTempClone_C.ExecuteUbergraph_NamePromptTempClone"));
+	static auto fn = UObject::FindObject<UFunction>("Function NamePromptTempClone.NamePromptTempClone_C.ExecuteUbergraph_NamePromptTempClone");
 
 	struct
 	{

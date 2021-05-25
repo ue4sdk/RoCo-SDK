@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ProgressionTally_C::SetPlayerProgression(const struct FPlayerProgression& PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionTally.WBP_ProgressionTally_C.SetPlayerProgression"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionTally.WBP_ProgressionTally_C.SetPlayerProgression");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_ProgressionTally_C::SetPlayerProgression(const struct FPlayerProgressi
 
 void UWBP_ProgressionTally_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionTally.WBP_ProgressionTally_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionTally.WBP_ProgressionTally_C.PreConstruct");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_ProgressionTally_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ProgressionTally_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionTally.WBP_ProgressionTally_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionTally.WBP_ProgressionTally_C.Construct");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_ProgressionTally_C::Construct()
 
 void UWBP_ProgressionTally_C::ExecuteUbergraph_WBP_ProgressionTally(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionTally.WBP_ProgressionTally_C.ExecuteUbergraph_WBP_ProgressionTally"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionTally.WBP_ProgressionTally_C.ExecuteUbergraph_WBP_ProgressionTally");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ProgressionCardSlot_C::SetRankedVisualDisplay(TEnumAsByte<E_RankedTiers> RankTier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.SetRankedVisualDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.SetRankedVisualDisplay");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_ProgressionCardSlot_C::SetRankedVisualDisplay(TEnumAsByte<E_RankedTier
 
 void UWBP_ProgressionCardSlot_C::SetInitialState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.SetInitialState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.SetInitialState");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_ProgressionCardSlot_C::SetInitialState()
 
 void UWBP_ProgressionCardSlot_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.Construct");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_ProgressionCardSlot_C::Construct()
 
 void UWBP_ProgressionCardSlot_C::AnimateIn(float Delay)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.AnimateIn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.AnimateIn");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_ProgressionCardSlot_C::AnimateIn(float Delay)
 
 void UWBP_ProgressionCardSlot_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.PreConstruct");
 
 	struct
 	{
@@ -112,7 +112,7 @@ void UWBP_ProgressionCardSlot_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ProgressionCardSlot_C::OnMercMasteryLevelUp(class UKSActivityInstance* ActivityInstance, const struct FActivityTier& NewTier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.OnMercMasteryLevelUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.OnMercMasteryLevelUp");
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UWBP_ProgressionCardSlot_C::OnMercMasteryLevelUp(class UKSActivityInstance*
 
 void UWBP_ProgressionCardSlot_C::OnRankTierSet(TEnumAsByte<E_RankedTiers> RankTier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.OnRankTierSet"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.OnRankTierSet");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_ProgressionCardSlot_C::OnRankTierSet(TEnumAsByte<E_RankedTiers> RankTi
 
 void UWBP_ProgressionCardSlot_C::StartAnimTimerComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.StartAnimTimerComplete"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.StartAnimTimerComplete");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_ProgressionCardSlot_C::StartAnimTimerComplete()
 
 void UWBP_ProgressionCardSlot_C::ExecuteUbergraph_WBP_ProgressionCardSlot(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.ExecuteUbergraph_WBP_ProgressionCardSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.ExecuteUbergraph_WBP_ProgressionCardSlot");
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_ProgressionCardSlot_C::ExecuteUbergraph_WBP_ProgressionCardSlot(int En
 
 void UWBP_ProgressionCardSlot_C::StartAnimation__DelegateSignature(int CurrencyEarned)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.StartAnimation__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ProgressionCardSlot.WBP_ProgressionCardSlot_C.StartAnimation__DelegateSignature");
 
 	struct
 	{

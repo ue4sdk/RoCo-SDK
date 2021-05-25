@@ -29,7 +29,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass NamePromptTempClone.NamePromptTempClone_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass NamePromptTempClone.NamePromptTempClone_C");
 		return ptr;
 	}
 

@@ -22,7 +22,7 @@ namespace SDK
 
 void ULoginDownloadProgressBar_C::Make_Progress_Text(float Percent, float Seconds, bool Supports_ETA, struct FText* Text)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.Make Progress Text"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.Make Progress Text");
 
 	struct
 	{
@@ -48,7 +48,7 @@ void ULoginDownloadProgressBar_C::Make_Progress_Text(float Percent, float Second
 
 void ULoginDownloadProgressBar_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.Construct");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void ULoginDownloadProgressBar_C::Construct()
 
 void ULoginDownloadProgressBar_C::UpdatedDownloadProgress(float Progress, float Total, float Eta, bool bSupportsEta)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.UpdatedDownloadProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.UpdatedDownloadProgress");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void ULoginDownloadProgressBar_C::UpdatedDownloadProgress(float Progress, float 
 
 void ULoginDownloadProgressBar_C::UpdateFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.UpdateFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.UpdateFinished");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void ULoginDownloadProgressBar_C::UpdateFinished()
 
 void ULoginDownloadProgressBar_C::ExecuteUbergraph_LoginDownloadProgressBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.ExecuteUbergraph_LoginDownloadProgressBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function LoginDownloadProgressBar.LoginDownloadProgressBar_C.ExecuteUbergraph_LoginDownloadProgressBar");
 
 	struct
 	{

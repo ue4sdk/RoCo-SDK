@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_OrdinalNumberText_C::Get_Language_Specific_Superscript_Text(const struct FString& Language_Code, struct FText* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.Get Language Specific Superscript Text"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.Get Language Specific Superscript Text");
 
 	struct
 	{
@@ -45,7 +45,7 @@ void UWBP_OrdinalNumberText_C::Get_Language_Specific_Superscript_Text(const stru
 
 void UWBP_OrdinalNumberText_C::Get_Language_Specific_Main_Text(const struct FString& Language_Code, struct FText* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.Get Language Specific Main Text"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.Get Language Specific Main Text");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_OrdinalNumberText_C::Get_Language_Specific_Main_Text(const struct FStr
 
 void UWBP_OrdinalNumberText_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.PreConstruct");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_OrdinalNumberText_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_OrdinalNumberText_C::Set_Font(const struct FSlateFontInfo& InFontInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.Set Font"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.Set Font");
 
 	struct
 	{
@@ -109,7 +109,7 @@ void UWBP_OrdinalNumberText_C::Set_Font(const struct FSlateFontInfo& InFontInfo)
 
 void UWBP_OrdinalNumberText_C::Set_Value(int Number)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.Set Value"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.Set Value");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_OrdinalNumberText_C::Set_Value(int Number)
 
 void UWBP_OrdinalNumberText_C::ExecuteUbergraph_WBP_OrdinalNumberText(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.ExecuteUbergraph_WBP_OrdinalNumberText"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_OrdinalNumberText.WBP_OrdinalNumberText_C.ExecuteUbergraph_WBP_OrdinalNumberText");
 
 	struct
 	{

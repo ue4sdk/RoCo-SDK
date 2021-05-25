@@ -20,7 +20,7 @@ namespace SDK
 
 void ABP_GameHUDNew_C::AddHudWidgetToScreen(class UUserWidget* Widget, int ZOrder)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.AddHudWidgetToScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.AddHudWidgetToScreen");
 
 	struct
 	{
@@ -42,7 +42,7 @@ void ABP_GameHUDNew_C::AddHudWidgetToScreen(class UUserWidget* Widget, int ZOrde
 
 void ABP_GameHUDNew_C::FocusFirstFocusableWidget(TArray<class UPUMG_Widget*>* PUMG_Widgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.FocusFirstFocusableWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.FocusFirstFocusableWidget");
 
 	struct
 	{
@@ -64,7 +64,7 @@ void ABP_GameHUDNew_C::FocusFirstFocusableWidget(TArray<class UPUMG_Widget*>* PU
 
 void ABP_GameHUDNew_C::GetFocusableWidgets(TArray<class UPUMG_Widget*>* FocusableWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.GetFocusableWidgets"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.GetFocusableWidgets");
 
 	struct
 	{
@@ -86,7 +86,7 @@ void ABP_GameHUDNew_C::GetFocusableWidgets(TArray<class UPUMG_Widget*>* Focusabl
 
 class UKSContextBarWidget* ABP_GameHUDNew_C::GetContextBarWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.GetContextBarWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.GetContextBarWidget");
 
 	struct
 	{
@@ -107,7 +107,7 @@ class UKSContextBarWidget* ABP_GameHUDNew_C::GetContextBarWidget()
 
 void ABP_GameHUDNew_C::ToggleWatermarkDisplay(bool Show)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.ToggleWatermarkDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.ToggleWatermarkDisplay");
 
 	struct
 	{
@@ -128,7 +128,7 @@ void ABP_GameHUDNew_C::ToggleWatermarkDisplay(bool Show)
 
 void ABP_GameHUDNew_C::GetAsyncWidgetsForString(const struct FString& String, TArray<class UUserWidget*>* UserWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.GetAsyncWidgetsForString"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.GetAsyncWidgetsForString");
 
 	struct
 	{
@@ -150,7 +150,7 @@ void ABP_GameHUDNew_C::GetAsyncWidgetsForString(const struct FString& String, TA
 
 void ABP_GameHUDNew_C::SetupJobSelectionManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.SetupJobSelectionManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.SetupJobSelectionManager");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void ABP_GameHUDNew_C::SetupJobSelectionManager()
 
 class UPUMG_PopupManager* ABP_GameHUDNew_C::GetPopupManager()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.GetPopupManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.GetPopupManager");
 
 	struct
 	{
@@ -189,7 +189,7 @@ class UPUMG_PopupManager* ABP_GameHUDNew_C::GetPopupManager()
 
 void ABP_GameHUDNew_C::OnLoaded_9A584D3E423F982EA7A073A29FBFC2FD(class UClass* Loaded)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OnLoaded_9A584D3E423F982EA7A073A29FBFC2FD"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnLoaded_9A584D3E423F982EA7A073A29FBFC2FD");
 
 	struct
 	{
@@ -207,7 +207,7 @@ void ABP_GameHUDNew_C::OnLoaded_9A584D3E423F982EA7A073A29FBFC2FD(class UClass* L
 
 void ABP_GameHUDNew_C::ReceiveBeginPlay()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.ReceiveBeginPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.ReceiveBeginPlay");
 
 	struct
 	{
@@ -223,7 +223,7 @@ void ABP_GameHUDNew_C::ReceiveBeginPlay()
 
 void ABP_GameHUDNew_C::HandleReturnToHomeClick()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.HandleReturnToHomeClick"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.HandleReturnToHomeClick");
 
 	struct
 	{
@@ -239,7 +239,7 @@ void ABP_GameHUDNew_C::HandleReturnToHomeClick()
 
 void ABP_GameHUDNew_C::OnShowHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OnShowHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnShowHUD");
 
 	struct
 	{
@@ -255,7 +255,7 @@ void ABP_GameHUDNew_C::OnShowHUD()
 
 void ABP_GameHUDNew_C::OnHideHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OnHideHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnHideHUD");
 
 	struct
 	{
@@ -271,7 +271,7 @@ void ABP_GameHUDNew_C::OnHideHUD()
 
 void ABP_GameHUDNew_C::Spawn_Tutorial_Widget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.Spawn Tutorial Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.Spawn Tutorial Widget");
 
 	struct
 	{
@@ -287,7 +287,7 @@ void ABP_GameHUDNew_C::Spawn_Tutorial_Widget()
 
 void ABP_GameHUDNew_C::OnToggleHUD()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OnToggleHUD"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnToggleHUD");
 
 	struct
 	{
@@ -305,7 +305,7 @@ void ABP_GameHUDNew_C::OnToggleHUD()
 
 void ABP_GameHUDNew_C::OnToggleTopBar(bool ShouldShow)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OnToggleTopBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnToggleTopBar");
 
 	struct
 	{
@@ -325,7 +325,7 @@ void ABP_GameHUDNew_C::OnToggleTopBar(bool ShouldShow)
 
 void ABP_GameHUDNew_C::SetHUDVisible(bool bVisible)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.SetHUDVisible"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.SetHUDVisible");
 
 	struct
 	{
@@ -345,7 +345,7 @@ void ABP_GameHUDNew_C::SetHUDVisible(bool bVisible)
 
 void ABP_GameHUDNew_C::CreateGameRuleWidget(const struct FKSWidgetInfoParams& WidgetInfoParams)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.CreateGameRuleWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.CreateGameRuleWidget");
 
 	struct
 	{
@@ -365,7 +365,7 @@ void ABP_GameHUDNew_C::CreateGameRuleWidget(const struct FKSWidgetInfoParams& Wi
 
 void ABP_GameHUDNew_C::BroadcastWidgetMessage(const struct FName& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.BroadcastWidgetMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.BroadcastWidgetMessage");
 
 	struct
 	{
@@ -385,7 +385,7 @@ void ABP_GameHUDNew_C::BroadcastWidgetMessage(const struct FName& Message)
 
 void ABP_GameHUDNew_C::BindEventToWidgetMessages(const struct FScriptDelegate& Callback)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.BindEventToWidgetMessages"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.BindEventToWidgetMessages");
 
 	struct
 	{
@@ -406,7 +406,7 @@ void ABP_GameHUDNew_C::BindEventToWidgetMessages(const struct FScriptDelegate& C
 
 void ABP_GameHUDNew_C::HandleOnPhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.HandleOnPhaseChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.HandleOnPhaseChanged");
 
 	struct
 	{
@@ -428,7 +428,7 @@ void ABP_GameHUDNew_C::HandleOnPhaseChanged(const struct FName& NewPhaseName, co
 
 void ABP_GameHUDNew_C::HandleOpenTextChat(bool BeginChatCommand)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.HandleOpenTextChat"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.HandleOpenTextChat");
 
 	struct
 	{
@@ -446,7 +446,7 @@ void ABP_GameHUDNew_C::HandleOpenTextChat(bool BeginChatCommand)
 
 void ABP_GameHUDNew_C::DisplayWatermark()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.DisplayWatermark"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.DisplayWatermark");
 
 	struct
 	{
@@ -466,7 +466,7 @@ void ABP_GameHUDNew_C::DisplayWatermark()
 
 void ABP_GameHUDNew_C::OnAsyncWidgetInfoLoaded(class UClass* LoadedClass, const struct FString& ParentWidget, class AKSWidgetInfoActor* WidgetInfoActor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OnAsyncWidgetInfoLoaded"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnAsyncWidgetInfoLoaded");
 
 	struct
 	{
@@ -490,7 +490,7 @@ void ABP_GameHUDNew_C::OnAsyncWidgetInfoLoaded(class UClass* LoadedClass, const 
 
 void ABP_GameHUDNew_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OpenTextChatToPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OpenTextChatToPlayer");
 
 	struct
 	{
@@ -510,7 +510,7 @@ void ABP_GameHUDNew_C::OpenTextChatToPlayer(class UPUMG_PlayerInfo* Player)
 
 void ABP_GameHUDNew_C::ApplySafeFrameScale(float SafeFrameScale)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.ApplySafeFrameScale"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.ApplySafeFrameScale");
 
 	struct
 	{
@@ -532,7 +532,7 @@ void ABP_GameHUDNew_C::ApplySafeFrameScale(float SafeFrameScale)
 
 void ABP_GameHUDNew_C::NetworkLagStateChanged(class UWorld* World, class UNetDriver* NetDriver, TEnumAsByte<ENetworkLagState> LagType)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.NetworkLagStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.NetworkLagStateChanged");
 
 	struct
 	{
@@ -554,7 +554,7 @@ void ABP_GameHUDNew_C::NetworkLagStateChanged(class UWorld* World, class UNetDri
 
 void ABP_GameHUDNew_C::SetUIFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.SetUIFocus"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.SetUIFocus");
 
 	struct
 	{
@@ -572,7 +572,7 @@ void ABP_GameHUDNew_C::SetUIFocus()
 
 void ABP_GameHUDNew_C::Play_Cinematic_Nameplate_Anim(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.Play Cinematic Nameplate Anim"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.Play Cinematic Nameplate Anim");
 
 	struct
 	{
@@ -593,7 +593,7 @@ void ABP_GameHUDNew_C::Play_Cinematic_Nameplate_Anim(int Index)
 
 void ABP_GameHUDNew_C::Set_Cinematic_Nameplate_Data(class UKSPersistentPlayerData* Player_Data, int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.Set Cinematic Nameplate Data"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.Set Cinematic Nameplate Data");
 
 	struct
 	{
@@ -613,7 +613,7 @@ void ABP_GameHUDNew_C::Set_Cinematic_Nameplate_Data(class UKSPersistentPlayerDat
 
 void ABP_GameHUDNew_C::EvaluateFocus()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.EvaluateFocus"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.EvaluateFocus");
 
 	struct
 	{
@@ -634,7 +634,7 @@ void ABP_GameHUDNew_C::EvaluateFocus()
 
 void ABP_GameHUDNew_C::Init_WalkIn_Widget(class AKSJobSelectPreviewActor* In_Player_01, class AKSJobSelectPreviewActor* In_Player_02, class AKSJobSelectPreviewActor* In_Player_03, class AKSJobSelectPreviewActor* In_Player_04)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.Init WalkIn Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.Init WalkIn Widget");
 
 	struct
 	{
@@ -660,7 +660,7 @@ void ABP_GameHUDNew_C::Init_WalkIn_Widget(class AKSJobSelectPreviewActor* In_Pla
 
 void ABP_GameHUDNew_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.ReceiveEndPlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.ReceiveEndPlay");
 
 	struct
 	{
@@ -680,7 +680,7 @@ void ABP_GameHUDNew_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason)
 
 void ABP_GameHUDNew_C::ExecuteUbergraph_BP_GameHUDNew(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.ExecuteUbergraph_BP_GameHUDNew"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.ExecuteUbergraph_BP_GameHUDNew");
 
 	struct
 	{
@@ -698,7 +698,7 @@ void ABP_GameHUDNew_C::ExecuteUbergraph_BP_GameHUDNew(int EntryPoint)
 
 void ABP_GameHUDNew_C::OnHUDReady__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OnHUDReady__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnHUDReady__DelegateSignature");
 
 	struct
 	{
@@ -717,7 +717,7 @@ void ABP_GameHUDNew_C::OnHUDReady__DelegateSignature()
 
 void ABP_GameHUDNew_C::OnRuleWidgetCreated__DelegateSignature(class UUserWidget* UserWidget, const struct FString& Placement)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OnRuleWidgetCreated__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnRuleWidgetCreated__DelegateSignature");
 
 	struct
 	{
@@ -739,7 +739,7 @@ void ABP_GameHUDNew_C::OnRuleWidgetCreated__DelegateSignature(class UUserWidget*
 
 void ABP_GameHUDNew_C::HUDMessage__DelegateSignature(const struct FName& Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.HUDMessage__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.HUDMessage__DelegateSignature");
 
 	struct
 	{
@@ -759,7 +759,7 @@ void ABP_GameHUDNew_C::HUDMessage__DelegateSignature(const struct FName& Message
 
 void ABP_GameHUDNew_C::OnSwimmingChanged__DelegateSignature(bool IsSwimming)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_GameHUDNew.BP_GameHUDNew_C.OnSwimmingChanged__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnSwimmingChanged__DelegateSignature");
 
 	struct
 	{

@@ -20,7 +20,7 @@ namespace SDK
 
 void UAllyMarker_C::View_SetSelfPingIcon(EPingType bpp__PingType__pf, EPingMessage bpp__PingMessage__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.View_SetSelfPingIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.View_SetSelfPingIcon");
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UAllyMarker_C::View_SetSelfPingIcon(EPingType bpp__PingType__pf, EPingMessa
 
 void UAllyMarker_C::View_SetRevivePercent(float bpp__PercentValue__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.View_SetRevivePercent"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.View_SetRevivePercent");
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UAllyMarker_C::View_SetRevivePercent(float bpp__PercentValue__pf)
 
 void UAllyMarker_C::View_SetNameText(const struct FText& bpp__NameText__pf__const)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.View_SetNameText"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.View_SetNameText");
 
 	struct
 	{
@@ -84,7 +84,7 @@ void UAllyMarker_C::View_SetNameText(const struct FText& bpp__NameText__pf__cons
 
 void UAllyMarker_C::View_SetMode(EAllyMarkerState bpp__AllyMarkerState__pf, bool bpp__HasObjective__pf, bool bpp__HasSelfPing__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.View_SetMode"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.View_SetMode");
 
 	struct
 	{
@@ -108,7 +108,7 @@ void UAllyMarker_C::View_SetMode(EAllyMarkerState bpp__AllyMarkerState__pf, bool
 
 void UAllyMarker_C::View_SetJob(class UKSJobItem* bpp__Job__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.View_SetJob"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.View_SetJob");
 
 	struct
 	{
@@ -128,7 +128,7 @@ void UAllyMarker_C::View_SetJob(class UKSJobItem* bpp__Job__pf)
 
 void UAllyMarker_C::View_SetHealthPercent(float bpp__PercentValue__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.View_SetHealthPercent"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.View_SetHealthPercent");
 
 	struct
 	{
@@ -148,7 +148,7 @@ void UAllyMarker_C::View_SetHealthPercent(float bpp__PercentValue__pf)
 
 void UAllyMarker_C::View_AcknowledgeSelfPing(class AKSPlayerState* bpp__AcknowledingPlayer__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.View_AcknowledgeSelfPing"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.View_AcknowledgeSelfPing");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UAllyMarker_C::View_AcknowledgeSelfPing(class AKSPlayerState* bpp__Acknowle
 
 void UAllyMarker_C::SetMarkerFromGameState(class UTexture2D* bpp__ObjectiveMarker__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.SetMarkerFromGameState"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.SetMarkerFromGameState");
 
 	struct
 	{
@@ -186,7 +186,7 @@ void UAllyMarker_C::SetMarkerFromGameState(class UTexture2D* bpp__ObjectiveMarke
 
 void UAllyMarker_C::Refresh_Screen_Region_Behavior()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.Refresh Screen Region Behavior"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.Refresh Screen Region Behavior");
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UAllyMarker_C::Refresh_Screen_Region_Behavior()
 
 void UAllyMarker_C::PreConstruct(bool bpp__IsDesignTime__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.PreConstruct");
 
 	struct
 	{
@@ -222,7 +222,7 @@ void UAllyMarker_C::PreConstruct(bool bpp__IsDesignTime__pf)
 
 void UAllyMarker_C::HandleMapIconWidgetReady()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.HandleMapIconWidgetReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.HandleMapIconWidgetReady");
 
 	struct
 	{
@@ -240,7 +240,7 @@ void UAllyMarker_C::HandleMapIconWidgetReady()
 
 void UAllyMarker_C::HandleGameObjectiveStateChanged(const TScriptInterface<class UKSObjective>& bpp__GameObjective__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.HandleGameObjectiveStateChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.HandleGameObjectiveStateChanged");
 
 	struct
 	{
@@ -260,7 +260,7 @@ void UAllyMarker_C::HandleGameObjectiveStateChanged(const TScriptInterface<class
 
 void UAllyMarker_C::HandleCrackStateActiviationChanged(bool bpp__Active__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.HandleCrackStateActiviationChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.HandleCrackStateActiviationChanged");
 
 	struct
 	{
@@ -280,7 +280,7 @@ void UAllyMarker_C::HandleCrackStateActiviationChanged(bool bpp__Active__pf)
 
 void UAllyMarker_C::ExecuteUbergraph_AllyMarker_6(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.ExecuteUbergraph_AllyMarker_6"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.ExecuteUbergraph_AllyMarker_6");
 
 	struct
 	{
@@ -298,7 +298,7 @@ void UAllyMarker_C::ExecuteUbergraph_AllyMarker_6(int bpp__EntryPoint__pf)
 
 void UAllyMarker_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.Construct");
 
 	struct
 	{
@@ -316,7 +316,7 @@ void UAllyMarker_C::Construct()
 
 void UAllyMarker_C::ChangeOwnerContentVisibility(bool bpp__bVisible__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.ChangeOwnerContentVisibility"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.ChangeOwnerContentVisibility");
 
 	struct
 	{
@@ -337,7 +337,7 @@ void UAllyMarker_C::ChangeOwnerContentVisibility(bool bpp__bVisible__pf)
 
 void UAllyMarker_C::ArrowPosition(float bpp__Angle__pf, struct FVector2D* bpp__ReturnxValue__pfT)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function AllyMarker.AllyMarker_C.ArrowPosition"));
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.ArrowPosition");
 
 	struct
 	{
@@ -359,7 +359,7 @@ void UAllyMarker_C::ArrowPosition(float bpp__Angle__pf, struct FVector2D* bpp__R
 
 void UAllyMarker_C::OnMapIconWidgetReady__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AllyMarker.AllyMarker_C.OnMapIconWidgetReady__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMarker.AllyMarker_C.OnMapIconWidgetReady__DelegateSignature");
 
 	struct
 	{
@@ -377,7 +377,7 @@ void UAllyMarker_C::OnMapIconWidgetReady__DelegateSignature()
 
 void UAllyMarker_C::OnGameObjectiveChanged__DelegateSignature(const TScriptInterface<class UKSObjective>& bpp__GameObjective__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AllyMarker.AllyMarker_C.OnGameObjectiveChanged__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMarker.AllyMarker_C.OnGameObjectiveChanged__DelegateSignature");
 
 	struct
 	{
@@ -397,7 +397,7 @@ void UAllyMarker_C::OnGameObjectiveChanged__DelegateSignature(const TScriptInter
 
 void UAllyMarker_C::OnGameModeModActivationChange__DelegateSignature(bool bpp__IsActive__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("DelegateFunction AllyMarker.AllyMarker_C.OnGameModeModActivationChange__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMarker.AllyMarker_C.OnGameModeModActivationChange__DelegateSignature");
 
 	struct
 	{

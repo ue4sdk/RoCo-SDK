@@ -19,7 +19,7 @@ namespace SDK
 
 void UWorldMessages_C::PlayCombatLogSFX(const struct FScreenLogData& ScreenLogData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.PlayCombatLogSFX"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.PlayCombatLogSFX");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWorldMessages_C::PlayCombatLogSFX(const struct FScreenLogData& ScreenLogDa
 
 void UWorldMessages_C::CreateFrontQueuedMessage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.CreateFrontQueuedMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.CreateFrontQueuedMessage");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWorldMessages_C::CreateFrontQueuedMessage()
 
 void UWorldMessages_C::GetPooledMessage(class UCombatLogElement_C** Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.GetPooledMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.GetPooledMessage");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWorldMessages_C::GetPooledMessage(class UCombatLogElement_C** Message)
 
 void UWorldMessages_C::ReturnPooledMessage(class UCombatLogElement_C* Message)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.ReturnPooledMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.ReturnPooledMessage");
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWorldMessages_C::ReturnPooledMessage(class UCombatLogElement_C* Message)
 
 void UWorldMessages_C::SFXKillFeed_Down(class APlayerState* Victim, class APlayerState* Instigator)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.SFXKillFeed_Down"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.SFXKillFeed_Down");
 
 	struct
 	{
@@ -121,7 +121,7 @@ void UWorldMessages_C::SFXKillFeed_Down(class APlayerState* Victim, class APlaye
 
 void UWorldMessages_C::SFXKillFeed_Elim(class APlayerState* Victim, class APlayerState* Instigator)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.SFXKillFeed_Elim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.SFXKillFeed_Elim");
 
 	struct
 	{
@@ -141,7 +141,7 @@ void UWorldMessages_C::SFXKillFeed_Elim(class APlayerState* Victim, class APlaye
 
 void UWorldMessages_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.Construct");
 
 	struct
 	{
@@ -159,7 +159,7 @@ void UWorldMessages_C::Construct()
 
 void UWorldMessages_C::DeathMessage(const struct FCombatEventInfo& EventInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.DeathMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.DeathMessage");
 
 	struct
 	{
@@ -180,7 +180,7 @@ void UWorldMessages_C::DeathMessage(const struct FCombatEventInfo& EventInfo)
 
 void UWorldMessages_C::DownMessage(const struct FCombatEventInfo& EventInfo, int ExpBonus)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.DownMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.DownMessage");
 
 	struct
 	{
@@ -202,7 +202,7 @@ void UWorldMessages_C::DownMessage(const struct FCombatEventInfo& EventInfo, int
 
 void UWorldMessages_C::ResetMessages(const struct FRoundInitState& RoundInitState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.ResetMessages"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.ResetMessages");
 
 	struct
 	{
@@ -223,7 +223,7 @@ void UWorldMessages_C::ResetMessages(const struct FRoundInitState& RoundInitStat
 
 void UWorldMessages_C::OnRoundOver(class AKSGameState* GameState, const struct FRoundResult& RoundResult)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.OnRoundOver"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.OnRoundOver");
 
 	struct
 	{
@@ -245,7 +245,7 @@ void UWorldMessages_C::OnRoundOver(class AKSGameState* GameState, const struct F
 
 void UWorldMessages_C::OnKillCamEnabled(bool bEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.OnKillCamEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.OnKillCamEnabled");
 
 	struct
 	{
@@ -265,7 +265,7 @@ void UWorldMessages_C::OnKillCamEnabled(bool bEnabled)
 
 void UWorldMessages_C::OnKillCamViewedPawn(class APawn* Pawn)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.OnKillCamViewedPawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.OnKillCamViewedPawn");
 
 	struct
 	{
@@ -283,7 +283,7 @@ void UWorldMessages_C::OnKillCamViewedPawn(class APawn* Pawn)
 
 void UWorldMessages_C::HandleQueuedMessage()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.HandleQueuedMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.HandleQueuedMessage");
 
 	struct
 	{
@@ -301,7 +301,7 @@ void UWorldMessages_C::HandleQueuedMessage()
 
 void UWorldMessages_C::RadialMenuItemMessage(const struct FRadialMenuItemEventInfo& EventInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.RadialMenuItemMessage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.RadialMenuItemMessage");
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UWorldMessages_C::RadialMenuItemMessage(const struct FRadialMenuItemEventIn
 
 void UWorldMessages_C::ExecuteUbergraph_WorldMessages(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WorldMessages.WorldMessages_C.ExecuteUbergraph_WorldMessages"));
+	static auto fn = UObject::FindObject<UFunction>("Function WorldMessages.WorldMessages_C.ExecuteUbergraph_WorldMessages");
 
 	struct
 	{

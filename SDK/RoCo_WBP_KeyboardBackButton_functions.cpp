@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_KeyboardBackButton_C::BndEvt__Button_253_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KeyboardBackButton.WBP_KeyboardBackButton_C.BndEvt__Button_253_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KeyboardBackButton.WBP_KeyboardBackButton_C.BndEvt__Button_253_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_KeyboardBackButton_C::BndEvt__Button_253_K2Node_ComponentBoundEvent_0_
 
 void UWBP_KeyboardBackButton_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KeyboardBackButton.WBP_KeyboardBackButton_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KeyboardBackButton.WBP_KeyboardBackButton_C.BndEvt__BackButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_KeyboardBackButton_C::BndEvt__BackButton_K2Node_ComponentBoundEvent_1_
 
 void UWBP_KeyboardBackButton_C::ExecuteUbergraph_WBP_KeyboardBackButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KeyboardBackButton.WBP_KeyboardBackButton_C.ExecuteUbergraph_WBP_KeyboardBackButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KeyboardBackButton.WBP_KeyboardBackButton_C.ExecuteUbergraph_WBP_KeyboardBackButton");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_KeyboardBackButton_C::ExecuteUbergraph_WBP_KeyboardBackButton(int Entr
 
 void UWBP_KeyboardBackButton_C::OnBackButtonClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_KeyboardBackButton.WBP_KeyboardBackButton_C.OnBackButtonClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KeyboardBackButton.WBP_KeyboardBackButton_C.OnBackButtonClicked__DelegateSignature");
 
 	struct
 	{

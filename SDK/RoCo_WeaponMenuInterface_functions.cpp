@@ -19,7 +19,7 @@ namespace SDK
 
 void UWeaponMenuInterface_C::Close(bool Should_Cancel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WeaponMenuInterface.WeaponMenuInterface_C.Close"));
+	static auto fn = UObject::FindObject<UFunction>("Function WeaponMenuInterface.WeaponMenuInterface_C.Close");
 
 	struct
 	{

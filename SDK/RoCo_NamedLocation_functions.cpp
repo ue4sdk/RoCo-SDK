@@ -17,7 +17,7 @@ namespace SDK
 
 void ANamedLocation_C::UserConstructionScript()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function NamedLocation.NamedLocation_C.UserConstructionScript"));
+	static auto fn = UObject::FindObject<UFunction>("Function NamedLocation.NamedLocation_C.UserConstructionScript");
 
 	struct
 	{

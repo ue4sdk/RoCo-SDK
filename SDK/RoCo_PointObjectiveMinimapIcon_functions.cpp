@@ -19,7 +19,7 @@ namespace SDK
 
 void UPointObjectiveMinimapIcon_C::IsKOTHGameState(bool* IsKOTHGameState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.IsKOTHGameState"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.IsKOTHGameState");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UPointObjectiveMinimapIcon_C::IsKOTHGameState(bool* IsKOTHGameState)
 
 ESlateVisibility UPointObjectiveMinimapIcon_C::Update()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.Update"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.Update");
 
 	struct
 	{
@@ -62,7 +62,7 @@ ESlateVisibility UPointObjectiveMinimapIcon_C::Update()
 
 bool UPointObjectiveMinimapIcon_C::ShouldUpdate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.ShouldUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.ShouldUpdate");
 
 	struct
 	{
@@ -83,7 +83,7 @@ bool UPointObjectiveMinimapIcon_C::ShouldUpdate()
 
 void UPointObjectiveMinimapIcon_C::Update_From_Objective(class AKSObjectiveBase* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.Update From Objective"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.Update From Objective");
 
 	struct
 	{
@@ -101,7 +101,7 @@ void UPointObjectiveMinimapIcon_C::Update_From_Objective(class AKSObjectiveBase*
 
 void UPointObjectiveMinimapIcon_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.Construct");
 
 	struct
 	{
@@ -120,7 +120,7 @@ void UPointObjectiveMinimapIcon_C::Construct()
 
 void UPointObjectiveMinimapIcon_C::UpdateMeetsHeightThreshold(bool bHeight, bool bDepth)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.UpdateMeetsHeightThreshold"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.UpdateMeetsHeightThreshold");
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UPointObjectiveMinimapIcon_C::UpdateMeetsHeightThreshold(bool bHeight, bool
 
 void UPointObjectiveMinimapIcon_C::ExecuteUbergraph_PointObjectiveMinimapIcon(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.ExecuteUbergraph_PointObjectiveMinimapIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMinimapIcon.PointObjectiveMinimapIcon_C.ExecuteUbergraph_PointObjectiveMinimapIcon");
 
 	struct
 	{

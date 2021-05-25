@@ -19,7 +19,7 @@ namespace SDK
 
 void UPointObjectiveMarker_C::IsKOTHGameState(bool* IsKOTHGameState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.IsKOTHGameState"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.IsKOTHGameState");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UPointObjectiveMarker_C::IsKOTHGameState(bool* IsKOTHGameState)
 
 void UPointObjectiveMarker_C::PlayerIsBlinded(bool* IsBlinded)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.PlayerIsBlinded"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.PlayerIsBlinded");
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UPointObjectiveMarker_C::PlayerIsBlinded(bool* IsBlinded)
 
 void UPointObjectiveMarker_C::UpdateControlPointScoreProgress(class AKSControlPoint* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateControlPointScoreProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateControlPointScoreProgress");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UPointObjectiveMarker_C::UpdateControlPointScoreProgress(class AKSControlPo
 
 void UPointObjectiveMarker_C::UpdateControlPointCaptureProgress(class AKSControlPoint* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateControlPointCaptureProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateControlPointCaptureProgress");
 
 	struct
 	{
@@ -103,7 +103,7 @@ void UPointObjectiveMarker_C::UpdateControlPointCaptureProgress(class AKSControl
 
 void UPointObjectiveMarker_C::UpdateControlPointState(class AKSObjectiveBase* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateControlPointState"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateControlPointState");
 
 	struct
 	{
@@ -123,7 +123,7 @@ void UPointObjectiveMarker_C::UpdateControlPointState(class AKSObjectiveBase* Ob
 
 void UPointObjectiveMarker_C::SetContestedColor(EPointObjectiveMarkerTeamState ObjectiveState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.SetContestedColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.SetContestedColor");
 
 	struct
 	{
@@ -145,7 +145,7 @@ void UPointObjectiveMarker_C::SetContestedColor(EPointObjectiveMarkerTeamState O
 
 void UPointObjectiveMarker_C::GetOwningTeamColor(class AKSObjectiveBase* Objective, struct FLinearColor* OwningTeamColor, struct FLinearColor* OpposingTeamColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.GetOwningTeamColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.GetOwningTeamColor");
 
 	struct
 	{
@@ -172,7 +172,7 @@ void UPointObjectiveMarker_C::GetOwningTeamColor(class AKSObjectiveBase* Objecti
 
 ESlateVisibility UPointObjectiveMarker_C::Update()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.Update"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.Update");
 
 	struct
 	{
@@ -194,7 +194,7 @@ ESlateVisibility UPointObjectiveMarker_C::Update()
 
 void UPointObjectiveMarker_C::Get_Neutral_Color(float Opacity, struct FLinearColor* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.Get Neutral Color"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.Get Neutral Color");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UPointObjectiveMarker_C::Get_Neutral_Color(float Opacity, struct FLinearCol
 
 void UPointObjectiveMarker_C::ViewSetCaptureProgress(float ProgressPercent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.ViewSetCaptureProgress"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.ViewSetCaptureProgress");
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UPointObjectiveMarker_C::ViewSetCaptureProgress(float ProgressPercent)
 
 void UPointObjectiveMarker_C::SetView(const struct FKSPointObjectiveMarkerViewState& ViewState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.SetView"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.SetView");
 
 	struct
 	{
@@ -258,7 +258,7 @@ void UPointObjectiveMarker_C::SetView(const struct FKSPointObjectiveMarkerViewSt
 
 void UPointObjectiveMarker_C::SetScreenRegion(EIconMarkerScreenRegion ScreenRegion)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.SetScreenRegion"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.SetScreenRegion");
 
 	struct
 	{
@@ -278,7 +278,7 @@ void UPointObjectiveMarker_C::SetScreenRegion(EIconMarkerScreenRegion ScreenRegi
 
 void UPointObjectiveMarker_C::SetArrowAngle(float Angle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.SetArrowAngle"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.SetArrowAngle");
 
 	struct
 	{
@@ -299,7 +299,7 @@ void UPointObjectiveMarker_C::SetArrowAngle(float Angle)
 
 void UPointObjectiveMarker_C::ViewApplyTimerValue(float TimerSeconds, float TotalTimerSeconds)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyTimerValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyTimerValue");
 
 	struct
 	{
@@ -321,7 +321,7 @@ void UPointObjectiveMarker_C::ViewApplyTimerValue(float TimerSeconds, float Tota
 
 void UPointObjectiveMarker_C::UpdateMetersAway(int Meters)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateMetersAway"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateMetersAway");
 
 	struct
 	{
@@ -339,7 +339,7 @@ void UPointObjectiveMarker_C::UpdateMetersAway(int Meters)
 
 void UPointObjectiveMarker_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.Construct");
 
 	struct
 	{
@@ -357,7 +357,7 @@ void UPointObjectiveMarker_C::Construct()
 
 void UPointObjectiveMarker_C::ControlPointStateUpdated(class AKSControlPoint* Objective)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.ControlPointStateUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.ControlPointStateUpdated");
 
 	struct
 	{
@@ -377,7 +377,7 @@ void UPointObjectiveMarker_C::ControlPointStateUpdated(class AKSControlPoint* Ob
 
 void UPointObjectiveMarker_C::OnControlTeamScoreUpdated(class AKSTeamState* TeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.OnControlTeamScoreUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.OnControlTeamScoreUpdated");
 
 	struct
 	{
@@ -395,7 +395,7 @@ void UPointObjectiveMarker_C::OnControlTeamScoreUpdated(class AKSTeamState* Team
 
 void UPointObjectiveMarker_C::UpdateOpacityWhenAiming()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateOpacityWhenAiming"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateOpacityWhenAiming");
 
 	struct
 	{
@@ -413,7 +413,7 @@ void UPointObjectiveMarker_C::UpdateOpacityWhenAiming()
 
 void UPointObjectiveMarker_C::ExecuteUbergraph_PointObjectiveMarker(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PointObjectiveMarker.PointObjectiveMarker_C.ExecuteUbergraph_PointObjectiveMarker"));
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.ExecuteUbergraph_PointObjectiveMarker");
 
 	struct
 	{

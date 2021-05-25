@@ -163,7 +163,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("DynamicClass Sub_Hero_ABP_Zipline.Sub_Hero_ABP_Zipline_C"));
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass Sub_Hero_ABP_Zipline.Sub_Hero_ABP_Zipline_C");
 		return ptr;
 	}
 

@@ -19,7 +19,7 @@ namespace SDK
 
 class UScrollBox* UWBP_SettingsPage_C::GetScrollBox()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.GetScrollBox"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.GetScrollBox");
 
 	struct
 	{
@@ -40,7 +40,7 @@ class UScrollBox* UWBP_SettingsPage_C::GetScrollBox()
 
 void UWBP_SettingsPage_C::Add_Settings_Section_Widget(class UKSSettingsSection* Selection_Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.Add Settings Section Widget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.Add Settings Section Widget");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_SettingsPage_C::Add_Settings_Section_Widget(class UKSSettingsSection* 
 
 void UWBP_SettingsPage_C::InitializeTickAnimations()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.InitializeTickAnimations"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.InitializeTickAnimations");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void UWBP_SettingsPage_C::InitializeTickAnimations()
 
 void UWBP_SettingsPage_C::HandleShowPageAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.HandleShowPageAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.HandleShowPageAnimFinished");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UWBP_SettingsPage_C::HandleShowPageAnimFinished()
 
 void UWBP_SettingsPage_C::HandleShowPageAnimUpdated(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.HandleShowPageAnimUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.HandleShowPageAnimUpdated");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_SettingsPage_C::HandleShowPageAnimUpdated(float ElapsedTime, float Ela
 
 void UWBP_SettingsPage_C::HandleHidePageAnimFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.HandleHidePageAnimFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.HandleHidePageAnimFinished");
 
 	struct
 	{
@@ -132,7 +132,7 @@ void UWBP_SettingsPage_C::HandleHidePageAnimFinished()
 
 void UWBP_SettingsPage_C::HandleHidePageAnimUpdated(float ElapsedTime, float ElapsedAlpha)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.HandleHidePageAnimUpdated"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.HandleHidePageAnimUpdated");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UWBP_SettingsPage_C::HandleHidePageAnimUpdated(float ElapsedTime, float Ela
 
 void UWBP_SettingsPage_C::PlayShowPageAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.PlayShowPageAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.PlayShowPageAnim");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UWBP_SettingsPage_C::PlayShowPageAnim()
 
 void UWBP_SettingsPage_C::PlayHidePageAnim()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.PlayHidePageAnim"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.PlayHidePageAnim");
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UWBP_SettingsPage_C::PlayHidePageAnim()
 
 void UWBP_SettingsPage_C::SetInitPageState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.SetInitPageState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.SetInitPageState");
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UWBP_SettingsPage_C::SetInitPageState()
 
 void UWBP_SettingsPage_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.Construct");
 
 	struct
 	{
@@ -218,7 +218,7 @@ void UWBP_SettingsPage_C::Construct()
 
 void UWBP_SettingsPage_C::AddSettingsSectionWidget(class UKSSettingsSection* SettingsSection)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.AddSettingsSectionWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.AddSettingsSectionWidget");
 
 	struct
 	{
@@ -238,7 +238,7 @@ void UWBP_SettingsPage_C::AddSettingsSectionWidget(class UKSSettingsSection* Set
 
 void UWBP_SettingsPage_C::ExecuteUbergraph_WBP_SettingsPage(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_SettingsPage.WBP_SettingsPage_C.ExecuteUbergraph_WBP_SettingsPage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsPage.WBP_SettingsPage_C.ExecuteUbergraph_WBP_SettingsPage");
 
 	struct
 	{

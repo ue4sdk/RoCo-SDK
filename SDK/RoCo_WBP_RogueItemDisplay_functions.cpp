@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_RogueItemDisplay_C::SetItem(class UKSItem* KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueItemDisplay.WBP_RogueItemDisplay_C.SetItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueItemDisplay.WBP_RogueItemDisplay_C.SetItem");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_RogueItemDisplay_C::SetItem(class UKSItem* KSItem)
 
 void UWBP_RogueItemDisplay_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueItemDisplay.WBP_RogueItemDisplay_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueItemDisplay.WBP_RogueItemDisplay_C.Construct");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UWBP_RogueItemDisplay_C::Construct()
 
 void UWBP_RogueItemDisplay_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueItemDisplay.WBP_RogueItemDisplay_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueItemDisplay.WBP_RogueItemDisplay_C.PreConstruct");
 
 	struct
 	{
@@ -75,7 +75,7 @@ void UWBP_RogueItemDisplay_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RogueItemDisplay_C::ExecuteUbergraph_WBP_RogueItemDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RogueItemDisplay.WBP_RogueItemDisplay_C.ExecuteUbergraph_WBP_RogueItemDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RogueItemDisplay.WBP_RogueItemDisplay_C.ExecuteUbergraph_WBP_RogueItemDisplay");
 
 	struct
 	{

@@ -21,7 +21,7 @@ namespace SDK
 
 struct FEventReply UPopupManager_C::OnKeyUp(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.OnKeyUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.OnKeyUp");
 
 	struct
 	{
@@ -48,7 +48,7 @@ struct FEventReply UPopupManager_C::OnKeyUp(const struct FGeometry& MyGeometry, 
 
 struct FEventReply UPopupManager_C::OnKeyDown(const struct FGeometry& MyGeometry, const struct FKeyEvent& InKeyEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.OnKeyDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.OnKeyDown");
 
 	struct
 	{
@@ -73,7 +73,7 @@ struct FEventReply UPopupManager_C::OnKeyDown(const struct FGeometry& MyGeometry
 
 void UPopupManager_C::SetupSubHeaderText(const struct FText& NewSubHeaderText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.SetupSubHeaderText"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.SetupSubHeaderText");
 
 	struct
 	{
@@ -93,7 +93,7 @@ void UPopupManager_C::SetupSubHeaderText(const struct FText& NewSubHeaderText)
 
 void UPopupManager_C::SetupButtons(TArray<struct FPUMG_PopupButtonConfig>* ButtonInfo)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.SetupButtons"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.SetupButtons");
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UPopupManager_C::SetupButtons(TArray<struct FPUMG_PopupButtonConfig>* Butto
 
 void UPopupManager_C::SetupTextEntry(bool HasTextEntry, const struct FText& DefaultEntryText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.SetupTextEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.SetupTextEntry");
 
 	struct
 	{
@@ -138,7 +138,7 @@ void UPopupManager_C::SetupTextEntry(bool HasTextEntry, const struct FText& Defa
 
 void UPopupManager_C::SetupWarningText(const struct FText& NewWarningText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.SetupWarningText"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.SetupWarningText");
 
 	struct
 	{
@@ -158,7 +158,7 @@ void UPopupManager_C::SetupWarningText(const struct FText& NewWarningText)
 
 void UPopupManager_C::SetupDescription(const struct FText& NewDescText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.SetupDescription"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.SetupDescription");
 
 	struct
 	{
@@ -178,7 +178,7 @@ void UPopupManager_C::SetupDescription(const struct FText& NewDescText)
 
 void UPopupManager_C::SetupHeader(const struct FText& NewHeaderText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.SetupHeader"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.SetupHeader");
 
 	struct
 	{
@@ -198,7 +198,7 @@ void UPopupManager_C::SetupHeader(const struct FText& NewHeaderText)
 
 bool UPopupManager_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.NavigateBack");
 
 	struct
 	{
@@ -217,7 +217,7 @@ bool UPopupManager_C::NavigateBack()
 
 void UPopupManager_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.Construct");
 
 	struct
 	{
@@ -235,7 +235,7 @@ void UPopupManager_C::Construct()
 
 void UPopupManager_C::ShowPopup(const struct FPUMG_PopupConfig& popupData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.ShowPopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.ShowPopup");
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UPopupManager_C::ShowPopup(const struct FPUMG_PopupConfig& popupData)
 
 void UPopupManager_C::HidePopup()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.HidePopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.HidePopup");
 
 	struct
 	{
@@ -271,7 +271,7 @@ void UPopupManager_C::HidePopup()
 
 void UPopupManager_C::ButtonPressed(class UWidget* Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.ButtonPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.ButtonPressed");
 
 	struct
 	{
@@ -289,7 +289,7 @@ void UPopupManager_C::ButtonPressed(class UWidget* Index)
 
 void UPopupManager_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UPopupManager_C::InitializeWidgetNavigation()
 
 void UPopupManager_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.InitializeWidget");
 
 	struct
 	{
@@ -327,7 +327,7 @@ void UPopupManager_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UPopupManager_C::BndEvt__CancelButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.BndEvt__CancelButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.BndEvt__CancelButton_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -347,7 +347,7 @@ void UPopupManager_C::BndEvt__CancelButton_K2Node_ComponentBoundEvent_0_OnClicke
 
 void UPopupManager_C::HandleCancelButtonClicked(class UWidget* InIndex)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.HandleCancelButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.HandleCancelButtonClicked");
 
 	struct
 	{
@@ -365,7 +365,7 @@ void UPopupManager_C::HandleCancelButtonClicked(class UWidget* InIndex)
 
 void UPopupManager_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.OnShown");
 
 	struct
 	{
@@ -381,7 +381,7 @@ void UPopupManager_C::OnShown()
 
 void UPopupManager_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.OnHide");
 
 	struct
 	{
@@ -397,7 +397,7 @@ void UPopupManager_C::OnHide()
 
 void UPopupManager_C::OnBackButton()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.OnBackButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.OnBackButton");
 
 	struct
 	{
@@ -415,7 +415,7 @@ void UPopupManager_C::OnBackButton()
 
 void UPopupManager_C::ExecuteUbergraph_PopupManager(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PopupManager.PopupManager_C.ExecuteUbergraph_PopupManager"));
+	static auto fn = UObject::FindObject<UFunction>("Function PopupManager.PopupManager_C.ExecuteUbergraph_PopupManager");
 
 	struct
 	{

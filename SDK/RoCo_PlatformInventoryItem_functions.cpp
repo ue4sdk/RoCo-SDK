@@ -20,7 +20,7 @@ namespace SDK
 
 bool UPlatformInventoryItem::ShouldDisplayToUser(int64_t LootId)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.ShouldDisplayToUser"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.ShouldDisplayToUser");
 
 	struct
 	{
@@ -43,7 +43,7 @@ bool UPlatformInventoryItem::ShouldDisplayToUser(int64_t LootId)
 
 void UPlatformInventoryItem::SetFriendlySearchName(const struct FString& InFriendlyName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.SetFriendlySearchName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.SetFriendlySearchName");
 
 	struct
 	{
@@ -63,7 +63,7 @@ void UPlatformInventoryItem::SetFriendlySearchName(const struct FString& InFrien
 
 void UPlatformInventoryItem::SetCollectionContainer(const struct FGameplayTagContainer& InContainer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.SetCollectionContainer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.SetCollectionContainer");
 
 	struct
 	{
@@ -83,7 +83,7 @@ void UPlatformInventoryItem::SetCollectionContainer(const struct FGameplayTagCon
 
 bool UPlatformInventoryItem::IsItemTempDisabled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.IsItemTempDisabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.IsItemTempDisabled");
 
 	struct
 	{
@@ -105,7 +105,7 @@ bool UPlatformInventoryItem::IsItemTempDisabled()
 
 bool UPlatformInventoryItem::IsItemDisabled(bool bIncludeTempDisabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.IsItemDisabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.IsItemDisabled");
 
 	struct
 	{
@@ -129,7 +129,7 @@ bool UPlatformInventoryItem::IsItemDisabled(bool bIncludeTempDisabled)
 
 void UPlatformInventoryItem::GetTextureAsync(const struct FScriptDelegate& IconLoadedEvent, TSoftObjectPtr<class UTexture2D>* Texture)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetTextureAsync"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetTextureAsync");
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UPlatformInventoryItem::GetTextureAsync(const struct FScriptDelegate& IconL
 
 struct FSoftObjectPath UPlatformInventoryItem::GetSoftItemIconAsPath()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetSoftItemIconAsPath"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetSoftItemIconAsPath");
 
 	struct
 	{
@@ -174,7 +174,7 @@ struct FSoftObjectPath UPlatformInventoryItem::GetSoftItemIconAsPath()
 
 TSoftObjectPtr<class UTexture2D> UPlatformInventoryItem::GetSoftItemIcon()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetSoftItemIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetSoftItemIcon");
 
 	struct
 	{
@@ -197,7 +197,7 @@ TSoftObjectPtr<class UTexture2D> UPlatformInventoryItem::GetSoftItemIcon()
 
 bool UPlatformInventoryItem::GetSoftIconByName(const struct FName& IconType, TSoftObjectPtr<class UTexture2D>* Icon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetSoftIconByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetSoftIconByName");
 
 	struct
 	{
@@ -226,7 +226,7 @@ bool UPlatformInventoryItem::GetSoftIconByName(const struct FName& IconType, TSo
 
 bool UPlatformInventoryItem::GetSoftIconAsPathByName(const struct FName& IconType, struct FSoftObjectPath* Icon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetSoftIconAsPathByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetSoftIconAsPathByName");
 
 	struct
 	{
@@ -253,7 +253,7 @@ bool UPlatformInventoryItem::GetSoftIconAsPathByName(const struct FName& IconTyp
 
 struct FString UPlatformInventoryItem::GetItemNameAsString()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetItemNameAsString"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetItemNameAsString");
 
 	struct
 	{
@@ -274,7 +274,7 @@ struct FString UPlatformInventoryItem::GetItemNameAsString()
 
 struct FText UPlatformInventoryItem::GetItemName()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetItemName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetItemName");
 
 	struct
 	{
@@ -295,7 +295,7 @@ struct FText UPlatformInventoryItem::GetItemName()
 
 int UPlatformInventoryItem::GetItemId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetItemId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetItemId");
 
 	struct
 	{
@@ -316,7 +316,7 @@ int UPlatformInventoryItem::GetItemId()
 
 struct FString UPlatformInventoryItem::GetItemDescriptionAsString()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetItemDescriptionAsString"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetItemDescriptionAsString");
 
 	struct
 	{
@@ -337,7 +337,7 @@ struct FString UPlatformInventoryItem::GetItemDescriptionAsString()
 
 struct FText UPlatformInventoryItem::GetItemDescription()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetItemDescription"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetItemDescription");
 
 	struct
 	{
@@ -359,7 +359,7 @@ struct FText UPlatformInventoryItem::GetItemDescription()
 
 TSoftObjectPtr<class UPlatformInventoryItem> UPlatformInventoryItem::GetItemByFriendlyName(const struct FString& InFriendlyName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetItemByFriendlyName"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetItemByFriendlyName");
 
 	struct
 	{
@@ -383,7 +383,7 @@ TSoftObjectPtr<class UPlatformInventoryItem> UPlatformInventoryItem::GetItemByFr
 
 struct FGameplayTagContainer UPlatformInventoryItem::GetCollectionContainer()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformInventoryItem.GetCollectionContainer"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformInventoryItem.GetCollectionContainer");
 
 	struct
 	{
@@ -404,7 +404,7 @@ struct FGameplayTagContainer UPlatformInventoryItem::GetCollectionContainer()
 
 int UPlatformStoreAsset::GetLootId()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformInventoryItem.PlatformStoreAsset.GetLootId"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformInventoryItem.PlatformStoreAsset.GetLootId");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_StoreCalloutBanner_C::SetText(const struct FText& InText)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StoreCalloutBanner.WBP_StoreCalloutBanner_C.SetText"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StoreCalloutBanner.WBP_StoreCalloutBanner_C.SetText");
 
 	struct
 	{

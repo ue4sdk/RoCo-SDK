@@ -21,7 +21,7 @@ namespace SDK
 
 bool UFootstepNotify_C::Received_Notify(class USkeletalMeshComponent* bpp__MeshComp__pf, class UAnimSequenceBase* bpp__Animation__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FootstepNotify.FootstepNotify_C.Received_Notify"));
+	static auto fn = UObject::FindObject<UFunction>("Function FootstepNotify.FootstepNotify_C.Received_Notify");
 
 	struct
 	{
@@ -49,7 +49,7 @@ bool UFootstepNotify_C::Received_Notify(class USkeletalMeshComponent* bpp__MeshC
 
 void UFootstepNotify_C::GetSFXMaterial(class UAnimInstance* bpp__AnimInstance__pf, const struct FName& bpp__BonexName__pfT, struct FName* bpp__MaterialxReturn__pfT, class AActor** bpp__ActorxReturn__pfT)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function FootstepNotify.FootstepNotify_C.GetSFXMaterial"));
+	static auto fn = UObject::FindObject<UFunction>("Function FootstepNotify.FootstepNotify_C.GetSFXMaterial");
 
 	struct
 	{

@@ -19,7 +19,7 @@ namespace SDK
 
 void UBruteStrengthModifierWarning_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BruteStrengthModifierWarning.BruteStrengthModifierWarning_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function BruteStrengthModifierWarning.BruteStrengthModifierWarning_C.InitializeWidget");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UBruteStrengthModifierWarning_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UBruteStrengthModifierWarning_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BruteStrengthModifierWarning.BruteStrengthModifierWarning_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function BruteStrengthModifierWarning.BruteStrengthModifierWarning_C.OnHide");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UBruteStrengthModifierWarning_C::OnHide()
 
 void UBruteStrengthModifierWarning_C::OnFade()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BruteStrengthModifierWarning.BruteStrengthModifierWarning_C.OnFade"));
+	static auto fn = UObject::FindObject<UFunction>("Function BruteStrengthModifierWarning.BruteStrengthModifierWarning_C.OnFade");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UBruteStrengthModifierWarning_C::OnFade()
 
 void UBruteStrengthModifierWarning_C::ExecuteUbergraph_BruteStrengthModifierWarning(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BruteStrengthModifierWarning.BruteStrengthModifierWarning_C.ExecuteUbergraph_BruteStrengthModifierWarning"));
+	static auto fn = UObject::FindObject<UFunction>("Function BruteStrengthModifierWarning.BruteStrengthModifierWarning_C.ExecuteUbergraph_BruteStrengthModifierWarning");
 
 	struct
 	{

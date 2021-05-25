@@ -81,7 +81,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class ChaosNiagara.NiagaraDataInterfaceChaosDestruction"));
+		static auto ptr = UObject::FindObject<UClass>("Class ChaosNiagara.NiagaraDataInterfaceChaosDestruction");
 		return ptr;
 	}
 

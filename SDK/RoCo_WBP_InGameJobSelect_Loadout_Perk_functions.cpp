@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_InGameJobSelect_Loadout_Perk_C::Get_Shop_Item_Type(EShopItemType* Return_Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.Get Shop Item Type"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.Get Shop Item Type");
 
 	struct
 	{
@@ -41,7 +41,7 @@ void UWBP_InGameJobSelect_Loadout_Perk_C::Get_Shop_Item_Type(EShopItemType* Retu
 
 void UWBP_InGameJobSelect_Loadout_Perk_C::SetItemSlot(class UKSItem* KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.SetItemSlot"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.SetItemSlot");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_InGameJobSelect_Loadout_Perk_C::SetItemSlot(class UKSItem* KSItem)
 
 void UWBP_InGameJobSelect_Loadout_Perk_C::PurchaseAcknowledge()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.PurchaseAcknowledge"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.PurchaseAcknowledge");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_InGameJobSelect_Loadout_Perk_C::PurchaseAcknowledge()
 
 void UWBP_InGameJobSelect_Loadout_Perk_C::RefreshData(class AKSPlayerShop* Player_Shop)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.RefreshData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.RefreshData");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_InGameJobSelect_Loadout_Perk_C::RefreshData(class AKSPlayerShop* Playe
 
 void UWBP_InGameJobSelect_Loadout_Perk_C::ExecuteUbergraph_WBP_InGameJobSelect_Loadout_Perk(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.ExecuteUbergraph_WBP_InGameJobSelect_Loadout_Perk"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.ExecuteUbergraph_WBP_InGameJobSelect_Loadout_Perk");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_InGameJobSelect_Loadout_Perk_C::ExecuteUbergraph_WBP_InGameJobSelect_L
 
 void UWBP_InGameJobSelect_Loadout_Perk_C::OnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_InGameJobSelect_Loadout_Perk_C::OnUnhovered__DelegateSignature()
 
 void UWBP_InGameJobSelect_Loadout_Perk_C::OnHovered__DelegateSignature(class UKSItem* KSItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout_Perk.WBP_InGameJobSelect_Loadout_Perk_C.OnHovered__DelegateSignature");
 
 	struct
 	{

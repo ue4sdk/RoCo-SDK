@@ -19,7 +19,7 @@ namespace SDK
 
 void UPCom_SimpleTimecodeProvider::SetFrameRate(const struct FFrameRate& InFrameRate)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function PlatformCommon.PCom_SimpleTimecodeProvider.SetFrameRate"));
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformCommon.PCom_SimpleTimecodeProvider.SetFrameRate");
 
 	struct
 	{

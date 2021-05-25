@@ -19,7 +19,7 @@ namespace SDK
 
 bool UStandardButton_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.NavigateConfirm");
 
 	struct
 	{
@@ -38,7 +38,7 @@ bool UStandardButton_C::NavigateConfirm()
 
 void UStandardButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -54,7 +54,7 @@ void UStandardButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_0_OnBut
 
 void UStandardButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -70,7 +70,7 @@ void UStandardButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_1_OnBut
 
 void UStandardButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -86,7 +86,7 @@ void UStandardButton_C::BndEvt__LoadoutButton_K2Node_ComponentBoundEvent_2_OnBut
 
 void UStandardButton_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.GamepadHover");
 
 	struct
 	{
@@ -102,7 +102,7 @@ void UStandardButton_C::GamepadHover()
 
 void UStandardButton_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.GamepadUnhover");
 
 	struct
 	{
@@ -118,7 +118,7 @@ void UStandardButton_C::GamepadUnhover()
 
 void UStandardButton_C::GamepadConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.GamepadConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.GamepadConfirm");
 
 	struct
 	{
@@ -134,7 +134,7 @@ void UStandardButton_C::GamepadConfirm()
 
 void UStandardButton_C::Do_Hover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.Do Hover"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.Do Hover");
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UStandardButton_C::Do_Hover()
 
 void UStandardButton_C::Do_Unhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.Do Unhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.Do Unhover");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UStandardButton_C::Do_Unhover()
 
 void UStandardButton_C::ExecuteUbergraph_StandardButton(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.ExecuteUbergraph_StandardButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.ExecuteUbergraph_StandardButton");
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UStandardButton_C::ExecuteUbergraph_StandardButton(int EntryPoint)
 
 void UStandardButton_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.OnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.OnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UStandardButton_C::OnUnhovered__DelegateSignature(class UWidget* Widget)
 
 void UStandardButton_C::OnHovered__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.OnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.OnHovered__DelegateSignature");
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UStandardButton_C::OnHovered__DelegateSignature(class UWidget* Widget)
 
 void UStandardButton_C::OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function StandardButton.StandardButton_C.OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function StandardButton.StandardButton_C.OnClicked__DelegateSignature");
 
 	struct
 	{

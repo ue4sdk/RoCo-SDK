@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_InGameJobSelect_BanDisplay_C::UpdateJobItem(class UKSJobItem* NewJobItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.UpdateJobItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.UpdateJobItem");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::UpdateJobItem(class UKSJobItem* NewJobIt
 
 void UWBP_InGameJobSelect_BanDisplay_C::OnLoaded_47D6F376468F6F3E623EC59D3B701FD0(class UObject* Loaded)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.OnLoaded_47D6F376468F6F3E623EC59D3B701FD0"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.OnLoaded_47D6F376468F6F3E623EC59D3B701FD0");
 
 	struct
 	{
@@ -57,7 +57,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::OnLoaded_47D6F376468F6F3E623EC59D3B701FD
 
 void UWBP_InGameJobSelect_BanDisplay_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.Construct");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::Construct()
 
 void UWBP_InGameJobSelect_BanDisplay_C::PlayBanAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.PlayBanAnimation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.PlayBanAnimation");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::PlayBanAnimation()
 
 void UWBP_InGameJobSelect_BanDisplay_C::ResetVisualState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.ResetVisualState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.ResetVisualState");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::ResetVisualState()
 
 void UWBP_InGameJobSelect_BanDisplay_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.PreConstruct");
 
 	struct
 	{
@@ -125,7 +125,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_InGameJobSelect_BanDisplay_C::OnBanAnimComplete()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.OnBanAnimComplete"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.OnBanAnimComplete");
 
 	struct
 	{
@@ -143,7 +143,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::OnBanAnimComplete()
 
 void UWBP_InGameJobSelect_BanDisplay_C::AsyncSetRogueImage(TSoftObjectPtr<class UTexture2D> SoftRef)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.AsyncSetRogueImage"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.AsyncSetRogueImage");
 
 	struct
 	{
@@ -161,7 +161,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::AsyncSetRogueImage(TSoftObjectPtr<class 
 
 void UWBP_InGameJobSelect_BanDisplay_C::HideAll()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.HideAll"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.HideAll");
 
 	struct
 	{
@@ -179,7 +179,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::HideAll()
 
 void UWBP_InGameJobSelect_BanDisplay_C::ExecuteUbergraph_WBP_InGameJobSelect_BanDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.ExecuteUbergraph_WBP_InGameJobSelect_BanDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.ExecuteUbergraph_WBP_InGameJobSelect_BanDisplay");
 
 	struct
 	{
@@ -197,7 +197,7 @@ void UWBP_InGameJobSelect_BanDisplay_C::ExecuteUbergraph_WBP_InGameJobSelect_Ban
 
 void UWBP_InGameJobSelect_BanDisplay_C::BanAnimComplete__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.BanAnimComplete__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.BanAnimComplete__DelegateSignature");
 
 	struct
 	{

@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_TextChat_ChatEntry_C::HandleInitialSpawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.HandleInitialSpawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.HandleInitialSpawn");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_TextChat_ChatEntry_C::HandleInitialSpawn()
 
 void UWBP_TextChat_ChatEntry_C::InitialShowFinished()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.InitialShowFinished"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.InitialShowFinished");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UWBP_TextChat_ChatEntry_C::InitialShowFinished()
 
 void UWBP_TextChat_ChatEntry_C::SetWindowCollapsed(bool Collapsed)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.SetWindowCollapsed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.SetWindowCollapsed");
 
 	struct
 	{
@@ -72,7 +72,7 @@ void UWBP_TextChat_ChatEntry_C::SetWindowCollapsed(bool Collapsed)
 
 void UWBP_TextChat_ChatEntry_C::SetTextWithoutPlayer(const struct FText& Text, EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.SetTextWithoutPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.SetTextWithoutPlayer");
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_TextChat_ChatEntry_C::SetTextWithoutPlayer(const struct FText& Text, E
 
 void UWBP_TextChat_ChatEntry_C::SetTextWithPlayer(const struct FText& Text, class UPUMG_PlayerInfo* Sender, class UPUMG_PlayerInfo* Recipient, bool IsOwnMessage, EPUMG_ChatChannel Channel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.SetTextWithPlayer"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.SetTextWithPlayer");
 
 	struct
 	{
@@ -124,7 +124,7 @@ void UWBP_TextChat_ChatEntry_C::SetTextWithPlayer(const struct FText& Text, clas
 
 void UWBP_TextChat_ChatEntry_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.Construct");
 
 	struct
 	{
@@ -142,7 +142,7 @@ void UWBP_TextChat_ChatEntry_C::Construct()
 
 void UWBP_TextChat_ChatEntry_C::ExecuteUbergraph_WBP_TextChat_ChatEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.ExecuteUbergraph_WBP_TextChat_ChatEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TextChat_ChatEntry.WBP_TextChat_ChatEntry_C.ExecuteUbergraph_WBP_TextChat_ChatEntry");
 
 	struct
 	{

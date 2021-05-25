@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_8()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_8"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_8");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_8()
 
 void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_7()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_7"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_7");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_7()
 
 void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_6()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_6"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_6");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_6()
 
 void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_5()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_5"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_5");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_5()
 
 void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_4()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_4"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_4");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_4()
 
 void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_3()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_3"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_3");
 
 	struct
 	{
@@ -113,7 +113,7 @@ void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_3()
 
 void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_2()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_2"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_2");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_2()
 
 void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_1()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SequenceEvent__ENTRYPOINTWBP_RankChange_1");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UWBP_RankChange_C::SequenceEvent__ENTRYPOINTWBP_RankChange_1()
 
 void UWBP_RankChange_C::SetRankBadgeMaterialMask(int Level)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SetRankBadgeMaterialMask"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SetRankBadgeMaterialMask");
 
 	struct
 	{
@@ -165,7 +165,7 @@ void UWBP_RankChange_C::SetRankBadgeMaterialMask(int Level)
 
 void UWBP_RankChange_C::OnCompleteRogueLevelLerp()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.OnCompleteRogueLevelLerp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.OnCompleteRogueLevelLerp");
 
 	struct
 	{
@@ -181,7 +181,7 @@ void UWBP_RankChange_C::OnCompleteRogueLevelLerp()
 
 void UWBP_RankChange_C::ResetVisualState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.ResetVisualState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.ResetVisualState");
 
 	struct
 	{
@@ -199,7 +199,7 @@ void UWBP_RankChange_C::ResetVisualState()
 
 void UWBP_RankChange_C::GetMaxRankedLevel(int* Level)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.GetMaxRankedLevel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.GetMaxRankedLevel");
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UWBP_RankChange_C::GetMaxRankedLevel(int* Level)
 
 void UWBP_RankChange_C::SetRankedElementsDisplay(int CurrentRank)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SetRankedElementsDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SetRankedElementsDisplay");
 
 	struct
 	{
@@ -239,7 +239,7 @@ void UWBP_RankChange_C::SetRankedElementsDisplay(int CurrentRank)
 
 void UWBP_RankChange_C::CloseRankedChangePopup()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.CloseRankedChangePopup"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.CloseRankedChangePopup");
 
 	struct
 	{
@@ -257,7 +257,7 @@ void UWBP_RankChange_C::CloseRankedChangePopup()
 
 void UWBP_RankChange_C::OnLevelUp(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.OnLevelUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.OnLevelUp");
 
 	struct
 	{
@@ -277,7 +277,7 @@ void UWBP_RankChange_C::OnLevelUp(int NewLevel)
 
 void UWBP_RankChange_C::OnLevelDown(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.OnLevelDown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.OnLevelDown");
 
 	struct
 	{
@@ -297,7 +297,7 @@ void UWBP_RankChange_C::OnLevelDown(int NewLevel)
 
 void UWBP_RankChange_C::SetVictoryDefeat(bool IsWinner)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SetVictoryDefeat"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SetVictoryDefeat");
 
 	struct
 	{
@@ -317,7 +317,7 @@ void UWBP_RankChange_C::SetVictoryDefeat(bool IsWinner)
 
 void UWBP_RankChange_C::SetProgressionData(const struct FPlayerProgression& RankedProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SetProgressionData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SetProgressionData");
 
 	struct
 	{
@@ -337,7 +337,7 @@ void UWBP_RankChange_C::SetProgressionData(const struct FPlayerProgression& Rank
 
 void UWBP_RankChange_C::HandleProgressionData(TArray<struct FPlayerProgression> PlayerProgression)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.HandleProgressionData"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.HandleProgressionData");
 
 	struct
 	{
@@ -355,7 +355,7 @@ void UWBP_RankChange_C::HandleProgressionData(TArray<struct FPlayerProgression> 
 
 void UWBP_RankChange_C::OnPlayerRankChange()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.OnPlayerRankChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.OnPlayerRankChange");
 
 	struct
 	{
@@ -373,7 +373,7 @@ void UWBP_RankChange_C::OnPlayerRankChange()
 
 void UWBP_RankChange_C::SetPromotionColor(int NewLevel)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.SetPromotionColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.SetPromotionColor");
 
 	struct
 	{
@@ -393,7 +393,7 @@ void UWBP_RankChange_C::SetPromotionColor(int NewLevel)
 
 void UWBP_RankChange_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.PreConstruct");
 
 	struct
 	{
@@ -411,7 +411,7 @@ void UWBP_RankChange_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RankChange_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.Construct");
 
 	struct
 	{
@@ -429,7 +429,7 @@ void UWBP_RankChange_C::Construct()
 
 void UWBP_RankChange_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.InitializeWidget");
 
 	struct
 	{
@@ -449,7 +449,7 @@ void UWBP_RankChange_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_RankChange_C::BndEvt__WBP_StandardButtonLarge_C_0_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.BndEvt__WBP_StandardButtonLarge_C_0_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.BndEvt__WBP_StandardButtonLarge_C_0_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
 
 	struct
 	{
@@ -467,7 +467,7 @@ void UWBP_RankChange_C::BndEvt__WBP_StandardButtonLarge_C_0_K2Node_ComponentBoun
 
 void UWBP_RankChange_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.OnShown");
 
 	struct
 	{
@@ -483,7 +483,7 @@ void UWBP_RankChange_C::OnShown()
 
 void UWBP_RankChange_C::EventTriggerProgressFill()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.EventTriggerProgressFill"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.EventTriggerProgressFill");
 
 	struct
 	{
@@ -501,7 +501,7 @@ void UWBP_RankChange_C::EventTriggerProgressFill()
 
 void UWBP_RankChange_C::ExecuteUbergraph_WBP_RankChange(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.ExecuteUbergraph_WBP_RankChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.ExecuteUbergraph_WBP_RankChange");
 
 	struct
 	{
@@ -519,7 +519,7 @@ void UWBP_RankChange_C::ExecuteUbergraph_WBP_RankChange(int EntryPoint)
 
 void UWBP_RankChange_C::OnRankedPopupClosed__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RankChange.WBP_RankChange_C.OnRankedPopupClosed__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RankChange.WBP_RankChange_C.OnRankedPopupClosed__DelegateSignature");
 
 	struct
 	{

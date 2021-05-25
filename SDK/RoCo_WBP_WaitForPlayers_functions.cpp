@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_WaitForPlayers_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WaitForPlayers.WBP_WaitForPlayers_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_WaitForPlayers.WBP_WaitForPlayers_C.Construct");
 
 	struct
 	{
@@ -36,7 +36,7 @@ void UWBP_WaitForPlayers_C::Construct()
 
 void UWBP_WaitForPlayers_C::HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WaitForPlayers.WBP_WaitForPlayers_C.HandlePhaseChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_WaitForPlayers.WBP_WaitForPlayers_C.HandlePhaseChange");
 
 	struct
 	{
@@ -58,7 +58,7 @@ void UWBP_WaitForPlayers_C::HandlePhaseChange(const struct FName& NewPhaseName, 
 
 void UWBP_WaitForPlayers_C::ExecuteUbergraph_WBP_WaitForPlayers(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_WaitForPlayers.WBP_WaitForPlayers_C.ExecuteUbergraph_WBP_WaitForPlayers"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_WaitForPlayers.WBP_WaitForPlayers_C.ExecuteUbergraph_WBP_WaitForPlayers");
 
 	struct
 	{

@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_PlayerProfileScreen_C::GetPlatformIcon(bool* Success, class UTexture2D** Icon)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.GetPlatformIcon"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.GetPlatformIcon");
 
 	struct
 	{
@@ -43,7 +43,7 @@ void UWBP_PlayerProfileScreen_C::GetPlatformIcon(bool* Success, class UTexture2D
 
 void UWBP_PlayerProfileScreen_C::SetPlayerHint()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.SetPlayerHint"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.SetPlayerHint");
 
 	struct
 	{
@@ -59,7 +59,7 @@ void UWBP_PlayerProfileScreen_C::SetPlayerHint()
 
 void UWBP_PlayerProfileScreen_C::ClearPlayerHint()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.ClearPlayerHint"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.ClearPlayerHint");
 
 	struct
 	{
@@ -77,7 +77,7 @@ void UWBP_PlayerProfileScreen_C::ClearPlayerHint()
 
 bool UWBP_PlayerProfileScreen_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.NavigateBack");
 
 	struct
 	{
@@ -96,7 +96,7 @@ bool UWBP_PlayerProfileScreen_C::NavigateBack()
 
 void UWBP_PlayerProfileScreen_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.Construct");
 
 	struct
 	{
@@ -112,7 +112,7 @@ void UWBP_PlayerProfileScreen_C::Construct()
 
 void UWBP_PlayerProfileScreen_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.OnShown");
 
 	struct
 	{
@@ -130,7 +130,7 @@ void UWBP_PlayerProfileScreen_C::OnShown()
 
 void UWBP_PlayerProfileScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.InitializeWidget");
 
 	struct
 	{
@@ -150,7 +150,7 @@ void UWBP_PlayerProfileScreen_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_PlayerProfileScreen_C::AwardButtonClicked(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.AwardButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.AwardButtonClicked");
 
 	struct
 	{
@@ -170,7 +170,7 @@ void UWBP_PlayerProfileScreen_C::AwardButtonClicked(class UWidget* Widget)
 
 void UWBP_PlayerProfileScreen_C::StatsButtonClicked(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.StatsButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.StatsButtonClicked");
 
 	struct
 	{
@@ -190,7 +190,7 @@ void UWBP_PlayerProfileScreen_C::StatsButtonClicked(class UWidget* Widget)
 
 void UWBP_PlayerProfileScreen_C::CustomizeButtonClicked(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.CustomizeButtonClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.CustomizeButtonClicked");
 
 	struct
 	{
@@ -208,7 +208,7 @@ void UWBP_PlayerProfileScreen_C::CustomizeButtonClicked(class UWidget* Widget)
 
 void UWBP_PlayerProfileScreen_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -224,7 +224,7 @@ void UWBP_PlayerProfileScreen_C::InitializeWidgetNavigation()
 
 void UWBP_PlayerProfileScreen_C::OnBackPrompt()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.OnBackPrompt"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.OnBackPrompt");
 
 	struct
 	{
@@ -242,7 +242,7 @@ void UWBP_PlayerProfileScreen_C::OnBackPrompt()
 
 void UWBP_PlayerProfileScreen_C::HandleLoginStateChange(EPUMG_LoginState LoginState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.HandleLoginStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.HandleLoginStateChange");
 
 	struct
 	{
@@ -262,7 +262,7 @@ void UWBP_PlayerProfileScreen_C::HandleLoginStateChange(EPUMG_LoginState LoginSt
 
 void UWBP_PlayerProfileScreen_C::ExecuteUbergraph_WBP_PlayerProfileScreen(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.ExecuteUbergraph_WBP_PlayerProfileScreen"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_PlayerProfileScreen.WBP_PlayerProfileScreen_C.ExecuteUbergraph_WBP_PlayerProfileScreen");
 
 	struct
 	{

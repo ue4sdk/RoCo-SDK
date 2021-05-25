@@ -20,7 +20,7 @@ namespace SDK
 
 void UWBP_StackedStatBar_C::SetStatCurrentToNext(const struct FItemDisplayStat& CurrentStat, const struct FItemDisplayStat& ProjectedStat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StackedStatBar.WBP_StackedStatBar_C.SetStatCurrentToNext"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StackedStatBar.WBP_StackedStatBar_C.SetStatCurrentToNext");
 
 	struct
 	{
@@ -42,7 +42,7 @@ void UWBP_StackedStatBar_C::SetStatCurrentToNext(const struct FItemDisplayStat& 
 
 void UWBP_StackedStatBar_C::SetStatCurrent(const struct FItemDisplayStat& Stat)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StackedStatBar.WBP_StackedStatBar_C.SetStatCurrent"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StackedStatBar.WBP_StackedStatBar_C.SetStatCurrent");
 
 	struct
 	{
@@ -62,7 +62,7 @@ void UWBP_StackedStatBar_C::SetStatCurrent(const struct FItemDisplayStat& Stat)
 
 void UWBP_StackedStatBar_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StackedStatBar.WBP_StackedStatBar_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StackedStatBar.WBP_StackedStatBar_C.PreConstruct");
 
 	struct
 	{
@@ -80,7 +80,7 @@ void UWBP_StackedStatBar_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_StackedStatBar_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StackedStatBar.WBP_StackedStatBar_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StackedStatBar.WBP_StackedStatBar_C.Construct");
 
 	struct
 	{
@@ -98,7 +98,7 @@ void UWBP_StackedStatBar_C::Construct()
 
 void UWBP_StackedStatBar_C::ExecuteUbergraph_WBP_StackedStatBar(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_StackedStatBar.WBP_StackedStatBar_C.ExecuteUbergraph_WBP_StackedStatBar"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_StackedStatBar.WBP_StackedStatBar_C.ExecuteUbergraph_WBP_StackedStatBar");
 
 	struct
 	{

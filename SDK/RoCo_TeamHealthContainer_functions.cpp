@@ -17,7 +17,7 @@ namespace SDK
 
 void UTeamHealthContainer_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeamHealthContainer.TeamHealthContainer_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function TeamHealthContainer.TeamHealthContainer_C.Construct");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UTeamHealthContainer_C::Construct()
 
 void UTeamHealthContainer_C::UpdateTeammateHealthBars()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeamHealthContainer.TeamHealthContainer_C.UpdateTeammateHealthBars"));
+	static auto fn = UObject::FindObject<UFunction>("Function TeamHealthContainer.TeamHealthContainer_C.UpdateTeammateHealthBars");
 
 	struct
 	{
@@ -51,7 +51,7 @@ void UTeamHealthContainer_C::UpdateTeammateHealthBars()
 
 void UTeamHealthContainer_C::HandlePlayerSpawn(class AKSCharacterBase* NewCharacter)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeamHealthContainer.TeamHealthContainer_C.HandlePlayerSpawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function TeamHealthContainer.TeamHealthContainer_C.HandlePlayerSpawn");
 
 	struct
 	{
@@ -72,7 +72,7 @@ void UTeamHealthContainer_C::HandlePlayerSpawn(class AKSCharacterBase* NewCharac
 
 void UTeamHealthContainer_C::HandlePhaseChnage(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeamHealthContainer.TeamHealthContainer_C.HandlePhaseChnage"));
+	static auto fn = UObject::FindObject<UFunction>("Function TeamHealthContainer.TeamHealthContainer_C.HandlePhaseChnage");
 
 	struct
 	{
@@ -92,7 +92,7 @@ void UTeamHealthContainer_C::HandlePhaseChnage(const struct FName& NewPhaseName,
 
 void UTeamHealthContainer_C::HandleSetupStart()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeamHealthContainer.TeamHealthContainer_C.HandleSetupStart"));
+	static auto fn = UObject::FindObject<UFunction>("Function TeamHealthContainer.TeamHealthContainer_C.HandleSetupStart");
 
 	struct
 	{
@@ -110,7 +110,7 @@ void UTeamHealthContainer_C::HandleSetupStart()
 
 void UTeamHealthContainer_C::ExecuteUbergraph_TeamHealthContainer(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function TeamHealthContainer.TeamHealthContainer_C.ExecuteUbergraph_TeamHealthContainer"));
+	static auto fn = UObject::FindObject<UFunction>("Function TeamHealthContainer.TeamHealthContainer_C.ExecuteUbergraph_TeamHealthContainer");
 
 	struct
 	{

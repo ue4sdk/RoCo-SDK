@@ -42,7 +42,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass DeathSpectateOverlay.DeathSpectateOverlay_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass DeathSpectateOverlay.DeathSpectateOverlay_C");
 		return ptr;
 	}
 

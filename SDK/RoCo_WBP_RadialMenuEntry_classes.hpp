@@ -29,7 +29,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_RadialMenuEntry.WBP_RadialMenuEntry_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_RadialMenuEntry.WBP_RadialMenuEntry_C");
 		return ptr;
 	}
 

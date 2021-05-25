@@ -23,7 +23,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.ModularSynthPresetBank"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.ModularSynthPresetBank");
 		return ptr;
 	}
 
@@ -38,7 +38,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.ModularSynthLibrary"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.ModularSynthLibrary");
 		return ptr;
 	}
 
@@ -57,7 +57,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.ModularSynthComponent"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.ModularSynthComponent");
 		return ptr;
 	}
 
@@ -134,7 +134,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectBitCrusherPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectBitCrusherPreset");
 		return ptr;
 	}
 
@@ -153,7 +153,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectChorusPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectChorusPreset");
 		return ptr;
 	}
 
@@ -172,7 +172,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectDynamicsProcessorPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectDynamicsProcessorPreset");
 		return ptr;
 	}
 
@@ -191,7 +191,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.EnvelopeFollowerListener"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.EnvelopeFollowerListener");
 		return ptr;
 	}
 
@@ -208,7 +208,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectEnvelopeFollowerPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectEnvelopeFollowerPreset");
 		return ptr;
 	}
 
@@ -229,7 +229,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectEQPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectEQPreset");
 		return ptr;
 	}
 
@@ -248,7 +248,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectFilterPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectFilterPreset");
 		return ptr;
 	}
 
@@ -267,7 +267,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectFoldbackDistortionPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectFoldbackDistortionPreset");
 		return ptr;
 	}
 
@@ -286,7 +286,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectMidSideSpreaderPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectMidSideSpreaderPreset");
 		return ptr;
 	}
 
@@ -305,7 +305,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectPannerPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectPannerPreset");
 		return ptr;
 	}
 
@@ -324,7 +324,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectPhaserPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectPhaserPreset");
 		return ptr;
 	}
 
@@ -343,7 +343,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectRingModulationPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectRingModulationPreset");
 		return ptr;
 	}
 
@@ -362,7 +362,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectSimpleDelayPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectSimpleDelayPreset");
 		return ptr;
 	}
 
@@ -381,7 +381,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectStereoDelayPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectStereoDelayPreset");
 		return ptr;
 	}
 
@@ -400,7 +400,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SourceEffectWaveShaperPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SourceEffectWaveShaperPreset");
 		return ptr;
 	}
 
@@ -423,7 +423,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.AudioImpulseResponse"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.AudioImpulseResponse");
 		return ptr;
 	}
 
@@ -443,7 +443,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SubmixEffectConvolutionReverbPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SubmixEffectConvolutionReverbPreset");
 		return ptr;
 	}
 
@@ -465,7 +465,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SubmixEffectDelayPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SubmixEffectDelayPreset");
 		return ptr;
 	}
 
@@ -487,7 +487,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SubmixEffectFilterPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SubmixEffectFilterPreset");
 		return ptr;
 	}
 
@@ -512,7 +512,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SubmixEffectFlexiverbPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SubmixEffectFlexiverbPreset");
 		return ptr;
 	}
 
@@ -532,7 +532,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SubmixEffectTapDelayPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SubmixEffectTapDelayPreset");
 		return ptr;
 	}
 
@@ -575,7 +575,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.Synth2DSlider"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.Synth2DSlider");
 		return ptr;
 	}
 
@@ -599,7 +599,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.GranularSynth"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.GranularSynth");
 		return ptr;
 	}
 
@@ -644,7 +644,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.MonoWaveTableSynthPreset"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.MonoWaveTableSynthPreset");
 		return ptr;
 	}
 
@@ -663,7 +663,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SynthComponentMonoWaveTable"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SynthComponentMonoWaveTable");
 		return ptr;
 	}
 
@@ -728,7 +728,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SynthSamplePlayer"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SynthSamplePlayer");
 		return ptr;
 	}
 
@@ -772,7 +772,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("Class Synthesis.SynthKnob"));
+		static auto ptr = UObject::FindObject<UClass>("Class Synthesis.SynthKnob");
 		return ptr;
 	}
 

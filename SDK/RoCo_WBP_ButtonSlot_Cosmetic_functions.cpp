@@ -19,7 +19,7 @@ namespace SDK
 
 void UWBP_ButtonSlot_Cosmetic_C::SetIsLocked(bool IsLocked)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.SetIsLocked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.SetIsLocked");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UWBP_ButtonSlot_Cosmetic_C::SetIsLocked(bool IsLocked)
 
 void UWBP_ButtonSlot_Cosmetic_C::ReverseHoverNoZoom()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.ReverseHoverNoZoom"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.ReverseHoverNoZoom");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_ButtonSlot_Cosmetic_C::ReverseHoverNoZoom()
 
 void UWBP_ButtonSlot_Cosmetic_C::PlayHoverNoZoom()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.PlayHoverNoZoom"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.PlayHoverNoZoom");
 
 	struct
 	{
@@ -69,7 +69,7 @@ void UWBP_ButtonSlot_Cosmetic_C::PlayHoverNoZoom()
 
 void UWBP_ButtonSlot_Cosmetic_C::RestoreDefaultColor()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.RestoreDefaultColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.RestoreDefaultColor");
 
 	struct
 	{
@@ -88,7 +88,7 @@ void UWBP_ButtonSlot_Cosmetic_C::RestoreDefaultColor()
 
 void UWBP_ButtonSlot_Cosmetic_C::OverrideColor(const struct FLinearColor& New_Base_Color, const struct FLinearColor& New_Highlight_Color)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OverrideColor"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OverrideColor");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_ButtonSlot_Cosmetic_C::OverrideColor(const struct FLinearColor& New_Ba
 
 void UWBP_ButtonSlot_Cosmetic_C::Set_Tint(const struct FLinearColor& BaseColor, const struct FLinearColor& HighlightColor)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.Set Tint"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.Set Tint");
 
 	struct
 	{
@@ -133,7 +133,7 @@ void UWBP_ButtonSlot_Cosmetic_C::Set_Tint(const struct FLinearColor& BaseColor, 
 
 void UWBP_ButtonSlot_Cosmetic_C::OnHoveredLogic(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnHoveredLogic"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnHoveredLogic");
 
 	struct
 	{
@@ -153,7 +153,7 @@ void UWBP_ButtonSlot_Cosmetic_C::OnHoveredLogic(bool IsGamepad)
 
 bool UWBP_ButtonSlot_Cosmetic_C::NavigateConfirm()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.NavigateConfirm"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.NavigateConfirm");
 
 	struct
 	{
@@ -172,7 +172,7 @@ bool UWBP_ButtonSlot_Cosmetic_C::NavigateConfirm()
 
 void UWBP_ButtonSlot_Cosmetic_C::OnHoverSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnHoverSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnHoverSound");
 
 	struct
 	{
@@ -188,7 +188,7 @@ void UWBP_ButtonSlot_Cosmetic_C::OnHoverSound()
 
 void UWBP_ButtonSlot_Cosmetic_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.Construct");
 
 	struct
 	{
@@ -204,7 +204,7 @@ void UWBP_ButtonSlot_Cosmetic_C::Construct()
 
 void UWBP_ButtonSlot_Cosmetic_C::OnGamepadConfirmed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnGamepadConfirmed"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnGamepadConfirmed");
 
 	struct
 	{
@@ -220,7 +220,7 @@ void UWBP_ButtonSlot_Cosmetic_C::OnGamepadConfirmed()
 
 void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_0_
 
 void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -252,7 +252,7 @@ void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_1_
 
 void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -268,7 +268,7 @@ void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_2_
 
 void UWBP_ButtonSlot_Cosmetic_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.GamepadHover");
 
 	struct
 	{
@@ -284,7 +284,7 @@ void UWBP_ButtonSlot_Cosmetic_C::GamepadHover()
 
 void UWBP_ButtonSlot_Cosmetic_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.GamepadUnhover");
 
 	struct
 	{
@@ -302,7 +302,7 @@ void UWBP_ButtonSlot_Cosmetic_C::GamepadUnhover()
 
 void UWBP_ButtonSlot_Cosmetic_C::DisableButton(bool bShouldDisable)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.DisableButton"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.DisableButton");
 
 	struct
 	{
@@ -320,7 +320,7 @@ void UWBP_ButtonSlot_Cosmetic_C::DisableButton(bool bShouldDisable)
 
 void UWBP_ButtonSlot_Cosmetic_C::CallButtonHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.CallButtonHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.CallButtonHover");
 
 	struct
 	{
@@ -336,7 +336,7 @@ void UWBP_ButtonSlot_Cosmetic_C::CallButtonHover()
 
 void UWBP_ButtonSlot_Cosmetic_C::CallButtonUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.CallButtonUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.CallButtonUnhover");
 
 	struct
 	{
@@ -354,7 +354,7 @@ void UWBP_ButtonSlot_Cosmetic_C::CallButtonUnhover()
 
 void UWBP_ButtonSlot_Cosmetic_C::SetIsActiveState(bool bIsActive)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.SetIsActiveState"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.SetIsActiveState");
 
 	struct
 	{
@@ -374,7 +374,7 @@ void UWBP_ButtonSlot_Cosmetic_C::SetIsActiveState(bool bIsActive)
 
 void UWBP_ButtonSlot_Cosmetic_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.PreConstruct");
 
 	struct
 	{
@@ -392,7 +392,7 @@ void UWBP_ButtonSlot_Cosmetic_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -408,7 +408,7 @@ void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_3_
 
 void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonReleasedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_OnButtonReleasedEvent__DelegateSignature");
 
 	struct
 	{
@@ -424,7 +424,7 @@ void UWBP_ButtonSlot_Cosmetic_C::BndEvt__HitTarget_K2Node_ComponentBoundEvent_4_
 
 void UWBP_ButtonSlot_Cosmetic_C::OnClickSound()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnClickSound"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnClickSound");
 
 	struct
 	{
@@ -442,7 +442,7 @@ void UWBP_ButtonSlot_Cosmetic_C::OnClickSound()
 
 void UWBP_ButtonSlot_Cosmetic_C::ExecuteUbergraph_WBP_ButtonSlot_Cosmetic(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.ExecuteUbergraph_WBP_ButtonSlot_Cosmetic"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.ExecuteUbergraph_WBP_ButtonSlot_Cosmetic");
 
 	struct
 	{
@@ -460,7 +460,7 @@ void UWBP_ButtonSlot_Cosmetic_C::ExecuteUbergraph_WBP_ButtonSlot_Cosmetic(int En
 
 void UWBP_ButtonSlot_Cosmetic_C::OnBtnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnBtnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnBtnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -478,7 +478,7 @@ void UWBP_ButtonSlot_Cosmetic_C::OnBtnUnhovered__DelegateSignature()
 
 void UWBP_ButtonSlot_Cosmetic_C::OnBtnHovered__DelegateSignature(bool IsGamepad)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnBtnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnBtnHovered__DelegateSignature");
 
 	struct
 	{
@@ -496,7 +496,7 @@ void UWBP_ButtonSlot_Cosmetic_C::OnBtnHovered__DelegateSignature(bool IsGamepad)
 
 void UWBP_ButtonSlot_Cosmetic_C::OnBtnClicked__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnBtnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ButtonSlot_Cosmetic.WBP_ButtonSlot_Cosmetic_C.OnBtnClicked__DelegateSignature");
 
 	struct
 	{

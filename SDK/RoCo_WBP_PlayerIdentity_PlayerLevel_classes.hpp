@@ -27,7 +27,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("WidgetBlueprintGeneratedClass WBP_PlayerIdentity_PlayerLevel.WBP_PlayerIdentity_PlayerLevel_C"));
+		static auto ptr = UObject::FindObject<UClass>("WidgetBlueprintGeneratedClass WBP_PlayerIdentity_PlayerLevel.WBP_PlayerIdentity_PlayerLevel_C");
 		return ptr;
 	}
 

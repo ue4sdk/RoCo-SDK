@@ -20,7 +20,7 @@ namespace SDK
 
 void ULiveLinkBlueprintLibrary::TransformNames(struct FSubjectFrameHandle* SubjectFrameHandle, TArray<struct FName>* TransformNames)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.TransformNames"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.TransformNames");
 
 	struct
 	{
@@ -47,7 +47,7 @@ void ULiveLinkBlueprintLibrary::TransformNames(struct FSubjectFrameHandle* Subje
 
 void ULiveLinkBlueprintLibrary::TransformName(struct FLiveLinkTransform* LiveLinkTransform, struct FName* Name)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.TransformName"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.TransformName");
 
 	struct
 	{
@@ -74,7 +74,7 @@ void ULiveLinkBlueprintLibrary::TransformName(struct FLiveLinkTransform* LiveLin
 
 void ULiveLinkBlueprintLibrary::SetLiveLinkSubjectEnabled(const struct FLiveLinkSubjectKey& SubjectKey, bool bEnabled)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.SetLiveLinkSubjectEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.SetLiveLinkSubjectEnabled");
 
 	struct
 	{
@@ -98,7 +98,7 @@ void ULiveLinkBlueprintLibrary::SetLiveLinkSubjectEnabled(const struct FLiveLink
 
 bool ULiveLinkBlueprintLibrary::RemoveSource(struct FLiveLinkSourceHandle* SourceHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.RemoveSource"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.RemoveSource");
 
 	struct
 	{
@@ -125,7 +125,7 @@ bool ULiveLinkBlueprintLibrary::RemoveSource(struct FLiveLinkSourceHandle* Sourc
 
 void ULiveLinkBlueprintLibrary::ParentBoneSpaceTransform(struct FLiveLinkTransform* LiveLinkTransform, struct FTransform* Transform)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.ParentBoneSpaceTransform"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.ParentBoneSpaceTransform");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void ULiveLinkBlueprintLibrary::ParentBoneSpaceTransform(struct FLiveLinkTransfo
 
 int ULiveLinkBlueprintLibrary::NumberOfTransforms(struct FSubjectFrameHandle* SubjectFrameHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.NumberOfTransforms"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.NumberOfTransforms");
 
 	struct
 	{
@@ -180,7 +180,7 @@ int ULiveLinkBlueprintLibrary::NumberOfTransforms(struct FSubjectFrameHandle* Su
 
 bool ULiveLinkBlueprintLibrary::IsSpecificLiveLinkSubjectEnabled(const struct FLiveLinkSubjectKey& SubjectKey, bool bForThisFrame)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.IsSpecificLiveLinkSubjectEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.IsSpecificLiveLinkSubjectEnabled");
 
 	struct
 	{
@@ -207,7 +207,7 @@ bool ULiveLinkBlueprintLibrary::IsSpecificLiveLinkSubjectEnabled(const struct FL
 
 bool ULiveLinkBlueprintLibrary::IsSourceStillValid(struct FLiveLinkSourceHandle* SourceHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.IsSourceStillValid"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.IsSourceStillValid");
 
 	struct
 	{
@@ -234,7 +234,7 @@ bool ULiveLinkBlueprintLibrary::IsSourceStillValid(struct FLiveLinkSourceHandle*
 
 bool ULiveLinkBlueprintLibrary::IsLiveLinkSubjectEnabled(const struct FLiveLinkSubjectName& SubjectName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.IsLiveLinkSubjectEnabled"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.IsLiveLinkSubjectEnabled");
 
 	struct
 	{
@@ -259,7 +259,7 @@ bool ULiveLinkBlueprintLibrary::IsLiveLinkSubjectEnabled(const struct FLiveLinkS
 
 bool ULiveLinkBlueprintLibrary::HasParent(struct FLiveLinkTransform* LiveLinkTransform)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.HasParent"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.HasParent");
 
 	struct
 	{
@@ -287,7 +287,7 @@ bool ULiveLinkBlueprintLibrary::HasParent(struct FLiveLinkTransform* LiveLinkTra
 
 void ULiveLinkBlueprintLibrary::GetTransformByName(const struct FName& TransformName, struct FSubjectFrameHandle* SubjectFrameHandle, struct FLiveLinkTransform* LiveLinkTransform)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetTransformByName"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetTransformByName");
 
 	struct
 	{
@@ -317,7 +317,7 @@ void ULiveLinkBlueprintLibrary::GetTransformByName(const struct FName& Transform
 
 void ULiveLinkBlueprintLibrary::GetTransformByIndex(int TransformIndex, struct FSubjectFrameHandle* SubjectFrameHandle, struct FLiveLinkTransform* LiveLinkTransform)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetTransformByIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetTransformByIndex");
 
 	struct
 	{
@@ -346,7 +346,7 @@ void ULiveLinkBlueprintLibrary::GetTransformByIndex(int TransformIndex, struct F
 
 class UClass* ULiveLinkBlueprintLibrary::GetSpecificLiveLinkSubjectRole(const struct FLiveLinkSubjectKey& SubjectKey)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetSpecificLiveLinkSubjectRole"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetSpecificLiveLinkSubjectRole");
 
 	struct
 	{
@@ -371,7 +371,7 @@ class UClass* ULiveLinkBlueprintLibrary::GetSpecificLiveLinkSubjectRole(const st
 
 struct FText ULiveLinkBlueprintLibrary::GetSourceType(struct FLiveLinkSourceHandle* SourceHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetSourceType"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetSourceType");
 
 	struct
 	{
@@ -398,7 +398,7 @@ struct FText ULiveLinkBlueprintLibrary::GetSourceType(struct FLiveLinkSourceHand
 
 struct FText ULiveLinkBlueprintLibrary::GetSourceStatus(struct FLiveLinkSourceHandle* SourceHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetSourceStatus"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetSourceStatus");
 
 	struct
 	{
@@ -425,7 +425,7 @@ struct FText ULiveLinkBlueprintLibrary::GetSourceStatus(struct FLiveLinkSourceHa
 
 struct FText ULiveLinkBlueprintLibrary::GetSourceMachineName(struct FLiveLinkSourceHandle* SourceHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetSourceMachineName"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetSourceMachineName");
 
 	struct
 	{
@@ -452,7 +452,7 @@ struct FText ULiveLinkBlueprintLibrary::GetSourceMachineName(struct FLiveLinkSou
 
 void ULiveLinkBlueprintLibrary::GetRootTransform(struct FSubjectFrameHandle* SubjectFrameHandle, struct FLiveLinkTransform* LiveLinkTransform)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetRootTransform"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetRootTransform");
 
 	struct
 	{
@@ -481,7 +481,7 @@ void ULiveLinkBlueprintLibrary::GetRootTransform(struct FSubjectFrameHandle* Sub
 
 bool ULiveLinkBlueprintLibrary::GetPropertyValue(const struct FName& PropertyName, struct FLiveLinkBasicBlueprintData* BasicData, float* Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetPropertyValue"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetPropertyValue");
 
 	struct
 	{
@@ -513,7 +513,7 @@ bool ULiveLinkBlueprintLibrary::GetPropertyValue(const struct FName& PropertyNam
 
 void ULiveLinkBlueprintLibrary::GetParent(struct FLiveLinkTransform* LiveLinkTransform, struct FLiveLinkTransform* Parent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetParent"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetParent");
 
 	struct
 	{
@@ -540,7 +540,7 @@ void ULiveLinkBlueprintLibrary::GetParent(struct FLiveLinkTransform* LiveLinkTra
 
 void ULiveLinkBlueprintLibrary::GetMetadata(struct FSubjectFrameHandle* SubjectFrameHandle, struct FSubjectMetadata* MetaData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetMetadata"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetMetadata");
 
 	struct
 	{
@@ -568,7 +568,7 @@ void ULiveLinkBlueprintLibrary::GetMetadata(struct FSubjectFrameHandle* SubjectF
 
 TArray<struct FLiveLinkSubjectKey> ULiveLinkBlueprintLibrary::GetLiveLinkSubjects(bool bIncludeDisabledSubject, bool bIncludeDisal)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetLiveLinkSubjects"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetLiveLinkSubjects");
 
 	struct
 	{
@@ -595,7 +595,7 @@ TArray<struct FLiveLinkSubjectKey> ULiveLinkBlueprintLibrary::GetLiveLinkSubject
 
 class UClass* ULiveLinkBlueprintLibrary::GetLiveLinkSubjectRole(const struct FLiveLinkSubjectName& SubjectName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetLiveLinkSubjectRole"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetLiveLinkSubjectRole");
 
 	struct
 	{
@@ -620,7 +620,7 @@ class UClass* ULiveLinkBlueprintLibrary::GetLiveLinkSubjectRole(const struct FLi
 
 TArray<struct FLiveLinkSubjectName> ULiveLinkBlueprintLibrary::GetLiveLinkEnabledSubjectNames(bool bIncludeVirtualSubject)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetLiveLinkEnabledSubjectNames"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetLiveLinkEnabledSubjectNames");
 
 	struct
 	{
@@ -645,7 +645,7 @@ TArray<struct FLiveLinkSubjectName> ULiveLinkBlueprintLibrary::GetLiveLinkEnable
 
 void ULiveLinkBlueprintLibrary::GetCurves(struct FSubjectFrameHandle* SubjectFrameHandle, TMap<struct FName, float>* Curves)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetCurves"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetCurves");
 
 	struct
 	{
@@ -672,7 +672,7 @@ void ULiveLinkBlueprintLibrary::GetCurves(struct FSubjectFrameHandle* SubjectFra
 
 void ULiveLinkBlueprintLibrary::GetChildren(struct FLiveLinkTransform* LiveLinkTransform, TArray<struct FLiveLinkTransform>* Children)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetChildren"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetChildren");
 
 	struct
 	{
@@ -699,7 +699,7 @@ void ULiveLinkBlueprintLibrary::GetChildren(struct FLiveLinkTransform* LiveLinkT
 
 void ULiveLinkBlueprintLibrary::GetBasicData(struct FSubjectFrameHandle* SubjectFrameHandle, struct FLiveLinkBasicBlueprintData* BasicBlueprintData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.GetBasicData"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.GetBasicData");
 
 	struct
 	{
@@ -728,7 +728,7 @@ void ULiveLinkBlueprintLibrary::GetBasicData(struct FSubjectFrameHandle* Subject
 
 bool ULiveLinkBlueprintLibrary::EvaluateLiveLinkFrameWithSpecificRole(const struct FLiveLinkSubjectName& SubjectName, class UClass* Role, struct FLiveLinkBaseBlueprintData* OutBlueprintData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.EvaluateLiveLinkFrameWithSpecificRole"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.EvaluateLiveLinkFrameWithSpecificRole");
 
 	struct
 	{
@@ -762,7 +762,7 @@ bool ULiveLinkBlueprintLibrary::EvaluateLiveLinkFrameWithSpecificRole(const stru
 
 bool ULiveLinkBlueprintLibrary::EvaluateLiveLinkFrameAtWorldTimeOffset(const struct FLiveLinkSubjectName& SubjectName, class UClass* Role, float WorldTimeOffset, struct FLiveLinkBaseBlueprintData* OutBlueprintData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.EvaluateLiveLinkFrameAtWorldTimeOffset"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.EvaluateLiveLinkFrameAtWorldTimeOffset");
 
 	struct
 	{
@@ -798,7 +798,7 @@ bool ULiveLinkBlueprintLibrary::EvaluateLiveLinkFrameAtWorldTimeOffset(const str
 
 bool ULiveLinkBlueprintLibrary::EvaluateLiveLinkFrameAtSceneTime(const struct FLiveLinkSubjectName& SubjectName, class UClass* Role, const struct FTimecode& SceneTime, struct FLiveLinkBaseBlueprintData* OutBlueprintData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.EvaluateLiveLinkFrameAtSceneTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.EvaluateLiveLinkFrameAtSceneTime");
 
 	struct
 	{
@@ -832,7 +832,7 @@ bool ULiveLinkBlueprintLibrary::EvaluateLiveLinkFrameAtSceneTime(const struct FL
 
 bool ULiveLinkBlueprintLibrary::EvaluateLiveLinkFrame(const struct FLiveLinkSubjectRepresentation& SubjectRepresentation, struct FLiveLinkBaseBlueprintData* OutBlueprintData)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.EvaluateLiveLinkFrame"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.EvaluateLiveLinkFrame");
 
 	struct
 	{
@@ -861,7 +861,7 @@ bool ULiveLinkBlueprintLibrary::EvaluateLiveLinkFrame(const struct FLiveLinkSubj
 
 void ULiveLinkBlueprintLibrary::ComponentSpaceTransform(struct FLiveLinkTransform* LiveLinkTransform, struct FTransform* Transform)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.ComponentSpaceTransform"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.ComponentSpaceTransform");
 
 	struct
 	{
@@ -888,7 +888,7 @@ void ULiveLinkBlueprintLibrary::ComponentSpaceTransform(struct FLiveLinkTransfor
 
 int ULiveLinkBlueprintLibrary::ChildCount(struct FLiveLinkTransform* LiveLinkTransform)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkBlueprintLibrary.ChildCount"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkBlueprintLibrary.ChildCount");
 
 	struct
 	{
@@ -917,7 +917,7 @@ int ULiveLinkBlueprintLibrary::ChildCount(struct FLiveLinkTransform* LiveLinkTra
 
 void ULiveLinkComponent::GetSubjectDataAtWorldTime(const struct FName& SubjectName, float WorldTime, bool* bSuccess, struct FSubjectFrameHandle* SubjectFrameHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkComponent.GetSubjectDataAtWorldTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkComponent.GetSubjectDataAtWorldTime");
 
 	struct
 	{
@@ -949,7 +949,7 @@ void ULiveLinkComponent::GetSubjectDataAtWorldTime(const struct FName& SubjectNa
 
 void ULiveLinkComponent::GetSubjectDataAtSceneTime(const struct FName& SubjectName, const struct FTimecode& SceneTime, bool* bSuccess, struct FSubjectFrameHandle* SubjectFrameHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkComponent.GetSubjectDataAtSceneTime"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkComponent.GetSubjectDataAtSceneTime");
 
 	struct
 	{
@@ -980,7 +980,7 @@ void ULiveLinkComponent::GetSubjectDataAtSceneTime(const struct FName& SubjectNa
 
 void ULiveLinkComponent::GetSubjectData(const struct FName& SubjectName, bool* bSuccess, struct FSubjectFrameHandle* SubjectFrameHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkComponent.GetSubjectData"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkComponent.GetSubjectData");
 
 	struct
 	{
@@ -1007,7 +1007,7 @@ void ULiveLinkComponent::GetSubjectData(const struct FName& SubjectName, bool* b
 
 void ULiveLinkComponent::GetAvailableSubjectNames(TArray<struct FName>* SubjectNames)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkComponent.GetAvailableSubjectNames"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkComponent.GetAvailableSubjectNames");
 
 	struct
 	{
@@ -1032,7 +1032,7 @@ void ULiveLinkComponent::GetAvailableSubjectNames(TArray<struct FName>* SubjectN
 
 void ULiveLinkMessageBusFinder::GetAvailableProviders(class UObject* WorldContextObject, const struct FLatentActionInfo& LatentInfo, float Duration, TArray<struct FProviderPollResult>* AvailableProviders)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkMessageBusFinder.GetAvailableProviders"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkMessageBusFinder.GetAvailableProviders");
 
 	struct
 	{
@@ -1060,7 +1060,7 @@ void ULiveLinkMessageBusFinder::GetAvailableProviders(class UObject* WorldContex
 
 class ULiveLinkMessageBusFinder* ULiveLinkMessageBusFinder::ConstructMessageBusFinder()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkMessageBusFinder.ConstructMessageBusFinder"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkMessageBusFinder.ConstructMessageBusFinder");
 
 	struct
 	{
@@ -1083,7 +1083,7 @@ class ULiveLinkMessageBusFinder* ULiveLinkMessageBusFinder::ConstructMessageBusF
 
 void ULiveLinkMessageBusFinder::ConnectToProvider(struct FProviderPollResult* Provider, struct FLiveLinkSourceHandle* SourceHandle)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkMessageBusFinder.ConnectToProvider"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkMessageBusFinder.ConnectToProvider");
 
 	struct
 	{
@@ -1107,7 +1107,7 @@ void ULiveLinkMessageBusFinder::ConnectToProvider(struct FProviderPollResult* Pr
 
 void ULiveLinkPreset::BuildFromClient()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkPreset.BuildFromClient"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkPreset.BuildFromClient");
 
 	struct
 	{
@@ -1125,7 +1125,7 @@ void ULiveLinkPreset::BuildFromClient()
 
 bool ULiveLinkPreset::ApplyToClient()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkPreset.ApplyToClient"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkPreset.ApplyToClient");
 
 	struct
 	{
@@ -1146,7 +1146,7 @@ bool ULiveLinkPreset::ApplyToClient()
 
 void ULiveLinkRemapAsset::RemapCurveElements(TMap<struct FName, float>* CurveItems)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkRemapAsset.RemapCurveElements"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkRemapAsset.RemapCurveElements");
 
 	struct
 	{
@@ -1169,7 +1169,7 @@ void ULiveLinkRemapAsset::RemapCurveElements(TMap<struct FName, float>* CurveIte
 
 struct FName ULiveLinkRemapAsset::GetRemappedCurveName(const struct FName& CurveName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkRemapAsset.GetRemappedCurveName"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkRemapAsset.GetRemappedCurveName");
 
 	struct
 	{
@@ -1193,7 +1193,7 @@ struct FName ULiveLinkRemapAsset::GetRemappedCurveName(const struct FName& Curve
 
 struct FName ULiveLinkRemapAsset::GetRemappedBoneName(const struct FName& BoneName)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function LiveLink.LiveLinkRemapAsset.GetRemappedBoneName"));
+	static auto fn = UObject::FindObject<UFunction>("Function LiveLink.LiveLinkRemapAsset.GetRemappedBoneName");
 
 	struct
 	{

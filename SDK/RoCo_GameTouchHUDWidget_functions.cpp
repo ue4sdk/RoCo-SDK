@@ -20,7 +20,7 @@ namespace SDK
 
 void UGameTouchHUDWidget_C::TriggerInputAction(const struct FName& InActionName, TEnumAsByte<EInputEvent> InInputEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.TriggerInputAction"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.TriggerInputAction");
 
 	struct
 	{
@@ -44,7 +44,7 @@ void UGameTouchHUDWidget_C::TriggerInputAction(const struct FName& InActionName,
 
 void UGameTouchHUDWidget_C::GetWidgetBounds(class UWidget* Widget, struct FVector2D* TopLeft, struct FVector2D* BottomRight)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.GetWidgetBounds"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.GetWidgetBounds");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UGameTouchHUDWidget_C::GetWidgetBounds(class UWidget* Widget, struct FVecto
 
 void UGameTouchHUDWidget_C::IsPointOverWidget(const struct FVector2D& ScreenPoint, class UWidget* Widget, bool* IsPointOverWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.IsPointOverWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.IsPointOverWidget");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UGameTouchHUDWidget_C::IsPointOverWidget(const struct FVector2D& ScreenPoin
 
 void UGameTouchHUDWidget_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.Construct");
 
 	struct
 	{
@@ -116,7 +116,7 @@ void UGameTouchHUDWidget_C::Construct()
 
 void UGameTouchHUDWidget_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.Tick"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.Tick");
 
 	struct
 	{
@@ -136,7 +136,7 @@ void UGameTouchHUDWidget_C::Tick(const struct FGeometry& MyGeometry, float InDel
 
 void UGameTouchHUDWidget_C::BndEvt__BtnAbility_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnAbility_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnAbility_K2Node_ComponentBoundEvent_2_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -152,7 +152,7 @@ void UGameTouchHUDWidget_C::BndEvt__BtnAbility_K2Node_ComponentBoundEvent_2_OnBu
 
 void UGameTouchHUDWidget_C::BndEvt__BtnAbility_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnAbility_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnAbility_K2Node_ComponentBoundEvent_3_OnButtonReleasedEvent__DelegateSignature");
 
 	struct
 	{
@@ -168,7 +168,7 @@ void UGameTouchHUDWidget_C::BndEvt__BtnAbility_K2Node_ComponentBoundEvent_3_OnBu
 
 void UGameTouchHUDWidget_C::BndEvt__BtnWeaponSwap_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnWeaponSwap_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnWeaponSwap_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -184,7 +184,7 @@ void UGameTouchHUDWidget_C::BndEvt__BtnWeaponSwap_K2Node_ComponentBoundEvent_4_O
 
 void UGameTouchHUDWidget_C::BndEvt__BtnWeaponSwap_K2Node_ComponentBoundEvent_5_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnWeaponSwap_K2Node_ComponentBoundEvent_5_OnButtonReleasedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnWeaponSwap_K2Node_ComponentBoundEvent_5_OnButtonReleasedEvent__DelegateSignature");
 
 	struct
 	{
@@ -200,7 +200,7 @@ void UGameTouchHUDWidget_C::BndEvt__BtnWeaponSwap_K2Node_ComponentBoundEvent_5_O
 
 void UGameTouchHUDWidget_C::BndEvt__BtnStore_K2Node_ComponentBoundEvent_12_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnStore_K2Node_ComponentBoundEvent_12_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnStore_K2Node_ComponentBoundEvent_12_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -216,7 +216,7 @@ void UGameTouchHUDWidget_C::BndEvt__BtnStore_K2Node_ComponentBoundEvent_12_OnBut
 
 void UGameTouchHUDWidget_C::BndEvt__BtnStore_K2Node_ComponentBoundEvent_13_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnStore_K2Node_ComponentBoundEvent_13_OnButtonReleasedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnStore_K2Node_ComponentBoundEvent_13_OnButtonReleasedEvent__DelegateSignature");
 
 	struct
 	{
@@ -232,7 +232,7 @@ void UGameTouchHUDWidget_C::BndEvt__BtnStore_K2Node_ComponentBoundEvent_13_OnBut
 
 void UGameTouchHUDWidget_C::BndEvt__BtnScoreboard_K2Node_ComponentBoundEvent_14_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnScoreboard_K2Node_ComponentBoundEvent_14_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnScoreboard_K2Node_ComponentBoundEvent_14_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -248,7 +248,7 @@ void UGameTouchHUDWidget_C::BndEvt__BtnScoreboard_K2Node_ComponentBoundEvent_14_
 
 void UGameTouchHUDWidget_C::BndEvt__BtnMenu_K2Node_ComponentBoundEvent_16_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnMenu_K2Node_ComponentBoundEvent_16_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnMenu_K2Node_ComponentBoundEvent_16_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -264,7 +264,7 @@ void UGameTouchHUDWidget_C::BndEvt__BtnMenu_K2Node_ComponentBoundEvent_16_OnButt
 
 void UGameTouchHUDWidget_C::BndEvt__BtnMenu_K2Node_ComponentBoundEvent_17_OnButtonReleasedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnMenu_K2Node_ComponentBoundEvent_17_OnButtonReleasedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__BtnMenu_K2Node_ComponentBoundEvent_17_OnButtonReleasedEvent__DelegateSignature");
 
 	struct
 	{
@@ -282,7 +282,7 @@ void UGameTouchHUDWidget_C::BndEvt__BtnMenu_K2Node_ComponentBoundEvent_17_OnButt
 
 void UGameTouchHUDWidget_C::OnInputStateChanged_Event_1(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.OnInputStateChanged_Event_1"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.OnInputStateChanged_Event_1");
 
 	struct
 	{
@@ -300,7 +300,7 @@ void UGameTouchHUDWidget_C::OnInputStateChanged_Event_1(TEnumAsByte<EPGAME_INPUT
 
 void UGameTouchHUDWidget_C::BndEvt__OpenMapButton_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__OpenMapButton_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.BndEvt__OpenMapButton_K2Node_ComponentBoundEvent_0_OnButtonPressedEvent__DelegateSignature");
 
 	struct
 	{
@@ -320,7 +320,7 @@ void UGameTouchHUDWidget_C::BndEvt__OpenMapButton_K2Node_ComponentBoundEvent_0_O
 
 void UGameTouchHUDWidget_C::ViewTargetChanged(class AKSPlayerController* Controller, class AActor* OldViewTarget, class AActor* NewViewTarget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.ViewTargetChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.ViewTargetChanged");
 
 	struct
 	{
@@ -342,7 +342,7 @@ void UGameTouchHUDWidget_C::ViewTargetChanged(class AKSPlayerController* Control
 
 void UGameTouchHUDWidget_C::ShouldSwapPressed()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.ShouldSwapPressed"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.ShouldSwapPressed");
 
 	struct
 	{
@@ -360,7 +360,7 @@ void UGameTouchHUDWidget_C::ShouldSwapPressed()
 
 void UGameTouchHUDWidget_C::ShoulderSwapUpdate(class AKSCharacter* Character)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.ShoulderSwapUpdate"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.ShoulderSwapUpdate");
 
 	struct
 	{
@@ -381,7 +381,7 @@ void UGameTouchHUDWidget_C::ShoulderSwapUpdate(class AKSCharacter* Character)
 
 void UGameTouchHUDWidget_C::HandleEquipmentChange(class AKSCharacter* EquipmentOwner, class UKSWeaponComponent* Equipment)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.HandleEquipmentChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.HandleEquipmentChange");
 
 	struct
 	{
@@ -403,7 +403,7 @@ void UGameTouchHUDWidget_C::HandleEquipmentChange(class AKSCharacter* EquipmentO
 
 void UGameTouchHUDWidget_C::ExecuteUbergraph_GameTouchHUDWidget(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function GameTouchHUDWidget.GameTouchHUDWidget_C.ExecuteUbergraph_GameTouchHUDWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.ExecuteUbergraph_GameTouchHUDWidget");
 
 	struct
 	{

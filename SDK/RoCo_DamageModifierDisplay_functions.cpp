@@ -19,7 +19,7 @@ namespace SDK
 
 void UDamageModifierDisplay_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DamageModifierDisplay.DamageModifierDisplay_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function DamageModifierDisplay.DamageModifierDisplay_C.InitializeWidget");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void UDamageModifierDisplay_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UDamageModifierDisplay_C::ExecuteUbergraph_DamageModifierDisplay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DamageModifierDisplay.DamageModifierDisplay_C.ExecuteUbergraph_DamageModifierDisplay"));
+	static auto fn = UObject::FindObject<UFunction>("Function DamageModifierDisplay.DamageModifierDisplay_C.ExecuteUbergraph_DamageModifierDisplay");
 
 	struct
 	{

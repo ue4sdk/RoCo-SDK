@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_Social_Overlay_C::OnFriendsScrolled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnFriendsScrolled"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnFriendsScrolled");
 
 	struct
 	{
@@ -35,7 +35,7 @@ void UWBP_Social_Overlay_C::OnFriendsScrolled()
 
 void UWBP_Social_Overlay_C::Toggle_Context_Menu_for_Player_Card(class UKSWidget* KSWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.Toggle Context Menu for Player Card"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.Toggle Context Menu for Player Card");
 
 	struct
 	{
@@ -53,7 +53,7 @@ void UWBP_Social_Overlay_C::Toggle_Context_Menu_for_Player_Card(class UKSWidget*
 
 void UWBP_Social_Overlay_C::HandleStatusMenuHidden()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandleStatusMenuHidden"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandleStatusMenuHidden");
 
 	struct
 	{
@@ -71,7 +71,7 @@ void UWBP_Social_Overlay_C::HandleStatusMenuHidden()
 
 void UWBP_Social_Overlay_C::HandleStatusMenuShown(class UWBP_PlayerStatus_ContextMenuOption_C* FocusWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandleStatusMenuShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandleStatusMenuShown");
 
 	struct
 	{
@@ -91,7 +91,7 @@ void UWBP_Social_Overlay_C::HandleStatusMenuShown(class UWBP_PlayerStatus_Contex
 
 void UWBP_Social_Overlay_C::HandleStatusNavigationReady(TArray<class UWBP_PlayerStatus_ContextMenuOption_C*>* StatusButtons)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandleStatusNavigationReady"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandleStatusNavigationReady");
 
 	struct
 	{
@@ -111,7 +111,7 @@ void UWBP_Social_Overlay_C::HandleStatusNavigationReady(TArray<class UWBP_Player
 
 void UWBP_Social_Overlay_C::SetupHeader()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.SetupHeader"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.SetupHeader");
 
 	struct
 	{
@@ -129,7 +129,7 @@ void UWBP_Social_Overlay_C::SetupHeader()
 
 void UWBP_Social_Overlay_C::SetTabIndex(int Index)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.SetTabIndex"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.SetTabIndex");
 
 	struct
 	{
@@ -149,7 +149,7 @@ void UWBP_Social_Overlay_C::SetTabIndex(int Index)
 
 void UWBP_Social_Overlay_C::OnTabChange(class UWBP_subscreen_nav_tab_C* ActiveTabButton)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnTabChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnTabChange");
 
 	struct
 	{
@@ -169,7 +169,7 @@ void UWBP_Social_Overlay_C::OnTabChange(class UWBP_subscreen_nav_tab_C* ActiveTa
 
 void UWBP_Social_Overlay_C::SetActiveTabByWidget(class UWidget* Widget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.SetActiveTabByWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.SetActiveTabByWidget");
 
 	struct
 	{
@@ -191,7 +191,7 @@ void UWBP_Social_Overlay_C::SetActiveTabByWidget(class UWidget* Widget)
 
 struct FEventReply UWBP_Social_Overlay_C::OnMouseButtonUp(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnMouseButtonUp"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnMouseButtonUp");
 
 	struct
 	{
@@ -216,7 +216,7 @@ struct FEventReply UWBP_Social_Overlay_C::OnMouseButtonUp(const struct FGeometry
 
 void UWBP_Social_Overlay_C::MoveTabBy(int Value)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.MoveTabBy"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.MoveTabBy");
 
 	struct
 	{
@@ -236,7 +236,7 @@ void UWBP_Social_Overlay_C::MoveTabBy(int Value)
 
 void UWBP_Social_Overlay_C::SetupNavTabs(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.SetupNavTabs"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.SetupNavTabs");
 
 	struct
 	{
@@ -256,7 +256,7 @@ void UWBP_Social_Overlay_C::SetupNavTabs(class APUMG_HUD* HUD)
 
 bool UWBP_Social_Overlay_C::NavigateBack()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.NavigateBack"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.NavigateBack");
 
 	struct
 	{
@@ -275,7 +275,7 @@ bool UWBP_Social_Overlay_C::NavigateBack()
 
 void UWBP_Social_Overlay_C::ClosePanel()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.ClosePanel"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.ClosePanel");
 
 	struct
 	{
@@ -291,7 +291,7 @@ void UWBP_Social_Overlay_C::ClosePanel()
 
 void UWBP_Social_Overlay_C::OnShown()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnShown"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnShown");
 
 	struct
 	{
@@ -307,7 +307,7 @@ void UWBP_Social_Overlay_C::OnShown()
 
 void UWBP_Social_Overlay_C::BndEvt__Blocker_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__Blocker_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__Blocker_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -326,7 +326,7 @@ void UWBP_Social_Overlay_C::BndEvt__Blocker_K2Node_ComponentBoundEvent_0_OnButto
 
 void UWBP_Social_Overlay_C::StartShowSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.StartShowSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.StartShowSequence");
 
 	struct
 	{
@@ -349,7 +349,7 @@ void UWBP_Social_Overlay_C::StartShowSequence(const struct FName& FromRoute, con
 
 void UWBP_Social_Overlay_C::StartHideSequence(const struct FName& FromRoute, const struct FName& ToRoute)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.StartHideSequence"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.StartHideSequence");
 
 	struct
 	{
@@ -371,7 +371,7 @@ void UWBP_Social_Overlay_C::StartHideSequence(const struct FName& FromRoute, con
 
 void UWBP_Social_Overlay_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.InitializeWidget");
 
 	struct
 	{
@@ -389,7 +389,7 @@ void UWBP_Social_Overlay_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UWBP_Social_Overlay_C::UninitializeWidget()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.UninitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.UninitializeWidget");
 
 	struct
 	{
@@ -407,7 +407,7 @@ void UWBP_Social_Overlay_C::UninitializeWidget()
 
 void UWBP_Social_Overlay_C::OnPlayerCardClick(class UKSWidget* PlayerCard)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnPlayerCardClick"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnPlayerCardClick");
 
 	struct
 	{
@@ -427,7 +427,7 @@ void UWBP_Social_Overlay_C::OnPlayerCardClick(class UKSWidget* PlayerCard)
 
 void UWBP_Social_Overlay_C::OnInputStateChange(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnInputStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnInputStateChange");
 
 	struct
 	{
@@ -445,7 +445,7 @@ void UWBP_Social_Overlay_C::OnInputStateChange(TEnumAsByte<EPGAME_INPUT_STATE> I
 
 void UWBP_Social_Overlay_C::InitializeWidgetNavigation()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.InitializeWidgetNavigation"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.InitializeWidgetNavigation");
 
 	struct
 	{
@@ -461,7 +461,7 @@ void UWBP_Social_Overlay_C::InitializeWidgetNavigation()
 
 void UWBP_Social_Overlay_C::OnHide()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnHide"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnHide");
 
 	struct
 	{
@@ -477,7 +477,7 @@ void UWBP_Social_Overlay_C::OnHide()
 
 void UWBP_Social_Overlay_C::OnTabLeft()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnTabLeft"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnTabLeft");
 
 	struct
 	{
@@ -493,7 +493,7 @@ void UWBP_Social_Overlay_C::OnTabLeft()
 
 void UWBP_Social_Overlay_C::OnTabRight()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnTabRight"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnTabRight");
 
 	struct
 	{
@@ -509,7 +509,7 @@ void UWBP_Social_Overlay_C::OnTabRight()
 
 void UWBP_Social_Overlay_C::OnToggleSocial()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnToggleSocial"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnToggleSocial");
 
 	struct
 	{
@@ -529,7 +529,7 @@ void UWBP_Social_Overlay_C::OnToggleSocial()
 
 void UWBP_Social_Overlay_C::OnViewStateChange(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnViewStateChange"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnViewStateChange");
 
 	struct
 	{
@@ -551,7 +551,7 @@ void UWBP_Social_Overlay_C::OnViewStateChange(const struct FName& CurrentRoute, 
 
 void UWBP_Social_Overlay_C::OnToggleStatusMenu()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnToggleStatusMenu"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnToggleStatusMenu");
 
 	struct
 	{
@@ -570,7 +570,7 @@ void UWBP_Social_Overlay_C::OnToggleStatusMenu()
 
 void UWBP_Social_Overlay_C::HandlePlayerInvitesChanged(class UKSDataSocialCategory* Category, TArray<class UKSDataSocialPlayer*> Players)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandlePlayerInvitesChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandlePlayerInvitesChanged");
 
 	struct
 	{
@@ -590,7 +590,7 @@ void UWBP_Social_Overlay_C::HandlePlayerInvitesChanged(class UKSDataSocialCatego
 
 void UWBP_Social_Overlay_C::BndEvt__ContextBlocker_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__ContextBlocker_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__ContextBlocker_K2Node_ComponentBoundEvent_4_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -609,7 +609,7 @@ void UWBP_Social_Overlay_C::BndEvt__ContextBlocker_K2Node_ComponentBoundEvent_4_
 
 void UWBP_Social_Overlay_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_5_OnReadyForNavigation__DelegateSignature(class UWidget* Default_Widget, TArray<class UWidget*>* NavWidgets)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_5_OnReadyForNavigation__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_5_OnReadyForNavigation__DelegateSignature");
 
 	struct
 	{
@@ -633,7 +633,7 @@ void UWBP_Social_Overlay_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_5_OnR
 
 void UWBP_Social_Overlay_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_6_OnMenuStart__DelegateSignature(class UWidget* FocusWidget)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_6_OnMenuStart__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_6_OnMenuStart__DelegateSignature");
 
 	struct
 	{
@@ -651,7 +651,7 @@ void UWBP_Social_Overlay_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_6_OnM
 
 void UWBP_Social_Overlay_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_7_OnMenuHidden__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_7_OnMenuHidden__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.BndEvt__ContextMenu_K2Node_ComponentBoundEvent_7_OnMenuHidden__DelegateSignature");
 
 	struct
 	{
@@ -669,7 +669,7 @@ void UWBP_Social_Overlay_C::BndEvt__ContextMenu_K2Node_ComponentBoundEvent_7_OnM
 
 void UWBP_Social_Overlay_C::HandleNavTabSelected(class UKSNavTabWidget* NavTab)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandleNavTabSelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.HandleNavTabSelected");
 
 	struct
 	{
@@ -689,7 +689,7 @@ void UWBP_Social_Overlay_C::HandleNavTabSelected(class UKSNavTabWidget* NavTab)
 
 void UWBP_Social_Overlay_C::OnHeaderClicked(class UKSWidget* Header)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnHeaderClicked"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.OnHeaderClicked");
 
 	struct
 	{
@@ -709,7 +709,7 @@ void UWBP_Social_Overlay_C::OnHeaderClicked(class UKSWidget* Header)
 
 void UWBP_Social_Overlay_C::ExecuteUbergraph_WBP_Social_Overlay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_Social_Overlay.WBP_Social_Overlay_C.ExecuteUbergraph_WBP_Social_Overlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Social_Overlay.WBP_Social_Overlay_C.ExecuteUbergraph_WBP_Social_Overlay");
 
 	struct
 	{

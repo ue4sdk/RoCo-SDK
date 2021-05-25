@@ -24,7 +24,7 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>(_xor_("BlueprintGeneratedClass WaypointBeacon.WaypointBeacon_C"));
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass WaypointBeacon.WaypointBeacon_C");
 		return ptr;
 	}
 

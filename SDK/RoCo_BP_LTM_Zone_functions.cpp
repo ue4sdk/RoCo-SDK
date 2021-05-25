@@ -19,7 +19,7 @@ namespace SDK
 
 void ABP_LTM_Zone_C::ToggleCollision(bool TurnCollisionOn)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_LTM_Zone.BP_LTM_Zone_C.ToggleCollision"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_LTM_Zone.BP_LTM_Zone_C.ToggleCollision");
 
 	struct
 	{
@@ -39,7 +39,7 @@ void ABP_LTM_Zone_C::ToggleCollision(bool TurnCollisionOn)
 
 void ABP_LTM_Zone_C::ExecuteUbergraph_BP_LTM_Zone(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function BP_LTM_Zone.BP_LTM_Zone_C.ExecuteUbergraph_BP_LTM_Zone"));
+	static auto fn = UObject::FindObject<UFunction>("Function BP_LTM_Zone.BP_LTM_Zone_C.ExecuteUbergraph_BP_LTM_Zone");
 
 	struct
 	{

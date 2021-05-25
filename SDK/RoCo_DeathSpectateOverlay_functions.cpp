@@ -19,7 +19,7 @@ namespace SDK
 
 void UDeathSpectateOverlay_C::HandleKSPlayerStateTeamChanged(class AKSPlayerState* KSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.HandleKSPlayerStateTeamChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.HandleKSPlayerStateTeamChanged");
 
 	struct
 	{
@@ -37,7 +37,7 @@ void UDeathSpectateOverlay_C::HandleKSPlayerStateTeamChanged(class AKSPlayerStat
 
 void UDeathSpectateOverlay_C::BindTeamRespawn()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.BindTeamRespawn"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.BindTeamRespawn");
 
 	struct
 	{
@@ -55,7 +55,7 @@ void UDeathSpectateOverlay_C::BindTeamRespawn()
 
 void UDeathSpectateOverlay_C::HandleQueueRespawnChanged(class AKSTeamState* TeamState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.HandleQueueRespawnChanged"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.HandleQueueRespawnChanged");
 
 	struct
 	{
@@ -73,7 +73,7 @@ void UDeathSpectateOverlay_C::HandleQueueRespawnChanged(class AKSTeamState* Team
 
 void UDeathSpectateOverlay_C::UpdateViewNextTeammate()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.UpdateViewNextTeammate"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.UpdateViewNextTeammate");
 
 	struct
 	{
@@ -89,7 +89,7 @@ void UDeathSpectateOverlay_C::UpdateViewNextTeammate()
 
 void UDeathSpectateOverlay_C::Construct()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Construct"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Construct");
 
 	struct
 	{
@@ -107,7 +107,7 @@ void UDeathSpectateOverlay_C::Construct()
 
 void UDeathSpectateOverlay_C::InitializeWidget(class APUMG_HUD* HUD)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.InitializeWidget"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.InitializeWidget");
 
 	struct
 	{
@@ -127,7 +127,7 @@ void UDeathSpectateOverlay_C::InitializeWidget(class APUMG_HUD* HUD)
 
 void UDeathSpectateOverlay_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Handle Input State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Handle Input State Changed");
 
 	struct
 	{
@@ -147,7 +147,7 @@ void UDeathSpectateOverlay_C::Handle_Input_State_Changed(TEnumAsByte<EPGAME_INPU
 
 void UDeathSpectateOverlay_C::Handle_Spectate_State_Changed(bool IsSpectating)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Handle Spectate State Changed"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Handle Spectate State Changed");
 
 	struct
 	{
@@ -167,7 +167,7 @@ void UDeathSpectateOverlay_C::Handle_Spectate_State_Changed(bool IsSpectating)
 
 void UDeathSpectateOverlay_C::TeamMemberEliminated(class AKSPlayerState* PlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.TeamMemberEliminated"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.TeamMemberEliminated");
 
 	struct
 	{
@@ -185,7 +185,7 @@ void UDeathSpectateOverlay_C::TeamMemberEliminated(class AKSPlayerState* PlayerS
 
 void UDeathSpectateOverlay_C::DetermineLocalPlayerControlled()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.DetermineLocalPlayerControlled"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.DetermineLocalPlayerControlled");
 
 	struct
 	{
@@ -203,7 +203,7 @@ void UDeathSpectateOverlay_C::DetermineLocalPlayerControlled()
 
 void UDeathSpectateOverlay_C::Refresh_Player_Identity(class AKSPlayerState* InKSPlayerState)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Refresh Player Identity"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Refresh Player Identity");
 
 	struct
 	{
@@ -221,7 +221,7 @@ void UDeathSpectateOverlay_C::Refresh_Player_Identity(class AKSPlayerState* InKS
 
 void UDeathSpectateOverlay_C::PostSetPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.PostSetPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.PostSetPlayerState");
 
 	struct
 	{
@@ -237,7 +237,7 @@ void UDeathSpectateOverlay_C::PostSetPlayerState()
 
 void UDeathSpectateOverlay_C::PreClearPlayerState()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.PreClearPlayerState"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.PreClearPlayerState");
 
 	struct
 	{
@@ -253,7 +253,7 @@ void UDeathSpectateOverlay_C::PreClearPlayerState()
 
 void UDeathSpectateOverlay_C::Update_Team_State_Bindings()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Update Team State Bindings"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Update Team State Bindings");
 
 	struct
 	{
@@ -269,7 +269,7 @@ void UDeathSpectateOverlay_C::Update_Team_State_Bindings()
 
 void UDeathSpectateOverlay_C::Clear_Bound_Team_State()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Clear Bound Team State"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.Clear Bound Team State");
 
 	struct
 	{
@@ -287,7 +287,7 @@ void UDeathSpectateOverlay_C::Clear_Bound_Team_State()
 
 void UDeathSpectateOverlay_C::ExecuteUbergraph_DeathSpectateOverlay(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function DeathSpectateOverlay.DeathSpectateOverlay_C.ExecuteUbergraph_DeathSpectateOverlay"));
+	static auto fn = UObject::FindObject<UFunction>("Function DeathSpectateOverlay.DeathSpectateOverlay_C.ExecuteUbergraph_DeathSpectateOverlay");
 
 	struct
 	{

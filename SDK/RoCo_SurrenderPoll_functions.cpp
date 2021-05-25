@@ -20,7 +20,7 @@ namespace SDK
 
 bool USurrenderPoll_C::CanPlayerProposeThisPoll(class AKSPlayerState* Player)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SurrenderPoll.SurrenderPoll_C.CanPlayerProposeThisPoll"));
+	static auto fn = UObject::FindObject<UFunction>("Function SurrenderPoll.SurrenderPoll_C.CanPlayerProposeThisPoll");
 
 	struct
 	{
@@ -44,7 +44,7 @@ bool USurrenderPoll_C::CanPlayerProposeThisPoll(class AKSPlayerState* Player)
 
 void USurrenderPoll_C::OnPollPassed(class AKSGameState* GameState, int TeamNum)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SurrenderPoll.SurrenderPoll_C.OnPollPassed"));
+	static auto fn = UObject::FindObject<UFunction>("Function SurrenderPoll.SurrenderPoll_C.OnPollPassed");
 
 	struct
 	{
@@ -67,7 +67,7 @@ void USurrenderPoll_C::OnPollPassed(class AKSGameState* GameState, int TeamNum)
 
 void USurrenderPoll_C::OnPollFailed(class AKSGameState* GameState, int TeamNum)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SurrenderPoll.SurrenderPoll_C.OnPollFailed"));
+	static auto fn = UObject::FindObject<UFunction>("Function SurrenderPoll.SurrenderPoll_C.OnPollFailed");
 
 	struct
 	{
@@ -90,7 +90,7 @@ void USurrenderPoll_C::OnPollFailed(class AKSGameState* GameState, int TeamNum)
 
 void USurrenderPoll_C::OnPollStarted(class AKSGameState* GameState, int TeamNum)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SurrenderPoll.SurrenderPoll_C.OnPollStarted"));
+	static auto fn = UObject::FindObject<UFunction>("Function SurrenderPoll.SurrenderPoll_C.OnPollStarted");
 
 	struct
 	{
@@ -112,7 +112,7 @@ void USurrenderPoll_C::OnPollStarted(class AKSGameState* GameState, int TeamNum)
 
 void USurrenderPoll_C::ExecuteUbergraph_SurrenderPoll(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function SurrenderPoll.SurrenderPoll_C.ExecuteUbergraph_SurrenderPoll"));
+	static auto fn = UObject::FindObject<UFunction>("Function SurrenderPoll.SurrenderPoll_C.ExecuteUbergraph_SurrenderPoll");
 
 	struct
 	{

@@ -17,7 +17,7 @@ namespace SDK
 
 void UWBP_RewardListEntry_C::HandleGamepadAutoSelect()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.HandleGamepadAutoSelect"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.HandleGamepadAutoSelect");
 
 	struct
 	{
@@ -33,7 +33,7 @@ void UWBP_RewardListEntry_C::HandleGamepadAutoSelect()
 
 void UWBP_RewardListEntry_C::GamepadHover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.GamepadHover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.GamepadHover");
 
 	struct
 	{
@@ -49,7 +49,7 @@ void UWBP_RewardListEntry_C::GamepadHover()
 
 void UWBP_RewardListEntry_C::GamepadUnhover()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.GamepadUnhover"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.GamepadUnhover");
 
 	struct
 	{
@@ -65,7 +65,7 @@ void UWBP_RewardListEntry_C::GamepadUnhover()
 
 void UWBP_RewardListEntry_C::BndEvt__HitTest_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.BndEvt__HitTest_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.BndEvt__HitTest_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
 
 	struct
 	{
@@ -81,7 +81,7 @@ void UWBP_RewardListEntry_C::BndEvt__HitTest_K2Node_ComponentBoundEvent_2_OnButt
 
 void UWBP_RewardListEntry_C::PlaySelected()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PlaySelected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PlaySelected");
 
 	struct
 	{
@@ -97,7 +97,7 @@ void UWBP_RewardListEntry_C::PlaySelected()
 
 void UWBP_RewardListEntry_C::PlayUnselected()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PlayUnselected"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PlayUnselected");
 
 	struct
 	{
@@ -115,7 +115,7 @@ void UWBP_RewardListEntry_C::PlayUnselected()
 
 void UWBP_RewardListEntry_C::PreConstruct(bool IsDesignTime)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PreConstruct"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PreConstruct");
 
 	struct
 	{
@@ -135,7 +135,7 @@ void UWBP_RewardListEntry_C::PreConstruct(bool IsDesignTime)
 
 void UWBP_RewardListEntry_C::PopulateSlotWithStoreItem(class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PopulateSlotWithStoreItem"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PopulateSlotWithStoreItem");
 
 	struct
 	{
@@ -156,7 +156,7 @@ void UWBP_RewardListEntry_C::PopulateSlotWithStoreItem(class UPUMG_StoreItem* St
 
 void UWBP_RewardListEntry_C::PopulateSlotWithActivityInfo(class UKSActivityInstance* ActivityInstance, const struct FActivityTier& ActivityTier)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PopulateSlotWithActivityInfo"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.PopulateSlotWithActivityInfo");
 
 	struct
 	{
@@ -176,7 +176,7 @@ void UWBP_RewardListEntry_C::PopulateSlotWithActivityInfo(class UKSActivityInsta
 
 void UWBP_RewardListEntry_C::BndEvt__HitTest_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.BndEvt__HitTest_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.BndEvt__HitTest_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -192,7 +192,7 @@ void UWBP_RewardListEntry_C::BndEvt__HitTest_K2Node_ComponentBoundEvent_1_OnButt
 
 void UWBP_RewardListEntry_C::BndEvt__HitTest_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.BndEvt__HitTest_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.BndEvt__HitTest_K2Node_ComponentBoundEvent_0_OnButtonHoverEvent__DelegateSignature");
 
 	struct
 	{
@@ -210,7 +210,7 @@ void UWBP_RewardListEntry_C::BndEvt__HitTest_K2Node_ComponentBoundEvent_0_OnButt
 
 void UWBP_RewardListEntry_C::ExecuteUbergraph_WBP_RewardListEntry(int EntryPoint)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.ExecuteUbergraph_WBP_RewardListEntry"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.ExecuteUbergraph_WBP_RewardListEntry");
 
 	struct
 	{
@@ -228,7 +228,7 @@ void UWBP_RewardListEntry_C::ExecuteUbergraph_WBP_RewardListEntry(int EntryPoint
 
 void UWBP_RewardListEntry_C::OnBtnUnhovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.OnBtnUnhovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.OnBtnUnhovered__DelegateSignature");
 
 	struct
 	{
@@ -244,7 +244,7 @@ void UWBP_RewardListEntry_C::OnBtnUnhovered__DelegateSignature()
 
 void UWBP_RewardListEntry_C::OnBtnHovered__DelegateSignature()
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.OnBtnHovered__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.OnBtnHovered__DelegateSignature");
 
 	struct
 	{
@@ -264,7 +264,7 @@ void UWBP_RewardListEntry_C::OnBtnHovered__DelegateSignature()
 
 void UWBP_RewardListEntry_C::OnBtnClicked__DelegateSignature(class UWBP_RewardListEntry_C* Widget, const struct FCosmeticSlotDetails& RewardSlotDetails, class UPUMG_StoreItem* StoreItem)
 {
-	static auto fn = UObject::FindObject<UFunction>(_xor_("Function WBP_RewardListEntry.WBP_RewardListEntry_C.OnBtnClicked__DelegateSignature"));
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RewardListEntry.WBP_RewardListEntry_C.OnBtnClicked__DelegateSignature");
 
 	struct
 	{
