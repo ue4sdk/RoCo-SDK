@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_CrosshairColor.SettingsInfo_CrosshairColor_C
-// 0x0000 (0x0110 - 0x0110)
+// 0x0000 (0x0128 - 0x0128)
 class USettingsInfo_CrosshairColor_C : public UKSSettingsInfo_CrosshairColor
 {
 public:

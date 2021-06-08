@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,18 +15,18 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C
-// 0x0056 (0x0536 - 0x04E0)
+// 0x0056 (0x0556 - 0x0500)
 class UWBP_InGameJobSelect_Base_C : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnResetJobEntries;                                        // 0x04E0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnJobSelected;                                            // 0x04F0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnLockInJob;                                              // 0x0500(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnViewJobLoadout;                                         // 0x0510(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnCancelJobSelection;                                     // 0x0520(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	int                                                GRID_WIDTH;                                               // 0x0530(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	bool                                               HasLockedIn;                                              // 0x0534(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
-	bool                                               HasBoundJobChange;                                        // 0x0535(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
+	struct FScriptMulticastDelegate                    OnResetJobEntries;                                        // 0x0500(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    OnJobSelected;                                            // 0x0510(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    OnLockInJob;                                              // 0x0520(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    OnViewJobLoadout;                                         // 0x0530(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    OnCancelJobSelection;                                     // 0x0540(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	int                                                GRID_WIDTH;                                               // 0x0550(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	bool                                               HasLockedIn;                                              // 0x0554(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
+	bool                                               HasBoundJobChange;                                        // 0x0555(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{

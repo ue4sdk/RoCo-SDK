@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -200,6 +200,15 @@ enum class EContextPromptAnchoring : uint8_t
 };
 
 
+// Enum KillstreakUINew.EContextPromptType
+enum class EContextPromptType : uint8_t
+{
+	EContextPromptType__PromptTypeStandard = 0,
+	EContextPromptType__PromptTypeCycle = 1,
+	EContextPromptType__EContextPromptType_MAX = 2
+};
+
+
 // Enum KillstreakUINew.EViewSide
 enum class EViewSide : uint8_t
 {
@@ -364,7 +373,9 @@ enum class ENewsActions : uint8_t
 	ENewsActions__ENewsActions_Unknown = 0,
 	ENewsActions__ENewsActions_ExternalURL = 1,
 	ENewsActions__ENewsActions_NavToRoute = 2,
-	ENewsActions__ENewsActions_MAX = 3
+	ENewsActions__ENewsActions_NavToStoreItem = 3,
+	ENewsActions__ENewsActions_NavToRogueDetails = 4,
+	ENewsActions__ENewsActions_MAX = 5
 };
 
 
@@ -603,7 +614,8 @@ enum class EExperimentalFeatureName : uint8_t
 	EExperimentalFeatureName__Json_Store = 2,
 	EExperimentalFeatureName__BattlePass_Season2 = 3,
 	EExperimentalFeatureName__Monthly_Login = 4,
-	EExperimentalFeatureName__EExperimentalFeatureName_MAX = 5
+	EExperimentalFeatureName__Weapon_Mastery = 5,
+	EExperimentalFeatureName__EExperimentalFeatureName_MAX = 6
 };
 
 
@@ -663,6 +675,15 @@ enum class EDamageBaseType : uint8_t
 	EDamageBaseType__Lethal        = 2,
 	EDamageBaseType__Special       = 3,
 	EDamageBaseType__EDamageBaseType_MAX = 4
+};
+
+
+// Enum KillstreakUINew.ERelatedRogueType
+enum class ERelatedRogueType : uint8_t
+{
+	ERelatedRogueType__UsesUnlocked = 0,
+	ERelatedRogueType__UsesLocked  = 1,
+	ERelatedRogueType__ERelatedRogueType_MAX = 2
 };
 
 

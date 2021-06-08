@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -343,6 +343,7 @@ public:
 	bool IsLobbyHUD();
 	bool IsCrossplayEnabled();
 	void InputStateChangePassthrough(TEnumAsByte<EPGAME_INPUT_STATE> InputState);
+	void gmmf(bool bAutolaunch);
 	class UPUMG_ViewManager* GetViewManager();
 	class UPUMG_PopupManager* GetPopupManager();
 	class APlayerController* GetPlayerControllerOwner();
@@ -833,7 +834,7 @@ public:
 	}
 
 
-	void StartCustomMatch();
+	void StartCustomMatch(bool bDoChecks);
 	void SetPlayerTeamCustomMatch(int64_t PlayerId, int TeamId);
 	void SetPendingMapForCustomQueue(int MapId);
 	void SetMapForCustomMatch(int MapId);
@@ -864,7 +865,7 @@ public:
 	static bool GetCurrentMatchId(int* MatchID);
 	bool GetBaseQueueInfoById(int QueueId, struct FPUMG_ClientQueueInfo* InClientQueueInfo);
 	void DeclineMatchInvite();
-	void CreateCustomMatch(int QueueId);
+	void CreateCustomMatch(int QueueId, int TeamSize, int TaskForceCount);
 	EPUMG_CustomMatchError CheckCustomMatch();
 	bool CanQueue();
 	bool CanLocalPlayerPromoteCustomLobbyPlayer(int64_t PlayerId);

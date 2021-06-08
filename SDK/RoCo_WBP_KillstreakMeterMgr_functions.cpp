@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,22 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Handle Death State Changed
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_KillstreakMeterMgr_C::Handle_Death_State_Changed()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Handle Death State Changed");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.InitActivatableMods
 // (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)

@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -3947,6 +3947,17 @@ enum class EMaterialProperty : uint8_t
 	MP_MaterialAttributes          = 30,
 	MP_CustomOutput                = 31,
 	MP_MAX                         = 32
+};
+
+
+// Enum Engine.EOutlineDepthMode
+enum class EOutlineDepthMode : uint8_t
+{
+	ODM_DepthNearOrEqual           = 0,
+	ODM_DepthFartherOrEqual        = 1,
+	ODM_SkipDepthTest              = 2,
+	ODM_CutoutOutlinesOnly         = 3,
+	ODM_MAX                        = 4
 };
 
 

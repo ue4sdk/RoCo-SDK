@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -8,10 +8,10 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_DataTableSkinsCommon_enums.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
-#include "RoCo_AnimationBudgetAllocator_classes.hpp"
 #include "RoCo_GameplayTags_classes.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
+#include "RoCo_AnimationBudgetAllocator_classes.hpp"
 
 namespace SDK
 {

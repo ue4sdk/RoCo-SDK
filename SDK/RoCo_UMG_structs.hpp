@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -8,13 +8,13 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_UMG_enums.hpp"
-#include "RoCo_PropertyPath_classes.hpp"
+#include "RoCo_MovieSceneTracks_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
+#include "RoCo_MovieScene_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
-#include "RoCo_MovieSceneTracks_classes.hpp"
+#include "RoCo_PropertyPath_classes.hpp"
 #include "RoCo_Slate_classes.hpp"
-#include "RoCo_MovieScene_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
 
 namespace SDK
@@ -34,10 +34,10 @@ struct FWidgetTransform
 };
 
 // ScriptStruct UMG.EventReply
-// 0x00B8
+// 0x00C0
 struct FEventReply
 {
-	unsigned char                                      UnknownData00[0xB8];                                      // 0x0000(0x00B8) MISSED OFFSET
+	unsigned char                                      UnknownData00[0xC0];                                      // 0x0000(0x00C0) MISSED OFFSET
 };
 
 // ScriptStruct UMG.NamedSlotBinding

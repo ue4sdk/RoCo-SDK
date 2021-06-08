@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -243,6 +243,26 @@ void UWBP_WeaponSlotsContainer_C::Tick_Wheel()
 	{
 	} params;
 
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.ModeChange
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TEnumAsByte<EPGAME_INPUT_STATE> InputState                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_WeaponSlotsContainer_C::ModeChange(TEnumAsByte<EPGAME_INPUT_STATE> InputState)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_WeaponSlotsContainer.WBP_WeaponSlotsContainer_C.ModeChange");
+
+	struct
+	{
+		TEnumAsByte<EPGAME_INPUT_STATE> InputState;
+	} params;
+
+	params.InputState = InputState;
 
 	UObject::ProcessEvent(fn, &params);
 }

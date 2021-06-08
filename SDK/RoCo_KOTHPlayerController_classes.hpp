@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass KOTHPlayerController.KOTHPlayerController_C
-// 0x0008 (0x0E18 - 0x0E10)
+// 0x0008 (0x0E20 - 0x0E18)
 class AKOTHPlayerController_C : public AGamePlayerController_C
 {
 public:
-	class UKOTHKSHUDAnnouncementComoponent_C*          KOTHKSHUDAnnouncementComoponent;                          // 0x0E10(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UKOTHKSHUDAnnouncementComoponent_C*          KOTHKSHUDAnnouncementComoponent;                          // 0x0E18(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

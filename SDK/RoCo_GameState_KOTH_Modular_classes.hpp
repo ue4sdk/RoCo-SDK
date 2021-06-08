@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,15 +15,15 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GameState_KOTH_Modular.GameState_KOTH_Modular_C
-// 0x0020 (0x18F8 - 0x18D8)
+// 0x0020 (0x1948 - 0x1928)
 class AGameState_KOTH_Modular_C : public AKSGameState_Modular
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x18D8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	class UBP_KSObjectiveComponent_C*                  KSObjectiveComponent;                                     // 0x18E0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	class USceneComponent*                             DefaultSceneRoot;                                         // 0x18E8(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	float                                              CurrentPointTime;                                         // 0x18F0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_Net, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_RepNotify, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	float                                              SimulatedCurrentPointTime;                                // 0x18F4(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x1928(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	class UBP_KSObjectiveComponent_C*                  KSObjectiveComponent;                                     // 0x1930(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class USceneComponent*                             DefaultSceneRoot;                                         // 0x1938(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	float                                              CurrentPointTime;                                         // 0x1940(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_Net, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_RepNotify, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	float                                              SimulatedCurrentPointTime;                                // 0x1944(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

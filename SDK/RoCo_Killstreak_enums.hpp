@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -27,6 +27,16 @@ enum class EItemSourceType : uint8_t
 	EItemSourceType__WeaponSwap    = 9,
 	EItemSourceType__ServerTravel  = 10,
 	EItemSourceType__EItemSourceType_MAX = 11
+};
+
+
+// Enum Killstreak.EDropPickupConfig
+enum class EDropPickupConfig : uint8_t
+{
+	EDropPickupConfig__AllPlayers  = 0,
+	EDropPickupConfig__EnemiesOnly = 1,
+	EDropPickupConfig__FriendliesOnly = 2,
+	EDropPickupConfig__EDropPickupConfig_MAX = 3
 };
 
 
@@ -68,8 +78,9 @@ enum class EAmmoType : uint8_t
 	EAmmoType__THREE_HUND          = 5,
 	EAmmoType__TWENTY_TWO          = 6,
 	EAmmoType__FIFTY               = 7,
-	EAmmoType__NONE                = 8,
-	EAmmoType__EAmmoType_MAX       = 9
+	EAmmoType__ABILITY             = 8,
+	EAmmoType__NONE                = 9,
+	EAmmoType__EAmmoType_MAX       = 10
 };
 
 
@@ -270,6 +281,21 @@ enum class EHitLocationType : uint8_t
 };
 
 
+// Enum Killstreak.EKSVoiceOverPriority
+enum class EKSVoiceOverPriority : uint8_t
+{
+	EKSVoiceOverPriority__None     = 0,
+	EKSVoiceOverPriority__Nonverbal = 1,
+	EKSVoiceOverPriority__Flavor   = 2,
+	EKSVoiceOverPriority__GameTeamState = 3,
+	EKSVoiceOverPriority__CharacterInfo = 4,
+	EKSVoiceOverPriority__Callout  = 5,
+	EKSVoiceOverPriority__Objective = 6,
+	EKSVoiceOverPriority__MatchStartEnd = 7,
+	EKSVoiceOverPriority__EKSVoiceOverPriority_MAX = 8
+};
+
+
 // Enum Killstreak.EKSVoicelineType
 enum class EKSVoicelineType : uint8_t
 {
@@ -461,7 +487,8 @@ enum class EMercCosmeticSlot : uint8_t
 	EMercCosmeticSlot__QUIP_SLOT   = 4,
 	EMercCosmeticSlot__COMMUNICATION_SLOT = 5,
 	EMercCosmeticSlot__SPRAY_SLOT  = 6,
-	EMercCosmeticSlot__EMercCosmeticSlot_MAX = 7
+	EMercCosmeticSlot__WEAPON_CATEGORY_SLOT = 7,
+	EMercCosmeticSlot__EMercCosmeticSlot_MAX = 8
 };
 
 
@@ -861,8 +888,9 @@ enum class EAbilityExecutionType : uint8_t
 	EAbilityExecutionType__RandomActivate = 1,
 	EAbilityExecutionType__AimFireActivate = 2,
 	EAbilityExecutionType__IngressPointActivate = 3,
-	EAbilityExecutionType__UniqueActivation = 4,
-	EAbilityExecutionType__EAbilityExecutionType_MAX = 5
+	EAbilityExecutionType__ThrowLikeGrenade = 4,
+	EAbilityExecutionType__UniqueActivation = 5,
+	EAbilityExecutionType__EAbilityExecutionType_MAX = 6
 };
 
 
@@ -1003,6 +1031,15 @@ enum class EKSDeathState : uint8_t
 };
 
 
+// Enum Killstreak.EKSCinematicCharacterType
+enum class EKSCinematicCharacterType : uint8_t
+{
+	EKSCinematicCharacterType__Cinematic = 0,
+	EKSCinematicCharacterType__JobSelection = 1,
+	EKSCinematicCharacterType__EKSCinematicCharacterType_MAX = 2
+};
+
+
 // Enum Killstreak.ECosmeticStateSimulationType
 enum class ECosmeticStateSimulationType : uint8_t
 {
@@ -1118,9 +1155,20 @@ enum class EPlayerInfoInventoryRestoreType : uint8_t
 // Enum Killstreak.EKillCamStatus
 enum class EKillCamStatus : uint8_t
 {
-	EKillCamStatus__KillCamEnabled = 0,
-	EKillCamStatus__KillCamDisabled = 1,
-	EKillCamStatus__EKillCamStatus_MAX = 2
+	EKillCamStatus__KillCamUninitialized = 0,
+	EKillCamStatus__KillCamEnabled = 1,
+	EKillCamStatus__KillCamDisabled = 2,
+	EKillCamStatus__EKillCamStatus_MAX = 3
+};
+
+
+// Enum Killstreak.ECrosshairSize
+enum class ECrosshairSize : uint8_t
+{
+	ECrosshairSize__Standard       = 0,
+	ECrosshairSize__Medium         = 1,
+	ECrosshairSize__Large          = 2,
+	ECrosshairSize__ECrosshairSize_MAX = 3
 };
 
 
@@ -1239,6 +1287,26 @@ enum class EPlayerAccountSlot : uint8_t
 	EPlayerAccountSlot__BORDER_SLOT = 3,
 	EPlayerAccountSlot__TITLE_SLOT = 4,
 	EPlayerAccountSlot__EPlayerAccountSlot_MAX = 5
+};
+
+
+// Enum Killstreak.EWeaponCosmeticSlot
+enum class EWeaponCosmeticSlot : uint8_t
+{
+	EWeaponCosmeticSlot__WRAP_SLOT = 0,
+	EWeaponCosmeticSlot__WRAP_MAX  = 1
+};
+
+
+// Enum Killstreak.EKSLoadoutTypes
+enum class EKSLoadoutTypes : uint8_t
+{
+	EKSLoadoutTypes__INVALID_LOADOUT = 0,
+	EKSLoadoutTypes__JOB_COSMETICS = 1,
+	EKSLoadoutTypes__PLAYER_ACCOUNT = 2,
+	EKSLoadoutTypes__GLOBAL_COSMETIC_LOADOUT = 3,
+	EKSLoadoutTypes__WEAPON_COSMETIC_LOADOUT = 4,
+	EKSLoadoutTypes__EKSLoadoutTypes_MAX = 5
 };
 
 
@@ -1416,13 +1484,14 @@ enum class EKSObjectiveState : uint8_t
 	EKSObjectiveState__Reset       = 2,
 	EKSObjectiveState__Held        = 3,
 	EKSObjectiveState__Dropped     = 4,
-	EKSObjectiveState__Arming      = 5,
-	EKSObjectiveState__Armed       = 6,
-	EKSObjectiveState__Disarming   = 7,
-	EKSObjectiveState__Disarmed    = 8,
-	EKSObjectiveState__Deactivated = 9,
-	EKSObjectiveState__Exploded    = 10,
-	EKSObjectiveState__EKSObjectiveState_MAX = 11
+	EKSObjectiveState__Contested   = 5,
+	EKSObjectiveState__Arming      = 6,
+	EKSObjectiveState__Armed       = 7,
+	EKSObjectiveState__Disarming   = 8,
+	EKSObjectiveState__Disarmed    = 9,
+	EKSObjectiveState__Deactivated = 10,
+	EKSObjectiveState__Exploded    = 11,
+	EKSObjectiveState__EKSObjectiveState_MAX = 12
 };
 
 
@@ -1589,6 +1658,16 @@ enum class EKSStimulateTarget : uint8_t
 	EKSStimulateTarget__OnlyAllies = 1,
 	EKSStimulateTarget__AllPlayers = 2,
 	EKSStimulateTarget__EKSStimulateTarget_MAX = 3
+};
+
+
+// Enum Killstreak.EKSPOIState
+enum class EKSPOIState : uint8_t
+{
+	EKSPOIState__Disabled          = 0,
+	EKSPOIState__Staged            = 1,
+	EKSPOIState__Enabled           = 2,
+	EKSPOIState__EKSPOIState_MAX   = 3
 };
 
 
@@ -1987,6 +2066,16 @@ enum class EOcclusionType : uint8_t
 };
 
 
+// Enum Killstreak.EKSVoiceOverState
+enum class EKSVoiceOverState : uint8_t
+{
+	EKSVoiceOverState__Mute        = 0,
+	EKSVoiceOverState__Duck        = 1,
+	EKSVoiceOverState__Play        = 2,
+	EKSVoiceOverState__EKSVoiceOverState_MAX = 3
+};
+
+
 // Enum Killstreak.EMuteMode
 enum class EMuteMode : uint8_t
 {
@@ -2239,6 +2328,17 @@ enum class ETG_EQUIP_POINT : uint8_t
 };
 
 
+// Enum Killstreak.EQueueDivertType
+enum class EQueueDivertType : uint8_t
+{
+	EQueueDivertType__None         = 0,
+	EQueueDivertType__ShelteredMM  = 1,
+	EQueueDivertType__ForcedBotMatch = 2,
+	EQueueDivertType__Other        = 3,
+	EQueueDivertType__EQueueDivertType_MAX = 4
+};
+
+
 // Enum Killstreak.EKSWeaponDestroyReason
 enum class EKSWeaponDestroyReason : uint8_t
 {
@@ -2280,6 +2380,23 @@ enum class EKSBuildState : uint8_t
 	EKSBuildState__BUILD_SUCCEEDED = 2,
 	EKSBuildState__BUILD_FAILED    = 3,
 	EKSBuildState__BUILD_MAX       = 4
+};
+
+
+// Enum Killstreak.EKSWeaponCategoryType
+enum class EKSWeaponCategoryType : uint8_t
+{
+	EKSWeaponCategoryType__Invalid = 0,
+	EKSWeaponCategoryType__AssaultRifle = 1,
+	EKSWeaponCategoryType__DMR     = 2,
+	EKSWeaponCategoryType__LightMachineGun = 3,
+	EKSWeaponCategoryType__Shotgun = 4,
+	EKSWeaponCategoryType__SniperRifle = 5,
+	EKSWeaponCategoryType__SubMachineGun = 6,
+	EKSWeaponCategoryType__Pistol  = 7,
+	EKSWeaponCategoryType__Melee   = 8,
+	EKSWeaponCategoryType__Gadget  = 9,
+	EKSWeaponCategoryType__EKSWeaponCategoryType_MAX = 10
 };
 
 
@@ -2373,6 +2490,16 @@ enum class EBundledAmmoType : uint8_t
 	EBundledAmmoType__DefaultAmmoFromAsset = 1,
 	EBundledAmmoType__Override     = 2,
 	EBundledAmmoType__EBundledAmmoType_MAX = 3
+};
+
+
+// Enum Killstreak.EVariableFireRateState
+enum class EVariableFireRateState : uint8_t
+{
+	EVariableFireRateState__Static = 0,
+	EVariableFireRateState__Charging = 1,
+	EVariableFireRateState__Decaying = 2,
+	EVariableFireRateState__EVariableFireRateState_MAX = 3
 };
 
 

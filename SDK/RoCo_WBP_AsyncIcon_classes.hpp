@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,15 +15,15 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_AsyncIcon.WBP_AsyncIcon_C
-// 0x00B0 (0x0590 - 0x04E0)
-class UWBP_AsyncIcon_C : public UKSWidget
+// 0x00B0 (0x02E8 - 0x0238)
+class UWBP_AsyncIcon_C : public UUserWidget
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x04E0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	class UKSAsyncImage*                               Icon;                                                     // 0x04E8(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
-	class UThrobber*                                   LoadingThrobber;                                          // 0x04F0(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
-	struct FScriptMulticastDelegate                    OnIconUpdated;                                            // 0x04F8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FSlateBrush                                 DefaultBrush;                                             // 0x0508(0x0088) (CPF_Edit, CPF_BlueprintVisible, CPF_ExposeOnSpawn)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0238(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	class UKSAsyncImage*                               Icon;                                                     // 0x0240(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
+	class UThrobber*                                   LoadingThrobber;                                          // 0x0248(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
+	struct FScriptMulticastDelegate                    OnIconUpdated;                                            // 0x0250(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FSlateBrush                                 DefaultBrush;                                             // 0x0260(0x0088) (CPF_Edit, CPF_BlueprintVisible, CPF_ExposeOnSpawn)
 
 	static UClass* StaticClass()
 	{

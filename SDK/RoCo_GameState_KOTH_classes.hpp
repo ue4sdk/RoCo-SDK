@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GameState_KOTH.GameState_KOTH_C
-// 0x0008 (0x1990 - 0x1988)
+// 0x0008 (0x19E0 - 0x19D8)
 class AGameState_KOTH_C : public AKSGameState_NeutralBomb
 {
 public:
-	class USceneComponent*                             DefaultSceneRoot;                                         // 0x1988(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class USceneComponent*                             DefaultSceneRoot;                                         // 0x19D8(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

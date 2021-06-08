@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -47,6 +47,22 @@ void UPlayerHealthMeterSegment_C::SequenceEvent__ENTRYPOINTPlayerHealthMeterSegm
 	} params;
 
 	params.SliceImmuneOverlay = SliceImmuneOverlay;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetHealthColors
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UPlayerHealthMeterSegment_C::SetHealthColors()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.SetHealthColors");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -218,26 +234,6 @@ void UPlayerHealthMeterSegment_C::OnEnableImmuneParams(class UOverlay* SliceImmu
 	} params;
 
 	params.SliceImmuneOverlay = SliceImmuneOverlay;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.PreConstruct
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-// Parameters:
-// bool                           IsDesignTime                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UPlayerHealthMeterSegment_C::PreConstruct(bool IsDesignTime)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeterSegment.PlayerHealthMeterSegment_C.PreConstruct");
-
-	struct
-	{
-		bool                           IsDesignTime;
-	} params;
-
-	params.IsDesignTime = IsDesignTime;
 
 	UObject::ProcessEvent(fn, &params);
 }

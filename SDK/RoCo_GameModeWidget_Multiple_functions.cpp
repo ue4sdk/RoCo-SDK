@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -266,6 +266,29 @@ void UGameModeWidget_Multiple_C::HandleRoundSetup(const struct FRoundInitState& 
 	} params;
 
 	params.RoundInitState = RoundInitState;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.On Cash Changed
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            Money                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// int                            Delta                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UGameModeWidget_Multiple_C::On_Cash_Changed(int Money, int Delta)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameModeWidget_Multiple.GameModeWidget_Multiple_C.On Cash Changed");
+
+	struct
+	{
+		int                            Money;
+		int                            Delta;
+	} params;
+
+	params.Money = Money;
+	params.Delta = Delta;
 
 	UObject::ProcessEvent(fn, &params);
 }

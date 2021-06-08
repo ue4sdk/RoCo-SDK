@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -9,8 +9,8 @@
 #include "RoCo_Basic.hpp"
 #include "RoCo_MovieScene_classes.hpp"
 #include "RoCo_LiveLinkInterface_classes.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_MovieSceneTracks_classes.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
 
 namespace SDK
 {

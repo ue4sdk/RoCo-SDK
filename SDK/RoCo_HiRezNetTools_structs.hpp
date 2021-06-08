@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -47,13 +47,13 @@ struct FRepPreloaderItem : public FFastArraySerializerItem
 };
 
 // ScriptStruct HiRezNetTools.ReplicatedPreloader
-// 0x00D0 (0x01D8 - 0x0108)
+// 0x00D8 (0x01E0 - 0x0108)
 struct FReplicatedPreloader : public FFastArraySerializer
 {
 	unsigned char                                      UnknownData00[0x50];                                      // 0x0108(0x0050) MISSED OFFSET
 	TArray<struct FRepPreloaderItem>                   RepArray;                                                 // 0x0158(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	TArray<struct FName>                               AlwaysIncludeBundles;                                     // 0x0168(0x0010) (CPF_ZeroConstructor, CPF_RepSkip, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData01[0x60];                                      // 0x0178(0x0060) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x68];                                      // 0x0178(0x0068) MISSED OFFSET
 };
 
 }

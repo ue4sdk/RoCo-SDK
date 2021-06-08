@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -9,6 +9,7 @@
 #include <locale>
 #include <unordered_map>
 #include <string>
+#include "xorstr.hpp"
 
 namespace SDK
 {

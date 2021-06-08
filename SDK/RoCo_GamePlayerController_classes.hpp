@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GamePlayerController.GamePlayerController_C
-// 0x0008 (0x0E10 - 0x0E08)
+// 0x0008 (0x0E18 - 0x0E10)
 class AGamePlayerController_C : public AGamePlayerControllerNoHUD_C
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0E08(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0E10(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

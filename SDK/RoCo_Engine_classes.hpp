@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -480,20 +480,20 @@ public:
 	unsigned char                                      AlwaysLoadOnServer : 1;                                   // 0x0226(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bUseEditorCompositing : 1;                                // 0x0226(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bRenderCustomDepth : 1;                                   // 0x0226(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bOutlineSkipsDepthTest : 1;                               // 0x0226(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bOutlineIsCutout : 1;                                     // 0x0227(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bExcludeFromContributionCulling : 1;                      // 0x0227(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bExcludeFromContributionCulling : 1;                      // 0x0226(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x1];                                       // 0x0227(0x0001) MISSED OFFSET
 	TEnumAsByte<EHasCustomNavigableGeometry>           bHasCustomNavigableGeometry;                              // 0x0228(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x1];                                       // 0x0229(0x0001) MISSED OFFSET
-	TEnumAsByte<ECanBeCharacterBase>                   CanCharacterStepUpOn;                                     // 0x022A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FLightingChannels                           LightingChannels;                                         // 0x022B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
-	ERendererStencilMask                               CustomDepthStencilWriteMask;                              // 0x022C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x022D(0x0003) MISSED OFFSET
+	TEnumAsByte<EOutlineDepthMode>                     OutlineDepthMode;                                         // 0x0229(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x1];                                       // 0x022A(0x0001) MISSED OFFSET
+	TEnumAsByte<ECanBeCharacterBase>                   CanCharacterStepUpOn;                                     // 0x022B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FLightingChannels                           LightingChannels;                                         // 0x022C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
+	ERendererStencilMask                               CustomDepthStencilWriteMask;                              // 0x022D(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0x2];                                       // 0x022E(0x0002) MISSED OFFSET
 	int                                                CustomDepthStencilValue;                                  // 0x0230(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x4];                                       // 0x0234(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData04[0x4];                                       // 0x0234(0x0004) MISSED OFFSET
 	struct FCustomPrimitiveData                        CustomPrimitiveData;                                      // 0x0238(0x0010) (CPF_Edit, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPrivate)
 	struct FCustomPrimitiveData                        CustomPrimitiveDataInternal;                              // 0x0248(0x0010) (CPF_Transient, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData04[0x8];                                       // 0x0258(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData05[0x8];                                       // 0x0258(0x0008) MISSED OFFSET
 	int                                                TranslucencySortPriority;                                 // 0x0260(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                VisibilityId;                                             // 0x0264(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TArray<class URuntimeVirtualTexture*>              RuntimeVirtualTextures;                                   // 0x0268(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -501,25 +501,25 @@ public:
 	int8_t                                             VirtualTextureCullMips;                                   // 0x0279(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int8_t                                             VirtualTextureMinCoverage;                                // 0x027A(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	ERuntimeVirtualTextureMainPassType                 VirtualTextureRenderPassType;                             // 0x027B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData05[0x4];                                       // 0x027C(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData06[0x4];                                       // 0x027C(0x0004) MISSED OFFSET
 	float                                              LpvBiasMultiplier;                                        // 0x0280(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              OutlineThicknessMultiplier;                               // 0x0284(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                OutlineColor;                                             // 0x0288(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              OutlineZFadeMin;                                          // 0x0298(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              OutlineZFadeMax;                                          // 0x029C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData06[0x8];                                       // 0x02A0(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData07[0x8];                                       // 0x02A0(0x0008) MISSED OFFSET
 	float                                              BoundsScale;                                              // 0x02A8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData07[0xC];                                       // 0x02AC(0x000C) MISSED OFFSET
+	unsigned char                                      UnknownData08[0xC];                                       // 0x02AC(0x000C) MISSED OFFSET
 	TArray<class AActor*>                              MoveIgnoreActors;                                         // 0x02B8(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TArray<class UPrimitiveComponent*>                 MoveIgnoreComponents;                                     // 0x02C8(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData08[0x10];                                      // 0x02D8(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData09[0x10];                                      // 0x02D8(0x0010) MISSED OFFSET
 	struct FBodyInstance                               BodyInstance;                                             // 0x02E8(0x0110) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnComponentHit;                                           // 0x03F8(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnComponentBeginOverlap;                                  // 0x03F9(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnComponentEndOverlap;                                    // 0x03FA(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnComponentWake;                                          // 0x03FB(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnComponentSleep;                                         // 0x03FC(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData09[0x1];                                       // 0x03FD(0x0001) MISSED OFFSET
+	unsigned char                                      UnknownData10[0x1];                                       // 0x03FD(0x0001) MISSED OFFSET
 	struct FScriptMulticastDelegate                    OnBeginCursorOver;                                        // 0x03FE(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnEndCursorOver;                                          // 0x03FF(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnClicked;                                                // 0x0400(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
@@ -528,10 +528,10 @@ public:
 	struct FScriptMulticastDelegate                    OnInputTouchEnd;                                          // 0x0403(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnInputTouchEnter;                                        // 0x0404(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnInputTouchLeave;                                        // 0x0405(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData10[0x1A];                                      // 0x0406(0x001A) MISSED OFFSET
+	unsigned char                                      UnknownData11[0x1A];                                      // 0x0406(0x001A) MISSED OFFSET
 	class UPrimitiveComponent*                         LODParentPrimitive;                                       // 0x0420(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NonPIEDuplicateTransient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	float                                              CustomFOV;                                                // 0x0428(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData11[0x4];                                       // 0x042C(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData12[0x4];                                       // 0x042C(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -563,8 +563,7 @@ public:
 	void SetOutlineZFadeMin(float InOutlineZFadeMin);
 	void SetOutlineZFadeMax(float InOutlineZFadeMax);
 	void SetOutlineThicknessMultiplier(float InThicknessMultiplier);
-	void SetOutlineSkipsDepthTest(bool bInSkipsDepthTest);
-	void SetOutlineIsCutout(bool bInOutlineIsCutout);
+	void SetOutlineDepthMode(TEnumAsByte<EOutlineDepthMode> InOutlineDepthMode);
 	void SetOutlineColor(const struct FLinearColor& InColor);
 	void SetOnlyOwnerSee(bool bNewOnlyOwnerSee);
 	void SetNotifyRigidBodyCollision(bool bNewNotifyRigidBodyCollision);
@@ -1223,7 +1222,7 @@ public:
 
 
 // Class Engine.LocalPlayer
-// 0x0210 (0x0258 - 0x0048)
+// 0x0218 (0x0260 - 0x0048)
 class ULocalPlayer : public UPlayer
 {
 public:
@@ -1236,7 +1235,7 @@ public:
 	unsigned char                                      bSentSplitJoin : 1;                                       // 0x00A0(0x0001) (CPF_Edit, CPF_Transient, CPF_EditConst, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData03[0x17];                                      // 0x00A1(0x0017) MISSED OFFSET
 	int                                                ControllerId;                                             // 0x00B8(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData04[0x19C];                                     // 0x00BC(0x019C) MISSED OFFSET
+	unsigned char                                      UnknownData04[0x1A4];                                     // 0x00BC(0x01A4) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

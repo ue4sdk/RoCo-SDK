@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -51,6 +51,7 @@ public:
 	void OnTemperatureChanged_Event_1(class UKSHeatSourceComponent* bpp__HeatSource__pf__const, float bpp__NewTemperature__pf);
 	void OnOwnerInfoUpdateNotify();
 	void ExecuteUbergraph_CharacterHeatSourceComponent_2(int bpp__EntryPoint__pf);
+	void Conditionally_Apply_Temperature(float bpp__AppliedxTemp__pfT);
 	void Apply_Temperature(float bpp__AppliedxTemp__pfT);
 	void OnTempChanged__DelegateSignature(class UKSHeatSourceComponent* bpp__HeatSource__pf, float bpp__NewTemperature__pf);
 };

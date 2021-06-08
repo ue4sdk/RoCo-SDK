@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -1684,6 +1684,26 @@ void APUMG_HUD::InputStateChangePassthrough(TEnumAsByte<EPGAME_INPUT_STATE> Inpu
 	} params;
 
 	params.InputState = InputState;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PlatformUMG.PUMG_HUD.gmmf
+// (FUNC_Final, FUNC_Exec, FUNC_Native, FUNC_Protected)
+// Parameters:
+// bool                           bAutolaunch                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void APUMG_HUD::gmmf(bool bAutolaunch)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_HUD.gmmf");
+
+	struct
+	{
+		bool                           bAutolaunch;
+	} params;
+
+	params.bAutolaunch = bAutolaunch;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -3881,7 +3901,7 @@ void UPUMG_Widget::RegisterWidgetToInputManager(class UWidget* Widget, int Focus
 
 
 // Function PlatformUMG.PUMG_Widget.OnShown
-// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// (FUNC_Native, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 
 void UPUMG_Widget::OnShown()
 {
@@ -3897,7 +3917,7 @@ void UPUMG_Widget::OnShown()
 
 
 // Function PlatformUMG.PUMG_Widget.OnHide
-// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// (FUNC_Native, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 
 void UPUMG_Widget::OnHide()
 {
@@ -4979,15 +4999,19 @@ int UPUMG_PopupManager::AddPopup(const struct FPUMG_PopupConfig& popupData)
 
 // Function PlatformUMG.PUMG_QueueDataFactory.StartCustomMatch
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_Const)
+// Parameters:
+// bool                           bDoChecks                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UPUMG_QueueDataFactory::StartCustomMatch()
+void UPUMG_QueueDataFactory::StartCustomMatch(bool bDoChecks)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.StartCustomMatch");
 
 	struct
 	{
+		bool                           bDoChecks;
 	} params;
 
+	params.bDoChecks = bDoChecks;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -5654,17 +5678,23 @@ void UPUMG_QueueDataFactory::DeclineMatchInvite()
 // (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
 // int                            QueueId                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            TeamSize                       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            TaskForceCount                 (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UPUMG_QueueDataFactory::CreateCustomMatch(int QueueId)
+void UPUMG_QueueDataFactory::CreateCustomMatch(int QueueId, int TeamSize, int TaskForceCount)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.CreateCustomMatch");
 
 	struct
 	{
 		int                            QueueId;
+		int                            TeamSize;
+		int                            TaskForceCount;
 	} params;
 
 	params.QueueId = QueueId;
+	params.TeamSize = TeamSize;
+	params.TaskForceCount = TaskForceCount;
 
 	UObject::ProcessEvent(fn, &params);
 }

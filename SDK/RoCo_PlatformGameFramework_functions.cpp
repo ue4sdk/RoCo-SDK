@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -634,12 +634,76 @@ void UPGame_CharacterMovementComponent::OnRep_Charge(const struct FChargeInfo& C
 }
 
 
+// Function PlatformGameFramework.PGame_CheatComponent.TestFubarRewardPostLogin
+// (FUNC_Final, FUNC_Exec, FUNC_Native, FUNC_Protected)
+
+void UPGame_CheatComponent::TestFubarRewardPostLogin()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.TestFubarRewardPostLogin");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PlatformGameFramework.PGame_CheatComponent.TestFubarRewardPosted
+// (FUNC_Final, FUNC_Exec, FUNC_Native, FUNC_Protected)
+
+void UPGame_CheatComponent::TestFubarRewardPosted()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.TestFubarRewardPosted");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function PlatformGameFramework.PGame_CheatComponent.TestFubar
 // (FUNC_Final, FUNC_Exec, FUNC_Native, FUNC_Protected)
 
 void UPGame_CheatComponent::TestFubar()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.TestFubar");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PlatformGameFramework.PGame_CheatComponent.ServerTestFubarRewardPostLogin
+// (FUNC_Net, FUNC_NetReliable, FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_NetServer, FUNC_NetValidate)
+
+void UPGame_CheatComponent::ServerTestFubarRewardPostLogin()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.ServerTestFubarRewardPostLogin");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PlatformGameFramework.PGame_CheatComponent.ServerTestFubarRewardPosted
+// (FUNC_Net, FUNC_NetReliable, FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_NetServer, FUNC_NetValidate)
+
+void UPGame_CheatComponent::ServerTestFubarRewardPosted()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.ServerTestFubarRewardPosted");
 
 	struct
 	{
@@ -712,22 +776,6 @@ void UPGame_CheatComponent::ServerExec(const struct FString& request)
 void UPGame_CheatComponent::Logout()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.Logout");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function PlatformGameFramework.PGame_CheatComponent.gmmf
-// (FUNC_Final, FUNC_Exec, FUNC_Native, FUNC_Protected)
-
-void UPGame_CheatComponent::gmmf()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PlatformGameFramework.PGame_CheatComponent.gmmf");
 
 	struct
 	{

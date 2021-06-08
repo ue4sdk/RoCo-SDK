@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,26 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.SetupViewForPlayerCount
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            PlayerCount                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_InGameJobSelect_TeamComp_C::SetupViewForPlayerCount(int PlayerCount)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.SetupViewForPlayerCount");
+
+	struct
+	{
+		int                            PlayerCount;
+	} params;
+
+	params.PlayerCount = PlayerCount;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.ResetJobEntries
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -65,7 +85,7 @@ void UWBP_InGameJobSelect_TeamComp_C::Setup_Team_Display()
 
 
 // Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.SetInitialView
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UWBP_InGameJobSelect_TeamComp_C::SetInitialView()
 {
@@ -211,6 +231,46 @@ void UWBP_InGameJobSelect_TeamComp_C::Team_Added_To_Match(class AKSTeamState* Ne
 	} params;
 
 	params.New_Team = New_Team;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.OnCinematicSubLevelEnabled_Event
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FString                 CinematicSubLevelName          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
+
+void UWBP_InGameJobSelect_TeamComp_C::OnCinematicSubLevelEnabled_Event(const struct FString& CinematicSubLevelName)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.OnCinematicSubLevelEnabled_Event");
+
+	struct
+	{
+		struct FString                 CinematicSubLevelName;
+	} params;
+
+	params.CinematicSubLevelName = CinematicSubLevelName;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.OnCinematicSubLevelDisabled_Event
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FString                 CinematicSubLevelName          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash)
+
+void UWBP_InGameJobSelect_TeamComp_C::OnCinematicSubLevelDisabled_Event(const struct FString& CinematicSubLevelName)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp.WBP_InGameJobSelect_TeamComp_C.OnCinematicSubLevelDisabled_Event");
+
+	struct
+	{
+		struct FString                 CinematicSubLevelName;
+	} params;
+
+	params.CinematicSubLevelName = CinematicSubLevelName;
 
 	UObject::ProcessEvent(fn, &params);
 }

@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -2519,14 +2519,14 @@ void AMainCharacter_C::ExecuteUbergraph_MainCharacter_8(int bpp__EntryPoint__pf)
 }
 
 
-// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_66
+// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_65
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void AMainCharacter_C::ExecuteUbergraph_MainCharacter_66(int bpp__EntryPoint__pf)
+void AMainCharacter_C::ExecuteUbergraph_MainCharacter_65(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_66");
+	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_65");
 
 	struct
 	{
@@ -2539,14 +2539,14 @@ void AMainCharacter_C::ExecuteUbergraph_MainCharacter_66(int bpp__EntryPoint__pf
 }
 
 
-// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_60
+// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_59
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void AMainCharacter_C::ExecuteUbergraph_MainCharacter_60(int bpp__EntryPoint__pf)
+void AMainCharacter_C::ExecuteUbergraph_MainCharacter_59(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_60");
+	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_59");
 
 	struct
 	{
@@ -2559,14 +2559,14 @@ void AMainCharacter_C::ExecuteUbergraph_MainCharacter_60(int bpp__EntryPoint__pf
 }
 
 
-// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_43
+// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_44
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void AMainCharacter_C::ExecuteUbergraph_MainCharacter_43(int bpp__EntryPoint__pf)
+void AMainCharacter_C::ExecuteUbergraph_MainCharacter_44(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_43");
+	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_44");
 
 	struct
 	{
@@ -2599,14 +2599,14 @@ void AMainCharacter_C::ExecuteUbergraph_MainCharacter_42(int bpp__EntryPoint__pf
 }
 
 
-// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_15
+// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_17
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void AMainCharacter_C::ExecuteUbergraph_MainCharacter_15(int bpp__EntryPoint__pf)
+void AMainCharacter_C::ExecuteUbergraph_MainCharacter_17(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_15");
+	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_17");
 
 	struct
 	{
@@ -2619,14 +2619,14 @@ void AMainCharacter_C::ExecuteUbergraph_MainCharacter_15(int bpp__EntryPoint__pf
 }
 
 
-// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_136
+// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_132
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void AMainCharacter_C::ExecuteUbergraph_MainCharacter_136(int bpp__EntryPoint__pf)
+void AMainCharacter_C::ExecuteUbergraph_MainCharacter_132(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_136");
+	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_132");
 
 	struct
 	{
@@ -2639,14 +2639,14 @@ void AMainCharacter_C::ExecuteUbergraph_MainCharacter_136(int bpp__EntryPoint__p
 }
 
 
-// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_135
+// Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_131
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void AMainCharacter_C::ExecuteUbergraph_MainCharacter_135(int bpp__EntryPoint__pf)
+void AMainCharacter_C::ExecuteUbergraph_MainCharacter_131(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_135");
+	static auto fn = UObject::FindObject<UFunction>("Function MainCharacter.MainCharacter_C.ExecuteUbergraph_MainCharacter_131");
 
 	struct
 	{

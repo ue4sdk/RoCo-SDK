@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -49,7 +49,7 @@ public:
 
 
 // Class PlatformCommon.PCom_LocalPlayer
-// 0x0000 (0x0258 - 0x0258)
+// 0x0000 (0x0260 - 0x0260)
 class UPCom_LocalPlayer : public ULocalPlayer
 {
 public:

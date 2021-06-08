@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -52,7 +52,7 @@ public:
 
 
 // Class KillstreakUINew.KSWidget
-// 0x0040 (0x04E0 - 0x04A0)
+// 0x0060 (0x0500 - 0x04A0)
 class UKSWidget : public UPUMG_Widget
 {
 public:
@@ -66,6 +66,11 @@ public:
 	bool                                               bSubstituteKillCamOwningPlayer;                           // 0x04C1(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bWantsKillCamCallbacks;                                   // 0x04C2(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x1D];                                      // 0x04C3(0x001D) MISSED OFFSET
+	float                                              OpacityWhenAiming;                                        // 0x04E0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               DoesFadeOutWhenAiming;                                    // 0x04E4(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData02[0x3];                                       // 0x04E5(0x0003) MISSED OFFSET
+	float                                              AimTransitionProgress;                                    // 0x04E8(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData03[0x14];                                      // 0x04EC(0x0014) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -74,10 +79,12 @@ public:
 	}
 
 
+	void UpdateOpacityWhenAiming();
 	void UnbindFromViewportSizeChange();
 	void TriggerGlobalInvalidate();
 	void StopTickAnimation(const struct FName& AnimName);
 	void SkipToEndTickAnimation(const struct FName& AnimName);
+	bool ShouldUpdateOpacityWhenAiming();
 	void SetAllAnimationsPlaybackSpeed(float PlaybackSpeed);
 	void ResumeTickAnimation(const struct FName& AnimName);
 	void RemoveTickAnimation(const struct FName& AnimName);
@@ -85,6 +92,7 @@ public:
 	void PauseTickAnimation(const struct FName& AnimName);
 	bool IsInKillCamPlayback();
 	void InitializeTickAnimations();
+	void HandleAimStateChange(EKSCharacterAimMode NewAimState);
 	bool GetTickAnimationInfo(const struct FName& AnimName, struct FTickAnimationParams* OutAnimParams);
 	class APlayerController* GetNormalOwningPlayer();
 	class APlayerController* GetKillCamSpectatorController();
@@ -97,16 +105,16 @@ public:
 
 
 // Class KillstreakUINew.KSAccoladeQueueWidget
-// 0x0050 (0x0530 - 0x04E0)
+// 0x0050 (0x0550 - 0x0500)
 class UKSAccoladeQueueWidget : public UKSWidget
 {
 public:
-	bool                                               IsBusy;                                                   // 0x04E0(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x04E1(0x0003) MISSED OFFSET
-	int                                                NumInQueue;                                               // 0x04E4(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    OnAccoladeReceived;                                       // 0x04E8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    OnAccoladeUpdateMultiplier;                               // 0x04F8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x28];                                      // 0x0508(0x0028) MISSED OFFSET
+	bool                                               IsBusy;                                                   // 0x0500(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x0501(0x0003) MISSED OFFSET
+	int                                                NumInQueue;                                               // 0x0504(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnAccoladeReceived;                                       // 0x0508(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnAccoladeUpdateMultiplier;                               // 0x0518(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x28];                                      // 0x0528(0x0028) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -123,12 +131,12 @@ public:
 
 
 // Class KillstreakUINew.KSAcquisitionModal
-// 0x0058 (0x0538 - 0x04E0)
+// 0x0058 (0x0558 - 0x0500)
 class UKSAcquisitionModal : public UKSWidget
 {
 public:
-	class UDataTable*                                  HeaderOverridesTable;                                     // 0x04E0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TMap<int, struct FText>                            HeaderOverridesFromJson;                                  // 0x04E8(0x0050) (CPF_Transient, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	class UDataTable*                                  HeaderOverridesTable;                                     // 0x0500(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TMap<int, struct FText>                            HeaderOverridesFromJson;                                  // 0x0508(0x0050) (CPF_Transient, CPF_Protected, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -143,11 +151,11 @@ public:
 
 
 // Class KillstreakUINew.KSActiveBonusesWidget
-// 0x0008 (0x04E8 - 0x04E0)
+// 0x0008 (0x0508 - 0x0500)
 class UKSActiveBonusesWidget : public UKSWidget
 {
 public:
-	class UDataTable*                                  EventLookupTable;                                         // 0x04E0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UDataTable*                                  EventLookupTable;                                         // 0x0500(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -161,11 +169,11 @@ public:
 
 
 // Class KillstreakUINew.KSPawnWidget
-// 0x0020 (0x0500 - 0x04E0)
+// 0x0020 (0x0520 - 0x0500)
 class UKSPawnWidget : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x20];                                      // 0x04E0(0x0020) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0500(0x0020) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -189,12 +197,12 @@ public:
 
 
 // Class KillstreakUINew.KSPawnInventoryWidget
-// 0x0070 (0x0570 - 0x0500)
+// 0x0070 (0x0590 - 0x0520)
 class UKSPawnInventoryWidget : public UKSPawnWidget
 {
 public:
-	TMap<struct FKSEquipmentId, class UKSWeaponComponentWidget*> EquipmentWidgets;                                         // 0x0500(0x0050) (CPF_ExportObject, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0550(0x0020) MISSED OFFSET
+	TMap<struct FKSEquipmentId, class UKSWeaponComponentWidget*> EquipmentWidgets;                                         // 0x0520(0x0050) (CPF_ExportObject, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0570(0x0020) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -214,17 +222,17 @@ public:
 
 
 // Class KillstreakUINew.KSActiveWeaponComponentWidget
-// 0x0038 (0x05A8 - 0x0570)
+// 0x0038 (0x05C8 - 0x0590)
 class UKSActiveWeaponComponentWidget : public UKSPawnInventoryWidget
 {
 public:
-	int                                                ActiveWeaponSlot;                                         // 0x0570(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x0574(0x0004) MISSED OFFSET
-	struct FGameplayTagContainer                       EquipPointsToIgnore;                                      // 0x0578(0x0020) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	bool                                               bDelayClearUntilNextTick;                                 // 0x0598(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x0599(0x0003) MISSED OFFSET
-	TWeakObjectPtr<class UKSWeaponComponent>           WeakActiveWeaponComponentPtr;                             // 0x059C(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData02[0x4];                                       // 0x05A4(0x0004) MISSED OFFSET
+	int                                                ActiveWeaponSlot;                                         // 0x0590(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0594(0x0004) MISSED OFFSET
+	struct FGameplayTagContainer                       EquipPointsToIgnore;                                      // 0x0598(0x0020) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	bool                                               bDelayClearUntilNextTick;                                 // 0x05B8(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x3];                                       // 0x05B9(0x0003) MISSED OFFSET
+	TWeakObjectPtr<class UKSWeaponComponent>           WeakActiveWeaponComponentPtr;                             // 0x05BC(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0x4];                                       // 0x05C4(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -406,7 +414,7 @@ public:
 
 
 // Class KillstreakUINew.KSAlphaDisclaimer
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSAlphaDisclaimer : public UKSWidget
 {
 public:
@@ -423,11 +431,11 @@ public:
 
 
 // Class KillstreakUINew.KSWeaponWidget
-// 0x0008 (0x04E8 - 0x04E0)
+// 0x0008 (0x0508 - 0x0500)
 class UKSWeaponWidget : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x8];                                       // 0x04E0(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0500(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -446,15 +454,15 @@ public:
 
 
 // Class KillstreakUINew.KSAmmoWidget
-// 0x0020 (0x0508 - 0x04E8)
+// 0x0020 (0x0528 - 0x0508)
 class UKSAmmoWidget : public UKSWeaponWidget
 {
 public:
-	int                                                CachedAmmoInClip;                                         // 0x04E8(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                CachedClipSize;                                           // 0x04EC(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                CachedInReserve;                                          // 0x04F0(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               CachedIsReloading;                                        // 0x04F4(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x13];                                      // 0x04F5(0x0013) MISSED OFFSET
+	int                                                CachedAmmoInClip;                                         // 0x0508(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                CachedClipSize;                                           // 0x050C(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                CachedInReserve;                                          // 0x0510(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               CachedIsReloading;                                        // 0x0514(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x13];                                      // 0x0515(0x0013) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -470,12 +478,12 @@ public:
 
 
 // Class KillstreakUINew.KSAnnouncementQueuedMessageWidget
-// 0x0048 (0x0528 - 0x04E0)
+// 0x0048 (0x0548 - 0x0500)
 class UKSAnnouncementQueuedMessageWidget : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnEndDisplay;                                             // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	struct FAnnouncementData                           AnnouncementData;                                         // 0x04F0(0x0038) (CPF_Edit, CPF_BlueprintVisible, CPF_Protected, CPF_ExposeOnSpawn, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnEndDisplay;                                             // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	struct FAnnouncementData                           AnnouncementData;                                         // 0x0510(0x0038) (CPF_Edit, CPF_BlueprintVisible, CPF_Protected, CPF_ExposeOnSpawn, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -489,14 +497,14 @@ public:
 
 
 // Class KillstreakUINew.KSAnnouncementQueueWidget
-// 0x0030 (0x0510 - 0x04E0)
+// 0x0030 (0x0530 - 0x0500)
 class UKSAnnouncementQueueWidget : public UKSWidget
 {
 public:
-	bool                                               IsBusy;                                                   // 0x04E0(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x04E1(0x0007) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnReadyForNextAnnouncement;                               // 0x04E8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x18];                                      // 0x04F8(0x0018) MISSED OFFSET
+	bool                                               IsBusy;                                                   // 0x0500(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0501(0x0007) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnReadyForNextAnnouncement;                               // 0x0508(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x18];                                      // 0x0518(0x0018) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -512,7 +520,7 @@ public:
 
 
 // Class KillstreakUINew.KSBoostInventoryWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSBoostInventoryWidget : public UKSWidget
 {
 public:
@@ -527,11 +535,11 @@ public:
 
 
 // Class KillstreakUINew.KSBoostInventoryItemWidget
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSBoostInventoryItemWidget : public UKSWidget
 {
 public:
-	struct FAccountConsumableDetails                   CurrentItemDetails;                                       // 0x04E0(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FAccountConsumableDetails                   CurrentItemDetails;                                       // 0x0500(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -550,11 +558,11 @@ public:
 
 
 // Class KillstreakUINew.KSChallengeEntryCardBase
-// 0x0008 (0x04E8 - 0x04E0)
+// 0x0008 (0x0508 - 0x0500)
 class UKSChallengeEntryCardBase : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x8];                                       // 0x04E0(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0500(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -588,21 +596,21 @@ public:
 
 
 // Class KillstreakUINew.KSComponentReticleWidgetBase
-// 0x0020 (0x05C8 - 0x05A8)
+// 0x0020 (0x05E8 - 0x05C8)
 class UKSComponentReticleWidgetBase : public UKSActiveWeaponComponentWidget
 {
 public:
-	float                                              ShrinkAnimationTime;                                      // 0x05A8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              BlockedShotIconMaxScale;                                  // 0x05AC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              BlockedShotIconMinScale;                                  // 0x05B0(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              BlockedShotMinScaleSqDist;                                // 0x05B4(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bGrenadeCooking;                                          // 0x05B8(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bInADS;                                                   // 0x05B9(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bCachedBlockIconVisible;                                  // 0x05BA(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData00[0x1];                                       // 0x05BB(0x0001) MISSED OFFSET
-	float                                              CachedWeaponAccuracy;                                     // 0x05BC(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	float                                              CachedReticleOffset;                                      // 0x05C0(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x05C4(0x0004) MISSED OFFSET
+	float                                              ShrinkAnimationTime;                                      // 0x05C8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              BlockedShotIconMaxScale;                                  // 0x05CC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              BlockedShotIconMinScale;                                  // 0x05D0(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              BlockedShotMinScaleSqDist;                                // 0x05D4(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bGrenadeCooking;                                          // 0x05D8(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bInADS;                                                   // 0x05D9(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bCachedBlockIconVisible;                                  // 0x05DA(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x1];                                       // 0x05DB(0x0001) MISSED OFFSET
+	float                                              CachedWeaponAccuracy;                                     // 0x05DC(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	float                                              CachedReticleOffset;                                      // 0x05E0(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x4];                                       // 0x05E4(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -620,13 +628,14 @@ public:
 
 
 // Class KillstreakUINew.ContextActionData
-// 0x0060 (0x0088 - 0x0028)
+// 0x0070 (0x0098 - 0x0028)
 class UContextActionData : public UObject
 {
 public:
 	struct FName                                       RowName;                                                  // 0x0028(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FContextAction                              RowData;                                                  // 0x0030(0x0048) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
 	struct FScriptDelegate                             OnContextAction;                                          // 0x0078(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             OnCycleAction;                                            // 0x0088(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 
 	static UClass* StaticClass()
 	{
@@ -635,20 +644,21 @@ public:
 	}
 
 
+	void TriggerCycleContextAction(bool bNext);
 	void TriggerContextAction();
 };
 
 
 // Class KillstreakUINew.KSContextBarWidget
-// 0x0078 (0x0558 - 0x04E0)
+// 0x0078 (0x0578 - 0x0500)
 class UKSContextBarWidget : public UKSWidget
 {
 public:
-	class UDataTable*                                  ContextActionDT;                                          // 0x04E0(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TMap<struct FName, struct FRouteContextInfo>       RouteContextInfoMap;                                      // 0x04E8(0x0050) (CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FName                                       ActiveRoute;                                              // 0x0538(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<struct FName>                               OverrideRouteStack;                                       // 0x0540(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FName                                       OverrideRoute;                                            // 0x0550(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UDataTable*                                  ContextActionDT;                                          // 0x0500(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TMap<struct FName, struct FRouteContextInfo>       RouteContextInfoMap;                                      // 0x0508(0x0050) (CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FName                                       ActiveRoute;                                              // 0x0558(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FName>                               OverrideRouteStack;                                       // 0x0560(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FName                                       OverrideRoute;                                            // 0x0570(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -659,6 +669,7 @@ public:
 
 	void UpdateContextActions(TArray<class UContextActionData*> ContextActions, const struct FName& CurrentRoute);
 	void SetPrompts(const struct FName& Route, TArray<struct FName> ContextNames);
+	void SetPromptCycleAction(const struct FName& Route, const struct FName& ContextName, const struct FScriptDelegate& EventCallback);
 	void SetPromptAction(const struct FName& Route, const struct FName& ContextName, const struct FScriptDelegate& EventCallback);
 	void SetPrompt(const struct FName& Route, const struct FName& ContextName);
 	void SetOverrideRoute(const struct FName& Route);
@@ -677,22 +688,22 @@ public:
 
 
 // Class KillstreakUINew.KSContextMenu
-// 0x0050 (0x0530 - 0x04E0)
+// 0x0050 (0x0550 - 0x0500)
 class UKSContextMenu : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnContextOptionsUpdated;                                  // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    OnReportPlayer;                                           // 0x04F0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	EPlayerContextMenuContext                          MenuContext;                                              // 0x0500(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bAllowReportPlayer;                                       // 0x0501(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x6];                                       // 0x0502(0x0006) MISSED OFFSET
-	class UKSPlayerInfo*                               CurrentPlayerInfo;                                        // 0x0508(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<class UKSContextMenuButton*>                ContextMenuButtons;                                       // 0x0510(0x0010) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	EViewSide                                          MenuViewSide;                                             // 0x0520(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x0521(0x0003) MISSED OFFSET
-	int                                                CachedQueuedOrInMatch;                                    // 0x0524(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bCachedReportedPlayer;                                    // 0x0528(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData02[0x7];                                       // 0x0529(0x0007) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnContextOptionsUpdated;                                  // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnReportPlayer;                                           // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	EPlayerContextMenuContext                          MenuContext;                                              // 0x0520(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bAllowReportPlayer;                                       // 0x0521(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0522(0x0006) MISSED OFFSET
+	class UKSPlayerInfo*                               CurrentPlayerInfo;                                        // 0x0528(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UKSContextMenuButton*>                ContextMenuButtons;                                       // 0x0530(0x0010) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	EViewSide                                          MenuViewSide;                                             // 0x0540(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x3];                                       // 0x0541(0x0003) MISSED OFFSET
+	int                                                CachedQueuedOrInMatch;                                    // 0x0544(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bCachedReportedPlayer;                                    // 0x0548(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData02[0x7];                                       // 0x0549(0x0007) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -718,12 +729,12 @@ public:
 
 
 // Class KillstreakUINew.KSContextMenuButton
-// 0x0008 (0x04E8 - 0x04E0)
+// 0x0008 (0x0508 - 0x0500)
 class UKSContextMenuButton : public UKSWidget
 {
 public:
-	EPlayerContextOptions                              ContextOption;                                            // 0x04E0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x04E1(0x0007) MISSED OFFSET
+	EPlayerContextOptions                              ContextOption;                                            // 0x0500(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0501(0x0007) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -776,7 +787,7 @@ public:
 
 
 // Class KillstreakUINew.KSCosmeticItemSelectorWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSCosmeticItemSelectorWidget : public UKSWidget
 {
 public:
@@ -790,16 +801,37 @@ public:
 };
 
 
+// Class KillstreakUINew.KSCosmeticSlotDetails
+// 0x0018 (0x0040 - 0x0028)
+class UKSCosmeticSlotDetails : public UObject
+{
+public:
+	class UPlatformInventoryItem*                      CosmeticItem;                                             // 0x0028(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UKSJobItem*                                  AssociatedJobItem;                                        // 0x0030(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EMercCosmeticSlot                                  MercCosmeticSlot;                                         // 0x0038(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EWeaponSlot                                        WeaponSlot;                                               // 0x0039(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x2];                                       // 0x003A(0x0002) MISSED OFFSET
+	int                                                SlotPosition;                                             // 0x003C(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSCosmeticSlotDetails");
+		return ptr;
+	}
+
+};
+
+
 // Class KillstreakUINew.KSCustomizationSelection
-// 0x0030 (0x0510 - 0x04E0)
+// 0x0030 (0x0530 - 0x0500)
 class UKSCustomizationSelection : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x8];                                       // 0x04E0(0x0008) MISSED OFFSET
-	TArray<struct FRogueCustomizationRelatedInfo>      RogueCustomizationRelatedInfos;                           // 0x04E8(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<EMercCosmeticSlot>                          ActiveCosmeticSlots;                                      // 0x04F8(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                TabIndex;                                                 // 0x0508(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x050C(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0500(0x0008) MISSED OFFSET
+	TArray<struct FRogueCustomizationRelatedInfo>      RogueCustomizationRelatedInfos;                           // 0x0508(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<EMercCosmeticSlot>                          ActiveCosmeticSlots;                                      // 0x0518(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                TabIndex;                                                 // 0x0528(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x4];                                       // 0x052C(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -842,12 +874,12 @@ public:
 
 
 // Class KillstreakUINew.KSDailyChallengeViewBase
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSDailyChallengeViewBase : public UKSWidget
 {
 public:
-	float                                              ChallengeTimerRefreshRate;                                // 0x04E0(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0xC];                                       // 0x04E4(0x000C) MISSED OFFSET
+	float                                              ChallengeTimerRefreshRate;                                // 0x0500(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0xC];                                       // 0x0504(0x000C) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -920,11 +952,11 @@ public:
 
 
 // Class KillstreakUINew.KSDebugMenu
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSDebugMenu : public UKSWidget
 {
 public:
-	TArray<struct FDebugMenuCommandInfo>               DebugCommands;                                            // 0x04E0(0x0010) (CPF_Edit, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FDebugMenuCommandInfo>               DebugCommands;                                            // 0x0500(0x0010) (CPF_Edit, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -979,11 +1011,11 @@ public:
 
 
 // Class KillstreakUINew.KSViewedPawnWidget
-// 0x0010 (0x0510 - 0x0500)
+// 0x0010 (0x0530 - 0x0520)
 class UKSViewedPawnWidget : public UKSPawnWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0500(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0520(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -995,7 +1027,7 @@ public:
 
 
 // Class KillstreakUINew.KSEliminationMessageWidget
-// 0x0000 (0x0510 - 0x0510)
+// 0x0000 (0x0530 - 0x0530)
 class UKSEliminationMessageWidget : public UKSViewedPawnWidget
 {
 public:
@@ -1052,7 +1084,7 @@ public:
 
 
 // Class KillstreakUINew.KSEnemyDetectedWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSEnemyDetectedWidget : public UKSWidget
 {
 public:
@@ -1067,7 +1099,7 @@ public:
 
 
 // Class KillstreakUINew.KSEventBuyThroughScreenBase
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSEventBuyThroughScreenBase : public UKSWidget
 {
 public:
@@ -1082,12 +1114,12 @@ public:
 
 
 // Class KillstreakUINew.KSExpDisplayWidget
-// 0x0020 (0x0530 - 0x0510)
+// 0x0020 (0x0550 - 0x0530)
 class UKSExpDisplayWidget : public UKSViewedPawnWidget
 {
 public:
-	bool                                               bIsWaitingForNextQueue;                                   // 0x0510(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x1F];                                      // 0x0511(0x001F) MISSED OFFSET
+	bool                                               bIsWaitingForNextQueue;                                   // 0x0530(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x1F];                                      // 0x0531(0x001F) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1156,7 +1188,7 @@ public:
 
 
 // Class KillstreakUINew.KSFubarPopupWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSFubarPopupWidget : public UKSWidget
 {
 public:
@@ -1175,27 +1207,23 @@ public:
 
 
 // Class KillstreakUINew.KSMapWidgetBase
-// 0x0140 (0x0620 - 0x04E0)
+// 0x0120 (0x0620 - 0x0500)
 class UKSMapWidgetBase : public UKSWidget
 {
 public:
-	EDisplayType                                       MapDisplayType;                                           // 0x04E0(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x04E1(0x0007) MISSED OFFSET
-	TArray<struct FMapIconWidgetConfig>                MapIconWidgetsToPool;                                     // 0x04E8(0x0010) (CPF_ZeroConstructor, CPF_Config, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<class UKSMapIconWidgetPool*>                MapIconWidgetPool;                                        // 0x04F8(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<class UKSMapIconWidgetBase*>                MapIconWidgetPoolShown;                                   // 0x0508(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              OpacityWhenAiming;                                        // 0x0518(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               DoesFadeOutWhenAiming;                                    // 0x051C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x051D(0x0003) MISSED OFFSET
-	float                                              AimTransitionProgress;                                    // 0x0520(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData02[0x64];                                      // 0x0524(0x0064) MISSED OFFSET
+	EDisplayType                                       MapDisplayType;                                           // 0x0500(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0501(0x0007) MISSED OFFSET
+	TArray<struct FMapIconWidgetConfig>                MapIconWidgetsToPool;                                     // 0x0508(0x0010) (CPF_ZeroConstructor, CPF_Config, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UKSMapIconWidgetPool*>                MapIconWidgetPool;                                        // 0x0518(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UKSMapIconWidgetBase*>                MapIconWidgetPoolShown;                                   // 0x0528(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x50];                                      // 0x0538(0x0050) MISSED OFFSET
 	TMap<class AKSPlayerState*, class UKSMapIconWidgetBase*> PlayerIconMap;                                            // 0x0588(0x0050) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ContainsInstancedReference, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData03[0x38];                                      // 0x05D8(0x0038) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x38];                                      // 0x05D8(0x0038) MISSED OFFSET
 	bool                                               AbsoluteRotation;                                         // 0x0610(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               CanBeScrambled;                                           // 0x0611(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               IsScrambled;                                              // 0x0612(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               bAffectedByScramble;                                      // 0x0613(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData04[0xC];                                       // 0x0614(0x000C) MISSED OFFSET
+	unsigned char                                      UnknownData03[0xC];                                       // 0x0614(0x000C) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1204,12 +1232,10 @@ public:
 	}
 
 
-	void UpdateOpacityWhenAiming();
 	void UpdateIcon(class UKSMapIconWidgetBase* Icon);
 	struct FVector2D ToIconRenderCoords(const struct FVector2D& MapCoords);
 	float ToIconRenderAngle(float PlayerAngle);
 	void TickCachedTransform();
-	bool ShouldUpdateOpacityWhenAiming();
 	void SetScrambleState(bool Scrambled);
 	void RemoveWidgetFromLoaderById(int InId);
 	void OnScrambleStateChanged(bool Scrambled);
@@ -1218,7 +1244,6 @@ public:
 	bool IsOnMap(const struct FVector2D& MapCoords);
 	void HandleMoveToWidgetPool(class UKSMapIconWidgetBase* MapIconWidget);
 	void HandleDisplayFromWidgetPool(class UKSMapIconWidgetBase* MapIconWidget, const struct FDisplayInfo& DisplayInfo);
-	void HandleAimStateChange(EKSCharacterAimMode NewAimState);
 	class UKSMapIconWidgetBase* GrabMapIconWidget(const struct FString& WidgetPoolName);
 	float GetDistanceToIcon(class UKSMapIconWidgetBase* Icon);
 	class APawn* GetCachedViewedPawn();
@@ -1358,11 +1383,11 @@ public:
 
 
 // Class KillstreakUINew.KSGameInfoOverlayBase
-// 0x0020 (0x0500 - 0x04E0)
+// 0x0020 (0x0520 - 0x0500)
 class UKSGameInfoOverlayBase : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x20];                                      // 0x04E0(0x0020) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0500(0x0020) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1376,11 +1401,11 @@ public:
 
 
 // Class KillstreakUINew.KSGamepadPromptWidget
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSGamepadPromptWidget : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x04E0(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0500(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1398,15 +1423,15 @@ public:
 
 
 // Class KillstreakUINew.KSHealthWidget
-// 0x0020 (0x0520 - 0x0500)
+// 0x0020 (0x0540 - 0x0520)
 class UKSHealthWidget : public UKSPawnWidget
 {
 public:
-	float                                              CachedHealth;                                             // 0x0500(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              CachedArmor;                                              // 0x0504(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              CachedMaxHealth;                                          // 0x0508(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              CachedOverheal;                                           // 0x050C(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0510(0x0010) MISSED OFFSET
+	float                                              CachedHealth;                                             // 0x0520(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              CachedArmor;                                              // 0x0524(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              CachedMaxHealth;                                          // 0x0528(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              CachedOverheal;                                           // 0x052C(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0530(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1500,7 +1525,7 @@ public:
 
 
 // Class KillstreakUINew.KSJobSelectionWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSJobSelectionWidget : public UKSWidget
 {
 public:
@@ -1519,12 +1544,12 @@ public:
 
 
 // Class KillstreakUINew.KSKillCardWidget
-// 0x0008 (0x04E8 - 0x04E0)
+// 0x0008 (0x0508 - 0x0500)
 class UKSKillCardWidget : public UKSWidget
 {
 public:
-	float                                              DisplayDuration;                                          // 0x04E0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x04E4(0x0004) MISSED OFFSET
+	float                                              DisplayDuration;                                          // 0x0500(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0504(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1628,7 +1653,7 @@ public:
 
 
 // Class KillstreakUINew.KSLobbyNameplateWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSLobbyNameplateWidget : public UKSWidget
 {
 public:
@@ -1646,7 +1671,7 @@ public:
 
 
 // Class KillstreakUINew.KSLobbyWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSLobbyWidget : public UKSWidget
 {
 public:
@@ -1661,7 +1686,7 @@ public:
 
 
 // Class KillstreakUINew.KSLoginExistingBase
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSLoginExistingBase : public UKSWidget
 {
 public:
@@ -1691,11 +1716,11 @@ public:
 
 
 // Class KillstreakUINew.KSLoginInventoryCheck
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSLoginInventoryCheck : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x04E0(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0500(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1724,7 +1749,7 @@ public:
 
 
 // Class KillstreakUINew.KSLoginProcessRewards
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSLoginProcessRewards : public UKSWidget
 {
 public:
@@ -1788,14 +1813,14 @@ public:
 
 
 // Class KillstreakUINew.KSLoginRewardsModal
-// 0x0028 (0x0508 - 0x04E0)
+// 0x0028 (0x0528 - 0x0500)
 class UKSLoginRewardsModal : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnLoginRewardsReady;                                      // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	TArray<struct FLoginRewardItem>                    LoginRewardItems;                                         // 0x04F0(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                nDefaultItemsPerRow;                                      // 0x0500(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x0504(0x0004) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnLoginRewardsReady;                                      // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	TArray<struct FLoginRewardItem>                    LoginRewardItems;                                         // 0x0510(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                nDefaultItemsPerRow;                                      // 0x0520(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0524(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1851,15 +1876,15 @@ public:
 
 
 // Class KillstreakUINew.KSLowAmmoAlertWidget
-// 0x0020 (0x05C8 - 0x05A8)
+// 0x0020 (0x05E8 - 0x05C8)
 class UKSLowAmmoAlertWidget : public UKSActiveWeaponComponentWidget
 {
 public:
-	float                                              LowAmmoThreshold;                                         // 0x05A8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	ELowAmmoState                                      CachedLowAmmoState;                                       // 0x05AC(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x05AD(0x0003) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnAmmoStateChangedDel;                                    // 0x05B0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData01[0x8];                                       // 0x05C0(0x0008) MISSED OFFSET
+	float                                              LowAmmoThreshold;                                         // 0x05C8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	ELowAmmoState                                      CachedLowAmmoState;                                       // 0x05CC(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x05CD(0x0003) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnAmmoStateChangedDel;                                    // 0x05D0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x8];                                       // 0x05E0(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1972,12 +1997,12 @@ public:
 
 
 // Class KillstreakUINew.KSMassInviteModal
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSMassInviteModal : public UKSWidget
 {
 public:
-	TArray<class UKSPlayerInfo*>                       SelectedPlayers;                                          // 0x04E0(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSDataMassInviteBase*                       RouteData;                                                // 0x04F0(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UKSPlayerInfo*>                       SelectedPlayers;                                          // 0x0500(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSDataMassInviteBase*                       RouteData;                                                // 0x0510(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -1996,13 +2021,13 @@ public:
 
 
 // Class KillstreakUINew.KSMatchInvitationModal
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSMatchInvitationModal : public UKSWidget
 {
 public:
-	struct FName                                       RouteName;                                                // 0x04E0(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x8];                                       // 0x04E8(0x0008) MISSED OFFSET
-	struct FTimerHandle                                InvitationExpireTimeout;                                  // 0x04F0(0x0008) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	struct FName                                       RouteName;                                                // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0508(0x0008) MISSED OFFSET
+	struct FTimerHandle                                InvitationExpireTimeout;                                  // 0x0510(0x0008) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()
 	{
@@ -2025,20 +2050,20 @@ public:
 
 
 // Class KillstreakUINew.KSMatchResult
-// 0x0048 (0x0528 - 0x04E0)
+// 0x0048 (0x0548 - 0x0500)
 class UKSMatchResult : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0xC];                                       // 0x04E0(0x000C) MISSED OFFSET
-	float                                              FinalResultEndTime;                                       // 0x04EC(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FRoundResultAnnoucement                     RoundResultAnnoucement;                                   // 0x04F0(0x0020) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	int                                                pTeamNum;                                                 // 0x0510(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                pOpposeTeamNum;                                           // 0x0514(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                pTeamScore;                                               // 0x0518(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                pOpposeTeamScore;                                         // 0x051C(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bIsEndOfMatch;                                            // 0x0520(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bMatchEndedInSurrender;                                   // 0x0521(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x6];                                       // 0x0522(0x0006) MISSED OFFSET
+	unsigned char                                      UnknownData00[0xC];                                       // 0x0500(0x000C) MISSED OFFSET
+	float                                              FinalResultEndTime;                                       // 0x050C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FRoundResultAnnoucement                     RoundResultAnnoucement;                                   // 0x0510(0x0020) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
+	int                                                pTeamNum;                                                 // 0x0530(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                pOpposeTeamNum;                                           // 0x0534(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                pTeamScore;                                               // 0x0538(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                pOpposeTeamScore;                                         // 0x053C(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bIsEndOfMatch;                                            // 0x0540(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bMatchEndedInSurrender;                                   // 0x0541(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0542(0x0006) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2058,12 +2083,12 @@ public:
 
 
 // Class KillstreakUINew.KSMediaPlayerWidget
-// 0x0058 (0x0538 - 0x04E0)
+// 0x0058 (0x0558 - 0x0500)
 class UKSMediaPlayerWidget : public UKSWidget
 {
 public:
-	TSoftObjectPtr<class UDataTable>                   MediaPlayerPlaylistEntries;                               // 0x04E0(0x0028) (CPF_Edit, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x30];                                      // 0x0508(0x0030) MISSED OFFSET
+	TSoftObjectPtr<class UDataTable>                   MediaPlayerPlaylistEntries;                               // 0x0500(0x0028) (CPF_Edit, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x30];                                      // 0x0528(0x0030) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2128,11 +2153,11 @@ public:
 
 
 // Class KillstreakUINew.KSModWidget_DetectEnemy
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSModWidget_DetectEnemy : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x18];                                      // 0x04E0(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x18];                                      // 0x0500(0x0018) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2165,16 +2190,16 @@ public:
 
 
 // Class KillstreakUINew.KSNavTabWidget
-// 0x0040 (0x0520 - 0x04E0)
+// 0x0040 (0x0540 - 0x0500)
 class UKSNavTabWidget : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnNavTabSelected;                                         // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnNavTabUnselected;                                       // 0x04F0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	bool                                               bSelected;                                                // 0x0500(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bDisabled;                                                // 0x0501(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x6];                                       // 0x0502(0x0006) MISSED OFFSET
-	struct FText                                       NavText;                                                  // 0x0508(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_ExposeOnSpawn, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnNavTabSelected;                                         // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnNavTabUnselected;                                       // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	bool                                               bSelected;                                                // 0x0520(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bDisabled;                                                // 0x0521(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0522(0x0006) MISSED OFFSET
+	struct FText                                       NavText;                                                  // 0x0528(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_ExposeOnSpawn, CPF_NativeAccessSpecifierPublic)
 
 	static UClass* StaticClass()
 	{
@@ -2193,14 +2218,16 @@ public:
 
 
 // Class KillstreakUINew.KSNewsRotatorData
-// 0x0020 (0x0090 - 0x0070)
+// 0x0050 (0x00C0 - 0x0070)
 class UKSNewsRotatorData : public UKSJsonData
 {
 public:
 	class UTexture2DDynamic*                           Image;                                                    // 0x0070(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	ENewsActions                                       PanelAction;                                              // 0x0078(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0079(0x0007) MISSED OFFSET
-	struct FString                                     ActionDetails;                                            // 0x0080(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FText                                       Header;                                                   // 0x0078(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
+	struct FText                                       Body;                                                     // 0x0090(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
+	ENewsActions                                       PanelAction;                                              // 0x00A8(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x00A9(0x0007) MISSED OFFSET
+	struct FString                                     ActionDetails;                                            // 0x00B0(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
 	static UClass* StaticClass()
 	{
@@ -2212,13 +2239,13 @@ public:
 
 
 // Class KillstreakUINew.KSNewsRotatorWidget
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSNewsRotatorWidget : public UKSWidget
 {
 public:
-	struct FString                                     JsonSection;                                              // 0x04E0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              TimePerSection;                                           // 0x04F0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x04F4(0x0004) MISSED OFFSET
+	struct FString                                     JsonSection;                                              // 0x0500(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              TimePerSection;                                           // 0x0510(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0514(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2228,8 +2255,43 @@ public:
 
 
 	bool ShouldShowPanel(class UKSNewsRotatorData* Panel);
+	void OnNewsPanelClicked(class UKSNewsRotatorData* Panel);
 	void OnJsonChanged();
 	TArray<class UKSNewsRotatorData*> GetPanelData();
+	class UKSJsonDataFactory* GetJsonDataFactory();
+};
+
+
+// Class KillstreakUINew.KSNewStartMenuData
+// 0x0008 (0x0078 - 0x0070)
+class UKSNewStartMenuData : public UKSJsonData
+{
+public:
+	class UTexture2DDynamic*                           Image;                                                    // 0x0070(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSNewStartMenuData");
+		return ptr;
+	}
+
+};
+
+
+// Class KillstreakUINew.KSNewStartMenuWidget
+// 0x0000 (0x0500 - 0x0500)
+class UKSNewStartMenuWidget : public UKSWidget
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSNewStartMenuWidget");
+		return ptr;
+	}
+
+
+	bool IsNewsAvailable();
 	class UKSJsonDataFactory* GetJsonDataFactory();
 };
 
@@ -2275,16 +2337,16 @@ public:
 
 
 // Class KillstreakUINew.KSOverlayTabHubBase
-// 0x0080 (0x0560 - 0x04E0)
+// 0x0080 (0x0580 - 0x0500)
 class UKSOverlayTabHubBase : public UKSWidget
 {
 public:
-	class UDataTable*                                  ViewsTable;                                               // 0x04E0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<struct FName>                               ViewNames;                                                // 0x04E8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FName                                       CurrentViewName;                                          // 0x04F8(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x50];                                      // 0x0500(0x0050) MISSED OFFSET
-	struct FName                                       MyViewRouteName;                                          // 0x0550(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x8];                                       // 0x0558(0x0008) MISSED OFFSET
+	class UDataTable*                                  ViewsTable;                                               // 0x0500(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FName>                               ViewNames;                                                // 0x0508(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FName                                       CurrentViewName;                                          // 0x0518(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x50];                                      // 0x0520(0x0050) MISSED OFFSET
+	struct FName                                       MyViewRouteName;                                          // 0x0570(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x8];                                       // 0x0578(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2334,11 +2396,11 @@ public:
 
 
 // Class KillstreakUINew.KSPartyManagerWidgetBase
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSPartyManagerWidgetBase : public UKSWidget
 {
 public:
-	TArray<struct FPUMG_PartyMemberData>               CachedDisplayedPartyMembers;                              // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FPUMG_PartyMemberData>               CachedDisplayedPartyMembers;                              // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -2361,15 +2423,15 @@ public:
 
 
 // Class KillstreakUINew.KSPerkTreeBase
-// 0x0040 (0x0520 - 0x04E0)
+// 0x0040 (0x0540 - 0x0500)
 class UKSPerkTreeBase : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnPerkHovered;                                            // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnPerkSelected;                                           // 0x04F0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnPerkUnlockRequest;                                      // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	class UWidget*                                     HoverTarget;                                              // 0x0510(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x8];                                       // 0x0518(0x0008) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnPerkHovered;                                            // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnPerkSelected;                                           // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnPerkUnlockRequest;                                      // 0x0520(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	class UWidget*                                     HoverTarget;                                              // 0x0530(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0538(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2390,16 +2452,16 @@ public:
 
 
 // Class KillstreakUINew.KSPerkTreeEdgeBase
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSPerkTreeEdgeBase : public UKSWidget
 {
 public:
-	bool                                               bTopEnabled;                                              // 0x04E0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bLeftEnabled;                                             // 0x04E1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bDiagonalEnabled;                                         // 0x04E2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bBackDiagonalEnabled;                                     // 0x04E3(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FLinearColor                                AccentColor;                                              // 0x04E4(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x04F4(0x0004) MISSED OFFSET
+	bool                                               bTopEnabled;                                              // 0x0500(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bLeftEnabled;                                             // 0x0501(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bDiagonalEnabled;                                         // 0x0502(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bBackDiagonalEnabled;                                     // 0x0503(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FLinearColor                                AccentColor;                                              // 0x0504(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0514(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2413,17 +2475,17 @@ public:
 
 
 // Class KillstreakUINew.KSPerkTreeNodeBase
-// 0x0060 (0x0540 - 0x04E0)
+// 0x0060 (0x0560 - 0x0500)
 class UKSPerkTreeNodeBase : public UKSWidget
 {
 public:
-	TSoftObjectPtr<class UKSPlayerMod>                 AssignedPerk;                                             // 0x04E0(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnTemplate, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTreeNodeHovered;                                        // 0x0508(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTreeNodeSelected;                                       // 0x0518(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnRequestPerkPurchase;                                    // 0x0528(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	bool                                               bIsPlaceholder;                                           // 0x0538(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	EPerkTreeNodeState                                 NodeState;                                                // 0x0539(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData00[0x6];                                       // 0x053A(0x0006) MISSED OFFSET
+	TSoftObjectPtr<class UKSPlayerMod>                 AssignedPerk;                                             // 0x0500(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnTemplate, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnTreeNodeHovered;                                        // 0x0528(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnTreeNodeSelected;                                       // 0x0538(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnRequestPerkPurchase;                                    // 0x0548(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	bool                                               bIsPlaceholder;                                           // 0x0558(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EPerkTreeNodeState                                 NodeState;                                                // 0x0559(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x055A(0x0006) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2439,11 +2501,11 @@ public:
 
 
 // Class KillstreakUINew.KSViewedActiveWeaponWidget
-// 0x0010 (0x04F8 - 0x04E8)
+// 0x0010 (0x0518 - 0x0508)
 class UKSViewedActiveWeaponWidget : public UKSWeaponWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x04E8(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0508(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2455,13 +2517,13 @@ public:
 
 
 // Class KillstreakUINew.KSPlayerAmmoLoaderWidget
-// 0x0118 (0x0610 - 0x04F8)
+// 0x0118 (0x0630 - 0x0518)
 class UKSPlayerAmmoLoaderWidget : public UKSViewedActiveWeaponWidget
 {
 public:
-	TSoftObjectPtr<class UClass>                       PendingAmmoWidgetClass;                                   // 0x04F8(0x0028) (CPF_Transient, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	class UClass*                                      LoadedAmmoWidgetClass;                                    // 0x0520(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData00[0xE8];                                      // 0x0528(0x00E8) MISSED OFFSET
+	TSoftObjectPtr<class UClass>                       PendingAmmoWidgetClass;                                   // 0x0518(0x0028) (CPF_Transient, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	class UClass*                                      LoadedAmmoWidgetClass;                                    // 0x0540(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0xE8];                                      // 0x0548(0x00E8) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2477,7 +2539,7 @@ public:
 
 
 // Class KillstreakUINew.KSPlayerAwardsPanelWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSPlayerAwardsPanelWidget : public UKSWidget
 {
 public:
@@ -2495,12 +2557,12 @@ public:
 
 
 // Class KillstreakUINew.KSPlayerCardModuleBase
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSPlayerCardModuleBase : public UKSWidget
 {
 public:
-	class UPUMG_PlayerInfo*                            AssignedPlayerInfo;                                       // 0x04E0(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x8];                                       // 0x04E8(0x0008) MISSED OFFSET
+	class UPUMG_PlayerInfo*                            AssignedPlayerInfo;                                       // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0508(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2516,7 +2578,7 @@ public:
 
 
 // Class KillstreakUINew.KSPlayerCosmeticWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSPlayerCosmeticWidget : public UKSWidget
 {
 public:
@@ -2562,7 +2624,7 @@ public:
 
 
 // Class KillstreakUINew.KSPlayerHealthSegmentBase
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSPlayerHealthSegmentBase : public UKSWidget
 {
 public:
@@ -2584,11 +2646,11 @@ public:
 
 
 // Class KillstreakUINew.KSViewedTargetHealthWidget
-// 0x0010 (0x0530 - 0x0520)
+// 0x0010 (0x0550 - 0x0540)
 class UKSViewedTargetHealthWidget : public UKSHealthWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0520(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0540(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2600,12 +2662,12 @@ public:
 
 
 // Class KillstreakUINew.KSPlayerHealthWidgetBase
-// 0x0030 (0x0560 - 0x0530)
+// 0x0030 (0x0580 - 0x0550)
 class UKSPlayerHealthWidgetBase : public UKSViewedTargetHealthWidget
 {
 public:
-	struct FPlayerHealthMeterState                     CurrentHealthMeterState;                                  // 0x0530(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x18];                                      // 0x0548(0x0018) MISSED OFFSET
+	struct FPlayerHealthMeterState                     CurrentHealthMeterState;                                  // 0x0550(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x18];                                      // 0x0568(0x0018) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2656,19 +2718,19 @@ public:
 
 
 // Class KillstreakUINew.KSPlayerJobSelectWidgetBase
-// 0x0050 (0x0530 - 0x04E0)
+// 0x0050 (0x0550 - 0x0500)
 class UKSPlayerJobSelectWidgetBase : public UKSWidget
 {
 public:
-	class UKSJobSelectionManager*                      JobSelectionManager;                                      // 0x04E0(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSJobSelectionComponent*                    JobSelectionComponent;                                    // 0x04E8(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<class UJobSelectionEntryDetails*>           JobDetailEntries;                                         // 0x04F0(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	EPlayerSelectionState                              CurrentPlayerSelectionState;                              // 0x0500(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0501(0x0007) MISSED OFFSET
-	TArray<class UJobSelectionEntryDetails*>           EnemyJobDetailsEntries;                                   // 0x0508(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TWeakObjectPtr<class UKSJobSelectionComponent>     BoundEnemyJobSelectionComponent;                          // 0x0518(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TWeakObjectPtr<class UKSJobSelectionComponent>     BoundLocalJobSelectionComponent;                          // 0x0520(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x8];                                       // 0x0528(0x0008) MISSED OFFSET
+	class UKSJobSelectionManager*                      JobSelectionManager;                                      // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSJobSelectionComponent*                    JobSelectionComponent;                                    // 0x0508(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UJobSelectionEntryDetails*>           JobDetailEntries;                                         // 0x0510(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	EPlayerSelectionState                              CurrentPlayerSelectionState;                              // 0x0520(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0521(0x0007) MISSED OFFSET
+	TArray<class UJobSelectionEntryDetails*>           EnemyJobDetailsEntries;                                   // 0x0528(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TWeakObjectPtr<class UKSJobSelectionComponent>     BoundEnemyJobSelectionComponent;                          // 0x0538(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TWeakObjectPtr<class UKSJobSelectionComponent>     BoundLocalJobSelectionComponent;                          // 0x0540(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x8];                                       // 0x0548(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2723,13 +2785,13 @@ public:
 
 
 // Class KillstreakUINew.KSPlayerShopWidgetBase
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSPlayerShopWidgetBase : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x8];                                       // 0x04E0(0x0008) MISSED OFFSET
-	class AKSPlayerShop*                               PlayerShop;                                               // 0x04E8(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x8];                                       // 0x04F0(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0500(0x0008) MISSED OFFSET
+	class AKSPlayerShop*                               PlayerShop;                                               // 0x0508(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x8];                                       // 0x0510(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2814,7 +2876,7 @@ public:
 
 
 // Class KillstreakUINew.KSPortalOffersWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSPortalOffersWidget : public UKSWidget
 {
 public:
@@ -2832,11 +2894,11 @@ public:
 
 
 // Class KillstreakUINew.KSProgressionTallyWidget
-// 0x0170 (0x0650 - 0x04E0)
+// 0x0170 (0x0670 - 0x0500)
 class UKSProgressionTallyWidget : public UKSWidget
 {
 public:
-	struct FPlayerProgression                          PlayerProgressionData;                                    // 0x04E0(0x0170) (CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FPlayerProgression                          PlayerProgressionData;                                    // 0x0500(0x0170) (CPF_Protected, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -2852,11 +2914,11 @@ public:
 
 
 // Class KillstreakUINew.KSProgressMeterWidgetBase
-// 0x0020 (0x0500 - 0x04E0)
+// 0x0020 (0x0520 - 0x0500)
 class UKSProgressMeterWidgetBase : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x20];                                      // 0x04E0(0x0020) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0500(0x0020) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2897,13 +2959,13 @@ public:
 
 
 // Class KillstreakUINew.KSPurchaseConfirmationWidget
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSPurchaseConfirmationWidget : public UKSWidget
 {
 public:
-	class UPUMG_StoreItem*                             PurchaseItem;                                             // 0x04E0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                PurchaseQuantity;                                         // 0x04E8(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x04EC(0x0004) MISSED OFFSET
+	class UPUMG_StoreItem*                             PurchaseItem;                                             // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                PurchaseQuantity;                                         // 0x0508(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x050C(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2921,7 +2983,7 @@ public:
 
 
 // Class KillstreakUINew.KSPurchaseModal
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSPurchaseModal : public UKSWidget
 {
 public:
@@ -2956,10 +3018,10 @@ public:
 	bool                                               bWaitingOnLeaveForShelteredSwitch;                        // 0x0268(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               bWaitingOnJoinForShelteredSwitch;                         // 0x0269(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      UnknownData01[0x2];                                       // 0x026A(0x0002) MISSED OFFSET
-	int                                                MaxRetriesForFindingPartyMemberLevels;                    // 0x026C(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              TimeBetweenRetriesForFindingPartyMemberLevels;            // 0x0270(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                MaxRetriesForAlternateQueue;                              // 0x026C(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              TimeBetweenRetriesForAlternateQueue;                      // 0x0270(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      UnknownData02[0x4];                                       // 0x0274(0x0004) MISSED OFFSET
-	int                                                NumRetriesForFindingPartyMemberLevels;                    // 0x0278(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	int                                                NumRetriesForAlternateQueue;                              // 0x0278(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	unsigned char                                      UnknownData03[0x4];                                       // 0x027C(0x0004) MISSED OFFSET
 	TArray<struct FMapDetail>                          MapInfos;                                                 // 0x0280(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	class UDataTable*                                  QueueDetailDataTable;                                     // 0x0290(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
@@ -2975,7 +3037,9 @@ public:
 	TArray<struct FClientQueueInfo> SortQueues(TArray<struct FClientQueueInfo> ClientCachedQueueInfo, bool IsAlphanumerical);
 	bool SetSelectedQueueId(int QueueId);
 	void SetPreviousCustomMatchMemberIds(TArray<int64_t> PreviousMembers);
-	void RetryQueuingForSheltered(int QueueId);
+	void RetryJoinAlternateQueue(int QueueId);
+	bool QualifiesForShelteredMM(int QueueId, const struct FClientQueueInfo& QueueInfo, bool* RetryFlag);
+	bool QualifiesForForcedBots(int QueueId, const struct FClientQueueInfo& QueueInfo, bool* RetryFlag);
 	void PopulateMapInfos();
 	void OnPartyMemberUpdate(const struct FPUMG_PartyMemberData& Member);
 	void OnPartyMemberEvent(int64_t PlayerId);
@@ -2993,23 +3057,23 @@ public:
 	int GetSelectedQueueId();
 	bool GetQueueInfoById(int QueueId, struct FClientQueueInfo* InClientQueueInfo);
 	int GetPenaltyTime();
+	class UKSActivity* GetMatchesPlayedActivity();
 	bool GetMapRotationsByQueueId(int QueueId, TArray<int>* MapIds);
 	bool GetMapInfoById(int MapId, struct FMapDetail* MapDetail);
 	TArray<struct FClientQueueInfo> GetCustomQueues();
 	bool GetCurrentCustomMatchInfo(struct FClientQueueInfo* InClientQueueInfo);
 	static bool FormatQueueJoinErrorMessage(const struct FClientQueueInfo& Queue, EKSQueueJoinError Error, struct FText* OutErrorMessage);
-	int DetermineQueueIdForShelteredMM(int QueueId, const struct FClientQueueInfo& QueueInfo);
 	EKSQueueJoinError CheckQueueJoinableById(int QueueId);
 	EKSQueueJoinError CheckQueueJoinable(const struct FClientQueueInfo& Queue);
 };
 
 
 // Class KillstreakUINew.KSQueuedMessageWidget
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSQueuedMessageWidget : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x04E0(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0500(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3024,7 +3088,7 @@ public:
 
 
 // Class KillstreakUINew.KSQueueWidgetBase
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSQueueWidgetBase : public UKSWidget
 {
 public:
@@ -3068,11 +3132,11 @@ public:
 
 
 // Class KillstreakUINew.KSQueueTimerWidgetBase
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSQueueTimerWidgetBase : public UKSQueueWidgetBase
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x04E0(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0500(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3092,20 +3156,20 @@ public:
 
 
 // Class KillstreakUINew.KSQuickPlay
-// 0x00F0 (0x05D0 - 0x04E0)
+// 0x00F8 (0x05F8 - 0x0500)
 class UKSQuickPlay : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnSelectedQueueChanged;                                   // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	bool                                               CanCurrentlyJoinQueue;                                    // 0x04F0(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               CanControlQueue;                                          // 0x04F1(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x2];                                       // 0x04F2(0x0002) MISSED OFFSET
-	int                                                DefaultSelectedQueueId;                                   // 0x04F4(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                ChunksInstallingQueueId;                                  // 0x04F8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x14];                                      // 0x04FC(0x0014) MISSED OFFSET
-	bool                                               ReadyForQueueing;                                         // 0x0510(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData02[0x7];                                       // 0x0511(0x0007) MISSED OFFSET
-	struct FClientQueueInfo                            CurrentSelectedQueue;                                     // 0x0518(0x00B8) (CPF_NativeAccessSpecifierPrivate)
+	struct FScriptMulticastDelegate                    OnSelectedQueueChanged;                                   // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	bool                                               CanCurrentlyJoinQueue;                                    // 0x0510(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               CanControlQueue;                                          // 0x0511(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x2];                                       // 0x0512(0x0002) MISSED OFFSET
+	int                                                DefaultSelectedQueueId;                                   // 0x0514(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                ChunksInstallingQueueId;                                  // 0x0518(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x14];                                      // 0x051C(0x0014) MISSED OFFSET
+	bool                                               ReadyForQueueing;                                         // 0x0530(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0x7];                                       // 0x0531(0x0007) MISSED OFFSET
+	struct FClientQueueInfo                            CurrentSelectedQueue;                                     // 0x0538(0x00C0) (CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()
 	{
@@ -3141,11 +3205,11 @@ public:
 
 
 // Class KillstreakUINew.KSQuickPlayWidget
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSQuickPlayWidget : public UKSQueueWidgetBase
 {
 public:
-	unsigned char                                      UnknownData00[0x18];                                      // 0x04E0(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x18];                                      // 0x0500(0x0018) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3168,20 +3232,20 @@ public:
 
 
 // Class KillstreakUINew.KSRadialSelectionWidgetBase
-// 0x00B0 (0x0590 - 0x04E0)
+// 0x00B0 (0x05B0 - 0x0500)
 class UKSRadialSelectionWidgetBase : public UKSWidget
 {
 public:
-	TArray<struct FGameplayTag>                        EmoteSlots;                                               // 0x04E0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<struct FGameplayTag>                        QuipSlots;                                                // 0x04F0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<struct FGameplayTag>                        CommunicationSlots;                                       // 0x0500(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<struct FGameplayTag>                        SpraySlots;                                               // 0x0510(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<struct FName>                               AdditionalInputsToDisableOnOpen;                          // 0x0520(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<EMercCosmeticSlot>                          RadialMenuCosmeticSlots;                                  // 0x0530(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bCycleBetweenMenusEnabled;                                // 0x0540(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x3F];                                      // 0x0541(0x003F) MISSED OFFSET
-	class UDataTable*                                  ContextualPingTypesDT;                                    // 0x0580(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UDataTable*                                  ContextualPingMessagesDT;                                 // 0x0588(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FGameplayTag>                        EmoteSlots;                                               // 0x0500(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FGameplayTag>                        QuipSlots;                                                // 0x0510(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FGameplayTag>                        CommunicationSlots;                                       // 0x0520(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FGameplayTag>                        SpraySlots;                                               // 0x0530(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FName>                               AdditionalInputsToDisableOnOpen;                          // 0x0540(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<EMercCosmeticSlot>                          RadialMenuCosmeticSlots;                                  // 0x0550(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bCycleBetweenMenusEnabled;                                // 0x0560(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x3F];                                      // 0x0561(0x003F) MISSED OFFSET
+	class UDataTable*                                  ContextualPingTypesDT;                                    // 0x05A0(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UDataTable*                                  ContextualPingMessagesDT;                                 // 0x05A8(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -3235,7 +3299,7 @@ public:
 
 
 // Class KillstreakUINew.KSRankChangeWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSRankChangeWidget : public UKSWidget
 {
 public:
@@ -3267,11 +3331,11 @@ public:
 
 
 // Class KillstreakUINew.KSRedeemCodeScreenBase
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSRedeemCodeScreenBase : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x18];                                      // 0x04E0(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x18];                                      // 0x0500(0x0018) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3303,7 +3367,7 @@ public:
 
 
 // Class KillstreakUINew.KSRegionSelectModal
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSRegionSelectModal : public UKSWidget
 {
 public:
@@ -3317,22 +3381,63 @@ public:
 };
 
 
+// Class KillstreakUINew.KSRelatedRogueEntry
+// 0x0000 (0x0500 - 0x0500)
+class UKSRelatedRogueEntry : public UKSWidget
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSRelatedRogueEntry");
+		return ptr;
+	}
+
+
+	void DisplayJob(class UKSJobItem* JobItem);
+};
+
+
+// Class KillstreakUINew.KSRelatedRoguesGroup
+// 0x0008 (0x0508 - 0x0500)
+class UKSRelatedRoguesGroup : public UKSWidget
+{
+public:
+	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0500(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSRelatedRoguesGroup");
+		return ptr;
+	}
+
+
+	void PopulateForWeaponCategory(const struct FName& WeaponCategoryName);
+	void PopulateForWeaponAsset(class UKSWeaponAsset* WeaponAsset);
+	TArray<class UKSRelatedRogueEntry*> GetEntries();
+	void DisplayWeaponCategoryLabel();
+	void DisplayIndividualWeaponLabel();
+	class UKSRelatedRogueEntry* CreateAndAddEntry();
+	void ClearEntries();
+};
+
+
 // Class KillstreakUINew.KSReticleWidgetBase
-// 0x0020 (0x0518 - 0x04F8)
+// 0x0020 (0x0538 - 0x0518)
 class UKSReticleWidgetBase : public UKSViewedActiveWeaponWidget
 {
 public:
-	float                                              ShrinkAnimationTime;                                      // 0x04F8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              BlockedShotIconMaxScale;                                  // 0x04FC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              BlockedShotIconMinScale;                                  // 0x0500(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              BlockedShotMinScaleSqDist;                                // 0x0504(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bGrenadeCooking;                                          // 0x0508(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bInADS;                                                   // 0x0509(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bCachedBlockIconVisible;                                  // 0x050A(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData00[0x1];                                       // 0x050B(0x0001) MISSED OFFSET
-	float                                              CachedWeaponAccuracy;                                     // 0x050C(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	float                                              CachedReticleOffset;                                      // 0x0510(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x0514(0x0004) MISSED OFFSET
+	float                                              ShrinkAnimationTime;                                      // 0x0518(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              BlockedShotIconMaxScale;                                  // 0x051C(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              BlockedShotIconMinScale;                                  // 0x0520(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              BlockedShotMinScaleSqDist;                                // 0x0524(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bGrenadeCooking;                                          // 0x0528(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bInADS;                                                   // 0x0529(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bCachedBlockIconVisible;                                  // 0x052A(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x1];                                       // 0x052B(0x0001) MISSED OFFSET
+	float                                              CachedWeaponAccuracy;                                     // 0x052C(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	float                                              CachedReticleOffset;                                      // 0x0530(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x4];                                       // 0x0534(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3348,8 +3453,26 @@ public:
 };
 
 
-// Class KillstreakUINew.KSRewardsTrackMeterSegmentBase
+// Class KillstreakUINew.KSRewardProgressMeter
 // 0x0000 (0x0500 - 0x0500)
+class UKSRewardProgressMeter : public UKSWidget
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSRewardProgressMeter");
+		return ptr;
+	}
+
+
+	void DisplayProgressReward(class UKSItem* RewardItem);
+	void DisplayProgressPercent(float Percent);
+};
+
+
+// Class KillstreakUINew.KSRewardsTrackMeterSegmentBase
+// 0x0000 (0x0520 - 0x0520)
 class UKSRewardsTrackMeterSegmentBase : public UKSProgressMeterWidgetBase
 {
 public:
@@ -3374,15 +3497,15 @@ public:
 
 
 // Class KillstreakUINew.KSRewardsTrackWidgetBase
-// 0x0028 (0x0508 - 0x04E0)
+// 0x0028 (0x0528 - 0x0500)
 class UKSRewardsTrackWidgetBase : public UKSWidget
 {
 public:
-	int                                                MaxPageCount;                                             // 0x04E0(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                CurrentPage;                                              // 0x04E4(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<class UKSWidget*>                           ItemButtons;                                              // 0x04E8(0x0010) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSActivityInstance*                         ActivityInstance;                                         // 0x04F8(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSAcquisition*                              Acquisition;                                              // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                MaxPageCount;                                             // 0x0500(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                CurrentPage;                                              // 0x0504(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UKSWidget*>                           ItemButtons;                                              // 0x0508(0x0010) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSActivityInstance*                         ActivityInstance;                                         // 0x0518(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSAcquisition*                              Acquisition;                                              // 0x0520(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -3397,10 +3520,12 @@ public:
 
 
 // Class KillstreakUINew.KSRogueDetailsWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0058 (0x0558 - 0x0500)
 class UKSRogueDetailsWidget : public UKSWidget
 {
 public:
+	unsigned char                                      UnknownData00[0x30];                                      // 0x0500(0x0030) MISSED OFFSET
+	TSoftObjectPtr<class UKSJobItem>                   ViewedJobItem;                                            // 0x0530(0x0028) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -3409,13 +3534,16 @@ public:
 	}
 
 
+	void OnCurrentJobChanged(class UKSJobItem* JobItem, bool bFromShowEvent);
+	void OnBackButtonPressed();
 	class UPUMG_StoreItem* GetStoreItemForJob(class UKSJobItem* JobItem);
 	class UKSStoreItemHelper* GetItemHelper();
+	void CycleJob(bool bForward);
 };
 
 
 // Class KillstreakUINew.KSRogueMasteryWidget
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSRogueMasteryWidget : public UKSWidget
 {
 public:
@@ -3433,12 +3561,12 @@ public:
 
 
 // Class KillstreakUINew.KSScreenLogWidget
-// 0x0010 (0x04F0 - 0x04E0)
+// 0x0010 (0x0510 - 0x0500)
 class UKSScreenLogWidget : public UKSWidget
 {
 public:
-	class UDataTable*                                  ContextualPingTypesDT;                                    // 0x04E0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UDataTable*                                  ContextualPingMessagesDT;                                 // 0x04E8(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UDataTable*                                  ContextualPingTypesDT;                                    // 0x0500(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UDataTable*                                  ContextualPingMessagesDT;                                 // 0x0508(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
 	static UClass* StaticClass()
 	{
@@ -3486,13 +3614,13 @@ public:
 
 
 // Class KillstreakUINew.KSSettingsContainer
-// 0x0020 (0x0500 - 0x04E0)
+// 0x0020 (0x0520 - 0x0500)
 class UKSSettingsContainer : public UKSWidget
 {
 public:
-	TArray<class UKSSettingsWidget*>                   SettingsWidgets;                                          // 0x04E0(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSSettingsPreview*                          AssociatePreviewWidget;                                   // 0x04F0(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSSettingsContainerConfigAsset*             ContainerConfigAsset;                                     // 0x04F8(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UKSSettingsWidget*>                   SettingsWidgets;                                          // 0x0500(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSSettingsPreview*                          AssociatePreviewWidget;                                   // 0x0510(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSSettingsContainerConfigAsset*             ContainerConfigAsset;                                     // 0x0518(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -3537,8 +3665,8 @@ public:
 	bool                                               bIsAvailableOffline;                                      // 0x0030(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bRequires120HzDisplay;                                    // 0x0031(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FKSAllowedPlatformTypes                     AllowedPlatformTypes;                                     // 0x0032(0x000A) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FKSRequiredInputTypes                       RequiredInputTypes;                                       // 0x003C(0x0002) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x2];                                       // 0x003E(0x0002) MISSED OFFSET
+	struct FKSRequiredInputTypes                       RequiredInputTypes;                                       // 0x003C(0x0003) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x1];                                       // 0x003F(0x0001) MISSED OFFSET
 	struct FString                                     RequiredExperiment;                                       // 0x0040(0x0010) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FKSSwitchDockedModeSetting                  SwitchDockedModeSetting;                                  // 0x0050(0x0002) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	bool                                               bUsePreview;                                              // 0x0052(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -3619,7 +3747,7 @@ public:
 
 
 // Class KillstreakUINew.KSSettingsDataFactory
-// 0x02F8 (0x03D0 - 0x00D8)
+// 0x02D8 (0x03B0 - 0x00D8)
 class UKSSettingsDataFactory : public UPUMG_SettingsDataFactory
 {
 public:
@@ -3641,8 +3769,6 @@ public:
 	struct FScriptMulticastDelegate                    OnDisplayLanguageSaved;                                   // 0x0380(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnScreenResolutionApplied;                                // 0x0390(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnScreenResolutionSaved;                                  // 0x03A0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnCrosshairColorSaved;                                    // 0x03B0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData06[0x10];                                      // 0x03C0(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3652,8 +3778,6 @@ public:
 
 
 	bool SetSelectedRegion(int SiteId);
-	bool SetCrosshairColor(int CrosshairColorIndex);
-	void SetColorOptionValues(class UKSSettingsColorOptionsAsset* ColorOptionAsset);
 	void SaveSettings();
 	void SaveSettingAsInt(const struct FString& Name);
 	void SaveSettingAsFloat(const struct FString& Name);
@@ -3661,7 +3785,6 @@ public:
 	void SaveScreenResolution();
 	void SaveLanguage();
 	void SaveKeyBindings();
-	bool SaveCrosshairColor(int CrosshairColorIndex);
 	void RevertScreenResolution();
 	void RevertPlayerPreferences();
 	void RevertLanguageToDefault();
@@ -3680,8 +3803,6 @@ public:
 	void GetCustomInputAxisKeys(const struct FName& Name, EKSInputType InputType, float Scale, TArray<struct FKey>* OutKeys);
 	void GetCustomInputActionKeys(const struct FName& Name, EKSInputType InputType, TArray<struct FKey>* OutKeys);
 	struct FString GetCurrentLanguage();
-	struct FLinearColor GetCrosshairColorValue(int CrosshairColorIndex);
-	int GetCrosshairColor();
 	TArray<struct FString> GetAvailableLanguages();
 	void BindSettingCallbacks_Legacy(const struct FString& Name, const struct FSettingDelegateStruct& SettingDelegateStruct);
 	void ApplySettingAsInt(const struct FString& Name, int Value);
@@ -3689,18 +3810,17 @@ public:
 	void ApplySettingAsBool(const struct FString& Name, bool Value);
 	void ApplyScreenResolution(const struct FIntPoint& ScreenResolution);
 	void ApplyLanguage(const struct FString& LanguageCulture);
-	void AddColorOptionValues(const struct FLinearColor& ColorValue);
 };
 
 
 // Class KillstreakUINew.KSSettingsGroup
-// 0x0030 (0x0510 - 0x04E0)
+// 0x0030 (0x0530 - 0x0500)
 class UKSSettingsGroup : public UKSWidget
 {
 public:
-	TArray<class UKSSettingsContainer*>                SettingsContainers;                                       // 0x04E0(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UClass*                                      SettingsContainerClass;                                   // 0x04F0(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FKSSettingsGroupConfig                      GroupConfig;                                              // 0x04F8(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	TArray<class UKSSettingsContainer*>                SettingsContainers;                                       // 0x0500(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UClass*                                      SettingsContainerClass;                                   // 0x0510(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FKSSettingsGroupConfig                      GroupConfig;                                              // 0x0518(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -3875,39 +3995,6 @@ public:
 };
 
 
-// Class KillstreakUINew.KSSettingsInfo_CrosshairColor
-// 0x0008 (0x0110 - 0x0108)
-class UKSSettingsInfo_CrosshairColor : public UKSSettingsInfoBase
-{
-public:
-	class UKSSettingsColorOptionsAsset*                ColorOptions;                                             // 0x0108(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-
-	static UClass* StaticClass()
-	{
-		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSSettingsInfo_CrosshairColor");
-		return ptr;
-	}
-
-
-	void OnCrosshairColorSaved(int SavedIndex);
-};
-
-
-// Class KillstreakUINew.KSSettingsInfo_GamepadIconSet
-// 0x0000 (0x0108 - 0x0108)
-class UKSSettingsInfo_GamepadIconSet : public UKSSettingsInfoBase
-{
-public:
-
-	static UClass* StaticClass()
-	{
-		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSSettingsInfo_GamepadIconSet");
-		return ptr;
-	}
-
-};
-
-
 // Class KillstreakUINew.KSSettingsInfo_Generic
 // 0x0018 (0x0120 - 0x0108)
 class UKSSettingsInfo_Generic : public UKSSettingsInfoBase
@@ -3927,6 +4014,37 @@ public:
 	void OnSettingSaved();
 	void OnSettingApplied();
 	class UKSSettingsDataFactory* GetKSSettingsDataFactory();
+};
+
+
+// Class KillstreakUINew.KSSettingsInfo_CrosshairColor
+// 0x0008 (0x0128 - 0x0120)
+class UKSSettingsInfo_CrosshairColor : public UKSSettingsInfo_Generic
+{
+public:
+	class UKSSettingsColorOptionsAsset*                ColorOptions;                                             // 0x0120(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSSettingsInfo_CrosshairColor");
+		return ptr;
+	}
+
+};
+
+
+// Class KillstreakUINew.KSSettingsInfo_GamepadIconSet
+// 0x0000 (0x0108 - 0x0108)
+class UKSSettingsInfo_GamepadIconSet : public UKSSettingsInfoBase
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSSettingsInfo_GamepadIconSet");
+		return ptr;
+	}
+
 };
 
 
@@ -3982,14 +4100,15 @@ public:
 
 
 // Class KillstreakUINew.KSSettingsMenu
-// 0x0028 (0x0508 - 0x04E0)
+// 0x0028 (0x0528 - 0x0500)
 class UKSSettingsMenu : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x8];                                       // 0x04E0(0x0008) MISSED OFFSET
-	TArray<class UKSSettingsPage*>                     SettingsPages;                                            // 0x04E8(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UClass*                                      SettingsPageClass;                                        // 0x04F8(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSSettingsMenuConfigAsset*                  MenuConfigAsset;                                          // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FKSSettingsState                            SettingsState;                                            // 0x0500(0x0005) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x0505(0x0003) MISSED OFFSET
+	TArray<class UKSSettingsPage*>                     SettingsPages;                                            // 0x0508(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UClass*                                      SettingsPageClass;                                        // 0x0518(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSSettingsMenuConfigAsset*                  MenuConfigAsset;                                          // 0x0520(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -4012,13 +4131,13 @@ public:
 
 
 // Class KillstreakUINew.KSSettingsPage
-// 0x0020 (0x0500 - 0x04E0)
+// 0x0020 (0x0520 - 0x0500)
 class UKSSettingsPage : public UKSWidget
 {
 public:
-	TArray<class UKSSettingsSection*>                  SettingsSections;                                         // 0x04E0(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UClass*                                      SettingsSectionClass;                                     // 0x04F0(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSSettingsPageConfigAsset*                  PageConfigAsset;                                          // 0x04F8(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UKSSettingsSection*>                  SettingsSections;                                         // 0x0500(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UClass*                                      SettingsSectionClass;                                     // 0x0510(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSSettingsPageConfigAsset*                  PageConfigAsset;                                          // 0x0518(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -4037,12 +4156,12 @@ public:
 
 
 // Class KillstreakUINew.KSSettingsPreview
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSSettingsPreview : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnPreviewValueChanged;                                    // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	class UKSSettingsInfoBase*                         SettingsInfo;                                             // 0x04F0(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnPreviewValueChanged;                                    // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	class UKSSettingsInfoBase*                         SettingsInfo;                                             // 0x0510(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -4057,13 +4176,13 @@ public:
 
 
 // Class KillstreakUINew.KSSettingsSection
-// 0x0020 (0x0500 - 0x04E0)
+// 0x0020 (0x0520 - 0x0500)
 class UKSSettingsSection : public UKSWidget
 {
 public:
-	TArray<class UKSSettingsGroup*>                    SettingsGroups;                                           // 0x04E0(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UClass*                                      SettingsGroupClass;                                       // 0x04F0(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSSettingsSectionConfigAsset*               SectionConfigAsset;                                       // 0x04F8(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UKSSettingsGroup*>                    SettingsGroups;                                           // 0x0500(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UClass*                                      SettingsGroupClass;                                       // 0x0510(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSSettingsSectionConfigAsset*               SectionConfigAsset;                                       // 0x0518(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -4081,17 +4200,17 @@ public:
 
 
 // Class KillstreakUINew.KSSettingsWidget
-// 0x0058 (0x0538 - 0x04E0)
+// 0x0058 (0x0558 - 0x0500)
 class UKSSettingsWidget : public UKSWidget
 {
 public:
-	struct FKSSettingsWidgetConfig                     WidgetConfig;                                             // 0x04E0(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FText                                       WidgetContainerTitle;                                     // 0x04F0(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FText                                       WidgetContainerDescription;                               // 0x0508(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	bool                                               bHasPreview;                                              // 0x0520(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0521(0x0007) MISSED OFFSET
-	class UKSSettingsPreview*                          WidgetContainerPreviewWidget;                             // 0x0528(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSSettingsInfoBase*                         SettingsInfo;                                             // 0x0530(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FKSSettingsWidgetConfig                     WidgetConfig;                                             // 0x0500(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FText                                       WidgetContainerTitle;                                     // 0x0510(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FText                                       WidgetContainerDescription;                               // 0x0528(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	bool                                               bHasPreview;                                              // 0x0540(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0541(0x0007) MISSED OFFSET
+	class UKSSettingsPreview*                          WidgetContainerPreviewWidget;                             // 0x0548(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSSettingsInfoBase*                         SettingsInfo;                                             // 0x0550(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -4118,14 +4237,14 @@ public:
 
 
 // Class KillstreakUINew.KSShopItemButtonBase
-// 0x0028 (0x0508 - 0x04E0)
+// 0x0028 (0x0528 - 0x0500)
 class UKSShopItemButtonBase : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnShopSelection;                                          // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnShopViewItemDetails;                                    // 0x04F0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	EShopItemType                                      ActiveShopSlot;                                           // 0x0500(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0501(0x0007) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnShopSelection;                                          // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnShopViewItemDetails;                                    // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	EShopItemType                                      ActiveShopSlot;                                           // 0x0520(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0521(0x0007) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4145,17 +4264,17 @@ public:
 
 
 // Class KillstreakUINew.KSSocialPanelBase
-// 0x0060 (0x0540 - 0x04E0)
+// 0x0060 (0x0560 - 0x0500)
 class UKSSocialPanelBase : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnDataReady;                                              // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnPlayerCardClicked;                                      // 0x04F0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnSocialHeaderClicked;                                    // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
-	class UTreeView*                                   TreeView;                                                 // 0x0510(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	class UKSSocialOverlay*                            DataSource;                                               // 0x0518(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0520(0x0010) MISSED OFFSET
-	TArray<class UKSDataSocialCategory*>               CategoriesList;                                           // 0x0530(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	struct FScriptMulticastDelegate                    OnDataReady;                                              // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnPlayerCardClicked;                                      // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnSocialHeaderClicked;                                    // 0x0520(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	class UTreeView*                                   TreeView;                                                 // 0x0530(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	class UKSSocialOverlay*                            DataSource;                                               // 0x0538(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0540(0x0010) MISSED OFFSET
+	TArray<class UKSDataSocialCategory*>               CategoriesList;                                           // 0x0550(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()
 	{
@@ -4175,12 +4294,12 @@ public:
 
 
 // Class KillstreakUINew.KSSocialFriendsPanel
-// 0x0018 (0x0558 - 0x0540)
+// 0x0018 (0x0578 - 0x0560)
 class UKSSocialFriendsPanel : public UKSSocialPanelBase
 {
 public:
-	TArray<class UKSDataSocialCategory*>               CategoryData;                                             // 0x0540(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	class UKSSocialOverlay*                            Parent;                                                   // 0x0550(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	TArray<class UKSDataSocialCategory*>               CategoryData;                                             // 0x0560(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	class UKSSocialOverlay*                            Parent;                                                   // 0x0570(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()
 	{
@@ -4192,17 +4311,17 @@ public:
 
 
 // Class KillstreakUINew.KSSocialOverlay
-// 0x00A0 (0x0580 - 0x04E0)
+// 0x00A0 (0x05A0 - 0x0500)
 class UKSSocialOverlay : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnDataChanged;                                            // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	TArray<class UKSDataSocialCategory*>               CategoriesList;                                           // 0x04F0(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData00[0x8];                                       // 0x0500(0x0008) MISSED OFFSET
-	TMap<TWeakObjectPtr<class UKSPlayerInfo>, EKSSocialOverlaySection> PlayerCategoryMap;                                        // 0x0508(0x0050) (CPF_NativeAccessSpecifierPrivate)
-	TArray<TWeakObjectPtr<class UKSPlayerInfo>>        PlayersToUpdate;                                          // 0x0558(0x0010) (CPF_ZeroConstructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData01[0x8];                                       // 0x0568(0x0008) MISSED OFFSET
-	TArray<class UKSDataSocialPlayer*>                 UnusedEntries;                                            // 0x0570(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	struct FScriptMulticastDelegate                    OnDataChanged;                                            // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	TArray<class UKSDataSocialCategory*>               CategoriesList;                                           // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0520(0x0008) MISSED OFFSET
+	TMap<TWeakObjectPtr<class UKSPlayerInfo>, EKSSocialOverlaySection> PlayerCategoryMap;                                        // 0x0528(0x0050) (CPF_NativeAccessSpecifierPrivate)
+	TArray<TWeakObjectPtr<class UKSPlayerInfo>>        PlayersToUpdate;                                          // 0x0578(0x0010) (CPF_ZeroConstructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x8];                                       // 0x0588(0x0008) MISSED OFFSET
+	TArray<class UKSDataSocialPlayer*>                 UnusedEntries;                                            // 0x0590(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()
 	{
@@ -4222,13 +4341,13 @@ public:
 
 
 // Class KillstreakUINew.KSSocialSearchPanel
-// 0x0048 (0x0588 - 0x0540)
+// 0x0048 (0x05A8 - 0x0560)
 class UKSSocialSearchPanel : public UKSSocialPanelBase
 {
 public:
-	struct FScriptMulticastDelegate                    OnOpen;                                                   // 0x0540(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnClose;                                                  // 0x0550(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x28];                                      // 0x0560(0x0028) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnOpen;                                                   // 0x0560(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnClose;                                                  // 0x0570(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x28];                                      // 0x0580(0x0028) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4248,11 +4367,11 @@ public:
 
 
 // Class KillstreakUINew.KSSocialWidgetBase
-// 0x0008 (0x04E8 - 0x04E0)
+// 0x0008 (0x0508 - 0x0500)
 class UKSSocialWidgetBase : public UKSWidget
 {
 public:
-	class UKSPartyDataFactory*                         CachedPartyDataFactory;                                   // 0x04E0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSPartyDataFactory*                         CachedPartyDataFactory;                                   // 0x0500(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -4388,11 +4507,11 @@ public:
 
 
 // Class KillstreakUINew.KSStoreWidget
-// 0x0008 (0x04E8 - 0x04E0)
+// 0x0008 (0x0508 - 0x0500)
 class UKSStoreWidget : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x8];                                       // 0x04E0(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0500(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4441,17 +4560,17 @@ public:
 
 
 // Class KillstreakUINew.KSTextChatWidget
-// 0x0040 (0x0520 - 0x04E0)
+// 0x0040 (0x0540 - 0x0500)
 class UKSTextChatWidget : public UKSWidget
 {
 public:
-	TArray<EMercCosmeticSlot>                          RadialMenuItemsToShowInChat;                              // 0x04E0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               ActiveChatChannelsDirty;                                  // 0x04F0(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x04F1(0x0007) MISSED OFFSET
-	TArray<struct FPUMG_ActiveChatChannelData>         ActiveChatChannels;                                       // 0x04F8(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                CurrentChatChannelIndex;                                  // 0x0508(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x050C(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnCurrentChatChannelChanged;                              // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	TArray<EMercCosmeticSlot>                          RadialMenuItemsToShowInChat;                              // 0x0500(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               ActiveChatChannelsDirty;                                  // 0x0510(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0511(0x0007) MISSED OFFSET
+	TArray<struct FPUMG_ActiveChatChannelData>         ActiveChatChannels;                                       // 0x0518(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                CurrentChatChannelIndex;                                  // 0x0528(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x4];                                       // 0x052C(0x0004) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnCurrentChatChannelChanged;                              // 0x0530(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -4491,17 +4610,17 @@ public:
 
 
 // Class KillstreakUINew.KSToastNotificationWidgetBase
-// 0x0040 (0x0520 - 0x04E0)
+// 0x0040 (0x0540 - 0x0500)
 class UKSToastNotificationWidgetBase : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnToastReceived;                                          // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	int                                                MaxToastNotification;                                     // 0x04F0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                CurrentToastCount;                                        // 0x04F4(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               IsBusy;                                                   // 0x04F8(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x04F9(0x0007) MISSED OFFSET
-	TArray<struct FToastData>                          ToastQueue;                                               // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	TArray<struct FToastData>                          PostMatchToasts;                                          // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	struct FScriptMulticastDelegate                    OnToastReceived;                                          // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	int                                                MaxToastNotification;                                     // 0x0510(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                CurrentToastCount;                                        // 0x0514(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               IsBusy;                                                   // 0x0518(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0519(0x0007) MISSED OFFSET
+	TArray<struct FToastData>                          ToastQueue;                                               // 0x0520(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	TArray<struct FToastData>                          PostMatchToasts;                                          // 0x0530(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()
 	{
@@ -4572,18 +4691,21 @@ public:
 
 
 // Class KillstreakUINew.KSTouchHudWidget
-// 0x0040 (0x0520 - 0x04E0)
+// 0x0050 (0x0550 - 0x0500)
 class UKSTouchHudWidget : public UKSWidget
 {
 public:
-	class UKSWeaponAsset_Melee*                        QuickMeleeWeaponAsset;                                    // 0x04E0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UWidget*                                     MyFireWidget;                                             // 0x04E8(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UWidget*                                     MyMeleeWidget;                                            // 0x04F0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UWidget*                                     MyQuickMeleeWidget;                                       // 0x04F8(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UImage*                                      MyAimDownSightsWidget;                                    // 0x0500(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UTexture2D*                                  AimDownSightsEnableIcon;                                  // 0x0508(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UTexture2D*                                  AimDownSightsCancelIcon;                                  // 0x0510(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UWidget*                                     MyPingWidget;                                             // 0x0518(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bAlwaysShowQuickMelee;                                    // 0x0500(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0501(0x0007) MISSED OFFSET
+	class UKSWeaponAsset_Melee*                        QuickMeleeWeaponAsset;                                    // 0x0508(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UWidget*                                     MyFireWidget;                                             // 0x0510(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UWidget*                                     MyMeleeWidget;                                            // 0x0518(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UWidget*                                     MyGrenadeWidget;                                          // 0x0520(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UWidget*                                     MyQuickMeleeWidget;                                       // 0x0528(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UImage*                                      MyAimDownSightsWidget;                                    // 0x0530(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UTexture2D*                                  AimDownSightsEnableIcon;                                  // 0x0538(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UTexture2D*                                  AimDownSightsCancelIcon;                                  // 0x0540(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UWidget*                                     MyPingWidget;                                             // 0x0548(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
 	static UClass* StaticClass()
 	{
@@ -4593,7 +4715,8 @@ public:
 
 
 	void UpdateQuickMeleeRadius();
-	void UpdateMeleeOrFireButton();
+	void UpdatePrimaryWeaponButton();
+	void SetWidgetIconTexture(class UWidget* Widget, const struct FSoftObjectPath& Texture);
 };
 
 
@@ -4800,11 +4923,11 @@ public:
 
 
 // Class KillstreakUINew.KSViewedActiveWeaponCompWidget
-// 0x0010 (0x05B8 - 0x05A8)
+// 0x0010 (0x05D8 - 0x05C8)
 class UKSViewedActiveWeaponCompWidget : public UKSActiveWeaponComponentWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x05A8(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x05C8(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4816,11 +4939,11 @@ public:
 
 
 // Class KillstreakUINew.KSViewedActiveGadgetWidget
-// 0x0010 (0x04F8 - 0x04E8)
+// 0x0010 (0x0518 - 0x0508)
 class UKSViewedActiveGadgetWidget : public UKSWeaponWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x04E8(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0508(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4832,11 +4955,11 @@ public:
 
 
 // Class KillstreakUINew.KSViewedActiveMedPackWidget
-// 0x0010 (0x04F8 - 0x04E8)
+// 0x0010 (0x0518 - 0x0508)
 class UKSViewedActiveMedPackWidget : public UKSWeaponWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x04E8(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0508(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4848,15 +4971,15 @@ public:
 
 
 // Class KillstreakUINew.KSViewedItemLabel
-// 0x0018 (0x0528 - 0x0510)
+// 0x0018 (0x0548 - 0x0530)
 class UKSViewedItemLabel : public UKSViewedPawnWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x8];                                       // 0x0510(0x0008) MISSED OFFSET
-	bool                                               UpdateViewLimitPosition;                                  // 0x0518(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x0519(0x0003) MISSED OFFSET
-	struct FVector2D                                   ViewLimitPosition;                                        // 0x051C(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData02[0x4];                                       // 0x0524(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0530(0x0008) MISSED OFFSET
+	bool                                               UpdateViewLimitPosition;                                  // 0x0538(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x3];                                       // 0x0539(0x0003) MISSED OFFSET
+	struct FVector2D                                   ViewLimitPosition;                                        // 0x053C(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData02[0x4];                                       // 0x0544(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4880,20 +5003,20 @@ public:
 
 
 // Class KillstreakUINew.KSViewedPawnDamageDisplay
-// 0x0090 (0x05A0 - 0x0510)
+// 0x0090 (0x05C0 - 0x0530)
 class UKSViewedPawnDamageDisplay : public UKSViewedPawnWidget
 {
 public:
-	float                                              StackingWait;                                             // 0x0510(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               TetherToEventLocation;                                    // 0x0514(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x0515(0x0003) MISSED OFFSET
-	int                                                MaxNumDamageWidgetsOnScreen;                              // 0x0518(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x051C(0x0004) MISSED OFFSET
-	class UCanvasPanel*                                DamageNumberContainer;                                    // 0x0520(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TMap<class UClass*, struct FSpecialDamageColors>   SpecialDamageTypes;                                       // 0x0528(0x0050) (CPF_Edit, CPF_DisableEditOnInstance, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	TArray<class UDamageNumberDisplayWidget*>          CurrentDamageNumbersOnScreen;                             // 0x0578(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	TArray<class UDamageNumberDisplayWidget*>          DamageNumbersPool;                                        // 0x0588(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData02[0x8];                                       // 0x0598(0x0008) MISSED OFFSET
+	float                                              StackingWait;                                             // 0x0530(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               TetherToEventLocation;                                    // 0x0534(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x0535(0x0003) MISSED OFFSET
+	int                                                MaxNumDamageWidgetsOnScreen;                              // 0x0538(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x4];                                       // 0x053C(0x0004) MISSED OFFSET
+	class UCanvasPanel*                                DamageNumberContainer;                                    // 0x0540(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TMap<class UClass*, struct FSpecialDamageColors>   SpecialDamageTypes;                                       // 0x0548(0x0050) (CPF_Edit, CPF_DisableEditOnInstance, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	TArray<class UDamageNumberDisplayWidget*>          CurrentDamageNumbersOnScreen;                             // 0x0598(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	TArray<class UDamageNumberDisplayWidget*>          DamageNumbersPool;                                        // 0x05A8(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0x8];                                       // 0x05B8(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4952,12 +5075,12 @@ public:
 
 
 // Class KillstreakUINew.KSViewedPawnInventoryWidget
-// 0x0038 (0x05A8 - 0x0570)
+// 0x0038 (0x05C8 - 0x0590)
 class UKSViewedPawnInventoryWidget : public UKSPawnInventoryWidget
 {
 public:
-	struct FPlayerInventorySlot                        ActiveInventoryItem;                                      // 0x0570(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0588(0x0020) MISSED OFFSET
+	struct FPlayerInventorySlot                        ActiveInventoryItem;                                      // 0x0590(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x20];                                      // 0x05A8(0x0020) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4974,11 +5097,11 @@ public:
 
 
 // Class KillstreakUINew.KSViewedPawnModsWidget
-// 0x0018 (0x0528 - 0x0510)
+// 0x0018 (0x0548 - 0x0530)
 class UKSViewedPawnModsWidget : public UKSViewedPawnWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x18];                                      // 0x0510(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x18];                                      // 0x0530(0x0018) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -5011,16 +5134,16 @@ public:
 
 
 // Class KillstreakUINew.KSVoiceActivityWidget
-// 0x0070 (0x0550 - 0x04E0)
+// 0x0070 (0x0570 - 0x0500)
 class UKSVoiceActivityWidget : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    VoiceAccountNamePairsUpdated;                             // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    VoiceParticipantAdded;                                    // 0x04F0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    VoiceParticipantRemoved;                                  // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    VoiceParticipantUpdated;                                  // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    VoiceAudioStateChange;                                    // 0x0520(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0530(0x0020) MISSED OFFSET
+	struct FScriptMulticastDelegate                    VoiceAccountNamePairsUpdated;                             // 0x0500(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    VoiceParticipantAdded;                                    // 0x0510(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    VoiceParticipantRemoved;                                  // 0x0520(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    VoiceParticipantUpdated;                                  // 0x0530(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    VoiceAudioStateChange;                                    // 0x0540(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0550(0x0020) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -5039,7 +5162,7 @@ public:
 
 
 // Class KillstreakUINew.KSVoucherAcquisition
-// 0x0000 (0x04E0 - 0x04E0)
+// 0x0000 (0x0500 - 0x0500)
 class UKSVoucherAcquisition : public UKSWidget
 {
 public:
@@ -5057,14 +5180,65 @@ public:
 };
 
 
+// Class KillstreakUINew.KSWeaponCategoryButton
+// 0x0018 (0x0518 - 0x0500)
+class UKSWeaponCategoryButton : public UKSWidget
+{
+public:
+	struct FName                                       WeaponCategoryName;                                       // 0x0500(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0508(0x0010) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponCategoryButton");
+		return ptr;
+	}
+
+
+	void OnWeaponCategorySelected();
+	void DisplayWeaponCategory(const struct FName& DisplayedCategoryName);
+	void DisplayMasteryPercent(float Percent);
+	void BroadcastWeaponCategoryPreview();
+};
+
+
+// Class KillstreakUINew.KSWeaponCategoryScreen
+// 0x0028 (0x0528 - 0x0500)
+class UKSWeaponCategoryScreen : public UKSWidget
+{
+public:
+	class UKSRewardProgressMeter*                      CategoryMasteryMeter;                                     // 0x0500(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UKSRelatedRoguesGroup*                       RelatedRogues;                                            // 0x0508(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0510(0x0010) MISSED OFFSET
+	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0520(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponCategoryScreen");
+		return ptr;
+	}
+
+
+	void RefreshWidgetNavigation();
+	void PopulateFromViewRouteData();
+	void HandleWeaponPreview(class UKSWeaponAsset* PreviewWeapon);
+	void HandleViewStateChanged(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer);
+	void HandleBackContextAction();
+	TArray<class UKSWeaponProgressButton*> GetWeaponProgressButtons();
+	void DisplayWeaponCategory(const struct FWeaponCategoryDetails& WeaponCategoryDetails);
+	class UKSWeaponProgressButton* CreateAndAddWeaponEntry();
+	void ClearWeaponEntries();
+};
+
+
 // Class KillstreakUINew.KSWeaponComponentWidget
-// 0x0020 (0x0500 - 0x04E0)
+// 0x0020 (0x0520 - 0x0500)
 class UKSWeaponComponentWidget : public UKSWidget
 {
 public:
-	TWeakObjectPtr<class UKSWeaponComponent>           WeaponComponent;                                          // 0x04E0(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	struct FKSEquipmentId                              EquipmentId;                                              // 0x04E8(0x0004) (CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData00[0x14];                                      // 0x04EC(0x0014) MISSED OFFSET
+	TWeakObjectPtr<class UKSWeaponComponent>           WeaponComponent;                                          // 0x0500(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	struct FKSEquipmentId                              EquipmentId;                                              // 0x0508(0x0004) (CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x14];                                      // 0x050C(0x0014) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -5084,15 +5258,15 @@ public:
 
 
 // Class KillstreakUINew.KSWeaponComponentAmmoWidget
-// 0x0020 (0x0520 - 0x0500)
+// 0x0020 (0x0540 - 0x0520)
 class UKSWeaponComponentAmmoWidget : public UKSWeaponComponentWidget
 {
 public:
-	int                                                CachedAmmoInClip;                                         // 0x0500(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                CachedClipSize;                                           // 0x0504(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	int                                                CachedInReserve;                                          // 0x0508(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               CachedIsReloading;                                        // 0x050C(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x13];                                      // 0x050D(0x0013) MISSED OFFSET
+	int                                                CachedAmmoInClip;                                         // 0x0520(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                CachedClipSize;                                           // 0x0524(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                CachedInReserve;                                          // 0x0528(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               CachedIsReloading;                                        // 0x052C(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x13];                                      // 0x052D(0x0013) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -5108,6 +5282,87 @@ public:
 	int GetClipSize();
 	int GetAmmoInReserve();
 	int GetAmmoInClip();
+};
+
+
+// Class KillstreakUINew.KSWeaponHubBase
+// 0x0028 (0x0528 - 0x0500)
+class UKSWeaponHubBase : public UKSWidget
+{
+public:
+	class UKSRewardProgressMeter*                      TotalWeaponMasteryMeter;                                  // 0x0500(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UKSRelatedRoguesGroup*                       RelatedRogues;                                            // 0x0508(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0510(0x0010) MISSED OFFSET
+	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0520(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponHubBase");
+		return ptr;
+	}
+
+
+	void HandleWeaponCategoryPreview(const struct FName& PreviewCategoryName);
+	void HandleBackContextAction();
+	TArray<class UKSWeaponCategoryButton*> GetWeaponCategoryButtons();
+};
+
+
+// Class KillstreakUINew.KSWeaponHubHelper
+// 0x0008 (0x0030 - 0x0028)
+class UKSWeaponHubHelper : public UObject
+{
+public:
+	class UDataTable*                                  WeaponCategoryDetailsTable;                               // 0x0028(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponHubHelper");
+		return ptr;
+	}
+
+
+	bool GetWeaponCategoryDetails(const struct FName& WeaponCategoryName, struct FWeaponCategoryDetails* OutDetails);
+};
+
+
+// Class KillstreakUINew.KSWeaponCategoryRouteInfo
+// 0x0008 (0x0030 - 0x0028)
+class UKSWeaponCategoryRouteInfo : public UObject
+{
+public:
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0028(0x0008) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponCategoryRouteInfo");
+		return ptr;
+	}
+
+};
+
+
+// Class KillstreakUINew.KSWeaponProgressButton
+// 0x0018 (0x0518 - 0x0500)
+class UKSWeaponProgressButton : public UKSWidget
+{
+public:
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0500(0x0010) MISSED OFFSET
+	class UKSWeaponAsset*                              WeaponAsset;                                              // 0x0510(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponProgressButton");
+		return ptr;
+	}
+
+
+	void OnWeaponSelected();
+	class UKSWeaponAsset* GetWeaponAsset();
+	void DisplayWeapon(class UKSWeaponAsset* DisplayedWeapon);
+	void DisplayProgressReward(class UKSItem* RewardItem);
+	void DisplayMasteryPercent(float Percent);
+	void BroadcastWeaponPreview();
 };
 
 
@@ -5149,13 +5404,13 @@ public:
 
 
 // Class KillstreakUINew.KSWhatsNewModal
-// 0x0018 (0x04F8 - 0x04E0)
+// 0x0018 (0x0518 - 0x0500)
 class UKSWhatsNewModal : public UKSWidget
 {
 public:
-	int                                                maxPanelCount;                                            // 0x04E0(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x04E4(0x0004) MISSED OFFSET
-	TArray<class UKSWhatsNewPanel*>                    StoredPanels;                                             // 0x04E8(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                maxPanelCount;                                            // 0x0500(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0504(0x0004) MISSED OFFSET
+	TArray<class UKSWhatsNewPanel*>                    StoredPanels;                                             // 0x0508(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{

@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,33 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.OnTouchGesture
+// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FGeometry               MyGeometry                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_IsPlainOldData, CPF_NoDestructor)
+// struct FPointerEvent           GestureEvent                   (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ReferenceParm)
+// struct FEventReply             ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ReturnParm)
+
+struct FEventReply UWBP_TouchButtonGeneric_C::OnTouchGesture(const struct FGeometry& MyGeometry, const struct FPointerEvent& GestureEvent)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.OnTouchGesture");
+
+	struct
+	{
+		struct FGeometry               MyGeometry;
+		struct FPointerEvent           GestureEvent;
+		struct FEventReply             ReturnValue;
+	} params;
+
+	params.MyGeometry = MyGeometry;
+	params.GestureEvent = GestureEvent;
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
 
 // Function WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C.TriggerInputAction
 // (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)

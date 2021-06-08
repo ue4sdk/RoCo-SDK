@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass DefaultLocalPlayer.DefaultLocalPlayer_C
-// 0x0000 (0x0290 - 0x0290)
+// 0x0000 (0x0298 - 0x0298)
 class UDefaultLocalPlayer_C : public UKSLocalPlayer
 {
 public:

@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,105 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function RifleReticle.RifleReticle_C.Set Reticle Color
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FLinearColor            Color                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void URifleReticle_C::Set_Reticle_Color(const struct FLinearColor& Color)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function RifleReticle.RifleReticle_C.Set Reticle Color");
+
+	struct
+	{
+		struct FLinearColor            Color;
+	} params;
+
+	params.Color = Color;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function RifleReticle.RifleReticle_C.Set Reticle Height
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            Height                         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void URifleReticle_C::Set_Reticle_Height(int Height)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function RifleReticle.RifleReticle_C.Set Reticle Height");
+
+	struct
+	{
+		int                            Height;
+	} params;
+
+	params.Height = Height;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function RifleReticle.RifleReticle_C.Set Reticle Width
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            Width                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void URifleReticle_C::Set_Reticle_Width(int Width)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function RifleReticle.RifleReticle_C.Set Reticle Width");
+
+	struct
+	{
+		int                            Width;
+	} params;
+
+	params.Width = Width;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function RifleReticle.RifleReticle_C.ChangeReticleSizeInternal
+// (FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            Center_Dot_Index               (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// int                            Crosshair_Index                (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void URifleReticle_C::ChangeReticleSizeInternal(int Center_Dot_Index, int Crosshair_Index)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function RifleReticle.RifleReticle_C.ChangeReticleSizeInternal");
+
+	struct
+	{
+		int                            Center_Dot_Index;
+		int                            Crosshair_Index;
+	} params;
+
+	params.Center_Dot_Index = Center_Dot_Index;
+	params.Crosshair_Index = Crosshair_Index;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function RifleReticle.RifleReticle_C.ChangeReticleSize
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void URifleReticle_C::ChangeReticleSize()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function RifleReticle.RifleReticle_C.ChangeReticleSize");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function RifleReticle.RifleReticle_C.HideAmmoProgressCircle
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -79,26 +178,6 @@ void URifleReticle_C::ShouldHideAmmoGauge(class UKSWeaponComponent* Weapon, bool
 
 	if (bShouldHideAmmoGauge != nullptr)
 		*bShouldHideAmmoGauge = params.bShouldHideAmmoGauge;
-}
-
-
-// Function RifleReticle.RifleReticle_C.ColorSet
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FLinearColor            NewColor                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void URifleReticle_C::ColorSet(const struct FLinearColor& NewColor)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function RifleReticle.RifleReticle_C.ColorSet");
-
-	struct
-	{
-		struct FLinearColor            NewColor;
-	} params;
-
-	params.NewColor = NewColor;
-
-	UObject::ProcessEvent(fn, &params);
 }
 
 

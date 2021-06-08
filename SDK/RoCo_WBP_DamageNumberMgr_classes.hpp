@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,12 +15,12 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_DamageNumberMgr.WBP_DamageNumberMgr_C
-// 0x0010 (0x05B0 - 0x05A0)
+// 0x0010 (0x05D0 - 0x05C0)
 class UWBP_DamageNumberMgr_C : public UKSViewedPawnDamageDisplay
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x05A0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	class UCanvasPanel*                                MyCanvasPanel;                                            // 0x05A8(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x05C0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	class UCanvasPanel*                                MyCanvasPanel;                                            // 0x05C8(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

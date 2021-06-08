@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -435,6 +435,22 @@ void UMaster_WeaponComponent_C::Set_Revolver_Chamber_Rotate(const struct FRotato
 void UMaster_WeaponComponent_C::Set_Muzzle_Flash_Emitter_and_Offset()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function Master_WeaponComponent.Master_WeaponComponent_C.Set Muzzle Flash Emitter and Offset");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function Master_WeaponComponent.Master_WeaponComponent_C.Setup Mirror Anims
+// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UMaster_WeaponComponent_C::Setup_Mirror_Anims()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Master_WeaponComponent.Master_WeaponComponent_C.Setup Mirror Anims");
 
 	struct
 	{
@@ -2111,26 +2127,6 @@ void UMaster_WeaponComponent_C::Filter_Cosmetic_Hit_Results(TArray<struct FHitRe
 }
 
 
-// Function Master_WeaponComponent.Master_WeaponComponent_C.ExecuteUbergraph_Master_WeaponComponent_7
-// (FUNC_Final, FUNC_Native, FUNC_Public)
-// Parameters:
-// int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UMaster_WeaponComponent_C::ExecuteUbergraph_Master_WeaponComponent_7(int bpp__EntryPoint__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function Master_WeaponComponent.Master_WeaponComponent_C.ExecuteUbergraph_Master_WeaponComponent_7");
-
-	struct
-	{
-		int                            bpp__EntryPoint__pf;
-	} params;
-
-	params.bpp__EntryPoint__pf = bpp__EntryPoint__pf;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function Master_WeaponComponent.Master_WeaponComponent_C.ExecuteUbergraph_Master_WeaponComponent_40
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
@@ -2211,14 +2207,34 @@ void UMaster_WeaponComponent_C::ExecuteUbergraph_Master_WeaponComponent_33(int b
 }
 
 
-// Function Master_WeaponComponent.Master_WeaponComponent_C.ExecuteUbergraph_Master_WeaponComponent_3
+// Function Master_WeaponComponent.Master_WeaponComponent_C.ExecuteUbergraph_Master_WeaponComponent_4
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UMaster_WeaponComponent_C::ExecuteUbergraph_Master_WeaponComponent_3(int bpp__EntryPoint__pf)
+void UMaster_WeaponComponent_C::ExecuteUbergraph_Master_WeaponComponent_4(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Master_WeaponComponent.Master_WeaponComponent_C.ExecuteUbergraph_Master_WeaponComponent_3");
+	static auto fn = UObject::FindObject<UFunction>("Function Master_WeaponComponent.Master_WeaponComponent_C.ExecuteUbergraph_Master_WeaponComponent_4");
+
+	struct
+	{
+		int                            bpp__EntryPoint__pf;
+	} params;
+
+	params.bpp__EntryPoint__pf = bpp__EntryPoint__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function Master_WeaponComponent.Master_WeaponComponent_C.ExecuteUbergraph_Master_WeaponComponent_1
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UMaster_WeaponComponent_C::ExecuteUbergraph_Master_WeaponComponent_1(int bpp__EntryPoint__pf)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Master_WeaponComponent.Master_WeaponComponent_C.ExecuteUbergraph_Master_WeaponComponent_1");
 
 	struct
 	{

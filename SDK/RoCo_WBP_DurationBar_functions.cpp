@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -179,26 +179,6 @@ void UWBP_DurationBar_C::HandleProjectileFired(float Duration, class UKSWeaponAs
 
 	params.Duration = Duration;
 	params.WeaponAsset = WeaponAsset;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_DurationBar.WBP_DurationBar_C.InitializeWidget
-// (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// class APUMG_HUD*               HUD                            (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UWBP_DurationBar_C::InitializeWidget(class APUMG_HUD* HUD)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_DurationBar.WBP_DurationBar_C.InitializeWidget");
-
-	struct
-	{
-		class APUMG_HUD*               HUD;
-	} params;
-
-	params.HUD = HUD;
 
 	UObject::ProcessEvent(fn, &params);
 }

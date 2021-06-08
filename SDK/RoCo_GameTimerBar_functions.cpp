@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,69 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function GameTimerBar.GameTimerBar_C.On Objective Timer Tick
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// float                          Time                           (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UGameTimerBar_C::On_Objective_Timer_Tick(const TScriptInterface<class UKSObjective>& GameObjective, float Time)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.On Objective Timer Tick");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+		float                          Time;
+	} params;
+
+	params.GameObjective = GameObjective;
+	params.Time = Time;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTimerBar.GameTimerBar_C.On Objective State Changed
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UGameTimerBar_C::On_Objective_State_Changed(const TScriptInterface<class UKSObjective>& GameObjective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.On Objective State Changed");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+	} params;
+
+	params.GameObjective = GameObjective;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTimerBar.GameTimerBar_C.Game Objective Registered
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UGameTimerBar_C::Game_Objective_Registered(const TScriptInterface<class UKSObjective>& GameObjective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Game Objective Registered");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+	} params;
+
+	params.GameObjective = GameObjective;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function GameTimerBar.GameTimerBar_C.HandlePointBarType
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)

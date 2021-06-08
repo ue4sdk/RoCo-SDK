@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -391,6 +391,49 @@ void UGameTouchHUDWidget_C::HandleEquipmentChange(class AKSCharacter* EquipmentO
 
 	params.EquipmentOwner = EquipmentOwner;
 	params.Equipment = Equipment;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTouchHUDWidget.GameTouchHUDWidget_C.SetWidgetIconTexture
+// (FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class UWidget*                 Widget                         (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FSoftObjectPath         Texture                        (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_HasGetValueTypeHash)
+
+void UGameTouchHUDWidget_C::SetWidgetIconTexture(class UWidget* Widget, const struct FSoftObjectPath& Texture)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.SetWidgetIconTexture");
+
+	struct
+	{
+		class UWidget*                 Widget;
+		struct FSoftObjectPath         Texture;
+	} params;
+
+	params.Widget = Widget;
+	params.Texture = Texture;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTouchHUDWidget.GameTouchHUDWidget_C.InitializeWidget
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class APUMG_HUD*               HUD                            (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UGameTouchHUDWidget_C::InitializeWidget(class APUMG_HUD* HUD)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.InitializeWidget");
+
+	struct
+	{
+		class APUMG_HUD*               HUD;
+	} params;
+
+	params.HUD = HUD;
 
 	UObject::ProcessEvent(fn, &params);
 }

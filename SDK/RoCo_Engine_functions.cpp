@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -5535,41 +5535,21 @@ void UPrimitiveComponent::SetOutlineThicknessMultiplier(float InThicknessMultipl
 }
 
 
-// Function Engine.PrimitiveComponent.SetOutlineSkipsDepthTest
+// Function Engine.PrimitiveComponent.SetOutlineDepthMode
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
-// bool                           bInSkipsDepthTest              (CPF_ConstParm, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// TEnumAsByte<EOutlineDepthMode> InOutlineDepthMode             (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UPrimitiveComponent::SetOutlineSkipsDepthTest(bool bInSkipsDepthTest)
+void UPrimitiveComponent::SetOutlineDepthMode(TEnumAsByte<EOutlineDepthMode> InOutlineDepthMode)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Engine.PrimitiveComponent.SetOutlineSkipsDepthTest");
+	static auto fn = UObject::FindObject<UFunction>("Function Engine.PrimitiveComponent.SetOutlineDepthMode");
 
 	struct
 	{
-		bool                           bInSkipsDepthTest;
+		TEnumAsByte<EOutlineDepthMode> InOutlineDepthMode;
 	} params;
 
-	params.bInSkipsDepthTest = bInSkipsDepthTest;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function Engine.PrimitiveComponent.SetOutlineIsCutout
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// bool                           bInOutlineIsCutout             (CPF_ConstParm, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UPrimitiveComponent::SetOutlineIsCutout(bool bInOutlineIsCutout)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function Engine.PrimitiveComponent.SetOutlineIsCutout");
-
-	struct
-	{
-		bool                           bInOutlineIsCutout;
-	} params;
-
-	params.bInOutlineIsCutout = bInOutlineIsCutout;
+	params.InOutlineDepthMode = InOutlineDepthMode;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -16837,7 +16817,7 @@ void APlayerController::ClientSetBlockOnAsyncLoading()
 
 
 // Function Engine.PlayerController.ClientReturnToMainMenuWithTextReason
-// (FUNC_Net, FUNC_NetReliable, FUNC_Native, FUNC_Event, FUNC_Public, FUNC_NetClient)
+// (FUNC_Net, FUNC_NetReliable, FUNC_Native, FUNC_Event, FUNC_Public, FUNC_NetClient, FUNC_BlueprintCallable)
 // Parameters:
 // struct FText                   ReturnReason                   (CPF_ConstParm, CPF_Parm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
 

@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -31,22 +31,22 @@ void UReticuleMoving_C::ResetADS()
 // Function ReticuleMoving.ReticuleMoving_C.UpdateBlockedShotDisplay
 // (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// bool                           IsVisible                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// bool                           IsShotBlocked                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 // struct FVector2D               Translation                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 // struct FVector2D               IconScale                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UReticuleMoving_C::UpdateBlockedShotDisplay(bool IsVisible, const struct FVector2D& Translation, const struct FVector2D& IconScale)
+void UReticuleMoving_C::UpdateBlockedShotDisplay(bool IsShotBlocked, const struct FVector2D& Translation, const struct FVector2D& IconScale)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.UpdateBlockedShotDisplay");
 
 	struct
 	{
-		bool                           IsVisible;
+		bool                           IsShotBlocked;
 		struct FVector2D               Translation;
 		struct FVector2D               IconScale;
 	} params;
 
-	params.IsVisible = IsVisible;
+	params.IsShotBlocked = IsShotBlocked;
 	params.Translation = Translation;
 	params.IconScale = IconScale;
 
@@ -706,42 +706,6 @@ void UReticuleMoving_C::PreClearPlayerState()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function ReticuleMoving.ReticuleMoving_C.OnInitialized
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-
-void UReticuleMoving_C::OnInitialized()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.OnInitialized");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function ReticuleMoving.ReticuleMoving_C.SetReticleColor
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// int                            SettingValue                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UReticuleMoving_C::SetReticleColor(int SettingValue)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function ReticuleMoving.ReticuleMoving_C.SetReticleColor");
-
-	struct
-	{
-		int                            SettingValue;
-	} params;
-
-	params.SettingValue = SettingValue;
 
 	UObject::ProcessEvent(fn, &params);
 }

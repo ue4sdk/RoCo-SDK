@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass KOTHKSHUDAnnouncementComoponent.KOTHKSHUDAnnouncementComoponent_C
-// 0x0090 (0x0178 - 0x00E8)
+// 0x0078 (0x0160 - 0x00E8)
 class UKOTHKSHUDAnnouncementComoponent_C : public UKSHUDAnnouncementComponent
 {
 public:
@@ -24,10 +24,8 @@ public:
 	unsigned char                                      UnknownData00[0x7];                                       // 0x00F1(0x0007) MISSED OFFSET
 	TArray<float>                                      ObjCountdownMilestones;                                   // 0x00F8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
 	float                                              Last_Triggered_Unlock_Announcement;                       // 0x0108(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	struct FObjectiveState                             CachedObjectiveState;                                     // 0x010C(0x0014) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_NoDestructor)
-	float                                              LastSimulatedPointTime;                                   // 0x0120(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x0124(0x0004) MISSED OFFSET
-	TMap<int, struct FObjectiveState>                  CachedObjectiveStates;                                    // 0x0128(0x0050) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
+	float                                              LastSimulatedPointTime;                                   // 0x010C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	TMap<int, struct FObjectiveState>                  CachedObjectiveStates;                                    // 0x0110(0x0050) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
 
 	static UClass* StaticClass()
 	{

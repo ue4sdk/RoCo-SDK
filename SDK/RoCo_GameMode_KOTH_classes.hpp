@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,17 +15,18 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GameMode_KOTH.GameMode_KOTH_C
-// 0x0038 (0x0F20 - 0x0EE8)
+// 0x0040 (0x0F78 - 0x0F38)
 class AGameMode_KOTH_C : public AKSGameMode_Modular
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0EE8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	class UKOTHPhase_C*                                KOTHPhase;                                                // 0x0EF0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	class UForceChimeraOpenPhase_C*                    ForceChimeraOpenPhase;                                    // 0x0EF8(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	class UJobSelectionPhaseRule_QuickTest_C*          JobSelectionPhaseRule;                                    // 0x0F00(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	class UKSPunishmentRuleComponent*                  KSPunishmentRule;                                         // 0x0F08(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	class UKSShopRuleComponent*                        KSShopRule;                                               // 0x0F10(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	class USceneComponent*                             DefaultSceneRoot;                                         // 0x0F18(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0F38(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	class UKSDropRuleComponent*                        KSDropRule;                                               // 0x0F40(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UKOTHPhase_C*                                KOTHPhase;                                                // 0x0F48(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UForceChimeraOpenPhase_C*                    ForceChimeraOpenPhase;                                    // 0x0F50(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UJobSelectionPhaseRule_QuickTest_C*          JobSelectionPhaseRule;                                    // 0x0F58(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UKSPunishmentRuleComponent*                  KSPunishmentRule;                                         // 0x0F60(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UKSShopRuleComponent*                        KSShopRule;                                               // 0x0F68(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class USceneComponent*                             DefaultSceneRoot;                                         // 0x0F70(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

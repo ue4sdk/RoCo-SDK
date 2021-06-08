@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -269,7 +269,9 @@ struct FRotator
 
     inline FRotator& operator*= (const float other)    { Yaw *= other; Pitch *= other; Roll *= other; return *this; }
 
-   friend bool operator==(const FRotator& first, const FRotator& second)
+    inline FRotator& operator*= (const float other)    { Yaw *= other; Pitch *= other; Roll *= other; return *this; }
+
+    friend bool operator==(const FRotator& first, const FRotator& second)
 	{
 		return first.Pitch == second.Pitch && first.Yaw == second.Yaw && first.Roll == second.Roll;
 	}

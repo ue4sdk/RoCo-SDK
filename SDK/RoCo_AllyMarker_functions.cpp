@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -273,14 +273,14 @@ void UAllyMarker_C::HandleCrackStateActiviationChanged(bool bpp__Active__pf)
 }
 
 
-// Function AllyMarker.AllyMarker_C.ExecuteUbergraph_AllyMarker_6
+// Function AllyMarker.AllyMarker_C.ExecuteUbergraph_AllyMarker_1
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UAllyMarker_C::ExecuteUbergraph_AllyMarker_6(int bpp__EntryPoint__pf)
+void UAllyMarker_C::ExecuteUbergraph_AllyMarker_1(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.ExecuteUbergraph_AllyMarker_6");
+	static auto fn = UObject::FindObject<UFunction>("Function AllyMarker.AllyMarker_C.ExecuteUbergraph_AllyMarker_1");
 
 	struct
 	{

@@ -1,0 +1,39 @@
+// Rogue Company (0.60) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "RoCo_BarricadeWeaponComponent_classes.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Functions
+//---------------------------------------------------------------------------
+
+// Function BarricadeWeaponComponent.BarricadeWeaponComponent_C.ExecuteUbergraph_BarricadeWeaponComponent
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UBarricadeWeaponComponent_C::ExecuteUbergraph_BarricadeWeaponComponent(int bpp__EntryPoint__pf)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BarricadeWeaponComponent.BarricadeWeaponComponent_C.ExecuteUbergraph_BarricadeWeaponComponent");
+
+	struct
+	{
+		int                            bpp__EntryPoint__pf;
+	} params;
+
+	params.bpp__EntryPoint__pf = bpp__EntryPoint__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

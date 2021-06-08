@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,78 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function ShotgunReticle.ShotgunReticle_C.On Shotgun Crosshair Size Changed
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UShotgunReticle_C::On_Shotgun_Crosshair_Size_Changed()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.On Shotgun Crosshair Size Changed");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function ShotgunReticle.ShotgunReticle_C.Set Reticle Color
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FLinearColor            Color                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UShotgunReticle_C::Set_Reticle_Color(const struct FLinearColor& Color)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.Set Reticle Color");
+
+	struct
+	{
+		struct FLinearColor            Color;
+	} params;
+
+	params.Color = Color;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function ShotgunReticle.ShotgunReticle_C.ChangeReticleSizeInternal
+// (FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            CrosshairIndex                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UShotgunReticle_C::ChangeReticleSizeInternal(int CrosshairIndex)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.ChangeReticleSizeInternal");
+
+	struct
+	{
+		int                            CrosshairIndex;
+	} params;
+
+	params.CrosshairIndex = CrosshairIndex;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function ShotgunReticle.ShotgunReticle_C.ChangeReticleSize
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UShotgunReticle_C::ChangeReticleSize()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.ChangeReticleSize");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function ShotgunReticle.ShotgunReticle_C.IsValidWeaponType
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
@@ -89,26 +161,6 @@ void UShotgunReticle_C::UpdateCrosshairDisplay()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function ShotgunReticle.ShotgunReticle_C.ColorSet
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FLinearColor            NewColor                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UShotgunReticle_C::ColorSet(const struct FLinearColor& NewColor)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.ColorSet");
-
-	struct
-	{
-		struct FLinearColor            NewColor;
-	} params;
-
-	params.NewColor = NewColor;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -272,6 +324,22 @@ void UShotgunReticle_C::UpdateAmmoGauge(class UKSWeaponComponent* Weapon)
 	} params;
 
 	params.Weapon = Weapon;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function ShotgunReticle.ShotgunReticle_C.OnInitialized
+// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UShotgunReticle_C::OnInitialized()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ShotgunReticle.ShotgunReticle_C.OnInitialized");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -128,12 +128,15 @@ public:
 	}
 
 
+	void TestFubarRewardPostLogin();
+	void TestFubarRewardPosted();
 	void TestFubar();
+	void ServerTestFubarRewardPostLogin();
+	void ServerTestFubarRewardPosted();
 	void ServerTestFubar();
 	void ServerExecCall(const struct FString& request);
 	void ServerExec(const struct FString& request);
 	void Logout();
-	void gmmf();
 	void gmJoinQueue(int QueueId);
 	void gmCommand(const struct FString& request);
 	void gmC(const struct FString& request);
@@ -362,26 +365,26 @@ public:
 
 
 // Class PlatformGameFramework.PGame_GameMode
-// 0x00C0 (0x0470 - 0x03B0)
+// 0x00D0 (0x0480 - 0x03B0)
 class APGame_GameMode : public APGame_GameModeBase
 {
 public:
 	unsigned char                                      UnknownData00[0x18];                                      // 0x03B0(0x0018) MISSED OFFSET
 	bool                                               bAutoEnableCombatLog;                                     // 0x03C8(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               bUploadCombatLogOverride;                                 // 0x03C9(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x3E];                                      // 0x03CA(0x003E) MISSED OFFSET
-	bool                                               bFubarForCPUFramerate;                                    // 0x0408(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bFubarForPacketLoss;                                      // 0x0409(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData02[0x2];                                       // 0x040A(0x0002) MISSED OFFSET
-	float                                              FubarShutdownWaitTimeoutTime;                             // 0x040C(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData03[0x8];                                       // 0x0410(0x0008) MISSED OFFSET
-	struct FString                                     SonyActivityId;                                           // 0x0418(0x0010) (CPF_Edit, CPF_ZeroConstructor, CPF_Config, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              SonyMatchOwnerNetTimeout;                                 // 0x0428(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_Config, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData04[0x4];                                       // 0x042C(0x0004) MISSED OFFSET
-	struct FPGame_SonyMatchData                        SonyMatchData;                                            // 0x0430(0x0018) (CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	TArray<uint32_t>                                   SonyIneligibleMatchOwners;                                // 0x0448(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData05[0x8];                                       // 0x0458(0x0008) MISSED OFFSET
-	TArray<struct FPGame_InactivePlayerStateEntry>     PGame_InactivePlayerArray;                                // 0x0460(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x4E];                                      // 0x03CA(0x004E) MISSED OFFSET
+	bool                                               bFubarForCPUFramerate;                                    // 0x0418(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bFubarForPacketLoss;                                      // 0x0419(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData02[0x2];                                       // 0x041A(0x0002) MISSED OFFSET
+	float                                              FubarShutdownWaitTimeoutTime;                             // 0x041C(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData03[0x8];                                       // 0x0420(0x0008) MISSED OFFSET
+	struct FString                                     SonyActivityId;                                           // 0x0428(0x0010) (CPF_Edit, CPF_ZeroConstructor, CPF_Config, CPF_DisableEditOnInstance, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              SonyMatchOwnerNetTimeout;                                 // 0x0438(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_Config, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData04[0x4];                                       // 0x043C(0x0004) MISSED OFFSET
+	struct FPGame_SonyMatchData                        SonyMatchData;                                            // 0x0440(0x0018) (CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	TArray<uint32_t>                                   SonyIneligibleMatchOwners;                                // 0x0458(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData05[0x8];                                       // 0x0468(0x0008) MISSED OFFSET
+	TArray<struct FPGame_InactivePlayerStateEntry>     PGame_InactivePlayerArray;                                // 0x0470(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()
 	{

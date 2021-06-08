@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,70 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.EvaluateInputStateCycle
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_Context_Menu_Prompt_C::EvaluateInputStateCycle()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.EvaluateInputStateCycle");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.EvaluateInputStateStandard
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_Context_Menu_Prompt_C::EvaluateInputStateStandard()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.EvaluateInputStateStandard");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.PopulateCycleButton
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_Context_Menu_Prompt_C::PopulateCycleButton()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.PopulateCycleButton");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.PopulateStandardButton
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_Context_Menu_Prompt_C::PopulateStandardButton()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.PopulateStandardButton");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.SetInputState
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -33,7 +97,7 @@ void UWBP_Context_Menu_Prompt_C::SetInputState(TEnumAsByte<EPGAME_INPUT_STATE> I
 
 
 // Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.Populate
-// (FUNC_Private, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Private, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UWBP_Context_Menu_Prompt_C::Populate()
 {
@@ -199,6 +263,38 @@ void UWBP_Context_Menu_Prompt_C::BndEvt__KBMButton_K2Node_ComponentBoundEvent_5_
 	} params;
 
 	params.Widget = Widget;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__CycleNext_K2Node_ComponentBoundEvent_6_OnBtnClicked__DelegateSignature
+// (FUNC_BlueprintEvent)
+
+void UWBP_Context_Menu_Prompt_C::BndEvt__CycleNext_K2Node_ComponentBoundEvent_6_OnBtnClicked__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__CycleNext_K2Node_ComponentBoundEvent_6_OnBtnClicked__DelegateSignature");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__CyclePrevious_K2Node_ComponentBoundEvent_7_OnBtnClicked__DelegateSignature
+// (FUNC_BlueprintEvent)
+
+void UWBP_Context_Menu_Prompt_C::BndEvt__CyclePrevious_K2Node_ComponentBoundEvent_7_OnBtnClicked__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.BndEvt__CyclePrevious_K2Node_ComponentBoundEvent_7_OnBtnClicked__DelegateSignature");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

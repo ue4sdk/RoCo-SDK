@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -67,6 +67,16 @@ enum class EEffectGroupApplicationRule : uint8_t
 	EEffectGroupApplicationRule__STACK_IN_PLACE_INSTIGATOR = 5,
 	EEffectGroupApplicationRule__STRONGEST_BEFORE_NEWEST = 6,
 	EEffectGroupApplicationRule__EEffectGroupApplicationRule_MAX = 7
+};
+
+
+// Enum PlatformGameFramework.EFubarRewardRecipients
+enum class EFubarRewardRecipients : uint8_t
+{
+	EFubarRewardRecipients__None   = 0,
+	EFubarRewardRecipients__PostedPlayers = 1,
+	EFubarRewardRecipients__PostLoginPlayers = 2,
+	EFubarRewardRecipients__EFubarRewardRecipients_MAX = 3
 };
 
 

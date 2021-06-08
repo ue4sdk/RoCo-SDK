@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_TouchButtonGeneric.WBP_TouchButtonGeneric_C
-// 0x0068 (0x02A0 - 0x0238)
+// 0x0078 (0x02B0 - 0x0238)
 class UWBP_TouchButtonGeneric_C : public UUserWidget
 {
 public:
@@ -35,6 +35,9 @@ public:
 	float                                              Height;                                                   // 0x0288(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
 	unsigned char                                      UnknownData01[0x4];                                       // 0x028C(0x0004) MISSED OFFSET
 	struct FScriptMulticastDelegate                    OnButtonPressed;                                          // 0x0290(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	float                                              BackgroundTextureAlpha;                                   // 0x02A0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	float                                              IconPadding;                                              // 0x02A4(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
+	struct FVector2D                                   HitboxSize;                                               // 0x02A8(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{
@@ -43,6 +46,7 @@ public:
 	}
 
 
+	struct FEventReply OnTouchGesture(const struct FGeometry& MyGeometry, const struct FPointerEvent& GestureEvent);
 	void TriggerInputAction(TEnumAsByte<EInputEvent> InInputEvent);
 	void PreConstruct(bool IsDesignTime);
 	void Construct();

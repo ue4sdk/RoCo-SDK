@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,26 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.PreConstruct
+// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           IsDesignTime                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UWBP_ModalPopupContainer_C::PreConstruct(bool IsDesignTime)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.PreConstruct");
+
+	struct
+	{
+		bool                           IsDesignTime;
+	} params;
+
+	params.IsDesignTime = IsDesignTime;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.BndEvt__CloseButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 // (FUNC_BlueprintEvent)
@@ -39,26 +59,6 @@ void UWBP_ModalPopupContainer_C::BndEvt__CloseButton_K2Node_ComponentBoundEvent_
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.PreConstruct
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-// Parameters:
-// bool                           IsDesignTime                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UWBP_ModalPopupContainer_C::PreConstruct(bool IsDesignTime)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_ModalPopupContainer.WBP_ModalPopupContainer_C.PreConstruct");
-
-	struct
-	{
-		bool                           IsDesignTime;
-	} params;
-
-	params.IsDesignTime = IsDesignTime;
 
 	UObject::ProcessEvent(fn, &params);
 }

@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,26 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_InGameJobSelect_EnemyTeamComp.WBP_InGameJobSelect_EnemyTeamComp_C.SetupViewForPlayerCount
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            PlayerCount                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_InGameJobSelect_EnemyTeamComp_C::SetupViewForPlayerCount(int PlayerCount)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_EnemyTeamComp.WBP_InGameJobSelect_EnemyTeamComp_C.SetupViewForPlayerCount");
+
+	struct
+	{
+		int                            PlayerCount;
+	} params;
+
+	params.PlayerCount = PlayerCount;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function WBP_InGameJobSelect_EnemyTeamComp.WBP_InGameJobSelect_EnemyTeamComp_C.ClearJobEntries
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -105,7 +125,7 @@ void UWBP_InGameJobSelect_EnemyTeamComp_C::ResetJobEntries()
 
 
 // Function WBP_InGameJobSelect_EnemyTeamComp.WBP_InGameJobSelect_EnemyTeamComp_C.SetInitialView
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UWBP_InGameJobSelect_EnemyTeamComp_C::SetInitialView()
 {

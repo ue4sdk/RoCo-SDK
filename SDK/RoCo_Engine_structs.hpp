@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -8,14 +8,14 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_Engine_enums.hpp"
-#include "RoCo_AudioExtensions_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
+#include "RoCo_Slate_classes.hpp"
+#include "RoCo_AudioExtensions_classes.hpp"
 #include "RoCo_PhysicsCore_classes.hpp"
 #include "RoCo_AudioPlatformConfiguration_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"
 #include "RoCo_PacketHandler_classes.hpp"
-#include "RoCo_Slate_classes.hpp"
 
 namespace SDK
 {

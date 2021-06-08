@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass PlayerHealthMeter.PlayerHealthMeter_C
-// 0x00E0 (0x0318 - 0x0238)
+// 0x00F0 (0x0328 - 0x0238)
 class UPlayerHealthMeter_C : public UKSPlayerHealthMeterBase
 {
 public:
@@ -34,11 +34,12 @@ public:
 	struct FLinearColor                                ImmuneBorderColor;                                        // 0x0294(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                StandardBorderColor;                                      // 0x02A4(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bIsImmune;                                                // 0x02B4(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x02B5(0x0003) MISSED OFFSET
-	int                                                Temp_int_Array_Index_Variable;                            // 0x02B8(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                Temp_int_Loop_Counter_Variable;                           // 0x02BC(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UImage*                                      K2Node_CustomEvent_OutlineBorder_2;                       // 0x02C0(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UImage*                                      K2Node_CustomEvent_OutlineBorder;                         // 0x02C8(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bIsEnemyHealth;                                           // 0x02B5(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x2];                                       // 0x02B6(0x0002) MISSED OFFSET
+	class UImage*                                      K2Node_CustomEvent_OutlineBorder_2;                       // 0x02B8(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UImage*                                      K2Node_CustomEvent_OutlineBorder;                         // 0x02C0(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                Temp_int_Loop_Counter_Variable;                           // 0x02C8(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                Temp_int_Array_Index_Variable;                            // 0x02CC(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               K2Node_Event_IsDesignTime;                                // 0x02D0(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData02[0x3];                                       // 0x02D1(0x0003) MISSED OFFSET
 	struct FPlayerHealthMeterState                     K2Node_Event_HealthMeterState;                            // 0x02D4(0x0018) (CPF_Transient, CPF_DuplicateTransient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
@@ -46,6 +47,9 @@ public:
 	TArray<class UWidget*>                             CallFunc_GetAllChildren_ReturnValue;                      // 0x02F0(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FMargin                                     K2Node_MakeStruct_Margin;                                 // 0x0300(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	class UWidget*                                     CallFunc_Array_Get_Item;                                  // 0x0310(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UUserWidget*                                 K2Node_DynamicCast_AsPlayer_Health_Meter_Segment;         // 0x0318(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               K2Node_DynamicCast_bSuccess;                              // 0x0320(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0x7];                                       // 0x0321(0x0007) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

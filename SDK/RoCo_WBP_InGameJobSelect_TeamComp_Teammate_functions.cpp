@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -206,6 +206,26 @@ void UWBP_InGameJobSelect_TeamComp_Teammate_C::ResetJobEntry()
 	{
 	} params;
 
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_InGameJobSelect_TeamComp_Teammate.WBP_InGameJobSelect_TeamComp_Teammate_C.UnbindFromModelViewer
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            ModelIndex                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_InGameJobSelect_TeamComp_Teammate_C::UnbindFromModelViewer(int ModelIndex)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_TeamComp_Teammate.WBP_InGameJobSelect_TeamComp_Teammate_C.UnbindFromModelViewer");
+
+	struct
+	{
+		int                            ModelIndex;
+	} params;
+
+	params.ModelIndex = ModelIndex;
 
 	UObject::ProcessEvent(fn, &params);
 }

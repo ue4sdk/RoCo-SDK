@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -106,6 +106,26 @@ void UCharacterHeatSourceComponent_C::ExecuteUbergraph_CharacterHeatSourceCompon
 	} params;
 
 	params.bpp__EntryPoint__pf = bpp__EntryPoint__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.Conditionally Apply Temperature
+// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// float                          bpp__AppliedxTemp__pfT         (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UCharacterHeatSourceComponent_C::Conditionally_Apply_Temperature(float bpp__AppliedxTemp__pfT)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CharacterHeatSourceComponent.CharacterHeatSourceComponent_C.Conditionally Apply Temperature");
+
+	struct
+	{
+		float                          bpp__AppliedxTemp__pfT;
+	} params;
+
+	params.bpp__AppliedxTemp__pfT = bpp__AppliedxTemp__pfT;
 
 	UObject::ProcessEvent(fn, &params);
 }

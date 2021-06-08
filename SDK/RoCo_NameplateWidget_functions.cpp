@@ -1,4 +1,4 @@
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -91,6 +91,26 @@ void UNameplateWidget_C::SetNamePlateColor(class AKSPlayerState* bpp__PlayerxSta
 	} params;
 
 	params.bpp__PlayerxState__pfT = bpp__PlayerxState__pfT;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function NameplateWidget.NameplateWidget_C.PreConstruct
+// (FUNC_BlueprintCosmetic, FUNC_Native, FUNC_Event, FUNC_Public)
+// Parameters:
+// bool                           bpp__IsDesignTime__pf          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UNameplateWidget_C::PreConstruct(bool bpp__IsDesignTime__pf)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.PreConstruct");
+
+	struct
+	{
+		bool                           bpp__IsDesignTime__pf;
+	} params;
+
+	params.bpp__IsDesignTime__pf = bpp__IsDesignTime__pf;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -238,26 +258,6 @@ void UNameplateWidget_C::OnModAdded(class UKSPlayerMod* bpp__Mod__pf, class UKSP
 
 	params.bpp__Mod__pf = bpp__Mod__pf;
 	params.bpp__ModInstance__pf = bpp__ModInstance__pf;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function NameplateWidget.NameplateWidget_C.OnLoaded_F5BCD8C84871643FB2979DA9F519484F
-// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// class UObject*                 bpp__Loaded__pf                (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UNameplateWidget_C::OnLoaded_F5BCD8C84871643FB2979DA9F519484F(class UObject* bpp__Loaded__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.OnLoaded_F5BCD8C84871643FB2979DA9F519484F");
-
-	struct
-	{
-		class UObject*                 bpp__Loaded__pf;
-	} params;
-
-	params.bpp__Loaded__pf = bpp__Loaded__pf;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -454,34 +454,14 @@ void UNameplateWidget_C::HandleGameObjectiveChanged(const TScriptInterface<class
 }
 
 
-// Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_8
+// Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_6
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UNameplateWidget_C::ExecuteUbergraph_NameplateWidget_8(int bpp__EntryPoint__pf)
+void UNameplateWidget_C::ExecuteUbergraph_NameplateWidget_6(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_8");
-
-	struct
-	{
-		int                            bpp__EntryPoint__pf;
-	} params;
-
-	params.bpp__EntryPoint__pf = bpp__EntryPoint__pf;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_15
-// (FUNC_Final, FUNC_Native, FUNC_Public)
-// Parameters:
-// int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UNameplateWidget_C::ExecuteUbergraph_NameplateWidget_15(int bpp__EntryPoint__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_15");
+	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_6");
 
 	struct
 	{

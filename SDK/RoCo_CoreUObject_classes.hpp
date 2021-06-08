@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.59) SDK
+// Rogue Company (0.60) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -242,7 +242,7 @@ class UFunction : public UStruct
 {
 public:
 	int32_t                                            FunctionFlags;                                            // 0x0000(0x0000) NOT AUTO-GENERATED PROPERTY
-	unsigned char                                      UnknownData0xB4[0x24];;                                   // 0x0000(0x0000) NOT AUTO-GENERATED PROPERTY
+	unsigned char                                      UnknownData0xB4[0x24];                                    // 0x0000(0x0000) NOT AUTO-GENERATED PROPERTY
 	void*                                              Func;                                                     // 0x0000(0x0000) NOT AUTO-GENERATED PROPERTY
 
 	static UClass* StaticClass()
