@@ -15,12 +15,13 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass ANotifyState_ShowGadget.ANotifyState_ShowGadget_C
-// 0x0002 (0x0032 - 0x0030)
+// 0x0003 (0x0033 - 0x0030)
 class UANotifyState_ShowGadget_C : public UAnimNotifyState
 {
 public:
 	bool                                               bReverse;                                                 // 0x0030(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 	bool                                               bKeepGadgetUnhidden;                                      // 0x0031(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+	bool                                               OnlyKeepUnhiddenIfGadgetIsEquiped;                        // 0x0032(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{

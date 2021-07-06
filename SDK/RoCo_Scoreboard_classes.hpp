@@ -44,12 +44,16 @@ public:
 	class UHorizontalBox*                              SelectPrompt;                                             // 0x0620(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UWBP_InputCallout_C*                         SelectPromptCallout;                                      // 0x0628(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	TArray<class UScoreboardTeamSection_C*>            TeamSections;                                             // 0x0630(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash)
-	struct FScriptMulticastDelegate                    Opened;                                                   // 0x0640(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    Closed;                                                   // 0x0650(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    Opened;                                                   // 0x0640(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0640(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    Closed;                                                   // 0x0650(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0650(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	bool                                               NewPlayersLoaded;                                         // 0x0660(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0661(0x0007) MISSED OFFSET
-	struct FScriptMulticastDelegate                    ScoreboardTabPress;                                       // 0x0668(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnScoreboardEntryAdded;                                   // 0x0678(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData02[0x7];                                       // 0x0661(0x0007) MISSED OFFSET
+	struct FScriptMulticastDelegate                    ScoreboardTabPress;                                       // 0x0668(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0661(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnScoreboardEntryAdded;                                   // 0x0678(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0678(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{

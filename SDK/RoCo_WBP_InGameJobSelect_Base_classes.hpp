@@ -19,11 +19,16 @@ namespace SDK
 class UWBP_InGameJobSelect_Base_C : public UKSWidget
 {
 public:
-	struct FScriptMulticastDelegate                    OnResetJobEntries;                                        // 0x0500(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnJobSelected;                                            // 0x0510(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnLockInJob;                                              // 0x0520(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnViewJobLoadout;                                         // 0x0530(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnCancelJobSelection;                                     // 0x0540(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    OnResetJobEntries;                                        // 0x0500(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0500(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnJobSelected;                                            // 0x0510(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0510(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnLockInJob;                                              // 0x0520(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0520(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnViewJobLoadout;                                         // 0x0530(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0530(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnCancelJobSelection;                                     // 0x0540(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0540(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	int                                                GRID_WIDTH;                                               // 0x0550(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	bool                                               HasLockedIn;                                              // 0x0554(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 	bool                                               HasBoundJobChange;                                        // 0x0555(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
@@ -35,6 +40,7 @@ public:
 	}
 
 
+	void Get_Job_Entry_Buttons(TArray<class UWidget*>* Buttons);
 	void OnTeamMemberAdded(class UKSPersistentPlayerData* NewMember);
 	void OnSelectionActivityStatusChange(class UKSJobSelectionComponent* JobSelectionComponent);
 	void TryBindJobEntryChange();
@@ -45,7 +51,7 @@ public:
 	void HandleScrollWidgetIntoView(class UKSWidget* Widget);
 	void SetGamepadPrompts();
 	void SetAttackDefendMessage();
-	void HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName);
+	void HandlePhaseChange(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase);
 	void RestoreVisualState();
 	void OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState);
 	void SetHoverMessage(class UJobSelectionEntryDetails* JobEntry);

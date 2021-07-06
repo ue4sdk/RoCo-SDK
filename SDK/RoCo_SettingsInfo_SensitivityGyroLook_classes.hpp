@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_SensitivityGyroLook.SettingsInfo_SensitivityGyroLook_C
-// 0x0000 (0x0120 - 0x0120)
+// 0x0000 (0x0118 - 0x0118)
 class USettingsInfo_SensitivityGyroLook_C : public UKSSettingsInfo_Generic
 {
 public:

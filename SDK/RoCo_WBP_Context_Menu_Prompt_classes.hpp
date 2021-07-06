@@ -41,7 +41,8 @@ public:
 	class UContextActionData*                          Data;                                                     // 0x02D0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
 	TEnumAsByte<EPGAME_INPUT_STATE>                    CurrentInputState;                                        // 0x02D8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	unsigned char                                      UnknownData00[0x7];                                       // 0x02D9(0x0007) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnPromptClicked;                                          // 0x02E0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    OnPromptClicked;                                          // 0x02E0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x02D9(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	class UAkAudioEvent*                               IsBackBtnOverrideSFX;                                     // 0x02F0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()

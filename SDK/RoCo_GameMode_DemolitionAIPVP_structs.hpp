@@ -7,7 +7,7 @@
 #endif
 
 #include "RoCo_Basic.hpp"
-#include "RoCo_GameMode_Demolition_classes.hpp"
+#include "RoCo_GameMode_Demolition_Modular_classes.hpp"
 
 namespace SDK
 {

@@ -15,14 +15,14 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass EventTracker_TheTwoTime.EventTracker_TheTwoTime_C
-// 0x0020 (0x0210 - 0x01F0)
+// 0x0020 (0x0228 - 0x0208)
 class UEventTracker_TheTwoTime_C : public UKSEventTracker
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x01F0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	float                                              CurrentProgress;                                          // 0x01F8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x01FC(0x0004) MISSED OFFSET
-	struct FString                                     RequiredMap;                                              // 0x0200(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0208(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	float                                              CurrentProgress;                                          // 0x0210(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0214(0x0004) MISSED OFFSET
+	struct FString                                     RequiredMap;                                              // 0x0218(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{
@@ -33,7 +33,7 @@ public:
 
 	void HandleTrackerInitialized(TMap<struct FString, float> Config, TMap<struct FString, struct FString> StringConfig);
 	void HandleLostPlayerController();
-	void MatchHasEnded_Event();
+	void MatchHAsEnded_Event();
 	void ExecuteUbergraph_EventTracker_TheTwoTime(int EntryPoint);
 };
 

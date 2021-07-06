@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass WingPackCosmeticComponentBase.WingPackCosmeticComponentBase_C
-// 0x0000 (0x0200 - 0x0200)
+// 0x0000 (0x0208 - 0x0208)
 class UWingPackCosmeticComponentBase_C : public UKSWingSuitCosmeticComponent
 {
 public:

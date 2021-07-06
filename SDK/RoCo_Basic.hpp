@@ -110,28 +110,35 @@ struct TArray
 	friend struct FString;
 
 public:
-	inline TArray()
+	TArray()
 	{
 		Data = nullptr;
 		Count = Max = 0;
-	};
+	}
 
-	inline int Num() const
+	TArray(T* data, int32_t count, int32_t max)
+		: Data(data),
+		Count(count),
+		Max(max)
+	{
+	}
+
+	int Num() const
 	{
 		return Count;
-	};
+	}
 
-	inline T& operator[](int i)
+	T& operator[](int i)
 	{
 		return Data[i];
-	};
+	}
 
-	inline const T& operator[](int i) const
+	const T& operator[](int i) const
 	{
 		return Data[i];
-	};
+	}
 
-	inline bool IsValidIndex(int i) const
+	bool IsValidIndex(int i) const
 	{
 		return i < Num();
 	}
@@ -587,12 +594,12 @@ struct FText
 
 struct FScriptDelegate
 {
-	char UnknownData[20];
+	char UnknownData[10];
 };
 
 struct FScriptMulticastDelegate
 {
-	char UnknownData[16];
+	char UnknownData[1];
 };
 
 template<typename Key, typename Value>

@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Barricade.Barricade_C
-// 0x0148 (0x04D0 - 0x0388)
+// 0x0149 (0x04D1 - 0x0388)
 class ABarricade_C : public AKSBuild
 {
 public:
@@ -33,6 +33,7 @@ public:
 	class UKSWeaponAsset*                              WeaponAsset;                                              // 0x0428(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	TMap<struct FName, class UParticleSystem*>         DamagedBones;                                             // 0x0430(0x0050) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
 	TMap<struct FName, class UParticleSystem*>         DestroyedBones;                                           // 0x0480(0x0050) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
+	bool                                               bCanisterBroken;                                          // 0x04D0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_Net, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{
@@ -41,6 +42,7 @@ public:
 	}
 
 
+	void OnCanisterDestroyed();
 	float GetRealActorTakeoverDelay();
 	float ComponentTakeDamage(class UPrimitiveComponent* PrimitiveComponent, float DamageAmount);
 	void Barricade_Placed_SFX();
@@ -60,6 +62,7 @@ public:
 	void SpawnDamagedEffect();
 	void SpawnDamageSparks();
 	void OnKilled();
+	void Update_Health_Changed_FX();
 	void ExecuteUbergraph_Barricade(int EntryPoint);
 };
 

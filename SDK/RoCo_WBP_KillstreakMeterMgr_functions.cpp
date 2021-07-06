@@ -12,6 +12,26 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
+// Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.SetMountPrompt
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           CanMount                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UWBP_KillstreakMeterMgr_C::SetMountPrompt(bool CanMount)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.SetMountPrompt");
+
+	struct
+	{
+		bool                           CanMount;
+	} params;
+
+	params.CanMount = CanMount;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function WBP_KillstreakMeterMgr.WBP_KillstreakMeterMgr_C.Handle Death State Changed
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 

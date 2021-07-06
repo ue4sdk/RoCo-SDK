@@ -33,12 +33,12 @@ bool UEventTracker_Thrifty_C::DidPlayerWinMatch()
 }
 
 
-// Function EventTracker_Thrifty.EventTracker_Thrifty_C.MatchHasEnded_Event
+// Function EventTracker_Thrifty.EventTracker_Thrifty_C.MatchHAsEnded_Event
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
-void UEventTracker_Thrifty_C::MatchHasEnded_Event()
+void UEventTracker_Thrifty_C::MatchHAsEnded_Event()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Thrifty.EventTracker_Thrifty_C.MatchHasEnded_Event");
+	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Thrifty.EventTracker_Thrifty_C.MatchHAsEnded_Event");
 
 	struct
 	{

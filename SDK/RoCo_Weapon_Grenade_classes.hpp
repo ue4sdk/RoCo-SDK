@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Weapon_Grenade.Weapon_Grenade_C
-// 0x0000 (0x0898 - 0x0898)
+// 0x0000 (0x08A8 - 0x08A8)
 class AWeapon_Grenade_C : public AKSWeapon_GrenadeThrow
 {
 public:

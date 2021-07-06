@@ -405,6 +405,26 @@ void UEscMenu_C::BndEvt__ReportServerButton_K2Node_ComponentBoundEvent_5_OnClick
 }
 
 
+// Function EscMenu.EscMenu_C.BndEvt__HudEditorButton_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature
+// (FUNC_BlueprintEvent)
+// Parameters:
+// int                            Index                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UEscMenu_C::BndEvt__HudEditorButton_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature(int Index)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.BndEvt__HudEditorButton_K2Node_ComponentBoundEvent_6_OnClicked__DelegateSignature");
+
+	struct
+	{
+		int                            Index;
+	} params;
+
+	params.Index = Index;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function EscMenu.EscMenu_C.ExecuteUbergraph_EscMenu
 // (FUNC_Final, FUNC_HasDefaults)
 // Parameters:

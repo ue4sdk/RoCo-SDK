@@ -27,7 +27,8 @@ public:
 	bool                                               bDisplayRankName;                                         // 0x0260(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn)
 	bool                                               bHideRankLevel;                                           // 0x0261(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn)
 	unsigned char                                      UnknownData00[0x6];                                       // 0x0262(0x0006) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnRankTierSet;                                            // 0x0268(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    OnRankTierSet;                                            // 0x0268(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0262(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{

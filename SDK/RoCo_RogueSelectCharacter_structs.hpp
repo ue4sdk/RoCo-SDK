@@ -7,9 +7,9 @@
 #endif
 
 #include "RoCo_Basic.hpp"
-#include "RoCo_Killstreak_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_JobSelectionCharacter_classes.hpp"
+#include "RoCo_Killstreak_classes.hpp"
 
 namespace SDK
 {

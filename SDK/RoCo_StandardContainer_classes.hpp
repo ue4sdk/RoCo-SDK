@@ -27,7 +27,8 @@ public:
 	struct FText                                       HeaderText;                                               // 0x0260(0x0018) (CPF_Edit, CPF_BlueprintVisible)
 	bool                                               ShowCloseButton;                                          // 0x0278(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 	unsigned char                                      UnknownData00[0x7];                                       // 0x0279(0x0007) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnContainerClose;                                         // 0x0280(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    OnContainerClose;                                         // 0x0280(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0279(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{

@@ -210,21 +210,27 @@ void UGameTimerBarCenter_C::BindGameStateEvents()
 }
 
 
-// Function GameTimerBarCenter.GameTimerBarCenter_C.SetShouldUseProgressCircle
+// Function GameTimerBarCenter.GameTimerBarCenter_C.SetObjectiveProgressCircleSettings
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
 // bool                           UseProgressCircle              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// bool                           UseMiniTimerWithMainTimer      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// bool                           ShowBombIcon                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
-void UGameTimerBarCenter_C::SetShouldUseProgressCircle(bool UseProgressCircle)
+void UGameTimerBarCenter_C::SetObjectiveProgressCircleSettings(bool UseProgressCircle, bool UseMiniTimerWithMainTimer, bool ShowBombIcon)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarCenter.GameTimerBarCenter_C.SetShouldUseProgressCircle");
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarCenter.GameTimerBarCenter_C.SetObjectiveProgressCircleSettings");
 
 	struct
 	{
 		bool                           UseProgressCircle;
+		bool                           UseMiniTimerWithMainTimer;
+		bool                           ShowBombIcon;
 	} params;
 
 	params.UseProgressCircle = UseProgressCircle;
+	params.UseMiniTimerWithMainTimer = UseMiniTimerWithMainTimer;
+	params.ShowBombIcon = ShowBombIcon;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -338,6 +344,38 @@ void UGameTimerBarCenter_C::SetRoundTimers(float Time)
 }
 
 
+// Function GameTimerBarCenter.GameTimerBarCenter_C.UpdateRoundTimerSeconds
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UGameTimerBarCenter_C::UpdateRoundTimerSeconds()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarCenter.GameTimerBarCenter_C.UpdateRoundTimerSeconds");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTimerBarCenter.GameTimerBarCenter_C.UpdatePhaseTimerSeconds
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UGameTimerBarCenter_C::UpdatePhaseTimerSeconds()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarCenter.GameTimerBarCenter_C.UpdatePhaseTimerSeconds");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function GameTimerBarCenter.GameTimerBarCenter_C.UpdateObjectiveTimerSeconds
 // (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
@@ -428,6 +466,29 @@ void UGameTimerBarCenter_C::Set_Countdown_Seconds(float CountdownTimeLeft, float
 
 	params.CountdownTimeLeft = CountdownTimeLeft;
 	params.CountdownTimeTotal = CountdownTimeTotal;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTimerBarCenter.GameTimerBarCenter_C.SetViewByTimerTypes
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// EGameTimerType                 UpperTimerType                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// EGameTimerType                 LowerTimerType                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UGameTimerBarCenter_C::SetViewByTimerTypes(EGameTimerType UpperTimerType, EGameTimerType LowerTimerType)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarCenter.GameTimerBarCenter_C.SetViewByTimerTypes");
+
+	struct
+	{
+		EGameTimerType                 UpperTimerType;
+		EGameTimerType                 LowerTimerType;
+	} params;
+
+	params.UpperTimerType = UpperTimerType;
+	params.LowerTimerType = LowerTimerType;
 
 	UObject::ProcessEvent(fn, &params);
 }

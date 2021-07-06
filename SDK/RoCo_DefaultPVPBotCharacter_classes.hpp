@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass DefaultPVPBotCharacter.DefaultPVPBotCharacter_C
-// 0x0000 (0x4E60 - 0x4E60)
+// 0x0000 (0x53E0 - 0x53E0)
 class ADefaultPVPBotCharacter_C : public ADefaultBotCharacter_C
 {
 public:

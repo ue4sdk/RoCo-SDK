@@ -9,10 +9,10 @@
 #include "RoCo_Basic.hpp"
 #include "RoCo_Niagara_enums.hpp"
 #include "RoCo_MovieScene_classes.hpp"
-#include "RoCo_NiagaraShader_classes.hpp"
-#include "RoCo_Engine_classes.hpp"
-#include "RoCo_NiagaraCore_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
+#include "RoCo_Engine_classes.hpp"
+#include "RoCo_NiagaraShader_classes.hpp"
+#include "RoCo_NiagaraCore_classes.hpp"
 
 namespace SDK
 {

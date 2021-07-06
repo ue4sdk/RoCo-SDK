@@ -75,29 +75,6 @@ ESlateVisibility UGrenadeMarker_C::Update()
 }
 
 
-// Function GrenadeMarker.GrenadeMarker_C.Tick
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-// Parameters:
-// struct FGeometry               MyGeometry                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_IsPlainOldData, CPF_NoDestructor)
-// float                          InDeltaTime                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UGrenadeMarker_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.Tick");
-
-	struct
-	{
-		struct FGeometry               MyGeometry;
-		float                          InDeltaTime;
-	} params;
-
-	params.MyGeometry = MyGeometry;
-	params.InDeltaTime = InDeltaTime;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function GrenadeMarker.GrenadeMarker_C.PreConstruct
 // (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 // Parameters:
@@ -147,6 +124,22 @@ void UGrenadeMarker_C::OnWeaponAssetSet(class AKSProjectile* Projectile, class U
 void UGrenadeMarker_C::Construct()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.Construct");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GrenadeMarker.GrenadeMarker_C.Do Update
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UGrenadeMarker_C::Do_Update()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.Do Update");
 
 	struct
 	{

@@ -8,11 +8,11 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_AIModule_enums.hpp"
-#include "RoCo_GameplayTags_classes.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
-#include "RoCo_GameplayTasks_classes.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_NavigationSystem_classes.hpp"
+#include "RoCo_GameplayTasks_classes.hpp"
+#include "RoCo_GameplayTags_classes.hpp"
 
 namespace SDK
 {

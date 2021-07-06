@@ -8,9 +8,9 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_PlatformGameFramework_enums.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_GameplayTags_classes.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_PlatformCommon_classes.hpp"
 #include "RoCo_AIModule_classes.hpp"
 

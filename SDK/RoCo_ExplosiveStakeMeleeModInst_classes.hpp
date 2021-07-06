@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass ExplosiveStakeMeleeModInst.ExplosiveStakeMeleeModInst_C
-// 0x0008 (0x04F8 - 0x04F0)
+// 0x0008 (0x04F0 - 0x04E8)
 class UExplosiveStakeMeleeModInst_C : public UKSModInst_GiveWeaponOnActivation
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x04F0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x04E8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

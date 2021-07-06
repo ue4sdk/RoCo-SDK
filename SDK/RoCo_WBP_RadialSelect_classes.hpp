@@ -74,6 +74,7 @@ public:
 	}
 
 
+	void SetupSelectorForActivationMode();
 	void IsItemUsable(class UKSItem* KSItem, bool* Return_Value);
 	void SetHoverForAllEntries(class UWBP_RadialMenuEntry_C* New_Hovered_Entry);
 	void GetRadialEntryByIndex(int Index, class UWBP_RadialMenuEntry_C** Entry);
@@ -105,9 +106,11 @@ public:
 	void Handle_Equipment_Change(class AKSEquipment* AddedEquipment);
 	void ChangeToNewRadialMenu();
 	void OnCycledMenus(bool bCycledRight);
-	void SetupForRadialWheelMode(ERadialWheelMode NewRadialWheelMode);
+	void SetupForRadialWheelMode();
 	void InitializeWidgetNavigation();
 	void Handle_View_State_Changed(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer);
+	void NetMulticast_PlayCinematicEmote(class AKSLobbyCharacter* Character, class UKSEmote* Emote);
+	void Server_PlayCinematicEmote(class AKSLobbyCharacter* Character, class UKSEmote* Emote);
 	void ExecuteUbergraph_WBP_RadialSelect(int EntryPoint);
 };
 

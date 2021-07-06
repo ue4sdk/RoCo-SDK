@@ -8,9 +8,9 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_OnlineSubsystemUtils_enums.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_OnlineSubsystem_classes.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_AudioMixer_classes.hpp"
 
 namespace SDK

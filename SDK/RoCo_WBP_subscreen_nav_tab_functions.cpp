@@ -282,17 +282,27 @@ void UWBP_subscreen_nav_tab_C::UnselectNavTab()
 }
 
 
-// Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.Refresh Battle Pass State
+// Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.Handle View State Changed
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FName                   CurrentRoute                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FName                   PreviousRoute                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// EViewManagerLayer              Layer                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UWBP_subscreen_nav_tab_C::Refresh_Battle_Pass_State()
+void UWBP_subscreen_nav_tab_C::Handle_View_State_Changed(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.Refresh Battle Pass State");
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_subscreen_nav_tab.WBP_subscreen_nav_tab_C.Handle View State Changed");
 
 	struct
 	{
+		struct FName                   CurrentRoute;
+		struct FName                   PreviousRoute;
+		EViewManagerLayer              Layer;
 	} params;
 
+	params.CurrentRoute = CurrentRoute;
+	params.PreviousRoute = PreviousRoute;
+	params.Layer = Layer;
 
 	UObject::ProcessEvent(fn, &params);
 }

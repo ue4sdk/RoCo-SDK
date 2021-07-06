@@ -88,16 +88,16 @@ public:
 
 
 // Class PlatformGameFramework.PGame_CharacterMovementComponent
-// 0x0060 (0x0670 - 0x0610)
+// 0x0060 (0x06E0 - 0x0680)
 class UPGame_CharacterMovementComponent : public UCharacterMovementComponent
 {
 public:
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0610(0x0020) MISSED OFFSET
-	bool                                               bUseTweenWalkingPhysics;                                  // 0x0630(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x7];                                       // 0x0631(0x0007) MISSED OFFSET
-	struct FChargeInfo                                 r_ChargeInfo;                                             // 0x0638(0x001C) (CPF_Edit, CPF_DisableEditOnTemplate, CPF_Transient, CPF_EditConst, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FTweenInfo                                  r_TweenInfo;                                              // 0x0654(0x0014) (CPF_Edit, CPF_DisableEditOnTemplate, CPF_Transient, CPF_EditConst, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData02[0x8];                                       // 0x0668(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0680(0x0020) MISSED OFFSET
+	bool                                               bUseTweenWalkingPhysics;                                  // 0x06A0(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x7];                                       // 0x06A1(0x0007) MISSED OFFSET
+	struct FChargeInfo                                 r_ChargeInfo;                                             // 0x06A8(0x001C) (CPF_Edit, CPF_DisableEditOnTemplate, CPF_Transient, CPF_EditConst, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FTweenInfo                                  r_TweenInfo;                                              // 0x06C4(0x0014) (CPF_Edit, CPF_DisableEditOnTemplate, CPF_Transient, CPF_EditConst, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData02[0x8];                                       // 0x06D8(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -423,11 +423,15 @@ public:
 class UPGame_LandingPanelJSONHandler : public UObject
 {
 public:
-	struct FScriptMulticastDelegate                    OnHandlerObjectReady;                                     // 0x0028(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnJsonDownloaded;                                         // 0x0038(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnJsonReady;                                              // 0x0048(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnImagesDownloaded;                                       // 0x0058(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0xB8];                                      // 0x0068(0x00B8) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnHandlerObjectReady;                                     // 0x0028(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0028(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnJsonDownloaded;                                         // 0x0038(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0038(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnJsonReady;                                              // 0x0048(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0048(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnImagesDownloaded;                                       // 0x0058(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0058(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData04[0xB8];                                      // 0x0068(0x00B8) MISSED OFFSET
 	TMap<struct FString, class UTexture2DDynamic*>     mapFilePathToTexture;                                     // 0x0120(0x0050) (CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()

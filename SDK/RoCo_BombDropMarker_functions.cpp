@@ -352,26 +352,6 @@ void UBombDropMarker_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTi
 }
 
 
-// Function BombDropMarker.BombDropMarker_C.Handle Bomb State Timer Tick
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// float                          Seconds                        (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UBombDropMarker_C::Handle_Bomb_State_Timer_Tick(float Seconds)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.Handle Bomb State Timer Tick");
-
-	struct
-	{
-		float                          Seconds;
-	} params;
-
-	params.Seconds = Seconds;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function BombDropMarker.BombDropMarker_C.SetAttackingTeam
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:

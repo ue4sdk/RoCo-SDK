@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SimpleMeleeTargeting.SimpleMeleeTargeting_C
-// 0x0000 (0x03F0 - 0x03F0)
+// 0x0000 (0x0400 - 0x0400)
 class USimpleMeleeTargeting_C : public UKSMeleeTargetingModule
 {
 public:

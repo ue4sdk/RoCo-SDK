@@ -8,8 +8,8 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_PhysXVehicles_enums.hpp"
-#include "RoCo_Engine_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
+#include "RoCo_Engine_classes.hpp"
 #include "RoCo_AnimGraphRuntime_classes.hpp"
 
 namespace SDK
@@ -110,10 +110,10 @@ struct FVehicleTransmissionData
 };
 
 // ScriptStruct PhysXVehicles.AnimNode_WheelHandler
-// 0x0018 (0x00E8 - 0x00D0)
+// 0x0018 (0x00F0 - 0x00D8)
 struct FAnimNode_WheelHandler : public FAnimNode_SkeletalControlBase
 {
-	unsigned char                                      UnknownData00[0x18];                                      // 0x00D0(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x18];                                      // 0x00D8(0x0018) MISSED OFFSET
 };
 
 // ScriptStruct PhysXVehicles.VehicleAnimInstanceProxy

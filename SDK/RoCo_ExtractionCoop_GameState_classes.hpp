@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass ExtractionCoop_GameState.ExtractionCoop_GameState_C
-// 0x0008 (0x1AE0 - 0x1AD8)
+// 0x0008 (0x1B90 - 0x1B88)
 class AExtractionCoop_GameState_C : public AKSGameState_ExtractionCoop
 {
 public:
-	class USceneComponent*                             DefaultSceneRoot;                                         // 0x1AD8(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class USceneComponent*                             DefaultSceneRoot;                                         // 0x1B88(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

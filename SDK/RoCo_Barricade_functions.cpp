@@ -12,6 +12,22 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
+// Function Barricade.Barricade_C.OnCanisterDestroyed
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void ABarricade_C::OnCanisterDestroyed()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Barricade.Barricade_C.OnCanisterDestroyed");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function Barricade.Barricade_C.GetRealActorTakeoverDelay
 // (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -340,6 +356,22 @@ void ABarricade_C::SpawnDamageSparks()
 void ABarricade_C::OnKilled()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function Barricade.Barricade_C.OnKilled");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function Barricade.Barricade_C.Update Health Changed FX
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void ABarricade_C::Update_Health_Changed_FX()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Barricade.Barricade_C.Update Health Changed FX");
 
 	struct
 	{

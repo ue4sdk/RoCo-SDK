@@ -254,9 +254,12 @@ public:
 	bool                                               bOverrideAttenuation;                                     // 0x02F1(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	unsigned char                                      UnknownData01[0x6];                                       // 0x02F2(0x0006) MISSED OFFSET
 	class USoundAttenuation*                           AttenuationSettings;                                      // 0x02F8(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptDelegate                             OnQueueSubtitles;                                         // 0x0300(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    OnAudioFinished;                                          // 0x0310(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    OnAudioPlaybackPercent;                                   // 0x0320(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPrivate)
+	struct FScriptDelegate                             OnQueueSubtitles;                                         // 0x0300(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0x6];                                       // 0x0300(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnAudioFinished;                                          // 0x0310(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0310(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnAudioPlaybackPercent;                                   // 0x0320(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0320(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{

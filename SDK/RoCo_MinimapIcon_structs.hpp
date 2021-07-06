@@ -8,10 +8,10 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_UMG_classes.hpp"
-#include "RoCo_Killstreak_classes.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_MiniMapRelativeHeight_classes.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
+#include "RoCo_Killstreak_classes.hpp"
 
 namespace SDK
 {

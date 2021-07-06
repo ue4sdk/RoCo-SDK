@@ -54,9 +54,10 @@ public:
 	TMap<class UClass*, class ULiveLinkControllerBase*> ControllerMap;                                            // 0x00C0(0x0050) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_NoClear, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPublic)
 	bool                                               bUpdateInEditor;                                          // 0x0110(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x7];                                       // 0x0111(0x0007) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnLiveLinkUpdated;                                        // 0x0118(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnLiveLinkUpdated;                                        // 0x0118(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0111(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FComponentReference                         ComponentToControl;                                       // 0x0128(0x0028) (CPF_Edit, CPF_DisableEditOnTemplate, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x8];                                       // 0x0150(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x8];                                       // 0x0150(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

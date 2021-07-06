@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_BuyMenuItemButton.WBP_BuyMenuItemButton_C
-// 0x0209 (0x0731 - 0x0528)
+// 0x01F9 (0x0721 - 0x0528)
 class UWBP_BuyMenuItemButton_C : public UKSShopItemButtonBase
 {
 public:
@@ -57,11 +57,11 @@ public:
 	class UWBP_BuyMenuItemUpgradeSegment_C*            WBP_BuyMenuItemUpgradeSegment_84;                         // 0x0640(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UWBP_BuyMenuItemUpgradeSegment_C*            WBP_BuyMenuItemUpgradeSegment_C_1;                        // 0x0648(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UTextBlock*                                  WeaponName;                                               // 0x0650(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
-	struct FShopItem                                   Current_Shop_Item;                                        // 0x0658(0x0068) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
-	bool                                               IsHovered_1;                                              // 0x06C0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x06C1(0x0007) MISSED OFFSET
-	struct FShopItem                                   Old_Shop_Item;                                            // 0x06C8(0x0068) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
-	bool                                               IsShopOpen;                                               // 0x0730(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
+	struct FShopItem                                   Current_Shop_Item;                                        // 0x0658(0x0060) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
+	bool                                               IsHovered_1;                                              // 0x06B8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x06B9(0x0007) MISSED OFFSET
+	struct FShopItem                                   Old_Shop_Item;                                            // 0x06C0(0x0060) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
+	bool                                               IsShopOpen;                                               // 0x0720(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{

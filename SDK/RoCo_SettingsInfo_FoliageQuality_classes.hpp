@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_FoliageQuality.SettingsInfo_FoliageQuality_C
-// 0x0000 (0x0128 - 0x0128)
+// 0x0000 (0x0120 - 0x0120)
 class USettingsInfo_FoliageQuality_C : public USettingsInfo_Quality_C
 {
 public:

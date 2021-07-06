@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass EventTracker_Scavenger.EventTracker_Scavenger_C
-// 0x0000 (0x01F8 - 0x01F8)
+// 0x0000 (0x0210 - 0x0210)
 class UEventTracker_Scavenger_C : public UEventTrackerAbstract_InstigatedDamage_C
 {
 public:

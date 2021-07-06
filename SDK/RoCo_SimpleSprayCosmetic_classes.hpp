@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SimpleSprayCosmetic.SimpleSprayCosmetic_C
-// 0x0000 (0x02C8 - 0x02C8)
+// 0x0000 (0x02D0 - 0x02D0)
 class USimpleSprayCosmetic_C : public UKSEmoteCosmeticComponent_Spray
 {
 public:

@@ -9,8 +9,8 @@
 #include "RoCo_Basic.hpp"
 #include "RoCo_LiveLink_enums.hpp"
 #include "RoCo_LiveLinkInterface_classes.hpp"
-#include "RoCo_Engine_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
+#include "RoCo_Engine_classes.hpp"
 #include "RoCo_TimeManagement_classes.hpp"
 
 namespace SDK
@@ -40,22 +40,21 @@ struct FLiveLinkRoleProjectSetting
 };
 
 // ScriptStruct LiveLink.AnimNode_LiveLinkPose
-// 0x0040 (0x0058 - 0x0018)
+// 0x0040 (0x0060 - 0x0020)
 struct FAnimNode_LiveLinkPose : public FAnimNode_Base
 {
-	struct FPoseLink                                   InputPose;                                                // 0x0018(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FLiveLinkSubjectName                        LiveLinkSubjectName;                                      // 0x0028(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UClass*                                      RetargetAsset;                                            // 0x0030(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_NoClear, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class ULiveLinkRetargetAsset*                      CurrentRetargetAsset;                                     // 0x0038(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x18];                                      // 0x0040(0x0018) MISSED OFFSET
+	struct FPoseLink                                   InputPose;                                                // 0x0020(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FLiveLinkSubjectName                        LiveLinkSubjectName;                                      // 0x0030(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UClass*                                      RetargetAsset;                                            // 0x0038(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_NoClear, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class ULiveLinkRetargetAsset*                      CurrentRetargetAsset;                                     // 0x0040(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x18];                                      // 0x0048(0x0018) MISSED OFFSET
 };
 
 // ScriptStruct LiveLink.LiveLinkInstanceProxy
 // 0x0060 (0x0740 - 0x06E0)
 struct FLiveLinkInstanceProxy : public FAnimInstanceProxy
 {
-	struct FAnimNode_LiveLinkPose                      PoseNode;                                                 // 0x06E0(0x0058) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x8];                                       // 0x0738(0x0008) MISSED OFFSET
+	struct FAnimNode_LiveLinkPose                      PoseNode;                                                 // 0x06E0(0x0060) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct LiveLink.LiveLinkRetargetAssetReference

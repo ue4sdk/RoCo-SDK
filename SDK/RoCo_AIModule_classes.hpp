@@ -109,8 +109,9 @@ public:
 	class UBlackboardComponent*                        Blackboard;                                               // 0x02F8(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	class UGameplayTasksComponent*                     CachedGameplayTasksComponent;                             // 0x0300(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	class UClass*                                      DefaultNavigationFilterClass;                             // 0x0308(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    ReceiveMoveCompleted;                                     // 0x0310(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x8];                                       // 0x0320(0x0008) MISSED OFFSET
+	struct FScriptMulticastDelegate                    ReceiveMoveCompleted;                                     // 0x0310(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0310(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData03[0x8];                                       // 0x0320(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -153,8 +154,10 @@ public:
 	unsigned char                                      UnknownData00[0x10];                                      // 0x00C8(0x0010) MISSED OFFSET
 	class AAIController*                               AIOwner;                                                  // 0x00D8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      UnknownData01[0x80];                                      // 0x00E0(0x0080) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnPerceptionUpdated;                                      // 0x0160(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTargetPerceptionUpdated;                                // 0x0170(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnPerceptionUpdated;                                      // 0x0160(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x00E0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnTargetPerceptionUpdated;                                // 0x0170(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0170(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -561,7 +564,8 @@ public:
 	class UNavLinkCustomComponent*                     SmartLinkComp;                                            // 0x0250(0x0008) (CPF_Edit, CPF_ExportObject, CPF_ZeroConstructor, CPF_EditConst, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	bool                                               bSmartLinkIsRelevant;                                     // 0x0258(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x7];                                       // 0x0259(0x0007) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnSmartLinkReached;                                       // 0x0260(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnSmartLinkReached;                                       // 0x0260(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0259(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -680,9 +684,11 @@ public:
 class UAIAsyncTaskBlueprintProxy : public UObject
 {
 public:
-	struct FScriptMulticastDelegate                    OnSuccess;                                                // 0x0028(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnFail;                                                   // 0x0038(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0048(0x0020) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnSuccess;                                                // 0x0028(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0028(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnFail;                                                   // 0x0038(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0038(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData02[0x20];                                      // 0x0048(0x0020) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1232,10 +1238,12 @@ public:
 class UAITask_MoveTo : public UAITask
 {
 public:
-	struct FScriptMulticastDelegate                    OnRequestFailed;                                          // 0x0070(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    OnMoveFinished;                                           // 0x0080(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnRequestFailed;                                          // 0x0070(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0070(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnMoveFinished;                                           // 0x0080(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0080(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FAIMoveRequest                              MoveRequest;                                              // 0x0090(0x0040) (CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x40];                                      // 0x00D0(0x0040) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x40];                                      // 0x00D0(0x0040) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2774,7 +2782,8 @@ public:
 	class UClass*                                      ItemType;                                                 // 0x0058(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	int                                                OptionIndex;                                              // 0x0060(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      UnknownData02[0x4];                                       // 0x0064(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnQueryFinishedEvent;                                     // 0x0068(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnQueryFinishedEvent;                                     // 0x0068(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0064(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -3411,8 +3420,10 @@ public:
 	unsigned char                                      bSeePawns : 1;                                            // 0x00C4(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bHearNoises : 1;                                          // 0x00C4(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0xB];                                       // 0x00C5(0x000B) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnSeePawn;                                                // 0x00D0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnHearNoise;                                              // 0x00E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnSeePawn;                                                // 0x00D0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x00C5(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnHearNoise;                                              // 0x00E0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x00E0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	float                                              PeripheralVisionAngle;                                    // 0x00F0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	float                                              PeripheralVisionCosine;                                   // 0x00F4(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 

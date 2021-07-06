@@ -120,21 +120,21 @@ void UMainCharacterVOComponent_C::OnRoundSetup(const struct FRoundInitState& Rou
 // Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnPhaseChange
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FName                   NewPhaseName                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
 
-void UMainCharacterVOComponent_C::OnPhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
+void UMainCharacterVOComponent_C::OnPhaseChange(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnPhaseChange");
 
 	struct
 	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }

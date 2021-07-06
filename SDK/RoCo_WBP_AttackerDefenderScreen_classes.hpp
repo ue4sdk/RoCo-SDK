@@ -63,7 +63,7 @@ public:
 	void ResetPreRoundScreen();
 	void Get_Pre_Round_Text(struct FText* PreRoundText);
 	void IsAttackerRole(bool* IsAttacker);
-	void HandlePhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName);
+	void HandlePhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase);
 	void PreRoundAnimComplete();
 	void InitializeWidget(class APUMG_HUD* HUD);
 	void ExecuteUbergraph_WBP_AttackerDefenderScreen(int EntryPoint);

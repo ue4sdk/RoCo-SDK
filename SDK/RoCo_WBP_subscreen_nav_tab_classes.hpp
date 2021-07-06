@@ -75,7 +75,7 @@ public:
 	void PreConstruct(bool IsDesignTime);
 	void SelectNavTab();
 	void UnselectNavTab();
-	void Refresh_Battle_Pass_State();
+	void Handle_View_State_Changed(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer);
 	void ExecuteUbergraph_WBP_subscreen_nav_tab(int EntryPoint);
 };
 

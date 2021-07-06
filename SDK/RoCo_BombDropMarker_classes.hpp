@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass BombDropMarker.BombDropMarker_C
-// 0x0128 (0x0440 - 0x0318)
+// 0x0129 (0x0441 - 0x0318)
 class UBombDropMarker_C : public UKSMapIconWidgetBase
 {
 public:
@@ -62,6 +62,7 @@ public:
 	bool                                               bShowBombTimer;                                           // 0x0434(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 	unsigned char                                      UnknownData01[0x3];                                       // 0x0435(0x0003) MISSED OFFSET
 	class UKSTimerComponent*                           ObjectiveTimer;                                           // 0x0438(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	EGameTimerType                                     MarkerTimerType;                                          // 0x0440(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{
@@ -86,7 +87,6 @@ public:
 	bool ShouldUpdate();
 	void Construct();
 	void Tick(const struct FGeometry& MyGeometry, float InDeltaTime);
-	void Handle_Bomb_State_Timer_Tick(float Seconds);
 	void SetAttackingTeam(class AKSTeamState* NewTeam);
 	void UpdateMetersAway(int Meters);
 	void HandleKillCamEnabled(bool Enabled);

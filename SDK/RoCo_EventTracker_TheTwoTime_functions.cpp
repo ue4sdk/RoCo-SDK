@@ -51,12 +51,12 @@ void UEventTracker_TheTwoTime_C::HandleLostPlayerController()
 }
 
 
-// Function EventTracker_TheTwoTime.EventTracker_TheTwoTime_C.MatchHasEnded_Event
+// Function EventTracker_TheTwoTime.EventTracker_TheTwoTime_C.MatchHAsEnded_Event
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
-void UEventTracker_TheTwoTime_C::MatchHasEnded_Event()
+void UEventTracker_TheTwoTime_C::MatchHAsEnded_Event()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_TheTwoTime.EventTracker_TheTwoTime_C.MatchHasEnded_Event");
+	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_TheTwoTime.EventTracker_TheTwoTime_C.MatchHAsEnded_Event");
 
 	struct
 	{

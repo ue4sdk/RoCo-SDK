@@ -44,29 +44,6 @@ void AJobSelectionCharacter_C::HandleAnimInitialized()
 }
 
 
-// Function JobSelectionCharacter.JobSelectionCharacter_C.OnPhaseChanged
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FName                   NewPhaseName                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void AJobSelectionCharacter_C::OnPhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function JobSelectionCharacter.JobSelectionCharacter_C.OnPhaseChanged");
-
-	struct
-	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
-	} params;
-
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function JobSelectionCharacter.JobSelectionCharacter_C.ReceiveBeginPlay
 // (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 
@@ -123,8 +100,31 @@ void AJobSelectionCharacter_C::InitRogueSelectAnimInst(const struct FName& Initi
 }
 
 
+// Function JobSelectionCharacter.JobSelectionCharacter_C.OnPhaseChanged
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+
+void AJobSelectionCharacter_C::OnPhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function JobSelectionCharacter.JobSelectionCharacter_C.OnPhaseChanged");
+
+	struct
+	{
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
+	} params;
+
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function JobSelectionCharacter.JobSelectionCharacter_C.ExecuteUbergraph_JobSelectionCharacter
-// (FUNC_Final)
+// (FUNC_Final, FUNC_HasDefaults)
 // Parameters:
 // int                            EntryPoint                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 

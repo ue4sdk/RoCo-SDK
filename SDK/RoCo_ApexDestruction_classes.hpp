@@ -20,7 +20,8 @@ class ADestructibleActor : public AActor
 {
 public:
 	class UDestructibleComponent*                      DestructibleComponent;                                    // 0x0220(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_EditConst, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    OnActorFracture;                                          // 0x0228(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnActorFracture;                                          // 0x0228(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0228(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -43,8 +44,9 @@ public:
 	unsigned char                                      UnknownData01[0x3];                                       // 0x0689(0x0003) MISSED OFFSET
 	float                                              LargeChunkThreshold;                                      // 0x068C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData02[0x10];                                      // 0x0690(0x0010) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnComponentFracture;                                      // 0x06A0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0xA0];                                      // 0x06B0(0x00A0) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnComponentFracture;                                      // 0x06A0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0690(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData04[0xA0];                                      // 0x06B0(0x00A0) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

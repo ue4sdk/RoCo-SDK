@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass PlayerControllerThreatComponent.PlayerControllerThreatComponent_C
-// 0x0000 (0x0198 - 0x0198)
+// 0x0000 (0x0190 - 0x0190)
 class UPlayerControllerThreatComponent_C : public UConfigurableThreatComponent_C
 {
 public:

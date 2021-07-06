@@ -15,12 +15,12 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass EventTracker_ViolenceSpeedMomentum.EventTracker_ViolenceSpeedMomentum_C
-// 0x0009 (0x01F9 - 0x01F0)
+// 0x0009 (0x0211 - 0x0208)
 class UEventTracker_ViolenceSpeedMomentum_C : public UKSEventTracker
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x01F0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	bool                                               MultiDownAchieved;                                        // 0x01F8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0208(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	bool                                               MultiDownAchieved;                                        // 0x0210(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{
@@ -31,7 +31,7 @@ public:
 
 	void HandleTrackerInitialized(TMap<struct FString, float> Config, TMap<struct FString, struct FString> StringConfig);
 	void HandleLostPlayerController();
-	void MatchHasEnded_Event();
+	void MatchHAsEnded_Event();
 	void OnMultiDown_Event(int DownCount);
 	void ExecuteUbergraph_EventTracker_ViolenceSpeedMomentum(int EntryPoint);
 };

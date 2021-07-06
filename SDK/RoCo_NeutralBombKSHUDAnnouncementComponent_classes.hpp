@@ -41,12 +41,12 @@ public:
 	}
 
 
-	void OnObjectiveDropped();
+	void OnObjectiveReset(const TScriptInterface<class UKSObjective>& GameObjective);
+	void OnObjectiveDisarmed(const TScriptInterface<class UKSObjective>& GameObjective);
+	void OnObjectiveHeld(const TScriptInterface<class UKSObjective>& GameObjective);
+	void OnObjectiveDropped(const TScriptInterface<class UKSObjective>& GameObjective);
+	void OnObjectiveArmed(const TScriptInterface<class UKSObjective>& GameObjective);
 	void OnObjectivePickedup(const TScriptInterface<class UKSObjective>& Objective);
-	void OnObjectiveDisarmed(const TScriptInterface<class UKSObjective>& Objective);
-	void OnObjectiveReset(const TScriptInterface<class UKSObjective>& Objective);
-	void OnObjectivePlanted(const TScriptInterface<class UKSObjective>& Objective);
-	void OnObjectiveSpawned();
 	void CheckForDemoPlant(bool* DemolitionPlanted);
 	void SendTicketWarning(int TicketCount, int TeamNum);
 	void SendLastStand(int TeamNum);
@@ -54,7 +54,6 @@ public:
 	void Try_To_Trigger_Current_Rounds_State();
 	void Versus_Countdown_Update(class AKSPlayerState* Player);
 	void Update_Round_Announcements();
-	void OnObjectiveStateChanged(const TScriptInterface<class UKSObjective>& Objective);
 	void Attacking_Team_Eliminated();
 	void OnBombStateChanged(const struct FKSNeutralBombState& Bomb_State);
 	void OnBombPlanted();
@@ -75,6 +74,7 @@ public:
 	void End_Match(int Winning_Team_Number);
 	void ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason);
 	void OnTicketCountChanged(class AKSTeamState* Team);
+	void OnObjectiveSpawned(const TScriptInterface<class UKSObjective>& GameObjective);
 	void ExecuteUbergraph_NeutralBombKSHUDAnnouncementComponent(int EntryPoint);
 };
 

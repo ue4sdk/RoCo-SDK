@@ -95,6 +95,7 @@ public:
 	void HandleOnObjectiveStateChanged(const TScriptInterface<class UKSObjective>& GameObjective);
 	void Tick(const struct FGeometry& MyGeometry, float InDeltaTime);
 	void OnCharacterOwnerChanged(class AKSPlayerState* PlayerState, class AKSCharacterBase* Character);
+	void HandleGameObjectiveRegistered(const TScriptInterface<class UKSObjective>& GameObjective);
 	void ExecuteUbergraph_GameTimerBarPlayer(int EntryPoint);
 };
 

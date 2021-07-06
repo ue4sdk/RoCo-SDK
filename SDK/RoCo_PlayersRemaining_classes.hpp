@@ -36,7 +36,7 @@ public:
 	void RefreshPlayerCount();
 	void HandlePlayerEliminated(class AKSPlayerState* PlayerState);
 	void HandlePlayerSpawn(class AKSCharacterBase* NewCharacter);
-	void HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName);
+	void HandlePhaseChange(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase);
 	void ExecuteUbergraph_PlayersRemaining(int EntryPoint);
 };
 

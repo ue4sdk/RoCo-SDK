@@ -87,7 +87,7 @@ public:
 	void OnLastManStanding(class AKSPlayerState* LastPlayer);
 	void OnWinnerSet(int TeamNumber);
 	void OnRoundSetup(const struct FRoundInitState& RoundInitState);
-	void OnPhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName);
+	void OnPhaseChange(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase);
 	void BindToPingManagerEvents(class UKSPingManager* PingManager);
 	void PingAdded(const struct FPingInfo& PingInfo);
 	void PingAcknowledged(int PingId, class AKSPlayerState* PingingPlayer, class AKSPlayerState* AcknowledgingPlayer);

@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_CrosshairColor.SettingsInfo_CrosshairColor_C
-// 0x0000 (0x0128 - 0x0128)
+// 0x0000 (0x0120 - 0x0120)
 class USettingsInfo_CrosshairColor_C : public UKSSettingsInfo_CrosshairColor
 {
 public:

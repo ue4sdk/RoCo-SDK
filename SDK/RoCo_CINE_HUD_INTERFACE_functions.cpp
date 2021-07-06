@@ -12,73 +12,67 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
-// Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Init WalkIn Widget
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// class AKSJobSelectPreviewActor* In_Player_01                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AKSJobSelectPreviewActor* In_Player_02                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AKSJobSelectPreviewActor* In_Player_03                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AKSJobSelectPreviewActor* In_Player_04                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UCINE_HUD_INTERFACE_C::Init_WalkIn_Widget(class AKSJobSelectPreviewActor* In_Player_01, class AKSJobSelectPreviewActor* In_Player_02, class AKSJobSelectPreviewActor* In_Player_03, class AKSJobSelectPreviewActor* In_Player_04)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Init WalkIn Widget");
-
-	struct
-	{
-		class AKSJobSelectPreviewActor* In_Player_01;
-		class AKSJobSelectPreviewActor* In_Player_02;
-		class AKSJobSelectPreviewActor* In_Player_03;
-		class AKSJobSelectPreviewActor* In_Player_04;
-	} params;
-
-	params.In_Player_01 = In_Player_01;
-	params.In_Player_02 = In_Player_02;
-	params.In_Player_03 = In_Player_03;
-	params.In_Player_04 = In_Player_04;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Set Cinematic Nameplate Data
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// class UKSPersistentPlayerData* Player_Data                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// int                            Index                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UKSPersistentPlayerData* bpp__PlayerxData__pfT          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            bpp__Index__pf                 (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UCINE_HUD_INTERFACE_C::Set_Cinematic_Nameplate_Data(class UKSPersistentPlayerData* Player_Data, int Index)
+void UCINE_HUD_INTERFACE_C::Set_Cinematic_Nameplate_Data(class UKSPersistentPlayerData* bpp__PlayerxData__pfT, int bpp__Index__pf)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Set Cinematic Nameplate Data");
 
 	struct
 	{
-		class UKSPersistentPlayerData* Player_Data;
-		int                            Index;
+		class UKSPersistentPlayerData* bpp__PlayerxData__pfT;
+		int                            bpp__Index__pf;
 	} params;
 
-	params.Player_Data = Player_Data;
-	params.Index = Index;
+	params.bpp__PlayerxData__pfT = bpp__PlayerxData__pfT;
+	params.bpp__Index__pf = bpp__Index__pf;
 
 	UObject::ProcessEvent(fn, &params);
 }
 
 
 // Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Play Cinematic Nameplate Anim
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// int                            Index                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// int                            bpp__Index__pf                 (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            bpp__NumWalking__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UCINE_HUD_INTERFACE_C::Play_Cinematic_Nameplate_Anim(int Index)
+void UCINE_HUD_INTERFACE_C::Play_Cinematic_Nameplate_Anim(int bpp__Index__pf, int bpp__NumWalking__pf)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Play Cinematic Nameplate Anim");
 
 	struct
 	{
-		int                            Index;
+		int                            bpp__Index__pf;
+		int                            bpp__NumWalking__pf;
 	} params;
 
-	params.Index = Index;
+	params.bpp__Index__pf = bpp__Index__pf;
+	params.bpp__NumWalking__pf = bpp__NumWalking__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Init WalkIn Widget
+// (FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TArray<class AKSJobSelectPreviewActor*> bpp__Players__pf__const        (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UCINE_HUD_INTERFACE_C::Init_WalkIn_Widget(TArray<class AKSJobSelectPreviewActor*> bpp__Players__pf__const)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C.Init WalkIn Widget");
+
+	struct
+	{
+		TArray<class AKSJobSelectPreviewActor*> bpp__Players__pf__const;
+	} params;
+
+	params.bpp__Players__pf__const = bpp__Players__pf__const;
 
 	UObject::ProcessEvent(fn, &params);
 }

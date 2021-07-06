@@ -10,6 +10,7 @@
 #include "RoCo_PlatformUMG_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_PlatformGameFramework_classes.hpp"
+#include "RoCo_Slate_classes.hpp"
 
 namespace SDK
 {

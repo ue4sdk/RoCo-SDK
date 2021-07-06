@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GamePlayerController.GamePlayerController_C
-// 0x0008 (0x0E18 - 0x0E10)
+// 0x0008 (0x0E60 - 0x0E58)
 class AGamePlayerController_C : public AGamePlayerControllerNoHUD_C
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0E10(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0E58(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

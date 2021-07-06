@@ -15,12 +15,12 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GameState_TeamSlayer.GameState_TeamSlayer_C
-// 0x0010 (0x1938 - 0x1928)
+// 0x0010 (0x19F0 - 0x19E0)
 class AGameState_TeamSlayer_C : public AKSGameState_Modular
 {
 public:
-	class UBP_KSObjectiveComponent_C*                  KSObjectiveComponent;                                     // 0x1928(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	class USceneComponent*                             DefaultSceneRoot;                                         // 0x1930(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UBP_KSObjectiveComponent_C*                  KSObjectiveComponent;                                     // 0x19E0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class USceneComponent*                             DefaultSceneRoot;                                         // 0x19E8(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

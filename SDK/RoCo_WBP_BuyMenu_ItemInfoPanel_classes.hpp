@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_BuyMenu_ItemInfoPanel.WBP_BuyMenu_ItemInfoPanel_C
-// 0x0158 (0x0658 - 0x0500)
+// 0x0150 (0x0650 - 0x0500)
 class UWBP_BuyMenu_ItemInfoPanel_C : public UKSWidget
 {
 public:
@@ -49,7 +49,7 @@ public:
 	class UWBP_ItemInfoPanel_StatBar_C*                WBP_ItemInfoPanel_StatBar_C_4;                            // 0x05D8(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UWBP_ItemInfoPanel_StatBar_C*                WBP_ItemInfoPanel_StatBar_C_6;                            // 0x05E0(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UWBP_ItemInfoPanel_StatBar_C*                WBP_ItemInfoPanel_StatBar_C_7;                            // 0x05E8(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
-	struct FShopItem                                   Previous_Item;                                            // 0x05F0(0x0068) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
+	struct FShopItem                                   Previous_Item;                                            // 0x05F0(0x0060) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
 
 	static UClass* StaticClass()
 	{

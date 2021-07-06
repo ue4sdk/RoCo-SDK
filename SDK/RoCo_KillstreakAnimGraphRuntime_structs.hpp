@@ -8,8 +8,8 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_KillstreakAnimGraphRuntime_enums.hpp"
-#include "RoCo_Engine_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
+#include "RoCo_Engine_classes.hpp"
 #include "RoCo_AnimGraphRuntime_classes.hpp"
 
 namespace SDK
@@ -79,14 +79,14 @@ struct FBoneMirrorConfig
 };
 
 // ScriptStruct KillstreakAnimGraphRuntime.KSAnimNode_Mirror
-// 0x0048 (0x0118 - 0x00D0)
+// 0x0048 (0x0120 - 0x00D8)
 struct FKSAnimNode_Mirror : public FAnimNode_SkeletalControlBase
 {
-	struct FBoneMirrorConfig                           BoneMirrorConfig;                                         // 0x00D0(0x0020) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
-	EPoseMirrorPlane                                   MirrorPlane;                                              // 0x00F0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bAlternateMirroring;                                      // 0x00F1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x6];                                       // 0x00F2(0x0006) MISSED OFFSET
-	struct FBoneMirrorConfig                           MirrorConfigCache;                                        // 0x00F8(0x0020) (CPF_Transient, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FBoneMirrorConfig                           BoneMirrorConfig;                                         // 0x00D8(0x0020) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
+	EPoseMirrorPlane                                   MirrorPlane;                                              // 0x00F8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bAlternateMirroring;                                      // 0x00F9(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x00FA(0x0006) MISSED OFFSET
+	struct FBoneMirrorConfig                           MirrorConfigCache;                                        // 0x0100(0x0020) (CPF_Transient, CPF_Protected, CPF_NativeAccessSpecifierProtected)
 };
 
 // ScriptStruct KillstreakAnimGraphRuntime.AnimOrientationWarpDefinition
@@ -103,42 +103,42 @@ struct FAnimOrientationWarpDefinition
 };
 
 // ScriptStruct KillstreakAnimGraphRuntime.KSAnimNode_OrientationWarp
-// 0x0048 (0x0118 - 0x00D0)
+// 0x0048 (0x0120 - 0x00D8)
 struct FKSAnimNode_OrientationWarp : public FAnimNode_SkeletalControlBase
 {
-	float                                              Angle;                                                    // 0x00D0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              OrientationAlphaOverride;                                 // 0x00D4(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FAnimOrientationWarpDefinition              WarpSettings;                                             // 0x00D8(0x0038) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
-	bool                                               bUseOrientationAlphaOverride;                             // 0x0110(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0111(0x0007) MISSED OFFSET
+	float                                              Angle;                                                    // 0x00D8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              OrientationAlphaOverride;                                 // 0x00DC(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FAnimOrientationWarpDefinition              WarpSettings;                                             // 0x00E0(0x0038) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
+	bool                                               bUseOrientationAlphaOverride;                             // 0x0118(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0119(0x0007) MISSED OFFSET
 };
 
 // ScriptStruct KillstreakAnimGraphRuntime.KSAnimNode_Recoil
-// 0x00E8 (0x01B8 - 0x00D0)
+// 0x00E8 (0x01C0 - 0x00D8)
 struct FKSAnimNode_Recoil : public FAnimNode_SkeletalControlBase
 {
-	struct FBoneReference                              m_BoneToRecoil;                                           // 0x00D0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	bool                                               m_bBoneSpaceRecoil;                                       // 0x00E0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x00E1(0x0003) MISSED OFFSET
-	float                                              RotTimeToGo;                                              // 0x00E4(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              PosTimeToGo;                                              // 0x00E8(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FRecoilInfo                                 m_Recoil;                                                 // 0x00EC(0x0060) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	bool                                               m_bApplyControl;                                          // 0x014C(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x014D(0x0003) MISSED OFFSET
-	float                                              m_fBlendInTime;                                           // 0x0150(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              m_fBlendInRemainingTime;                                  // 0x0154(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FVector                                     m_vBlendLoc;                                              // 0x0158(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FRotator                                    m_rBlendRot;                                              // 0x0164(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FRotator                                    RotOffset;                                                // 0x0170(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0xC];                                       // 0x017C(0x000C) MISSED OFFSET
-	struct FVector                                     LocOffset;                                                // 0x0188(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0xC];                                       // 0x0194(0x000C) MISSED OFFSET
-	int                                                m_nFireImpulseCounter;                                    // 0x01A0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	ERecoilAllowMirror                                 m_eMirrorPermissions;                                     // 0x01A4(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	EPoseMirrorPlane                                   m_eMirrorPlane;                                           // 0x01A5(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData04[0x2];                                       // 0x01A6(0x0002) MISSED OFFSET
-	struct FVector                                     m_vRotationFlipAxis;                                      // 0x01A8(0x000C) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                m_nInternalFireImpulseCounter;                            // 0x01B4(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FBoneReference                              m_BoneToRecoil;                                           // 0x00D8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	bool                                               m_bBoneSpaceRecoil;                                       // 0x00E8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x00E9(0x0003) MISSED OFFSET
+	float                                              RotTimeToGo;                                              // 0x00EC(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              PosTimeToGo;                                              // 0x00F0(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FRecoilInfo                                 m_Recoil;                                                 // 0x00F4(0x0060) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	bool                                               m_bApplyControl;                                          // 0x0154(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x3];                                       // 0x0155(0x0003) MISSED OFFSET
+	float                                              m_fBlendInTime;                                           // 0x0158(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              m_fBlendInRemainingTime;                                  // 0x015C(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FVector                                     m_vBlendLoc;                                              // 0x0160(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FRotator                                    m_rBlendRot;                                              // 0x016C(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FRotator                                    RotOffset;                                                // 0x0178(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xC];                                       // 0x0184(0x000C) MISSED OFFSET
+	struct FVector                                     LocOffset;                                                // 0x0190(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xC];                                       // 0x019C(0x000C) MISSED OFFSET
+	int                                                m_nFireImpulseCounter;                                    // 0x01A8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	ERecoilAllowMirror                                 m_eMirrorPermissions;                                     // 0x01AC(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EPoseMirrorPlane                                   m_eMirrorPlane;                                           // 0x01AD(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0x2];                                       // 0x01AE(0x0002) MISSED OFFSET
+	struct FVector                                     m_vRotationFlipAxis;                                      // 0x01B0(0x000C) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                m_nInternalFireImpulseCounter;                            // 0x01BC(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakAnimGraphRuntime.AnimSpeedWarpDefinition
@@ -156,12 +156,12 @@ struct FAnimSpeedWarpDefinition
 };
 
 // ScriptStruct KillstreakAnimGraphRuntime.KSAnimNode_SpeedWarp
-// 0x0058 (0x0128 - 0x00D0)
+// 0x0058 (0x0130 - 0x00D8)
 struct FKSAnimNode_SpeedWarp : public FAnimNode_SkeletalControlBase
 {
-	float                                              SpeedScaling;                                             // 0x00D0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FVector                                     SpeedWarpForwardAxis;                                     // 0x00D4(0x000C) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FAnimSpeedWarpDefinition                    SpeedWarpSettings;                                        // 0x00E0(0x0048) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
+	float                                              SpeedScaling;                                             // 0x00D8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FVector                                     SpeedWarpForwardAxis;                                     // 0x00DC(0x000C) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FAnimSpeedWarpDefinition                    SpeedWarpSettings;                                        // 0x00E8(0x0048) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
 };
 
 }

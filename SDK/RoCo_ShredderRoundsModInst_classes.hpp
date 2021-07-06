@@ -15,12 +15,12 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass ShredderRoundsModInst.ShredderRoundsModInst_C
-// 0x0058 (0x01F0 - 0x0198)
+// 0x0058 (0x01F8 - 0x01A0)
 class UShredderRoundsModInst_C : public UKSModInst_DamageDealt
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0198(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	TMap<EAmmoType, int>                               Ammo_Amount;                                              // 0x01A0(0x0050) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x01A0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	TMap<EAmmoType, int>                               Ammo_Amount;                                              // 0x01A8(0x0050) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance)
 
 	static UClass* StaticClass()
 	{

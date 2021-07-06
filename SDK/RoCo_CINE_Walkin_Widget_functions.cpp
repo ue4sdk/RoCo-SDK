@@ -12,15 +12,72 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
-// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerData
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerTwoData
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
 // class UKSPersistentPlayerData* PlayerData                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 // bool                           IsValid                        (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
-void UCINE_Walkin_Widget_C::SetPlayerData(class UKSPersistentPlayerData* PlayerData, bool* IsValid)
+void UCINE_Walkin_Widget_C::SetPlayerTwoData(class UKSPersistentPlayerData* PlayerData, bool* IsValid)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerData");
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerTwoData");
+
+	struct
+	{
+		class UKSPersistentPlayerData* PlayerData;
+		bool                           IsValid;
+	} params;
+
+	params.PlayerData = PlayerData;
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (IsValid != nullptr)
+		*IsValid = params.IsValid;
+}
+
+
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.StopAnimsPlayerTwo
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UCINE_Walkin_Widget_C::StopAnimsPlayerTwo()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.StopAnimsPlayerTwo");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.StopAnimsPlayerOne
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UCINE_Walkin_Widget_C::StopAnimsPlayerOne()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.StopAnimsPlayerOne");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerOneData
+// (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSPersistentPlayerData* PlayerData                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// bool                           IsValid                        (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UCINE_Walkin_Widget_C::SetPlayerOneData(class UKSPersistentPlayerData* PlayerData, bool* IsValid)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerOneData");
 
 	struct
 	{
@@ -38,29 +95,102 @@ void UCINE_Walkin_Widget_C::SetPlayerData(class UKSPersistentPlayerData* PlayerD
 
 
 // Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Set Player Blueprint References
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// class AKSJobSelectPreviewActor* Player01                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AKSJobSelectPreviewActor* Player02                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AKSJobSelectPreviewActor* Player03                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AKSJobSelectPreviewActor* Player04                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// TArray<class AKSJobSelectPreviewActor*> Players                        (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_HasGetValueTypeHash)
 
-void UCINE_Walkin_Widget_C::Set_Player_Blueprint_References(class AKSJobSelectPreviewActor* Player01, class AKSJobSelectPreviewActor* Player02, class AKSJobSelectPreviewActor* Player03, class AKSJobSelectPreviewActor* Player04)
+void UCINE_Walkin_Widget_C::Set_Player_Blueprint_References(TArray<class AKSJobSelectPreviewActor*>* Players)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Set Player Blueprint References");
 
 	struct
 	{
-		class AKSJobSelectPreviewActor* Player01;
-		class AKSJobSelectPreviewActor* Player02;
-		class AKSJobSelectPreviewActor* Player03;
-		class AKSJobSelectPreviewActor* Player04;
+		TArray<class AKSJobSelectPreviewActor*> Players;
 	} params;
 
-	params.Player01 = Player01;
-	params.Player02 = Player02;
-	params.Player03 = Player03;
-	params.Player04 = Player04;
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (Players != nullptr)
+		*Players = params.Players;
+}
+
+
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player02
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            TotalWalkingIn                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UCINE_Walkin_Widget_C::Anim_Player02(int TotalWalkingIn)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player02");
+
+	struct
+	{
+		int                            TotalWalkingIn;
+	} params;
+
+	params.TotalWalkingIn = TotalWalkingIn;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player03
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            TotalWalkingIn                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UCINE_Walkin_Widget_C::Anim_Player03(int TotalWalkingIn)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player03");
+
+	struct
+	{
+		int                            TotalWalkingIn;
+	} params;
+
+	params.TotalWalkingIn = TotalWalkingIn;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player04
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            TotalWalkingIn                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UCINE_Walkin_Widget_C::Anim_Player04(int TotalWalkingIn)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player04");
+
+	struct
+	{
+		int                            TotalWalkingIn;
+	} params;
+
+	params.TotalWalkingIn = TotalWalkingIn;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player01
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            TotalWalkingIn                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UCINE_Walkin_Widget_C::Anim_Player01(int TotalWalkingIn)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player01");
+
+	struct
+	{
+		int                            TotalWalkingIn;
+	} params;
+
+	params.TotalWalkingIn = TotalWalkingIn;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -82,65 +212,41 @@ void UCINE_Walkin_Widget_C::Construct()
 }
 
 
-// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player01
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.AnimPlayer_05
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            TotalWalkingIn                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UCINE_Walkin_Widget_C::Anim_Player01()
+void UCINE_Walkin_Widget_C::AnimPlayer_05(int TotalWalkingIn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player01");
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.AnimPlayer_05");
 
 	struct
 	{
+		int                            TotalWalkingIn;
 	} params;
 
+	params.TotalWalkingIn = TotalWalkingIn;
 
 	UObject::ProcessEvent(fn, &params);
 }
 
 
-// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player02
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.AnimPlayer_06
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            TotalWalkingIn                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UCINE_Walkin_Widget_C::Anim_Player02()
+void UCINE_Walkin_Widget_C::AnimPlayer_06(int TotalWalkingIn)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player02");
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.AnimPlayer_06");
 
 	struct
 	{
+		int                            TotalWalkingIn;
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player03
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UCINE_Walkin_Widget_C::Anim_Player03()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player03");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player04
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UCINE_Walkin_Widget_C::Anim_Player04()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Anim_Player04");
-
-	struct
-	{
-	} params;
-
+	params.TotalWalkingIn = TotalWalkingIn;
 
 	UObject::ProcessEvent(fn, &params);
 }

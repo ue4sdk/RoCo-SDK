@@ -107,18 +107,18 @@ void UMasterWeapon_ABP_C::SetWeaponState(class UKSWeaponComponent* bpp__OwningWe
 // Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetShieldActive
 // (FUNC_Native, FUNC_Event, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
-// bool                           bpp__bIsShieldActive__pf       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// bool                           bpp__bSetIsShieldActive__pf    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UMasterWeapon_ABP_C::SetShieldActive(bool bpp__bIsShieldActive__pf)
+void UMasterWeapon_ABP_C::SetShieldActive(bool bpp__bSetIsShieldActive__pf)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.SetShieldActive");
 
 	struct
 	{
-		bool                           bpp__bIsShieldActive__pf;
+		bool                           bpp__bSetIsShieldActive__pf;
 	} params;
 
-	params.bpp__bIsShieldActive__pf = bpp__bIsShieldActive__pf;
+	params.bpp__bSetIsShieldActive__pf = bpp__bSetIsShieldActive__pf;
 
 	UObject::ProcessEvent(fn, &params);
 }

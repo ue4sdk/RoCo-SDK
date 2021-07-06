@@ -179,6 +179,16 @@ enum class EAllyMarkerState : uint8_t
 };
 
 
+// Enum KillstreakUINew.EKSAutoTeamType
+enum class EKSAutoTeamType : uint8_t
+{
+	EKSAutoTeamType__LocalTeam     = 0,
+	EKSAutoTeamType__ExactTeamNum  = 1,
+	EKSAutoTeamType__RelativeEnemyTeam = 2,
+	EKSAutoTeamType__EKSAutoTeamType_MAX = 3
+};
+
+
 // Enum KillstreakUINew.EChallengeEntryCardState
 enum class EChallengeEntryCardState : uint8_t
 {
@@ -420,18 +430,6 @@ enum class EPointObjectiveMarkerTeamState : uint8_t
 	EPointObjectiveMarkerTeamState__EnemyOwned = 2,
 	EPointObjectiveMarkerTeamState__Contested = 3,
 	EPointObjectiveMarkerTeamState__EPointObjectiveMarkerTeamState_MAX = 4
-};
-
-
-// Enum KillstreakUINew.EPointObjectiveMarkerObjectiveState
-enum class EPointObjectiveMarkerObjectiveState : uint8_t
-{
-	EPointObjectiveMarkerObjectiveState__Locked = 0,
-	EPointObjectiveMarkerObjectiveState__Unlocked = 1,
-	EPointObjectiveMarkerObjectiveState__Capturing = 2,
-	EPointObjectiveMarkerObjectiveState__Captured = 3,
-	EPointObjectiveMarkerObjectiveState__Recapturing = 4,
-	EPointObjectiveMarkerObjectiveState__EPointObjectiveMarkerObjectiveState_MAX = 5
 };
 
 

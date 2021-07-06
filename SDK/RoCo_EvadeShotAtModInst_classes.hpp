@@ -15,12 +15,12 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass EvadeShotAtModInst.EvadeShotAtModInst_C
-// 0x0018 (0x01D0 - 0x01B8)
+// 0x0018 (0x01D8 - 0x01C0)
 class UEvadeShotAtModInst_C : public UKSModInst_OnShotAt
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x01B8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	TArray<class UKSPlayerModInstance*>                ActiveInstances;                                          // 0x01C0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x01C0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	TArray<class UKSPlayerModInstance*>                ActiveInstances;                                          // 0x01C8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

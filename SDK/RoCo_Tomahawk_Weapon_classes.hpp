@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Tomahawk_Weapon.Tomahawk_Weapon_C
-// 0x0000 (0x08D0 - 0x08D0)
+// 0x0000 (0x08E0 - 0x08E0)
 class ATomahawk_Weapon_C : public AWeapon_Melee_C
 {
 public:

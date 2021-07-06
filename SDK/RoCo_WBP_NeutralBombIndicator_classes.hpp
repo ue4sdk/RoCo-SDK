@@ -41,6 +41,7 @@ public:
 	void HandleBombStateChanged(const struct FKSNeutralBombState& BombState);
 	void HandleViewedPawnChanged(class AKSPlayerController* Controller, class AActor* OldViewTarget, class AActor* NewViewTarget);
 	void InitializeWidget(class APUMG_HUD* HUD);
+	void HandleOnGameObjectiveRegistered(const TScriptInterface<class UKSObjective>& GameObjective);
 	void ExecuteUbergraph_WBP_NeutralBombIndicator(int EntryPoint);
 };
 

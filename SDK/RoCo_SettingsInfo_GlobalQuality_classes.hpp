@@ -15,12 +15,12 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_GlobalQuality.SettingsInfo_GlobalQuality_C
-// 0x0018 (0x0138 - 0x0120)
+// 0x0018 (0x0130 - 0x0118)
 class USettingsInfo_GlobalQuality_C : public UKSSettingsInfo_Generic
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0120(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	TArray<struct FString>                             QualityNames;                                             // 0x0128(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0118(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	TArray<struct FName>                               QualityNames;                                             // 0x0120(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

@@ -15,12 +15,12 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass EventTracker_Ambush.EventTracker_Ambush_C
-// 0x0058 (0x0250 - 0x01F8)
+// 0x0058 (0x0268 - 0x0210)
 class UEventTracker_Ambush_C : public UEventTrackerAbstract_InstigatedDamage_C
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x01F8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	unsigned char                                      UnknownData00[0x50];                                      // 0x0200(0x0050) UNKNOWN PROPERTY: RecentAttackers
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0210(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	unsigned char                                      UnknownData00[0x50];                                      // 0x0218(0x0050) UNKNOWN PROPERTY: RecentAttackers
 
 	static UClass* StaticClass()
 	{

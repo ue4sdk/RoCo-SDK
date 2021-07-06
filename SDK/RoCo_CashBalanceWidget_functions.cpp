@@ -93,7 +93,7 @@ void UCashBalanceWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 
 
 // Function CashBalanceWidget.CashBalanceWidget_C.ExecuteUbergraph_CashBalanceWidget
-// (FUNC_Final)
+// (FUNC_Final, FUNC_HasDefaults)
 // Parameters:
 // int                            EntryPoint                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 

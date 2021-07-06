@@ -15,28 +15,28 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // AnimBlueprintGeneratedClass Master_Melee_ABP.Master_Melee_ABP_C
-// 0x0921 (0x0CB1 - 0x0390)
+// 0x09A1 (0x0D81 - 0x03E0)
 class UMaster_Melee_ABP_C : public UKSWeaponAnimInstance
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0390(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	struct FAnimNode_Root                              AnimGraphNode_Root;                                       // 0x0398(0x0038)
-	struct FAnimNode_TransitionResult                  AnimGraphNode_TransitionResult_2;                         // 0x03D0(0x0030)
-	struct FAnimNode_TransitionResult                  AnimGraphNode_TransitionResult;                           // 0x0400(0x0030)
-	struct FAnimNode_RefPose                           AnimGraphNode_LocalRefPose_3;                             // 0x0430(0x0020)
-	struct FAnimNode_SequenceSkinned                   AnimGraphNode_SequenceSkinned_4;                          // 0x0450(0x0158)
-	struct FAnimNode_StateResult                       AnimGraphNode_StateResult_3;                              // 0x05A8(0x0038)
-	struct FAnimNode_RefPose                           AnimGraphNode_LocalRefPose_2;                             // 0x05E0(0x0020)
-	struct FAnimNode_SequenceSkinned                   AnimGraphNode_SequenceSkinned_3;                          // 0x0600(0x0158)
-	struct FAnimNode_StateResult                       AnimGraphNode_StateResult_2;                              // 0x0758(0x0038)
-	struct FAnimNode_StateMachine                      AnimGraphNode_StateMachine_2;                             // 0x0790(0x00B8)
-	struct FAnimNode_SequenceSkinned                   AnimGraphNode_SequenceSkinned_2;                          // 0x0848(0x0158)
-	struct FAnimNode_RefPose                           AnimGraphNode_LocalRefPose;                               // 0x09A0(0x0020)
-	struct FAnimNode_SequenceSkinned                   AnimGraphNode_SequenceSkinned;                            // 0x09C0(0x0158)
-	struct FAnimNode_StateResult                       AnimGraphNode_StateResult;                                // 0x0B18(0x0038)
-	struct FAnimNode_StateMachine                      AnimGraphNode_StateMachine;                               // 0x0B50(0x00B8)
-	struct FAnimNode_BlendListByBool                   AnimGraphNode_BlendListByBool;                            // 0x0C08(0x00A8)
-	bool                                               Is_Holstered;                                             // 0x0CB0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x03E0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FAnimNode_Root                              AnimGraphNode_Root;                                       // 0x03E8(0x0040)
+	struct FAnimNode_TransitionResult                  AnimGraphNode_TransitionResult_2;                         // 0x0428(0x0038)
+	struct FAnimNode_TransitionResult                  AnimGraphNode_TransitionResult;                           // 0x0460(0x0038)
+	struct FAnimNode_RefPose                           AnimGraphNode_LocalRefPose_3;                             // 0x0498(0x0028)
+	struct FAnimNode_SequenceSkinned                   AnimGraphNode_SequenceSkinned_4;                          // 0x04C0(0x0160)
+	struct FAnimNode_StateResult                       AnimGraphNode_StateResult_3;                              // 0x0620(0x0040)
+	struct FAnimNode_RefPose                           AnimGraphNode_LocalRefPose_2;                             // 0x0660(0x0028)
+	struct FAnimNode_SequenceSkinned                   AnimGraphNode_SequenceSkinned_3;                          // 0x0688(0x0160)
+	struct FAnimNode_StateResult                       AnimGraphNode_StateResult_2;                              // 0x07E8(0x0040)
+	struct FAnimNode_StateMachine                      AnimGraphNode_StateMachine_2;                             // 0x0828(0x00C0)
+	struct FAnimNode_SequenceSkinned                   AnimGraphNode_SequenceSkinned_2;                          // 0x08E8(0x0160)
+	struct FAnimNode_RefPose                           AnimGraphNode_LocalRefPose;                               // 0x0A48(0x0028)
+	struct FAnimNode_SequenceSkinned                   AnimGraphNode_SequenceSkinned;                            // 0x0A70(0x0160)
+	struct FAnimNode_StateResult                       AnimGraphNode_StateResult;                                // 0x0BD0(0x0040)
+	struct FAnimNode_StateMachine                      AnimGraphNode_StateMachine;                               // 0x0C10(0x00C0)
+	struct FAnimNode_BlendListByBool                   AnimGraphNode_BlendListByBool;                            // 0x0CD0(0x00B0)
+	bool                                               Is_Holstered;                                             // 0x0D80(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{

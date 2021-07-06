@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_RogueMasteryPortrait.WBP_RogueMasteryPortrait_C
-// 0x0040 (0x0278 - 0x0238)
+// 0x0048 (0x0280 - 0x0238)
 class UWBP_RogueMasteryPortrait_C : public UUserWidget
 {
 public:
@@ -27,6 +27,7 @@ public:
 	class UWBP_RogueMasteryIcon_C*                     MasteryIcon;                                              // 0x0260(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class AKSPlayerState*                              PlayerOwner;                                              // 0x0268(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	class UKSJobItem*                                  JobItem;                                                  // 0x0270(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UKSPersistentPlayerData*                     PersistentPlayerOwner;                                    // 0x0278(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{
@@ -35,6 +36,12 @@ public:
 	}
 
 
+	void Has_Player_Owner(bool* Return_Value);
+	void GetOwnerJobMasteryLevel(int* Mastery_Level);
+	void GetOwnerJob(class UKSJobItem** Job);
+	void MatchesBoundPlayer(class AKSPlayerState* PlayerState, class UKSPersistentPlayerData* PersistentData, bool* Return_Value);
+	void ClearPreviousOwner();
+	void SetPersistentPlayerOwner(class UKSPersistentPlayerData* PlayerData);
 	void SetMasteryLevelExplicit(int MasteryLevel);
 	void SetMasteryFrameToLevel(int MasteryLevel);
 	void OnJobMasteryLevelUpdated();

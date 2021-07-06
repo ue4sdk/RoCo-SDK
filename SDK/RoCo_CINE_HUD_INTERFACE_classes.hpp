@@ -14,7 +14,7 @@ namespace SDK
 //Classes
 //---------------------------------------------------------------------------
 
-// BlueprintGeneratedClass CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C
+// DynamicClass CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C
 // 0x0000 (0x0028 - 0x0028)
 class UCINE_HUD_INTERFACE_C : public UInterface
 {
@@ -22,14 +22,14 @@ public:
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C");
+		static auto ptr = UObject::FindObject<UClass>("DynamicClass CINE_HUD_INTERFACE.CINE_HUD_INTERFACE_C");
 		return ptr;
 	}
 
 
-	void Init_WalkIn_Widget(class AKSJobSelectPreviewActor* In_Player_01, class AKSJobSelectPreviewActor* In_Player_02, class AKSJobSelectPreviewActor* In_Player_03, class AKSJobSelectPreviewActor* In_Player_04);
-	void Set_Cinematic_Nameplate_Data(class UKSPersistentPlayerData* Player_Data, int Index);
-	void Play_Cinematic_Nameplate_Anim(int Index);
+	void Set_Cinematic_Nameplate_Data(class UKSPersistentPlayerData* bpp__PlayerxData__pfT, int bpp__Index__pf);
+	void Play_Cinematic_Nameplate_Anim(int bpp__Index__pf, int bpp__NumWalking__pf);
+	void Init_WalkIn_Widget(TArray<class AKSJobSelectPreviewActor*> bpp__Players__pf__const);
 };
 
 

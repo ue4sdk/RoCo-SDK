@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass WalkInSequenceManager.WalkInSequenceManager_C
-// 0x0008 (0x02B8 - 0x02B0)
+// 0x0008 (0x02A8 - 0x02A0)
 class AWalkInSequenceManager_C : public AKSTeamCinematicSequenceManager
 {
 public:
-	class USceneComponent*                             DefaultSceneRoot;                                         // 0x02B0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class USceneComponent*                             DefaultSceneRoot;                                         // 0x02A0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

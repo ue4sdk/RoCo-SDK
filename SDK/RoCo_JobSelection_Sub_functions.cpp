@@ -68,29 +68,6 @@ void AJobSelection_Sub_C::ReceiveTick(float DeltaSeconds)
 }
 
 
-// Function JobSelection_Sub.JobSelection_Sub_C.OnPhaseChangeDel
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FName                   NewPhaseName                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void AJobSelection_Sub_C::OnPhaseChangeDel(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function JobSelection_Sub.JobSelection_Sub_C.OnPhaseChangeDel");
-
-	struct
-	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
-	} params;
-
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function JobSelection_Sub.JobSelection_Sub_C.OnTimerSecondTick
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -106,22 +83,6 @@ void AJobSelection_Sub_C::OnTimerSecondTick(float NewTruncatedSeconds)
 	} params;
 
 	params.NewTruncatedSeconds = NewTruncatedSeconds;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function JobSelection_Sub.JobSelection_Sub_C.FillRogues
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void AJobSelection_Sub_C::FillRogues()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function JobSelection_Sub.JobSelection_Sub_C.FillRogues");
-
-	struct
-	{
-	} params;
-
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -177,6 +138,29 @@ void AJobSelection_Sub_C::On_Rogue_Preview_Fully_Loaded()
 	{
 	} params;
 
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function JobSelection_Sub.JobSelection_Sub_C.OnPhaseChangeDel
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+
+void AJobSelection_Sub_C::OnPhaseChangeDel(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function JobSelection_Sub.JobSelection_Sub_C.OnPhaseChangeDel");
+
+	struct
+	{
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
+	} params;
+
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }

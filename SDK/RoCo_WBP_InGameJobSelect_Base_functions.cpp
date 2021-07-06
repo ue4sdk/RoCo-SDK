@@ -12,6 +12,28 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
+// Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.Get Job Entry Buttons
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// TArray<class UWidget*>         Buttons                        (CPF_Parm, CPF_OutParm, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash)
+
+void UWBP_InGameJobSelect_Base_C::Get_Job_Entry_Buttons(TArray<class UWidget*>* Buttons)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.Get Job Entry Buttons");
+
+	struct
+	{
+		TArray<class UWidget*>         Buttons;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (Buttons != nullptr)
+		*Buttons = params.Buttons;
+}
+
+
 // Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnTeamMemberAdded
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -195,21 +217,21 @@ void UWBP_InGameJobSelect_Base_C::SetAttackDefendMessage()
 // Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.HandlePhaseChange
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FName                   NewPhaseName                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
 
-void UWBP_InGameJobSelect_Base_C::HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
+void UWBP_InGameJobSelect_Base_C::HandlePhaseChange(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.HandlePhaseChange");
 
 	struct
 	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }

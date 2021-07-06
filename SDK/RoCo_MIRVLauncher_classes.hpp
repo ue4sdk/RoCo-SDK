@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass MIRVLauncher.MIRVLauncher_C
-// 0x0000 (0x0868 - 0x0868)
+// 0x0000 (0x0878 - 0x0878)
 class AMIRVLauncher_C : public AWeapon_Projectile_C
 {
 public:

@@ -24,19 +24,23 @@ public:
 	int                                                FocusedId;                                                // 0x0240(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                DeadId;                                                   // 0x0244(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                WoundedId;                                                // 0x0248(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             K2Node_CreateDelegate_OutputDelegate;                     // 0x024C(0x0014) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x025C(0x0004) MISSED OFFSET
+	struct FScriptDelegate                             K2Node_CreateDelegate_OutputDelegate;                     // 0x024C(0x000A) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x024C(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData01[0x4];                                       // 0x025C(0x0004) MISSED OFFSET
 	class AKSCharacter*                                K2Node_DynamicCast_AsKSCharacter;                         // 0x0260(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               K2Node_DynamicCast_bSuccess;                              // 0x0268(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x0269(0x0003) MISSED OFFSET
-	struct FScriptDelegate                             K2Node_CreateDelegate_OutputDelegate_2;                   // 0x026C(0x0014) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             K2Node_CreateDelegate_OutputDelegate_3;                   // 0x027C(0x0014) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x4];                                       // 0x028C(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x3];                                       // 0x0269(0x0003) MISSED OFFSET
+	struct FScriptDelegate                             K2Node_CreateDelegate_OutputDelegate_2;                   // 0x026C(0x000A) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0x6];                                       // 0x0269(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptDelegate                             K2Node_CreateDelegate_OutputDelegate_3;                   // 0x027C(0x000A) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0x6];                                       // 0x027C(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData05[0x4];                                       // 0x028C(0x0004) MISSED OFFSET
 	class AKSCharacterBase*                            K2Node_DynamicCast_AsKSCharacter_Base;                    // 0x0290(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               K2Node_DynamicCast_bSuccess_2;                            // 0x0298(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x3];                                       // 0x0299(0x0003) MISSED OFFSET
-	struct FScriptDelegate                             K2Node_CreateDelegate_OutputDelegate_4;                   // 0x029C(0x0014) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData04[0x4];                                       // 0x02AC(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData06[0x3];                                       // 0x0299(0x0003) MISSED OFFSET
+	struct FScriptDelegate                             K2Node_CreateDelegate_OutputDelegate_4;                   // 0x029C(0x000A) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0x6];                                       // 0x0299(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData08[0x4];                                       // 0x02AC(0x0004) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GiveMGL6ModInst.GiveMGL6ModInst_C
-// 0x0000 (0x04F0 - 0x04F0)
+// 0x0000 (0x04E8 - 0x04E8)
 class UGiveMGL6ModInst_C : public UKSModInst_GiveWeaponOnActivation
 {
 public:

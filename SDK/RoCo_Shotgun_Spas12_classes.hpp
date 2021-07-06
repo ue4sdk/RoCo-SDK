@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Shotgun_Spas12.Shotgun_Spas12_C
-// 0x0000 (0x08C1 - 0x08C1)
+// 0x0000 (0x08D1 - 0x08D1)
 class AShotgun_Spas12_C : public AWeapon_Shotgun_C
 {
 public:

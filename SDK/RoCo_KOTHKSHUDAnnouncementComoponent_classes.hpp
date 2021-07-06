@@ -49,7 +49,7 @@ public:
 	void Round_Setup(const struct FRoundInitState& Round_Init_State);
 	void Round_Start(const struct FRoundInitState& Round_Init_State);
 	void TeamSidesFlipped();
-	void OnPhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName);
+	void OnPhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase);
 	void ReceiveBeginPlay();
 	void ReceiveTick(float DeltaSeconds);
 	void End_Match(int Winning_Team_Number);

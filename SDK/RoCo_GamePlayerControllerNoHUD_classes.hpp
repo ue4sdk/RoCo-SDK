@@ -15,13 +15,13 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GamePlayerControllerNoHUD.GamePlayerControllerNoHUD_C
-// 0x0018 (0x0E10 - 0x0DF8)
+// 0x0018 (0x0E58 - 0x0E40)
 class AGamePlayerControllerNoHUD_C : public AKSPlayerController
 {
 public:
-	class UPlayerControllerThreatComponent_C*          PlayerControllerThreatComponent;                          // 0x0DF8(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	class UAkComponent*                                ControllerAkComponent;                                    // 0x0E00(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	class UDefaultEnvironmentListener_C*               DefaultEnvironmentListener;                               // 0x0E08(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UPlayerControllerThreatComponent_C*          PlayerControllerThreatComponent;                          // 0x0E40(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UAkComponent*                                ControllerAkComponent;                                    // 0x0E48(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UDefaultEnvironmentListener_C*               DefaultEnvironmentListener;                               // 0x0E50(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

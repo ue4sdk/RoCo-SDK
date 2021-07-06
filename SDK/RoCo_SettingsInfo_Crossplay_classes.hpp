@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_Crossplay.SettingsInfo_Crossplay_C
-// 0x0000 (0x0120 - 0x0120)
+// 0x0000 (0x0118 - 0x0118)
 class USettingsInfo_Crossplay_C : public UKSSettingsInfo_Generic
 {
 public:

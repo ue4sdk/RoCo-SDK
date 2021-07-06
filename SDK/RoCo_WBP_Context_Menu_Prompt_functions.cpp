@@ -45,7 +45,7 @@ void UWBP_Context_Menu_Prompt_C::EvaluateInputStateStandard()
 
 
 // Function WBP_Context_Menu_Prompt.WBP_Context_Menu_Prompt_C.PopulateCycleButton
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UWBP_Context_Menu_Prompt_C::PopulateCycleButton()
 {

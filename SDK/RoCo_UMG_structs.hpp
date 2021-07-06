@@ -8,14 +8,14 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_UMG_enums.hpp"
-#include "RoCo_MovieSceneTracks_classes.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
-#include "RoCo_MovieScene_classes.hpp"
-#include "RoCo_SlateCore_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
-#include "RoCo_PropertyPath_classes.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
+#include "RoCo_MovieSceneTracks_classes.hpp"
 #include "RoCo_Slate_classes.hpp"
+#include "RoCo_SlateCore_classes.hpp"
+#include "RoCo_PropertyPath_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
+#include "RoCo_MovieScene_classes.hpp"
 
 namespace SDK
 {
@@ -53,11 +53,12 @@ struct FNamedSlotBinding
 struct FAnimationEventBinding
 {
 	class UWidgetAnimation*                            Animation;                                                // 0x0000(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             Delegate;                                                 // 0x0008(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             Delegate;                                                 // 0x0008(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0008(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	EWidgetAnimationEvent                              AnimationEvent;                                           // 0x0018(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x0019(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x3];                                       // 0x0019(0x0003) MISSED OFFSET
 	struct FName                                       UserTag;                                                  // 0x001C(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x0024(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x4];                                       // 0x0024(0x0004) MISSED OFFSET
 };
 
 // ScriptStruct UMG.PaintContext
@@ -174,7 +175,8 @@ struct FWidgetNavigationData
 	unsigned char                                      UnknownData00[0x3];                                       // 0x0001(0x0003) MISSED OFFSET
 	struct FName                                       WidgetToFocus;                                            // 0x0004(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TWeakObjectPtr<class UWidget>                      Widget;                                                   // 0x000C(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             CustomDelegate;                                           // 0x0014(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             CustomDelegate;                                           // 0x0014(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0014(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 };
 
 // ScriptStruct UMG.MovieScene2DTransformSectionTemplate

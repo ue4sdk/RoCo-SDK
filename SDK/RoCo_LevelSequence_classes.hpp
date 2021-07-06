@@ -220,8 +220,9 @@ public:
 class ULevelSequencePlayer : public UMovieSceneSequencePlayer
 {
 public:
-	struct FScriptMulticastDelegate                    OnCameraCut;                                              // 0x0888(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x108];                                     // 0x0898(0x0108) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnCameraCut;                                              // 0x0888(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0888(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData01[0x108];                                     // 0x0898(0x0108) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

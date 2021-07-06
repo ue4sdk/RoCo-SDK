@@ -29,7 +29,7 @@ void UResultScreen_C::ResetAndHandleEndOfMatch()
 
 
 // Function ResultScreen.ResultScreen_C.SetColors
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
 // struct FRoundResultAnnoucement RoundResult                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm)
 
@@ -104,38 +104,6 @@ void UResultScreen_C::ShowScreen(float DelayAmount)
 }
 
 
-// Function ResultScreen.ResultScreen_C.Auto Return To Lobby
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UResultScreen_C::Auto_Return_To_Lobby()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.Auto Return To Lobby");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function ResultScreen.ResultScreen_C.Construct
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-
-void UResultScreen_C::Construct()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.Construct");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function ResultScreen.ResultScreen_C.ShowKillCamHUD
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -172,22 +140,6 @@ void UResultScreen_C::ShowScoreAnim()
 }
 
 
-// Function ResultScreen.ResultScreen_C.FailSafeReturnToLobby
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UResultScreen_C::FailSafeReturnToLobby()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.FailSafeReturnToLobby");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function ResultScreen.ResultScreen_C.OnInitRoundSetup
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
@@ -204,35 +156,60 @@ void UResultScreen_C::OnInitRoundSetup()
 }
 
 
-// Function ResultScreen.ResultScreen_C.HandlePhaseChanged
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FName                   NewPhaseName                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UResultScreen_C::HandlePhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandlePhaseChanged");
-
-	struct
-	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
-	} params;
-
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function ResultScreen.ResultScreen_C.HandleRoundInfoChanged
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UResultScreen_C::HandleRoundInfoChanged()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandleRoundInfoChanged");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function ResultScreen.ResultScreen_C.ShowSurrenderUI
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UResultScreen_C::ShowSurrenderUI()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ShowSurrenderUI");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function ResultScreen.ResultScreen_C.PlayMatchEndAnim
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UResultScreen_C::PlayMatchEndAnim()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.PlayMatchEndAnim");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function ResultScreen.ResultScreen_C.Construct
+// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UResultScreen_C::Construct()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.Construct");
 
 	struct
 	{
@@ -263,17 +240,64 @@ void UResultScreen_C::HandleResultReceived(const struct FRoundResultAnnoucement&
 }
 
 
-// Function ResultScreen.ResultScreen_C.ShowSurrenderUI
+// Function ResultScreen.ResultScreen_C.PlayMatchEndShowScoreAnim
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// float                          Delay                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UResultScreen_C::ShowSurrenderUI()
+void UResultScreen_C::PlayMatchEndShowScoreAnim(float Delay)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ShowSurrenderUI");
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.PlayMatchEndShowScoreAnim");
 
 	struct
 	{
+		float                          Delay;
 	} params;
 
+	params.Delay = Delay;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function ResultScreen.ResultScreen_C.HandlePhaseChanged
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+
+void UResultScreen_C::HandlePhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandlePhaseChanged");
+
+	struct
+	{
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
+	} params;
+
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function ResultScreen.ResultScreen_C.PreConstruct
+// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           IsDesignTime                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UResultScreen_C::PreConstruct(bool IsDesignTime)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.PreConstruct");
+
+	struct
+	{
+		bool                           IsDesignTime;
+	} params;
+
+	params.IsDesignTime = IsDesignTime;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -341,22 +365,6 @@ void UResultScreen_C::HideHUD__DelegateSignature()
 void UResultScreen_C::ShowHUD__DelegateSignature()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ShowHUD__DelegateSignature");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function ResultScreen.ResultScreen_C.ReturnToHome__DelegateSignature
-// (FUNC_Public, FUNC_Delegate, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UResultScreen_C::ReturnToHome__DelegateSignature()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.ReturnToHome__DelegateSignature");
 
 	struct
 	{

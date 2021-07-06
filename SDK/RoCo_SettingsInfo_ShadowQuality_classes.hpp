@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_ShadowQuality.SettingsInfo_ShadowQuality_C
-// 0x0000 (0x0128 - 0x0128)
+// 0x0000 (0x0120 - 0x0120)
 class USettingsInfo_ShadowQuality_C : public USettingsInfo_Quality_C
 {
 public:

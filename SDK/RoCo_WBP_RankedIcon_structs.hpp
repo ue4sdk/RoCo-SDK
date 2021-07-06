@@ -7,9 +7,9 @@
 #endif
 
 #include "RoCo_Basic.hpp"
+#include "RoCo_E_RankedTiers_classes.hpp"
 #include "RoCo_UMG_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
-#include "RoCo_E_RankedTiers_classes.hpp"
 
 namespace SDK
 {

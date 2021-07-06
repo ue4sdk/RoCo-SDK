@@ -47,11 +47,11 @@ public:
 
 
 // Class OnlineSubsystemSteam.SteamNetDriver
-// 0x0008 (0x07C0 - 0x07B8)
+// 0x0008 (0x07E8 - 0x07E0)
 class USteamNetDriver : public UIpNetDriver
 {
 public:
-	unsigned char                                      UnknownData00[0x8];                                       // 0x07B8(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x8];                                       // 0x07E0(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

@@ -439,6 +439,26 @@ void UGameTouchHUDWidget_C::InitializeWidget(class APUMG_HUD* HUD)
 }
 
 
+// Function GameTouchHUDWidget.GameTouchHUDWidget_C.OnHoveredInteractableChanged
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class AActor*                  HoverTarget                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UGameTouchHUDWidget_C::OnHoveredInteractableChanged(class AActor* HoverTarget)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTouchHUDWidget.GameTouchHUDWidget_C.OnHoveredInteractableChanged");
+
+	struct
+	{
+		class AActor*                  HoverTarget;
+	} params;
+
+	params.HoverTarget = HoverTarget;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function GameTouchHUDWidget.GameTouchHUDWidget_C.ExecuteUbergraph_GameTouchHUDWidget
 // (FUNC_Final, FUNC_HasDefaults)
 // Parameters:

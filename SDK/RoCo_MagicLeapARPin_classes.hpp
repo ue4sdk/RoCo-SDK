@@ -25,12 +25,14 @@ public:
 	bool                                               bShouldPinActor;                                          // 0x021D(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x2];                                       // 0x021E(0x0002) MISSED OFFSET
 	class UClass*                                      PinDataClass;                                             // 0x0220(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnPersistentEntityPinned;                                 // 0x0228(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnPersistentEntityPinLost;                                // 0x0238(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnPersistentEntityPinned;                                 // 0x0228(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0228(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnPersistentEntityPinLost;                                // 0x0238(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0238(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FGuid                                       PinnedCFUID;                                              // 0x0248(0x0010) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	class USceneComponent*                             PinnedSceneComponent;                                     // 0x0258(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	class UMagicLeapARPinSaveGame*                     PinData;                                                  // 0x0260(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData02[0xD8];                                      // 0x0268(0x00D8) MISSED OFFSET
+	unsigned char                                      UnknownData04[0xD8];                                      // 0x0268(0x00D8) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

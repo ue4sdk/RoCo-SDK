@@ -172,8 +172,9 @@ public:
 class ULiveLinkComponent : public UActorComponent
 {
 public:
-	struct FScriptMulticastDelegate                    OnLiveLinkUpdated;                                        // 0x00B0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x10];                                      // 0x00C0(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnLiveLinkUpdated;                                        // 0x00B0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x00B0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData01[0x10];                                      // 0x00C0(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

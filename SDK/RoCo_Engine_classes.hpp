@@ -82,22 +82,22 @@ public:
 	TWeakObjectPtr<class UChildActorComponent>         ParentComponent;                                          // 0x0160(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	unsigned char                                      UnknownData05[0x8];                                       // 0x0168(0x0008) MISSED OFFSET
 	TArray<struct FName>                               Tags;                                                     // 0x0170(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTakeAnyDamage;                                          // 0x0180(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTakePointDamage;                                        // 0x0181(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTakeRadialDamage;                                       // 0x0182(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnActorBeginOverlap;                                      // 0x0183(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnActorEndOverlap;                                        // 0x0184(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnBeginCursorOver;                                        // 0x0185(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnEndCursorOver;                                          // 0x0186(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnClicked;                                                // 0x0187(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnReleased;                                               // 0x0188(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInputTouchBegin;                                        // 0x0189(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInputTouchEnd;                                          // 0x018A(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInputTouchEnter;                                        // 0x018B(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInputTouchLeave;                                        // 0x018C(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnActorHit;                                               // 0x018D(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnDestroyed;                                              // 0x018E(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnEndPlay;                                                // 0x018F(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnTakeAnyDamage;                                          // 0x0180(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnTakePointDamage;                                        // 0x0181(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnTakeRadialDamage;                                       // 0x0182(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnActorBeginOverlap;                                      // 0x0183(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnActorEndOverlap;                                        // 0x0184(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnBeginCursorOver;                                        // 0x0185(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnEndCursorOver;                                          // 0x0186(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnClicked;                                                // 0x0187(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnReleased;                                               // 0x0188(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInputTouchBegin;                                        // 0x0189(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInputTouchEnd;                                          // 0x018A(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInputTouchEnter;                                        // 0x018B(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInputTouchLeave;                                        // 0x018C(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnActorHit;                                               // 0x018D(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnDestroyed;                                              // 0x018E(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnEndPlay;                                                // 0x018F(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData06[0x60];                                      // 0x0190(0x0060) MISSED OFFSET
 	TArray<class UActorComponent*>                     InstanceComponents;                                       // 0x01F0(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	TArray<class UActorComponent*>                     BlueprintCreatedComponents;                               // 0x0200(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_NonTransactional, CPF_ContainsInstancedReference, CPF_TextExportTransient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -269,8 +269,8 @@ public:
 	unsigned char                                      bIsEditorOnly : 1;                                        // 0x008A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData07[0x1];                                       // 0x008B(0x0001) MISSED OFFSET
 	EComponentCreationMethod                           CreationMethod;                                           // 0x008C(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnComponentActivated;                                     // 0x008D(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnComponentDeactivated;                                   // 0x008E(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnComponentActivated;                                     // 0x008D(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnComponentDeactivated;                                   // 0x008E(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData08[0x1];                                       // 0x008F(0x0001) MISSED OFFSET
 	TArray<struct FSimpleMemberReference>              UCSModifiedProperties;                                    // 0x0090(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	unsigned char                                      UnknownData09[0x10];                                      // 0x00A0(0x0010) MISSED OFFSET
@@ -342,13 +342,18 @@ public:
 	unsigned char                                      UnknownData03[0x1];                                       // 0x014E(0x0001) MISSED OFFSET
 	TEnumAsByte<EComponentMobility>                    Mobility;                                                 // 0x014F(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TEnumAsByte<EDetailMode>                           DetailMode;                                               // 0x0150(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    PhysicsVolumeChangedDelegate;                             // 0x0151(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    PhysicsVolumeChangedDelegate;                             // 0x0151(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData04[0xBE];                                      // 0x0152(0x00BE) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
 		static auto ptr = UObject::FindObject<UClass>("Class Engine.SceneComponent");
 		return ptr;
+	}
+
+   FBoxSphereBounds GetBounds()
+	{
+		return *reinterpret_cast<FBoxSphereBounds*>(reinterpret_cast<uintptr_t>(this) + 0x100);
 	}
 
 
@@ -514,20 +519,20 @@ public:
 	TArray<class UPrimitiveComponent*>                 MoveIgnoreComponents;                                     // 0x02C8(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData09[0x10];                                      // 0x02D8(0x0010) MISSED OFFSET
 	struct FBodyInstance                               BodyInstance;                                             // 0x02E8(0x0110) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnComponentHit;                                           // 0x03F8(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnComponentBeginOverlap;                                  // 0x03F9(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnComponentEndOverlap;                                    // 0x03FA(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnComponentWake;                                          // 0x03FB(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnComponentSleep;                                         // 0x03FC(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnComponentHit;                                           // 0x03F8(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnComponentBeginOverlap;                                  // 0x03F9(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnComponentEndOverlap;                                    // 0x03FA(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnComponentWake;                                          // 0x03FB(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnComponentSleep;                                         // 0x03FC(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData10[0x1];                                       // 0x03FD(0x0001) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnBeginCursorOver;                                        // 0x03FE(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnEndCursorOver;                                          // 0x03FF(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnClicked;                                                // 0x0400(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnReleased;                                               // 0x0401(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInputTouchBegin;                                        // 0x0402(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInputTouchEnd;                                          // 0x0403(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInputTouchEnter;                                        // 0x0404(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInputTouchLeave;                                        // 0x0405(0x0010) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnBeginCursorOver;                                        // 0x03FE(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnEndCursorOver;                                          // 0x03FF(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnClicked;                                                // 0x0400(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnReleased;                                               // 0x0401(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInputTouchBegin;                                        // 0x0402(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInputTouchEnd;                                          // 0x0403(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInputTouchEnter;                                        // 0x0404(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInputTouchLeave;                                        // 0x0405(0x0001) (CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData11[0x1A];                                      // 0x0406(0x001A) MISSED OFFSET
 	class UPrimitiveComponent*                         LODParentPrimitive;                                       // 0x0420(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NonPIEDuplicateTransient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	float                                              CustomFOV;                                                // 0x0428(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -747,6 +752,16 @@ public:
 	{
 		static auto ptr = UObject::FindObject<UClass>("Class Engine.SkinnedMeshComponent");
 		return ptr;
+	}
+
+    TArray<FTransform> GetComponentSpaceTransforms(int currentReadComponentTransforms)
+	{
+		return *reinterpret_cast<TArray<FTransform>*>(reinterpret_cast<uintptr_t>(this) + 0x478 + 0x10 * (uintptr_t)currentReadComponentTransforms);
+	}
+
+    int GetCurrentReadComponentTransforms()
+	{
+		return *reinterpret_cast<int*>(reinterpret_cast<uintptr_t>(this) + 0x4BC);
 	}
 
 
@@ -1319,7 +1334,7 @@ public:
 
 
 // Class Engine.NetDriver
-// 0x0720 (0x0748 - 0x0028)
+// 0x0748 (0x0770 - 0x0028)
 class UNetDriver : public UObject
 {
 public:
@@ -1357,12 +1372,16 @@ public:
 	struct FName                                       NetDriverName;                                            // 0x0190(0x0008) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TArray<struct FChannelDefinition>                  ChannelDefinitions;                                       // 0x0198(0x0010) (CPF_ZeroConstructor, CPF_Config, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TMap<struct FName, struct FChannelDefinition>      ChannelDefinitionMap;                                     // 0x01A8(0x0050) (CPF_NativeAccessSpecifierPublic)
-	TArray<class UChannel*>                            ActorChannelPool;                                         // 0x01F8(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData07[0x8];                                       // 0x0208(0x0008) MISSED OFFSET
-	float                                              Time;                                                     // 0x0210(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData08[0x4D4];                                     // 0x0214(0x04D4) MISSED OFFSET
-	class UReplicationDriver*                          ReplicationDriver;                                        // 0x06E8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData09[0x58];                                      // 0x06F0(0x0058) MISSED OFFSET
+	TArray<struct FNetThrottleSpawnDefinition>         ThrottleSpawnDefinitions;                                 // 0x01F8(0x0010) (CPF_ZeroConstructor, CPF_Config, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TArray<int>                                        ThrottleSpawnsRemaining;                                  // 0x0208(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	uint32_t                                           ThrottleSpawnPausedFrameNumber;                           // 0x0218(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0x4];                                       // 0x021C(0x0004) MISSED OFFSET
+	TArray<class UChannel*>                            ActorChannelPool;                                         // 0x0220(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData08[0x8];                                       // 0x0230(0x0008) MISSED OFFSET
+	float                                              Time;                                                     // 0x0238(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData09[0x4D4];                                     // 0x023C(0x04D4) MISSED OFFSET
+	class UReplicationDriver*                          ReplicationDriver;                                        // 0x0710(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData10[0x58];                                      // 0x0718(0x0058) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1558,16 +1577,19 @@ public:
 	int                                                JumpMaxCount;                                             // 0x0344(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_Net, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                JumpCurrentCount;                                         // 0x0348(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData03[0x4];                                       // 0x034C(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnReachedJumpApex;                                        // 0x0350(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData04[0x10];                                      // 0x0360(0x0010) MISSED OFFSET
-	struct FScriptMulticastDelegate                    MovementModeChangedDelegate;                              // 0x0370(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnCharacterMovementUpdated;                               // 0x0380(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnReachedJumpApex;                                        // 0x0350(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x034C(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData05[0x10];                                      // 0x0360(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    MovementModeChangedDelegate;                              // 0x0370(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x0360(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnCharacterMovementUpdated;                               // 0x0380(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x0380(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FRootMotionSourceGroup                      SavedRootMotion;                                          // 0x0390(0x0038) (CPF_Transient, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData05[0x8];                                       // 0x03C8(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData08[0x8];                                       // 0x03C8(0x0008) MISSED OFFSET
 	struct FRootMotionMovementParams                   ClientRootMotionParams;                                   // 0x03D0(0x0040) (CPF_Transient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	TArray<struct FSimulatedRootMotionReplicatedMove>  RootMotionRepMoves;                                       // 0x0410(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FRepRootMotionMontage                       RepRootMotion;                                            // 0x0420(0x0098) (CPF_Net, CPF_RepNotify, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData06[0x8];                                       // 0x04B8(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData09[0x8];                                       // 0x04B8(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1736,7 +1758,7 @@ public:
 
 
 // Class Engine.CharacterMovementComponent
-// 0x04D8 (0x0610 - 0x0138)
+// 0x0548 (0x0680 - 0x0138)
 class UCharacterMovementComponent : public UPawnMovementComponent
 {
 public:
@@ -1797,10 +1819,11 @@ public:
 	unsigned char                                      bNetworkSkipProxyPredictionOnNetUpdate : 1;               // 0x01F2(0x0001) (CPF_Edit, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bNetworkAlwaysReplicateTransformUpdateTimestamp : 1;      // 0x01F2(0x0001) (CPF_Edit, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bDeferUpdateMoveComponent : 1;                            // 0x01F2(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bPreventMeshDoubleMode : 1;                               // 0x01F2(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bEnablePhysicsInteraction : 1;                            // 0x01F2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bTouchForceScaledToMass : 1;                              // 0x01F2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bPushForceScaledToMass : 1;                               // 0x01F2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bPushForceUsingZOffset : 1;                               // 0x01F2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bPushForceUsingZOffset : 1;                               // 0x01F3(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bScalePushForceToVelocity : 1;                            // 0x01F3(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData06[0x4];                                       // 0x01F4(0x0004) MISSED OFFSET
 	class USceneComponent*                             DeferredUpdatedMoveComponent;                             // 0x01F8(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -1820,94 +1843,103 @@ public:
 	struct FQuat                                       LastUpdateRotation;                                       // 0x0240(0x0010) (CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
 	struct FVector                                     LastUpdateLocation;                                       // 0x0250(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	struct FVector                                     LastUpdateVelocity;                                       // 0x025C(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              ServerLastTransformUpdateTimeStamp;                       // 0x0268(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              ServerLastClientGoodMoveAckTime;                          // 0x026C(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              ServerLastClientAdjustmentTime;                           // 0x0270(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FVector                                     PendingImpulseToApply;                                    // 0x0274(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FVector                                     PendingForceToApply;                                      // 0x0280(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              AnalogInputModifier;                                      // 0x028C(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData08[0xC];                                       // 0x0290(0x000C) MISSED OFFSET
-	float                                              MaxSimulationTimeStep;                                    // 0x029C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                MaxSimulationIterations;                                  // 0x02A0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                MaxJumpApexAttemptsPerSimulation;                         // 0x02A4(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              MaxDepenetrationWithGeometry;                             // 0x02A8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              MaxDepenetrationWithGeometryAsProxy;                      // 0x02AC(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              MaxDepenetrationWithPawn;                                 // 0x02B0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              MaxDepenetrationWithPawnAsProxy;                          // 0x02B4(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetworkSimulatedSmoothLocationTime;                       // 0x02B8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetworkSimulatedSmoothRotationTime;                       // 0x02BC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              ListenServerNetworkSimulatedSmoothLocationTime;           // 0x02C0(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              ListenServerNetworkSimulatedSmoothRotationTime;           // 0x02C4(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetProxyShrinkRadius;                                     // 0x02C8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetProxyShrinkHalfHeight;                                 // 0x02CC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetworkMaxSmoothUpdateDistance;                           // 0x02D0(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetworkNoSmoothUpdateDistance;                            // 0x02D4(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetworkMinTimeBetweenClientAckGoodMoves;                  // 0x02D8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetworkMinTimeBetweenClientAdjustments;                   // 0x02DC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetworkMinTimeBetweenClientAdjustmentsLargeCorrection;    // 0x02E0(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NetworkLargeClientCorrectionDistance;                     // 0x02E4(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              LedgeCheckThreshold;                                      // 0x02E8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              JumpOutOfWaterPitch;                                      // 0x02EC(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FFindFloorResult                            CurrentFloor;                                             // 0x02F0(0x0094) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_NoDestructor, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPublic)
-	TEnumAsByte<EMovementMode>                         DefaultLandMovementMode;                                  // 0x0384(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TEnumAsByte<EMovementMode>                         DefaultWaterMovementMode;                                 // 0x0385(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TEnumAsByte<EMovementMode>                         GroundMovementMode;                                       // 0x0386(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      bMaintainHorizontalGroundVelocity : 1;                    // 0x0387(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bImpartBaseVelocityX : 1;                                 // 0x0387(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bImpartBaseVelocityY : 1;                                 // 0x0387(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bImpartBaseVelocityZ : 1;                                 // 0x0387(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bImpartBaseAngularVelocity : 1;                           // 0x0387(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bJustTeleported : 1;                                      // 0x0387(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnTemplate, CPF_Transient, CPF_EditConst, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bNetworkUpdateReceived : 1;                               // 0x0387(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bNetworkMovementModeChanged : 1;                          // 0x0387(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bIgnoreClientMovementErrorChecksAndCorrection : 1;        // 0x0388(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bServerAcceptClientAuthoritativePosition : 1;             // 0x0388(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bNotifyApex : 1;                                          // 0x0388(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_EditConst, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bCheatFlying : 1;                                         // 0x0388(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bWantsToCrouch : 1;                                       // 0x0388(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bCrouchMaintainsBaseLocation : 1;                         // 0x0388(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bIgnoreBaseRotation : 1;                                  // 0x0388(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bFastAttachedMove : 1;                                    // 0x0388(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bAlwaysCheckFloor : 1;                                    // 0x0389(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bUseFlatBaseForFloorChecks : 1;                           // 0x0389(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bPerformingJumpOff : 1;                                   // 0x0389(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bWantsToLeaveNavWalking : 1;                              // 0x0389(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bUseRVOAvoidance : 1;                                     // 0x0389(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bRequestedMoveUseAcceleration : 1;                        // 0x0389(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData09 : 1;                                        // 0x0389(0x0001)
-	unsigned char                                      bWasSimulatingRootMotion : 1;                             // 0x0389(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bAllowPhysicsRotationDuringAnimRootMotion : 1;            // 0x038A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bHasRequestedVelocity : 1;                                // 0x038A(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      bRequestedMoveWithMaxSpeed : 1;                           // 0x038A(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      bWasAvoidanceUpdated : 1;                                 // 0x038A(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData10 : 2;                                        // 0x038A(0x0001)
-	unsigned char                                      bProjectNavMeshWalking : 1;                               // 0x038A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      bProjectNavMeshOnBothWorldChannels : 1;                   // 0x038A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData11[0x15];                                      // 0x038B(0x0015) MISSED OFFSET
-	float                                              AvoidanceConsiderationRadius;                             // 0x03A0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FVector                                     RequestedVelocity;                                        // 0x03A4(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                AvoidanceUID;                                             // 0x03B0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FNavAvoidanceMask                           AvoidanceGroup;                                           // 0x03B4(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
-	struct FNavAvoidanceMask                           GroupsToAvoid;                                            // 0x03B8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
-	struct FNavAvoidanceMask                           GroupsToIgnore;                                           // 0x03BC(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
-	float                                              AvoidanceWeight;                                          // 0x03C0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FVector                                     PendingLaunchVelocity;                                    // 0x03C4(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData12[0xA0];                                      // 0x03D0(0x00A0) MISSED OFFSET
-	float                                              NavMeshProjectionInterval;                                // 0x0470(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NavMeshProjectionTimer;                                   // 0x0474(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NavMeshProjectionInterpSpeed;                             // 0x0478(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NavMeshProjectionHeightScaleUp;                           // 0x047C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NavMeshProjectionHeightScaleDown;                         // 0x0480(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              NavWalkingFloorDistTolerance;                             // 0x0484(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FCharacterMovementComponentPostPhysicsTickFunction PostPhysicsTickFunction;                                  // 0x0488(0x0030) (CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData13[0x18];                                      // 0x04B8(0x0018) MISSED OFFSET
-	float                                              MinTimeBetweenTimeStampResets;                            // 0x04D0(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData14[0x4];                                       // 0x04D4(0x0004) MISSED OFFSET
-	struct FRootMotionSourceGroup                      CurrentRootMotion;                                        // 0x04D8(0x0038) (CPF_Transient, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData15[0x90];                                      // 0x0510(0x0090) MISSED OFFSET
-	struct FRootMotionMovementParams                   RootMotionParams;                                         // 0x05A0(0x0040) (CPF_Transient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FVector                                     AnimRootMotionVelocity;                                   // 0x05E0(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData16[0x24];                                      // 0x05EC(0x0024) MISSED OFFSET
+	bool                                               bHasQueuedServerMove;                                     // 0x0268(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData08[0x3];                                       // 0x0269(0x0003) MISSED OFFSET
+	struct FVector                                     QueuedServerLocation;                                     // 0x026C(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData09[0x8];                                       // 0x0278(0x0008) MISSED OFFSET
+	struct FQuat                                       QueuedServerRotation;                                     // 0x0280(0x0010) (CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData10[0x8];                                       // 0x0290(0x0008) MISSED OFFSET
+	TEnumAsByte<EMovementMode>                         ParallelUpdateMoveMode;                                   // 0x0298(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData11[0x7];                                       // 0x0299(0x0007) MISSED OFFSET
+	struct FTransform                                  ParallelUpdateTransform;                                  // 0x02A0(0x0030) (CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	float                                              ServerLastTransformUpdateTimeStamp;                       // 0x02D0(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              ServerLastClientGoodMoveAckTime;                          // 0x02D4(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              ServerLastClientAdjustmentTime;                           // 0x02D8(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FVector                                     PendingImpulseToApply;                                    // 0x02DC(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FVector                                     PendingForceToApply;                                      // 0x02E8(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              AnalogInputModifier;                                      // 0x02F4(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData12[0xC];                                       // 0x02F8(0x000C) MISSED OFFSET
+	float                                              MaxSimulationTimeStep;                                    // 0x0304(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                MaxSimulationIterations;                                  // 0x0308(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                MaxJumpApexAttemptsPerSimulation;                         // 0x030C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              MaxDepenetrationWithGeometry;                             // 0x0310(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              MaxDepenetrationWithGeometryAsProxy;                      // 0x0314(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              MaxDepenetrationWithPawn;                                 // 0x0318(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              MaxDepenetrationWithPawnAsProxy;                          // 0x031C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetworkSimulatedSmoothLocationTime;                       // 0x0320(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetworkSimulatedSmoothRotationTime;                       // 0x0324(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              ListenServerNetworkSimulatedSmoothLocationTime;           // 0x0328(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              ListenServerNetworkSimulatedSmoothRotationTime;           // 0x032C(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetProxyShrinkRadius;                                     // 0x0330(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetProxyShrinkHalfHeight;                                 // 0x0334(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetworkMaxSmoothUpdateDistance;                           // 0x0338(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetworkNoSmoothUpdateDistance;                            // 0x033C(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetworkMinTimeBetweenClientAckGoodMoves;                  // 0x0340(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetworkMinTimeBetweenClientAdjustments;                   // 0x0344(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetworkMinTimeBetweenClientAdjustmentsLargeCorrection;    // 0x0348(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NetworkLargeClientCorrectionDistance;                     // 0x034C(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              LedgeCheckThreshold;                                      // 0x0350(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              JumpOutOfWaterPitch;                                      // 0x0354(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FFindFloorResult                            CurrentFloor;                                             // 0x0358(0x0094) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_NoDestructor, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPublic)
+	TEnumAsByte<EMovementMode>                         DefaultLandMovementMode;                                  // 0x03EC(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TEnumAsByte<EMovementMode>                         DefaultWaterMovementMode;                                 // 0x03ED(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TEnumAsByte<EMovementMode>                         GroundMovementMode;                                       // 0x03EE(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      bMaintainHorizontalGroundVelocity : 1;                    // 0x03EF(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bImpartBaseVelocityX : 1;                                 // 0x03EF(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bImpartBaseVelocityY : 1;                                 // 0x03EF(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bImpartBaseVelocityZ : 1;                                 // 0x03EF(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bImpartBaseAngularVelocity : 1;                           // 0x03EF(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bJustTeleported : 1;                                      // 0x03EF(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnTemplate, CPF_Transient, CPF_EditConst, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bNetworkUpdateReceived : 1;                               // 0x03EF(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bNetworkMovementModeChanged : 1;                          // 0x03EF(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bIgnoreClientMovementErrorChecksAndCorrection : 1;        // 0x03F0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bServerAcceptClientAuthoritativePosition : 1;             // 0x03F0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bNotifyApex : 1;                                          // 0x03F0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_EditConst, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bCheatFlying : 1;                                         // 0x03F0(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bWantsToCrouch : 1;                                       // 0x03F0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bCrouchMaintainsBaseLocation : 1;                         // 0x03F0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bIgnoreBaseRotation : 1;                                  // 0x03F0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bFastAttachedMove : 1;                                    // 0x03F0(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bAlwaysCheckFloor : 1;                                    // 0x03F1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bUseFlatBaseForFloorChecks : 1;                           // 0x03F1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bPerformingJumpOff : 1;                                   // 0x03F1(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bWantsToLeaveNavWalking : 1;                              // 0x03F1(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bUseRVOAvoidance : 1;                                     // 0x03F1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bRequestedMoveUseAcceleration : 1;                        // 0x03F1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData13 : 1;                                        // 0x03F1(0x0001)
+	unsigned char                                      bWasSimulatingRootMotion : 1;                             // 0x03F1(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bAllowPhysicsRotationDuringAnimRootMotion : 1;            // 0x03F2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bHasRequestedVelocity : 1;                                // 0x03F2(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      bRequestedMoveWithMaxSpeed : 1;                           // 0x03F2(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      bWasAvoidanceUpdated : 1;                                 // 0x03F2(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData14 : 2;                                        // 0x03F2(0x0001)
+	unsigned char                                      bProjectNavMeshWalking : 1;                               // 0x03F2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      bProjectNavMeshOnBothWorldChannels : 1;                   // 0x03F2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData15[0x15];                                      // 0x03F3(0x0015) MISSED OFFSET
+	float                                              AvoidanceConsiderationRadius;                             // 0x0408(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FVector                                     RequestedVelocity;                                        // 0x040C(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                AvoidanceUID;                                             // 0x0418(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FNavAvoidanceMask                           AvoidanceGroup;                                           // 0x041C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
+	struct FNavAvoidanceMask                           GroupsToAvoid;                                            // 0x0420(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
+	struct FNavAvoidanceMask                           GroupsToIgnore;                                           // 0x0424(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
+	float                                              AvoidanceWeight;                                          // 0x0428(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FVector                                     PendingLaunchVelocity;                                    // 0x042C(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData16[0xA0];                                      // 0x0438(0x00A0) MISSED OFFSET
+	float                                              NavMeshProjectionInterval;                                // 0x04D8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NavMeshProjectionTimer;                                   // 0x04DC(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NavMeshProjectionInterpSpeed;                             // 0x04E0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NavMeshProjectionHeightScaleUp;                           // 0x04E4(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NavMeshProjectionHeightScaleDown;                         // 0x04E8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              NavWalkingFloorDistTolerance;                             // 0x04EC(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FCharacterMovementComponentPostPhysicsTickFunction PostPhysicsTickFunction;                                  // 0x04F0(0x0030) (CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData17[0x18];                                      // 0x0520(0x0018) MISSED OFFSET
+	float                                              MinTimeBetweenTimeStampResets;                            // 0x0538(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData18[0x4];                                       // 0x053C(0x0004) MISSED OFFSET
+	struct FRootMotionSourceGroup                      CurrentRootMotion;                                        // 0x0540(0x0038) (CPF_Transient, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData19[0x98];                                      // 0x0578(0x0098) MISSED OFFSET
+	struct FRootMotionMovementParams                   RootMotionParams;                                         // 0x0610(0x0040) (CPF_Transient, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FVector                                     AnimRootMotionVelocity;                                   // 0x0650(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData20[0x24];                                      // 0x065C(0x0024) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2169,16 +2201,17 @@ public:
 	unsigned char                                      UnknownData00[0x8];                                       // 0x0220(0x0008) MISSED OFFSET
 	class APlayerState*                                PlayerState;                                              // 0x0228(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Net, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_RepNotify, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x8];                                       // 0x0230(0x0008) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnInstigatedAnyDamage;                                    // 0x0238(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInstigatedAnyDamage;                                    // 0x0238(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0230(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FName                                       StateName;                                                // 0x0248(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class APawn*                                       Pawn;                                                     // 0x0250(0x0008) (CPF_Net, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_RepNotify, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData02[0x8];                                       // 0x0258(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x8];                                       // 0x0258(0x0008) MISSED OFFSET
 	class ACharacter*                                  Character;                                                // 0x0260(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	class USceneComponent*                             TransformComponent;                                       // 0x0268(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData03[0x18];                                      // 0x0270(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData04[0x18];                                      // 0x0270(0x0018) MISSED OFFSET
 	struct FRotator                                    ControlRotation;                                          // 0x0288(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      bAttachToPawn : 1;                                        // 0x0294(0x0001) (CPF_Edit, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData04[0x3];                                       // 0x0295(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData05[0x3];                                       // 0x0295(0x0003) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3028,7 +3061,7 @@ public:
 
 
 // Class Engine.SkeletalMeshComponent
-// 0x0500 (0x0B70 - 0x0670)
+// 0x0520 (0x0B90 - 0x0670)
 class USkeletalMeshComponent : public USkinnedMeshComponent
 {
 public:
@@ -3040,93 +3073,95 @@ public:
 	unsigned char                                      UnknownData00[0x10];                                      // 0x06A8(0x0010) MISSED OFFSET
 	struct FVector                                     RootBoneTranslation;                                      // 0x06B8(0x000C) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FVector                                     LineCheckBoundsScale;                                     // 0x06C4(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x20];                                      // 0x06D0(0x0020) MISSED OFFSET
-	TArray<class UAnimInstance*>                       LinkedInstances;                                          // 0x06F0(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	TArray<struct FTransform>                          CachedBoneSpaceTransforms;                                // 0x0700(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	TArray<struct FTransform>                          CachedComponentSpaceTransforms;                           // 0x0710(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData02[0x20];                                      // 0x0720(0x0020) MISSED OFFSET
-	float                                              GlobalAnimRateScale;                                      // 0x0740(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TEnumAsByte<EKinematicBonesUpdateToPhysics>        KinematicBonesUpdateType;                                 // 0x0744(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TEnumAsByte<EPhysicsTransformUpdateMode>           PhysicsTransformUpdateMode;                               // 0x0745(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x1];                                       // 0x0746(0x0001) MISSED OFFSET
-	TEnumAsByte<EAnimationMode>                        AnimationMode;                                            // 0x0747(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData04[0x1];                                       // 0x0748(0x0001) MISSED OFFSET
-	unsigned char                                      bDisablePostProcessBlueprint : 1;                         // 0x0749(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData05 : 1;                                        // 0x0749(0x0001)
-	unsigned char                                      bUpdateOverlapsOnAnimationFinalize : 1;                   // 0x0749(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData06 : 1;                                        // 0x0749(0x0001)
-	unsigned char                                      bHasValidBodies : 1;                                      // 0x0749(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData07 : 1;                                        // 0x0749(0x0001)
-	unsigned char                                      bBlendPhysics : 1;                                        // 0x0749(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bEnablePhysicsOnDedicatedServer : 1;                      // 0x0749(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bUpdateJointsFromAnimation : 1;                           // 0x074A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bDisableClothSimulation : 1;                              // 0x074A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bDisableRigidBodyAnimNode : 1;                            // 0x074A(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      bAllowAnimCurveEvaluation : 1;                            // 0x074A(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      bDisableAnimCurves : 1;                                   // 0x074A(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData08 : 3;                                        // 0x074A(0x0001)
-	unsigned char                                      bCollideWithEnvironment : 1;                              // 0x074B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bCollideWithAttachedChildren : 1;                         // 0x074B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bLocalSpaceSimulation : 1;                                // 0x074B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bResetAfterTeleport : 1;                                  // 0x074B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData09 : 1;                                        // 0x074B(0x0001)
-	unsigned char                                      bDeferKinematicBoneUpdate : 1;                            // 0x074B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bNoSkeletonUpdate : 1;                                    // 0x074B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bPauseAnims : 1;                                          // 0x074B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bUseRefPoseOnInitAnim : 1;                                // 0x074C(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bEnablePerPolyCollision : 1;                              // 0x074C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bForceRefpose : 1;                                        // 0x074C(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bOnlyAllowAutonomousTickPose : 1;                         // 0x074C(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bIsAutonomousTickPose : 1;                                // 0x074C(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bOldForceRefPose : 1;                                     // 0x074C(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bShowPrePhysBones : 1;                                    // 0x074C(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bRequiredBonesUpToDate : 1;                               // 0x074C(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bAnimTreeInitialised : 1;                                 // 0x074D(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bIncludeComponentLocationIntoBounds : 1;                  // 0x074D(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bEnableLineCheckWithBounds : 1;                           // 0x074D(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bUseBendingElements : 1;                                  // 0x074D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bUseTetrahedralConstraints : 1;                           // 0x074D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bUseThinShellVolumeConstraints : 1;                       // 0x074D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bUseSelfCollisions : 1;                                   // 0x074D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bUseContinuousCollisionDetection : 1;                     // 0x074D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bPropagateCurvesToSlaves : 1;                             // 0x074E(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bSkipKinematicUpdateWhenInterpolating : 1;                // 0x074E(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bSkipBoundsUpdateWhenInterpolating : 1;                   // 0x074E(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData10 : 1;                                        // 0x074E(0x0001)
-	unsigned char                                      bNeedsQueuedAnimEventsDispatched : 1;                     // 0x074E(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData11[0x1];                                       // 0x074F(0x0001) MISSED OFFSET
-	uint16_t                                           CachedAnimCurveUidVersion;                                // 0x0750(0x0002) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	EClothMassMode                                     MassMode;                                                 // 0x0752(0x0001) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData12[0x1];                                       // 0x0753(0x0001) MISSED OFFSET
-	float                                              UniformMass;                                              // 0x0754(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              TotalMass;                                                // 0x0758(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              Density;                                                  // 0x075C(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              MinPerParticleMass;                                       // 0x0760(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              ClothBlendWeight;                                         // 0x0764(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              EdgeStiffness;                                            // 0x0768(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              BendingStiffness;                                         // 0x076C(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              AreaStiffness;                                            // 0x0770(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              VolumeStiffness;                                          // 0x0774(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              StrainLimitingStiffness;                                  // 0x0778(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              ShapeTargetStiffness;                                     // 0x077C(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TArray<struct FName>                               DisallowedAnimCurves;                                     // 0x0780(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	class UBodySetup*                                  BodySetup;                                                // 0x0790(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData13[0x8];                                       // 0x0798(0x0008) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnConstraintBroken;                                       // 0x07A0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	class UClass*                                      ClothingSimulationFactory;                                // 0x07B0(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData14[0xD0];                                      // 0x07B8(0x00D0) MISSED OFFSET
-	float                                              TeleportDistanceThreshold;                                // 0x0888(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	float                                              TeleportRotationThreshold;                                // 0x088C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData15[0x8];                                       // 0x0890(0x0008) MISSED OFFSET
-	uint32_t                                           LastPoseTickFrame;                                        // 0x0898(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData16[0xC];                                       // 0x089C(0x000C) MISSED OFFSET
-	bool                                               bDelayedAnimTaskValid;                                    // 0x08A8(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bDisableDelayedAnimTask;                                  // 0x08A9(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData17[0x56];                                      // 0x08AA(0x0056) MISSED OFFSET
-	class UClothingSimulationInteractor*               ClothingInteractor;                                       // 0x0900(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData18[0x128];                                     // 0x0908(0x0128) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnAnimInitialized;                                        // 0x0A30(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData19[0x130];                                     // 0x0A40(0x0130) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x40];                                      // 0x06D0(0x0040) MISSED OFFSET
+	TArray<class UAnimInstance*>                       LinkedInstances;                                          // 0x0710(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	TArray<struct FTransform>                          CachedBoneSpaceTransforms;                                // 0x0720(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	TArray<struct FTransform>                          CachedComponentSpaceTransforms;                           // 0x0730(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0x20];                                      // 0x0740(0x0020) MISSED OFFSET
+	float                                              GlobalAnimRateScale;                                      // 0x0760(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TEnumAsByte<EKinematicBonesUpdateToPhysics>        KinematicBonesUpdateType;                                 // 0x0764(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TEnumAsByte<EPhysicsTransformUpdateMode>           PhysicsTransformUpdateMode;                               // 0x0765(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0x1];                                       // 0x0766(0x0001) MISSED OFFSET
+	TEnumAsByte<EAnimationMode>                        AnimationMode;                                            // 0x0767(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData04[0x1];                                       // 0x0768(0x0001) MISSED OFFSET
+	unsigned char                                      bDisablePostProcessBlueprint : 1;                         // 0x0769(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData05 : 1;                                        // 0x0769(0x0001)
+	unsigned char                                      bUpdateOverlapsOnAnimationFinalize : 1;                   // 0x0769(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06 : 1;                                        // 0x0769(0x0001)
+	unsigned char                                      bHasValidBodies : 1;                                      // 0x0769(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07 : 1;                                        // 0x0769(0x0001)
+	unsigned char                                      bBlendPhysics : 1;                                        // 0x0769(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bEnablePhysicsOnDedicatedServer : 1;                      // 0x0769(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bUpdateJointsFromAnimation : 1;                           // 0x076A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bDisableClothSimulation : 1;                              // 0x076A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bDisableRigidBodyAnimNode : 1;                            // 0x076A(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      bAllowAnimCurveEvaluation : 1;                            // 0x076A(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      bDisableAnimCurves : 1;                                   // 0x076A(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData08 : 3;                                        // 0x076A(0x0001)
+	unsigned char                                      bCollideWithEnvironment : 1;                              // 0x076B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bCollideWithAttachedChildren : 1;                         // 0x076B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bLocalSpaceSimulation : 1;                                // 0x076B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bResetAfterTeleport : 1;                                  // 0x076B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData09 : 1;                                        // 0x076B(0x0001)
+	unsigned char                                      bDeferKinematicBoneUpdate : 1;                            // 0x076B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bNoSkeletonUpdate : 1;                                    // 0x076B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bPauseAnims : 1;                                          // 0x076B(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bUseRefPoseOnInitAnim : 1;                                // 0x076C(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bEnablePerPolyCollision : 1;                              // 0x076C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bForceRefpose : 1;                                        // 0x076C(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bOnlyAllowAutonomousTickPose : 1;                         // 0x076C(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bIsAutonomousTickPose : 1;                                // 0x076C(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bOldForceRefPose : 1;                                     // 0x076C(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bShowPrePhysBones : 1;                                    // 0x076C(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bRequiredBonesUpToDate : 1;                               // 0x076C(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bAnimTreeInitialised : 1;                                 // 0x076D(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bIncludeComponentLocationIntoBounds : 1;                  // 0x076D(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bEnableLineCheckWithBounds : 1;                           // 0x076D(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bUseBendingElements : 1;                                  // 0x076D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bUseTetrahedralConstraints : 1;                           // 0x076D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bUseThinShellVolumeConstraints : 1;                       // 0x076D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bUseSelfCollisions : 1;                                   // 0x076D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bUseContinuousCollisionDetection : 1;                     // 0x076D(0x0001) (CPF_Deprecated, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bPropagateCurvesToSlaves : 1;                             // 0x076E(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bSkipKinematicUpdateWhenInterpolating : 1;                // 0x076E(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bSkipBoundsUpdateWhenInterpolating : 1;                   // 0x076E(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData10 : 1;                                        // 0x076E(0x0001)
+	unsigned char                                      bNeedsQueuedAnimEventsDispatched : 1;                     // 0x076E(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData11[0x1];                                       // 0x076F(0x0001) MISSED OFFSET
+	uint16_t                                           CachedAnimCurveUidVersion;                                // 0x0770(0x0002) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EClothMassMode                                     MassMode;                                                 // 0x0772(0x0001) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData12[0x1];                                       // 0x0773(0x0001) MISSED OFFSET
+	float                                              UniformMass;                                              // 0x0774(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              TotalMass;                                                // 0x0778(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              Density;                                                  // 0x077C(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              MinPerParticleMass;                                       // 0x0780(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              ClothBlendWeight;                                         // 0x0784(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              EdgeStiffness;                                            // 0x0788(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              BendingStiffness;                                         // 0x078C(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              AreaStiffness;                                            // 0x0790(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              VolumeStiffness;                                          // 0x0794(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              StrainLimitingStiffness;                                  // 0x0798(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              ShapeTargetStiffness;                                     // 0x079C(0x0004) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TArray<struct FName>                               DisallowedAnimCurves;                                     // 0x07A0(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	class UBodySetup*                                  BodySetup;                                                // 0x07B0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData13[0x8];                                       // 0x07B8(0x0008) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnConstraintBroken;                                       // 0x07C0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData14[0xF];                                       // 0x07B8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	class UClass*                                      ClothingSimulationFactory;                                // 0x07D0(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData15[0xD0];                                      // 0x07D8(0x00D0) MISSED OFFSET
+	float                                              TeleportDistanceThreshold;                                // 0x08A8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	float                                              TeleportRotationThreshold;                                // 0x08AC(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData16[0x8];                                       // 0x08B0(0x0008) MISSED OFFSET
+	uint32_t                                           LastPoseTickFrame;                                        // 0x08B8(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData17[0xC];                                       // 0x08BC(0x000C) MISSED OFFSET
+	bool                                               bDelayedAnimTaskValid;                                    // 0x08C8(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bDisableDelayedAnimTask;                                  // 0x08C9(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData18[0x56];                                      // 0x08CA(0x0056) MISSED OFFSET
+	class UClothingSimulationInteractor*               ClothingInteractor;                                       // 0x0920(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData19[0x128];                                     // 0x0928(0x0128) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnAnimInitialized;                                        // 0x0A50(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData20[0xF];                                       // 0x0928(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData21[0x130];                                     // 0x0A60(0x0130) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3334,15 +3369,19 @@ public:
 	unsigned char                                      bPropagateNotifiesToLinkedInstances : 1;                  // 0x0031(0x0001) (CPF_Edit, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bQueueMontageEvents : 1;                                  // 0x0031(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	unsigned char                                      UnknownData01[0x6];                                       // 0x0032(0x0006) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnMontageBlendingOut;                                     // 0x0038(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnMontageStarted;                                         // 0x0048(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnMontageEnded;                                           // 0x0058(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnAllMontageInstancesEnded;                               // 0x0068(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x88];                                      // 0x0078(0x0088) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnMontageBlendingOut;                                     // 0x0038(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0032(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnMontageStarted;                                         // 0x0048(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0048(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnMontageEnded;                                           // 0x0058(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0058(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnAllMontageInstancesEnded;                               // 0x0068(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0068(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData06[0x88];                                      // 0x0078(0x0088) MISSED OFFSET
 	struct FAnimNotifyQueue                            NotifyQueue;                                              // 0x0100(0x0070) (CPF_Transient, CPF_NativeAccessSpecifierPublic)
 	TArray<struct FAnimNotifyEvent>                    ActiveAnimNotifyState;                                    // 0x0170(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              SubAnimInstanceWeight;                                    // 0x0180(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0xEC];                                      // 0x0184(0x00EC) MISSED OFFSET
+	unsigned char                                      UnknownData07[0xEC];                                      // 0x0184(0x00EC) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3636,19 +3675,24 @@ public:
 	EAttachmentRule                                    AutoAttachRotationRule;                                   // 0x0685(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EAttachmentRule                                    AutoAttachScaleRule;                                      // 0x0686(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData07[0x1];                                       // 0x0687(0x0001) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnAudioFinished;                                          // 0x0688(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData08[0x18];                                      // 0x0698(0x0018) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnAudioPlaybackPercent;                                   // 0x06B0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData09[0x18];                                      // 0x06C0(0x0018) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnAudioSingleEnvelopeValue;                               // 0x06D8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData10[0x18];                                      // 0x06E8(0x0018) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnAudioMultiEnvelopeValue;                                // 0x0700(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData11[0x18];                                      // 0x0710(0x0018) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnAudioFinished;                                          // 0x0688(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x0687(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData09[0x18];                                      // 0x0698(0x0018) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnAudioPlaybackPercent;                                   // 0x06B0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData10[0xF];                                       // 0x0698(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData11[0x18];                                      // 0x06C0(0x0018) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnAudioSingleEnvelopeValue;                               // 0x06D8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData12[0xF];                                       // 0x06C0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData13[0x18];                                      // 0x06E8(0x0018) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnAudioMultiEnvelopeValue;                                // 0x0700(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData14[0xF];                                       // 0x06E8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData15[0x18];                                      // 0x0710(0x0018) MISSED OFFSET
 	struct FSoundModulation                            Modulation;                                               // 0x0728(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             OnQueueSubtitles;                                         // 0x0738(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             OnQueueSubtitles;                                         // 0x0738(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData16[0x6];                                       // 0x0738(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	TWeakObjectPtr<class USceneComponent>              AutoAttachParent;                                         // 0x0748(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FName                                       AutoAttachSocketName;                                     // 0x0750(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData12[0x98];                                      // 0x0758(0x0098) MISSED OFFSET
+	unsigned char                                      UnknownData17[0x98];                                      // 0x0758(0x0098) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4113,7 +4157,8 @@ public:
 	unsigned char                                      UnknownData04[0x3];                                       // 0x0105(0x0003) MISSED OFFSET
 	int                                                HDRDisplayOutputNits;                                     // 0x0108(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      UnknownData05[0x4];                                       // 0x010C(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnGameUserSettingsUINeedsUpdate;                          // 0x0110(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	struct FScriptMulticastDelegate                    OnGameUserSettingsUINeedsUpdate;                          // 0x0110(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x010C(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -4541,8 +4586,10 @@ public:
 	float                                              BounceVelocityStopSimulatingThreshold;                    // 0x011C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              MinFrictionFraction;                                      // 0x0120(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x4];                                       // 0x0124(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnProjectileBounce;                                       // 0x0128(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnProjectileStop;                                         // 0x0138(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnProjectileBounce;                                       // 0x0128(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0124(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnProjectileStop;                                         // 0x0138(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0138(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	float                                              HomingAccelerationMagnitude;                              // 0x0148(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TWeakObjectPtr<class USceneComponent>              HomingTargetComponent;                                    // 0x014C(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              MaxSimulationTimeStep;                                    // 0x0154(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -4552,7 +4599,7 @@ public:
 	float                                              InterpRotationTime;                                       // 0x0164(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              InterpLocationMaxLagDistance;                             // 0x0168(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              InterpLocationSnapToTargetDistance;                       // 0x016C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x60];                                      // 0x0170(0x0060) MISSED OFFSET
+	unsigned char                                      UnknownData04[0x60];                                      // 0x0170(0x0060) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4681,35 +4728,41 @@ public:
 	EParticleSignificanceLevel                         RequiredSignificance;                                     // 0x0466(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData04[0x1];                                       // 0x0467(0x0001) MISSED OFFSET
 	TArray<struct FParticleSysParam>                   InstanceParameters;                                       // 0x0468(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnParticleSpawn;                                          // 0x0478(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnParticleBurst;                                          // 0x0488(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnParticleDeath;                                          // 0x0498(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnParticleCollide;                                        // 0x04A8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnParticleCollidePacked;                                  // 0x04B8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnParticleSpawn;                                          // 0x0478(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0478(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnParticleBurst;                                          // 0x0488(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x0488(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnParticleDeath;                                          // 0x0498(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x0498(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnParticleCollide;                                        // 0x04A8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x04A8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnParticleCollidePacked;                                  // 0x04B8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData09[0xF];                                       // 0x04B8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FParticleChannelContainer                   m_ParticleChannels;                                       // 0x04C8(0x0004) (CPF_Edit, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	bool                                               bOldPositionValid;                                        // 0x04CC(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData05[0x3];                                       // 0x04CD(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData10[0x3];                                       // 0x04CD(0x0003) MISSED OFFSET
 	struct FVector                                     OldPosition;                                              // 0x04D0(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FVector                                     PartSysVelocity;                                          // 0x04DC(0x000C) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              WarmupTime;                                               // 0x04E8(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              WarmupTickRate;                                           // 0x04EC(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData06[0x4];                                       // 0x04F0(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData11[0x4];                                       // 0x04F0(0x0004) MISSED OFFSET
 	float                                              SecondsBeforeInactive;                                    // 0x04F4(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData07[0x4];                                       // 0x04F8(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData12[0x4];                                       // 0x04F8(0x0004) MISSED OFFSET
 	float                                              MaxTimeBeforeForceUpdateTransform;                        // 0x04FC(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData08[0x20];                                      // 0x0500(0x0020) MISSED OFFSET
+	unsigned char                                      UnknownData13[0x20];                                      // 0x0500(0x0020) MISSED OFFSET
 	TArray<class UParticleSystemReplay*>               ReplayClips;                                              // 0x0520(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData09[0x8];                                       // 0x0530(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData14[0x8];                                       // 0x0530(0x0008) MISSED OFFSET
 	float                                              CustomTimeDilation;                                       // 0x0538(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData10[0x54];                                      // 0x053C(0x0054) MISSED OFFSET
+	unsigned char                                      UnknownData15[0x54];                                      // 0x053C(0x0054) MISSED OFFSET
 	TWeakObjectPtr<class USceneComponent>              AutoAttachParent;                                         // 0x0590(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FName                                       AutoAttachSocketName;                                     // 0x0598(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EAttachmentRule                                    AutoAttachLocationRule;                                   // 0x05A0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EAttachmentRule                                    AutoAttachRotationRule;                                   // 0x05A1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EAttachmentRule                                    AutoAttachScaleRule;                                      // 0x05A2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData11[0x2D];                                      // 0x05A3(0x002D) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnSystemFinished;                                         // 0x05D0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData12[0xD0];                                      // 0x05E0(0x00D0) MISSED OFFSET
+	unsigned char                                      UnknownData16[0x2D];                                      // 0x05A3(0x002D) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnSystemFinished;                                         // 0x05D0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData17[0xF];                                       // 0x05A3(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData18[0xD0];                                      // 0x05E0(0x00D0) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -5319,14 +5372,14 @@ public:
 
 
 // Class Engine.ActorChannel
-// 0x0228 (0x0298 - 0x0070)
+// 0x0230 (0x02A0 - 0x0070)
 class UActorChannel : public UChannel
 {
 public:
 	class AActor*                                      Actor;                                                    // 0x0070(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0xE8];                                      // 0x0078(0x00E8) MISSED OFFSET
-	TArray<class UObject*>                             CreateSubObjects;                                         // 0x0160(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x128];                                     // 0x0170(0x0128) MISSED OFFSET
+	unsigned char                                      UnknownData00[0xF0];                                      // 0x0078(0x00F0) MISSED OFFSET
+	TArray<class UObject*>                             CreateSubObjects;                                         // 0x0168(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x128];                                     // 0x0178(0x0128) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -6156,7 +6209,8 @@ public:
 class UAnimSingleNodeInstance : public UAnimInstance
 {
 public:
-	struct FScriptDelegate                             PostEvaluateAnimEvent;                                    // 0x0270(0x0014) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             PostEvaluateAnimEvent;                                    // 0x0270(0x000A) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0270(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -6228,15 +6282,24 @@ public:
 class UApplicationLifecycleComponent : public UActorComponent
 {
 public:
-	struct FScriptMulticastDelegate                    ApplicationWillDeactivateDelegate;                        // 0x00B0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationHasReactivatedDelegate;                        // 0x00C0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationWillEnterBackgroundDelegate;                   // 0x00D0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationHasEnteredForegroundDelegate;                  // 0x00E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationWillTerminateDelegate;                         // 0x00F0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationShouldUnloadResourcesDelegate;                 // 0x0100(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationReceivedStartupArgumentsDelegate;              // 0x0110(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTemperatureChangeDelegate;                              // 0x0120(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnLowPowerModeDelegate;                                   // 0x0130(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    ApplicationWillDeactivateDelegate;                        // 0x00B0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x00B0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationHasReactivatedDelegate;                        // 0x00C0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x00C0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationWillEnterBackgroundDelegate;                   // 0x00D0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x00D0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationHasEnteredForegroundDelegate;                  // 0x00E0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x00E0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationWillTerminateDelegate;                         // 0x00F0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x00F0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationShouldUnloadResourcesDelegate;                 // 0x0100(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0100(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationReceivedStartupArgumentsDelegate;              // 0x0110(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x0110(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnTemperatureChangeDelegate;                              // 0x0120(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x0120(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnLowPowerModeDelegate;                                   // 0x0130(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x0130(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -6350,8 +6413,9 @@ public:
 class UAsyncActionHandleSaveGame : public UBlueprintAsyncActionBase
 {
 public:
-	struct FScriptMulticastDelegate                    Completed;                                                // 0x0030(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0040(0x0020) MISSED OFFSET
+	struct FScriptMulticastDelegate                    Completed;                                                // 0x0030(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0030(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData01[0x20];                                      // 0x0040(0x0020) MISSED OFFSET
 	class USaveGame*                                   SaveGameObject;                                           // 0x0060(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
@@ -6387,7 +6451,8 @@ public:
 class UAsyncActionLoadPrimaryAsset : public UAsyncActionLoadPrimaryAssetBase
 {
 public:
-	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0078(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -6405,7 +6470,8 @@ public:
 class UAsyncActionLoadPrimaryAssetClass : public UAsyncActionLoadPrimaryAssetBase
 {
 public:
-	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0078(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -6423,7 +6489,8 @@ public:
 class UAsyncActionLoadPrimaryAssetList : public UAsyncActionLoadPrimaryAssetBase
 {
 public:
-	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0078(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -6441,7 +6508,8 @@ public:
 class UAsyncActionLoadPrimaryAssetClassList : public UAsyncActionLoadPrimaryAssetBase
 {
 public:
-	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0078(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -6459,7 +6527,8 @@ public:
 class UAsyncActionChangePrimaryAssetBundles : public UAsyncActionLoadPrimaryAssetBase
 {
 public:
-	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    Completed;                                                // 0x0078(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0078(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -6945,19 +7014,32 @@ public:
 class UPlatformGameInstance : public UGameInstance
 {
 public:
-	struct FScriptMulticastDelegate                    ApplicationWillDeactivateDelegate;                        // 0x0198(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationHasReactivatedDelegate;                        // 0x01A8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationWillEnterBackgroundDelegate;                   // 0x01B8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationHasEnteredForegroundDelegate;                  // 0x01C8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationWillTerminateDelegate;                         // 0x01D8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationShouldUnloadResourcesDelegate;                 // 0x01E8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationReceivedStartupArgumentsDelegate;              // 0x01F8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationRegisteredForRemoteNotificationsDelegate;      // 0x0208(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationRegisteredForUserNotificationsDelegate;        // 0x0218(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationFailedToRegisterForRemoteNotificationsDelegate;// 0x0228(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationReceivedRemoteNotificationDelegate;            // 0x0238(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationReceivedLocalNotificationDelegate;             // 0x0248(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    ApplicationReceivedScreenOrientationChangedNotificationDelegate;// 0x0258(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    ApplicationWillDeactivateDelegate;                        // 0x0198(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0198(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationHasReactivatedDelegate;                        // 0x01A8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x01A8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationWillEnterBackgroundDelegate;                   // 0x01B8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x01B8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationHasEnteredForegroundDelegate;                  // 0x01C8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x01C8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationWillTerminateDelegate;                         // 0x01D8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x01D8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationShouldUnloadResourcesDelegate;                 // 0x01E8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x01E8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationReceivedStartupArgumentsDelegate;              // 0x01F8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x01F8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationRegisteredForRemoteNotificationsDelegate;      // 0x0208(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x0208(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationRegisteredForUserNotificationsDelegate;        // 0x0218(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x0218(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationFailedToRegisterForRemoteNotificationsDelegate;// 0x0228(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData09[0xF];                                       // 0x0228(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationReceivedRemoteNotificationDelegate;            // 0x0238(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData10[0xF];                                       // 0x0238(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationReceivedLocalNotificationDelegate;             // 0x0248(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData11[0xF];                                       // 0x0248(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    ApplicationReceivedScreenOrientationChangedNotificationDelegate;// 0x0258(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData12[0xF];                                       // 0x0258(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -7543,10 +7625,11 @@ public:
 class UCanvasRenderTarget2D : public UTextureRenderTarget2D
 {
 public:
-	struct FScriptMulticastDelegate                    OnCanvasRenderTargetUpdate;                               // 0x00E8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnCanvasRenderTargetUpdate;                               // 0x00E8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x00E8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	TWeakObjectPtr<class UWorld>                       World;                                                    // 0x00F8(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               bShouldClearRenderTargetOnReceiveUpdate;                  // 0x0100(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0101(0x0007) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x7];                                       // 0x0101(0x0007) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -8260,21 +8343,21 @@ public:
 
 
 // Class Engine.DemoNetDriver
-// 0x09D8 (0x1120 - 0x0748)
+// 0x09D8 (0x1148 - 0x0770)
 class UDemoNetDriver : public UNetDriver
 {
 public:
-	unsigned char                                      UnknownData00[0xF8];                                      // 0x0748(0x00F8) MISSED OFFSET
-	TMap<struct FString, struct FRollbackNetStartupActorInfo> RollbackNetStartupActors;                                 // 0x0840(0x0050) (CPF_Transient, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3C4];                                     // 0x0890(0x03C4) MISSED OFFSET
-	float                                              CheckpointSaveMaxMSPerFrame;                              // 0x0C54(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData02[0x30];                                      // 0x0C58(0x0030) MISSED OFFSET
-	TArray<struct FMulticastRecordOptions>             MulticastRecordOptions;                                   // 0x0C88(0x0010) (CPF_ZeroConstructor, CPF_Config, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData03[0x50];                                      // 0x0C98(0x0050) MISSED OFFSET
-	bool                                               bIsLocalReplay;                                           // 0x0CE8(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData04[0x7];                                       // 0x0CE9(0x0007) MISSED OFFSET
-	TArray<class APlayerController*>                   SpectatorControllers;                                     // 0x0CF0(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData05[0x420];                                     // 0x0D00(0x0420) MISSED OFFSET
+	unsigned char                                      UnknownData00[0xF8];                                      // 0x0770(0x00F8) MISSED OFFSET
+	TMap<struct FString, struct FRollbackNetStartupActorInfo> RollbackNetStartupActors;                                 // 0x0868(0x0050) (CPF_Transient, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x3C4];                                     // 0x08B8(0x03C4) MISSED OFFSET
+	float                                              CheckpointSaveMaxMSPerFrame;                              // 0x0C7C(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0x30];                                      // 0x0C80(0x0030) MISSED OFFSET
+	TArray<struct FMulticastRecordOptions>             MulticastRecordOptions;                                   // 0x0CB0(0x0010) (CPF_ZeroConstructor, CPF_Config, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData03[0x50];                                      // 0x0CC0(0x0050) MISSED OFFSET
+	bool                                               bIsLocalReplay;                                           // 0x0D10(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0x7];                                       // 0x0D11(0x0007) MISSED OFFSET
+	TArray<class APlayerController*>                   SpectatorControllers;                                     // 0x0D18(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData05[0x420];                                     // 0x0D28(0x0420) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -9134,10 +9217,14 @@ public:
 	unsigned char                                      bPostUpdateTickGroup : 1;                                 // 0x0228(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bCurrentlyActive : 1;                                     // 0x0228(0x0001) (CPF_Net, CPF_RepNotify, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x7];                                       // 0x0229(0x0007) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnParticleSpawn;                                          // 0x0230(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnParticleBurst;                                          // 0x0240(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnParticleDeath;                                          // 0x0250(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnParticleCollide;                                        // 0x0260(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnParticleSpawn;                                          // 0x0230(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0229(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnParticleBurst;                                          // 0x0240(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0240(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnParticleDeath;                                          // 0x0250(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0250(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnParticleCollide;                                        // 0x0260(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0260(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -9521,8 +9608,9 @@ public:
 	float                                              IntensityMultiplier;                                      // 0x0214(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UForceFeedbackAttenuation*                   AttenuationSettings;                                      // 0x0218(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FForceFeedbackAttenuationSettings           AttenuationOverrides;                                     // 0x0220(0x00B0) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnForceFeedbackFinished;                                  // 0x02D0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x10];                                      // 0x02E0(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnForceFeedbackFinished;                                  // 0x02D0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x02D0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData02[0x10];                                      // 0x02E0(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -10438,15 +10526,20 @@ public:
 	bool                                               bCheckIfStillInWorld;                                     // 0x00FB(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bForceSubStepping : 1;                                    // 0x00FC(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x3];                                       // 0x00FD(0x0003) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnInterpToReverse;                                        // 0x0100(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInterpToStop;                                           // 0x0110(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnWaitBeginDelegate;                                      // 0x0120(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnWaitEndDelegate;                                        // 0x0130(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnResetDelegate;                                          // 0x0140(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInterpToReverse;                                        // 0x0100(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x00FD(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnInterpToStop;                                           // 0x0110(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0110(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnWaitBeginDelegate;                                      // 0x0120(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0120(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnWaitEndDelegate;                                        // 0x0130(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0130(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnResetDelegate;                                          // 0x0140(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x0140(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	float                                              MaxSimulationTimeStep;                                    // 0x0150(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                MaxSimulationIterations;                                  // 0x0154(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TArray<struct FInterpControlPoint>                 ControlPoints;                                            // 0x0158(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x28];                                      // 0x0168(0x0028) MISSED OFFSET
+	unsigned char                                      UnknownData07[0x28];                                      // 0x0168(0x0028) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -12733,9 +12826,10 @@ public:
 		return ptr;
 	}
 
-TArray<class AActor*> GetActors()
+    TArray<class AActor*> GetActors()
 	{
-		return *reinterpret_cast<TArray<AActor*>*>(reinterpret_cast<uintptr_t>(this) + 0x98);
+		const auto actorsPtr = reinterpret_cast<TArray<AActor*>*>(reinterpret_cast<uintptr_t>(this) + 0x98);
+		return actorsPtr ? *actorsPtr : TArray<class AActor*>();
 	}
 
 };
@@ -12839,13 +12933,17 @@ public:
 	TArray<class ALevelStreamingVolume*>               EditorStreamingVolumes;                                   // 0x00D0(0x0010) (CPF_Edit, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              MinTimeBetweenVolumeUnloadRequests;                       // 0x00E0(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData04[0x4];                                       // 0x00E4(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnLevelLoaded;                                            // 0x00E8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnLevelUnloaded;                                          // 0x00F8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnLevelShown;                                             // 0x0108(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnLevelHidden;                                            // 0x0118(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnLevelLoaded;                                            // 0x00E8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x00E4(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnLevelUnloaded;                                          // 0x00F8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x00F8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnLevelShown;                                             // 0x0108(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x0108(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnLevelHidden;                                            // 0x0118(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x0118(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	class ULevel*                                      LoadedLevel;                                              // 0x0128(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	class ULevel*                                      PendingUnloadLevel;                                       // 0x0130(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData05[0x18];                                      // 0x0138(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData09[0x18];                                      // 0x0138(0x0018) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -17278,10 +17376,13 @@ public:
 	unsigned char                                      UnknownData05[0x4];                                       // 0x0288(0x0004) MISSED OFFSET
 	unsigned char                                      ReplicationForceIsPlaying;                                // 0x028C(0x0001) (CPF_Net, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	unsigned char                                      UnknownData06[0x3];                                       // 0x028D(0x0003) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnPlay;                                                   // 0x0290(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnStop;                                                   // 0x02A0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnPause;                                                  // 0x02B0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData07[0x8];                                       // 0x02C0(0x0008) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnPlay;                                                   // 0x0290(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x028D(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnStop;                                                   // 0x02A0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x02A0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnPause;                                                  // 0x02B0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData09[0xF];                                       // 0x02B0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData10[0x8];                                       // 0x02C0(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -20524,9 +20625,10 @@ public:
 	struct FConstrainComponentPropName                 ComponentName2;                                           // 0x0220(0x0008) (CPF_Edit, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x10];                                      // 0x0228(0x0010) MISSED OFFSET
 	class UPhysicsConstraintTemplate*                  ConstraintSetup;                                          // 0x0238(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnConstraintBroken;                                       // 0x0240(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnConstraintBroken;                                       // 0x0240(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0240(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FConstraintInstance                         ConstraintInstance;                                       // 0x0250(0x01B8) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x8];                                       // 0x0408(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x8];                                       // 0x0408(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -20906,8 +21008,10 @@ public:
 class UPlatformEventsComponent : public UActorComponent
 {
 public:
-	struct FScriptMulticastDelegate                    PlatformChangedToLaptopModeDelegate;                      // 0x00B0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    PlatformChangedToTabletModeDelegate;                      // 0x00C0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    PlatformChangedToLaptopModeDelegate;                      // 0x00B0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x00B0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    PlatformChangedToTabletModeDelegate;                      // 0x00C0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x00C0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -22943,8 +23047,9 @@ public:
 	int                                                EnvelopeFollowerReleaseTime;                              // 0x0064(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              OutputVolume;                                             // 0x0068(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x4];                                       // 0x006C(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnSubmixRecordedFileDone;                                 // 0x0070(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x8];                                       // 0x0080(0x0008) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnSubmixRecordedFileDone;                                 // 0x0070(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x006C(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData03[0x8];                                       // 0x0080(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

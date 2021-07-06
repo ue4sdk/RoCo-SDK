@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_AutoShoulderSwap.SettingsInfo_AutoShoulderSwap_C
-// 0x0000 (0x0120 - 0x0120)
+// 0x0000 (0x0118 - 0x0118)
 class USettingsInfo_AutoShoulderSwap_C : public UKSSettingsInfo_Generic
 {
 public:

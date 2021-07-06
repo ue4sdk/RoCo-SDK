@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_AntiAliasingQuality.SettingsInfo_AntiAliasingQuality_C
-// 0x0000 (0x0128 - 0x0128)
+// 0x0000 (0x0120 - 0x0120)
 class USettingsInfo_AntiAliasingQuality_C : public USettingsInfo_Quality_C
 {
 public:

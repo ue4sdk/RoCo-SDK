@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass EventTracker_Headshot.EventTracker_Headshot_C
-// 0x0000 (0x01F8 - 0x01F8)
+// 0x0000 (0x0210 - 0x0210)
 class UEventTracker_Headshot_C : public UEventTrackerAbstract_InstigatedDamage_C
 {
 public:

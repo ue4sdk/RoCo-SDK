@@ -12,6 +12,27 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
+// Function WalkinCinematicCharacter.WalkinCinematicCharacter_C.GetSkeletalPropMontageStartTime
+// (FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
+// Parameters:
+// float                          ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+float AWalkinCinematicCharacter_C::GetSkeletalPropMontageStartTime()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WalkinCinematicCharacter.WalkinCinematicCharacter_C.GetSkeletalPropMontageStartTime");
+
+	struct
+	{
+		float                          ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
 // Function WalkinCinematicCharacter.WalkinCinematicCharacter_C.GetJobMasteryLevel
 // (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
 // Parameters:
@@ -167,6 +188,26 @@ void AWalkinCinematicCharacter_C::Add_Body_Apparel_As_Parent(class USkinnableSke
 	} params;
 
 	params.Skinnable_Mesh_Comonent = Skinnable_Mesh_Comonent;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WalkinCinematicCharacter.WalkinCinematicCharacter_C.InitializeSkeletalPropAnimation
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class UAnimInstance*           PropAnimInstance               (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void AWalkinCinematicCharacter_C::InitializeSkeletalPropAnimation(class UAnimInstance* PropAnimInstance)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WalkinCinematicCharacter.WalkinCinematicCharacter_C.InitializeSkeletalPropAnimation");
+
+	struct
+	{
+		class UAnimInstance*           PropAnimInstance;
+	} params;
+
+	params.PropAnimInstance = PropAnimInstance;
 
 	UObject::ProcessEvent(fn, &params);
 }

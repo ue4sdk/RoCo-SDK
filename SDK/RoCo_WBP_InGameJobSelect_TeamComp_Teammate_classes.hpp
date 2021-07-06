@@ -35,16 +35,19 @@ public:
 	class UTextBlock*                                  SelectionStatus;                                          // 0x0568(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UThrobber*                                   Throbber_425;                                             // 0x0570(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UVerticalBox*                                VerticalBox_3;                                            // 0x0578(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
-	struct FScriptMulticastDelegate                    DisplayJobInfoDispatcher;                                 // 0x0580(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    DisplayJobInfoDispatcher;                                 // 0x0580(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0580(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	class AKSPlayerState*                              PlayerOwner;                                              // 0x0590(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	bool                                               IsEnemyTeam;                                              // 0x0598(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn)
 	bool                                               ShouldDisplayNameOnTop;                                   // 0x0599(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn)
 	EJobSelectionState                                 CachedSelectionState;                                     // 0x059A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	unsigned char                                      UnknownData00[0x5];                                       // 0x059B(0x0005) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x5];                                       // 0x059B(0x0005) MISSED OFFSET
 	class UJobSelectionEntryDetails*                   JobEntryDetails;                                          // 0x05A0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	struct FScriptMulticastDelegate                    DisplayPlayerNameDispatcher;                              // 0x05A8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    DisplayPlayerNameDispatcher;                              // 0x05A8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x05A8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	class AKSJobSelectPreviewActor*                    MyJobSelectPreviewData;                                   // 0x05B8(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	struct FScriptMulticastDelegate                    UpdatePersistentDataDispatcher;                           // 0x05C0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    UpdatePersistentDataDispatcher;                           // 0x05C0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x05C0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	int                                                CachedJobItemId;                                          // 0x05D0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	int                                                CachedSkinItemId;                                         // 0x05D4(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	bool                                               NeedsDisplayJobDispatch;                                  // 0x05D8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
@@ -76,7 +79,7 @@ public:
 	void InitializeWidget(class APUMG_HUD* HUD);
 	void Construct();
 	void PreConstruct(bool IsDesignTime);
-	void HandlePhaseChange(const struct FName& CurrentPhaseName, const struct FName& PreviousPhaseName);
+	void HandlePhaseChange(const struct FMatchPhase& CurrentPhase, const struct FMatchPhase& PreviousPhase);
 	void OwningTeamChanged(class AKSPlayerState* KSPlayerState);
 	void SelectionStatusChanged(class UKSJobSelectionComponent* JobSelectionComponent);
 	void OnTeamMemberAdded(class AKSPlayerState* NewMember);

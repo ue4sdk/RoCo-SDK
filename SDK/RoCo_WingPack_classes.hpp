@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass WingPack.WingPack_C
-// 0x0008 (0x0720 - 0x0718)
+// 0x0008 (0x0730 - 0x0728)
 class AWingPack_C : public AKSWeapon
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0718(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0728(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

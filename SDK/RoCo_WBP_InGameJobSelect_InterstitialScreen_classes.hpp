@@ -53,7 +53,7 @@ public:
 	void ChooseBanningText();
 	bool IsSomeoneBanning();
 	void InitializeWidget(class APUMG_HUD* HUD);
-	void HandlePhaseChanged(const struct FName& CurrentPhaseName, const struct FName& PreviousPhaseName);
+	void HandlePhaseChanged(const struct FMatchPhase& CurrentPhase, const struct FMatchPhase& PreviousPhase);
 	void HandleIntroFinished();
 	void IntroInterstitial();
 	void ActivityStatusChanged(class UKSJobSelectionComponent* JobSelectionComponent);

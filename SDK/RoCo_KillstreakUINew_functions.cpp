@@ -2614,6 +2614,222 @@ void UKSAnnouncementQueueWidget::ClearAnnoucementQueue()
 }
 
 
+// Function KillstreakUINew.KSTeamWidget.SetTeam
+// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// class AKSTeamState*            NewTeam                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSTeamWidget::SetTeam(class AKSTeamState* NewTeam)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTeamWidget.SetTeam");
+
+	struct
+	{
+		class AKSTeamState*            NewTeam;
+	} params;
+
+	params.NewTeam = NewTeam;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSTeamWidget.PreClearTeam
+// (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+
+void UKSTeamWidget::PreClearTeam()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTeamWidget.PreClearTeam");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSTeamWidget.PostSetTeam
+// (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+
+void UKSTeamWidget::PostSetTeam()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTeamWidget.PostSetTeam");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSTeamWidget.PlayerStateRemovedFromTeam
+// (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// class AKSPlayerState*          RemovedPlayerState             (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSTeamWidget::PlayerStateRemovedFromTeam(class AKSPlayerState* RemovedPlayerState)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTeamWidget.PlayerStateRemovedFromTeam");
+
+	struct
+	{
+		class AKSPlayerState*          RemovedPlayerState;
+	} params;
+
+	params.RemovedPlayerState = RemovedPlayerState;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSTeamWidget.PlayerStateAddedToTeam
+// (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// class AKSPlayerState*          AddedPlayerState               (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSTeamWidget::PlayerStateAddedToTeam(class AKSPlayerState* AddedPlayerState)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTeamWidget.PlayerStateAddedToTeam");
+
+	struct
+	{
+		class AKSPlayerState*          AddedPlayerState;
+	} params;
+
+	params.AddedPlayerState = AddedPlayerState;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSTeamWidget.PersistentPlayerRemovedFromTeam
+// (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSPersistentPlayerData* RemovedPersistentPlayer        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSTeamWidget::PersistentPlayerRemovedFromTeam(class UKSPersistentPlayerData* RemovedPersistentPlayer)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTeamWidget.PersistentPlayerRemovedFromTeam");
+
+	struct
+	{
+		class UKSPersistentPlayerData* RemovedPersistentPlayer;
+	} params;
+
+	params.RemovedPersistentPlayer = RemovedPersistentPlayer;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSTeamWidget.PersistentPlayerAddedToTeam
+// (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSPersistentPlayerData* AddedPersistentPlayer          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSTeamWidget::PersistentPlayerAddedToTeam(class UKSPersistentPlayerData* AddedPersistentPlayer)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTeamWidget.PersistentPlayerAddedToTeam");
+
+	struct
+	{
+		class UKSPersistentPlayerData* AddedPersistentPlayer;
+	} params;
+
+	params.AddedPersistentPlayer = AddedPersistentPlayer;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSTeamWidget.OnBoundTeamDestroyed
+// (FUNC_Final, FUNC_Native, FUNC_Protected)
+// Parameters:
+// class AActor*                  DestroyedTeam                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSTeamWidget::OnBoundTeamDestroyed(class AActor* DestroyedTeam)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTeamWidget.OnBoundTeamDestroyed");
+
+	struct
+	{
+		class AActor*                  DestroyedTeam;
+	} params;
+
+	params.DestroyedTeam = DestroyedTeam;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSTeamWidget.GetTeam
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// class AKSTeamState*            ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+class AKSTeamState* UKSTeamWidget::GetTeam()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSTeamWidget.GetTeam");
+
+	struct
+	{
+		class AKSTeamState*            ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSAutoTeamWidget.TeamAddedToGameState
+// (FUNC_Final, FUNC_Native, FUNC_Private)
+// Parameters:
+// class AKSTeamState*            InTeam                         (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSAutoTeamWidget::TeamAddedToGameState(class AKSTeamState* InTeam)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAutoTeamWidget.TeamAddedToGameState");
+
+	struct
+	{
+		class AKSTeamState*            InTeam;
+	} params;
+
+	params.InTeam = InTeam;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSAutoTeamWidget.SetAutoTeamConfig
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// EKSAutoTeamType                InAutoTeamType                 (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            InTeamNum                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSAutoTeamWidget::SetAutoTeamConfig(EKSAutoTeamType InAutoTeamType, int InTeamNum)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSAutoTeamWidget.SetAutoTeamConfig");
+
+	struct
+	{
+		EKSAutoTeamType                InAutoTeamType;
+		int                            InTeamNum;
+	} params;
+
+	params.InAutoTeamType = InAutoTeamType;
+	params.InTeamNum = InTeamNum;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSBoostInventoryItemWidget.View_SetFromItem
 // (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 // Parameters:
@@ -2933,6 +3149,38 @@ void UKSComponentReticleWidgetBase::CalculateReticleOffset(float DeltaTime)
 void UKSComponentReticleWidgetBase::CalculateBlockedShotIcon()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSComponentReticleWidgetBase.CalculateBlockedShotIcon");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.ContextActionData.TriggerCycleContextActionPrev
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UContextActionData::TriggerCycleContextActionPrev()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.ContextActionData.TriggerCycleContextActionPrev");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.ContextActionData.TriggerCycleContextActionNext
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UContextActionData::TriggerCycleContextActionNext()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.ContextActionData.TriggerCycleContextActionNext");
 
 	struct
 	{
@@ -5431,6 +5679,148 @@ void UKSEliminationMessageWidget::ClearMessages()
 }
 
 
+// Function KillstreakUINew.KSEmailCollectionWidget.SubmitEmailAddress
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// struct FString                 EmailAddress                   (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSEmailCollectionWidget::SubmitEmailAddress(const struct FString& EmailAddress)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEmailCollectionWidget.SubmitEmailAddress");
+
+	struct
+	{
+		struct FString                 EmailAddress;
+	} params;
+
+	params.EmailAddress = EmailAddress;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSEmailCollectionWidget.OnSubmitEmailResponseNative
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// bool                           bSuccess                       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSEmailCollectionWidget::OnSubmitEmailResponseNative(bool bSuccess)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEmailCollectionWidget.OnSubmitEmailResponseNative");
+
+	struct
+	{
+		bool                           bSuccess;
+	} params;
+
+	params.bSuccess = bSuccess;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSEmailCollectionWidget.OnSubmitEmailResponse
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           Success                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSEmailCollectionWidget::OnSubmitEmailResponse(bool Success)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEmailCollectionWidget.OnSubmitEmailResponse");
+
+	struct
+	{
+		bool                           Success;
+	} params;
+
+	params.Success = Success;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSEmailCollectionWidget.IsValidEmailAddress
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// struct FString                 EmailAddress                   (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+bool UKSEmailCollectionWidget::IsValidEmailAddress(const struct FString& EmailAddress)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEmailCollectionWidget.IsValidEmailAddress");
+
+	struct
+	{
+		struct FString                 EmailAddress;
+		bool                           ReturnValue;
+	} params;
+
+	params.EmailAddress = EmailAddress;
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSEmailCollectionWidget.GetPrepopulatedEmail
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// struct FText                   ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ReturnParm, CPF_NativeAccessSpecifierPublic)
+
+struct FText UKSEmailCollectionWidget::GetPrepopulatedEmail()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEmailCollectionWidget.GetPrepopulatedEmail");
+
+	struct
+	{
+		struct FText                   ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSEmailCollectionWidget.GetEULAText
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// struct FText                   ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ReturnParm, CPF_NativeAccessSpecifierPublic)
+
+struct FText UKSEmailCollectionWidget::GetEULAText()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEmailCollectionWidget.GetEULAText");
+
+	struct
+	{
+		struct FText                   ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSEmailCollectionWidget.DismissPopup
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSEmailCollectionWidget::DismissPopup()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSEmailCollectionWidget.DismissPopup");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSEMODataFactory.SetupTestData
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
@@ -7659,6 +8049,26 @@ class UKSHUDStateTracker* AKSGameHUDNew::GetHUDStateTracker()
 }
 
 
+// Function KillstreakUINew.KSGameInfoOverlayBase.OnHeaderChanged
+// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintEvent)
+// Parameters:
+// struct FText                   Header                         (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
+
+void UKSGameInfoOverlayBase::OnHeaderChanged(const struct FText& Header)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSGameInfoOverlayBase.OnHeaderChanged");
+
+	struct
+	{
+		struct FText                   Header;
+	} params;
+
+	params.Header = Header;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSGameInfoOverlayBase.HandlePlayerStateReady
 // (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 // Parameters:
@@ -7967,21 +8377,21 @@ void UKSHUDStateTracker::PollMatchPhase()
 // Function KillstreakUINew.KSHUDStateTracker.HandleUpdatedMatchPhase
 // (FUNC_Final, FUNC_Native, FUNC_Protected)
 // Parameters:
-// struct FName                   NewPhaseName                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-// struct FName                   PreviousPhaseName              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FMatchPhase             NewPhase                       (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+// struct FMatchPhase             PreviousPhase                  (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 
-void UKSHUDStateTracker::HandleUpdatedMatchPhase(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
+void UKSHUDStateTracker::HandleUpdatedMatchPhase(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSHUDStateTracker.HandleUpdatedMatchPhase");
 
 	struct
 	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -9758,49 +10168,6 @@ void UKSMassInviteModal::CloseScreen(EKSInviteCloseAction CloseAction)
 }
 
 
-// Function KillstreakUINew.KSMatchInvitationModal.ShowInvitation
-// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintEvent)
-// Parameters:
-// class UKSPlayerInfo*           playerinfo                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-// struct FClientQueueInfo        QueueInfo                      (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
-
-void UKSMatchInvitationModal::ShowInvitation(class UKSPlayerInfo* playerinfo, const struct FClientQueueInfo& QueueInfo)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.ShowInvitation");
-
-	struct
-	{
-		class UKSPlayerInfo*           playerinfo;
-		struct FClientQueueInfo        QueueInfo;
-	} params;
-
-	params.playerinfo = playerinfo;
-	params.QueueInfo = QueueInfo;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function KillstreakUINew.KSMatchInvitationModal.ShowError
-// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintEvent)
-// Parameters:
-// struct FText                   ErrorMessage                   (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
-
-void UKSMatchInvitationModal::ShowError(const struct FText& ErrorMessage)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.ShowError");
-
-	struct
-	{
-		struct FText                   ErrorMessage;
-	} params;
-
-	params.ErrorMessage = ErrorMessage;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function KillstreakUINew.KSMatchInvitationModal.OnInvitationExpired
 // (FUNC_Final, FUNC_Native, FUNC_Private)
 
@@ -9922,6 +10289,22 @@ void UKSMatchInvitationModal::DeclineInvite()
 void UKSMatchInvitationModal::CloseScreen()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.CloseScreen");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSMatchInvitationModal.AcceptInviteDefault
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable)
+
+void UKSMatchInvitationModal::AcceptInviteDefault()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSMatchInvitationModal.AcceptInviteDefault");
 
 	struct
 	{
@@ -13617,6 +14000,26 @@ void UKSPlayerWhoDataFactory::ClearSearchResults()
 }
 
 
+// Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewShowTeamCelebration
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// class AKSTeamState*            TeamState                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSPointObjectiveMarkerWidget::ViewShowTeamCelebration(class AKSTeamState* TeamState)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewShowTeamCelebration");
+
+	struct
+	{
+		class AKSTeamState*            TeamState;
+	} params;
+
+	params.TeamState = TeamState;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewSetCaptureProgress
 // (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 // Parameters:
@@ -13641,11 +14044,47 @@ void UKSPointObjectiveMarkerWidget::ViewSetCaptureProgress(float ProgressPercent
 // (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 // Parameters:
 // float                          TimerSeconds                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-// float                          TotalTimerSeconds              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSPointObjectiveMarkerWidget::ViewApplyTimerValue(float TimerSeconds, float TotalTimerSeconds)
+void UKSPointObjectiveMarkerWidget::ViewApplyTimerValue(float TimerSeconds)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewApplyTimerValue");
+
+	struct
+	{
+		float                          TimerSeconds;
+	} params;
+
+	params.TimerSeconds = TimerSeconds;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewApplyTimerPrioritiesChanged
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+
+void UKSPointObjectiveMarkerWidget::ViewApplyTimerPrioritiesChanged()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewApplyTimerPrioritiesChanged");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewApplyObjectiveProgress
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// float                          TimerSeconds                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// float                          TotalTimerSeconds              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSPointObjectiveMarkerWidget::ViewApplyObjectiveProgress(float TimerSeconds, float TotalTimerSeconds)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ViewApplyObjectiveProgress");
 
 	struct
 	{
@@ -13684,7 +14123,7 @@ bool UKSPointObjectiveMarkerWidget::ShouldHideObjectiveIcon()
 // Function KillstreakUINew.KSPointObjectiveMarkerWidget.SetView
 // (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 // Parameters:
-// struct FKSPointObjectiveMarkerViewState ViewState                      (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+// struct FKSPointObjectiveMarkerViewState ViewState                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 
 void UKSPointObjectiveMarkerWidget::SetView(const struct FKSPointObjectiveMarkerViewState& ViewState)
 {
@@ -13748,21 +14187,21 @@ bool UKSPointObjectiveMarkerWidget::SetTeamColorForState(EPointObjectiveMarkerTe
 }
 
 
-// Function KillstreakUINew.KSPointObjectiveMarkerWidget.OnControlTeamScoreUpdated
-// (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Function KillstreakUINew.KSPointObjectiveMarkerWidget.SetMarkerTimerType
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable)
 // Parameters:
-// class AKSTeamState*            TeamState                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// EGameTimerType                 NewMarkerTimerType             (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSPointObjectiveMarkerWidget::OnControlTeamScoreUpdated(class AKSTeamState* TeamState)
+void UKSPointObjectiveMarkerWidget::SetMarkerTimerType(EGameTimerType NewMarkerTimerType)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.OnControlTeamScoreUpdated");
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.SetMarkerTimerType");
 
 	struct
 	{
-		class AKSTeamState*            TeamState;
+		EGameTimerType                 NewMarkerTimerType;
 	} params;
 
-	params.TeamState = TeamState;
+	params.NewMarkerTimerType = NewMarkerTimerType;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -13915,24 +14354,80 @@ bool UKSPointObjectiveMarkerWidget::IsInCapturedState()
 }
 
 
+// Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleTimerPrioritiesChanged
+// (FUNC_Final, FUNC_Native, FUNC_Protected)
+
+void UKSPointObjectiveMarkerWidget::HandleTimerPrioritiesChanged()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleTimerPrioritiesChanged");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleTeamCelebration
+// (FUNC_Final, FUNC_Native, FUNC_Protected)
+// Parameters:
+// class AKSTeamState*            TeamState                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSPointObjectiveMarkerWidget::HandleTeamCelebration(class AKSTeamState* TeamState)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleTeamCelebration");
+
+	struct
+	{
+		class AKSTeamState*            TeamState;
+	} params;
+
+	params.TeamState = TeamState;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandlePhaseChanged
 // (FUNC_Final, FUNC_Native, FUNC_Protected)
 // Parameters:
-// struct FName                   NewPhaseName                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-// struct FName                   PreviousPhaseName              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FMatchPhase             NewPhase                       (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+// struct FMatchPhase             PreviousPhase                  (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 
-void UKSPointObjectiveMarkerWidget::HandlePhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
+void UKSPointObjectiveMarkerWidget::HandlePhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandlePhaseChanged");
 
 	struct
 	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleObjectiveUnregistered
+// (FUNC_Final, FUNC_Native, FUNC_Protected)
+// Parameters:
+// TScriptInterface<class UKSObjective> Objective                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_NativeAccessSpecifierPublic)
+
+void UKSPointObjectiveMarkerWidget::HandleObjectiveUnregistered(const TScriptInterface<class UKSObjective>& Objective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleObjectiveUnregistered");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> Objective;
+	} params;
+
+	params.Objective = Objective;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -13958,70 +14453,22 @@ void UKSPointObjectiveMarkerWidget::HandleObjectiveStateChanged(const TScriptInt
 }
 
 
-// Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleControlTeamScoreUpdated
-// (FUNC_Final, FUNC_Native, FUNC_Protected)
+// Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetMarkerTimerPriority
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintPure)
 // Parameters:
-// class AKSTeamState*            TeamState                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-// class AKSControlPoint*         ControlPoint                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// EKSPriority                    ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSPointObjectiveMarkerWidget::HandleControlTeamScoreUpdated(class AKSTeamState* TeamState, class AKSControlPoint* ControlPoint)
+EKSPriority UKSPointObjectiveMarkerWidget::GetMarkerTimerPriority()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleControlTeamScoreUpdated");
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetMarkerTimerPriority");
 
 	struct
 	{
-		class AKSTeamState*            TeamState;
-		class AKSControlPoint*         ControlPoint;
-	} params;
-
-	params.TeamState = TeamState;
-	params.ControlPoint = ControlPoint;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleBombStateChanged
-// (FUNC_Final, FUNC_Native, FUNC_Protected)
-// Parameters:
-// struct FKSNeutralBombState     BombState                      (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-
-void UKSPointObjectiveMarkerWidget::HandleBombStateChanged(const struct FKSNeutralBombState& BombState)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.HandleBombStateChanged");
-
-	struct
-	{
-		struct FKSNeutralBombState     BombState;
-	} params;
-
-	params.BombState = BombState;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetTeamColorForState
-// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
-// Parameters:
-// struct FLinearColor            TeamColor                      (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-bool UKSPointObjectiveMarkerWidget::GetTeamColorForState(struct FLinearColor* TeamColor)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetTeamColorForState");
-
-	struct
-	{
-		struct FLinearColor            TeamColor;
-		bool                           ReturnValue;
+		EKSPriority                    ReturnValue;
 	} params;
 
 
 	UObject::ProcessEvent(fn, &params);
-
-	if (TeamColor != nullptr)
-		*TeamColor = params.TeamColor;
 
 	return params.ReturnValue;
 }
@@ -14030,7 +14477,7 @@ bool UKSPointObjectiveMarkerWidget::GetTeamColorForState(struct FLinearColor* Te
 // Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetCurrentViewState
 // (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
 // Parameters:
-// struct FKSPointObjectiveMarkerViewState ReturnValue                    (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReturnParm, CPF_ReferenceParm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+// struct FKSPointObjectiveMarkerViewState ReturnValue                    (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 
 struct FKSPointObjectiveMarkerViewState UKSPointObjectiveMarkerWidget::GetCurrentViewState()
 {
@@ -14048,18 +14495,39 @@ struct FKSPointObjectiveMarkerViewState UKSPointObjectiveMarkerWidget::GetCurren
 }
 
 
+// Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetAssociatedPOI
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// TScriptInterface<class UKSPointOfInterest> ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_NativeAccessSpecifierPublic)
+
+TScriptInterface<class UKSPointOfInterest> UKSPointObjectiveMarkerWidget::GetAssociatedPOI()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetAssociatedPOI");
+
+	struct
+	{
+		TScriptInterface<class UKSPointOfInterest> ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
 // Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetAssociatedObjective
 // (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
 // Parameters:
-// class AKSObjectiveBase*        ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// TScriptInterface<class UKSObjective> ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_NativeAccessSpecifierPublic)
 
-class AKSObjectiveBase* UKSPointObjectiveMarkerWidget::GetAssociatedObjective()
+TScriptInterface<class UKSObjective> UKSPointObjectiveMarkerWidget::GetAssociatedObjective()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.GetAssociatedObjective");
 
 	struct
 	{
-		class AKSObjectiveBase*        ReturnValue;
+		TScriptInterface<class UKSObjective> ReturnValue;
 	} params;
 
 
@@ -14092,26 +14560,6 @@ bool UKSPointObjectiveMarkerWidget::DoesAttackingTeamExist(bool* IsLocalPlayerOn
 		*IsLocalPlayerOnAttackingTeam = params.IsLocalPlayerOnAttackingTeam;
 
 	return params.ReturnValue;
-}
-
-
-// Function KillstreakUINew.KSPointObjectiveMarkerWidget.ControlPointStateUpdated
-// (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
-// Parameters:
-// class AKSControlPoint*         Objective                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UKSPointObjectiveMarkerWidget::ControlPointStateUpdated(class AKSControlPoint* Objective)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPointObjectiveMarkerWidget.ControlPointStateUpdated");
-
-	struct
-	{
-		class AKSControlPoint*         Objective;
-	} params;
-
-	params.Objective = Objective;
-
-	UObject::ProcessEvent(fn, &params);
 }
 
 
@@ -14437,6 +14885,27 @@ bool UKSPurchaseConfirmationWidget::TryChangePurchaseQuantity(int QuantityChange
 }
 
 
+// Function KillstreakUINew.KSPurchaseConfirmationWidget.SubmitPurchaseWithAdditionalCurrency
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable)
+// Parameters:
+// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+bool UKSPurchaseConfirmationWidget::SubmitPurchaseWithAdditionalCurrency()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseConfirmationWidget.SubmitPurchaseWithAdditionalCurrency");
+
+	struct
+	{
+		bool                           ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
 // Function KillstreakUINew.KSPurchaseConfirmationWidget.SetupEquipOnPurchase
 // (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable)
 // Parameters:
@@ -14485,6 +14954,27 @@ class UKSStoreItemHelper* UKSPurchaseConfirmationWidget::GetStoreItemHelper()
 	struct
 	{
 		class UKSStoreItemHelper*      ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSPurchaseConfirmationWidget.GetAdditionalCurrencyPurchaseData
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// class UKSStoreItemWithPurchaseData* ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+class UKSStoreItemWithPurchaseData* UKSPurchaseConfirmationWidget::GetAdditionalCurrencyPurchaseData()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSPurchaseConfirmationWidget.GetAdditionalCurrencyPurchaseData");
+
+	struct
+	{
+		class UKSStoreItemWithPurchaseData* ReturnValue;
 	} params;
 
 
@@ -14701,6 +15191,38 @@ bool UKSQueueDataFactory::QualifiesForShelteredMM(int QueueId, const struct FCli
 }
 
 
+// Function KillstreakUINew.KSQueueDataFactory.QualifiesForMercyMatch
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_HasOutParms, FUNC_Const)
+// Parameters:
+// int                            QueueId                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FClientQueueInfo        QueueInfo                      (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
+// bool                           RetryFlag                      (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+bool UKSQueueDataFactory::QualifiesForMercyMatch(int QueueId, const struct FClientQueueInfo& QueueInfo, bool* RetryFlag)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.QualifiesForMercyMatch");
+
+	struct
+	{
+		int                            QueueId;
+		struct FClientQueueInfo        QueueInfo;
+		bool                           RetryFlag;
+		bool                           ReturnValue;
+	} params;
+
+	params.QueueId = QueueId;
+	params.QueueInfo = QueueInfo;
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (RetryFlag != nullptr)
+		*RetryFlag = params.RetryFlag;
+
+	return params.ReturnValue;
+}
+
+
 // Function KillstreakUINew.KSQueueDataFactory.QualifiesForForcedBots
 // (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_HasOutParms, FUNC_Const)
 // Parameters:
@@ -14895,22 +15417,22 @@ bool UKSQueueDataFactory::IsRankedQueue(int QueueId)
 
 
 // Function KillstreakUINew.KSQueueDataFactory.IsQueueAvailableOnPlatform
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
 // Parameters:
-// int                            QueueId                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FPUMG_ClientQueueInfo   QueueInfo                      (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
 // bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-bool UKSQueueDataFactory::IsQueueAvailableOnPlatform(int QueueId)
+bool UKSQueueDataFactory::IsQueueAvailableOnPlatform(const struct FPUMG_ClientQueueInfo& QueueInfo)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.IsQueueAvailableOnPlatform");
 
 	struct
 	{
-		int                            QueueId;
+		struct FPUMG_ClientQueueInfo   QueueInfo;
 		bool                           ReturnValue;
 	} params;
 
-	params.QueueId = QueueId;
+	params.QueueInfo = QueueInfo;
 
 	UObject::ProcessEvent(fn, &params);
 
@@ -15085,6 +15607,27 @@ int UKSQueueDataFactory::GetPenaltyTime()
 	struct
 	{
 		int                            ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSQueueDataFactory.GetMercyMatchConsecutiveLossesActivity
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_Const)
+// Parameters:
+// class UKSActivity*             ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+class UKSActivity* UKSQueueDataFactory::GetMercyMatchConsecutiveLossesActivity()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSQueueDataFactory.GetMercyMatchConsecutiveLossesActivity");
+
+	struct
+	{
+		class UKSActivity*             ReturnValue;
 	} params;
 
 
@@ -16852,19 +17395,15 @@ void UKSRadialSelectionWidgetBase::ShowSelector()
 
 // Function KillstreakUINew.KSRadialSelectionWidgetBase.SetupForRadialWheelMode
 // (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
-// Parameters:
-// ERadialWheelMode               NewRadialWheelMode             (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSRadialSelectionWidgetBase::SetupForRadialWheelMode(ERadialWheelMode NewRadialWheelMode)
+void UKSRadialSelectionWidgetBase::SetupForRadialWheelMode()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.SetupForRadialWheelMode");
 
 	struct
 	{
-		ERadialWheelMode               NewRadialWheelMode;
 	} params;
 
-	params.NewRadialWheelMode = NewRadialWheelMode;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -17080,6 +17619,46 @@ void UKSRadialSelectionWidgetBase::OnCycledMenus(bool bCycledRight)
 }
 
 
+// Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCinematicSubLevelEnabled
+// (FUNC_Final, FUNC_Native, FUNC_Protected)
+// Parameters:
+// struct FString                 CinematicSubLevelName          (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSRadialSelectionWidgetBase::OnCinematicSubLevelEnabled(const struct FString& CinematicSubLevelName)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCinematicSubLevelEnabled");
+
+	struct
+	{
+		struct FString                 CinematicSubLevelName;
+	} params;
+
+	params.CinematicSubLevelName = CinematicSubLevelName;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCinematicSubLevelDisabled
+// (FUNC_Final, FUNC_Native, FUNC_Protected)
+// Parameters:
+// struct FString                 CinematicSubLevelName          (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSRadialSelectionWidgetBase::OnCinematicSubLevelDisabled(const struct FString& CinematicSubLevelName)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.OnCinematicSubLevelDisabled");
+
+	struct
+	{
+		struct FString                 CinematicSubLevelName;
+	} params;
+
+	params.CinematicSubLevelName = CinematicSubLevelName;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSRadialSelectionWidgetBase.IsSelectorVisible
 // (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 // Parameters:
@@ -17109,6 +17688,69 @@ bool UKSRadialSelectionWidgetBase::IsSelectorVisible()
 bool UKSRadialSelectionWidgetBase::IsSelectorActive()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsSelectorActive");
+
+	struct
+	{
+		bool                           ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSRadialSelectionWidgetBase.IsLobbyHUD
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+bool UKSRadialSelectionWidgetBase::IsLobbyHUD()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsLobbyHUD");
+
+	struct
+	{
+		bool                           ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSRadialSelectionWidgetBase.IsInFullControlMode
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+bool UKSRadialSelectionWidgetBase::IsInFullControlMode()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsInFullControlMode");
+
+	struct
+	{
+		bool                           ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSRadialSelectionWidgetBase.IsInEmoteOnlyMode
+// (FUNC_Final, FUNC_Native, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+bool UKSRadialSelectionWidgetBase::IsInEmoteOnlyMode()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.IsInEmoteOnlyMode");
 
 	struct
 	{
@@ -17207,6 +17849,27 @@ float UKSRadialSelectionWidgetBase::GetWheelSize()
 	struct
 	{
 		float                          ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSRadialSelectionWidgetBase.GetRadialWheelActivationMode
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// ERadialWheelActivationMode     ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+ERadialWheelActivationMode UKSRadialSelectionWidgetBase::GetRadialWheelActivationMode()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRadialSelectionWidgetBase.GetRadialWheelActivationMode");
+
+	struct
+	{
+		ERadialWheelActivationMode     ReturnValue;
 	} params;
 
 
@@ -17830,6 +18493,22 @@ void UKSRelatedRoguesGroup::DisplayWeaponCategoryLabel()
 }
 
 
+// Function KillstreakUINew.KSRelatedRoguesGroup.DisplayNone
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UKSRelatedRoguesGroup::DisplayNone()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRelatedRoguesGroup.DisplayNone");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSRelatedRoguesGroup.DisplayIndividualWeaponLabel
 // (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 
@@ -17868,7 +18547,7 @@ class UKSRelatedRogueEntry* UKSRelatedRoguesGroup::CreateAndAddEntry()
 
 
 // Function KillstreakUINew.KSRelatedRoguesGroup.ClearEntries
-// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UKSRelatedRoguesGroup::ClearEntries()
 {
@@ -17965,6 +18644,26 @@ void UKSReticleWidgetBase::CalculateBlockedShotIcon()
 }
 
 
+// Function KillstreakUINew.KSRewardProgressMeter.DisplayWeaponCategoryDetails
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FWeaponCategoryDetails  CategoryDetails                (CPF_Parm, CPF_NativeAccessSpecifierPublic)
+
+void UKSRewardProgressMeter::DisplayWeaponCategoryDetails(const struct FWeaponCategoryDetails& CategoryDetails)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardProgressMeter.DisplayWeaponCategoryDetails");
+
+	struct
+	{
+		struct FWeaponCategoryDetails  CategoryDetails;
+	} params;
+
+	params.CategoryDetails = CategoryDetails;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSRewardProgressMeter.DisplayProgressReward
 // (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 // Parameters:
@@ -17988,18 +18687,37 @@ void UKSRewardProgressMeter::DisplayProgressReward(class UKSItem* RewardItem)
 // Function KillstreakUINew.KSRewardProgressMeter.DisplayProgressPercent
 // (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 // Parameters:
+// int                            MasteryLevel                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // float                          Percent                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSRewardProgressMeter::DisplayProgressPercent(float Percent)
+void UKSRewardProgressMeter::DisplayProgressPercent(int MasteryLevel, float Percent)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardProgressMeter.DisplayProgressPercent");
 
 	struct
 	{
+		int                            MasteryLevel;
 		float                          Percent;
 	} params;
 
+	params.MasteryLevel = MasteryLevel;
 	params.Percent = Percent;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSRewardProgressMeter.BroadcastGoToRewardDetails
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSRewardProgressMeter::BroadcastGoToRewardDetails()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSRewardProgressMeter.BroadcastGoToRewardDetails");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -18714,15 +19432,15 @@ void UKSSettingsDataFactory::SaveSettings()
 // Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsInt
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSSettingsDataFactory::SaveSettingAsInt(const struct FString& Name)
+void UKSSettingsDataFactory::SaveSettingAsInt(const struct FName& Name)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsInt");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 	} params;
 
 	params.Name = Name;
@@ -18734,15 +19452,15 @@ void UKSSettingsDataFactory::SaveSettingAsInt(const struct FString& Name)
 // Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsFloat
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSSettingsDataFactory::SaveSettingAsFloat(const struct FString& Name)
+void UKSSettingsDataFactory::SaveSettingAsFloat(const struct FName& Name)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsFloat");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 	} params;
 
 	params.Name = Name;
@@ -18754,15 +19472,15 @@ void UKSSettingsDataFactory::SaveSettingAsFloat(const struct FString& Name)
 // Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsBool
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSSettingsDataFactory::SaveSettingAsBool(const struct FString& Name)
+void UKSSettingsDataFactory::SaveSettingAsBool(const struct FName& Name)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.SaveSettingAsBool");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 	} params;
 
 	params.Name = Name;
@@ -18907,17 +19625,17 @@ bool UKSSettingsDataFactory::IsUserLoggedIn()
 // Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsInt_Legacy
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // int                            OutInt                         (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-bool UKSSettingsDataFactory::GetSettingAsInt_Legacy(const struct FString& Name, int* OutInt)
+bool UKSSettingsDataFactory::GetSettingAsInt_Legacy(const struct FName& Name, int* OutInt)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsInt_Legacy");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 		int                            OutInt;
 		bool                           ReturnValue;
 	} params;
@@ -18936,17 +19654,17 @@ bool UKSSettingsDataFactory::GetSettingAsInt_Legacy(const struct FString& Name, 
 // Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsFloat_Legacy
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // float                          OutFloat                       (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-bool UKSSettingsDataFactory::GetSettingAsFloat_Legacy(const struct FString& Name, float* OutFloat)
+bool UKSSettingsDataFactory::GetSettingAsFloat_Legacy(const struct FName& Name, float* OutFloat)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsFloat_Legacy");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 		float                          OutFloat;
 		bool                           ReturnValue;
 	} params;
@@ -18965,17 +19683,17 @@ bool UKSSettingsDataFactory::GetSettingAsFloat_Legacy(const struct FString& Name
 // Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsBool_Legacy
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // bool                           OutBool                        (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-bool UKSSettingsDataFactory::GetSettingAsBool_Legacy(const struct FString& Name, bool* OutBool)
+bool UKSSettingsDataFactory::GetSettingAsBool_Legacy(const struct FName& Name, bool* OutBool)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.GetSettingAsBool_Legacy");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 		bool                           OutBool;
 		bool                           ReturnValue;
 	} params;
@@ -19273,16 +19991,16 @@ TArray<struct FString> UKSSettingsDataFactory::GetAvailableLanguages()
 // Function KillstreakUINew.KSSettingsDataFactory.BindSettingCallbacks_Legacy
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // struct FSettingDelegateStruct  SettingDelegateStruct          (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NoDestructor, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPublic)
 
-void UKSSettingsDataFactory::BindSettingCallbacks_Legacy(const struct FString& Name, const struct FSettingDelegateStruct& SettingDelegateStruct)
+void UKSSettingsDataFactory::BindSettingCallbacks_Legacy(const struct FName& Name, const struct FSettingDelegateStruct& SettingDelegateStruct)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.BindSettingCallbacks_Legacy");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 		struct FSettingDelegateStruct  SettingDelegateStruct;
 	} params;
 
@@ -19296,16 +20014,16 @@ void UKSSettingsDataFactory::BindSettingCallbacks_Legacy(const struct FString& N
 // Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsInt
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // int                            Value                          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSSettingsDataFactory::ApplySettingAsInt(const struct FString& Name, int Value)
+void UKSSettingsDataFactory::ApplySettingAsInt(const struct FName& Name, int Value)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsInt");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 		int                            Value;
 	} params;
 
@@ -19319,16 +20037,16 @@ void UKSSettingsDataFactory::ApplySettingAsInt(const struct FString& Name, int V
 // Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsFloat
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // float                          Value                          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSSettingsDataFactory::ApplySettingAsFloat(const struct FString& Name, float Value)
+void UKSSettingsDataFactory::ApplySettingAsFloat(const struct FName& Name, float Value)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsFloat");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 		float                          Value;
 	} params;
 
@@ -19342,16 +20060,16 @@ void UKSSettingsDataFactory::ApplySettingAsFloat(const struct FString& Name, flo
 // Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsBool
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
-// struct FString                 Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   Name                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // bool                           Value                          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSSettingsDataFactory::ApplySettingAsBool(const struct FString& Name, bool Value)
+void UKSSettingsDataFactory::ApplySettingAsBool(const struct FName& Name, bool Value)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSettingsDataFactory.ApplySettingAsBool");
 
 	struct
 	{
-		struct FString                 Name;
+		struct FName                   Name;
 		bool                           Value;
 	} params;
 
@@ -22046,6 +22764,66 @@ void UKSShopItemButtonBase::ButtonClicked()
 	{
 	} params;
 
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSSideNavigationOverlay.DisplayRightPreviewText
+// (FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintEvent)
+// Parameters:
+// struct FText                   PreviewText                    (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
+
+void UKSSideNavigationOverlay::DisplayRightPreviewText(const struct FText& PreviewText)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSideNavigationOverlay.DisplayRightPreviewText");
+
+	struct
+	{
+		struct FText                   PreviewText;
+	} params;
+
+	params.PreviewText = PreviewText;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSSideNavigationOverlay.DisplayLeftPreviewText
+// (FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintEvent)
+// Parameters:
+// struct FText                   PreviewText                    (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
+
+void UKSSideNavigationOverlay::DisplayLeftPreviewText(const struct FText& PreviewText)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSideNavigationOverlay.DisplayLeftPreviewText");
+
+	struct
+	{
+		struct FText                   PreviewText;
+	} params;
+
+	params.PreviewText = PreviewText;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSSideNavigationOverlay.BroadcastNavigationAction
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// int                            SideDirection                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSSideNavigationOverlay::BroadcastNavigationAction(int SideDirection)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSSideNavigationOverlay.BroadcastNavigationAction");
+
+	struct
+	{
+		int                            SideDirection;
+	} params;
+
+	params.SideDirection = SideDirection;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -26131,21 +26909,21 @@ void UKSViewedPawnDamageDisplay::PrimeDamageNumbersWidgetPool()
 // Function KillstreakUINew.KSViewedPawnDamageDisplay.HandlePhaseChange
 // (FUNC_Final, FUNC_Native, FUNC_Protected)
 // Parameters:
-// struct FName                   NewPhaseName                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-// struct FName                   PreviousPhaseName              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FMatchPhase             NewPhase                       (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+// struct FMatchPhase             PreviousPhase                  (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 
-void UKSViewedPawnDamageDisplay::HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
+void UKSViewedPawnDamageDisplay::HandlePhaseChange(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSViewedPawnDamageDisplay.HandlePhaseChange");
 
 	struct
 	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -26864,6 +27642,42 @@ void UKSWeaponCategoryScreen::PopulateFromViewRouteData()
 }
 
 
+// Function KillstreakUINew.KSWeaponCategoryScreen.OnWeaponPopulationFinished
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UKSWeaponCategoryScreen::OnWeaponPopulationFinished()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponCategoryScreen.OnWeaponPopulationFinished");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponCategoryScreen.HandleWeaponSelected
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAsset*          SelectedWeapon                 (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponCategoryScreen::HandleWeaponSelected(class UKSWeaponAsset* SelectedWeapon)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponCategoryScreen.HandleWeaponSelected");
+
+	struct
+	{
+		class UKSWeaponAsset*          SelectedWeapon;
+	} params;
+
+	params.SelectedWeapon = SelectedWeapon;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSWeaponCategoryScreen.HandleWeaponPreview
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
@@ -26910,6 +27724,22 @@ void UKSWeaponCategoryScreen::HandleViewStateChanged(const struct FName& Current
 }
 
 
+// Function KillstreakUINew.KSWeaponCategoryScreen.HandleGoToWeaponMastery
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UKSWeaponCategoryScreen::HandleGoToWeaponMastery()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponCategoryScreen.HandleGoToWeaponMastery");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSWeaponCategoryScreen.HandleBackContextAction
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 
@@ -26938,6 +27768,27 @@ TArray<class UKSWeaponProgressButton*> UKSWeaponCategoryScreen::GetWeaponProgres
 	struct
 	{
 		TArray<class UKSWeaponProgressButton*> ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSWeaponCategoryScreen.GetPopulatedWeaponCount
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintPure)
+// Parameters:
+// int                            ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+int UKSWeaponCategoryScreen::GetPopulatedWeaponCount()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponCategoryScreen.GetPopulatedWeaponCount");
+
+	struct
+	{
+		int                            ReturnValue;
 	} params;
 
 
@@ -27281,21 +28132,256 @@ int UKSWeaponComponentAmmoWidget::GetAmmoInClip()
 }
 
 
+// Function KillstreakUINew.KSWeaponDetailScreen.PopulateFromWeaponAsset
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAsset*          WeaponAsset                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponDetailScreen::PopulateFromWeaponAsset(class UKSWeaponAsset* WeaponAsset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.PopulateFromWeaponAsset");
+
+	struct
+	{
+		class UKSWeaponAsset*          WeaponAsset;
+	} params;
+
+	params.WeaponAsset = WeaponAsset;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.PopulateFromViewRouteData
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UKSWeaponDetailScreen::PopulateFromViewRouteData()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.PopulateFromViewRouteData");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.HandleWeaponPreview
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAsset*          WeaponAsset                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponDetailScreen::HandleWeaponPreview(class UKSWeaponAsset* WeaponAsset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.HandleWeaponPreview");
+
+	struct
+	{
+		class UKSWeaponAsset*          WeaponAsset;
+	} params;
+
+	params.WeaponAsset = WeaponAsset;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.HandleViewStateChanged
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// struct FName                   CurrentRoute                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   PreviousRoute                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// EViewManagerLayer              Layer                          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponDetailScreen::HandleViewStateChanged(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.HandleViewStateChanged");
+
+	struct
+	{
+		struct FName                   CurrentRoute;
+		struct FName                   PreviousRoute;
+		EViewManagerLayer              Layer;
+	} params;
+
+	params.CurrentRoute = CurrentRoute;
+	params.PreviousRoute = PreviousRoute;
+	params.Layer = Layer;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.HandleSideNavigation
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// int                            SideDirection                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponDetailScreen::HandleSideNavigation(int SideDirection)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.HandleSideNavigation");
+
+	struct
+	{
+		int                            SideDirection;
+	} params;
+
+	params.SideDirection = SideDirection;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.HandleGoToWeaponMastery
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UKSWeaponDetailScreen::HandleGoToWeaponMastery()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.HandleGoToWeaponMastery");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.HandleCustomizeContextAction
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UKSWeaponDetailScreen::HandleCustomizeContextAction()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.HandleCustomizeContextAction");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.HandleBackContextAction
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UKSWeaponDetailScreen::HandleBackContextAction()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.HandleBackContextAction");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.DisplayWeapon
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSWeaponAsset*          WeaponAsset                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FWeaponCategoryDetails  WeaponCategoryDetails          (CPF_Parm, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponDetailScreen::DisplayWeapon(class UKSWeaponAsset* WeaponAsset, const struct FWeaponCategoryDetails& WeaponCategoryDetails)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.DisplayWeapon");
+
+	struct
+	{
+		class UKSWeaponAsset*          WeaponAsset;
+		struct FWeaponCategoryDetails  WeaponCategoryDetails;
+	} params;
+
+	params.WeaponAsset = WeaponAsset;
+	params.WeaponCategoryDetails = WeaponCategoryDetails;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.DisplayEquippedWrap
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSWeaponAttachment*     EquippedWrap                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponDetailScreen::DisplayEquippedWrap(class UKSWeaponAttachment* EquippedWrap)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.DisplayEquippedWrap");
+
+	struct
+	{
+		class UKSWeaponAttachment*     EquippedWrap;
+	} params;
+
+	params.EquippedWrap = EquippedWrap;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.ConfigureViewModel
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSWeaponAsset*          WeaponAsset                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UKSWeaponAttachment*     WeaponWrap                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponDetailScreen::ConfigureViewModel(class UKSWeaponAsset* WeaponAsset, class UKSWeaponAttachment* WeaponWrap)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.ConfigureViewModel");
+
+	struct
+	{
+		class UKSWeaponAsset*          WeaponAsset;
+		class UKSWeaponAttachment*     WeaponWrap;
+	} params;
+
+	params.WeaponAsset = WeaponAsset;
+	params.WeaponWrap = WeaponWrap;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponDetailScreen.AddWrapCustomizationViewRoute
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSWeaponDetailScreen::AddWrapCustomizationViewRoute()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponDetailScreen.AddWrapCustomizationViewRoute");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function KillstreakUINew.KSWeaponHubBase.HandleWeaponCategoryPreview
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
-// struct FName                   PreviewCategoryName            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   WeaponCategoryName             (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// bool                           ShowRelatedRogues              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSWeaponHubBase::HandleWeaponCategoryPreview(const struct FName& PreviewCategoryName)
+void UKSWeaponHubBase::HandleWeaponCategoryPreview(const struct FName& WeaponCategoryName, bool ShowRelatedRogues)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponHubBase.HandleWeaponCategoryPreview");
 
 	struct
 	{
-		struct FName                   PreviewCategoryName;
+		struct FName                   WeaponCategoryName;
+		bool                           ShowRelatedRogues;
 	} params;
 
-	params.PreviewCategoryName = PreviewCategoryName;
+	params.WeaponCategoryName = WeaponCategoryName;
+	params.ShowRelatedRogues = ShowRelatedRogues;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -27338,6 +28424,35 @@ TArray<class UKSWeaponCategoryButton*> UKSWeaponHubBase::GetWeaponCategoryButton
 }
 
 
+// Function KillstreakUINew.KSWeaponHubHelper.GetWeaponCategoryDetailsByTag
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintPure)
+// Parameters:
+// struct FGameplayTag            CategoryTag                    (CPF_Parm, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FWeaponCategoryDetails  OutDetails                     (CPF_Parm, CPF_OutParm, CPF_NativeAccessSpecifierPublic)
+// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+bool UKSWeaponHubHelper::GetWeaponCategoryDetailsByTag(const struct FGameplayTag& CategoryTag, struct FWeaponCategoryDetails* OutDetails)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponHubHelper.GetWeaponCategoryDetailsByTag");
+
+	struct
+	{
+		struct FGameplayTag            CategoryTag;
+		struct FWeaponCategoryDetails  OutDetails;
+		bool                           ReturnValue;
+	} params;
+
+	params.CategoryTag = CategoryTag;
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (OutDetails != nullptr)
+		*OutDetails = params.OutDetails;
+
+	return params.ReturnValue;
+}
+
+
 // Function KillstreakUINew.KSWeaponHubHelper.GetWeaponCategoryDetails
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintPure)
 // Parameters:
@@ -27367,17 +28482,215 @@ bool UKSWeaponHubHelper::GetWeaponCategoryDetails(const struct FName& WeaponCate
 }
 
 
-// Function KillstreakUINew.KSWeaponProgressButton.OnWeaponSelected
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Function KillstreakUINew.KSWeaponMasteryScreen.PopulateFromWeaponCategory
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// struct FWeaponCategoryDetails  WeaponCategoryDetails          (CPF_Parm, CPF_NativeAccessSpecifierPublic)
 
-void UKSWeaponProgressButton::OnWeaponSelected()
+void UKSWeaponMasteryScreen::PopulateFromWeaponCategory(const struct FWeaponCategoryDetails& WeaponCategoryDetails)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponProgressButton.OnWeaponSelected");
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.PopulateFromWeaponCategory");
+
+	struct
+	{
+		struct FWeaponCategoryDetails  WeaponCategoryDetails;
+	} params;
+
+	params.WeaponCategoryDetails = WeaponCategoryDetails;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponMasteryScreen.PopulateFromWeaponAsset
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAsset*          WeaponAsset                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponMasteryScreen::PopulateFromWeaponAsset(class UKSWeaponAsset* WeaponAsset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.PopulateFromWeaponAsset");
+
+	struct
+	{
+		class UKSWeaponAsset*          WeaponAsset;
+	} params;
+
+	params.WeaponAsset = WeaponAsset;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponMasteryScreen.PopulateFromViewRouteData
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UKSWeaponMasteryScreen::PopulateFromViewRouteData()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.PopulateFromViewRouteData");
 
 	struct
 	{
 	} params;
 
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponMasteryScreen.HandleViewStateChanged
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// struct FName                   CurrentRoute                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   PreviousRoute                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// EViewManagerLayer              Layer                          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponMasteryScreen::HandleViewStateChanged(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.HandleViewStateChanged");
+
+	struct
+	{
+		struct FName                   CurrentRoute;
+		struct FName                   PreviousRoute;
+		EViewManagerLayer              Layer;
+	} params;
+
+	params.CurrentRoute = CurrentRoute;
+	params.PreviousRoute = PreviousRoute;
+	params.Layer = Layer;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponMasteryScreen.HandleBackContextAction
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UKSWeaponMasteryScreen::HandleBackContextAction()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.HandleBackContextAction");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponMasteryScreen.DisplayWeaponCategory
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// struct FWeaponCategoryDetails  WeaponCategoryDetails          (CPF_Parm, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponMasteryScreen::DisplayWeaponCategory(const struct FWeaponCategoryDetails& WeaponCategoryDetails)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.DisplayWeaponCategory");
+
+	struct
+	{
+		struct FWeaponCategoryDetails  WeaponCategoryDetails;
+	} params;
+
+	params.WeaponCategoryDetails = WeaponCategoryDetails;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponMasteryScreen.DisplayWeaponAsset
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSWeaponAsset*          WeaponAsset                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponMasteryScreen::DisplayWeaponAsset(class UKSWeaponAsset* WeaponAsset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.DisplayWeaponAsset");
+
+	struct
+	{
+		class UKSWeaponAsset*          WeaponAsset;
+	} params;
+
+	params.WeaponAsset = WeaponAsset;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponMasteryScreen.DisplayMasteryProgress
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSActivityInstance*     WeaponMasteryInstance          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponMasteryScreen::DisplayMasteryProgress(class UKSActivityInstance* WeaponMasteryInstance)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.DisplayMasteryProgress");
+
+	struct
+	{
+		class UKSActivityInstance*     WeaponMasteryInstance;
+	} params;
+
+	params.WeaponMasteryInstance = WeaponMasteryInstance;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponMasteryScreen.DisplayCategoryMasteryProgress
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSActivityInstance*     CategoryMasteryInstance        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponMasteryScreen::DisplayCategoryMasteryProgress(class UKSActivityInstance* CategoryMasteryInstance)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.DisplayCategoryMasteryProgress");
+
+	struct
+	{
+		class UKSActivityInstance*     CategoryMasteryInstance;
+	} params;
+
+	params.CategoryMasteryInstance = CategoryMasteryInstance;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponMasteryScreen.ConfigureLobbyCamera
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UKSWeaponMasteryScreen::ConfigureLobbyCamera()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponMasteryScreen.ConfigureLobbyCamera");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponProgressButton.SetWeaponAsset
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// class UKSWeaponAsset*          InWeaponAsset                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponProgressButton::SetWeaponAsset(class UKSWeaponAsset* InWeaponAsset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponProgressButton.SetWeaponAsset");
+
+	struct
+	{
+		class UKSWeaponAsset*          InWeaponAsset;
+	} params;
+
+	params.InWeaponAsset = InWeaponAsset;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -27424,41 +28737,60 @@ void UKSWeaponProgressButton::DisplayWeapon(class UKSWeaponAsset* DisplayedWeapo
 }
 
 
-// Function KillstreakUINew.KSWeaponProgressButton.DisplayProgressReward
+// Function KillstreakUINew.KSWeaponProgressButton.DisplayMastery
 // (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 // Parameters:
-// class UKSItem*                 RewardItem                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            MasteryLevel                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// float                          Percent                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSWeaponProgressButton::DisplayProgressReward(class UKSItem* RewardItem)
+void UKSWeaponProgressButton::DisplayMastery(int MasteryLevel, float Percent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponProgressButton.DisplayProgressReward");
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponProgressButton.DisplayMastery");
 
 	struct
 	{
-		class UKSItem*                 RewardItem;
+		int                            MasteryLevel;
+		float                          Percent;
 	} params;
 
-	params.RewardItem = RewardItem;
+	params.MasteryLevel = MasteryLevel;
+	params.Percent = Percent;
 
 	UObject::ProcessEvent(fn, &params);
 }
 
 
-// Function KillstreakUINew.KSWeaponProgressButton.DisplayMasteryPercent
+// Function KillstreakUINew.KSWeaponProgressButton.DisplayCosmetic
 // (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 // Parameters:
-// float                          Percent                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UKSWeaponAttachment*     Cosmetic                       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UKSWeaponProgressButton::DisplayMasteryPercent(float Percent)
+void UKSWeaponProgressButton::DisplayCosmetic(class UKSWeaponAttachment* Cosmetic)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponProgressButton.DisplayMasteryPercent");
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponProgressButton.DisplayCosmetic");
 
 	struct
 	{
-		float                          Percent;
+		class UKSWeaponAttachment*     Cosmetic;
 	} params;
 
-	params.Percent = Percent;
+	params.Cosmetic = Cosmetic;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponProgressButton.BroadcastWeaponSelected
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSWeaponProgressButton::BroadcastWeaponSelected()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponProgressButton.BroadcastWeaponSelected");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -27475,6 +28807,198 @@ void UKSWeaponProgressButton::BroadcastWeaponPreview()
 	{
 	} params;
 
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.SetOpenedState
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// bool                           IsOpen                         (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponStatsPanel::SetOpenedState(bool IsOpen)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.SetOpenedState");
+
+	struct
+	{
+		bool                           IsOpen;
+	} params;
+
+	params.IsOpen = IsOpen;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.SetBaseWeapon
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAsset*          InWeaponAsset                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponStatsPanel::SetBaseWeapon(class UKSWeaponAsset* InWeaponAsset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.SetBaseWeapon");
+
+	struct
+	{
+		class UKSWeaponAsset*          InWeaponAsset;
+	} params;
+
+	params.InWeaponAsset = InWeaponAsset;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.PopulateWeaponLevel
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// int                            TierLevel                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponStatsPanel::PopulateWeaponLevel(int TierLevel)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.PopulateWeaponLevel");
+
+	struct
+	{
+		int                            TierLevel;
+	} params;
+
+	params.TierLevel = TierLevel;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.PopulatePrevWeaponLevel
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSWeaponStatsPanel::PopulatePrevWeaponLevel()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.PopulatePrevWeaponLevel");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.PopulateNextWeaponLevel
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSWeaponStatsPanel::PopulateNextWeaponLevel()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.PopulateNextWeaponLevel");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.GetOpenedState
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintPure)
+// Parameters:
+// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+bool UKSWeaponStatsPanel::GetOpenedState()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.GetOpenedState");
+
+	struct
+	{
+		bool                           ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.DisplayWeaponInfo
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// int                            Level                          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UKSWeaponAsset*          LevelWeapon                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponStatsPanel::DisplayWeaponInfo(int Level, class UKSWeaponAsset* LevelWeapon)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.DisplayWeaponInfo");
+
+	struct
+	{
+		int                            Level;
+		class UKSWeaponAsset*          LevelWeapon;
+	} params;
+
+	params.Level = Level;
+	params.LevelWeapon = LevelWeapon;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.DisplayOpenedState
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           IsOpen                         (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponStatsPanel::DisplayOpenedState(bool IsOpen)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.DisplayOpenedState");
+
+	struct
+	{
+		bool                           IsOpen;
+	} params;
+
+	params.IsOpen = IsOpen;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.ClearWeaponStatsDisplay
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UKSWeaponStatsPanel::ClearWeaponStatsDisplay()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.ClearWeaponStatsDisplay");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWeaponStatsPanel.AddWeaponStatToDisplay
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// struct FItemDisplayStat        WeaponStat                     (CPF_Parm, CPF_NativeAccessSpecifierPublic)
+
+void UKSWeaponStatsPanel::AddWeaponStatToDisplay(const struct FItemDisplayStat& WeaponStat)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWeaponStatsPanel.AddWeaponStatToDisplay");
+
+	struct
+	{
+		struct FItemDisplayStat        WeaponStat;
+	} params;
+
+	params.WeaponStat = WeaponStat;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -27572,6 +29096,582 @@ class UKSJsonDataFactory* UKSWhatsNewModal::GetJsonDataFactory()
 	UObject::ProcessEvent(fn, &params);
 
 	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.RefreshWidgetNavigation
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UKSWrapCustomizationScreen::RefreshWidgetNavigation()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.RefreshWidgetNavigation");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.PreviewWeaponWrap
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAttachment*     WeaponWrap                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::PreviewWeaponWrap(class UKSWeaponAttachment* WeaponWrap)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.PreviewWeaponWrap");
+
+	struct
+	{
+		class UKSWeaponAttachment*     WeaponWrap;
+	} params;
+
+	params.WeaponWrap = WeaponWrap;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.PopulateFromWeaponAsset
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAsset*          WeaponAsset                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::PopulateFromWeaponAsset(class UKSWeaponAsset* WeaponAsset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.PopulateFromWeaponAsset");
+
+	struct
+	{
+		class UKSWeaponAsset*          WeaponAsset;
+	} params;
+
+	params.WeaponAsset = WeaponAsset;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.PopulateFromViewRouteData
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSWrapCustomizationScreen::PopulateFromViewRouteData()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.PopulateFromViewRouteData");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.OnWrapPopulationFinished
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UKSWrapCustomizationScreen::OnWrapPopulationFinished()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.OnWrapPopulationFinished");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.HandleWrapEntryPurchaseFlow
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAttachment*     WrapAttachment                 (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UPUMG_StoreItem*         StoreItem                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::HandleWrapEntryPurchaseFlow(class UKSWeaponAttachment* WrapAttachment, class UPUMG_StoreItem* StoreItem)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.HandleWrapEntryPurchaseFlow");
+
+	struct
+	{
+		class UKSWeaponAttachment*     WrapAttachment;
+		class UPUMG_StoreItem*         StoreItem;
+	} params;
+
+	params.WrapAttachment = WrapAttachment;
+	params.StoreItem = StoreItem;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.HandleWrapEntryPreview
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAttachment*     WrapAttachment                 (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::HandleWrapEntryPreview(class UKSWeaponAttachment* WrapAttachment)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.HandleWrapEntryPreview");
+
+	struct
+	{
+		class UKSWeaponAttachment*     WrapAttachment;
+	} params;
+
+	params.WrapAttachment = WrapAttachment;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.HandleWrapEntryEquip
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAttachment*     WrapAttachment                 (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::HandleWrapEntryEquip(class UKSWeaponAttachment* WrapAttachment)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.HandleWrapEntryEquip");
+
+	struct
+	{
+		class UKSWeaponAttachment*     WrapAttachment;
+	} params;
+
+	params.WrapAttachment = WrapAttachment;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.HandleViewStateChanged
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// struct FName                   CurrentRoute                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   PreviousRoute                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// EViewManagerLayer              Layer                          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::HandleViewStateChanged(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.HandleViewStateChanged");
+
+	struct
+	{
+		struct FName                   CurrentRoute;
+		struct FName                   PreviousRoute;
+		EViewManagerLayer              Layer;
+	} params;
+
+	params.CurrentRoute = CurrentRoute;
+	params.PreviousRoute = PreviousRoute;
+	params.Layer = Layer;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.HandleLoadoutChanged
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UPUMG_Loadout*           Loadout                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::HandleLoadoutChanged(class UPUMG_Loadout* Loadout)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.HandleLoadoutChanged");
+
+	struct
+	{
+		class UPUMG_Loadout*           Loadout;
+	} params;
+
+	params.Loadout = Loadout;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.HandleBackContextAction
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+
+void UKSWrapCustomizationScreen::HandleBackContextAction()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.HandleBackContextAction");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.GetWrapEntries
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintPure)
+// Parameters:
+// TArray<class UKSWrapSelectionEntry*> ReturnValue                    (CPF_ExportObject, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+TArray<class UKSWrapSelectionEntry*> UKSWrapCustomizationScreen::GetWrapEntries()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.GetWrapEntries");
+
+	struct
+	{
+		TArray<class UKSWrapSelectionEntry*> ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.EquipWeaponWrap
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAttachment*     WeaponWrap                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::EquipWeaponWrap(class UKSWeaponAttachment* WeaponWrap)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.EquipWeaponWrap");
+
+	struct
+	{
+		class UKSWeaponAttachment*     WeaponWrap;
+	} params;
+
+	params.WeaponWrap = WeaponWrap;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.EquipPreviewedWeaponWrap
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSWrapCustomizationScreen::EquipPreviewedWeaponWrap()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.EquipPreviewedWeaponWrap");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.DisplayWrapInfo
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSWeaponAttachment*     WeaponWrap                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::DisplayWrapInfo(class UKSWeaponAttachment* WeaponWrap)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.DisplayWrapInfo");
+
+	struct
+	{
+		class UKSWeaponAttachment*     WeaponWrap;
+	} params;
+
+	params.WeaponWrap = WeaponWrap;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.DisplayWeaponInfo
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSWeaponAsset*          WeaponAsset                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FWeaponCategoryDetails  WeaponCategoryDetails          (CPF_Parm, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::DisplayWeaponInfo(class UKSWeaponAsset* WeaponAsset, const struct FWeaponCategoryDetails& WeaponCategoryDetails)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.DisplayWeaponInfo");
+
+	struct
+	{
+		class UKSWeaponAsset*          WeaponAsset;
+		struct FWeaponCategoryDetails  WeaponCategoryDetails;
+	} params;
+
+	params.WeaponAsset = WeaponAsset;
+	params.WeaponCategoryDetails = WeaponCategoryDetails;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.CreateAndAddWrapEntry
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSWrapSelectionEntry*   ReturnValue                    (CPF_ExportObject, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+class UKSWrapSelectionEntry* UKSWrapCustomizationScreen::CreateAndAddWrapEntry()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.CreateAndAddWrapEntry");
+
+	struct
+	{
+		class UKSWrapSelectionEntry*   ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.ConfigureViewModel
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSWeaponAsset*          WeaponAsset                    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UKSWeaponAttachment*     WeaponWrap                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapCustomizationScreen::ConfigureViewModel(class UKSWeaponAsset* WeaponAsset, class UKSWeaponAttachment* WeaponWrap)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.ConfigureViewModel");
+
+	struct
+	{
+		class UKSWeaponAsset*          WeaponAsset;
+		class UKSWeaponAttachment*     WeaponWrap;
+	} params;
+
+	params.WeaponAsset = WeaponAsset;
+	params.WeaponWrap = WeaponWrap;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapCustomizationScreen.ClearEntries
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UKSWrapCustomizationScreen::ClearEntries()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapCustomizationScreen.ClearEntries");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.PopulateFromWeaponAttachment
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UKSWeaponAttachment*     WeaponAttachment               (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// bool                           IsEquipped                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapSelectionEntry::PopulateFromWeaponAttachment(class UKSWeaponAttachment* WeaponAttachment, bool IsEquipped)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.PopulateFromWeaponAttachment");
+
+	struct
+	{
+		class UKSWeaponAttachment*     WeaponAttachment;
+		bool                           IsEquipped;
+	} params;
+
+	params.WeaponAttachment = WeaponAttachment;
+	params.IsEquipped = IsEquipped;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.PopulateFromStoreItem
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// class UPUMG_StoreItem*         StoreItem                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapSelectionEntry::PopulateFromStoreItem(class UPUMG_StoreItem* StoreItem)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.PopulateFromStoreItem");
+
+	struct
+	{
+		class UPUMG_StoreItem*         StoreItem;
+	} params;
+
+	params.StoreItem = StoreItem;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.GetPopulatedWeaponAttachment
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
+// Parameters:
+// class UKSWeaponAttachment*     OutWeaponAttachment            (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UKSWeaponAttachment*     ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+class UKSWeaponAttachment* UKSWrapSelectionEntry::GetPopulatedWeaponAttachment(class UKSWeaponAttachment** OutWeaponAttachment)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.GetPopulatedWeaponAttachment");
+
+	struct
+	{
+		class UKSWeaponAttachment*     OutWeaponAttachment;
+		class UKSWeaponAttachment*     ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (OutWeaponAttachment != nullptr)
+		*OutWeaponAttachment = params.OutWeaponAttachment;
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.GetPopulatedStoreItem
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
+// Parameters:
+// class UPUMG_StoreItem*         OutStoreItem                   (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// bool                           ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+bool UKSWrapSelectionEntry::GetPopulatedStoreItem(class UPUMG_StoreItem** OutStoreItem)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.GetPopulatedStoreItem");
+
+	struct
+	{
+		class UPUMG_StoreItem*         OutStoreItem;
+		bool                           ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (OutStoreItem != nullptr)
+		*OutStoreItem = params.OutStoreItem;
+
+	return params.ReturnValue;
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.DisplayWrap
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSWeaponAttachment*     WeaponAttachment               (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapSelectionEntry::DisplayWrap(class UKSWeaponAttachment* WeaponAttachment)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.DisplayWrap");
+
+	struct
+	{
+		class UKSWeaponAttachment*     WeaponAttachment;
+	} params;
+
+	params.WeaponAttachment = WeaponAttachment;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.DisplayOwned
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           IsOwned                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapSelectionEntry::DisplayOwned(bool IsOwned)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.DisplayOwned");
+
+	struct
+	{
+		bool                           IsOwned;
+	} params;
+
+	params.IsOwned = IsOwned;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.DisplayEquipped
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           IsEquipped                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UKSWrapSelectionEntry::DisplayEquipped(bool IsEquipped)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.DisplayEquipped");
+
+	struct
+	{
+		bool                           IsEquipped;
+	} params;
+
+	params.IsEquipped = IsEquipped;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.BroadcastWrapPreview
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSWrapSelectionEntry::BroadcastWrapPreview()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.BroadcastWrapPreview");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.BroadcastWrapEquip
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSWrapSelectionEntry::BroadcastWrapEquip()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.BroadcastWrapEquip");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function KillstreakUINew.KSWrapSelectionEntry.BroadcastStoreWrapSelect
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UKSWrapSelectionEntry::BroadcastStoreWrapSelect()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function KillstreakUINew.KSWrapSelectionEntry.BroadcastStoreWrapSelect");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
 }
 
 

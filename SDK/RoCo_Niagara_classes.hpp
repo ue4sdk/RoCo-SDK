@@ -200,14 +200,15 @@ public:
 	unsigned char                                      UnknownData02[0x3];                                       // 0x0575(0x0003) MISSED OFFSET
 	float                                              MaxTimeBeforeForceUpdateTransform;                        // 0x0578(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData03[0x4];                                       // 0x057C(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnSystemFinished;                                         // 0x0580(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnSystemFinished;                                         // 0x0580(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x057C(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	TWeakObjectPtr<class USceneComponent>              AutoAttachParent;                                         // 0x0590(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FName                                       AutoAttachSocketName;                                     // 0x0598(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EAttachmentRule                                    AutoAttachLocationRule;                                   // 0x05A0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EAttachmentRule                                    AutoAttachRotationRule;                                   // 0x05A1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EAttachmentRule                                    AutoAttachScaleRule;                                      // 0x05A2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bRenderAfterDLSS : 1;                                     // 0x05A3(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData04[0x3C];                                      // 0x05A4(0x003C) MISSED OFFSET
+	unsigned char                                      UnknownData05[0x3C];                                      // 0x05A4(0x003C) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass PlayerShop.PlayerShop_C
-// 0x0000 (0x05A8 - 0x05A8)
+// 0x0000 (0x07D8 - 0x07D8)
 class APlayerShop_C : public AKSPlayerShop_Job
 {
 public:

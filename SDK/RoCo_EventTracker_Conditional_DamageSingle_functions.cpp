@@ -51,12 +51,12 @@ void UEventTracker_Conditional_DamageSingle_C::HandleLostPlayerController()
 }
 
 
-// Function EventTracker_Conditional_DamageSingle.EventTracker_Conditional_DamageSingle_C.MatchHasEnded_Event
+// Function EventTracker_Conditional_DamageSingle.EventTracker_Conditional_DamageSingle_C.MatchHAsEnded_Event
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
-void UEventTracker_Conditional_DamageSingle_C::MatchHasEnded_Event()
+void UEventTracker_Conditional_DamageSingle_C::MatchHAsEnded_Event()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Conditional_DamageSingle.EventTracker_Conditional_DamageSingle_C.MatchHasEnded_Event");
+	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Conditional_DamageSingle.EventTracker_Conditional_DamageSingle_C.MatchHAsEnded_Event");
 
 	struct
 	{

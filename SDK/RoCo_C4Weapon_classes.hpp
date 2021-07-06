@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass C4Weapon.C4Weapon_C
-// 0x0000 (0x08C8 - 0x08C8)
+// 0x0000 (0x08D8 - 0x08D8)
 class AC4Weapon_C : public AKSWeapon_RemoteThrow
 {
 public:

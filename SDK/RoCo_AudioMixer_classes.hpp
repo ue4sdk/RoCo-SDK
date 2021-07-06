@@ -36,11 +36,12 @@ public:
 	int                                                EnvelopeFollowerAttackTime;                               // 0x066C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                EnvelopeFollowerReleaseTime;                              // 0x0670(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData02[0x4];                                       // 0x0674(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnAudioEnvelopeValue;                                     // 0x0678(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x20];                                      // 0x0688(0x0020) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnAudioEnvelopeValue;                                     // 0x0678(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0674(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData04[0x20];                                      // 0x0688(0x0020) MISSED OFFSET
 	class USynthSound*                                 Synth;                                                    // 0x06A8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	class UAudioComponent*                             AudioComponent;                                           // 0x06B0(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData04[0x28];                                      // 0x06B8(0x0028) MISSED OFFSET
+	unsigned char                                      UnknownData05[0x28];                                      // 0x06B8(0x0028) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

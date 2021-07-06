@@ -19,8 +19,10 @@ namespace SDK
 class UFoliageInstancedStaticMeshComponent : public UHierarchicalInstancedStaticMeshComponent
 {
 public:
-	struct FScriptMulticastDelegate                    OnInstanceTakePointDamage;                                // 0x0680(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnInstanceTakeRadialDamage;                               // 0x0690(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnInstanceTakePointDamage;                                // 0x0680(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0680(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnInstanceTakeRadialDamage;                               // 0x0690(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0690(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FGuid                                       GenerationGuid;                                           // 0x06A0(0x0010) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()

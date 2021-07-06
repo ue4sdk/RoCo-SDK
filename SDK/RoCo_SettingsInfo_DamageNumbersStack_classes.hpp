@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_DamageNumbersStack.SettingsInfo_DamageNumbersStack_C
-// 0x0000 (0x0120 - 0x0120)
+// 0x0000 (0x0118 - 0x0118)
 class USettingsInfo_DamageNumbersStack_C : public UKSSettingsInfo_Generic
 {
 public:

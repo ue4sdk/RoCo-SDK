@@ -8,17 +8,17 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_KillstreakUINew_enums.hpp"
-#include "RoCo_GameplayTags_classes.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
-#include "RoCo_PlatformCommon_classes.hpp"
-#include "RoCo_PlatformUMG_classes.hpp"
 #include "RoCo_Engine_classes.hpp"
-#include "RoCo_Killstreak_classes.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_UMG_classes.hpp"
-#include "RoCo_InputCore_classes.hpp"
+#include "RoCo_PlatformUMG_classes.hpp"
+#include "RoCo_Killstreak_classes.hpp"
+#include "RoCo_GameplayTags_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"
+#include "RoCo_InputCore_classes.hpp"
 #include "RoCo_DataTableSkinsCommon_classes.hpp"
 #include "RoCo_PlatformGameFramework_classes.hpp"
+#include "RoCo_PlatformCommon_classes.hpp"
 
 namespace SDK
 {
@@ -40,25 +40,29 @@ struct FGuidedCalloutCardData
 struct FTickAnimationParams
 {
 	float                                              Duration;                                                 // 0x0000(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             UpdateEvent;                                              // 0x0004(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             FinishedEvent;                                            // 0x0014(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             UpdateEvent;                                              // 0x0004(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0004(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptDelegate                             FinishedEvent;                                            // 0x0014(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0014(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	bool                                               IsPlaying;                                                // 0x0024(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x0025(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x3];                                       // 0x0025(0x0003) MISSED OFFSET
 	float                                              ElapsedTime;                                              // 0x0028(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakUINew.ContextAction
-// 0x0040 (0x0048 - 0x0008)
+// 0x0058 (0x0060 - 0x0008)
 struct FContextAction : public FTableRowBase
 {
 	struct FKey                                        Key;                                                      // 0x0008(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FText                                       Text;                                                     // 0x0020(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	int                                                SortOrder;                                                // 0x0038(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	EContextPromptAnchoring                            Anchor;                                                   // 0x003C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	EContextPromptType                                 PromptType;                                               // 0x003D(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               IsConfirm;                                                // 0x003E(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               IsCancel;                                                 // 0x003F(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UAkAudioEvent*                               OverrideSFX;                                              // 0x0040(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FName                                       ActionName;                                               // 0x0038(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TArray<TEnumAsByte<EPGAME_INPUT_STATE>>            ValidInputTypes;                                          // 0x0040(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                SortOrder;                                                // 0x0050(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EContextPromptAnchoring                            Anchor;                                                   // 0x0054(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EContextPromptType                                 PromptType;                                               // 0x0055(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               IsConfirm;                                                // 0x0056(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               IsCancel;                                                 // 0x0057(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UAkAudioEvent*                               OverrideSFX;                                              // 0x0058(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakUINew.RouteContextInfo
@@ -138,45 +142,6 @@ struct FLoginRewardItem
 	class UPUMG_StoreItem*                             RewardStoreItem;                                          // 0x0008(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
-// ScriptStruct KillstreakUINew.UIMapInfo
-// 0x0050 (0x0058 - 0x0008)
-struct FUIMapInfo : public FTableRowBase
-{
-	TArray<int>                                        MapIds;                                                   // 0x0008(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FText                                       DisplayName;                                              // 0x0018(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UTexture2D>                   MapThumbnail;                                             // 0x0030(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-};
-
-// ScriptStruct KillstreakUINew.MapDetail
-// 0x0048
-struct FMapDetail
-{
-	int                                                MapId;                                                    // 0x0000(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x0004(0x0004) MISSED OFFSET
-	struct FText                                       mapName;                                                  // 0x0008(0x0018) (CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UTexture2D>                   MapThumbnail;                                             // 0x0020(0x0028) (CPF_BlueprintVisible, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-};
-
-// ScriptStruct KillstreakUINew.ClientQueueInfo
-// 0x0070 (0x00C0 - 0x0050)
-struct FClientQueueInfo : public FPUMG_ClientQueueInfo
-{
-	TSoftObjectPtr<class UTexture2D>                   ItemIcon;                                                 // 0x0050(0x0028) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	EQueueType                                         QueueType;                                                // 0x0078(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0079(0x0007) MISSED OFFSET
-	TArray<struct FUIMapInfo>                          MapRotationInfos;                                         // 0x0080(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TArray<struct FMapDetail>                          MapList;                                                  // 0x0090(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                MaxPlayerPerSide;                                         // 0x00A0(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                SortOrder;                                                // 0x00A4(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                ShelteredMMQueueId;                                       // 0x00A8(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              ShelteredMMLevelLimit;                                    // 0x00AC(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              ShelteredMMAttemptTimeout;                                // 0x00B0(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                ForcedBotMatchQueueId;                                    // 0x00B4(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x00B8(0x0004) MISSED OFFSET
-	bool                                               UsesDeserterPenalty;                                      // 0x00BC(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x00BD(0x0003) MISSED OFFSET
-};
-
 // ScriptStruct KillstreakUINew.RoundResultAnnoucement
 // 0x0020
 struct FRoundResultAnnoucement
@@ -232,13 +197,13 @@ struct FKSPlayerQueryHandle
 };
 
 // ScriptStruct KillstreakUINew.KSPointObjectiveMarkerViewState
-// 0x000C
+// 0x0004
 struct FKSPointObjectiveMarkerViewState
 {
-	struct FName                                       ObjectiveState;                                           // 0x0000(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	EPointObjectiveMarkerTeamState                     TeamState;                                                // 0x0008(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               IsBombDeployedHere;                                       // 0x0009(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x2];                                       // 0x000A(0x0002) MISSED OFFSET
+	EKSObjectiveState                                  ObjectiveState;                                           // 0x0000(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EKSPOIState                                        POIState;                                                 // 0x0001(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EPointObjectiveMarkerTeamState                     TeamState;                                                // 0x0002(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               IsBombDeployedHere;                                       // 0x0003(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakUINew.PlayerProgression
@@ -267,6 +232,47 @@ struct FProgressionTallyMiscXPInfo
 	unsigned char                                      UnknownData00[0x7];                                       // 0x0019(0x0007) MISSED OFFSET
 };
 
+// ScriptStruct KillstreakUINew.MapDetail
+// 0x0048
+struct FMapDetail
+{
+	int                                                MapId;                                                    // 0x0000(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0004(0x0004) MISSED OFFSET
+	struct FText                                       mapName;                                                  // 0x0008(0x0018) (CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   MapThumbnail;                                             // 0x0020(0x0028) (CPF_BlueprintVisible, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+};
+
+// ScriptStruct KillstreakUINew.UIMapInfo
+// 0x0050 (0x0058 - 0x0008)
+struct FUIMapInfo : public FTableRowBase
+{
+	TArray<int>                                        MapIds;                                                   // 0x0008(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FText                                       DisplayName;                                              // 0x0018(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   MapThumbnail;                                             // 0x0030(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+};
+
+// ScriptStruct KillstreakUINew.ClientQueueInfo
+// 0x0078 (0x00C8 - 0x0050)
+struct FClientQueueInfo : public FPUMG_ClientQueueInfo
+{
+	TSoftObjectPtr<class UTexture2D>                   ItemIcon;                                                 // 0x0050(0x0028) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	EQueueType                                         QueueType;                                                // 0x0078(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0079(0x0007) MISSED OFFSET
+	TArray<struct FUIMapInfo>                          MapRotationInfos;                                         // 0x0080(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TArray<struct FMapDetail>                          MapList;                                                  // 0x0090(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                MaxPlayerPerSide;                                         // 0x00A0(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                SortOrder;                                                // 0x00A4(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                ShelteredMMQueueId;                                       // 0x00A8(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              ShelteredMMLevelLimit;                                    // 0x00AC(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              ShelteredMMAttemptTimeout;                                // 0x00B0(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                ForcedBotMatchQueueId;                                    // 0x00B4(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x4];                                       // 0x00B8(0x0004) MISSED OFFSET
+	int                                                MercyMatchQueueId;                                        // 0x00BC(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x4];                                       // 0x00C0(0x0004) MISSED OFFSET
+	bool                                               UsesDeserterPenalty;                                      // 0x00C4(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0x3];                                       // 0x00C5(0x0003) MISSED OFFSET
+};
+
 // ScriptStruct KillstreakUINew.QueueSection
 // 0x0018
 struct FQueueSection
@@ -274,6 +280,19 @@ struct FQueueSection
 	EQueueType                                         QueueSectionType;                                         // 0x0000(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x7];                                       // 0x0001(0x0007) MISSED OFFSET
 	TArray<struct FClientQueueInfo>                    AssociatedQueues;                                         // 0x0008(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+};
+
+// ScriptStruct KillstreakUINew.WeaponCategoryDetails
+// 0x00D8 (0x00E0 - 0x0008)
+struct FWeaponCategoryDetails : public FTableRowBase
+{
+	struct FGameplayTag                                CategoryTag;                                              // 0x0008(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FText                                       DisplayName;                                              // 0x0010(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NativeAccessSpecifierPublic)
+	struct FText                                       DisplayNameSingular;                                      // 0x0028(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   SoftSymbolIcon;                                           // 0x0040(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   SoftMasteryIcon;                                          // 0x0068(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   SoftVerticalSplash;                                       // 0x0090(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   SoftHorizontalSplash;                                     // 0x00B8(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakUINew.MasterySectionData
@@ -352,12 +371,11 @@ struct FKSSettingsGroupConfig
 };
 
 // ScriptStruct KillstreakUINew.KSSettingPropertyId
-// 0x0018
+// 0x000C
 struct FKSSettingPropertyId
 {
-	struct FString                                     Name;                                                     // 0x0000(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                ID;                                                       // 0x0010(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x0014(0x0004) MISSED OFFSET
+	struct FName                                       Name;                                                     // 0x0000(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                ID;                                                       // 0x0008(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakUINew.KSKeyBind
@@ -436,17 +454,6 @@ struct FPlayerInventorySlot
 	unsigned char                                      UnknownData00[0x4];                                       // 0x0004(0x0004) MISSED OFFSET
 	class UKSWeaponAsset*                              WeaponAsset;                                              // 0x0008(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FGameplayTag                                SlotEquipPoint;                                           // 0x0010(0x0008) (CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-};
-
-// ScriptStruct KillstreakUINew.WeaponCategoryDetails
-// 0x0098 (0x00A0 - 0x0008)
-struct FWeaponCategoryDetails : public FTableRowBase
-{
-	struct FGameplayTag                                CategoryTag;                                              // 0x0008(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FText                                       DisplayName;                                              // 0x0010(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UTexture2D>                   SoftSymbolIcon;                                           // 0x0028(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UTexture2D>                   SoftVerticalSplash;                                       // 0x0050(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UTexture2D>                   SoftHorizontalSplash;                                     // 0x0078(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakUINew.EliminationMessage

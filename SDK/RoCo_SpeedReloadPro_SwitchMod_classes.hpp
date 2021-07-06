@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SpeedReloadPro_SwitchMod.SpeedReloadPro_SwitchMod_C
-// 0x0000 (0x0198 - 0x0198)
+// 0x0000 (0x01A0 - 0x01A0)
 class USpeedReloadPro_SwitchMod_C : public UKSPlayerModInstance
 {
 public:

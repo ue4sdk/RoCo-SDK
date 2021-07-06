@@ -12,6 +12,22 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
+// Function WBP_RadialSelect.WBP_RadialSelect_C.SetupSelectorForActivationMode
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_RadialSelect_C::SetupSelectorForActivationMode()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.SetupSelectorForActivationMode");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function WBP_RadialSelect.WBP_RadialSelect_C.IsItemUsable
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
 // Parameters:
@@ -674,19 +690,15 @@ void UWBP_RadialSelect_C::OnCycledMenus(bool bCycledRight)
 
 // Function WBP_RadialSelect.WBP_RadialSelect_C.SetupForRadialWheelMode
 // (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
-// Parameters:
-// ERadialWheelMode               NewRadialWheelMode             (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UWBP_RadialSelect_C::SetupForRadialWheelMode(ERadialWheelMode NewRadialWheelMode)
+void UWBP_RadialSelect_C::SetupForRadialWheelMode()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.SetupForRadialWheelMode");
 
 	struct
 	{
-		ERadialWheelMode               NewRadialWheelMode;
 	} params;
 
-	params.NewRadialWheelMode = NewRadialWheelMode;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -729,6 +741,52 @@ void UWBP_RadialSelect_C::Handle_View_State_Changed(const struct FName& CurrentR
 	params.CurrentRoute = CurrentRoute;
 	params.PreviousRoute = PreviousRoute;
 	params.Layer = Layer;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_RadialSelect.WBP_RadialSelect_C.NetMulticast_PlayCinematicEmote
+// (FUNC_Net, FUNC_NetReliable, FUNC_NetMulticast, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class AKSLobbyCharacter*       Character                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UKSEmote*                Emote                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_RadialSelect_C::NetMulticast_PlayCinematicEmote(class AKSLobbyCharacter* Character, class UKSEmote* Emote)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.NetMulticast_PlayCinematicEmote");
+
+	struct
+	{
+		class AKSLobbyCharacter*       Character;
+		class UKSEmote*                Emote;
+	} params;
+
+	params.Character = Character;
+	params.Emote = Emote;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_RadialSelect.WBP_RadialSelect_C.Server_PlayCinematicEmote
+// (FUNC_Net, FUNC_NetReliable, FUNC_NetServer, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class AKSLobbyCharacter*       Character                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UKSEmote*                Emote                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_RadialSelect_C::Server_PlayCinematicEmote(class AKSLobbyCharacter* Character, class UKSEmote* Emote)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_RadialSelect.WBP_RadialSelect_C.Server_PlayCinematicEmote");
+
+	struct
+	{
+		class AKSLobbyCharacter*       Character;
+		class UKSEmote*                Emote;
+	} params;
+
+	params.Character = Character;
+	params.Emote = Emote;
 
 	UObject::ProcessEvent(fn, &params);
 }

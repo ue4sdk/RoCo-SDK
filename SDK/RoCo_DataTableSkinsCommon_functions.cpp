@@ -1698,6 +1698,57 @@ int USkinnableSkeletalMeshComponent::SetPersistentScalarParameter(int MaterialSl
 }
 
 
+// Function DataTableSkinsCommon.SkinnableSkeletalMeshComponent.SetPersistentMaterialOverrideOnAllSlots
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// class UMaterialInterface*      MaterialInterface              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+int USkinnableSkeletalMeshComponent::SetPersistentMaterialOverrideOnAllSlots(class UMaterialInterface* MaterialInterface)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function DataTableSkinsCommon.SkinnableSkeletalMeshComponent.SetPersistentMaterialOverrideOnAllSlots");
+
+	struct
+	{
+		class UMaterialInterface*      MaterialInterface;
+		int                            ReturnValue;
+	} params;
+
+	params.MaterialInterface = MaterialInterface;
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function DataTableSkinsCommon.SkinnableSkeletalMeshComponent.SetPersistentMaterialOverride
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// int                            MaterialSlot                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UMaterialInterface*      MaterialInterface              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+int USkinnableSkeletalMeshComponent::SetPersistentMaterialOverride(int MaterialSlot, class UMaterialInterface* MaterialInterface)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function DataTableSkinsCommon.SkinnableSkeletalMeshComponent.SetPersistentMaterialOverride");
+
+	struct
+	{
+		int                            MaterialSlot;
+		class UMaterialInterface*      MaterialInterface;
+		int                            ReturnValue;
+	} params;
+
+	params.MaterialSlot = MaterialSlot;
+	params.MaterialInterface = MaterialInterface;
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
 // Function DataTableSkinsCommon.SkinnableSkeletalMeshComponent.SetForcedLOD_Skinned
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
@@ -2048,6 +2099,57 @@ int USkinnableStaticMeshComponent::SetPersistentScalarParameter(int MaterialSlot
 	params.MaterialSlot = MaterialSlot;
 	params.ParameterName = ParameterName;
 	params.ParameterValue = ParameterValue;
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function DataTableSkinsCommon.SkinnableStaticMeshComponent.SetPersistentMaterialOverrideOnAllSlots
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// class UMaterialInterface*      MaterialInterface              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+int USkinnableStaticMeshComponent::SetPersistentMaterialOverrideOnAllSlots(class UMaterialInterface* MaterialInterface)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function DataTableSkinsCommon.SkinnableStaticMeshComponent.SetPersistentMaterialOverrideOnAllSlots");
+
+	struct
+	{
+		class UMaterialInterface*      MaterialInterface;
+		int                            ReturnValue;
+	} params;
+
+	params.MaterialInterface = MaterialInterface;
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function DataTableSkinsCommon.SkinnableStaticMeshComponent.SetPersistentMaterialOverride
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// int                            MaterialSlot                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UMaterialInterface*      MaterialInterface              (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// int                            ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+int USkinnableStaticMeshComponent::SetPersistentMaterialOverride(int MaterialSlot, class UMaterialInterface* MaterialInterface)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function DataTableSkinsCommon.SkinnableStaticMeshComponent.SetPersistentMaterialOverride");
+
+	struct
+	{
+		int                            MaterialSlot;
+		class UMaterialInterface*      MaterialInterface;
+		int                            ReturnValue;
+	} params;
+
+	params.MaterialSlot = MaterialSlot;
+	params.MaterialInterface = MaterialInterface;
 
 	UObject::ProcessEvent(fn, &params);
 

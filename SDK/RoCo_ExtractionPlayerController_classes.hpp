@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass ExtractionPlayerController.ExtractionPlayerController_C
-// 0x0008 (0x0E20 - 0x0E18)
+// 0x0008 (0x0E68 - 0x0E60)
 class AExtractionPlayerController_C : public AGamePlayerController_C
 {
 public:
-	class UExtractionKSHUDAnnouncementComoponent_C*    ExtractionAnnouncementComoponent;                         // 0x0E18(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UExtractionKSHUDAnnouncementComoponent_C*    ExtractionAnnouncementComoponent;                         // 0x0E60(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

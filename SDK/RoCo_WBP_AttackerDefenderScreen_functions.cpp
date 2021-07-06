@@ -179,21 +179,21 @@ void UWBP_AttackerDefenderScreen_C::IsAttackerRole(bool* IsAttacker)
 // Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandlePhaseChanged
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FName                   NewPhaseName                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
 
-void UWBP_AttackerDefenderScreen_C::HandlePhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
+void UWBP_AttackerDefenderScreen_C::HandlePhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_AttackerDefenderScreen.WBP_AttackerDefenderScreen_C.HandlePhaseChanged");
 
 	struct
 	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }

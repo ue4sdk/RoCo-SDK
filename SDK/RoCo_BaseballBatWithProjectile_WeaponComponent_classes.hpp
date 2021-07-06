@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass BaseballBatWithProjectile_WeaponComponent.BaseballBatWithProjectile_WeaponComponent_C
-// 0x0000 (0x1560 - 0x1560)
+// 0x0000 (0x1550 - 0x1550)
 class UBaseballBatWithProjectile_WeaponComponent_C : public UMasterMelee_WeaponComponent_C
 {
 public:

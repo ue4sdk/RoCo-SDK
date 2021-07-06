@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass ReplenishModInst.ReplenishModInst_C
-// 0x0008 (0x01A8 - 0x01A0)
+// 0x0008 (0x01B0 - 0x01A8)
 class UReplenishModInst_C : public UKSModInst_OnDownOther
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x01A0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x01A8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

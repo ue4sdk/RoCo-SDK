@@ -133,21 +133,21 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::InitializeWidget(class APUMG_HUD
 // Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.HandlePhaseChanged
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FName                   CurrentPhaseName               (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FMatchPhase             CurrentPhase                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
 
-void UWBP_InGameJobSelect_InterstitialScreen_C::HandlePhaseChanged(const struct FName& CurrentPhaseName, const struct FName& PreviousPhaseName)
+void UWBP_InGameJobSelect_InterstitialScreen_C::HandlePhaseChanged(const struct FMatchPhase& CurrentPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.HandlePhaseChanged");
 
 	struct
 	{
-		struct FName                   CurrentPhaseName;
-		struct FName                   PreviousPhaseName;
+		struct FMatchPhase             CurrentPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
-	params.CurrentPhaseName = CurrentPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
+	params.CurrentPhase = CurrentPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -246,7 +246,7 @@ void UWBP_InGameJobSelect_InterstitialScreen_C::OwningTeamChanged(class AKSPlaye
 
 
 // Function WBP_InGameJobSelect_InterstitialScreen.WBP_InGameJobSelect_InterstitialScreen_C.ExecuteUbergraph_WBP_InGameJobSelect_InterstitialScreen
-// (FUNC_Final)
+// (FUNC_Final, FUNC_HasDefaults)
 // Parameters:
 // int                            EntryPoint                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 

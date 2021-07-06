@@ -20,9 +20,10 @@ class AMagicLeapSharedWorldGameMode : public AGameMode
 {
 public:
 	struct FMagicLeapSharedWorldSharedData             SharedWorldData;                                          // 0x0308(0x0010) (CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnNewLocalDataFromClients;                                // 0x0318(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnNewLocalDataFromClients;                                // 0x0318(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0318(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	float                                              PinSelectionConfidenceThreshold;                          // 0x0328(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0xA4];                                      // 0x032C(0x00A4) MISSED OFFSET
+	unsigned char                                      UnknownData01[0xA4];                                      // 0x032C(0x00A4) MISSED OFFSET
 	class AMagicLeapSharedWorldPlayerController*       ChosenOne;                                                // 0x03D0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
@@ -46,8 +47,10 @@ class AMagicLeapSharedWorldGameState : public AGameState
 public:
 	struct FMagicLeapSharedWorldSharedData             SharedWorldData;                                          // 0x0290(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Net, CPF_RepNotify, CPF_NativeAccessSpecifierPublic)
 	struct FMagicLeapSharedWorldAlignmentTransforms    AlignmentTransforms;                                      // 0x02A0(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Net, CPF_RepNotify, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnSharedWorldDataUpdated;                                 // 0x02B0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnAlignmentTransformsUpdated;                             // 0x02C0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnSharedWorldDataUpdated;                                 // 0x02B0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x02B0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnAlignmentTransformsUpdated;                             // 0x02C0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x02C0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{

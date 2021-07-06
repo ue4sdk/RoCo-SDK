@@ -171,6 +171,22 @@ void UPlayerHealthMeter_C::OnDisableImmuneParams(class UImage* bpp__OutlineBorde
 }
 
 
+// Function PlayerHealthMeter.PlayerHealthMeter_C.InitNameplateWidgetOptimizations
+// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+
+void UPlayerHealthMeter_C::InitNameplateWidgetOptimizations()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.InitNameplateWidgetOptimizations");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function PlayerHealthMeter.PlayerHealthMeter_C.Construct
 // (FUNC_BlueprintCosmetic, FUNC_Native, FUNC_Event, FUNC_Public)
 
@@ -203,12 +219,12 @@ void UPlayerHealthMeter_C::Apply_State_To_Segments()
 }
 
 
-// Function PlayerHealthMeter.PlayerHealthMeter_C.Add Segments If Needed
+// Function PlayerHealthMeter.PlayerHealthMeter_C.Add Segments if Needed
 // (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 
-void UPlayerHealthMeter_C::Add_Segments_If_Needed()
+void UPlayerHealthMeter_C::Add_Segments_if_Needed()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.Add Segments If Needed");
+	static auto fn = UObject::FindObject<UFunction>("Function PlayerHealthMeter.PlayerHealthMeter_C.Add Segments if Needed");
 
 	struct
 	{

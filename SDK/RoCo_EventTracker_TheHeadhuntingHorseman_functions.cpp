@@ -51,12 +51,12 @@ void UEventTracker_TheHeadhuntingHorseman_C::HandleLostPlayerController()
 }
 
 
-// Function EventTracker_TheHeadhuntingHorseman.EventTracker_TheHeadhuntingHorseman_C.MatchHasEnded_Event
+// Function EventTracker_TheHeadhuntingHorseman.EventTracker_TheHeadhuntingHorseman_C.MatchHAsEnded_Event
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
-void UEventTracker_TheHeadhuntingHorseman_C::MatchHasEnded_Event()
+void UEventTracker_TheHeadhuntingHorseman_C::MatchHAsEnded_Event()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_TheHeadhuntingHorseman.EventTracker_TheHeadhuntingHorseman_C.MatchHasEnded_Event");
+	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_TheHeadhuntingHorseman.EventTracker_TheHeadhuntingHorseman_C.MatchHAsEnded_Event");
 
 	struct
 	{

@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Weapon_Projectile.Weapon_Projectile_C
-// 0x0008 (0x0868 - 0x0860)
+// 0x0008 (0x0878 - 0x0870)
 class AWeapon_Projectile_C : public AKSWeapon_Projectile
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0860(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0870(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

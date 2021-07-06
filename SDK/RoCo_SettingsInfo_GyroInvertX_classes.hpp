@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_GyroInvertX.SettingsInfo_GyroInvertX_C
-// 0x0000 (0x0120 - 0x0120)
+// 0x0000 (0x0118 - 0x0118)
 class USettingsInfo_GyroInvertX_C : public UKSSettingsInfo_Generic
 {
 public:

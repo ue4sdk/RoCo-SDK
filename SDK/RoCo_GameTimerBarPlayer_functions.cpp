@@ -597,6 +597,26 @@ void UGameTimerBarPlayer_C::OnCharacterOwnerChanged(class AKSPlayerState* Player
 }
 
 
+// Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleGameObjectiveRegistered
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UGameTimerBarPlayer_C::HandleGameObjectiveRegistered(const TScriptInterface<class UKSObjective>& GameObjective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.HandleGameObjectiveRegistered");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+	} params;
+
+	params.GameObjective = GameObjective;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function GameTimerBarPlayer.GameTimerBarPlayer_C.ExecuteUbergraph_GameTimerBarPlayer
 // (FUNC_Final, FUNC_HasDefaults)
 // Parameters:

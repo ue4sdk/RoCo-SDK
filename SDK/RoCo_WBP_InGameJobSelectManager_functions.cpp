@@ -37,22 +37,6 @@ void UWBP_InGameJobSelectManager_C::IsBanning(bool CheckEnemy, bool* Return_Valu
 }
 
 
-// Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.CheckForceExperimentalUI
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_InGameJobSelectManager_C::CheckForceExperimentalUI()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.CheckForceExperimentalUI");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.GetActiveJobEntryButtons
 // (FUNC_Protected, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const)
 // Parameters:
@@ -98,21 +82,21 @@ class UWBP_InGameJobSelect_Base_C* UWBP_InGameJobSelectManager_C::GetActiveJobSe
 // Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.HandlePhaseChange
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FName                   NewPhaseName                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
 
-void UWBP_InGameJobSelectManager_C::HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
+void UWBP_InGameJobSelectManager_C::HandlePhaseChange(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.HandlePhaseChange");
 
 	struct
 	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -329,6 +313,42 @@ void UWBP_InGameJobSelectManager_C::HandleJobSelectionReady(bool EnemyTeam, TArr
 }
 
 
+// Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.Construct
+// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UWBP_InGameJobSelectManager_C::Construct()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.Construct");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.InitializeWidget
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class APUMG_HUD*               HUD                            (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_InGameJobSelectManager_C::InitializeWidget(class APUMG_HUD* HUD)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.InitializeWidget");
+
+	struct
+	{
+		class APUMG_HUD*               HUD;
+	} params;
+
+	params.HUD = HUD;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.HandleJobSelection
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -380,26 +400,6 @@ void UWBP_InGameJobSelectManager_C::HandleJobLoadoutView()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.InitializeWidget
-// (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// class APUMG_HUD*               HUD                            (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UWBP_InGameJobSelectManager_C::InitializeWidget(class APUMG_HUD* HUD)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.InitializeWidget");
-
-	struct
-	{
-		class APUMG_HUD*               HUD;
-	} params;
-
-	params.HUD = HUD;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -540,22 +540,6 @@ void UWBP_InGameJobSelectManager_C::PreRoundAnimComplete()
 }
 
 
-// Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.Construct
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-
-void UWBP_InGameJobSelectManager_C::Construct()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.Construct");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.OnJobEntriesReady
 // (FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintEvent)
 // Parameters:
@@ -610,6 +594,26 @@ void UWBP_InGameJobSelectManager_C::OnPlayerSelectionStateChanged(EPlayerSelecti
 	} params;
 
 	params.NewState = NewState;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.Construct Job Select Widget
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           Force_Reset                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UWBP_InGameJobSelectManager_C::Construct_Job_Select_Widget(bool Force_Reset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelectManager.WBP_InGameJobSelectManager_C.Construct Job Select Widget");
+
+	struct
+	{
+		bool                           Force_Reset;
+	} params;
+
+	params.Force_Reset = Force_Reset;
 
 	UObject::ProcessEvent(fn, &params);
 }

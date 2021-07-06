@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass EventTracker_NotEvenClose.EventTracker_NotEvenClose_C
-// 0x0000 (0x01F8 - 0x01F8)
+// 0x0000 (0x0210 - 0x0210)
 class UEventTracker_NotEvenClose_C : public UEventTrackerAbstract_InstigatedDamage_C
 {
 public:

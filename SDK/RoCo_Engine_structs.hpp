@@ -8,12 +8,12 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_Engine_enums.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
-#include "RoCo_InputCore_classes.hpp"
-#include "RoCo_Slate_classes.hpp"
 #include "RoCo_AudioExtensions_classes.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_PhysicsCore_classes.hpp"
 #include "RoCo_AudioPlatformConfiguration_classes.hpp"
+#include "RoCo_InputCore_classes.hpp"
+#include "RoCo_Slate_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"
 #include "RoCo_PacketHandler_classes.hpp"
 
@@ -599,6 +599,14 @@ struct FChannelDefinition
 	bool                                               bInitialServer;                                           // 0x001F(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bInitialClient;                                           // 0x0020(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x7];                                       // 0x0021(0x0007) MISSED OFFSET
+};
+
+// ScriptStruct Engine.NetThrottleSpawnDefinition
+// 0x000C
+struct FNetThrottleSpawnDefinition
+{
+	struct FName                                       SpawnBucketIdentifier;                                    // 0x0000(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                NumSpawnsPerFrame;                                        // 0x0008(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct Engine.BasedMovementInfo
@@ -4822,7 +4830,8 @@ struct FSubsurfaceProfileStruct
 struct FTimelineEventEntry
 {
 	float                                              Time;                                                     // 0x0000(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             EventFunc;                                                // 0x0004(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             EventFunc;                                                // 0x0004(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0004(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 };
 
 // ScriptStruct Engine.TimelineVectorTrack
@@ -4830,10 +4839,11 @@ struct FTimelineEventEntry
 struct FTimelineVectorTrack
 {
 	class UCurveVector*                                VectorCurve;                                              // 0x0000(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             InterpFunc;                                               // 0x0008(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             InterpFunc;                                               // 0x0008(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0008(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FName                                       TrackName;                                                // 0x0018(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FName                                       VectorPropertyName;                                       // 0x0020(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x18];                                      // 0x0028(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x18];                                      // 0x0028(0x0018) MISSED OFFSET
 };
 
 // ScriptStruct Engine.TimelineFloatTrack
@@ -4841,10 +4851,11 @@ struct FTimelineVectorTrack
 struct FTimelineFloatTrack
 {
 	class UCurveFloat*                                 FloatCurve;                                               // 0x0000(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             InterpFunc;                                               // 0x0008(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             InterpFunc;                                               // 0x0008(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0008(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FName                                       TrackName;                                                // 0x0018(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FName                                       FloatPropertyName;                                        // 0x0020(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x18];                                      // 0x0028(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x18];                                      // 0x0028(0x0018) MISSED OFFSET
 };
 
 // ScriptStruct Engine.TimelineLinearColorTrack
@@ -4852,10 +4863,11 @@ struct FTimelineFloatTrack
 struct FTimelineLinearColorTrack
 {
 	class UCurveLinearColor*                           LinearColorCurve;                                         // 0x0000(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             InterpFunc;                                               // 0x0008(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             InterpFunc;                                               // 0x0008(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0008(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FName                                       TrackName;                                                // 0x0018(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FName                                       LinearColorPropertyName;                                  // 0x0020(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x18];                                      // 0x0028(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x18];                                      // 0x0028(0x0018) MISSED OFFSET
 };
 
 // ScriptStruct Engine.Timeline
@@ -4874,11 +4886,13 @@ struct FTimeline
 	TArray<struct FTimelineVectorTrack>                InterpVectors;                                            // 0x0020(0x0010) (CPF_ZeroConstructor, CPF_RepSkip, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	TArray<struct FTimelineFloatTrack>                 InterpFloats;                                             // 0x0030(0x0010) (CPF_ZeroConstructor, CPF_RepSkip, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	TArray<struct FTimelineLinearColorTrack>           InterpLinearColors;                                       // 0x0040(0x0010) (CPF_ZeroConstructor, CPF_RepSkip, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptDelegate                             TimelinePostUpdateFunc;                                   // 0x0050(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_RepSkip, CPF_NoDestructor, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptDelegate                             TimelineFinishedFunc;                                     // 0x0060(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_RepSkip, CPF_NoDestructor, CPF_NativeAccessSpecifierPrivate)
+	struct FScriptDelegate                             TimelinePostUpdateFunc;                                   // 0x0050(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_RepSkip, CPF_NoDestructor, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0050(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptDelegate                             TimelineFinishedFunc;                                     // 0x0060(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_RepSkip, CPF_NoDestructor, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0x6];                                       // 0x0060(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	TWeakObjectPtr<class UObject>                      PropertySetObject;                                        // 0x0070(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	struct FName                                       DirectionPropertyName;                                    // 0x0078(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData01[0x18];                                      // 0x0080(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x18];                                      // 0x0080(0x0018) MISSED OFFSET
 };
 
 // ScriptStruct Engine.TTTrackBase
@@ -5201,23 +5215,23 @@ struct FFastArraySerializer
 };
 
 // ScriptStruct Engine.AnimNode_Base
-// 0x0018
+// 0x0020
 struct FAnimNode_Base
 {
-	unsigned char                                      UnknownData00[0x18];                                      // 0x0000(0x0018) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0000(0x0020) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_AssetPlayerBase
-// 0x0020 (0x0038 - 0x0018)
+// 0x0020 (0x0040 - 0x0020)
 struct FAnimNode_AssetPlayerBase : public FAnimNode_Base
 {
-	int                                                GroupIndex;                                               // 0x0018(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TEnumAsByte<EAnimGroupRole>                        GroupRole;                                                // 0x001C(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bIgnoreForRelevancyTest;                                  // 0x001D(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x2];                                       // 0x001E(0x0002) MISSED OFFSET
-	float                                              BlendWeight;                                              // 0x0020(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	float                                              InternalTimeAccumulator;                                  // 0x0024(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x10];                                      // 0x0028(0x0010) MISSED OFFSET
+	int                                                GroupIndex;                                               // 0x0020(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TEnumAsByte<EAnimGroupRole>                        GroupRole;                                                // 0x0024(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bIgnoreForRelevancyTest;                                  // 0x0025(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x2];                                       // 0x0026(0x0002) MISSED OFFSET
+	float                                              BlendWeight;                                              // 0x0028(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	float                                              InternalTimeAccumulator;                                  // 0x002C(0x0004) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x10];                                      // 0x0030(0x0010) MISSED OFFSET
 };
 
 // ScriptStruct Engine.InputRange
@@ -5327,12 +5341,12 @@ struct FPerBoneBlendWeight
 };
 
 // ScriptStruct Engine.AnimNode_Root
-// 0x0020 (0x0038 - 0x0018)
+// 0x0020 (0x0040 - 0x0020)
 struct FAnimNode_Root : public FAnimNode_Base
 {
-	struct FPoseLink                                   Result;                                                   // 0x0018(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FName                                       Name;                                                     // 0x0028(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FName                                       Group;                                                    // 0x0030(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FPoseLink                                   Result;                                                   // 0x0020(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FName                                       Name;                                                     // 0x0030(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FName                                       Group;                                                    // 0x0038(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct Engine.AnimCurveParam
@@ -5605,40 +5619,40 @@ struct FAnimMontageInstance
 };
 
 // ScriptStruct Engine.AnimNode_ApplyMeshSpaceAdditive
-// 0x00C0 (0x00D8 - 0x0018)
+// 0x00C0 (0x00E0 - 0x0020)
 struct FAnimNode_ApplyMeshSpaceAdditive : public FAnimNode_Base
 {
-	struct FPoseLink                                   Base;                                                     // 0x0018(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FPoseLink                                   Additive;                                                 // 0x0028(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	EAnimAlphaInputType                                AlphaInputType;                                           // 0x0038(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x0039(0x0003) MISSED OFFSET
-	float                                              Alpha;                                                    // 0x003C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bAlphaBoolEnabled : 1;                                    // 0x0040(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x7];                                       // 0x0041(0x0007) MISSED OFFSET
-	struct FInputAlphaBoolBlend                        AlphaBoolBlend;                                           // 0x0048(0x0048) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FName                                       AlphaCurveName;                                           // 0x0090(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FInputScaleBias                             AlphaScaleBias;                                           // 0x0098(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FInputScaleBiasClamp                        AlphaScaleBiasClamp;                                      // 0x00A0(0x0030) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	int                                                LODThreshold;                                             // 0x00D0(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x4];                                       // 0x00D4(0x0004) MISSED OFFSET
+	struct FPoseLink                                   Base;                                                     // 0x0020(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FPoseLink                                   Additive;                                                 // 0x0030(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	EAnimAlphaInputType                                AlphaInputType;                                           // 0x0040(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x0041(0x0003) MISSED OFFSET
+	float                                              Alpha;                                                    // 0x0044(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bAlphaBoolEnabled : 1;                                    // 0x0048(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x7];                                       // 0x0049(0x0007) MISSED OFFSET
+	struct FInputAlphaBoolBlend                        AlphaBoolBlend;                                           // 0x0050(0x0048) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FName                                       AlphaCurveName;                                           // 0x0098(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FInputScaleBias                             AlphaScaleBias;                                           // 0x00A0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FInputScaleBiasClamp                        AlphaScaleBiasClamp;                                      // 0x00A8(0x0030) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	int                                                LODThreshold;                                             // 0x00D8(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x4];                                       // 0x00DC(0x0004) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_CustomProperty
-// 0x0048 (0x0060 - 0x0018)
+// 0x0048 (0x0068 - 0x0020)
 struct FAnimNode_CustomProperty : public FAnimNode_Base
 {
-	TArray<struct FName>                               SourcePropertyNames;                                      // 0x0018(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	TArray<struct FName>                               DestPropertyNames;                                        // 0x0028(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UObject*                                     TargetInstance;                                           // 0x0038(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0040(0x0020) MISSED OFFSET
+	TArray<struct FName>                               SourcePropertyNames;                                      // 0x0020(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<struct FName>                               DestPropertyNames;                                        // 0x0030(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UObject*                                     TargetInstance;                                           // 0x0040(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0048(0x0020) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_Inertialization
-// 0x0060 (0x0078 - 0x0018)
+// 0x0060 (0x0080 - 0x0020)
 struct FAnimNode_Inertialization : public FAnimNode_Base
 {
-	struct FPoseLink                                   Source;                                                   // 0x0018(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x50];                                      // 0x0028(0x0050) MISSED OFFSET
+	struct FPoseLink                                   Source;                                                   // 0x0020(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x50];                                      // 0x0030(0x0050) MISSED OFFSET
 };
 
 // ScriptStruct Engine.InertializationPoseDiff
@@ -5670,70 +5684,70 @@ struct FInertializationPose
 };
 
 // ScriptStruct Engine.AnimNode_LinkedAnimGraph
-// 0x0048 (0x00A8 - 0x0060)
+// 0x0048 (0x00B0 - 0x0068)
 struct FAnimNode_LinkedAnimGraph : public FAnimNode_CustomProperty
 {
-	TArray<struct FPoseLink>                           InputPoses;                                               // 0x0060(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TArray<struct FName>                               InputPoseNames;                                           // 0x0070(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UClass*                                      InstanceClass;                                            // 0x0080(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FName                                       Tag;                                                      // 0x0088(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0090(0x0010) MISSED OFFSET
-	unsigned char                                      bReceiveNotifiesFromLinkedInstances : 1;                  // 0x00A0(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      bPropagateNotifiesToLinkedInstances : 1;                  // 0x00A0(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x7];                                       // 0x00A1(0x0007) MISSED OFFSET
+	TArray<struct FPoseLink>                           InputPoses;                                               // 0x0068(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TArray<struct FName>                               InputPoseNames;                                           // 0x0078(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UClass*                                      InstanceClass;                                            // 0x0088(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FName                                       Tag;                                                      // 0x0090(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0098(0x0010) MISSED OFFSET
+	unsigned char                                      bReceiveNotifiesFromLinkedInstances : 1;                  // 0x00A8(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      bPropagateNotifiesToLinkedInstances : 1;                  // 0x00A8(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x7];                                       // 0x00A9(0x0007) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_LinkedAnimLayer
-// 0x0010 (0x00B8 - 0x00A8)
+// 0x0010 (0x00C0 - 0x00B0)
 struct FAnimNode_LinkedAnimLayer : public FAnimNode_LinkedAnimGraph
 {
-	class UClass*                                      Interface;                                                // 0x00A8(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FName                                       Layer;                                                    // 0x00B0(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UClass*                                      Interface;                                                // 0x00B0(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FName                                       Layer;                                                    // 0x00B8(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct Engine.AnimNode_LinkedInputPose
-// 0x0068 (0x0080 - 0x0018)
+// 0x0068 (0x0088 - 0x0020)
 struct FAnimNode_LinkedInputPose : public FAnimNode_Base
 {
-	struct FName                                       Name;                                                     // 0x0018(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FName                                       Graph;                                                    // 0x0020(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FPoseLink                                   InputPose;                                                // 0x0028(0x0010) (CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x48];                                      // 0x0038(0x0048) MISSED OFFSET
+	struct FName                                       Name;                                                     // 0x0020(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FName                                       Graph;                                                    // 0x0028(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FPoseLink                                   InputPose;                                                // 0x0030(0x0010) (CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x48];                                      // 0x0040(0x0048) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_SaveCachedPose
-// 0x00A8 (0x00C0 - 0x0018)
+// 0x00A8 (0x00C8 - 0x0020)
 struct FAnimNode_SaveCachedPose : public FAnimNode_Base
 {
-	struct FPoseLink                                   Pose;                                                     // 0x0018(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FName                                       CachePoseName;                                            // 0x0028(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x0030(0x0004) MISSED OFFSET
-	int8_t                                             UseCount;                                                 // 0x0034(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x8B];                                      // 0x0035(0x008B) MISSED OFFSET
+	struct FPoseLink                                   Pose;                                                     // 0x0020(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FName                                       CachePoseName;                                            // 0x0030(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0038(0x0004) MISSED OFFSET
+	int8_t                                             UseCount;                                                 // 0x003C(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x8B];                                      // 0x003D(0x008B) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_SequencePlayer
-// 0x0048 (0x0080 - 0x0038)
+// 0x0048 (0x0088 - 0x0040)
 struct FAnimNode_SequencePlayer : public FAnimNode_AssetPlayerBase
 {
-	class UAnimSequenceBase*                           Sequence;                                                 // 0x0038(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              PlayRateBasis;                                            // 0x0040(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	float                                              PlayRate;                                                 // 0x0044(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FInputScaleBiasClamp                        PlayRateScaleBiasClamp;                                   // 0x0048(0x0030) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	float                                              StartPosition;                                            // 0x0078(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bLoopAnimation;                                           // 0x007C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x007D(0x0003) MISSED OFFSET
+	class UAnimSequenceBase*                           Sequence;                                                 // 0x0040(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              PlayRateBasis;                                            // 0x0048(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              PlayRate;                                                 // 0x004C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FInputScaleBiasClamp                        PlayRateScaleBiasClamp;                                   // 0x0050(0x0030) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	float                                              StartPosition;                                            // 0x0080(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bLoopAnimation;                                           // 0x0084(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x0085(0x0003) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_StateMachine
-// 0x00A0 (0x00B8 - 0x0018)
+// 0x00A0 (0x00C0 - 0x0020)
 struct FAnimNode_StateMachine : public FAnimNode_Base
 {
-	int                                                StateMachineIndexInClass;                                 // 0x0018(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                MaxTransitionsPerFrame;                                   // 0x001C(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bSkipFirstUpdateTransition;                               // 0x0020(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bReinitializeOnBecomingRelevant;                          // 0x0021(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x96];                                      // 0x0022(0x0096) MISSED OFFSET
+	int                                                StateMachineIndexInClass;                                 // 0x0020(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                MaxTransitionsPerFrame;                                   // 0x0024(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bSkipFirstUpdateTransition;                               // 0x0028(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bReinitializeOnBecomingRelevant;                          // 0x0029(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x96];                                      // 0x002A(0x0096) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimationPotentialTransition
@@ -5753,45 +5767,45 @@ struct FAnimationActiveTransitionEntry
 };
 
 // ScriptStruct Engine.AnimNode_TransitionPoseEvaluator
-// 0x0048 (0x0060 - 0x0018)
+// 0x0048 (0x0068 - 0x0020)
 struct FAnimNode_TransitionPoseEvaluator : public FAnimNode_Base
 {
-	unsigned char                                      UnknownData00[0x38];                                      // 0x0018(0x0038) MISSED OFFSET
-	int                                                FramesToCachePose;                                        // 0x0050(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x0054(0x0004) MISSED OFFSET
-	TEnumAsByte<EEvaluatorDataSource>                  DataSource;                                               // 0x0058(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TEnumAsByte<EEvaluatorMode>                        EvaluatorMode;                                            // 0x0059(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x6];                                       // 0x005A(0x0006) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x38];                                      // 0x0020(0x0038) MISSED OFFSET
+	int                                                FramesToCachePose;                                        // 0x0058(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x4];                                       // 0x005C(0x0004) MISSED OFFSET
+	TEnumAsByte<EEvaluatorDataSource>                  DataSource;                                               // 0x0060(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TEnumAsByte<EEvaluatorMode>                        EvaluatorMode;                                            // 0x0061(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x6];                                       // 0x0062(0x0006) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_TransitionResult
-// 0x0018 (0x0030 - 0x0018)
+// 0x0018 (0x0038 - 0x0020)
 struct FAnimNode_TransitionResult : public FAnimNode_Base
 {
-	bool                                               bCanEnterTransition;                                      // 0x0018(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x17];                                      // 0x0019(0x0017) MISSED OFFSET
+	bool                                               bCanEnterTransition;                                      // 0x0020(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x17];                                      // 0x0021(0x0017) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_UseCachedPose
-// 0x0018 (0x0030 - 0x0018)
+// 0x0018 (0x0038 - 0x0020)
 struct FAnimNode_UseCachedPose : public FAnimNode_Base
 {
-	struct FPoseLink                                   LinkToCachingNode;                                        // 0x0018(0x0010) (CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FName                                       CachePoseName;                                            // 0x0028(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FPoseLink                                   LinkToCachingNode;                                        // 0x0020(0x0010) (CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FName                                       CachePoseName;                                            // 0x0030(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct Engine.AnimNode_ConvertLocalToComponentSpace
-// 0x0010 (0x0028 - 0x0018)
+// 0x0010 (0x0030 - 0x0020)
 struct FAnimNode_ConvertLocalToComponentSpace : public FAnimNode_Base
 {
-	struct FPoseLink                                   LocalPose;                                                // 0x0018(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FPoseLink                                   LocalPose;                                                // 0x0020(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct Engine.AnimNode_ConvertComponentToLocalSpace
-// 0x0010 (0x0028 - 0x0018)
+// 0x0010 (0x0030 - 0x0020)
 struct FAnimNode_ConvertComponentToLocalSpace : public FAnimNode_Base
 {
-	struct FComponentSpacePoseLink                     ComponentPose;                                            // 0x0018(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FComponentSpacePoseLink                     ComponentPose;                                            // 0x0020(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct Engine.CompressedTrack
@@ -5854,18 +5868,18 @@ struct FAnimSequenceTrackContainer
 };
 
 // ScriptStruct Engine.AnimSingleNodeInstanceProxy
-// 0x0150 (0x0830 - 0x06E0)
+// 0x0160 (0x0840 - 0x06E0)
 struct FAnimSingleNodeInstanceProxy : public FAnimInstanceProxy
 {
-	unsigned char                                      UnknownData00[0x150];                                     // 0x06E0(0x0150) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x160];                                     // 0x06E0(0x0160) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimNode_SingleNode
-// 0x0020 (0x0038 - 0x0018)
+// 0x0020 (0x0040 - 0x0020)
 struct FAnimNode_SingleNode : public FAnimNode_Base
 {
-	struct FPoseLink                                   SourcePose;                                               // 0x0018(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0028(0x0010) MISSED OFFSET
+	struct FPoseLink                                   SourcePose;                                               // 0x0020(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0030(0x0010) MISSED OFFSET
 };
 
 // ScriptStruct Engine.AnimationTransitionRule

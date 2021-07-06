@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass KillCamController.KillCamController_C
-// 0x0008 (0x0E70 - 0x0E68)
+// 0x0008 (0x0EB8 - 0x0EB0)
 class AKillCamController_C : public AKSKillCamController
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0E68(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0EB0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

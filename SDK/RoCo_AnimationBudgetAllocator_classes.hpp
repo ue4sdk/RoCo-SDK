@@ -33,15 +33,15 @@ public:
 
 
 // Class AnimationBudgetAllocator.SkeletalMeshComponentBudgeted
-// 0x0020 (0x0B90 - 0x0B70)
+// 0x0020 (0x0BB0 - 0x0B90)
 class USkeletalMeshComponentBudgeted : public USkeletalMeshComponent
 {
 public:
-	unsigned char                                      UnknownData00[0x18];                                      // 0x0B70(0x0018) MISSED OFFSET
-	unsigned char                                      bAutoRegisterWithBudgetAllocator : 1;                     // 0x0B88(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      bAutoCalculateSignificance : 1;                           // 0x0B88(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      bShouldUseActorRenderedFlag : 1;                          // 0x0B88(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData01[0x7];                                       // 0x0B89(0x0007) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x18];                                      // 0x0B90(0x0018) MISSED OFFSET
+	unsigned char                                      bAutoRegisterWithBudgetAllocator : 1;                     // 0x0BA8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      bAutoCalculateSignificance : 1;                           // 0x0BA8(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      bShouldUseActorRenderedFlag : 1;                          // 0x0BA8(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x7];                                       // 0x0BA9(0x0007) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

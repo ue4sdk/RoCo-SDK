@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass EventTracker_DownedEnemy.EventTracker_DownedEnemy_C
-// 0x0000 (0x01F8 - 0x01F8)
+// 0x0000 (0x0210 - 0x0210)
 class UEventTracker_DownedEnemy_C : public UEventTrackerAbstract_InstigatedDamage_C
 {
 public:

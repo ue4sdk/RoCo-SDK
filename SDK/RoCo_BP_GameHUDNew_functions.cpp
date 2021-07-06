@@ -218,22 +218,6 @@ void ABP_GameHUDNew_C::ReceiveBeginPlay()
 }
 
 
-// Function BP_GameHUDNew.BP_GameHUDNew_C.HandleReturnToHomeClick
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void ABP_GameHUDNew_C::HandleReturnToHomeClick()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.HandleReturnToHomeClick");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function BP_GameHUDNew.BP_GameHUDNew_C.OnShowHUD
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
@@ -398,29 +382,6 @@ void ABP_GameHUDNew_C::BindEventToWidgetMessages(const struct FScriptDelegate& C
 }
 
 
-// Function BP_GameHUDNew.BP_GameHUDNew_C.HandleOnPhaseChanged
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FName                   NewPhaseName                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void ABP_GameHUDNew_C::HandleOnPhaseChanged(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.HandleOnPhaseChanged");
-
-	struct
-	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
-	} params;
-
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function BP_GameHUDNew.BP_GameHUDNew_C.HandleOpenTextChat
 // (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -569,17 +530,20 @@ void ABP_GameHUDNew_C::SetUIFocus()
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
 // int                            Index                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// int                            NumWalking                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void ABP_GameHUDNew_C::Play_Cinematic_Nameplate_Anim(int Index)
+void ABP_GameHUDNew_C::Play_Cinematic_Nameplate_Anim(int Index, int NumWalking)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.Play Cinematic Nameplate Anim");
 
 	struct
 	{
 		int                            Index;
+		int                            NumWalking;
 	} params;
 
 	params.Index = Index;
+	params.NumWalking = NumWalking;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -625,29 +589,20 @@ void ABP_GameHUDNew_C::EvaluateFocus()
 
 
 // Function BP_GameHUDNew.BP_GameHUDNew_C.Init WalkIn Widget
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// class AKSJobSelectPreviewActor* In_Player_01                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AKSJobSelectPreviewActor* In_Player_02                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AKSJobSelectPreviewActor* In_Player_03                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AKSJobSelectPreviewActor* In_Player_04                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// TArray<class AKSJobSelectPreviewActor*> Players                        (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_HasGetValueTypeHash)
 
-void ABP_GameHUDNew_C::Init_WalkIn_Widget(class AKSJobSelectPreviewActor* In_Player_01, class AKSJobSelectPreviewActor* In_Player_02, class AKSJobSelectPreviewActor* In_Player_03, class AKSJobSelectPreviewActor* In_Player_04)
+void ABP_GameHUDNew_C::Init_WalkIn_Widget(TArray<class AKSJobSelectPreviewActor*> Players)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.Init WalkIn Widget");
 
 	struct
 	{
-		class AKSJobSelectPreviewActor* In_Player_01;
-		class AKSJobSelectPreviewActor* In_Player_02;
-		class AKSJobSelectPreviewActor* In_Player_03;
-		class AKSJobSelectPreviewActor* In_Player_04;
+		TArray<class AKSJobSelectPreviewActor*> Players;
 	} params;
 
-	params.In_Player_01 = In_Player_01;
-	params.In_Player_02 = In_Player_02;
-	params.In_Player_03 = In_Player_03;
-	params.In_Player_04 = In_Player_04;
+	params.Players = Players;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -668,6 +623,29 @@ void ABP_GameHUDNew_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason> EndPlayReason)
 	} params;
 
 	params.EndPlayReason = EndPlayReason;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BP_GameHUDNew.BP_GameHUDNew_C.OnPhaseChanged
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FMatchPhase             CurrentPhase                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+
+void ABP_GameHUDNew_C::OnPhaseChanged(const struct FMatchPhase& CurrentPhase, const struct FMatchPhase& PreviousPhase)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GameHUDNew.BP_GameHUDNew_C.OnPhaseChanged");
+
+	struct
+	{
+		struct FMatchPhase             CurrentPhase;
+		struct FMatchPhase             PreviousPhase;
+	} params;
+
+	params.CurrentPhase = CurrentPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }

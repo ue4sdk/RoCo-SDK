@@ -12,6 +12,85 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
+// Function GameTimerBar.GameTimerBar_C.ResetTeamProgressLerp
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> Game_Objective                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UGameTimerBar_C::ResetTeamProgressLerp(const TScriptInterface<class UKSObjective>& Game_Objective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.ResetTeamProgressLerp");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> Game_Objective;
+	} params;
+
+	params.Game_Objective = Game_Objective;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTimerBar.GameTimerBar_C.SetTeamProgressLerp
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> Game_Objective                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// bool                           Sync_Progress                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UGameTimerBar_C::SetTeamProgressLerp(const TScriptInterface<class UKSObjective>& Game_Objective, bool Sync_Progress)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.SetTeamProgressLerp");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> Game_Objective;
+		bool                           Sync_Progress;
+	} params;
+
+	params.Game_Objective = Game_Objective;
+	params.Sync_Progress = Sync_Progress;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTimerBar.GameTimerBar_C.Lerp Team Progress
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// float                          DeltaTime                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UGameTimerBar_C::Lerp_Team_Progress(float DeltaTime)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Lerp Team Progress");
+
+	struct
+	{
+		float                          DeltaTime;
+	} params;
+
+	params.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTimerBar.GameTimerBar_C.HandleTimerPrioritiesChanged
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UGameTimerBar_C::HandleTimerPrioritiesChanged()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.HandleTimerPrioritiesChanged");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function GameTimerBar.GameTimerBar_C.On Objective Timer Tick
 // (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -148,6 +227,8 @@ void UGameTimerBar_C::SetIntraScoreIcons()
 // Parameters:
 // class UTexture2D*              ObjectiveIcon                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 // bool                           UseProgressCircle              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// bool                           UseMiniTimerWithMainTimer      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// bool                           ShowBombIcon                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 // bool                           UseIntraScoring                (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 // class UTexture2D*              ScoreIcon                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 // ETopbarPointsBarType           PointsBarType                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
@@ -155,7 +236,7 @@ void UGameTimerBar_C::SetIntraScoreIcons()
 // class UTexture2D*              TicketIcon                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 // ETopbarTicketDisplaySide       TicketDisplaySide              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UGameTimerBar_C::SetGameBarFromComponent(class UTexture2D* ObjectiveIcon, bool UseProgressCircle, bool UseIntraScoring, class UTexture2D* ScoreIcon, ETopbarPointsBarType PointsBarType, bool UseTicketSystem, class UTexture2D* TicketIcon, ETopbarTicketDisplaySide TicketDisplaySide)
+void UGameTimerBar_C::SetGameBarFromComponent(class UTexture2D* ObjectiveIcon, bool UseProgressCircle, bool UseMiniTimerWithMainTimer, bool ShowBombIcon, bool UseIntraScoring, class UTexture2D* ScoreIcon, ETopbarPointsBarType PointsBarType, bool UseTicketSystem, class UTexture2D* TicketIcon, ETopbarTicketDisplaySide TicketDisplaySide)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.SetGameBarFromComponent");
 
@@ -163,6 +244,8 @@ void UGameTimerBar_C::SetGameBarFromComponent(class UTexture2D* ObjectiveIcon, b
 	{
 		class UTexture2D*              ObjectiveIcon;
 		bool                           UseProgressCircle;
+		bool                           UseMiniTimerWithMainTimer;
+		bool                           ShowBombIcon;
 		bool                           UseIntraScoring;
 		class UTexture2D*              ScoreIcon;
 		ETopbarPointsBarType           PointsBarType;
@@ -173,6 +256,8 @@ void UGameTimerBar_C::SetGameBarFromComponent(class UTexture2D* ObjectiveIcon, b
 
 	params.ObjectiveIcon = ObjectiveIcon;
 	params.UseProgressCircle = UseProgressCircle;
+	params.UseMiniTimerWithMainTimer = UseMiniTimerWithMainTimer;
+	params.ShowBombIcon = ShowBombIcon;
 	params.UseIntraScoring = UseIntraScoring;
 	params.ScoreIcon = ScoreIcon;
 	params.PointsBarType = PointsBarType;
@@ -591,17 +676,17 @@ void UGameTimerBar_C::SetAttackDefendIcons()
 // Function GameTimerBar.GameTimerBar_C.HandlePhaseChanged
 // (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FName                   NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
 
-void UGameTimerBar_C::HandlePhaseChanged(const struct FName& NewPhase, const struct FName& PreviousPhase)
+void UGameTimerBar_C::HandlePhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.HandlePhaseChanged");
 
 	struct
 	{
-		struct FName                   NewPhase;
-		struct FName                   PreviousPhase;
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
 	params.NewPhase = NewPhase;
@@ -981,6 +1066,22 @@ void UGameTimerBar_C::OnControlPointScored(class AKSTeamState* TeamState, class 
 
 	params.TeamState = TeamState;
 	params.ControlPoint = ControlPoint;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTimerBar.GameTimerBar_C.OnInitialized
+// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UGameTimerBar_C::OnInitialized()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnInitialized");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass APSWeapon.APSWeapon_C
-// 0x0000 (0x0920 - 0x0920)
+// 0x0000 (0x0930 - 0x0930)
 class AAPSWeapon_C : public AKSWeapon_Build
 {
 public:

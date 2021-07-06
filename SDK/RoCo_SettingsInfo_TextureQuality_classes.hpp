@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_TextureQuality.SettingsInfo_TextureQuality_C
-// 0x0000 (0x0128 - 0x0128)
+// 0x0000 (0x0120 - 0x0120)
 class USettingsInfo_TextureQuality_C : public USettingsInfo_Quality_C
 {
 public:

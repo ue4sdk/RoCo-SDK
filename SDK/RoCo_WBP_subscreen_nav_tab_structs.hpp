@@ -7,6 +7,7 @@
 #endif
 
 #include "RoCo_Basic.hpp"
+#include "RoCo_PlatformUMG_classes.hpp"
 #include "RoCo_UMG_classes.hpp"
 #include "RoCo_KillstreakUINew_classes.hpp"
 #include "RoCo_Engine_classes.hpp"

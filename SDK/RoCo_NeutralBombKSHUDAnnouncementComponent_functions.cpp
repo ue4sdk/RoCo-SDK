@@ -12,24 +12,108 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
-// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveDropped
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveReset
+// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper)
 
-void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveDropped()
+void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveReset(const TScriptInterface<class UKSObjective>& GameObjective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveReset");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+	} params;
+
+	params.GameObjective = GameObjective;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveDisarmed
+// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper)
+
+void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveDisarmed(const TScriptInterface<class UKSObjective>& GameObjective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveDisarmed");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+	} params;
+
+	params.GameObjective = GameObjective;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveHeld
+// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper)
+
+void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveHeld(const TScriptInterface<class UKSObjective>& GameObjective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveHeld");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+	} params;
+
+	params.GameObjective = GameObjective;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveDropped
+// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper)
+
+void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveDropped(const TScriptInterface<class UKSObjective>& GameObjective)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveDropped");
 
 	struct
 	{
+		TScriptInterface<class UKSObjective> GameObjective;
 	} params;
 
+	params.GameObjective = GameObjective;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveArmed
+// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper)
+
+void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveArmed(const TScriptInterface<class UKSObjective>& GameObjective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveArmed");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+	} params;
+
+	params.GameObjective = GameObjective;
 
 	UObject::ProcessEvent(fn, &params);
 }
 
 
 // Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectivePickedup
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
 // TScriptInterface<class UKSObjective> Objective                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
@@ -43,82 +127,6 @@ void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectivePickedup(const TScript
 	} params;
 
 	params.Objective = Objective;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveDisarmed
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// TScriptInterface<class UKSObjective> Objective                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveDisarmed(const TScriptInterface<class UKSObjective>& Objective)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveDisarmed");
-
-	struct
-	{
-		TScriptInterface<class UKSObjective> Objective;
-	} params;
-
-	params.Objective = Objective;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveReset
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// TScriptInterface<class UKSObjective> Objective                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveReset(const TScriptInterface<class UKSObjective>& Objective)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveReset");
-
-	struct
-	{
-		TScriptInterface<class UKSObjective> Objective;
-	} params;
-
-	params.Objective = Objective;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectivePlanted
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// TScriptInterface<class UKSObjective> Objective                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectivePlanted(const TScriptInterface<class UKSObjective>& Objective)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectivePlanted");
-
-	struct
-	{
-		TScriptInterface<class UKSObjective> Objective;
-	} params;
-
-	params.Objective = Objective;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveSpawned
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveSpawned()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveSpawned");
-
-	struct
-	{
-	} params;
-
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -258,26 +266,6 @@ void UNeutralBombKSHUDAnnouncementComponent_C::Update_Round_Announcements()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveStateChanged
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// TScriptInterface<class UKSObjective> Objective                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveStateChanged(const TScriptInterface<class UKSObjective>& Objective)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveStateChanged");
-
-	struct
-	{
-		TScriptInterface<class UKSObjective> Objective;
-	} params;
-
-	params.Objective = Objective;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -644,6 +632,26 @@ void UNeutralBombKSHUDAnnouncementComponent_C::OnTicketCountChanged(class AKSTea
 	} params;
 
 	params.Team = Team;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveSpawned
+// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper)
+
+void UNeutralBombKSHUDAnnouncementComponent_C::OnObjectiveSpawned(const TScriptInterface<class UKSObjective>& GameObjective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombKSHUDAnnouncementComponent.NeutralBombKSHUDAnnouncementComponent_C.OnObjectiveSpawned");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+	} params;
+
+	params.GameObjective = GameObjective;
 
 	UObject::ProcessEvent(fn, &params);
 }

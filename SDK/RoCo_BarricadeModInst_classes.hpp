@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BarricadeModInst.BarricadeModInst_C
-// 0x0008 (0x0550 - 0x0548)
+// 0x0008 (0x0548 - 0x0540)
 class UBarricadeModInst_C : public UKSModInst_GiveBuildOnActivation
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0548(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0540(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

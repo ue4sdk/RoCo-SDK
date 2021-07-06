@@ -67,21 +67,21 @@ void AMVPLineup_Sub_C::ReceiveTick(float DeltaSeconds)
 // Function MVPLineup_Sub.MVPLineup_Sub_C.OnPhaseChangeDel
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FName                   NewPhaseName                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   PreviousPhaseName              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
 
-void AMVPLineup_Sub_C::OnPhaseChangeDel(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName)
+void AMVPLineup_Sub_C::OnPhaseChangeDel(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function MVPLineup_Sub.MVPLineup_Sub_C.OnPhaseChangeDel");
 
 	struct
 	{
-		struct FName                   NewPhaseName;
-		struct FName                   PreviousPhaseName;
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
 	} params;
 
-	params.NewPhaseName = NewPhaseName;
-	params.PreviousPhaseName = PreviousPhaseName;
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -107,12 +107,12 @@ void AMVPLineup_Sub_C::OnTimerSecondTick(float NewTruncatedSeconds)
 }
 
 
-// Function MVPLineup_Sub.MVPLineup_Sub_C.FillRogues
+// Function MVPLineup_Sub.MVPLineup_Sub_C.FillDebugRogues
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
-void AMVPLineup_Sub_C::FillRogues()
+void AMVPLineup_Sub_C::FillDebugRogues()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function MVPLineup_Sub.MVPLineup_Sub_C.FillRogues");
+	static auto fn = UObject::FindObject<UFunction>("Function MVPLineup_Sub.MVPLineup_Sub_C.FillDebugRogues");
 
 	struct
 	{

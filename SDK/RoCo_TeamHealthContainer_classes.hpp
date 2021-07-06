@@ -32,7 +32,7 @@ public:
 	void Construct();
 	void UpdateTeammateHealthBars();
 	void HandlePlayerSpawn(class AKSCharacterBase* NewCharacter);
-	void HandlePhaseChnage(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName);
+	void HandlePhaseChnage(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase);
 	void HandleSetupStart();
 	void ExecuteUbergraph_TeamHealthContainer(int EntryPoint);
 };

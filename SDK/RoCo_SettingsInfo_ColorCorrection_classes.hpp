@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_ColorCorrection.SettingsInfo_ColorCorrection_C
-// 0x0000 (0x0120 - 0x0120)
+// 0x0000 (0x0118 - 0x0118)
 class USettingsInfo_ColorCorrection_C : public UKSSettingsInfo_Generic
 {
 public:

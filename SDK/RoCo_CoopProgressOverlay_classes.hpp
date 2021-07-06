@@ -45,7 +45,7 @@ public:
 	void Handle_Computers_Unlocked();
 	void Handle_Successful_Hack(class AKSExtractionComputer* Computer);
 	void Handle_Escape_Point_Changed(TArray<class AKSPlayerState*> ContainedPlayers);
-	void Handle_Phase_Change(const struct FName& CurrentPhaseName, const struct FName& PreviousPhaseName);
+	void Handle_Phase_Change(const struct FMatchPhase& CurrentPhase, const struct FMatchPhase& PreviousPhase);
 	void Handle_Timer_Second_Tick(float NewTruncatedSeconds);
 	void Handle_Player_Downed_Changed(class AKSPlayerState* PlayerState);
 	void Handle_Player_Death(const struct FCombatEventInfo& EventInfo);

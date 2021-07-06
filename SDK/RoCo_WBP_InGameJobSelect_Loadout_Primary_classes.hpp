@@ -33,8 +33,10 @@ public:
 	bool                                               View_Is_Purchase_Maxed;                                   // 0x0549(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 	unsigned char                                      UnknownData01[0x6];                                       // 0x054A(0x0006) MISSED OFFSET
 	TArray<int>                                        View_Prices;                                              // 0x0550(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
-	struct FScriptMulticastDelegate                    OnHovered;                                                // 0x0560(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
-	struct FScriptMulticastDelegate                    OnUnhovered;                                              // 0x0570(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	struct FScriptMulticastDelegate                    OnHovered;                                                // 0x0560(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0560(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnUnhovered;                                              // 0x0570(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0570(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FText                                       ItemType;                                                 // 0x0580(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_ExposeOnSpawn)
 
 	static UClass* StaticClass()

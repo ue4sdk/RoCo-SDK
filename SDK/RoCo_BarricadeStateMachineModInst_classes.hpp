@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BarricadeStateMachineModInst.BarricadeStateMachineModInst_C
-// 0x0008 (0x0520 - 0x0518)
+// 0x0008 (0x0518 - 0x0510)
 class UBarricadeStateMachineModInst_C : public UKSModInst_ActivatedStateMachine
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0518(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0510(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

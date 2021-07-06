@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Weapon_InstantFire_Pistol.Weapon_InstantFire_Pistol_C
-// 0x0000 (0x0864 - 0x0864)
+// 0x0000 (0x0874 - 0x0874)
 class AWeapon_InstantFire_Pistol_C : public AWeapon_InstantFire_C
 {
 public:

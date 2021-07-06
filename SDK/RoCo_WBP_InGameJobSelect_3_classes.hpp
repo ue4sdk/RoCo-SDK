@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_InGameJobSelect_3.WBP_InGameJobSelect_2_C
-// 0x022A (0x0780 - 0x0556)
+// 0x0232 (0x0788 - 0x0556)
 class UWBP_InGameJobSelect_2_C : public UWBP_InGameJobSelect_Base_C
 {
 public:
@@ -83,11 +83,12 @@ public:
 	class UWBP_InGameJobSelect_RoguePanel_C*           WBP_InGameJobSelect_RoguePanel;                           // 0x0738(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UWBP_ThrobberHorizontal_C*                   WBP_ThrobberHorizontal;                                   // 0x0740(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UWBP_ThrobberHorizontal_C*                   WBP_ThrobberHorizontal_2;                                 // 0x0748(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
-	TArray<class UWBP_InGameJobSelect_JobEntry2_C*>    JobEntryButtons;                                          // 0x0750(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash)
-	class UAkAudioEvent*                               ClickMedBtnOverrideSFX;                                   // 0x0760(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
-	class UAkAudioEvent*                               ClickLockInBtnOverrideSFX;                                // 0x0768(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
-	class UAkAudioEvent*                               BanLockInBtnOverrideSFX_1;                                // 0x0770(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
-	struct FName                                       CachedCurrentPhase;                                       // 0x0778(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class UWBP_ThrobberShield_C*                       WBP_ThrobberShield;                                       // 0x0750(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
+	TArray<class UWBP_InGameJobSelect_JobEntry2_C*>    JobEntryButtons;                                          // 0x0758(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash)
+	class UAkAudioEvent*                               ClickMedBtnOverrideSFX;                                   // 0x0768(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
+	class UAkAudioEvent*                               ClickLockInBtnOverrideSFX;                                // 0x0770(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
+	class UAkAudioEvent*                               BanLockInBtnOverrideSFX_1;                                // 0x0778(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
+	struct FName                                       CachedCurrentPhase;                                       // 0x0780(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{
@@ -96,6 +97,7 @@ public:
 	}
 
 
+	void Get_Job_Entry_Buttons(TArray<class UWidget*>* Buttons);
 	void ForceUpdateToCurrentlySelected(class UKSJobItem** SelectedJob);
 	void ConfirmExpectedBans();
 	void ConditionalNotifyBanExpected();
@@ -112,7 +114,7 @@ public:
 	void HandleScrollWidgetIntoView(class UKSWidget* Widget);
 	void SetGamepadPrompts();
 	void SetAttackDefendMessage();
-	void HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName);
+	void HandlePhaseChange(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase);
 	void RestoreVisualState();
 	void OnInputStateChanged(TEnumAsByte<EPGAME_INPUT_STATE> InputState);
 	void SetHoverMessage(class UJobSelectionEntryDetails* JobEntry);

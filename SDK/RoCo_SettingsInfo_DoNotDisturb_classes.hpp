@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_DoNotDisturb.SettingsInfo_DoNotDisturb_C
-// 0x0000 (0x0120 - 0x0120)
+// 0x0000 (0x0118 - 0x0118)
 class USettingsInfo_DoNotDisturb_C : public UKSSettingsInfo_Generic
 {
 public:

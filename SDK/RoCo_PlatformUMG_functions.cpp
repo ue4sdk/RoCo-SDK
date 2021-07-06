@@ -4998,7 +4998,7 @@ int UPUMG_PopupManager::AddPopup(const struct FPUMG_PopupConfig& popupData)
 
 
 // Function PlatformUMG.PUMG_QueueDataFactory.StartCustomMatch
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_Const)
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
 // bool                           bDoChecks                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
@@ -5703,17 +5703,20 @@ void UPUMG_QueueDataFactory::CreateCustomMatch(int QueueId, int TeamSize, int Ta
 // Function PlatformUMG.PUMG_QueueDataFactory.CheckCustomMatch
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintPure, FUNC_Const)
 // Parameters:
+// bool                           bAllowGMOverride               (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // EPUMG_CustomMatchError         ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-EPUMG_CustomMatchError UPUMG_QueueDataFactory::CheckCustomMatch()
+EPUMG_CustomMatchError UPUMG_QueueDataFactory::CheckCustomMatch(bool bAllowGMOverride)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_QueueDataFactory.CheckCustomMatch");
 
 	struct
 	{
+		bool                           bAllowGMOverride;
 		EPUMG_CustomMatchError         ReturnValue;
 	} params;
 
+	params.bAllowGMOverride = bAllowGMOverride;
 
 	UObject::ProcessEvent(fn, &params);
 

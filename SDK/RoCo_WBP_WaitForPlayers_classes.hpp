@@ -31,7 +31,7 @@ public:
 
 
 	void Construct();
-	void HandlePhaseChange(const struct FName& NewPhaseName, const struct FName& PreviousPhaseName);
+	void HandlePhaseChange(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase);
 	void ExecuteUbergraph_WBP_WaitForPlayers(int EntryPoint);
 };
 

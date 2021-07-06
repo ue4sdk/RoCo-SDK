@@ -183,12 +183,12 @@ void UEventTracker_PlayerXP_C::HandleLostPlayerController()
 }
 
 
-// Function EventTracker_PlayerXP.EventTracker_PlayerXP_C.MatchHasEnded_Event
+// Function EventTracker_PlayerXP.EventTracker_PlayerXP_C.MatchHAsEnded_Event
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
-void UEventTracker_PlayerXP_C::MatchHasEnded_Event()
+void UEventTracker_PlayerXP_C::MatchHAsEnded_Event()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_PlayerXP.EventTracker_PlayerXP_C.MatchHasEnded_Event");
+	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_PlayerXP.EventTracker_PlayerXP_C.MatchHAsEnded_Event");
 
 	struct
 	{

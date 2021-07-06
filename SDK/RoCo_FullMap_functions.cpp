@@ -12,6 +12,26 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
+// Function FullMap.FullMap_C.SetActiveTab
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           bIsActiveTab                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UFullMap_C::SetActiveTab(bool bIsActiveTab)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.SetActiveTab");
+
+	struct
+	{
+		bool                           bIsActiveTab;
+	} params;
+
+	params.bIsActiveTab = bIsActiveTab;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function FullMap.FullMap_C.CreateNewIconWidget
 // (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:

@@ -15,12 +15,12 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Weapon_InstantFire.Weapon_InstantFire_C
-// 0x000C (0x0864 - 0x0858)
+// 0x000C (0x0874 - 0x0868)
 class AWeapon_InstantFire_C : public AKSWeapon_Aimed
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0858(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	float                                              Hit_Scan_Distance;                                        // 0x0860(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0868(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	float                                              Hit_Scan_Distance;                                        // 0x0870(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

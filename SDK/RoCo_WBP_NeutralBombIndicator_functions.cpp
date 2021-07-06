@@ -136,6 +136,26 @@ void UWBP_NeutralBombIndicator_C::InitializeWidget(class APUMG_HUD* HUD)
 }
 
 
+// Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleOnGameObjectiveRegistered
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// TScriptInterface<class UKSObjective> GameObjective                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UWBP_NeutralBombIndicator_C::HandleOnGameObjectiveRegistered(const TScriptInterface<class UKSObjective>& GameObjective)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleOnGameObjectiveRegistered");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> GameObjective;
+	} params;
+
+	params.GameObjective = GameObjective;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.ExecuteUbergraph_WBP_NeutralBombIndicator
 // (FUNC_Final, FUNC_HasDefaults)
 // Parameters:

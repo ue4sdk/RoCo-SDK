@@ -8,14 +8,14 @@
 
 #include "RoCo_Basic.hpp"
 #include "RoCo_PlatformUMG_enums.hpp"
+#include "RoCo_Engine_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
 #include "RoCo_UMG_classes.hpp"
-#include "RoCo_Engine_classes.hpp"
 #include "RoCo_PlatformGameFramework_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
 #include "RoCo_PlatformCommon_classes.hpp"
-#include "RoCo_SlateCore_classes.hpp"
 #include "RoCo_Slate_classes.hpp"
+#include "RoCo_SlateCore_classes.hpp"
 #include "RoCo_PlatformInventoryItem_classes.hpp"
 
 namespace SDK
@@ -127,9 +127,10 @@ struct FPUMG_PartyMemberData
 struct FPUMG_PopupButtonConfig
 {
 	struct FText                                       Label;                                                    // 0x0000(0x0018) (CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    Action;                                                   // 0x0018(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    Action;                                                   // 0x0018(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0018(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	EPUMG_PopupButtonType                              Type;                                                     // 0x0028(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0029(0x0007) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x7];                                       // 0x0029(0x0007) MISSED OFFSET
 };
 
 // ScriptStruct PlatformUMG.PUMG_PopupConfig
@@ -148,9 +149,10 @@ struct FPUMG_PopupConfig
 	bool                                               TreatAsBlocker;                                           // 0x00A9(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x6];                                       // 0x00AA(0x0006) MISSED OFFSET
 	TArray<struct FPUMG_PopupButtonConfig>             Buttons;                                                  // 0x00B0(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    CancelAction;                                             // 0x00C0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    CancelAction;                                             // 0x00C0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x00C0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	TEnumAsByte<ETextJustify>                          TextAlignment;                                            // 0x00D0(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x00D1(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x3];                                       // 0x00D1(0x0003) MISSED OFFSET
 	int                                                PopupId;                                                  // 0x00D4(0x0004) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 

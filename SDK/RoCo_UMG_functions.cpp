@@ -2621,9 +2621,10 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimationForward(class UWidgetAnimati
 // TEnumAsByte<EUMGSequencePlayMode> PlayMode                       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // float                          PlaybackSpeed                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // bool                           bRestoreState                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// bool                           bEvaluateFirstFrame            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // class UUMGSequencePlayer*      ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-class UUMGSequencePlayer* UUserWidget::PlayAnimation(class UWidgetAnimation* InAnimation, float StartAtTime, int NumLoopsToPlay, TEnumAsByte<EUMGSequencePlayMode> PlayMode, float PlaybackSpeed, bool bRestoreState)
+class UUMGSequencePlayer* UUserWidget::PlayAnimation(class UWidgetAnimation* InAnimation, float StartAtTime, int NumLoopsToPlay, TEnumAsByte<EUMGSequencePlayMode> PlayMode, float PlaybackSpeed, bool bRestoreState, bool bEvaluateFirstFrame)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function UMG.UserWidget.PlayAnimation");
 
@@ -2635,6 +2636,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimation(class UWidgetAnimation* InA
 		TEnumAsByte<EUMGSequencePlayMode> PlayMode;
 		float                          PlaybackSpeed;
 		bool                           bRestoreState;
+		bool                           bEvaluateFirstFrame;
 		class UUMGSequencePlayer*      ReturnValue;
 	} params;
 
@@ -2644,6 +2646,7 @@ class UUMGSequencePlayer* UUserWidget::PlayAnimation(class UWidgetAnimation* InA
 	params.PlayMode = PlayMode;
 	params.PlaybackSpeed = PlaybackSpeed;
 	params.bRestoreState = bRestoreState;
+	params.bEvaluateFirstFrame = bEvaluateFirstFrame;
 
 	UObject::ProcessEvent(fn, &params);
 

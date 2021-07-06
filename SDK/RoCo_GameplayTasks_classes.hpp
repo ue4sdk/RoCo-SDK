@@ -62,9 +62,11 @@ public:
 class UGameplayTask_SpawnActor : public UGameplayTask
 {
 public:
-	struct FScriptMulticastDelegate                    Success;                                                  // 0x0068(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    DidNotSpawn;                                              // 0x0078(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x18];                                      // 0x0088(0x0018) MISSED OFFSET
+	struct FScriptMulticastDelegate                    Success;                                                  // 0x0068(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0068(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    DidNotSpawn;                                              // 0x0078(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0078(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData02[0x18];                                      // 0x0088(0x0018) MISSED OFFSET
 	class UClass*                                      ClassToSpawn;                                             // 0x00A0(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
@@ -85,9 +87,11 @@ public:
 class UGameplayTask_TimeLimitedExecution : public UGameplayTask
 {
 public:
-	struct FScriptMulticastDelegate                    OnFinished;                                               // 0x0068(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTimeExpired;                                            // 0x0078(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0088(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnFinished;                                               // 0x0068(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0068(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnTimeExpired;                                            // 0x0078(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0078(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData02[0x10];                                      // 0x0088(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -103,8 +107,9 @@ public:
 class UGameplayTask_WaitDelay : public UGameplayTask
 {
 public:
-	struct FScriptMulticastDelegate                    OnFinish;                                                 // 0x0068(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x8];                                       // 0x0078(0x0008) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnFinish;                                                 // 0x0068(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0068(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData01[0x8];                                       // 0x0078(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -167,7 +172,8 @@ public:
 	unsigned char                                      UnknownData03[0x10];                                      // 0x00E0(0x0010) MISSED OFFSET
 	TArray<class UGameplayTask*>                       TickingTasks;                                             // 0x00F0(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	TArray<class UGameplayTask*>                       KnownTasks;                                               // 0x0100(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FScriptMulticastDelegate                    OnClaimedResourcesChange;                                 // 0x0110(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnClaimedResourcesChange;                                 // 0x0110(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0110(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{

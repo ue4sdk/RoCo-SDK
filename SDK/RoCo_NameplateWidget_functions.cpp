@@ -12,6 +12,29 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
+// Function NameplateWidget.NameplateWidget_C.Update Visibility
+// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// float                          bpp__DeltaSeconds__pf          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// bool                           bpp__ForceUpdate__pf           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UNameplateWidget_C::Update_Visibility(float bpp__DeltaSeconds__pf, bool bpp__ForceUpdate__pf)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.Update Visibility");
+
+	struct
+	{
+		float                          bpp__DeltaSeconds__pf;
+		bool                           bpp__ForceUpdate__pf;
+	} params;
+
+	params.bpp__DeltaSeconds__pf = bpp__DeltaSeconds__pf;
+	params.bpp__ForceUpdate__pf = bpp__ForceUpdate__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function NameplateWidget.NameplateWidget_C.Unbind Events From PlayerState
 // (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 
@@ -434,6 +457,26 @@ void UNameplateWidget_C::HandleModActivationChanged(class UKSPlayerMod_Activated
 }
 
 
+// Function NameplateWidget.NameplateWidget_C.HandleGameObjectiveRegistered
+// (FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
+// Parameters:
+// TScriptInterface<class UKSObjective> bpp__GameObjective__pf         (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_NativeAccessSpecifierPublic)
+
+void UNameplateWidget_C::HandleGameObjectiveRegistered(const TScriptInterface<class UKSObjective>& bpp__GameObjective__pf)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.HandleGameObjectiveRegistered");
+
+	struct
+	{
+		TScriptInterface<class UKSObjective> bpp__GameObjective__pf;
+	} params;
+
+	params.bpp__GameObjective__pf = bpp__GameObjective__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function NameplateWidget.NameplateWidget_C.HandleGameObjectiveChanged
 // (FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
 // Parameters:
@@ -454,14 +497,14 @@ void UNameplateWidget_C::HandleGameObjectiveChanged(const TScriptInterface<class
 }
 
 
-// Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_6
+// Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_5
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UNameplateWidget_C::ExecuteUbergraph_NameplateWidget_6(int bpp__EntryPoint__pf)
+void UNameplateWidget_C::ExecuteUbergraph_NameplateWidget_5(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_6");
+	static auto fn = UObject::FindObject<UFunction>("Function NameplateWidget.NameplateWidget_C.ExecuteUbergraph_NameplateWidget_5");
 
 	struct
 	{

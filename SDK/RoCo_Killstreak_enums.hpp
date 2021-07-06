@@ -488,7 +488,8 @@ enum class EMercCosmeticSlot : uint8_t
 	EMercCosmeticSlot__COMMUNICATION_SLOT = 5,
 	EMercCosmeticSlot__SPRAY_SLOT  = 6,
 	EMercCosmeticSlot__WEAPON_CATEGORY_SLOT = 7,
-	EMercCosmeticSlot__EMercCosmeticSlot_MAX = 8
+	EMercCosmeticSlot__FAVORITE_WEAPON_SLOT = 8,
+	EMercCosmeticSlot__EMercCosmeticSlot_MAX = 9
 };
 
 
@@ -640,6 +641,16 @@ enum class ESurfaceTargetErrorReason : uint8_t
 };
 
 
+// Enum Killstreak.EVariableFireRateState
+enum class EVariableFireRateState : uint8_t
+{
+	EVariableFireRateState__Static = 0,
+	EVariableFireRateState__Charging = 1,
+	EVariableFireRateState__Decaying = 2,
+	EVariableFireRateState__EVariableFireRateState_MAX = 3
+};
+
+
 // Enum Killstreak.EAimDataMode
 enum class EAimDataMode : uint8_t
 {
@@ -670,7 +681,8 @@ enum class EKSBattlePassProgressionActivityType : uint8_t
 	EKSBattlePassProgressionActivityType__MiniBattlePass1 = 1,
 	EKSBattlePassProgressionActivityType__BattlePass1 = 2,
 	EKSBattlePassProgressionActivityType__BattlePass2 = 3,
-	EKSBattlePassProgressionActivityType__MAX = 4
+	EKSBattlePassProgressionActivityType__BattlePass3 = 4,
+	EKSBattlePassProgressionActivityType__MAX = 5
 };
 
 
@@ -953,15 +965,6 @@ enum class EKSVehicleState : uint8_t
 	EKSVehicleState__Passenger     = 3,
 	EKSVehicleState__Exiting       = 4,
 	EKSVehicleState__EKSVehicleState_MAX = 5
-};
-
-
-// Enum Killstreak.EAimDownSightsMode
-enum class EAimDownSightsMode : uint8_t
-{
-	EAimDownSightsMode__Toggle     = 0,
-	EAimDownSightsMode__PressAndHold = 1,
-	EAimDownSightsMode__EAimDownSightsMode_MAX = 2
 };
 
 
@@ -1335,7 +1338,8 @@ enum class ELobbyCharacterIndex : uint8_t
 	ELobbyCharacterIndex__LobbyCharacter_PurchaseConfirmation = 6,
 	ELobbyCharacterIndex__LobbyCharacter_EventScreen = 7,
 	ELobbyCharacterIndex__LobbyCharacter_BattlePassScreen = 8,
-	ELobbyCharacterIndex__LobbyCharacter_MAX = 9
+	ELobbyCharacterIndex__LobbyCharacter_RogueScreenPosed = 9,
+	ELobbyCharacterIndex__LobbyCharacter_MAX = 10
 };
 
 
@@ -1900,7 +1904,8 @@ enum class EStoreSectionTypes : uint8_t
 	DLCSectionOnSale               = 8,
 	CustomMessage                  = 9,
 	DisplayOnCustomizationScreenOnly = 10,
-	EStoreSectionTypes_MAX         = 11
+	DynamicallyGeneratedOffers     = 11,
+	EStoreSectionTypes_MAX         = 12
 };
 
 
@@ -1930,6 +1935,17 @@ enum class ETopbarPointsBarType : uint8_t
 	ETopbarPointsBarType__Score    = 1,
 	ETopbarPointsBarType__Ticket   = 2,
 	ETopbarPointsBarType__ETopbarPointsBarType_MAX = 3
+};
+
+
+// Enum Killstreak.EGameTimerType
+enum class EGameTimerType : uint8_t
+{
+	EGameTimerType__None           = 0,
+	EGameTimerType__RoundTimer     = 1,
+	EGameTimerType__PhaseTimer     = 2,
+	EGameTimerType__ObjectiveTimer = 3,
+	EGameTimerType__EGameTimerType_MAX = 4
 };
 
 
@@ -2137,6 +2153,32 @@ enum class EEmoteCameraPositionType : uint8_t
 };
 
 
+// Enum Killstreak.ERadialWheelActivationMode
+enum class ERadialWheelActivationMode : uint8_t
+{
+	ERadialWheelActivationMode__None = 0,
+	ERadialWheelActivationMode__Gameplay = 1,
+	ERadialWheelActivationMode__Cinematic = 2,
+	ERadialWheelActivationMode__Lobby = 3,
+	ERadialWheelActivationMode__ERadialWheelActivationMode_MAX = 4
+};
+
+
+// Enum Killstreak.EKSPriority
+enum class EKSPriority : uint8_t
+{
+	EKSPriority__None              = 0,
+	EKSPriority__Lowest            = 1,
+	EKSPriority__VeryLow           = 2,
+	EKSPriority__Low               = 3,
+	EKSPriority__Medium            = 4,
+	EKSPriority__High              = 5,
+	EKSPriority__VeryHigh          = 6,
+	EKSPriority__Highest           = 7,
+	EKSPriority__EKSPriority_MAX   = 8
+};
+
+
 // Enum Killstreak.EKSRevealType
 enum class EKSRevealType : uint8_t
 {
@@ -2334,8 +2376,9 @@ enum class EQueueDivertType : uint8_t
 	EQueueDivertType__None         = 0,
 	EQueueDivertType__ShelteredMM  = 1,
 	EQueueDivertType__ForcedBotMatch = 2,
-	EQueueDivertType__Other        = 3,
-	EQueueDivertType__EQueueDivertType_MAX = 4
+	EQueueDivertType__MercyMatch   = 3,
+	EQueueDivertType__Other        = 4,
+	EQueueDivertType__EQueueDivertType_MAX = 5
 };
 
 
@@ -2490,16 +2533,6 @@ enum class EBundledAmmoType : uint8_t
 	EBundledAmmoType__DefaultAmmoFromAsset = 1,
 	EBundledAmmoType__Override     = 2,
 	EBundledAmmoType__EBundledAmmoType_MAX = 3
-};
-
-
-// Enum Killstreak.EVariableFireRateState
-enum class EVariableFireRateState : uint8_t
-{
-	EVariableFireRateState__Static = 0,
-	EVariableFireRateState__Charging = 1,
-	EVariableFireRateState__Decaying = 2,
-	EVariableFireRateState__EVariableFireRateState_MAX = 3
 };
 
 

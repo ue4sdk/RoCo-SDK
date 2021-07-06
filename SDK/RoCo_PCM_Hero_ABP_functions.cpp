@@ -713,6 +713,26 @@ void UPCM_Hero_ABP_C::SetStartAnim(EKSMovementDirection bpp__Direction__pf)
 }
 
 
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.SetShieldActive
+// (FUNC_Native, FUNC_Event, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// bool                           bpp__bSetIsShieldActive__pf    (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UPCM_Hero_ABP_C::SetShieldActive(bool bpp__bSetIsShieldActive__pf)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.SetShieldActive");
+
+	struct
+	{
+		bool                           bpp__bSetIsShieldActive__pf;
+	} params;
+
+	params.bpp__bSetIsShieldActive__pf = bpp__bSetIsShieldActive__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function PCM_Hero_ABP.PCM_Hero_ABP_C.SetPoseDrivenHitReactParams
 // (FUNC_Native, FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable)
 // Parameters:
@@ -2303,14 +2323,54 @@ void UPCM_Hero_ABP_C::Get_Footstep_SFX_Material(const struct FName& bpp__BoneNam
 }
 
 
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_83
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_86
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_83(int bpp__EntryPoint__pf)
+void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_86(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_83");
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_86");
+
+	struct
+	{
+		int                            bpp__EntryPoint__pf;
+	} params;
+
+	params.bpp__EntryPoint__pf = bpp__EntryPoint__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_58
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_58(int bpp__EntryPoint__pf)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_58");
+
+	struct
+	{
+		int                            bpp__EntryPoint__pf;
+	} params;
+
+	params.bpp__EntryPoint__pf = bpp__EntryPoint__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_56
+// (FUNC_Final, FUNC_Native, FUNC_Public)
+// Parameters:
+// int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_56(int bpp__EntryPoint__pf)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_56");
 
 	struct
 	{
@@ -2343,14 +2403,14 @@ void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_54(int bpp__EntryPoint__pf)
 }
 
 
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_51
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_6
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_51(int bpp__EntryPoint__pf)
+void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_6(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_51");
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_6");
 
 	struct
 	{
@@ -2363,14 +2423,14 @@ void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_51(int bpp__EntryPoint__pf)
 }
 
 
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_50
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_42
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_50(int bpp__EntryPoint__pf)
+void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_42(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_50");
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_42");
 
 	struct
 	{
@@ -2383,14 +2443,14 @@ void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_50(int bpp__EntryPoint__pf)
 }
 
 
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_5
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_39
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_5(int bpp__EntryPoint__pf)
+void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_39(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_5");
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_39");
 
 	struct
 	{
@@ -2403,14 +2463,14 @@ void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_5(int bpp__EntryPoint__pf)
 }
 
 
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_38
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_35
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_38(int bpp__EntryPoint__pf)
+void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_35(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_38");
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_35");
 
 	struct
 	{
@@ -2423,54 +2483,14 @@ void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_38(int bpp__EntryPoint__pf)
 }
 
 
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_36
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_29
 // (FUNC_Final, FUNC_Native, FUNC_Public)
 // Parameters:
 // int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
-void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_36(int bpp__EntryPoint__pf)
+void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_29(int bpp__EntryPoint__pf)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_36");
-
-	struct
-	{
-		int                            bpp__EntryPoint__pf;
-	} params;
-
-	params.bpp__EntryPoint__pf = bpp__EntryPoint__pf;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_31
-// (FUNC_Final, FUNC_Native, FUNC_Public)
-// Parameters:
-// int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_31(int bpp__EntryPoint__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_31");
-
-	struct
-	{
-		int                            bpp__EntryPoint__pf;
-	} params;
-
-	params.bpp__EntryPoint__pf = bpp__EntryPoint__pf;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_21
-// (FUNC_Final, FUNC_Native, FUNC_Public)
-// Parameters:
-// int                            bpp__EntryPoint__pf            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UPCM_Hero_ABP_C::ExecuteUbergraph_PCM_Hero_ABP_21(int bpp__EntryPoint__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_21");
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.ExecuteUbergraph_PCM_Hero_ABP_29");
 
 	struct
 	{
@@ -2904,6 +2924,22 @@ void UPCM_Hero_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_A
 void UPCM_Hero_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_AnimGraphNode_TransitionResult_E471C2EA41D54CD0DBC13F89A50DBDD9()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_AnimGraphNode_TransitionResult_E471C2EA41D54CD0DBC13F89A50DBDD9");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PCM_Hero_ABP.PCM_Hero_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_AnimGraphNode_TransitionResult_CDEB775C48CEA154C12B5EA8A2F7E4B8
+// (FUNC_Native, FUNC_Public)
+
+void UPCM_Hero_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_AnimGraphNode_TransitionResult_CDEB775C48CEA154C12B5EA8A2F7E4B8()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_AnimGraphNode_TransitionResult_CDEB775C48CEA154C12B5EA8A2F7E4B8");
 
 	struct
 	{
@@ -3426,22 +3462,6 @@ void UPCM_Hero_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_A
 }
 
 
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_AnimGraphNode_BlendListByBool_72640BAF4E1BA30E6914C3B9C3DE123A
-// (FUNC_Native, FUNC_Public)
-
-void UPCM_Hero_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_AnimGraphNode_BlendListByBool_72640BAF4E1BA30E6914C3B9C3DE123A()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_AnimGraphNode_BlendListByBool_72640BAF4E1BA30E6914C3B9C3DE123A");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function PCM_Hero_ABP.PCM_Hero_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_PCM_Hero_ABP_AnimGraphNode_BlendListByBool_723417A547338353502AF28D5622C932
 // (FUNC_Native, FUNC_Public)
 
@@ -3751,22 +3771,6 @@ void UPCM_Hero_ABP_C::BlueprintUpdateAnimation(float bpp__DeltaTimeX__pf)
 void UPCM_Hero_ABP_C::BlueprintInitializeAnimation()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.BlueprintInitializeAnimation");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function PCM_Hero_ABP.PCM_Hero_ABP_C.Anim MIrror Delay End BP
-// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-
-void UPCM_Hero_ABP_C::Anim_MIrror_Delay_End_BP()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PCM_Hero_ABP.PCM_Hero_ABP_C.Anim MIrror Delay End BP");
 
 	struct
 	{

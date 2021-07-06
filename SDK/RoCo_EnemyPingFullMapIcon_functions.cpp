@@ -107,6 +107,42 @@ void UEnemyPingFullMapIcon_C::Re_Ping(const struct FKSClientShotInfo& ShotInfo)
 }
 
 
+// Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.MapIconReady
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UEnemyPingFullMapIcon_C::MapIconReady()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.MapIconReady");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.MapIconFinished
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSMapIconWidgetBase*    NewParam                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UEnemyPingFullMapIcon_C::MapIconFinished(class UKSMapIconWidgetBase* NewParam)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.MapIconFinished");
+
+	struct
+	{
+		class UKSMapIconWidgetBase*    NewParam;
+	} params;
+
+	params.NewParam = NewParam;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function EnemyPingFullMapIcon.EnemyPingFullMapIcon_C.ExecuteUbergraph_EnemyPingFullMapIcon
 // (FUNC_Final, FUNC_HasDefaults)
 // Parameters:

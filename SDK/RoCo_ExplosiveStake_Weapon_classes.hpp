@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass ExplosiveStake_Weapon.ExplosiveStake_Weapon_C
-// 0x0000 (0x0898 - 0x0898)
+// 0x0000 (0x08A8 - 0x08A8)
 class AExplosiveStake_Weapon_C : public AWeapon_Grenade_C
 {
 public:

@@ -390,10 +390,11 @@ public:
 class UNavigationPath : public UObject
 {
 public:
-	struct FScriptMulticastDelegate                    PathUpdatedNotifier;                                      // 0x0028(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    PathUpdatedNotifier;                                      // 0x0028(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0028(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	TArray<struct FVector>                             PathPoints;                                               // 0x0038(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TEnumAsByte<ENavigationOptionFlag>                 RecalculateOnInvalidation;                                // 0x0048(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x3F];                                      // 0x0049(0x003F) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x3F];                                      // 0x0049(0x003F) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -458,13 +459,15 @@ public:
 	TArray<class ANavigationData*>                     NavDataSet;                                               // 0x0090(0x0010) (CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TArray<class ANavigationData*>                     NavDataRegistrationQueue;                                 // 0x00A0(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData05[0x10];                                      // 0x00B0(0x0010) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnNavDataRegisteredEvent;                                 // 0x00C0(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnNavigationGenerationFinishedDelegate;                   // 0x00D0(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData06[0xDC];                                      // 0x00E0(0x00DC) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnNavDataRegisteredEvent;                                 // 0x00C0(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x00B0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnNavigationGenerationFinishedDelegate;                   // 0x00D0(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x00D0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData08[0xDC];                                      // 0x00E0(0x00DC) MISSED OFFSET
 	EFNavigationSystemRunMode                          OperationMode;                                            // 0x01BC(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData07[0x357];                                     // 0x01BD(0x0357) MISSED OFFSET
+	unsigned char                                      UnknownData09[0x357];                                     // 0x01BD(0x0357) MISSED OFFSET
 	float                                              DirtyAreasUpdateFreq;                                     // 0x0514(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData08[0x20];                                      // 0x0518(0x0020) MISSED OFFSET
+	unsigned char                                      UnknownData10[0x20];                                      // 0x0518(0x0020) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

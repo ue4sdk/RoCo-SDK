@@ -605,6 +605,12 @@ struct FRandomStream
 struct FDateTime
 {
 	unsigned char                                      UnknownData00[0x8];                                       // 0x0000(0x0008) MISSED OFFSET
+
+	int64_t ToMilliseconds() const
+	{
+		return Ticks / 10000;
+	}
+
 };
 
 // ScriptStruct CoreUObject.FrameNumber

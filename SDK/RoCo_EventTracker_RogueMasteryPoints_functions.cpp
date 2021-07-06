@@ -211,17 +211,17 @@ void UEventTracker_RogueMasteryPoints_C::HandleMatchEnded()
 // Function EventTracker_RogueMasteryPoints.EventTracker_RogueMasteryPoints_C.HandlePhaseChanged
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// struct FName                   PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// struct FName                   NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
 
-void UEventTracker_RogueMasteryPoints_C::HandlePhaseChanged(const struct FName& PreviousPhase, const struct FName& NewPhase)
+void UEventTracker_RogueMasteryPoints_C::HandlePhaseChanged(const struct FMatchPhase& PreviousPhase, const struct FMatchPhase& NewPhase)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_RogueMasteryPoints.EventTracker_RogueMasteryPoints_C.HandlePhaseChanged");
 
 	struct
 	{
-		struct FName                   PreviousPhase;
-		struct FName                   NewPhase;
+		struct FMatchPhase             PreviousPhase;
+		struct FMatchPhase             NewPhase;
 	} params;
 
 	params.PreviousPhase = PreviousPhase;

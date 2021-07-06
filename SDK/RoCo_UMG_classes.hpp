@@ -35,19 +35,23 @@ class UWidget : public UVisual
 {
 public:
 	class UPanelSlot*                                  Slot;                                                     // 0x0028(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_TextExportTransient, CPF_PersistentInstance, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             bIsEnabledDelegate;                                       // 0x0030(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             bIsEnabledDelegate;                                       // 0x0030(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0030(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FText                                       ToolTipText;                                              // 0x0040(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ToolTipTextDelegate;                                      // 0x0058(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             ToolTipTextDelegate;                                      // 0x0058(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0058(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	class UWidget*                                     ToolTipWidget;                                            // 0x0068(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_EditConst, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ToolTipWidgetDelegate;                                    // 0x0070(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             VisibilityDelegate;                                       // 0x0080(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             ToolTipWidgetDelegate;                                    // 0x0070(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x6];                                       // 0x0070(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptDelegate                             VisibilityDelegate;                                       // 0x0080(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0x6];                                       // 0x0080(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FWidgetTransform                            RenderTransform;                                          // 0x0090(0x001C) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FVector2D                                   RenderTransformPivot;                                     // 0x00AC(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bIsVariable : 1;                                          // 0x00B4(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bCreatedByConstructionScript : 1;                         // 0x00B4(0x0001) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bIsEnabled : 1;                                           // 0x00B4(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bOverride_Cursor : 1;                                     // 0x00B4(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x00B5(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData04[0x3];                                       // 0x00B5(0x0003) MISSED OFFSET
 	class USlateAccessibleWidgetData*                  AccessibleWidgetData;                                     // 0x00B8(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 	unsigned char                                      bIsVolatile : 1;                                          // 0x00C0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      bAllowRenderInterpolation : 1;                            // 0x00C0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
@@ -56,12 +60,12 @@ public:
 	TEnumAsByte<EMouseCursor>                          Cursor;                                                   // 0x00C2(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EWidgetClipping                                    Clipping;                                                 // 0x00C3(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	ESlateVisibility                                   Visibility;                                               // 0x00C4(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x00C5(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData05[0x3];                                       // 0x00C5(0x0003) MISSED OFFSET
 	float                                              RenderOpacity;                                            // 0x00C8(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x4];                                       // 0x00CC(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData06[0x4];                                       // 0x00CC(0x0004) MISSED OFFSET
 	class UWidgetNavigation*                           Navigation;                                               // 0x00D0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EFlowDirectionPreference                           FlowDirectionPreference;                                  // 0x00D8(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x27];                                      // 0x00D9(0x0027) MISSED OFFSET
+	unsigned char                                      UnknownData07[0x27];                                      // 0x00D9(0x0027) MISSED OFFSET
 	TArray<class UPropertyBinding*>                    NativeBindings;                                           // 0x0100(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
@@ -145,13 +149,16 @@ class UImage : public UWidget
 {
 public:
 	struct FSlateBrush                                 Brush;                                                    // 0x0110(0x0088) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             BrushDelegate;                                            // 0x0198(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             BrushDelegate;                                            // 0x0198(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0198(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FLinearColor                                ColorAndOpacity;                                          // 0x01A8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ColorAndOpacityDelegate;                                  // 0x01B8(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             ColorAndOpacityDelegate;                                  // 0x01B8(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x01B8(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	bool                                               bFlipForRightToLeftFlowDirection;                         // 0x01C8(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x01C9(0x0003) MISSED OFFSET
-	struct FScriptDelegate                             OnMouseButtonDownEvent;                                   // 0x01CC(0x0014) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3C];                                      // 0x01DC(0x003C) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x3];                                       // 0x01C9(0x0003) MISSED OFFSET
+	struct FScriptDelegate                             OnMouseButtonDownEvent;                                   // 0x01CC(0x000A) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0x6];                                       // 0x01C9(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData04[0x3C];                                      // 0x01DC(0x003C) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -231,9 +238,11 @@ class UUserWidget : public UWidget
 public:
 	unsigned char                                      UnknownData00[0x8];                                       // 0x0110(0x0008) MISSED OFFSET
 	struct FLinearColor                                ColorAndOpacity;                                          // 0x0118(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ColorAndOpacityDelegate;                                  // 0x0128(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             ColorAndOpacityDelegate;                                  // 0x0128(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0128(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FSlateColor                                 ForegroundColor;                                          // 0x0138(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ForegroundColorDelegate;                                  // 0x0160(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             ForegroundColorDelegate;                                  // 0x0160(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x6];                                       // 0x0160(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FMargin                                     Padding;                                                  // 0x0170(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	TArray<class UUMGSequencePlayer*>                  ActiveSequencePlayers;                                    // 0x0180(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TArray<class UUMGSequencePlayer*>                  StoppedSequencePlayers;                                   // 0x0190(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -245,14 +254,14 @@ public:
 	unsigned char                                      bStopAction : 1;                                          // 0x01BC(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bHasScriptImplementedTick : 1;                            // 0x01BC(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      bHasScriptImplementedPaint : 1;                           // 0x01BC(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01 : 2;                                        // 0x01BC(0x0001)
+	unsigned char                                      UnknownData03 : 2;                                        // 0x01BC(0x0001)
 	unsigned char                                      bCookedWidgetTree : 1;                                    // 0x01BC(0x0001) (CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0xB];                                       // 0x01BD(0x000B) MISSED OFFSET
+	unsigned char                                      UnknownData04[0xB];                                       // 0x01BD(0x000B) MISSED OFFSET
 	EWidgetTickFrequency                               TickFrequency;                                            // 0x01C8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData03[0x7];                                       // 0x01C9(0x0007) MISSED OFFSET
+	unsigned char                                      UnknownData05[0x7];                                       // 0x01C9(0x0007) MISSED OFFSET
 	class UInputComponent*                             InputComponent;                                           // 0x01D0(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	TArray<struct FAnimationEventBinding>              AnimationCallbacks;                                       // 0x01D8(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData04[0x50];                                      // 0x01E8(0x0050) MISSED OFFSET
+	unsigned char                                      UnknownData06[0x50];                                      // 0x01E8(0x0050) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -293,7 +302,7 @@ public:
 	class UUMGSequencePlayer* PlayAnimationTimeRange(class UWidgetAnimation* InAnimation, float StartAtTime, float EndAtTime, int NumLoopsToPlay, TEnumAsByte<EUMGSequencePlayMode> PlayMode, float PlaybackSpeed, bool bRestoreState);
 	class UUMGSequencePlayer* PlayAnimationReverse(class UWidgetAnimation* InAnimation, float PlaybackSpeed, bool bRestoreState);
 	class UUMGSequencePlayer* PlayAnimationForward(class UWidgetAnimation* InAnimation, float PlaybackSpeed, bool bRestoreState);
-	class UUMGSequencePlayer* PlayAnimation(class UWidgetAnimation* InAnimation, float StartAtTime, int NumLoopsToPlay, TEnumAsByte<EUMGSequencePlayMode> PlayMode, float PlaybackSpeed, bool bRestoreState);
+	class UUMGSequencePlayer* PlayAnimation(class UWidgetAnimation* InAnimation, float StartAtTime, int NumLoopsToPlay, TEnumAsByte<EUMGSequencePlayMode> PlayMode, float PlaybackSpeed, bool bRestoreState, bool bEvaluateFirstFrame);
 	float PauseAnimation(class UWidgetAnimation* InAnimation);
 	struct FEventReply OnTouchStarted(const struct FGeometry& MyGeometry, const struct FPointerEvent& InTouchEvent);
 	struct FEventReply OnTouchMoved(const struct FGeometry& MyGeometry, const struct FPointerEvent& InTouchEvent);
@@ -378,18 +387,20 @@ class UEditableTextBox : public UWidget
 {
 public:
 	struct FText                                       Text;                                                     // 0x0110(0x0018) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             TextDelegate;                                             // 0x0128(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             TextDelegate;                                             // 0x0128(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0128(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FEditableTextBoxStyle                       WidgetStyle;                                              // 0x0138(0x07F0) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
 	class USlateWidgetStyleAsset*                      Style;                                                    // 0x0928(0x0008) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FText                                       HintText;                                                 // 0x0930(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             HintTextDelegate;                                         // 0x0948(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             HintTextDelegate;                                         // 0x0948(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0948(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FSlateFontInfo                              Font;                                                     // 0x0958(0x0050) (CPF_Deprecated, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                ForegroundColor;                                          // 0x09A8(0x0010) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                BackgroundColor;                                          // 0x09B8(0x0010) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                ReadOnlyForegroundColor;                                  // 0x09C8(0x0010) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               IsReadOnly;                                               // 0x09D8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               IsPassword;                                               // 0x09D9(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x2];                                       // 0x09DA(0x0002) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x2];                                       // 0x09DA(0x0002) MISSED OFFSET
 	float                                              MinimumDesiredWidth;                                      // 0x09DC(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FMargin                                     Padding;                                                  // 0x09E0(0x0010) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	bool                                               IsCaretMovedWhenGainFocus;                                // 0x09F0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -404,10 +415,12 @@ public:
 	EVirtualKeyboardDismissAction                      VirtualKeyboardDismissAction;                             // 0x09F9(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TEnumAsByte<ETextJustify>                          Justification;                                            // 0x09FA(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FShapedTextOptions                          ShapedTextOptions;                                        // 0x09FB(0x0003) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x2];                                       // 0x09FE(0x0002) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnTextChanged;                                            // 0x0A00(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTextCommitted;                                          // 0x0A10(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x10];                                      // 0x0A20(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x2];                                       // 0x09FE(0x0002) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnTextChanged;                                            // 0x0A00(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x09FE(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnTextCommitted;                                          // 0x0A10(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0A10(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData06[0x10];                                      // 0x0A20(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -456,8 +469,9 @@ public:
 	bool                                               bAllowRightClickDragScrolling;                            // 0x0859(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData02[0x2];                                       // 0x085A(0x0002) MISSED OFFSET
 	float                                              WheelScrollMultiplier;                                    // 0x085C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnUserScrolled;                                           // 0x0860(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x18];                                      // 0x0870(0x0018) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnUserScrolled;                                           // 0x0860(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0860(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData04[0x18];                                      // 0x0870(0x0018) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -538,10 +552,12 @@ public:
 	unsigned char                                      UnknownData00[0x2];                                       // 0x011E(0x0002) MISSED OFFSET
 	float                                              FixedLineScrollOffset;                                    // 0x0120(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      UnknownData01[0x4];                                       // 0x0124(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    BP_OnEntryGenerated;                                      // 0x0128(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    BP_OnEntryReleased;                                       // 0x0138(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	struct FScriptMulticastDelegate                    BP_OnEntryGenerated;                                      // 0x0128(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0124(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    BP_OnEntryReleased;                                       // 0x0138(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0138(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FUserWidgetPool                             EntryWidgetPool;                                          // 0x0148(0x0080) (CPF_Transient, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData02[0x58];                                      // 0x01C8(0x0058) MISSED OFFSET
+	unsigned char                                      UnknownData04[0x58];                                      // 0x01C8(0x0058) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -578,13 +594,20 @@ public:
 	unsigned char                                      UnknownData02[0x3];                                       // 0x02ED(0x0003) MISSED OFFSET
 	TArray<class UObject*>                             ListItems;                                                // 0x02F0(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      UnknownData03[0x10];                                      // 0x0300(0x0010) MISSED OFFSET
-	struct FScriptMulticastDelegate                    BP_OnEntryInitialized;                                    // 0x0310(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    BP_OnItemClicked;                                         // 0x0320(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    BP_OnItemDoubleClicked;                                   // 0x0330(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    BP_OnItemIsHoveredChanged;                                // 0x0340(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    BP_OnItemSelectionChanged;                                // 0x0350(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    BP_OnItemScrolledIntoView;                                // 0x0360(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    BP_OnListViewScrolled;                                    // 0x0370(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	struct FScriptMulticastDelegate                    BP_OnEntryInitialized;                                    // 0x0310(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0300(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    BP_OnItemClicked;                                         // 0x0320(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0320(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    BP_OnItemDoubleClicked;                                   // 0x0330(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x0330(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    BP_OnItemIsHoveredChanged;                                // 0x0340(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x0340(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    BP_OnItemSelectionChanged;                                // 0x0350(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x0350(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    BP_OnItemScrolledIntoView;                                // 0x0360(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData09[0xF];                                       // 0x0360(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    BP_OnListViewScrolled;                                    // 0x0370(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData10[0xF];                                       // 0x0370(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -625,9 +648,11 @@ class UTreeView : public UListView
 {
 public:
 	unsigned char                                      UnknownData00[0x10];                                      // 0x0380(0x0010) MISSED OFFSET
-	struct FScriptDelegate                             BP_OnGetItemChildren;                                     // 0x0390(0x0014) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPrivate)
-	struct FScriptMulticastDelegate                    BP_OnItemExpansionChanged;                                // 0x03A0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData01[0x28];                                      // 0x03B0(0x0028) MISSED OFFSET
+	struct FScriptDelegate                             BP_OnGetItemChildren;                                     // 0x0390(0x000A) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0380(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    BP_OnItemExpansionChanged;                                // 0x03A0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x03A0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData03[0x28];                                      // 0x03B0(0x0028) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -647,8 +672,10 @@ public:
 class UAsyncTaskDownloadImage : public UBlueprintAsyncActionBase
 {
 public:
-	struct FScriptMulticastDelegate                    OnSuccess;                                                // 0x0030(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnFail;                                                   // 0x0040(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnSuccess;                                                // 0x0030(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0030(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnFail;                                                   // 0x0040(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0040(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -780,21 +807,28 @@ public:
 	unsigned char                                      bShowEffectWhenDisabled : 1;                              // 0x012A(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x1];                                       // 0x012B(0x0001) MISSED OFFSET
 	struct FLinearColor                                ContentColorAndOpacity;                                   // 0x012C(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ContentColorAndOpacityDelegate;                           // 0x013C(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             ContentColorAndOpacityDelegate;                           // 0x013C(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x013C(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FMargin                                     Padding;                                                  // 0x014C(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x015C(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x4];                                       // 0x015C(0x0004) MISSED OFFSET
 	struct FSlateBrush                                 background;                                               // 0x0160(0x0088) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             BackgroundDelegate;                                       // 0x01E8(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             BackgroundDelegate;                                       // 0x01E8(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0x6];                                       // 0x01E8(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FLinearColor                                BrushColor;                                               // 0x01F8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             BrushColorDelegate;                                       // 0x0208(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             BrushColorDelegate;                                       // 0x0208(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0x6];                                       // 0x0208(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FVector2D                                   DesiredSizeScale;                                         // 0x0218(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bFlipForRightToLeftFlowDirection;                         // 0x0220(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x0221(0x0003) MISSED OFFSET
-	struct FScriptDelegate                             OnMouseButtonDownEvent;                                   // 0x0224(0x0014) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             OnMouseButtonUpEvent;                                     // 0x0234(0x0014) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             OnMouseMoveEvent;                                         // 0x0244(0x0014) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             OnMouseDoubleClickEvent;                                  // 0x0254(0x0014) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x14];                                      // 0x0264(0x0014) MISSED OFFSET
+	unsigned char                                      UnknownData05[0x3];                                       // 0x0221(0x0003) MISSED OFFSET
+	struct FScriptDelegate                             OnMouseButtonDownEvent;                                   // 0x0224(0x000A) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0x6];                                       // 0x0221(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptDelegate                             OnMouseButtonUpEvent;                                     // 0x0234(0x000A) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0x6];                                       // 0x0234(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptDelegate                             OnMouseMoveEvent;                                         // 0x0244(0x000A) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0x6];                                       // 0x0244(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptDelegate                             OnMouseDoubleClickEvent;                                  // 0x0254(0x000A) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData09[0x6];                                       // 0x0254(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData10[0x14];                                      // 0x0264(0x0014) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -873,12 +907,17 @@ public:
 	bool                                               IsFocusable;                                              // 0x03CB(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bAllowTouchFallthrough;                                   // 0x03CC(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x3];                                       // 0x03CD(0x0003) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnClicked;                                                // 0x03D0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnPressed;                                                // 0x03E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnReleased;                                               // 0x03F0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnHovered;                                                // 0x0400(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnUnhovered;                                              // 0x0410(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x10];                                      // 0x0420(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnClicked;                                                // 0x03D0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x03CD(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnPressed;                                                // 0x03E0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x03E0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnReleased;                                               // 0x03F0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x03F0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnHovered;                                                // 0x0400(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0400(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnUnhovered;                                              // 0x0410(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0410(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData06[0x10];                                      // 0x0420(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -966,8 +1005,9 @@ class UCheckBox : public UContentWidget
 public:
 	ECheckBoxState                                     CheckedState;                                             // 0x0128(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x3];                                       // 0x0129(0x0003) MISSED OFFSET
-	struct FScriptDelegate                             CheckedStateDelegate;                                     // 0x012C(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x4];                                       // 0x013C(0x0004) MISSED OFFSET
+	struct FScriptDelegate                             CheckedStateDelegate;                                     // 0x012C(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0129(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData02[0x4];                                       // 0x013C(0x0004) MISSED OFFSET
 	struct FCheckBoxStyle                              WidgetStyle;                                              // 0x0140(0x0580) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
 	class USlateWidgetStyleAsset*                      Style;                                                    // 0x06C0(0x0008) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class USlateBrushAsset*                            UncheckedImage;                                           // 0x06C8(0x0008) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -980,14 +1020,15 @@ public:
 	class USlateBrushAsset*                            UndeterminedHoveredImage;                                 // 0x0700(0x0008) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class USlateBrushAsset*                            UndeterminedPressedImage;                                 // 0x0708(0x0008) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TEnumAsByte<EHorizontalAlignment>                  HorizontalAlignment;                                      // 0x0710(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x0711(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x3];                                       // 0x0711(0x0003) MISSED OFFSET
 	struct FMargin                                     Padding;                                                  // 0x0714(0x0010) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x4];                                       // 0x0724(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData04[0x4];                                       // 0x0724(0x0004) MISSED OFFSET
 	struct FSlateColor                                 BorderBackgroundColor;                                    // 0x0728(0x0028) (CPF_Deprecated, CPF_NativeAccessSpecifierPublic)
 	bool                                               IsFocusable;                                              // 0x0750(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData04[0x7];                                       // 0x0751(0x0007) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnCheckStateChanged;                                      // 0x0758(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData05[0x10];                                      // 0x0768(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData05[0x7];                                       // 0x0751(0x0007) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnCheckStateChanged;                                      // 0x0758(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x0751(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData07[0x10];                                      // 0x0768(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1074,9 +1115,10 @@ class UComboBox : public UWidget
 {
 public:
 	TArray<class UObject*>                             Items;                                                    // 0x0110(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             OnGenerateWidgetEvent;                                    // 0x0120(0x0014) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             OnGenerateWidgetEvent;                                    // 0x0120(0x000A) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0120(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	bool                                               bIsFocusable;                                             // 0x0130(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x17];                                      // 0x0131(0x0017) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x17];                                      // 0x0131(0x0017) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1105,12 +1147,16 @@ public:
 	struct FSlateColor                                 ForegroundColor;                                          // 0x0D50(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
 	bool                                               bIsFocusable;                                             // 0x0D78(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x3];                                       // 0x0D79(0x0003) MISSED OFFSET
-	struct FScriptDelegate                             OnGenerateWidgetEvent;                                    // 0x0D7C(0x0014) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x4];                                       // 0x0D8C(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnSelectionChanged;                                       // 0x0D90(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnOpening;                                                // 0x0DA0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnClosing;                                                // 0x0DB0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x50];                                      // 0x0DC0(0x0050) MISSED OFFSET
+	struct FScriptDelegate                             OnGenerateWidgetEvent;                                    // 0x0D7C(0x000A) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x6];                                       // 0x0D79(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData03[0x4];                                       // 0x0D8C(0x0004) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnSelectionChanged;                                       // 0x0D90(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0D8C(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnOpening;                                                // 0x0DA0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0DA0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnClosing;                                                // 0x0DB0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x0DB0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData07[0x50];                                      // 0x0DC0(0x0050) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1150,9 +1196,12 @@ public:
 	unsigned char                                      UnknownData00[0x3];                                       // 0x0049(0x0003) MISSED OFFSET
 	struct FVector2D                                   Offset;                                                   // 0x004C(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0x4];                                       // 0x0054(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnDrop;                                                   // 0x0058(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnDragCancelled;                                          // 0x0068(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnDragged;                                                // 0x0078(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnDrop;                                                   // 0x0058(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0054(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnDragCancelled;                                          // 0x0068(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0068(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnDragged;                                                // 0x0078(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0078(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -1225,9 +1274,11 @@ class UEditableText : public UWidget
 {
 public:
 	struct FText                                       Text;                                                     // 0x0110(0x0018) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             TextDelegate;                                             // 0x0128(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             TextDelegate;                                             // 0x0128(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0128(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FText                                       HintText;                                                 // 0x0138(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             HintTextDelegate;                                         // 0x0150(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             HintTextDelegate;                                         // 0x0150(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0150(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FEditableTextStyle                          WidgetStyle;                                              // 0x0160(0x0218) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
 	class USlateWidgetStyleAsset*                      Style;                                                    // 0x0378(0x0008) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class USlateBrushAsset*                            BackgroundImageSelected;                                  // 0x0380(0x0008) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -1237,7 +1288,7 @@ public:
 	struct FSlateColor                                 ColorAndOpacity;                                          // 0x03E8(0x0028) (CPF_Deprecated, CPF_NativeAccessSpecifierPublic)
 	bool                                               IsReadOnly;                                               // 0x0410(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               IsPassword;                                               // 0x0411(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x2];                                       // 0x0412(0x0002) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x2];                                       // 0x0412(0x0002) MISSED OFFSET
 	float                                              MinimumDesiredWidth;                                      // 0x0414(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               IsCaretMovedWhenGainFocus;                                // 0x0418(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               SelectAllTextWhenFocused;                                 // 0x0419(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -1251,10 +1302,12 @@ public:
 	EVirtualKeyboardDismissAction                      VirtualKeyboardDismissAction;                             // 0x0421(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TEnumAsByte<ETextJustify>                          Justification;                                            // 0x0422(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FShapedTextOptions                          ShapedTextOptions;                                        // 0x0423(0x0003) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x2];                                       // 0x0426(0x0002) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnTextChanged;                                            // 0x0428(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTextCommitted;                                          // 0x0438(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x10];                                      // 0x0448(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x2];                                       // 0x0426(0x0002) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnTextChanged;                                            // 0x0428(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0426(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnTextCommitted;                                          // 0x0438(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0438(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData06[0x10];                                      // 0x0448(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1288,10 +1341,11 @@ public:
 	float                                              MaxHeight;                                                // 0x02EC(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FMargin                                     HeaderPadding;                                            // 0x02F0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FMargin                                     AreaPadding;                                              // 0x0300(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnExpansionChanged;                                       // 0x0310(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnExpansionChanged;                                       // 0x0310(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0310(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	class UWidget*                                     HeaderContent;                                            // 0x0320(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	class UWidget*                                     BodyContent;                                              // 0x0328(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData02[0x10];                                      // 0x0330(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x10];                                      // 0x0330(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1420,9 +1474,11 @@ public:
 	bool                                               bAllowGamepadKeys;                                        // 0x06B1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x6];                                       // 0x06B2(0x0006) MISSED OFFSET
 	TArray<struct FKey>                                EscapeKeys;                                               // 0x06B8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnKeySelected;                                            // 0x06C8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnIsSelectingKeyChanged;                                  // 0x06D8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x10];                                      // 0x06E8(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnKeySelected;                                            // 0x06C8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x06C8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnIsSelectingKeyChanged;                                  // 0x06D8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x06D8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData03[0x10];                                      // 0x06E8(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1576,14 +1632,16 @@ class UMenuAnchor : public UContentWidget
 {
 public:
 	class UClass*                                      MenuClass;                                                // 0x0128(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             OnGetMenuContentEvent;                                    // 0x0130(0x0014) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             OnGetMenuContentEvent;                                    // 0x0130(0x000A) (CPF_Edit, CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0130(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	TEnumAsByte<EMenuPlacement>                        Placement;                                                // 0x0140(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bFitInWindow;                                             // 0x0141(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               ShouldDeferPaintingAfterWindowContent;                    // 0x0142(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               UseApplicationMenuStack;                                  // 0x0143(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x0144(0x0004) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnMenuOpenChanged;                                        // 0x0148(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x10];                                      // 0x0158(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x4];                                       // 0x0144(0x0004) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnMenuOpenChanged;                                        // 0x0148(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0144(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData03[0x10];                                      // 0x0158(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1741,10 +1799,11 @@ class UMultiLineEditableText : public UTextLayoutWidget
 public:
 	struct FText                                       Text;                                                     // 0x0130(0x0018) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
 	struct FText                                       HintText;                                                 // 0x0148(0x0018) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             HintTextDelegate;                                         // 0x0160(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             HintTextDelegate;                                         // 0x0160(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0160(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FTextBlockStyle                             WidgetStyle;                                              // 0x0170(0x0268) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
 	bool                                               bIsReadOnly;                                              // 0x03D8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x03D9(0x0007) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x7];                                       // 0x03D9(0x0007) MISSED OFFSET
 	struct FSlateFontInfo                              Font;                                                     // 0x03E0(0x0050) (CPF_Deprecated, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               SelectAllTextWhenFocused;                                 // 0x0430(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               ClearTextSelectionOnFocusLoss;                            // 0x0431(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -1753,10 +1812,12 @@ public:
 	bool                                               AllowContextMenu;                                         // 0x0434(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FVirtualKeyboardOptions                     VirtualKeyboardOptions;                                   // 0x0435(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
 	EVirtualKeyboardDismissAction                      VirtualKeyboardDismissAction;                             // 0x0436(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x1];                                       // 0x0437(0x0001) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnTextChanged;                                            // 0x0438(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTextCommitted;                                          // 0x0448(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x10];                                      // 0x0458(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x1];                                       // 0x0437(0x0001) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnTextChanged;                                            // 0x0438(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0437(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnTextCommitted;                                          // 0x0448(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0448(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData05[0x10];                                      // 0x0458(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1783,22 +1844,25 @@ class UMultiLineEditableTextBox : public UTextLayoutWidget
 public:
 	struct FText                                       Text;                                                     // 0x0130(0x0018) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
 	struct FText                                       HintText;                                                 // 0x0148(0x0018) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             HintTextDelegate;                                         // 0x0160(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             HintTextDelegate;                                         // 0x0160(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0160(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FEditableTextBoxStyle                       WidgetStyle;                                              // 0x0170(0x07F0) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
 	struct FTextBlockStyle                             TextStyle;                                                // 0x0960(0x0268) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
 	bool                                               bIsReadOnly;                                              // 0x0BC8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               AllowContextMenu;                                         // 0x0BC9(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FVirtualKeyboardOptions                     VirtualKeyboardOptions;                                   // 0x0BCA(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_NativeAccessSpecifierPublic)
 	EVirtualKeyboardDismissAction                      VirtualKeyboardDismissAction;                             // 0x0BCB(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x0BCC(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x4];                                       // 0x0BCC(0x0004) MISSED OFFSET
 	class USlateWidgetStyleAsset*                      Style;                                                    // 0x0BD0(0x0008) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FSlateFontInfo                              Font;                                                     // 0x0BD8(0x0050) (CPF_Deprecated, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                ForegroundColor;                                          // 0x0C28(0x0010) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                BackgroundColor;                                          // 0x0C38(0x0010) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                ReadOnlyForegroundColor;                                  // 0x0C48(0x0010) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTextChanged;                                            // 0x0C58(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTextCommitted;                                          // 0x0C68(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x10];                                      // 0x0C78(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnTextChanged;                                            // 0x0C58(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0C58(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnTextCommitted;                                          // 0x0C68(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0C68(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData04[0x10];                                      // 0x0C78(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1923,10 +1987,12 @@ public:
 	bool                                               bIsMarquee;                                               // 0x02D5(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x2];                                       // 0x02D6(0x0002) MISSED OFFSET
 	struct FVector2D                                   BorderPadding;                                            // 0x02D8(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             PercentDelegate;                                          // 0x02E0(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             PercentDelegate;                                          // 0x02E0(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x02E0(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FLinearColor                                FillColorAndOpacity;                                      // 0x02F0(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             FillColorAndOpacityDelegate;                              // 0x0300(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x10];                                      // 0x0310(0x0010) MISSED OFFSET
+	struct FScriptDelegate                             FillColorAndOpacityDelegate;                              // 0x0300(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x6];                                       // 0x0300(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData03[0x10];                                      // 0x0310(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2321,9 +2387,11 @@ public:
 	ESlateAccessibleBehavior                           AccessibleSummaryBehavior;                                // 0x002A(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x5];                                       // 0x002B(0x0005) MISSED OFFSET
 	struct FText                                       AccessibleText;                                           // 0x0030(0x0018) (CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             AccessibleTextDelegate;                                   // 0x0048(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             AccessibleTextDelegate;                                   // 0x0048(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0048(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FText                                       AccessibleSummaryText;                                    // 0x0058(0x0018) (CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             AccessibleSummaryTextDelegate;                            // 0x0070(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             AccessibleSummaryTextDelegate;                            // 0x0070(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x6];                                       // 0x0070(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 
 	static UClass* StaticClass()
 	{
@@ -2340,13 +2408,14 @@ class USlider : public UWidget
 {
 public:
 	float                                              Value;                                                    // 0x0110(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ValueDelegate;                                            // 0x0114(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             ValueDelegate;                                            // 0x0114(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0114(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	float                                              MinValue;                                                 // 0x0124(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              MaxValue;                                                 // 0x0128(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x012C(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x4];                                       // 0x012C(0x0004) MISSED OFFSET
 	struct FSliderStyle                                WidgetStyle;                                              // 0x0130(0x0340) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
 	TEnumAsByte<EOrientation>                          Orientation;                                              // 0x0470(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x0471(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x3];                                       // 0x0471(0x0003) MISSED OFFSET
 	struct FLinearColor                                SliderBarColor;                                           // 0x0474(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                SliderHandleColor;                                        // 0x0484(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               IndentHandle;                                             // 0x0494(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -2355,13 +2424,18 @@ public:
 	bool                                               RequiresControllerLock;                                   // 0x0497(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              StepSize;                                                 // 0x0498(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               IsFocusable;                                              // 0x049C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x049D(0x0003) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnMouseCaptureBegin;                                      // 0x04A0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnMouseCaptureEnd;                                        // 0x04B0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnControllerCaptureBegin;                                 // 0x04C0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnControllerCaptureEnd;                                   // 0x04D0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnValueChanged;                                           // 0x04E0(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x10];                                      // 0x04F0(0x0010) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x3];                                       // 0x049D(0x0003) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnMouseCaptureBegin;                                      // 0x04A0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x049D(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnMouseCaptureEnd;                                        // 0x04B0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x04B0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnControllerCaptureBegin;                                 // 0x04C0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x04C0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnControllerCaptureEnd;                                   // 0x04D0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x04D0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnValueChanged;                                           // 0x04E0(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x04E0(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData09[0x10];                                      // 0x04F0(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2408,39 +2482,44 @@ class USpinBox : public UWidget
 {
 public:
 	float                                              Value;                                                    // 0x0110(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ValueDelegate;                                            // 0x0114(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x4];                                       // 0x0124(0x0004) MISSED OFFSET
+	struct FScriptDelegate                             ValueDelegate;                                            // 0x0114(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0114(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData01[0x4];                                       // 0x0124(0x0004) MISSED OFFSET
 	struct FSpinBoxStyle                               WidgetStyle;                                              // 0x0128(0x02E8) (CPF_Edit, CPF_BlueprintVisible, CPF_NativeAccessSpecifierPublic)
 	class USlateWidgetStyleAsset*                      Style;                                                    // 0x0410(0x0008) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                MinFractionalDigits;                                      // 0x0418(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                MaxFractionalDigits;                                      // 0x041C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bAlwaysUsesDeltaSnap;                                     // 0x0420(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x0421(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x3];                                       // 0x0421(0x0003) MISSED OFFSET
 	float                                              Delta;                                                    // 0x0424(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	float                                              SliderExponent;                                           // 0x0428(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData02[0x4];                                       // 0x042C(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x4];                                       // 0x042C(0x0004) MISSED OFFSET
 	struct FSlateFontInfo                              Font;                                                     // 0x0430(0x0050) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TEnumAsByte<ETextJustify>                          Justification;                                            // 0x0480(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData03[0x3];                                       // 0x0481(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData04[0x3];                                       // 0x0481(0x0003) MISSED OFFSET
 	float                                              MinDesiredWidth;                                          // 0x0484(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               ClearKeyboardFocusOnCommit;                               // 0x0488(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               SelectAllTextOnCommit;                                    // 0x0489(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData04[0x6];                                       // 0x048A(0x0006) MISSED OFFSET
+	unsigned char                                      UnknownData05[0x6];                                       // 0x048A(0x0006) MISSED OFFSET
 	struct FSlateColor                                 ForegroundColor;                                          // 0x0490(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnValueChanged;                                           // 0x04B8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnValueCommitted;                                         // 0x04C8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnBeginSliderMovement;                                    // 0x04D8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnEndSliderMovement;                                      // 0x04E8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnValueChanged;                                           // 0x04B8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x04B8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnValueCommitted;                                         // 0x04C8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData07[0xF];                                       // 0x04C8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnBeginSliderMovement;                                    // 0x04D8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x04D8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnEndSliderMovement;                                      // 0x04E8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData09[0xF];                                       // 0x04E8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	unsigned char                                      bOverride_MinValue : 1;                                   // 0x04F8(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      bOverride_MaxValue : 1;                                   // 0x04F8(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      bOverride_MinSliderValue : 1;                             // 0x04F8(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      bOverride_MaxSliderValue : 1;                             // 0x04F8(0x0001) (CPF_Edit, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData05[0x3];                                       // 0x04F9(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData10[0x3];                                       // 0x04F9(0x0003) MISSED OFFSET
 	float                                              MinValue;                                                 // 0x04FC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	float                                              MaxValue;                                                 // 0x0500(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	float                                              MinSliderValue;                                           // 0x0504(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	float                                              MaxSliderValue;                                           // 0x0508(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData06[0x14];                                      // 0x050C(0x0014) MISSED OFFSET
+	unsigned char                                      UnknownData11[0x14];                                      // 0x050C(0x0014) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2503,19 +2582,22 @@ class UTextBlock : public UTextLayoutWidget
 {
 public:
 	struct FText                                       Text;                                                     // 0x0130(0x0018) (CPF_Edit, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             TextDelegate;                                             // 0x0148(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             TextDelegate;                                             // 0x0148(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0148(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FSlateColor                                 ColorAndOpacity;                                          // 0x0158(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ColorAndOpacityDelegate;                                  // 0x0180(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             ColorAndOpacityDelegate;                                  // 0x0180(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x6];                                       // 0x0180(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FSlateFontInfo                              Font;                                                     // 0x0190(0x0050) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FSlateBrush                                 StrikeBrush;                                              // 0x01E0(0x0088) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_NativeAccessSpecifierPublic)
 	struct FVector2D                                   ShadowOffset;                                             // 0x0268(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FLinearColor                                ShadowColorAndOpacity;                                    // 0x0270(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptDelegate                             ShadowColorAndOpacityDelegate;                            // 0x0280(0x0014) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	struct FScriptDelegate                             ShadowColorAndOpacityDelegate;                            // 0x0280(0x000A) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0x6];                                       // 0x0280(0x0006) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	float                                              MinDesiredWidth;                                          // 0x0290(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bWrapWithInvalidationPanel;                               // 0x0294(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bAutoWrapText;                                            // 0x0295(0x0001) (CPF_ZeroConstructor, CPF_Deprecated, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bSimpleTextMode;                                          // 0x0296(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_AdvancedDisplay, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x11];                                      // 0x0297(0x0011) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x11];                                      // 0x0297(0x0011) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -2778,8 +2860,9 @@ public:
 class UWidgetAnimationPlayCallbackProxy : public UObject
 {
 public:
-	struct FScriptMulticastDelegate                    Finished;                                                 // 0x0028(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0038(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    Finished;                                                 // 0x0028(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0028(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData01[0x10];                                      // 0x0038(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

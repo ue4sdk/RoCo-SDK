@@ -76,26 +76,6 @@ void UDropdownList_C::Selection(int Index, const struct FText& Text)
 }
 
 
-// Function DropdownList.DropdownList_C.OnMouseLeave
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintEvent)
-// Parameters:
-// struct FPointerEvent           MouseEvent                     (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ReferenceParm)
-
-void UDropdownList_C::OnMouseLeave(const struct FPointerEvent& MouseEvent)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function DropdownList.DropdownList_C.OnMouseLeave");
-
-	struct
-	{
-		struct FPointerEvent           MouseEvent;
-	} params;
-
-	params.MouseEvent = MouseEvent;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function DropdownList.DropdownList_C.InitializeWidgetNavigation
 // (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 
@@ -150,6 +130,22 @@ void UDropdownList_C::SetSelectedEntryByIndex(int Index)
 	} params;
 
 	params.Index = Index;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function DropdownList.DropdownList_C.BndEvt__Button_123_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+// (FUNC_BlueprintEvent)
+
+void UDropdownList_C::BndEvt__Button_123_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function DropdownList.DropdownList_C.BndEvt__Button_123_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

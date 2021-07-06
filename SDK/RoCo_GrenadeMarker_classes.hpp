@@ -56,10 +56,10 @@ public:
 	bool ShouldUpdate();
 	class UKSWeaponAsset* Get_Weapon_Asset_or_Secondary();
 	ESlateVisibility Update();
-	void Tick(const struct FGeometry& MyGeometry, float InDeltaTime);
 	void PreConstruct(bool IsDesignTime);
 	void OnWeaponAssetSet(class AKSProjectile* Projectile, class UKSWeaponAsset* WeaponAsset);
 	void Construct();
+	void Do_Update();
 	void ExecuteUbergraph_GrenadeMarker(int EntryPoint);
 };
 

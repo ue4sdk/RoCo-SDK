@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_GamepadLeftDeadZone.SettingsInfo_GamepadLeftDeadZone_C
-// 0x0000 (0x0120 - 0x0120)
+// 0x0000 (0x0118 - 0x0118)
 class USettingsInfo_GamepadLeftDeadZone_C : public UKSSettingsInfo_Generic
 {
 public:

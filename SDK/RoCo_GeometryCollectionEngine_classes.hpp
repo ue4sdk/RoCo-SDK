@@ -25,10 +25,13 @@ public:
 	unsigned char                                      UnknownData01[0x4];                                       // 0x0254(0x0004) MISSED OFFSET
 	unsigned char                                      UnknownData02[0x50];                                      // 0x0254(0x0050) UNKNOWN PROPERTY: ChaosSolverActors
 	unsigned char                                      UnknownData03[0x50];                                      // 0x02A8(0x0050) UNKNOWN PROPERTY: GeometryCollectionActors
-	struct FScriptMulticastDelegate                    OnCollisionEvents;                                        // 0x02F8(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnBreakingEvents;                                         // 0x0308(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnTrailingEvents;                                         // 0x0318(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData04[0x108];                                     // 0x0328(0x0108) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnCollisionEvents;                                        // 0x02F8(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x02F8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnBreakingEvents;                                         // 0x0308(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0308(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnTrailingEvents;                                         // 0x0318(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData06[0xF];                                       // 0x0318(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData07[0x108];                                     // 0x0328(0x0108) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -123,19 +126,23 @@ public:
 	struct FVector                                     InitialAngularVelocity;                                   // 0x05B8(0x000C) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData07[0x4];                                       // 0x05C4(0x0004) MISSED OFFSET
 	struct FGeomComponentCacheParameters               CacheParameters;                                          // 0x05C8(0x0050) (CPF_Edit, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    NotifyGeometryCollectionPhysicsStateChange;               // 0x0618(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    NotifyGeometryCollectionPhysicsLoadingStateChange;        // 0x0628(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData08[0x18];                                      // 0x0638(0x0018) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnChaosBreakEvent;                                        // 0x0650(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    NotifyGeometryCollectionPhysicsStateChange;               // 0x0618(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData08[0xF];                                       // 0x0618(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    NotifyGeometryCollectionPhysicsLoadingStateChange;        // 0x0628(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData09[0xF];                                       // 0x0628(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData10[0x18];                                      // 0x0638(0x0018) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnChaosBreakEvent;                                        // 0x0650(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData11[0xF];                                       // 0x0638(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	float                                              DesiredCacheTime;                                         // 0x0660(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_EditConst, CPF_IsPlainOldData, CPF_Interp, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               CachePlayback;                                            // 0x0664(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData09[0x3];                                       // 0x0665(0x0003) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnChaosPhysicsCollision;                                  // 0x0668(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData12[0x3];                                       // 0x0665(0x0003) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnChaosPhysicsCollision;                                  // 0x0668(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData13[0xF];                                       // 0x0665(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	bool                                               bNotifyBreaks;                                            // 0x0678(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               bNotifyCollisions;                                        // 0x0679(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData10[0x1DE];                                     // 0x067A(0x01DE) MISSED OFFSET
+	unsigned char                                      UnknownData14[0x1DE];                                     // 0x067A(0x01DE) MISSED OFFSET
 	class UBodySetup*                                  DummyBodySetup;                                           // 0x0858(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData11[0x20];                                      // 0x0860(0x0020) MISSED OFFSET
+	unsigned char                                      UnknownData15[0x20];                                      // 0x0860(0x0020) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -341,8 +348,9 @@ public:
 	unsigned char                                      UnknownData03[0x3];                                       // 0x00FD(0x0003) MISSED OFFSET
 	struct FVector                                     InitialLinearVelocity;                                    // 0x0100(0x000C) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FVector                                     InitialAngularVelocity;                                   // 0x010C(0x000C) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnChaosPhysicsCollision;                                  // 0x0118(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData04[0x10];                                      // 0x0128(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnChaosPhysicsCollision;                                  // 0x0118(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0118(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData05[0x10];                                      // 0x0128(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -379,10 +387,11 @@ public:
 	unsigned char                                      UnknownData04[0x4];                                       // 0x00EC(0x0004) MISSED OFFSET
 	class UChaosPhysicalMaterial*                      PhysicalMaterial;                                         // 0x00F0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class AChaosSolverActor*                           ChaosSolverActor;                                         // 0x00F8(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnChaosPhysicsCollision;                                  // 0x0100(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData05[0x10];                                      // 0x0110(0x0010) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnChaosPhysicsCollision;                                  // 0x0100(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0100(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	unsigned char                                      UnknownData06[0x10];                                      // 0x0110(0x0010) MISSED OFFSET
 	TArray<class UPrimitiveComponent*>                 SimulatedComponents;                                      // 0x0120(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData06[0x8];                                       // 0x0130(0x0008) MISSED OFFSET
+	unsigned char                                      UnknownData07[0x8];                                       // 0x0130(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

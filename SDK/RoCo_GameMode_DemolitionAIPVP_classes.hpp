@@ -15,8 +15,8 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GameMode_DemolitionAIPVP.GameMode_DemolitionAIPVP_C
-// 0x0000 (0x1028 - 0x1028)
-class AGameMode_DemolitionAIPVP_C : public AGameMode_Demolition_C
+// 0x0000 (0x0FBC - 0x0FBC)
+class AGameMode_DemolitionAIPVP_C : public AGameMode_Demolition_Modular_C
 {
 public:
 

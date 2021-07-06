@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Katana_Weapon.Katana_Weapon_C
-// 0x0000 (0x08D0 - 0x08D0)
+// 0x0000 (0x08E0 - 0x08E0)
 class AKatana_Weapon_C : public AWeapon_Melee_C
 {
 public:

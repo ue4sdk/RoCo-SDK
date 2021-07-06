@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass SettingsInfo_ViewDistanceQuality.SettingsInfo_ViewDistanceQuality_C
-// 0x0000 (0x0128 - 0x0128)
+// 0x0000 (0x0120 - 0x0120)
 class USettingsInfo_ViewDistanceQuality_C : public USettingsInfo_Quality_C
 {
 public:

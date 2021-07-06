@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_WRAP_Default.BP_WRAP_Default_C
-// 0x0000 (0x0200 - 0x0200)
+// 0x0000 (0x0208 - 0x0208)
 class UBP_WRAP_Default_C : public UWingPackCosmeticComponentBase_C
 {
 public:

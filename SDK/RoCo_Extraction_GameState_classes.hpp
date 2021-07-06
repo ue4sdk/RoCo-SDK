@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Extraction_GameState.Extraction_GameState_C
-// 0x0008 (0x1A28 - 0x1A20)
+// 0x0008 (0x1AD8 - 0x1AD0)
 class AExtraction_GameState_C : public AKSGameState_Extraction
 {
 public:
-	class USceneComponent*                             DefaultSceneRoot;                                         // 0x1A20(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	class USceneComponent*                             DefaultSceneRoot;                                         // 0x1AD0(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NonTransactional, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

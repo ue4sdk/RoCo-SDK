@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass ConfigurableThreatComponent.ConfigurableThreatComponent_C
-// 0x0000 (0x0198 - 0x0198)
+// 0x0000 (0x0190 - 0x0190)
 class UConfigurableThreatComponent_C : public UKSThreatComponent
 {
 public:

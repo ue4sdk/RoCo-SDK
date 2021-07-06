@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass GameMode_ShopExtraction.GameMode_ShopExtraction_C
-// 0x0000 (0x0F38 - 0x0F38)
+// 0x0000 (0x0F58 - 0x0F58)
 class AGameMode_ShopExtraction_C : public AGameMode_Extraction_C
 {
 public:

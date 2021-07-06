@@ -146,27 +146,32 @@ class UMovieSceneSequencePlayer : public UObject
 {
 public:
 	unsigned char                                      UnknownData00[0x3E0];                                     // 0x0028(0x03E0) MISSED OFFSET
-	struct FScriptMulticastDelegate                    OnPlay;                                                   // 0x0408(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnPlayReverse;                                            // 0x0418(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnStop;                                                   // 0x0428(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnPause;                                                  // 0x0438(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
-	struct FScriptMulticastDelegate                    OnFinished;                                               // 0x0448(0x0010) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	struct FScriptMulticastDelegate                    OnPlay;                                                   // 0x0408(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0028(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnPlayReverse;                                            // 0x0418(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0418(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnStop;                                                   // 0x0428(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0428(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnPause;                                                  // 0x0438(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData04[0xF];                                       // 0x0438(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnFinished;                                               // 0x0448(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData05[0xF];                                       // 0x0448(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	TEnumAsByte<EMovieScenePlayerStatus>               Status;                                                   // 0x0458(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x0459(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData06[0x3];                                       // 0x0459(0x0003) MISSED OFFSET
 	unsigned char                                      bReversePlayback : 1;                                     // 0x045C(0x0001) (CPF_Net, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x045D(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData07[0x3];                                       // 0x045D(0x0003) MISSED OFFSET
 	class UMovieSceneSequence*                         Sequence;                                                 // 0x0460(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	struct FFrameNumber                                StartTime;                                                // 0x0468(0x0004) (CPF_Net, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	int                                                DurationFrames;                                           // 0x046C(0x0004) (CPF_Net, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	int                                                CurrentNumLoops;                                          // 0x0470(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData03[0x14];                                      // 0x0474(0x0014) MISSED OFFSET
+	unsigned char                                      UnknownData08[0x14];                                      // 0x0474(0x0014) MISSED OFFSET
 	struct FMovieSceneSequencePlaybackSettings         PlaybackSettings;                                         // 0x0488(0x0014) (CPF_Net, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData04[0x4];                                       // 0x049C(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData09[0x4];                                       // 0x049C(0x0004) MISSED OFFSET
 	struct FMovieSceneRootEvaluationTemplateInstance   RootTemplateInstance;                                     // 0x04A0(0x0320) (CPF_Transient, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData05[0x68];                                      // 0x07C0(0x0068) MISSED OFFSET
+	unsigned char                                      UnknownData10[0x68];                                      // 0x07C0(0x0068) MISSED OFFSET
 	struct FMovieSceneSequenceReplProperties           NetSyncProps;                                             // 0x0828(0x0010) (CPF_Net, CPF_NoDestructor, CPF_Protected, CPF_NativeAccessSpecifierProtected)
 	TScriptInterface<class UMovieScenePlaybackClient>  PlaybackClient;                                           // 0x0838(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData06[0x40];                                      // 0x0848(0x0040) MISSED OFFSET
+	unsigned char                                      UnknownData11[0x40];                                      // 0x0848(0x0040) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
