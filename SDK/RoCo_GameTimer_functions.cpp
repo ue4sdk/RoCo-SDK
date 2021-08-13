@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -349,46 +349,6 @@ void UGameTimer_C::HandleKillCamViewPawn(class APawn* ViewedPawn)
 	} params;
 
 	params.ViewedPawn = ViewedPawn;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function GameTimer.GameTimer_C.BombTimerActive
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// bool                           bActive                        (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UGameTimer_C::BombTimerActive(bool bActive)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimer.GameTimer_C.BombTimerActive");
-
-	struct
-	{
-		bool                           bActive;
-	} params;
-
-	params.bActive = bActive;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function GameTimer.GameTimer_C.BombTimerTick
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// float                          Seconds                        (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UGameTimer_C::BombTimerTick(float Seconds)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimer.GameTimer_C.BombTimerTick");
-
-	struct
-	{
-		float                          Seconds;
-	} params;
-
-	params.Seconds = Seconds;
 
 	UObject::ProcessEvent(fn, &params);
 }

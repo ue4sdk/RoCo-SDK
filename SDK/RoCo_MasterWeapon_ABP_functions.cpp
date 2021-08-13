@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -271,6 +271,58 @@ void UMasterWeapon_ABP_C::InitSetFoldingStock(bool bpp__bIsStockFolded__pf, cons
 	params.bpp__bIsStockFolded__pf = bpp__bIsStockFolded__pf;
 	params.bpp__StockRotationTarget__pf = bpp__StockRotationTarget__pf;
 	params.bpp__StockAltRotationTarget__pf = bpp__StockAltRotationTarget__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function MasterWeapon_ABP.MasterWeapon_ABP_C.Event Disable Alternate Mirroring
+// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// bool                           bpp__bool__pf                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UMasterWeapon_ABP_C::Event_Disable_Alternate_Mirroring(bool bpp__bool__pf)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.Event Disable Alternate Mirroring");
+
+	struct
+	{
+		bool                           bpp__bool__pf;
+	} params;
+
+	params.bpp__bool__pf = bpp__bool__pf;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_KSAnimGraphNode_Mirror_F877D290460310F78FDDD3909FA57427
+// (FUNC_Native, FUNC_Public)
+
+void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_KSAnimGraphNode_Mirror_F877D290460310F78FDDD3909FA57427()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_KSAnimGraphNode_Mirror_F877D290460310F78FDDD3909FA57427");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_KSAnimGraphNode_Mirror_9065EDDA49AAB039433C4A8A69B0D04C
+// (FUNC_Native, FUNC_Public)
+
+void UMasterWeapon_ABP_C::EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_KSAnimGraphNode_Mirror_9065EDDA49AAB039433C4A8A69B0D04C()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function MasterWeapon_ABP.MasterWeapon_ABP_C.EvaluateGraphExposedInputs_ExecuteUbergraph_MasterWeapon_ABP_KSAnimGraphNode_Mirror_9065EDDA49AAB039433C4A8A69B0D04C");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,28 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.Get Job Grid Width
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// int                            GRID_WIDTH                     (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_InGameJobSelect_Base_C::Get_Job_Grid_Width(int* GRID_WIDTH)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.Get Job Grid Width");
+
+	struct
+	{
+		int                            GRID_WIDTH;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (GRID_WIDTH != nullptr)
+		*GRID_WIDTH = params.GRID_WIDTH;
+}
+
 
 // Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.Get Job Entry Buttons
 // (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const)
@@ -436,6 +458,22 @@ void UWBP_InGameJobSelect_Base_C::SetJobEntries(TArray<class UJobSelectionEntryD
 
 	if (JobEntries != nullptr)
 		*JobEntries = params.JobEntries;
+}
+
+
+// Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnChoiceGridRebuilt__DelegateSignature
+// (FUNC_Public, FUNC_Delegate, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_InGameJobSelect_Base_C::OnChoiceGridRebuilt__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Base.WBP_InGameJobSelect_Base_C.OnChoiceGridRebuilt__DelegateSignature");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
 }
 
 

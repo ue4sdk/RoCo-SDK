@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass HRM24S_Level_2_WeaponComponent.HRM24S_Level_2_WeaponComponent_C
-// 0x0000 (0x1200 - 0x1200)
+// 0x0000 (0x1210 - 0x1210)
 class UHRM24S_Level_2_WeaponComponent_C : public UHRM24S_Level_1_WeaponComponent_C
 {
 public:

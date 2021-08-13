@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -57,6 +57,7 @@ public:
 	void OnBanAnimComplete();
 	void AsyncSetRogueImage(TSoftObjectPtr<class UTexture2D> SoftRef);
 	void HideAll();
+	void Stop_Ban_Animation();
 	void ExecuteUbergraph_WBP_InGameJobSelect_BanDisplay(int EntryPoint);
 	void BanAnimComplete__DelegateSignature();
 };

@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -35,22 +35,19 @@ void UBombDropMarker_C::HandleGameObjectiveChanged(const TScriptInterface<class 
 // Function BombDropMarker.BombDropMarker_C.IsStateEqualTo
 // (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
 // Parameters:
-// EKSNeutralBombState            BombState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 // EKSObjectiveState              ObjectiveState                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 // bool                           Result                         (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
-void UBombDropMarker_C::IsStateEqualTo(EKSNeutralBombState BombState, EKSObjectiveState ObjectiveState, bool* Result)
+void UBombDropMarker_C::IsStateEqualTo(EKSObjectiveState ObjectiveState, bool* Result)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.IsStateEqualTo");
 
 	struct
 	{
-		EKSNeutralBombState            BombState;
 		EKSObjectiveState              ObjectiveState;
 		bool                           Result;
 	} params;
 
-	params.BombState = BombState;
 	params.ObjectiveState = ObjectiveState;
 
 	UObject::ProcessEvent(fn, &params);
@@ -73,31 +70,6 @@ void UBombDropMarker_C::IsCurrentObjectiveStateEqualTo(EKSObjectiveState Compare
 	struct
 	{
 		EKSObjectiveState              CompareState;
-		bool                           Result;
-	} params;
-
-	params.CompareState = CompareState;
-
-	UObject::ProcessEvent(fn, &params);
-
-	if (Result != nullptr)
-		*Result = params.Result;
-}
-
-
-// Function BombDropMarker.BombDropMarker_C.IsCurrentBombStateEqualTo
-// (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
-// Parameters:
-// EKSNeutralBombState            CompareState                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// bool                           Result                         (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UBombDropMarker_C::IsCurrentBombStateEqualTo(EKSNeutralBombState CompareState, bool* Result)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.IsCurrentBombStateEqualTo");
-
-	struct
-	{
-		EKSNeutralBombState            CompareState;
 		bool                           Result;
 	} params;
 
@@ -190,29 +162,6 @@ void UBombDropMarker_C::GetBombColor(struct FSlateColor* BombColor)
 }
 
 
-// Function BombDropMarker.BombDropMarker_C.UpdateProgressMeterFromBombState
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// EKSNeutralBombState            BombState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// int                            BombTeam                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UBombDropMarker_C::UpdateProgressMeterFromBombState(EKSNeutralBombState BombState, int BombTeam)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.UpdateProgressMeterFromBombState");
-
-	struct
-	{
-		EKSNeutralBombState            BombState;
-		int                            BombTeam;
-	} params;
-
-	params.BombState = BombState;
-	params.BombTeam = BombTeam;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function BombDropMarker.BombDropMarker_C.UpdateProgressMeterProgress
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
@@ -226,48 +175,6 @@ void UBombDropMarker_C::UpdateProgressMeterProgress()
 
 
 	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function BombDropMarker.BombDropMarker_C.HandleBombStateChanged
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FKSNeutralBombState     BombState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
-
-void UBombDropMarker_C::HandleBombStateChanged(const struct FKSNeutralBombState& BombState)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.HandleBombStateChanged");
-
-	struct
-	{
-		struct FKSNeutralBombState     BombState;
-	} params;
-
-	params.BombState = BombState;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function BombDropMarker.BombDropMarker_C.GetArmedBombZone
-// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
-// Parameters:
-// class AKSNeutralBombZone*      BombZone                       (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UBombDropMarker_C::GetArmedBombZone(class AKSNeutralBombZone** BombZone)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BombDropMarker.BombDropMarker_C.GetArmedBombZone");
-
-	struct
-	{
-		class AKSNeutralBombZone*      BombZone;
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-
-	if (BombZone != nullptr)
-		*BombZone = params.BombZone;
 }
 
 

@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,12 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass EventTracker_Conditional_DamageSingle.EventTracker_Conditional_DamageSingle_C
-// 0x000C (0x0214 - 0x0208)
+// 0x0008 (0x0210 - 0x0208)
 class UEventTracker_Conditional_DamageSingle_C : public UKSEventTracker
 {
 public:
 	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0208(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	int                                                EventCount;                                               // 0x0210(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{
@@ -30,8 +29,6 @@ public:
 
 
 	void HandleTrackerInitialized(TMap<struct FString, float> Config, TMap<struct FString, struct FString> StringConfig);
-	void HandleLostPlayerController();
-	void MatchHAsEnded_Event();
 	void OwnedPawnInstigateDamage(const struct FCombatEventInfo& DamageInfo);
 	void ExecuteUbergraph_EventTracker_Conditional_DamageSingle(int EntryPoint);
 };

@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -1887,6 +1887,22 @@ void USkinnableMergedMeshComponent::RemoveSkeletalMeshKeyword(const struct FName
 	} params;
 
 	params.InKeyword = InKeyword;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// DelegateFunction DataTableSkinsCommon.SkinnableMergedMeshComponent.OnMeshMergeComplete__DelegateSignature
+// (FUNC_MulticastDelegate, FUNC_Public, FUNC_Delegate)
+
+void USkinnableMergedMeshComponent::OnMeshMergeComplete__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("DelegateFunction DataTableSkinsCommon.SkinnableMergedMeshComponent.OnMeshMergeComplete__DelegateSignature");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -360,7 +360,7 @@ void UWBP_InGameJobSelect_2_C::HandlePhaseChange(const struct FMatchPhase& NewPh
 
 
 // Function WBP_InGameJobSelect_3.WBP_InGameJobSelect_2_C.RestoreVisualState
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UWBP_InGameJobSelect_2_C::RestoreVisualState()
 {

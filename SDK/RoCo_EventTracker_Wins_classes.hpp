@@ -1,0 +1,43 @@
+#pragma once
+
+// Rogue Company (0.6X) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "RoCo_EventTracker_Wins_structs.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Classes
+//---------------------------------------------------------------------------
+
+// BlueprintGeneratedClass EventTracker_Wins.EventTracker_Wins_C
+// 0x0008 (0x0210 - 0x0208)
+class UEventTracker_Wins_C : public UKSEventTracker
+{
+public:
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0208(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("BlueprintGeneratedClass EventTracker_Wins.EventTracker_Wins_C");
+		return ptr;
+	}
+
+
+	void IsWinningTeam(bool* IsWinningTeam);
+	void HandleTrackerInitialized(TMap<struct FString, float> Config, TMap<struct FString, struct FString> StringConfig);
+	void HandleLostPlayerController();
+	void MatchHasEnded_Event();
+	void ExecuteUbergraph_EventTracker_Wins(int EntryPoint);
+};
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif

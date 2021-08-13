@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -69,16 +69,16 @@ public:
 
 
 // Class SkinnableAnimNotifies.SkelPropManagerComponent
-// 0x0120 (0x01D0 - 0x00B0)
+// 0x0140 (0x01F0 - 0x00B0)
 class USkelPropManagerComponent : public UActorComponent
 {
 public:
-	unsigned char                                      UnknownData00[0xB8];                                      // 0x00B0(0x00B8) MISSED OFFSET
-	TArray<struct FActiveSkelProp>                     ActiveNamelessProps;                                      // 0x0168(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	TMap<struct FPropIdentifier, struct FActiveSkelProp> ActiveProps;                                              // 0x0178(0x0050) (CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPrivate)
-	bool                                               bAllowSpawnerPooling;                                     // 0x01C8(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x01C9(0x0003) MISSED OFFSET
-	float                                              SpawnerPoolingLifespan;                                   // 0x01CC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xD8];                                      // 0x00B0(0x00D8) MISSED OFFSET
+	TArray<struct FActiveSkelProp>                     ActiveNamelessProps;                                      // 0x0188(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	TMap<struct FPropIdentifier, struct FActiveSkelProp> ActiveProps;                                              // 0x0198(0x0050) (CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPrivate)
+	bool                                               bAllowSpawnerPooling;                                     // 0x01E8(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x3];                                       // 0x01E9(0x0003) MISSED OFFSET
+	float                                              SpawnerPoolingLifespan;                                   // 0x01EC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
 	static UClass* StaticClass()
 	{
@@ -90,16 +90,16 @@ public:
 
 
 // Class SkinnableAnimNotifies.StaticPropManagerComponent
-// 0x0120 (0x01D0 - 0x00B0)
+// 0x0140 (0x01F0 - 0x00B0)
 class UStaticPropManagerComponent : public UActorComponent
 {
 public:
-	unsigned char                                      UnknownData00[0xB8];                                      // 0x00B0(0x00B8) MISSED OFFSET
-	TArray<struct FActiveStaticProp>                   ActiveNamelessProps;                                      // 0x0168(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	TMap<struct FPropIdentifier, struct FActiveStaticProp> ActiveProps;                                              // 0x0178(0x0050) (CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPrivate)
-	bool                                               bAllowSpawnerPooling;                                     // 0x01C8(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x01C9(0x0003) MISSED OFFSET
-	float                                              SpawnerPoolingLifespan;                                   // 0x01CC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xD8];                                      // 0x00B0(0x00D8) MISSED OFFSET
+	TArray<struct FActiveStaticProp>                   ActiveNamelessProps;                                      // 0x0188(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	TMap<struct FPropIdentifier, struct FActiveStaticProp> ActiveProps;                                              // 0x0198(0x0050) (CPF_Transient, CPF_DuplicateTransient, CPF_ContainsInstancedReference, CPF_NativeAccessSpecifierPrivate)
+	bool                                               bAllowSpawnerPooling;                                     // 0x01E8(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x3];                                       // 0x01E9(0x0003) MISSED OFFSET
+	float                                              SpawnerPoolingLifespan;                                   // 0x01EC(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
 	static UClass* StaticClass()
 	{

@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -42,7 +42,7 @@ public:
 	void ComputeBaseProgress(float* OutProgress);
 	void HandleTrackerInitialized(TMap<struct FString, float> Config, TMap<struct FString, struct FString> StringConfig);
 	void HandleLostPlayerController();
-	void MatchHAsEnded_Event();
+	void MatchHasEnded_Event();
 	void ExecuteUbergraph_EventTracker_Reputation(int EntryPoint);
 };
 

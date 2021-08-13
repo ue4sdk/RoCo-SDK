@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -51,12 +51,12 @@ void UEventTracker_Conditional_Purchase_C::HandleLostPlayerController()
 }
 
 
-// Function EventTracker_Conditional_Purchase.EventTracker_Conditional_Purchase_C.MatchHAsEnded_Event
+// Function EventTracker_Conditional_Purchase.EventTracker_Conditional_Purchase_C.MatchHasEnded_Event
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
-void UEventTracker_Conditional_Purchase_C::MatchHAsEnded_Event()
+void UEventTracker_Conditional_Purchase_C::MatchHasEnded_Event()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Conditional_Purchase.EventTracker_Conditional_Purchase_C.MatchHAsEnded_Event");
+	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Conditional_Purchase.EventTracker_Conditional_Purchase_C.MatchHasEnded_Event");
 
 	struct
 	{

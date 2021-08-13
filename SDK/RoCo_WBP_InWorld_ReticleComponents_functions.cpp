@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,28 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.CheckForActiveMods
+// (FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           ModsActive                     (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UWBP_InWorld_ReticleComponents_C::CheckForActiveMods(bool* ModsActive)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.CheckForActiveMods");
+
+	struct
+	{
+		bool                           ModsActive;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (ModsActive != nullptr)
+		*ModsActive = params.ModsActive;
+}
+
 
 // Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.SetWeaponComponent
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -165,7 +187,7 @@ void UWBP_InWorld_ReticleComponents_C::Destruct()
 
 
 // Function WBP_InWorld_ReticleComponents.WBP_InWorld_ReticleComponents_C.ExecuteUbergraph_WBP_InWorld_ReticleComponents
-// (FUNC_Final)
+// (FUNC_Final, FUNC_HasDefaults)
 // Parameters:
 // int                            EntryPoint                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 

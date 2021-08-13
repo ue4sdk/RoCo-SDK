@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass APSWeaponComponent.APSWeaponComponent_C
-// 0x0000 (0x1540 - 0x1540)
+// 0x0000 (0x1550 - 0x1550)
 class UAPSWeaponComponent_C : public UMasterBuild_WeaponComponent_C
 {
 public:

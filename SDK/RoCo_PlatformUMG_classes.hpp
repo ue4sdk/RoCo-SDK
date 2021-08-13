@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -760,7 +760,8 @@ public:
 	bool                                               StartsHidden;                                             // 0x0322(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               UsesBlocker;                                              // 0x0323(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               BlockerClickToClose;                                      // 0x0324(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData14[0x3];                                       // 0x0325(0x0003) MISSED OFFSET
+	bool                                               EnableGameStateSetNotify;                                 // 0x0325(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData14[0x2];                                       // 0x0326(0x0002) MISSED OFFSET
 	TSoftObjectPtr<class UTexture2D>                   LoadedTexture;                                            // 0x0328(0x0028) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      UnknownData15[0x150];                                     // 0x0350(0x0150) MISSED OFFSET
 
@@ -813,6 +814,7 @@ public:
 	struct FGeometry GetGeometryFromLastTick();
 	bool GetCurrentFocusGroup(int* OutFocusGroup);
 	class UWidget* GetCurrentFocusForGroup(int FocusGroup);
+	void GameStateSet(class AGameStateBase* GameState);
 	void GamepadUnhover();
 	void GamepadHover();
 	struct FEventReply GamepadButtonUp(const struct FKey& Button);

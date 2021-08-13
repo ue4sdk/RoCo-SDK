@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -36,7 +36,6 @@ public:
 	void RoundSetup(const struct FRoundInitState& RoundInitState);
 	void TeamUpdated();
 	void Activated(bool bActive);
-	void BombStateChanged(const struct FKSNeutralBombState& BombState);
 	void On_Objective_State_Changed(const TScriptInterface<class UKSObjective>& GameObjective);
 	void ExecuteUbergraph_NeutralBombZone(int EntryPoint);
 };

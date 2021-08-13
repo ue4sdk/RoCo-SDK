@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_SettingsMenu.WBP_SettingsMenu_C
-// 0x00F8 (0x0620 - 0x0528)
+// 0x00F9 (0x0621 - 0x0528)
 class UWBP_SettingsMenu_C : public UKSSettingsMenu
 {
 public:
@@ -47,6 +47,7 @@ public:
 	class UAkAudioEvent*                               RevertSettingsMenuSFX;                                    // 0x0600(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
 	class UAkAudioEvent*                               ApplySettingsMenuSFX;                                     // 0x0608(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
 	TArray<class UKSWidget*>                           PreviewWidgets;                                           // 0x0610(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash)
+	bool                                               bContainsAnyKeyBindings;                                  // 0x0620(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{
@@ -82,7 +83,6 @@ public:
 	void Scroll_To_Start();
 	void Scroll_To_End();
 	void GoBack();
-	void Revert_Settings();
 	void ConfirmExit(bool ShouldSaveSettings);
 	void Restore_Settings();
 	void ExitSettingsPage();
@@ -110,6 +110,7 @@ public:
 	void OnRevertButton();
 	void OnConfirmExit(bool ShouldSaveSettings);
 	void PreConstruct(bool IsDesignTime);
+	void RevertSettings();
 	void ExecuteUbergraph_WBP_SettingsMenu(int EntryPoint);
 };
 

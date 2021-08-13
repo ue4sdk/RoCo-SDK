@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,13 +15,13 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass KatanaWithProjectile_WeaponComponent.KatanaWithProjectile_WeaponComponent_C
-// 0x0070 (0x15C0 - 0x1550)
+// 0x0070 (0x15E0 - 0x1570)
 class UKatanaWithProjectile_WeaponComponent_C : public UMasterMelee_WeaponComponent_C
 {
 public:
-	struct FFullFireRepData                            K2Node_Event_Data;                                        // 0x1550(0x0068) (CPF_Transient, CPF_DuplicateTransient, CPF_NativeAccessSpecifierPublic)
-	bool                                               K2Node_Event_PlayNoChainFireMontage;                      // 0x15B8(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x15B9(0x0007) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x60];                                      // 0x1570(0x0060) MISSED OFFSET
+	bool                                               K2Node_Event_PlayNoChainFireMontage;                      // 0x15D0(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x15D1(0x000F) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{

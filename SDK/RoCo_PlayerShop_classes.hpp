@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass PlayerShop.PlayerShop_C
-// 0x0000 (0x07D8 - 0x07D8)
+// 0x0000 (0x0818 - 0x0818)
 class APlayerShop_C : public AKSPlayerShop_Job
 {
 public:

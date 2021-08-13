@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -12,51 +12,192 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
-// Function HudEditor.HudEditor_C.Construct
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-
-void UHudEditor_C::Construct()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.Construct");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function HudEditor.HudEditor_C.Tick
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-// Parameters:
-// struct FGeometry               MyGeometry                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_IsPlainOldData, CPF_NoDestructor)
-// float                          InDeltaTime                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UHudEditor_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.Tick");
-
-	struct
-	{
-		struct FGeometry               MyGeometry;
-		float                          InDeltaTime;
-	} params;
-
-	params.MyGeometry = MyGeometry;
-	params.InDeltaTime = InDeltaTime;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function HudEditor.HudEditor_C.BndEvt__Button_192_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 // (FUNC_BlueprintEvent)
 
 void UHudEditor_C::BndEvt__Button_192_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.BndEvt__Button_192_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.BndEvt__SaveHudEditableData_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature
+// (FUNC_BlueprintEvent)
+
+void UHudEditor_C::BndEvt__SaveHudEditableData_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.BndEvt__SaveHudEditableData_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.BndEvt__SaveHudEditableData_1_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature
+// (FUNC_BlueprintEvent)
+
+void UHudEditor_C::BndEvt__SaveHudEditableData_1_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.BndEvt__SaveHudEditableData_1_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.BndEvt__SaveHudEditableData_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature
+// (FUNC_BlueprintEvent)
+
+void UHudEditor_C::BndEvt__SaveHudEditableData_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.BndEvt__SaveHudEditableData_K2Node_ComponentBoundEvent_3_OnButtonPressedEvent__DelegateSignature");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.BndEvt__ExitHudEditorButton_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature
+// (FUNC_BlueprintEvent)
+
+void UHudEditor_C::BndEvt__ExitHudEditorButton_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.BndEvt__ExitHudEditorButton_K2Node_ComponentBoundEvent_4_OnButtonPressedEvent__DelegateSignature");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.BndEvt__RestoreDefaultHudEditableData_K2Node_ComponentBoundEvent_5_OnButtonPressedEvent__DelegateSignature
+// (FUNC_BlueprintEvent)
+
+void UHudEditor_C::BndEvt__RestoreDefaultHudEditableData_K2Node_ComponentBoundEvent_5_OnButtonPressedEvent__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.BndEvt__RestoreDefaultHudEditableData_K2Node_ComponentBoundEvent_5_OnButtonPressedEvent__DelegateSignature");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.InitializeWidget
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class APUMG_HUD*               HUD                            (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UHudEditor_C::InitializeWidget(class APUMG_HUD* HUD)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.InitializeWidget");
+
+	struct
+	{
+		class APUMG_HUD*               HUD;
+	} params;
+
+	params.HUD = HUD;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.OnBackButton
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UHudEditor_C::OnBackButton()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.OnBackButton");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.OnApplyButton
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UHudEditor_C::OnApplyButton()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.OnApplyButton");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.OnRevertButton
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UHudEditor_C::OnRevertButton()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.OnRevertButton");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.OnHide
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UHudEditor_C::OnHide()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.OnHide");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function HudEditor.HudEditor_C.OnShown
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UHudEditor_C::OnShown()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HudEditor.HudEditor_C.OnShown");
 
 	struct
 	{

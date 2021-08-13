@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass VoicelineNotify.VoicelineNotify_C
-// 0x0030 (0x0068 - 0x0038)
+// 0x0038 (0x0070 - 0x0038)
 class UVoicelineNotify_C : public UAnimNotify
 {
 public:
-	struct FKSVoicelineEvent                           Voiceline;                                                // 0x0038(0x0030) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor)
+	struct FKSVoicelineEvent                           Voiceline;                                                // 0x0038(0x0038) (CPF_Edit, CPF_BlueprintVisible, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{

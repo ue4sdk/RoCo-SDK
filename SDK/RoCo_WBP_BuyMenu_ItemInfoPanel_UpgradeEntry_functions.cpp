@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,22 +11,6 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
-
-// Function WBP_BuyMenu_ItemInfoPanel_UpgradeEntry.WBP_BuyMenu_ItemInfoPanel_UpgradeEntry_C.Construct
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-
-void UWBP_BuyMenu_ItemInfoPanel_UpgradeEntry_C::Construct()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_BuyMenu_ItemInfoPanel_UpgradeEntry.WBP_BuyMenu_ItemInfoPanel_UpgradeEntry_C.Construct");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
 
 // Function WBP_BuyMenu_ItemInfoPanel_UpgradeEntry.WBP_BuyMenu_ItemInfoPanel_UpgradeEntry_C.Set From Item
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -55,6 +39,22 @@ void UWBP_BuyMenu_ItemInfoPanel_UpgradeEntry_C::Set_From_Item(const struct FShop
 	params.Owned_Level = Owned_Level;
 	params.Affordable = Affordable;
 	params.Base_Item_Equipped = Base_Item_Equipped;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_BuyMenu_ItemInfoPanel_UpgradeEntry.WBP_BuyMenu_ItemInfoPanel_UpgradeEntry_C.Construct
+// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UWBP_BuyMenu_ItemInfoPanel_UpgradeEntry_C::Construct()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_BuyMenu_ItemInfoPanel_UpgradeEntry.WBP_BuyMenu_ItemInfoPanel_UpgradeEntry_C.Construct");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Mamba_WeaponComponent_Level2.Mamba_WeaponComponent_Level2_C
-// 0x0000 (0x1200 - 0x1200)
+// 0x0000 (0x1210 - 0x1210)
 class UMamba_WeaponComponent_Level2_C : public UMamba_WeaponComponent_Level1_C
 {
 public:

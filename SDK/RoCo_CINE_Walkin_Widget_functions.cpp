@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -12,28 +12,60 @@ namespace SDK
 //Functions
 //---------------------------------------------------------------------------
 
-// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerTwoData
-// (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.GetPlayerInfoWidgetsForPlayerNumber
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
 // Parameters:
-// class UKSPersistentPlayerData* PlayerData                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// bool                           IsValid                        (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// int                            PlayerNumber                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UTextBlock*              PlayerNameText                 (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UTextBlock*              JobNameText                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UWBP_RogueMasteryPortrait_C* RogueMasteryPortrait           (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UWBP_AsyncIcon_C*        JobFlatIcon                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UWBP_AsyncIcon_C*        JobFlatIconShadow              (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UCINE_Walkin_Widget_C::SetPlayerTwoData(class UKSPersistentPlayerData* PlayerData, bool* IsValid)
+void UCINE_Walkin_Widget_C::GetPlayerInfoWidgetsForPlayerNumber(int PlayerNumber, class UTextBlock** PlayerNameText, class UTextBlock** JobNameText, class UWBP_RogueMasteryPortrait_C** RogueMasteryPortrait, class UWBP_AsyncIcon_C** JobFlatIcon, class UWBP_AsyncIcon_C** JobFlatIconShadow)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerTwoData");
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.GetPlayerInfoWidgetsForPlayerNumber");
 
 	struct
 	{
-		class UKSPersistentPlayerData* PlayerData;
-		bool                           IsValid;
+		int                            PlayerNumber;
+		class UTextBlock*              PlayerNameText;
+		class UTextBlock*              JobNameText;
+		class UWBP_RogueMasteryPortrait_C* RogueMasteryPortrait;
+		class UWBP_AsyncIcon_C*        JobFlatIcon;
+		class UWBP_AsyncIcon_C*        JobFlatIconShadow;
 	} params;
 
-	params.PlayerData = PlayerData;
+	params.PlayerNumber = PlayerNumber;
 
 	UObject::ProcessEvent(fn, &params);
 
-	if (IsValid != nullptr)
-		*IsValid = params.IsValid;
+	if (PlayerNameText != nullptr)
+		*PlayerNameText = params.PlayerNameText;
+	if (JobNameText != nullptr)
+		*JobNameText = params.JobNameText;
+	if (RogueMasteryPortrait != nullptr)
+		*RogueMasteryPortrait = params.RogueMasteryPortrait;
+	if (JobFlatIcon != nullptr)
+		*JobFlatIcon = params.JobFlatIcon;
+	if (JobFlatIconShadow != nullptr)
+		*JobFlatIconShadow = params.JobFlatIconShadow;
+}
+
+
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Handle Debug Player Infos
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UCINE_Walkin_Widget_C::Handle_Debug_Player_Infos()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.Handle Debug Player Infos");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
 }
 
 
@@ -69,23 +101,26 @@ void UCINE_Walkin_Widget_C::StopAnimsPlayerOne()
 }
 
 
-// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerOneData
+// Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerData
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
 // class UKSPersistentPlayerData* PlayerData                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// int                            PlayerNumber                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 // bool                           IsValid                        (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
-void UCINE_Walkin_Widget_C::SetPlayerOneData(class UKSPersistentPlayerData* PlayerData, bool* IsValid)
+void UCINE_Walkin_Widget_C::SetPlayerData(class UKSPersistentPlayerData* PlayerData, int PlayerNumber, bool* IsValid)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerOneData");
+	static auto fn = UObject::FindObject<UFunction>("Function CINE_Walkin_Widget.CINE_Walkin_Widget_C.SetPlayerData");
 
 	struct
 	{
 		class UKSPersistentPlayerData* PlayerData;
+		int                            PlayerNumber;
 		bool                           IsValid;
 	} params;
 
 	params.PlayerData = PlayerData;
+	params.PlayerNumber = PlayerNumber;
 
 	UObject::ProcessEvent(fn, &params);
 

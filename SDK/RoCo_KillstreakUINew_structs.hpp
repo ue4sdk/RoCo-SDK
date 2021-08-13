@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -9,16 +9,16 @@
 #include "RoCo_Basic.hpp"
 #include "RoCo_KillstreakUINew_enums.hpp"
 #include "RoCo_Engine_classes.hpp"
-#include "RoCo_CoreUObject_classes.hpp"
-#include "RoCo_UMG_classes.hpp"
-#include "RoCo_PlatformUMG_classes.hpp"
 #include "RoCo_Killstreak_classes.hpp"
+#include "RoCo_CoreUObject_classes.hpp"
+#include "RoCo_PlatformCommon_classes.hpp"
+#include "RoCo_PlatformUMG_classes.hpp"
 #include "RoCo_GameplayTags_classes.hpp"
-#include "RoCo_SlateCore_classes.hpp"
+#include "RoCo_UMG_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
+#include "RoCo_SlateCore_classes.hpp"
 #include "RoCo_DataTableSkinsCommon_classes.hpp"
 #include "RoCo_PlatformGameFramework_classes.hpp"
-#include "RoCo_PlatformCommon_classes.hpp"
 
 namespace SDK
 {
@@ -132,6 +132,18 @@ struct FButtonPromptContext
 	TArray<struct FButtonPromptData>                   PromptInfo;                                               // 0x0000(0x0010) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
+// ScriptStruct KillstreakUINew.HudEditableData
+// 0x001C
+struct FHudEditableData
+{
+	struct FName                                       WidgetName;                                               // 0x0000(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FVector2D                                   AbsolutePosition;                                         // 0x0008(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              Scale;                                                    // 0x0010(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              Opacity;                                                  // 0x0014(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bIsVisible;                                               // 0x0018(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x0019(0x0003) MISSED OFFSET
+};
+
 // ScriptStruct KillstreakUINew.LoginRewardItem
 // 0x0010
 struct FLoginRewardItem
@@ -203,7 +215,7 @@ struct FKSPointObjectiveMarkerViewState
 	EKSObjectiveState                                  ObjectiveState;                                           // 0x0000(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EKSPOIState                                        POIState;                                                 // 0x0001(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	EPointObjectiveMarkerTeamState                     TeamState;                                                // 0x0002(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               IsBombDeployedHere;                                       // 0x0003(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               IsBombDeployed;                                           // 0x0003(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakUINew.PlayerProgression
@@ -280,19 +292,6 @@ struct FQueueSection
 	EQueueType                                         QueueSectionType;                                         // 0x0000(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x7];                                       // 0x0001(0x0007) MISSED OFFSET
 	TArray<struct FClientQueueInfo>                    AssociatedQueues;                                         // 0x0008(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-};
-
-// ScriptStruct KillstreakUINew.WeaponCategoryDetails
-// 0x00D8 (0x00E0 - 0x0008)
-struct FWeaponCategoryDetails : public FTableRowBase
-{
-	struct FGameplayTag                                CategoryTag;                                              // 0x0008(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	struct FText                                       DisplayName;                                              // 0x0010(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NativeAccessSpecifierPublic)
-	struct FText                                       DisplayNameSingular;                                      // 0x0028(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UTexture2D>                   SoftSymbolIcon;                                           // 0x0040(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UTexture2D>                   SoftMasteryIcon;                                          // 0x0068(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UTexture2D>                   SoftVerticalSplash;                                       // 0x0090(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UTexture2D>                   SoftHorizontalSplash;                                     // 0x00B8(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakUINew.MasterySectionData
@@ -454,6 +453,19 @@ struct FPlayerInventorySlot
 	unsigned char                                      UnknownData00[0x4];                                       // 0x0004(0x0004) MISSED OFFSET
 	class UKSWeaponAsset*                              WeaponAsset;                                              // 0x0008(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FGameplayTag                                SlotEquipPoint;                                           // 0x0010(0x0008) (CPF_BlueprintVisible, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+};
+
+// ScriptStruct KillstreakUINew.WeaponCategoryDetails
+// 0x00D8 (0x00E0 - 0x0008)
+struct FWeaponCategoryDetails : public FTableRowBase
+{
+	struct FGameplayTag                                CategoryTag;                                              // 0x0008(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	struct FText                                       DisplayName;                                              // 0x0010(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NativeAccessSpecifierPublic)
+	struct FText                                       DisplayNameSingular;                                      // 0x0028(0x0018) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   SoftSymbolIcon;                                           // 0x0040(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   SoftMasteryIcon;                                          // 0x0068(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   SoftVerticalSplash;                                       // 0x0090(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UTexture2D>                   SoftHorizontalSplash;                                     // 0x00B8(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
 // ScriptStruct KillstreakUINew.EliminationMessage

@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,22 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function CashBalance.CashBalance_C.UpdateShopInputCallout
+// (FUNC_Private, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UCashBalance_C::UpdateShopInputCallout()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CashBalance.CashBalance_C.UpdateShopInputCallout");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function CashBalance.CashBalance_C.SetPlayerShop
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -178,6 +194,42 @@ void UCashBalance_C::PreConstruct(bool IsDesignTime)
 	} params;
 
 	params.IsDesignTime = IsDesignTime;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function CashBalance.CashBalance_C.HandleKeyBindSettingsSaved
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FName                   KeyBindName                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UCashBalance_C::HandleKeyBindSettingsSaved(const struct FName& KeyBindName)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CashBalance.CashBalance_C.HandleKeyBindSettingsSaved");
+
+	struct
+	{
+		struct FName                   KeyBindName;
+	} params;
+
+	params.KeyBindName = KeyBindName;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function CashBalance.CashBalance_C.PlayLoopingAnim
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UCashBalance_C::PlayLoopingAnim()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function CashBalance.CashBalance_C.PlayLoopingAnim");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

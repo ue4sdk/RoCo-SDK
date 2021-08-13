@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Katana_Level_1_Projectile.Katana_Level_1_Projectile_C
-// 0x0000 (0x0978 - 0x0978)
+// 0x0000 (0x0988 - 0x0988)
 class AKatana_Level_1_Projectile_C : public AKatana_Projectile_C
 {
 public:

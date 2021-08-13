@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass S12Tactical_Level_2_WeaponComponent.S12Tactical_Level_2_WeaponComponent_C
-// 0x0000 (0x1300 - 0x1300)
+// 0x0000 (0x1310 - 0x1310)
 class US12Tactical_Level_2_WeaponComponent_C : public US12Tactical_Level_1_WeaponComponent_C
 {
 public:

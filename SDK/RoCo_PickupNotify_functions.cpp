@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -489,26 +489,6 @@ void UPickupNotify_C::end()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function PickupNotify.PickupNotify_C.Handle Bomb State Changed
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FKSNeutralBombState     BombState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
-
-void UPickupNotify_C::Handle_Bomb_State_Changed(const struct FKSNeutralBombState& BombState)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PickupNotify.PickupNotify_C.Handle Bomb State Changed");
-
-	struct
-	{
-		struct FKSNeutralBombState     BombState;
-	} params;
-
-	params.BombState = BombState;
 
 	UObject::ProcessEvent(fn, &params);
 }

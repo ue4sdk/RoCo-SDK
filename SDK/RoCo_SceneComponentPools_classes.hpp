@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -157,6 +157,8 @@ public:
 	static void ReleaseSpawnedSkeletalMesh(class USkeletalMesh* SkeletalMesh, class UClass* AnimClass, class USceneComponent* AttachToComponent, const struct FPoolAttachmentInfo& AttachInfo);
 	static void ReleaseSpawnedEmitters(class UObject* WorldContextObject);
 	static void ReleaseSpawnedDecals(class UObject* WorldContextObject);
+	static class UStaticMeshComponent* GetComponentForStaticMesh(class UObject* WorldContextObject, class UStaticMesh* Mesh, class USceneComponent* AttachToComponent, const struct FName& AttachSocketName);
+	static class USkeletalMeshComponent* GetComponentForSkeletalMesh(class UObject* WorldContextObject, class USkeletalMesh* Mesh, class USceneComponent* AttachToComponent, const struct FName& AttachSocketName);
 };
 
 

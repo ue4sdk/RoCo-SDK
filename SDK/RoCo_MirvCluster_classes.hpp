@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass MirvCluster.MirvCluster_C
-// 0x0000 (0x0A40 - 0x0A40)
+// 0x0000 (0x0A50 - 0x0A50)
 class AMirvCluster_C : public AClusterGrenade_C
 {
 public:

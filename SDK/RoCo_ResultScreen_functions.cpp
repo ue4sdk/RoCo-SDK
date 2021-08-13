@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,22 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function ResultScreen.ResultScreen_C.SequenceEvent__ENTRYPOINTResultScreen_1
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UResultScreen_C::SequenceEvent__ENTRYPOINTResultScreen_1()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.SequenceEvent__ENTRYPOINTResultScreen_1");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function ResultScreen.ResultScreen_C.ResetAndHandleEndOfMatch
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -188,6 +204,29 @@ void UResultScreen_C::ShowSurrenderUI()
 }
 
 
+// Function ResultScreen.ResultScreen_C.HandlePhaseChanged
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+
+void UResultScreen_C::HandlePhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandlePhaseChanged");
+
+	struct
+	{
+		struct FMatchPhase             NewPhase;
+		struct FMatchPhase             PreviousPhase;
+	} params;
+
+	params.NewPhase = NewPhase;
+	params.PreviousPhase = PreviousPhase;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function ResultScreen.ResultScreen_C.PlayMatchEndAnim
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
@@ -220,26 +259,6 @@ void UResultScreen_C::Construct()
 }
 
 
-// Function ResultScreen.ResultScreen_C.HandleResultReceived
-// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-// Parameters:
-// struct FRoundResultAnnoucement ResultAnnoucement              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm)
-
-void UResultScreen_C::HandleResultReceived(const struct FRoundResultAnnoucement& ResultAnnoucement)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandleResultReceived");
-
-	struct
-	{
-		struct FRoundResultAnnoucement ResultAnnoucement;
-	} params;
-
-	params.ResultAnnoucement = ResultAnnoucement;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function ResultScreen.ResultScreen_C.PlayMatchEndShowScoreAnim
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -260,44 +279,44 @@ void UResultScreen_C::PlayMatchEndShowScoreAnim(float Delay)
 }
 
 
-// Function ResultScreen.ResultScreen_C.HandlePhaseChanged
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Function ResultScreen.ResultScreen_C.HandleResultReceived
+// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 // Parameters:
-// struct FMatchPhase             NewPhase                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
-// struct FMatchPhase             PreviousPhase                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
+// struct FRoundResultAnnoucement ResultAnnoucement              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm)
 
-void UResultScreen_C::HandlePhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase)
+void UResultScreen_C::HandleResultReceived(const struct FRoundResultAnnoucement& ResultAnnoucement)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandlePhaseChanged");
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.HandleResultReceived");
 
 	struct
 	{
-		struct FMatchPhase             NewPhase;
-		struct FMatchPhase             PreviousPhase;
+		struct FRoundResultAnnoucement ResultAnnoucement;
 	} params;
 
-	params.NewPhase = NewPhase;
-	params.PreviousPhase = PreviousPhase;
+	params.ResultAnnoucement = ResultAnnoucement;
 
 	UObject::ProcessEvent(fn, &params);
 }
 
 
-// Function ResultScreen.ResultScreen_C.PreConstruct
-// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+// Function ResultScreen.ResultScreen_C.OnDelayedHUDAnnouncementComponentCreated
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// bool                           IsDesignTime                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// class AKSPlayerController*     OwningPlayerController         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UKSHUDAnnouncementComponent* SpawnedHUDAnnouncementComponent (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UResultScreen_C::PreConstruct(bool IsDesignTime)
+void UResultScreen_C::OnDelayedHUDAnnouncementComponentCreated(class AKSPlayerController* OwningPlayerController, class UKSHUDAnnouncementComponent* SpawnedHUDAnnouncementComponent)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.PreConstruct");
+	static auto fn = UObject::FindObject<UFunction>("Function ResultScreen.ResultScreen_C.OnDelayedHUDAnnouncementComponentCreated");
 
 	struct
 	{
-		bool                           IsDesignTime;
+		class AKSPlayerController*     OwningPlayerController;
+		class UKSHUDAnnouncementComponent* SpawnedHUDAnnouncementComponent;
 	} params;
 
-	params.IsDesignTime = IsDesignTime;
+	params.OwningPlayerController = OwningPlayerController;
+	params.SpawnedHUDAnnouncementComponent = SpawnedHUDAnnouncementComponent;
 
 	UObject::ProcessEvent(fn, &params);
 }

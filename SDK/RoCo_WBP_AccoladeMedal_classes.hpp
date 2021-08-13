@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_AccoladeMedal.WBP_AccoladeMedal_C
-// 0x0148 (0x0648 - 0x0500)
+// 0x0150 (0x0650 - 0x0500)
 class UWBP_AccoladeMedal_C : public UKSWidget
 {
 public:
@@ -50,11 +50,11 @@ public:
 	unsigned char                                      UnknownData03[0xF];                                       // 0x05B1(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FScriptMulticastDelegate                    OnShowAnimFinished;                                       // 0x05C8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_BlueprintAssignable, CPF_BlueprintCallable)
 	unsigned char                                      UnknownData04[0xF];                                       // 0x05C8(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
-	struct FAccoladeDisplayInfo                        AccoladeInfo_New;                                         // 0x05D8(0x0060) (CPF_Edit, CPF_BlueprintVisible)
-	float                                              PresentationSpeed;                                        // 0x0638(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	float                                              FadeOutDelayTimer;                                        // 0x063C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	float                                              ShowNextDelayTimer;                                       // 0x0640(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	float                                              Stacked_Accolade_Delay;                                   // 0x0644(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	struct FAccoladeDisplayInfo                        AccoladeInfo_New;                                         // 0x05D8(0x0068) (CPF_Edit, CPF_BlueprintVisible)
+	float                                              PresentationSpeed;                                        // 0x0640(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	float                                              FadeOutDelayTimer;                                        // 0x0644(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	float                                              ShowNextDelayTimer;                                       // 0x0648(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	float                                              Stacked_Accolade_Delay;                                   // 0x064C(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_StandardButton_02.WBP_StandardButton_02_C
-// 0x00A8 (0x05A8 - 0x0500)
+// 0x00A9 (0x05A9 - 0x0500)
 class UWBP_StandardButton_02_C : public UKSWidget
 {
 public:
@@ -39,6 +39,7 @@ public:
 	float                                              DefaultWidth;                                             // 0x0598(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
 	unsigned char                                      UnknownData03[0x4];                                       // 0x059C(0x0004) MISSED OFFSET
 	class UAkAudioEvent*                               HoverStandardButton_02SFX;                                // 0x05A0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
+	TEnumAsByte<E_ButtonFontStyle>                     ButtonFontStyle;                                          // 0x05A8(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{

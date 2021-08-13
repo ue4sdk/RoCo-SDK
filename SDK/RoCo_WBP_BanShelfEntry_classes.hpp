@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -30,6 +30,8 @@ public:
 	}
 
 
+	void Preset_from_Task(const struct FJobSelectionTask& Incomplete_Task);
+	void SetFromTask(const struct FJobSelectionTask& New_Task);
 	void SetBanDisplay(bool IsFriendly, TSoftObjectPtr<class UTexture2D> JobPortrait, bool BanSkipped);
 };
 

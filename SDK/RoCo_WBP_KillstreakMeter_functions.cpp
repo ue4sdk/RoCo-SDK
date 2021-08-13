@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -38,38 +38,6 @@ void UWBP_KillstreakMeter_C::SetActionNames(const struct FName& KeyBoardAction, 
 }
 
 
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetRevived
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::HandleOnTargetRevived()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetRevived");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnDroneAborted
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::HandleOnDroneAborted()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnDroneAborted");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Get Current Cannot Fire Now
 // (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -89,29 +57,6 @@ void UWBP_KillstreakMeter_C::Get_Current_Cannot_Fire_Now(bool* CurrentCannotFire
 
 	if (CurrentCannotFireNow != nullptr)
 		*CurrentCannotFireNow = params.CurrentCannotFireNow;
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetAcquired
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// TScriptInterface<class UKSTargeter> Targeter                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-// class AActor*                  Target                         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UWBP_KillstreakMeter_C::HandleOnTargetAcquired(const TScriptInterface<class UKSTargeter>& Targeter, class AActor* Target)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetAcquired");
-
-	struct
-	{
-		TScriptInterface<class UKSTargeter> Targeter;
-		class AActor*                  Target;
-	} params;
-
-	params.Targeter = Targeter;
-	params.Target = Target;
-
-	UObject::ProcessEvent(fn, &params);
 }
 
 
@@ -171,106 +116,6 @@ void UWBP_KillstreakMeter_C::UpdateLockTimer(float DeltaTime)
 }
 
 
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveTrigger
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::HandleOnReviveTrigger()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveTrigger");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveComplete
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::HandleOnReviveComplete()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveComplete");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveBegin
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::HandleOnReviveBegin()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnReviveBegin");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateReviveProgressDisplay
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// float                          InProgress                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UWBP_KillstreakMeter_C::UpdateReviveProgressDisplay(float InProgress)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.UpdateReviveProgressDisplay");
-
-	struct
-	{
-		float                          InProgress;
-	} params;
-
-	params.InProgress = InProgress;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetDeath
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::HandleOnTargetDeath()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnTargetDeath");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnDroneDestroyed
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::HandleOnDroneDestroyed()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.HandleOnDroneDestroyed");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.IsReadyToActivate
 // (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
 // Parameters:
@@ -315,22 +160,6 @@ void UWBP_KillstreakMeter_C::Stop_Ready_Animations()
 void UWBP_KillstreakMeter_C::Start_Ready_Animations()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.Start Ready Animations");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.GetDynamicMats
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::GetDynamicMats()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.GetDynamicMats");
 
 	struct
 	{
@@ -740,86 +569,6 @@ void UWBP_KillstreakMeter_C::HandleModActivated(bool InBool)
 }
 
 
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OpenReviveProgress
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::OpenReviveProgress()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OpenReviveProgress");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.EnterReviveProgress
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::EnterReviveProgress()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.EnterReviveProgress");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedCloseReviveProgress
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::DelayedCloseReviveProgress()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedCloseReviveProgress");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedClearOfDroneMessaging
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::DelayedClearOfDroneMessaging()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedClearOfDroneMessaging");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedRefundDroneMessaging
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::DelayedRefundDroneMessaging()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.DelayedRefundDroneMessaging");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.OnSetCannotFireNow
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
@@ -835,22 +584,6 @@ void UWBP_KillstreakMeter_C::OnSetCannotFireNow(bool CannotFire)
 	} params;
 
 	params.CannotFire = CannotFire;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.ImmediateCloseReviveProgress
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_KillstreakMeter_C::ImmediateCloseReviveProgress()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_KillstreakMeter.WBP_KillstreakMeter_C.ImmediateCloseReviveProgress");
-
-	struct
-	{
-	} params;
-
 
 	UObject::ProcessEvent(fn, &params);
 }

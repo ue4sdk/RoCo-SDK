@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -31,6 +31,38 @@ void USub_Hero_ABP_MountedWeapon_C::AnimGraph(struct FPoseLink* AnimGraph)
 
 	if (AnimGraph != nullptr)
 		*AnimGraph = params.AnimGraph;
+}
+
+
+// Function Sub_Hero_ABP_MountedWeapon.Sub_Hero_ABP_MountedWeapon_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Sub_Hero_ABP_MountedWeapon_AnimGraphNode_AimOffsetSkinned_F46D9F994AFD701F3540A7A6C3C3AE29
+// (FUNC_BlueprintEvent)
+
+void USub_Hero_ABP_MountedWeapon_C::EvaluateGraphExposedInputs_ExecuteUbergraph_Sub_Hero_ABP_MountedWeapon_AnimGraphNode_AimOffsetSkinned_F46D9F994AFD701F3540A7A6C3C3AE29()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Sub_Hero_ABP_MountedWeapon.Sub_Hero_ABP_MountedWeapon_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Sub_Hero_ABP_MountedWeapon_AnimGraphNode_AimOffsetSkinned_F46D9F994AFD701F3540A7A6C3C3AE29");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function Sub_Hero_ABP_MountedWeapon.Sub_Hero_ABP_MountedWeapon_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Sub_Hero_ABP_MountedWeapon_AnimGraphNode_AimOffsetSkinned_1149DF16425BF36771ECBFAB5883FCFD
+// (FUNC_BlueprintEvent)
+
+void USub_Hero_ABP_MountedWeapon_C::EvaluateGraphExposedInputs_ExecuteUbergraph_Sub_Hero_ABP_MountedWeapon_AnimGraphNode_AimOffsetSkinned_1149DF16425BF36771ECBFAB5883FCFD()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Sub_Hero_ABP_MountedWeapon.Sub_Hero_ABP_MountedWeapon_C.EvaluateGraphExposedInputs_ExecuteUbergraph_Sub_Hero_ABP_MountedWeapon_AnimGraphNode_AimOffsetSkinned_1149DF16425BF36771ECBFAB5883FCFD");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
 }
 
 

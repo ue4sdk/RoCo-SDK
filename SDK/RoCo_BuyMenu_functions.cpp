@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,156 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function BuyMenu.BuyMenu_C.Swap Primary One and Two
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UBuyMenu_C::Swap_Primary_One_and_Two()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.Swap Primary One and Two");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BuyMenu.BuyMenu_C.Find Offering Widget From Shop Item
+// (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FShopItem               Shop_Item                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm)
+// class UWBP_BuyMenuWeaponSelectButton_C* Weapon_Select_Button           (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UBuyMenu_C::Find_Offering_Widget_From_Shop_Item(const struct FShopItem& Shop_Item, class UWBP_BuyMenuWeaponSelectButton_C** Weapon_Select_Button)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.Find Offering Widget From Shop Item");
+
+	struct
+	{
+		struct FShopItem               Shop_Item;
+		class UWBP_BuyMenuWeaponSelectButton_C* Weapon_Select_Button;
+	} params;
+
+	params.Shop_Item = Shop_Item;
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (Weapon_Select_Button != nullptr)
+		*Weapon_Select_Button = params.Weapon_Select_Button;
+}
+
+
+// Function BuyMenu.BuyMenu_C.Navigate Right Failed
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            FocusGroup                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UPUMG_Widget*            Widget                         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UBuyMenu_C::Navigate_Right_Failed(int FocusGroup, class UPUMG_Widget* Widget)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.Navigate Right Failed");
+
+	struct
+	{
+		int                            FocusGroup;
+		class UPUMG_Widget*            Widget;
+	} params;
+
+	params.FocusGroup = FocusGroup;
+	params.Widget = Widget;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BuyMenu.BuyMenu_C.Navigate Left Failed
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// int                            FocusGroup                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UPUMG_Widget*            Widget                         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UBuyMenu_C::Navigate_Left_Failed(int FocusGroup, class UPUMG_Widget* Widget)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.Navigate Left Failed");
+
+	struct
+	{
+		int                            FocusGroup;
+		class UPUMG_Widget*            Widget;
+	} params;
+
+	params.FocusGroup = FocusGroup;
+	params.Widget = Widget;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BuyMenu.BuyMenu_C.HandleShopOfferingsChanged
+// (FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// EShopItemType                  ShopItemType                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// TArray<struct FPrimaryOffering> Offerings                      (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_HasGetValueTypeHash)
+
+void UBuyMenu_C::HandleShopOfferingsChanged(EShopItemType ShopItemType, TArray<struct FPrimaryOffering> Offerings)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.HandleShopOfferingsChanged");
+
+	struct
+	{
+		EShopItemType                  ShopItemType;
+		TArray<struct FPrimaryOffering> Offerings;
+	} params;
+
+	params.ShopItemType = ShopItemType;
+	params.Offerings = Offerings;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BuyMenu.BuyMenu_C.Create Primary Swap Elements
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UBuyMenu_C::Create_Primary_Swap_Elements()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.Create Primary Swap Elements");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BuyMenu.BuyMenu_C.CreateAndAddPrimaryWeaponEntry
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// EShopItemType                  ShopItemType                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UKSShopItemButtonBase*   ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+class UKSShopItemButtonBase* UBuyMenu_C::CreateAndAddPrimaryWeaponEntry(EShopItemType ShopItemType)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.CreateAndAddPrimaryWeaponEntry");
+
+	struct
+	{
+		EShopItemType                  ShopItemType;
+		class UKSShopItemButtonBase*   ReturnValue;
+	} params;
+
+	params.ShopItemType = ShopItemType;
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
 
 // Function BuyMenu.BuyMenu_C.On Shop Options Changed
 // (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -607,6 +757,82 @@ void UBuyMenu_C::On_Respawn_Timer_Active(bool bActive)
 	} params;
 
 	params.bActive = bActive;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BuyMenu.BuyMenu_C.Event Swap Button Clicked
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class UWidget*                 Widget                         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UBuyMenu_C::Event_Swap_Button_Clicked(class UWidget* Widget)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.Event Swap Button Clicked");
+
+	struct
+	{
+		class UWidget*                 Widget;
+	} params;
+
+	params.Widget = Widget;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BuyMenu.BuyMenu_C.Primary Option Selected
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FShopItem               SelectedItem                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm)
+
+void UBuyMenu_C::Primary_Option_Selected(const struct FShopItem& SelectedItem)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.Primary Option Selected");
+
+	struct
+	{
+		struct FShopItem               SelectedItem;
+	} params;
+
+	params.SelectedItem = SelectedItem;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BuyMenu.BuyMenu_C.Handle Primary Weapon Hovered
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FShopItem               SelectedItem                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm)
+
+void UBuyMenu_C::Handle_Primary_Weapon_Hovered(const struct FShopItem& SelectedItem)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.Handle Primary Weapon Hovered");
+
+	struct
+	{
+		struct FShopItem               SelectedItem;
+	} params;
+
+	params.SelectedItem = SelectedItem;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function BuyMenu.BuyMenu_C.ClearPrimaryWeaponEntries_2
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UBuyMenu_C::ClearPrimaryWeaponEntries_2()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BuyMenu.BuyMenu_C.ClearPrimaryWeaponEntries_2");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

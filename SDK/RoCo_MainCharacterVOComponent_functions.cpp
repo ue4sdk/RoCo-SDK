@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,38 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function MainCharacterVOComponent.MainCharacterVOComponent_C.On Take Damage
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class AActor*                  DamagedActor                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// float                          Damage                         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UDamageType*             DamageType                     (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class AController*             InstigatedBy                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class AActor*                  DamageCauser                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UMainCharacterVOComponent_C::On_Take_Damage(class AActor* DamagedActor, float Damage, class UDamageType* DamageType, class AController* InstigatedBy, class AActor* DamageCauser)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.On Take Damage");
+
+	struct
+	{
+		class AActor*                  DamagedActor;
+		float                          Damage;
+		class UDamageType*             DamageType;
+		class AController*             InstigatedBy;
+		class AActor*                  DamageCauser;
+	} params;
+
+	params.DamagedActor = DamagedActor;
+	params.Damage = Damage;
+	params.DamageType = DamageType;
+	params.InstigatedBy = InstigatedBy;
+	params.DamageCauser = DamageCauser;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function MainCharacterVOComponent.MainCharacterVOComponent_C.EnemyBehind
 // (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
@@ -224,38 +256,6 @@ void UMainCharacterVOComponent_C::SentVoiceLineOnly(EPingMessage PingMessage, cl
 
 	params.PingMessage = PingMessage;
 	params.SendingPlayer = SendingPlayer;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnTakeDamage
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// class AActor*                  DamagedActor                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// float                          Damage                         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class UDamageType*             DamageType                     (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AController*             InstigatedBy                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// class AActor*                  DamageCauser                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UMainCharacterVOComponent_C::OnTakeDamage(class AActor* DamagedActor, float Damage, class UDamageType* DamageType, class AController* InstigatedBy, class AActor* DamageCauser)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function MainCharacterVOComponent.MainCharacterVOComponent_C.OnTakeDamage");
-
-	struct
-	{
-		class AActor*                  DamagedActor;
-		float                          Damage;
-		class UDamageType*             DamageType;
-		class AController*             InstigatedBy;
-		class AActor*                  DamageCauser;
-	} params;
-
-	params.DamagedActor = DamagedActor;
-	params.Damage = Damage;
-	params.DamageType = DamageType;
-	params.InstigatedBy = InstigatedBy;
-	params.DamageCauser = DamageCauser;
 
 	UObject::ProcessEvent(fn, &params);
 }

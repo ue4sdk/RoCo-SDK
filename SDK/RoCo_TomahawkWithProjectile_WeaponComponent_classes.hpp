@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass TomahawkWithProjectile_WeaponComponent.TomahawkWithProjectile_WeaponComponent_C
-// 0x0000 (0x1550 - 0x1550)
+// 0x0000 (0x1570 - 0x1570)
 class UTomahawkWithProjectile_WeaponComponent_C : public UMasterMelee_WeaponComponent_C
 {
 public:

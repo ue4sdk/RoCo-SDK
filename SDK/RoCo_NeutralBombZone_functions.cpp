@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -95,26 +95,6 @@ void ANeutralBombZone_C::Activated(bool bActive)
 	} params;
 
 	params.bActive = bActive;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function NeutralBombZone.NeutralBombZone_C.BombStateChanged
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FKSNeutralBombState     BombState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
-
-void ANeutralBombZone_C::BombStateChanged(const struct FKSNeutralBombState& BombState)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function NeutralBombZone.NeutralBombZone_C.BombStateChanged");
-
-	struct
-	{
-		struct FKSNeutralBombState     BombState;
-	} params;
-
-	params.BombState = BombState;
 
 	UObject::ProcessEvent(fn, &params);
 }

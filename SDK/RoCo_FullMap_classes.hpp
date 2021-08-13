@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -68,7 +68,6 @@ public:
 	void InitializeWidgetButtonListeners();
 	void MapButtonClose();
 	void Tick(const struct FGeometry& MyGeometry, float InDeltaTime);
-	void Handle_Zone_Wait(float TimeUntilShrink);
 	void OnScrambleStateChanged(bool Scrambled);
 	void RemoveSelf();
 	void DisplayToMapWidget(class UKSMapIconWidgetBase* MapIcon);

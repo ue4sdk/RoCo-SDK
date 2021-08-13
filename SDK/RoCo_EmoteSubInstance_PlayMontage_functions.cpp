@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,30 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function EmoteSubInstance_PlayMontage.EmoteSubInstance_PlayMontage_C.SetupEmoteMontage
+// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class UMultiSkinObject*        inSkinObject                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UAnimMontage*            ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+class UAnimMontage* UEmoteSubInstance_PlayMontage_C::SetupEmoteMontage(class UMultiSkinObject* inSkinObject)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function EmoteSubInstance_PlayMontage.EmoteSubInstance_PlayMontage_C.SetupEmoteMontage");
+
+	struct
+	{
+		class UMultiSkinObject*        inSkinObject;
+		class UAnimMontage*            ReturnValue;
+	} params;
+
+	params.inSkinObject = inSkinObject;
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
 
 // Function EmoteSubInstance_PlayMontage.EmoteSubInstance_PlayMontage_C.OnNotifyEnd_501015524C4DCB4E2723BBAF526FE09A
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -127,22 +151,6 @@ void UEmoteSubInstance_PlayMontage_C::OnCompleted_501015524C4DCB4E2723BBAF526FE0
 }
 
 
-// Function EmoteSubInstance_PlayMontage.EmoteSubInstance_PlayMontage_C.BlueprintPlayEmote
-// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
-
-void UEmoteSubInstance_PlayMontage_C::BlueprintPlayEmote()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function EmoteSubInstance_PlayMontage.EmoteSubInstance_PlayMontage_C.BlueprintPlayEmote");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function EmoteSubInstance_PlayMontage.EmoteSubInstance_PlayMontage_C.BlueprintStopped
 // (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 
@@ -205,6 +213,22 @@ void UEmoteSubInstance_PlayMontage_C::BlueprintInterrupt(EKSRadialMenuItemInterr
 void UEmoteSubInstance_PlayMontage_C::On_Single_Play_Timer_Elapsed()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function EmoteSubInstance_PlayMontage.EmoteSubInstance_PlayMontage_C.On Single-Play Timer Elapsed");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function EmoteSubInstance_PlayMontage.EmoteSubInstance_PlayMontage_C.BlueprintPlayEmote
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+
+void UEmoteSubInstance_PlayMontage_C::BlueprintPlayEmote()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function EmoteSubInstance_PlayMontage.EmoteSubInstance_PlayMontage_C.BlueprintPlayEmote");
 
 	struct
 	{

@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -240,6 +240,58 @@ void UWBP_NeutralBombCarrierPrompts_C::Clear_Current_Tracked_Bomb(bool bSkipProm
 	} params;
 
 	params.bSkipPromptUpdate = bSkipPromptUpdate;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.HandleOnDodgeRollChanged
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           IsDodgeRolling                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UWBP_NeutralBombCarrierPrompts_C::HandleOnDodgeRollChanged(bool IsDodgeRolling)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.HandleOnDodgeRollChanged");
+
+	struct
+	{
+		bool                           IsDodgeRolling;
+	} params;
+
+	params.IsDodgeRolling = IsDodgeRolling;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.HandleOnFreeFallStarted
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_NeutralBombCarrierPrompts_C::HandleOnFreeFallStarted()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.HandleOnFreeFallStarted");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.HandleOnFreeFallEnded
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_NeutralBombCarrierPrompts_C::HandleOnFreeFallEnded()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C.HandleOnFreeFallEnded");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

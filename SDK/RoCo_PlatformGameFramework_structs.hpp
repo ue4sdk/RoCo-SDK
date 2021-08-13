@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -140,19 +140,6 @@ struct FPGame_InactivePlayerStateEntry
 	class APlayerState*                                PlayerState;                                              // 0x0008(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 };
 
-// ScriptStruct PlatformGameFramework.PGame_PerformanceCaptureProfile
-// 0x001C
-struct FPGame_PerformanceCaptureProfile
-{
-	struct FName                                       ProfileName;                                              // 0x0000(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                ScalabilityBucket;                                        // 0x0008(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                ResolutionX;                                              // 0x000C(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                ResolutionY;                                              // 0x0010(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                VsyncInterval;                                            // 0x0014(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               bFullScreen;                                              // 0x0018(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x0019(0x0003) MISSED OFFSET
-};
-
 // ScriptStruct PlatformGameFramework.PrimitivePriority
 // 0x0020
 struct FPrimitivePriority
@@ -160,6 +147,13 @@ struct FPrimitivePriority
 	class UPrimitiveComponent*                         Primitive;                                                // 0x0000(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                Priority;                                                 // 0x0008(0x0004) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x14];                                      // 0x000C(0x0014) MISSED OFFSET
+};
+
+// ScriptStruct PlatformGameFramework.PGame_ReplicatedTimerId
+// 0x0001
+struct FPGame_ReplicatedTimerId
+{
+	unsigned char                                      ID;                                                       // 0x0000(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 };
 
 // ScriptStruct PlatformGameFramework.PGame_EffectManagerCurrentProperty
@@ -194,11 +188,45 @@ struct FCollisionDebugInfo
 // 0x0038
 struct FPGame_ReplicatedTimer
 {
-	EPGame_ReplicateTimerState                         TimerState;                                               // 0x0000(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData00[0x3];                                       // 0x0001(0x0003) MISSED OFFSET
-	float                                              InitialTime;                                              // 0x0004(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	float                                              TimeRemaining;                                            // 0x0008(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
-	unsigned char                                      UnknownData01[0x2C];                                      // 0x000C(0x002C) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0000(0x0008) MISSED OFFSET
+	EPGame_ReplicateTimerState                         TimerState;                                               // 0x0008(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x3];                                       // 0x0009(0x0003) MISSED OFFSET
+	float                                              InitialTime;                                              // 0x000C(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	float                                              TimeRemaining;                                            // 0x0010(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_EditConst, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData02[0x24];                                      // 0x0014(0x0024) MISSED OFFSET
+};
+
+// ScriptStruct PlatformGameFramework.PGame_ReplicatedTimerManagerEntry
+// 0x004C (0x0058 - 0x000C)
+struct FPGame_ReplicatedTimerManagerEntry : public FFastArraySerializerItem
+{
+	struct FPGame_ReplicatedTimerId                    ID;                                                       // 0x000C(0x0001) (CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x000D(0x0003) MISSED OFFSET
+	struct FPGame_ReplicatedTimer                      Timer;                                                    // 0x0010(0x0038) (CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0x10];                                      // 0x0048(0x0010) MISSED OFFSET
+};
+
+// ScriptStruct PlatformGameFramework.PGame_ReplicatedTimerManagerBase
+// 0x0018 (0x0120 - 0x0108)
+struct FPGame_ReplicatedTimerManagerBase : public FFastArraySerializer
+{
+	TArray<struct FPGame_ReplicatedTimerManagerEntry>  Timers;                                                   // 0x0108(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x8];                                       // 0x0118(0x0008) MISSED OFFSET
+};
+
+// ScriptStruct PlatformGameFramework.PGame_ReplicatedTimerManagerSlave
+// 0x0050 (0x0170 - 0x0120)
+struct FPGame_ReplicatedTimerManagerSlave : public FPGame_ReplicatedTimerManagerBase
+{
+	unsigned char                                      UnknownData00[0x50];                                      // 0x0120(0x0050) MISSED OFFSET
+};
+
+// ScriptStruct PlatformGameFramework.PGame_ReplicatedTimerManager
+// 0x0008 (0x0128 - 0x0120)
+struct FPGame_ReplicatedTimerManager : public FPGame_ReplicatedTimerManagerBase
+{
+	unsigned char                                      NextTimerId;                                              // 0x0120(0x0001) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0121(0x0007) MISSED OFFSET
 };
 
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_NeutralBombCarrierPrompts.WBP_NeutralBombCarrierPrompts_C
-// 0x0068 (0x0630 - 0x05C8)
+// 0x0070 (0x0638 - 0x05C8)
 class UWBP_NeutralBombCarrierPrompts_C : public UKSViewedPawnInventoryWidget
 {
 public:
@@ -34,7 +34,9 @@ public:
 	bool                                               Is_Interacting;                                           // 0x0613(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 	unsigned char                                      UnknownData00[0x4];                                       // 0x0614(0x0004) MISSED OFFSET
 	class UKSWeaponComponent*                          Current_Tracked_Bomb_Equipment;                           // 0x0618(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	TArray<class UKSWeaponAsset*>                      BombAssets;                                               // 0x0620(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
+	bool                                               InMovement;                                               // 0x0620(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
+	unsigned char                                      UnknownData01[0x7];                                       // 0x0621(0x0007) MISSED OFFSET
+	TArray<class UKSWeaponAsset*>                      BombAssets;                                               // 0x0628(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{
@@ -55,6 +57,9 @@ public:
 	void Handle_Tracked_Bomb_Active_Changed(class AKSCharacter* EquipmentOwner, class UKSWeaponComponent* Equipment);
 	void OnRoundOver(class AKSGameState* GameState, const struct FRoundResult& RoundResult);
 	void Clear_Current_Tracked_Bomb(bool bSkipPromptUpdate);
+	void HandleOnDodgeRollChanged(bool IsDodgeRolling);
+	void HandleOnFreeFallStarted();
+	void HandleOnFreeFallEnded();
 	void ExecuteUbergraph_WBP_NeutralBombCarrierPrompts(int EntryPoint);
 };
 

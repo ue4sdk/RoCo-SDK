@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -120,26 +120,6 @@ void UAllyMinimapIcon_C::OnPlayerDown(const struct FCombatEventInfo& bpp__Combat
 }
 
 
-// Function AllyMinimapIcon.AllyMinimapIcon_C.Handle Bomb State Changed
-// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// struct FKSNeutralBombState     bpp__BombState__pf             (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-
-void UAllyMinimapIcon_C::Handle_Bomb_State_Changed(const struct FKSNeutralBombState& bpp__BombState__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AllyMinimapIcon.AllyMinimapIcon_C.Handle Bomb State Changed");
-
-	struct
-	{
-		struct FKSNeutralBombState     bpp__BombState__pf;
-	} params;
-
-	params.bpp__BombState__pf = bpp__BombState__pf;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function AllyMinimapIcon.AllyMinimapIcon_C.HandleMapIconWidgetReady
 // (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 
@@ -252,26 +232,6 @@ void UAllyMinimapIcon_C::OnSetupPhaseStart__DelegateSignature()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnNeutralBombStateChanged__DelegateSignature
-// (FUNC_Public, FUNC_Delegate)
-// Parameters:
-// struct FKSNeutralBombState     bpp__BombState__pf             (CPF_Parm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-
-void UAllyMinimapIcon_C::OnNeutralBombStateChanged__DelegateSignature(const struct FKSNeutralBombState& bpp__BombState__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction AllyMinimapIcon.AllyMinimapIcon_C.OnNeutralBombStateChanged__DelegateSignature");
-
-	struct
-	{
-		struct FKSNeutralBombState     bpp__BombState__pf;
-	} params;
-
-	params.bpp__BombState__pf = bpp__BombState__pf;
 
 	UObject::ProcessEvent(fn, &params);
 }

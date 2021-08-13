@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // DynamicClass Mirv_WeaponComponent.Mirv_WeaponComponent_C
-// 0x0000 (0x1440 - 0x1440)
+// 0x0000 (0x1450 - 0x1450)
 class UMirv_WeaponComponent_C : public UMaster_GrenadeComponent_C
 {
 public:

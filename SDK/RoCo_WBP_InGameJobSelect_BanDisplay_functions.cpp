@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -162,6 +162,22 @@ void UWBP_InGameJobSelect_BanDisplay_C::AsyncSetRogueImage(TSoftObjectPtr<class 
 void UWBP_InGameJobSelect_BanDisplay_C::HideAll()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.HideAll");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.Stop Ban Animation
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_InGameJobSelect_BanDisplay_C::Stop_Ban_Animation()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_BanDisplay.WBP_InGameJobSelect_BanDisplay_C.Stop Ban Animation");
 
 	struct
 	{

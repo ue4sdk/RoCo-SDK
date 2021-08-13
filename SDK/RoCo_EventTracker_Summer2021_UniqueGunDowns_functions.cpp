@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -31,56 +31,6 @@ void UEventTracker_Summer2021_UniqueGunDowns_C::IsWinningTeam(bool* IsWinningTea
 
 	if (IsWinningTeam != nullptr)
 		*IsWinningTeam = params.IsWinningTeam;
-}
-
-
-// Function EventTracker_Summer2021_UniqueGunDowns.EventTracker_Summer2021_UniqueGunDowns_C.GetJobItemId
-// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
-// Parameters:
-// int                            JobItemId                      (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UEventTracker_Summer2021_UniqueGunDowns_C::GetJobItemId(int* JobItemId)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Summer2021_UniqueGunDowns.EventTracker_Summer2021_UniqueGunDowns_C.GetJobItemId");
-
-	struct
-	{
-		int                            JobItemId;
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-
-	if (JobItemId != nullptr)
-		*JobItemId = params.JobItemId;
-}
-
-
-// Function EventTracker_Summer2021_UniqueGunDowns.EventTracker_Summer2021_UniqueGunDowns_C.Set Gun Slot if Empty
-// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// int                            ItemId                         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// int                            LootTableItemId                (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// bool                           Was_Set                        (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UEventTracker_Summer2021_UniqueGunDowns_C::Set_Gun_Slot_if_Empty(int ItemId, int LootTableItemId, bool* Was_Set)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Summer2021_UniqueGunDowns.EventTracker_Summer2021_UniqueGunDowns_C.Set Gun Slot if Empty");
-
-	struct
-	{
-		int                            ItemId;
-		int                            LootTableItemId;
-		bool                           Was_Set;
-	} params;
-
-	params.ItemId = ItemId;
-	params.LootTableItemId = LootTableItemId;
-
-	UObject::ProcessEvent(fn, &params);
-
-	if (Was_Set != nullptr)
-		*Was_Set = params.Was_Set;
 }
 
 

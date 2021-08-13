@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -339,7 +339,7 @@ void UWBP_SettingsMenu_C::Handle_Login_State(EPUMG_LoginState Login_State)
 
 
 // Function WBP_SettingsMenu.WBP_SettingsMenu_C.Tab Right
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UWBP_SettingsMenu_C::Tab_Right()
 {
@@ -355,7 +355,7 @@ void UWBP_SettingsMenu_C::Tab_Right()
 
 
 // Function WBP_SettingsMenu.WBP_SettingsMenu_C.Tab Left
-// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UWBP_SettingsMenu_C::Tab_Left()
 {
@@ -540,22 +540,6 @@ void UWBP_SettingsMenu_C::Scroll_To_End()
 void UWBP_SettingsMenu_C::GoBack()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.GoBack");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_SettingsMenu.WBP_SettingsMenu_C.Revert Settings
-// (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UWBP_SettingsMenu_C::Revert_Settings()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.Revert Settings");
 
 	struct
 	{
@@ -1064,6 +1048,22 @@ void UWBP_SettingsMenu_C::PreConstruct(bool IsDesignTime)
 	} params;
 
 	params.IsDesignTime = IsDesignTime;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_SettingsMenu.WBP_SettingsMenu_C.RevertSettings
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UWBP_SettingsMenu_C::RevertSettings()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_SettingsMenu.WBP_SettingsMenu_C.RevertSettings");
+
+	struct
+	{
+	} params;
+
 
 	UObject::ProcessEvent(fn, &params);
 }

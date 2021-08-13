@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass DefaultPVPBotCharacter.DefaultPVPBotCharacter_C
-// 0x0000 (0x53E0 - 0x53E0)
+// 0x0000 (0x53B0 - 0x53B0)
 class ADefaultPVPBotCharacter_C : public ADefaultBotCharacter_C
 {
 public:

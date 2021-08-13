@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -60,8 +60,6 @@ public:
 	void HandleKillCamEnabled(bool bEnabled);
 	void Unbind_OnGameTimerUpdate();
 	void HandleKillCamViewPawn(class APawn* ViewedPawn);
-	void BombTimerActive(bool bActive);
-	void BombTimerTick(float Seconds);
 	void HandleObjectiveTimerTick(float Seconds);
 	void ExecuteUbergraph_GameTimer(int EntryPoint);
 };

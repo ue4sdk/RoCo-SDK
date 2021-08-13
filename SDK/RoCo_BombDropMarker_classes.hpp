@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -55,9 +55,9 @@ public:
 	float                                              Time_Since_Last_Bomb_Second;                              // 0x0418(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	bool                                               bShouldUpdate;                                            // 0x041C(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 	bool                                               bUpdateAnimPlayed;                                        // 0x041D(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
-	EKSNeutralBombState                                Current_Bomb_State;                                       // 0x041E(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	unsigned char                                      Current_Bomb_State;                                       // 0x041E(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	unsigned char                                      UnknownData00[0x1];                                       // 0x041F(0x0001) MISSED OFFSET
-	TArray<EKSNeutralBombState>                        OffStates;                                                // 0x0420(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
+	TArray<unsigned char>                              OffStates;                                                // 0x0420(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnInstance, CPF_HasGetValueTypeHash)
 	float                                              BombSecondsMax;                                           // 0x0430(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	bool                                               bShowBombTimer;                                           // 0x0434(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 	unsigned char                                      UnknownData01[0x3];                                       // 0x0435(0x0003) MISSED OFFSET
@@ -72,17 +72,13 @@ public:
 
 
 	void HandleGameObjectiveChanged(const TScriptInterface<class UKSObjective>& GameObjective);
-	void IsStateEqualTo(EKSNeutralBombState BombState, EKSObjectiveState ObjectiveState, bool* Result);
+	void IsStateEqualTo(EKSObjectiveState ObjectiveState, bool* Result);
 	void IsCurrentObjectiveStateEqualTo(EKSObjectiveState CompareState, bool* Result);
-	void IsCurrentBombStateEqualTo(EKSNeutralBombState CompareState, bool* Result);
 	void GetObjectiveColor(struct FSlateColor* ObjectiveColor);
 	void SetShowBombTimer(bool bShowTimer);
 	void SetLocalPlayer();
 	void GetBombColor(struct FSlateColor* BombColor);
-	void UpdateProgressMeterFromBombState(EKSNeutralBombState BombState, int BombTeam);
 	void UpdateProgressMeterProgress();
-	void HandleBombStateChanged(const struct FKSNeutralBombState& BombState);
-	void GetArmedBombZone(class AKSNeutralBombZone** BombZone);
 	ESlateVisibility Update();
 	bool ShouldUpdate();
 	void Construct();

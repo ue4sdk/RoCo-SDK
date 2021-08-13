@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Grenade_Level_2.Grenade_Level_1_C
-// 0x0000 (0x0A60 - 0x0A60)
+// 0x0000 (0x0A70 - 0x0A70)
 class AGrenade_Level_1_C : public AGrenade_C
 {
 public:

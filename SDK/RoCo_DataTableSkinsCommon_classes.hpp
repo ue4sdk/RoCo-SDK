@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -179,21 +179,22 @@ public:
 
 
 // Class DataTableSkinsCommon.SkinnableMergedMeshComponent
-// 0x0040 (0x0D40 - 0x0D00)
+// 0x0050 (0x0D50 - 0x0D00)
 class USkinnableMergedMeshComponent : public USkinnableSkeletalMeshComponent
 {
 public:
 	unsigned char                                      UnknownData00[0x8];                                       // 0x0D00(0x0008) MISSED OFFSET
-	bool                                               bAlwaysUseTheFailsafeMeshWhileMerging;                    // 0x0D08(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x0D09(0x0003) MISSED OFFSET
-	struct FName                                       MeshNeedsCPUAccessKeyword;                                // 0x0D0C(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bDelayFullSkinUpdateUntilMeshMergingIsComplete;           // 0x0D14(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x0D15(0x0003) MISSED OFFSET
-	class USkeletalMesh*                               BestPlaceHolderMesh;                                      // 0x0D18(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	bool                                               bMergeMarkedComplete;                                     // 0x0D20(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData03[0x7];                                       // 0x0D21(0x0007) MISSED OFFSET
-	class USkeletalMesh*                               CachedMergeResult;                                        // 0x0D28(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData04[0x10];                                      // 0x0D30(0x0010) MISSED OFFSET
+	TArray<struct FName>                               CompositeSkeletalMeshKeywords;                            // 0x0D08(0x0010) (CPF_Edit, CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bAlwaysUseTheFailsafeMeshWhileMerging;                    // 0x0D18(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x3];                                       // 0x0D19(0x0003) MISSED OFFSET
+	struct FName                                       MeshNeedsCPUAccessKeyword;                                // 0x0D1C(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bDelayFullSkinUpdateUntilMeshMergingIsComplete;           // 0x0D24(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData02[0x3];                                       // 0x0D25(0x0003) MISSED OFFSET
+	class USkeletalMesh*                               BestPlaceHolderMesh;                                      // 0x0D28(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bMergeMarkedComplete;                                     // 0x0D30(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData03[0x7];                                       // 0x0D31(0x0007) MISSED OFFSET
+	class USkeletalMesh*                               CachedMergeResult;                                        // 0x0D38(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData04[0x10];                                      // 0x0D40(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -204,6 +205,7 @@ public:
 
 	void SetSkeletalMeshKeywords(TArray<struct FName> InKeywords, class USkeletalMesh* InFailSafeSkeletalMesh);
 	void RemoveSkeletalMeshKeyword(const struct FName& InKeyword);
+	void OnMeshMergeComplete__DelegateSignature();
 	void AddSkeletalMeshKeyword(const struct FName& InKeyword);
 };
 

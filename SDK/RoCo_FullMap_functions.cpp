@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -473,26 +473,6 @@ void UFullMap_C::Tick(const struct FGeometry& MyGeometry, float InDeltaTime)
 
 	params.MyGeometry = MyGeometry;
 	params.InDeltaTime = InDeltaTime;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function FullMap.FullMap_C.Handle Zone Wait
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// float                          TimeUntilShrink                (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UFullMap_C::Handle_Zone_Wait(float TimeUntilShrink)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function FullMap.FullMap_C.Handle Zone Wait");
-
-	struct
-	{
-		float                          TimeUntilShrink;
-	} params;
-
-	params.TimeUntilShrink = TimeUntilShrink;
 
 	UObject::ProcessEvent(fn, &params);
 }

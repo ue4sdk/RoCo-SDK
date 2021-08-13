@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Molotov_Level_2_Child.Molotov_Level_2_Child_C
-// 0x0000 (0x0DB8 - 0x0DB8)
+// 0x0000 (0x0DC9 - 0x0DC9)
 class AMolotov_Level_2_Child_C : public AMolotov_Level_1_Child_C
 {
 public:

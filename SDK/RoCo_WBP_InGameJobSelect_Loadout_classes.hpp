@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -59,6 +59,7 @@ public:
 	}
 
 
+	void PopulateJobLoadoutDirect(class UKSJobItem* Job);
 	void GetLoadoutPerkButtons(TArray<class UWBP_InGameJobSelect_Loadout_Perk_C*>* PerkButtons);
 	void GetLoadoutPerks(TArray<class UKSItem*>* Perks);
 	void GetCurrentJobLoadoutSlotItemInfo(EJobLoadoutSlot JobSlot, struct FString* DisplayName, bool* IsValid, class UKSItem** OutKSItem);

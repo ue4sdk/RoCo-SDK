@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -127,26 +127,6 @@ void UMinimap_C::OnScrambleStateChanged(bool bpp__Scrambled__pf)
 }
 
 
-// Function Minimap.Minimap_C.OnRoyaleRoundStart
-// (FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
-// Parameters:
-// struct FRoundInitState         bpp__RoundInitState__pf__const (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-
-void UMinimap_C::OnRoyaleRoundStart(const struct FRoundInitState& bpp__RoundInitState__pf__const)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.OnRoyaleRoundStart");
-
-	struct
-	{
-		struct FRoundInitState         bpp__RoundInitState__pf__const;
-	} params;
-
-	params.bpp__RoundInitState__pf__const = bpp__RoundInitState__pf__const;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function Minimap.Minimap_C.OnLoaded_DB612B4F430AF7AB8BD23B968AE6C16E
 // (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
@@ -178,26 +158,6 @@ void UMinimap_C::OnInitialized()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function Minimap.Minimap_C.Handle Royale Zone Wait
-// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// float                          bpp__TimeUntilShrink__pf       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UMinimap_C::Handle_Royale_Zone_Wait(float bpp__TimeUntilShrink__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function Minimap.Minimap_C.Handle Royale Zone Wait");
-
-	struct
-	{
-		float                          bpp__TimeUntilShrink__pf;
-	} params;
-
-	params.bpp__TimeUntilShrink__pf = bpp__TimeUntilShrink__pf;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -417,46 +377,6 @@ void UMinimap_C::CanShowMinimap(bool* bpp__CanShow__pf)
 
 	if (bpp__CanShow__pf != nullptr)
 		*bpp__CanShow__pf = params.bpp__CanShow__pf;
-}
-
-
-// DelegateFunction Minimap.Minimap_C.OnRoyaleZoneWait__DelegateSignature
-// (FUNC_Public, FUNC_Delegate)
-// Parameters:
-// float                          bpp__TimeUntilShrink__pf       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UMinimap_C::OnRoyaleZoneWait__DelegateSignature(float bpp__TimeUntilShrink__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction Minimap.Minimap_C.OnRoyaleZoneWait__DelegateSignature");
-
-	struct
-	{
-		float                          bpp__TimeUntilShrink__pf;
-	} params;
-
-	params.bpp__TimeUntilShrink__pf = bpp__TimeUntilShrink__pf;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// DelegateFunction Minimap.Minimap_C.OnRoundStart__DelegateSignature
-// (FUNC_Public, FUNC_Delegate, FUNC_HasOutParms)
-// Parameters:
-// struct FRoundInitState         bpp__RoundInitState__pf        (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-
-void UMinimap_C::OnRoundStart__DelegateSignature(const struct FRoundInitState& bpp__RoundInitState__pf)
-{
-	static auto fn = UObject::FindObject<UFunction>("DelegateFunction Minimap.Minimap_C.OnRoundStart__DelegateSignature");
-
-	struct
-	{
-		struct FRoundInitState         bpp__RoundInitState__pf;
-	} params;
-
-	params.bpp__RoundInitState__pf = bpp__RoundInitState__pf;
-
-	UObject::ProcessEvent(fn, &params);
 }
 
 

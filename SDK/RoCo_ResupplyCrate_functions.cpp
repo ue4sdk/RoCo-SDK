@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,28 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function ResupplyCrate.ResupplyCrate_C.Get Collider Extent
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FVector                 Extent                         (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void AResupplyCrate_C::Get_Collider_Extent(struct FVector* Extent)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function ResupplyCrate.ResupplyCrate_C.Get Collider Extent");
+
+	struct
+	{
+		struct FVector                 Extent;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (Extent != nullptr)
+		*Extent = params.Extent;
+}
+
 
 // Function ResupplyCrate.ResupplyCrate_C.CheckNetRelevance
 // (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_Const)

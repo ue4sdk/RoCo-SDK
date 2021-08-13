@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -10,12 +10,12 @@
 #include "RoCo_UMG_enums.hpp"
 #include "RoCo_Engine_classes.hpp"
 #include "RoCo_CoreUObject_classes.hpp"
-#include "RoCo_MovieSceneTracks_classes.hpp"
-#include "RoCo_Slate_classes.hpp"
+#include "RoCo_MovieScene_classes.hpp"
 #include "RoCo_SlateCore_classes.hpp"
+#include "RoCo_Slate_classes.hpp"
 #include "RoCo_PropertyPath_classes.hpp"
 #include "RoCo_InputCore_classes.hpp"
-#include "RoCo_MovieScene_classes.hpp"
+#include "RoCo_MovieSceneTracks_classes.hpp"
 
 namespace SDK
 {

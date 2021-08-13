@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -379,6 +379,268 @@ enum class EDetailMode : uint8_t
 };
 
 
+// Enum Engine.ERadialImpulseFalloff
+enum class ERadialImpulseFalloff : uint8_t
+{
+	RIF_Constant                   = 0,
+	RIF_Linear                     = 1,
+	RIF_MAX                        = 2
+};
+
+
+// Enum Engine.ECollisionEnabled
+enum class ECollisionEnabled : uint8_t
+{
+	ECollisionEnabled__NoCollision = 0,
+	ECollisionEnabled__QueryOnly   = 1,
+	ECollisionEnabled__PhysicsOnly = 2,
+	ECollisionEnabled__QueryAndPhysics = 3,
+	ECollisionEnabled__ECollisionEnabled_MAX = 4
+};
+
+
+// Enum Engine.ECollisionChannel
+enum class ECollisionChannel : uint8_t
+{
+	ECC_WorldStatic                = 0,
+	ECC_WorldDynamic               = 1,
+	ECC_Pawn                       = 2,
+	ECC_Visibility                 = 3,
+	ECC_Camera                     = 4,
+	ECC_PhysicsBody                = 5,
+	ECC_Vehicle                    = 6,
+	ECC_Destructible               = 7,
+	ECC_EngineTraceChannel1        = 8,
+	ECC_EngineTraceChannel2        = 9,
+	ECC_EngineTraceChannel3        = 10,
+	ECC_EngineTraceChannel4        = 11,
+	ECC_EngineTraceChannel5        = 12,
+	ECC_EngineTraceChannel6        = 13,
+	ECC_GameTraceChannel1          = 14,
+	ECC_GameTraceChannel2          = 15,
+	ECC_GameTraceChannel3          = 16,
+	ECC_GameTraceChannel4          = 17,
+	ECC_GameTraceChannel5          = 18,
+	ECC_GameTraceChannel6          = 19,
+	ECC_GameTraceChannel7          = 20,
+	ECC_GameTraceChannel8          = 21,
+	ECC_GameTraceChannel9          = 22,
+	ECC_GameTraceChannel10         = 23,
+	ECC_GameTraceChannel11         = 24,
+	ECC_GameTraceChannel12         = 25,
+	ECC_GameTraceChannel13         = 26,
+	ECC_GameTraceChannel14         = 27,
+	ECC_GameTraceChannel15         = 28,
+	ECC_GameTraceChannel16         = 29,
+	ECC_GameTraceChannel17         = 30,
+	ECC_GameTraceChannel18         = 31,
+	ECC_OverlapAll_Deprecated      = 32,
+	ECC_MAX                        = 33
+};
+
+
+// Enum Engine.ECollisionResponse
+enum class ECollisionResponse : uint8_t
+{
+	ECR_Ignore                     = 0,
+	ECR_Overlap                    = 1,
+	ECR_Block                      = 2,
+	ECR_MAX                        = 3
+};
+
+
+// Enum Engine.EWalkableSlopeBehavior
+enum class EWalkableSlopeBehavior : uint8_t
+{
+	WalkableSlope_Default          = 0,
+	WalkableSlope_Increase         = 1,
+	WalkableSlope_Decrease         = 2,
+	WalkableSlope_Unwalkable       = 3,
+	WalkableSlope_Max              = 4
+};
+
+
+// Enum Engine.EDOFMode
+enum class EDOFMode : uint8_t
+{
+	EDOFMode__Default              = 0,
+	EDOFMode__SixDOF               = 1,
+	EDOFMode__YZPlane              = 2,
+	EDOFMode__XZPlane              = 3,
+	EDOFMode__XYPlane              = 4,
+	EDOFMode__CustomPlane          = 5,
+	EDOFMode__None                 = 6,
+	EDOFMode__EDOFMode_MAX         = 7
+};
+
+
+// Enum Engine.ERendererStencilMask
+enum class ERendererStencilMask : uint8_t
+{
+	ERendererStencilMask__ERSM_Default = 0,
+	ERendererStencilMask__ERSM     = 1,
+	ERendererStencilMask__ERSM01   = 2,
+	ERendererStencilMask__ERSM02   = 3,
+	ERendererStencilMask__ERSM03   = 4,
+	ERendererStencilMask__ERSM04   = 5,
+	ERendererStencilMask__ERSM05   = 6,
+	ERendererStencilMask__ERSM06   = 7,
+	ERendererStencilMask__ERSM07   = 8,
+	ERendererStencilMask__ERSM08   = 9,
+	ERendererStencilMask__ERSM_MAX = 10
+};
+
+
+// Enum Engine.EOutlineDepthMode
+enum class EOutlineDepthMode : uint8_t
+{
+	ODM_DepthNearOrEqual           = 0,
+	ODM_DepthFartherOrEqual        = 1,
+	ODM_SkipDepthTest              = 2,
+	ODM_CutoutOutlinesOnly         = 3,
+	ODM_MAX                        = 4
+};
+
+
+// Enum Engine.ESleepFamily
+enum class ESleepFamily : uint8_t
+{
+	ESleepFamily__Normal           = 0,
+	ESleepFamily__Sensitive        = 1,
+	ESleepFamily__Custom           = 2,
+	ESleepFamily__ESleepFamily_MAX = 3
+};
+
+
+// Enum Engine.ERuntimeVirtualTextureMainPassType
+enum class ERuntimeVirtualTextureMainPassType : uint8_t
+{
+	ERuntimeVirtualTextureMainPassType__Never = 0,
+	ERuntimeVirtualTextureMainPassType__Exclusive = 1,
+	ERuntimeVirtualTextureMainPassType__Always = 2,
+	ERuntimeVirtualTextureMainPassType__ERuntimeVirtualTextureMainPassType_MAX = 3
+};
+
+
+// Enum Engine.ECanBeCharacterBase
+enum class ECanBeCharacterBase : uint8_t
+{
+	ECB_No                         = 0,
+	ECB_Yes                        = 1,
+	ECB_Owner                      = 2,
+	ECB_MAX                        = 3
+};
+
+
+// Enum Engine.EHasCustomNavigableGeometry
+enum class EHasCustomNavigableGeometry : uint8_t
+{
+	EHasCustomNavigableGeometry__No = 0,
+	EHasCustomNavigableGeometry__Yes = 1,
+	EHasCustomNavigableGeometry__EvenIfNotCollidable = 2,
+	EHasCustomNavigableGeometry__DontExport = 3,
+	EHasCustomNavigableGeometry__EHasCustomNavigableGeometry_MAX = 4
+};
+
+
+// Enum Engine.ELightmapType
+enum class ELightmapType : uint8_t
+{
+	ELightmapType__Default         = 0,
+	ELightmapType__ForceSurface    = 1,
+	ELightmapType__ForceVolumetric = 2,
+	ELightmapType__ELightmapType_MAX = 3
+};
+
+
+// Enum Engine.EIndirectLightingCacheQuality
+enum class EIndirectLightingCacheQuality : uint8_t
+{
+	ILCQ_Off                       = 0,
+	ILCQ_Point                     = 1,
+	ILCQ_Volume                    = 2,
+	ILCQ_MAX                       = 3
+};
+
+
+// Enum Engine.ESceneDepthPriorityGroup
+enum class ESceneDepthPriorityGroup : uint8_t
+{
+	SDPG_World                     = 0,
+	SDPG_Foreground                = 1,
+	SDPG_MAX                       = 2
+};
+
+
+// Enum Engine.EPhysBodyOp
+enum class EPhysBodyOp : uint8_t
+{
+	PBO_None                       = 0,
+	PBO_Term                       = 1,
+	PBO_MAX                        = 2
+};
+
+
+// Enum Engine.EVisibilityBasedAnimTickOption
+enum class EVisibilityBasedAnimTickOption : uint8_t
+{
+	EVisibilityBasedAnimTickOption__AlwaysTickPoseAndRefreshBones = 0,
+	EVisibilityBasedAnimTickOption__AlwaysTickPose = 1,
+	EVisibilityBasedAnimTickOption__OnlyTickMontagesWhenNotRendered = 2,
+	EVisibilityBasedAnimTickOption__OnlyTickPoseWhenRendered = 3,
+	EVisibilityBasedAnimTickOption__EVisibilityBasedAnimTickOption_MAX = 4
+};
+
+
+// Enum Engine.ESkinCacheUsage
+enum class ESkinCacheUsage : uint8_t
+{
+	ESkinCacheUsage__Auto          = 0,
+	ESkinCacheUsage__Disabled      = 1,
+	ESkinCacheUsage__Enabled       = 2,
+	ESkinCacheUsage__ESkinCacheUsage_MAX = 3
+};
+
+
+// Enum Engine.EAnimationMode
+enum class EAnimationMode : uint8_t
+{
+	EAnimationMode__AnimationBlueprint = 0,
+	EAnimationMode__AnimationSingleNode = 1,
+	EAnimationMode__AnimationCustomMode = 2,
+	EAnimationMode__EAnimationMode_MAX = 3
+};
+
+
+// Enum Engine.EClothMassMode
+enum class EClothMassMode : uint8_t
+{
+	EClothMassMode__UniformMass    = 0,
+	EClothMassMode__TotalMass      = 1,
+	EClothMassMode__Density        = 2,
+	EClothMassMode__MaxClothMassMode = 3,
+	EClothMassMode__EClothMassMode_MAX = 4
+};
+
+
+// Enum Engine.EPhysicsTransformUpdateMode
+enum class EPhysicsTransformUpdateMode : uint8_t
+{
+	EPhysicsTransformUpdateMode__SimulationUpatesComponentTransform = 0,
+	EPhysicsTransformUpdateMode__ComponentTransformIsKinematic = 1,
+	EPhysicsTransformUpdateMode__EPhysicsTransformUpdateMode_MAX = 2
+};
+
+
+// Enum Engine.EKinematicBonesUpdateToPhysics
+enum class EKinematicBonesUpdateToPhysics : uint8_t
+{
+	EKinematicBonesUpdateToPhysics__SkipSimulatingBones = 0,
+	EKinematicBonesUpdateToPhysics__SkipAllBones = 1,
+	EKinematicBonesUpdateToPhysics__EKinematicBonesUpdateToPhysics_MAX = 2
+};
+
+
 // Enum Engine.EPhysicalSurface
 enum class EPhysicalSurface : uint8_t
 {
@@ -458,46 +720,6 @@ enum class ENetworkSmoothingMode : uint8_t
 	ENetworkSmoothingMode__Exponential = 2,
 	ENetworkSmoothingMode__Replay  = 3,
 	ENetworkSmoothingMode__ENetworkSmoothingMode_MAX = 4
-};
-
-
-// Enum Engine.ECollisionChannel
-enum class ECollisionChannel : uint8_t
-{
-	ECC_WorldStatic                = 0,
-	ECC_WorldDynamic               = 1,
-	ECC_Pawn                       = 2,
-	ECC_Visibility                 = 3,
-	ECC_Camera                     = 4,
-	ECC_PhysicsBody                = 5,
-	ECC_Vehicle                    = 6,
-	ECC_Destructible               = 7,
-	ECC_EngineTraceChannel1        = 8,
-	ECC_EngineTraceChannel2        = 9,
-	ECC_EngineTraceChannel3        = 10,
-	ECC_EngineTraceChannel4        = 11,
-	ECC_EngineTraceChannel5        = 12,
-	ECC_EngineTraceChannel6        = 13,
-	ECC_GameTraceChannel1          = 14,
-	ECC_GameTraceChannel2          = 15,
-	ECC_GameTraceChannel3          = 16,
-	ECC_GameTraceChannel4          = 17,
-	ECC_GameTraceChannel5          = 18,
-	ECC_GameTraceChannel6          = 19,
-	ECC_GameTraceChannel7          = 20,
-	ECC_GameTraceChannel8          = 21,
-	ECC_GameTraceChannel9          = 22,
-	ECC_GameTraceChannel10         = 23,
-	ECC_GameTraceChannel11         = 24,
-	ECC_GameTraceChannel12         = 25,
-	ECC_GameTraceChannel13         = 26,
-	ECC_GameTraceChannel14         = 27,
-	ECC_GameTraceChannel15         = 28,
-	ECC_GameTraceChannel16         = 29,
-	ECC_GameTraceChannel17         = 30,
-	ECC_GameTraceChannel18         = 31,
-	ECC_OverlapAll_Deprecated      = 32,
-	ECC_MAX                        = 33
 };
 
 
@@ -1151,20 +1373,6 @@ enum class EBlueprintStatus : uint8_t
 };
 
 
-// Enum Engine.EDOFMode
-enum class EDOFMode : uint8_t
-{
-	EDOFMode__Default              = 0,
-	EDOFMode__SixDOF               = 1,
-	EDOFMode__YZPlane              = 2,
-	EDOFMode__XZPlane              = 3,
-	EDOFMode__XYPlane              = 4,
-	EDOFMode__CustomPlane          = 5,
-	EDOFMode__None                 = 6,
-	EDOFMode__EDOFMode_MAX         = 7
-};
-
-
 // Enum Engine.EBodyCollisionResponse
 enum class EBodyCollisionResponse : uint8_t
 {
@@ -1649,17 +1857,6 @@ enum class EPhysicalMaterialMaskColor : uint8_t
 };
 
 
-// Enum Engine.EWalkableSlopeBehavior
-enum class EWalkableSlopeBehavior : uint8_t
-{
-	WalkableSlope_Default          = 0,
-	WalkableSlope_Increase         = 1,
-	WalkableSlope_Decrease         = 2,
-	WalkableSlope_Unwalkable       = 3,
-	WalkableSlope_Max              = 4
-};
-
-
 // Enum Engine.ERotatorQuantization
 enum class ERotatorQuantization : uint8_t
 {
@@ -1762,17 +1959,6 @@ enum class ELightMapPaddingType : uint8_t
 };
 
 
-// Enum Engine.ECollisionEnabled
-enum class ECollisionEnabled : uint8_t
-{
-	ECollisionEnabled__NoCollision = 0,
-	ECollisionEnabled__QueryOnly   = 1,
-	ECollisionEnabled__PhysicsOnly = 2,
-	ECollisionEnabled__QueryAndPhysics = 3,
-	ECollisionEnabled__ECollisionEnabled_MAX = 4
-};
-
-
 // Enum Engine.ETimelineSigType
 enum class ETimelineSigType : uint8_t
 {
@@ -1785,25 +1971,6 @@ enum class ETimelineSigType : uint8_t
 };
 
 
-// Enum Engine.ESleepFamily
-enum class ESleepFamily : uint8_t
-{
-	ESleepFamily__Normal           = 0,
-	ESleepFamily__Sensitive        = 1,
-	ESleepFamily__Custom           = 2,
-	ESleepFamily__ESleepFamily_MAX = 3
-};
-
-
-// Enum Engine.ERadialImpulseFalloff
-enum class ERadialImpulseFalloff : uint8_t
-{
-	RIF_Constant                   = 0,
-	RIF_Linear                     = 1,
-	RIF_MAX                        = 2
-};
-
-
 // Enum Engine.EFilterInterpolationType
 enum class EFilterInterpolationType : uint8_t
 {
@@ -1811,16 +1978,6 @@ enum class EFilterInterpolationType : uint8_t
 	BSIT_Linear                    = 1,
 	BSIT_Cubic                     = 2,
 	BSIT_MAX                       = 3
-};
-
-
-// Enum Engine.ECollisionResponse
-enum class ECollisionResponse : uint8_t
-{
-	ECR_Ignore                     = 0,
-	ECR_Overlap                    = 1,
-	ECR_Block                      = 2,
-	ECR_MAX                        = 3
 };
 
 
@@ -2060,35 +2217,6 @@ enum class EOcclusionCombineMode : uint8_t
 	OCM_Minimum                    = 0,
 	OCM_Multiply                   = 1,
 	OCM_MAX                        = 2
-};
-
-
-// Enum Engine.ELightmapType
-enum class ELightmapType : uint8_t
-{
-	ELightmapType__Default         = 0,
-	ELightmapType__ForceSurface    = 1,
-	ELightmapType__ForceVolumetric = 2,
-	ELightmapType__ELightmapType_MAX = 3
-};
-
-
-// Enum Engine.EIndirectLightingCacheQuality
-enum class EIndirectLightingCacheQuality : uint8_t
-{
-	ILCQ_Off                       = 0,
-	ILCQ_Point                     = 1,
-	ILCQ_Volume                    = 2,
-	ILCQ_MAX                       = 3
-};
-
-
-// Enum Engine.ESceneDepthPriorityGroup
-enum class ESceneDepthPriorityGroup : uint8_t
-{
-	SDPG_World                     = 0,
-	SDPG_Foreground                = 1,
-	SDPG_MAX                       = 2
 };
 
 
@@ -3462,44 +3590,6 @@ enum class EDynamicForceFeedbackAction : uint8_t
 };
 
 
-// Enum Engine.ERendererStencilMask
-enum class ERendererStencilMask : uint8_t
-{
-	ERendererStencilMask__ERSM_Default = 0,
-	ERendererStencilMask__ERSM     = 1,
-	ERendererStencilMask__ERSM01   = 2,
-	ERendererStencilMask__ERSM02   = 3,
-	ERendererStencilMask__ERSM03   = 4,
-	ERendererStencilMask__ERSM04   = 5,
-	ERendererStencilMask__ERSM05   = 6,
-	ERendererStencilMask__ERSM06   = 7,
-	ERendererStencilMask__ERSM07   = 8,
-	ERendererStencilMask__ERSM08   = 9,
-	ERendererStencilMask__ERSM_MAX = 10
-};
-
-
-// Enum Engine.EHasCustomNavigableGeometry
-enum class EHasCustomNavigableGeometry : uint8_t
-{
-	EHasCustomNavigableGeometry__No = 0,
-	EHasCustomNavigableGeometry__Yes = 1,
-	EHasCustomNavigableGeometry__EvenIfNotCollidable = 2,
-	EHasCustomNavigableGeometry__DontExport = 3,
-	EHasCustomNavigableGeometry__EHasCustomNavigableGeometry_MAX = 4
-};
-
-
-// Enum Engine.ECanBeCharacterBase
-enum class ECanBeCharacterBase : uint8_t
-{
-	ECB_No                         = 0,
-	ECB_Yes                        = 1,
-	ECB_Owner                      = 2,
-	ECB_MAX                        = 3
-};
-
-
 // Enum Engine.ERichCurveExtrapolation
 enum class ERichCurveExtrapolation : uint8_t
 {
@@ -3788,16 +3878,6 @@ enum class ERootMotionAccumulateMode : uint8_t
 };
 
 
-// Enum Engine.ERuntimeVirtualTextureMainPassType
-enum class ERuntimeVirtualTextureMainPassType : uint8_t
-{
-	ERuntimeVirtualTextureMainPassType__Never = 0,
-	ERuntimeVirtualTextureMainPassType__Exclusive = 1,
-	ERuntimeVirtualTextureMainPassType__Always = 2,
-	ERuntimeVirtualTextureMainPassType__ERuntimeVirtualTextureMainPassType_MAX = 3
-};
-
-
 // Enum Engine.ERuntimeVirtualTextureMaterialType
 enum class ERuntimeVirtualTextureMaterialType : uint8_t
 {
@@ -3950,72 +4030,12 @@ enum class EMaterialProperty : uint8_t
 };
 
 
-// Enum Engine.EOutlineDepthMode
-enum class EOutlineDepthMode : uint8_t
-{
-	ODM_DepthNearOrEqual           = 0,
-	ODM_DepthFartherOrEqual        = 1,
-	ODM_SkipDepthTest              = 2,
-	ODM_CutoutOutlinesOnly         = 3,
-	ODM_MAX                        = 4
-};
-
-
 // Enum Engine.ESkinCacheDefaultBehavior
 enum class ESkinCacheDefaultBehavior : uint8_t
 {
 	ESkinCacheDefaultBehavior__Exclusive = 0,
 	ESkinCacheDefaultBehavior__Inclusive = 1,
 	ESkinCacheDefaultBehavior__ESkinCacheDefaultBehavior_MAX = 2
-};
-
-
-// Enum Engine.ESkinCacheUsage
-enum class ESkinCacheUsage : uint8_t
-{
-	ESkinCacheUsage__Auto          = 0,
-	ESkinCacheUsage__Disabled      = 1,
-	ESkinCacheUsage__Enabled       = 2,
-	ESkinCacheUsage__ESkinCacheUsage_MAX = 3
-};
-
-
-// Enum Engine.EPhysicsTransformUpdateMode
-enum class EPhysicsTransformUpdateMode : uint8_t
-{
-	EPhysicsTransformUpdateMode__SimulationUpatesComponentTransform = 0,
-	EPhysicsTransformUpdateMode__ComponentTransformIsKinematic = 1,
-	EPhysicsTransformUpdateMode__EPhysicsTransformUpdateMode_MAX = 2
-};
-
-
-// Enum Engine.EAnimationMode
-enum class EAnimationMode : uint8_t
-{
-	EAnimationMode__AnimationBlueprint = 0,
-	EAnimationMode__AnimationSingleNode = 1,
-	EAnimationMode__AnimationCustomMode = 2,
-	EAnimationMode__EAnimationMode_MAX = 3
-};
-
-
-// Enum Engine.EKinematicBonesUpdateToPhysics
-enum class EKinematicBonesUpdateToPhysics : uint8_t
-{
-	EKinematicBonesUpdateToPhysics__SkipSimulatingBones = 0,
-	EKinematicBonesUpdateToPhysics__SkipAllBones = 1,
-	EKinematicBonesUpdateToPhysics__EKinematicBonesUpdateToPhysics_MAX = 2
-};
-
-
-// Enum Engine.EClothMassMode
-enum class EClothMassMode : uint8_t
-{
-	EClothMassMode__UniformMass    = 0,
-	EClothMassMode__TotalMass      = 1,
-	EClothMassMode__Density        = 2,
-	EClothMassMode__MaxClothMassMode = 3,
-	EClothMassMode__EClothMassMode_MAX = 4
 };
 
 
@@ -4116,26 +4136,6 @@ enum class EBoneSpaces : uint8_t
 	EBoneSpaces__WorldSpace        = 0,
 	EBoneSpaces__ComponentSpace    = 1,
 	EBoneSpaces__EBoneSpaces_MAX   = 2
-};
-
-
-// Enum Engine.EVisibilityBasedAnimTickOption
-enum class EVisibilityBasedAnimTickOption : uint8_t
-{
-	EVisibilityBasedAnimTickOption__AlwaysTickPoseAndRefreshBones = 0,
-	EVisibilityBasedAnimTickOption__AlwaysTickPose = 1,
-	EVisibilityBasedAnimTickOption__OnlyTickMontagesWhenNotRendered = 2,
-	EVisibilityBasedAnimTickOption__OnlyTickPoseWhenRendered = 3,
-	EVisibilityBasedAnimTickOption__EVisibilityBasedAnimTickOption_MAX = 4
-};
-
-
-// Enum Engine.EPhysBodyOp
-enum class EPhysBodyOp : uint8_t
-{
-	PBO_None                       = 0,
-	PBO_Term                       = 1,
-	PBO_MAX                        = 2
 };
 
 

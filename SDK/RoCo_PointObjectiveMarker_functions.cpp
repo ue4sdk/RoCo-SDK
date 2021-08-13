@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -99,15 +99,15 @@ void UPointObjectiveMarker_C::UpdateControlPointCaptureProgress(class AKSControl
 // Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateControlPointState
 // (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
-// class AKSObjectiveBase*        Objective                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class AKSControlPoint*         Objective                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UPointObjectiveMarker_C::UpdateControlPointState(class AKSObjectiveBase* Objective)
+void UPointObjectiveMarker_C::UpdateControlPointState(class AKSControlPoint* Objective)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateControlPointState");
 
 	struct
 	{
-		class AKSObjectiveBase*        Objective;
+		class AKSControlPoint*         Objective;
 	} params;
 
 	params.Objective = Objective;
@@ -236,6 +236,26 @@ void UPointObjectiveMarker_C::ViewSetCaptureProgress(float ProgressPercent)
 }
 
 
+// Function PointObjectiveMarker.PointObjectiveMarker_C.SetView
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// struct FKSPointObjectiveMarkerViewState ViewState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UPointObjectiveMarker_C::SetView(const struct FKSPointObjectiveMarkerViewState& ViewState)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.SetView");
+
+	struct
+	{
+		struct FKSPointObjectiveMarkerViewState ViewState;
+	} params;
+
+	params.ViewState = ViewState;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function PointObjectiveMarker.PointObjectiveMarker_C.SetScreenRegion
 // (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
 // Parameters:
@@ -271,26 +291,6 @@ void UPointObjectiveMarker_C::SetArrowAngle(float Angle)
 	} params;
 
 	params.Angle = Angle;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyTimerValue
-// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
-// Parameters:
-// float                          TimerSeconds                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UPointObjectiveMarker_C::ViewApplyTimerValue(float TimerSeconds)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyTimerValue");
-
-	struct
-	{
-		float                          TimerSeconds;
-	} params;
-
-	params.TimerSeconds = TimerSeconds;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -348,22 +348,6 @@ void UPointObjectiveMarker_C::UpdateOpacityWhenAiming()
 }
 
 
-// Function PointObjectiveMarker.PointObjectiveMarker_C.OnControlTeamScoreUpdated_2
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UPointObjectiveMarker_C::OnControlTeamScoreUpdated_2()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.OnControlTeamScoreUpdated_2");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function PointObjectiveMarker.PointObjectiveMarker_C.UpdateTimerView
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
@@ -380,6 +364,65 @@ void UPointObjectiveMarker_C::UpdateTimerView()
 }
 
 
+// Function PointObjectiveMarker.PointObjectiveMarker_C.OnControlTeamScoreUpdated_2
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UPointObjectiveMarker_C::OnControlTeamScoreUpdated_2()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.OnControlTeamScoreUpdated_2");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyTimerValue
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// float                          TimerSeconds                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UPointObjectiveMarker_C::ViewApplyTimerValue(float TimerSeconds)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyTimerValue");
+
+	struct
+	{
+		float                          TimerSeconds;
+	} params;
+
+	params.TimerSeconds = TimerSeconds;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyObjectiveProgress
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// float                          TimerSeconds                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// float                          TotalTimerSeconds              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UPointObjectiveMarker_C::ViewApplyObjectiveProgress(float TimerSeconds, float TotalTimerSeconds)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyObjectiveProgress");
+
+	struct
+	{
+		float                          TimerSeconds;
+		float                          TotalTimerSeconds;
+	} params;
+
+	params.TimerSeconds = TimerSeconds;
+	params.TotalTimerSeconds = TotalTimerSeconds;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
 // Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyTimerPrioritiesChanged
 // (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 
@@ -391,26 +434,6 @@ void UPointObjectiveMarker_C::ViewApplyTimerPrioritiesChanged()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function PointObjectiveMarker.PointObjectiveMarker_C.SetView
-// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
-// Parameters:
-// struct FKSPointObjectiveMarkerViewState ViewState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
-
-void UPointObjectiveMarker_C::SetView(const struct FKSPointObjectiveMarkerViewState& ViewState)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.SetView");
-
-	struct
-	{
-		struct FKSPointObjectiveMarkerViewState ViewState;
-	} params;
-
-	params.ViewState = ViewState;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -451,29 +474,6 @@ void UPointObjectiveMarker_C::OnOwningTeamChanged(class AKSControlPoint* Control
 	} params;
 
 	params.ControlPoint = ControlPoint;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyObjectiveProgress
-// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
-// Parameters:
-// float                          TimerSeconds                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-// float                          TotalTimerSeconds              (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UPointObjectiveMarker_C::ViewApplyObjectiveProgress(float TimerSeconds, float TotalTimerSeconds)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function PointObjectiveMarker.PointObjectiveMarker_C.ViewApplyObjectiveProgress");
-
-	struct
-	{
-		float                          TimerSeconds;
-		float                          TotalTimerSeconds;
-	} params;
-
-	params.TimerSeconds = TimerSeconds;
-	params.TotalTimerSeconds = TotalTimerSeconds;
 
 	UObject::ProcessEvent(fn, &params);
 }

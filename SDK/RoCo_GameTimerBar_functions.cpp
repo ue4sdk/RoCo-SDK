@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -70,6 +70,26 @@ void UGameTimerBar_C::Lerp_Team_Progress(float DeltaTime)
 	} params;
 
 	params.DeltaTime = DeltaTime;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameTimerBar.GameTimerBar_C.OnHeaderChanged
+// (FUNC_Event, FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// struct FText                   Header                         (CPF_ConstParm, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_OutParm, CPF_ReferenceParm)
+
+void UGameTimerBar_C::OnHeaderChanged(const struct FText& Header)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.OnHeaderChanged");
+
+	struct
+	{
+		struct FText                   Header;
+	} params;
+
+	params.Header = Header;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -637,7 +657,7 @@ void UGameTimerBar_C::Bind_Team_Events()
 
 
 // Function GameTimerBar.GameTimerBar_C.GetRoundInProgressText
-// (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
 // Parameters:
 // struct FText                   ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ReturnParm)
 
@@ -717,7 +737,7 @@ void UGameTimerBar_C::PlayBombCountdownSFX(float Seconds)
 
 
 // Function GameTimerBar.GameTimerBar_C.ShouldPlayCountdownSFX
-// (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
 // Parameters:
 // bool                           ShouldPlay                     (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
@@ -773,26 +793,6 @@ void UGameTimerBar_C::Set_Timer_Text(float Seconds)
 	} params;
 
 	params.Seconds = Seconds;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function GameTimerBar.GameTimerBar_C.Handle Neutral Bomb State Changed
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FKSNeutralBombState     BombState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
-
-void UGameTimerBar_C::Handle_Neutral_Bomb_State_Changed(const struct FKSNeutralBombState& BombState)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Neutral Bomb State Changed");
-
-	struct
-	{
-		struct FKSNeutralBombState     BombState;
-	} params;
-
-	params.BombState = BombState;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -1087,26 +1087,6 @@ void UGameTimerBar_C::OnInitialized()
 }
 
 
-// Function GameTimerBar.GameTimerBar_C.Handle Attacking Team Updated
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// class AKSTeamState*            NewTeam                        (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UGameTimerBar_C::Handle_Attacking_Team_Updated(class AKSTeamState* NewTeam)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Handle Attacking Team Updated");
-
-	struct
-	{
-		class AKSTeamState*            NewTeam;
-	} params;
-
-	params.NewTeam = NewTeam;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function GameTimerBar.GameTimerBar_C.Deferred Game State Open
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
@@ -1123,112 +1103,12 @@ void UGameTimerBar_C::Deferred_Game_State_Open()
 }
 
 
-// Function GameTimerBar.GameTimerBar_C.Deferred Bind Computer Open
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UGameTimerBar_C::Deferred_Bind_Computer_Open()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.Deferred Bind Computer Open");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function GameTimerBar.GameTimerBar_C.DeferredPlayerStateOpen
 // (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 
 void UGameTimerBar_C::DeferredPlayerStateOpen()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.DeferredPlayerStateOpen");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function GameTimerBar.GameTimerBar_C.UnbindControlPointDelegates
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UGameTimerBar_C::UnbindControlPointDelegates()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.UnbindControlPointDelegates");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function GameTimerBar.GameTimerBar_C.ScorePeriodElapsed
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// class AKSControlPoint*         ControlPoint                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void UGameTimerBar_C::ScorePeriodElapsed(class AKSControlPoint* ControlPoint)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.ScorePeriodElapsed");
-
-	struct
-	{
-		class AKSControlPoint*         ControlPoint;
-	} params;
-
-	params.ControlPoint = ControlPoint;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function GameTimerBar.GameTimerBar_C.StopTickCaptureProgress
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UGameTimerBar_C::StopTickCaptureProgress()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.StopTickCaptureProgress");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function GameTimerBar.GameTimerBar_C.TickCaptureProgress
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UGameTimerBar_C::TickCaptureProgress()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.TickCaptureProgress");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function GameTimerBar.GameTimerBar_C.DeferredBindControlPointOpen
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UGameTimerBar_C::DeferredBindControlPointOpen()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBar.GameTimerBar_C.DeferredBindControlPointOpen");
 
 	struct
 	{

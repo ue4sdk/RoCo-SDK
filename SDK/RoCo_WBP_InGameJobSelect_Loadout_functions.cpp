@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,26 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PopulateJobLoadoutDirect
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class UKSJobItem*              Job                            (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_InGameJobSelect_Loadout_C::PopulateJobLoadoutDirect(class UKSJobItem* Job)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.PopulateJobLoadoutDirect");
+
+	struct
+	{
+		class UKSJobItem*              Job;
+	} params;
+
+	params.Job = Job;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function WBP_InGameJobSelect_Loadout.WBP_InGameJobSelect_Loadout_C.GetLoadoutPerkButtons
 // (FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)

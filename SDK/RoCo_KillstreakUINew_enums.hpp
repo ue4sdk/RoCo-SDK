@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -498,6 +498,18 @@ enum class EAmmoState : uint8_t
 };
 
 
+// Enum KillstreakUINew.ERogueDetailsWidgetFocusGroups
+enum class ERogueDetailsWidgetFocusGroups : uint8_t
+{
+	ERogueDetailsWidgetFocusGroups__MAIN_TABS = 0,
+	ERogueDetailsWidgetFocusGroups__CUSTOMIZE_PANEL = 1,
+	ERogueDetailsWidgetFocusGroups__MASTERY_PANEL = 2,
+	ERogueDetailsWidgetFocusGroups__ARMORY_PANEL = 3,
+	ERogueDetailsWidgetFocusGroups__PRIMARY_SELECT_PANEL = 4,
+	ERogueDetailsWidgetFocusGroups__ERogueDetailsWidgetFocusGroups_MAX = 5
+};
+
+
 // Enum KillstreakUINew.EKSSettingType
 enum class EKSSettingType : uint8_t
 {
@@ -673,6 +685,16 @@ enum class EDamageBaseType : uint8_t
 	EDamageBaseType__Lethal        = 2,
 	EDamageBaseType__Special       = 3,
 	EDamageBaseType__EDamageBaseType_MAX = 4
+};
+
+
+// Enum KillstreakUINew.UKSWeaponMasteryType
+enum class EUKSWeaponMasteryType : uint8_t
+{
+	UKSWeaponMasteryType__Weapon   = 0,
+	UKSWeaponMasteryType__WeaponCategory = 1,
+	UKSWeaponMasteryType__WeaponsMaster = 2,
+	UKSWeaponMasteryType__UKSWeaponMasteryType_MAX = 3
 };
 
 

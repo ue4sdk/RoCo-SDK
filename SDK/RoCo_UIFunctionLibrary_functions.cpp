@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,39 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function UIFunctionLibrary.UIFunctionLibrary_C.GetCosmeticTagArrayByTags
+// (FUNC_Static, FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)
+// Parameters:
+// struct FGameplayTagContainer   TagContainer                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm)
+// class UObject*                 __WorldContext                 (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// TArray<struct FText>           CosmeticTags                   (CPF_Parm, CPF_OutParm, CPF_HasGetValueTypeHash)
+// bool                           TagsFound                      (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UUIFunctionLibrary_C::GetCosmeticTagArrayByTags(const struct FGameplayTagContainer& TagContainer, class UObject* __WorldContext, TArray<struct FText>* CosmeticTags, bool* TagsFound)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UIFunctionLibrary.UIFunctionLibrary_C.GetCosmeticTagArrayByTags");
+
+	struct
+	{
+		struct FGameplayTagContainer   TagContainer;
+		class UObject*                 __WorldContext;
+		TArray<struct FText>           CosmeticTags;
+		bool                           TagsFound;
+	} params;
+
+	params.TagContainer = TagContainer;
+	params.__WorldContext = __WorldContext;
+
+	static auto defaultObj = StaticClass()->CreateDefaultObject();
+	defaultObj->ProcessEvent(fn, &params);
+
+	if (CosmeticTags != nullptr)
+		*CosmeticTags = params.CosmeticTags;
+	if (TagsFound != nullptr)
+		*TagsFound = params.TagsFound;
+}
+
 
 // Function UIFunctionLibrary.UIFunctionLibrary_C.GetRogueBucksItemId
 // (FUNC_Static, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure)

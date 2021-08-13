@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -65,6 +65,7 @@ public:
 	}
 
 
+	void SetBombIndicatorVisibility();
 	void CheckPlayerViewState(TEnumAsByte<EGameTimerBarPlayerState>* CurrentState);
 	void OnRespawnConfigChanged(class AKSTeamState* Team);
 	void GetTeamRespawnType(EKSRespawnMode* RespawnMode);
@@ -91,7 +92,6 @@ public:
 	void Handle_Bound_Icon_Mod_Removed();
 	void On_Character_Is_Locally_Viewed_Changed(bool Is_Character_Locally_Viewed);
 	void Construct();
-	void Handle_Bomb_State_Changed(const struct FKSNeutralBombState& BombState);
 	void HandleOnObjectiveStateChanged(const TScriptInterface<class UKSObjective>& GameObjective);
 	void Tick(const struct FGeometry& MyGeometry, float InDeltaTime);
 	void OnCharacterOwnerChanged(class AKSPlayerState* PlayerState, class AKSCharacterBase* Character);

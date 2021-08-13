@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -4268,6 +4268,227 @@ void UEditableTextBox::ClearError()
 }
 
 
+// Function UMG.Border.SetVerticalAlignment
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// TEnumAsByte<EVerticalAlignment> InVerticalAlignment            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetVerticalAlignment");
+
+	struct
+	{
+		TEnumAsByte<EVerticalAlignment> InVerticalAlignment;
+	} params;
+
+	params.InVerticalAlignment = InVerticalAlignment;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.SetPadding
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// struct FMargin                 InPadding                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetPadding(const struct FMargin& InPadding)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetPadding");
+
+	struct
+	{
+		struct FMargin                 InPadding;
+	} params;
+
+	params.InPadding = InPadding;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.SetHorizontalAlignment
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetHorizontalAlignment");
+
+	struct
+	{
+		TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment;
+	} params;
+
+	params.InHorizontalAlignment = InHorizontalAlignment;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.SetDesiredSizeScale
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable)
+// Parameters:
+// struct FVector2D               InScale                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetDesiredSizeScale(const struct FVector2D& InScale)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetDesiredSizeScale");
+
+	struct
+	{
+		struct FVector2D               InScale;
+	} params;
+
+	params.InScale = InScale;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.SetContentColorAndOpacity
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable)
+// Parameters:
+// struct FLinearColor            InContentColorAndOpacity       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetContentColorAndOpacity(const struct FLinearColor& InContentColorAndOpacity)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetContentColorAndOpacity");
+
+	struct
+	{
+		struct FLinearColor            InContentColorAndOpacity;
+	} params;
+
+	params.InContentColorAndOpacity = InContentColorAndOpacity;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.SetBrushFromTexture
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// class UTexture2D*              Texture                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetBrushFromTexture(class UTexture2D* Texture)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushFromTexture");
+
+	struct
+	{
+		class UTexture2D*              Texture;
+	} params;
+
+	params.Texture = Texture;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.SetBrushFromMaterial
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// class UMaterialInterface*      Material                       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetBrushFromMaterial(class UMaterialInterface* Material)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushFromMaterial");
+
+	struct
+	{
+		class UMaterialInterface*      Material;
+	} params;
+
+	params.Material = Material;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.SetBrushFromAsset
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// class USlateBrushAsset*        Asset                          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetBrushFromAsset(class USlateBrushAsset* Asset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushFromAsset");
+
+	struct
+	{
+		class USlateBrushAsset*        Asset;
+	} params;
+
+	params.Asset = Asset;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.SetBrushColor
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable)
+// Parameters:
+// struct FLinearColor            InBrushColor                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetBrushColor(const struct FLinearColor& InBrushColor)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushColor");
+
+	struct
+	{
+		struct FLinearColor            InBrushColor;
+	} params;
+
+	params.InBrushColor = InBrushColor;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.SetBrush
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
+// Parameters:
+// struct FSlateBrush             InBrush                        (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
+
+void UBorder::SetBrush(const struct FSlateBrush& InBrush)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrush");
+
+	struct
+	{
+		struct FSlateBrush             InBrush;
+	} params;
+
+	params.InBrush = InBrush;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function UMG.Border.GetDynamicMaterial
+// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// class UMaterialInstanceDynamic* ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+class UMaterialInstanceDynamic* UBorder::GetDynamicMaterial()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.GetDynamicMaterial");
+
+	struct
+	{
+		class UMaterialInstanceDynamic* ReturnValue;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
 // Function UMG.ScrollBox.SetWheelScrollMultiplier
 // (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
@@ -5619,227 +5840,6 @@ bool UBoolBinding::GetValue()
 	struct
 	{
 		bool                           ReturnValue;
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-
-	return params.ReturnValue;
-}
-
-
-// Function UMG.Border.SetVerticalAlignment
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// TEnumAsByte<EVerticalAlignment> InVerticalAlignment            (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetVerticalAlignment(TEnumAsByte<EVerticalAlignment> InVerticalAlignment)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetVerticalAlignment");
-
-	struct
-	{
-		TEnumAsByte<EVerticalAlignment> InVerticalAlignment;
-	} params;
-
-	params.InVerticalAlignment = InVerticalAlignment;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.SetPadding
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// struct FMargin                 InPadding                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetPadding(const struct FMargin& InPadding)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetPadding");
-
-	struct
-	{
-		struct FMargin                 InPadding;
-	} params;
-
-	params.InPadding = InPadding;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.SetHorizontalAlignment
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetHorizontalAlignment(TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetHorizontalAlignment");
-
-	struct
-	{
-		TEnumAsByte<EHorizontalAlignment> InHorizontalAlignment;
-	} params;
-
-	params.InHorizontalAlignment = InHorizontalAlignment;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.SetDesiredSizeScale
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable)
-// Parameters:
-// struct FVector2D               InScale                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetDesiredSizeScale(const struct FVector2D& InScale)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetDesiredSizeScale");
-
-	struct
-	{
-		struct FVector2D               InScale;
-	} params;
-
-	params.InScale = InScale;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.SetContentColorAndOpacity
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable)
-// Parameters:
-// struct FLinearColor            InContentColorAndOpacity       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetContentColorAndOpacity(const struct FLinearColor& InContentColorAndOpacity)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetContentColorAndOpacity");
-
-	struct
-	{
-		struct FLinearColor            InContentColorAndOpacity;
-	} params;
-
-	params.InContentColorAndOpacity = InContentColorAndOpacity;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.SetBrushFromTexture
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// class UTexture2D*              Texture                        (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetBrushFromTexture(class UTexture2D* Texture)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushFromTexture");
-
-	struct
-	{
-		class UTexture2D*              Texture;
-	} params;
-
-	params.Texture = Texture;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.SetBrushFromMaterial
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// class UMaterialInterface*      Material                       (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetBrushFromMaterial(class UMaterialInterface* Material)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushFromMaterial");
-
-	struct
-	{
-		class UMaterialInterface*      Material;
-	} params;
-
-	params.Material = Material;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.SetBrushFromAsset
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// class USlateBrushAsset*        Asset                          (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetBrushFromAsset(class USlateBrushAsset* Asset)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushFromAsset");
-
-	struct
-	{
-		class USlateBrushAsset*        Asset;
-	} params;
-
-	params.Asset = Asset;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.SetBrushColor
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable)
-// Parameters:
-// struct FLinearColor            InBrushColor                   (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetBrushColor(const struct FLinearColor& InBrushColor)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrushColor");
-
-	struct
-	{
-		struct FLinearColor            InBrushColor;
-	} params;
-
-	params.InBrushColor = InBrushColor;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.SetBrush
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
-// Parameters:
-// struct FSlateBrush             InBrush                        (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ReferenceParm, CPF_NativeAccessSpecifierPublic)
-
-void UBorder::SetBrush(const struct FSlateBrush& InBrush)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.SetBrush");
-
-	struct
-	{
-		struct FSlateBrush             InBrush;
-	} params;
-
-	params.InBrush = InBrush;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function UMG.Border.GetDynamicMaterial
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
-// Parameters:
-// class UMaterialInstanceDynamic* ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-
-class UMaterialInstanceDynamic* UBorder::GetDynamicMaterial()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function UMG.Border.GetDynamicMaterial");
-
-	struct
-	{
-		class UMaterialInstanceDynamic* ReturnValue;
 	} params;
 
 

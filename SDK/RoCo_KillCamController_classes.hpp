@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,11 +15,11 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass KillCamController.KillCamController_C
-// 0x0008 (0x0EB8 - 0x0EB0)
+// 0x0008 (0x0EF0 - 0x0EE8)
 class AKillCamController_C : public AKSKillCamController
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0EB0(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0EE8(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
 
 	static UClass* StaticClass()
 	{

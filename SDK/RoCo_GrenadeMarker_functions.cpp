@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -55,7 +55,7 @@ class UKSWeaponAsset* UGrenadeMarker_C::Get_Weapon_Asset_or_Secondary()
 
 
 // Function GrenadeMarker.GrenadeMarker_C.Update
-// (FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// (FUNC_Event, FUNC_Public, FUNC_HasOutParms, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
 // ESlateVisibility               ReturnValue                    (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
@@ -134,24 +134,8 @@ void UGrenadeMarker_C::Construct()
 }
 
 
-// Function GrenadeMarker.GrenadeMarker_C.Do Update
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UGrenadeMarker_C::Do_Update()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GrenadeMarker.GrenadeMarker_C.Do Update");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function GrenadeMarker.GrenadeMarker_C.ExecuteUbergraph_GrenadeMarker
-// (FUNC_Final, FUNC_HasDefaults)
+// (FUNC_Final)
 // Parameters:
 // int                            EntryPoint                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 

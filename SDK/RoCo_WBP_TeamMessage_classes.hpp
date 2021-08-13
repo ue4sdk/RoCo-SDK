@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -42,6 +42,7 @@ public:
 	void OnKillCamEnabled(bool bEnabled);
 	void HandleRoundSetup(const struct FRoundInitState& RoundInitState);
 	void HandleQueuedAnnoucements();
+	void OnDelayedHUDAnnouncementComponentCreated(class AKSPlayerController* OwningPlayerController, class UKSHUDAnnouncementComponent* SpawnedHUDAnnouncementComponent);
 	void ExecuteUbergraph_WBP_TeamMessage(int EntryPoint);
 };
 

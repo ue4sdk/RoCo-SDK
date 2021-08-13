@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -234,6 +234,17 @@ enum class EModViewModeState : uint8_t
 };
 
 
+// Enum Killstreak.EHitLocationType
+enum class EHitLocationType : uint8_t
+{
+	EHitLocationType__Body         = 0,
+	EHitLocationType__Head         = 1,
+	EHitLocationType__Limb         = 2,
+	EHitLocationType__None         = 3,
+	EHitLocationType__EHitLocationType_MAX = 4
+};
+
+
 // Enum Killstreak.ETrackedActorType
 enum class ETrackedActorType : uint8_t
 {
@@ -267,17 +278,6 @@ enum class ELootSiteRarity : uint8_t
 	ELootSiteRarity__GameMode      = 11,
 	ELootSiteRarity__PowerUp       = 12,
 	ELootSiteRarity__ELootSiteRarity_MAX = 13
-};
-
-
-// Enum Killstreak.EHitLocationType
-enum class EHitLocationType : uint8_t
-{
-	EHitLocationType__Body         = 0,
-	EHitLocationType__Head         = 1,
-	EHitLocationType__Limb         = 2,
-	EHitLocationType__None         = 3,
-	EHitLocationType__EHitLocationType_MAX = 4
 };
 
 
@@ -394,23 +394,6 @@ enum class ECombatState : uint8_t
 	ECombatState__NonCombat        = 2,
 	ECombatState__BuildUp          = 3,
 	ECombatState__ECombatState_MAX = 4
-};
-
-
-// Enum Killstreak.EKSNeutralBombState
-enum class EKSNeutralBombState : uint8_t
-{
-	EKSNeutralBombState__Spawned   = 0,
-	EKSNeutralBombState__Reset     = 1,
-	EKSNeutralBombState__Held      = 2,
-	EKSNeutralBombState__Dropped   = 3,
-	EKSNeutralBombState__Arming    = 4,
-	EKSNeutralBombState__Armed     = 5,
-	EKSNeutralBombState__Disarming = 6,
-	EKSNeutralBombState__Disarmed  = 7,
-	EKSNeutralBombState__Deactivated = 8,
-	EKSNeutralBombState__Exploded  = 9,
-	EKSNeutralBombState__EKSNeutralBombState_MAX = 10
 };
 
 
@@ -555,6 +538,18 @@ enum class ESplineBehaviourType : uint8_t
 	ESplineBehaviourType__Loop_Reset = 2,
 	ESplineBehaviourType__PingPong = 3,
 	ESplineBehaviourType__ESplineBehaviourType_MAX = 4
+};
+
+
+// Enum Killstreak.EJobSelectionTaskType
+enum class EJobSelectionTaskType : uint8_t
+{
+	EJobSelectionTaskType__PickAndLock = 0,
+	EJobSelectionTaskType__Pick    = 1,
+	EJobSelectionTaskType__Lock    = 2,
+	EJobSelectionTaskType__Ban     = 3,
+	EJobSelectionTaskType__Block   = 4,
+	EJobSelectionTaskType__EJobSelectionTaskType_MAX = 5
 };
 
 
@@ -808,6 +803,47 @@ enum class EKSAnalogStickType : uint8_t
 };
 
 
+// Enum Killstreak.EReactiveResetTrigger
+enum class EReactiveResetTrigger : uint8_t
+{
+	EReactiveResetTrigger__IdleCooldown = 0,
+	EReactiveResetTrigger__WeaponReload = 1,
+	EReactiveResetTrigger__WeaponHolster = 2,
+	EReactiveResetTrigger__WeaponInactive = 3,
+	EReactiveResetTrigger__CharacterDamaged = 4,
+	EReactiveResetTrigger__CharacterDowned = 5,
+	EReactiveResetTrigger__CharacterKilled = 6,
+	EReactiveResetTrigger__EReactiveResetTrigger_MAX = 7
+};
+
+
+// Enum Killstreak.EReactiveTrigger
+enum class EReactiveTrigger : uint8_t
+{
+	EReactiveTrigger__WeaponFire   = 0,
+	EReactiveTrigger__TargetDamagedAnyWeapon = 1,
+	EReactiveTrigger__TargetDownedAnyWeapon = 2,
+	EReactiveTrigger__TargetKilledAnyWeapon = 3,
+	EReactiveTrigger__TargetDamagedThisWeapon = 4,
+	EReactiveTrigger__TargetDownedThisWeapon = 5,
+	EReactiveTrigger__TargetKilledThisWeapon = 6,
+	EReactiveTrigger__DamageWithinTimePeriodGoalMet = 7,
+	EReactiveTrigger__MultiDownGoalMet = 8,
+	EReactiveTrigger__DemoMode     = 9,
+	EReactiveTrigger__EReactiveTrigger_MAX = 10
+};
+
+
+// Enum Killstreak.ECosmeticPersistentDataCache
+enum class ECosmeticPersistentDataCache : uint8_t
+{
+	ECosmeticPersistentDataCache__DataCacheA = 0,
+	ECosmeticPersistentDataCache__DataCacheB = 1,
+	ECosmeticPersistentDataCache__DataCacheC = 2,
+	ECosmeticPersistentDataCache__ECosmeticPersistentDataCache_MAX = 3
+};
+
+
 // Enum Killstreak.EGameplayAudioEvent
 enum class EGameplayAudioEvent : uint8_t
 {
@@ -1043,27 +1079,6 @@ enum class EKSCinematicCharacterType : uint8_t
 };
 
 
-// Enum Killstreak.ECosmeticStateSimulationType
-enum class ECosmeticStateSimulationType : uint8_t
-{
-	ECosmeticStateSimulationType__Authoritative = 0,
-	ECosmeticStateSimulationType__LocalSimulation = 1,
-	ECosmeticStateSimulationType__GlobalSimulation = 2,
-	ECosmeticStateSimulationType__ECosmeticStateSimulationType_MAX = 3
-};
-
-
-// Enum Killstreak.ECosmeticStateTriggerType
-enum class ECosmeticStateTriggerType : uint8_t
-{
-	ECosmeticStateTriggerType__Count = 0,
-	ECosmeticStateTriggerType__CountWithZeroFloor = 1,
-	ECosmeticStateTriggerType__OnOff = 2,
-	ECosmeticStateTriggerType__Event = 3,
-	ECosmeticStateTriggerType__ECosmeticStateTriggerType_MAX = 4
-};
-
-
 // Enum Killstreak.EFlashBangIntensity
 enum class EFlashBangIntensity : uint8_t
 {
@@ -1123,16 +1138,6 @@ enum class EKSRewardType : uint8_t
 };
 
 
-// Enum Killstreak.EKSControlTieBreakerMode
-enum class EKSControlTieBreakerMode : uint8_t
-{
-	EKSControlTieBreakerMode__Overtime = 0,
-	EKSControlTieBreakerMode__SuddenDeath = 1,
-	EKSControlTieBreakerMode__AllowTie = 2,
-	EKSControlTieBreakerMode__EKSControlTieBreakerMode_MAX = 3
-};
-
-
 // Enum Killstreak.EChangeAdditionalActionCondition
 enum class EChangeAdditionalActionCondition : uint8_t
 {
@@ -1152,6 +1157,16 @@ enum class EPlayerInfoInventoryRestoreType : uint8_t
 	EPlayerInfoInventoryRestoreType__KeepGunsOnly = 3,
 	EPlayerInfoInventoryRestoreType__UseNewMethod = 4,
 	EPlayerInfoInventoryRestoreType__EPlayerInfoInventoryRestoreType_MAX = 5
+};
+
+
+// Enum Killstreak.EJobSelectionType
+enum class EJobSelectionType : uint8_t
+{
+	EJobSelectionType__Unknown     = 0,
+	EJobSelectionType__Legacy      = 1,
+	EJobSelectionType__SelectionAuthority = 2,
+	EJobSelectionType__EJobSelectionType_MAX = 3
 };
 
 
@@ -1257,6 +1272,51 @@ enum class EJobLoadoutSlot : uint8_t
 	EJobLoadoutSlot__JobSlot_Melee = 13,
 	EJobLoadoutSlot__JobSlot_QuickMelee = 14,
 	EJobLoadoutSlot__JobSlot_MAX   = 15
+};
+
+
+// Enum Killstreak.EJobSelectProxyRules
+enum class EJobSelectProxyRules : uint8_t
+{
+	EJobSelectProxyRules__DelayOrAbstain = 0,
+	EJobSelectProxyRules__Random   = 1,
+	EJobSelectProxyRules__Captain  = 2,
+	EJobSelectProxyRules__EJobSelectProxyRules_MAX = 3
+};
+
+
+// Enum Killstreak.EJobBanEffects
+enum class EJobBanEffects : uint8_t
+{
+	EJobBanEffects__EffectsAll     = 0,
+	EJobBanEffects__EffectsOpposingTeams = 1,
+	EJobBanEffects__EJobBanEffects_MAX = 2
+};
+
+
+// Enum Killstreak.EJobPickExclusivity
+enum class EJobPickExclusivity : uint8_t
+{
+	EJobPickExclusivity__NotExclusive = 0,
+	EJobPickExclusivity__ExclusiveToTeam = 1,
+	EJobPickExclusivity__ExclusiveToAll = 2,
+	EJobPickExclusivity__EJobPickExclusivity_MAX = 3
+};
+
+
+// Enum Killstreak.ECanCompleteTaskResult
+enum class ECanCompleteTaskResult : uint8_t
+{
+	ECanCompleteTaskResult__Ok     = 0,
+	ECanCompleteTaskResult__NotValidTask = 1,
+	ECanCompleteTaskResult__Unavailable = 2,
+	ECanCompleteTaskResult__UnavailableByOwnership = 3,
+	ECanCompleteTaskResult__Banned = 4,
+	ECanCompleteTaskResult__AlreadyPicked = 5,
+	ECanCompleteTaskResult__AlreadyLocked = 6,
+	ECanCompleteTaskResult__CannotAbstain = 7,
+	ECanCompleteTaskResult__CannotLock = 8,
+	ECanCompleteTaskResult__ECanCompleteTaskResult_MAX = 9
 };
 
 
@@ -1477,6 +1537,23 @@ enum class EKSReviveDroneEvent : uint8_t
 	EKSReviveDroneEvent__DroneAborted = 4,
 	EKSReviveDroneEvent__DroneDestroyed = 5,
 	EKSReviveDroneEvent__EKSReviveDroneEvent_MAX = 6
+};
+
+
+// Enum Killstreak.EKSNeutralBombState
+enum class EKSNeutralBombState : uint8_t
+{
+	EKSNeutralBombState__Spawned   = 0,
+	EKSNeutralBombState__Reset     = 1,
+	EKSNeutralBombState__Held      = 2,
+	EKSNeutralBombState__Dropped   = 3,
+	EKSNeutralBombState__Arming    = 4,
+	EKSNeutralBombState__Armed     = 5,
+	EKSNeutralBombState__Disarming = 6,
+	EKSNeutralBombState__Disarmed  = 7,
+	EKSNeutralBombState__Deactivated = 8,
+	EKSNeutralBombState__Exploded  = 9,
+	EKSNeutralBombState__EKSNeutralBombState_MAX = 10
 };
 
 

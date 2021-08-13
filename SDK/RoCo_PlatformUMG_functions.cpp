@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -3769,7 +3769,7 @@ class UWidget* UPUMG_Widget::SetFocusToThis()
 
 
 // Function PlatformUMG.PUMG_Widget.SetFocusToGroup
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 // Parameters:
 // int                            FocusGroup                     (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 // bool                           KeepLastFocus                  (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -4398,6 +4398,26 @@ class UWidget* UPUMG_Widget::GetCurrentFocusForGroup(int FocusGroup)
 	UObject::ProcessEvent(fn, &params);
 
 	return params.ReturnValue;
+}
+
+
+// Function PlatformUMG.PUMG_Widget.GameStateSet
+// (FUNC_Native, FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// class AGameStateBase*          GameState                      (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UPUMG_Widget::GameStateSet(class AGameStateBase* GameState)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function PlatformUMG.PUMG_Widget.GameStateSet");
+
+	struct
+	{
+		class AGameStateBase*          GameState;
+	} params;
+
+	params.GameState = GameState;
+
+	UObject::ProcessEvent(fn, &params);
 }
 
 
@@ -5659,7 +5679,7 @@ bool UPUMG_QueueDataFactory::GetBaseQueueInfoById(int QueueId, struct FPUMG_Clie
 
 
 // Function PlatformUMG.PUMG_QueueDataFactory.DeclineMatchInvite
-// (FUNC_Final, FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
 
 void UPUMG_QueueDataFactory::DeclineMatchInvite()
 {

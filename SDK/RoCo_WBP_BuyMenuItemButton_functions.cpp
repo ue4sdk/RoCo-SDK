@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -221,8 +221,9 @@ void UWBP_BuyMenuItemButton_C::GamepadUnhover()
 // struct FShopItem               ShopItem                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm)
 // bool                           IsAffordable                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 // bool                           IsToggleSlot                   (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+// bool                           IsSwapDisplay                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
 
-void UWBP_BuyMenuItemButton_C::DisplayShopItem(const struct FShopItem& ShopItem, bool IsAffordable, bool IsToggleSlot)
+void UWBP_BuyMenuItemButton_C::DisplayShopItem(const struct FShopItem& ShopItem, bool IsAffordable, bool IsToggleSlot, bool IsSwapDisplay)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_BuyMenuItemButton.WBP_BuyMenuItemButton_C.DisplayShopItem");
 
@@ -231,11 +232,13 @@ void UWBP_BuyMenuItemButton_C::DisplayShopItem(const struct FShopItem& ShopItem,
 		struct FShopItem               ShopItem;
 		bool                           IsAffordable;
 		bool                           IsToggleSlot;
+		bool                           IsSwapDisplay;
 	} params;
 
 	params.ShopItem = ShopItem;
 	params.IsAffordable = IsAffordable;
 	params.IsToggleSlot = IsToggleSlot;
+	params.IsSwapDisplay = IsSwapDisplay;
 
 	UObject::ProcessEvent(fn, &params);
 }

@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -59,7 +59,6 @@ public:
 	void PreConstruct(bool IsDesignTime);
 	void OnWeaponAssetSet(class AKSProjectile* Projectile, class UKSWeaponAsset* WeaponAsset);
 	void Construct();
-	void Do_Update();
 	void ExecuteUbergraph_GrenadeMarker(int EntryPoint);
 };
 

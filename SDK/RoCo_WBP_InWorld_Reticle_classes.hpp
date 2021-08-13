@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass WBP_InWorld_Reticle.WBP_InWorld_Reticle_C
-// 0x00D8 (0x0310 - 0x0238)
+// 0x00E0 (0x0318 - 0x0238)
 class UWBP_InWorld_Reticle_C : public UUserWidget
 {
 public:
@@ -44,7 +44,7 @@ public:
 	class UWBP_InWorld_ReticleComponents_C*            WBP_InWorld_ReticleComponents;                            // 0x02E8(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	class UImage*                                      ZoomImage;                                                // 0x02F0(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_RepSkip, CPF_NoDestructor, CPF_PersistentInstance, CPF_HasGetValueTypeHash)
 	TArray<class UImage*>                              ReticleImages;                                            // 0x02F8(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash)
-	class UKSModInst_Activated*                        ModInstance;                                              // 0x0308(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	TArray<class UKSModInst_Activated*>                ModInstances;                                             // 0x0308(0x0010) (CPF_Edit, CPF_BlueprintVisible, CPF_DisableEditOnInstance, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash)
 
 	static UClass* StaticClass()
 	{
@@ -53,6 +53,7 @@ public:
 	}
 
 
+	void CheckForActiveMods(bool* ModsActive);
 	void SetConsoleSize();
 	void OnPaint(struct FPaintContext* Context);
 	void SetPlayerState(class APlayerState* PlayerState);

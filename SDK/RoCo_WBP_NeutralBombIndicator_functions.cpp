@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -65,26 +65,6 @@ void UWBP_NeutralBombIndicator_C::Construct()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleBombStateChanged
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FKSNeutralBombState     BombState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
-
-void UWBP_NeutralBombIndicator_C::HandleBombStateChanged(const struct FKSNeutralBombState& BombState)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.HandleBombStateChanged");
-
-	struct
-	{
-		struct FKSNeutralBombState     BombState;
-	} params;
-
-	params.BombState = BombState;
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -157,7 +137,7 @@ void UWBP_NeutralBombIndicator_C::HandleOnGameObjectiveRegistered(const TScriptI
 
 
 // Function WBP_NeutralBombIndicator.WBP_NeutralBombIndicator_C.ExecuteUbergraph_WBP_NeutralBombIndicator
-// (FUNC_Final, FUNC_HasDefaults)
+// (FUNC_Final)
 // Parameters:
 // int                            EntryPoint                     (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 

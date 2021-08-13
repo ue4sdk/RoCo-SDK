@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -30,38 +30,6 @@ void UEventTracker_Conditional_Damage_C::HandleTrackerInitialized(TMap<struct FS
 
 	params.Config = Config;
 	params.StringConfig = StringConfig;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function EventTracker_Conditional_Damage.EventTracker_Conditional_Damage_C.HandleLostPlayerController
-// (FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
-
-void UEventTracker_Conditional_Damage_C::HandleLostPlayerController()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Conditional_Damage.EventTracker_Conditional_Damage_C.HandleLostPlayerController");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function EventTracker_Conditional_Damage.EventTracker_Conditional_Damage_C.MatchHAsEnded_Event
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void UEventTracker_Conditional_Damage_C::MatchHAsEnded_Event()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function EventTracker_Conditional_Damage.EventTracker_Conditional_Damage_C.MatchHAsEnded_Event");
-
-	struct
-	{
-	} params;
-
 
 	UObject::ProcessEvent(fn, &params);
 }

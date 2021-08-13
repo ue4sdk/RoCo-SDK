@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -2903,6 +2903,26 @@ void UMaster_WeaponComponent_C::Anim_Init_Set_Hide_Magazine(class UKSWeaponAnimI
 void UMaster_WeaponComponent_C::Anim_Init_Set_Folding_Stock(class UKSWeaponAnimInstance* bpp__KSxWeaponxAnimxInst__pfTTT)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function Master_WeaponComponent.Master_WeaponComponent_C.Anim Init Set Folding Stock");
+
+	struct
+	{
+		class UKSWeaponAnimInstance*   bpp__KSxWeaponxAnimxInst__pfTTT;
+	} params;
+
+	params.bpp__KSxWeaponxAnimxInst__pfTTT = bpp__KSxWeaponxAnimxInst__pfTTT;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function Master_WeaponComponent.Master_WeaponComponent_C.Anim Init Set Disable Alternate Mirroring (Temp)
+// (FUNC_Native, FUNC_Public, FUNC_BlueprintCallable)
+// Parameters:
+// class UKSWeaponAnimInstance*   bpp__KSxWeaponxAnimxInst__pfTTT (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+void UMaster_WeaponComponent_C::Anim_Init_Set_Disable_Alternate_Mirroring__Temp_(class UKSWeaponAnimInstance* bpp__KSxWeaponxAnimxInst__pfTTT)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Master_WeaponComponent.Master_WeaponComponent_C.Anim Init Set Disable Alternate Mirroring (Temp)");
 
 	struct
 	{

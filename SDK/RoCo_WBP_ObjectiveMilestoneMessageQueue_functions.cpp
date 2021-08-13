@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -150,6 +150,29 @@ void UWBP_ObjectiveMilestoneMessageQueue_C::ResetDisplay()
 	{
 	} params;
 
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.OnDelayedHUDAnnouncementComponentCreated
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class AKSPlayerController*     OwningPlayerController         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// class UKSHUDAnnouncementComponent* SpawnedHUDAnnouncementComponent (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UWBP_ObjectiveMilestoneMessageQueue_C::OnDelayedHUDAnnouncementComponentCreated(class AKSPlayerController* OwningPlayerController, class UKSHUDAnnouncementComponent* SpawnedHUDAnnouncementComponent)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_ObjectiveMilestoneMessageQueue.WBP_ObjectiveMilestoneMessageQueue_C.OnDelayedHUDAnnouncementComponentCreated");
+
+	struct
+	{
+		class AKSPlayerController*     OwningPlayerController;
+		class UKSHUDAnnouncementComponent* SpawnedHUDAnnouncementComponent;
+	} params;
+
+	params.OwningPlayerController = OwningPlayerController;
+	params.SpawnedHUDAnnouncementComponent = SpawnedHUDAnnouncementComponent;
 
 	UObject::ProcessEvent(fn, &params);
 }

@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -161,12 +161,12 @@ void AMolotov_C::ScorchDecal_Timeline__UpdateFunc()
 }
 
 
-// Function Molotov.Molotov_C.Timeline_0__FinishedFunc
+// Function Molotov.Molotov_C.MolotovDecalExtended_Timeline__FinishedFunc
 // (FUNC_BlueprintEvent)
 
-void AMolotov_C::Timeline_0__FinishedFunc()
+void AMolotov_C::MolotovDecalExtended_Timeline__FinishedFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.Timeline_0__FinishedFunc");
+	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.MolotovDecalExtended_Timeline__FinishedFunc");
 
 	struct
 	{
@@ -177,12 +177,60 @@ void AMolotov_C::Timeline_0__FinishedFunc()
 }
 
 
-// Function Molotov.Molotov_C.Timeline_0__UpdateFunc
+// Function Molotov.Molotov_C.MolotovDecalExtended_Timeline__UpdateFunc
 // (FUNC_BlueprintEvent)
 
-void AMolotov_C::Timeline_0__UpdateFunc()
+void AMolotov_C::MolotovDecalExtended_Timeline__UpdateFunc()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.Timeline_0__UpdateFunc");
+	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.MolotovDecalExtended_Timeline__UpdateFunc");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function Molotov.Molotov_C.Audio_StartFire
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void AMolotov_C::Audio_StartFire()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.Audio_StartFire");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function Molotov.Molotov_C.Audio_Glass_Impact
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void AMolotov_C::Audio_Glass_Impact()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.Audio_Glass_Impact");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function Molotov.Molotov_C.Audio_StopFire
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void AMolotov_C::Audio_StopFire()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.Audio_StopFire");
 
 	struct
 	{
@@ -224,22 +272,6 @@ void AMolotov_C::OnSpreadTransformAdded(const struct FTransform& AddedTransform)
 	} params;
 
 	params.AddedTransform = AddedTransform;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function Molotov.Molotov_C.Audio_StopFire
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void AMolotov_C::Audio_StopFire()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.Audio_StopFire");
-
-	struct
-	{
-	} params;
-
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -337,22 +369,6 @@ void AMolotov_C::OnTakeOverAsRealActor()
 }
 
 
-// Function Molotov.Molotov_C.Audio_Glass_Impact
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void AMolotov_C::Audio_Glass_Impact()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.Audio_Glass_Impact");
-
-	struct
-	{
-	} params;
-
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
 // Function Molotov.Molotov_C.OnAllSpreadTransformsRemoved
 // (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
 
@@ -384,22 +400,6 @@ void AMolotov_C::OnSpreadTransformRemoved(const struct FTransform& RemovedTransf
 	} params;
 
 	params.RemovedTransform = RemovedTransform;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function Molotov.Molotov_C.Audio_StartFire
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-
-void AMolotov_C::Audio_StartFire()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.Audio_StartFire");
-
-	struct
-	{
-	} params;
-
 
 	UObject::ProcessEvent(fn, &params);
 }
@@ -440,26 +440,6 @@ void AMolotov_C::ConfigureSpreadTransformParticleSystem(class UParticleSystemCom
 	} params;
 
 	params.ParticleSystem = ParticleSystem;
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function Molotov.Molotov_C.ConfigureSpreadTransformDecal
-// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
-// Parameters:
-// class UDecalComponent*         Decal                          (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-
-void AMolotov_C::ConfigureSpreadTransformDecal(class UDecalComponent* Decal)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function Molotov.Molotov_C.ConfigureSpreadTransformDecal");
-
-	struct
-	{
-		class UDecalComponent*         Decal;
-	} params;
-
-	params.Decal = Decal;
 
 	UObject::ProcessEvent(fn, &params);
 }

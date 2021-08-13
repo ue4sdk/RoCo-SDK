@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,13 +15,13 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BaseballBat_Projectile.BaseballBat_Projectile_C
-// 0x000D (0x0985 - 0x0978)
+// 0x000D (0x0995 - 0x0988)
 class ABaseballBat_Projectile_C : public AMelee_Projectile_C
 {
 public:
-	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0978(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
-	float                                              AngleFromNormalToCorrect;                                 // 0x0980(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
-	bool                                               HasBounced;                                               // 0x0984(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
+	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0988(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient)
+	float                                              AngleFromNormalToCorrect;                                 // 0x0990(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+	bool                                               HasBounced;                                               // 0x0994(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{

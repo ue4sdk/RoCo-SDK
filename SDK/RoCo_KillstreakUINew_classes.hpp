@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -86,6 +86,7 @@ public:
 	void StopTickAnimation(const struct FName& AnimName);
 	void SkipToEndTickAnimation(const struct FName& AnimName);
 	bool ShouldUpdateOpacityWhenAiming();
+	void SetPositionRTPC();
 	void SetAllAnimationsPlaybackSpeed(float PlaybackSpeed);
 	void ResumeTickAnimation(const struct FName& AnimName);
 	void RemoveTickAnimation(const struct FName& AnimName);
@@ -415,6 +416,7 @@ public:
 	void View_SetJob(class UKSJobItem* Job);
 	void View_SetHealthPercent(float PercentValue);
 	void View_AcknowledgeSelfPing(class AKSPlayerState* AcknowledingPlayer);
+	bool ShouldShowAllyMarkerWidget();
 	void SetPlayerName();
 	void SetMarkerPlayerState(class AKSPlayerState* pPlayerState);
 	bool IsOwningPlayer();
@@ -426,7 +428,6 @@ public:
 	void HandleOnJobChanged();
 	void HandleObjectiveStateChanged(const TScriptInterface<class UKSObjective>& GameObjective);
 	void HandleChangeSelfPing(class AKSPlayerState* PingingPlayer, class AKSPlayerState* AcknowledgingPlayer);
-	void HandleBombStateChanged(const struct FKSNeutralBombState& BombState);
 	void HandleAddSelfPing(class AKSPlayerState* PingingPlayer, EPingType PingType, EPingMessage PingMessage);
 	bool GetPingIconByType(EPingType PingType, TSoftObjectPtr<class UTexture2D>* PingIcon);
 	bool GetPingIconByMessage(EPingMessage PingMessage, TSoftObjectPtr<class UTexture2D>* PingIcon);
@@ -553,7 +554,9 @@ class UKSTeamWidget : public UKSWidget
 public:
 	bool                                               bTrackPersistentPlayerData;                               // 0x0500(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 	bool                                               bTrackRelevantPlayerStates;                               // 0x0501(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x2E];                                      // 0x0502(0x002E) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x2];                                       // 0x0502(0x0002) MISSED OFFSET
+	TWeakObjectPtr<class AKSTeamState>                 TeamState;                                                // 0x0504(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x24];                                      // 0x050C(0x0024) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -1196,7 +1199,7 @@ public:
 	}
 
 
-	void SetupTestData(int PlayerXp, int RankedXp, int RogueXp, int ReputationEarned, int PlacementMatchNum, int BattlePassXp);
+	void SetupTestData(int PlayerXp, int RankedXp, int RogueXp, int ReputationEarned, int PlacementMatchNum, int BattlePassXp, int WeaponMasteryCount, int ClassMasteryCount);
 	bool IsLocalPlayer(int64_t PlayerId);
 	void HandlePlayerRewards(const struct FPlayerRewardsSummary& PlayerRewardSummary, bool bFakeTestData);
 	void HandleEOMDetail();
@@ -1587,10 +1590,16 @@ public:
 
 
 // Class KillstreakUINew.KSHudEditableWidget
-// 0x0000 (0x0138 - 0x0138)
-class UKSHudEditableWidget : public UCanvasPanel
+// 0x0018 (0x0290 - 0x0278)
+class UKSHudEditableWidget : public UBorder
 {
 public:
+	struct FName                                       WidgetName;                                               // 0x0278(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bCanScale;                                                // 0x0280(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bCanSetOpacity;                                           // 0x0281(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	bool                                               bCanBeInvisible;                                          // 0x0282(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x5];                                       // 0x0283(0x0005) MISSED OFFSET
+	class UKSHudEditor*                                HudEditor;                                                // 0x0288(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 
 	static UClass* StaticClass()
 	{
@@ -1598,14 +1607,41 @@ public:
 		return ptr;
 	}
 
+
+	void HandleLayoutSaved();
+};
+
+
+// Class KillstreakUINew.KSEditorPropertiesPanel
+// 0x0000 (0x0500 - 0x0500)
+class UKSEditorPropertiesPanel : public UKSWidget
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSEditorPropertiesPanel");
+		return ptr;
+	}
+
+
+	void SetSelectedHudEditableWidget(class UKSHudEditableWidget* NewWidget);
+	void SetOpacityEditable(class UKSHudEditableWidget* HudEditableWidget, bool bIsEditable, float NewOpacity);
+	void SetButtonVisibilityEditable(class UKSHudEditableWidget* HudEditableWidget, bool bIsEditable, bool bNewVisibility);
+	void SetButtonScaleEditable(class UKSHudEditableWidget* HudEditableWidget, bool bIsEditable, float NewScale);
+	void HandleCheckedNative(bool bIsChecked);
 };
 
 
 // Class KillstreakUINew.KSHudEditor
-// 0x0000 (0x0500 - 0x0500)
+// 0x0018 (0x0518 - 0x0500)
 class UKSHudEditor : public UKSWidget
 {
 public:
+	class UKSHudEditableWidget*                        CurrentHighlightedWidget;                                 // 0x0500(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	bool                                               bIsLayoutDirty;                                           // 0x0508(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0509(0x0007) MISSED OFFSET
+	class UKSEditorPropertiesPanel*                    EditorPropertiesPanel;                                    // 0x0510(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
 
 	static UClass* StaticClass()
 	{
@@ -1613,6 +1649,37 @@ public:
 		return ptr;
 	}
 
+
+	bool TryToExit();
+	void SaveLayout();
+	void RevertToSavedLayout();
+	void RevertToDefaultLayout();
+	void MarkLayoutDirty();
+};
+
+
+// Class KillstreakUINew.KSHudEditorSettings
+// 0x0020 (0x0048 - 0x0028)
+class UKSHudEditorSettings : public UObject
+{
+public:
+	TArray<struct FHudEditableData>                    HudEditableData;                                          // 0x0028(0x0010) (CPF_ZeroConstructor, CPF_Config, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0038(0x0010) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSHudEditorSettings");
+		return ptr;
+	}
+
+
+	void UpdateHudEditableVisibility(class UKSHudEditableWidget* InWidget, bool bInVisibility);
+	void UpdateHudEditableScale(class UKSHudEditableWidget* InWidget, float InScale);
+	void UpdateHudEditablePosition(class UKSHudEditableWidget* InWidget, const struct FVector2D& InAbsolutePosition);
+	void UpdateHudEditableOpacity(class UKSHudEditableWidget* InWidget, float InOpacity);
+	void SaveLayout();
+	void OnSettingsSaved__DelegateSignature();
+	static class UKSHudEditorSettings* Get();
 };
 
 
@@ -1691,6 +1758,187 @@ public:
 };
 
 
+// Class KillstreakUINew.KSJobSelectorWidget
+// 0x0028 (0x0528 - 0x0500)
+class UKSJobSelectorWidget : public UKSWidget
+{
+public:
+	bool                                               bAutoBindJobSelector;                                     // 0x0500(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bWaitForPlayerToBecomeRelevant;                           // 0x0501(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bBindToTasksChangedEvent;                                 // 0x0502(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bBindToPendingTasksChangedEvent;                          // 0x0503(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bBindToPersonalTaskChangedEvent;                          // 0x0504(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bBindToChoicesChangedEvent;                               // 0x0505(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bBindToTaskCompletedEvent;                                // 0x0506(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bBindToAllPersonalTasksCompletedEvent;                    // 0x0507(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bBindToEndJobSelectionEvent;                              // 0x0508(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x0509(0x0003) MISSED OFFSET
+	TWeakObjectPtr<class AKSJobSelector>               JobSelector;                                              // 0x050C(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_DuplicateTransient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x14];                                      // 0x0514(0x0014) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSJobSelectorWidget");
+		return ptr;
+	}
+
+
+	void TasksChanged();
+	void TaskCompleted(const struct FJobSelectionTask& CompletedTask);
+	void SetJobSelector(class AKSJobSelector* InNewSelector);
+	void SetBindToTasksChanged(bool bEnable);
+	void SetBindToTaskCompleted(bool bEnable);
+	void SetBindToPersonalTaskChanged(bool bEnable);
+	void SetBindToPendingTasksChanged(bool bEnable);
+	void SetBindToEndJobSelection(bool bEnable);
+	void SetBindToChoicesChanged(bool bEnable);
+	void SetBindToAllPersonalTasksCompleted(bool bEnable);
+	void PreClearJobSelector();
+	void PostSetJobSelector();
+	void PersonalTaskChanged();
+	void PendingTasksChanged();
+	void OnBoundJobSelectorDestroyed(class AActor* DestroyedActor);
+	void JobSelectorAddedToOwner(class AKSJobSelector* NewSelector);
+	class AKSJobSelector* GetJobSelector();
+	void EndJobSelection();
+	void ChoicesChanged(TArray<class UKSJobItem*> RemovedChoices, TArray<class UKSJobItem*> AddedOrUpdatedChoices);
+	void AllPersonalTasksCompleted();
+};
+
+
+// Class KillstreakUINew.KSJobSelectBanWidget
+// 0x0010 (0x0538 - 0x0528)
+class UKSJobSelectBanWidget : public UKSJobSelectorWidget
+{
+public:
+	TArray<struct FJobSelectionTask>                   CachedBanTasks;                                           // 0x0528(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Transient, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSJobSelectBanWidget");
+		return ptr;
+	}
+
+
+	void BansChanged();
+};
+
+
+// Class KillstreakUINew.KSJobSelectCaptainStatusWidget
+// 0x0070 (0x0598 - 0x0528)
+class UKSJobSelectCaptainStatusWidget : public UKSJobSelectorWidget
+{
+public:
+	struct FJobSelectionTask                           CachedCaptainTask;                                        // 0x0528(0x0048) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Transient, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	class UKSPersistentPlayerData*                     CachedCaptainPlayerData;                                  // 0x0570(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FKSPersistentPlayerId                       CachedCaptainId;                                          // 0x0578(0x0010) (CPF_Transient, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0588(0x0010) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSJobSelectCaptainStatusWidget");
+		return ptr;
+	}
+
+
+	void CaptainTaskChanged();
+};
+
+
+// Class KillstreakUINew.KSJobSelectChoiceGridWidget
+// 0x0070 (0x0598 - 0x0528)
+class UKSJobSelectChoiceGridWidget : public UKSJobSelectorWidget
+{
+public:
+	class UGridPanel*                                  GridPanel;                                                // 0x0528(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UClass*                                      ChoiceWidgetClass;                                        // 0x0530(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UClass*                                      PaddingWidgetClass;                                       // 0x0538(0x0008) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	int                                                GridWidth;                                                // 0x0540(0x0004) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x4];                                       // 0x0544(0x0004) MISSED OFFSET
+	TArray<class UKSJobSelectionChoiceWidget*>         ActiveChoiceWidgets;                                      // 0x0548(0x0010) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TArray<class UUserWidget*>                         ActivePaddingWidgets;                                     // 0x0558(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_ContainsInstancedReference, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnChoiceWidgetHovered;                                    // 0x0568(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0568(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnChoiceWidgetUnhovered;                                  // 0x0578(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0578(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnChoiceGridRebuilt;                                      // 0x0588(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0588(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSJobSelectChoiceGridWidget");
+		return ptr;
+	}
+
+
+	bool SortActiveChoiceWidgets(class UKSJobSelectionChoiceWidget* LHS, class UKSJobSelectionChoiceWidget* RHS);
+	void SetGridPanel(class UGridPanel* InGridPanel);
+};
+
+
+// Class KillstreakUINew.KSJobSelectionChoiceWidget
+// 0x0040 (0x0568 - 0x0528)
+class UKSJobSelectionChoiceWidget : public UKSJobSelectorWidget
+{
+public:
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0528(0x0020) MISSED OFFSET
+	TArray<class UButton*>                             HitTargets;                                               // 0x0548(0x0010) (CPF_ExportObject, CPF_ZeroConstructor, CPF_ContainsInstancedReference, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	class UKSJobItem*                                  LocalJob;                                                 // 0x0558(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x8];                                       // 0x0560(0x0008) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSJobSelectionChoiceWidget");
+		return ptr;
+	}
+
+
+	void SetJob(class UKSJobItem* Job);
+	ECanCompleteTaskResult RequestSelect();
+	void RemoveCombinedHitTarget(class UButton* InButton);
+	class UKSJobItem* GetJob();
+	struct FJobSelectionChoice GetChoiceData();
+	void CombinedUnhover();
+	void CombinedHover();
+	void ChoiceOrJobChanged();
+	void AddCombinedHitTarget(class UButton* InButton);
+};
+
+
+// Class KillstreakUINew.KSJobSelectionPlayerStatusWidget
+// 0x0070 (0x0598 - 0x0528)
+class UKSJobSelectionPlayerStatusWidget : public UKSJobSelectorWidget
+{
+public:
+	TArray<struct FJobSelectionTask>                   CachedCompletedTasks;                                     // 0x0528(0x0010) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Transient, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FJobSelectionTask                           CachedActiveTask;                                         // 0x0538(0x0048) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Transient, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	bool                                               bCachedActiveTaskPendingComplete;                         // 0x0580(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0581(0x0007) MISSED OFFSET
+	class UKSPersistentPlayerData*                     PlayerData;                                               // 0x0588(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData01[0x8];                                       // 0x0590(0x0008) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSJobSelectionPlayerStatusWidget");
+		return ptr;
+	}
+
+
+	void SetPlayerByPlayerState(class AKSPlayerState* InPlayerState);
+	void SetPlayerByPersistentData(class UKSPersistentPlayerData* InPlayerData);
+	void SetPlayerById(const struct FKSPersistentPlayerId& InPlayerId);
+	void PreClearPlayerData();
+	void PostSetPlayerData();
+	void PlayerTasksChanged();
+	bool HasLockedInAJob(class UKSJobItem** OutJob);
+	bool HasActiveTask();
+	struct FText GetSelectionStatusText();
+	class UKSJobItem* GetSelectionStatusJob();
+	struct FKSPersistentPlayerId GetPlayerId();
+	class UKSPersistentPlayerData* GetPersistentPlayerData();
+};
+
+
 // Class KillstreakUINew.KSJobSelectionWidget
 // 0x0000 (0x0500 - 0x0500)
 class UKSJobSelectionWidget : public UKSWidget
@@ -1707,6 +1955,32 @@ public:
 	TArray<TSoftObjectPtr<class UKSJobItem>> GetJobItems();
 	class UKSStoreItemHelper* GetItemHelper();
 	class UPUMG_StoreItem* GetAdOffer();
+};
+
+
+// Class KillstreakUINew.KSJobSelectOverallStatusWidget
+// 0x0078 (0x05A0 - 0x0528)
+class UKSJobSelectOverallStatusWidget : public UKSJobSelectorWidget
+{
+public:
+	struct FText                                       CachedDisplayText;                                        // 0x0528(0x0018) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Transient, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	struct FPGame_ReplicatedTimerId                    CachedDisplayTimerId;                                     // 0x0540(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Transient, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	EPGame_ReplicateTimerState                         CachedTimerState;                                         // 0x0541(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0542(0x0006) MISSED OFFSET
+	struct FJobSelectionTask                           CachedPrimaryTask;                                        // 0x0548(0x0048) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Transient, CPF_Protected, CPF_NativeAccessSpecifierProtected)
+	float                                              TimerUpdatePeriod;                                        // 0x0590(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0xC];                                       // 0x0594(0x000C) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSJobSelectOverallStatusWidget");
+		return ptr;
+	}
+
+
+	static struct FText GetCountdownFormattedText(float SecondsRemaining, bool bShowHours, bool bShowTenthsOfSecond, bool bAllowNegative);
+	void DisplayTimerChanged();
+	void DisplayTextChanged();
 };
 
 
@@ -1781,7 +2055,7 @@ public:
 	void TransitionCamera(const struct FName& CameraTag, float BlendTime);
 	void ToggleDisablePartyLobbyCharacters(bool Disable);
 	void TestSetStoreRotationOverride(const struct FString& DateTime);
-	void TestPostMatchLobby(int PlayerXp, int RankedXp, int RogueXp, int ReputationEarned, int PlacementMatchNum, int BattlePassXp);
+	void TestPostMatchLobby(int PlayerXp, int RankedXp, int RogueXp, int ReputationEarned, int PlacementMatchNum, int BattlePassXp, int WeaponMasteryCount, int ClassMasteryCount);
 	void TestEventGrandPrizeAcquisition();
 	void TestBattlePassAcquisition(int StartTier, int EndTier);
 	void ShowPopupConfirmation(const struct FText& Message, ESocialMessageType MessageType);
@@ -2325,8 +2599,12 @@ public:
 	static void ViewModel(class UObject* WorldContextObject, class UKSItem* InItem, const struct FName& InSpawnOnActorName, EWeaponStateNew DefaultWeaponState, bool InScaleToFitTargetActor, const struct FRotator& InDefaultRotation, bool InBindControllerToSpawner);
 	static void UnbindControllerFromSpawner(class UObject* WorldContextObject, const struct FName& InSpawnActorName);
 	static void UnbindAllControllersFromSpawners(class UObject* WorldContextObject);
+	static void TriggerReactiveAttachment(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName);
 	static void SetAnimation(class UObject* WorldContextObject, class UAnimSequence* InAnim, const struct FName& InSpawnOnActorName, bool bLooping);
 	static void HideModelAttachment(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName, unsigned char Slot);
+	static bool HasReactiveAttachment(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName);
+	static struct FText GetReactiveAttachmentStateDescription(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName);
+	static class UAkAudioEvent* GetModelSoundFromDatatable(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName, const struct FName& RowName);
 	static void ClearModelAttachments(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName);
 	static void ClearModel(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName);
 	static bool BindDelForWeaponModelSet(class UObject* WorldContextObject, const struct FName& InSpawnOnActorName, const struct FScriptDelegate& InEventCallback);
@@ -2691,6 +2969,28 @@ public:
 };
 
 
+// Class KillstreakUINew.KSPersistentDataTeamBarWidget
+// 0x0018 (0x0550 - 0x0538)
+class UKSPersistentDataTeamBarWidget : public UKSAutoTeamWidget
+{
+public:
+	int                                                HoldReapply;                                              // 0x0538(0x0004) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	bool                                               bWantsRepply;                                             // 0x053C(0x0001) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x053D(0x0003) MISSED OFFSET
+	TArray<class UKSPersistentPlayerData*>             TeamPlayerData;                                           // 0x0540(0x0010) (CPF_ZeroConstructor, CPF_Transient, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPrivate)
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSPersistentDataTeamBarWidget");
+		return ptr;
+	}
+
+
+	bool SortPlayerData(class UKSPersistentPlayerData* LHS, class UKSPersistentPlayerData* RHS);
+	void ApplyPlayerDataChildWidgets(TArray<class UKSPersistentPlayerData*> OrderedData);
+};
+
+
 // Class KillstreakUINew.KSViewedActiveWeaponWidget
 // 0x0010 (0x0518 - 0x0508)
 class UKSViewedActiveWeaponWidget : public UKSWeaponWidget
@@ -3001,11 +3301,12 @@ public:
 	void PurchaseAcknowledge(EShopItemType ShopItemType);
 	void HandleTeamsFlipped();
 	void HandleShopOpened(class AKSPlayerShop* KSPlayerShop);
+	void HandleShopOfferingsChanged(EShopItemType ShopItemType, TArray<struct FPrimaryOffering> Offerings);
 	void HandleShopItemChanged(const struct FShopItem& ChangedItem);
 	void HandleShopClosed(class AKSPlayerShop* KSPlayerShop);
 	void HandleShopAvailabilityChanged(class AKSPlayerShop* KSPlayerShop);
 	void HandlePurchaseAcknowledged(EShopItemType ShopItemType, bool bSuccess);
-	void HandleCashChanged(int Cash, int Delta);
+	void HandleCashChanged(int cash, int Delta);
 	void CheckForValidPlayerState();
 };
 
@@ -3028,11 +3329,11 @@ public:
 
 
 // Class KillstreakUINew.KSPointObjectiveMarkerWidget
-// 0x0080 (0x0398 - 0x0318)
+// 0x0078 (0x0390 - 0x0318)
 class UKSPointObjectiveMarkerWidget : public UKSMapIconWidgetBase
 {
 public:
-	unsigned char                                      UnknownData00[0x80];                                      // 0x0318(0x0080) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x78];                                      // 0x0318(0x0078) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -3058,11 +3359,11 @@ public:
 	bool IsInCountdownState();
 	bool IsInContestedState();
 	bool IsInCapturedState();
-	void HandleTimerPrioritiesChanged();
 	void HandleTeamCelebration(class AKSTeamState* TeamState);
 	void HandlePhaseChanged(const struct FMatchPhase& NewPhase, const struct FMatchPhase& PreviousPhase);
 	void HandleObjectiveUnregistered(const TScriptInterface<class UKSObjective>& Objective);
 	void HandleObjectiveStateChanged(const TScriptInterface<class UKSObjective>& Objective);
+	void HandleMarkerTimerPrioritiesChanged();
 	EKSPriority GetMarkerTimerPriority();
 	struct FKSPointObjectiveMarkerViewState GetCurrentViewState();
 	TScriptInterface<class UKSPointOfInterest> GetAssociatedPOI();
@@ -3210,7 +3511,7 @@ public:
 	struct FScriptMulticastDelegate                    OnQueueErrorRelevantStateChanged;                         // 0x0228(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData02[0xF];                                       // 0x0228(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	int                                                ChunksInstallingQueueId;                                  // 0x0238(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	int                                                DefaultSelectedQueueId;                                   // 0x023C(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	int                                                DefaultQueueId;                                           // 0x023C(0x0004) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	struct FScriptMulticastDelegate                    OnSetQueueInputState;                                     // 0x0240(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_Protected, CPF_NativeAccessSpecifierProtected)
 	unsigned char                                      UnknownData03[0xF];                                       // 0x0240(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	TArray<int64_t>                                    PreviousCustomMatchMemberIds;                             // 0x0250(0x0010) (CPF_ZeroConstructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
@@ -3429,6 +3730,7 @@ public:
 	void OnUpdateQueueTimeElapsed(float TimeElapsed);
 	void OnUpdatePenaltyTimeLeft(int TimeLeft);
 	bool IsPendingQueueUpdate();
+	void HandleOnPlayerProgressInitialized(class UKSActivityInstance* ActivityInstance, int Count);
 	EQuickPlayQueueState GetSelectedQueueState();
 	bool GetGameModeDisplayName(struct FText* GameModeDisplayName);
 	EQuickPlayQueueState GetCurrentQuickPlayState();
@@ -3611,11 +3913,10 @@ public:
 
 
 // Class KillstreakUINew.KSRelatedRoguesGroup
-// 0x0008 (0x0508 - 0x0500)
+// 0x0000 (0x0500 - 0x0500)
 class UKSRelatedRoguesGroup : public UKSWidget
 {
 public:
-	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0500(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -3624,7 +3925,7 @@ public:
 	}
 
 
-	void PopulateForWeaponCategory(const struct FName& WeaponCategoryName);
+	void PopulateForWeaponCategory(class UKSWeaponCategoryAsset* WeaponCategory);
 	void PopulateForWeaponAsset(class UKSWeaponAsset* WeaponAsset);
 	TArray<class UKSRelatedRogueEntry*> GetEntries();
 	void DisplayWeaponCategoryLabel();
@@ -3663,27 +3964,6 @@ public:
 	void UpdateBlockedShotIcon(bool IconVisible, const struct FVector2D& Translation, const struct FVector2D& IconScale);
 	void CalculateReticleOffset(float DeltaTime);
 	void CalculateBlockedShotIcon();
-};
-
-
-// Class KillstreakUINew.KSRewardProgressMeter
-// 0x0010 (0x0510 - 0x0500)
-class UKSRewardProgressMeter : public UKSWidget
-{
-public:
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0500(0x0010) MISSED OFFSET
-
-	static UClass* StaticClass()
-	{
-		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSRewardProgressMeter");
-		return ptr;
-	}
-
-
-	void DisplayWeaponCategoryDetails(const struct FWeaponCategoryDetails& CategoryDetails);
-	void DisplayProgressReward(class UKSItem* RewardItem);
-	void DisplayProgressPercent(int MasteryLevel, float Percent);
-	void BroadcastGoToRewardDetails();
 };
 
 
@@ -3736,13 +4016,15 @@ public:
 
 
 // Class KillstreakUINew.KSRogueDetailsWidget
-// 0x0060 (0x0560 - 0x0500)
+// 0x00A0 (0x05A0 - 0x0500)
 class UKSRogueDetailsWidget : public UKSWidget
 {
 public:
 	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x30];                                      // 0x0508(0x0030) MISSED OFFSET
-	TSoftObjectPtr<class UKSJobItem>                   ViewedJobItem;                                            // 0x0538(0x0028) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x40];                                      // 0x0508(0x0040) MISSED OFFSET
+	struct FName                                       RogueDetailsScreen;                                       // 0x0548(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TSoftObjectPtr<class UKSJobItem>                   ViewedJobItem;                                            // 0x0550(0x0028) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	TSoftObjectPtr<class UKSContextBarWidget>          ContextBar;                                               // 0x0578(0x0028) (CPF_ExportObject, CPF_InstancedReference, CPF_Protected, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -3751,6 +4033,7 @@ public:
 	}
 
 
+	void SetCurrentTabSelectable(bool bIsSelectable);
 	void OnCurrentJobChanged(class UKSJobItem* JobItem, bool bFromShowEvent);
 	void OnBackButtonPressed();
 	class UPUMG_StoreItem* GetStoreItemForJob(class UKSJobItem* JobItem);
@@ -4345,6 +4628,7 @@ public:
 	}
 
 
+	void RevertSettings();
 	void RebuildNavigation();
 	void OnShowPage(class UKSSettingsPage* SettingsPage);
 	void OnSaveSettings();
@@ -4353,6 +4637,7 @@ public:
 	void OnHidePage(class UKSSettingsPage* SettingsPage);
 	void OnConfirmExit(bool ShouldSaveSettings);
 	TArray<class UKSSettingsPage*> GetSettingsPages();
+	void ConfirmRevertSettings();
 	void CheckSavePendingChanges();
 	void AddSettingsPageWidget(class UKSSettingsPage* SettingsPage);
 };
@@ -4466,7 +4751,7 @@ public:
 
 
 // Class KillstreakUINew.KSShopItemButtonBase
-// 0x0028 (0x0528 - 0x0500)
+// 0x0048 (0x0548 - 0x0500)
 class UKSShopItemButtonBase : public UKSWidget
 {
 public:
@@ -4474,8 +4759,12 @@ public:
 	unsigned char                                      UnknownData00[0xF];                                       // 0x0500(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
 	struct FScriptMulticastDelegate                    OnShopViewItemDetails;                                    // 0x0510(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData01[0xF];                                       // 0x0510(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
-	EShopItemType                                      ActiveShopSlot;                                           // 0x0520(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData02[0x7];                                       // 0x0521(0x0007) MISSED OFFSET
+	struct FScriptMulticastDelegate                    OnItemSelected;                                           // 0x0520(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData02[0xF];                                       // 0x0520(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnItemViewDetails;                                        // 0x0530(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_BlueprintCallable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData03[0xF];                                       // 0x0530(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	EShopItemType                                      ActiveShopSlot;                                           // 0x0540(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_ExposeOnSpawn, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData04[0x7];                                       // 0x0541(0x0007) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -4485,7 +4774,7 @@ public:
 
 
 	class UButton* GetHitTarget();
-	void DisplayShopItem(const struct FShopItem& ShopItem, bool IsAffordable, bool IsToggleSlot);
+	void DisplayShopItem(const struct FShopItem& ShopItem, bool IsAffordable, bool IsToggleSlot, bool IsSwapDisplay);
 	void ButtonUnhovered();
 	void ButtonReleased();
 	void ButtonPressed();
@@ -4959,7 +5248,8 @@ class UKSTouchHudWidget : public UKSWidget
 {
 public:
 	bool                                               bAlwaysShowQuickMelee;                                    // 0x0500(0x0001) (CPF_ZeroConstructor, CPF_Config, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x7];                                       // 0x0501(0x0007) MISSED OFFSET
+	bool                                               bIsInEditMode;                                            // 0x0501(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x6];                                       // 0x0502(0x0006) MISSED OFFSET
 	class UKSWeaponAsset_Melee*                        QuickMeleeWeaponAsset;                                    // 0x0508(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UWidget*                                     MyFireWidget;                                             // 0x0510(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UWidget*                                     MyMeleeWidget;                                            // 0x0518(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ExportObject, CPF_ZeroConstructor, CPF_Transient, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -5450,15 +5740,12 @@ public:
 
 
 // Class KillstreakUINew.KSWeaponCategoryButton
-// 0x0020 (0x0520 - 0x0500)
+// 0x0038 (0x0538 - 0x0500)
 class UKSWeaponCategoryButton : public UKSWidget
 {
 public:
-	struct FName                                       WeaponCategoryName;                                       // 0x0500(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData00[0x10];                                      // 0x0508(0x0010) MISSED OFFSET
-	bool                                               ShouldShowMastery;                                        // 0x0518(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	bool                                               ShouldShowRelatedRogues;                                  // 0x0519(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_DisableEditOnTemplate, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	unsigned char                                      UnknownData01[0x6];                                       // 0x051A(0x0006) MISSED OFFSET
+	TSoftObjectPtr<class UKSWeaponCategoryAsset>       WeaponCategory;                                           // 0x0500(0x0028) (CPF_Edit, CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_DisableEditOnTemplate, CPF_UObjectWrapper, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0528(0x0010) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -5468,23 +5755,23 @@ public:
 
 
 	void OnWeaponCategorySelected();
-	void DisplayWeaponCategory(const struct FName& DisplayedCategoryName);
+	class UKSWeaponCategoryAsset* GetWeaponCategory();
+	void DisplayWeaponCategory(class UKSWeaponCategoryAsset* DisplayedCategory);
 	void DisplayMasteryPercent(float Percent);
 	void BroadcastWeaponCategoryPreview();
 };
 
 
 // Class KillstreakUINew.KSWeaponCategoryScreen
-// 0x0038 (0x0538 - 0x0500)
+// 0x0030 (0x0530 - 0x0500)
 class UKSWeaponCategoryScreen : public UKSWidget
 {
 public:
-	class UKSRewardProgressMeter*                      CategoryMasteryMeter;                                     // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UKSWeaponProgressMeter*                      CategoryMasteryMeter;                                     // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UKSRelatedRoguesGroup*                       RelatedRogues;                                            // 0x0508(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x10];                                      // 0x0510(0x0010) MISSED OFFSET
-	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0520(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FName                                       PopulatedCategoryName;                                    // 0x0528(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData01[0x8];                                       // 0x0530(0x0008) MISSED OFFSET
+	class UKSWeaponCategoryAsset*                      PopulatedCategory;                                        // 0x0520(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x8];                                       // 0x0528(0x0008) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -5499,11 +5786,11 @@ public:
 	void HandleWeaponSelected(class UKSWeaponAsset* SelectedWeapon);
 	void HandleWeaponPreview(class UKSWeaponAsset* PreviewWeapon);
 	void HandleViewStateChanged(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer);
-	void HandleGoToWeaponMastery();
+	void HandleGoToMasteryRewards();
 	void HandleBackContextAction();
 	TArray<class UKSWeaponProgressButton*> GetWeaponProgressButtons();
 	int GetPopulatedWeaponCount();
-	void DisplayWeaponCategory(const struct FWeaponCategoryDetails& WeaponCategoryDetails);
+	void DisplayWeaponCategory(class UKSWeaponCategoryAsset* WeaponCategory);
 	class UKSWeaponProgressButton* CreateAndAddWeaponEntry();
 	void ClearWeaponEntries();
 };
@@ -5564,18 +5851,20 @@ public:
 
 
 // Class KillstreakUINew.KSWeaponDetailScreen
-// 0x0058 (0x0558 - 0x0500)
+// 0x0060 (0x0560 - 0x0500)
 class UKSWeaponDetailScreen : public UKSWidget
 {
 public:
-	class UKSRewardProgressMeter*                      WeaponMasteryMeter;                                       // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UKSWeaponProgressMeter*                      WeaponMasteryMeter;                                       // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UKSRelatedRoguesGroup*                       RelatedRogues;                                            // 0x0508(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UKSSideNavigationOverlay*                    SideNavigationOverlay;                                    // 0x0510(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UKSWeaponMilestoneDisplay*                   WeaponMilestones;                                         // 0x0518(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UKSWeaponStatsPanel*                         WeaponStatsPanel;                                         // 0x0520(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
-	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0528(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSWeaponAsset*                              PopulatedWeaponAsset;                                     // 0x0530(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0538(0x0020) MISSED OFFSET
+	class UKSWeaponAsset*                              PopulatedWeaponAsset;                                     // 0x0528(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x20];                                      // 0x0530(0x0020) MISSED OFFSET
+	struct FName                                       DesiredEquipSound;                                        // 0x0550(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               bPlayedWeaponEquipSound;                                  // 0x0558(0x0001) (CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x7];                                       // 0x0559(0x0007) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -5584,15 +5873,15 @@ public:
 	}
 
 
-	void PopulateFromWeaponAsset(class UKSWeaponAsset* WeaponAsset);
+	void PopulateFromWeaponAsset(class UKSWeaponAsset* WeaponAsset, bool FromSideNav);
 	void PopulateFromViewRouteData();
 	void HandleWeaponPreview(class UKSWeaponAsset* WeaponAsset);
 	void HandleViewStateChanged(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer);
 	void HandleSideNavigation(int SideDirection);
-	void HandleGoToWeaponMastery();
+	void HandleGoToMasteryRewards();
 	void HandleCustomizeContextAction();
 	void HandleBackContextAction();
-	void DisplayWeapon(class UKSWeaponAsset* WeaponAsset, const struct FWeaponCategoryDetails& WeaponCategoryDetails);
+	void DisplayWeapon(class UKSWeaponAsset* WeaponAsset, class UKSWeaponCategoryAsset* WeaponCategory);
 	void DisplayEquippedWrap(class UKSWeaponAttachment* EquippedWrap);
 	void ConfigureViewModel(class UKSWeaponAsset* WeaponAsset, class UKSWeaponAttachment* WeaponWrap);
 	void AddWrapCustomizationViewRoute();
@@ -5600,14 +5889,13 @@ public:
 
 
 // Class KillstreakUINew.KSWeaponHubBase
-// 0x0028 (0x0528 - 0x0500)
+// 0x0020 (0x0520 - 0x0500)
 class UKSWeaponHubBase : public UKSWidget
 {
 public:
-	class UKSRewardProgressMeter*                      TotalWeaponMasteryMeter;                                  // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	class UKSWeaponProgressMeter*                      TotalWeaponMasteryMeter;                                  // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_ExportObject, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	class UKSRelatedRoguesGroup*                       RelatedRogues;                                            // 0x0508(0x0008) (CPF_ExportObject, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	unsigned char                                      UnknownData00[0x10];                                      // 0x0510(0x0010) MISSED OFFSET
-	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0520(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -5616,7 +5904,8 @@ public:
 	}
 
 
-	void HandleWeaponCategoryPreview(const struct FName& WeaponCategoryName, bool ShowRelatedRogues);
+	void HandleWeaponCategoryPreview(class UKSWeaponCategoryAsset* WeaponCategory);
+	void HandleGoToMasteryRewards();
 	void HandleBackContextAction();
 	TArray<class UKSWeaponCategoryButton*> GetWeaponCategoryButtons();
 };
@@ -5636,54 +5925,56 @@ public:
 	}
 
 
+	TArray<class UKSWeaponAsset*> GetWeaponsForCategory(const struct FGameplayTag& WeaponCategoryTag, class UKSJobItem* JobItem);
 	bool GetWeaponCategoryDetailsByTag(const struct FGameplayTag& CategoryTag, struct FWeaponCategoryDetails* OutDetails);
 	bool GetWeaponCategoryDetails(const struct FName& WeaponCategoryName, struct FWeaponCategoryDetails* OutDetails);
+	TArray<class UKSJobItem*> GetJobsForWeaponId(int WeaponId);
+	TArray<class UKSJobItem*> GetJobsForWeaponCategory(const struct FName& WeaponCategoryName);
+	int GetAvailableWeaponCountInCategory(const struct FGameplayTag& CategoryTag, class UKSJobItem* JobItem);
 };
 
 
-// Class KillstreakUINew.KSWeaponCategoryRouteInfo
-// 0x0008 (0x0030 - 0x0028)
-class UKSWeaponCategoryRouteInfo : public UObject
+// Class KillstreakUINew.KSWeaponMasteryRewardsScreen
+// 0x0028 (0x0528 - 0x0500)
+class UKSWeaponMasteryRewardsScreen : public UKSRogueMasteryWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x8];                                       // 0x0028(0x0008) MISSED OFFSET
+	EUKSWeaponMasteryType                              CurrentDisplayedMasteryType;                              // 0x0500(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x7];                                       // 0x0501(0x0007) MISSED OFFSET
+	class UKSActivityInstance*                         CurrentProgressActivityInstance;                          // 0x0508(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	bool                                               IsPrestigeEnabled;                                        // 0x0510(0x0001) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData01[0x17];                                      // 0x0511(0x0017) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
-		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponCategoryRouteInfo");
-		return ptr;
-	}
-
-};
-
-
-// Class KillstreakUINew.KSWeaponMasteryScreen
-// 0x0108 (0x0608 - 0x0500)
-class UKSWeaponMasteryScreen : public UKSRogueMasteryWidget
-{
-public:
-	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0500(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSWeaponAsset*                              PopulatedWeaponAsset;                                     // 0x0508(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	struct FWeaponCategoryDetails                      PopulatedWeaponCategory;                                  // 0x0510(0x00E0) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Protected, CPF_NativeAccessSpecifierProtected)
-	class UKSActivityInstance*                         PopulatedProgressActivityInstance;                        // 0x05F0(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x10];                                      // 0x05F8(0x0010) MISSED OFFSET
-
-	static UClass* StaticClass()
-	{
-		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponMasteryScreen");
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponMasteryRewardsScreen");
 		return ptr;
 	}
 
 
-	void PopulateFromWeaponCategory(const struct FWeaponCategoryDetails& WeaponCategoryDetails);
+	void TestProgressValues(int Level, float Progress);
+	void SelectTierForCurrentProgress();
+	void SelectTierByNumber(int TierNumber);
+	void SelectTier(const struct FActivityTier& SelectedTier);
+	void PopulateRewardTiers();
+	void PopulateFromWeaponsMaster();
+	void PopulateFromWeaponCategory(class UKSWeaponCategoryAsset* WeaponCategory);
 	void PopulateFromWeaponAsset(class UKSWeaponAsset* WeaponAsset);
 	void PopulateFromViewRouteData();
+	void OnCurrentProgressActivityInstanceUpdated();
+	struct FMasteryRewardData MakeMasteryRewardData(const struct FTierRewardItemData& RewardItem);
 	void HandleViewStateChanged(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer);
 	void HandleBackContextAction();
-	void DisplayWeaponCategory(const struct FWeaponCategoryDetails& WeaponCategoryDetails);
+	class UKSWeaponCategoryAsset* GetWeaponCategoryFromXP(class UKSActivity* CategoryActivity);
+	float GetRegularTiersProgress();
+	void GetRegularTiers(TArray<struct FActivityTier>* RegularRewardTiers);
+	float GetPrestigeTierProgress();
+	void DisplayWeaponsMaster();
+	void DisplayWeaponCategory(class UKSWeaponCategoryAsset* WeaponCategory);
 	void DisplayWeaponAsset(class UKSWeaponAsset* WeaponAsset);
-	void DisplayMasteryProgress(class UKSActivityInstance* WeaponMasteryInstance);
-	void DisplayCategoryMasteryProgress(class UKSActivityInstance* CategoryMasteryInstance);
+	void DisplaySelectedTier(const struct FActivityTier& SelectedTier);
+	void DisplayRewardTrackData(int MasteryLevel, int CurrentXp, int RequiredXpForLevel, TArray<struct FMasterySectionData>* SectionData);
+	void DisplayActivityProgress(int Level, float CurrentLevelProgress, bool IsFinished);
 	void ConfigureLobbyCamera();
 };
 
@@ -5700,6 +5991,26 @@ public:
 		return ptr;
 	}
 
+
+	void PopulateFromWeaponAsset(class UKSWeaponAsset* WeaponAsset);
+	void GetMilestoneEntries(TArray<class UKSWeaponMilestoneEntry*>* Entries);
+};
+
+
+// Class KillstreakUINew.KSWeaponMilestoneEntry
+// 0x0000 (0x0500 - 0x0500)
+class UKSWeaponMilestoneEntry : public UKSWidget
+{
+public:
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponMilestoneEntry");
+		return ptr;
+	}
+
+
+	void PopulateFromMilestoneActivity(class UKSActivityInstance* MilestoneInstance);
 };
 
 
@@ -5708,8 +6019,11 @@ public:
 class UKSWeaponProgressButton : public UKSWidget
 {
 public:
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0500(0x0020) MISSED OFFSET
-	class UKSWeaponAsset*                              WeaponAsset;                                              // 0x0520(0x0008) (CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	struct FScriptMulticastDelegate                    OnWeaponPreview;                                          // 0x0500(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData00[0xF];                                       // 0x0500(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	struct FScriptMulticastDelegate                    OnWeaponSelected;                                         // 0x0510(0x0001) (CPF_ZeroConstructor, CPF_InstancedReference, CPF_BlueprintAssignable, CPF_NativeAccessSpecifierPublic)
+	unsigned char                                      UnknownData01[0xF];                                       // 0x0510(0x000F) FIX WRONG TYPE SIZE OF PREVIOUS PROPERTY
+	class UKSWeaponAsset*                              WeaponAsset;                                              // 0x0520(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_Transient, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
 
 	static UClass* StaticClass()
 	{
@@ -5725,6 +6039,34 @@ public:
 	void DisplayCosmetic(class UKSWeaponAttachment* Cosmetic);
 	void BroadcastWeaponSelected();
 	void BroadcastWeaponPreview();
+	void AddWrapCustomizationViewRoute();
+};
+
+
+// Class KillstreakUINew.KSWeaponProgressMeter
+// 0x0010 (0x0510 - 0x0500)
+class UKSWeaponProgressMeter : public UKSWidget
+{
+public:
+	unsigned char                                      UnknownData00[0x10];                                      // 0x0500(0x0010) MISSED OFFSET
+
+	static UClass* StaticClass()
+	{
+		static auto ptr = UObject::FindObject<UClass>("Class KillstreakUINew.KSWeaponProgressMeter");
+		return ptr;
+	}
+
+
+	void PopulateFromWeaponsMaster();
+	void PopulateFromWeaponCategory(class UKSWeaponCategoryAsset* WeaponCategory);
+	void PopulateFromWeapon(class UKSWeaponAsset* WeaponAsset);
+	void DisplayWeaponsMaster();
+	void DisplayWeaponCategory(class UKSWeaponCategoryAsset* WeaponCategory);
+	void DisplayWeapon(class UKSWeaponAsset* WeaponAsset);
+	void DisplayProgressReward(class UKSItem* RewardItem);
+	void DisplayProgressPercent(int MasteryLevel, float Percent);
+	void DisplayAltDescription(const struct FText& DescriptionText);
+	void BroadcastGoToRewardDetails();
 };
 
 
@@ -5742,16 +6084,20 @@ public:
 	}
 
 
+	void UpdateStatCount(int NewStatCount);
+	void UpdateStatAtIndex(int WidgetIndex, const struct FItemDisplayStat& WeaponStat, const struct FItemDisplayStat& UpgradeStat);
+	void UpdateSideNavigation(bool PrevLevelEnabled, bool NextLevelEnabled);
 	void SetOpenedState(bool IsOpen);
 	void SetBaseWeapon(class UKSWeaponAsset* InWeaponAsset);
+	void RemoveStatWidget();
 	void PopulateWeaponLevel(int TierLevel);
 	void PopulatePrevWeaponLevel();
 	void PopulateNextWeaponLevel();
 	bool GetOpenedState();
+	int GetCurrentStatCount();
 	void DisplayWeaponInfo(int Level, class UKSWeaponAsset* LevelWeapon);
 	void DisplayOpenedState(bool IsOpen);
-	void ClearWeaponStatsDisplay();
-	void AddWeaponStatToDisplay(const struct FItemDisplayStat& WeaponStat);
+	void AddStatWidget();
 };
 
 
@@ -5817,14 +6163,14 @@ public:
 
 
 // Class KillstreakUINew.KSWrapCustomizationScreen
-// 0x0038 (0x0538 - 0x0500)
+// 0x0048 (0x0548 - 0x0500)
 class UKSWrapCustomizationScreen : public UKSWidget
 {
 public:
-	class UKSWeaponHubHelper*                          WeaponHubHelper;                                          // 0x0500(0x0008) (CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSWeaponAsset*                              PopulatedWeaponAsset;                                     // 0x0508(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	class UKSWeaponAttachment*                         PreviewedWeaponWrap;                                      // 0x0510(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
-	unsigned char                                      UnknownData00[0x20];                                      // 0x0518(0x0020) MISSED OFFSET
+	class UKSWeaponAsset*                              PopulatedWeaponAsset;                                     // 0x0500(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UKSWeaponAttachment*                         PreviewedWeaponWrap;                                      // 0x0508(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	class UPUMG_StoreItem*                             PreviewedStoreItem;                                       // 0x0510(0x0008) (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_Protected, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierProtected)
+	unsigned char                                      UnknownData00[0x30];                                      // 0x0518(0x0030) MISSED OFFSET
 
 	static UClass* StaticClass()
 	{
@@ -5833,24 +6179,36 @@ public:
 	}
 
 
+	void UpdateReactiveStateDescription();
+	void SetActionButtonText(const struct FText& DescText);
+	void RemoveLastWrapEntry();
 	void RefreshWidgetNavigation();
-	void PreviewWeaponWrap(class UKSWeaponAttachment* WeaponWrap);
+	void PreviewWeaponWrap(class UKSWeaponAttachment* WeaponWrap, class UPUMG_StoreItem* StoreItem);
 	void PopulateFromWeaponAsset(class UKSWeaponAsset* WeaponAsset);
 	void PopulateFromViewRouteData();
 	void OnWrapPopulationFinished();
+	void OnEquipButtonClicked();
 	void HandleWrapEntryPurchaseFlow(class UKSWeaponAttachment* WrapAttachment, class UPUMG_StoreItem* StoreItem);
-	void HandleWrapEntryPreview(class UKSWeaponAttachment* WrapAttachment);
+	void HandleWrapEntryPreview(class UKSWeaponAttachment* WrapAttachment, class UPUMG_StoreItem* StoreItem);
 	void HandleWrapEntryEquip(class UKSWeaponAttachment* WrapAttachment);
+	void HandleWeaponModelSet();
 	void HandleViewStateChanged(const struct FName& CurrentRoute, const struct FName& PreviousRoute, EViewManagerLayer Layer);
+	void HandleTriggerReactiveContextAction();
 	void HandleLoadoutChanged(class UPUMG_Loadout* Loadout);
 	void HandleBackContextAction();
-	TArray<class UKSWrapSelectionEntry*> GetWrapEntries();
+	int GetWrapEntryCount();
+	bool GetWrapEntryByWeaponAttachment(class UKSWeaponAttachment* WeaponAttachment, class UKSWrapSelectionEntry** OutWrapEntry);
+	bool GetWrapEntry(int Index, class UKSWrapSelectionEntry** OutWrapEntry);
+	class UKSWrapSelectionEntry* GetOrCreateWrapEntry(int Index);
+	struct FName GetModelViewerActorName();
 	void EquipWeaponWrap(class UKSWeaponAttachment* WeaponWrap);
-	void EquipPreviewedWeaponWrap();
 	void DisplayWrapInfo(class UKSWeaponAttachment* WeaponWrap);
-	void DisplayWeaponInfo(class UKSWeaponAsset* WeaponAsset, const struct FWeaponCategoryDetails& WeaponCategoryDetails);
+	void DisplayWeaponInfo(class UKSWeaponAsset* WeaponAsset, class UKSWeaponCategoryAsset* WeaponCategory);
+	void DisplayReactiveStateDescription(const struct FText& DescText);
 	class UKSWrapSelectionEntry* CreateAndAddWrapEntry();
 	void ConfigureViewModel(class UKSWeaponAsset* WeaponAsset, class UKSWeaponAttachment* WeaponWrap);
+	void ClearReactiveStateDescription();
+	void ClearEquippedWeaponWrap();
 	void ClearEntries();
 };
 
@@ -5875,16 +6233,16 @@ public:
 	}
 
 
-	void PopulateFromWeaponAttachment(class UKSWeaponAttachment* WeaponAttachment, bool IsEquipped);
-	void PopulateFromStoreItem(class UPUMG_StoreItem* StoreItem);
-	class UKSWeaponAttachment* GetPopulatedWeaponAttachment(class UKSWeaponAttachment** OutWeaponAttachment);
-	bool GetPopulatedStoreItem(class UPUMG_StoreItem** OutStoreItem);
+	void PopulateEntry(class UKSWeaponAttachment* WeaponAttachment, class UPUMG_StoreItem* StoreItem, bool IsEquipped);
+	class UKSWeaponAttachment* GetPopulatedWeaponAttachment();
+	class UPUMG_StoreItem* GetPopulatedStoreItem();
 	void DisplayWrap(class UKSWeaponAttachment* WeaponAttachment);
-	void DisplayOwned(bool IsOwned);
+	void DisplaySelected(bool IsSelected);
 	void DisplayEquipped(bool IsEquipped);
 	void BroadcastWrapPreview();
 	void BroadcastWrapEquip();
 	void BroadcastStoreWrapSelect();
+	void BroadcaseWrapClicked();
 };
 
 

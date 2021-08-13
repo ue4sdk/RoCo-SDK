@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,28 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function GameHUDWidget.GameHUDWidget_C.Get Job Selection Manager
+// (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent, FUNC_BlueprintPure, FUNC_Const)
+// Parameters:
+// class UPUMG_Widget*            Manager_Widget                 (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UGameHUDWidget_C::Get_Job_Selection_Manager(class UPUMG_Widget** Manager_Widget)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Get Job Selection Manager");
+
+	struct
+	{
+		class UPUMG_Widget*            Manager_Widget;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (Manager_Widget != nullptr)
+		*Manager_Widget = params.Manager_Widget;
+}
+
 
 // Function GameHUDWidget.GameHUDWidget_C.HandleTouchModeChange
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -225,6 +247,61 @@ void UGameHUDWidget_C::InitializeHudWidgets()
 void UGameHUDWidget_C::InitializeMapWidgets()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.InitializeMapWidgets");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameHUDWidget.GameHUDWidget_C.Construct Job Selection Manager
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// class UClass*                  Job_Select_Manager_Class       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// bool                           Force_Reset                    (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UGameHUDWidget_C::Construct_Job_Selection_Manager(class UClass* Job_Select_Manager_Class, bool Force_Reset)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Construct Job Selection Manager");
+
+	struct
+	{
+		class UClass*                  Job_Select_Manager_Class;
+		bool                           Force_Reset;
+	} params;
+
+	params.Job_Select_Manager_Class = Job_Select_Manager_Class;
+	params.Force_Reset = Force_Reset;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameHUDWidget.GameHUDWidget_C.Try To Construct Job Selection Manager
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UGameHUDWidget_C::Try_To_Construct_Job_Selection_Manager()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Try To Construct Job Selection Manager");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameHUDWidget.GameHUDWidget_C.Check Job Selection Type
+// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UGameHUDWidget_C::Check_Job_Selection_Type()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Check Job Selection Type");
 
 	struct
 	{
@@ -616,6 +693,42 @@ void UGameHUDWidget_C::OnChangedInput(TEnumAsByte<EPGAME_INPUT_STATE> InputState
 void UGameHUDWidget_C::OnInitialized()
 {
 	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.OnInitialized");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameHUDWidget.GameHUDWidget_C.GameStateSet
+// (FUNC_Event, FUNC_Protected, FUNC_BlueprintEvent)
+// Parameters:
+// class AGameStateBase*          GameState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+
+void UGameHUDWidget_C::GameStateSet(class AGameStateBase* GameState)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.GameStateSet");
+
+	struct
+	{
+		class AGameStateBase*          GameState;
+	} params;
+
+	params.GameState = GameState;
+
+	UObject::ProcessEvent(fn, &params);
+}
+
+
+// Function GameHUDWidget.GameHUDWidget_C.Destruct
+// (FUNC_BlueprintCosmetic, FUNC_Event, FUNC_Public, FUNC_BlueprintEvent)
+
+void UGameHUDWidget_C::Destruct()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameHUDWidget.GameHUDWidget_C.Destruct");
 
 	struct
 	{

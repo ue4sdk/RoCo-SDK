@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -30,10 +30,10 @@ public:
 
 
 	bool DidPlayerWinMatch();
-	void MatchHAsEnded_Event();
-	void Hande_OnShopItemPurchased(const struct FShopItem& ShopItem);
-	void HandleLostPlayerController();
 	void HandleTrackerInitialized(TMap<struct FString, float> Config, TMap<struct FString, struct FString> StringConfig);
+	void HandleLostPlayerController();
+	void MatchHasEnded_Event();
+	void Hande_OnShopItemPurchased(const struct FShopItem& ShopItem);
 	void ExecuteUbergraph_EventTracker_Thrifty(int EntryPoint);
 };
 

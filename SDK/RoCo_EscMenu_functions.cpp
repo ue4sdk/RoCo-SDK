@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,22 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function EscMenu.EscMenu_C.SetHudEditorButtonVisibility
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UEscMenu_C::SetHudEditorButtonVisibility()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function EscMenu.EscMenu_C.SetHudEditorButtonVisibility");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function EscMenu.EscMenu_C.ClearVoteInput
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)

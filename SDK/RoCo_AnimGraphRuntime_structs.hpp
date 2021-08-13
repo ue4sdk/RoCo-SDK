@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -439,7 +439,7 @@ struct FAnimNode_CCDIK : public FAnimNode_SkeletalControlBase
 	struct FBoneSocketTarget                           EffectorTarget;                                           // 0x00F0(0x0060) (CPF_Edit, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FBoneReference                              TipBone;                                                  // 0x0150(0x0010) (CPF_Edit, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FBoneReference                              RootBone;                                                 // 0x0160(0x0010) (CPF_Edit, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	float                                              precision;                                                // 0x0170(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              Precision;                                                // 0x0170(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                MaxIterations;                                            // 0x0174(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bStartFromTail;                                           // 0x0178(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	bool                                               bEnableRotationLimit;                                     // 0x0179(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
@@ -526,7 +526,7 @@ struct FAnimNode_Fabrik : public FAnimNode_SkeletalControlBase
 	struct FBoneSocketTarget                           EffectorTarget;                                           // 0x0110(0x0060) (CPF_Edit, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FBoneReference                              TipBone;                                                  // 0x0170(0x0010) (CPF_Edit, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
 	struct FBoneReference                              RootBone;                                                 // 0x0180(0x0010) (CPF_Edit, CPF_NoDestructor, CPF_NativeAccessSpecifierPublic)
-	float                                              precision;                                                // 0x0190(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+	float                                              Precision;                                                // 0x0190(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	int                                                MaxIterations;                                            // 0x0194(0x0004) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TEnumAsByte<EBoneControlSpace>                     EffectorTransformSpace;                                   // 0x0198(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
 	TEnumAsByte<EBoneRotationSource>                   EffectorRotationSource;                                   // 0x0199(0x0001) (CPF_Edit, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)

@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -465,6 +465,74 @@ void USceneComponentPoolStatics::ReleaseSpawnedDecals(class UObject* WorldContex
 
 	static auto defaultObj = StaticClass()->CreateDefaultObject();
 	defaultObj->ProcessEvent(fn, &params);
+}
+
+
+// Function SceneComponentPools.SceneComponentPoolStatics.GetComponentForStaticMesh
+// (FUNC_Final, FUNC_Native, FUNC_Static, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
+// Parameters:
+// class UObject*                 WorldContextObject             (CPF_ConstParm, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UStaticMesh*             Mesh                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class USceneComponent*         AttachToComponent              (CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   AttachSocketName               (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class UStaticMeshComponent*    ReturnValue                    (CPF_ExportObject, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+class UStaticMeshComponent* USceneComponentPoolStatics::GetComponentForStaticMesh(class UObject* WorldContextObject, class UStaticMesh* Mesh, class USceneComponent* AttachToComponent, const struct FName& AttachSocketName)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.GetComponentForStaticMesh");
+
+	struct
+	{
+		class UObject*                 WorldContextObject;
+		class UStaticMesh*             Mesh;
+		class USceneComponent*         AttachToComponent;
+		struct FName                   AttachSocketName;
+		class UStaticMeshComponent*    ReturnValue;
+	} params;
+
+	params.WorldContextObject = WorldContextObject;
+	params.Mesh = Mesh;
+	params.AttachToComponent = AttachToComponent;
+	params.AttachSocketName = AttachSocketName;
+
+	static auto defaultObj = StaticClass()->CreateDefaultObject();
+	defaultObj->ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
+}
+
+
+// Function SceneComponentPools.SceneComponentPoolStatics.GetComponentForSkeletalMesh
+// (FUNC_Final, FUNC_Native, FUNC_Static, FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable)
+// Parameters:
+// class UObject*                 WorldContextObject             (CPF_ConstParm, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class USkeletalMesh*           Mesh                           (CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class USceneComponent*         AttachToComponent              (CPF_Parm, CPF_ZeroConstructor, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// struct FName                   AttachSocketName               (CPF_ConstParm, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReferenceParm, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+// class USkeletalMeshComponent*  ReturnValue                    (CPF_ExportObject, CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_ReturnParm, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash, CPF_NativeAccessSpecifierPublic)
+
+class USkeletalMeshComponent* USceneComponentPoolStatics::GetComponentForSkeletalMesh(class UObject* WorldContextObject, class USkeletalMesh* Mesh, class USceneComponent* AttachToComponent, const struct FName& AttachSocketName)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function SceneComponentPools.SceneComponentPoolStatics.GetComponentForSkeletalMesh");
+
+	struct
+	{
+		class UObject*                 WorldContextObject;
+		class USkeletalMesh*           Mesh;
+		class USceneComponent*         AttachToComponent;
+		struct FName                   AttachSocketName;
+		class USkeletalMeshComponent*  ReturnValue;
+	} params;
+
+	params.WorldContextObject = WorldContextObject;
+	params.Mesh = Mesh;
+	params.AttachToComponent = AttachToComponent;
+	params.AttachSocketName = AttachSocketName;
+
+	static auto defaultObj = StaticClass()->CreateDefaultObject();
+	defaultObj->ProcessEvent(fn, &params);
+
+	return params.ReturnValue;
 }
 
 

@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // WidgetBlueprintGeneratedClass GadgetCompInventoryElement.GadgetCompInventoryElement_C
-// 0x00B1 (0x05F1 - 0x0540)
+// 0x00B2 (0x05F2 - 0x0540)
 class UGadgetCompInventoryElement_C : public UKSWeaponComponentAmmoWidget
 {
 public:
@@ -42,6 +42,7 @@ public:
 	class UKSWeaponComponent*                          WeaponComponent_1;                                        // 0x05E0(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_InstancedReference, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	class UKSSettingsDataFactory*                      SettingDataFactory;                                       // 0x05E8(0x0008) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 	bool                                               bCannotFireNow;                                           // 0x05F0(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+	bool                                               bIsCurrentlyJammed;                                       // 0x05F1(0x0001) (CPF_Edit, CPF_BlueprintVisible, CPF_ZeroConstructor, CPF_DisableEditOnInstance, CPF_IsPlainOldData, CPF_NoDestructor)
 
 	static UClass* StaticClass()
 	{

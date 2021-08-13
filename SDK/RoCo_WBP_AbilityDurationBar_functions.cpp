@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -16,19 +16,22 @@ namespace SDK
 // (FUNC_Public, FUNC_HasDefaults, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
 // Parameters:
 // float                          Duration                       (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
+// float                          RemainingTime                  (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 // class UKSItem*                 KSItem                         (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor, CPF_HasGetValueTypeHash)
 
-void UWBP_AbilityDurationBar_C::SetDurationBar(float Duration, class UKSItem* KSItem)
+void UWBP_AbilityDurationBar_C::SetDurationBar(float Duration, float RemainingTime, class UKSItem* KSItem)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_AbilityDurationBar.WBP_AbilityDurationBar_C.SetDurationBar");
 
 	struct
 	{
 		float                          Duration;
+		float                          RemainingTime;
 		class UKSItem*                 KSItem;
 	} params;
 
 	params.Duration = Duration;
+	params.RemainingTime = RemainingTime;
 	params.KSItem = KSItem;
 
 	UObject::ProcessEvent(fn, &params);

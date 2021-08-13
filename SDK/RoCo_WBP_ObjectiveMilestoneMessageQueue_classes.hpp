@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -39,6 +39,7 @@ public:
 	void HandleRoundSetup(const struct FRoundInitState& RoundInitState);
 	void OnRoundOverDel_Event_1(class AKSGameState* GameState, const struct FRoundResult& RoundResult);
 	void ResetDisplay();
+	void OnDelayedHUDAnnouncementComponentCreated(class AKSPlayerController* OwningPlayerController, class UKSHUDAnnouncementComponent* SpawnedHUDAnnouncementComponent);
 	void ExecuteUbergraph_WBP_ObjectiveMilestoneMessageQueue(int EntryPoint);
 };
 

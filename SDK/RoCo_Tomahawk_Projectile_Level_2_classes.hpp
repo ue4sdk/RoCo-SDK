@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass Tomahawk_Projectile_Level_2.Tomahawk_Projectile_Level_1_C
-// 0x0000 (0x097C - 0x097C)
+// 0x0000 (0x098C - 0x098C)
 class ATomahawk_Projectile_Level_1_C : public ATomahawk_Projectile_C
 {
 public:

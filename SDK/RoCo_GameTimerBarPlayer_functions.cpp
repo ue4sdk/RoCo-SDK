@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,22 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function GameTimerBarPlayer.GameTimerBarPlayer_C.SetBombIndicatorVisibility
+// (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+
+void UGameTimerBarPlayer_C::SetBombIndicatorVisibility()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.SetBombIndicatorVisibility");
+
+	struct
+	{
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+}
+
 
 // Function GameTimerBarPlayer.GameTimerBarPlayer_C.CheckPlayerViewState
 // (FUNC_Public, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
@@ -506,26 +522,6 @@ void UGameTimerBarPlayer_C::Construct()
 	{
 	} params;
 
-
-	UObject::ProcessEvent(fn, &params);
-}
-
-
-// Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Bomb State Changed
-// (FUNC_BlueprintCallable, FUNC_BlueprintEvent)
-// Parameters:
-// struct FKSNeutralBombState     BombState                      (CPF_BlueprintVisible, CPF_BlueprintReadOnly, CPF_Parm, CPF_NoDestructor)
-
-void UGameTimerBarPlayer_C::Handle_Bomb_State_Changed(const struct FKSNeutralBombState& BombState)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function GameTimerBarPlayer.GameTimerBarPlayer_C.Handle Bomb State Changed");
-
-	struct
-	{
-		struct FKSNeutralBombState     BombState;
-	} params;
-
-	params.BombState = BombState;
 
 	UObject::ProcessEvent(fn, &params);
 }

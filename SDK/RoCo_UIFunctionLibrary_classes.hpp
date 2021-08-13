@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -27,6 +27,7 @@ public:
 	}
 
 
+	static void GetCosmeticTagArrayByTags(const struct FGameplayTagContainer& TagContainer, class UObject* __WorldContext, TArray<struct FText>* CosmeticTags, bool* TagsFound);
 	static void GetRogueBucksItemId(class UObject* __WorldContext, int* ItemId);
 	static void GetGameHUD(class UObject* __WorldContext, class ABP_GameHUDNew_C** GameHUD);
 	static void GetSettingsDataFactory(class UObject* __WorldContext, class UKSSettingsDataFactory** SettingsDataFactory);

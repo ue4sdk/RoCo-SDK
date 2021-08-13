@@ -1,6 +1,6 @@
 #pragma once
 
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,7 +15,7 @@ namespace SDK
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass MirvGrenadeSegment.MirvGrenadeSegment_C
-// 0x0000 (0x0A60 - 0x0A60)
+// 0x0000 (0x0A70 - 0x0A70)
 class AMirvGrenadeSegment_C : public AGrenade_C
 {
 public:

@@ -1,4 +1,4 @@
-// Rogue Company (0.60) SDK
+// Rogue Company (0.6X) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -11,6 +11,28 @@ namespace SDK
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_InWorld_Reticle.WBP_InWorld_Reticle_C.CheckForActiveMods
+// (FUNC_Protected, FUNC_HasOutParms, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
+// Parameters:
+// bool                           ModsActive                     (CPF_Parm, CPF_OutParm, CPF_ZeroConstructor, CPF_IsPlainOldData, CPF_NoDestructor)
+
+void UWBP_InWorld_Reticle_C::CheckForActiveMods(bool* ModsActive)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_InWorld_Reticle.WBP_InWorld_Reticle_C.CheckForActiveMods");
+
+	struct
+	{
+		bool                           ModsActive;
+	} params;
+
+
+	UObject::ProcessEvent(fn, &params);
+
+	if (ModsActive != nullptr)
+		*ModsActive = params.ModsActive;
+}
+
 
 // Function WBP_InWorld_Reticle.WBP_InWorld_Reticle_C.SetConsoleSize
 // (FUNC_Public, FUNC_BlueprintCallable, FUNC_BlueprintEvent)
